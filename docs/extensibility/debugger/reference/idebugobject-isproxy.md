@@ -41,7 +41,7 @@ HRESULT IsProxy (
 );  
 ```  
   
-```c#  
+```cs  
 int IsProxy (  
    out bool pfIsProxy  
 );  

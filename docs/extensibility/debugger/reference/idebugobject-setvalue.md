@@ -43,7 +43,7 @@ HRESULT SetValue( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetValue(  
    byte[] pValue,   
    uint   nSize  

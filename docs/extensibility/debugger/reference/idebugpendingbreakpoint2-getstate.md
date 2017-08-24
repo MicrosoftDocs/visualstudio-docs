@@ -43,7 +43,7 @@ HRESULT GetState( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetState(   
    PENDING_BP_STATE_INFO[] pState  
 );  

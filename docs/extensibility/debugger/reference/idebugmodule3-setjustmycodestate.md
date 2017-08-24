@@ -42,7 +42,7 @@ HRESULT SetJustMyCodeState(
 );  
 ```  
   
-```c#  
+```cs  
 int SetJustMyCodeState(  
    int fIsUserCode  
 );  

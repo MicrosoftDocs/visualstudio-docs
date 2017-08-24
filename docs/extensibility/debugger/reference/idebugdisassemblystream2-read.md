@@ -45,7 +45,7 @@ HRESULT Read( 
 );  
 ```  
   
-```c#  
+```cs  
 int Read(   
    uint                           dwInstructions,  
    enum_DISASSEMBLY_STREAM_FIELDS dwFields,  

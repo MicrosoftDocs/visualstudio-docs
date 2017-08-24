@@ -43,7 +43,7 @@ HRESULT SetCondition( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetCondition(   
    enum_BP_CONDITION bpCondition  
 );  

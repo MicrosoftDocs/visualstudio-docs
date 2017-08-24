@@ -45,7 +45,7 @@ HRESULT DisplayValue(
 );  
 ```  
   
-```c#  
+```cs  
 int DisplayValue(  
    IntPtr          hwnd,   
    uint            dwID,   

@@ -57,7 +57,7 @@ IntelliSense Parameter Info is a tooltip that displays the signature of a method
 ### Example  
  Here is a simplified example of detecting the parameter list characters and setting the appropriate triggers. This example is for illustrative purposes only. It assumes that your scanner contains a method `GetNextToken` that identifies and returns tokens from a line of text. The example code simply sets the triggers whenever it sees the right kind of character.  
   
-```c#  
+```cs  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   

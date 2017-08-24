@@ -71,3 +71,4 @@ After you've finished developing your extension, you can install it on other mac
 |[Signing VSIX Packages](../extensibility/signing-vsix-packages.md)|Explains how to sign VSIX packages.|  
 |[Private Galleries](../extensibility/private-galleries.md)|Explains how to create private galleries for extensions.|  
 |[Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)|Shows how to have your extension support multiple versions of Visual Studio.|
+|[Locating Visual Studio](locating-visual-studio.md)|Describes how to locate Visual Studio instances for custom extension deployment.|

@@ -40,7 +40,7 @@ HRESULT SetLocale(
 );  
 ```  
   
-```c#  
+```cs  
 int SetLocale(  
    ushort wLangID  
 );  

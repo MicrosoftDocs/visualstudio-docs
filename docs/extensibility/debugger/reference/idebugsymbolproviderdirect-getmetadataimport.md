@@ -43,7 +43,7 @@ HRESULT GetMetaDataImport (
 );  
 ```  
   
-```c#  
+```cs  
 int GetMetaDataImport (  
     Guid       guid,  
     uint       appID,  

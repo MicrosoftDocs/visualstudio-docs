@@ -43,7 +43,7 @@ HRESULT GetTypesByName(
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypesByName(  
    string               pszClassName,  
    enum_ NAME_MATCH     nameMatch,  

@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
-While you are debugging, you can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.
+While you are debugging, you can use the **Watch** (**Debug > Windows > Watch > Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug > QuickWatch**) windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.
 
 The windows are only available during a debugging session. 
   
@@ -109,7 +109,7 @@ int main()
   
 2.  Start debugging (**F5**). Execution stops at the breakpoint.  
   
-3.  Open the Watch window (**Debug / Windows / Watch / Watch 1**, or **CTRL+ALT+W, 1**).  
+3.  Open the Watch window (**Debug > Windows > Watch > Watch 1**, or **CTRL+ALT+W, 1**).  
   
 4.  Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.
 
@@ -133,7 +133,7 @@ int main()
  ![Watch Expression Error](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
   
 ##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
- In certain circumstances you might see a refresh icon (a circular arrow) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and you have the following code:  
+ In certain circumstances you might see a refresh icon (a circular arrow) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and you have the following code:  
   
 ```CSharp  
 static void Main(string[] args)  
@@ -157,9 +157,9 @@ static void Main(string[] args)
   
 -   The expression contains a function call which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
   
--   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
+-   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
   
- To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and implicit side effects was turned off, the expression can be evaluated.  
+ To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and other implicit function calls was turned off, the expression can be evaluated.  
   
  If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
   
@@ -174,7 +174,7 @@ var1 = var2
   
  An expression that is known to have side effects is  evaluated only once, when you first enter it. Subsequent evaluations are disabled. You can manually override this behavior by clicking the update icon that appears next to the value.  
   
- One way to avoid all side effects is to turn off automatic function evaluation (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**).  
+ One way to avoid all side effects is to turn off automatic function evaluation (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**).  
   
  When evaluation of properties or implicit function calls is turned off, you can force evaluation by using the **ac** format modifier (for C# only). See [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md).  
   
@@ -240,10 +240,10 @@ public class Program
 ## Using registers in the Watch window (C++ only)  
  If you are debugging native code, you can add register names as well as variable names using **$\<register name>** or **@\<register name>**.  For more information, see [Pseudovariables](../debugger/pseudovariables.md).  
   
-## DynamicView and the Watch window  
+## Dynamic View and the Watch window  
  Some scripting languages (e.g. JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
   
- When the Watch window displays a or an object created from a type that implements the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
+ When the Watch window displays a or an object created from a type that implements the [IDynamicMetaObjectProvider Interface](https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
   
  If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
   

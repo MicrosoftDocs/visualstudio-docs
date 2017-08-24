@@ -43,7 +43,7 @@ HRESULT GetInfo(
 );  
 ```  
   
-```c#  
+```cs  
 int GetInfo(  
    enum_PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO[]            pProcessInfo  

@@ -40,7 +40,7 @@ HRESULT GetModule(
 );  
 ```  
   
-```c#  
+```cs  
 public int GetModule(   
    out IDebugModule2 ppModule  
 );  

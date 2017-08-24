@@ -29,7 +29,7 @@ For more information on using .NET Core, refer to the [documentation](https://do
 
 ## ASP.NET Core Web Applications
 
-For information on getting started using AST.NET Core in Visual Studio for Mac, refer to the [Getting Started with ASP.NET Core](~/asp-net-core.md) guide or check out the ASP.NET Core web apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
+For information on getting started using ASP.NET Core in Visual Studio for Mac, refer to the [Getting Started with ASP.NET Core](~/asp-net-core.md) guide or check out the ASP.NET Core web apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
 ## Cross-platform Unity Game Development
 

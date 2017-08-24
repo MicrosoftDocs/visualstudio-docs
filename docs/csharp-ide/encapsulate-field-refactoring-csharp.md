@@ -48,7 +48,7 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
 1.  Create a console application named `EncapsulateFieldExample`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```cs  
     class Square  
     {  
         // Select the word 'width' and then use Encapsulate Field.  
@@ -70,7 +70,7 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
 2.  In the [Code Editor](../ide/writing-code-in-the-code-and-text-editor.md), place the cursor in the declaration, on the name of the field that you want to encapsulate. In the example below, place the cursor on the word `width`:  
   
-    ```c#  
+    ```cs  
     public int width, height;  
     ```  
   
@@ -90,7 +90,7 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
      The following `get` and `set` accessor code is displayed in your source file:  
   
-    ```c#  
+    ```cs  
     public int Width  
     {  
         get { return width; }  
@@ -100,7 +100,7 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
      The code in the `Main` method is also updated to the new `Width` property name.  
   
-    ```c#  
+    ```cs  
     Square mySquare = new Square();  
     mySquare.Width = 110;  
     mySquare.height = 150;  

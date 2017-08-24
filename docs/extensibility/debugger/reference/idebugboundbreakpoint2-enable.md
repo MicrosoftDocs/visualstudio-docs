@@ -43,7 +43,7 @@ HRESULT Enable( 
 );  
 ```  
   
-```c#  
+```cs  
 int Enable(   
    int fEnable  
 );  

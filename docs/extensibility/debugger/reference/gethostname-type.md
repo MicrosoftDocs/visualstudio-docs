@@ -44,7 +44,7 @@ enum enum_GETHOSTNAME_TYPE { 
 typedef DWORD GETHOSTNAME_TYPE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_GETHOSTNAME_TYPE {   
    GHN_FRIENDLY_NAME = 0,  
    GHN_FILE_NAME     = 1  

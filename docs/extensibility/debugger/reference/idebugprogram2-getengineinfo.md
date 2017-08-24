@@ -43,7 +43,7 @@ HRESULT GetEngineInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetEngineInfo(   
    out string pbstrEngine,  
    out GUID   pguidEngine  

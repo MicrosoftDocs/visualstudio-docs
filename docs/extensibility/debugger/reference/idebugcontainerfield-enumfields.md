@@ -46,7 +46,7 @@ HRESULT EnumFields( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumFields(  
    enum_ FIELD_KIND      dwKindFilter,   
    enum_ FIELD_MODIFIERS dwModifiersFilter,   

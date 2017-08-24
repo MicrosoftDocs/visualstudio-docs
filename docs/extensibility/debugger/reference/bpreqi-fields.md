@@ -56,7 +56,7 @@ enum enum_BPREQI_FIELDS { 
 typedef DWORD BPREQI_FIELDS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BPREQI_FIELDS {   
    BPREQI_BPLOCATION   = 0x0001,  
    BPREQI_LANGUAGE     = 0x0002,  

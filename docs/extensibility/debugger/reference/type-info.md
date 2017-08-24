@@ -48,7 +48,7 @@ struct _tagTYPE_INFO_UNION {
 } TYPE_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct TYPE_INFO {  
    public uint   dwKind;  
    public IntPtr unionmember;  
@@ -94,7 +94,7 @@ public struct TYPE_INFO {
 ## Example  
  This example shows how to interpret the `unionmember` member of the `TYPE_INFO` structure in C#. This example shows interpreting only one type (`TYPE_KIND_METADATA`) but the others are interpreted in exactly the same way.  
   
-```c#  
+```cs  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

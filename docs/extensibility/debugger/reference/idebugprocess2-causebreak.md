@@ -42,7 +42,7 @@ HRESULT CauseBreak( 
 );  
 ```  
   
-```c#  
+```cs  
 int CauseBreak();  
 ```  
   

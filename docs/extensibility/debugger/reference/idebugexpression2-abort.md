@@ -42,7 +42,7 @@ HRESULT Abort(
 );  
 ```  
   
-```c#  
+```cs  
 int Abort();  
 ```  
   

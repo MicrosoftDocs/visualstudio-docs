@@ -42,7 +42,7 @@ HRESULT SetRegistryRoot ( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetRegistryRoot(  
    string ustrRegistryRoot  
 );  

@@ -42,7 +42,7 @@ HRESULT DisableAutoAttach(
 );  
 ```  
   
-```c#  
+```cs  
 int DisableAutoAttach();  
 ```  
   

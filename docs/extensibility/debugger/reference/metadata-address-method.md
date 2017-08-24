@@ -44,7 +44,7 @@ typedef struct _tagMETADATA_ADDRESS_METHOD {
 } METADATA_ADDRESS_METHOD;  
 ```  
   
-```c#  
+```cs  
 public struct METADATA_ADDRESS_METHOD {  
    public int  tokMethod;  
    public uint dwOffset;  

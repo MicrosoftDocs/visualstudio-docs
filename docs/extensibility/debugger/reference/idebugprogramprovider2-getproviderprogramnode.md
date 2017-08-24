@@ -47,7 +47,7 @@ HRESULT GetProviderProgramNode(
 );  
 ```  
   
-```c#  
+```cs  
 int GetProviderProgramNode(  
    enum_PROVIDER_FLAGS    Flags,  
    IDebugDefaultPort2     pPort,  

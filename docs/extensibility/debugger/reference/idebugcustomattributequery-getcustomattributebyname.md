@@ -43,7 +43,7 @@ HRESULT GetCustomAttributeByName(
 );  
 ```  
   
-```c#  
+```cs  
 int GetCustomAttributeByName(  
    string    pszCustomAttributeName,  
    ref int[] ppBlob,  

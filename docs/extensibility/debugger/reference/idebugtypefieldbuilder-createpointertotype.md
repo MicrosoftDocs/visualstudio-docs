@@ -42,7 +42,7 @@ HRESULT CreatePointerToType(
 );  
 ```  
   
-```c#  
+```cs  
 int CreatePointerToType(  
    IDebugField     pTypeField,  
    out IDebugField pPtrToTypeField  

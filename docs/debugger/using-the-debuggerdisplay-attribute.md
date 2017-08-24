@@ -52,7 +52,7 @@ The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisp
   
  The following table shows some possible uses of the `DebuggerDisplay` attribute and example outputs.  
   
-|Attribute|Output appearing in the **Value** column)|  
+|Attribute|Output appearing in the Value column|  
 |---------------|------------------------------------------------|  
 |`[DebuggerDisplay("x = {x} y = {y}")]`<br /><br /> Used on a type with fields `x` and `y`.|`x = 5 y = 18`|  
 |`[DebuggerDisplay("String value is {getString()}")]`Parameter syntax can vary between languages. Therefore, use it with care.|`String value is [5, 6, 6]`|  

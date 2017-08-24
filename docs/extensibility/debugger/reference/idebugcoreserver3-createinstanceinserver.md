@@ -46,7 +46,7 @@ HRESULT CreateInstanceInServer(
 );  
 ```  
   
-```c#  
+```cs  
 int CreateInstanceInServer(  
    string     szDll,   
    ushort     wLangID,   

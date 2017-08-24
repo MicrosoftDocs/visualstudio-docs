@@ -42,7 +42,7 @@ HRESULT GetUnderlyingSymbol(
 );  
 ```  
   
-```c#  
+```cs  
 int GetUnderlyingSymbol(  
    out IDebugField ppField  
 );  

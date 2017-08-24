@@ -50,7 +50,7 @@ typedef struct tagPROCESS_INFO { 
 } PROCESS_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct PROCESS_INFO {   
    public uint          Fields;  
    public string        bstrFileName;  

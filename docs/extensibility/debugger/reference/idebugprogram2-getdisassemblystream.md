@@ -44,7 +44,7 @@ HRESULT GetDisassemblyStream( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDisassemblyStream(   
    enum_DISASSEMBLY_STREAM_SCOPE  dwScope,  
    IDebugCodeContext2             pCodeContext,  

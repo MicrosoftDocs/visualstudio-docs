@@ -46,7 +46,7 @@ enum enum_BP_STATE { 
 typedef DWORD BP_STATE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BP_STATE {   
    BPS_NONE     = 0x0000,  
    BPS_DELETED  = 0x0001,  

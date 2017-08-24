@@ -42,7 +42,7 @@ HRESULT GetAttribute( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetAttribute(   
    out uint pdwAttrib  
 );  

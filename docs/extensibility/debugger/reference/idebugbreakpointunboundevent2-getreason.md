@@ -42,7 +42,7 @@ HRESULT GetReason( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetReason(   
    out enum_ BP_UNBOUND_REASON pdwUnboundReason  
 );  

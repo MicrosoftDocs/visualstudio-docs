@@ -42,7 +42,7 @@ HRESULT GetDereferencedField(
 );  
 ```  
   
-```c#  
+```cs  
 int GetDereferencedField(  
    out IDebugField ppField  
 );  

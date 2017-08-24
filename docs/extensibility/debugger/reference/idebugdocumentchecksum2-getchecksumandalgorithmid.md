@@ -44,7 +44,7 @@ HRESULT GetChecksumAndAlgorithmId(
 );  
 ```  
   
-```c#  
+```cs  
 public int GetChecksumAndAlgorithmId(   
    out Guid pRetVal,  
    uint     cMaxBytes,  

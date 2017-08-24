@@ -55,7 +55,7 @@ Line <#= i #>
 ## Passing parameter values to a template  
  If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
   
-```c#  
+```cs  
 // Get a service provider - how you do this depends on the context:  
 IServiceProvider serviceProvider = dte; // or dslDiagram.Store, for example   
 // Get the text template service:  
@@ -76,7 +76,7 @@ string result = t4.ProcessTemplate("MyTemplateFile.t4",
   
  The following example passes values by using both methods:  
   
-```c#  
+```cs  
 ITextTemplating t4 = this.Store.GetService(typeof(STextTemplating)) as ITextTemplating;  
 ITextTemplatingSessionHost host = t4 as ITextTemplatingSessionHost;  
 host.Session = host.CreateSession();  
@@ -101,7 +101,7 @@ string result = t4.ProcessTemplate("",
   
  However, if you want to use `<#@parameter>` in a run-time template, you can pass values to it by using the Session dictionary. As an example, suppose you have created the file as a preprocessed template called `PreTextTemplate1`. You can invoke the template in your program by using the following code.  
   
-```c#  
+```cs  
 PreTextTemplate1 t = new PreTextTemplate1();  
 t.Session = new Microsoft.VisualStudio.TextTemplating.TextTemplatingSession();  
 t.Session["TimesToRepeat"] = 5;  

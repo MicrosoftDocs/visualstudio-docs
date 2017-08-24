@@ -42,7 +42,7 @@ HRESULT Clone(
 );  
 ```  
   
-```c#  
+```cs  
 int Clone(  
    out IEnumDebugThreads2 ppEnum  
 );  

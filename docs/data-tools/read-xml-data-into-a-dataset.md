@@ -57,7 +57,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 5.  Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the **Tools** menu, select **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Create a new project  
  In this step, you  create a Visual Basic or Visual C# project that  contains this walkthrough.  
@@ -77,9 +77,9 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To create the XML file that will be read into the dataset  
   
-1.  On the **Project** menu, select**Add New Item**.  
+1.  On the **Project** menu, select **Add New Item**.  
   
-2.  Select **XML File**, name the file `authors.xml`, and then select**Add**.  
+2.  Select **XML File**, name the file `authors.xml`, and then select **Add**.  
   
      The XML file loads into the designer and is ready for edit.  
   
@@ -145,7 +145,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
     </Authors_Table>  
     ```  
   
-4.  On the **File** menu, select**Save authors.xml**.  
+4.  On the **File** menu, select **Save authors.xml**.  
   
 ## Create the user interface  
  The user interface for this application consists of the following:  
@@ -192,7 +192,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  From the [Toolbox, Data Tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.  
   
-3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select**OK**.  
+3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.  
   
      **DataSet1** is added to the component tray.  
   
@@ -237,7 +237,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To test the form  
   
-1.  Select**F5** to run the application.  
+1.  Select **F5** to run the application.  
   
 2.  Select the **Read XML** button.  
   

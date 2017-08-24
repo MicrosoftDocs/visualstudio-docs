@@ -42,7 +42,7 @@ HRESULT GetFileName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetFileName(   
    out string pbstrFileName  
 );  

@@ -41,7 +41,7 @@ HRESULT QueryProperties(
    VARIANT               *rgtPropValues);  
 ```  
   
-```c#  
+```cs  
 int QueryProperties(  
    uint                       celt,  
    enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  

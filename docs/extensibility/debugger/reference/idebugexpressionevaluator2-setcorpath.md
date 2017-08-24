@@ -41,7 +41,7 @@ HRESULT SetCorPath(
 );  
 ```  
   
-```c#  
+```cs  
 int SetCorPath(  
    string pcstrCorPath  
 );  

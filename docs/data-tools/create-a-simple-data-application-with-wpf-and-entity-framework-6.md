@@ -33,9 +33,9 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Configure the project  
   
-1.  In Visual Studio, choose **File &#124; New Project** and then create a new C# WPF Application.  
+1.  In Visual Studio, choose **File > New Project** and then create a new C# WPF Application.  
   
-2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project &#124; Manage NuGet Packages...**  
+2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project > Manage NuGet Packages...**  
   
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png "raddata_vs2015_manage_nuget_packages")  
   
@@ -47,7 +47,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Create the model  
   
-1.  Right click on the project node in Solution Explorer and choose **Add &#124; New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
+1.  Right click on the project node in Solution Explorer and choose **Add > New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
   
      ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png "raddata EF New Project Item")  
   
@@ -82,7 +82,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Databind the model to the XAML page  
  It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
   
-1.  From the main menu, choose **Project &#124; Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
+1.  From the main menu, choose **Project > Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
   
      ![Data Source Configuration Wizard with Object Source](../data-tools/media/raddata-data-source-configuration-wizard-with-object-source.png "raddata Data Source Configuration Wizard with Object Source")  
   
@@ -95,7 +95,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 4.  Navigate to MainWindow.xaml in Code View. We are going to keep the XAML very simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, one for the grid that shows their orders:  
   
 <CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
-5.  Now open MainWindow.xaml so that you are viewing it in the designer. This will cause the Data Sources window to appear as an option in the Visual Studio window margin next to Toolbox. Click on the tab to open the window, or else press **Shift + Alt + D** or choose **View &#124; Other Windows &#124; Data Sources**. We are going to display each property in the  Customers class in its own individual text box. First click on the arrow in the Customers combo box and choose **Details**. Then drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row.  If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point you can arrange them however you like on the form.  For example, it might make sense to put the Name text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.  
+5.  Now open MainWindow.xaml so that you are viewing it in the designer. This will cause the Data Sources window to appear as an option in the Visual Studio window margin next to Toolbox. Click on the tab to open the window, or else press **Shift + Alt + D** or choose **View > Other Windows > Data Sources**. We are going to display each property in the  Customers class in its own individual text box. First click on the arrow in the Customers combo box and choose **Details**. Then drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row.  If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point you can arrange them however you like on the form.  For example, it might make sense to put the Name text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.  
   
      ![Customers data source binding to individual controls](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png "raddata Customers data source binding to individual controls")  
   
@@ -407,7 +407,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 2.  Add these handler methods to the MainWindow class in MainWindow.xaml.cs, If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
   
-    ```c#  
+    ```cs  
        private void LastCommandHandler(object sender, ExecutedRoutedEventArgs e)  
     {  
         custViewSource.View.MoveCurrentToLast();  

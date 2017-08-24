@@ -44,7 +44,7 @@ HRESULT SetSymbolPath (
 );  
 ```  
   
-```c#  
+```cs  
 int SetSymbolPath(  
    string                    szSymbolSearchPath,   
    string                    szSymbolCachePath,   

@@ -43,7 +43,7 @@ HRESULT GetModOpts(
 );  
 ```  
   
-```c#  
+```cs  
 int GetModOpts(  
    uint         celt,  
    out string[] rgelt,  

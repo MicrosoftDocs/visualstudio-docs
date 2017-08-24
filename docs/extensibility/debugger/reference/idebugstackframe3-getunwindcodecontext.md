@@ -42,7 +42,7 @@ HRESULT GetUnwindCodeContext(
 );  
 ```  
   
-```c#  
+```cs  
 int GetUnwindCodeContext(  
    out IDebugCodeContext2 ppCodeContext  
 );  

@@ -39,7 +39,7 @@ translation.priority.mt:
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can inspect the state of your app or learn more about its execution flow.  
   
 ## Start debugging  
- Often, you start a debugging session using **F5** (**Debug** / **Start Debugging**). This command starts your app with the debugger attached.  
+ Often, you start a debugging session using **F5** (**Debug** > **Start Debugging**). This command starts your app with the debugger attached.  
   
  The green arrow also starts the debugger (same as **F5**).  
   
@@ -56,7 +56,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
  Most debugger features, such as viewing variable values in the Locals window or evaluating expressions in the Watch window, are available only while the debugger is paused (also called *break mode*). When the debugger is paused, your app state is suspended while functions, variables, and objects remain in memory. While in break mode, you can examine the elements' positions and states to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode. To watch a video showing these features, see [Getting Started with the Debugger](https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6).
   
 ##  <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code, line by line  
- To stop on each line of code (each statement) while debugging, use the **F11** keyboard shortcut (or **Debug** / **Step Into** on the menu).  
+ To stop on each line of code (each statement) while debugging, use the **F11** keyboard shortcut (or **Debug** > **Step Into** on the menu).  
   
 > [!TIP]
 >  As you execute each line of code, you can hover over variables to see their values, or use the [Locals](../debugger/autos-and-locals-windows.md) and [Watch](../debugger/autos-and-locals-windows.md) windows to watch their values change.  
@@ -99,7 +99,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 -   **Set breakpoints in the code**  
   
-     To set a simple breakpoint in your code, open the source file in the Visual Studio editor. Set the cursor at the line of code where you want to suspend execution, and then right-click in the code window to see the context menu and choose **Breakpoint / Insert Breakpoint** (or press **F9**). The debugger suspends execution right before the line is executed.  
+     To set a simple breakpoint in your code, open the source file in the Visual Studio editor. Set the cursor at the line of code where you want to suspend execution, and then right-click in the code window to see the context menu and choose **Breakpoint > Insert Breakpoint** (or press **F9**). The debugger suspends execution right before the line is executed.  
   
      ![Set a breakpoint](../debugger/media/dbg_basics_setbreakpoint.png "DBG_Basics_SetBreakpoint")  
   
@@ -175,7 +175,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 ## <a name="BKMK_Restrict_stepping_to_Just_My_Code"></a>Step into non-user code  
  By default, the debugger tries to show you only your app code while debugging, which is determined by a debugger setting called *Just My Code*. (See [Just My Code](../debugger/just-my-code.md) to see how this works for different project types and languages and how you might customize the behavior.) However, sometimes while you are debugging, you might want to look at framework code, third-party library code, or calls to the operating system (system calls).  
   
- You can turn off Just My Code  by going to **Tools** / **Options** / **Debugging** and clear the **Enable Just My Code** checkbox.  
+ You can turn off Just My Code  by going to **Tools** > **Options** > **Debugging** and clear the **Enable Just My Code** checkbox.  
   
  When Just My Code is disabled, the debugger can step into non-user code and non-user code appears in the debugger windows.  
   
@@ -190,7 +190,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  To load symbols for a specific system component while you are debugging:  
   
-1.  Open the Modules window (keyboard: **Ctrl+Alt+U**).  
+1.  Open the Modules window (keyboard: **Ctrl + Alt + U**).  
   
 2.  Select the module that you want to load symbols for.  
   
@@ -199,4 +199,4 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 3.  Choose **Load Symbols** on the context menu.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
- The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** / **Options**. On the **Debugging** / **General** page, clear the **Step over properties and operators (Managed only)** check box
+ The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box

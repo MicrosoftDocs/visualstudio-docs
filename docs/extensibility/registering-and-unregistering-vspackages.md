@@ -38,7 +38,7 @@ You use attributes to register a VSPackage, but
   
  The following code shows how to use the standard registration attributes to register your VSPackage.  
   
-```c#  
+```cs  
 [PackageRegistration(UseManagedResourcesOnly = true)]  
 [Guid("0B81D86C-0A85-4f30-9B26-DD2616447F95")]  
 public sealed class BasicPackage : Package  
@@ -70,7 +70,7 @@ In certain cases you may need to create a new registration attribute for your ex
   
 The following code shows how to create a new registration attribute.  
   
-```c#  
+```cs  
 [AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]  
     public class CustomRegistrationAttribute : RegistrationAttribute  
     {  
@@ -83,7 +83,7 @@ The following code shows how to create a new registration attribute.
   
 In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
   
-```c#  
+```cs  
 public override void Register(RegistrationAttribute.RegistrationContext context)  
 {  
     Key packageKey = null;  
@@ -109,7 +109,7 @@ public override void Unregister(RegistrationContext context)
   
 You can add custom values to an existing key. The following code shows how to add a new value to a VSPackage registration key.  
   
-```c#  
+```cs  
 public override void Register(RegistrationAttribute.RegistrationContext context)  
 {  
     Key packageKey = null;  

@@ -63,7 +63,7 @@ Else
 End If  
 ```  
   
-```c#  
+```cs  
 if (Object.ReferenceEquals(left, null))   
     return Object.ReferenceEquals(right, null);  
 return left.Equals(right);  

@@ -43,7 +43,7 @@ HRESULT GetRequestInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetRequestInfo(   
    eunm_BPREQI_FIELDS  dwFields,  
    BP_REQUEST_INFO[]   pBPRequestInfo  

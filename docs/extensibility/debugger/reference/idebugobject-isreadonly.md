@@ -42,7 +42,7 @@ HRESULT IsReadOnly( 
 );  
 ```  
   
-```c#  
+```cs  
 int IsReadOnly(  
    out int pfIsReadOnly  
 );  

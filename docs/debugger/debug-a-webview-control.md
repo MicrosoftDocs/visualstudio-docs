@@ -53,7 +53,7 @@ translation.priority.mt:
   
      ![Attach the script debugger](../debugger/media/js_dom_webview_script_debugger.png "JS_DOM_WebView_Script_Debugger")  
   
-4.  (Optional) For non-Express versions of Visual Studio, disable just-in-time (JIT) debugging by choosing **Tools**, **Options**, **Debugging**, **Just-In-Time**, and then disabling JIT debugging for Script.  
+4.  (Optional) For non-Express versions of Visual Studio, disable just-in-time (JIT) debugging by choosing **Tools > Options > Debugging > Just-In-Time**, and then disabling JIT debugging for Script.  
   
     > [!NOTE]
     >  By disabling JIT debugging, you can hide dialog boxes for unhandled exceptions that occur on some webpages. In Visual Studio Express, JIT debugging is always disabled.  

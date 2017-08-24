@@ -42,7 +42,7 @@ HRESULT GetExpressionContext ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetExpressionContext (   
    out IDebugExpressionContext2 ppExprCxt  
 );  

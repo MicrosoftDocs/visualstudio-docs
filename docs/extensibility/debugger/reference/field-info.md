@@ -46,7 +46,7 @@ typedef struct _tagFieldInfo { 
 } FIELD_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct FIELD_INFO {  
    public uint   dwFields;  
    public string bstrFullName;  

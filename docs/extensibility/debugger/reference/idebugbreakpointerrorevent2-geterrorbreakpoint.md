@@ -42,7 +42,7 @@ HRESULT GetErrorBreakpoint( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetErrorBreakpoint(   
    out IDebugErrorBreakpoint2 ppErrorBP  
 );  

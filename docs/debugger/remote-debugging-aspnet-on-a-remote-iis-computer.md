@@ -42,7 +42,7 @@ These procedures have been tested on these server configurations:
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (**File / New / Project**, then select **Visual C# / Web / ASP.NET Core Web Application (.NET Core)** .
+1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)** .
 
     In the **ASP.NET Core** templates section, select **Web Application**.
 
@@ -136,10 +136,10 @@ The remote debugger is supported on Windows Server starting with Windows Server 
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
 1. On the Visual Studio computer, open the **MyASPApp** solution.
-2. In Visual Studio, click **Debug / Attach to Process** (Ctrl + Alt + P).
+2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug / Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P). 
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -180,7 +180,7 @@ Required ports:
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules / New Rule / Port**, and then click **Next**. (For UDP 3702, choose **Outbound Rules** instead.)
+2. Then choose **Inbound Rules > New Rule > Port**, and then click **Next**. (For UDP 3702, choose **Outbound Rules** instead.)
 
 3. Under **Specific local ports**, enter the port number, click **Next**.
 

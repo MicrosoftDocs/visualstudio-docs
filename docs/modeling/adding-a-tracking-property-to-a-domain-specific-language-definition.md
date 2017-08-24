@@ -179,7 +179,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the HelperClasses.cs file.  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Collections;  
     using System.Diagnostics;  
@@ -264,7 +264,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the TypeDescriptor.cs file.  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.ComponentModel;  
     using Microsoft.VisualStudio.Modeling;  
@@ -327,7 +327,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the Package.cs file.  
   
-    ```c#  
+    ```cs  
     using System.ComponentModel;  
   
     namespace CompanyName.ProductName.TrackingPropertyDSL  
@@ -364,7 +364,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the ExampleModel.cs file.  
   
-    ```c#  
+    ```cs  
     using System.Linq;  
   
     namespace CompanyName.ProductName.TrackingPropertyDSL  
@@ -439,7 +439,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the NamespaceTrackingProperty.cs file.  
   
-    ```c#  
+    ```cs  
     using System;  
     using Microsoft.VisualStudio.Modeling;  
   
@@ -605,7 +605,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the Serialization.cs file.  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Diagnostics;  
     using Microsoft.VisualStudio.Modeling;  

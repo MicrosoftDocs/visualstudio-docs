@@ -43,7 +43,7 @@ HRESULT GetRequestInfo2(
 );  
 ```  
   
-```c#  
+```cs  
 int GetRequestInfo2(  
    enum_BPREQI_FIELDS  dwFields,   
    BP_REQUEST_INFO2[]  bBPRequestInfo  

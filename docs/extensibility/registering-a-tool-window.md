@@ -35,7 +35,7 @@ You can register your tool windows using <xref:Microsoft.VisualStudio.Shell.Prov
   
 ## Example  
   
-```c#  
+```cs  
   
       [ProvideToolWindow(typeof(PersistedWindowPane), Style = MsVsShell.VsDockStyle.Tabbed, Window = "3ae79031-e1bc-11d0-8f78-00a0c9110057")] [ProvideToolWindow(typeof(DynamicWindowPane), PositionX=250, PositionY=250, Width=160, Height=180, Transient=true)] [ProvideToolWindowVisibility(typeof(DynamicWindowPane), /*UICONTEXT_SolutionExists*/"f1536ef8-92ec-443c-9ed7-fdadf150da82")]  
 [ProvideMenuResource(1000, 1)]  

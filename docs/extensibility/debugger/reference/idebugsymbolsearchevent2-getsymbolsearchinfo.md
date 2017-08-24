@@ -44,7 +44,7 @@ HRESULT GetSymbolSearchInfo(
 );  
 ```  
   
-```c#  
+```cs  
 int GetSymbolSearchInfo(  
    IDebugModule3              pModule,   
    ref string                 pbstrDebugMessage,   

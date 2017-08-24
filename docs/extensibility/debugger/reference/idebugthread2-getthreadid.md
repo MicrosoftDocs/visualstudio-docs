@@ -42,7 +42,7 @@ HRESULT GetThreadId ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetThreadId (   
    out uint pdwThreadId  
 );  
