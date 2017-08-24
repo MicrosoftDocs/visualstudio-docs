@@ -51,7 +51,7 @@ translation.priority.mt:
 ## Managed Code  
  This is an implementation of `IDebugExpressionEvaluator::Parse` in managed code. Note that this version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
-```c#  
+```cs  
 namespace EEMC  
 {  
     public class CParsedExpression : IDebugParsedExpression  

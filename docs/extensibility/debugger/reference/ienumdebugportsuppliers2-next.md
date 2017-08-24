@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```cs  
 int Next(  
    uint                  celt,  
    IDebugPortSupplier2[] rgelt,  

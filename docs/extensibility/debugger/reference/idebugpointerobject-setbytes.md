@@ -45,7 +45,7 @@ HRESULT SetBytes( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetBytes(  
    uint     dwStart,   
    uint     dwCount,   

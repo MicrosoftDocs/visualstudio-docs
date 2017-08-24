@@ -42,7 +42,7 @@ HRESULT GetReason( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetReason(   
    out enum_CANSTOP_REASON pcr  
 );  

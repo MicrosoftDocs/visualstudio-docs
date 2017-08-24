@@ -47,7 +47,7 @@ HRESULT GetMethodFromAddress(
 );  
 ```  
   
-```c#  
+```cs  
 int GetMethodFromAddress(  
    IDebugAddress pAddress,  
    out Guid      pGuid,  

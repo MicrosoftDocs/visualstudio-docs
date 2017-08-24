@@ -43,7 +43,7 @@ enum enum_MACHINE_INFO_FLAGS { 
 typedef DWORD MACHINE_INFO_FLAGS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_MACHINE_INFO_FLAGS {   
    MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
 };  

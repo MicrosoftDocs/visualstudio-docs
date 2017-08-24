@@ -42,7 +42,7 @@ HRESULT Resume ( 
 );  
 ```  
   
-```c#  
+```cs  
 int Resume (   
    out uint pdwSuspendCount  
 );  

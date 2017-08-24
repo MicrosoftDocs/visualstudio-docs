@@ -44,7 +44,7 @@ HRESULT GetExtendedInfo( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetExtendedInfo(  
    ref Guid guidExtendedInfo,   
    IntPtr[] prgBuffer,   

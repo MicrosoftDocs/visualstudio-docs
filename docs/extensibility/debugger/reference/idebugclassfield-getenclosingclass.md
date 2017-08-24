@@ -42,7 +42,7 @@ HRESULT GetEnclosingClass( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetEnclosingClass(  
    out IDebugClassField ppClassField  
 );  

@@ -43,7 +43,7 @@ HRESULT GetHostName ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetHostName (   
    enum_GETHOSTNAME_TYPE dwHostNameType,  
    out string            pbstrHostName  

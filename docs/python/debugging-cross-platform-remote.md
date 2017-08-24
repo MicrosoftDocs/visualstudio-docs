@@ -123,7 +123,9 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
     | Visual Studio Version | Python tools/ptvsd version |
     | --- | --- |
-    | 2017 | 3.0.0 |
+    | 2017 15.3 | 3.2.0 |
+    | 2017 15.2 | 3.1.0 |
+    | 2017 15.0, 15.1 | 3.0.0 |
     | 2015 | 2.2.6 |
     | 2013 | 2.2.2 |
     | 2012, 2010 | 2.1 |

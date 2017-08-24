@@ -42,7 +42,7 @@ HRESULT GetCount( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetCount(  
    out uint pcelt  
 );  

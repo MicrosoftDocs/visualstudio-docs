@@ -49,7 +49,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attach to Running Processes with the Visual Studio Debugger
-You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, click **Debug / Attach to Process** (or press **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
+You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, click **Debug > Attach to Process** (or press **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
 
 You can use this capability to debug apps that are running on a local or remote computer, debug multiple processes simultaneously, or debug an application that was not created in Visual Studio. It is often useful when you want to debug an app, but (for whatever reason) you did not start the app from Visual Studio with the debugger attached. For example, if you are running the app without the debugger and hit an exception, you might then attach to the process running the app to begin debugging.
 
@@ -59,7 +59,7 @@ You can use this capability to debug apps that are running on a local or remote 
 ##  <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on the local machine  
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names).
   
-1.  In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
+1.  In Visual Studio, select **Debug > Attach to Process** (or press **CTRL+ALT+P**).
 
     If you want to quickly reattach to a process instead, see [Reattach to Process](#BKMK_reattach).
   
@@ -88,7 +88,7 @@ You can use this capability to debug apps that are running on a local or remote 
   
  **To select a remote computer:**  
 
-1. In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
+1. In Visual Studio, select **Debug > Attach to Process** (or press **CTRL+ALT+P**).
 
     If you want to quickly reattach to a process instead, see [Reattach to Process](#BKMK_reattach).
 
@@ -124,7 +124,7 @@ You can use this capability to debug apps that are running on a local or remote 
 
 ## <a name="BKMK_reattach"></a> Reattach to process
 
-You can quickly reattach to processes that you were previously attached to by choosing **Debug / Reattach to Process...** (**Shift+Alt+P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to using the **Attach to Process** dialog box.
+You can quickly reattach to processes that you were previously attached to by choosing **Debug > Reattach to Process...** (**Shift+Alt+P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to using the **Attach to Process** dialog box.
 
 The debugger will reattach by first attempting to match the previous process ID and then, if that fails, by matching to the previous process name. If no matches are found, or if there are multiple processes found with the same name, then the **Attach to Process** dialog box will appear so that you can select the correct process.
 

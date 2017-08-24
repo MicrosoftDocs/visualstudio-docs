@@ -45,7 +45,7 @@ HRESULT GetTypeArguments(
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypeArguments(  
    uint          skip,  
    uint          count,  

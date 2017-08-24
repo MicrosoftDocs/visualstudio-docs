@@ -43,7 +43,7 @@ typedef struct tagCONST_GUID_ARRAY {
 } CONST_GUID_ARRAY;  
 ```  
   
-```c#  
+```cs  
 public struct CONST_GUID_ARRAY {  
    public uint   dwCount;  
    public Guid[] Members;  

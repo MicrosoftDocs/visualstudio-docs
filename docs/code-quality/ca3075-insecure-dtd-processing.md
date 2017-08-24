@@ -89,7 +89,7 @@ translation.priority.mt:
   
 ### Violation  
   
-```c#  
+```cs  
 using System.IO;   
 using System.Xml.Schema;   
   
@@ -110,7 +110,7 @@ class TestClass
   
 ### Solution  
   
-```c#  
+```cs  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Schema;   
@@ -133,7 +133,7 @@ class TestClass
   
 ### Violation  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -151,7 +151,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -173,7 +173,7 @@ namespace TestNamespace
   
 ### Violations  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -189,7 +189,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -207,7 +207,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.Xml;   
   
 public static void TestMethod(string xml)   
@@ -221,7 +221,7 @@ public static void TestMethod(string xml)
   
 ### Violation  
   
-```c#  
+```cs  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Serialization;   
@@ -241,7 +241,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Serialization;   
@@ -262,7 +262,7 @@ namespace TestNamespace
   
 ### Violation  
   
-```c#  
+```cs  
 using System.Xml;   
 using System.Xml.XPath;   
   
@@ -280,7 +280,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.Xml;   
 using System.Xml.XPath;   
   
@@ -299,7 +299,7 @@ namespace TestNamespace
   
 ### Violation  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -313,7 +313,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -327,7 +327,7 @@ namespace TestNamespace
   
 ### Violations  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -343,7 +343,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -358,7 +358,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -379,7 +379,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```cs  
 using System.Xml;   
   
 namespace TestNamespace   

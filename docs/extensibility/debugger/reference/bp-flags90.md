@@ -48,7 +48,7 @@ enum enum_BP_FLAGS90
 typedef DWORD BP_FLAGS90;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BP_FLAGS90  
 {  
    // VS 8.0 values  

@@ -53,7 +53,7 @@ The following steps show how to change the text label of a menu command by using
   
 3.  In the ChangeMenuText.cs file, create an event handler that will be called before the menu command is displayed.  
   
-    ```c#  
+    ```cs  
     private void OnBeforeQueryStatus(object sender, EventArgs e)  
     {  
         var myCommand = sender as OleMenuCommand;  
@@ -70,7 +70,7 @@ The following steps show how to change the text label of a menu command by using
   
      Here is what it should look like:  
   
-    ```c#  
+    ```cs  
     private ChangeMenuText(Package package)  
     {  
         if (package == null)  

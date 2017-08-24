@@ -32,36 +32,14 @@ translation.priority.mt:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
-## 3.4.0.0
- Released 2017-08-22
+## 3.3.0.2
+ Released 2017-08-15
 
-### New Features  
-
--   **Project Generation:**  
-
-    -   Added support for assembly.json compilation units.
-
-    -   Stopped copying Unity assemblies to the project folder.
-    
--   **Debugger:**  
-
-    -   Added support for setting the next statement with the new Unity runtime.
-    
-    -   Added support for Decimal type with the new Unity runtime.
-    
-    -   Added support for implicit/explicit conversions.
-    
 ### Bug fixes  
   
--   **Evaluation:**  
-
-    -   Fixed array creation with implicit size.
-    
-    -   Fixed compiler generated items with locals.
-   
 -   **Project Generation:**  
    
-    -   Fixed reference to Microsoft.CSharp for 4.6 API level.
+    -   Fix the Visual Studio solution generation on Unity 5.5 and previous versions.
    
 ## 3.3.0.0
  Released 2017-08-14

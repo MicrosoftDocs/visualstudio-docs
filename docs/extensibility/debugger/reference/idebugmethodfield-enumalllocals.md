@@ -43,7 +43,7 @@ HRESULT EnumAllLocals( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumAllLocals(  
    IDebugAddress        pAddress,   
    out IEnumDebugFields ppLocals  

@@ -45,7 +45,7 @@ HRESULT LoadSymbolsFromStream(
 );  
 ```  
   
-```c#  
+```cs  
 int LoadSymbolsFromStream(  
    uint    ulAppDomainID,  
    Guid    guidModule,  

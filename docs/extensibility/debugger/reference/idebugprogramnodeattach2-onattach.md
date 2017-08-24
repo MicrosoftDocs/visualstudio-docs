@@ -42,7 +42,7 @@ HRESULT OnAttach(
 );  
 ```  
   
-```c#  
+```cs  
 int OnAttach(  
    ref Guid guidProgramId  
 };  

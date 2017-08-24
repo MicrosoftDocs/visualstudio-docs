@@ -43,7 +43,7 @@ HRESULT CreateObjectNoConstructor( 
 );  
 ```  
   
-```c#  
+```cs  
 int CreateObjectNoConstructor(  
    IDebugField      pClassField,   
    out IDebugObject ppObject  

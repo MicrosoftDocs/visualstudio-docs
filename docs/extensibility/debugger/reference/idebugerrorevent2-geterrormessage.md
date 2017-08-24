@@ -47,7 +47,7 @@ HRESULT GetErrorMessage(
 );  
 ```  
   
-```c#  
+```cs  
 int GetErrorMessage(  
    out enum_MESSAGETYPE   pMessageType,  
    out string             pbstrErrorFormat,  

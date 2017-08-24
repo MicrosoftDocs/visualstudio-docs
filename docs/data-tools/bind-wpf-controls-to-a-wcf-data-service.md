@@ -102,7 +102,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Change the name to `AdventureWorksModel.edmx`, and click **Add**.  
   
-     The **Entity Data Model**wizard opens.  
+     The **Entity Data Model** wizard opens.  
   
 4.  On the **Choose Model Contents** page, click **Generate from database**, and click **Next**.  
   
@@ -166,7 +166,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 6.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 7.  In the **Choose a Data Source Type** page of the wizard, select **Service**, and then click **Next**.  
   
@@ -189,7 +189,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 #### To create the window layout  
   
-1.  In **Solution Explorer**, double-click MainWindow.xaml.  
+1.  In **Solution Explorer**, double-click **MainWindow.xaml**.  
   
      The window opens in the WPF designer.  
   
@@ -258,7 +258,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-cs[Data_WPFWCF#2](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-wcf-data-service_2.cs)]
      [!code-vb[Data_WPFWCF#2](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_2.vb)]  
   
-## Navigatesales records  
+## Navigate sales records  
  Add code that enables users to scroll through sales records by using the **\<** and **>** buttons.  
   
 #### To enable users to navigate sales records  

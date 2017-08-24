@@ -43,7 +43,7 @@ HRESULT Compare ( 
 );  
 ```  
   
-```c#  
+```cs  
 int Compare (   
    enum_REFERENCE_COMPARE dwCompare,  
    IDebugReference2       pReference  

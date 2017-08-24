@@ -42,7 +42,7 @@ HRESULT RemovePort( 
 );  
 ```  
   
-```c#  
+```cs  
 int RemovePort(   
    IDebugPort2 pPort  
 );  

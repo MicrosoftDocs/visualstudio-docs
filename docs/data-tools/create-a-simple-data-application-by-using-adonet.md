@@ -156,7 +156,7 @@ When you create an application that manipulates data in a database, you perform 
   
 3.  In the Utility file, replace the placeholder code with the following code. Notice the numbered comments (prefixed with Util-) that identify sections of the code. The table that follows the code calls out key points.  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Collections.Generic;  
     using System.Linq;  
@@ -245,7 +245,7 @@ When you create an application that manipulates data in a database, you perform 
 #### Create code for Navigation  
  In the Navigation form, replace the existing code with the following code.  
   
-```c#  
+```cs  
 using System;  
 using System.Collections.Generic;  
 using System.ComponentModel;  
@@ -336,7 +336,7 @@ End Namespace
 #### Create code for NewCustomer  
  Add the following code to the NewCustomer form. Step through each code block by using the numbered comments and the table after the code.  
   
-```c#  
+```cs  
 using System;  
 using System.Collections.Generic;  
 using System.ComponentModel;  
@@ -746,7 +746,7 @@ End Namespace
 |NC29|Close the NewCustomer form, and return focus to the Navigation form.|  
   
 ### FillOrCancel form  
- The FillorCancel form runs a query to return an order when you enter an order ID and select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
+ The FillOrCancel form runs a query to return an order when you enter an order ID and select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
   
 #### Create event handlers  
  Create empty Click event handlers for the four buttons on the form.  
@@ -754,7 +754,7 @@ End Namespace
 #### Create code for FillOrCancel  
  Add the following code to the FillOrCancel form. Step through the code blocks by using the numbered comments and the table that follows the code.  
   
-```c#  
+```cs  
 using System;  
 using System.Collections.Generic;  
 using System.ComponentModel;  

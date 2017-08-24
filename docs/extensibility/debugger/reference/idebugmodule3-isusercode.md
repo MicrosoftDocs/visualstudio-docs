@@ -42,7 +42,7 @@ HRESULT IsUserCode(
 );  
 ```  
   
-```c#  
+```cs  
 int IsUserCode(  
    out int pfUser  
 );  

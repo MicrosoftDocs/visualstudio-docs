@@ -42,7 +42,7 @@ HRESULT Terminate( 
 );  
 ```  
   
-```c#  
+```cs  
 int Terminate();  
 ```  
   

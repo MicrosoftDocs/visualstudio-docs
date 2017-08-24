@@ -40,7 +40,7 @@ HRESULT QueryProperty(
    VARIANT               *pvarPropValue);  
 ```  
   
-```c#  
+```cs  
 int QueryProperty(  
    enum_PROCESS_PROPERTY_TYPE dwPropType,  
    out object                 pvarPropValue);  

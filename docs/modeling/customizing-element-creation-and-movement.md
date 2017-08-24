@@ -160,7 +160,7 @@ The role of an Element Merge Directive
   
 5.  Create a new code file in the **Dsl** project. Replace its content with the following code and change the namespace to the namespace of your project.  
   
-    ```c#  
+    ```cs  
     using Microsoft.VisualStudio.Modeling;  
   
     namespace Company.ElementMergeSample // EDIT.  
@@ -227,7 +227,7 @@ The role of an Element Merge Directive
   
 6.  In a new code file, write a partial class for the receiving class, and override the `MergeRelate` method. Remember to call the base method. For example:  
   
-    ```c#  
+    ```cs  
     partial class ExampleModel  
     {  
       /// <summary>  

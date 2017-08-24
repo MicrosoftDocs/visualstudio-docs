@@ -43,7 +43,7 @@ HRESULT GetSize( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetSize(   
    ref uint pcNumLines,  
    ref uint pcNumChars  

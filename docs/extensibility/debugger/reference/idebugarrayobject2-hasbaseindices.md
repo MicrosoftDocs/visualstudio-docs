@@ -41,7 +41,7 @@ HRESULT HasBaseIndices (
 );  
 ```  
   
-```c#  
+```cs  
 int HasBaseIndices (  
    out bool pfHasBaseIndices  
 );  

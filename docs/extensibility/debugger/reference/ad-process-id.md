@@ -47,7 +47,7 @@ typedef struct _AD_PROCESS_ID {
 } AD_PROCESS_ID;  
 ```  
   
-```c#  
+```cs  
 public struct AD_PROCESS_ID {  
    AD_PROCESS_ID_TYPE ProcessIdType;  
    DWORD              dwProcessId;   

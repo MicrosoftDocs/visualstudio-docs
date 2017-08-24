@@ -42,7 +42,7 @@ HRESULT EnumCustomAttributes( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumCustomAttributes(  
    out IEnumDebugCustomAttributes ppEnum  
 );  

@@ -42,7 +42,7 @@ HRESULT onUpdateDocumentAttributes( 
 );  
 ```  
   
-```c#  
+```cs  
 int onUpdateDocumentAttributes(   
    enum_TEXT_DOC_ATTR_2 textdocattr  
 );  

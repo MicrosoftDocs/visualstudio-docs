@@ -43,7 +43,7 @@ HRESULT Delete( 
 );  
 ```  
   
-```c#  
+```cs  
 int Delete();  
 ```  
   

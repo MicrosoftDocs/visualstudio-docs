@@ -42,7 +42,7 @@ HRESULT GetServer( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetServer(   
    out IDebugCoreServer2 ppServer  
 );  

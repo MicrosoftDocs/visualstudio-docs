@@ -44,7 +44,7 @@ HRESULT SetValueAsString ( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetValueAsString (   
    string pszValue,  
    uint   nRadix,  
