@@ -45,11 +45,11 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 ## The Remote Debugger Port on 32-bit Operating Systems  
  TCP 4022 (in Visual Studio 2017) is the main port, and is required for all scenarios. You can configure this from either the command line or the remote debugger window.  
   
- In the remote debugger window, click **Tools / Options**, and set the TCP/IP port number.  
+ In the remote debugger window, click **Tools > Options**, and set the TCP/IP port number.  
   
  On the command line, start the remote debugger with the **/port** switch: **msvsmon /port \<port number>**.  
   
- You can find all the remote debugger command line switches in the remote debugging help (press **F1** or click **Help / Usage** in the remote debugger window).  
+ You can find all the remote debugger command line switches in the remote debugging help (press **F1** or click **Help > Usage** in the remote debugger window).  
   
 ## The Remote Debugger Port on 64-bit Operating Systems  
  When the 64-bit version of the remote debugger is started, it uses the 4022 port by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4023. If you run the 32-bit remote debugger, it uses 4022, and 4023 is not used.  

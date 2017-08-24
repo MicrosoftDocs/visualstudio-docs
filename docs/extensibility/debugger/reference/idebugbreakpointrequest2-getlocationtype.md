@@ -42,7 +42,7 @@ HRESULT GetLocationType( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetLocationType(   
    out enum_BP_LOCATION_TYPE pBPLocationType  
 );  

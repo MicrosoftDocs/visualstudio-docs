@@ -43,7 +43,7 @@ HRESULT onReplaceText( 
 );  
 ```  
   
-```c#  
+```cs  
 int onReplaceText(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToReplace  

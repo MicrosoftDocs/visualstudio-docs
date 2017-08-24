@@ -42,7 +42,7 @@ HRESULT CanTerminateProcess( 
 );  
 ```  
   
-```c#  
+```cs  
 HRESULT CanTerminateProcess(   
    IDebugProcess2 pPortProcess  
 );  

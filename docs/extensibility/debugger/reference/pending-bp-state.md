@@ -46,7 +46,7 @@ enum enum_PENDING_BP_STATE { 
 typedef DWORD PENDING_BP_STATE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_PENDING_BP_STATE {   
    PBPS_NONE     = 0x0000,  
    PBPS_DELETED  = 0x0001,  

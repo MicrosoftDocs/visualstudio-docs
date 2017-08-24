@@ -42,7 +42,7 @@ typedef struct _tagMETADATA_ADDRESS_FIELD {
 } METADATA_ADDRESS_FIELD  
 ```  
   
-```c#  
+```cs  
 public struct METADATA_ADDRESS_FIELD {  
    public int tokField;  
 }  

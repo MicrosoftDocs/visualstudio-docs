@@ -42,7 +42,7 @@ HRESULT IsUserData(
 );  
 ```  
   
-```c#  
+```cs  
 int IsUserData(  
    out int pfUser  
 );  

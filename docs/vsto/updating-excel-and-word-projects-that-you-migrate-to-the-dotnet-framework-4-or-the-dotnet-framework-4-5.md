@@ -53,11 +53,11 @@ manager: "ghogen"
   
 3.  Locate the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and either remove it from the file or comment it out.  
   
-    ```vb#  
+    ```vb  
     <Assembly: ExcelLocale1033Proxy(True)>  
     ```  
   
-    ```c#  
+    ```cs  
     [assembly: ExcelLocale1033Proxy(true)]  
     ```  
   
@@ -72,12 +72,12 @@ manager: "ghogen"
   
 3.  In the Code Editor, in the `VSTO generated code` region, remove or comment out the following line of code.  
   
-    ```vb#  
+    ```vb  
     Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)  
   
     ```  
   
-    ```c#  
+    ```cs  
     this.Application = (Excel.Application)Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(typeof(Excel.Application), this.Application);  
   
     ```  
@@ -85,12 +85,12 @@ manager: "ghogen"
 ##  <a name="GetVstoObject"></a> Updating Code that Uses the GetVstoObject and HasVstoObject Methods  
  In projects that target the .NET Framework 3.5, the GetVstoObject or HasVstoObject methods are available as extension methods on one of the following native objects in your project: <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject>. When you call these methods, you do not need to pass a parameter. The following code example demonstrates how to use the GetVstoObject method in a Word VSTO Add-in that targets the .NET Framework 3.5.  
   
-```vb#  
+```vb  
 Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject()  
 ```  
   
-```c#  
+```cs  
 Microsoft.Office.Tools.Word.Document vstoDocument =   
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject();  
 ```  
@@ -99,24 +99,24 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
   
 -   You can still access these methods as extension methods on <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject> objects. However, you must now pass the object returned by the Globals.Factory property to these methods.  
   
-    ```vb#  
+    ```vb  
     Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory)  
     ```  
   
-    ```c#  
+    ```cs  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory);  
     ```  
   
 -   You can alternatively access these methods on the object that is returned by the Globals.Factory property. When you access these methods in this way, you must pass the native object that you want to extend to the method.  
   
-    ```vb#  
+    ```vb  
     Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument)  
     ```  
   
-    ```c#  
+    ```cs  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument);  
     ```  
@@ -148,13 +148,13 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
   
  For example, in an Excel Workbook project that targets the .NET Framework 3.5, you might have a helper method that performs some work on instances of the generated `Sheet`*n* classes in your project.  
   
-```vb#  
+```vb  
 Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.Worksheet)  
     ' Do something to the worksheet object.  
 End Sub  
 ```  
   
-```c#  
+```cs  
 private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet)  
 {  
     // Do something to the worksheet object.  
@@ -165,23 +165,23 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
   
 -   Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.  
   
-    ```vb#  
+    ```vb  
     DoSomethingToSheet(Globals.Sheet1.Base)  
     ```  
   
-    ```c#  
+    ```cs  
     DoSomethingToSheet(Globals.Sheet1.Base);  
     ```  
   
 -   Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.  
   
-    ```vb#  
+    ```vb  
     Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)  
         ' Do something to the worksheet object.  
     End Sub  
     ```  
   
-    ```c#  
+    ```cs  
     private void DoSomethingToSheet (Microsoft.Office.Tools.Excel.WorksheetBase worksheet)  
     {  
         // Do something to the worksheet object.  

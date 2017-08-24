@@ -61,7 +61,7 @@ enum enum_EXCEPTION_STATE { 
 typedef DWORD EXCEPTION_STATE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_EXCEPTION_STATE {   
    EXCEPTION_NONE                          = 0x0000,  
    EXCEPTION_STOP_FIRST_CHANCE             = 0x0001,  

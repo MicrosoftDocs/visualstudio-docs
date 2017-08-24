@@ -49,7 +49,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IDebugExpressionEvaluator::GetMethodProperty` in managed code.  
   
-```c#  
+```cs  
 namespace EEMC  
 {  
     [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  

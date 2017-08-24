@@ -35,7 +35,7 @@ After you have connected your VSPackage to automation, you can obtain the proper
 ## Obtaining Project Objects  
  The following are two code examples that show how an automation consumer obtains the project automation objects. For information about how to get the DTE object, see [How to: Get References to the DTE and DTE2 Objects](http://msdn.microsoft.com/Library/c92e3c8e-82e6-4a67-85da-e43c50ffd8e4).  
   
-```vb#  
+```vb  
 Sub DoAutomation()  
     Dim MyProjects As Projects  
     MyProjects = DTE.GetObject("AcmeProject")  
@@ -59,7 +59,7 @@ void DoAutomation(void)
   
  The following code example shows how to get a custom object that is a property of a custom project type.:  
   
-```vb#  
+```vb  
 Dim MyPrj As Project  
 Dim MyPrjItem As ProjectItem  
 Dim objMyObject as MyExtendedObject  
@@ -72,7 +72,7 @@ objMyObject.MySpecialMethodOrProperty
   
  The following code lists the names of all of the properties in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment **General** option on the **Tools** menu:  
   
-```vb#  
+```vb  
 dim objDTE  
 dim objEnv  
 set objDTE = CreateObject("VisualStudio.DTE")  

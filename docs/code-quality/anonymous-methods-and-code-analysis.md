@@ -42,7 +42,7 @@ An *anonymous method* is a method that has no name. Anonymous methods are most f
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod** should be raised against **Method1** and not **Method2**.  
   
-```vb#  
+```vb  
   
       Delegate Function ADelegate(ByVal value As Integer) As Boolean  
 Class AClass  
@@ -55,7 +55,7 @@ Class AClass
     End SubEnd Class  
 ```  
   
-```c#  
+```cs  
   
       delegate void Delegate();  
 class Class  
@@ -81,7 +81,7 @@ class Class
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod1** will be raised against the implicitly generated default constructor of **Class**. Whereas, those found in **anonymousMethod2** will be applied against the implicitly generated class constructor.  
   
-```vb#  
+```vb  
   
   Delegate Function ADelegate(ByVal value As Integer) As BooleanClass AClass  
 Dim anonymousMethod1 As ADelegate = Function(ByVal value As    Integer) value > 5  
@@ -93,7 +93,7 @@ Sub Method1()
 End SubEnd Class  
 ```  
   
-```c#  
+```cs  
   
       delegate void Delegate();  
 class Class  
@@ -120,7 +120,7 @@ class Class
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod** should be raised against **Class(int)** and **Class(string)** but not against **Class()**.  
   
-```vb#  
+```vb  
   
   Delegate Function ADelegate(ByVal value As Integer) As BooleanClass AClass  
   
@@ -134,7 +134,7 @@ End SubSub New(ByVal a As String)
 End SubEnd Class  
 ```  
   
-```c#  
+```cs  
   
       delegate void Delegate();  
 class Class  

@@ -43,7 +43,7 @@ HRESULT CreateStringObject( 
 );  
 ```  
   
-```c#  
+```cs  
 int CreateStringObject(  
    string      pcstrString,   
    out IDebugObject ppOjbect  

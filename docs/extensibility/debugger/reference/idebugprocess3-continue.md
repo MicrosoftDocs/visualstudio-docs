@@ -45,7 +45,7 @@ HRESULT Continue(
 );  
 ```  
   
-```c#  
+```cs  
 int Continue(  
    IDebugThread2 pThread  
 );  

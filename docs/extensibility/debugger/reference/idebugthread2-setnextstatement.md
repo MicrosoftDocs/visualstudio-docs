@@ -43,7 +43,7 @@ HRESULT SetNextStatement ( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetNextStatement (   
    IDebugStackFrame2  pStackFrame,  
    IDebugCodeContext2 pCodeContext  

@@ -42,7 +42,7 @@ HRESULT CanAddPort( 
 );  
 ```  
   
-```c#  
+```cs  
 int CanAddPort();  
 ```  
   

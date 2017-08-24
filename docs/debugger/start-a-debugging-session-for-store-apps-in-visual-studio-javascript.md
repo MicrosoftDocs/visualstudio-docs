@@ -98,7 +98,7 @@ translation.priority.mt:
   
 1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.  
   
-2.  Expand the **Configuration Properties**  node and then choose **Debugging**  
+2.  Expand the **Configuration Properties**  node and then choose **Debugging**.  
   
 ###  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options  
   
@@ -191,7 +191,7 @@ translation.priority.mt:
 > [!NOTE]
 >  The app must not be running when you start this procedure.  
   
-1.  On the **Debug** menu, choose **Debug Installed App Package**  
+1.  On the **Debug** menu, choose **Debug Installed App Package**.  
   
 2.  Choose one of the following options from the list:  
   
@@ -259,7 +259,7 @@ translation.priority.mt:
   
      Choose **Select** and then do one of the following:  
   
-    -   Choose **Automatically determine the type of code to debug**  
+    -   Choose **Automatically determine the type of code to debug**.  
   
     -   Choose **Debug these code types** and then choose one or more types from the list.  
   

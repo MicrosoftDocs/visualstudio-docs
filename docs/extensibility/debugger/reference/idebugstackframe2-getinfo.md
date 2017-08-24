@@ -44,7 +44,7 @@ HRESULT GetInfo ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetInfo (   
    enum_FRAMEINFO_FLAGS dwFieldSpec,  
    uint                 nRadix,  

@@ -44,11 +44,11 @@ translation.priority.mt:
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:  
   
--   The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools / Options / Debugging** page  
+-   The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools > Options > Debugging** page  
   
 -   You are debugging managed C++ (C++/CLI) code.  
   
--   In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools / Options / Debugging** page  
+-   In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page  
   
 -   Some third party debugging scenarios  
   

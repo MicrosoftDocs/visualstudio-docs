@@ -43,7 +43,7 @@ HRESULT GetFormalTypeParams(
 );  
 ```  
   
-```c#  
+```cs  
 int GetFormalTypeParams(  
    uint                          cParams,  
    out IDebugGenericParamField[] ppParams,  

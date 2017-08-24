@@ -46,7 +46,7 @@ enum enum_DISASSEMBLY_STREAM_SCOPE { 
 typedef DWORD DISASSEMBLY_STREAM_SCOPE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_DISASSEMBLY_STREAM_SCOPE {   
    DSS_HUGE     = 0x10000000,  
    DSS_FUNCTION = 0x0001,  

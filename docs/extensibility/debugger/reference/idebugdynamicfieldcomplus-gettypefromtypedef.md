@@ -44,7 +44,7 @@ HRESULT GetTypeFromTypeDef(
 );  
 ```  
   
-```c#  
+```cs  
 int GetTypeFromTypeDef(  
    uint            ulAppDomainID,  
    Guid            guidModule,  

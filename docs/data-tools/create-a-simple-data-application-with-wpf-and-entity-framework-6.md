@@ -33,9 +33,9 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Configure the project  
   
-1.  In Visual Studio, choose **File &#124; New Project** and then create a new C# WPF Application.  
+1.  In Visual Studio, choose **File > New Project** and then create a new C# WPF Application.  
   
-2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project &#124; Manage NuGet Packages...**  
+2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project > Manage NuGet Packages...**  
   
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png "raddata_vs2015_manage_nuget_packages")  
   
@@ -47,11 +47,10 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Create the model  
   
-1.  Right click on the project node in Solution Explorer and choose **Add &#124; New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
+1.  Right click on the project node in Solution Explorer and choose **Add > New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
   
      ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png "raddata EF New Project Item")  
-  
-2.  Call the model `Northwind_model` and choose OK. This brings up the **Entity Data Model Wizard**. Choose **EF Designer from database** and then click **Next**.  
+  2.  Call the model `Northwind_model` and choose OK. This brings up the **Entity Data Model Wizard**. Choose **EF Designer from database** and then click **Next**.  
   
      ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png "raddata EF Model from Database")  
   
@@ -62,8 +61,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
      ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png "raddata Choose EF Objects")  
   
 5.  The wizard generates the C# classes that represent the Entity Framework model. These are plain old C# classes and they are what we will databind to the WPF user interface. The .edmx file describes the relationships and other metadata that associates the classes with objects in the database.  The .tt files are T4 templates that generate the code that will operate on the model and save changes to the database. You can see all these files in Solution Explorer under the Northwind_model node:  
-  
-     ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png "raddata Solution Explorer EF model files")  
+       ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png "raddata Solution Explorer EF model files")  
   
      The designer surface for the .edmx file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.  
   
@@ -82,7 +80,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Databind the model to the XAML page  
  It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
   
-1.  From the main menu, choose **Project &#124; Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
+1.  From the main menu, choose **Project > Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
   
      ![Data Source Configuration Wizard with Object Source](../data-tools/media/raddata-data-source-configuration-wizard-with-object-source.png "raddata Data Source Configuration Wizard with Object Source")  
   

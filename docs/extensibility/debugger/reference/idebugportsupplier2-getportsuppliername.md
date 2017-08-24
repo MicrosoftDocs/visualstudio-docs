@@ -42,7 +42,7 @@ HRESULT GetPortSupplierName( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPortSupplierName(   
    out string pbstrName  
 );  

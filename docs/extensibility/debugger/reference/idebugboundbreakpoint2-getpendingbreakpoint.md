@@ -43,7 +43,7 @@ HRESULT GetPendingBreakpoint( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPendingBreakpoint(   
    out IDebugPendingBreakpoint2 ppPendingBreakpoint  
 );  

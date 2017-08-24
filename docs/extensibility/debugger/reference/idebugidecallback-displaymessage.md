@@ -40,7 +40,7 @@ HRESULT DisplayMessage (
 );  
 ```  
   
-```c#  
+```cs  
 int DisplayMessage (  
    string szMessage  
 );  

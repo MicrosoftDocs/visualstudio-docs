@@ -40,7 +40,7 @@ Resets the enumeration sequence to the beginning.
 HRESULT Reset(void);  
 ```  
   
-```c#  
+```cs  
 int Reset();  
 ```  
   

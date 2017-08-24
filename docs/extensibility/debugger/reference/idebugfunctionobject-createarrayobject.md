@@ -47,7 +47,7 @@ HRESULT CreateArrayObject( 
 );  
 ```  
   
-```c#  
+```cs  
 int CreateArrayObject(  
    enum_OBJECT_TYPE ot,   
    IDebugField      pClassField,   

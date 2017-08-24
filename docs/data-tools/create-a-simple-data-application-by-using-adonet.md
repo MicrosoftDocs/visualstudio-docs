@@ -138,6 +138,7 @@ This topic assumes that you're familiar with the basic functionality of the Visu
   
 4.  In the **Scope** list, select **Application**.  
   
+
 5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
@@ -147,7 +148,8 @@ This topic assumes that you're familiar with the basic functionality of the Visu
  This section contains brief overviews of what each form does. It also provides the code that defines the underlying logic when a button on the form is clicked.  
   
 ### Navigation form  
- The Navigation form opens when you run the application. The **Add an account** button opens the NewCustomer form. The **Fill or cancel orders** button opens the FillOrCancel form. The **Exit** button closes the application.  
+
+The Navigation form opens when you run the application. The **Add an account** button opens the NewCustomer form. The **Fill or cancel orders** button opens the FillOrCancel form. The **Exit** button closes the application.  
   
 #### Make the Navigation form the startup form  
  If you're using C#, in **Solution Explorer**, open Program.cs, and then change the `Application.Run` line to this: `Application.Run(new Navigation());`  
@@ -196,7 +198,7 @@ To complete the NewCustomer form logic, follow these steps.
      [!code-vb[NewCustomer#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#2)]  
 
 ### FillOrCancel form  
- The FillorCancel form runs a query to return an order when you enter an order ID and then click the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
+ The FillOrCancel form runs a query to return an order when you enter an order ID and then click the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
 #### Create auto-generated event handlers  
  Create empty Click event handlers for the four buttons on the FillOrCancel form by double-clicking the buttons. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.  
   

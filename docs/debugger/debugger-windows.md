@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Learn about Debugger Windows in Visual Studio
-You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops,  click **Debug / Windows**.  
+You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.  
   
 ||||  
 |-|-|-|  

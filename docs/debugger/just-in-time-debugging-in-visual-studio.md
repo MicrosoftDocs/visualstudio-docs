@@ -46,7 +46,7 @@ You can take steps to prevent the Just-in-Time Debugger dialog box from appearin
 
 1. (Web apps) If you are trying to run a web app, you can disable script debugging.
 
-    For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access these settings from the **Control Panel** / **Network and Internet** / **Internet Options** (the exact steps depend on your version of Windows and your browser).
+    For Internet Explorer or Edge, disable script debugging in the Internet Options dialog box. You can access these settings from the **Control Panel** > **Network and Internet** > **Internet Options** (the exact steps depend on your version of Windows and your browser).
 
     ![JITInternetOptions](../debugger/media/jitinternetoptions.png "JITInternetOptions")
 

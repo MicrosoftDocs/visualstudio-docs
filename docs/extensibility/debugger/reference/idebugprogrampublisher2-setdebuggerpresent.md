@@ -42,7 +42,7 @@ HRESULT SetDebuggerPresent(
 );  
 ```  
   
-```c#  
+```cs  
 int SetDebuggerPresent(  
    int fDebuggerPresent  
 );  

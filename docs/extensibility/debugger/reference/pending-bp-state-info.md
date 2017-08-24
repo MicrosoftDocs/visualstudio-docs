@@ -43,7 +43,7 @@ typedef struct _tagPENDING_BP_STATE_INFO { 
 } PENDING_BP_STATE_INFO;  
 ```  
   
-```c#  
+```cs  
 public struct PENDING_BP_STATE_INFO {   
    public uint state;  
    public uint flags;  

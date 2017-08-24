@@ -45,7 +45,7 @@ HRESULT Attach_V7 ( 
 );  
 ```  
   
-```c#  
+```cs  
 int Attach_V7 (   
    IDebugProgram2       pMDMProgram,  
    IDebugEventCallback2 pCallback,  

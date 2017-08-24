@@ -84,7 +84,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 6.  Replace the code in the **WizardImplementationClass.cs** file with the following code:  
   
-    ```c#  
+    ```cs  
     using System;  
     using System.Collections.Generic;  
     using Microsoft.VisualStudio.TemplateWizard;  
@@ -171,7 +171,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 7.  Now create the **UserInputForm**. In the **WizardImplementation.cs** file, add the following code after the end of the **WizardImplementation** class.  
   
-    ```c#  
+    ```cs  
     public partial class UserInputForm : Form  
         {  
             private static string customMessage;  
@@ -282,7 +282,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
  Here is the full code file before it has been exported to a template.  
   
-```c#  
+```cs  
 using System;  
 using System.Collections.Generic;  
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;  

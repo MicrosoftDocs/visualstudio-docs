@@ -43,7 +43,7 @@ typedef struct tagPROGRAM_NODE_ARRAY {
 } PROGRAM_NODE_ARRAY;  
 ```  
   
-```c#  
+```cs  
 public struct tagPROGRAM_NODE_ARRAY {  
    public uint                 dwCount;  
    public IDebugProgramNode2[] Members;  

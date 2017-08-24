@@ -42,7 +42,7 @@ HRESULT SetFromManagedObject( 
 );  
 ```  
   
-```c#  
+```cs  
 int SetFromManagedObject(  
    object pManagedObject  
 );  

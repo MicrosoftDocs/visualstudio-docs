@@ -52,11 +52,11 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
-    ```vb#  
+    ```vb  
     TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
     ```  
   
-    ```c#  
+    ```cs  
     GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
     ```  
   
@@ -90,11 +90,11 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
   
 -   Insert this code in the constructor, tool window, or control container:  
   
-    ```c#  
+    ```cs  
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;
         if (log == null) return;
     ```  
-    ```vb#  
+    ```vb  
     Dim log As IVsActivityLog = TryCast(Package.GetGlobalService(GetType(SVsActivityLog)), IVsActivityLog)
     If log Is Nothing Then
         Return

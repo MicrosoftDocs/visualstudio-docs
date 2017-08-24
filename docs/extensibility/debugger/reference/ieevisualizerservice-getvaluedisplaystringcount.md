@@ -43,7 +43,7 @@ HRESULT GetValueDisplayStringCount (
 );  
 ```  
   
-```c#  
+```cs  
 int GetValueDisplayStringCount (  
    uint        displayKind,   
    IDebugField propertyOrField,   

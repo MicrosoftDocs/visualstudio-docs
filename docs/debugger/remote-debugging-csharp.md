@@ -94,11 +94,11 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
     You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
   
-11. Make sure the remote debugger is running on the target machine. (If it's not, search for **Remote Debugger** in the **Start** menu. ) The remote debugger window looks like this.  
+11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.  
   
      ![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")  
   
-12. In Visual Studio, start debugging (**Debug / Start Debugging**, or **F5**).  
+12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).  
   
 13. If prompted, enter network credentials to connect to the remote machine.  
   
@@ -110,7 +110,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
   
 15. On the Visual Studio machine, you should see that execution has stopped at the breakpoint.
   
- If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add / New Folder**.) Then add the files to the folder (in the **Solution Explorer**, click **Add / Existing Item**, then select the files.). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
+ If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add > New Folder**). Then add the files to the folder (in the **Solution Explorer**, click **Add > Existing Item**, then select the files). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
 
 ## Set Up Debugging with Remote Symbols 
 

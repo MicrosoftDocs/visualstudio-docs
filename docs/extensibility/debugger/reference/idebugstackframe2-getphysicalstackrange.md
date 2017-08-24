@@ -43,7 +43,7 @@ HRESULT GetPhysicalStackRange ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetPhysicalStackRange (   
    out ulong paddrMin,  
    out ulong paddrMax  

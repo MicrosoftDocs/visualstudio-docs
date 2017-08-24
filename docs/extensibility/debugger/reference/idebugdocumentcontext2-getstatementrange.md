@@ -43,7 +43,7 @@ HRESULT GetStatementRange( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetStatementRange(   
    TEXT_POSITION[] pBegPosition,  
    TEXT_POSITION[] pEndPosition  

@@ -54,7 +54,7 @@ enum enum_EVALFLAGS90
 typedef DWORD EVALFLAGS90;  
 ```  
   
-```c#  
+```cs  
 public enum enum_EVALFLAGS90  
 {  
    // VS 8.0 values  

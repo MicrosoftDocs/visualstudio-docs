@@ -44,7 +44,7 @@ HRESULT GetData(
 );  
 ```  
   
-```c#  
+```cs  
 int GetData(  
    uint     dataSize,  
    out uint sizeGotten,  

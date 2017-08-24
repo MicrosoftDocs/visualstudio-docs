@@ -44,7 +44,7 @@ enum enum_DUMPTYPE { 
 typedef DWORD DUMPTYPE;  
 ```  
   
-```c#  
+```cs  
 public enum enum_DUMPTYPE {   
    DUMP_MINIDUMP = 0,  
    DUMP_FULLDUMP = 1  

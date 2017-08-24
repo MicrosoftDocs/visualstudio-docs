@@ -51,7 +51,7 @@ translation.priority.mt:
   
 1.  Create a console application named `RemoveParameters`, and then replace `Program` with the following code.  
   
-    ```c#  
+    ```cs  
     class A  
     {  
         // Invoke on 'A'.  
@@ -90,13 +90,13 @@ translation.priority.mt:
   
  If a parameter being removed is modified during the call to a method, the removal of the parameter will also remove the modification. For example, if a method call is changed from  
   
-```c#  
+```cs  
 MyMethod(param1++, param2);  
 ```  
   
  to  
   
-```c#  
+```cs  
 MyMethod(param2);  
 ```  
   

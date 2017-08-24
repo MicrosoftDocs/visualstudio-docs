@@ -55,7 +55,7 @@ translation.priority.mt:
 ---
 # Manage exceptions with the debugger in Visual Studio
 
-An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions (or sets of exceptions) to break on, and at which point you want the debugger to break (when the debugger breaks, it shows you where the exception was thrown). You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug / Windows / Exception Settings** to open the **Exception Settings** window. 
+An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions (or sets of exceptions) to break on, and at which point you want the debugger to break (when the debugger breaks, it shows you where the exception was thrown). You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window. 
 
 You can and should provide handlers that respond to the most important exceptions, but it's important to know how to configure the debugger to always break execution for some exceptions.
   
@@ -76,7 +76,7 @@ When an exception occurs, the debugger writes an exception message to the Output
 ## Tell the debugger to break when an exception is thrown  
 The debugger can break execution at the point where an exception is thrown, giving you a chance to examine the exception before a handler is invoked.  
   
-In the **Exception Settings** window (**Debug / Windows / Exception Settings**), expand the node for a category of exceptions (for example, **Common Language Runtime Exceptions**, meaning .NET exceptions), and select the check box for a specific exception within that category (for example **System.AccessViolationException**). You can also select an entire category of exceptions.  
+In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions (for example, **Common Language Runtime Exceptions**, meaning .NET exceptions), and select the check box for a specific exception within that category (for example **System.AccessViolationException**). You can also select an entire category of exceptions.  
   
 ![Checked AccessViolationException](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")  
 
@@ -114,7 +114,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
 *  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn't handle it:  
   
-    ```c# 
+    ```cs 
     public class Class1  
     {  
         public void ThrowHandledException()  

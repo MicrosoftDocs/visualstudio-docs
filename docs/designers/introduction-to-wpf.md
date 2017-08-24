@@ -96,7 +96,7 @@ Windows Presentation Foundation (WPF) lets you create desktop client application
 </Window>  
 ```  
   
-```c#  
+```cs  
 using System.Windows; // Window, RoutedEventArgs, MessageBox   
   
 namespace SDKSample  

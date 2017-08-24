@@ -44,7 +44,7 @@ HRESULT Add( 
 );  
 ```  
   
-```c#  
+```cs  
 int Add(  
    ulong                    dwCount,   
    out IDebugMemoryContext2 ppMemCxt  

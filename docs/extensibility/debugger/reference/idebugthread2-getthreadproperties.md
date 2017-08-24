@@ -43,7 +43,7 @@ HRESULT GetThreadProperties ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetThreadProperties (   
    enum_THREADPROPERTY_FIELDS dwFields,  
    THREADPROPERTIES[]         ptp  

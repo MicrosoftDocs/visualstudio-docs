@@ -52,7 +52,7 @@ When you create a Coded UI Test in a coded UI test project, several files are ad
 #### Declarations section  
  This section includes the following declarations for a Windows UI.  
   
-```c#  
+```cs  
 using System;  
 using System.CodeDom.Compiler;  
 using System.Collections.Generic;  

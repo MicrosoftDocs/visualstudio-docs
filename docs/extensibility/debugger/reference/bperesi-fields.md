@@ -48,7 +48,7 @@ enum enum_BPERESI_FIELDS { 
 typedef DWORD BPERESI_FIELDS;  
 ```  
   
-```c#  
+```cs  
 public enum enum_BPERESI_FIELDS {   
    PERESI_BPRESLOCATION = 0x0001,  
    BPERESI_PROGRAM      = 0x0002,  

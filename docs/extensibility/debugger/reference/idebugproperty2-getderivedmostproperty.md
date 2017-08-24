@@ -42,7 +42,7 @@ HRESULT GetDerivedMostProperty ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetDerivedMostProperty (   
    out IDebugProperty2 ppDerivedMost  
 );  

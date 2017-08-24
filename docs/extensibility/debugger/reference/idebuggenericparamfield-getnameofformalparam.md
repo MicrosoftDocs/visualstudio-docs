@@ -41,7 +41,7 @@ HRESULT GetNameOfFormalParam (
 );  
 ```  
   
-```c#  
+```cs  
 int GetNameOfFormalParam (  
    string pbstrName  
 );  

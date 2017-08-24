@@ -43,7 +43,7 @@ HRESULT EnumCodeContexts( 
 );  
 ```  
   
-```c#  
+```cs  
 int EnumCodeContexts(   
    IDebugDocumentPosition2     pDocPos,  
    out IEnumDebugCodeContexts2 ppEnum  

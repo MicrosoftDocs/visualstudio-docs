@@ -44,7 +44,7 @@ HRESULT SetObjectForVisualizer(
 );  
 ```  
   
-```c#  
+```cs  
 int SetObjectForVisualizer(  
    IDebugObject     pNewObject,  
    out string       error,  

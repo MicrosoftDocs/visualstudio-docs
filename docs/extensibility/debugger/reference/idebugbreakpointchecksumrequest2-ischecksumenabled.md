@@ -40,7 +40,7 @@ HRESULT IsChecksumEnabled(
 );  
 ```  
   
-```c#  
+```cs  
 public int IsChecksumEnabled(   
    out int pfChecksumEnabled  
 );  

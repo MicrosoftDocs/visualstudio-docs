@@ -42,7 +42,7 @@ HRESULT GetParent ( 
 );  
 ```  
   
-```c#  
+```cs  
 int GetParent (   
    out IDebugProperty2 ppParent  
 );  
