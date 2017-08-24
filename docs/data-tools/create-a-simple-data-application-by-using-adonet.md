@@ -60,8 +60,8 @@ When you create an application that manipulates data in a database, you perform 
 -   The small sample database that you create by following the steps in [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md).  
   
 -   The connection string for the database after you set it up. You can find this value by opening **SQL Server Object Explorer**, opening the shortcut menu for the database, selecting **Properties**, and then scrolling to the **ConnectionString**  property.  
-  
- This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
+
+This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
   
 ##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
  The sample database for this walkthrough includes the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
@@ -129,8 +129,8 @@ When you create an application that manipulates data in a database, you perform 
   
  You can find the connection string in **SQL Server Object Explorer** by right-clicking the database, selecting **Properties**, and then locating the ConnectionString property. Use Ctrl+A, Ctrl+C to select and copy the string to the clipboard. 
   
-1.  For a C# project: In **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.  
-    For a VB project: In **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
+1.  If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.  
+    If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
   
 2.  In the **Name** column, enter `connString`.  
   
@@ -144,7 +144,7 @@ When you create an application that manipulates data in a database, you perform 
 >  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).     
   
 ##  <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
- This section contains brief overviews of what each form does and shows the code that creates the forms.  
+ This section contains brief overviews of what each form does. It also provides the code that defines the underlying logic when a button on the form is clicked.  
   
 ### Navigation form  
  The Navigation form opens when you run the application. The **Add an account** button opens the NewCustomer form. The **Fill or cancel orders** button opens the FillOrCancel form. The **Exit** button closes the application.  
@@ -175,25 +175,25 @@ To complete the NewCustomer form logic, follow these steps.
 
 1. Bring the ```System.Data.SqlClient``` namespace into scope so that you don't have to fully qualify the names of its members.  
 
-```cs  
-using System.Data.SqlClient  
-```  
+     ```cs  
+     using System.Data.SqlClient  
+     ```  
 
-```vb  
-Imports System.Data.SqlClient  
-```  
+     ```vb  
+     Imports System.Data.SqlClient  
+     ```  
 
 2. Add some variables and helper methods to the class as shown in the following code.  
 
-[!code-csharp[NewCustomer#1](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#1)]  
+     [!code-csharp[NewCustomer#1](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#1)]  
 
-[!code-vb[NewCustomer#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#1)]  
+     [!code-vb[NewCustomer#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#1)]  
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.  
 
-[!code-csharp[NewCustomer#2](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#2)]    
+     [!code-csharp[NewCustomer#2](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#2)]    
 
-[!code-vb[NewCustomer#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#2)]  
+     [!code-vb[NewCustomer#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#2)]  
 
 ### FillOrCancel form  
  The FillorCancel form runs a query to return an order when you enter an order ID and then click the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.  
@@ -205,27 +205,27 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.  
 
-```cs  
-using System.Data.SqlClient;  
-using System.Text.RegularExpressions;  
-```  
+     ```cs  
+     using System.Data.SqlClient;  
+     using System.Text.RegularExpressions;  
+     ```  
 
-```vb  
-Imports System.Data.SqlClient  
-Imports System.Text.RegularExpressions  
-```  
+     ```vb  
+     Imports System.Data.SqlClient  
+     Imports System.Text.RegularExpressions  
+     ```  
 
-2. Add some variables and helper methods to the class as shown in the following code.  
+2. Add a variable and helper method to the class as shown in the following code.  
 
-[!code-csharp[FillOrCancel#1](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#1)]  
+     [!code-csharp[FillOrCancel#1](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#1)]  
 
-[!code-vb[FillOrCancel#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#1)]  
+     [!code-vb[FillOrCancel#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#1)]  
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.  
 
-[!code-csharp[FillOrCancel#2](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#2)]  
+     [!code-csharp[FillOrCancel#2](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#2)]  
 
-[!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
+     [!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
 
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
  Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.
