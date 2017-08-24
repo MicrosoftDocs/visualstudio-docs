@@ -10,7 +10,7 @@ namespace SimpleDataApp
             InitializeComponent();
         }
 
-        //<Snippet1
+        //<Snippet1>
         /// <summary>
         /// Opens the NewCustomer form as a dialog box,
         /// which returns focus to the calling form when it is closed. 
