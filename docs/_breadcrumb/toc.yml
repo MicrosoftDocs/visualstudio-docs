@@ -18,7 +18,7 @@
         topicHref: /visualstudio/data-tools/accessing-data-in-visual-studio
       - name: Extensibility
         tocHref: /visualstudio/extensibility/
-        topicHref: /visualstudio/extensibility/extensibility-in-visual-studio
+        topicHref: /visualstudio/extensibility/
         items:
         - name: Inside the Visual Studio SDK
           tocHref: /visualstudio/extensibility/internals/
