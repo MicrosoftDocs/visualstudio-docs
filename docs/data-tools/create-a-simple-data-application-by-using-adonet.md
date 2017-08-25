@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
-  - "CSharp"
+  - "CS"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 42
 author: "gewarren"
@@ -180,7 +180,6 @@ To complete the NewCustomer form logic, follow these steps.
      ```csharp  
      using System.Data.SqlClient  
      ```  
-
      ```vb  
      Imports System.Data.SqlClient  
      ```  
