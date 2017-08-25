@@ -179,7 +179,7 @@ To complete the NewCustomer form logic, follow these steps.
 
      ```cs  
      using System.Data.SqlClient  
-     ```  
+     ```
      ```vb  
      Imports System.Data.SqlClient  
      ```  
@@ -206,10 +206,10 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.  
 
-     ```cs  
+     ```csharp  
      using System.Data.SqlClient;  
      using System.Text.RegularExpressions;  
-     ```  
+     ```
      ```vb  
      Imports System.Data.SqlClient  
      Imports System.Text.RegularExpressions  
