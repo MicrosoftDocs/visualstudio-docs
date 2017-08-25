@@ -46,7 +46,7 @@ translation.priority.mt:
 ### Example  
  This function shows how a managed code EE registers and unregisters itself with Visual Studio.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
@@ -138,7 +138,7 @@ namespace EEMC
 ### Example  
  This function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
   
-```cpp#  
+```cpp  
 /*---------------------------------------------------------  
   Registration  
 -----------------------------------------------------------*/  

@@ -246,11 +246,11 @@ manager: "ghogen"
   
 1.  In the SiteColumnProjectTemplate project, open the AssemblyInfo.cs or AssemblyInfo.vb file, and then add the following statement to the top of it:  
   
-    ```vb#  
+    ```vb  
     Imports System.Security  
     ```  
   
-    ```c#  
+    ```csharp  
     using System.Security;  
     ```  
   

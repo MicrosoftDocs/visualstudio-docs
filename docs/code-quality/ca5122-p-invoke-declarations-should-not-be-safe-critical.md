@@ -39,7 +39,7 @@ translation.priority.ht:
 ## Cause  
  A P/Invoke declaration has been marked with a <xref:System.Security.SecuritySafeCriticalAttribute>:  
   
-```c#  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers]  
   
 // ...  
@@ -60,7 +60,7 @@ public class C
 ## How to Fix Violations  
  To make a P/Invoke available to transparent code, expose a security safe critical wrapper method for it:  
   
-```c#  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers  
   
 class C  

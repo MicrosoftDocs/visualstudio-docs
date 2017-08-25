@@ -35,7 +35,7 @@ Replaces the current debug symbols with those in the specified data stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ReplaceSymbols(  
    ULONG32  ulAppDomainID,  
    GUID     guidModule,  
@@ -43,7 +43,7 @@ HRESULT ReplaceSymbols(
 );  
 ```  
   
-```c#  
+```csharp  
 int ReplaceSymbols(  
    uint    ulAppDomainID,  
    Guid    guidModule,  
@@ -67,7 +67,7 @@ int ReplaceSymbols(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::ReplaceSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

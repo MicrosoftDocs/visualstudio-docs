@@ -85,7 +85,7 @@ Check that your code is working as expected by creating and running unit tests. 
   
  We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:  
   
-```c#  
+```csharp  
   
 public void Withdraw(double amount)  
 {  
@@ -166,7 +166,7 @@ public void Withdraw(double amount)
   
  To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail. In the `CheckingAccountTests` class, we add the following methods:  
   
-```c#  
+```csharp  
 [TestMethod]  
 public void Withdraw_ValidAmount_ChangesBalance()  
 {  
@@ -206,7 +206,7 @@ public void Withdraw_AmountMoreThanBalance_Throws()
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  
   
-```c#  
+```csharp  
 [TestMethod]  
 [Timeout(2000)]  // Milliseconds  
 public void My_Test()  
@@ -220,7 +220,7 @@ public void My_Test()
   
  To set the timeout to the maximum allowed:  
   
-```c#  
+```csharp  
 [TestMethod]  
 [Timeout(TestTimeout.Infinite)]  // Milliseconds  
 public void My_Test ()  
@@ -297,7 +297,7 @@ public void My_Test ()
   
  To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named `AccountsTest.accdb` and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.  
   
-```c#  
+```csharp  
   
 [DataSource(  
     @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\MyBank\TestData\AccountsTest.accdb",   

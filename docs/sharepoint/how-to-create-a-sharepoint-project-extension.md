@@ -44,7 +44,7 @@ manager: "ghogen"
 ## Example  
  The following code example demonstrates how to create a simple project extension that handles most of the SharePoint project events that are defined by the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> interface. To test the code, create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and then add more projects to the solution, change project property values, or delete or exclude a project. The extension notifies you of the events by writing messages to the **Output** window and **Error List** window.  
 
-  ```vb#  
+  ```vb  
     Imports Microsoft.VisualStudio.SharePoint
     Imports System.ComponentModel
     Imports System.ComponentModel.Composition
@@ -113,7 +113,7 @@ manager: "ghogen"
     End Namespace  
     ```  
 
-    ```c#  
+    ```csharp  
     using Microsoft.VisualStudio.SharePoint;
     using System;
     using System.ComponentModel;

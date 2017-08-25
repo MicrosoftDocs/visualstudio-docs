@@ -34,13 +34,13 @@ Retrieves the type or method owner of this generic parameter.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetOwner(  
    IDebugField** ppOwner  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetOwner(  
    out IDebugField ppOwner  
 );  
@@ -56,7 +56,7 @@ int GetOwner(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetOwner(IDebugField** ppOwner)  
 {  
     HRESULT hr = S_OK;  

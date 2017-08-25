@@ -44,7 +44,7 @@ HRESULT GetAllAliases(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAllAliases(  
    uint          uRequest,   
    IDebugAlias[] ppAliases,   

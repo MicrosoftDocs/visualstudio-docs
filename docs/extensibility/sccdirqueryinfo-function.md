@@ -36,7 +36,7 @@ This function examines a list of fully qualified directories for their current s
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccDirQueryInfo(  
 LPVOID  pContext,  
 LONG    nDirs,  

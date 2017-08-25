@@ -65,7 +65,8 @@ Code running inside the Visual Studio process should be updated to use the Visua
 
 Most Visual Studio core assemblies are no longer installed into the GAC. The following changes were made so that code running in Visual Studio process can still find required assemblies at runtime.
 
-> [!NOTE] [INSTALLDIR] below refers to the installation root directory of Visual Studio. VSIXInstaller.exe will automatically populate this, but to write custom deployment code please read [locating Visual Studio](locating-visual-studio.md).
+> [!NOTE]
+> [INSTALLDIR] below refers to the installation root directory of Visual Studio. VSIXInstaller.exe will automatically populate this, but to write custom deployment code, please read [locating Visual Studio](locating-visual-studio.md).
 
 * Assemblies that were only installed into the GAC:
   * These assemblies are now installed under [INSTALLDIR]\Common7\IDE\, [INSTALLDIR]\Common7\IDE\PublicAssemblies or [INSTALLDIR]\Common7\IDE\PrivateAssemblies. These folders are part of the Visual Studio process's probing paths.

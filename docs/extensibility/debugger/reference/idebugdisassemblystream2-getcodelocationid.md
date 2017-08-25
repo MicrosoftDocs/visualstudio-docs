@@ -36,14 +36,14 @@ Returns a code location identifier for a particular code context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCodeLocationId(   
    IDebugCodeContext2* pCodeContext,  
    UINT64*             puCodeLocationId  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCodeLocationId(   
    IDebugCodeContext2 pCodeContext,  
    out ulong          puCodeLocationId  

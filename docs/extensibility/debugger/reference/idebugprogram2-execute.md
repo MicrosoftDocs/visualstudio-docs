@@ -39,13 +39,13 @@ Continues running this program from a stopped state. Any previous execution stat
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Execute(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int Execute();  
 ```  
   

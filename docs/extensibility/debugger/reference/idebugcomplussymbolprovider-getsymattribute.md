@@ -35,7 +35,7 @@ Retrieves the debug symbols with the given parent attribute for the specified mo
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSymAttribute (  
    ULONG32  ulAppDomainID,  
    GUID     guidModule,  
@@ -47,7 +47,7 @@ HRESULT GetSymAttribute (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSymAttribute (  
    uint      ulAppDomainID,  
    Guid      guidModule,  
@@ -87,7 +87,7 @@ int GetSymAttribute (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetSymAttribute(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

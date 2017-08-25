@@ -71,7 +71,7 @@ translation.priority.ht:
   
  **Examples of Incorrect Usage**  
   
-```c#  
+```csharp  
 public class MyCollection : CollectionBase  
 {  
 }  
@@ -83,7 +83,7 @@ public class MyReadOnlyCollection : ReadOnlyCollectionBase
   
  **Examples of Correct Usage**  
   
-```c#  
+```csharp  
 public class MyCollection : Collection<T>  
 {  
 }  

@@ -36,13 +36,13 @@ Gets the parent property of a property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetParent (   
    IDebugProperty2** ppParent  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetParent (   
    out IDebugProperty2 ppParent  
 );  

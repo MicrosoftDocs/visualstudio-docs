@@ -34,13 +34,13 @@ Sets the service provider.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetSite(  
    IServiceProvider * pSP  
 );  
 ```  
   
-```c#  
+```csharp  
 public int SetSite(  
    IServiceProvider pSP  
 );  

@@ -36,14 +36,14 @@ This method obtains the name of the enumeration constant given its value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetStringFromValue(  
    ULONGLONG value,  
    BSTR*     pbstrValue  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetStringFromValue(  
    ulong      value,  
    out string pbstrValue  

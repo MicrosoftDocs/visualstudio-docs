@@ -50,7 +50,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
   
 1.  Open the FirstPackage.cs file. Look for the declaration of the FirstPackage class. Replace the existing attributes with following:  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About  
     [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
@@ -60,7 +60,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
   
 2.  Let's add a message that lets us know that the VSPackage has loaded. We use the VSPackage's Initialize() method to do this, because you can get Visual Studio services only after the VSPackage has been sited. (For more information about getting services, see [How to: Get a Service](../extensibility/how-to-get-a-service.md).) Replace the Initialize() method of FirstPackage with code that gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, gets the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, and calls its <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox%2A> method.  
   
-    ```c#  
+    ```csharp  
     protected override void Initialize()  
     {  
         base.Initialize();  

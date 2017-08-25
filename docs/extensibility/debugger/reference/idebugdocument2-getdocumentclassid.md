@@ -36,13 +36,13 @@ Gets the class identifier of the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentClassID(   
    CLSID* pclsid  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentClassID(   
    out Guid pclsid  
 );  

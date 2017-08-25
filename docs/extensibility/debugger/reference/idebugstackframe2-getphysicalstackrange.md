@@ -36,14 +36,14 @@ Gets a machine-dependent representation of the range of physical addresses assoc
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPhysicalStackRange (   
    UINT64* paddrMin,  
    UINT64* paddrMax  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPhysicalStackRange (   
    out ulong paddrMin,  
    out ulong paddrMax  

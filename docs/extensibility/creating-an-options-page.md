@@ -54,20 +54,20 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Add the following using statement.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel;  
     ```  
   
 3.  Declare an OptionPageGrid class and derive it from <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageGrid : DialogPage  
     {  }  
     ```  
   
 4.  Apply a <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the VSPackage class to assign to the class an options category and options page name for the OptionPageGrid. The result should look like this:  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
@@ -85,7 +85,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
     -   Apply a <xref:System.ComponentModel.DescriptionAttribute?displayProperty=fullName> to assign to the property a description.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageGrid : DialogPage  
     {  
         private int optionInt = 256;  
@@ -125,7 +125,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 3.  Add an `OptionPageCustom` class, just before the `OptionPageGrid` class. Derive the new class from `DialogPage`.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageCustom : DialogPage  
     {  
         private string optionValue = "alpha";  
@@ -140,7 +140,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 4.  Add a GUID attribute. Add an OptionString property:  
   
-    ```c#  
+    ```csharp  
     [Guid("00000000-0000-0000-0000-000000000000")]  
     public class OptionPageCustom : DialogPage  
     {  
@@ -156,7 +156,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 5.  Apply a second <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the VSPackage class. This attribute assigns the class an options category and options page name.  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
@@ -176,7 +176,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 8.  Add a public `OptionsPage` field, an `Initialize` method to the control class, and update the event handler to set the option value to the contents of the text box:  
   
-    ```c#  
+    ```csharp  
     public partial class MyUserControl : UserControl  
     {  
         public MyUserControl()  
@@ -202,7 +202,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 9. In the package code file, add an override for the `OptionPageCustom.Window` property to the OptionPageCustom class to create, initialize, and return an instance of `MyUserControl`. The class should now look like this:  
   
-    ```c#  
+    ```csharp  
     [Guid("00000000-0000-0000-0000-000000000000")]  
     public class OptionPageCustom : DialogPage  
     {  
@@ -258,7 +258,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 3.  In the MyToolsOptionsCommand file, replace the body of the command's `ShowMessageBox` method with the following:  
   
-    ```c#  
+    ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)  
     {  
         MyToolsOptionsPackage myToolsOptionsPackage = this.package as MyToolsOptionsPackage;  

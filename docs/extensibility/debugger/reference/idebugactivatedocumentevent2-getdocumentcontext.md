@@ -37,13 +37,13 @@ Gets the document context that describes the position in the document that is to
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext (   
    IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppDocContext  
 );  

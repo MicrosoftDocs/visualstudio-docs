@@ -61,14 +61,14 @@ You can extend the functionality of a dataset by creating a partial class file f
   
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:  
   
-    ```vb#  
+    ```vb  
     Partial Public Class CustomersDataTable  
         ' Add code here to add functionality   
         ' to the CustomersDataTable.  
     End Class  
     ```  
   
-    ```c#  
+    ```csharp  
     partial class CustomersDataTable  
     {  
         // Add code here to add functionality  

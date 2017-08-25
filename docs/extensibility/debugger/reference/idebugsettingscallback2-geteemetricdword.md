@@ -34,7 +34,7 @@ Retrieves a value that corresponds to the specified metric of the expression eva
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricDword(  
    REFGUID guidLang,  
    REFGUID guidVendor,  
@@ -43,7 +43,7 @@ HRESULT GetEEMetricDword(
 );  
 ```  
   
-```c#  
+```csharp  
 private int GetEEMetricDword(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

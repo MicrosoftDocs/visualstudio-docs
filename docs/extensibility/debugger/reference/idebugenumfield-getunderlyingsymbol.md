@@ -36,13 +36,13 @@ This method returns an [IDebugField](../../../extensibility/debugger/reference/i
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetUnderlyingSymbol(  
    IDebugField** ppField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetUnderlyingSymbol(  
    out IDebugField ppField  
 );  

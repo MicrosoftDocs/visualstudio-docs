@@ -36,13 +36,13 @@ Gets the name of the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgramName (   
    BSTR* pbstrProgramName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProgramName (   
    out string pbstrProgramName  
 );  
@@ -61,7 +61,7 @@ int GetProgramName ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface. The `MakeBstr` function allocates a copy of the specified string as a BSTR.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {    
    if (!pbstrProgramName)    
       return E_INVALIDARG;    

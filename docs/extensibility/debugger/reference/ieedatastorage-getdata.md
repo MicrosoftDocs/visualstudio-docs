@@ -36,7 +36,7 @@ Retrieves the specified number of bytes from the object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetData(  
    ULONG  dataSize,  
    ULONG* sizeGotten,  
@@ -44,7 +44,7 @@ HRESULT GetData(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetData(  
    uint     dataSize,  
    out uint sizeGotten,  

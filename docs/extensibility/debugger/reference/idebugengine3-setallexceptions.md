@@ -42,7 +42,7 @@ HRESULT SetAllExceptions(
 );  
 ```  
   
-```c#  
+```csharp  
 int SetAllExceptions(  
    enum_EXCEPTION_STATE dwState  
 );  

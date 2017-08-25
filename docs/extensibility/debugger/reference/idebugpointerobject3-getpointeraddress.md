@@ -35,13 +35,13 @@ Retrieves the address of the pointer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPointerAddress (  
    UINT64* puAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPointerAddress (  
    out ulong puAddress  
 );  

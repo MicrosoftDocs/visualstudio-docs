@@ -39,7 +39,7 @@ This is a callback function used by the [SccQueryChanges](../extensibility/sccqu
   
 ## Signature  
   
-```cpp#  
+```cpp  
 typedef BOOL (*QUERYCHANGESFUNC)(  
    LPVOID pvCallerData,  
    QUERYCHANGESDATA * pChangesData  
@@ -65,7 +65,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 ##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure  
  The structure passed in for each file looks like the following:  
   
-```cpp#  
+```cpp  
 struct QUERYCHANGESDATA_A  
 {  
     DWORD  dwSize;  

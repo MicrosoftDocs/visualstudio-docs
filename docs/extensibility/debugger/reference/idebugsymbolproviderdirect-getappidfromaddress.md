@@ -35,14 +35,14 @@ Retrieves the application domain identifier given the debug address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAppIDFromAddress(  
    IDebugAddress* pAddress,  
    DWORD*         pAppID  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAppIDFromAddress(  
    IDebugAddress pAddress,  
    out uint      pAppID  

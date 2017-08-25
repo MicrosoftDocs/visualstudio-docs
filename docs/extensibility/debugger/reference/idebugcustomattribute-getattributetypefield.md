@@ -36,13 +36,13 @@ Gets the custom attribute class type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAttributeTypeField(   
    IDebugClassField** ppCAType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAttributeTypeField(  
    out IDebugClassField ppCAType  
 );  

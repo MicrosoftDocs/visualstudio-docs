@@ -36,13 +36,13 @@ Removes a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT RemovePort(   
    IDebugPort2* pPort  
 );  
 ```  
   
-```c#  
+```csharp  
 int RemovePort(   
    IDebugPort2 pPort  
 );  

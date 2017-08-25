@@ -36,13 +36,13 @@ Gets the scope of the disassembly stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetScope(   
    DISASSEMBLY_STREAM_SCOPE* pdwScope  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetScope(   
    out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope  
 );  

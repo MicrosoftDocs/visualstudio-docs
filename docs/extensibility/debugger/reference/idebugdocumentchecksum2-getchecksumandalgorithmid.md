@@ -35,7 +35,7 @@ Retrieves the document checksum and algorithm identifier given the maximum numbe
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetChecksumAndAlgorithmId(   
    GUID  *pRetVal,  
    ULONG cMaxBytes,  
@@ -44,7 +44,7 @@ HRESULT GetChecksumAndAlgorithmId(
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetChecksumAndAlgorithmId(   
    out Guid pRetVal,  
    uint     cMaxBytes,  
@@ -72,7 +72,7 @@ public int GetChecksumAndAlgorithmId(
 ## Example  
  The following example uses this method to get the checksum and algorithm for a document.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugCodeContext::GetDocumentChecksumAndAlgorithmId(GUID *pguidAlgorithm, BYTE **ppChecksum, ULONG *pcNumBytes)  
 {  
     HRESULT hRes = E_FAIL;  

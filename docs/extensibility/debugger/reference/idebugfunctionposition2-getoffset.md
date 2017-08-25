@@ -36,13 +36,13 @@ Retrieves the position of the function in the source document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetOffset(   
    TEXT_POSITION* pPosition  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetOffset(  
    TEXT_POSITION[] pPosition  
 );  

@@ -36,7 +36,7 @@ Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReferenceInfo (   
    DEBUGREF_INFO_FLAGS   dwFields,  
    DWORD                 nRadix,  
@@ -47,7 +47,7 @@ HRESULT GetReferenceInfo ( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReferenceInfo (   
    enum_DEBUGREF_INFO_FLAGS  dwFields,  
    uint                      nRadix,  

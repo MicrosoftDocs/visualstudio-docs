@@ -45,11 +45,11 @@ You next add a comment to your code. A comment is a note that doesn't change the
   
      The following is an example of a statement.  
   
-    ```c#  
+    ```csharp  
     pictureBox1.Load(openFileDialog1.FileName);  
     ```  
   
-    ```vb#  
+    ```vb  
     pictureBox1.Load(openFileDialog1.FileName)  
     ```  
   

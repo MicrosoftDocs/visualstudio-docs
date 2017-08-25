@@ -36,13 +36,13 @@ Gets the name of the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetName(   
    out string pbstrName  
 );  

@@ -92,14 +92,14 @@ manager: "ghogen"
   
 4.  Apply the following <xref:System.Runtime.InteropServices.ComVisibleAttribute> and <xref:Microsoft.VisualBasic.ComClassAttribute> attributes to the class that you are exposing to VBA. These attributes make the class visible to VBA.  
   
-    ```vb#  
+    ```vb  
     <Microsoft.VisualBasic.ComClass()> _  
     <System.Runtime.InteropServices.ComVisibleAttribute(True)> _  
     ```  
   
 5.  Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA. The following code example assumes that you are exposing a class named `DocumentUtilities` to VBA.  
   
-    ```vb#  
+    ```vb  
     Protected Overrides Function GetAutomationObject() As Object  
         Return New DocumentUtilities()  
     End Function  

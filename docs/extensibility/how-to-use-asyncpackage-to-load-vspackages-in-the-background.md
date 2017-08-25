@@ -36,21 +36,21 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
      To indicate to Visual Studio that your package is safe for background loading and to opt into this behavior, your <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> should set **AllowsBackgroundLoading** property to true in the attribute constructor.  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]  
   
     ```  
   
      To indicate to Visual Studio that it is safe to instantiate your service on a background thread, you should set the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttributeBase.IsAsyncQueryable%2A> property to true in the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> constructor.  
   
-    ```c#  
+    ```csharp  
     [ProvideService(typeof(SMyTestService), IsAsyncQueryable = true)]  
   
     ```  
   
 3.  If you are loading via UI contexts, then you should specify **PackageAutoLoadFlags.BackgroundLoad** for the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> OR the value (0x2) into the flags written as the value of your package's auto-load entry.  
   
-    ```c#  
+    ```csharp  
     [ProvideAutoLoad(UIContextGuid, PackageAutoLoadFlags.BackgroundLoad)]  
   
     ```  
@@ -59,7 +59,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
      NOTE: To call **base.InitializeAsync()**, you can change your source code to:  
   
-    ```c#  
+    ```csharp  
     await base.InitializeAsync(cancellationToken, progress);  
     ```  
   
@@ -69,7 +69,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
  C#: Create an AsyncPackage :  
   
-```c#  
+```csharp  
 [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]       
 [ProvideService(typeof(SMyTestService), IsAsyncQueryable = true)]   
 public sealed class TestPackage : AsyncPackage   
@@ -106,7 +106,7 @@ public sealed class TestPackage : AsyncPackage
   
  C#: How to query service asynchronously:  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Shell;   
 using Microsoft.VisualStudio.Shell.Interop;   
   

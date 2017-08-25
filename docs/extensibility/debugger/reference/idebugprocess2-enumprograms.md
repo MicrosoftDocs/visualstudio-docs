@@ -36,13 +36,13 @@ Retrieves a list of all the programs contained by this process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPrograms(   
    IEnumDebugPrograms2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumPrograms(   
    out IEnumDebugPrograms2 ppEnum  
 );  

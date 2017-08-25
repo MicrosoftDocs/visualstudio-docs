@@ -43,7 +43,7 @@ HRESULT FindAlias(
 );  
 ```  
   
-```c#  
+```csharp  
 int FindAlias(  
    string          pcstrName,  
    out IDebugAlias ppAlias  

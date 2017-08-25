@@ -42,7 +42,7 @@ There are several common problems that can occur when you try to get a service:
   
  If the requested service cannot be obtained, the call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> returns null. You should always test for null after requesting a service:  
   
-```c#  
+```csharp  
 IVsActivityLog log =   
     GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
 if (log == null) return;  

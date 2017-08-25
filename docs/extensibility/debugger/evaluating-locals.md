@@ -49,7 +49,7 @@ translation.priority.mt:
 ## Managed Code  
  This is an implementation of a function that retrieves the value of a local in managed code.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     internal class Field  
@@ -91,7 +91,7 @@ namespace EEMC
 ## Unmanaged Code  
  This is an implementation of a function that retrieves the value of a local in unmanaged code. `FieldGetType` is shown in [Getting Local Values](../../extensibility/debugger/getting-local-values.md).  
   
-```cpp#  
+```cpp  
 HRESULT FieldGetPrimitiveValue(  
     in  IDebugBinder* pbinder,  
     in  IDebugField*  pfield,  

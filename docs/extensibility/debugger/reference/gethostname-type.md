@@ -36,7 +36,7 @@ Specifies the type of host name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_GETHOSTNAME_TYPE {   
    GHN_FRIENDLY_NAME = 0,  
    GHN_FILE_NAME     = 1  
@@ -44,7 +44,7 @@ enum enum_GETHOSTNAME_TYPE { 
 typedef DWORD GETHOSTNAME_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_GETHOSTNAME_TYPE {   
    GHN_FRIENDLY_NAME = 0,  
    GHN_FILE_NAME     = 1  

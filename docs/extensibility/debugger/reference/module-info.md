@@ -36,7 +36,7 @@ Describes a particular module (DLL, EXE, or assembly).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagMODULE_INFO {   
    MODULE_INFO_FIELDS dwValidFields;  
    BSTR               m_bstrName;  
@@ -53,7 +53,7 @@ typedef struct tagMODULE_INFO { 
 } MODULE_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct MODULE_INFO {   
    public uint     dwValidFields;  
    public string   m_bstrName;  

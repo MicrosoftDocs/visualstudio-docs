@@ -34,12 +34,12 @@ Executes the debugger program. The thread is returned to give the debugger infor
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ExecuteOnThread(  
    [in] IDebugThread2* pThread)  
 ```  
   
-```c#  
+```csharp  
 int ExecuteOnThread(  
    IDebugThread2 pThread  
 );  

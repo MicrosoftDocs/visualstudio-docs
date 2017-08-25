@@ -36,13 +36,13 @@ Gets the description of a port that was previously used to create the port (if a
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortRequest(   
    IDebugPortRequest2** ppRequest  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPortRequest(   
    out IDebugPortRequest2 ppRequest  
 );  

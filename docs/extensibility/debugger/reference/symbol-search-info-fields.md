@@ -36,7 +36,7 @@ Specifies the kind of symbol information to retrieve.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
    SSIF_NONE                = 0x00000000,  
@@ -45,7 +45,7 @@ enum enum_SYMBOL_SEARCH_INFO_FIELDS
 typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
    SSIF_NONE                = 0x00000000,  
