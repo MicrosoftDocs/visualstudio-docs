@@ -41,11 +41,11 @@ By default, the workload installs the following options, which you can modify in
 - Python:
     - Python language support
     - Python web support
-    - Anaconda3 64-bit
+    - [Anaconda3 64-bit](https://www.continuum.io) (a Python interpreter that includes extensive data science libraries)
     - Cookiecutter template support
 - R:
     - R language support    
-    - Microsoft R client
+    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (the R interpreter)
     - Runtime support for R development tools
 
 > [!Note]
@@ -53,7 +53,9 @@ By default, the workload installs the following options, which you can modify in
 
 ## SQL Server integration
 
-SQL Server 2017 CTP 2.0 and later supports using both R and Python to do advanced analytics directly inside SQL Server. By running your code to where your data already lives, you enjoy a number of advantages:
+SQL Server supports using both R and Python to do advanced analytics directly inside SQL Server. R support is included with SQL Server 2016 and later; Python support is available in SQL Server 2017 CTP 2.0 and later.
+
+By running your code to where your data already lives, you enjoy a number of advantages:
 
 - **Elimination of data movement**: Instead of moving data from the database to your application or model, you can build R and Python applications in the database. This capability eliminates barriers of security, compliance, governance, integrity, and a host of similar issues related to moving vast amounts of data around. It also enables you to consume datasets that couldn't fit into the memory of a client machine.
 
@@ -64,6 +66,11 @@ SQL Server 2017 CTP 2.0 and later supports using both R and Python to do advance
 - **Rich extensibility**: You can install and run any of the latest open source R or Python packages in SQL Server to build deep learning and AI applications on huge amounts of data in SQL Server. Installing a package in SQL Server is as simple as installing a package on your local machine.
 
 - **Wide availability at no additional cost**: R and Python integrations are available in all editions of SQL Server 2017 and later, including the Express edition. (R support is available in SQL Server 2016 and later.)
+
+To take full advantage of SQL Server integration, you should also install the **Data storage and processing** workload with the **SQL Server Data Tools** option. This option enables SQL IntelliSense, syntax highlighting, and deployment.
+
+![Data storage and processing workload](media/data-storage-workload.png) &nbsp;&nbsp; &nbsp;&nbsp; ![Data storage and processing workload options](media/data-storage-workload-options.png)
+
 
 For more information:
 
