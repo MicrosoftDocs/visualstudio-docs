@@ -36,13 +36,13 @@ Suspends a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Suspend (   
    DWORD *pdwSuspendCount  
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT Suspend (   
    out uint pdwSuspendCount  
 );  

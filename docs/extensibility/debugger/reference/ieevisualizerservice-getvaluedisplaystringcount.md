@@ -35,7 +35,7 @@ Retrieves the number of value strings to display for the specified property or f
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetValueDisplayStringCount (  
    DWORD         displayKind,   
    IDebugField * propertyOrField,   
@@ -43,7 +43,7 @@ HRESULT GetValueDisplayStringCount (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValueDisplayStringCount (  
    uint        displayKind,   
    IDebugField propertyOrField,   

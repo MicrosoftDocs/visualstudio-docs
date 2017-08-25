@@ -55,7 +55,7 @@ When the physical file representing the text buffer has been changed, a dialog b
 ## Example  
  The following demonstrates how to suppress file change notification.  
   
-```cpp#  
+```cpp  
 //Misc. helper classes  
   
 CSuspendFileChanges::CSuspendFileChanges(  

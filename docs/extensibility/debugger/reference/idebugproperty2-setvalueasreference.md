@@ -36,7 +36,7 @@ Sets the value of this property to the value of the given reference.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsReference(  
    IDebugReference2** rgpArgs,  
    DWORD              dwArgCount,  
@@ -45,7 +45,7 @@ HRESULT SetValueAsReference(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetValueAsReference(  
    IDebugReference2[] rgpArgs,  
    uint               dwArgCount,  

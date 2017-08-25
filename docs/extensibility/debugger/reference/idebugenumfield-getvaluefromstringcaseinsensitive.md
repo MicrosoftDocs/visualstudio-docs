@@ -36,14 +36,14 @@ This method uses a case-insensitive search to return the value associated with t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetValueFromStringCaseInsensitive(  
    LPCOLESTR  pszValue,  
    ULONGLONG* pvalue  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValueFromStringCaseInsensitive(  
    string    pszValue,   
    out ulong pValue  

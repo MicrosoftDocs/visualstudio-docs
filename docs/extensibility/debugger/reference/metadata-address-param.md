@@ -44,7 +44,7 @@ typedef struct _tagMETADATA_ADDRESS_PARAM {
 } METADATA_ADDRESS_PARAM;  
 ```  
   
-```cs  
+```csharp  
 public struct METADATA_ADDRESS_PARAM {  
    public int  tokMethod;  
    public int  tokParam;  

@@ -37,13 +37,13 @@ Enumerates all breakpoints bound from this pending breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumBoundBreakpoints(   
    IEnumDebugBoundBreakpoints2** ppEnum  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumBoundBreakpoints(   
    out IEnumDebugBoundBreakpoints2 ppEnum  
 );  
@@ -59,7 +59,7 @@ int EnumBoundBreakpoints( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::EnumBoundBreakpoints(IEnumDebugBoundBreakpoints2** ppEnum)    
 {    
    HRESULT hr;    

@@ -36,13 +36,13 @@ Gets the name of the custom attribute.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* bstrName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetName(  
    out string bstrName  
 );  

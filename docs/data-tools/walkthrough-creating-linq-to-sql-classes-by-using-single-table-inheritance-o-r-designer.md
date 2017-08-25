@@ -172,7 +172,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     Next  
     ```  
   
-    ```cs  
+    ```csharp  
     NorthwindDataContext dc = new DataClasses1DataContext();  
     var results = from emp in dc.Persons  
                   where emp is Employee  

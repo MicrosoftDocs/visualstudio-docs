@@ -36,13 +36,13 @@ Resumes execution of a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Resume (   
    DWORD *pdwSuspendCount  
 );  
 ```  
   
-```cs  
+```csharp  
 int Resume (   
    out uint pdwSuspendCount  
 );  

@@ -36,13 +36,13 @@ Gets the class that encloses this class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEnclosingClass(   
    IDebugClassField** ppClassField  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEnclosingClass(  
    out IDebugClassField ppClassField  
 );  

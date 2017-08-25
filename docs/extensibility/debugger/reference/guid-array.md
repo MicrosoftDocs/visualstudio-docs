@@ -34,7 +34,7 @@ Describes an array of unique identifiers for available debug engines.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagGUID_ARRAY  
 {  
    DWORD dwCount;  
@@ -42,7 +42,7 @@ typedef struct tagGUID_ARRAY
 } GUID_ARRAY;  
 ```  
   
-```cs  
+```csharp  
 public struct GUID_ARRAY  
 {  
    public uint dwCount;  

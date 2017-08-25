@@ -182,7 +182,7 @@ manager: "ghogen"
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")  
 ```  
   
-```cs  
+```csharp  
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, null);  
 ```  
   

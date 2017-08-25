@@ -58,7 +58,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
 1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.  
   
-    ```cs  
+    ```csharp  
     public partial class ChartControl : UserControl  
     {  
         // Overridden to return the custom AccessibleObject for the control.  
@@ -100,7 +100,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
 1.  Override the curve legend accessible object's <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string, separated from the main description (and each other if you are implementing multiple properties) by semicolons (;).  
   
-    ```cs  
+    ```csharp  
     public class CurveLegendAccessibleObject : AccessibleObject  
     {  
         // add the state property value to the description  
@@ -120,7 +120,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
 3.  Add a property provider class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>.  
   
-    ```cs  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using Accessibility;  

@@ -93,7 +93,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 3.  Write a basic test method. Verify the result obtained for a specific input:  
   
-    ```cs  
+    ```csharp  
   
     [TestMethod]  
     public void BasicRooterTest()  
@@ -143,7 +143,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 1.  In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:  
   
-    ```cs  
+    ```csharp  
     public double SquareRoot(double input)  
      {  
        return input / 2;  
@@ -167,7 +167,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
      In your test class, add the following test, which tries a range of input values:  
   
-    ```cs  
+    ```csharp  
     [TestMethod]  
     public void RooterValueRange()  
     {  
@@ -221,7 +221,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 1.  Add a test for negative inputs:  
   
-    ```cs  
+    ```csharp  
     [TestMethod]  
      public void RooterTestNegativeInputx()  
      {  
@@ -248,7 +248,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 4.  Fix the method code:  
   
-    ```cs  
+    ```csharp  
   
     public double SquareRoot(double input)  
     {  
@@ -272,7 +272,7 @@ We recommend that you create unit tests to help keep your code working correctly
     >   
     >  We recommend that you perform refactoring steps separately from steps that extend functionality. Keeping the tests unchanged gives you confidence that you have not accidentally introduced bugs while refactoring.  
   
-    ```cs  
+    ```csharp  
     public class Rooter  
     {  
       public double SquareRoot(double input)  

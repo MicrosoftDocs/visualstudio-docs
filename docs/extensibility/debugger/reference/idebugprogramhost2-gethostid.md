@@ -36,13 +36,13 @@ Gets the process identifier of the process hosting this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostId(   
    AD_PROCESS_ID* pdwId  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHostId(   
    AD_PROCESS_ID[] pdwId  
 );  

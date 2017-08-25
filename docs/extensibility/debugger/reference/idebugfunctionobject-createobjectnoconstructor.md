@@ -36,14 +36,14 @@ Creates an object with no constructor.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateObjectNoConstructor(   
    IDebugField*   pClassObject,  
    IDebugObject** ppObject  
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateObjectNoConstructor(  
    IDebugField      pClassField,   
    out IDebugObject ppObject  

@@ -36,7 +36,7 @@ Visual Studio Tools for Unity registers a log callback with Unity to be able to 
   
 ## Example  
   
-```cs  
+```csharp  
 using System;  
   
 using UnityEngine;  

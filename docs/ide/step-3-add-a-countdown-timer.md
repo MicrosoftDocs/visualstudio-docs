@@ -80,7 +80,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
     End If  
     ```  
   
-    ```cs  
+    ```csharp  
     if (something that your program will check)  
     {  
         // One or more statements that will run  

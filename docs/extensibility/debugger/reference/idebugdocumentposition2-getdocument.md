@@ -36,13 +36,13 @@ Gets the containing document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    IDebugDocument2** ppDoc  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDocument(   
    out IDebugDocument2 ppDoc  
 );  

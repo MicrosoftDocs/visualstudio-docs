@@ -36,7 +36,7 @@ This method gets extended information about a field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExtendedInfo(   
    REFGUID guidExtendedInfo,  
    BYTE**  prgBuffer,  
@@ -44,7 +44,7 @@ HRESULT GetExtendedInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExtendedInfo(  
    ref Guid guidExtendedInfo,   
    IntPtr[] prgBuffer,   

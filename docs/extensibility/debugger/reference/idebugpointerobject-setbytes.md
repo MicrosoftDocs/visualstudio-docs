@@ -36,7 +36,7 @@ Sets the value pointed to from a series of consecutive bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetBytes(   
    DWORD  dwStart,  
    DWORD  dwCount,  
@@ -45,7 +45,7 @@ HRESULT SetBytes( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetBytes(  
    uint     dwStart,   
    uint     dwCount,   

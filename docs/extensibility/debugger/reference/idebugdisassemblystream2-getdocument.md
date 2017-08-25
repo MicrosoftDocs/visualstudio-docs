@@ -36,14 +36,14 @@ Gets the source document associated with this input stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    BSTR              bstrDocumentUrl,  
    IDebugDocument2** ppDocument  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDocument(   
    string              bstrDocumentUrl,  
    out IDebugDocument2 ppDocument  

@@ -49,7 +49,7 @@ enum enum_PROVIDER_FLAGS {
 typedef DWORD PROVIDER_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_PROVIDER_FLAGS {  
    PFLAG_NONE                    = 0x00,  
    PFLAG_REMOTE_PORT             = 0x01,  

@@ -36,7 +36,7 @@ This function deletes files from the source control system.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccRemove(  
    LPVOID    pvContext,  
    HWND      hWnd,  

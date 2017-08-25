@@ -114,7 +114,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
 *  A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn't handle it:  
   
-    ```cs 
+    ```csharp 
     public class Class1  
     {  
         public void ThrowHandledException()  

@@ -36,14 +36,14 @@ Gets the value of the object as a consecutive series of bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetValue(   
    BYTE* pValue,  
    UINT  nSize  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValue(  
    ref byte[] pValue,   
    uint nSize  

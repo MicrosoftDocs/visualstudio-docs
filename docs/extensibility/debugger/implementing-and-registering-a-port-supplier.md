@@ -38,7 +38,7 @@ The role of a port supplier is to track and supply ports, which in turn manage p
   
  In addition to the typical COM registration, a port supplier must register itself with Visual Studio by placing its CLSID and name in specific registry locations. A Debugging SDK helper function called `SetMetric` handles this chore: it is called once for each item to be registered, thus:  
   
-```cpp#  
+```cpp  
 SetMetric(metrictypePortSupplier,  
           <GUID of your port supplier>,  
           metricCLSID,  
@@ -55,7 +55,7 @@ SetMetric(metrictypePortSupplier,
   
  A port supplier unregisters itself by calling `RemoveMetric` (another Debugging SDK helper function) once for each item that was registered, thus:  
   
-```cpp#  
+```cpp  
 RemoveMetric(metrictypePortSupplier,  
              <GUID of your port supplier>,  
              metricCLSID,  

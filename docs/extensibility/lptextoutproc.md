@@ -43,7 +43,7 @@ When the user executes a source control operation from inside the integrated dev
 ## Signature  
  The IDE's output function has the following signature:  
   
-```cpp#  
+```cpp  
 typedef LONG (*LPTEXTOUTPROC) (  
    LPSTR display_string,  
    LONG mesg_type  
@@ -83,7 +83,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ###  <a name="LinkSccMsgDataIsCancelled"></a> SccMsgDataIsCancelled  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
 } SccMsgDataIsCancelled;  
@@ -93,7 +93,7 @@ typedef struct {
   
 ###  <a name="LinkSccMsgDataOnBeforeGetFile"></a> SccMsgDataOnBeforeGetFile  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
    PCSTR szFile;  
@@ -104,7 +104,7 @@ typedef struct {
   
 ###  <a name="LinkSccMsgDataOnAfterGetFile"></a> SccMsgDataOnAfterGetFile  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
    PCSTR szFile;  
@@ -130,7 +130,7 @@ typedef struct {
 ## Code Example  
  Here is a brief example of calling `LPTEXTOUTPROC` to send the `SCC_MSG_BACKGROUND_ON_MESSAGE` message, showing how to cast the structure for the call.  
   
-```cpp#  
+```cpp  
 LONG SendStatusMessage(  
     LPTEXTOUTPROC pTextOutProc,  
     DWORD         dwBackgroundID,  

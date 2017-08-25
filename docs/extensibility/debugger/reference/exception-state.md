@@ -36,7 +36,7 @@ Specifies the exception state.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EXCEPTION_STATE {   
    EXCEPTION_NONE                          = 0x0000,  
    EXCEPTION_STOP_FIRST_CHANCE             = 0x0001,  
@@ -61,7 +61,7 @@ enum enum_EXCEPTION_STATE { 
 typedef DWORD EXCEPTION_STATE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_EXCEPTION_STATE {   
    EXCEPTION_NONE                          = 0x0000,  
    EXCEPTION_STOP_FIRST_CHANCE             = 0x0001,  

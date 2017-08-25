@@ -43,7 +43,7 @@ HRESULT GetExceptionObjectAndType(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExceptionObjectAndType(  
    out IDebugObject ppException,  
    out IDebugField  ppField  

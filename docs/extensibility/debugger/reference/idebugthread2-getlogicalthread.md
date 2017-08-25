@@ -36,14 +36,14 @@ Debug engines do not implement this method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLogicalThread(   
    IDebugStackFrame2*     pStackFrame,  
    IDebugLogicalThread2** ppLogicalThread  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLogicalThread(   
    IDebugStackFrame2        pStackFrame,  
    out IDebugLogicalThread2 ppLogicalThread  

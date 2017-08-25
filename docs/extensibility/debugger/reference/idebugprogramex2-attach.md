@@ -36,7 +36,7 @@ Attach a session to a program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Attach(   
    IDebugEventCallback2* pCallback,  
    DWORD                 dwReason,  

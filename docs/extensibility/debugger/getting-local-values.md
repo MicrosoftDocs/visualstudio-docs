@@ -50,7 +50,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in managed code. It also shows a helper function, `Field.GetType`, that is used to get the field's type. `Field.GetValue` is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md). The helper function `Field.MapModifiersToAttributes` (not shown) simply converts a field's [FIELD_MODIFIERS](../../extensibility/debugger/reference/field-modifiers.md) flags to [DBG_ATTRIB_FLAGS](../../extensibility/debugger/reference/dbg-attrib-flags.md) values.  
   
-```cs  
+```csharp  
 namespace EEMC  
 {  
     public class CFieldProperty : IDebugProperty2  
@@ -190,7 +190,7 @@ namespace EEMC
 ## Unmanaged Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in unmanaged code. It also shows two helper functions, `FieldGetType` and `FieldGetValue` that are used to get the field's type and value, respectively. Note that `VARIANT`s are used for the field's value and type as a `VARIANT` can handle a wide variety of value types. In this implementation, `FieldGetValue` returns an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object that is later converted to a value in a call to `FieldGetPrimitiveValue` (which is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md)).  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CFieldProperty::GetPropertyInfo(   
     in  DEBUGPROP_INFO_FLAGS infoFlags,  
     in  DWORD                radix,  

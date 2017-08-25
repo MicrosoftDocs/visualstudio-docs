@@ -36,14 +36,14 @@ Gets a description of the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(  
    PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO*        pProcessInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInfo(  
    enum_PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO[]            pProcessInfo  

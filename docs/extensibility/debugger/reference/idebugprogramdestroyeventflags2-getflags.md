@@ -35,13 +35,13 @@ Retrieves the program destroy flags.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFlags(  
    PROGRAM_DESTROY_FLAGS* pdwFlags  
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetFlags(  
    out enum_PROGRAM_DESTROY_FLAGS pdwFlags  
 );  

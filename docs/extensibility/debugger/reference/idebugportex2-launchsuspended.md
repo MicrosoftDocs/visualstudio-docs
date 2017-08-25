@@ -36,7 +36,7 @@ Launches an executable file.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LaunchSuspended(   
    LPCOLESTR        pszExe,  
    LPCOLESTR        pszArgs,  
@@ -49,7 +49,7 @@ HRESULT LaunchSuspended( 
 );  
 ```  
   
-```cs  
+```csharp  
 int LaunchSuspended(   
    string             pszExe,  
    string             pszArgs,  

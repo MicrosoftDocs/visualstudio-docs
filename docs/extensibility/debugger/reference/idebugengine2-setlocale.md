@@ -36,13 +36,13 @@ Sets the locale of the debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetLocale(   
    WORD wLangID  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetLocale(   
    ushort wLangID  
 );  

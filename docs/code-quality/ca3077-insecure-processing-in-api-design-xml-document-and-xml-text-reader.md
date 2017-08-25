@@ -60,7 +60,7 @@ translation.priority.mt:
   
 ### Violation  
   
-```cs  
+```csharp  
 using System;   
 using System.Xml;   
   
@@ -82,7 +82,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```cs  
+```csharp  
 using System;   
 using System.Xml;   
   

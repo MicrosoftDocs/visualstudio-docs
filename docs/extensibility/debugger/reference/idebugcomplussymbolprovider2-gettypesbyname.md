@@ -35,7 +35,7 @@ Retrieves a type given its name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypesByName(  
    LPCOLESTR          pszClassName,  
    NAME_MATCH         nameMatch,  
@@ -43,7 +43,7 @@ HRESULT GetTypesByName(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypesByName(  
    string               pszClassName,  
    enum_ NAME_MATCH     nameMatch,  
@@ -70,7 +70,7 @@ int GetTypesByName(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetTypesByName(  
     LPCOLESTR pszClassName,  
     NAME_MATCH nameMatch,  

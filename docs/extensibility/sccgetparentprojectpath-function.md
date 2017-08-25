@@ -36,7 +36,7 @@ This function determines the parent project path of a specified project. This fu
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGetParentProjectPath(  
    LPVOID pContext,  
    HWND   hWnd,  

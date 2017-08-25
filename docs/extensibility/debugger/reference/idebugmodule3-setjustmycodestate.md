@@ -36,13 +36,13 @@ Marks the module as being user code or not.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetJustMyCodeState(  
    BOOL fIsUserCode  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetJustMyCodeState(  
    int fIsUserCode  
 );  

@@ -88,7 +88,7 @@ End Sub
     End If  
     ```  
   
-    ```cs  
+    ```csharp  
     // C#  
     // Add this code to the DataTable   
     // partial class.  
@@ -156,7 +156,7 @@ End Sub
   
 5.  The following code shows how to create the `RowChanging` event handler and where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event for C#:  
   
-    ```cs  
+    ```csharp  
     partial class OrdersDataTable  
     {  
         public override void EndInit()  

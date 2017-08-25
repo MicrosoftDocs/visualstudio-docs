@@ -36,7 +36,7 @@ Specifies the name type of files to retrieve.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_GETNAME_TYPE {   
    GN_NAME         = 0,  
    GN_FILENAME     = 1,  
@@ -49,7 +49,7 @@ enum enum_GETNAME_TYPE { 
 typedef DWORD GETNAME_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_GETNAME_TYPE {   
    GN_NAME         = 0,  
    GN_FILENAME     = 1,  

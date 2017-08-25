@@ -71,7 +71,7 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
     End Class  
     ```  
   
-    ```cs  
+    ```csharp  
     public partial class CustomersTableAdapter  
     {  
         // Add code here to add functionality  

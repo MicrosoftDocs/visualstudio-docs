@@ -46,7 +46,7 @@ The ability of MSBuild to use multiple processors can greatly decrease project b
   
  Although only <xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement <xref:Microsoft.Build.Framework.INodeLogger> if you want the central logger to initialize with the number of nodes that are participating in the build. The following overload of the <xref:Microsoft.Build.Framework.ILogger.Initialize%2A> method is invoked when the engine initializes the logger:  
   
-```cs
+```csharp
 public interface INodeLogger: ILogger  
 {  
     public void Initialize(IEventSource eventSource, int nodeCount);  
@@ -60,7 +60,7 @@ public interface INodeLogger: ILogger
   
  You can create a forwarding logger by implementing the <xref:Microsoft.Build.Framework.IForwardingLogger> interface, which derives from <xref:Microsoft.Build.Framework.ILogger>. The interface is defined as:  
   
-```cs
+```csharp
 public interface IForwardingLogger: INodeLogger  
 {  
     public IEventRedirector EventRedirector { get; set; }  

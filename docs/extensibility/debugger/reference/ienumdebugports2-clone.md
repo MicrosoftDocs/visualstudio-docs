@@ -36,13 +36,13 @@ Returns a copy of the current enumeration as a separate object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Clone(  
    IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
-```cs  
+```csharp  
 int Clone(  
    out IEnumDebugPorts2 ppEnum  
 );  
