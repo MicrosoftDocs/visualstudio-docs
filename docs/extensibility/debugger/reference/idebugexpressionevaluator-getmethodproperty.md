@@ -36,7 +36,7 @@ This method gets a property object that contains the locals, arguments, and othe
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMethodProperty(   
    IDebugSymbolProvider* pSymbolProvider,  
    IDebugAddress*        pAddress,  
@@ -46,7 +46,7 @@ HRESULT GetMethodProperty( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMethodProperty(  
    IDebugSymbolProvider pSymbolProvider,   
    IDebugAddress        pAddress,   

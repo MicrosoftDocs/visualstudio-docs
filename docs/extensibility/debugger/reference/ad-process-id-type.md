@@ -36,7 +36,7 @@ Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensib
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_AD_PROCESS_ID {  
    AD_PROCESS_ID_SYSTEM = 0,  
    AD_PROCESS_ID_GUID   = 1  
@@ -44,7 +44,7 @@ enum enum_AD_PROCESS_ID {
 typedef DWORD AD_PROCESS_ID_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_AD_PROCESS_ID {  
    AD_PROCESS_ID_SYSTEM = 0,  
    AD_PROCESS_ID_GUID   = 1  

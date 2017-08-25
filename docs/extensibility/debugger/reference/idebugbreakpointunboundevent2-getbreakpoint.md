@@ -36,13 +36,13 @@ Gets the breakpoint that became unbound.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpoint(   
    IDebugBoundBreakpoint2** ppBP  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetBreakpoint(   
    out IDebugBoundBreakpoint2 ppBP  
 );  
@@ -58,7 +58,7 @@ int GetBreakpoint( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointUnboundDebugEventBase** object that exposes the [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(  
     IDebugBoundBreakpoint2 **ppbp)  
 {  

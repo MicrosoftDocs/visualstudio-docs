@@ -43,7 +43,7 @@ HRESULT EnumPersistedPorts(
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumPersistedPorts(  
    BSTR_ARRAY           PortNames,  
    out IEnumDebugPorts2 ppEnum  

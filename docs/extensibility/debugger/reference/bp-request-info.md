@@ -36,7 +36,7 @@ Contains the information required to implement a breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_REQUEST_INFO {  
    BPREQI_FIELDS   dwFields;  
    GUID            guidLanguage;  
@@ -51,7 +51,7 @@ typedef struct _BP_REQUEST_INFO {
 } BP_REQUEST_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_REQUEST_INFO {  
    public uint           dwFields;  
    public Guid           guidLanguage;  

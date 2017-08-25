@@ -36,11 +36,11 @@ Resets the enumeration sequence to the beginning.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Reset(void);  
 ```  
   
-```c#  
+```csharp  
 int Reset();  
 ```  
   

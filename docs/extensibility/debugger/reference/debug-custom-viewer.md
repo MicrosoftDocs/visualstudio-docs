@@ -47,7 +47,7 @@ typedef struct tagDEBUG_CUSTOM_VIEWER {
 } DEBUG_CUSTOM_VIEWER;  
 ```  
   
-```c#  
+```csharp  
 public struct DEBUG_CUSTOM_VIEWER {  
    public uint   dwID;  
    public string bstrMenuName;  

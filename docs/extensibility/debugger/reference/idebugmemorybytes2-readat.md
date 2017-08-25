@@ -37,7 +37,7 @@ Reads a sequence of bytes, starting at a given location.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ReadAt(   
    IDebugMemoryContext2* pStartContext,  
    DWORD                 dwCount,  
@@ -47,7 +47,7 @@ HRESULT ReadAt( 
 );  
 ```  
   
-```c#  
+```csharp  
 int ReadAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

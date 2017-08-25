@@ -44,21 +44,21 @@ The game works well, as long as the player only chooses pairs of icons that don'
   
      This is a good example that shows the difference. Take a careful look at the code between the parentheses in the `if` statement.  
   
-    ```vb#  
+    ```vb  
     firstClicked.Text = secondClicked.Text  
     ```  
   
-    ```c#  
+    ```csharp  
     firstClicked.Text == secondClicked.Text  
     ```  
   
      Then look closely at the first statement in the block of code after the `if` statement.  
   
-    ```vb#  
+    ```vb  
     firstClicked = Nothing  
     ```  
   
-    ```c#  
+    ```csharp  
     firstClicked = null;  
     ```  
   

@@ -36,13 +36,13 @@ Gets a GUID for this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgramId(   
    GUID* pguidProgramId  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProgramId(   
    out Guid pguidProgramId  
 );  

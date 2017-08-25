@@ -62,7 +62,7 @@ translation.priority.mt:
 ## Example  
  The following example demonstrates a violation of this rule.  
   
-```c#  
+```csharp  
 internal class NativeMethods  
 {  
     [DllImport("shell32.dll", CharSet=CharSet.Auto)]  
@@ -73,7 +73,7 @@ internal class NativeMethods
   
  In this example, the `nIconIndex` parameter is declared as an `IntPtr`, which is 4 bytes wide on a 32-bit platform and 8 bytes wide on a 64-bit platform. In the unmanaged declaration that follows, you can see that `nIconIndex` is a 4-byte unsigned integer on all platforms.  
   
-```c#  
+```csharp  
 HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,   
     UINT nIconIndex);  
 ```  
@@ -81,7 +81,7 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 ## Example  
  To fix the violation, change the declaration to the following:  
   
-```c#  
+```csharp  
 internal class NativeMethods{  
     [DllImport("shell32.dll", CharSet=CharSet.Auto)]   
     internal static extern IntPtr ExtractIcon(IntPtr hInst,   

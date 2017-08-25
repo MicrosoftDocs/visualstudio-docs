@@ -36,7 +36,7 @@ translation.priority.mt:
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum tagEncUnavailableReason {  
    ENCUN_NONE,  
    ENCUN_INTEROP,  
@@ -49,7 +49,7 @@ enum tagEncUnavailableReason {
 typedef enum tagEncUnavailableReason EncUnavailableReason;  
 ```  
   
-```c#  
+```csharp  
 public enum EncUnavailableReason {  
    ENCUN_NONE,  
    ENCUN_INTEROP,  

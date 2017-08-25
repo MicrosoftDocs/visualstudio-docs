@@ -35,7 +35,7 @@ Retrieves the metadata import information.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMetaDataImport (  
     GUID*      guid,  
     DWORD      appID,  
@@ -43,7 +43,7 @@ HRESULT GetMetaDataImport (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMetaDataImport (  
     Guid       guid,  
     uint       appID,  

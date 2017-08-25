@@ -42,7 +42,7 @@ typedef struct _tagUNMANAGED_ADDRESS_PHYSICAL {
 } UNMANAGED_ADDRESS_PHYSICAL;  
 ```  
   
-```c#  
+```csharp  
 public struct UNMANAGED_ADDRESS_PHYSICAL {  
    public ulong offset;  
 }  

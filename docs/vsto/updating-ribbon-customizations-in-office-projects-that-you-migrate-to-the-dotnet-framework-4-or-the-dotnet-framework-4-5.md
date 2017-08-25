@@ -42,14 +42,14 @@ manager: "ghogen"
   
      The following code example shows the default constructor of a Ribbon class in a project that targets the .NET Framework 3.5.  
   
-    ```vb#  
+    ```vb  
     Public Sub New()  
         MyBase.New()  
         InitializeComponent()  
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     public Ribbon1()  
     {  
         InitializeComponent();  
@@ -58,14 +58,14 @@ manager: "ghogen"
   
      The following code example shows the default constructor of a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
-    ```vb#  
+    ```vb  
     Public Sub New()  
         MyBase.New(Globals.Factory.GetRibbonFactory())  
         InitializeComponent()  
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     public Ribbon1()  
         : base(Globals.Factory.GetRibbonFactory())  
     {  
@@ -80,21 +80,21 @@ manager: "ghogen"
   
      For example, assume that your file contains the following line of code that instantiates a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> named `button1` in a project that targets the .NET Framework 3.5.  
   
-    ```vb#  
+    ```vb  
     Me.button1 = New Microsoft.Office.Tools.Ribbon.RibbonButton()  
     ```  
   
-    ```c#  
+    ```csharp  
     this.button1 = new Microsoft.Office.Tools.Ribbon.RibbonButton();  
     ```  
   
      In a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must use the following code instead.  
   
-    ```vb#  
+    ```vb  
     Me.button1 = Me.Factory.CreateRibbonButton()  
     ```  
   
-    ```c#  
+    ```csharp  
     this.button1 = this.Factory.CreateRibbonButton();  
     ```  
   
@@ -169,21 +169,21 @@ manager: "ghogen"
   
  The following code example demonstrates how to set the Position property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.  
   
-```vb#  
+```vb  
 Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")  
 ```  
   
-```c#  
+```csharp  
 this.tab1.Position = RibbonPosition.AfterOfficeId("TabHome");  
 ```  
   
  The following code example demonstrates the same task in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].  
   
-```vb#  
+```vb  
 Me.tab1.Position = Me.Factory.RibbonPosition.AfterOfficeId("TabHome")  
 ```  
   
-```c#  
+```csharp  
 this.tab1.Position = this.Factory.RibbonPosition.AfterOfficeId("TabHome");  
 ```  
   

@@ -36,7 +36,7 @@ Parses an expression in text form for later evaluation.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ParseText(   
    LPCOLESTR           pszCode,  
    PARSEFLAGS          dwFlags,  
@@ -47,7 +47,7 @@ HRESULT ParseText( 
 );  
 ```  
   
-```c#  
+```csharp  
 int ParseText(   
    string                pszCode,  
    enum_PARSEFLAGS       dwFlags,  
@@ -88,7 +88,7 @@ int ParseText( 
 ## Example  
  The following example shows how to implement this method for a simple `CEnvBlock` object that exposes the [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) interface. This example considers the expression to be parsed as the name of an environment variable and retrieves the value from that variable.  
   
-```cpp#  
+```cpp  
 HRESULT CEnvBlock::ParseText(  
    LPCOLESTR           pszCode,  
    PARSEFLAGS          dwFlags,  

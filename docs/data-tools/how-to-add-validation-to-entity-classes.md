@@ -60,7 +60,7 @@ translation.priority.mt:
   
     4.  Add the following code to first verify that a value has been entered and then to ensure that the value entered for the column is acceptable for your application. The `value` argument contains the proposed value, so add logic to confirm that it is a valid value:  
   
-        ```vb#  
+        ```vb  
         If value.HasValue Then  
             ' Add code to ensure that the value is acceptable.  
             ' If value < 1 Then  
@@ -75,7 +75,7 @@ translation.priority.mt:
   
          Type `partial` and then a space to access the list of available partial methods. Click the column-changing method for the column you want to add validation for. The following code resembles code that is generated when you select a column-changing partial method:  
   
-        ```c#  
+        ```csharp  
         partial void OnCOLUMNNAMEChanging(COLUMNDATATYPE value)  
             {  
                throw new System.NotImplementedException();  
@@ -109,7 +109,7 @@ translation.priority.mt:
   
     4.  Access individual column values by using the `instance` argument, as shown in the following code:  
   
-        ```vb#  
+        ```vb  
         If (instance.COLUMNNAME = x) And (instance.COLUMNNAME = y) Then  
             Dim ErrorMessage As String = "Invalid data!"  
             Throw New Exception(ErrorMessage)  
@@ -122,7 +122,7 @@ translation.priority.mt:
   
     2.  Type `partial` and then a space to access the list of available partial methods. Click the update method for the class you want to add validation for. The following code resembles code that is generated when you select an `Update`*CLASSNAME* partial method:  
   
-        ```c#  
+        ```csharp  
         partial void UpdateCLASSNAME(CLASSNAME instance)  
         {  
             if ((instance.COLUMNNAME == x) && (instance.COLUMNNAME = y))  

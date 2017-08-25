@@ -36,13 +36,13 @@ Sets the reference type. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetReferenceType (   
    REFERENCE_TYPE dwRefType  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetReferenceType (   
    enum_REFERENCE_TYPE dwRefType  
 );  

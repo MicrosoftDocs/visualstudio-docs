@@ -36,13 +36,13 @@ Sets the reference value of this object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetReferenceValue(   
    IDebugObject* pObject  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetReferenceValue(  
    [In] IDebugObject pObject  
 );  

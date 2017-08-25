@@ -50,7 +50,7 @@ manager: "ghogen"
   
 4.  Apply the following <xref:System.Runtime.InteropServices.ComVisibleAttribute> and <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attributes to the class that you are exposing to VBA. These attributes make the class visible to COM, but without generating a class interface.  
   
-    ```c#  
+    ```csharp  
     [System.Runtime.InteropServices.ComVisible(true)]  
     [System.Runtime.InteropServices.ClassInterface(  
         System.Runtime.InteropServices.ClassInterfaceType.None)]  
@@ -60,7 +60,7 @@ manager: "ghogen"
   
     -   If you are exposing a host item class to VBA, override the **GetAutomationObject** method that belongs to this class, and return the current instance of the class.  
   
-        ```c#  
+        ```csharp  
         protected override object GetAutomationObject()  
         {  
             return this;  
@@ -69,7 +69,7 @@ manager: "ghogen"
   
     -   If you are exposing a class that is not a host item to VBA, override the **GetAutomationObject** method of any host item in your project, and return an instance of the non-host item class. For example, the following code assumes that you are exposing a class named `DocumentUtilities` to VBA.  
   
-        ```c#  
+        ```csharp  
         protected override object GetAutomationObject()  
         {  
             return new DocumentUtilities();  
@@ -84,7 +84,7 @@ manager: "ghogen"
   
 8.  Make the interface visible to COM by adding the following <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to the interface.  
   
-    ```c#  
+    ```csharp  
     [System.Runtime.InteropServices.ComVisible(true)]  
     ```  
   

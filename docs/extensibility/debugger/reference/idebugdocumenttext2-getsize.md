@@ -36,14 +36,14 @@ Retrieves the size of the text at this position in the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    ULONG* pcNumLines,  
    ULONG* pcNumChars  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSize(   
    ref uint pcNumLines,  
    ref uint pcNumChars  

@@ -36,13 +36,13 @@ This method gets the container of a field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetContainer(   
    IDebugContainerField** ppContainerField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetContainer(  
    out IDebugContainerField ppContainerField  
 );  

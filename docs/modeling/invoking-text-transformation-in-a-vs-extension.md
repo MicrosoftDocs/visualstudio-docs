@@ -31,7 +31,7 @@ If you are writing a Visual Studio extension such as a menu command or [domain-s
   
 ## Getting the text templating service  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.TextTemplating;  
 using Microsoft.VisualStudio.TextTemplating.VSHost;  
 ...  
@@ -92,7 +92,7 @@ string result = t4.ProcessTemplate("",
   
  If you want to write the result string to a file, you might want to know what file extension and encoding have been specified in the `<#@output#>` directive in the template. This information will also be passed to your callback. For more information, see [T4 Output Directive](../modeling/t4-output-directive.md).  
   
-```c#  
+```csharp  
 void ProcessMyTemplate(string MyTemplateFile)  
 {  
   string templateContent = File.ReadAllText(MyTemplateFile);  

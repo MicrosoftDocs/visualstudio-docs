@@ -56,7 +56,7 @@ It is not uncommon for an application to contain components that have different 
   
 4.  In the Macros IDE, add the following code to the module, after the `Import` statements:  
   
-    ```vb#  
+    ```vb  
     Module PublishSpecificCulture  
         Sub PublishProjectFirstProjectWithEnLocale()  
             ' Note: You should publish projects by using the IDE at least once  

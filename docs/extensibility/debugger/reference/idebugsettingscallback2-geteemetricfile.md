@@ -34,7 +34,7 @@ Retrieves the expression evaluator metric file given the name or the metric.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricFile(  
    REFGUID guidLang,  
    REFGUID guidVendor,  
@@ -43,7 +43,7 @@ HRESULT GetEEMetricFile(
 );  
 ```  
   
-```c#  
+```csharp  
 private int GetEEMetricFile(  
    ref Guid   guidLang,  
    ref Guid   guidVendor,  

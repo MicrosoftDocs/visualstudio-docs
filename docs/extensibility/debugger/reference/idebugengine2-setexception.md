@@ -36,13 +36,13 @@ Specifies how the debug engine (DE) should handle a given exception.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetException(   
    EXCEPTION_INFO* pException  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetException(   
    EXCEPTION_INFO[] pException  
 );  

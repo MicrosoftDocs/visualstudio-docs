@@ -36,13 +36,13 @@ Gets an enumerator of all elements of the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetElements(   
    IEnumDebugObjects** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetElements(  
    out IEnumDebugObjects ppEnum  
 );  

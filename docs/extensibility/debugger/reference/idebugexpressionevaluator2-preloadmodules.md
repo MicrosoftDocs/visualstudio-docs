@@ -35,13 +35,13 @@ Preloads the modules designated by the specified symbol provider.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT PreloadModules (  
    IDebugSymbolProvider* pSym  
 );  
 ```  
   
-```c#  
+```csharp  
 int PreloadModules (  
    IDebugSymbolProvider pSym  
 );  
@@ -60,7 +60,7 @@ int PreloadModules (
 ## Example  
  The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP ExpressionEvaluatorPackage::PreloadModules  
 (  
     IDebugSymbolProvider *pSym  

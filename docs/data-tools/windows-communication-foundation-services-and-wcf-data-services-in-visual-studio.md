@@ -137,11 +137,11 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
 2.  In the Code Editor, add a constructor for the service reference:  
   
-    ```vb#  
+    ```vb  
     Dim proxy As New ServiceReference.Service1Client(  
     ```  
   
-    ```c#  
+    ```csharp  
     ServiceReference.Service1Client proxy = new ServiceReference.Service1Client(  
     ```  
   

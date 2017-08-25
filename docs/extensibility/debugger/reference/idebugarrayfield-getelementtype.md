@@ -36,13 +36,13 @@ Gets the type of element in the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetElementType(   
    IDebugField** ppType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetElementType(  
    out IDebugField ppType  
 );  

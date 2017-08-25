@@ -37,13 +37,13 @@ Sets or changes the condition associated with this bound breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetCondition(   
    BP_CONDITION bpCondition  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetCondition(   
    enum_BP_CONDITION bpCondition  
 );  

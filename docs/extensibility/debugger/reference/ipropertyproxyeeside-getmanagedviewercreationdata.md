@@ -36,7 +36,7 @@ Retrieves information about the viewer for this property type in order to instan
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetManagedViewerCreationData(  
    BSTR*                  assemName,  
    IEEDataStorage**       assemBytes,  
@@ -47,7 +47,7 @@ HRESULT GetManagedViewerCreationData(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetManagedViewerCreationData(  
    out string                     assemName,  
    out IEEDataStorage             assemBytes,  

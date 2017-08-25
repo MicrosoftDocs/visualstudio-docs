@@ -35,13 +35,13 @@ Retrieves an array of unique identifiers for available debug engines.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngineFilter(  
    GUID_ARRAY *pEngineArray  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetEngineFilter(  
    out GUID_ARRAY[] pEngineArray  
 );  

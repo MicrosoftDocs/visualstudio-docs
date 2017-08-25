@@ -36,13 +36,13 @@ Gets the document context for this stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext (   
    IDebugDocumentContext2** ppCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppCxt  
 );  

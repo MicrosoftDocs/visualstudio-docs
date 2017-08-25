@@ -36,14 +36,14 @@ Used to describe a machine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MACHINE_INFO_FLAGS {   
    MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
 };  
 typedef DWORD MACHINE_INFO_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_MACHINE_INFO_FLAGS {   
    MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
 };  

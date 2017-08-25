@@ -36,7 +36,7 @@ Specifies the step kind for stepping.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_STEPKIND {   
    STEP_INTO      = 0,  
    STEP_OVER      = 1,  
@@ -46,7 +46,7 @@ enum enum_STEPKIND { 
 typedef DWORD STEPKIND;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_STEPKIND {   
    STEP_INTO      = 0,  
    STEP_OVER      = 1,  

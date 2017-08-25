@@ -36,13 +36,13 @@ Gets the document context that describes the location of this event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext (   
    IDebugDocumentContext2** ppDocCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppDocCxt  
 );  

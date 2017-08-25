@@ -36,13 +36,13 @@ Resumes process execution.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResumeProcess (   
    IDebugProcess2* pProcess  
 );  
 ```  
   
-```c#  
+```csharp  
 int ResumeProcess (   
    IDebugProcess2 pProcess  
 );  

@@ -43,7 +43,7 @@ typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {
 } METADATA_ADDRESS_ARRAYELEM;  
 ```  
   
-```c#  
+```csharp  
 public struct METADATA_ADDRESS_ARRAYELEM {  
    public int  tokMethod;  
    public uint dwIndex;  

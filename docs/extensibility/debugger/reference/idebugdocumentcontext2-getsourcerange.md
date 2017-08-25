@@ -36,14 +36,14 @@ Gets the source code range of this document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSourceRange(   
    TEXT_POSITION* pBegPosition,  
    TEXT_POSITION* pEndPosition  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSourceRange(   
    TEXT_POSITION[] pBegPosition,  
    TEXT_POSITION[] pEndPosition  

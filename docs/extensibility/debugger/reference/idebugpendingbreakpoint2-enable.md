@@ -37,13 +37,13 @@ Toggles the enabled state of the pending breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Enable(   
    BOOL fEnable  
 );  
 ```  
   
-```c#  
+```csharp  
 int Enable(   
    int fEnable  
 );  
@@ -64,7 +64,7 @@ int Enable( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::Enable(BOOL fEnable)    
 {    
    HRESULT hr;    

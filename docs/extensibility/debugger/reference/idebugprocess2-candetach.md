@@ -36,13 +36,13 @@ Determines if the session debug manager (SDM) can detach the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanDetach(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int CanDetach();  
 ```  
   
