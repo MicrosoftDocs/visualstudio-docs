@@ -36,7 +36,7 @@ Sends notification of debug events.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Event(   
    IDebugEngine2*  pEngine,  
    IDebugProcess2* pProcess,  

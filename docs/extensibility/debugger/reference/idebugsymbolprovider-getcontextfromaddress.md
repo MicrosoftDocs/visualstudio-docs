@@ -36,7 +36,7 @@ This method maps a debug address into a document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetContextFromAddress(   
    IDebugAddress*           pAddress,  
    IDebugDocumentContext2** ppDocContext  

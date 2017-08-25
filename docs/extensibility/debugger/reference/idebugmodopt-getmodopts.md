@@ -35,7 +35,7 @@ Retrieves a list of optional modifiers.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetModOpts(  
    ULONG  celt,  
    BSTR*  rgelt,  

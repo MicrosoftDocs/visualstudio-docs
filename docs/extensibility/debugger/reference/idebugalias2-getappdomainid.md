@@ -35,7 +35,7 @@ Retrieves the identifier for the application domain.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAppDomainId (  
    ULONG32* pappDomainId  
 );  

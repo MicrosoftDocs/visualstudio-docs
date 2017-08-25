@@ -36,7 +36,7 @@ Gets extended information for the property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExtendedInfo (   
    REFGUID* guidExtendedInfo,  
    VARIANT* pExtendedInfo  

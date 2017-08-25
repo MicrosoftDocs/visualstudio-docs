@@ -36,7 +36,7 @@ This method gets the size of a field, in bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    DWORD* pdwSize  
 );  

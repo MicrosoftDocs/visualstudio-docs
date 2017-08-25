@@ -36,7 +36,7 @@ Gets the code context for this stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCodeContext (   
    IDebugCodeContext2** ppCodeCxt  
 );  

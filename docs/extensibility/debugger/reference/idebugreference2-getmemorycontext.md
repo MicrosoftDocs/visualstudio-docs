@@ -36,7 +36,7 @@ Gets a memory context of a reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryContext (   
    IDebugMemoryContext2** ppMemory  
 );  

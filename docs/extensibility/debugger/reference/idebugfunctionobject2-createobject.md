@@ -35,7 +35,7 @@ Creates an object that uses a constructor given evaluation flag settings and a t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateObject (  
    IDebugFunctionObject* pConstructor,  
    DWORD                 dwArgs,  

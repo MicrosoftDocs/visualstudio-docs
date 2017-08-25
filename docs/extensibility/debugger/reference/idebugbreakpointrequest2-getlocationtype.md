@@ -36,7 +36,7 @@ Gets the breakpoint location type of this breakpoint request.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLocationType(   
    BP_LOCATION_TYPE* pBPLocationType  
 );  

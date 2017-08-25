@@ -36,7 +36,7 @@ Contains the information required to implement a breakpoint, including vendor GU
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_REQUEST_INFO2 {  
    BPREQI_FIELDS   dwFields;  
    GUID            guidLanguage;  

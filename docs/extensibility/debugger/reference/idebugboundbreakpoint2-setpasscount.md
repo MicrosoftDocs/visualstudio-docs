@@ -37,7 +37,7 @@ Sets or changes the pass count associated with this bound breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetPassCount(   
    BP_PASSCOUNT bpPassCount  
 );  

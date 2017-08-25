@@ -36,7 +36,7 @@ Specifies how to parse an expression.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PARSEFLAGS {   
    PARSE_EXPRESSION            = 0x0001,  
    PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  

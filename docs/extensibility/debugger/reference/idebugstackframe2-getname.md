@@ -36,7 +36,7 @@ Gets the name of the stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName (   
    BSTR* pbstrName  
 );  

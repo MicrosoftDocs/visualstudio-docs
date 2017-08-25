@@ -36,7 +36,7 @@ Creates an enumerator of breakpoints that were bound on this event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumBoundBreakpoints(   
    IEnumDebugBoundBreakpoints2** ppEnum  
 );  
@@ -61,7 +61,7 @@ int EnumBoundBreakpoints( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointSetDebugEventBase** object that exposes the [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointSetDebugEventBase::EnumBoundBreakpoints(  
     IEnumDebugBoundBreakpoints2 **ppEnum)  
 {  

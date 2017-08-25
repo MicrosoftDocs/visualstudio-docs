@@ -36,7 +36,7 @@ Resets the enumeration sequence to the beginning.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Reset(void);  
 ```  
   

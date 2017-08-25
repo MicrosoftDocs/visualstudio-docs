@@ -36,7 +36,7 @@ Specifies what information to retrieve about a memory context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_CONTEXT_INFO_FIELDS {   
    CIF_MODULEURL =       0x00000001,  
    CIF_FUNCTION =        0x00000002,  

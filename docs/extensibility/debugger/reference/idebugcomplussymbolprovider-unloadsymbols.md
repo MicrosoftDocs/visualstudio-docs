@@ -35,7 +35,7 @@ Unloads the debug symbols for the specified module from memory.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT UnloadSymbols(  
    ULONG32 ulAppDomainID,  
    GUID    guidModule  
@@ -62,7 +62,7 @@ int UnloadSymbols(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::UnloadSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule  

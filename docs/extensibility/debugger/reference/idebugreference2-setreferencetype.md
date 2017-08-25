@@ -36,7 +36,7 @@ Sets the reference type. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetReferenceType (   
    REFERENCE_TYPE dwRefType  
 );  

@@ -36,7 +36,7 @@ This method evaluates the expression synchronously.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EvaluateSync(   
    EVALFLAGS             dwFlags,  
    DWORD                 dwTimeout,  
@@ -81,7 +81,7 @@ int EvaluateSync(
 ## Example  
  The following example shows how to implement this method for a simple `CExpression` object that implements the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CExpression::EvaluateSync(EVALFLAGS dwFlags,  
                                   DWORD dwTimeout,  
                                   IDebugEventCallback2* pExprCallback,  

@@ -36,7 +36,7 @@ This function undoes a previous checkout operation, thereby restoring the conten
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccUncheckout (  
    LPVOID    pvContext,  
    HWND      hWnd,  

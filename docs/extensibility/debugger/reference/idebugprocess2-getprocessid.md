@@ -36,7 +36,7 @@ Gets the GUID for this process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProcessId(  
    GUID* pguidProcessId  
 );  

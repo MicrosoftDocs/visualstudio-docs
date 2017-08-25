@@ -36,7 +36,7 @@ Determines whether a process can be terminated.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanTerminateProcess(   
    IDebugProcess2* pPortProcess  
 );  

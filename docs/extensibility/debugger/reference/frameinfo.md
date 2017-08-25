@@ -36,7 +36,7 @@ Describes a stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagFRAMEINFO {   
    FRAMEINFO_FLAGS    m_dwValidFields;  
    BSTR               m_bstrFuncName;  

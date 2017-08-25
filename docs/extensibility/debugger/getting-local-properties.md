@@ -109,7 +109,7 @@ namespace EEMC
 ## Unmanaged Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in unmanaged code.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CEnumPropertyInfo::Next(  
     in  ULONG                count,  
     out DEBUG_PROPERTY_INFO* pelements,   

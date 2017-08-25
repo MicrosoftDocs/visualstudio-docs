@@ -39,7 +39,7 @@ Performs a step.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Step(   
    IDebugThread2*  pThread,  
    STEPKIND        sk,  

@@ -36,7 +36,7 @@ Specifies the type of structure used to describe the location of the breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION {  
    BP_LOCATION_TYPE bpLocationType;  
    union {  

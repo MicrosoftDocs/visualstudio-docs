@@ -35,7 +35,7 @@ Loads debug symbols given the data stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbolsFromStream(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -77,7 +77,7 @@ int LoadSymbolsFromStream(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface. The method calls the [LoadSymbolsFromStreamWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromstreamwithcormodule.md) method.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

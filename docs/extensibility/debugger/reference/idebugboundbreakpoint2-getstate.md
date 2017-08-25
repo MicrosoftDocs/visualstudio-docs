@@ -37,7 +37,7 @@ Gets the state of this bound breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetState(   
    BP_STATE* pState  
 );  

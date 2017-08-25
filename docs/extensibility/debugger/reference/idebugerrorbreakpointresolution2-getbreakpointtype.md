@@ -36,7 +36,7 @@ Gets the breakpoint type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointType(   
    BP_TYPE* pBPType  
 );  

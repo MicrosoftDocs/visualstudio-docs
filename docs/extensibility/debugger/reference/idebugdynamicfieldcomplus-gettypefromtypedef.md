@@ -35,7 +35,7 @@ Retrieves a type given its token.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromTypeDef(  
    ULONG32       ulAppDomainID,  
    GUID          guidModule,  

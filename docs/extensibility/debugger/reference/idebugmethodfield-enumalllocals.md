@@ -36,7 +36,7 @@ Creates an enumerator for all local variables of the method, including those gen
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumAllLocals(   
    IDebugAddress*     pAddress,  
    IEnumDebugFields** ppLocals  

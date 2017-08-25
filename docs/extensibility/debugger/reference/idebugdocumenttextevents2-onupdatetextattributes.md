@@ -36,7 +36,7 @@ Notifies the debug package that text attributes have been updated in the documen
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onUpdateTextAttributes(   
    TEXT_POSITION pos,  
    DWORD         dwNumToUpdate  

@@ -36,7 +36,7 @@ Gets the size, in bytes, of the property value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize (   
    DWORD* pdwSize  
 );  

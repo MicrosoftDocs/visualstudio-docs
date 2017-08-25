@@ -36,7 +36,7 @@ Gets a description of the stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo (   
    FRAMEINFO_FLAGS dwFieldSpec,  
    UINT            nRadix,  

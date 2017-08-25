@@ -35,7 +35,7 @@ Retrieves the type parameter arguments for this instance.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeArguments(  
    ULONG32       cArgs,  
    IDebugField** ppArgs,  

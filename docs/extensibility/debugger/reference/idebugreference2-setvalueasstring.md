@@ -36,7 +36,7 @@ Sets the value of a reference from a string. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsString (   
    LPCOLESTR pszValue,  
    DWORD     dwRadix,  

@@ -34,7 +34,7 @@ Enumerates the valid values of the program destroy flags.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
    PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  

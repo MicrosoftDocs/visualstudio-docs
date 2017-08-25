@@ -34,7 +34,7 @@ Describes the computer on which the debugger is running.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCOMPUTER_INFO  
 {  
     WORD wProcessorArchitecture;  

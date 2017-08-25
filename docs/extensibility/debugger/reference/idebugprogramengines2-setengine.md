@@ -36,7 +36,7 @@ Tells the program or program node which debug engine (DE) to use to debug this p
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetEngine(   
    REFGUID guidEngine  
 );  

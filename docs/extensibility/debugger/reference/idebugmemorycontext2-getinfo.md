@@ -37,7 +37,7 @@ Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-inf
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(   
    CONTEXT_INFO_FIELDS dwFields,  
    CONTEXT_INFO*       pInfo  

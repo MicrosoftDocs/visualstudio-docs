@@ -36,7 +36,7 @@ Determines if the server is local to the caller.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT QueryIsLocal(  
    void  
 );  

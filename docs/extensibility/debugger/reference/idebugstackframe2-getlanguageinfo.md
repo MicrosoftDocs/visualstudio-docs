@@ -36,7 +36,7 @@ Gets the language associated with this stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLanguageInfo (   
    BSTR* pbstrLanguage,  
    GUID* pguidLanguage  

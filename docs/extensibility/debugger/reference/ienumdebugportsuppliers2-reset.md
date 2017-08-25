@@ -36,7 +36,7 @@ Resets the enumeration to the first element.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Reset(  
    void  
 );  

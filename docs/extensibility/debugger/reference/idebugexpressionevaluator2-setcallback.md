@@ -35,7 +35,7 @@ Enables the expression evaluator (EE) to specify the callback interface that the
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetCallback (  
    IDebugSettingsCallback2* pCallback  
 );  
@@ -60,7 +60,7 @@ int SetCallback (
 ## Example  
  The following examples shows how to implement this method for a **CEE** object that exposes the [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)  
 {  
     // precondition  

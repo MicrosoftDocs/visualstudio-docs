@@ -35,7 +35,7 @@ Determines if the object is a transparent proxy.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsProxy (  
    BOOL* pfIsProxy  
 );  

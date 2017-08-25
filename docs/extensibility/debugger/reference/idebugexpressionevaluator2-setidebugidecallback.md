@@ -35,7 +35,7 @@ Enables a debug engine to pass a callback to the expression evaluator during ini
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetIDebugIDECallback (  
    IDebugIDECallback * pCallback  
 );  

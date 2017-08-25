@@ -36,7 +36,7 @@ Marks the module as being user code or not.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetJustMyCodeState(  
    BOOL fIsUserCode  
 );  

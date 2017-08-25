@@ -34,7 +34,7 @@ Sends the specified message string to the debugger's output window.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisplayMessage (  
    LPCOLESTR szMessage  
 );  

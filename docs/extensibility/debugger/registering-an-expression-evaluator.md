@@ -138,7 +138,7 @@ namespace EEMC
 ### Example  
  This function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
   
-```cpp#  
+```cpp  
 /*---------------------------------------------------------  
   Registration  
 -----------------------------------------------------------*/  

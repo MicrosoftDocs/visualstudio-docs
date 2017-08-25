@@ -36,7 +36,7 @@ Gets the port supplier for this port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplier(   
    IDebugPortSupplier2** ppSupplier  
 );  

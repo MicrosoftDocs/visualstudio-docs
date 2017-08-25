@@ -36,7 +36,7 @@ Terminates the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Terminate(   
    void   
 );  

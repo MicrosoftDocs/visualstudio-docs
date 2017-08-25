@@ -36,7 +36,7 @@ Specified what kind of information to retrieve for a process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PROCESS_INFO_FIELDS {   
    PIF_FILE_NAME             = 0x00000001,  
    PIF_BASE_NAME             = 0x00000002,  

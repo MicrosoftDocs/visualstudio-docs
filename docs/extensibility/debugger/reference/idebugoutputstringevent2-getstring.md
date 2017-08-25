@@ -36,7 +36,7 @@ Gets the displayable message.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetString(   
    BSTR* pbstrString  
 );  

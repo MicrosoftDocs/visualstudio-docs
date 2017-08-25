@@ -36,7 +36,7 @@ This method obtains the name of the enumeration constant given its value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetStringFromValue(  
    ULONGLONG value,  
    BSTR*     pbstrValue  

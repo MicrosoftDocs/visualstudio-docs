@@ -36,7 +36,7 @@ Sets the value of the object from a consecutive series of bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValue(   
    BYTE* pValue,  
    UINT  nSize  

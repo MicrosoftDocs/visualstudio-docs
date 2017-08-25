@@ -37,7 +37,7 @@ Gets the message to be displayed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMessage(   
    MESSAGETYPE* pMessageType,  
    BSTR*        pbstrMessage,  

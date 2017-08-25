@@ -36,7 +36,7 @@ Adds a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT AddPort(   
    IDebugPortRequest2* pRequest,  
    IDebugPort2**       ppPort  

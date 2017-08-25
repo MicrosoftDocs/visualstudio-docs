@@ -36,7 +36,7 @@ Determines the location of the specified managed assembly reference.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResolveAssemblyRef(  
    BSTR*                  assemName,  
    IEEDataStorage**       assemBytes,  

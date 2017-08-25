@@ -36,7 +36,7 @@ Retrieves the memory bytes occupied by the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryBytes(   
    IDebugMemoryBytes2** ppMemoryBytes  
 );  

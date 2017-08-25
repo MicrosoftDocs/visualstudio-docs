@@ -36,7 +36,7 @@ Describes a particular machine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagMACHINE_INFO {   
    MACHINE_INFO_FIELDS Fields;  
    BSTR                bstrName;  

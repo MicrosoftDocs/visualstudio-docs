@@ -36,7 +36,7 @@ This method gets the breakpoint request information that describes this breakpoi
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRequestInfo2(  
    BPREQI_FIELDS      dwFields,  
    BP_REQUEST_INFO2*  bBPRequestInfo  

@@ -36,7 +36,7 @@ Determines whether a custom attribute exists by name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsCustomAttributeDefined(   
    LPCOLESTR pszCustomAttributeName  
 );  

@@ -36,7 +36,7 @@ Get a list of selected children of a reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumChildren (   
    DEBUGREF_INFO_FLAGS        dwFields,  
    DWORD                      dwRadix,  

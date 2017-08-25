@@ -36,7 +36,7 @@ Describes the location of a code breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_RESOLUTION_CODE {   
    IDebugCodeContext2* pCodeContext;  
 } BP_RESOLUTION_CODE;  

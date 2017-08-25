@@ -36,7 +36,7 @@ Describes the conditions under which a breakpoint fires.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_CONDITION {   
    IDebugThread2* pThread;  
    BP_COND_STYLE  styleCondition;  

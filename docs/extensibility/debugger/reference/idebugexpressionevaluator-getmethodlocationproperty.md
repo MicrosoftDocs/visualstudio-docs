@@ -36,7 +36,7 @@ This method converts a method location and offset into a memory address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMethodLocationProperty(   
    LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,  
    IDebugSymbolProvider* pSymbolProvider,  

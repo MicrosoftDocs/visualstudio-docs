@@ -36,7 +36,7 @@ Gets an element of the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetElement(   
    DWORD          dwIndex,  
    IDebugObject** ppElement  

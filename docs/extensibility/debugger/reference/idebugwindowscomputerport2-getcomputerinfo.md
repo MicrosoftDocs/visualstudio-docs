@@ -35,7 +35,7 @@ Retrieves information about the computer on which the debugger in running.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetComputerInfo(  
    COMPUTER_INFO * pInfo  
 );  

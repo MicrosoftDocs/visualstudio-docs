@@ -36,7 +36,7 @@ Gives the reason a breakpoint was unbound.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_UNBOUND_REASON {   
    BPUR_UNKNOWN           = 0x0000,  
    BPUR_CODE_UNLOADED     = 0x0002,  

@@ -36,7 +36,7 @@ Gets the new property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDebugProperty (   
    IDebugProperty2** ppProperty  
 );  

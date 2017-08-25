@@ -36,7 +36,7 @@ This method returns the exact type of a variable.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResolveDynamicType (  
    IDebugDynamicField *pDynamic,  
    IDebugField       **ppResolved  

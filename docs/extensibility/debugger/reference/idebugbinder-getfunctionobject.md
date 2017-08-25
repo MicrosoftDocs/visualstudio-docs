@@ -36,7 +36,7 @@ This method gets an [IDebugFunctionObject](../../../extensibility/debugger/refer
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFunctionObject(   
    IDebugFunctionObject **ppFunction  
 );  

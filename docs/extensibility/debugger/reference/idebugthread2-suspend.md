@@ -36,7 +36,7 @@ Suspends a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Suspend (   
    DWORD *pdwSuspendCount  
 );  

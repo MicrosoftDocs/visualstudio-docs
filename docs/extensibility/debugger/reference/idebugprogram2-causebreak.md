@@ -36,7 +36,7 @@ Requests that the program stop execution the next time one of its threads attemp
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CauseBreak(   
    void   
 );  

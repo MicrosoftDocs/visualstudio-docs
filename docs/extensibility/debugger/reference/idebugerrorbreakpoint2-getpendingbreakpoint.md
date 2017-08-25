@@ -36,7 +36,7 @@ Gets the pending breakpoint that caused the error.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPendingBreakpoint (   
    IDebugPendingBreakpoint2** ppPendingBreakpoint  
 );  

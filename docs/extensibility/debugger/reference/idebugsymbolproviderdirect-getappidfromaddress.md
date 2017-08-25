@@ -35,7 +35,7 @@ Retrieves the application domain identifier given the debug address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAppIDFromAddress(  
    IDebugAddress* pAddress,  
    DWORD*         pAppID  

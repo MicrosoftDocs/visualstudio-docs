@@ -36,7 +36,7 @@ Sets the name of the thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetThreadName (   
    LPCOLESTR pszName  
 );  

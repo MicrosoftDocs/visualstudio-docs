@@ -36,7 +36,7 @@ Retrieves the name of the evaluation context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* pbstrName  
 );  

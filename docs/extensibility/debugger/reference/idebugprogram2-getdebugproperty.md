@@ -36,7 +36,7 @@ Gets the program's properties.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDebugProperty(   
    IDebugProperty2** ppProperty  
 );  

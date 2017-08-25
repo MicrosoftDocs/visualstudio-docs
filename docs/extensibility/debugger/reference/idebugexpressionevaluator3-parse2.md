@@ -34,7 +34,7 @@ Converts an expression string to a parsed expression given the symbol provider a
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Parse2 (  
    LPCOLESTR                upstrExpression,  
    PARSEFLAGS               dwFlags,  
@@ -94,7 +94,7 @@ HRESULT Parse2 (
 ## Example  
  The following example shows how to implement this method for a **CEE** object that exposes the [IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEE::Parse2 ( LPCOLESTR in_szExprText,  
   PARSEFLAGS in_FLAGS,  
   UINT in_RADIX,  

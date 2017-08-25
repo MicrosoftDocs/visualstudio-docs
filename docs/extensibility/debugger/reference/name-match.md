@@ -36,7 +36,7 @@ Selects the case option for matching names.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef enum {   
    nmNone            = 0,  
    nmCaseSensitive   = 1,  

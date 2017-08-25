@@ -36,7 +36,7 @@ Gets the port identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortId(   
    GUID* pguidPort  
 );  

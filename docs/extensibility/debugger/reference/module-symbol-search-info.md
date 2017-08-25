@@ -36,7 +36,7 @@ Contains status information about symbol search paths that have been searched.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagSYMBOL_SEARCH_INFO  
 {  
    SYMBOL_SEARCH_INFO_FIELDS dwValidFields;  

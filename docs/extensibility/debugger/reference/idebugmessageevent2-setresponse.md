@@ -37,7 +37,7 @@ Sets the response, if any, from the message box.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetResponse(   
    DWORD dwResponse  
 );  

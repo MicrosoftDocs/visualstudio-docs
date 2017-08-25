@@ -37,7 +37,7 @@ Gets the document to activate.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument (   
    IDebugDocument2** ppDoc  
 );  

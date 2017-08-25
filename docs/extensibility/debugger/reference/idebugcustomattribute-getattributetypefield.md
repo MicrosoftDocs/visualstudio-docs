@@ -36,7 +36,7 @@ Gets the custom attribute class type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAttributeTypeField(   
    IDebugClassField** ppCAType  
 );  

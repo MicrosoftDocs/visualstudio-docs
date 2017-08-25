@@ -36,7 +36,7 @@ Gets the program in which a thread is running.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgram (   
    IDebugProgram2** ppProgram  
 );  

@@ -36,7 +36,7 @@ This method adds a program node for each debug engine (DE) specified.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT AddImplicitProgramNodes(  
    REFGUID guidLaunchingEngine,  
    GUID*   rgguidSpecificEngines,  

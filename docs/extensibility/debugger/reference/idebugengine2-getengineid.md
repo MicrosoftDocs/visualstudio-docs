@@ -36,7 +36,7 @@ Gets the GUID of the debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngineID(   
    GUID* pguidEngine  
 );  
@@ -61,7 +61,7 @@ int GetEngineID( 
 ## Example  
  The following example shows how to implement this method for a simple `CEngine` object that implements the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEngine::GetEngineId(GUID *pguidEngine){    
    if (pguidEngine) {    
       // Set pguidEngine to guidBatEng, as defined in the Batdbg.idl file.    

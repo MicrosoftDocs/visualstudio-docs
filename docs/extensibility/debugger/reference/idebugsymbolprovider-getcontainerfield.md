@@ -36,7 +36,7 @@ This method gets the field that contains the debug address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetContainerField(   
    IDebugAddress*         pAddress,  
    IDebugContainerField** ppContainerField  

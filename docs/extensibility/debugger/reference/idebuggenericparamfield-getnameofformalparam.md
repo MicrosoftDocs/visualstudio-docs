@@ -35,7 +35,7 @@ Retrieves the name of this generic parameter.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNameOfFormalParam (  
    BSTR* pbstrName  
 );  
@@ -57,7 +57,7 @@ int GetNameOfFormalParam (
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetNameOfFormalParam(BSTR *pbstrName)  
 {  
     HRESULT hr = S_OK;  

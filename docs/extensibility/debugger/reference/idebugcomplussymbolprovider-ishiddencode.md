@@ -34,7 +34,7 @@ Determines if the code at the specified debugger address is hidden.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsHiddenCode(  
    IDebugAddress* pAddress  
 );  
@@ -56,7 +56,7 @@ int IsHiddenCode(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::IsHiddenCode(  
     IDebugAddress* pAddress  
 )  

@@ -36,7 +36,7 @@ Tests whether this object is a null reference.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsNullReference(   
    BOOL* pfIsNull  
 );  

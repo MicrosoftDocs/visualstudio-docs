@@ -36,7 +36,7 @@ Gets the thread associated with a stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThread (   
    IDebugThread2** ppThread  
 );  

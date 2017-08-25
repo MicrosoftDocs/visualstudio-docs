@@ -35,7 +35,7 @@ Displays the specified dialog box that allows the user to select a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisplayPortPicker(  
    HWND hwndParentDialog,  
    BSTR* pbstrPortId  

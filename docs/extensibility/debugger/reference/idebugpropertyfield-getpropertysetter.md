@@ -36,7 +36,7 @@ Gets the method that sets the property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertySetter(   
    IDebugMethodField** ppField  
 );  

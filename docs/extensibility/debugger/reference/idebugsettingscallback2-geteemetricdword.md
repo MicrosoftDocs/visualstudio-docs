@@ -34,7 +34,7 @@ Retrieves a value that corresponds to the specified metric of the expression eva
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricDword(  
    REFGUID guidLang,  
    REFGUID guidVendor,  

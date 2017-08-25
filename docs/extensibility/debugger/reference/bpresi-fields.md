@@ -36,7 +36,7 @@ Specifies the information  to be retrieved about the successful resolution of a 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BPRESI_FIELDS {   
    BPRESI_BPRESLOCATION = 0x0001,  
    BPRESI_PROGRAM       = 0x0002,  

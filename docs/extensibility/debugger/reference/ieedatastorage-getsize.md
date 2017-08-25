@@ -36,7 +36,7 @@ Returns the number of bytes contained in this object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(  
    ULONG* size  
 );  

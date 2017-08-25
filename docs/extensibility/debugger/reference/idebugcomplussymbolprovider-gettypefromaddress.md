@@ -35,7 +35,7 @@ Retrieves to a symbol type given its debug address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromAddress(  
    IDebugAddress* pAddress,  
    IDebugField**  ppField  
@@ -62,7 +62,7 @@ int GetTypeFromAddress(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetTypeFromAddress(  
     IDebugAddress *pAddress,  
     IDebugField **ppField)  

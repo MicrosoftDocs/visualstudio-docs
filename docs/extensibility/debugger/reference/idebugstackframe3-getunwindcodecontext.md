@@ -36,7 +36,7 @@ Returns the code context representing a location if a stack unwind operation occ
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetUnwindCodeContext(  
    IDebugCodeContext2 **ppCodeContext  
 );  

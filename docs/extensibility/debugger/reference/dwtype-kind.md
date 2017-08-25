@@ -36,7 +36,7 @@ Specifies how to interpret the type of an [IDebugField](../../../extensibility/d
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_dwTYPE_KIND {  
    TYPE_KIND_METADATA = 0x0001,  
    TYPE_KIND_PDB      = 0x0002,  

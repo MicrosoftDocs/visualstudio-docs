@@ -36,7 +36,7 @@ Retrieves the specified number of bytes from the object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetData(  
    ULONG  dataSize,  
    ULONG* sizeGotten,  

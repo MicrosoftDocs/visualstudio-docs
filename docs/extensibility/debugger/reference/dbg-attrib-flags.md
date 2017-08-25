@@ -36,7 +36,7 @@ Describes various attributes for an [IDebugProperty2](../../../extensibility/deb
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 #define DBG_ATTRIB_NONE                 0x0000000000000000,  
 #define DBG_ATTRIB_ALL                  0x00000000ffffffff,  
   

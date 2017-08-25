@@ -36,7 +36,7 @@ Gets the type of the breakpoint represented by this resolution.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointType(   
    BP_TYPE* pBPType  
 );  

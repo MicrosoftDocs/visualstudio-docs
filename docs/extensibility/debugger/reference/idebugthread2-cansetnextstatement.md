@@ -36,7 +36,7 @@ Determines whether the current instruction pointer can be set to the given stack
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanSetNextStatement (   
    IDebugStackFrame2*  pStackFrame,  
    IDebugCodeContext2* pCodeContext  

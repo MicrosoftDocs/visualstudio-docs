@@ -134,7 +134,7 @@ namespace EEMC
 ## Unmanaged Code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in unmanaged code.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CFieldProperty::EnumChildren(   
         in DEBUGPROP_INFO_FLAGS        infoFlags,  
         in DWORD                       radix,  

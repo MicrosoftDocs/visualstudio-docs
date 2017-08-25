@@ -34,7 +34,7 @@ Enumerates additional kinds of fields that an [IDebugField](../../../extensibili
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_FIELD_KIND_EX  
 {  
    FIELD_KIND_EX_NONE = 0,  

@@ -36,7 +36,7 @@ Notifies receiver of the event that the document attributes have been updated.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onUpdateDocumentAttributes(   
    TEXT_DOC_ATTR_2 textdocattr  
 );  

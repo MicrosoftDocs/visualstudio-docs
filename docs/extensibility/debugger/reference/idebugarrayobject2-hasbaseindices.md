@@ -35,7 +35,7 @@ Determines if the array has base indices (lower bounds) defined.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT HasBaseIndices (  
    BOOL* pfHasBaseIndices  
 );  

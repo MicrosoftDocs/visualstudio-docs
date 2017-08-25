@@ -36,7 +36,7 @@ Loads the symbols for the current module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbols(  
    void  
 );  

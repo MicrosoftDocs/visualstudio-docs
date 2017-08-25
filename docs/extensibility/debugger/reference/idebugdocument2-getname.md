@@ -36,7 +36,7 @@ Gets the name of the document in one of several forms.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    GETNAME_TYPE gnType,  
    BSTR*        pbstrFileName  

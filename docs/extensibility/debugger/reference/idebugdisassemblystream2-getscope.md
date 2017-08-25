@@ -36,7 +36,7 @@ Gets the scope of the disassembly stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetScope(   
    DISASSEMBLY_STREAM_SCOPE* pdwScope  
 );  

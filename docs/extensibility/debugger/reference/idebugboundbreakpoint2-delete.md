@@ -37,7 +37,7 @@ Deletes the breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Delete(   
    void   
 );  

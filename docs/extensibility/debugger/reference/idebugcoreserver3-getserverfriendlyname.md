@@ -36,7 +36,7 @@ Retrieves a friendly name for the server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServerFriendlyName(  
    BSTR* pbstrName  
 );  

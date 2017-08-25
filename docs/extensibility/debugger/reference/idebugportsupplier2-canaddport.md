@@ -36,7 +36,7 @@ Verifies that a port supplier can add new ports.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanAddPort(   
    void   
 );  

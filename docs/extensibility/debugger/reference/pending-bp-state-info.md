@@ -36,7 +36,7 @@ Contains information about the state of a breakpoint that is ready to bind to a 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagPENDING_BP_STATE_INFO {   
    PENDING_BP_STATE       state;  
    PENDING_BP_STATE_FLAGS flags;  

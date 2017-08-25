@@ -36,7 +36,7 @@ Skips a specified number of custom attributes in an enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Skip (   
    ULONG celt  
 );  

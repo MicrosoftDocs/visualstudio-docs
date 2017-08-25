@@ -63,7 +63,7 @@ int GetCustomViewerCount(
 ## Example  
  The following example shows how to implement this method for a **CProperty** object that exposes the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CProperty::GetCustomViewerCount(ULONG* pcelt)  
 {  
     if (pcelt == NULL)  

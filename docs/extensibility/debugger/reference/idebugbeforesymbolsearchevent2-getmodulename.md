@@ -35,7 +35,7 @@ Retrieves the name of the module currently being debugged.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetModuleName(   
    BSTR *pbstrModuleName  
 );  
@@ -57,7 +57,7 @@ public int GetModuleName (
 ## Example  
  The following example shows how to implement this method for a **CDebugBeforeSymbolSearchEventBase** object that exposes the [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CDebugBeforeSymbolSearchEventBase::GetModuleName(BSTR *pbstrModuleName)  
 {  
     HRESULT hRes = E_FAIL;  

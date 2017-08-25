@@ -36,7 +36,7 @@ Specifies why the process was launched for debugging.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DEBUG_REASON {  
    DEBUG_REASON_ERROR         = 0,  
    DEBUG_REASON_USER_LAUNCHED = 1,  

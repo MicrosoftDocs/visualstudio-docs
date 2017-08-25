@@ -35,7 +35,7 @@ Retrieves the number of type parameters that are associated with the generic fie
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT TypeParamCount(  
    ULONG32* pcParams  
 );  

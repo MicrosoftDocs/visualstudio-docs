@@ -36,7 +36,7 @@ Allows (or disallows) expression evaluation to occur on the given thread, even i
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT WatchForExpressionEvaluationOnThread(   
    IDebugProgram2*       pOriginatingProgram,  
    DWORD                 dwTid,  

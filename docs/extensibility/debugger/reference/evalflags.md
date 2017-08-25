@@ -36,7 +36,7 @@ Specifies flags that control expression evaluation.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EVALFLAGS {  
    EVAL_RETURNVALUE = 0x0002,  
    EVAL_NOSIDEEFFECTS = 0x0004,  

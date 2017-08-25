@@ -36,7 +36,7 @@ Returns the GUIDs for all the possible debug engines (DE) that can debug this pr
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPossibleEngines(   
    DWORD  celtBuffer,  
    GUID*  rgguidEngines,  

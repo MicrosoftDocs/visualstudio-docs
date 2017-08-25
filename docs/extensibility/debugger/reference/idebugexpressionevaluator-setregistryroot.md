@@ -36,7 +36,7 @@ This method sets the registry root. Used for side-by-side debugging.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetRegistryRoot (   
    LPCOLESTR ustrRegistryRoot  
 );  

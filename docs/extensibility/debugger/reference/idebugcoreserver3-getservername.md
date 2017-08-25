@@ -36,7 +36,7 @@ Retrieves the name of the server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServerName(  
    BSTR* pbstrName  
 );  

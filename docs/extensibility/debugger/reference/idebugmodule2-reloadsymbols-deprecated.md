@@ -36,7 +36,7 @@ OBSOLETE. DO NOT USE. Reloads the symbols for this module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ReloadSymbols(   
    LPCOLESTR pszUrlToSymbols,  
    BSTR*     pbstrDebugMessage  

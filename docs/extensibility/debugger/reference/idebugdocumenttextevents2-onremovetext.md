@@ -36,7 +36,7 @@ Notifies the debug package that text has been removed from the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onRemoveText(   
    TEXT_POSITION pos,  
    DWORD         dwNumToRemove  

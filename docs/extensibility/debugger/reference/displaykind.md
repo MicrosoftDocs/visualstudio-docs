@@ -34,7 +34,7 @@ Enumerates the valid values that represent the kinds of information to take from
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DisplayKind  
 {  
    DisplayKind_Value = 0x1,  

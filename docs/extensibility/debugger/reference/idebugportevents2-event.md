@@ -36,7 +36,7 @@ This method sends events that signify the creation and destruction of processes 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Event(  
    IDebugCoreServer2* pServer,  
    IDebugPort2*       pPort,  

@@ -36,7 +36,7 @@ Specifies the reference type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_REFERENCE_TYPE {   
    REF_TYPE_WEAK   = 0x0001,  
    REF_TYPE_STRONG = 0x0002  

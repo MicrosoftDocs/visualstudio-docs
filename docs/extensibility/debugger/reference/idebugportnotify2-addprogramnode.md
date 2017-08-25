@@ -36,7 +36,7 @@ Registers a program that can be debugged with the port it is running on.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT AddProgramNode(   
    IDebugProgramNode2* pProgramNode  
 );  

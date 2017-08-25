@@ -36,7 +36,7 @@ Gets the code context that describes the location of this event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCodeContext(   
    IDebugCodeContext2** ppCodeContext  
 );  

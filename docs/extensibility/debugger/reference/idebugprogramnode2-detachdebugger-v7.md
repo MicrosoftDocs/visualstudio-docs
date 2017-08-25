@@ -37,7 +37,7 @@ DEPRECATED. DO NOT USE.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DetachDebugger_V7 (   
    void   
 );  

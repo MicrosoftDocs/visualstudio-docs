@@ -36,7 +36,7 @@ Gets the port supplier identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplierId(   
    GUID* pguidPortSupplier  
 );  

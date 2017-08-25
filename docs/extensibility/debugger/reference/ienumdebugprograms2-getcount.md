@@ -36,7 +36,7 @@ Returns the number of elements in the enumeration.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCount(  
    ULONG* pcelt  
 );  

@@ -34,7 +34,7 @@ Retrieves a expression evaluator local object given the metric name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEELocalObject(  
    REFGUID     guidLang,  
    REFGUID     guidVendor,  

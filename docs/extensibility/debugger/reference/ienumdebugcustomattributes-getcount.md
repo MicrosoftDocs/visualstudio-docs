@@ -36,7 +36,7 @@ Gets the number of custom attributes in an enumerator.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCount(   
    ULONG* pcelt  
 );  

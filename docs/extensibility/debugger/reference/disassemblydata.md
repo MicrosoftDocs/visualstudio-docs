@@ -36,7 +36,7 @@ Describes one disassembly instruction for the integrated development environment
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagDisassemblyData {   
    DISASSEMBLY_STREAM_FIELDS dwFields;  
    BSTR                      bstrAddress;  

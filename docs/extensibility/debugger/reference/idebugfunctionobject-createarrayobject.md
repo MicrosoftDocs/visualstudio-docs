@@ -36,7 +36,7 @@ Creates an array object. This array can contain either primitive or object insta
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateArrayObject(   
    OBJECT_TYPE    ot,  
    IDebugField*   pClassField,  

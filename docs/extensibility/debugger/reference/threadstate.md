@@ -36,7 +36,7 @@ Specifies the state of the thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_THREADSTATE {   
    THREADSTATE_RUNNING = 0x0001,  
    THREADSTATE_STOPPED = 0x0002,  

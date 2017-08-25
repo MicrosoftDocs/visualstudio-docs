@@ -36,7 +36,7 @@ Gets the module that is being loaded or unloaded.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetModule(   
    IDebugModule2** pModule,  
    BSTR*           pbstrDebugMessage,  

@@ -36,7 +36,7 @@ translation.priority.mt:
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum tagEncUnavailableReason {  
    ENCUN_NONE,  
    ENCUN_INTEROP,  

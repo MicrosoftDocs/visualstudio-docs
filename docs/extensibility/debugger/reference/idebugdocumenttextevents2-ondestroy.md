@@ -36,7 +36,7 @@ Indicates that the entire document has been destroyed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onDestroy(   
    void   
 );  

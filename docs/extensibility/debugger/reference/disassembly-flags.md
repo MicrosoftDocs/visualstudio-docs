@@ -36,7 +36,7 @@ Specifies the flags for disassembly.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DISASSEMBLY_FLAGS {   
    DF_DOCUMENTCHANGE     = 0x00000001,  
    DF_DISABLED           = 0x00000002,  

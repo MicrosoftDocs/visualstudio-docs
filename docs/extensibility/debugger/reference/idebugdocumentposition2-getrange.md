@@ -36,7 +36,7 @@ Gets the range for this document position.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRange(   
    TEXT_POSITION* pBegPosition,  
    TEXT_POSITION* pEndPosition  

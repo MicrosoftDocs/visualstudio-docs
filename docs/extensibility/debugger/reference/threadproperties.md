@@ -36,7 +36,7 @@ Describes the properties of a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagTHREADPROPERTIES {   
    THREADPROPERTY_FIELDS dwFields;  
    DWORD                 dwThreadId;  

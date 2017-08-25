@@ -36,7 +36,7 @@ Specifies how much of a program's state (such as running threads, stack frames, 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DUMPTYPE {   
    DUMP_MINIDUMP = 0,  
    DUMP_FULLDUMP = 1  

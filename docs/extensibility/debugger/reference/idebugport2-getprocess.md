@@ -36,7 +36,7 @@ Gets the specified process running on a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProcess(   
    AD_PROCESS_ID    ProcessId,  
    IDebugProcess2** ppProcess  

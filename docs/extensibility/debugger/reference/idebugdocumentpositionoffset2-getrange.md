@@ -34,7 +34,7 @@ Retrieves the range for the current document position.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRange(  
    DWORD* pdwBegOffset,  
    DWORD* pdwEndOffset  

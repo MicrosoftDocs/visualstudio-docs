@@ -35,7 +35,7 @@ Retrieves the value string of the metric given its name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMetricString(  
     LPCWSTR pszType,  
     REFGUID guidSection,  

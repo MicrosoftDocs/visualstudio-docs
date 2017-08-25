@@ -34,7 +34,7 @@ This method queries for a specified property value of the debugging process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT QueryProperty(  
    PROCESS_PROPERTY_TYPE  dwPropType,  
    VARIANT               *pvarPropValue);  

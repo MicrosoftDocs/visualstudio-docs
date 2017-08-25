@@ -36,7 +36,7 @@ Specifies the structure of the breakpoint resolution location.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 struct _BP_RESOLUTION_LOCATION {  
    BP_TYPE bpType;  
    union {  

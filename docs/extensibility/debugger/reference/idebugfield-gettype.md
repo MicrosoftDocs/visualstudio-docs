@@ -36,7 +36,7 @@ This method gets the type of field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetType(   
    IDebugField** ppType  
 );  

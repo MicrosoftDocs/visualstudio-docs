@@ -36,7 +36,7 @@ Returns a list of all the processes running on a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumProcesses(   
    IEnumDebugProcesses2** ppEnum  
 );  

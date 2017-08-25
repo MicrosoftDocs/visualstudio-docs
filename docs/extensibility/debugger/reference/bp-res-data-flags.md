@@ -36,7 +36,7 @@ Specifies whether the data breakpoint is being emulated or implemented in hardwa
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_RES_DATA_FLAGS {   
    BP_RES_DATA_EMULATED = 0x0001  
 };  

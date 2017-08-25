@@ -36,7 +36,7 @@ Retrieves a list of the children of the property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumChildren (   
    DEBUGPROP_INFO_FLAGS      dwFields,  
    DWORD                     dwRadix,  

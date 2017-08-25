@@ -36,7 +36,7 @@ Resumes execution of a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Resume (   
    DWORD *pdwSuspendCount  
 );  

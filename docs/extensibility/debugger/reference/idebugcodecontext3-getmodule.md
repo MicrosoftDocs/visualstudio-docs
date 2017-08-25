@@ -34,7 +34,7 @@ Retrieves a reference to the interface of the debug module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetModule(   
    IDebugModule2 **ppModule  
 );  
@@ -56,7 +56,7 @@ public int GetModule(
 ## Example  
  The following example shows how to implement this method for a **CDebugCodeContext** object that exposes the [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugCodeContext::GetModule(IDebugModule2** ppModule)  
 {  
     HRESULT hr = S_OK;  

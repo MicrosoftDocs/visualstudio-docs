@@ -36,7 +36,7 @@ Specifies the step unit for stepping.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_STEPUNIT {   
    STEP_STATEMENT   = 0,  
    STEP_LINE        = 1,  

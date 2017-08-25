@@ -36,7 +36,7 @@ Creates an object using a constructor.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateObject(   
    IDebugFunctionObject* pConstructor,  
    DWORD                 dwArgs,  

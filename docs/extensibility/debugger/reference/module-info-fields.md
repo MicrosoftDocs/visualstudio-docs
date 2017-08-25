@@ -36,7 +36,7 @@ Specifies the flags for the debug module information.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MODULE_INFO_FIELDS {   
    MIF_NONE              = 0x0000,  
    MIF_NAME              = 0x0001,  

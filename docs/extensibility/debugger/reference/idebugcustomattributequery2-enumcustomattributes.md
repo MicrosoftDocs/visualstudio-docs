@@ -36,7 +36,7 @@ Gets an enumerator for all custom attributes attached to this field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCustomAttributes(   
    IEnumDebugCustomAttributes** ppEnum  
 );  

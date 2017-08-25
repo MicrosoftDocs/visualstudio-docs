@@ -36,7 +36,7 @@ Specifies what information to retrieve about a debug property object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DEBUGPROP_INFO_FLAGS {   
    DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
    DEBUGPROP_INFO_NAME              = 0x00000002,  

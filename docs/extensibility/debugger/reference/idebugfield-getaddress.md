@@ -36,7 +36,7 @@ This method gets the debug address of a field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAddress(   
    IDebugAddress** ppAddress  
 );  

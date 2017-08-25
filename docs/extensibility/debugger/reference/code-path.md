@@ -36,7 +36,7 @@ Describes a method or function call.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCODE_PATH {   
    BSTR                bstrName;  
    IDebugCodeContext2* pCode;  

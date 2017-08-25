@@ -35,7 +35,7 @@ Retrieves the specified extended field kind.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExtendedKind(  
    FIELD_KIND_EX* pdwKind  
 );  

@@ -36,7 +36,7 @@ Gets the result of expression evaluation.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResult(   
    IDebugProperty2** ppResult  
 );  

@@ -36,7 +36,7 @@ This method cancels asynchronous expression evaluation as started by a call to t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Abort(  
    void  
 );  

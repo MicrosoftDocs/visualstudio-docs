@@ -36,7 +36,7 @@ Retrieves a list of all the programs contained by this process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPrograms(   
    IEnumDebugPrograms2** ppEnum  
 );  

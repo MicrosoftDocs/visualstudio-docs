@@ -34,7 +34,7 @@ Enumerates the valid values that specify the information to be retrieved about a
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BPREQI_FIELDS90  
 {  
    // VS 8.0 values  

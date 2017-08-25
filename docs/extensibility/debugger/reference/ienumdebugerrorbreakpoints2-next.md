@@ -36,7 +36,7 @@ Returns the next set of elements from the enumeration.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG                    celt,  
    IDebugErrorBreakpoint2** rgelt,  

@@ -35,7 +35,7 @@ Creates an object that represents a primitive type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePrimitive (  
    DWORD          dwElementType,  
    IDebugField ** pTypeField  

@@ -34,7 +34,7 @@ Retrieves the value string of an expression evaluator metric given its name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricString(  
    REFGUID guidLang,  
    REFGUID guidVendor,  

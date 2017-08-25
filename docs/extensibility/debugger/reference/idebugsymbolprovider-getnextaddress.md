@@ -36,7 +36,7 @@ Gets the debug address that follows a given debug address in a method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNextAddress(   
    IDebugAddress*  pAddress,  
    BOOL            fStatementOnly,  

@@ -36,7 +36,7 @@ Creates an enumerator for the parameters of the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumParameters(   
    IEnumDebugFields** ppParams  
 );  

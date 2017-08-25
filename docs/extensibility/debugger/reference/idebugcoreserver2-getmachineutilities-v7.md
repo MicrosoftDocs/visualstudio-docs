@@ -39,7 +39,7 @@ This method gets the machine utilities for a server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMachineUtilities_V7(  
    IDebugMDMUtil2_V7** ppUtil  
 );  

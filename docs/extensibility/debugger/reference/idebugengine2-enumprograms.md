@@ -36,7 +36,7 @@ Retrieves a list of all programs being debugged by a debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPrograms(   
    IEnumDebugPrograms2** ppEnum  
 );  

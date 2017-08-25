@@ -34,7 +34,7 @@ Retrieves an array of source server information.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSourceServerData(  
    ULONG* pDataByteCount,   
    BYTE** ppData  
@@ -61,7 +61,7 @@ public int GetSourceServerData(
 ## Example  
  The following example shows how to implement this method for a **CModule** object that exposes the [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CModule::GetSourceServerData(ULONG* pDataByteCount, BYTE** ppData)  
 {  
     HRESULT hr = S_OK;  

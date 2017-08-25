@@ -36,7 +36,7 @@ Compares an object with this object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsEqual(   
    IDebugObject* pObject,  
    BOOL*         pfIsEqual  

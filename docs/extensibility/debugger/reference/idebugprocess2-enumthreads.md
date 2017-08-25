@@ -36,7 +36,7 @@ Retrieves a list of all the threads running in the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumThreads(  
    IEnumDebugThreads2** ppEnum  
 );  

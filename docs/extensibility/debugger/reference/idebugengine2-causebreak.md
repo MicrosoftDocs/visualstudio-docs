@@ -36,7 +36,7 @@ Requests that all programs being debugged by this debug engine (DE) to stop exec
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CauseBreak(   
    void   
 );  

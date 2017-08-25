@@ -36,7 +36,7 @@ Gets the global container of the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetGlobalContainer(  
    IDebugClassField** ppClass  
 );  

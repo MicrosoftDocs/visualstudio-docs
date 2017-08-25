@@ -36,7 +36,7 @@ Gets the containing document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    IDebugDocument2** ppDoc  
 );  

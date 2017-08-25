@@ -36,7 +36,7 @@ Gets a port from a port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPort(   
    REFGUID       guidPort,  
    IDebugPort2** ppPort  

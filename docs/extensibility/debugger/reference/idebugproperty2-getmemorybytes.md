@@ -36,7 +36,7 @@ Gets the memory bytes that compose the value of a property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryBytes (   
    IDebugMemoryBytes2** ppMemoryBytes  
 );  

@@ -36,7 +36,7 @@ This method maps a symbol name to a symbol type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeByName(   
    LPCOLESTR     pszClassName,  
    NAME_MATCH    nameMatch,  

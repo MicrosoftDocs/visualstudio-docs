@@ -34,7 +34,7 @@ Defines the metadata that can be retrieved about a port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS  
 {  
    PSDFLAG_SHOW_WARNING_ICON = 0x1  

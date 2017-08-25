@@ -36,7 +36,7 @@ Sets the registry root for the debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetRegistryRoot(   
    LPCOLESTR pszRegistryRoot  
 );  

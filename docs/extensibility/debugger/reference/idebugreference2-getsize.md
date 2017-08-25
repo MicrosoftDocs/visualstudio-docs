@@ -36,7 +36,7 @@ Gets the size, in bytes, of the value of the reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize (   
    DWORD* pdwSize  
 );  

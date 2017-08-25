@@ -36,7 +36,7 @@ Gets the size of the object in bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    UINT* pnSize  
 );  

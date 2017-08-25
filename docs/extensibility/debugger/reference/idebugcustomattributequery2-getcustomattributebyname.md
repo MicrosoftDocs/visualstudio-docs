@@ -36,7 +36,7 @@ Obtains the custom attributes bytes given the name of the custom attribute.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCustomAttributeByName(   
    LPCOLESTR pszCustomAttributeName,  
    BYTE*     ppBlob,  

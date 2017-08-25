@@ -36,7 +36,7 @@ Specifies properties associated with a program provider.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PROVIDER_FIELDS {  
    PFIELD_PROGRAM_NODES       = 0x01,  
    PFIELD_IS_DEBUGGER_PRESENT = 0x02  

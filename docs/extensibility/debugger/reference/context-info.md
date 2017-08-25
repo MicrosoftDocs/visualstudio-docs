@@ -36,7 +36,7 @@ This structure describes a memory context or code context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagCONTEXT_INFO {   
    CONTEXT_INFO_FIELDS dwFields;  
    BSTR                bstrModuleUrl;  

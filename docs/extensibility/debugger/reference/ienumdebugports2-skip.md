@@ -36,7 +36,7 @@ Skips over the specified number of elements.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Skip(  
    ULONG celt  
 );  

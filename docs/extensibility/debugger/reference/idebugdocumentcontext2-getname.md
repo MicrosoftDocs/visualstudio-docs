@@ -36,7 +36,7 @@ Gets the displayable name of the document that contains this document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    GETNAME_TYPE gnType,  
    BSTR*        pbstrFileName  
@@ -66,7 +66,7 @@ int GetName( 
 ## Example  
  The following example shows how to implement this method for a simple `CDebugContext` object that exposes the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)    
 {    
    HRESULT hr;    

@@ -36,7 +36,7 @@ Specifies modifiers for a field type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_FIELD_MODIFIERS {   
    FIELD_MOD_NONE             = 0x00000000,  
   

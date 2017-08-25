@@ -36,7 +36,7 @@ Gets the port supplier name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplierName(   
    BSTR* pbstrName  
 );  

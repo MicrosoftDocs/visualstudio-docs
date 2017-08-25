@@ -36,7 +36,7 @@ Disables automatic attaching for all debug engines associated with this server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisableAutoAttach(  
    void  
 );  

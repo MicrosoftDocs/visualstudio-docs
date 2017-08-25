@@ -63,7 +63,7 @@ int GetStringCharLength(
 ## Example  
  The following example shows how to implement this method for a **CProperty** object that exposes the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)  
 {  
     HRESULT hr = E_INVALIDARG;  

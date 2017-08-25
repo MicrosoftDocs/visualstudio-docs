@@ -36,7 +36,7 @@ Specifies what information to retrieve about a debug reference object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DEBUGREF_INFO_FLAGS {   
    DEBUGREF_INFO_NAME             = 0x00000001,  
    DEBUGREF_INFO_TYPE             = 0x00000002,  

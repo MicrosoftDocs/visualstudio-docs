@@ -35,7 +35,7 @@ Creates a pointer to the specified type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePointerToType(  
    IDebugField*  pTypeField,  
    IDebugField** pPtrToTypeField  

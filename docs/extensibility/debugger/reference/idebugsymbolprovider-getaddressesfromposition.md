@@ -36,7 +36,7 @@ This method maps a document position into an array of debug addresses.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAddressesFromPosition(   
    IDebugDocumentPosition2* pDocPos,  
    BOOL                     fStatmentOnly,  

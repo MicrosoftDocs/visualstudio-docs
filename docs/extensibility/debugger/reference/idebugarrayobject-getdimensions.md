@@ -36,7 +36,7 @@ Gets the dimensions of the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDimensions(   
    DWORD dwCount,  
    DWORD dwDimensions[]  

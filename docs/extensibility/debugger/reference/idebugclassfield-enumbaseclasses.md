@@ -36,7 +36,7 @@ Creates an enumerator for the base classes of this class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumBaseClasses(   
    IEnumDebugFields** ppEnum  
 );  

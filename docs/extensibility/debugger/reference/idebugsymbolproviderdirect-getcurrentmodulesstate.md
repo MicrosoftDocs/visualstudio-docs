@@ -35,7 +35,7 @@ Retrieves information about the symbol group of which the symbol provider is a m
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCurrentModulesState(  
     DWORD*          pState,  
     unsigned long * count  

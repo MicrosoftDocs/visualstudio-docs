@@ -36,7 +36,7 @@ Gets the name of a thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName (   
    BSTR* pbstrName  
 );  

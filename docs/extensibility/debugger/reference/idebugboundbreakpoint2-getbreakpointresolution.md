@@ -37,7 +37,7 @@ Gets the breakpoint resolution that describes this breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointResolution(   
    IDebugBreakpointResolution2** ppBPResolution  
 );  

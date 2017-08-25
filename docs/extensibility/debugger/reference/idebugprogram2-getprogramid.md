@@ -36,7 +36,7 @@ Gets a GUID for this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgramId(   
    GUID* pguidProgramId  
 );  

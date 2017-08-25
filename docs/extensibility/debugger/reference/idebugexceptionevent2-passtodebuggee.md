@@ -36,7 +36,7 @@ Specifies whether the exception should be passed on to the program being debugge
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT PassToDebuggee(  
    BOOL fPass  
 );  

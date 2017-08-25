@@ -36,7 +36,7 @@ Debug engines do not implement this method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLogicalThread(   
    IDebugStackFrame2*     pStackFrame,  
    IDebugLogicalThread2** ppLogicalThread  

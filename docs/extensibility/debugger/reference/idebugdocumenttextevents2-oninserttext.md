@@ -36,7 +36,7 @@ Notifies the debug package that text has been inserted into the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onInsert(   
    TEXT_POSITION pos,  
    DWORD         dwNumToInsert  

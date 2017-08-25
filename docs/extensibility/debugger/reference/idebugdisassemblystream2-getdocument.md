@@ -36,7 +36,7 @@ Gets the source document associated with this input stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    BSTR              bstrDocumentUrl,  
    IDebugDocument2** ppDocument  

@@ -36,7 +36,7 @@ Detaches the debugger from this process by detaching all of the programs in the 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Detach(   
    void   
 );  

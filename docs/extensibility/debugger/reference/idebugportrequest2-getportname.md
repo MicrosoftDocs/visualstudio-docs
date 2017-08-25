@@ -36,7 +36,7 @@ Gets the name of the port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortName(   
    BSTR* pbstrPortName  
 );  

@@ -36,7 +36,7 @@ Specifies the process ID, which may be either a system ID or a GUID.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _AD_PROCESS_ID {  
    AD_PROCESS_ID_TYPE ProcessIdType;  
    union {  

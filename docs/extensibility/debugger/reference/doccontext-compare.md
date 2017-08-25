@@ -36,7 +36,7 @@ Specifies the criteria for comparing two document contexts.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DOCCONTEXT_COMPARE {   
    DOCCONTEXT_EQUAL         = 0x0001,  
    DOCCONTEXT_LESS_THAN     = 0x0002,  

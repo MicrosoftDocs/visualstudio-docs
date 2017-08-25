@@ -36,7 +36,7 @@ Specifies the reason for the debug engine (DE) to attach to a program node.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_ATTACH_REASON {   
    ATTACH_REASON_LAUNCH = 0x0001,  
    ATTACH_REASON_USER   = 0x0002,  

@@ -35,7 +35,7 @@ Constructs a field instance given an array of type arguments.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ConstructInstantiation(  
    ULONG32       cArgs,  
    IDebugField** ppArgs,  

@@ -37,7 +37,7 @@ Gets the document context that describes the position in the document that is to
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext (   
    IDebugDocumentContext2** ppDocContext  
 );  

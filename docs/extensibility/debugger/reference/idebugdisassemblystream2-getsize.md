@@ -36,7 +36,7 @@ Gets the size in instructions of this disassembly stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    UINT64* pnSize  
 );  

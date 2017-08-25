@@ -35,7 +35,7 @@ Retrieves the base indices (lower bounds) for each index given the number of dim
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBaseIndices (  
    DWORD  dwRank,  
    DWORD* dwIndices  

@@ -36,7 +36,7 @@ Creates an object with no constructor.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateObjectNoConstructor(   
    IDebugField*   pClassObject,  
    IDebugObject** ppObject  

@@ -37,7 +37,7 @@ Gets the state of the pending breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetState(   
    PENDING_BP_STATE_INFO* pState  
 );  

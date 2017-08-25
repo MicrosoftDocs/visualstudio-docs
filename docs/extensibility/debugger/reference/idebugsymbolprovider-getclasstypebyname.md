@@ -36,7 +36,7 @@ This method gets the class field type representing a fully qualified class name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetClassTypeByName(   
    LPCOLESTR          pszClassName,  
    NAME_MATCH         nameMatch,  

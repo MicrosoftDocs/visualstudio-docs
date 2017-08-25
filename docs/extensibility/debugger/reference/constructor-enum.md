@@ -36,7 +36,7 @@ Selects different types of constructors.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef enum ConstructorMatchOptions {   
    crAll       = 0,  
    crNonStatic = 1,  

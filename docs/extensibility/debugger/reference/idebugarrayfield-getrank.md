@@ -36,7 +36,7 @@ Gets the rank or number of dimensions of the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRank(   
    DWORD* pdwRank  
 );  

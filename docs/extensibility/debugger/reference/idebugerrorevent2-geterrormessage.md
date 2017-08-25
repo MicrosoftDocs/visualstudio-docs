@@ -36,7 +36,7 @@ Returns information that allows construction of a human-readable error message.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetErrorMessage(  
    MESSAGETYPE* pMessageType,  
    BSTR*        pbstrErrorFormat,  

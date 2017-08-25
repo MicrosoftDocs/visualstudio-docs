@@ -174,7 +174,7 @@ End Class
   
 ```  
   
-```cpp#  
+```cpp  
 // A .cpp file compiled as managed (CLI) code.  
 using namespace System::Diagnostics::CodeAnalysis;  
 ...  

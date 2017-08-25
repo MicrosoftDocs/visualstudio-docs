@@ -37,7 +37,7 @@ Gets the pending breakpoint from which the specified bound breakpoint was create
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPendingBreakpoint(   
    IDebugPendingBreakpoint2** ppPendingBreakpoint  
 );  

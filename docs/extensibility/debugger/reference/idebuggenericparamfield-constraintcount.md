@@ -35,7 +35,7 @@ Returns the number of constraints that are associated with this generic paramete
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ConstraintCount(  
    ULONG32* pcConst  
 );  
@@ -57,7 +57,7 @@ int ConstraintCount(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::ConstraintCount(ULONG32* pcConst)  
 {  
     HRESULT hr = S_OK;  

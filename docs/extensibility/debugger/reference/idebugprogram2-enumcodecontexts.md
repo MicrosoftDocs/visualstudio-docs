@@ -36,7 +36,7 @@ Retrieves a list of the code contexts for a given position in a source file.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCodeContexts(   
    IDebugDocumentPosition2*  pDocPos,  
    IEnumDebugCodeContexts2** ppEnum  

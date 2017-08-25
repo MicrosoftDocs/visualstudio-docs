@@ -36,7 +36,7 @@ Specifies the criteria for comparing two memory contexts.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_CONTEXT_COMPARE {   
    CONTEXT_EQUAL                 = 0x0001,  
    CONTEXT_LESS_THAN             = 0x0002,  

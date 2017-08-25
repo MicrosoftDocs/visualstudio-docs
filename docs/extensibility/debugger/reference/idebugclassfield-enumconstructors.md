@@ -36,7 +36,7 @@ Creates an enumerator for the constructors for this class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumConstructors(   
    CONSTRUCTOR_ENUM   cMatch,  
    IEnumDebugFields** ppEnum  

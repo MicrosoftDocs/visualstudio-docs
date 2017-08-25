@@ -36,7 +36,7 @@ Gets the title, friendly name, or file name of the hosting process of this progr
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostName(   
    DWORD dwType,  
    BSTR* pbstrHostName  

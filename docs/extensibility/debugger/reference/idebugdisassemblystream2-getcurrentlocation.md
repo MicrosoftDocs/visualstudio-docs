@@ -36,7 +36,7 @@ Returns a code location identifier that represents the current code location.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCurrentLocation(   
    UINT64* puCodeLocationId  
 );  

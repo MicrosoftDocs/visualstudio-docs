@@ -36,7 +36,7 @@ Specifies the debug launch flags.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_LAUNCH_FLAGS {   
    LAUNCH_DEBUG      = 0x0000,  
    LAUNCH_NODEBUG    = 0x0001,  

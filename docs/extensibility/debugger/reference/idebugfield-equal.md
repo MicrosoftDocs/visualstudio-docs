@@ -36,7 +36,7 @@ This method compares this field with the specified field for equality.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Equal(   
    IDebugField* pField  
 );  

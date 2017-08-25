@@ -36,7 +36,7 @@ Used to describe a module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MODULE_FLAGS {   
    MODULE_FLAG_NONE        = 0x0000,  
    MODULE_FLAG_SYSTEM      = 0x0001,  

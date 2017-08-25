@@ -36,7 +36,7 @@ Gets the program node associated with a program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgramNode(   
    IDebugProgramNode2** ppProgramNode  
 );  

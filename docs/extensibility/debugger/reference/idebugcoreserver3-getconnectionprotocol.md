@@ -36,7 +36,7 @@ Returns a value indicating the protocol that is being used to communicate betwee
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetConnectionProtocol(  
    CONNECTION_PROTOCOL* pProtocol  
 );  

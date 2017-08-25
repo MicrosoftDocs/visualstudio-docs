@@ -36,7 +36,7 @@ Gets a description of the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(  
    PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO*        pProcessInfo  

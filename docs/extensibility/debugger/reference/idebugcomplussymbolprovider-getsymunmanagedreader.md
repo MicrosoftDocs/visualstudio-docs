@@ -35,7 +35,7 @@ Retrieves the symbol reader to be used by unmanaged code.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSymUnmanagedReader(  
    ULONG32    ulAppDomainID,  
    GUID       guidModule,  
@@ -67,7 +67,7 @@ int GetSymUnmanagedReader(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetSymUnmanagedReader(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

@@ -36,7 +36,7 @@ This method evaluates the expression asynchronously.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EvaluateAsync (   
    EVALFLAGS             dwFlags,  
    IDebugEventCallback2* pExprCallback  
@@ -70,7 +70,7 @@ int EvaluateAsync(
 ## Example  
  The following example shows how to implement this method for a simple `CExpression` object that implements the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,  
                                    IDebugEventCallback2* pExprCallback)  
 {  

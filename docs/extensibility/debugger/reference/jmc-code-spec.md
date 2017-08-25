@@ -36,7 +36,7 @@ This structure is used to set the JustMyCode information for a module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _JMC_CODE_SPEC {  
    BOOL fIsUserCode;  
    BSTR bstrModuleName;  

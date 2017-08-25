@@ -36,7 +36,7 @@ Specifies what actions to take when intercepting exceptions.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  

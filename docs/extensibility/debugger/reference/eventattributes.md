@@ -36,7 +36,7 @@ Specifies the event attributes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EVENTATTRIBUTES {   
    EVENT_ASYNCHRONOUS          = 0x0000,  
    EVENT_SYNCHRONOUS           = 0x0001,  

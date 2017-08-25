@@ -36,7 +36,7 @@ Retrieves the text from the specified position in the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetText(   
    TEXT_POSITION pos,  
    ULONG         cMaxChars,  

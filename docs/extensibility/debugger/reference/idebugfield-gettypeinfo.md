@@ -36,7 +36,7 @@ This method gets type-independent information about the symbol or type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeInfo(   
    TYPE_INFO* pTypeInfo  
 );  

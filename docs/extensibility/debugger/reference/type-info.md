@@ -36,7 +36,7 @@ This structure specifies various kinds of information about a field's type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 struct _tagTYPE_INFO_UNION {  
    dwTYPE_KIND dwKind;  
    union {  

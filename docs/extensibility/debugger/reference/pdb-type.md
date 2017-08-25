@@ -36,7 +36,7 @@ This structure specifies information about a field type taken from a PDB symbol.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagTYPE_PDB {  
    ULONG32 ulAppDomainID;  
    GUID    guidModule;  

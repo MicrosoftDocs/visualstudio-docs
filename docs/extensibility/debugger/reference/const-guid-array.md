@@ -36,7 +36,7 @@ A structure that holds a list of `GUID`s.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCONST_GUID_ARRAY {  
    DWORD       dwCount;  
    CONST GUID* Members;  

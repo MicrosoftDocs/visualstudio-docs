@@ -36,7 +36,7 @@ Gets the document context that corresponds to this code context. The document co
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext(   
    IDebugDocumentContext2** ppSrcCxt  
 );  

@@ -36,7 +36,7 @@ Specifies the location type of the breakpoint for a breakpoint request.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_LOCATION_TYPE {   
    BPLT_NONE               = 0x00000000,  
    BPLT_FILE_LINE          = 0x00010000,  

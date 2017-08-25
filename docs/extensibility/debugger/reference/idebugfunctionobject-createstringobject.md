@@ -36,7 +36,7 @@ Creates a string object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateStringObject(   
    LPCOLESTR      pcstrString,  
    IDebugObject** ppObject  

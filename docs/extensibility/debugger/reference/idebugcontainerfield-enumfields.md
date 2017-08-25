@@ -36,7 +36,7 @@ Creates an enumerator for the fields of the container.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumFields(   
    FIELD_KIND         dwKindFilter,  
    FIELD_MODIFIERS    dwModifiersFilter,  

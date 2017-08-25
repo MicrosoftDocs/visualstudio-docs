@@ -70,7 +70,7 @@ IDebugProgramPublisher2 : IUnknown
 ## Example  
  This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](http://msdn.microsoft.com/en-us/d0100e02-4e2b-4e72-9e90-f7bc11777bae).  
   
-```cpp#  
+```cpp  
 // This is how m_srpProgramPublisher is defined in the class definition:  
 // CComPtr<IDebugProgramPublisher2> m_srpProgramPublisher.  
   

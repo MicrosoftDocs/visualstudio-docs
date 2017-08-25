@@ -36,7 +36,7 @@ Attaches to the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Attach(   
    IDebugEventCallback2* pCallback  
 );  

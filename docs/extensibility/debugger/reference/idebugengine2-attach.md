@@ -36,7 +36,7 @@ Attaches a debug engine (DE) to a program or programs. Called by the session deb
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Attach(   
    IDebugProgram2**      pProgram,  
    IDebugProgramNode2**  rgpProgramNodes,  

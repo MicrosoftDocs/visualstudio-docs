@@ -36,7 +36,7 @@ Creates an enumerator for properties associated with the stack frame, such as lo
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumProperties (   
    DEBUGPROP_INFO_FLAGS      dwFieldSpec,  
    UINT                      nRadix,  

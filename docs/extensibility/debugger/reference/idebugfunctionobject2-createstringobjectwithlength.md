@@ -35,7 +35,7 @@ Creates a string object that has the specified length.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateStringObjectWithLength (  
    LPCOLESTR      pcstrString,  
    UINT           uiLength,  

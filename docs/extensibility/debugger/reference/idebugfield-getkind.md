@@ -36,7 +36,7 @@ This method gets the kind of field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetKind(   
    FIELD_KIND* pdwKind  
 );  

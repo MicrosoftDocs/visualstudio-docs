@@ -36,7 +36,7 @@ Sets the value of the instance of the value class object from the instance of th
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetFromManagedObject(   
    IUnknown* pManagedObject  
 );  

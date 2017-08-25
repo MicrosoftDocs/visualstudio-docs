@@ -36,7 +36,7 @@ Retrieves a list of the modules that this program has loaded and is executing.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumModules(   
    IEnumDebugModules2** ppEnum  
 );  

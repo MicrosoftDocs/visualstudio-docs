@@ -36,7 +36,7 @@ This method determines whether this port is on the local machine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT QueryIsLocal(  
    void  
 );  

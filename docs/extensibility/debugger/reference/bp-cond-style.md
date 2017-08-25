@@ -36,7 +36,7 @@ Specifies the breakpoint condition style for pending and bound breakpoints.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_COND_STYLE {   
    BP_COND_NONE         = 0x0000,  
    BP_COND_WHEN_TRUE    = 0x0001,  

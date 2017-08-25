@@ -36,7 +36,7 @@ Determines whether or not the debug engine (DE) supports the option of passing t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanPassToDebuggee(  
    void  
 );  

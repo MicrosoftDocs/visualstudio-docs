@@ -36,7 +36,7 @@ Specifies the pending breakpoint state flags.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PENDING_BP_STATE_FLAGS {   
    PBPSF_NONE        = 0x0000,  
    PBPSF_VIRTUALIZED = 0x0001  

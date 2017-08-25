@@ -78,7 +78,7 @@ namespace EEMC
 ## Unmanaged Code  
  This is an implementation of `IDebugExpressionEvaluator::Parse` in unmanaged code. This method calls a helper function, `Parse`, to parse the expression and check for errors but this method ignores the resulting value. The formal evaluation is deferred to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) where the expression is parsed while it is evaluated (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CExpressionEvaluator::Parse(  
         in    LPCOLESTR                 pszExpression,  
         in    PARSEFLAGS                flags,  

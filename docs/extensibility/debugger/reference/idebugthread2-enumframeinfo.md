@@ -36,7 +36,7 @@ Retrieves a list of the stack frames for this thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumFrameInfo (   
    FRAMEINFO_FLAGS        dwFieldSpec,  
    UINT                   nRadix,  

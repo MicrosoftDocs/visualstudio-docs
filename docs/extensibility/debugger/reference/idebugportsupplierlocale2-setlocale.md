@@ -34,7 +34,7 @@ Sets the locale for the port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetLocale(  
    WORD wLangID  
 );  

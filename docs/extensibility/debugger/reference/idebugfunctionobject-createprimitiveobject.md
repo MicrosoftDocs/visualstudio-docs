@@ -36,7 +36,7 @@ Creates a primitive data object, such as a simple integer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePrimitiveObject(   
    OBJECT_TYPE    ot,  
    IDebugObject** ppObject  

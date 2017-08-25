@@ -36,7 +36,7 @@ Specifies the type of comparison for references.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_REFERENCE_COMPARE {   
    REF_COMPARE_EQUAL        = 0x0001,  
    REF_COMPARE_LESS_THAN    = 0x0002,  

@@ -36,7 +36,7 @@ Gets the name of the default indexer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDefaultIndexer(   
    BSTR* pbstrIndexer  
 );  

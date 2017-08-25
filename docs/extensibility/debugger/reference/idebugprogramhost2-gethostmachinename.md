@@ -36,7 +36,7 @@ Gets the name of the machine that the process hosting this program is running on
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostMachineName(   
    BSTR* pbstrHostMachineName  
 );  

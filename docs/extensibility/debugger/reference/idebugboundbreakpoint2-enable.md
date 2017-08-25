@@ -37,7 +37,7 @@ Enables or disables the breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Enable(   
    BOOL fEnable  
 );  
