@@ -34,19 +34,23 @@ Select the option to save the connection on the Save connection string to the ap
 - Enter a Name for the connection string. Refer to this name when accessing the connection string in code.
 - Set the Type to (Connection string).
 - Leave the Scope set to Application.
-- Type your connection string into the Value field, or click the ellipses (...) button in the Value field to open the Connection Properties dialog box to build your connection string.
+- Type your connection string into the Value field, or click the ellipsis (...) button in the Value field to open the Connection Properties dialog box to build your connection string.  
+
 ## Editing Connection Strings Stored in Application Settings
-You can modify connection information that is saved in application settings by using the Project Designer.
+You can modify connection information that is saved in application settings by using the Project Designer.  
+
 ### To edit a connection string stored in application settings
-- In Solution Explorer, double-click the My Project icon (Visual Basic) or Properties icon (Visual C# to open the Project Designer.
+- In Solution Explorer, double-click the My Project icon (Visual Basic) or Properties icon (C#) to open the Project Designer.
 - Select the Settings tab.
-- Locate the connection you want to edit and select the text in the Value box.
-- Edit the connection string in the Value box, or click the ellipses in the Value box to edit your connection with the Connection Properties dialog box.
+- Locate the connection you want to edit and select the text in the Value field.
+- Edit the connection string in the Value field, or click the ellipsis (...) button in the Value field to edit your connection with the Connection Properties dialog box.  
+
 ## Editing Hard-Coded Connection Strings in Datasets
-You can modify connection information that is saved in code by using the Creating and Editing Typed Datasets.
+You can modify connection information that is saved in code by using the Creating and Editing Typed Datasets.  
+
 ### To edit a connection string stored in a Dataset
-- In Solution Explorer, double-click the dataset (.xsd file) with the connection you want to edit.
-- Select the TableAdapter or query with the connection you want to edit.
+- In Solution Explorer, double-click the dataset (.xsd file) that has the connection you want to edit.
+- Select the TableAdapter or query that has the connection you want to edit.
 - In the Properties window expand the DefaultConnection node.
 - To quickly modify the connection string, edit the ConnectionString property, or click the down arrow on the DefaultConnection property and choose New Connection.
 

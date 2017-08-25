@@ -180,7 +180,6 @@ To complete the NewCustomer form logic, follow these steps.
      ```cs  
      using System.Data.SqlClient  
      ```  
-
      ```vb  
      Imports System.Data.SqlClient  
      ```  
@@ -211,7 +210,6 @@ To complete the FillOrCancel form logic, follow these steps.
      using System.Data.SqlClient;  
      using System.Text.RegularExpressions;  
      ```  
-
      ```vb  
      Imports System.Data.SqlClient  
      Imports System.Text.RegularExpressions  
