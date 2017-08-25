@@ -206,7 +206,7 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.  
 
-     ```csharp  
+     ```cs  
      using System.Data.SqlClient;  
      using System.Text.RegularExpressions;  
      ```  
