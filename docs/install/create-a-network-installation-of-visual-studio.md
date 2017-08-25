@@ -46,9 +46,6 @@ To create an offline installation with all languages and all features, use one o
   ```
   vs_enterprise.exe --layout c:\vs2017offline
   ```
-  > [!IMPORTANT]
-  > A complete Visual Studio Enterprise 2017 layout requires at least 20 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
-
 
 - For Visual Studio Professional, run:
   ```
@@ -58,6 +55,8 @@ To create an offline installation with all languages and all features, use one o
   ```
   vs_community.exe --layout c:\vs2017offline
   ```
+> [!IMPORTANT]
+> A complete Visual Studio 2017 layout requires at least 20 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
 
 ## Modify the response.json file
 You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically.
