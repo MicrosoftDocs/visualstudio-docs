@@ -74,7 +74,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 7.  Compile the file into an assembly.  
   
-    ```cs  
+    ```csharp  
     csc /target:library /keyfile:TestKey.snk ClickOnceLibrary.cs  
     ```  
   
@@ -101,7 +101,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 13. Compile it into an executable using the following command.  
   
-    ```cs  
+    ```csharp  
     csc /target:exe /reference:ClickOnceLibrary.dll Form1.cs  
     ```  
   

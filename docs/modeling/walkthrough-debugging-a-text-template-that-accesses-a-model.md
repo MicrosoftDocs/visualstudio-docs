@@ -54,7 +54,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     > [!NOTE]
     >  The code contains an error. You are introducing the error in order to debug it.  
   
-    ```cs  
+    ```csharp  
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>  
     <#@ output extension=".txt" #>  
     <#@ modelRoot processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=ExampleModel" #>  
@@ -99,7 +99,7 @@ When you modify or add text templates in a domain-specific language solution, yo
   
      The change is highlighted.  
   
-    ```cs  
+    ```csharp  
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=ExampleModel" #>  
     ```  
   
@@ -118,7 +118,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     > [!NOTE]
     >  The code contains an error. You are introducing the error in order to debug it.  
   
-    ```cs  
+    ```csharp  
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>  
     <#@ output extension=".txt" #>  
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=LibraryModel" #>  
@@ -173,7 +173,7 @@ When you modify or add text templates in a domain-specific language solution, yo
   
      The changes are highlighted.  
   
-    ```cs  
+    ```csharp  
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>  
     <#@ output extension=".txt" #>  
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=LibraryModel" #>  

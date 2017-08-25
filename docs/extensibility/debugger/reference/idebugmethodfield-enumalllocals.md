@@ -36,14 +36,14 @@ Creates an enumerator for all local variables of the method, including those gen
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumAllLocals(   
    IDebugAddress*     pAddress,  
    IEnumDebugFields** ppLocals  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumAllLocals(  
    IDebugAddress        pAddress,   
    out IEnumDebugFields ppLocals  

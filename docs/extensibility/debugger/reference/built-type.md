@@ -36,7 +36,7 @@ This structure specifies information about a field type taken from metadata.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagTYPE_BUILT {  
    ULONG32      ulAppDomainID;  
    GUID         guidModule;  
@@ -44,7 +44,7 @@ typedef struct _tagTYPE_BUILT {
 } BUILT_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public struct BUILT_TYPE {  
    public uint        ulAppDomainID;  
    public Guid        guidModule;  

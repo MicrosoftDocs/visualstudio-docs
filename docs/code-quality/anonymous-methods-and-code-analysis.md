@@ -55,7 +55,7 @@ Class AClass
     End SubEnd Class  
 ```  
   
-```cs  
+```csharp  
   
       delegate void Delegate();  
 class Class  
@@ -93,7 +93,7 @@ Sub Method1()
 End SubEnd Class  
 ```  
   
-```cs  
+```csharp  
   
       delegate void Delegate();  
 class Class  
@@ -134,7 +134,7 @@ End SubSub New(ByVal a As String)
 End SubEnd Class  
 ```  
   
-```cs  
+```csharp  
   
       delegate void Delegate();  
 class Class  

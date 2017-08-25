@@ -42,7 +42,7 @@ HRESULT UnpublishProgram(
 );  
 ```  
   
-```cs  
+```csharp  
 int UnpublishProgram(  
    object pDebuggeeInterface  
 );  

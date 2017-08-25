@@ -37,13 +37,13 @@ Binds this pending breakpoint to one or more code locations.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Bind(   
    void   
 );  
 ```  
   
-```cs  
+```csharp  
 int Bind();  
 ```  
   

@@ -68,7 +68,7 @@ You can extend the functionality of a dataset by creating a partial class file f
     End Class  
     ```  
   
-    ```cs  
+    ```csharp  
     partial class CustomersDataTable  
     {  
         // Add code here to add functionality  

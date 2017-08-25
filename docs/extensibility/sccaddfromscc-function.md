@@ -36,7 +36,7 @@ This function allows the user to browse for files that are already in the source
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccAddFromScc (  
    LPVOID   pvContext,  
    HWND     hWnd,  

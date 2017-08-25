@@ -36,14 +36,14 @@ Notifies the debug package that text has been replaced in the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onReplaceText(   
    TEXT_POSITION pos,  
    DWORD         dwNumToReplace  
 );  
 ```  
   
-```cs  
+```csharp  
 int onReplaceText(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToReplace  

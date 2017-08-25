@@ -36,7 +36,7 @@ Describes the location of a breakpoint that is bound directly to an address in t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_CONTEXT {   
    IDebugCodeContext2* pCodeContext;  
 } BP_LOCATION_CODE_CONTEXT;  

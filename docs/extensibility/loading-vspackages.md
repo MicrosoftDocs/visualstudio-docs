@@ -42,7 +42,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
 -   Add the `ProvideAutoLoad` attribute to the VSPackage attributes:  
   
-    ```cs  
+    ```csharp  
     [DefaultRegistryRoot(@"Software\Microsoft\VisualStudio\14.0")]  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
@@ -68,7 +68,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
 -   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method of the VSPackage that forces another VSPackage to load:  
   
-    ```cs  
+    ```csharp  
     IVsShell shell = GetService(typeof(SVsShell)) as IVsShell;  
     if (shell == null) return;  
   
@@ -89,7 +89,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
 ## Creating a Registry Key  
  In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
   
-```cs  
+```csharp  
 public override void Register(RegistrationAttribute.RegistrationContext context)  
 {  
     Key packageKey = null;  
@@ -115,7 +115,7 @@ public override void Unregister(RegistrationContext context)
 ## Creating a New Value Under an Existing Registry Key  
  You can add custom values to an existing key. The following code shows how to add a new value to a VSPackage registration key.  
   
-```cs  
+```csharp  
 public override void Register(RegistrationAttribute.RegistrationContext context)  
 {  
     Key packageKey = null;  

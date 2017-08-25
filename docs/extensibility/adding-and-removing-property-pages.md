@@ -62,7 +62,7 @@ The Project Designer provides a centralized location for managing project proper
   
     ```  
   
-    ```cs  
+    ```csharp  
     protected override int GetProperty(uint itemId, int propId, out object property)  
     {  
         //Use propId to filter configuration-independent property pages.  
@@ -103,7 +103,7 @@ The Project Designer provides a centralized location for managing project proper
     property = propertyPagesList  
     ```  
   
-    ```cs  
+    ```csharp  
     string buildEventsPageGuid = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}";  
     int index = propertyPagesList.IndexOf(buildEventsPageGuid);  
     if (index != -1)  
@@ -145,7 +145,7 @@ The Project Designer provides a centralized location for managing project proper
     End Class  
     ```  
   
-    ```cs  
+    ```csharp  
     class DeployPropertyPage : Form, Microsoft.VisualStudio.OLE.Interop.IPropertyPage  
     {  
         . . . .   
@@ -172,7 +172,7 @@ The Project Designer provides a centralized location for managing project proper
     <MSVSIP.ProvideObject(GetType(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)>  
     ```  
   
-    ```cs  
+    ```csharp  
     [MSVSIP.ProvideObject(typeof(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)]  
     ```  
   
@@ -194,7 +194,7 @@ The Project Designer provides a centralized location for managing project proper
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     protected override int GetProperty(uint itemId, int propId, out object property)  
     {  
         //Use propId to filter configuration-dependent property pages.  

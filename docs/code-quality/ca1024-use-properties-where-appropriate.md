@@ -102,7 +102,7 @@ Namespace Microsoft.Samples
 End Namespace  
 ```  
   
-```cs  
+```csharp  
   
       using System;   
 using System.Diagnostics;   

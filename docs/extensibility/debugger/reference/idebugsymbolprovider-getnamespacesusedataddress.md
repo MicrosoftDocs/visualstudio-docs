@@ -36,14 +36,14 @@ This method creates an enumerator for namespaces associated with the debug addre
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNamespacesUsedAtAddress(   
    IDebugAddress*     pAddress,  
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNamespacesUsedAtAddress(  
    IDebugAddress        pAddress,  
    out IEnumDebugFields ppEnum  

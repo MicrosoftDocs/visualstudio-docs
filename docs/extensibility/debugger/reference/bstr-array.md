@@ -36,14 +36,14 @@ A structure that describes an array of strings.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagBSTR_ARRAY {  
    DWORD dwCount;  
    BSTR* Members;  
 } BSTR_ARRAY;  
 ```  
   
-```cs  
+```csharp  
 struct BSTR_ARRAY {  
    DWORD    dwCount;  
    string[] Members;  

@@ -60,7 +60,7 @@ translation.priority.ht:
   
  The code that the directive creates looks like the following:  
   
-```cs  
+```csharp  
 private System.Xml.XmlDocument document0Value;  
   
 public virtual System.Xml.XmlDocument Document0  
@@ -104,7 +104,7 @@ End Property
   
 3.  Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.  
   
-    ```cs  
+    ```csharp  
     using System;  
     using System.CodeDom;  
     using System.CodeDom.Compiler;  
@@ -755,7 +755,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
   
      The language of the text template does not have to match the language of the directive processor.  
   
-    ```cs  
+    ```csharp  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" #>  
     <#@ output extension=".txt" #>  
@@ -892,7 +892,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     > [!NOTE]
     >  Additional open \<# and close #> tags separate the statement code from the HTML tags.  
   
-    ```cs  
+    ```csharp  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" #>  
     <#@ output extension=".htm" #>  

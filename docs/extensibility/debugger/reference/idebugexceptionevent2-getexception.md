@@ -36,13 +36,13 @@ Gets a detailed description of the exception that fired this event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetException(   
    EXCEPTION_INFO* pExceptionInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetException(   
    EXCEPTION_INFO[] pExceptionInfo  
 );  

@@ -66,7 +66,7 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
   
  If you are recording actions on an empty cell, you must modify the code by double clicking on the cell and then performing a set text operation. This is needed because a click on the cell, followed by any keyboard action activates the `textarea` within the cell. Simply recording a `setvalue` on the empty cell would search for the `editbox` which is not present until the cell has been clicked. For example:  
   
-```cs  
+```csharp  
 Mouse.DoubliClick(uiItemCell,new Point(31,14));  
 uiGridKeyboardInputEdit.Text=value;  
 ```  
@@ -75,14 +75,14 @@ uiGridKeyboardInputEdit.Text=value;
   
 1.  Go to cell initialization and make `RowIndex` and `ColumnIndex` primary properties:  
   
-    ```cs  
+    ```csharp  
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. RowIndex] = "3";   
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. ColumnIndex] = "3";  
     ```  
   
 2.  Find the `HtmlDiv` child of the cell:  
   
-    ```cs  
+    ```csharp  
     private UITestControl getControlToDoubleClick(HtmlCell cell)   
     {   
          if (String.IsNullOrEmpty(cell.InnerText)) return cell;   
@@ -98,13 +98,13 @@ uiGridKeyboardInputEdit.Text=value;
   
 3.  Add code for a mouse double-click action on `HtmlDiv`:  
   
-    ```cs  
+    ```csharp  
     Mouse.DoubleClick(uIItemPane, new Point(31, 14)); )  
     ```  
   
 4.  Add code to set text on `TextArea`:  
   
-    ```cs  
+    ```csharp  
     uIGridKeyboardInputEdit.Text = value; }  
     ```  
   

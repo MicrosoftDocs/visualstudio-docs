@@ -35,7 +35,7 @@ Loads the specified debug symbols in memory.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbols(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -46,7 +46,7 @@ HRESULT LoadSymbols(
 );  
 ```  
   
-```cs  
+```csharp  
 int LoadSymbols(  
    uint   ulAppDomainID,  
    Guid   guidModule,  
@@ -82,7 +82,7 @@ int LoadSymbols(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::LoadSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

@@ -52,7 +52,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
 5.  On designer surface, double-click the button control and add the following code:  
   
-    ```cs  
+    ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
     {  
         this.textBox.Text = this.button.Name;  
@@ -141,7 +141,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      **Assert method**  
   
-    ```cs  
+    ```csharp  
     public void AssertMethod1()  
     {  
         #region Variable Declarations  
@@ -164,7 +164,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      **Controls**  
   
-    ```cs  
+    ```csharp  
     #region Properties  
     public virtual AssertMethod1ExpectedValues AssertMethod1ExpectedValues  
     {  
@@ -232,7 +232,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
     1.  Launch the Windows Phone app using the automation ID property you copied to the clipboard previously:  
   
-        ```cs  
+        ```csharp  
         XamlWindow myAppWindow = XamlWindow.Launch("ed85f6ff-2fd1-4ec5-9eef-696026c3fa7b_cyrqexqw8cc7c!App");  
         ```  
   
@@ -242,7 +242,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
     2.  Add a gesture to tap the button control:  
   
-        ```cs  
+        ```csharp  
         Gesture.Tap(this.UIMap.UIApp1Window.UIButtonButton);  
         ```  
   
@@ -252,7 +252,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
     3.  Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
   
-        ```cs  
+        ```csharp  
         this.UIMap.AssertMethod1();  
         ```  
   
@@ -262,7 +262,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      After the code is added, the CodedUITestMethod1 test method should appear as follows:  
   
-    ```cs  
+    ```csharp  
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  

@@ -56,7 +56,7 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     Imports System.Windows.Forms  
     ```  
   
-    ```cs  
+    ```csharp  
     using System.Deployment.Application;  
     using System.Windows.Forms;  
     ```  
@@ -79,7 +79,7 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     MessageBox.Show("Installer object created.")  
     ```  
   
-    ```cs  
+    ```csharp  
     MyInstaller installer = new MyInstaller();  
     installer.InstallApplication(@"\\myServer\myShare\myApp.application");  
     MessageBox.Show("Installer object created.");  

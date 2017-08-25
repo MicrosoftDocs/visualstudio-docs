@@ -45,7 +45,7 @@ HRESULT Execute(
 );  
 ```  
   
-```cs  
+```csharp  
 int Execute(  
    IDebugThread2 pThread  
 );  

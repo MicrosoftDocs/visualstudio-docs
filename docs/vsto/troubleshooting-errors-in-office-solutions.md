@@ -131,7 +131,7 @@ manager: "ghogen"
 Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument  
 ```  
   
-```cs  
+```csharp  
 Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application.ActiveDocument;  
 ```  
   
@@ -147,7 +147,7 @@ Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application
 Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument  
 ```  
   
-```cs  
+```csharp  
 Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;  
 ```  
   

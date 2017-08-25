@@ -34,7 +34,7 @@ Calls the function and returns the resulting value as an object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Evaluate (  
    IDebugObject** ppParams,  
    DWORD          dwParams,  
@@ -44,7 +44,7 @@ HRESULT Evaluate (
 );  
 ```  
   
-```cs  
+```csharp  
 int Evaluate (  
    IDebugObject     ppParams,  
    uint             dwParams,  

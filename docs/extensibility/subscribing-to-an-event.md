@@ -59,7 +59,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 2.  Open the RDTExplorerWindow.cs file in code view. Add the following using statements to the start of the file.  
   
-    ```cs  
+    ```csharp  
     using Microsoft.VisualStudio;  
     using Microsoft.VisualStudio.Shell;  
     using Microsoft.VisualStudio.Shell.Interop;  
@@ -67,7 +67,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 3.  Modify the `RDTExplorerWindow` class so that, in addition to deriving from the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class, it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> interface.  
   
-    ```cs  
+    ```csharp  
     public class RDTExplorerWindow : ToolWindowPane, IVsRunningDocTableEvents  
     {. . .}  
     ```  
@@ -78,13 +78,13 @@ This walkthrough explains how to create a tool window that responds to events in
   
 5.  In each method in the interface, replace the line `throw new NotImplementedException();` with this:  
   
-    ```cs  
+    ```csharp  
     return VSConstants.S_OK;  
     ```  
   
 6.  Add a cookie field to the RDTExplorerWindow class.  
   
-    ```cs  
+    ```csharp  
     private uint rdtCookie;   
     ```  
   
@@ -92,7 +92,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 7.  Override the RDTExplorerWindow's Initialize() method to register for RDT events. You should always get services in the ToolWindowPane's Initialize() method, not in the constructor.  
   
-    ```cs  
+    ```csharp  
     protected override void Initialize()  
     {  
         IVsRunningDocumentTable rdt = (IVsRunningDocumentTable)  
@@ -105,7 +105,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 8.  Update the RDTExplorerWindow's Dispose() method.  
   
-    ```cs  
+    ```csharp  
     protected override void Dispose(bool disposing)  
     {  
         // Release the RDT cookie.  
@@ -121,7 +121,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 9. Add the following line to the body of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents.OnBeforeLastDocumentUnlock%2A> handler, just before the `return` statement.  
   
-    ```cs  
+    ```csharp  
     public int OnBeforeLastDocumentUnlock(uint docCookie, uint dwRDTLockType, uint dwReadLocksRemaining, uint dwEditLocksRemaining)  
     {  
         ((RDTExplorerWindowControl)this.Content).listBox.Items.Add("Entering OnBeforeLastDocumentUnlock");  
@@ -131,7 +131,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 10. Add a similar line to the body of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents.OnAfterFirstDocumentLock%2A> handler and to other events that you want to see in the list box.  
   
-    ```cs  
+    ```csharp  
     public int OnAfterFirstDocumentLock(uint docCookie, uint dwRDTLockType, uint dwReadLocksRemaining, uint dwEditLocksRemaining)  
     {  
         ((RDTExplorerWindowControl)this.Content).listBox.Items.Add("Entering OnAfterFirstDocumentLock");  

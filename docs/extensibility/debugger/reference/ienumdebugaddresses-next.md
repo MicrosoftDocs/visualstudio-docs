@@ -36,7 +36,7 @@ This method returns the next set of elements from the enumeration.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG           celt,  
    IDebugAddress** rgelt,  
@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```cs  
+```csharp  
 int Next(  
    uint            celt,  
    IDebugAddress[] rgelt,  

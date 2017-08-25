@@ -36,13 +36,13 @@ Requests that the next program that is running code in this process halt and sen
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CauseBreak(   
    void  
 );  
 ```  
   
-```cs  
+```csharp  
 int CauseBreak();  
 ```  
   

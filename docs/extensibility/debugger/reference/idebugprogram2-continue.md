@@ -39,13 +39,13 @@ Continues running this program from a stopped state. Any previous execution stat
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Continue(   
    IDebugThread2* pThread  
 );  
 ```  
   
-```cs  
+```csharp  
 int Continue(   
    IDebugThread2 pThread  
 );  

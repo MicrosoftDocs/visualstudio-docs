@@ -120,7 +120,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
      
      Add a `using` directive for System.Data.Entity to bring the Load extension method into scope:  
   
-     ```cs
+     ```csharp
      using System.Data.Entity;  
      ```  
 

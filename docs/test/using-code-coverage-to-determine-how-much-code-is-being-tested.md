@@ -108,7 +108,7 @@ To determine what proportion of your project's code is actually being tested by 
   
  For example:  
   
-```cs  
+```csharp  
   
 using System.Diagnostics.CodeAnalysis;   
 ...  
@@ -174,7 +174,7 @@ End Class
   
 ```  
   
-```cpp#  
+```cpp  
 // A .cpp file compiled as managed (CLI) code.  
 using namespace System::Diagnostics::CodeAnalysis;  
 ...  

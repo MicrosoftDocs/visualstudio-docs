@@ -36,7 +36,7 @@ Specifies the kind of field contained in an [IDebugField](../../../extensibility
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_FIELD_KIND {   
    FIELD_KIND_NONE       = 0x00000000,  
   
@@ -85,7 +85,7 @@ enum enum_FIELD_KIND { 
 typedef DWORD FIELD_KIND;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_FIELD_KIND {  
    FIELD_KIND_NONE       = 0x00000000,  
   

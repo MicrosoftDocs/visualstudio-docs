@@ -36,13 +36,13 @@ Gets the breakpoint error resolution that describes the error.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointResolution(   
    IDebugErrorBreakpointResolution2** ppErrorResolution  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBreakpointResolution(   
    out IDebugErrorBreakpointResolution2 ppErrorResolution  
 );  

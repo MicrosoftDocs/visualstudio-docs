@@ -143,7 +143,7 @@ public partial class MyShape // change
   
 -   The change of role order fires a rule that updates the display. This behavior is already defined, and no additional code is required.  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Design;  
 using Microsoft.VisualStudio.Modeling.Diagrams;  

@@ -36,14 +36,14 @@ Retrieves a specific port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPort(   
    REFGUID       guidPort,  
    IDebugPort2** ppPort  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPort(   
    ref Guid        guidPort,  
    out IDebugPort2 ppPort  

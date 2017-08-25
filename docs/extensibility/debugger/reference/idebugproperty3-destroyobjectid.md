@@ -42,7 +42,7 @@ HRESULT DestroyObjectID(
 );  
 ```  
   
-```cs  
+```csharp  
 int DestroyObjectID();  
 ```  
   

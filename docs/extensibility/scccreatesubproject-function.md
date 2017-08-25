@@ -36,7 +36,7 @@ This function creates a subproject with the given name under an existing parent 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCreateSubProject(  
    LPVOID pContext,  
    HWND   hWnd,  

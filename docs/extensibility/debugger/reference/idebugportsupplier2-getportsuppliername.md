@@ -36,13 +36,13 @@ Gets the port supplier name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplierName(   
    BSTR* pbstrName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortSupplierName(   
    out string pbstrName  
 );  

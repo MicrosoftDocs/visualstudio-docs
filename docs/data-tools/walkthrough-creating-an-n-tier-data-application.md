@@ -244,7 +244,7 @@ translation.priority.ht:
     Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable  
     ```  
   
-    ```cs  
+    ```csharp  
     [OperationContract]  
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();  
   
@@ -269,7 +269,7 @@ translation.priority.ht:
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()  
     {  
         DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter  
@@ -357,7 +357,7 @@ translation.priority.ht:
     NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)  
     ```  
   
-    ```cs  
+    ```csharp  
     ServiceReference1.Service1Client DataSvc =   
         new ServiceReference1.Service1Client();  
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());  

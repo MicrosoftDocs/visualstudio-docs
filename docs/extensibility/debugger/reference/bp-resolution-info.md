@@ -36,7 +36,7 @@ Describes the bound breakpoint information for either a code breakpoint or a dat
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_RESOLUTION_INFO {   
    BPRESI_FIELDS          dwFields;  
    BP_RESOLUTION_LOCATION bpResLocation;  
@@ -45,7 +45,7 @@ typedef struct _BP_RESOLUTION_INFO { 
 } BP_RESOLUTION_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_RESOLUTION_INFO {   
    public uint                   dwFields;  
    public BP_RESOLUTION_LOCATION bpResLocation;  

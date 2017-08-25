@@ -36,7 +36,7 @@ This function opens an existing source control project or creates a new one.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccOpenProject (  
    LPVOID        pvContext,  
    HWND          hWnd,  

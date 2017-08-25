@@ -181,7 +181,7 @@ manager: "ghogen"
     Dim workflowPending As Boolean = True  
     ```  
   
-    ```cs  
+    ```csharp  
     Boolean workflowPending = true;  
     ```  
   
@@ -195,7 +195,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```cs  
+    ```csharp  
     private void checkStatus()  
     {  
         if ((string)workflowProperties.Item["Document Status"] == "Review Complete")  
@@ -215,7 +215,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void onWorkflowActivated(object sender, ExternalDataEventArgs e)  
     {  
         // Check the status.  
@@ -237,7 +237,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void isWorkflowPending(object sender, ConditionalEventArgs e)  
     {  
         e.Result = workflowPending;  

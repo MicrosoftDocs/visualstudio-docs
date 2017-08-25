@@ -141,7 +141,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
     Dim proxy As New ServiceReference.Service1Client(  
     ```  
   
-    ```cs  
+    ```csharp  
     ServiceReference.Service1Client proxy = new ServiceReference.Service1Client(  
     ```  
   

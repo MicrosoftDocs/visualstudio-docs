@@ -35,13 +35,13 @@ Determines if the specified method has line information.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT FunctionHasLineInfo(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```cs  
+```csharp  
 int FunctionHasLineInfo(  
    IDebugAddress pAddress  
 );  
@@ -57,7 +57,7 @@ int FunctionHasLineInfo(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::FunctionHasLineInfo(  
     IDebugAddress* pAddress  
 )  

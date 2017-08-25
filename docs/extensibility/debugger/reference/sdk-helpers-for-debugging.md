@@ -48,7 +48,7 @@ These functions and declarations are global helper functions for implementing de
 ### GetMetric Method  
  Retrieves a metric value from the registry.  
   
-```cpp#  
+```cpp  
 HRESULT GetMetric(  
    LPCWSTR pszMachine,  
    LPCWSTR pszType,  
@@ -71,7 +71,7 @@ HRESULT GetMetric(
 ### SetMetric Method  
  Sets the specified metric value in the registry.  
   
-```cpp#  
+```cpp  
 HRESULT SetMetric(  
          LPCWSTR pszType,  
          REFGUID guidSection,  
@@ -94,7 +94,7 @@ HRESULT SetMetric(
 ### RemoveMetric Method  
  Removes the specified metric from the registry.  
   
-```cpp#  
+```cpp  
 HRESULT RemoveMetric(  
    LPCWSTR pszType,  
    REFGUID guidSection,  
@@ -113,7 +113,7 @@ HRESULT RemoveMetric(
 ### EnumMetricSections Method  
  Enumerates the various metric sections in the registry.  
   
-```cpp#  
+```cpp  
 HRESULT EnumMetricSections(  
    LPCWSTR pszMachine,  
    LPCWSTR pszType,  
