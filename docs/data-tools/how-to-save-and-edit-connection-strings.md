@@ -24,6 +24,7 @@ Storing sensitive information (such as the password) within the connection strin
 
 If you do not choose to use Windows integrated security and your database requires a user name and password, you can omit them from the connection string, but your application will need to provide this information to successfully connect to the database. For example, you can create a dialog box that prompts the user for this information and dynamically builds the connection string at run time. Security can still be an issue if the information is intercepted on the way to the database. 
 For more information, see [Protecting Connection Information](https://msdn.microsoft.com/library/89211k9b.aspx).
+dotnet/docs/blob/master/docs/framework/data/adonet/protecting-connection-information
 
 ## To save a connection string from within the data wizards
 Select the option to save the connection on the Save connection string to the application configuration file page.

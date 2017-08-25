@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
-  - "CS"
+  - "CSharp"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 42
 author: "gewarren"
@@ -162,8 +162,7 @@ The Navigation form opens when you run the application. The **Add an account** b
 #### Add code for the Navigation form logic   
  In the code page for the Navigation form, complete the method bodies for the three button click event handlers as shown in the following code.  
   
-[!code-csharp[Navigation#1](../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs#1)] 
-
+[!code-csharp[Navigation#1](../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs#1)]  
 [!code-vb[Navigation#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb#1)]   
   
 ### NewCustomer form  
@@ -187,13 +186,11 @@ To complete the NewCustomer form logic, follow these steps.
 2. Add some variables and helper methods to the class as shown in the following code.  
 
      [!code-csharp[NewCustomer#1](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#1)]  
-
      [!code-vb[NewCustomer#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#1)]  
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.  
 
-     [!code-csharp[NewCustomer#2](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#2)]    
-
+     [!code-csharp[NewCustomer#2](../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs#2)]  
      [!code-vb[NewCustomer#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb#2)]  
 
 ### FillOrCancel form  
@@ -206,7 +203,7 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.  
 
-     ```cs  
+     ```csharp  
      using System.Data.SqlClient;  
      using System.Text.RegularExpressions;  
      ```  
@@ -218,13 +215,11 @@ To complete the FillOrCancel form logic, follow these steps.
 2. Add a variable and helper method to the class as shown in the following code.  
 
      [!code-csharp[FillOrCancel#1](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#1)]  
-
      [!code-vb[FillOrCancel#1](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#1)]  
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.  
 
      [!code-csharp[FillOrCancel#2](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#2)]  
-
      [!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
 
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
