@@ -36,7 +36,7 @@ This function retrieves a queued status event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGetEvents (  
    LPVOID pvContext,  
    LPSTR  lpFileName,  

@@ -37,13 +37,13 @@ Determines whether this pending breakpoint can bind to a code location.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanBind (   
    IEnumDebugErrorBreakpoints2** ppErrorEnum  
 );  
 ```  
   
-```cs  
+```csharp  
 int CanBind (   
    out IEnumDebugErrorBreakpoints2 ppErrorEnum  
 );  
@@ -62,7 +62,7 @@ int CanBind ( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::CanBind(IEnumDebugErrorBreakpoints2** ppErrorEnum)    
 {    
    HRESULT hr;    

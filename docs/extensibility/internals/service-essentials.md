@@ -56,7 +56,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
     TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
     ```  
   
-    ```cs  
+    ```csharp  
     GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
     ```  
   
@@ -90,7 +90,7 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
   
 -   Insert this code in the constructor, tool window, or control container:  
   
-    ```cs  
+    ```csharp  
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;
         if (log == null) return;
     ```  

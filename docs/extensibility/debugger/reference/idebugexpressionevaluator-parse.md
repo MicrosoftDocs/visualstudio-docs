@@ -36,7 +36,7 @@ This method converts an expression string to a parsed expression.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Parse(   
    LPCOLESTR                upstrExpression,  
    PARSEFLAGS               dwFlags,  
@@ -47,7 +47,7 @@ HRESULT Parse( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Parse(  
    string                     upstrExpression,   
    enum_PARSEFLAGS            dwFlags,   

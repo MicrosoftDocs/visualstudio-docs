@@ -42,7 +42,7 @@ HRESULT IsEncOutdated(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsEncOutdated(  
    out int pfEncOutdated  
 );  

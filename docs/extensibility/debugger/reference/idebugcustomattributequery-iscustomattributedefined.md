@@ -35,13 +35,13 @@ Determines if the specified custom attribute is defined.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsCustomAttributeDefined(  
    LPCOLESTR pszCustomAttributeName  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsCustomAttributeDefined(  
    string pszCustomAttributeName  
 );  
@@ -57,7 +57,7 @@ int IsCustomAttributeDefined(
 ## Example  
  The following example shows how to implement this method for a **CDebugClassFieldSymbol** object that exposes the [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugClassFieldSymbol::IsCustomAttributeDefined(  
     LPCOLESTR pszCustomAttribute  
 )  

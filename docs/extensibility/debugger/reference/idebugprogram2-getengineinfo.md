@@ -36,14 +36,14 @@ Gets the name and GUID of the debug engine (DE) running this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngineInfo(   
    BSTR* pbstrEngine,  
    GUID* pguidEngine  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngineInfo(   
    out string pbstrEngine,  
    out GUID   pguidEngine  

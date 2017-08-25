@@ -78,7 +78,7 @@ When a Source Control Plug-in API function returns an error, it is expected to b
   
 ## Macros Provided for Quick Checking  
   
-```cpp#  
+```cpp  
 IS_SCC_ERROR(rtn) (((rtn) < 0) ? TRUE : FALSE)  
 IS_SCC_SUCCESS(rtn) (((rtn) == SCC_OK) ? TRUE : FALSE)  
 IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)  

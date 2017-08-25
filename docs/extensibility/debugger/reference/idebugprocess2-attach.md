@@ -36,7 +36,7 @@ Attaches the session debug manager (SDM) to the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Attach(   
    IDebugEventCallback2* pCallback,  
    GUID*                 rgguidSpecificEngines,  
@@ -45,7 +45,7 @@ HRESULT Attach( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Attach(   
    IDebugEventCallback2 pCallback,  
    Guid[]               rgguidSpecificEngines,  

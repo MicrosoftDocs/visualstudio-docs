@@ -36,13 +36,13 @@ Called by the session debug manager (SDM) to indicate that a synchronous debug e
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2* pEvent  
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2 pEvent  
 );  
@@ -61,7 +61,7 @@ HRESULT ContinueFromSynchronousEvent( 
 ## Example  
  The following example shows how to implement this method for a simple `CEngine` object that implements the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)  
 {  
    HRESULT hr;  

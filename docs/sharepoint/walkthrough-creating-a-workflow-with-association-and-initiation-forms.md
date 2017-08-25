@@ -152,7 +152,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     private string GetAssociationData()  
     {  
         // TODO: Return a string that contains the association data that   
@@ -215,7 +215,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     protected void Page_Load(object sender, EventArgs e)  
     {  
         InitializeParams();  
@@ -238,7 +238,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     // This method is called when the user clicks the button to start the workflow.          
     private string GetInitiationData()  
     {  
@@ -315,7 +315,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```cs  
+    ```csharp  
     private void createTask1_MethodInvoking(object sender, EventArgs e)  
     {  
         createTask1_TaskId1 = Guid.NewGuid();  
@@ -344,7 +344,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```cs  
+    ```csharp  
     private void checkApprovalNeeded(object sender, ConditionalEventArgs   
       e)  
     {  
@@ -376,7 +376,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```cs  
+    ```csharp  
     private void logToHistoryListActivity1_MethodInvoking(object sender,   
       EventArgs e)  
     {  

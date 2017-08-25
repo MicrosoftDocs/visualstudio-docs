@@ -36,13 +36,13 @@ Gets the pending breakpoint that is being bound.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPendingBreakpoint(   
    IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetPendingBreakpoint(   
    out IDebugPendingBreakpoint2 ppPendingBP  
 );  
@@ -58,7 +58,7 @@ int GetPendingBreakpoint( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointSetDebugEventBase** object that exposes the [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointSetDebugEventBase::GetPendingBreakpoint(  
     IDebugPendingBreakpoint2 **ppPendingBP)  
 {  

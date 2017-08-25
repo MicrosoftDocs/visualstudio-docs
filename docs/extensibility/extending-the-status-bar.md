@@ -48,7 +48,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  In TestStatusBarCommand.cs, replace the command handler method code (MenuItemCallback) with the following:  
   
-    ```cs  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar = (IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  
@@ -92,7 +92,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  Open the TestStatusBarCommand.cs file and replace the MenuItemCallback method with the following code:  
   
-    ```cs  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar = (IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  
@@ -130,7 +130,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  Open the TestStatusBarCommand.cs file and replace the MenuItemCallback method with the following code:  
   
-    ```cs  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar =(IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  

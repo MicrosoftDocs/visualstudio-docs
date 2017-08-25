@@ -36,7 +36,7 @@ Sets the value of a reference from another reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsReference (   
    IDebugReference2** rgpArgs,  
    DWORD              dwArgCount,  
@@ -45,7 +45,7 @@ HRESULT SetValueAsReference ( 
 );  
 ```  
   
-```cpp#  
+```cpp  
 int SetValueAsReference (   
    IDebugReference2[] rgpArgs,  
    uint               dwArgCount,  

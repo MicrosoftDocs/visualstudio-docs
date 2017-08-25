@@ -36,7 +36,7 @@ This function updates a list of files for a particular source control command an
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccPopulateList (  
    LPVOID          pvContext,  
    enum SCCCOMMAND nCommand,  

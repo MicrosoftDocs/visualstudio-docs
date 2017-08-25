@@ -57,7 +57,7 @@ translation.priority.mt:
   
 1.  Create a console application named `ExtractMethod`, and then replace `Program` with the following example code.  
   
-    ```cs  
+    ```csharp  
     class A  
     {  
         const double PI = 3.141592;  
@@ -81,7 +81,7 @@ translation.priority.mt:
   
 2.  Select the code fragment you want to extract:  
   
-    ```cs  
+    ```csharp  
     double area = PI * radius * radius;  
     ```  
   
@@ -115,7 +115,7 @@ translation.priority.mt:
   
  The following example illustrates this semantic change. If this code is executed, then **11** will be printed to the console. If you use **Extract Method** to extract the region of code that is marked by code comments into its own method and then execute the refactored code, then **10** will be printed to the console.  
   
-```cs  
+```csharp  
 class Program  
 {  
     delegate void D();  

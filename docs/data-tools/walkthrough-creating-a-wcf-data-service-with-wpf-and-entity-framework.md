@@ -205,7 +205,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
     Imports NorthwindClient.ServiceReference1  
     ```  
   
-    ```cs  
+    ```csharp  
     using NorthwindClient.ServiceReference1;  
     ```  
   
@@ -219,7 +219,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
         End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void Form1_Load(object sender, EventArgs e)  
     {  
     NorthwindEntities proxy = new NorthwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc/"));  
@@ -265,7 +265,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
         End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void Button1_Click(object sender, EventArgs e)  
     {  
     ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));  

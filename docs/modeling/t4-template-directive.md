@@ -91,7 +91,7 @@ hostspecific="true"
   
  When `hostspecific` is `true` and you are using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can cast `this.Host` to IServiceProvider to access [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features. You can also use `Host.ResolvePath(filename)` to obtain the absolute path of a file in the project. For example:  
   
-```cs  
+```csharp  
 <#@ template debug="false" hostspecific="true" language="C#" #>  
 <#@ output extension=".txt" #>  
 <#@ assembly name="EnvDTE" #>  
@@ -171,7 +171,7 @@ This is the common footer.
 ```  
   
  Run-time (preprocessed) text template DerivedTemplate1.tt:  
- ```cs  
+ ```csharp  
 <#@ template language="C#" inherits="BaseTemplate" #>  
 <#   
   // Run the base template:  
@@ -196,7 +196,7 @@ protected override void SpecificFragment2()
 ```  
   
  Application code to invoke DerivedTemplate1:  
- ```cs  
+ ```csharp  
 Console.WriteLine(new DerivedTemplate().TransformText());  
 ```  
   

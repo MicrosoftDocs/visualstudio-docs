@@ -35,13 +35,13 @@ Determines if the specified debug address is a sequence point.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsAddressSequencePoint(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsAddressSequencePoint(  
    IDebugAddress pAddress  
 );  
@@ -57,7 +57,7 @@ int IsAddressSequencePoint(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::IsAddressSequencePoint(  
     IDebugAddress* pAddress  
 )  

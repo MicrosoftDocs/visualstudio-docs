@@ -36,7 +36,7 @@ This function closes a project, marking the end of a particular session.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCloseProject (  
    LPVOID pvContext  
 );  

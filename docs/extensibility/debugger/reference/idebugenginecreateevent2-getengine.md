@@ -36,13 +36,13 @@ Retrieves the object that represents the newly created debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngine(   
    IDebugEngine2** pEngine  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngine(   
    out IDebugEngine2 pEngine  
 );  

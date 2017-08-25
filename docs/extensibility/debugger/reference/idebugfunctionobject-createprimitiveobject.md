@@ -36,14 +36,14 @@ Creates a primitive data object, such as a simple integer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePrimitiveObject(   
    OBJECT_TYPE    ot,  
    IDebugObject** ppObject  
 );  
 ```  
   
-```cs  
+```csharp  
 int CreatePrimitiveObject(  
    enum_OBJECT_TYPE ot,   
    out IDebugObject ppObject  

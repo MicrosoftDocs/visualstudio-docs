@@ -36,13 +36,13 @@ This method gets the kind of field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetKind(   
    FIELD_KIND* pdwKind  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetKind(  
    out enum_FIELD_KIND pdwKind  
 );  

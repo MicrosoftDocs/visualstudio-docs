@@ -45,7 +45,7 @@ Thread naming is possible in any edition of Visual Studio. Thread naming is usef
   
 ## Example  
 
-```cs
+```csharp
 public class Needle
 {
     // This method will be called when the thread is started.  

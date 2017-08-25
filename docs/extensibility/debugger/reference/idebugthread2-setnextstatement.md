@@ -36,14 +36,14 @@ Sets the current instruction pointer to the given code context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetNextStatement (   
    IDebugStackFrame2*  pStackFrame,  
    IDebugCodeContext2* pCodeContext  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetNextStatement (   
    IDebugStackFrame2  pStackFrame,  
    IDebugCodeContext2 pCodeContext  

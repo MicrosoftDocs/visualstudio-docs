@@ -49,7 +49,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public Ribbon1()  
     {  
         InitializeComponent();  
@@ -65,7 +65,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public Ribbon1()  
         : base(Globals.Factory.GetRibbonFactory())  
     {  
@@ -84,7 +84,7 @@ manager: "ghogen"
     Me.button1 = New Microsoft.Office.Tools.Ribbon.RibbonButton()  
     ```  
   
-    ```cs  
+    ```csharp  
     this.button1 = new Microsoft.Office.Tools.Ribbon.RibbonButton();  
     ```  
   
@@ -94,7 +94,7 @@ manager: "ghogen"
     Me.button1 = Me.Factory.CreateRibbonButton()  
     ```  
   
-    ```cs  
+    ```csharp  
     this.button1 = this.Factory.CreateRibbonButton();  
     ```  
   
@@ -173,7 +173,7 @@ manager: "ghogen"
 Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")  
 ```  
   
-```cs  
+```csharp  
 this.tab1.Position = RibbonPosition.AfterOfficeId("TabHome");  
 ```  
   
@@ -183,7 +183,7 @@ this.tab1.Position = RibbonPosition.AfterOfficeId("TabHome");
 Me.tab1.Position = Me.Factory.RibbonPosition.AfterOfficeId("TabHome")  
 ```  
   
-```cs  
+```csharp  
 this.tab1.Position = this.Factory.RibbonPosition.AfterOfficeId("TabHome");  
 ```  
   

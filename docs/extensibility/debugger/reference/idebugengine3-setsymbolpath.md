@@ -36,7 +36,7 @@ Sets the path or paths that are searched for debugging symbols.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetSymbolPath (  
    LPOLESTR            szSymbolSearchPath,  
    LPOLESTR            szSymbolCachePath,  
@@ -44,7 +44,7 @@ HRESULT SetSymbolPath (
 );  
 ```  
   
-```cs  
+```csharp  
 int SetSymbolPath(  
    string                    szSymbolSearchPath,   
    string                    szSymbolCachePath,   

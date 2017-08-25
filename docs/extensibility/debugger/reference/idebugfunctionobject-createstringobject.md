@@ -36,14 +36,14 @@ Creates a string object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateStringObject(   
    LPCOLESTR      pcstrString,  
    IDebugObject** ppObject  
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateStringObject(  
    string      pcstrString,   
    out IDebugObject ppOjbect  

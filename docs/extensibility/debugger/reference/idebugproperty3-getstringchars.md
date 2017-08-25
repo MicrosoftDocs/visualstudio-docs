@@ -44,7 +44,7 @@ HRESULT GetStringChars(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetStringChars(  
    uint       buflen,   
    out string rgString,   

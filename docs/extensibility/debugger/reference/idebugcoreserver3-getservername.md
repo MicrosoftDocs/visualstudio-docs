@@ -36,13 +36,13 @@ Retrieves the name of the server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServerName(  
    BSTR* pbstrName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetServerName(  
    out string pbstrName  
 );  

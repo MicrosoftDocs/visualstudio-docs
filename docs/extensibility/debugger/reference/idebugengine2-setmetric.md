@@ -36,14 +36,14 @@ This method sets a registry value known as a metric.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetMetric(  
    LPCOLESTR pszMetric,  
    VARIANT   varValue  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetMetric(  
    string pszMetric,  
    object varValue  
