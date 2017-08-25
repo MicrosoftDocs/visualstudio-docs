@@ -42,7 +42,7 @@ HRESULT Detach( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Detach();  
 ```  
   

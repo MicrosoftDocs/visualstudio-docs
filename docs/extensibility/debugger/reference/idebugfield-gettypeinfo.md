@@ -42,7 +42,7 @@ HRESULT GetTypeInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeInfo(  
    TYPE_INFO[] pTypeInfo  
 );  

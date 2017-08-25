@@ -41,7 +41,7 @@ HRESULT GetDescription(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetDescription(  
    out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
    out string pbstrText  

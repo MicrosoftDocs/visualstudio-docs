@@ -41,7 +41,7 @@ HRESULT IsProxy (
 );  
 ```  
   
-```cs  
+```csharp  
 int IsProxy (  
    out bool pfIsProxy  
 );  

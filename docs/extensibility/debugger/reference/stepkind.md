@@ -46,7 +46,7 @@ enum enum_STEPKIND { 
 typedef DWORD STEPKIND;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_STEPKIND {   
    STEP_INTO      = 0,  
    STEP_OVER      = 1,  

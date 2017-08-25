@@ -48,7 +48,7 @@ enum enum_FIELD_INFO_FIELDS { 
 typedef DWORD FIELD_INFO_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_FIELD_INFO_FIELDS {  
    FIF_FULLNAME  = 0x0001,  
    FIF_NAME      = 0x0002,  

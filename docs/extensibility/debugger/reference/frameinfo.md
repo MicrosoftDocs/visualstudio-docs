@@ -54,7 +54,7 @@ typedef struct tagFRAMEINFO { 
 } FRAMEINFO;  
 ```  
   
-```cs  
+```csharp  
 public struct FRAMEINFO {   
    public uint              m_dwValidFields;  
    public string            m_bstrFuncName;  

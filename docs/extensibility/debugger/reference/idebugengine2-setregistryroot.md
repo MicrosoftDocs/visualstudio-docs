@@ -42,7 +42,7 @@ HRESULT SetRegistryRoot( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetRegistryRoot(   
    string pszRegistryRoot  
 );  

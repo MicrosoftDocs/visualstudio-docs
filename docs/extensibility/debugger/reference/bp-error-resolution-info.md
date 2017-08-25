@@ -47,7 +47,7 @@ typedef struct _BP_ERROR_RESOLUTION_INFO { 
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
    public uint                   dwFields;  
    public BP_RESOLUTION_LOCATION bpResLocation;  

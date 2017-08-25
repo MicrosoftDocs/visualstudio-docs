@@ -42,7 +42,7 @@ HRESULT AreSymbolsLoaded (
 );  
 ```  
   
-```cs  
+```csharp  
 int AreSymbolsLoaded (  
    uint ulAppDomainID,  
    Guid guidModule  

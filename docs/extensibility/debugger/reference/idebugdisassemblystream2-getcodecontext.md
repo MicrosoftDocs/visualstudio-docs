@@ -43,7 +43,7 @@ HRESULT GetCodeContext( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCodeContext(   
    ulong                  uCodeLocationId,  
    out IDebugCodeContext2 ppCodeContext  

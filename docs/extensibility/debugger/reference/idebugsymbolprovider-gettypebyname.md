@@ -44,7 +44,7 @@ HRESULT GetTypeByName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeByName(  
    string          pszClassName,   
    NAME_MATCH      nameMatch,   

@@ -44,7 +44,7 @@ HRESULT GetMemoryContext( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMemoryContext(  
    IDebugField              pField,   
    uint                     dwConstant,   

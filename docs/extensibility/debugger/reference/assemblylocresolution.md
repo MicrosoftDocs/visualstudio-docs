@@ -46,7 +46,7 @@ enum enum_ASSEMBLYLOCRESOLUTION {
 typedef DWORD ASSEMBLYLOCRESOLUTION;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_ASSEMBLYLOCRESOLUTION {  
    ALR_NAME      = 0x0,  
    ALR_USERDIR   = 0x1,  

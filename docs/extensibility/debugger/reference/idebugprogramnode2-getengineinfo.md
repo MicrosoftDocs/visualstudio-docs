@@ -43,7 +43,7 @@ HRESULT GetEngineInfo ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngineInfo(  
    out string pbstrEngine,   
    out Guid pguidEngine  

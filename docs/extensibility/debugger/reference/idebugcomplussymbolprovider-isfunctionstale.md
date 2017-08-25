@@ -40,7 +40,7 @@ HRESULT IsFunctionStale(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsFunctionStale(  
    IDebugAddress pAddress  
 );  

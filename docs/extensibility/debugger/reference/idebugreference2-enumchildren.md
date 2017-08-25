@@ -47,7 +47,7 @@ HRESULT EnumChildren ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumChildren (   
    enum_DEBUGREF_INFO_FLAGS     dwFields,  
    uint                         dwRadix,  

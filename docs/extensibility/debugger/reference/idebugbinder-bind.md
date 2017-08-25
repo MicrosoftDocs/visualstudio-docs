@@ -44,7 +44,7 @@ HRESULT Bind( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Bind(  
    IDebugObject     pContainer,  
    IDebugField      pField,  

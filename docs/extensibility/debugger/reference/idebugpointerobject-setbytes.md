@@ -45,7 +45,7 @@ HRESULT SetBytes( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetBytes(  
    uint     dwStart,   
    uint     dwCount,   

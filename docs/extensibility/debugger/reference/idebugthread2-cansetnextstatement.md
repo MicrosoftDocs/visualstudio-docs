@@ -43,7 +43,7 @@ HRESULT CanSetNextStatement ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CanSetNextStatement (   
    IDebugStackFrame2  pStackFrame,  
    IDebugCodeContext2 pCodeContext  

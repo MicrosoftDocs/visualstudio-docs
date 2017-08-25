@@ -42,7 +42,7 @@ HRESULT GetContainer( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetContainer(  
    out IDebugContainerField ppContainerField  
 );  

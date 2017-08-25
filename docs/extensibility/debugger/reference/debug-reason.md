@@ -47,7 +47,7 @@ enum enum_DEBUG_REASON {
 typedef DWORD DEBUG_REASON;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_DEBUG_REASON {  
    DEBUG_REASON_ERROR         = 0,  
    DEBUG_REASON_USER_LAUNCHED = 1,  

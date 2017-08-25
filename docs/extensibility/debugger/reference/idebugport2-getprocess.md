@@ -43,7 +43,7 @@ HRESULT GetProcess( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetProcess(   
    AD_PROCESS_ID      ProcessId,  
    out IDebugProcess2 ppProcess  

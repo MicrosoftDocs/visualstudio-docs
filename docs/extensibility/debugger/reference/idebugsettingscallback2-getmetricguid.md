@@ -43,7 +43,7 @@ HRESULT GetMetricGuid(
 );  
 ```  
   
-```cs  
+```csharp  
 private int GetMetricGuid(  
    string   pszType,  
    ref Guid guidSection,  

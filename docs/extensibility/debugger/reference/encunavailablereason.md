@@ -49,7 +49,7 @@ enum tagEncUnavailableReason {
 typedef enum tagEncUnavailableReason EncUnavailableReason;  
 ```  
   
-```cs  
+```csharp  
 public enum EncUnavailableReason {  
    ENCUN_NONE,  
    ENCUN_INTEROP,  

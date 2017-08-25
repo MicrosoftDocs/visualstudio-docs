@@ -47,7 +47,7 @@ HRESULT Parse2 (
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT Parse2 (  
    string                     upstrExpression,  
    enum_PARSEFLAGS            dwFlags,  

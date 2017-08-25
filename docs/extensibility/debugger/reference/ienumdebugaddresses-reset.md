@@ -40,7 +40,7 @@ This method resets the enumeration to the first element.
 HRESULT Reset(void);  
 ```  
   
-```cs  
+```csharp  
 int Reset();  
 ```  
   

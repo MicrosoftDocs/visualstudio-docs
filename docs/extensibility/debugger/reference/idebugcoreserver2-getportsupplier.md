@@ -43,7 +43,7 @@ HRESULT GetPortSupplier( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortSupplier(   
    ref Guid                guidPortSupplier,  
    out IDebugPortSupplier2 ppPortSupplier  

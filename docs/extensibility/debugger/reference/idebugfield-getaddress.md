@@ -42,7 +42,7 @@ HRESULT GetAddress( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAddress(  
    out IDebugAddress ppAddress  
 );  

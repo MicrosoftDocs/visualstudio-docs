@@ -42,7 +42,7 @@ HRESULT GetBreakpointType( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBreakpointType(   
    out enum_ BP_TYPE pBPType  
 );  

@@ -41,7 +41,7 @@ HRESULT GetPrimitiveType (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPrimitiveType (  
    out uint pdwType  
 );  

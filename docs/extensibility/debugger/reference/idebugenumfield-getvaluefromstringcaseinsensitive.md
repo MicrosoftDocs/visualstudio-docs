@@ -43,7 +43,7 @@ HRESULT GetValueFromStringCaseInsensitive(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValueFromStringCaseInsensitive(  
    string    pszValue,   
    out ulong pValue  

@@ -40,7 +40,7 @@ HRESULT IsHiddenCode(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsHiddenCode(  
    IDebugAddress pAddress  
 );  

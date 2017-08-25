@@ -43,7 +43,7 @@ typedef struct tagCODE_PATH { 
 } CODE_PATH;  
 ```  
   
-```cs  
+```csharp  
 public struct CODE_PATH {  
    public string            bstrName;  
    public IDebugCodeContext pCode;  

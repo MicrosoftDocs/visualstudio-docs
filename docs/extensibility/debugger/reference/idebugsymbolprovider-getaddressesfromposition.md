@@ -45,7 +45,7 @@ HRESULT GetAddressesFromPosition( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAddressesFromPosition(   
    IDebugDocumentPosition2  pDocPos,  
    bool                     fStatmentOnly,  

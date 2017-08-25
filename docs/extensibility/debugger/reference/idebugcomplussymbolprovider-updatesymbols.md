@@ -43,7 +43,7 @@ HRESULT UpdateSymbols (
 );  
 ```  
   
-```cs  
+```csharp  
 int UpdateSymbols (  
    uint    ulAppDomainID,  
    Guid    guidModule,  

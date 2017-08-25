@@ -42,7 +42,7 @@ HRESULT GetDerivedMostReference( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDerivedMostReference(   
    out IDebugReference2 ppDerivedMost  
 );  

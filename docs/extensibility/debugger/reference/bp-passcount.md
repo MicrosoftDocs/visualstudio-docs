@@ -43,7 +43,7 @@ typedef struct _BP_PASSCOUNT { 
 } BP_PASSCOUNT;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_PASSCOUNT {   
    public uint dwPassCount;  
    public uint stylePassCount;  

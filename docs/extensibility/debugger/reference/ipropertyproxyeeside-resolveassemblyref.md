@@ -46,7 +46,7 @@ HRESULT ResolveAssemblyRef(
 );  
 ```  
   
-```cs  
+```csharp  
 int ResolveAssemblyRef(  
    ref string                     assemName,  
    out IEEDataStorage             assemBytes,  

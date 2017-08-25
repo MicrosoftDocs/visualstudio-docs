@@ -42,7 +42,7 @@ HRESULT GetFunctionObject( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetFunctionObject(  
    out IDebugFunctionObject ppFunction  
 );  

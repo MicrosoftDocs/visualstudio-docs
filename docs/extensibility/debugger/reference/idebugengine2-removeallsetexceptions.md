@@ -42,7 +42,7 @@ HRESULT RemoveAllSetExceptions( 
 );  
 ```  
   
-```cs  
+```csharp  
 int RemoveAllSetExceptions(   
    ref Guid guidType  
 );  

@@ -42,7 +42,7 @@ HRESULT IsUserCode(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsUserCode(  
    out int pfUser  
 );  

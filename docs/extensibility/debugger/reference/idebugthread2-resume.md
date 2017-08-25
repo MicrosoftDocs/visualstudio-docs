@@ -42,7 +42,7 @@ HRESULT Resume ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Resume (   
    out uint pdwSuspendCount  
 );  

@@ -41,7 +41,7 @@ HRESULT GetNameOfFormalParam (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNameOfFormalParam (  
    string pbstrName  
 );  

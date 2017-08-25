@@ -42,7 +42,7 @@ HRESULT GetCurrentModulesState(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCurrentModulesState(  
     out uint pState,  
     out uint count  

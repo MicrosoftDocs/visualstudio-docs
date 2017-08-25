@@ -45,7 +45,7 @@ typedef struct _BP_RESOLUTION_DATA { 
 } BP_RESOLUTION_DATA;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_RESOLUTION_DATA {   
    public string bstrDataExpr;  
    public string bstrFunc;  

@@ -42,7 +42,7 @@ HRESULT Terminate( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Terminate();  
 ```  
   

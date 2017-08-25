@@ -42,7 +42,7 @@ HRESULT SetEngine( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetEngine(   
    ref Guid guidEngine  
 );  

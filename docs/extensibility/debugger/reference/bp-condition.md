@@ -46,7 +46,7 @@ typedef struct _BP_CONDITION { 
 } BP_CONDITION;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_CONDITION {   
    public IDebugThread2 pThread;  
    public uint          styleCondition;  

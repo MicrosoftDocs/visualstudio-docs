@@ -49,7 +49,7 @@ enum enum_EVALFLAGS {
 typedef DWORD EVALFLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_EVALFLAGS {  
    EVAL_RETURNVALUE = 0x0002,  
    EVAL_NOSIDEEFFECTS = 0x0004,  

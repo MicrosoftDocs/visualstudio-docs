@@ -43,7 +43,7 @@ HRESULT GetCodeLocationId( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCodeLocationId(   
    IDebugCodeContext2 pCodeContext,  
    out ulong          puCodeLocationId  

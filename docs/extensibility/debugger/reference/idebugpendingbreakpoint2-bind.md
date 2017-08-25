@@ -43,7 +43,7 @@ HRESULT Bind( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Bind();  
 ```  
   

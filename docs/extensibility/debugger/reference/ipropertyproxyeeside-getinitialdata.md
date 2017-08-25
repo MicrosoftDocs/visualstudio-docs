@@ -42,7 +42,7 @@ HRESULT GetInitialData(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInitialData(  
    out IEEDataStorage dataOut  
 );  

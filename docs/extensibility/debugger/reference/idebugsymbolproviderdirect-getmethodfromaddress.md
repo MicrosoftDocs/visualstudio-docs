@@ -47,7 +47,7 @@ HRESULT GetMethodFromAddress(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMethodFromAddress(  
    IDebugAddress pAddress,  
    out Guid      pGuid,  

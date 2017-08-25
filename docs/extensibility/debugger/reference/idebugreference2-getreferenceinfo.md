@@ -47,7 +47,7 @@ HRESULT GetReferenceInfo ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetReferenceInfo (   
    enum_DEBUGREF_INFO_FLAGS  dwFields,  
    uint                      nRadix,  

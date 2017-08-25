@@ -42,7 +42,7 @@ HRESULT IsReadOnly( 
 );  
 ```  
   
-```cs  
+```csharp  
 int IsReadOnly(  
    out int pfIsReadOnly  
 );  

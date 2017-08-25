@@ -42,7 +42,7 @@ HRESULT IsNullReference( 
 );  
 ```  
   
-```cs  
+```csharp  
 int IsNullReference(  
    out int pfIsNull  
 );  

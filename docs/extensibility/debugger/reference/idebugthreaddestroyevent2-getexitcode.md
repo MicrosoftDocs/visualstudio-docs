@@ -42,7 +42,7 @@ HRESULT GetExitCode ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExitCode (   
    out uint pdwExit  
 );  

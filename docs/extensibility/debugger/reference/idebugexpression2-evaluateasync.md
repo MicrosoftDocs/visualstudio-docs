@@ -43,7 +43,7 @@ HRESULT EvaluateAsync ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EvaluateAsync(  
    enum_EVALFLAGS       dwFlags,   
    IDebugEventCallback2 pExprCallback  

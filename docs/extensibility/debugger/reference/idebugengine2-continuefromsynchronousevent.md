@@ -42,7 +42,7 @@ HRESULT ContinueFromSynchronousEvent( 
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2 pEvent  
 );  

@@ -42,7 +42,7 @@ HRESULT DisableAutoAttach(
 );  
 ```  
   
-```cs  
+```csharp  
 int DisableAutoAttach();  
 ```  
   

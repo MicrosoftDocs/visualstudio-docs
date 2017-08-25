@@ -55,7 +55,7 @@ enum enum_DISASSEMBLY_STREAM_FIELDS { 
 typedef DWORD DISASSEMBLY_STREAM_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_DISASSEMBLY_STREAM_FIELDS {   
    DSF_ADDRESS          = 0x00000001,  
    DSF_ADDRESSOFFSET    = 0x00000002,  

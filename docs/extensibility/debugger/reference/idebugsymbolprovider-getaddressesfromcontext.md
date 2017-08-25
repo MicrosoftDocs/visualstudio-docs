@@ -45,7 +45,7 @@ HRESULT GetAddressesFromContext( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAddressesFromContext(  
    IDebugDocumentContext2  pDocContext,  
    bool                    fStatmentOnly,  

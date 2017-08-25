@@ -43,7 +43,7 @@ HRESULT GetEEMetricGuid(
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT GetEEMetricGuid(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

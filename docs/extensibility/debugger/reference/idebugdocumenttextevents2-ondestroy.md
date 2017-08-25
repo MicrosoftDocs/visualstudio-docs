@@ -42,7 +42,7 @@ HRESULT onDestroy( 
 );  
 ```  
   
-```cs  
+```csharp  
 int onDestroy();  
 ```  
   

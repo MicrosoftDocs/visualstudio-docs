@@ -42,7 +42,7 @@ HRESULT RemoveProgramNode( 
 );  
 ```  
   
-```cs  
+```csharp  
 int RemoveProgramNode(   
    IDebugProgramNode2 pProgramNode  
 );  

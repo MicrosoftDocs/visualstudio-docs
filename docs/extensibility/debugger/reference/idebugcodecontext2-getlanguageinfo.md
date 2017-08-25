@@ -43,7 +43,7 @@ HRESULT GetLanguageInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLanguageInfo(   
    ref string pbstrLanguage,  
    ref Guid pguidLanguage  

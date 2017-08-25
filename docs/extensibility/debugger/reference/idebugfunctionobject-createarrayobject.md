@@ -47,7 +47,7 @@ HRESULT CreateArrayObject( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateArrayObject(  
    enum_OBJECT_TYPE ot,   
    IDebugField      pClassField,   

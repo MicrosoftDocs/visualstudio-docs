@@ -54,7 +54,7 @@ Programming languages typically provide a means to annotate or comment the code.
 ### Example  
  Here is an example implementation of the <xref:Microsoft.VisualStudio.Package.Source.GetCommentFormat%2A> method.  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Package;  
   
 namespace MyLanguagePackage  

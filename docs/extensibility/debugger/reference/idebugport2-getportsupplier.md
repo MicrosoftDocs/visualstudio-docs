@@ -42,7 +42,7 @@ HRESULT GetPortSupplier( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortSupplier(   
    out IDebugPortSupplier2 ppSupplier  
 );  

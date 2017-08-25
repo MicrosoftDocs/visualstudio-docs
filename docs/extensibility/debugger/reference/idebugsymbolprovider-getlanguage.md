@@ -44,7 +44,7 @@ HRESULT GetLanguage( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLanguage(  
    IDebugAddress pAddress,   
    out Guid      pguidLanguage,   

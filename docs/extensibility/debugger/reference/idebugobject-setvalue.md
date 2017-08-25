@@ -43,7 +43,7 @@ HRESULT SetValue( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetValue(  
    byte[] pValue,   
    uint   nSize  

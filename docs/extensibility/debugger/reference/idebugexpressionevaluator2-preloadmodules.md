@@ -41,7 +41,7 @@ HRESULT PreloadModules (
 );  
 ```  
   
-```cs  
+```csharp  
 int PreloadModules (  
    IDebugSymbolProvider pSym  
 );  

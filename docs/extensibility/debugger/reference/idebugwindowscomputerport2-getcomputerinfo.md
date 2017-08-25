@@ -41,7 +41,7 @@ HRESULT GetComputerInfo(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetComputerInfo(  
    out COMPUTER_INFO[] pInfo  
 );  

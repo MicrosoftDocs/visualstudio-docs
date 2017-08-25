@@ -43,7 +43,7 @@ HRESULT GetState( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetState(   
    out enum_BP_STATE pState  
 );  

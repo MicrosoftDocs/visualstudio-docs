@@ -42,7 +42,7 @@ HRESULT EnumInterfacesImplemented( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumInterfacesImplemented(  
    out IEnumDebugFields ppEnum  
 );  

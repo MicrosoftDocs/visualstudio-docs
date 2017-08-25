@@ -51,7 +51,7 @@ enum enum_DEBUGREF_INFO_FLAGS { 
 typedef DWORD DEBUGREF_INFO_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_DEBUGREF_INFO_FLAGS {   
    DEBUGREF_INFO_NAME             = 0x00000001,  
    DEBUGREF_INFO_TYPE             = 0x00000002,  

@@ -42,7 +42,7 @@ HRESULT GetRank( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetRank(  
    out uint pdwRank  
 );  

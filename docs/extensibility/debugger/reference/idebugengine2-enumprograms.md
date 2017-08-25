@@ -42,7 +42,7 @@ HRESULT EnumPrograms( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumPrograms(   
    out IEnumDebugPrograms2 ppEnum  
 );  

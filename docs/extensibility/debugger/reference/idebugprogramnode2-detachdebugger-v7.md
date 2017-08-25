@@ -43,7 +43,7 @@ HRESULT DetachDebugger_V7 ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int DetachDebugger_V7 ();  
 ```  
   

@@ -43,7 +43,7 @@ HRESULT GetEEMetricString(
 );  
 ```  
   
-```cs  
+```csharp  
 private int GetEEMetricString(  
    ref Guid   guidLang,  
    ref Guid   guidVendor,  

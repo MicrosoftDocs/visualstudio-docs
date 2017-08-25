@@ -43,7 +43,7 @@ HRESULT AddPort( 
 );  
 ```  
   
-```cs  
+```csharp  
 int AddPort(   
    IDebugPortRequest2 pRequest,  
    out IDebugPort2    ppPort  

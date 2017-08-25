@@ -42,7 +42,7 @@ HRESULT GetUnderlyingSymbol(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetUnderlyingSymbol(  
    out IDebugField ppField  
 );  

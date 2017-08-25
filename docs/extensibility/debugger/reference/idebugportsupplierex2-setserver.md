@@ -40,7 +40,7 @@ HRESULT SetServer(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetServer(  
    IDebugCoreServer2 pServer  
 );  

@@ -42,7 +42,7 @@ HRESULT GetAttributeTypeField( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAttributeTypeField(  
    out IDebugClassField ppCAType  
 );  

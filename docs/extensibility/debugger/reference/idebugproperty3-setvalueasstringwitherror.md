@@ -45,7 +45,7 @@ HRESULT SetValueAsStringWithError(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetValueAsStringWithError(  
    string     pszValue,  
    uint       dwRadix,  

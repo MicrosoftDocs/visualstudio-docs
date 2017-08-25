@@ -39,7 +39,7 @@ HRESULT ExecuteOnThread(
    [in] IDebugThread2* pThread)  
 ```  
   
-```cs  
+```csharp  
 int ExecuteOnThread(  
    IDebugThread2 pThread  
 );  

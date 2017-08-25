@@ -41,7 +41,7 @@ HRESULT IsClosedType(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsClosedType();  
 ```  
   

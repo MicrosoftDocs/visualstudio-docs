@@ -43,7 +43,7 @@ HRESULT Delete( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Delete();  
 ```  
   

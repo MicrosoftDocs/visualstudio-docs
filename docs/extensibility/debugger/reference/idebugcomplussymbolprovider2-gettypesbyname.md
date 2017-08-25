@@ -43,7 +43,7 @@ HRESULT GetTypesByName(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypesByName(  
    string               pszClassName,  
    enum_ NAME_MATCH     nameMatch,  

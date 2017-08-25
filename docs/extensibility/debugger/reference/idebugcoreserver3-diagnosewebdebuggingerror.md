@@ -42,7 +42,7 @@ HRESULT DiagnoseWebDebuggingError(
 );  
 ```  
   
-```cs  
+```csharp  
 int DiagnoseWebDebuggingError(  
    string pszUrl  
 );  

@@ -43,7 +43,7 @@ HRESULT GetResolutionInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetResolutionInfo(   
    enum BPRESI_FIELDS   dwFields,  
    BP_RESOLUTION_INFO[] pBPResolutionInfo  

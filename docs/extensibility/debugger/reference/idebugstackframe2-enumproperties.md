@@ -47,7 +47,7 @@ HRESULT EnumProperties ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumProperties (   
    enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,  
    uint                        nRadix,  

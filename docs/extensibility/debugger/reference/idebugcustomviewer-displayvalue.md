@@ -45,7 +45,7 @@ HRESULT DisplayValue(
 );  
 ```  
   
-```cs  
+```csharp  
 int DisplayValue(  
    IntPtr          hwnd,   
    uint            dwID,   

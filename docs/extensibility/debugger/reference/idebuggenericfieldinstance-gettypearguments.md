@@ -43,7 +43,7 @@ HRESULT GetTypeArguments(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeArguments(  
    uint              cArgs,  
    out IDebugField[] ppArgs,  

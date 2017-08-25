@@ -43,7 +43,7 @@ HRESULT GetStatementRange( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetStatementRange(   
    TEXT_POSITION[] pBegPosition,  
    TEXT_POSITION[] pEndPosition  

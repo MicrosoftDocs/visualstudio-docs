@@ -46,7 +46,7 @@ enum enum_BP_PASSCOUNT_STYLE { 
 typedef DWORD BP_PASSCOUNT_STYLE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BP_PASSCOUNT_STYLE {   
    BP_PASSCOUNT_NONE             = 0x0000,  
    BP_PASSCOUNT_EQUAL            = 0x0001,  

@@ -43,7 +43,7 @@ HRESULT SetCondition( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetCondition(   
    BP_CONDITION bpCondition  
 );  

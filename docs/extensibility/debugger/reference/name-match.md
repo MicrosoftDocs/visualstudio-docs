@@ -44,7 +44,7 @@ typedef enum { 
 } NAME_MATCH;  
 ```  
   
-```cs  
+```csharp  
 public enum NameMatchOptions {   
    nmNone            = 0,  
    nmCaseSensitive   = 1,  

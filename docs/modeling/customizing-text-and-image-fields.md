@@ -216,7 +216,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  To test the code, press F5 and, in the debugging solution, open a sample diagram. The default state of the icon should appear. Select the shape and in the Properties window, change the value of the **AlternateState** property. The icon should then appear rotated through 90 degrees, on that shape.  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Diagrams;  
 ...  

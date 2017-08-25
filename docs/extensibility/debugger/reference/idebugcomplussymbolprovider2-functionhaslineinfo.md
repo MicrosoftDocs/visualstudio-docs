@@ -41,7 +41,7 @@ HRESULT FunctionHasLineInfo(
 );  
 ```  
   
-```cs  
+```csharp  
 int FunctionHasLineInfo(  
    IDebugAddress pAddress  
 );  

@@ -42,7 +42,7 @@ HRESULT GetSize( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetSize(  
    out uint pdwSize  
 );  

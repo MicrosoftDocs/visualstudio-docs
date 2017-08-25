@@ -41,7 +41,7 @@ HRESULT IsAddressSequencePoint(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsAddressSequencePoint(  
    IDebugAddress pAddress  
 );  

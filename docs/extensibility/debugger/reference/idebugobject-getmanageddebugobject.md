@@ -42,7 +42,7 @@ HRESULT GetManagedDebugObject( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetManagedDebugObject(  
    out IDebugManagedObject ppObject  
 );  

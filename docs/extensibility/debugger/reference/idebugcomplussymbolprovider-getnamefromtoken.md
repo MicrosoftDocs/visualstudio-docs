@@ -43,7 +43,7 @@ HRESULT GetNameFromToken (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNameFromToken (  
    object     pMetadataImport,  
    uint       dwToken,  

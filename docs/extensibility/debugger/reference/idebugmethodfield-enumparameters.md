@@ -42,7 +42,7 @@ HRESULT EnumParameters( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumParameters(  
    out IEnumDebugFields ppParams  
 );  

@@ -46,7 +46,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in managed code.  
   
-```cs  
+```csharp  
 namespace EEMC  
 {  
     public class CEnumMethodField : IEnumDebugFields  

@@ -41,7 +41,7 @@ HRESULT GetChecksum(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetChecksum(   
    ref Guid               guidAlgorithm,  
    out enum_CHECKSUM_DATA pChecksumData  

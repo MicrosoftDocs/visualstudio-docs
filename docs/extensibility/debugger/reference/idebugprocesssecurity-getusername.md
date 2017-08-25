@@ -40,7 +40,7 @@ HRESULT GetUserName(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetUserName (  
     string pbstrUserName  
 );  

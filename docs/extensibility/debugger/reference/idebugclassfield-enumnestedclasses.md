@@ -42,7 +42,7 @@ HRESULT EnumNestedClasses( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumNestedClasses(  
    out IEnumDebugFields ppEnum  
 );  

@@ -42,7 +42,7 @@ HRESULT GetScope( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetScope(   
    out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope  
 );  

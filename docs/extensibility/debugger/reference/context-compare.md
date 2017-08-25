@@ -51,7 +51,7 @@ enum enum_CONTEXT_COMPARE { 
 typedef DWORD CONTEXT_COMPARE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_CONTEXT_COMPARE {   
    CONTEXT_EQUAL                 = 0x0001,  
    CONTEXT_LESS_THAN             = 0x0002,  

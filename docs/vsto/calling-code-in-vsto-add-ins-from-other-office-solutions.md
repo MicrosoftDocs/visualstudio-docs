@@ -134,7 +134,7 @@ Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _
 utilities.ImportData()  
 ```  
   
-```cs  
+```csharp  
 object addInName = "ExcelImportData";  
 Office.COMAddIn addIn = Globals.ThisAddIn.Application.COMAddIns.Item(ref addInName);  
 ExcelImportData.IAddInUtilities utilities = (ExcelImportData.IAddInUtilities)addIn.Object;  

@@ -42,7 +42,7 @@ HRESULT GetPortName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortName(   
    out string pbstrName  
 );  

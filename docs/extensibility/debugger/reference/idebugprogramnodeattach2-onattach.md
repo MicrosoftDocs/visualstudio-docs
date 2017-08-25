@@ -42,7 +42,7 @@ HRESULT OnAttach(
 );  
 ```  
   
-```cs  
+```csharp  
 int OnAttach(  
    ref Guid guidProgramId  
 };  

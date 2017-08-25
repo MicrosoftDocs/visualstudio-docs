@@ -49,7 +49,7 @@ enum enum_THREADPROPERTY_FIELDS { 
 typedef DWORD THREADPROPERTY_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_THREADPROPERTY_FIELDS {   
    TPF_ID           = 0x0001,  
    TPF_SUSPENDCOUNT = 0x0002,  

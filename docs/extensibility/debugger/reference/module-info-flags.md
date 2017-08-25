@@ -43,7 +43,7 @@ enum enum_MODULE_INFO_FLAGS {
 typedef DWORD MODULE_INFO_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_MODULE_INFO_FLAGS {  
    MIF_SYMBOLS_LOADED = 0x0001  
 };  

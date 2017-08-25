@@ -42,7 +42,7 @@ HRESULT EnumNestedEnums( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumNestedEnums(  
    out IEnumDebugFields ppEnum  
 );  

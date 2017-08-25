@@ -44,7 +44,7 @@ typedef struct tagPROVIDER_PROCESS_DATA {
 } PROVIDER_PROCESS_DATA;  
 ```  
   
-```cs  
+```csharp  
 public struct PROVIDER_PROCESS_DATA {  
    public uint               Fields;  
    public PROGRAM_NODE_ARRAY ProgramNodes;  

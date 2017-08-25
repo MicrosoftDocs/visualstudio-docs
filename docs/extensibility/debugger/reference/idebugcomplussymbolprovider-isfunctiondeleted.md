@@ -40,7 +40,7 @@ HRESULT IsFunctionDeleted(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsFunctionDeleted(  
    IDebugAddress pAddress  
 );  

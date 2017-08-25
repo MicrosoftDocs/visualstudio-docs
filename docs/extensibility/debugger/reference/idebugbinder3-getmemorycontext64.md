@@ -43,7 +43,7 @@ HRESULT GetMemoryContext64 (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMemoryContext64 (  
    IDebugField              pField,  
    ulong                    uConstant,  

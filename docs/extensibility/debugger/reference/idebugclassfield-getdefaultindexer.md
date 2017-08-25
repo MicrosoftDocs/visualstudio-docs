@@ -42,7 +42,7 @@ HRESULT GetDefaultIndexer( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDefaultIndexer(  
    out string pbstrIndexer  
 );  

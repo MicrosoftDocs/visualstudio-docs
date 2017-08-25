@@ -47,7 +47,7 @@ HRESULT Event(
 );  
 ```  
   
-```cs  
+```csharp  
 int Event(  
    IDebugCoreServer2 pServer,   
    IDebugPort2       pPort,   

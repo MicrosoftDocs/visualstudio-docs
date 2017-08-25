@@ -41,7 +41,7 @@ HRESULT GetFlags(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetFlags(  
    out enum_PROGRAM_DESTROY_FLAGS pdwFlags  
 );  

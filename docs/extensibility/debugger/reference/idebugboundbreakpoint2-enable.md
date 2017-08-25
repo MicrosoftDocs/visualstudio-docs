@@ -43,7 +43,7 @@ HRESULT Enable( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Enable(   
    int fEnable  
 );  

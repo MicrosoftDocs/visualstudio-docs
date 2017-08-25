@@ -45,7 +45,7 @@ HRESULT GetBytes( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBytes(  
    uint       dwStart,   
    uint       dwCount,   

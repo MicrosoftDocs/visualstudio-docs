@@ -54,7 +54,7 @@ HRESULT LaunchSuspended ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int LaunchSuspended(  
    string               pszServer,   
    IDebugPort2          pPort,   

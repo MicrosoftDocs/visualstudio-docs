@@ -43,7 +43,7 @@ HRESULT GetDocumentContext ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppDocContext  
 );  

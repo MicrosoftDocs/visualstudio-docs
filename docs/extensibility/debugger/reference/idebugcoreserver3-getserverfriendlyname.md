@@ -42,7 +42,7 @@ HRESULT GetServerFriendlyName(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetServerFriendlyName(  
    out string pbstrName  
 );  

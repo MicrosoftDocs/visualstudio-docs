@@ -42,7 +42,7 @@ HRESULT GetElements( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetElements(  
    out IEnumDebugObjects ppEnum  
 );  

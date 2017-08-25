@@ -44,7 +44,7 @@ enum enum_INTERCEPT_EXCEPTION_ACTION
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  

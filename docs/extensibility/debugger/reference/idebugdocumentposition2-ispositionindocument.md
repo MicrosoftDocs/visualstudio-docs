@@ -42,7 +42,7 @@ HRESULT IsPositionInDocument( 
 );  
 ```  
   
-```cs  
+```csharp  
 int IsPositionInDocument(   
    IDebugDocument2 pDoc  
 );  

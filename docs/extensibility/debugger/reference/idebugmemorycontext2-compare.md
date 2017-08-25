@@ -46,7 +46,7 @@ HRESULT Compare( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Compare(  
    enum_CONTEXT_COMPARE   compare,   
    IDebugMemoryContext2[] rgpMemoryContextSet,   

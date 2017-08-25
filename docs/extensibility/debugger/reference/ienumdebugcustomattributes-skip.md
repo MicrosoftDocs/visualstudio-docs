@@ -42,7 +42,7 @@ HRESULT Skip ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Skip(  
    uint celt  
 );  

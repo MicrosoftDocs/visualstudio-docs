@@ -44,7 +44,7 @@ HRESULT GetTypeFromTypeDef(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeFromTypeDef(  
    uint            ulAppDomainID,  
    Guid            guidModule,  

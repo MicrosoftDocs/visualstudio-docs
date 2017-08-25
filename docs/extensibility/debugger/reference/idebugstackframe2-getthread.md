@@ -42,7 +42,7 @@ HRESULT GetThread ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetThread (   
    out IDebugThread2 ppThread  
 );  

@@ -41,7 +41,7 @@ HRESULT SetCorPath(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetCorPath(  
    string pcstrCorPath  
 );  

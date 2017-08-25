@@ -42,7 +42,7 @@ HRESULT GetOffset( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetOffset(  
    TEXT_POSITION[] pPosition  
 );  

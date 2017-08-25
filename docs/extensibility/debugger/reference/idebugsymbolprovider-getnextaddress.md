@@ -44,7 +44,7 @@ HRESULT GetNextAddress( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNextAddress(   
    IDebugAddress     pAddress,  
    bool              fStatementOnly,  

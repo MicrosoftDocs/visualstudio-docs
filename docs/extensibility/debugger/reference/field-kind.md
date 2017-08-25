@@ -85,7 +85,7 @@ enum enum_FIELD_KIND { 
 typedef DWORD FIELD_KIND;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_FIELD_KIND {  
    FIELD_KIND_NONE       = 0x00000000,  
   

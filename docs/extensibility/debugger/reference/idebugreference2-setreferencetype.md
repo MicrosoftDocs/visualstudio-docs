@@ -42,7 +42,7 @@ HRESULT SetReferenceType ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetReferenceType (   
    enum_REFERENCE_TYPE dwRefType  
 );  

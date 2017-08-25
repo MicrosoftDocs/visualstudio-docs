@@ -47,7 +47,7 @@ enum enum_SEEK_START { 
 typedef DWORD SEEK_START;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_SEEK_START {   
    SEEK_START_BEGIN       = 0x0001,  
    SEEK_START_END         = 0x0002,  

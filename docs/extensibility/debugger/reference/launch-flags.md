@@ -46,7 +46,7 @@ enum enum_LAUNCH_FLAGS { 
 typedef DWORD LAUNCH_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_LAUNCH_FLAGS {   
    LAUNCH_DEBUG      = 0x0000,  
    LAUNCH_NODEBUG    = 0x0001,  

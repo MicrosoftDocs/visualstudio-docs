@@ -42,7 +42,7 @@ HRESULT GetBaseIndices (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBaseIndices (  
    uint       dwRank,  
    out uint[] dwIndices  

@@ -42,7 +42,7 @@ HRESULT SetJustMyCodeState(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetJustMyCodeState(  
    int fIsUserCode  
 );  

@@ -46,7 +46,7 @@ enum enum_DOCCONTEXT_COMPARE { 
 typedef DWORD DOCCONTEXT_COMPARE;  
 ```  
   
-```cs  
+```csharp  
 enum enum_DOCCONTEXT_COMPARE {   
    DOCCONTEXT_EQUAL         = 0x0001,  
    DOCCONTEXT_LESS_THAN     = 0x0002,  

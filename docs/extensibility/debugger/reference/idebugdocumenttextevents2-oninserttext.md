@@ -43,7 +43,7 @@ HRESULT onInsert( 
 );  
 ```  
   
-```cs  
+```csharp  
 int onInsert(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToInsert  

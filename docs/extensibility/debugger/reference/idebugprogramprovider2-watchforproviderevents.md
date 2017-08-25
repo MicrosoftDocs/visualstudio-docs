@@ -47,7 +47,7 @@ HRESULT WatchForProviderEvents(
 );  
 ```  
   
-```cs  
+```csharp  
 int WatchForProviderEvents(  
    enum_PROVIDER_FLAGS   Flags,  
    IDebugDefaultPort2    pPort,  

@@ -43,7 +43,7 @@ HRESULT GetName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetName(   
    enum_GETNAME_TYPE gnType,  
    out string        pbstrFileName  

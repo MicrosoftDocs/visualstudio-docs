@@ -41,7 +41,7 @@ HRESULT SetCallback (
 );  
 ```  
   
-```cs  
+```csharp  
 int SetCallback (  
    IDebugSettingsCallback2 pCallback  
 );  

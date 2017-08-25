@@ -41,7 +41,7 @@ HRESULT GetPointerAddress (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPointerAddress (  
    out ulong puAddress  
 );  

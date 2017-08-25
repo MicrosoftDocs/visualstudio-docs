@@ -43,7 +43,7 @@ HRESULT GetContainerField( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetContainerField(  
    IDebugAddress            pAddress,   
    out IDebugContainerField ppContainerField  

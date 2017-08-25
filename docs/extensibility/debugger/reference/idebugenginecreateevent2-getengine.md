@@ -42,7 +42,7 @@ HRESULT GetEngine( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngine(   
    out IDebugEngine2 pEngine  
 );  

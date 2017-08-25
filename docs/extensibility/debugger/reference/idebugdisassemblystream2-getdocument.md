@@ -43,7 +43,7 @@ HRESULT GetDocument( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDocument(   
    string              bstrDocumentUrl,  
    out IDebugDocument2 ppDocument  

@@ -42,7 +42,7 @@ HRESULT TerminateProcess( 
 );  
 ```  
   
-```cs  
+```csharp  
 int TerminateProcess(   
    IDebugProcess2 pPortProcess  
 );  

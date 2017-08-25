@@ -42,7 +42,7 @@ HRESULT GetService (
 );  
 ```  
   
-```cs  
+```csharp  
 int GetService (  
    Guid       uid,  
    out object ppService  

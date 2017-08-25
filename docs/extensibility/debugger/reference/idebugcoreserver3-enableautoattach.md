@@ -45,7 +45,7 @@ HRESULT EnableAutoAttach(
 );  
 ```  
   
-```cs  
+```csharp  
 int EnableAutoAttach(  
    Guid[]     rgguidSpecificEngines,  
    uint       celtSpecificEngines,  

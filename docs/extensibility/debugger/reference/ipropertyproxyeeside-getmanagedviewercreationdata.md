@@ -47,7 +47,7 @@ HRESULT GetManagedViewerCreationData(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetManagedViewerCreationData(  
    out string                     assemName,  
    out IEEDataStorage             assemBytes,  

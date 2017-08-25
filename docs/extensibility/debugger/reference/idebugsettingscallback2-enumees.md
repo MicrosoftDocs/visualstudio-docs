@@ -43,7 +43,7 @@ HRESULT EnumEEs(
 );  
 ```  
   
-```cs  
+```csharp  
 public int EnumEEs(  
    uint       celtBuffer,  
    ref Guid   rgguidLang,  

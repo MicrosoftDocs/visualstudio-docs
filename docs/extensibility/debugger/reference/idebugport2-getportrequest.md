@@ -42,7 +42,7 @@ HRESULT GetPortRequest( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortRequest(   
    out IDebugPortRequest2 ppRequest  
 );  

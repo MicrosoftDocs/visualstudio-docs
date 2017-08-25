@@ -46,7 +46,7 @@ HRESULT CreateObject (
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateObject (  
    IDebugFunctionObject pConstructor,  
    uint                 dwArgs,  

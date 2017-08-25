@@ -42,7 +42,7 @@ HRESULT GetException( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetException(   
    EXCEPTION_INFO[] pExceptionInfo  
 );  

@@ -42,7 +42,7 @@ HRESULT RemovePort( 
 );  
 ```  
   
-```cs  
+```csharp  
 int RemovePort(   
    IDebugPort2 pPort  
 );  

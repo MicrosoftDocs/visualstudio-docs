@@ -43,7 +43,7 @@ HRESULT GetContextFromAddress( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetContextFromAddress(  
    IDebugAddress              pAddress,   
    out IDebugDocumentContext2 ppDocContext  

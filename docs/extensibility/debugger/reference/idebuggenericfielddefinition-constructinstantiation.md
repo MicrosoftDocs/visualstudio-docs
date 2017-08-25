@@ -43,7 +43,7 @@ HRESULT ConstructInstantiation(
 );  
 ```  
   
-```cs  
+```csharp  
 int ConstructInstantiation(  
    uint            cArgs,  
    IDebugField[]   ppArgs,  

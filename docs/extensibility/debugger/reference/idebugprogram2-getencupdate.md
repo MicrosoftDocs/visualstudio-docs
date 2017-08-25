@@ -42,7 +42,7 @@ HRESULT GetENCUpdate( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetENCUpdate(  
    out object ppUpdate  
 );  

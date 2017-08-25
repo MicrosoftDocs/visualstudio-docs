@@ -41,7 +41,7 @@ HRESULT GetModuleName(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetModuleName (  
    string pbstrModuleName  
 );  

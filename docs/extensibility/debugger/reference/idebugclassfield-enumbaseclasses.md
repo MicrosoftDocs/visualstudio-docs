@@ -42,7 +42,7 @@ HRESULT EnumBaseClasses( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumBaseClasses(  
    out IEnumDebugFields ppEnum  
 );  

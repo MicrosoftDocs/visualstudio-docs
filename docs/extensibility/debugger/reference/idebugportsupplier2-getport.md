@@ -43,7 +43,7 @@ HRESULT GetPort( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPort(   
    ref Guid        guidPort,  
    out IDebugPort2 ppPort  

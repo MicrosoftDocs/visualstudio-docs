@@ -42,7 +42,7 @@ HRESULT ResumeProcess ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int ResumeProcess (   
    IDebugProcess2 pProcess  
 );  

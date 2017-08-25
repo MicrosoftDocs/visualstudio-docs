@@ -45,7 +45,7 @@ HRESULT GetTypeArguments(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeArguments(  
    uint          skip,  
    uint          count,  

@@ -43,7 +43,7 @@ HRESULT ReloadSymbols( 
 );  
 ```  
   
-```cs  
+```csharp  
 int ReloadSymbols(   
    string     pszUrlToSymbols,  
    out string pbstrDebugMessage  

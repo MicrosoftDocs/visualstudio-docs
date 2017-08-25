@@ -43,7 +43,7 @@ HRESULT ReplaceSymbols(
 );  
 ```  
   
-```cs  
+```csharp  
 int ReplaceSymbols(  
    uint    ulAppDomainID,  
    Guid    guidModule,  

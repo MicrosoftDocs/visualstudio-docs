@@ -43,7 +43,7 @@ HRESULT GetEEMetricDword(
 );  
 ```  
   
-```cs  
+```csharp  
 private int GetEEMetricDword(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

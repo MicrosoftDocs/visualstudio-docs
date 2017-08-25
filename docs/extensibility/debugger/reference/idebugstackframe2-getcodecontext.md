@@ -42,7 +42,7 @@ HRESULT GetCodeContext ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCodeContext (   
    out IDebugCodeContext2 ppCodeCxt  
 );  

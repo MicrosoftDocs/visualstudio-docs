@@ -40,7 +40,7 @@ HRESULT GetIndex(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetIndex(  
    out uint pIndex  
 );  

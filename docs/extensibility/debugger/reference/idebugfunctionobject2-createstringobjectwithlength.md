@@ -43,7 +43,7 @@ HRESULT CreateStringObjectWithLength (
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateStringObjectWithLength (  
    string           pcstrString,  
    uint             uiLength,  

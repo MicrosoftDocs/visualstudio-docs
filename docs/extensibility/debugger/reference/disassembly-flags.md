@@ -48,7 +48,7 @@ enum enum_DISASSEMBLY_FLAGS { 
 typedef DWORD DISASSEMBLY_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_DISASSEMBLY_FLAGS {   
    DF_DOCUMENTCHANGE     = 0x00000001,  
    DF_DISABLED           = 0x00000002,  

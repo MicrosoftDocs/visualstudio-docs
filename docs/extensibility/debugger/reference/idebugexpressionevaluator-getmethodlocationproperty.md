@@ -46,7 +46,7 @@ HRESULT GetMethodLocationProperty( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMethodLocationProperty(  
    string               upstrFullyQualifiedMethodPlusOffset,   
    IDebugSymbolProvider pSymbolProvider,   

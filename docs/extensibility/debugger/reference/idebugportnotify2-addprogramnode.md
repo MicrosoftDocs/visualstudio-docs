@@ -42,7 +42,7 @@ HRESULT AddProgramNode( 
 );  
 ```  
   
-```cs  
+```csharp  
 int AddProgramNode(   
    IDebugProgramNode2 pProgramNode  
 );  

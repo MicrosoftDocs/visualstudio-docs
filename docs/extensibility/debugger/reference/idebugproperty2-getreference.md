@@ -42,7 +42,7 @@ HRESULT GetReference(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetReference(  
    out IDebugReference2 ppReference  
 );  

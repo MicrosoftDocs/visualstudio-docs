@@ -43,7 +43,7 @@ typedef struct _tagTEXT_POSITION { 
 } TEXT_POSITION;  
 ```  
   
-```cs  
+```csharp  
 public struct TEXT_POSITION {   
    public uint dwLine;  
    public uint dwColumn;  

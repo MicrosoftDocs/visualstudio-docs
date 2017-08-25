@@ -42,7 +42,7 @@ HRESULT GetResult( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetResult(   
    out IDebugProperty2 ppResult  
 );  

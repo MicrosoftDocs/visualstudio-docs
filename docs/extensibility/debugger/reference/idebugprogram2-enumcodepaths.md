@@ -47,7 +47,7 @@ HRESULT EnumCodePaths( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumCodePaths(   
    string                 pszHint,  
    IDebugCodeContext2     pStart,  

@@ -42,7 +42,7 @@ HRESULT EnumModules( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumModules(   
    out IEnumDebugModules2 ppEnum  
 );  

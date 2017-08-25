@@ -43,7 +43,7 @@ HRESULT GetModOpts(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetModOpts(  
    uint         celt,  
    out string[] rgelt,  

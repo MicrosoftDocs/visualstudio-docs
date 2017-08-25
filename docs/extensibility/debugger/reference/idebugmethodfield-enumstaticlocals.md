@@ -42,7 +42,7 @@ HRESULT EnumStaticLocals( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumStaticLocals(  
    out IEnumDebugFields ppLocals  
 );  

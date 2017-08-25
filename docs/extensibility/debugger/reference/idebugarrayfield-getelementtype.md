@@ -42,7 +42,7 @@ HRESULT GetElementType( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetElementType(  
    out IDebugField ppType  
 );  

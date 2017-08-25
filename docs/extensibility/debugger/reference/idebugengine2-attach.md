@@ -46,7 +46,7 @@ HRESULT Attach( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Attach(   
    IDebugProgram2[]     pProgram,  
    IDebugProgramNode2[] rgpProgramNodes,  

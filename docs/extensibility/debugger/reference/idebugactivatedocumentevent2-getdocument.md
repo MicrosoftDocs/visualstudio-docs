@@ -43,7 +43,7 @@ HRESULT GetDocument ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDocument (   
    out IDebugDocument2 ppDoc  
 );  

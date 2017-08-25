@@ -42,7 +42,7 @@ HRESULT GetHostMachineName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHostMachineName(   
    out string pbstrHostMachineName  
 );  

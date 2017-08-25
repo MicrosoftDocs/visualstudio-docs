@@ -47,7 +47,7 @@ struct _BP_RESOLUTION_LOCATION {
 } BP_RESOLUTION_LOCATION;  
 ```  
   
-```cs  
+```csharp  
 public struct BP_RESOLUTION_LOCATION {  
    public uint bpType;  
    public IntPtr unionmember1;  
@@ -95,7 +95,7 @@ public struct BP_RESOLUTION_LOCATION {
 ## Example  
  This example shows how to interpret the `BP_RESOLUTION_LOCATION` structure in C#.  
   
-```cs  
+```csharp  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

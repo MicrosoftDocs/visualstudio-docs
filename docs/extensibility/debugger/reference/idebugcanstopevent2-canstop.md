@@ -42,7 +42,7 @@ HRESULT CanStop ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CanStop (   
    int fCanStop  
 );  

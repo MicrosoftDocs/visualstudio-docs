@@ -43,7 +43,7 @@ HRESULT GetHostMachineName_V7 ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHostMachineName_V7 (   
    out string pbstrHostMachineName  
 );  

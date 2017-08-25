@@ -42,7 +42,7 @@ HRESULT GetStringCharLength(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetStringCharLength(  
    out uint pLen  
 );  

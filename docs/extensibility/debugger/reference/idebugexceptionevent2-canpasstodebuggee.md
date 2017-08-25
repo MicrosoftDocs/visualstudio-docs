@@ -42,7 +42,7 @@ HRESULT CanPassToDebuggee(
 );  
 ```  
   
-```cs  
+```csharp  
 int CanPassToDebuggee();  
 ```  
   

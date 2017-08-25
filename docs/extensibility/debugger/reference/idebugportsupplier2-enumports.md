@@ -42,7 +42,7 @@ HRESULT EnumPorts( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumPorts(   
    out IEnumDebugPorts2 ppEnum  
 );  

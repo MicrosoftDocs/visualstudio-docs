@@ -43,7 +43,7 @@ HRESULT IsEqual( 
 );  
 ```  
   
-```cs  
+```csharp  
 int IsEqual(  
    IDebugObject pObject,  
    out int      pfIsEqual  

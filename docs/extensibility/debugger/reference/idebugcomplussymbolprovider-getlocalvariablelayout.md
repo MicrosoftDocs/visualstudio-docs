@@ -45,7 +45,7 @@ HRESULT GetLocalVariablelayout(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLocalVariablelayout(  
    uint        ulAppDomainID,  
    Guid        guidModule,  

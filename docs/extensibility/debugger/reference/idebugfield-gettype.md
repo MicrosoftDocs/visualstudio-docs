@@ -42,7 +42,7 @@ HRESULT GetType( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetType(  
    out IDebugField ppType  
 );  

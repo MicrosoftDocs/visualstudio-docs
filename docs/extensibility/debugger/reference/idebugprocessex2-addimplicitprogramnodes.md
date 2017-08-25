@@ -44,7 +44,7 @@ HRESULT AddImplicitProgramNodes(
 );  
 ```  
   
-```cs  
+```csharp  
 int AddImplicitProgramNodes(  
    ref Guid guidLaunchingEngine,  
    Guid[]   rgguidSpecificEngines,  

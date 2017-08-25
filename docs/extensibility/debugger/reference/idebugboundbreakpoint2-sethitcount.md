@@ -43,7 +43,7 @@ HRESULT SetHitCount( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetHitCount(   
    uint dwHitCount  
 );  

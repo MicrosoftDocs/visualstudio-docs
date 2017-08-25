@@ -38,7 +38,7 @@ This method allows the port supplier to display a warning before the user attach
 HRESULT QueryCanSafelyAttach();  
 ```  
   
-```cs  
+```csharp  
 int QueryCanSafelyAttach();  
 ```  
   

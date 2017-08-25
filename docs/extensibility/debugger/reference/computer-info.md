@@ -43,7 +43,7 @@ typedef struct tagCOMPUTER_INFO
 } COMPUTER_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct COMPUTER_INFO  
 {  
     public ushort wProcessorArchitecture;  

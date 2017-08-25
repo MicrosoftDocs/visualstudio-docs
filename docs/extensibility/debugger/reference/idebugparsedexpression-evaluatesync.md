@@ -48,7 +48,7 @@ HRESULT EvaluateSync( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EvaluateSync(  
    uint                 dwEvalFlags,   
    uint                 dwTimeout,   

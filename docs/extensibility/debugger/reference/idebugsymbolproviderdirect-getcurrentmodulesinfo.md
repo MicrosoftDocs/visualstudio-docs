@@ -45,7 +45,7 @@ HRESULT GetCurrentModulesInfo(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCurrentModulesInfo(  
    uint       pCount,  
    Guid       ppGuids,  

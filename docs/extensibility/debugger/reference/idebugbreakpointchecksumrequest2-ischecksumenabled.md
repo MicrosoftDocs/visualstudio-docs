@@ -40,7 +40,7 @@ HRESULT IsChecksumEnabled(
 );  
 ```  
   
-```cs  
+```csharp  
 public int IsChecksumEnabled(   
    out int pfChecksumEnabled  
 );  

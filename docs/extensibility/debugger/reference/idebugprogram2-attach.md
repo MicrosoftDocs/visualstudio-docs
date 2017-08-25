@@ -42,7 +42,7 @@ HRESULT Attach( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Attach(   
    IDebugEventCallback2 pCallback  
 );  

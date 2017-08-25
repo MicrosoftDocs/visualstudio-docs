@@ -41,7 +41,7 @@ HRESULT GetExtendedKind(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExtendedKind(  
    ref enum_FIELD_KIND_EX pdwKind  
 );  

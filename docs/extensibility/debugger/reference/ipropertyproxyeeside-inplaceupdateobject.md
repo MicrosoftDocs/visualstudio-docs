@@ -43,7 +43,7 @@ HRESULT InPlaceUpdateObject(
 );  
 ```  
   
-```cs  
+```csharp  
 int InPlaceUpdateObject(  
    IEEDataStorage     dataIn,  
    out IEEDataStorage dataOut  

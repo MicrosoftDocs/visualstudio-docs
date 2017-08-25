@@ -42,7 +42,7 @@ HRESULT UnloadSymbols(
 );  
 ```  
   
-```cs  
+```csharp  
 int UnloadSymbols(  
    uint ulAppDomainID,  
    Guid guidModule  

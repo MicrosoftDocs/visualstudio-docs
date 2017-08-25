@@ -43,7 +43,7 @@ HRESULT GetValue( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValue(  
    ref byte[] pValue,   
    uint nSize  

@@ -47,7 +47,7 @@ HRESULT GetMessage( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMessage(   
    out enum_MESSAGETYPE pMessageType,  
    out string           pbstrMessage,  

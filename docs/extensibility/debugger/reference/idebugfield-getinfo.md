@@ -43,7 +43,7 @@ HRESULT GetInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInfo(  
    enum_FIELD_INFO_FIELDS dwFields,  
    FIELD_INFO[] pFieldInfo  

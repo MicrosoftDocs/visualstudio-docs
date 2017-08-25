@@ -40,7 +40,7 @@ HRESULT GetProcess(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetProcess(   
    out IDebugProcess2 ppProcess  
 );  

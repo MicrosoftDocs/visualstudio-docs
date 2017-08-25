@@ -44,7 +44,7 @@ typedef struct tagMACHINE_INFO { 
 } MACHINE_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct MACHINE_INFO {   
    public uint   Fields;  
    public string bstrName;  

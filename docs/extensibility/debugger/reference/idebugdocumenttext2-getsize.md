@@ -43,7 +43,7 @@ HRESULT GetSize( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetSize(   
    ref uint pcNumLines,  
    ref uint pcNumChars  

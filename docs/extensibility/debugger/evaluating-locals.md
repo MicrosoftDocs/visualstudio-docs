@@ -49,7 +49,7 @@ translation.priority.mt:
 ## Managed Code  
  This is an implementation of a function that retrieves the value of a local in managed code.  
   
-```cs  
+```csharp  
 namespace EEMC  
 {  
     internal class Field  

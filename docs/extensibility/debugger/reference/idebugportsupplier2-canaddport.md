@@ -42,7 +42,7 @@ HRESULT CanAddPort( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CanAddPort();  
 ```  
   

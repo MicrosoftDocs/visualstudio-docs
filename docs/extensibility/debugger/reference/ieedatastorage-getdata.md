@@ -44,7 +44,7 @@ HRESULT GetData(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetData(  
    uint     dataSize,  
    out uint sizeGotten,  

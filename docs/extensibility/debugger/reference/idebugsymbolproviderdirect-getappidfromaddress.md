@@ -42,7 +42,7 @@ HRESULT GetAppIDFromAddress(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAppIDFromAddress(  
    IDebugAddress pAddress,  
    out uint      pAppID  

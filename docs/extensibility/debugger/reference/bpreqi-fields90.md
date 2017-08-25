@@ -60,7 +60,7 @@ enum enum_BPREQI_FIELDS90
 typedef DWORD BPREQI_FIELDS90;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BPREQI_FIELDS90  
 {  
     // VS 8.0 values  

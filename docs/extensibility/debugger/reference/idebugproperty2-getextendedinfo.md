@@ -43,7 +43,7 @@ HRESULT GetExtendedInfo ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExtendedInfo (   
    ref Guid guidExtendedInfo,  
    out object pExtendedInfo  

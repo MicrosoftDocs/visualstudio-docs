@@ -43,7 +43,7 @@ HRESULT EnumConstructors( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumConstructors(  
    CONSTRUCTOR_ENUM     cMatch,   
    out IEnumDebugFields ppEnum  

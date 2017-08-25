@@ -43,7 +43,7 @@ HRESULT WriteDump( 
 );  
 ```  
   
-```cs  
+```csharp  
 int WriteDump(   
    enum_DUMPTYPE  DumpType,  
    string         pszDumpUrl  

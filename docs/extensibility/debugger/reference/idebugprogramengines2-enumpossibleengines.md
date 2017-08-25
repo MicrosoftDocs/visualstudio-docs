@@ -44,7 +44,7 @@ HRESULT EnumPossibleEngines( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumPossibleEngines(   
    uint      celtBuffer,  
    GUID[]    rgguidEngines,  

@@ -44,7 +44,7 @@ HRESULT Next(
 );  
 ```  
   
-```cs  
+```csharp  
 int Next(  
    uint                     celt,  
    IDebugErrorBreakpoint2[] rgelt,  

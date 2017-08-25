@@ -44,7 +44,7 @@ HRESULT Subtract( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Subtract(  
    ulong                    dwCount,   
    out IDebugMemoryContext2 ppMemCxt  

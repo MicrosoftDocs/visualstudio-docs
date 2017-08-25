@@ -42,7 +42,7 @@ HRESULT SetReferenceValue( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetReferenceValue(  
    [In] IDebugObject pObject  
 );  

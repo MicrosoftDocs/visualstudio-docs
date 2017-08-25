@@ -42,7 +42,7 @@ HRESULT GetProcessId(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetProcessId(  
    out Guid pguidProcessId  
 );  

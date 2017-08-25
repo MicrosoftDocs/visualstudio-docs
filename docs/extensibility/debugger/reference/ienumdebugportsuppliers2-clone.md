@@ -42,7 +42,7 @@ HRESULT Clone(
 );  
 ```  
   
-```cs  
+```csharp  
 int Clone(  
    out IEnumDebugPortSuppliers2 ppEnum  
 );  

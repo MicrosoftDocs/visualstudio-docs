@@ -44,7 +44,7 @@ HRESULT GetInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInfo(  
    enum_CONTEXT_INFO_FIELDS dwFields,   
    CONTEXT_INFO[]           pinfo  

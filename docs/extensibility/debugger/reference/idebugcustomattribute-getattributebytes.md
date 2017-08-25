@@ -43,7 +43,7 @@ HRESULT GetAttributeBytes( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAttributeBytes(  
    ref byte[] ppBlob,   
    ref uint   pdwLen  

@@ -43,7 +43,7 @@ HRESULT GetEntryPoint(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEntryPoint(  
    uint              ulAppDomainID,  
    Guid              guidModule,  

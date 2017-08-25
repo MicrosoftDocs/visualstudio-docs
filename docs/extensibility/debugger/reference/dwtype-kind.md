@@ -46,7 +46,7 @@ enum enum_dwTYPE_KIND {
 typedef DWORD dwTYPE_KIND;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_dwTYPE_KIND {  
    TYPE_KIND_METADATA = 0x0001,  
    TYPE_KIND_PDB      = 0x0002,  

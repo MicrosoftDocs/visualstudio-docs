@@ -45,7 +45,7 @@ HRESULT WriteAt( 
 );  
 ```  
   
-```cs  
+```csharp  
 int WriteAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

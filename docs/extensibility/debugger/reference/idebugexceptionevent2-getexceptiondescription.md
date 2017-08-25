@@ -42,7 +42,7 @@ HRESULT GetExceptionDescription( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExceptionDescription(   
    out string pbstrDescription  
 );  

@@ -43,7 +43,7 @@ HRESULT SetResponse( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetResponse(   
    uint dwResponse  
 );  

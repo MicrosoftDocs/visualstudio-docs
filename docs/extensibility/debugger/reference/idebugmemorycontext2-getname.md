@@ -43,7 +43,7 @@ HRESULT GetName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetName(  
    out string pbstrName  
 );  

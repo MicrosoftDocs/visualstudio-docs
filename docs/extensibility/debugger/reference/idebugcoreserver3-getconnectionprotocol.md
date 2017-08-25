@@ -42,7 +42,7 @@ HRESULT GetConnectionProtocol(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetConnectionProtocol(  
    CONNECTION_PROTOCOL[] pProtocol  
 );  

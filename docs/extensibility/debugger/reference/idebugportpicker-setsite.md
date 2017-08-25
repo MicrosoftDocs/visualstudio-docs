@@ -40,7 +40,7 @@ HRESULT SetSite(
 );  
 ```  
   
-```cs  
+```csharp  
 public int SetSite(  
    IServiceProvider pSP  
 );  

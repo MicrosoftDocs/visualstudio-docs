@@ -51,7 +51,7 @@ enum enum_PROCESS_INFO_FIELDS { 
 typedef DWORD PROCESS_INFO_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_PROCESS_INFO_FIELDS {   
    PIF_FILE_NAME             = 0x00000001,  
    PIF_BASE_NAME             = 0x00000002,  

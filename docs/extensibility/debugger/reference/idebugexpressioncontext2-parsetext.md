@@ -47,7 +47,7 @@ HRESULT ParseText( 
 );  
 ```  
   
-```cs  
+```csharp  
 int ParseText(   
    string                pszCode,  
    enum_PARSEFLAGS       dwFlags,  

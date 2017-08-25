@@ -48,7 +48,7 @@ typedef struct _tagCONTEXT_INFO { 
 } CONTEXT_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct CONTEXT_INFO {  
    public uint          dwFields;  
    public string        bstrModuleUrl;  

@@ -42,7 +42,7 @@ HRESULT GetTypeFromAddress(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeFromAddress(  
    IDebugAddress   pAddress,  
    out IDebugField ppField  

@@ -43,7 +43,7 @@ HRESULT GetValueFromString(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValueFromString(  
    string    pszValue,  
    out ulong pValue  

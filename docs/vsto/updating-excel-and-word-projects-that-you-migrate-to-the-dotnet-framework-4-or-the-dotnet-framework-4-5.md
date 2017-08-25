@@ -57,7 +57,7 @@ manager: "ghogen"
     <Assembly: ExcelLocale1033Proxy(True)>  
     ```  
   
-    ```cs  
+    ```csharp  
     [assembly: ExcelLocale1033Proxy(true)]  
     ```  
   
@@ -77,7 +77,7 @@ manager: "ghogen"
   
     ```  
   
-    ```cs  
+    ```csharp  
     this.Application = (Excel.Application)Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(typeof(Excel.Application), this.Application);  
   
     ```  
@@ -90,7 +90,7 @@ Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject()  
 ```  
   
-```cs  
+```csharp  
 Microsoft.Office.Tools.Word.Document vstoDocument =   
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject();  
 ```  
@@ -104,7 +104,7 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory)  
     ```  
   
-    ```cs  
+    ```csharp  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory);  
     ```  
@@ -116,7 +116,7 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument)  
     ```  
   
-    ```cs  
+    ```csharp  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument);  
     ```  
@@ -154,7 +154,7 @@ Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.W
 End Sub  
 ```  
   
-```cs  
+```csharp  
 private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet)  
 {  
     // Do something to the worksheet object.  
@@ -169,7 +169,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     DoSomethingToSheet(Globals.Sheet1.Base)  
     ```  
   
-    ```cs  
+    ```csharp  
     DoSomethingToSheet(Globals.Sheet1.Base);  
     ```  
   
@@ -181,7 +181,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void DoSomethingToSheet (Microsoft.Office.Tools.Excel.WorksheetBase worksheet)  
     {  
         // Do something to the worksheet object.  

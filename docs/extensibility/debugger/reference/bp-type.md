@@ -46,7 +46,7 @@ enum enum_BP_TYPE { 
 typedef DWORD BP_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BP_TYPE {   
    BPT_NONE    = 0x0000,  
    BPT_CODE    = 0x0001,  

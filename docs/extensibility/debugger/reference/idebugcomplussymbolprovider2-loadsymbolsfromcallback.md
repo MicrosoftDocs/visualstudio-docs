@@ -47,7 +47,7 @@ HRESULT LoadSymbolsFromCallback(
 );  
 ```  
   
-```cs  
+```csharp  
 int LoadSymbolsFromCallback(  
    uint   ulAppDomainID,  
    Guid   guidModule,  

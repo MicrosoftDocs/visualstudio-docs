@@ -45,7 +45,7 @@ HRESULT WatchForThreadStep( 
 );  
 ```  
   
-```cs  
+```csharp  
 int WatchForThreadStep(   
    IDebugProgram2 pOriginatingProgram,  
    uint           dwTid,  

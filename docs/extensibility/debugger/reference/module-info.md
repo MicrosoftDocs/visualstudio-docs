@@ -53,7 +53,7 @@ typedef struct tagMODULE_INFO { 
 } MODULE_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct MODULE_INFO {   
    public uint     dwValidFields;  
    public string   m_bstrName;  

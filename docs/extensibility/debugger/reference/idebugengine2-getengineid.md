@@ -42,7 +42,7 @@ HRESULT GetEngineID( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngineID(   
    out Guid pguidEngine  
 );  

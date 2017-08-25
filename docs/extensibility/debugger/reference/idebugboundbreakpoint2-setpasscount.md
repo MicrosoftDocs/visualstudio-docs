@@ -43,7 +43,7 @@ HRESULT SetPassCount( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetPassCount(   
    BP_PASSCOUNT bpPassCount  
 );  

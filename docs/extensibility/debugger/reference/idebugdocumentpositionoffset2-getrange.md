@@ -41,7 +41,7 @@ HRESULT GetRange(
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetRange(  
    ref uint pdwBegOffset,  
    ref uint pdwEndOffset  

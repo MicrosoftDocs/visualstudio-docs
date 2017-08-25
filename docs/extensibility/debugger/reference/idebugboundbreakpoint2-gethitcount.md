@@ -43,7 +43,7 @@ HRESULT GetHitCount( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHitCount(   
    out uint pdwHitCount  
 );  

@@ -44,7 +44,7 @@ HRESULT GetExtendedInfo( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExtendedInfo(  
    ref Guid guidExtendedInfo,   
    IntPtr[] prgBuffer,   

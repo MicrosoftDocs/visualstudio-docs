@@ -42,7 +42,7 @@ HRESULT GetString( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetString(   
    out string pbstrString  
 );  

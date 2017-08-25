@@ -42,7 +42,7 @@ HRESULT GetPortId( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortId(   
    out Guid pguidPort  
 );  

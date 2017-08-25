@@ -49,7 +49,7 @@ enum enum_CONTEXT_INFO_FIELDS { 
 typedef DWORD CONTEXT_INFO_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_CONTEXT_INFO_FIELDS {  
    CIF_MODULEURL =       0x00000001,  
    CIF_FUNCTION =        0x00000002,  

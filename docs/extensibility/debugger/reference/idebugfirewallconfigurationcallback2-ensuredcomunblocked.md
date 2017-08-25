@@ -41,7 +41,7 @@ HRESULT EnsureDCOMUnblocked(
 );  
 ```  
   
-```cs  
+```csharp  
 public int EnsureDCOMUnblocked();  
 ```  
   

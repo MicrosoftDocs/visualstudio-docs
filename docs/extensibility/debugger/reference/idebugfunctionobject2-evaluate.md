@@ -44,7 +44,7 @@ HRESULT Evaluate (
 );  
 ```  
   
-```cs  
+```csharp  
 int Evaluate (  
    IDebugObject     ppParams,  
    uint             dwParams,  

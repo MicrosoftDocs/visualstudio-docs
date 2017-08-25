@@ -45,7 +45,7 @@ enum enum_ATTACH_REASON { 
 typedef DWORD ATTACH_REASON;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_ATTACH_REASON {   
    ATTACH_REASON_LAUNCH = 0x0001,  
    ATTACH_REASON_USER   = 0x0002,  

@@ -47,7 +47,7 @@ typedef struct tagEXCEPTION_INFO { 
 } EXCEPTION_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct EXCEPTION_INFO {   
    public IDebugProgram2 pProgram;  
    public string         bstrProgramName;  

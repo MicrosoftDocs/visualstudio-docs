@@ -42,7 +42,7 @@ HRESULT GetTypeFromPrimitive(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeFromPrimitive(  
    uint            dwCorElementType,  
    out IDebugField ppType  

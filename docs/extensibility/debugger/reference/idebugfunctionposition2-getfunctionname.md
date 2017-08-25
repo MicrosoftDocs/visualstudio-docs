@@ -42,7 +42,7 @@ HRESULT GetFunctionName( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetFunctionName(  
    out string pbstrFunctionName  
 );  

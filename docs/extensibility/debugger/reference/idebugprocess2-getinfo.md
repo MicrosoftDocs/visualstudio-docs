@@ -43,7 +43,7 @@ HRESULT GetInfo(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInfo(  
    enum_PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO[]            pProcessInfo  

@@ -43,7 +43,7 @@ HRESULT SetMetric(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetMetric(  
    string pszMetric,  
    object varValue  

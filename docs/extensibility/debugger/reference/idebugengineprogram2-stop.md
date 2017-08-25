@@ -42,7 +42,7 @@ HRESULT Stop( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Stop();  
 ```  
   

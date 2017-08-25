@@ -43,7 +43,7 @@ HRESULT GetFunctionLineOffset(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetFunctionLineOffset(  
    IDebugAddress     pAddress,   
    uint              dwLine,   

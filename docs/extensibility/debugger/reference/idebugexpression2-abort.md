@@ -42,7 +42,7 @@ HRESULT Abort(
 );  
 ```  
   
-```cs  
+```csharp  
 int Abort();  
 ```  
   

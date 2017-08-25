@@ -42,7 +42,7 @@ HRESULT SetThreadName ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetThreadName (   
    string pszName  
 );  

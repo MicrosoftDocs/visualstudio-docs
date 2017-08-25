@@ -42,7 +42,7 @@ HRESULT GetPortSupplierId( 
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT GetPortSupplierId(   
    out Guid pguidPortSupplier  
 );  

@@ -43,7 +43,7 @@ HRESULT CanBind ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CanBind (   
    out IEnumDebugErrorBreakpoints2 ppErrorEnum  
 );  

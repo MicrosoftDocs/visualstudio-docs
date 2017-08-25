@@ -42,7 +42,7 @@ HRESULT Reset(
 );  
 ```  
   
-```cs  
+```csharp  
 int Reset();  
 ```  
   

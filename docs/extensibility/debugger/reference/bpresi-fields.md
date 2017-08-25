@@ -46,7 +46,7 @@ enum enum_BPRESI_FIELDS { 
 typedef DWORD BPRESI_FIELDS;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BPRESI_FIELDS {   
    BPRESI_BPRESLOCATION = 0x0001,  
    BPRESI_PROGRAM       = 0x0002,  

@@ -43,7 +43,7 @@ HRESULT CreatePrimitiveObject( 
 );  
 ```  
   
-```cs  
+```csharp  
 int CreatePrimitiveObject(  
    enum_OBJECT_TYPE ot,   
    out IDebugObject ppObject  

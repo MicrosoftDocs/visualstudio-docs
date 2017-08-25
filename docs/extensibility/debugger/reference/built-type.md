@@ -44,7 +44,7 @@ typedef struct _tagTYPE_BUILT {
 } BUILT_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public struct BUILT_TYPE {  
    public uint        ulAppDomainID;  
    public Guid        guidModule;  

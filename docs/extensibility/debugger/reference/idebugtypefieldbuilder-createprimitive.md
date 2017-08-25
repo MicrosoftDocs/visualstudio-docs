@@ -42,7 +42,7 @@ HRESULT CreatePrimitive (
 );  
 ```  
   
-```cs  
+```csharp  
 int CreatePrimitive (  
    uint            dwElementType,  
    out IDebugField pTypeField  

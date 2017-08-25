@@ -43,7 +43,7 @@ HRESULT GetSymUnmanagedReader(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetSymUnmanagedReader(  
    uint       ulAppDomainID,  
    Guid       guidModule,  

@@ -42,7 +42,7 @@ HRESULT GetReason( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetReason(   
    out enum_CANSTOP_REASON pcr  
 );  

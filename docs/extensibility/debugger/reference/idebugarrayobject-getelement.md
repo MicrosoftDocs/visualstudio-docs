@@ -43,7 +43,7 @@ HRESULT GetElement( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetElement(  
    [In] uint dwIndex,   
    out IDebugObject ppElement  

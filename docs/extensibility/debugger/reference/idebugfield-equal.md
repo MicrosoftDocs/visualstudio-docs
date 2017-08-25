@@ -42,7 +42,7 @@ HRESULT Equal( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Equal(  
    IDebugField pField  
 );  
