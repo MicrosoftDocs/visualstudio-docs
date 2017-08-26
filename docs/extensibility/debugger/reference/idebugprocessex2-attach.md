@@ -36,13 +36,13 @@ This method informs the process that a session is now debugging the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Attach(   
    IDebugSession2* pSession  
 );  
 ```  
   
-```cs  
+```csharp  
 int Attach(  
    IDebugSession2 pSession  
 );  

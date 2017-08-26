@@ -36,14 +36,14 @@ Creates an enumerator for selected local variables of the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumLocals(   
    IDebugAddress*     pAddress,  
    IEnumDebugFields** ppLocals  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumLocals(  
    IDebugAddress        pAddress,   
    out IEnumDebugFields ppLocals  
@@ -65,7 +65,7 @@ int EnumLocals(
   
  A method can contain multiple scoping contexts or blocks. For example, the following contrived method contains three scopes, the two inner blocks and the method body itself.  
   
-```cs  
+```csharp  
 public void func(int index)  
 {  
     // Method body scope  

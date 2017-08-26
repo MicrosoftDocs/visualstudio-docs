@@ -38,7 +38,7 @@ This is a callback function given to the [SccPopulateDirList](../extensibility/s
   
 ## Signature  
   
-```cpp#  
+```cpp  
 typedef BOOL (*POPDIRLISTFUNC)(  
    LPVOID pvCallerData,  
    BOOL bFolder,  

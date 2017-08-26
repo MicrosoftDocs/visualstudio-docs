@@ -71,7 +71,7 @@ using (ILinkedUndoTransaction t =
   
  To get the comments that are attached to a layer element, use:  
   
-```cs  
+```csharp  
 ILayerModel model = diagram.GetLayerModel();   
 IEnumerable<ILayerComment> comments =   
    model.Comments.Where(comment =>   

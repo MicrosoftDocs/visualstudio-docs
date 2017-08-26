@@ -36,14 +36,14 @@ Retrieves the property proxy interface for the specified proxy ID.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertyProxy(  
    DWORD                  dwID,  
    IPropertyProxyEESide** proxy  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPropertyProxy(  
    uint                     dwID,  
    out IPropertyProxyEESide proxy  

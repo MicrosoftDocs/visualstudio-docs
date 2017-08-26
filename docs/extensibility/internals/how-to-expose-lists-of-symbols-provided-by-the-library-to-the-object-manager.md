@@ -58,7 +58,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     protected System.Collections.Generic.SortedList<string, Method> m_Methods = new System.Collections.Generic.SortedList<string, Method>();  
   
     public int GetItemCount(out uint pCount)  
@@ -108,7 +108,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     public int GetCategoryField2(uint index, int Category, out uint pfCatField)  
     {  
         pfCatField = 0;  
@@ -173,7 +173,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     public int GetTextWithOwnership([System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.ULONG")] uint index, [System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS")] Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS tto, [System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.WCHAR")] out string ppszText)  
     {  
         ppszText = m_Methods.Values[(int)index].FullName;  
@@ -218,7 +218,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     public virtual int GetDisplayData(uint index, Microsoft.VisualStudio.Shell.Interop.VSTREEDISPLAYDATA[] pData)  
     {  
         if (pData == null)  
@@ -277,7 +277,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     public int GetExpandable(uint index, out int pfExpandable)  
     {  
         pfExpandable = Microsoft.VisualStudio.VSIP.Samples.CallBrowser.Constants.TRUE;  
@@ -378,7 +378,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function  
     ```  
   
-    ```cs  
+    ```csharp  
     // Call graph list.  
     public class CallsList :  
         ResultsList,  

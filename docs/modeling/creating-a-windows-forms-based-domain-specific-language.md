@@ -177,7 +177,7 @@ Schema of links between data sources and views.
   
 1.  Add the following code in a separate code file in the **UI** project:  
   
-    ```cs  
+    ```csharp  
     using System.ComponentModel;  
     using Microsoft.VisualStudio.Modeling;  
     using Microsoft.VisualStudio.Modeling.Design;  
@@ -203,7 +203,7 @@ Schema of links between data sources and views.
   
 2.  In the **DslPackage** project, edit **DslPackage\DocView.tt** to update the following variable definition:  
   
-    ```cs  
+    ```csharp  
     string viewControlTypeName = "FarmControl";  
     ```  
   
@@ -253,7 +253,7 @@ Schema of links between data sources and views.
   
      Edit it as follows:  
   
-    ```cs  
+    ```csharp  
     private void NewSheepButton_Click(object sender, EventArgs e)  
     {  
       using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))  
@@ -286,7 +286,7 @@ Schema of links between data sources and views.
   
      You will also need to insert the following directive:  
   
-    ```cs  
+    ```csharp  
   
     using Microsoft.VisualStudio.Modeling;  
   
@@ -305,7 +305,7 @@ Schema of links between data sources and views.
 ### About the code to add an element  
  For the new element buttons, the following alternative code is slightly simpler.  
   
-```cs  
+```csharp  
 private void NewSheepButton_Click(object sender, EventArgs e)  
 {  
   using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))  

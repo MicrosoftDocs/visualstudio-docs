@@ -46,7 +46,7 @@ HRESULT GetProviderProcessData(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetProviderProcessData(  
    enum_PROVIDER_FLAGS     Flags,  
    IDebugDefaultPort2      pPort,  

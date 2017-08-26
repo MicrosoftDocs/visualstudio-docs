@@ -35,7 +35,7 @@ Retrieves information about the method at the specified debug address.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMethodFromAddress(  
    IDebugAddress* pAddress,  
    GUID*          pGuid,  
@@ -47,7 +47,7 @@ HRESULT GetMethodFromAddress(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMethodFromAddress(  
    IDebugAddress pAddress,  
    out Guid      pGuid,  

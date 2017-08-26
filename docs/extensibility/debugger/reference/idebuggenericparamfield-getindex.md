@@ -34,13 +34,13 @@ Retrieves the index of this generic parameter.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetIndex(  
    DWORD* pIndex  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetIndex(  
    out uint pIndex  
 );  
@@ -59,7 +59,7 @@ int GetIndex(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetIndex(DWORD* pIndex)  
 {  
     HRESULT hr = S_OK;  

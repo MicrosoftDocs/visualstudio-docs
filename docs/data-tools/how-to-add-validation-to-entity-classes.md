@@ -75,7 +75,7 @@ translation.priority.mt:
   
          Type `partial` and then a space to access the list of available partial methods. Click the column-changing method for the column you want to add validation for. The following code resembles code that is generated when you select a column-changing partial method:  
   
-        ```cs  
+        ```csharp  
         partial void OnCOLUMNNAMEChanging(COLUMNDATATYPE value)  
             {  
                throw new System.NotImplementedException();  
@@ -122,7 +122,7 @@ translation.priority.mt:
   
     2.  Type `partial` and then a space to access the list of available partial methods. Click the update method for the class you want to add validation for. The following code resembles code that is generated when you select an `Update`*CLASSNAME* partial method:  
   
-        ```cs  
+        ```csharp  
         partial void UpdateCLASSNAME(CLASSNAME instance)  
         {  
             if ((instance.COLUMNNAME == x) && (instance.COLUMNNAME = y))  

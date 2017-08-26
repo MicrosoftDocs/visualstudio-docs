@@ -84,7 +84,7 @@ manager: "ghogen"
     Private webUrl As String = "/"  
     ```  
   
-    ```cs  
+    ```csharp  
     // SharePoint site and subsite.  
     private string siteUrl = "http://localhost";  
     private string webUrl = "/";  
@@ -121,7 +121,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public override void FeatureActivated(SPFeatureReceiverProperties properties)  
     {  
         try  
@@ -199,7 +199,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public override void FeatureDeactivating(SPFeatureReceiverProperties properties)  
     {  
         // The following line induces an error to demonstrate debugging.  

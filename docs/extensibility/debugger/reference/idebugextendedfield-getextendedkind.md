@@ -35,13 +35,13 @@ Retrieves the specified extended field kind.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExtendedKind(  
    FIELD_KIND_EX* pdwKind  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExtendedKind(  
    ref enum_FIELD_KIND_EX pdwKind  
 );  

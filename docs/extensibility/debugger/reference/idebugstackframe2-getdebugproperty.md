@@ -36,13 +36,13 @@ Gets a description of the properties of a stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDebugProperty (   
    IDebugProperty2** ppDebugProp  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDebugProperty (   
    out IDebugProperty2 ppDebugProp  
 );  

@@ -35,13 +35,13 @@ Determines if the field represents a closed type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsClosedType(  
    void  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsClosedType();  
 ```  
   

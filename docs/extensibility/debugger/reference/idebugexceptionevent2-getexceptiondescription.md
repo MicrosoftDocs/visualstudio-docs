@@ -36,13 +36,13 @@ Gets a displayable description of the exception.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExceptionDescription(   
    BSTR* pbstrDescription  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExceptionDescription(   
    out string pbstrDescription  
 );  

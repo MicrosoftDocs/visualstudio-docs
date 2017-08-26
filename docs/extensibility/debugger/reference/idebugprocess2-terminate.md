@@ -36,13 +36,13 @@ Terminates the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Terminate(   
    void   
 );  
 ```  
   
-```cs  
+```csharp  
 int Terminate();  
 ```  
   

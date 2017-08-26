@@ -46,7 +46,7 @@
             "searchScope": ["VS IDE"]},
     "fileMetadata": {},
     "template": [],
-    "xref": ["../dotnet-xref/_zip/dotnet.zip", "../dotnet-xref/_zip/namespaces.4.5.2.zip", "../dotnet-xref/_zip/vs.110.zip", "../dotnet-xref/_zip/vs.140.zip", "../dotnet-xref/_zip/office15.zip"],
+    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs"
   }
 }

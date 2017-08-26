@@ -42,7 +42,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
   
 1.  The following code shows how to get a list of code snippets for a given language. The results are stored in an array of <xref:Microsoft.VisualStudio.TextManager.Interop.VsExpansion> structures. This method uses the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method to get the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> interface from the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service. However, you can also use the service provider given to your VSPackage and call the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> method.  
   
-    ```cs  
+    ```csharp  
     using System;  
     using System.Collections;  
     using System.Runtime.InteropServices;  
@@ -120,7 +120,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
 > [!NOTE]
 >  The `expansionsList` array listis cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).  
   
-```cs  
+```csharp  
 class TestLanguageService : LanguageService  
 {  
     private ArrayList expansionsList;  
@@ -145,7 +145,7 @@ class TestLanguageService : LanguageService
   
      The `TestDeclaration` class contains all the information that can be displayed in a completion list as well as the type of declaration.  
   
-    ```cs  
+    ```csharp  
     class TestAuthoringScope : AuthoringScope  
     {  
         public void AddDeclarations(TestDeclaration declaration)  

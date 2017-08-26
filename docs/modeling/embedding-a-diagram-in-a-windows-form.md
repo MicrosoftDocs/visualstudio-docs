@@ -43,7 +43,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
   
 3.  In Solution Explorer, right-click the user control file and click **View Code**. Add this constructor and variable to the code:  
   
-    ```cs  
+    ```csharp  
   
     internal UserControl1(MyDSLDocView docView, Control content)  
       : this()  

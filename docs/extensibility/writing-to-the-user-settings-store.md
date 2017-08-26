@@ -57,7 +57,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
   
 2.  In UserSettingsStoreCommand.cs, add the following using statements:  
   
-    ```cs  
+    ```csharp  
     using System.Collections.Generic;  
     using Microsoft.VisualStudio.Settings;  
     using Microsoft.VisualStudio.Shell.Settings;  
@@ -65,7 +65,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
   
 3.  In MenuItemCallback, delete the body of the method and get the user settings store, as follows:  
   
-    ```cs  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         SettingsManager settingsManager = new ShellSettingsManager(ServiceProvider);  
@@ -75,7 +75,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
   
 4.  Now find out whether Notepad is already set as an external tool. You need to iterate through all the external tools to determine whether the ToolCmd setting is "Notepad", as follows:  
   
-    ```cs  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         SettingsManager settingsManager = new ShellSettingsManager(ServiceProvider);  

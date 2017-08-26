@@ -36,13 +36,13 @@ Gets a custom debug engine (DE) interface.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngineInterface(   
    IUnknown** ppUnk  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetEngineInterface(   
    out object ppUnk  
 );  

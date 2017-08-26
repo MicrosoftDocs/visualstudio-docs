@@ -36,13 +36,13 @@ Retrieves information on whether the module represents user code or not.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsUserCode(  
    BOOL* pfUser  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsUserCode(  
    out int pfUser  
 );  

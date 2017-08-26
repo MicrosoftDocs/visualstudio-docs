@@ -55,7 +55,7 @@ translation.priority.mt:
   
  For this rule to occur, an assembly-level <xref:System.Runtime.InteropServices.ComVisibleAttribute> must be set to `false` and the class- <xref:System.Runtime.InteropServices.ComVisibleAttribute> must be set to `true`, as the following code shows.  
   
-```cs  
+```csharp  
 using System;  
 using System.Runtime.InteropServices;   
   

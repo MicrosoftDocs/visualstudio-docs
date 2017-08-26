@@ -35,7 +35,7 @@ Retrieves a type given its token.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromToken(  
    ULONG32       appDomain,  
    GUID          guidModule,  
@@ -44,7 +44,7 @@ HRESULT GetTypeFromToken(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeFromToken(  
    uint            appDomain,  
    Guid            guidModule,  
@@ -72,7 +72,7 @@ int GetTypeFromToken(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetTypeFromToken(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

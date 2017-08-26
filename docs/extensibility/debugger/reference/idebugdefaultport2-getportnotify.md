@@ -42,7 +42,7 @@ HRESULT GetPortNotify(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPortNotify(  
    out IDebugPortNotify2 ppPortNotify  
 );  

@@ -48,7 +48,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
     firstClicked.Text = secondClicked.Text  
     ```  
   
-    ```cs  
+    ```csharp  
     firstClicked.Text == secondClicked.Text  
     ```  
   
@@ -58,7 +58,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
     firstClicked = Nothing  
     ```  
   
-    ```cs  
+    ```csharp  
     firstClicked = null;  
     ```  
   

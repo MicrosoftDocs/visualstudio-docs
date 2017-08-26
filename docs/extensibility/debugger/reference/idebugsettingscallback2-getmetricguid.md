@@ -34,7 +34,7 @@ Retrieves the unique identifier of a metric given its name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMetricGuid(  
    LPCWSTR pszType,  
    REFGUID guidSection,  
@@ -43,7 +43,7 @@ HRESULT GetMetricGuid(
 );  
 ```  
   
-```cs  
+```csharp  
 private int GetMetricGuid(  
    string   pszType,  
    ref Guid guidSection,  

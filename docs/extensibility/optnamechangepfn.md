@@ -36,7 +36,7 @@ This is a callback function specified in a call to the [SccSetOption](../extensi
   
 ## Signature  
   
-```cpp#  
+```cpp  
 typedef void (*OPTNAMECHANGEPFN)(  
    LPVOID pvCallerData,  
    LPCSTR pszOldName,  

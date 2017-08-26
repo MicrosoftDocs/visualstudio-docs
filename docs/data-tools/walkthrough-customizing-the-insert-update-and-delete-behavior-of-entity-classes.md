@@ -135,7 +135,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     Private NorthwindDataContext1 As New NorthwindDataContext  
     ```  
   
-    ```cs  
+    ```csharp  
     private NorthwindDataContext northwindDataContext1  
         = new NorthwindDataContext();  
   
@@ -147,7 +147,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     CustomerBindingSource.DataSource = NorthwindDataContext1.Customers  
     ```  
   
-    ```cs  
+    ```csharp  
     customerBindingSource.DataSource  
         = northwindDataContext1.Customers;  
   
@@ -172,7 +172,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     NorthwindDataContext1.SubmitChanges()  
     ```  
   
-    ```cs  
+    ```csharp  
     northwindDataContext1.SubmitChanges();  
     ```  
   

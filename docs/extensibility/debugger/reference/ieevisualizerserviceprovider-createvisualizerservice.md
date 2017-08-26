@@ -46,7 +46,7 @@ HRESULT CreateVisualizerService(
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateVisualizerService(  
    IDebugBinder binder,  
    IDebugSymbolProvider      pSymProv,  

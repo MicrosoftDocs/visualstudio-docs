@@ -36,7 +36,7 @@ Retrieves a specified number of custom attributes in an enumeration sequence.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next (   
    ULONG      celt,  
    CODE_PATH* rgelt,  
@@ -44,7 +44,7 @@ HRESULT Next ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Next(  
    uint                        celt,   
    out IDebugCustomAttribute[] rgelt,   

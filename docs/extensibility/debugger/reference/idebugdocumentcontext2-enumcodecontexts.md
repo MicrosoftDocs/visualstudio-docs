@@ -36,13 +36,13 @@ Retrieves a list of all code contexts associated with this document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCodeContexts(   
    IEnumDebugCodeContexts2** ppEnumCodeCxts  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumCodeContexts(   
    out IEnumDebugCodeContexts2 ppEnumCodeCxts  
 );  
@@ -61,7 +61,7 @@ int EnumCodeContexts( 
 ## Example  
  The following example shows how to implement this method for a simple `CDebugContext` object that exposes the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugContext::EnumCodeContexts(IEnumDebugCodeContexts2 **ppEnumCodeCxts)    
 {    
    HRESULT hr;    

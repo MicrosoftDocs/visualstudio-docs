@@ -36,14 +36,14 @@ This method returns the value associated with the name of an enumeration constan
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetValueFromString(  
    LPCOLESTR  pszValue,  
    ULONGLONG* pvalue  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetValueFromString(  
    string    pszValue,  
    out ulong pValue  

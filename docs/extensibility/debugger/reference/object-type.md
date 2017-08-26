@@ -36,7 +36,7 @@ Specifies the type of an object from the expression evaluator.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_OBJECT_TYPE {   
    OBJECT_TYPE_BOOLEAN = 0x0,  
    OBJECT_TYPE_CHAR    = 0x1,  
@@ -57,7 +57,7 @@ enum enum_OBJECT_TYPE { 
 typedef DWORD OBJECT_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_OBJECT_TYPE {   
    OBJECT_TYPE_BOOLEAN = 0x0,  
    OBJECT_TYPE_CHAR    = 0x1,  

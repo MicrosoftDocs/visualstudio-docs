@@ -63,7 +63,7 @@ Console.WriteLine(MyInt.ToString("C", Thread.CurrentThread.CurrentCulture))
   
 ```  
   
-```cs  
+```csharp  
 // Put the using statements at the beginning of the code module  
 using System.Threading;  
 using System.Globalization;  

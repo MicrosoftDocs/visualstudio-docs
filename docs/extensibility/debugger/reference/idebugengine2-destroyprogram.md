@@ -36,13 +36,13 @@ Informs a debug engine (DE) that the program specified has been atypically termi
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DestroyProgram(   
    IDebugProgram2* pProgram  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int DestroyProgram(   
    IDebugProgram2 pProgram  
 );  

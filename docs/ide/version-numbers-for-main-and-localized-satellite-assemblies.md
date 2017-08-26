@@ -49,7 +49,7 @@ The <xref:System.Resources.SatelliteContractVersionAttribute> class provides ver
   
 ```  
   
-```cs  
+```csharp  
 [assembly: SatelliteContractVersionAttribute("4.3.2.1")]  
 ```  
   

@@ -36,13 +36,13 @@ Returns the initial data for this object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInitialData(  
    IEEDataStorage** dataOut  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInitialData(  
    out IEEDataStorage dataOut  
 );  

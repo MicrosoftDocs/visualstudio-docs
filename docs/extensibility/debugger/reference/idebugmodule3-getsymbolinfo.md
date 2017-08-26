@@ -37,14 +37,14 @@ Retrieves a list of paths that are searched for symbols as well as the results o
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSymbolInfo(  
    SYMBOL_SEARCH_INFO_FIELDS  dwFields,  
    MODULE_SYMBOL_SEARCH_INFO* pInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetSymbolInfo(  
    enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,   
    MODULE_SYMBOL_SEARCH_INFO[]    pinfo  
@@ -78,7 +78,7 @@ int GetSymbolInfo(
 > [!NOTE]
 >  A status result is everything immediately following the "..." up to the end of the line.  
   
-```cpp#  
+```cpp  
 void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)  
 {  
     MODULE_SYMBOL_SEARCH_INFO ssi = { 0 };  

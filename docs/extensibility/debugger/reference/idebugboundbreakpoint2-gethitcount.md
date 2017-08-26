@@ -37,13 +37,13 @@ Gets the current hit count for this bound breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHitCount(   
    DWORD* pdwHitCount  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHitCount(   
    out uint pdwHitCount  
 );  

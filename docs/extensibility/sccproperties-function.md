@@ -36,7 +36,7 @@ This function displays source control properties for a file or project.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccProperties (  
    LPVOID pvContext,  
    HWND   hWnd,  

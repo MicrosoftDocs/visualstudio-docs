@@ -42,7 +42,7 @@ HRESULT GetNewObjectForVisualizer(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNewObjectForVisualizer(  
    out IDebugObject ppObject  
 );  

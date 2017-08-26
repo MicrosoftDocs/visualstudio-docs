@@ -36,13 +36,13 @@ This method sets the language to use to create printable results.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetLocale(   
    WORD wLangID  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetLocale(  
    ushort wLangID  
 );  

@@ -76,7 +76,7 @@ manager: "ghogen"
 Dim newWorkbook As Excel.Workbook = Me.Application.Workbooks.Add()  
 ```  
   
-```cs  
+```csharp  
 Excel.Workbook newWorkbook = this.Application.Workbooks.Add(System.Type.Missing);  
 ```  
   
@@ -86,7 +86,7 @@ Excel.Workbook newWorkbook = this.Application.Workbooks.Add(System.Type.Missing)
 Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add()  
 ```  
   
-```cs  
+```csharp  
 Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.Type.Missing);  
 ```  
   
