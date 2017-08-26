@@ -70,10 +70,10 @@ The following sections show how to enable lightweight solution load and also hel
 
 ### Enable or disable lightweight solution load
 
-You can right-click  the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and reopen the solution to activate lightweight solution load.
+You can right-click the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and reopen the solution to activate lightweight solution load.
 
 > [!NOTE]
-> The same steps apply for disabling LSL. To disable lightweight solution load, deselect **Enable Lightweight Solution Load**, then close and reopen the solution. 
+> Similar steps apply for disabling LSL. To disable lightweight solution load, select **Disable Lightweight Solution Load**, then close and reopen the solution. 
 
 ![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
 
