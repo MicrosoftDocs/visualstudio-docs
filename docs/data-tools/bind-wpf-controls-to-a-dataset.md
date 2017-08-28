@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "WPF, data binding in Visual Studio"
   - "WPF data binding [Visual Studio], walkthroughs"
@@ -39,20 +37,20 @@ translation.priority.mt:
 # Bind WPF controls to a dataset
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You will also add buttons to browse through products and save changes to product records.  
   
- This walkthrough illustrates the following tasks:  
+This walkthrough illustrates the following tasks:  
   
--   Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
+- Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
+- Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
   
--   Creating buttons that navigate forward and backward through product records.  
+- Creating buttons that navigate forward and backward through product records.  
   
--   Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
+- Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
   
-     [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
- You need the following components to complete this walkthrough:  
+You need the following components to complete this walkthrough:  
   
 -   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
   

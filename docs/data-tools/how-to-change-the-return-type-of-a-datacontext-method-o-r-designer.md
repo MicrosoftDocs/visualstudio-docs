@@ -33,7 +33,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
 > [!NOTE]
 >  You cannot revert <xref:System.Data.Linq.DataContext> methods that have a return type set to an entity class to return the auto-generated type by using the **Properties** window. To revert a <xref:System.Data.Linq.DataContext> method to return an auto-generated type, you must drag the original database object onto the O/R Designer again.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To change the return type of a DataContext method from the auto-generated type to an entity class  
   
