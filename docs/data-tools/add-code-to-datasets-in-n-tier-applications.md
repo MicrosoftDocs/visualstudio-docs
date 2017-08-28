@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "n-tier applications, extending datasets"
 ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
