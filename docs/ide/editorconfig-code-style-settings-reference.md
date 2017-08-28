@@ -883,7 +883,7 @@ csharp_new_line_before_members_in_anonymous_types = true
 ### <a name="newline_before_query"> Newline Before Members in Query Expression Clauses</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_new_line_within_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
+|`csharp_new_line_between_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 
@@ -893,14 +893,14 @@ csharp_new_line_before_members_in_anonymous_types = true
 
 #### Applied:
 ```csharp
-// csharp_new_line_within_query_expression_clauses = true
+// csharp_new_line_between_query_expression_clauses = true
 var q = from a in e
         from b in e
         select a * b;
 ```
 
 ```csharp
-// csharp_new_line_within_query_expression_clauses = false
+// csharp_new_line_between_query_expression_clauses = false
 var q = from a in e from b in e
         select a * b;
 ```
@@ -909,7 +909,7 @@ var q = from a in e from b in e
 ```
 # CSharp formatting settings:
 [*.cs]
-csharp_new_line_within_query_expression_clauses = true
+csharp_new_line_between_query_expression_clauses = true
 ``` 
 
 ## <a name="indent">Indentation Options</a>
