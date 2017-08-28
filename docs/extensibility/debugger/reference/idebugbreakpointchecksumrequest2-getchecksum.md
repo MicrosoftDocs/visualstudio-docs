@@ -34,14 +34,14 @@ Retrieves the document checksum for a breakpoint request given the unique identi
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetChecksum(   
    REFGUID        guidAlgorithm,  
    CHECKSUM_DATA *pChecksumData  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetChecksum(   
    ref Guid               guidAlgorithm,  
    out enum_CHECKSUM_DATA pChecksumData  
@@ -61,7 +61,7 @@ public int GetChecksum(
 ## Example  
  The following example shows a function that checks whether the checksum of a document, which is about to be bound, matches one from the UI.  
   
-```cpp#  
+```cpp  
 bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCodeContext *pContext)  
 {  
     bool fRet = false;  

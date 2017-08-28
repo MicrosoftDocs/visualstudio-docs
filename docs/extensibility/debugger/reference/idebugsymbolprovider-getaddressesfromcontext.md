@@ -36,7 +36,7 @@ This method maps a document context into an array of debug addresses.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAddressesFromContext(   
    IDebugDocumentContext2* pDocContext,  
    BOOL                    fStatmentOnly,  
@@ -45,7 +45,7 @@ HRESULT GetAddressesFromContext( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAddressesFromContext(  
    IDebugDocumentContext2  pDocContext,  
    bool                    fStatmentOnly,  

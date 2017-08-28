@@ -31,7 +31,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Feature Tour of Profiling in Visual Studio
+# Profiling Feature Tour
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type.
 
@@ -65,7 +65,7 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze Memory Usage
 
-The Diagnostic Tools window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Memory Usage](../profiling/memory-usage.md).
+The Diagnostic Tools window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze Memory Usage](../profiling/memory-usage.md).
 
 To analyze memory usage, you need to take at least one memory snapshot while you are debugging. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
 

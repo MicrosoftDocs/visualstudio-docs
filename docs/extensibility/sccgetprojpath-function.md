@@ -42,7 +42,7 @@ This function prompts the user for a project path, which is a string that is mea
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGetProjPath (  
    LPVOID pvContext,  
    HWND   hWnd,  

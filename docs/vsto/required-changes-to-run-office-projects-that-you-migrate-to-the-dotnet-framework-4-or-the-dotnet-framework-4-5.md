@@ -49,11 +49,11 @@ manager: "ghogen"
   
 3.  Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.  
   
-    ```vb#  
+    ```vb  
     <Assembly: SecurityTransparent()>  
     ```  
   
-    ```c#  
+    ```csharp  
     [assembly: SecurityTransparent()]  
     ```  
   

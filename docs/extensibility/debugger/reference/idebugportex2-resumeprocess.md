@@ -36,13 +36,13 @@ Resumes execution of a process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResumeProcess(   
    IDebugProcess2* pPortProcess  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int ResumeProcess(   
    IDebugProcess2 pPortProcess  
 );  

@@ -36,14 +36,14 @@ Retrieves a specific port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplier(   
    REFGUID               guidPortSupplier,  
    IDebugPortSupplier2** ppPortSupplier  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPortSupplier(   
    ref Guid                guidPortSupplier,  
    out IDebugPortSupplier2 ppPortSupplier  

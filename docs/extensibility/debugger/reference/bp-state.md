@@ -36,7 +36,7 @@ Specifies the existence of a bound breakpoint and also specifies if it is enable
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_STATE {   
    BPS_NONE     = 0x0000,  
    BPS_DELETED  = 0x0001,  
@@ -46,7 +46,7 @@ enum enum_BP_STATE { 
 typedef DWORD BP_STATE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BP_STATE {   
    BPS_NONE     = 0x0000,  
    BPS_DELETED  = 0x0001,  

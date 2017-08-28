@@ -37,7 +37,7 @@ Compares the memory context to each context in the given array in the manner ind
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Compare(   
    CONTEXT_COMPARE        compare,  
    IDebugMemoryContext2** rgpMemoryContextSet,  
@@ -46,7 +46,7 @@ HRESULT Compare( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Compare(  
    enum_CONTEXT_COMPARE   compare,   
    IDebugMemoryContext2[] rgpMemoryContextSet,   

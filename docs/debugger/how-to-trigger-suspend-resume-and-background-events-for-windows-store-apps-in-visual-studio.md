@@ -131,7 +131,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
   
 2.  In the **Actions** pane, choose **View** and make sure **Show Analytic and Debug Logs** is checked.  
   
-3.  On the **Event Viewer (Local)** tree, expand the nodes **Applications and Services Logs** / **Microsoft** / **Windows** / **BackgroundTasksInfrastructure**.  
+3.  On the **Event Viewer (Local)** tree, expand the nodes **Applications and Services Logs** > **Microsoft** > **Windows** > **BackgroundTasksInfrastructure**.  
   
 4.  Choose the **Diagnostic** log.  
   

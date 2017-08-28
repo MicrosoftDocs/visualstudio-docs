@@ -36,7 +36,7 @@ Contains information about a debug property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagDEBUG_PROPERTY_INFO {   
    DEBUGPROP_INFO_FLAGS dwValidFields;  
    BSTR                 bstrFullName;  
@@ -48,7 +48,7 @@ typedef struct tagDEBUG_PROPERTY_INFO { 
 } DEBUG_PROPERTY_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct DEBUG_PROPERTY_INFO {   
    public uint            dwValidFields;  
    public string          bstrFullName;  

@@ -36,7 +36,7 @@ This method gets the language that was used to compile the code at the debug add
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLanguage(   
    IDebugAddress* pAddress,  
    GUID*          pguidLanguage,  
@@ -44,7 +44,7 @@ HRESULT GetLanguage( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetLanguage(  
    IDebugAddress pAddress,   
    out Guid      pguidLanguage,   

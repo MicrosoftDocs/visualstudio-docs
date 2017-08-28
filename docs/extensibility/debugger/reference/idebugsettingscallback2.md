@@ -66,7 +66,7 @@ IDebugSettingsCallback2D : IUnknown
 ## Example  
  The following example shows a function that takes an **IDebugSettingsCallback2** object as a parameter.  
   
-```cpp#  
+```cpp  
 HRESULT GetDebugSettingsCallback (IDebugSettingsCallback2 **ppCallback)  
 {  
     HRESULT hRes = E_FAIL;  

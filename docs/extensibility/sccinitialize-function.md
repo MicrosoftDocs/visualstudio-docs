@@ -36,7 +36,7 @@ This function initializes the source control plug-in and provides capabilities a
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccInitialize (  
    LPVOID* ppvContext,  
    HWND    hWnd,  

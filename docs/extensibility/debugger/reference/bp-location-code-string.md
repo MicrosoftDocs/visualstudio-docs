@@ -36,7 +36,7 @@ Used for setting code breakpoints based on a string that the user can enter from
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_STRING {   
    BSTR bstrContext;  
    BSTR bstrCodeExpr;  

@@ -36,13 +36,13 @@ Returns an interface that represents the managed object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetManagedObject(   
    IUnknown** ppManagedObject  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetManagedObject(  
    out object ppManagedObject  
 );  

@@ -56,7 +56,7 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
   
 2.  Double click the **.xsd** file to open the **Dataset Designer**.  
   
-3.  Right-click the `TableAdapter` that you want to add code to, and then select**View Code**.  
+3.  Right-click the `TableAdapter` that you want to add code to, and then select **View Code**.  
   
      A partial class is created and opens in the Code Editor.  
   
@@ -64,14 +64,14 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
   
 5.  The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:  
   
-    ```vb#  
+    ```vb  
     Partial Public Class CustomersTableAdapter  
         ' Add code here to add functionality   
         ' to the CustomersTableAdapter.  
     End Class  
     ```  
   
-    ```c#  
+    ```csharp  
     public partial class CustomersTableAdapter  
     {  
         // Add code here to add functionality  

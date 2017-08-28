@@ -44,7 +44,7 @@ HRESULT GetMemoryObject(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMemoryObject(  
    IDebugField      pField,  
    long             uConstant,  

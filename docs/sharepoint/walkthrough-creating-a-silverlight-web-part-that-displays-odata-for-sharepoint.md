@@ -96,14 +96,14 @@ manager: "ghogen"
   
 9. In the MainPage.xaml code file (MainPage.xaml.cs for Visual C# or MainPage.xaml.vb for Visual Basic), add the following namespace references.  
   
-    ```vb#  
+    ```vb  
     ' Add the following three Imports statements.  
     Imports SLApplication.ServiceReference1  
     Imports System.Windows.Data  
     Imports System.Data.Services.Client  
     ```  
   
-    ```c#  
+    ```csharp  
     // Add the following three using statements.  
     using SLApplication.ServiceReference1;  
     using System.Windows.Data;  
@@ -118,7 +118,7 @@ manager: "ghogen"
     Private announcements As New DataServiceCollection(Of AnnouncementsItem)()  
     ```  
   
-    ```c#  
+    ```csharp  
     private TeamSiteDataContext context;  
     private CollectionViewSource myCollectionViewSource;  
     DataServiceCollection<AnnouncementsItem> announcements = new DataServiceCollection<AnnouncementsItem>();  
@@ -142,7 +142,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void UserControl_Loaded_1(object sender, RoutedEventArgs e)  
     {  
         // The URL for the OData service.  
@@ -176,7 +176,7 @@ manager: "ghogen"
   
     ```  
   
-    ```c#  
+    ```csharp  
     void announcements_LoadCompleted(object sender, LoadCompletedEventArgs e)  
     {  
         // Handle any errors.  

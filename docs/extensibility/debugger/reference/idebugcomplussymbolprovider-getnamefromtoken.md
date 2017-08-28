@@ -35,7 +35,7 @@ Returns the name associated with the specified token given its metadata object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNameFromToken (  
    IUnknown* pMetadataImport,  
    DWORD     dwToken,  
@@ -43,7 +43,7 @@ HRESULT GetNameFromToken (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetNameFromToken (  
    object     pMetadataImport,  
    uint       dwToken,  
@@ -67,7 +67,7 @@ int GetNameFromToken (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetNameFromToken(  
     IUnknown* pMetadataImport,  
     DWORD dwToken,  

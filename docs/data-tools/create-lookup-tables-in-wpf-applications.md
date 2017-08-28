@@ -58,7 +58,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
     > [!NOTE]
     >  Before you can create a lookup table, two related tables or objects must exist as a data source for the project.  
   
-2.  Open the**WPF Designer**, and make sure that the designer contains a container that is a valid drop target for items in the **Data Sources** window.  
+2.  Open the **WPF Designer**, and make sure that the designer contains a container that is a valid drop target for items in the **Data Sources** window.  
   
      For more information about valid drop targets, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md).  
   

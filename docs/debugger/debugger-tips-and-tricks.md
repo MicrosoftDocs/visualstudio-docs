@@ -86,7 +86,7 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 2.  Start the debugger (**F5**) and stop at the breakpoint.
 
-3. Find the variable in the **Locals** window (**Debug / Windows / Locals**), right-click the variable, and select **Make Object ID**.
+3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
     ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
   
@@ -98,11 +98,11 @@ For more information, see [Create an Object ID](https://docs.microsoft.com/en-us
 
 ## View return values for functions
 
-To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug / Windows / Autos** to open the **Autos** window.
+To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
 ![Autos Window](../debugger/media/dbg-tips-autos-window.png "AutosWindow")
 
-In addition, you can enter functions in the **Immediate** window to view return values. (Open it using **Debug / Windows / Immediate**.)
+In addition, you can enter functions in the **Immediate** window to view return values. (Open it using **Debug > Windows > Immediate**.)
 
 ![Immediate Window](../debugger/media/dbg-tips-immediate-window.png "ImmediateWindow")
 
@@ -122,7 +122,7 @@ For a few other types such as WPF objects that appear in the debugger windows, y
 
 ## Break into code on handled exceptions
 
-The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug / Windows / Exception Settings**.
+The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug > Windows > Exception Settings**.
 
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
@@ -146,7 +146,7 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
 ## Examine payloads for web services and network resources (UWP)
 
-In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug / Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
+In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug > Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
 ![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "NetworkUsageProfTool")
 
@@ -160,7 +160,7 @@ For more information, see [Network Usage](../profiling/network-usage.md).
 
 To attach to your running app, the debugger loads symbol (.pdb) files generated for the exact same build of the app you are trying to debug. In some scenarios, a little knowledge of symbol files can be helpful. You can examine how Visual Studio loads symbol files using the **Modules** window.
 
-Open the **Modules** window while debugging by selecting **Debug / Windows / Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
+Open the **Modules** window while debugging by selecting **Debug > Windows > Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET framework code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
 ![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 

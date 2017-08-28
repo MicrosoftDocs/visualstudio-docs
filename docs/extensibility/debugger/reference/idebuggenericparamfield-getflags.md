@@ -35,13 +35,13 @@ Retrieves the flags for this generic parameter.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFlags(  
    DWORD* pdwFlags  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetFlags(  
    ref uint pdwFlags  
 );  
@@ -60,7 +60,7 @@ int GetFlags(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetFlags(DWORD *pdwFlags)  
 {  
     HRESULT hr = S_OK;  

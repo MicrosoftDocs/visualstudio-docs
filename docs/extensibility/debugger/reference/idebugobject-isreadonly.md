@@ -36,13 +36,13 @@ Determines if this object is read-only.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsReadOnly(   
    BOOL* pfIsReadOnly  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsReadOnly(  
    out int pfIsReadOnly  
 );  

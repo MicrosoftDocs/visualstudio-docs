@@ -37,7 +37,9 @@ This topic introduces the features of the Visual Studio debugger in a step-by-st
 
 You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the steps yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
 
-You can also [watch a video on debugging](#video) that shows similar steps.
+|         |         |
+|---------|---------|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on debugging that shows similar steps. |
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
@@ -50,17 +52,17 @@ Although the demo app is C#, the features are applicable to C++, Visual Basic, J
 
 2. Unzip the project.
 
-3. Open Visual Studio and select the **File / Open** menu command, then choose **Project/Solution**, and then open the folder where you downloaded the project.
+3. Open Visual Studio and select the **File > Open** menu command, then choose **Project/Solution**, and then open the folder where you downloaded the project.
 
      ![Open the sample project](../debugger/media/dbg-tour-open-project.png "Open Project")
 
-3. Open the WPF Photo Viewer Demo / C# folder, choose the photoapp.sln file, and select **Open**.
+3. Open the WPF Photo Viewer Demo > C# folder, choose the photoapp.sln file, and select **Open**.
 
      The project opens in Visual Studio. Solution Explorer in the right pane shows you all the project files.
 
     ![Solution Explorer files](../debugger/media/dbg-tour-solution-explorer.png "Solution Explorer")
 
-4. Press F5 (**Debug / Start Debugging** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar).
+4. Press F5 (**Debug > Start Debugging** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar).
 
      ![Photo Viewer app](../debugger/media/dbg-tour-wpf-app.png "Photo Viewer App")
 
@@ -98,16 +100,16 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. Press F11 (**Debug / Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
+1. Press F11 (**Debug > Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
 
      ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
      >[!NOTE]
-     > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools / Options** menu under **Debugging**.
+     > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools > Options** menu under **Debugging**.
 
-2. Press F10 (**Debug / Step Over**) a few times until the debugger stops on the first line of code in the `OnApplicationStartup` event handler.
+2. Press F10 (**Debug > Step Over**) a few times until the debugger stops on the first line of code in the `OnApplicationStartup` event handler.
 
      ![Use F10 to Step Over code](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
 
@@ -252,7 +254,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
 
-1. Press Shift + F11 (or **Debug / Step Out**).
+1. Press Shift + F11 (or **Debug > Step Out**).
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 

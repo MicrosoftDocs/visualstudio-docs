@@ -37,7 +37,7 @@ Gets the message to be displayed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMessage(   
    MESSAGETYPE* pMessageType,  
    BSTR*        pbstrMessage,  
@@ -47,7 +47,7 @@ HRESULT GetMessage( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMessage(   
    out enum_MESSAGETYPE pMessageType,  
    out string           pbstrMessage,  

@@ -36,13 +36,13 @@ Determines whether a specific custom attribute has been defined.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsCustomAttributeDefined(   
    LPCOLESTR pszCustomAttributeName  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsCustomAttributeDefined(  
    [In] string pszCustomAttributeName  
 );  

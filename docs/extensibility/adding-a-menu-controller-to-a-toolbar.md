@@ -126,7 +126,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 1.  In TWTestCommandPackageGuids.cs, add command IDs for your three menu items after the existing command IDs.  
   
-    ```c#  
+    ```csharp  
     public const int cmdidMCItem1 = 0x130;  
     public const int cmdidMCItem2 = 0x131;  
     public const int cmdidMCItem3 = 0x132;  
@@ -134,13 +134,13 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 2.  In TWTestCommand.cs, add the following code at the top of the TWTestCommand class.  
   
-    ```c#  
+    ```csharp  
     private int currentMCCommand; // The currently selected menu controller command  
     ```  
   
 3.  In the TWTestCommand constructor, after the last call to the `AddCommand` method, add code to route the events for each command through the same handlers.  
   
-    ```c#  
+    ```csharp  
     for (int i = TWTestCommandPackageGuids.cmdidMCItem1; i <=  
         TWTestCommandPackageGuids.cmdidMCItem3; i++)  
     {  
@@ -161,7 +161,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 4.  Add an event handler to the TWTestCommand class to mark the selected command as checked.  
   
-    ```c#  
+    ```csharp  
     private void OnMCItemQueryStatus(object sender, EventArgs e)  
     {  
         OleMenuCommand mc = sender as OleMenuCommand;  
@@ -174,7 +174,7 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
   
 5.  Add an event handler that displays a MessageBox when the user selects a command on the menu controller:  
   
-    ```c#  
+    ```csharp  
     private void OnMCItemClicked(object sender, EventArgs e)  
     {  
         OleMenuCommand mc = sender as OleMenuCommand;  

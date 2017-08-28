@@ -34,7 +34,7 @@ Retrieves the unique identifier for a expression evaluator metric given its name
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricGuid(  
    REFGUID guidLang,  
    REFGUID guidVendor,  
@@ -43,7 +43,7 @@ HRESULT GetEEMetricGuid(
 );  
 ```  
   
-```c#  
+```csharp  
 HRESULT GetEEMetricGuid(  
    ref Guid guidLang,  
    ref Guid guidVendor,  

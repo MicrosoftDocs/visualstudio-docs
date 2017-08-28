@@ -35,13 +35,13 @@ Requests that the firewall not block remote debugging.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnsureDCOMUnblocked(   
     Void  
 );  
 ```  
   
-```c#  
+```csharp  
 public int EnsureDCOMUnblocked();  
 ```  
   

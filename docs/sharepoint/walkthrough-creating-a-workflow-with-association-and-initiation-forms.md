@@ -143,7 +143,7 @@ manager: "ghogen"
   
 5.  Replace the `GetAssociationData` method with:  
   
-    ```vb#  
+    ```vb  
     Private Function GetAssociationData() As String  
         ' TODO: Return a string that contains the association data that   
         ' will be passed to the workflow. Typically, this is in XML   
@@ -152,7 +152,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```c#  
+    ```csharp  
     private string GetAssociationData()  
     {  
         // TODO: Return a string that contains the association data that   
@@ -205,7 +205,7 @@ manager: "ghogen"
   
 5.  Replace the `Page_Load` method with the following example:  
   
-    ```vb#  
+    ```vb  
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As   
       EventArgs) Handles Me.Load  
         InitializeParams()  
@@ -215,7 +215,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     protected void Page_Load(object sender, EventArgs e)  
     {  
         InitializeParams();  
@@ -227,7 +227,7 @@ manager: "ghogen"
   
 6.  Replace the `GetInitiationData` method with the following example:  
   
-    ```vb#  
+    ```vb  
     ' This method is called when the user clicks the button to start the workflow.  
     Private Function GetInitiationData() As String  
         Return Me.ExpenseTotal.Text  
@@ -238,7 +238,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```c#  
+    ```csharp  
     // This method is called when the user clicks the button to start the workflow.          
     private string GetInitiationData()  
     {  
@@ -303,7 +303,7 @@ manager: "ghogen"
   
 2.  Add the following method:  
   
-    ```vb#  
+    ```vb  
     Private Sub createTask1_MethodInvoking(ByVal sender As   
       System.Object, ByVal e As System.EventArgs)  
         createTask1_TaskId1 = Guid.NewGuid  
@@ -315,7 +315,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void createTask1_MethodInvoking(object sender, EventArgs e)  
     {  
         createTask1_TaskId1 = Guid.NewGuid();  
@@ -332,7 +332,7 @@ manager: "ghogen"
   
 3.  Below the `MethodInvoking` method, add the following example:  
   
-    ```vb#  
+    ```vb  
     Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As   
       ConditionalEventArgs)  
         Dim approval As Boolean = False  
@@ -344,7 +344,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void checkApprovalNeeded(object sender, ConditionalEventArgs   
       e)  
     {  
@@ -368,7 +368,7 @@ manager: "ghogen"
   
 8.  Replace the `MethodInvoking` code with the following:  
   
-    ```vb#  
+    ```vb  
     Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As   
       System.Object, ByVal e As System.EventArgs)  
         Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto   
@@ -376,7 +376,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void logToHistoryListActivity1_MethodInvoking(object sender,   
       EventArgs e)  
     {  

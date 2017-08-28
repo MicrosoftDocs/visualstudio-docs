@@ -42,7 +42,7 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
 ## Looking at Elements in the Live Visual Tree  
  Let's get started with a very simple WPF application that has a list view and a button. Every time you click the button, another item is added to the list. Even-numbered items are colored gray, and odd-numbered items are colored yellow.  
   
- Create a new C# WPF application (File / New / Project, then select C# and find WPF Application). Name it **TestXAML**.  
+ Create a new C# WPF application (File > New > Project, then select C# and find WPF Application). Name it **TestXAML**.  
   
  Change MainWindow.xaml to the following:  
   
@@ -64,7 +64,7 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
   
  Add the following command handler to the MainWindow.xaml.cs file:  
   
-```C# 
+```csharp 
 int count;
 
 private void button_Click(object sender, RoutedEventArgs e)  
@@ -89,7 +89,7 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")  
   
- Now open the **Live Visual Tree** window (**Debug / Windows / Live Visual Tree**, or find it along the left side of the IDE). Drag it away from its docking position so we can look at this window and the **Live Properties** window side by side. In the **Live Visual Tree** window, expand the **ContentPresenter** node. It should contain nodes for the button and the list box. Expand the list box (and then the **ScrollContentPresenter** and the **ItemsPresenter**) to find the list box items. The window should look like this:  
+ Now open the **Live Visual Tree** window (**Debug > Windows > Live Visual Tree**, or find it along the left side of the IDE). Drag it away from its docking position so we can look at this window and the **Live Properties** window side by side. In the **Live Visual Tree** window, expand the **ContentPresenter** node. It should contain nodes for the button and the list box. Expand the list box (and then the **ScrollContentPresenter** and the **ItemsPresenter**) to find the list box items. The window should look like this:  
   
  ![ListBoxItems in the Live Visual Tree](../debugger/media/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")  
   
@@ -112,8 +112,8 @@ private void button_Click(object sender, RoutedEventArgs e)
   
 1.  Start the **TestXaml** application in the Release configuration. You cannot attach to a process that is running in a **Debug** configuration.  
   
-2.  Open a second instance of Visual Studio and click **Debug / Attach to Process**. Find **TestXaml.exe** in the list of available processes, and click **Attach**.  
+2.  Open a second instance of Visual Studio and click **Debug > Attach to Process**. Find **TestXaml.exe** in the list of available processes, and click **Attach**.  
   
 3.  The application starts running.  
   
-4.  In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug / Windows / Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.
+4.  In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug > Windows > Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.

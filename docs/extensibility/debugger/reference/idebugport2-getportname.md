@@ -36,13 +36,13 @@ Gets the port name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortName(   
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPortName(   
    out string pbstrName  
 );  

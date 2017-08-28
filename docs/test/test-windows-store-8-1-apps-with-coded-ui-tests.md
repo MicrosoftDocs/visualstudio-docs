@@ -52,7 +52,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 4.  Double-click the button control and add the following code:  
   
-    ```c#  
+    ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
     {  
         this.textBox.Text = this.button.Name;  
@@ -60,7 +60,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
     ```  
   
-    ```vb#  
+    ```vb  
     Public NotInheritable Class MainPage  
         Inherits Page  
   
@@ -125,7 +125,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      **Assert method**  
   
-    ```c#  
+    ```csharp  
     public void AssertMethod1()  
     {  
         #region Variable Declarations  
@@ -137,7 +137,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     Public Sub AssertMethod1()  
         Dim uITextBoxEdit As XamlEdit = Me.UIApp2Window.UITextBoxEdit  
   
@@ -148,7 +148,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      **Controls**  
   
-    ```c#  
+    ```csharp  
     #region Properties  
     public XamlButton UIButtonButton  
     {  
@@ -190,7 +190,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
     #endregion  
     ```  
   
-    ```vb#  
+    ```vb  
     #Region "Properties"  
     Public ReadOnly Property UIButtonButton() As XamlButton  
         Get  
@@ -226,37 +226,37 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
     1.  Launch the Windows Store app using the automation ID property you copied to the clipboard previously:  
   
-        ```c#  
+        ```csharp  
         XamlWindow.Launch("8ebca7c4-effe-4c86-9998-068daccee452_cyrqexqw8cc7c!App")  
         ```  
   
-        ```vb#  
+        ```vb  
         XamlWindow myAppWindow = XamlWindow.Launch("7254db3e-20a7-424e-8e05-7c4dabf4f28d_cyrqexqw8cc7c!App");  
         ```  
   
     2.  Add a gesture to tap the button control:  
   
-        ```c#  
+        ```csharp  
         Gesture.Tap(this.UIMap.UIApp1Window. UIButtonButton);  
         ```  
   
-        ```vb#  
+        ```vb  
         Gesture.Tap(Me.UIMap.UIApp2Window. UIButtonButton)  
         ```  
   
     3.  Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
   
-        ```c#  
+        ```csharp  
         this.UIMap.AssertMethod1();  
         ```  
   
-        ```vb#  
+        ```vb  
         Me.UIMap.AssertMethod1()  
         ```  
   
      After adding the code, the CodedUITestMethod1 test method should appear as follows:  
   
-    ```c#  
+    ```csharp  
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  
@@ -272,7 +272,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     <CodedUITest(CodedUITestType.WindowsStore)>  
     Public Class CodedUITest1  
   

@@ -44,7 +44,7 @@
 #### [Add code to datasets in n-tier applications](add-code-to-datasets-in-n-tier-applications.md)
 #### [Add code to TableAdapters in n-tier applications](add-code-to-tableadapters-in-n-tier-applications.md)
 #### [Separate datasets and TableAdapters into different projects](separate-datasets-and-tableadapters-into-different-projects.md)
-## [LINQ to SQL Tools in Visual Studio2](linq-to-sql-tools-in-visual-studio2.md)
+## [LINQ to SQL Tools in Visual Studio](linq-to-sql-tools-in-visual-studio2.md)
 ### [DataContext Methods (O-R Designer)](datacontext-methods-o-r-designer.md)
 #### [How to: Change the return type of a DataContext method (O-R Designer)](how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md)
 #### [How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer)](how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)

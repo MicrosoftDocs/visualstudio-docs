@@ -36,13 +36,13 @@ Gets the parent reference of a reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetParent (   
    IDebugReference2** ppParent  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetParent (   
    out IDebugReference2 ppParent  
 );  

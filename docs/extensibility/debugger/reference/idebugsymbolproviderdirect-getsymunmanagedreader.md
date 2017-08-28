@@ -35,7 +35,7 @@ Retrieves a symbol reader for unmanaged code.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSymUnmanagedReader (  
    ULONG32    ulAppDomainID,  
    GUID       guidModule,  
@@ -43,7 +43,7 @@ HRESULT GetSymUnmanagedReader (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSymUnmanagedReader (  
    uint       ulAppDomainID,  
    Guid       guidModule,  

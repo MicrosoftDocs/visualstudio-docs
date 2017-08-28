@@ -36,7 +36,7 @@ This method launches a process by means of the debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LaunchSuspended (   
    LPCOLESTR             pszMachine,  
    IDebugPort2*          pPort,  
@@ -54,7 +54,7 @@ HRESULT LaunchSuspended ( 
 );  
 ```  
   
-```c#  
+```csharp  
 int LaunchSuspended(  
    string               pszServer,   
    IDebugPort2          pPort,   

@@ -35,7 +35,7 @@ Retrieves the application entry point.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEntryPoint(  
    ULONG32         ulAppDomainID,  
    GUID            guidModule,  
@@ -43,7 +43,7 @@ HRESULT GetEntryPoint(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetEntryPoint(  
    uint              ulAppDomainID,  
    Guid              guidModule,  
@@ -67,7 +67,7 @@ int GetEntryPoint(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetEntryPoint(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

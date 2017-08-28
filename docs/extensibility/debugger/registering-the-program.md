@@ -52,7 +52,7 @@ After the debug engine has acquired a port, represented by an [IDebugPort2](../.
     > [!NOTE]
     >  This is not the only way to launch and resume a process; this is mainly an example of registering a program with a port.  
   
-    ```cpp#  
+    ```cpp  
     // This is an IDebugEngineLaunch2 method.  
     HRESULT CDebugEngine::LaunchSuspended(/* omitted parameters */,  
                                           IDebugPort2 *pPort,  

@@ -36,14 +36,14 @@ Gets the dimensions of the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDimensions(   
    DWORD dwCount,  
    DWORD dwDimensions[]  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDimensions(  
    [In] uint    dwCount,   
    [Out] uint[] dwDimensions  

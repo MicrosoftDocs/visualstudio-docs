@@ -36,13 +36,13 @@ Determines if the document position is contained in the given document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsPositionInDocument(   
    IDebugDocument2* pDoc  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsPositionInDocument(   
    IDebugDocument2 pDoc  
 );  

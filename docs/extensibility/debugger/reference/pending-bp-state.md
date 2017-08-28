@@ -36,7 +36,7 @@ Specifies the state of a pending breakpoint (a breakpoint that has not yet been 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PENDING_BP_STATE {   
    PBPS_NONE     = 0x0000,  
    PBPS_DELETED  = 0x0001,  
@@ -46,7 +46,7 @@ enum enum_PENDING_BP_STATE { 
 typedef DWORD PENDING_BP_STATE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_PENDING_BP_STATE {   
    PBPS_NONE     = 0x0000,  
    PBPS_DELETED  = 0x0001,  

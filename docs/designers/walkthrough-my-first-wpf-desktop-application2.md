@@ -494,7 +494,7 @@ translation.priority.mt:
   
 4.  Add the following code to the `ExpenseItHome` class:  
   
-    ```c#  
+    ```csharp  
     private void Button_Click(object sender, RoutedEventArgs e)  
     {  
         // View Expense Report  
@@ -830,7 +830,7 @@ translation.priority.mt:
   
 2.  In C#, add the following constructor to the **ExpenseReportPage** class, or in Visual Basic replace the existing class with the following:  
   
-    ```c#  
+    ```csharp  
     // Custom constructor to pass expense report data  
         public ExpenseReportPage(object data):this()  
         {  
@@ -862,7 +862,7 @@ translation.priority.mt:
   
 4.  Replace the `Click` event handler code with the following:  
   
-    ```c#  
+    ```csharp  
     private void Button_Click(object sender, RoutedEventArgs e)  
     {  
         // View Expense Report  

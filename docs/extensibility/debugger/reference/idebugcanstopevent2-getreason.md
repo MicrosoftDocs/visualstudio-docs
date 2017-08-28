@@ -36,13 +36,13 @@ Gets the reason why the debug engine (DE) wants to stop.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReason(   
    CANSTOP_REASON* pcr  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReason(   
    out enum_CANSTOP_REASON pcr  
 );  

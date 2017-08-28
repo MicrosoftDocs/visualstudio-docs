@@ -41,7 +41,7 @@ The Navigation bar at the top of the editor view displays the types and members 
 ## The Contents of the Navigation Bar  
  The Navigation bar usually contains a list of types and a list of members. The list of types includes all types available in the current source file. The type names include the complete namespace information. The following is an example of C# code with two types:  
   
-```c#  
+```csharp  
 namespace TestLanguagePackage  
 {  
     public class TestLanguageService  

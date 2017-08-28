@@ -42,7 +42,7 @@ HRESULT GetENCAvailableState(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetENCAvailableState(  
    EncUnavailableReason[] pReason  
 );  

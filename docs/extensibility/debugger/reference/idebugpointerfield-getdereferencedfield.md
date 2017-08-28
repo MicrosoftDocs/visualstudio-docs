@@ -36,13 +36,13 @@ This method returns the type of object to which this pointer object points.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDereferencedField(  
    IDebugField** ppField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDereferencedField(  
    out IDebugField ppField  
 );  

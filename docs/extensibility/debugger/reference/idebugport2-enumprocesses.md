@@ -36,13 +36,13 @@ Returns a list of all the processes running on a port.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumProcesses(   
    IEnumDebugProcesses2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumProcesses(   
    out IEnumDebugProcesses2 ppEnum  
 );  

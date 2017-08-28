@@ -36,7 +36,7 @@ Creates an enumerator for the fields of the container.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumFields(   
    FIELD_KIND         dwKindFilter,  
    FIELD_MODIFIERS    dwModifiersFilter,  
@@ -46,7 +46,7 @@ HRESULT EnumFields( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumFields(  
    enum_ FIELD_KIND      dwKindFilter,   
    enum_ FIELD_MODIFIERS dwModifiersFilter,   

@@ -36,13 +36,13 @@ Gets the code context for this stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCodeContext (   
    IDebugCodeContext2** ppCodeCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCodeContext (   
    out IDebugCodeContext2 ppCodeCxt  
 );  
