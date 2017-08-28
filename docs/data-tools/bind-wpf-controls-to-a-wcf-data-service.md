@@ -42,9 +42,13 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  This walkthrough illustrates the following tasks:  
   
 - Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
+  
 - Creating a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that exposes the data in the Entity Data Model to a WPF application.  
+  
 - Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.  
+  
 - Creating buttons that navigate forward and backward through customer records.  
+  
 - Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] and the underlying data source.  
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  

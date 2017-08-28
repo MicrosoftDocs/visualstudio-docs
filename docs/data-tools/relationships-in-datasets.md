@@ -89,7 +89,7 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
   
  Relationships between data tables appear as lines in the **Dataset Designer**, with a key and infinity glyph depicting the one-to-many aspect of the relationship. By default, the name of the relationshipCommentEnd Id='1c8c78e19b7fa441' does not appear on the design surface.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 #### To create a relationship between two data tables  
   

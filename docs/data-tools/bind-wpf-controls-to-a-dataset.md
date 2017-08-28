@@ -40,8 +40,11 @@ In this walkthrough, you will create a WPF application that contains data-bound 
 This walkthrough illustrates the following tasks:  
   
 - Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
+  
 - Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
+  
 - Creating buttons that navigate forward and backward through product records.  
+  
 - Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
