@@ -12,7 +12,6 @@
 
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
-### [Extending Visual Studio for Mac Walkthrough](extending-visual-studio-mac-walkthrough.md)
 
 
 # [Projects and Solutions](projects-and-solutions.md)
@@ -54,6 +53,8 @@
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
+
+# [Accessibility](accessibility.md)
 
 # [Troubleshooting](troubleshooting.md)
 ## [Report a Problem](report-a-problem.md)
