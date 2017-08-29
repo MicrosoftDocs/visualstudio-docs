@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Visual Studio], TableAdapters"
   - "TableAdapters, parameterized queries"

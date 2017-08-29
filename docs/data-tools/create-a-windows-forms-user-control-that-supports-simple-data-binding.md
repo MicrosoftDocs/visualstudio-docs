@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "custom controls [Visual Studio], Data Sources Window"
   - "Data Sources Window, controls"
