@@ -6,6 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 3
 author: "mikeblome"
@@ -112,7 +115,6 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
     > [!NOTE]
     >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
-  
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
 ## Creating a DataGridView to Display the Customer Data on a Windows Form  
@@ -137,8 +139,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
     ```csharp  
     private NorthwindDataContext northwindDataContext1  
-        = new NorthwindDataContext();  
-  
+        = new NorthwindDataContext();    
     ```  
   
 5.  Create an event handler for the `Form_Load` event and add the following code to the handler:  
@@ -149,8 +150,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
     ```csharp  
     customerBindingSource.DataSource  
-        = northwindDataContext1.Customers;  
-  
+        = northwindDataContext1.Customers;    
     ```  
   
 ## Implementing Save Functionality  

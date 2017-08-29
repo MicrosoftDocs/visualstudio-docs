@@ -14,8 +14,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data validation, datasets"
   - "data validation"
@@ -131,7 +129,7 @@ Validating data is the process of confirming that the values being entered into 
   
 3.  Copy the following code into the partial class:  
   
-    ```  
+    ```csharp  
     public override void EndInit()  
     {  
         base.EndInit();  

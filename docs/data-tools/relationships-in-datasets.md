@@ -9,11 +9,6 @@ ms.topic: "article"
 f1_keywords: 
   - "vbData.Microsoft.VSDesigner.DataSource.DesignRelation"
   - "vbdata.Microsoft.VSDesigner.DataSource.DesignRelation"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "relationships, about relationships"
   - "datasets [Visual Basic], relationships"
