@@ -92,7 +92,7 @@ manager: "ghogen"
   
 3.  Replace all of the code in Class1 with the following:  
   
-     [!code-cs[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
+     [!code-csharp[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
      [!code-vb[SP_AnnBackup#1](../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb#1)]  
   
 4.  Save the project, and then, on the menu bar, choose **Build**, **Build Solution**.  
