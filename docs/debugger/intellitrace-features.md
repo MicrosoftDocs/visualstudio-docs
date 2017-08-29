@@ -62,7 +62,7 @@ You can use IntelliTrace to record events and method calls your application, whi
  This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information**.
 
 > [!NOTE]
-> Call information is not currently available for ASP.NET Core apps. 
+> Call information is not currently available for .NET Core apps. 
   
  This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.  
   
