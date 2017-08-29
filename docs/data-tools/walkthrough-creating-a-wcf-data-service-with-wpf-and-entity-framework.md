@@ -38,7 +38,7 @@ translation.priority.mt:
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and then access it from a Windows Forms application.  
   
- In this walkthrough you will:  
+In this walkthrough you will:  
   
 -   Create a Web application to host a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].  
   
@@ -53,18 +53,18 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 -   Optionally add filtering capabilities to the application.  
   
 ## Prerequisites  
- You need the following components to complete this walkthrough:  
+You need the following components to complete this walkthrough:  
   
 -   The Northwind sample database.  
   
      If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases).  
   
 ## Creating the Service  
- To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.  
+To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.  
   
- In the first step, you will add a Web project to host the service.  
+In the first step, you will add a Web project to host the service.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 #### To create the Web project  
   
