@@ -161,35 +161,35 @@ Use the <xref:System.Data.DataRowVersion> enumeration to access the different ve
   
 #### To get all changed records from a dataset  
   
--   Call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
+To get all changed records from a dataset, call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
   
-     The following example creates a new dataset called `changedRecords` and populates it with all the changed records from another dataset called `dataSet1`.  
+The following example creates a new dataset called `changedRecords` and populates it with all the changed records from another dataset called `dataSet1`.  
   
-     [!code-cs[VbRaddataEditing#14](../data-tools/codesnippet/CSharp/validate-data-in-datasets_2.cs)]
-     [!code-vb[VbRaddataEditing#14](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_2.vb)]  
+[!code-cs[VbRaddataEditing#14](../data-tools/codesnippet/CSharp/validate-data-in-datasets_2.cs)]  
+[!code-vb[VbRaddataEditing#14](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_2.vb)]  
   
 #### To get all changed records from a data table  
   
--   Call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
+To get all changed records from a data table, call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
   
-     The following example creates a new data table called `changedRecordsTable` and populates it with all the changed records from another data table called `dataTable1`.  
+The following example creates a new data table called `changedRecordsTable` and populates it with all the changed records from another data table called `dataTable1`.  
   
-     [!code-cs[VbRaddataEditing#15](../data-tools/codesnippet/CSharp/validate-data-in-datasets_3.cs)]
-     [!code-vb[VbRaddataEditing#15](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_3.vb)]  
+[!code-cs[VbRaddataEditing#15](../data-tools/codesnippet/CSharp/validate-data-in-datasets_3.cs)]  
+[!code-vb[VbRaddataEditing#15](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_3.vb)]  
   
 #### To get all records that have a specific row state  
   
--   Call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
+To get all records that have a specific row state, call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
   
-     The following example shows how to create a new dataset called `addedRecords` and populate it only with records that have been added to the `dataSet1` dataset.  
+The following example shows how to create a new dataset called `addedRecords` and populate it only with records that have been added to the `dataSet1` dataset.  
   
-     [!code-cs[VbRaddataEditing#16](../data-tools/codesnippet/CSharp/validate-data-in-datasets_4.cs)]
-     [!code-vb[VbRaddataEditing#16](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_4.vb)]  
+[!code-cs[VbRaddataEditing#16](../data-tools/codesnippet/CSharp/validate-data-in-datasets_4.cs)]  
+[!code-vb[VbRaddataEditing#16](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_4.vb)]  
   
--   The following example shows how to return all records that were recently added to the `Customers` table:  
+The following example shows how to return all records that were recently added to the `Customers` table:  
   
-     [!code-cs[VbRaddataEditing#17](../data-tools/codesnippet/CSharp/validate-data-in-datasets_5.cs)]
-     [!code-vb[VbRaddataEditing#17](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_5.vb)]  
+[!code-cs[VbRaddataEditing#17](../data-tools/codesnippet/CSharp/validate-data-in-datasets_5.cs)]  
+[!code-vb[VbRaddataEditing#17](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_5.vb)]  
   
 ## Access the original version of a DataRow  
 When changes are made to data rows, the dataset retains both the original (<xref:System.Data.DataRowVersion>) and new (<xref:System.Data.DataRowVersion>) versions of the row. For example, before calling the `AcceptChanges` method, your application can access the different versions of a record (as defined in the <xref:System.Data.DataRowVersion> enumeration) and process the changes accordingly.  
@@ -201,23 +201,23 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
   
 #### To get the original version of a record  
   
--   Access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
+To get the original version of a record, access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
   
-     The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
+The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
-     [!code-cs[VbRaddataEditing#21](../data-tools/codesnippet/CSharp/validate-data-in-datasets_6.cs)]
-     [!code-vb[VbRaddataEditing#21](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_6.vb)]  
+[!code-cs[VbRaddataEditing#21](../data-tools/codesnippet/CSharp/validate-data-in-datasets_6.cs)]  
+[!code-vb[VbRaddataEditing#21](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_6.vb)]  
   
 ## Access the current version of a DataRow  
   
 #### To get the current version of a record  
   
--   Access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
+To get the current version of a record, access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
   
-     The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
+The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
-     [!code-cs[VbRaddataEditing#22](../data-tools/codesnippet/CSharp/validate-data-in-datasets_7.cs)]
-     [!code-vb[VbRaddataEditing#22](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_7.vb)]  
+[!code-cs[VbRaddataEditing#22](../data-tools/codesnippet/CSharp/validate-data-in-datasets_7.cs)]  
+[!code-vb[VbRaddataEditing#22](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_7.vb)]  
   
 ## See Also  
 [How to: Validate Data in the Windows Forms DataGridView Control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)   

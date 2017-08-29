@@ -75,7 +75,7 @@ The easiest way to load your custom objects with data is to call the `TableAdapt
   
 The following example shows how to loop through the rows in a data table, and populate an object with data:  
   
-[!code-cs[VbRaddataConnecting#4](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_1.cs)]
+[!code-cs[VbRaddataConnecting#4](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_1.cs)]  
 [!code-vb[VbRaddataConnecting#4](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_1.vb)]  
   
 ### Create a typed collection of objects  
@@ -90,7 +90,7 @@ The automatically-generated collection in the <xref:System.Windows.Forms.Binding
   
 The following code shows how to create the class for a strongly-typed collection of `Order` objects:  
   
-[!code-cs[VbRaddataConnecting#8](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_2.cs)]
+[!code-cs[VbRaddataConnecting#8](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_2.cs)]  
 [!code-vb[VbRaddataConnecting#8](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_2.vb)]  
   
 ### Add objects to a collection  
@@ -101,7 +101,7 @@ You add objects to a collection by calling the `Add` method of your custom colle
   
 The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:  
   
-[!code-cs[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
+[!code-cs[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]  
 [!code-vb[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]  
   
 The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:  
@@ -109,7 +109,7 @@ The following code shows how to add objects to a typed collection that inherits 
 > [!NOTE]
 >  In this example the `Orders` collection is a property of the `Customer` object.  
   
-[!code-cs[VbRaddataConnecting#6](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_4.cs)]
+[!code-cs[VbRaddataConnecting#6](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_4.cs)]  
 [!code-vb[VbRaddataConnecting#6](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_4.vb)]  
   
 ### Remove objects from a collection  
@@ -120,7 +120,7 @@ You remove objects from a collection by calling the `Remove` or `RemoveAt` metho
   
 The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> method:  
   
-[!code-cs[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]
+[!code-cs[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]  
 [!code-vb[VbRaddataConnecting#7](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_5.vb)]  
   
 ### Display object data to users  
@@ -146,7 +146,7 @@ To save data from a collection of objects, loop through the collection of object
   
 The following example shows how to use the `TableAdapter.Insert` DBDirect method to add a new customer directly into the database:  
   
-[!code-cs[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]
+[!code-cs[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]  
 [!code-vb[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_6.vb)]  
   
 ## See Also  
