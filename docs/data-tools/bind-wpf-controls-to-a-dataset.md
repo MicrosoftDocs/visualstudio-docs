@@ -219,7 +219,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-vb[Data_WPFDATASET#3](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_3.vb)]  
   
 ## Save changes to product records  
- Add code that enables users to save changes to product records by using the **Save changes** button.  
+Add code that enables users to save changes to product records by using the **Save changes** button.  
   
 #### To add the ability to save changes to product records  
   
