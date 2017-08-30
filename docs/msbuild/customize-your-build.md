@@ -23,8 +23,7 @@ translation.priority.ht:
   - "fr-fr"
   - "it-it"
   - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
+  - "ko-kr"  - "pl-pl"
   - "pt-br"
   - "ru-ru"
   - "tr-tr"
@@ -72,7 +71,7 @@ Directory.Build.targets is imported from Microsoft.Common.targets after importin
 
 ## Use case: multi-level merging
 
-Supposing you have this standard solution structure:
+Suppose you have this standard solution structure:
 
 ````
 \
@@ -88,18 +87,18 @@ Supposing you have this standard solution structure:
     \Project2Tests
 ````
 
-It may be desirable to have common properties for all projects `(1)`, common properties for `src` projects `(2-src)`, and common properties for `test` projects `(2-test)`.
+It might be desirable to have common properties for all projects `(1)`, common properties for `src` projects `(2-src)`, and common properties for `test` projects `(2-test)`.
 
-For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the "outer" file (`1`), one must take into account that once msbuild finds a `Directory.Build.props` file, it stops further scanning. To continue scanning, and merge into the outer file, place this into both inner files:
+For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the "outer" file (`1`), you must take into account that once msbuild finds a `Directory.Build.props` file, it stops further scanning. To continue scanning, and merge into the outer file, place this into both inner files:
 
 `<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props'))" />`
 
 A summary of msbuild's general approach is as follows:
 
-- for any given project, msbuild finds the first `Directory.Build.props` upward in the solution structure, merges it with defaults, and stops scanning for more
-- if you want multiple levels to be found and merged, then [`<Import...>`](http://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
-- if the "outer" file does not itself also import something above it, then scanning stops there
-- to control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
+- For any given project, msbuild finds the first `Directory.Build.props` upward in the solution structure, merges it with defaults, and stops scanning for more
+- If you want multiple levels to be found and merged, then [`<Import...>`](http://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
+- If the "outer" file does not itself also import something above it, then scanning stops there
+- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
 
 Or more simply: the first `Directory.Build.props` which doesn't import anything, is where msbuild stops.
 
