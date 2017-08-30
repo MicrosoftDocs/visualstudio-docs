@@ -6,6 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 3
 author: "mikeblome"
@@ -112,7 +115,6 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
   
     > [!NOTE]
     >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
-  
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
 ## Creating a DataGridView to Display the Customer Data on a Windows Form  
@@ -137,8 +139,7 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
   
     ```csharp  
     private NorthwindDataContext northwindDataContext1  
-        = new NorthwindDataContext();  
-  
+        = new NorthwindDataContext();    
     ```  
   
 5.  Create an event handler for the `Form_Load` event and add the following code to the handler:  
@@ -149,8 +150,7 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
   
     ```csharp  
     customerBindingSource.DataSource  
-        = northwindDataContext1.Customers;  
-  
+        = northwindDataContext1.Customers;    
     ```  
   
 ## Implementing Save Functionality  

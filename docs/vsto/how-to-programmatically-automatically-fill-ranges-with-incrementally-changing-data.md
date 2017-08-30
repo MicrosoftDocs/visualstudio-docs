@@ -56,7 +56,7 @@ manager: "ghogen"
  [Working with Ranges](../vsto/working-with-ranges.md)   
  [How to: Programmatically Refer to Worksheet Ranges in Code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
  [How to: Programmatically Apply Styles to Ranges in Workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
- [How to: Programmatically Run Excel Calculations Programmatically](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
+ [How to: Programmatically Run Excel Calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
  [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
   

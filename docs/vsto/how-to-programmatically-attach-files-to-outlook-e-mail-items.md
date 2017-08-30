@@ -34,7 +34,7 @@ manager: "ghogen"
   
 ## See Also  
  [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [How to: Programmatically Send E-Mail Programmatically](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
+ [How to: Programmatically Send E-Mail](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically Save Attachments from Outlook E-Mail Items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)   
  [How to: Programmatically Create an E-Mail Item](../vsto/how-to-programmatically-create-an-e-mail-item.md)  
   

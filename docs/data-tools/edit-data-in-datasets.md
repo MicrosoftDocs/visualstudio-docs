@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "datasets [Visual Basic], editing data"
   - "data [Visual Studio], editing in datasets"

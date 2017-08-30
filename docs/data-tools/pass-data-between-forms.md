@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "walkthroughs [Windows Forms], data"
   - "walkthroughs [Visual Studio], data"

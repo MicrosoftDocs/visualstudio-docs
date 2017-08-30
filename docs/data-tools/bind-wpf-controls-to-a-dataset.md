@@ -146,7 +146,7 @@ You need the following components to complete this walkthrough:
   
 2.  In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:  
   
-    ```  
+    ```xaml  
     <Grid.RowDefinitions>  
         <RowDefinition Height="75" />  
         <RowDefinition Height="625" />  
@@ -219,7 +219,7 @@ You need the following components to complete this walkthrough:
      [!code-vb[Data_WPFDATASET#3](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_3.vb)]  
   
 ## Save changes to product records  
- Add code that enables users to save changes to product records by using the **Save changes** button.  
+Add code that enables users to save changes to product records by using the **Save changes** button.  
   
 #### To add the ability to save changes to product records  
   

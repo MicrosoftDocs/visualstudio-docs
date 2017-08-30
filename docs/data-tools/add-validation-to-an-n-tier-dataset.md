@@ -61,6 +61,8 @@ End Sub
 > [!NOTE]
 >  In C# projects, the Dataset Designer only creates partial classes for the dataset and individual tables in the dataset. The Dataset Designer does not automatically create event handlers for the <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> events in C# like it does in Visual Basic. In C# projects, you have to manually construct a method to handle the event and hook up the method to the underlying event. The following procedure provides the steps to create the required event handlers in both Visual Basic and C#.  
   
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+  
 #### To add validation during changes to individual column values  
   
 1.  Open the dataset by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
@@ -130,7 +132,7 @@ End Sub
   
 3.  Add user code inside the partial class declaration.  
   
-4.  The following code shows where to add user code to validate data during the <xref:System.Data.DataTable.RowChanging> event:    
+4.  The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event. The C# example also includes code to hook the event handler method up to the `OrdersRowChanging` event.  
   
     ```vb  
     Partial Class OrdersDataTable  

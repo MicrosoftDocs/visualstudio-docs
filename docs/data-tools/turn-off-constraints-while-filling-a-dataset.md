@@ -13,8 +13,6 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "updating datasets, constraints"
   - "constraints [Visual Basic], datasets"
