@@ -214,11 +214,6 @@ f1_keywords:
   - "vbdata.DBWZ_DataComponentQueryConfigWizardFillNameIllegal"
   - "DACONFIG_E_AdapterNotConfigured"
   - "UniqueConstraintDialog_ConstraintNameMissing"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "datasets [Visual Basic], filling throws exception"
   - "transactions [Visual Studio], troubleshooting"
@@ -250,7 +245,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Additional resources for troubleshooting data access errors
-You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data related forums available on MSDN.  
+You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data-related forums available on MSDN.  
   
  [Windows Forms Data Controls and Databinding](http://go.microsoft.com/fwlink/?LinkId=160179)  
  Provides a forum for questions about and general discussions of data access in Windows Forms.  

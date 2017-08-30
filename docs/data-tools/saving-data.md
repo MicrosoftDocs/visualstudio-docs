@@ -9,11 +9,6 @@ ms.topic: "article"
 f1_keywords: 
   - "DataRow.RowState"
   - "DataSet.GetChanges"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "DBDirect methods"
   - "updating data"

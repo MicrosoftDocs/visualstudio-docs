@@ -37,7 +37,7 @@ manager: "ghogen"
   
 ## See Also  
  [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [How to: Programmatically Send E-Mail Programmatically](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
+ [How to: Programmatically Send E-Mail](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically Access Outlook Contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)   
  [How to: Programmatically Add an Entry to Outlook Contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)  
   

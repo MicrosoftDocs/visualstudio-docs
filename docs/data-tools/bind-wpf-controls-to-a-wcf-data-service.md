@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "WPF, data binding in Visual Studio"
   - "WPF data binding [Visual Studio], walkthroughs"
@@ -41,17 +39,17 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
  This walkthrough illustrates the following tasks:  
   
--   Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
+- Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that exposes the data in the Entity Data Model to a WPF application.  
+- Creating a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that exposes the data in the Entity Data Model to a WPF application.  
   
--   Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.  
+- Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.  
   
--   Creating buttons that navigate forward and backward through customer records.  
+- Creating buttons that navigate forward and backward through customer records.  
   
--   Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] and the underlying data source.  
+- Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] and the underlying data source.  
   
-     [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -195,7 +193,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:  
   
-    ```  
+    ```xaml  
     <Grid.RowDefinitions>  
         <RowDefinition Height="75" />  
         <RowDefinition Height="525" />  
