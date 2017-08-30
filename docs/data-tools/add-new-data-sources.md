@@ -83,7 +83,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
 -   WCF Data Services. For more information, see [Overview](/dotnet/framework/data/wcf/wcf-data-services-overview).  
   
--   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
+-   WCF services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
   
 -   Web services.  
   
