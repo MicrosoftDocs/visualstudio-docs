@@ -60,4 +60,4 @@ translation.priority.mt:
 ## Example  
  The following example illustrates the different techniques that are used to look for an empty string.  
   
- [!code-cs[FxCop.Performance.StringTest#1](../code-quality/codesnippet/CSharp/ca1820-test-for-empty-strings-using-string-length_1.cs)]
+ [!code-csharp[FxCop.Performance.StringTest#1](../code-quality/codesnippet/CSharp/ca1820-test-for-empty-strings-using-string-length_1.cs)]

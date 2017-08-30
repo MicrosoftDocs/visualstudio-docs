@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following example shows various violations of this rule.  
   
- [!code-cs[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]  
+ [!code-csharp[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]  
   
 ## See Also  
  [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)   

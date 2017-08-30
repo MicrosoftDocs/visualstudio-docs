@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example creates two <xref:System.Data.DataTable> instances.  
   
- [!code-cs[FxCop.Globalization.DataTable#1](../code-quality/codesnippet/CSharp/ca1306-set-locale-for-data-types_1.cs)]  
+ [!code-csharp[FxCop.Globalization.DataTable#1](../code-quality/codesnippet/CSharp/ca1306-set-locale-for-data-types_1.cs)]  
   
 ## See Also  
  <xref:System.Data.DataTable?displayProperty=fullName>   
