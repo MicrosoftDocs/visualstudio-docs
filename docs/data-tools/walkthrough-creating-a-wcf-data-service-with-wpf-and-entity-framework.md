@@ -6,6 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 helpviewer_keywords: 
   - "data services in Visual Studio"
   - "WCF Data Services, Visual Studio"

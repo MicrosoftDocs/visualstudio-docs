@@ -8,11 +8,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.data.DataSet"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "untyped datasets"
   - "datasets [Visual Basic], extended properties"

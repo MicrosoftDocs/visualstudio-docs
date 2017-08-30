@@ -36,7 +36,7 @@ Typed datasets have been enhanced so that the [TableAdapters](create-and-configu
  The following procedure describes the process of using the **Dataset Designer** to generate dataset code into a project that is separate from the project that contains the generated TableAdapter code.  
   
 ## Separate datasets and TableAdapters  
- When you separate dataset code from TableAdapter code, the project that  contains the dataset code must be located in the current solution. If this project is not located in the current solution, it won't be available in the **DataSet Project** list in the **Properties** window.  
+When you separate dataset code from TableAdapter code, the project that  contains the dataset code must be located in the current solution. If this project is not located in the current solution, it won't be available in the **DataSet Project** list in the **Properties** window.  
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
@@ -62,7 +62,7 @@ Typed datasets have been enhanced so that the [TableAdapters](create-and-configu
   
 6.  Save the dataset.  
   
-     The dataset code is generated into the selected project  in the **DataSet Project** property, and the **TableAdapter** code is generated into the current project.  
+     The dataset code is generated into the selected project in the **DataSet Project** property, and the **TableAdapter** code is generated into the current project.  
   
  By default, after you separate the dataset and TableAdapter code, the result is a discrete class file in each project. The original project has a file  named DatasetName.Designer.vb (or DatasetName.Designer.cs) that contains the TableAdapter code. The project that's designated in the **Dataset Project** property has a file named DatasetName.DataSet.Designer.vb (or DatasetName.DataSet.Designer.cs) that contains the dataset code.  
   
