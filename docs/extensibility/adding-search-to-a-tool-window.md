@@ -120,7 +120,7 @@ When you create or update a tool window in your extension, you can add the same 
     }  
     ```  
   
-     [!code-cs[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
+     [!code-csharp[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
      [!code-vb[ToolWindowSearch#1](../extensibility/codesnippet/VisualBasic/adding-search-to-a-tool-window_1.vb)]  
   
 5.  Build the project and start debugging. The experimental instance of Visual Studio appears.  

@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows platform invoke methods that violate the rule and satisfy the rule.  
   
- [!code-cs[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]  
+ [!code-csharp[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]  
   
 ## See Also  
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

@@ -65,7 +65,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method, `ManipulateFileStream`, that can be used only with a <xref:System.IO.FileStream> object, which violates this rule. A second method, `ManipulateAnyStream`, satisfies the rule by replacing the <xref:System.IO.FileStream> parameter by using a <xref:System.IO.Stream>.  
   
- [!code-cs[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CSharp/ca1011-consider-passing-base-types-as-parameters_1.cs)]
+ [!code-csharp[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CSharp/ca1011-consider-passing-base-types-as-parameters_1.cs)]
  [!code-cpp[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CPP/ca1011-consider-passing-base-types-as-parameters_1.cpp)]
  [!code-vb[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1011-consider-passing-base-types-as-parameters_1.vb)]  
   

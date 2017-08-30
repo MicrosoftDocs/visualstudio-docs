@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following example shows two methods, one that violates the rule and one that satisfies the rule.  
   
- [!code-cs[FxCop.Usage.UseParams#1](../code-quality/codesnippet/CSharp/ca2230-use-params-for-variable-arguments_1.cs)]  
+ [!code-csharp[FxCop.Usage.UseParams#1](../code-quality/codesnippet/CSharp/ca2230-use-params-for-variable-arguments_1.cs)]  
   
 ## See Also  
  <xref:System.Reflection.CallingConventions?displayProperty=fullName>   

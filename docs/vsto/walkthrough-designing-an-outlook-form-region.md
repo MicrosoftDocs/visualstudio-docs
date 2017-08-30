@@ -125,7 +125,7 @@ manager: "ghogen"
   
 3.  Add the following code to the `MapItFactory_FormRegionInitializing` event handler. This event handler is called when the user opens a contact item. The following code determines whether the contact item contains an address. If the contact item does not contain an address, this code sets the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> class to **true** and the form region is not displayed. Otherwise, the VSTO Add-in raises the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event and displays the form region.  
   
-     [!code-cs[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
+     [!code-csharp[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
      [!code-vb[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#1)]  
   
 4.  Add the following code to the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event handler. This code performs the following tasks:  
@@ -136,7 +136,7 @@ manager: "ghogen"
   
      The Local Search Web site appears in the Map It form region and presents each address in the scratch pad.  
   
-     [!code-cs[Trin_Outlook_FR_Separate#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#2)]
+     [!code-csharp[Trin_Outlook_FR_Separate#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#2)]
      [!code-vb[Trin_Outlook_FR_Separate#2](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#2)]  
   
 ## Testing the Outlook Form Region  

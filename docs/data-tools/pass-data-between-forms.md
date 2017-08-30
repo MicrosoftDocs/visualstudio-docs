@@ -168,7 +168,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
 2.  Add the following code to **Form2** after the `Form2_Load` method:  
   
      [!code-vb[VbRaddataDisplaying#1](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_1.vb)]
-     [!code-cs[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]  
+     [!code-csharp[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]  
   
 ## Create a method on Form1 to pass data and display Form2  
   
@@ -184,7 +184,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 4.  Update the method definition to match the following sample:  
   
-     [!code-cs[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
+     [!code-csharp[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
      [!code-vb[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]  
   
 ## Run the Application  
