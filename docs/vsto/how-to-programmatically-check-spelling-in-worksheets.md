@@ -44,7 +44,7 @@ manager: "ghogen"
   
 ## See Also  
  [Working with Worksheets](../vsto/working-with-worksheets.md)   
- [How to: Programmatically Run Excel Calculations Programmatically](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
+ [How to: Programmatically Run Excel Calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
  [NamedRange Control](../vsto/namedrange-control.md)   
  [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
