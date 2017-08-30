@@ -27,7 +27,7 @@ manager: "ghogen"
   
 ## Example  
  [!code-vb[Trin_OL_AddContact#1](../vsto/codesnippet/VisualBasic/Trin_OL_AddContact/thisaddin.vb#1)]
- [!code-cs[Trin_OL_AddContact#1](../vsto/codesnippet/CSharp/Trin_OL_AddContact/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_AddContact#1](../vsto/codesnippet/CSharp/Trin_OL_AddContact/thisaddin.cs#1)]  
   
 ## See Also  
  [Working with Contact Items](../vsto/working-with-contact-items.md)   

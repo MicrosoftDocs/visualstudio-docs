@@ -6,6 +6,8 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+  - "CSharp"
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 22
 author: "gewarren"
@@ -116,7 +118,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 7.  Visual Studio has generated all the binding code that connects the UI controls to events in the model. All we need to do, in order to see some data, is to write some code to populate the model. First let's navigate to MainWindow.xaml.cs and add a data member to the MainWindow class for the data context. This object, which has been generated for us, acts something like a control that tracks changes and events in the model. We'll also add the constructor initialization logic. The top of our class should look like this:  
   
-     [!code-cs[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]  
+     [!code-csharp[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]  
      
      Add a `using` directive for System.Data.Entity to bring the Load extension method into scope:  
   
@@ -126,7 +128,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 
      Now scroll down and find the Window_Loaded event handler. Notice that Visual Studio has added a CollectionViewSource object for us. This represents the NorthwindEntities object that we selected when we created the model. Let's add code to Window_Loaded so that the entire method now looks like this:  
 
-     [!code-cs[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]  
+     [!code-csharp[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]  
 
 8.  Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. We'll also create a way to view the other records and do basic CRUD operations.  
   
@@ -405,7 +407,7 @@ The code-behind is minimal except for the add and delete methods. Navigation is 
   
 1.  Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
   
-[!code-cs[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
+[!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
   
 2.  Press **F5** to start debugging. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes will be written to the model automatically.  
   

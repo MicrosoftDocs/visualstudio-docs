@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
-ms.date: "08/24/2017"
+ms.date: "08/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -50,11 +50,13 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Professional, run:
   ```
   vs_professional.exe --layout c:\vs2017offline
-  ```
+    ```
+    
 - For Visual Studio Community, run:
   ```
   vs_community.exe --layout c:\vs2017offline
   ```
+
 > [!IMPORTANT]
 > A complete Visual Studio 2017 layout requires at least 20 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
 
