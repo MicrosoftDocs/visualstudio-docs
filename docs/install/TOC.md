@@ -1,5 +1,5 @@
 # [Install Visual Studio](install-visual-studio.md)
-## [Create an offline installation of Visual Studio](install-visual-studio-in-offline-environment.md)
+## [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 ### [Install on low bandwidth or unreliable network environments](install-vs-inconsistent-quality-network.md)
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
 # [Update Visual Studio](update-visual-studio.md)

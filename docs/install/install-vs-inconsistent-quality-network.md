@@ -25,7 +25,7 @@ We recommend that you try the Visual Studio web installer&mdash;we think you'll 
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
 <br/>
 
-However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. This process replaces the ISO files available for previous versions. Here's how.
+However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. Here's how.
 
 > [!NOTE]
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.
@@ -64,12 +64,6 @@ To create a local layout, open a command prompt and use one of the commands from
 
 If you want to install a language other than English, change `en-US` to a locale from the list at the bottom of this page. Use this [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache as necessary.
 
-## Step 3 - Install certificates from the local cache
-
-The Visual Studio setup engine installs only content that is trusted. It does this by verifying the Authenticode signatures of the content being installed. When installing from an offline cache, you must manually install updated certificates prior to installation. 
-
-To install these certificates, open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If asked for a password, leave it blank.
-
 ## Step 4 - Install Visual Studio from the local cache
 
 > [!TIP]
@@ -82,6 +76,9 @@ To ensure that you only install the files you've downloaded, use the same comman
 use this command to run the installation:
 
 ```c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional```
+
+> [!NOTE]
+> If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If asked for a password, leave it blank.
 
 ## List of language locales
 
