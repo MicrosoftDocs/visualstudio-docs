@@ -58,23 +58,29 @@ Often, this error occurs because an error or configuration change has occurred t
 
 The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
-- [IIS does not list a website that matches the launch url](#IISlist)
-- [Unable to connect to the webserver](#unabletoconnect)
-- [The web server did not respond in a timely manner](#webservertimeout)
+- [IIS does not list a website that matches the launch url](#IIS_list)
+- [The web server is not configured correctly](#web_server_config)
+- [Unable to connect to the webserver](#unable_to_connect)
+- [The web server did not respond in a timely manner](#web_server_timeout)
 - [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
 - [Could not start ASP.NET debugging](#aspnet)
+- [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
 
-## <a name="IISlist"></a> IIS does not list a website that matches the launch url
+## <a name="IIS_list"></a> IIS does not list a website that matches the launch url
 
 - Try starting Visual Studio as an Administrator and retry. (Some ASP.NET debugging scenarios require elevated privileges.) You can configure Visual Studio to always run as an Administrator by right-clicking the Visual Studio shortcut icon, choosing **Properties > Advanced**, and then choosing to always run as an Administrator.
 
-## <a name="unabletoconnect"></a> Unable to connect to the webserver
+## <a name="web_server_config"></a> The web server is not configured correctly
+
+See [Error: The web server is not configured correctly](error-the-web-server-is-not-configured-correctly.md).
+
+## <a name="unable_to_connect"></a> Unable to connect to the webserver
 
 - Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to the correct Web server or launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 - If the Web server is remote, try restarting your Application Pools and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-## <a name="webservertimeout"></a> The web server did not respond in a timely manner
+## <a name="web_server_timeout"></a> The web server did not respond in a timely manner
 
 - Try an IIS reset and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
@@ -87,6 +93,12 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 - Try restarting the Application Pool and do an IIS reset. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 - If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+
+## <a name="see_help"></a> See help for common configuration errors. Running the webpage outside of the debugger may provide further information.
+
+- Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to the correct Web server or launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+
+If that does not work or you are debugging remotely, follow steps in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
