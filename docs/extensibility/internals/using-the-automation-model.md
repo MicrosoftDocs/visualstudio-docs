@@ -42,7 +42,7 @@ Sub DoAutomation()
 End Sub  
 ```  
   
-```cpp#  
+```cpp  
 void DoAutomation(void)  
 {  
   CComQIPtr<Projects> pMyPkg; // Use an IDispatch-derived object type.  

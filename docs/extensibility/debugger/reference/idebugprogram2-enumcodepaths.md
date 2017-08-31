@@ -36,7 +36,7 @@ Retrieves a list of the code paths for a given position in a source file.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCodePaths(   
    LPCOLESTR            pszHint,  
    IDebugCodeContext2*  pStart,  
@@ -47,7 +47,7 @@ HRESULT EnumCodePaths( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumCodePaths(   
    string                 pszHint,  
    IDebugCodeContext2     pStart,  

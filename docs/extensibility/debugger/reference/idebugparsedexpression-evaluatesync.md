@@ -36,7 +36,7 @@ This method evaluates the parsed expression and optionally casts the result to a
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EvaluateSync(   
    DWORD                 dwEvalFlags,  
    DWORD                 dwTimeout,  
@@ -48,7 +48,7 @@ HRESULT EvaluateSync( 
 );  
 ```  
   
-```cs  
+```csharp  
 int EvaluateSync(  
    uint                 dwEvalFlags,   
    uint                 dwTimeout,   

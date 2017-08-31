@@ -53,7 +53,7 @@ manager: "ghogen"
     <Assembly: SecurityTransparent()>  
     ```  
   
-    ```cs  
+    ```csharp  
     [assembly: SecurityTransparent()]  
     ```  
   

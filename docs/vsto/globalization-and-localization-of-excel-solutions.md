@@ -81,14 +81,14 @@ Application.ActiveCell.Value2 = "05/12/04"
  For example:  
   
  [!code-vb[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#6)]
- [!code-cs[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#6)]  
+ [!code-csharp[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#6)]  
   
  You should work with strongly-typed data instead of string literals whenever possible. For example, instead of storing a date in a string literal, store it as a <xref:System.Double>, then convert it to a <xref:System.DateTime> object for manipulation.  
   
  The following code example takes a date that a user enters into cell A5, stores it as a <xref:System.Double>, then converts it to a <xref:System.DateTime> object for display in cell A7. Cell A7 must be formatted to display a date.  
   
  [!code-vb[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#7)]
- [!code-cs[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#7)]  
+ [!code-csharp[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#7)]  
   
 ### Excel Worksheet Functions  
  Worksheet function names are translated internally for most language versions of Excel. However, due to potential language and COM interop issues it is strongly recommended that you use only English function names in your code.  

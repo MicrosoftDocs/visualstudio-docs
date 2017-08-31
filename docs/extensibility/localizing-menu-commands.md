@@ -126,7 +126,7 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 2.  Add the following entry.  
   
-    ```cs  
+    ```csharp  
     [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]  
     ```  
   

@@ -36,13 +36,13 @@ Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThis(   
    IDebugClassField** ppClass  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetThis(  
    out IDebugClassField ppClass  
 );  

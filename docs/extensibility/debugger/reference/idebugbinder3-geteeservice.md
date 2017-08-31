@@ -45,7 +45,7 @@ HRESULT GetEEService(
 );  
 ```  
   
-```cs  
+```csharp  
 Int GetEEService(  
    Guid       vendor,  
    Guid       language,  

@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "datasets [Visual Basic], validating data"
   - "data validation, datasets"
@@ -47,11 +42,11 @@ translation.priority.mt:
 # Save data back to the database
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:  
   
--   By calling one of the `Update` methods of a TableAdapter  
+-   By calling one of the Update methods of a TableAdapter  
   
 -   By calling one of DBDirect methods of the TableAdapter  
   
--   By calling the UpdateAll method on  the `TableAdapterManager` that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset  
+-   By calling the UpdateAll method on the TableAdapterManager that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset  
   
  When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.  
   

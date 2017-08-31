@@ -37,13 +37,13 @@ Toggles the virtualized state of this pending breakpoint. When a pending breakpo
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Virtualize(   
    BOOL fVirtualize  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int Virtualize(   
    int fVirtualize  
 );  
@@ -62,7 +62,7 @@ int Virtualize( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)    
 {    
    HRESULT hr;    

@@ -167,7 +167,7 @@ For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeA
 
 You can also check whether `Microsoft.CodeAnalysis.LiveUnitTesting.Runtime` is loaded in the current application domain and disable tests based on that. For example, you can do something like the following with xUnit:
 
-```cs
+```csharp
 [ExcludeFromCodeCoverage]
 public class SkipLiveFactAttribute : FactAttribute
 {

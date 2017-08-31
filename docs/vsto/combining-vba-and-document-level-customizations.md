@@ -61,7 +61,7 @@ manager: "ghogen"
 Globals.Sheet1.Application.Run("MyMacro")  
 ```  
   
-```cs  
+```csharp  
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,  
     missing, missing, missing, missing, missing, missing, missing,  
     missing, missing, missing, missing, missing, missing, missing,  

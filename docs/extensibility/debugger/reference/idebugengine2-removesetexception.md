@@ -36,13 +36,13 @@ Removes the specified exception so it is no longer handled by the debug engine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT RemoveSetException(   
    EXCEPTION_INFO* pException  
 );  
 ```  
   
-```cs  
+```csharp  
 int RemoveSetException(   
    EXCEPTION_INFO[] pException  
 );  

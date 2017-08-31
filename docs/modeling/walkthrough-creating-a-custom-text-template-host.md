@@ -65,7 +65,7 @@ A *text template**host* provides an environment that enables the *text template 
   
 3.  Replace the code in the Program.cs or Module1.vb file with the following code:  
   
-    ```cs  
+    ```csharp  
     using System;  
     using System.IO;  
     using System.CodeDom.Compiler;  
@@ -742,7 +742,7 @@ A *text template**host* provides an environment that enables the *text template 
     > [!NOTE]
     >  The programming language of the text template does not have to match that of the custom host.  
   
-    ```cs  
+    ```csharp  
     Text Template Host Test  
   
     <#@ template debug="true" #>  

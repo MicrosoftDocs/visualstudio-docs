@@ -45,7 +45,7 @@ HRESULT SetValueAsStringWithError(
 );  
 ```  
   
-```cs  
+```csharp  
 int SetValueAsStringWithError(  
    string     pszValue,  
    uint       dwRadix,  
@@ -76,7 +76,7 @@ int SetValueAsStringWithError(
 ## Example  
  The following example shows how to implement this method for a **CProperty** object that exposes the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CProperty::SetValueAsStringWithError(   
     LPCOLESTR in_szValue,  
     DWORD in_RADIX,  

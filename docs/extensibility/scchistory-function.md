@@ -36,7 +36,7 @@ This function displays the history of the specified files.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccHistory(  
    LPVOID    pvContext,  
    HWND      hWnd,  

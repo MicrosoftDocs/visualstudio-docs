@@ -36,7 +36,7 @@ You can create a store rule to propagate a change from one element to another in
   
  For example, suppose that you want to specify that whenever the user (or your code) creates a new element of type ExampleDomainClass, an additional element of another type is created in another part of the model. You could write an AddRule and associate it with ExampleDomainClass. You would write code in the rule to create the additional element.  
   
-```cs  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  

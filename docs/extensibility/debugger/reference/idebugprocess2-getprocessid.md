@@ -36,13 +36,13 @@ Gets the GUID for this process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProcessId(  
    GUID* pguidProcessId  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetProcessId(  
    out Guid pguidProcessId  
 );  

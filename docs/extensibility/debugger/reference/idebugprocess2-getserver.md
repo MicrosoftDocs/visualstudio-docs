@@ -36,13 +36,13 @@ Gets the server that this process is running on.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServer(   
    IDebugCoreServer2** ppServer  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetServer(   
    out IDebugCoreServer2 ppServer  
 );  

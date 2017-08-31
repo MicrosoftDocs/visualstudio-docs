@@ -36,14 +36,14 @@ Creates a pending breakpoint in the debug engine (DE).
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePendingBreakpoint(   
    IDebugBreakpointRequest2*  pBPRequest,  
    IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
-```cs  
+```csharp  
 int CreatePendingBreakpoint(   
    IDebugBreakpointRequest2     pBPRequest,  
    out IDebugPendingBreakpoint2 ppPendingBP  

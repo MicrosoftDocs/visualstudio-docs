@@ -59,7 +59,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     m_CallBrowserLibrary = New CallBrowser.Library()  
     ```  
   
-    ```cs  
+    ```csharp  
     private CallBrowser.Library m_CallBrowserLibrary = null;  
     private uint m_nLibraryCookie = 0;  
     // Create Library.  
@@ -92,7 +92,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void RegisterLibrary()  
     {  
         if (m_nLibraryCookie != 0)  
@@ -147,7 +147,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void UnregisterLibrary()  
     {  
         if (m_nLibraryCookie != 0)  

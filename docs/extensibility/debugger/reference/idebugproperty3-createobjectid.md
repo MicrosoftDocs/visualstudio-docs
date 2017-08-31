@@ -42,7 +42,7 @@ HRESULT CreateObjectID(
 );  
 ```  
   
-```cs  
+```csharp  
 int CreateObjectID();  
 ```  
   

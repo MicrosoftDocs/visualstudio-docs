@@ -36,7 +36,7 @@ This function starts a batch sequence of source control operations. The [SccEndB
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccBeginBatch(void);  
 ```  
   

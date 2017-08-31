@@ -52,7 +52,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 4.  Double-click the button control and add the following code:  
   
-    ```cs  
+    ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
     {  
         this.textBox.Text = this.button.Name;  
@@ -125,7 +125,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      **Assert method**  
   
-    ```cs  
+    ```csharp  
     public void AssertMethod1()  
     {  
         #region Variable Declarations  
@@ -148,7 +148,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      **Controls**  
   
-    ```cs  
+    ```csharp  
     #region Properties  
     public XamlButton UIButtonButton  
     {  
@@ -226,7 +226,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
     1.  Launch the Windows Store app using the automation ID property you copied to the clipboard previously:  
   
-        ```cs  
+        ```csharp  
         XamlWindow.Launch("8ebca7c4-effe-4c86-9998-068daccee452_cyrqexqw8cc7c!App")  
         ```  
   
@@ -236,7 +236,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
     2.  Add a gesture to tap the button control:  
   
-        ```cs  
+        ```csharp  
         Gesture.Tap(this.UIMap.UIApp1Window. UIButtonButton);  
         ```  
   
@@ -246,7 +246,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
     3.  Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
   
-        ```cs  
+        ```csharp  
         this.UIMap.AssertMethod1();  
         ```  
   
@@ -256,7 +256,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      After adding the code, the CodedUITestMethod1 test method should appear as follows:  
   
-    ```cs  
+    ```csharp  
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  

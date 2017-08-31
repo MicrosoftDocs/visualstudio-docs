@@ -45,7 +45,7 @@ You can create a text template that creates another text template as its generat
 ## Example  
  The following example uses escape characters to produce a text template from a text template. The `output` directive sets the destination file type to the text template file type (.tt).  
   
-```cs  
+```csharp  
 \<#@ output extension=".tt" \#>  
 \<#@ assembly name="System.Xml.dll" \#>  
 \<#@ import namespace="System.Xml" \#>  

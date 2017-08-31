@@ -36,13 +36,13 @@ Gets the port supplier identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortSupplierId(   
    GUID* pguidPortSupplier  
 );  
 ```  
   
-```cs  
+```csharp  
 HRESULT GetPortSupplierId(   
    out Guid pguidPortSupplier  
 );  

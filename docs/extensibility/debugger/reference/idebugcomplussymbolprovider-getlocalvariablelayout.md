@@ -35,7 +35,7 @@ Retrieves the layout of local variables for a set of methods.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLocalVariablelayout(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -45,7 +45,7 @@ HRESULT GetLocalVariablelayout(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLocalVariablelayout(  
    uint        ulAppDomainID,  
    Guid        guidModule,  
@@ -77,7 +77,7 @@ int GetLocalVariablelayout(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetLocalVariablelayout(  
     ULONG32 ulAppDomainID,   
     GUID guidModule,   

@@ -35,7 +35,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
   
 1.  Add the following `if` statement to the `label_Click()` event handler method, near the end of the code just above the statement where you start the timer. Take a close look at the code while adding it to the program. Consider how the code works.  
   
-     [!code-cs[VbExpressTutorial4Step7#9](../ide/codesnippet/CSharp/step-7-keep-pairs-visible_1.cs)]
+     [!code-csharp[VbExpressTutorial4Step7#9](../ide/codesnippet/CSharp/step-7-keep-pairs-visible_1.cs)]
      [!code-vb[VbExpressTutorial4Step7#9](../ide/codesnippet/VisualBasic/step-7-keep-pairs-visible_1.vb)]  
   
      The first line of the `if` statement you just added checks whether the icon in the first label that the player chooses is the same as the icon in the second label. If the icons are identical, the program executes the three statements between the curly braces in C# or the three statements within the `if` statement in Visual Basic. The first two statements reset the `firstClicked` and `secondClicked` reference variables so that they no longer keep track of any of the labels. (You may recognize those two statements from the timer's Tick event handler.) The third statement is a `return` statement, which tells the program to skip the rest of the statements in the method without executing them.  
@@ -48,7 +48,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
     firstClicked.Text = secondClicked.Text  
     ```  
   
-    ```cs  
+    ```csharp  
     firstClicked.Text == secondClicked.Text  
     ```  
   
@@ -58,7 +58,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
     firstClicked = Nothing  
     ```  
   
-    ```cs  
+    ```csharp  
     firstClicked = null;  
     ```  
   

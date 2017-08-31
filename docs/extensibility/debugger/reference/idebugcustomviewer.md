@@ -72,7 +72,7 @@ IDebugCustomViewer : IUknown
 ## Example  
  This example shows how to get the first custom viewer from a property if that property has any custom viewers.  
   
-```cpp#  
+```cpp  
 IDebugCustomViewer *GetFirstCustomViewer(IDebugProperty2 *pProperty)  
 {  
     // This string is typically defined globally.  For this example, it  

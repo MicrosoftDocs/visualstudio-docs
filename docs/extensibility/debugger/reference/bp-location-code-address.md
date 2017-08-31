@@ -36,7 +36,7 @@ Describes the location of a breakpoint at an address in code.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_ADDRESS {   
    BSTR bstrContext;  
    BSTR bstrModuleUrl;  

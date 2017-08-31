@@ -36,7 +36,7 @@ Visual Studio Tools for Unity provides a Unity-style callback during project fil
   
 ## Example  
   
-```cs  
+```csharp  
 using System;  
 using System.IO;  
 using System.Linq;  

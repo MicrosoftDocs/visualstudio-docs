@@ -36,7 +36,7 @@ Gets the disassembly stream for this program or a part of this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDisassemblyStream(   
    DISASSEMBLY_STREAM_SCOPE   dwScope,  
    IDebugCodeContext2*        pCodeContext,  
@@ -44,7 +44,7 @@ HRESULT GetDisassemblyStream( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDisassemblyStream(   
    enum_DISASSEMBLY_STREAM_SCOPE  dwScope,  
    IDebugCodeContext2             pCodeContext,  

@@ -78,7 +78,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
 3.  Prefix each class with this attribute:  
   
-    ```cs  
+    ```csharp  
     [ValidationState(ValidationState.Enabled)]  
     ```  
   
@@ -88,7 +88,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
      It must be prefixed with one or more `ValidationMethod` attributes:  
   
-    ```cs  
+    ```csharp  
     [ValidationMethod (ValidationCategories.Open | ValidationCategories.Save | ValidationCategories.Menu ) ]  
     ```  
   
@@ -96,7 +96,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
  For example:  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
   
@@ -192,7 +192,7 @@ public partial class Person
   
  **Passing values in the context cache.** The context parameter has a dictionary into which you can place arbitrary values. The dictionary persists for the life of the validation run. A particular validation method could, for example, keep an error count in the context, and use it to avoid flooding the error window with repeated messages. For example:  
   
-```cs  
+```csharp  
 List<ParentsHaveChildren> erroneousLinks;  
 if (!context.TryGetCacheValue("erroneousLinks", out erroneousLinks))  
 erroneousLinks = new List<ParentsHaveChildren>();  
@@ -212,7 +212,7 @@ if (erroneousLinks.Count < 5) { context.LogError( ... ); }
 ## Running Validation from Program Code  
  You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram's DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
 using Microsoft.VisualStudio.Modeling.Shell;  
@@ -230,7 +230,7 @@ partial class MyLanguageCommandSet
   
  You can also create a separate validation controller, and manage the errors yourself. For example:  
   
-```cs  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
 using Microsoft.VisualStudio.Modeling.Shell;  
@@ -251,7 +251,7 @@ if (!validator.Validate(store, ValidationCategories.Save))
   
  In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error list.  
   
-```cs  
+```csharp  
 using System;  
 using System.Linq;  
 using Microsoft.VisualStudio.Modeling;  
@@ -319,7 +319,7 @@ namespace Company.FamilyTree
   
  To add a validation method to a particular category, prefix it with an attribute like this:  
   
-```cs  
+```csharp  
 [ValidationMethod(CustomCategory = "PreconditionsForGeneratePartsList")]  
 [ValidationMethod(ValidationCategory.Menu)]   
 private void TestForCircularLinks(ValidationContext context)   
@@ -332,7 +332,7 @@ private void TestForCircularLinks(ValidationContext context)
   
  To invoke a custom validation:  
   
-```cs  
+```csharp  
   
 // Invoke all validation methods in a custom category:   
 validationController.ValidateCustom  

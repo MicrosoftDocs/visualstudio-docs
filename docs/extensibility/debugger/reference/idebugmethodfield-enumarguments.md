@@ -36,13 +36,13 @@ Creates an enumerator for the type of each argument required to call the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumArguments(   
    IEnumDebugFields** ppParams  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumArguments(  
    out IEnumDebugFields ppParams  
 );  

@@ -36,7 +36,7 @@ Reads instructions starting from the current position in the disassembly stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Read(   
    DWORD                     dwInstructions,  
    DISASSEMBLY_STREAM_FIELDS dwFields,  
@@ -45,7 +45,7 @@ HRESULT Read( 
 );  
 ```  
   
-```cs  
+```csharp  
 int Read(   
    uint                           dwInstructions,  
    enum_DISASSEMBLY_STREAM_FIELDS dwFields,  

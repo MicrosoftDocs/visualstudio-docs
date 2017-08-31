@@ -34,13 +34,13 @@ Retrieves a reference to the interface of the debug process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProcess(   
    IDebugProcess2 **ppProcess  
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetProcess(   
    out IDebugProcess2 ppProcess  
 );  
@@ -56,7 +56,7 @@ public int GetProcess(
 ## Example  
  The following example shows how to implement this method for a **CDebugCodeContext** object that exposes the [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugCodeContext::GetProcess(IDebugProcess2** ppProcess)  
 {  
     HRESULT hr = S_OK;  

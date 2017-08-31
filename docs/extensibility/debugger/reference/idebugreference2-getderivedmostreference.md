@@ -36,13 +36,13 @@ Gets the derived-most reference of a reference. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDerivedMostReference(   
    IDebugReference2** ppDerivedMost  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDerivedMostReference(   
    out IDebugReference2 ppDerivedMost  
 );  

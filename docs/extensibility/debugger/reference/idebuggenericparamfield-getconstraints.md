@@ -35,7 +35,7 @@ Retrieves the constraints that are associated with this generic parameter.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetConstraints(  
    ULONG32       cConstraints,  
    IDebugField** ppConstraints,  
@@ -43,7 +43,7 @@ HRESULT GetConstraints(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetConstraints(  
    uint              cConstraints,  
    out IDebugField[] ppConstraints,  
@@ -67,7 +67,7 @@ int GetConstraints(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetConstraints(  
     ULONG32 cConstraints,  
     IDebugField** ppConstraints,  

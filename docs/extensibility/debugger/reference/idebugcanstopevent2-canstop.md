@@ -36,13 +36,13 @@ Notifies the debug engine (DE) whether or not to stop at the current code locati
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanStop (   
    BOOL fCanStop  
 );  
 ```  
   
-```cs  
+```csharp  
 int CanStop (   
    int fCanStop  
 );  

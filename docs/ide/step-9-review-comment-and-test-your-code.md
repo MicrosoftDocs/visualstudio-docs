@@ -45,7 +45,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
   
      The following is an example of a statement.  
   
-    ```cs  
+    ```csharp  
     pictureBox1.Load(openFileDialog1.FileName);  
     ```  
   
@@ -62,7 +62,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
 1.  Add the following comment to your code.  
   
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
-     [!code-cs[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]  
+     [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]  
   
     > [!NOTE]
     >  Your **showButton** button's Click event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the PictureBox.  

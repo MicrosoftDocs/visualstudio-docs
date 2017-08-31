@@ -35,14 +35,14 @@ Retrieves a type given its primitive type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromPrimitive(  
    DWORD         dwCorElementType,  
    IDebugField** ppType  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeFromPrimitive(  
    uint            dwCorElementType,  
    out IDebugField ppType  
