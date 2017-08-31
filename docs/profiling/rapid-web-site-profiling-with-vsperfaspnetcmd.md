@@ -79,7 +79,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
 > [!WARNING]
 >  Tier interaction profiling (TIP) data can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
 >   
->  To collect TIP data on Windows 8 or Windows Server 2012, you must use the the instrumentation (**/trace**) option.  
+>  To collect TIP data on Windows 8 or Windows Server 2012, you must use the instrumentation (**/trace**) option.  
   
  To collect tier interaction data with sampling data:  
   
