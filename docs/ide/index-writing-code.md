@@ -3,10 +3,10 @@ layout: LandingPage
 author: jasongroce
 ms.author: apexprodleads
 ms.topic: landing-page
-title: Write and Manage Code using Visual Studio Documentation
+title: Write and Manage Code using Visual Studio
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 ---
-# Write and Manage Code using Visual Studio Documentation
+# Write and Manage Code using Visual Studio  
 
 Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 
