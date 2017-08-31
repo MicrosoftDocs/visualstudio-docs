@@ -78,14 +78,14 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 2.  Above the event handler method, in the control class create an integer to store the counter value and a string to store the display text as shown in the following example.  
   
-    ```cs  
+    ```csharp  
     int currentValue;  
     string displayText;  
     ```  
   
 3.  Create the following public property declarations.  
   
-    ```cs  
+    ```csharp  
     public int Value {  
         get { return currentValue; }   
     }  
@@ -106,7 +106,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 4.  Put the following code in the `Load` event for the control.  
   
-    ```cs  
+    ```csharp  
     private void Counter_Load(object sender, EventArgs e)  
     {  
         currentValue = 0;  
@@ -119,7 +119,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 5.  Create the following public method to increment the counter.  
   
-    ```cs  
+    ```csharp  
     public void Increment()  
     {  
         currentValue++;  
@@ -131,7 +131,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 6.  Add a declaration for the `Incremented` event to the control class.  
   
-    ```cs  
+    ```csharp  
     public event EventHandler Incremented;  
     ```  
   
@@ -139,7 +139,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 7.  Return to design view and double-click the `Reset` button to generate the `btnReset_Click` event handler, and then fill it in as shown in the following example.  
   
-    ```cs  
+    ```csharp  
     private void btnReset_Click(object sender, EventArgs e)  
     {  
         currentValue = 0;  
@@ -152,7 +152,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
      The following example shows the `ProvideToolboxControl` attribute and the adjusted class definition.  
   
-    ```cs  
+    ```csharp  
     [ProvideToolboxControl("General", false)]  
     public partial class Counter : UserControl  
     ```  
@@ -190,7 +190,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 12. On the next line, add the following `if`/`else` block to set the visibility of the `Reset` button.  
   
-    ```cs  
+    ```csharp  
     if (counter1.Value < 5) counter1.ShowReset = false;  
     else counter1.ShowReset = true;  
     ```  

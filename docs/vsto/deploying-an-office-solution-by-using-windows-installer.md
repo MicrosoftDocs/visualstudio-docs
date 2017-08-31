@@ -434,7 +434,7 @@ To modify custom properties, you create a program that removes the document-leve
 9. Replace the contents of the entire file with the following code.  
   
 [!code-vb[Trin_CustomAction#1](../vsto/codesnippet/VisualBasic/setexceldocumentproperties/module1.vb#1)]
-[!code-cs[Trin_CustomAction#1](../vsto/codesnippet/CSharp/setexceldocumentproperties/program.cs#1)]  
+[!code-csharp[Trin_CustomAction#1](../vsto/codesnippet/CSharp/setexceldocumentproperties/program.cs#1)]  
   
 10. Compile the project.  
   

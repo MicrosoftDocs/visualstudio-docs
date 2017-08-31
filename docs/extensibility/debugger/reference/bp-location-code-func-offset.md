@@ -36,7 +36,7 @@ Describes the offset location of a breakpoint in a function in code.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_FUNC_OFFSET {   
    BSTR                     bstrContext;  
    IDebugFunctionPosition2* pFuncPos;  

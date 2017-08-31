@@ -48,7 +48,7 @@ typedef enum tagCONNECTION_PROTOCOL {
 } CONNECTION_PROTOCOL;  
 ```  
   
-```cs  
+```csharp  
 public enum CONNECTION_PROTOCOL {  
    CONNECTION_NONE    = 0,  
    CONNECTION_UNKNOWN = 1,  

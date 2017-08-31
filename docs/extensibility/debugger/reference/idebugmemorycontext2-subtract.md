@@ -37,14 +37,14 @@ Subtracts the specified value from the current context and returns a new context
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Subtract(   
    UINT64                 dwCount,  
    IDebugMemoryContext2** ppMemCxt  
 );  
 ```  
   
-```cs  
+```csharp  
 int Subtract(  
    ulong                    dwCount,   
    out IDebugMemoryContext2 ppMemCxt  

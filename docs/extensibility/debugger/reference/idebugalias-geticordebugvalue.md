@@ -42,7 +42,7 @@ HRESULT GetICorDebugValue(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetICorDebugValue(  
    out object ppUnk  
 );  

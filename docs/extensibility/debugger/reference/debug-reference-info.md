@@ -36,7 +36,7 @@ Describes a reference.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagDEBUG_REFERENCE_INFO {   
    DEBUGREF_INFO_FLAGS dwFields;  
    BSTR                bstrName;  
@@ -48,7 +48,7 @@ typedef struct tagDEBUG_REFERENCE_INFO { 
 } DEBUG_REFERENCE_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct DEBUG_REFERENCE_INFO {   
    public uint             dwFields;  
    public string           bstrName;  

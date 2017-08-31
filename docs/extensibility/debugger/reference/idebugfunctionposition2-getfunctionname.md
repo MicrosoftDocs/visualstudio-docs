@@ -36,13 +36,13 @@ Gets the name of the function to which this position points.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFunctionName(   
    BSTR* pbstrFunctionName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetFunctionName(  
    out string pbstrFunctionName  
 );  

@@ -36,14 +36,14 @@ Gets the properties that describe this thread.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThreadProperties (   
    THREADPROPERTY_FIELDS dwFields,  
    THREADPROPERTIES*     ptp  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetThreadProperties (   
    enum_THREADPROPERTY_FIELDS dwFields,  
    THREADPROPERTIES[]         ptp  
@@ -66,7 +66,7 @@ int GetThreadProperties ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,  
                                       THREADPROPERTIES *ptp)  
 {  

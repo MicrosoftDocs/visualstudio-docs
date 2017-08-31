@@ -112,7 +112,7 @@ Here is a list of elements in the model:
   
  To access the models in your text template, you can now write code similar to the code in the following example.  
   
-```cs  
+```csharp  
 <#  
 foreach (ExampleElement element in this.LibraryModel.Elements)  
 ...  

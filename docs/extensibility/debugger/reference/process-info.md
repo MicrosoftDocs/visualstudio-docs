@@ -36,7 +36,7 @@ Contains information about a process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagPROCESS_INFO {   
    PROCESS_INFO_FIELDS Fields;  
    BSTR                bstrFileName;  
@@ -50,7 +50,7 @@ typedef struct tagPROCESS_INFO { 
 } PROCESS_INFO;  
 ```  
   
-```cs  
+```csharp  
 public struct PROCESS_INFO {   
    public uint          Fields;  
    public string        bstrFileName;  

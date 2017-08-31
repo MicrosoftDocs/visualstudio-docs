@@ -36,7 +36,7 @@ This function prompts the user for advanced options for a given command.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGetCommandOptions(  
    LPVOID pvContext,  
    HWND hWnd,  

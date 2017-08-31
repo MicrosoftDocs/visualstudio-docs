@@ -34,13 +34,13 @@ Determines whether the checksum is enabled for this document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsChecksumEnabled(   
    BOOL *pfChecksumEnabled  
 );  
 ```  
   
-```cs  
+```csharp  
 public int IsChecksumEnabled(   
    out int pfChecksumEnabled  
 );  

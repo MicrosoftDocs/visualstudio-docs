@@ -63,7 +63,7 @@ manager: "ghogen"
     > [!NOTE]  
     >  Replace the value of the `ServerName` field with the name of your server.  
   
-     [!code-cs[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
+     [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
      [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]  
   
 ## See Also  

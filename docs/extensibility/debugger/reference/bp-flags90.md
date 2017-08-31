@@ -34,7 +34,7 @@ Enumerates valid values for optional flags. The optional flags may be used to sp
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_FLAGS90  
 {  
    // VS 8.0 values  
@@ -48,7 +48,7 @@ enum enum_BP_FLAGS90
 typedef DWORD BP_FLAGS90;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BP_FLAGS90  
 {  
    // VS 8.0 values  

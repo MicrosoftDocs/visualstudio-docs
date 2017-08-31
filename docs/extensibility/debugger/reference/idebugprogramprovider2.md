@@ -67,7 +67,7 @@ IDebugProgramProvider2 : IUnknown
   
 ## Example  
   
-```cpp#  
+```cpp  
 IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)  
 {  
     // This is typically defined globally.  For this example, it is  

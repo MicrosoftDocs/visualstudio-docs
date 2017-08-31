@@ -37,7 +37,7 @@ Writes the specified number of bytes of memory, starting at the specified addres
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT WriteAt(   
    IDebugMemoryContext2* pStartContext,  
    DWORD                 dwCount,  
@@ -45,7 +45,7 @@ HRESULT WriteAt( 
 );  
 ```  
   
-```cs  
+```csharp  
 int WriteAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

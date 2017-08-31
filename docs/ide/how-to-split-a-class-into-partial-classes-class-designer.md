@@ -67,7 +67,7 @@ End Class
 ## Example  
  To split a class definition in Visual C#, use the `partial` keyword, as shown in the following example.  
   
-```cs  
+```csharp  
 // First part of class definition.  
 public partial class Employee  
 {  

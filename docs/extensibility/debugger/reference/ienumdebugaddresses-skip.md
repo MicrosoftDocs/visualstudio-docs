@@ -36,13 +36,13 @@ This method skips over the specified number of elements.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Skip(  
    [in] ULONG celt  
 );  
 ```  
   
-```cs  
+```csharp  
 int Skip(  
    uint celt  
 );  

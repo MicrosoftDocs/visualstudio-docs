@@ -35,7 +35,7 @@ Updates the debug symbols in memory with those from the specified data stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT UpdateSymbols (  
    ULONG32  ulAppDomainID,  
    GUID     guidModule,  
@@ -43,7 +43,7 @@ HRESULT UpdateSymbols (
 );  
 ```  
   
-```cs  
+```csharp  
 int UpdateSymbols (  
    uint    ulAppDomainID,  
    Guid    guidModule,  
@@ -64,7 +64,7 @@ int UpdateSymbols (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::UpdateSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

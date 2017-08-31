@@ -43,7 +43,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public FormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)  
         : base(formRegion)  
     {  
@@ -60,7 +60,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public FormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)  
         : base(Globals.Factory, formRegion)  
     {  
@@ -79,7 +79,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private static void InitializeManifest(Microsoft.Office.Tools.Outlook.FormRegionManifest manifest)  
     {  
         // Do not change code in this method.  
@@ -96,7 +96,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private static void InitializeManifest(Microsoft.Office.Tools.Outlook.FormRegionManifest manifest,   
         Microsoft.Office.Tools.Outlook.Factory factory)  
     {  
@@ -128,7 +128,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public ImportedFormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)  
         : base(formRegion)  
     {  
@@ -145,7 +145,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     public ImportedFormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)  
         : base(Globals.Factory, formRegion)  
     {  
@@ -162,7 +162,7 @@ manager: "ghogen"
     Me.olkTextBox1 = Me.GetFormRegionControl(Of Microsoft.Office.Interop.Outlook.OlkTextBox)("OlkTextBox1")  
     ```  
   
-    ```cs  
+    ```csharp  
     this.olkTextBox1 = this.GetFormRegionControl<Microsoft.Office.Interop.Outlook.OlkTextBox>("OlkTextBox1");  
     ```  
   
@@ -172,7 +172,7 @@ manager: "ghogen"
     Me.olkTextBox1 = CType(GetFormRegionControl("OlkTextBox1"), Microsoft.Office.Interop.Outlook.OlkTextBox)  
     ```  
   
-    ```cs  
+    ```csharp  
     this.olkTextBox1 = (Microsoft.Office.Interop.Outlook.OlkTextBox)GetFormRegionControl("OlkTextBox1");  
     ```  
   

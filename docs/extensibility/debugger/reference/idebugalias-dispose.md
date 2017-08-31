@@ -40,7 +40,7 @@ Marks this alias for removal.
 HRESULT Dispose();  
 ```  
   
-```cs  
+```csharp  
 int Dispose();  
 ```  
   

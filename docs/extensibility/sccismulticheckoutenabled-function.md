@@ -36,7 +36,7 @@ This function checks whether the source control plug-in allows multiple checkout
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccIsMultiCheckoutEnabled(  
    LPVOID pContext,  
    LPBOOL pbMultiCheckout  

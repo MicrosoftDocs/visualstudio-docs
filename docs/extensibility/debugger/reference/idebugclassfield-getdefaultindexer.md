@@ -36,13 +36,13 @@ Gets the name of the default indexer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDefaultIndexer(   
    BSTR* pbstrIndexer  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetDefaultIndexer(  
    out string pbstrIndexer  
 );  

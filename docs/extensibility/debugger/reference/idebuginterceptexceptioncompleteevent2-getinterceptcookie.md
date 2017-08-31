@@ -36,13 +36,13 @@ Called when the processing of an intercepted exception has completed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInterceptCookie(  
    UINT64* pqwCookie  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInterceptCookie(  
    out ulong pqwCookie  
 );  

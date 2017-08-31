@@ -46,7 +46,7 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
   
 ```  
   
-```cs  
+```csharp  
 // Set neutral resources language for assembly.  
 [assembly: NeutralResourcesLanguageAttribute("en")]  
 ```  

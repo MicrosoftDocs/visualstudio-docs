@@ -42,7 +42,7 @@ HRESULT GetTypeArgumentCount(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetTypeArgumentCount(  
    out uint uCount  
 );  

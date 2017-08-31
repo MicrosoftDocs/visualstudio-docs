@@ -36,7 +36,7 @@ Sets the value of a property from a given string.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsString (   
    LPCOLESTR pszValue,  
    UINT      nRadix,  
@@ -44,7 +44,7 @@ HRESULT SetValueAsString ( 
 );  
 ```  
   
-```cs  
+```csharp  
 int SetValueAsString (   
    string pszValue,  
    uint   nRadix,  

@@ -36,7 +36,7 @@ Describes the resolution of a breakpoint at a specific location.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_RESOLUTION {   
    IDebugBreakpointResolution2* pResolution;  
 } BP_LOCATION_RESOLUTION;  

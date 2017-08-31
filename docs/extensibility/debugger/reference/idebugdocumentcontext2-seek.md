@@ -36,14 +36,14 @@ Moves the document context by a given number of statements or lines.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Seek(   
    int                      nCount,  
    IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int Seek(   
    int                        nCount,  
    out IDebugDocumentContext2 ppDocContext  

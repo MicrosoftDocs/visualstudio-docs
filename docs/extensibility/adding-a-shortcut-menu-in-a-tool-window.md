@@ -126,7 +126,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 5.  In ShortcutMenuPackageGuids.cs, add the definitions for the command set GUID, the shortcut menu, and the menu items.  
   
-    ```cs  
+    ```csharp  
     public const string guidShortcutMenuPackageCmdSet = "00000000-0000-0000-0000-00000000"; // your GUID will differ  
     public const int ColorMenu = 0x1000;  
     public const int cmdidRed = 0x102;  
@@ -143,14 +143,14 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 2.  In ShortcutMenu.cs, add the following using statements:  
   
-    ```cs  
+    ```csharp  
     using Microsoft.VisualStudio.Shell;  
     using System.ComponentModel.Design;  
     ```  
   
 3.  Override the tool window's Initialize() method to get the menu command service and add the control, passing the menu command service to the contructor:  
   
-    ```cs  
+    ```csharp  
     protected override void Initialize()  
     {  
         commandService = (OleMenuCommandService)GetService(typeof(IMenuCommandService));  
@@ -160,7 +160,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 4.  In the ShortcutMenu tool window constructor, remove the line that adds the control. The constructor should now look like this:  
   
-    ```cs  
+    ```csharp  
     public ShortcutMenu() : base(null)  
     {  
         this.Caption = "ShortcutMenu";  
@@ -171,7 +171,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 5.  In ShortcutMenuControl.xaml.cs, add a private field for the menu command service and change the control constructor to take the menu command service. Then use the menu command service to add the context menu commands. The ShortcutMenuControl constructor should now look like the following code. The command handler will be defined later.  
   
-    ```cs  
+    ```csharp  
     public ShortcutMenuControl(OleMenuCommandService service)  
     {  
         this.InitializeComponent();  
@@ -219,7 +219,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 7.  In ShortcutMenuControl.xaml.cs, add a stub for the event handler.  
   
-    ```cs  
+    ```csharp  
     private void MyToolWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)  
     {  
     . . .  
@@ -228,7 +228,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 8.  Add the following using statements to the same file:  
   
-    ```cs  
+    ```csharp  
     using Microsoft.VisualStudio.Shell;  
     using System.ComponentModel.Design;  
     using System;  
@@ -238,7 +238,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 9. Implement the `MyToolWindowMouseRightButtonDown` event as follows.  
   
-    ```cs  
+    ```csharp  
     private void MyToolWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)  
     {  
         if (null != commandService)  
@@ -256,7 +256,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 10. Implement the command handler.  
   
-    ```cs  
+    ```csharp  
     private void ChangeColor(object sender, EventArgs e)  
     {  
         var mc = sender as MenuCommand;  

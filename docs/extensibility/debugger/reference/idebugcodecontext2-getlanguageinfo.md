@@ -36,14 +36,14 @@ Gets the language information for this code context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLanguageInfo(   
    BSTR* pbstrLanguage,  
    GUID* pguidLanguage  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLanguageInfo(   
    ref string pbstrLanguage,  
    ref Guid pguidLanguage  

@@ -45,7 +45,7 @@ typedef struct _tagMETADATA_ADDRESS_RETVAL {
 } METADATA_ADDRESS_RETVAL;  
 ```  
   
-```cs  
+```csharp  
 public struct METADATA_ADDRESS_RETVAL {  
    public int    tokMethod;  
    public uint   dwCorType;  

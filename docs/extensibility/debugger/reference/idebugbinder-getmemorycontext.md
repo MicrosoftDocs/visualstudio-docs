@@ -36,7 +36,7 @@ This method converts either an object location or a memory address to a memory c
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryContext(   
    IDebugField*           pField,  
    DWORD                  dwConstant,  
@@ -44,7 +44,7 @@ HRESULT GetMemoryContext( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMemoryContext(  
    IDebugField              pField,   
    uint                     dwConstant,   

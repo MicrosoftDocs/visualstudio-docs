@@ -36,13 +36,13 @@ Terminates a process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT TerminateProcess (   
    IDebugProcess2* pProcess  
 );  
 ```  
   
-```cs  
+```csharp  
 int TerminateProcess (   
    IDebugProcess2 pProcess  
 );  

@@ -103,7 +103,7 @@ manager: "ghogen"
     Imports System.Data.Services.Client  
     ```  
   
-    ```cs  
+    ```csharp  
     // Add the following three using statements.  
     using SLApplication.ServiceReference1;  
     using System.Windows.Data;  
@@ -118,7 +118,7 @@ manager: "ghogen"
     Private announcements As New DataServiceCollection(Of AnnouncementsItem)()  
     ```  
   
-    ```cs  
+    ```csharp  
     private TeamSiteDataContext context;  
     private CollectionViewSource myCollectionViewSource;  
     DataServiceCollection<AnnouncementsItem> announcements = new DataServiceCollection<AnnouncementsItem>();  
@@ -142,7 +142,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```cs  
+    ```csharp  
     private void UserControl_Loaded_1(object sender, RoutedEventArgs e)  
     {  
         // The URL for the OData service.  
@@ -176,7 +176,7 @@ manager: "ghogen"
   
     ```  
   
-    ```cs  
+    ```csharp  
     void announcements_LoadCompleted(object sender, LoadCompletedEventArgs e)  
     {  
         // Handle any errors.  

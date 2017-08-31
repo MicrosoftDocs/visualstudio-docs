@@ -36,13 +36,13 @@ Removes the list of exceptions the IDE has set for a particular run-time archite
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT RemoveAllSetExceptions(   
    REFGUID guidType  
 );  
 ```  
   
-```cs  
+```csharp  
 int RemoveAllSetExceptions(   
    ref Guid guidType  
 );  

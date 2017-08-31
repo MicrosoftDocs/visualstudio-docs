@@ -64,7 +64,7 @@ manager: "ghogen"
 ## Starting the Thread Correctly  
  When you create a new STA thread, set the apartment state to STA before you start the thread. The following code example demonstrates how to do this.  
   
- [!code-cs[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
+ [!code-csharp[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
  [!code-vb[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb#5)]  
   
  For more information, see [Managed Threading Best Practices](/dotnet/standard/threading/managed-threading-best-practices).  

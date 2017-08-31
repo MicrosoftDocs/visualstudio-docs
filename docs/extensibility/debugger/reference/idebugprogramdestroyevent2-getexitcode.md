@@ -36,13 +36,13 @@ Gets the program's exit code.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExitCode(   
    DWORD* pdwExit  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExitCode(   
    out uint pdwExit  
 );  

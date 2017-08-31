@@ -39,7 +39,7 @@ translation.priority.ht:
 ## Cause  
  A security transparent field or a safe critical field is declared. Its type is specified as security critical. For example:  
   
-```cs  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers]  
   
    [SecurityCritical]  
@@ -60,7 +60,7 @@ translation.priority.ht:
 ## How to Fix Violations  
  To fix a violation of this rule, mark the field with the <xref:System.Security.SecurityCriticalAttribute> attribute, or make the type that is referenced by the field eith security transparent or safe critical.  
   
-```cs  
+```csharp  
 // Fix 1: Make the referencing field security critical  
 [assembly: AllowPartiallyTrustedCallers]  
   
@@ -90,6 +90,6 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ### Code  
- [!code-cs[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151-fields-with-critical-types-should-be-security-critical_1.cs)]  
+ [!code-csharp[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151-fields-with-critical-types-should-be-security-critical_1.cs)]  
   
 ### Comments

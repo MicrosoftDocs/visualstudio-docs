@@ -36,14 +36,14 @@ Writes a dump to a file.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT WriteDump(   
    DUMPTYPE  DumpType,  
    LPCOLESTR pszDumpUrl  
 );  
 ```  
   
-```cs  
+```csharp  
 int WriteDump(   
    enum_DUMPTYPE  DumpType,  
    string         pszDumpUrl  

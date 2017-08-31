@@ -37,14 +37,14 @@ Gets a list of all error breakpoints that resulted from this pending breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumErrorBreakpoints(   
    BP_ERROR_TYPE                 bpErrorType,  
    IEnumDebugErrorBreakpoints2** ppEnum  
 );  
 ```  
   
-```cs  
+```csharp  
 int EnumErrorBreakpoints(   
    enum_BP_ERROR_TYPE              bpErrorType,  
    out IEnumDebugErrorBreakpoints2 ppEnum  
@@ -64,7 +64,7 @@ int EnumErrorBreakpoints( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::EnumErrorBreakpoints(  
    BP_ERROR_TYPE bpErrorType,  
    IEnumDebugErrorBreakpoints2** ppEnum)    

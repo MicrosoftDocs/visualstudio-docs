@@ -36,7 +36,7 @@ Gets the value pointed to as a series of consecutive bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBytes(   
    DWORD  dwStart,  
    DWORD  dwCount,  
@@ -45,7 +45,7 @@ HRESULT GetBytes( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBytes(  
    uint       dwStart,   
    uint       dwCount,   

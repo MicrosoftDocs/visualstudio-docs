@@ -104,7 +104,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
 1.  Change the content of the `.tt` file:  
   
-    ```cs  
+    ```csharp  
     <#@ template hostspecific="false" language="C#" #>  
     <#@ output extension=".txt" #>  
     <#int top = 10;  
@@ -162,7 +162,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
 2.  Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:  
   
-    ```cs  
+    ```csharp  
   
               <#@ template debug="false" hostspecific="false" language="C#" #>  
     <#@ output extension=".cs" #>  
@@ -234,7 +234,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
  For example, after importing **System.IO**, you could write:  
   
-```cs  
+```csharp  
   
       <# var properties = File.ReadLines("C:\\propertyList.txt");#>  
 ...  
@@ -259,7 +259,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
  Then you can write, for example:  
   
-```cs  
+```csharp  
 <# string fileName = this.Host.ResolvePath("filename.txt");  
   string [] properties = File.ReadLines(filename);  
 #>  

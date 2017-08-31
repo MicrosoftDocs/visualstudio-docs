@@ -36,14 +36,14 @@ Gets the attribute information as a blob of bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAttributeBytes(   
    BYTE*  ppBlob,  
    DWORD* pdwLen  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetAttributeBytes(  
    ref byte[] ppBlob,   
    ref uint   pdwLen  

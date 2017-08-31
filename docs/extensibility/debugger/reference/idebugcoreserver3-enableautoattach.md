@@ -36,7 +36,7 @@ Enables automatic attaching for the specified debug engines.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnableAutoAttach(  
    GUID*     rgguidSpecificEngines,  
    DWORD     celtSpecificEngines,  
@@ -45,7 +45,7 @@ HRESULT EnableAutoAttach(
 );  
 ```  
   
-```cs  
+```csharp  
 int EnableAutoAttach(  
    Guid[]     rgguidSpecificEngines,  
    uint       celtSpecificEngines,  

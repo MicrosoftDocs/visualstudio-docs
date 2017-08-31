@@ -36,13 +36,13 @@ Initializes the source data for this object and returns an object containing the
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT InitSourceDataProvider(  
    IEEDataStorage** dataOut  
 );  
 ```  
   
-```cs  
+```csharp  
 int InitSourceDataProvider(  
    out IEEDataStorage dataOut  
 );  

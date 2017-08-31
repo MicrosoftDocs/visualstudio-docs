@@ -36,13 +36,13 @@ Creates a copy of the managed object in the address space of the debug engine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetManagedDebugObject(   
    IDebugManagedObject** ppObject  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetManagedDebugObject(  
    out IDebugManagedObject ppObject  
 );  
