@@ -12,9 +12,10 @@
 ## [Customizing the Start Page for Visual Studio](customizing-the-start-page-for-visual-studio.md)
 ## [Managing External Tools](managing-external-tools.md)
 ## [Synchronized Settings in Visual Studio](synchronized-settings-in-visual-studio.md)
-# [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
-# [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
-# [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
+# Optimize Visual Studio Performance
+## [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
+## [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
+## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
 # [How to: Move Around in the Visual Studio IDE](how-to-move-around-in-the-visual-studio-ide.md)
 # [Get Started Developing with Visual Studio](get-started-developing-with-visual-studio.md)
 ## [Getting Started with Visual C# and Visual Basic](getting-started-with-visual-csharp-and-visual-basic.md)
