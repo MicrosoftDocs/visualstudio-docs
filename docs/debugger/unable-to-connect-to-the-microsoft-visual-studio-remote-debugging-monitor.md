@@ -62,16 +62,14 @@ Try these steps:
 
 1. Make sure that you enter a valid computer name and port number in the **Attach to Process** dialog box or in the project properties (To set properties, see [these steps](#server_incorrect)). The computer name must be the following format:
 
-    ```
-    computername:port
-    ```
+    `computername:port`
 
     > [!NOTE]
     > The port number must match the [port number of the remote debugger](../debugger/remote-debugger-port-assignments.md), which *must be running* on the target machine.
 
 2. If the computer name does not work, try the IP address and port number instead.
 
-3. Make sure that the version of the remote debugger running on the target machine matches your version of Visual Studio.
+3. Make sure that the version of the remote debugger running on the target machine matches your version of Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
     > [!TIP]
     > If you are attaching to the process and you connect successfully but don't see the process you want, select the **Show processes from all users check box**. This will show processes if you are connected under a different user account.
