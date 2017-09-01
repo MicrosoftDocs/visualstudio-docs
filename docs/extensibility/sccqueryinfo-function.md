@@ -36,7 +36,7 @@ This function obtains status information for a set of selected files under sourc
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccQueryInfo(  
    LPVOID  pvContext,  
    LONG    nFiles,  

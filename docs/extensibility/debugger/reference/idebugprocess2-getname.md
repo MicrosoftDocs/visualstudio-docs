@@ -36,14 +36,14 @@ Gets the title, friendly name, or file name of the process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    GETNAME_TYPE  gnType,  
    BSTR*         pbstrName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetName(   
    enum_GETNAME_TYPE  gnType,  
    out string         pbstrName  

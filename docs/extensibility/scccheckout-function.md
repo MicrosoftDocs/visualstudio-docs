@@ -36,7 +36,7 @@ Given a list of fully qualified file names, this function checks them out to the
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCheckout (  
    LPVOID    pvContext,  
    HWND      hWnd,  

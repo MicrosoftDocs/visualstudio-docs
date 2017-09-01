@@ -36,7 +36,7 @@ Describes or specifies properties of a process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PROCESS_INFO_FLAGS {   
    PIFLAG_SYSTEM_PROCESS    = 0x00000001,  
    PIFLAG_DEBUGGER_ATTACHED = 0x00000002,  
@@ -46,7 +46,7 @@ enum enum_PROCESS_INFO_FLAGS { 
 typedef DWORD PROCESS_INFO_FLAGS;  
 ```  
   
-```cs  
+```csharp  
 enum enum_PROCESS_INFO_FLAGS {   
    PIFLAG_SYSTEM_PROCESS    = 0x00000001,  
    PIFLAG_DEBUGGER_ATTACHED = 0x00000002,  

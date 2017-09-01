@@ -106,7 +106,7 @@ PerfView is a system wide tracing tool that will help you understand hot paths i
 
 This example is based on the sample code below, which is designed to show case some common delay causes:
 
-```cs
+```csharp
 protected override void Initialize()
 {
     // Initialize a class from another assembly as an example

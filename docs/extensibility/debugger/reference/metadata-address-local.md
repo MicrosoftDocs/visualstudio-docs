@@ -44,7 +44,7 @@ typedef struct _tagMETADATA_ADDRESS_LOCAL {
 } METADATA_ADDRESS_LOCAL;  
 ```  
   
-```cs  
+```csharp  
 public struct METADATA_ADDRESS_LOCAL {  
    public int    tokMethod;  
    public object pLocal;  

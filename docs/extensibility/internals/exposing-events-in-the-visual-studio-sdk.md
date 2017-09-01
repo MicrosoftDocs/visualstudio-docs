@@ -88,7 +88,7 @@ Automation model for events
   
  The following code example shows how to respond to a request for an event object.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CVsPackage::GetAutomationObject(  
     /* [in]  */ LPCOLESTR       pszPropName,   
     /* [out] */ IDispatch **    ppIDispatch)  

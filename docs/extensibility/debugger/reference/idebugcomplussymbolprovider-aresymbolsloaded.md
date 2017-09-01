@@ -35,14 +35,14 @@ Determines if the debug symbols are loaded for the specified module given the ap
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT AreSymbolsLoaded (  
    ULONG32 ulAppDomainID,  
    GUID    guidModule  
 );  
 ```  
   
-```cs  
+```csharp  
 int AreSymbolsLoaded (  
    uint ulAppDomainID,  
    Guid guidModule  
@@ -62,7 +62,7 @@ int AreSymbolsLoaded (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::AreSymbolsLoaded(  
     ULONG32 ulAppDomainID,  
     GUID guidModule  

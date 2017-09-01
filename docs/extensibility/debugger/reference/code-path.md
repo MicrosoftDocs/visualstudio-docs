@@ -36,14 +36,14 @@ Describes a method or function call.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCODE_PATH {   
    BSTR                bstrName;  
    IDebugCodeContext2* pCode;  
 } CODE_PATH;  
 ```  
   
-```cs  
+```csharp  
 public struct CODE_PATH {  
    public string            bstrName;  
    public IDebugCodeContext pCode;  

@@ -36,13 +36,13 @@ Gets the number of elements in the array.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNumberOfElements(   
    DWORD* pdwNumElements  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetNumberOfElements(  
    out uint pdwNumElements  
 );  

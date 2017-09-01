@@ -36,7 +36,7 @@ This function sets options that control the behavior of the source control plug-
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccSetOption(  
    LPVOID pvContext,  
    LONG   nOption,  

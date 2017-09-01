@@ -36,14 +36,14 @@ Gets the range for this document position.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRange(   
    TEXT_POSITION* pBegPosition,  
    TEXT_POSITION* pEndPosition  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetRange(   
    TEXT_POSITION[] pBegPosition,  
    TEXT_POSITION[] pEndPosition  

@@ -36,14 +36,14 @@ This method gets displayable information about the field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(   
    FIELD_INFO_FIELDS dwFields,  
    FIELD_INFO* pFieldInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetInfo(  
    enum_FIELD_INFO_FIELDS dwFields,  
    FIELD_INFO[] pFieldInfo  

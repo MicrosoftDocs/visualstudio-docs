@@ -44,7 +44,7 @@ typedef struct _tagUNMANAGED_THIS_RELATIVE {
 } UNMANAGED_ADDRESS_THIS_RELATIVE;  
 ```  
   
-```cs  
+```csharp  
 public struct UNMANAGED_THIS_RELATIVE {  
    public uint dwOffset;  
    public uint dwBitOffset;  

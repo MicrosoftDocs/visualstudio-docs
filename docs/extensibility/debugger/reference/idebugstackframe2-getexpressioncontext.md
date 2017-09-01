@@ -36,13 +36,13 @@ Gets an evaluation context for expression evaluation within the current context 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExpressionContext (   
    IDebugExpressionContext2** ppExprCxt  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExpressionContext (   
    out IDebugExpressionContext2 ppExprCxt  
 );  

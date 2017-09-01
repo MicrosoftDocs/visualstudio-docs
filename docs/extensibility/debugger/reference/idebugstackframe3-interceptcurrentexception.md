@@ -43,7 +43,7 @@ HRESULT InterceptCurrentException(
 );  
 ```  
   
-```cs  
+```csharp  
 int InterceptCurrentException(  
    uint dwFlags,   
    out  ulong pqwCookie  

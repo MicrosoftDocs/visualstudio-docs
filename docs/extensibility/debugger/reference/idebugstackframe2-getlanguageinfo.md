@@ -36,14 +36,14 @@ Gets the language associated with this stack frame.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLanguageInfo (   
    BSTR* pbstrLanguage,  
    GUID* pguidLanguage  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetLanguageInfo (   
    ref string pbstrLanguage,  
    ref Guid   pguidLanguage  

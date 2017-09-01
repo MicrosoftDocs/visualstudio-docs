@@ -56,7 +56,7 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     Imports System.Windows.Forms  
     ```  
   
-    ```cs  
+    ```csharp  
     using System.Deployment.Application;  
     using System.Windows.Forms;  
     ```  
@@ -69,7 +69,7 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     >  Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.  
   
      [!code-vb[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.vb)]
-     [!code-cs[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]  
+     [!code-csharp[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]  
   
 5.  To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.  
   
@@ -79,7 +79,7 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     MessageBox.Show("Installer object created.")  
     ```  
   
-    ```cs  
+    ```csharp  
     MyInstaller installer = new MyInstaller();  
     installer.InstallApplication(@"\\myServer\myShare\myApp.application");  
     MessageBox.Show("Installer object created.");  

@@ -36,7 +36,7 @@ The parser is the heart of the language service. The Managed Package Framework (
 ## Discussion  
  The following is a C# method.  
   
-```cs  
+```csharp  
 namespace MyNamespace  
 {  
     class MyClass  

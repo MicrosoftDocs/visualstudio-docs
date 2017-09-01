@@ -35,7 +35,7 @@ Retrieves a custom attribute given its name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCustomAttributeByName(  
    LPCOLESTR pszCustomAttributeName,  
    BYTE*     ppBlob,  
@@ -43,7 +43,7 @@ HRESULT GetCustomAttributeByName(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetCustomAttributeByName(  
    string    pszCustomAttributeName,  
    ref int[] ppBlob,  
@@ -67,7 +67,7 @@ int GetCustomAttributeByName(
 ## Example  
  The following example shows how to implement this method for a **CDebugClassFieldSymbol** object that exposes the [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugClassFieldSymbol::GetCustomAttributeByName(  
     LPCOLESTR pszCustomAttributeName,  
     BYTE *pBlob,  

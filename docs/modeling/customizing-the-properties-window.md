@@ -225,7 +225,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
   
  Define a class that derives from <xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:  
   
-```cs  
+```csharp  
 /// <summary>  
 /// Type converter that provides a list of values   
 /// to be displayed in the property grid.  

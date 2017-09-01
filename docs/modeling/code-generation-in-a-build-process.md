@@ -240,7 +240,7 @@ The project folder is: <#= ProjectFolder #>
   
  In a directive processor, you can call <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue%2A>:  
   
-```cs  
+```csharp  
 string value = Host.ResolveParameterValue("-", "-", "parameterName");  
 ```  
   

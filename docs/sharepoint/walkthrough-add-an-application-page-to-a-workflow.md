@@ -61,7 +61,7 @@ manager: "ghogen"
       workflowProperties.InitiationData  
     ```  
   
-    ```cs  
+    ```csharp  
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =   
       workflowProperties.InitiationData;  
     ```  
@@ -119,7 +119,7 @@ manager: "ghogen"
     Imports Microsoft.SharePoint.Navigation  
     ```  
   
-    ```cs  
+    ```csharp  
     using System;  
     using Microsoft.SharePoint;  
     using Microsoft.SharePoint.WebControls;  
@@ -204,7 +204,7 @@ manager: "ghogen"
     End Try  
     ```  
   
-    ```cs  
+    ```csharp  
     try  
     {  
         // Reference the Tasks list on the SharePoint site.  

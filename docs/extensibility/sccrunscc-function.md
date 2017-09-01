@@ -36,7 +36,7 @@ This function invokes the source control administration tool.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccRunScc(  
    LPVOID  pvContext,  
    HWND    hWnd,  

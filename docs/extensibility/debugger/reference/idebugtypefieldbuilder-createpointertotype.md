@@ -35,14 +35,14 @@ Creates a pointer to the specified type.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePointerToType(  
    IDebugField*  pTypeField,  
    IDebugField** pPtrToTypeField  
 );  
 ```  
   
-```cs  
+```csharp  
 int CreatePointerToType(  
    IDebugField     pTypeField,  
    out IDebugField pPtrToTypeField  

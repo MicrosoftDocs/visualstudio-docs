@@ -36,7 +36,7 @@ This function determines whether the source control plug-in supports the creatio
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccWillCreateSccFile(  
    LPVOID  pContext,  
    LONG    nFiles,  

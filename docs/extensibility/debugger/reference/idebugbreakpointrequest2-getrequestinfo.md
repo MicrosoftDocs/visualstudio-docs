@@ -36,14 +36,14 @@ Gets the breakpoint request information that describes this breakpoint request.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRequestInfo(   
    BPREQI_FIELDS    dwFields,  
    BP_REQUEST_INFO* pBPRequestInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetRequestInfo(   
    eunm_BPREQI_FIELDS  dwFields,  
    BP_REQUEST_INFO[]   pBPRequestInfo  

@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
-ms.date: "08/14/2017"
+ms.date: "08/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -46,14 +46,19 @@ To create an offline installation with all languages and all features, use one o
   ```
   vs_enterprise.exe --layout c:\vs2017offline
   ```
+
 - For Visual Studio Professional, run:
   ```
   vs_professional.exe --layout c:\vs2017offline
-  ```
+    ```
+    
 - For Visual Studio Community, run:
   ```
   vs_community.exe --layout c:\vs2017offline
   ```
+
+> [!IMPORTANT]
+> A complete Visual Studio 2017 layout requires at least 20 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
 
 ## Modify the response.json file
 You can modify the response.json to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads selected automatically.
@@ -64,7 +69,7 @@ See [Automate Visual Studio installation with a response file](automated-install
 Host the layout on a network share so it can be run from other machines.
 * Example:<br>
 ```xcopy /e c:\vs2017offline \\server\products\VS2017```
-    
+
 ## Customizing the network layout
 There are several options you can use to customize your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). This might be useful if you know that you are going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
 
@@ -72,7 +77,7 @@ There are several options you can use to customize your network layout. You can 
  * ```--includeRecommended``` to include all the recommended  components for the specified workload IDs
  * ```--includeOptional``` to include all the recommended and optional components for the specified workload IDs.
  * ```--lang``` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
- 
+
 Here are a few examples of how to create a custom partial layout.
 
  * To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
@@ -83,28 +88,28 @@ Here are a few examples of how to create a custom partial layout.
  * To download two workloads and all of their recommended and optional components, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional ```
 
 ### New in 15.3
-When you run a layout command, the options that you specify are saved (such as the workloads and languages). Subsequent layout commands will include all of the previous options.  Here is an example of a layout with one workload for English only: 
+When you run a layout command, the options that you specify are saved (such as the workloads and languages). Subsequent layout commands will include all of the previous options.  Here is an example of a layout with one workload for English only:
 
-``` 
-vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US 
-``` 
+```
+vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
+```
 When you want to update that layout to a newer version, you don't have to specify any additional command line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.  
 
-``` 
+```
 vs_enterprise.exe --layout c:\VS2017Layout  
-``` 
+```
 
-When you want to add an additional workload, here's an example of how to do so. In this case, we'll add the Azure workload and a localized language.  Now, both Managed Desktop and Azure are included in this layout.  The language resources for English and German are include for all these workloads. The layout is updated to the latest available version. 
+When you want to add an additional workload, here's an example of how to do so. In this case, we'll add the Azure workload and a localized language.  Now, both Managed Desktop and Azure are included in this layout.  The language resources for English and German are include for all these workloads. The layout is updated to the latest available version.
 
-``` 
-vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE 
-``` 
+```
+vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
+```
 
-If you want to update an existing layout to a full layout, use the --all option, as shown in the following example. 
+If you want to update an existing layout to a full layout, use the --all option, as shown in the following example.
 
-``` 
+```
 vs_enterprise.exe --layout c:\VS2017Layout --all  
-``` 
+```
 
 
 ## Deploying from a network installation
@@ -116,7 +121,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.  If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
 
-When you install from a layout, the content that is installed is acquired from the layout.  However, if something that is selected to be installed is missing in the layout, it will be acquired from the Internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content selected to be installed, setup will fail.  
+When you install from a layout, the content that is installed is acquired from the layout.  However, if something that is selected to be installed is missing in the layout, it will be acquired from the Internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content selected to be installed, setup fails.  
 
 ### Error codes
 If you used the `--wait` parameter, then depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
@@ -131,10 +136,10 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 As product updates become available, you might want to [update the network install layout](update-a-network-installation-of-visual-studio.md) to incorporate updated packages.
 
 ## How to create a layout for a previous Visual Studio 2017 release
-> [!NOTE] 
+> [!NOTE]
 > The Visual Studio 2017 bootstrappers that are available on [VisualStudio.com](http://www.visualstudio.com) download and install the latest Visual Studio 2017 release available whenever they are run. If you download a Visual Studio bootstrapper today and run it six months from now, it installs the Visual Studio 2017 release that is available at that later time. If you create a layout, installing Visual Studio from that layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
 
-If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers for supported versions, which allows you to create a network install layout for that older version. 
+If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers for supported versions, which allows you to create a network install layout for that older version.
 
 ### How to get support for your offline installer
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.

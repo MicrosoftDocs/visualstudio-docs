@@ -42,7 +42,7 @@ HRESULT GetField(
 );  
 ```  
   
-```cs  
+```csharp  
 int GetField(  
    out IDebugField ppField  
 );  

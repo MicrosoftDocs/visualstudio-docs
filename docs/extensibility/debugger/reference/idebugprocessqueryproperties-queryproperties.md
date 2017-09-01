@@ -34,14 +34,14 @@ This method queries for a specified property values of the debugging process.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT QueryProperties(  
    ULONG                  celt,  
    PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
    VARIANT               *rgtPropValues);  
 ```  
   
-```cs  
+```csharp  
 int QueryProperties(  
    uint                       celt,  
    enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  

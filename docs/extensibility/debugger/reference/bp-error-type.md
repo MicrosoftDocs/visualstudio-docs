@@ -36,7 +36,7 @@ Specifies the error type of a breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_ERROR_TYPE {   
    BPET_NONE            = 0x00000000,  
    BPET_TYPE_WARNING    = 0x00000001,  
@@ -53,7 +53,7 @@ enum enum_BP_ERROR_TYPE { 
 typedef DWORD BP_ERROR_TYPE;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_BP_ERROR_TYPE {   
    BPET_NONE            = 0x00000000,  
    BPET_TYPE_WARNING    = 0x00000001,  
