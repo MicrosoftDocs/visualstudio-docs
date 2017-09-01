@@ -70,6 +70,7 @@ Now that you've created the solution, you'll create a class library named `Strin
       - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
     
 1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+ 
 # [Visual Basic](#tab/visual-basic)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
@@ -101,6 +102,7 @@ Now that you've created the solution, you'll create a class library named `Strin
    ![The Project Properties dialog for a Visual Basic project](./media/lut-start/vb-properties.png)
  
 1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+
 ---
 
 ## Create the test project
@@ -143,6 +145,7 @@ The next step is to create the unit test project to test `StringLibrary` library
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png) 
 
 1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
+
 # [Visual Basic](#tab/visual-basic)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
@@ -211,6 +214,7 @@ You can also get more detailed information about test coverage and test results 
 1. Click on the green check mark on the line that reads `return Char.IsUpper(s[0])` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that only two tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the return statement](media/lut-start/code-coverage-cs2.png)
+
 # [Visual Basic](#tab/visual-basic)
 1. Click on the green check mark on the line that reads `If (String.IsNullOrWhiteSpace(s)) Then` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
@@ -245,6 +249,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 1. Switch to the window that contains the source code for the `StringLibrary` class. Live Unit Testing now shows that our code coverage is extended to the `StartsWithLower` method.
 
     ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png) 
+
 # [Visual Basic](#tab/visual-basic)
 1. Add the following `TestStartsWithLower` and `TestDoesNotStartWithLower` methods to your project's test source code file:
 
@@ -302,6 +307,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
    Note in the **Autos** window that the value of the `phrase` variable is "Name\tDescription", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize "\t", the tab character, as an embedded space.
 
 1. Select **Debug**, **Continue**, press F5, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
+
 # [Visual Basic](#tab/visual-basic)
 1. Add the following method to your test file:
 
@@ -371,6 +377,7 @@ For example, since the `TestStartswithUpper` method has consistently passed, you
 ![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-cs.png) 
 
 You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
+
 # [Visual Basic](#tab/visual-basic)
 In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
 
