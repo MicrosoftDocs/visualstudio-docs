@@ -166,7 +166,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  ![Breakpoint when changed](../debugger/media/breakpointwhenchanged.png "BreakpointWhenChanged")  
   
- The behavior of the When changed field is different for different programming languages. If you choose **When changed** for native code, the debugger doesn't consider the first evaluation of the condition to be a change, so the breakpoint won't be hit on the first evaluation. If you choose **When changed** for managed code, he breakpoint is hit on the first evaluation after **When changed** is selected.  
+ The behavior of the When changed field is different for different programming languages. If you choose **When changed** for native code, the debugger doesn't consider the first evaluation of the condition to be a change, so the breakpoint won't be hit on the first evaluation. If you choose **When changed** for managed code, the breakpoint is hit on the first evaluation after **When changed** is selected.  
   
  If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks execution when the invalid breakpoint is hit. The breakpoint is skipped only if the condition is valid and evaluates to `false`.  
   
@@ -192,7 +192,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
  Note that Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
   
 ## Hit Count  
- If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after a specified number of hits to the to the associated line of code, rather than being forced to repeatedly press **F5** to reach the iteration level.  
+ If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after a specified number of hits to the associated line of code, rather than being forced to repeatedly press **F5** to reach the iteration level.  
   
  In the **Breakpoint Settings** window, set the condition to **Hit Count**. You can then specify the number of iterations. In the following example, we set the breakpoint to hit on every other iteration:  
   
