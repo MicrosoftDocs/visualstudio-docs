@@ -18,9 +18,10 @@ ms.author: "ronpet"
 When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code. It provides immediate notification when changes have broken your code and indicates areas for which additional tests are needed. In this topic, you'll learn to use Live Unit Testing by creating a simple class library and using MSTest to test it.
 
 # [C#](#tab/csharp)
-The complete C# solution can be downloaded from the [MicrosoftDoc/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/utilitylibraries/) repo on GitHub.
+The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/utilitylibraries/) repo on GitHub.
 # [Visual Basic](#tab/visual-basic)
-The complete Visual Basic solution can be downloaded from the [MicrosoftDoc/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/visual-basic/utilitylibraries/) repo on GitHub.
+The complete Visual Basic solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/visual-basic/utilitylibraries/) repo on GitHub.
+
 ---
 
 ## Prerequisites
@@ -255,7 +256,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#1)]
 
-1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse%2A> method.
+1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#2)]
 
@@ -329,7 +330,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     
 1. Select **Debug Selected** to debug the failed test. 
  
-1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue%2A> method call is shown in the following figure.  
+1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
 
    ![Live Unit Testing exception dialog.](media/lut-start/exception-dialog-vb.png) 
  
