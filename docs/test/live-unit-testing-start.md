@@ -148,6 +148,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
 
 # [Visual Basic](#tab/visual-basic)
+
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Core**. 
@@ -180,7 +181,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 
 1. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following figure shows:
 
-   ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png) 
+   ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
 1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
 
@@ -202,6 +203,7 @@ When it finishes running your tests, **Test Explorer** displays both the overall
 
 # [C#](#tab/csharp)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-cs.png) 
+
 # [Visual Basic](#tab/visual-basic)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-vb.png) 
 
@@ -379,9 +381,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 # [C#](#tab/csharp)
 In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
 
-For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this, right-click on the method signature of `TestStartswithUpper` method and select **Live Tests**, **Exclude TestStartsWithUpper**. Once you do this, as the following figure shows, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.
-
-![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-cs.png) 
+For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this, right-click on the method signature of `TestStartswithUpper` method and select **Live Tests**, **Exclude TestStartsWithUpper**. Once you do this, as the following figure shows, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.pn.com
 
 You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
 
