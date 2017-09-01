@@ -17,9 +17,9 @@ ms.author: "ronpet"
 
 When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code. It provides immediate notification when changes have broken your code and indicates areas for which additional tests are needed. In this topic, you'll learn to use Live Unit Testing by creating a simple class library and using MSTest to test it.
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 The complete C# solution can be downloaded from the [MicrosoftDoc/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/utilitylibraries/) repo on GitHub.
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 The complete Visual Basic solution can be downloaded from the [MicrosoftDoc/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/visual-basic/utilitylibraries/) repo on GitHub.
 ---
 
@@ -43,7 +43,7 @@ The solution is just a container for one or more projects. To create the solutio
  
 Now that you've created the solution, you'll create a class library named `StringLibrary` that contains a number of extension methods for working with strings.
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
 1. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**. 
@@ -70,7 +70,7 @@ Now that you've created the solution, you'll create a class library named `Strin
       - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
     
 1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**. 
@@ -107,7 +107,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 
 The next step is to create the unit test project to test `StringLibrary` library. Create the unit tests by performing the following steps:
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
 1. In the **Add New Project** dialog, select the C# node, then select **.NET Core**. 
@@ -143,7 +143,7 @@ The next step is to create the unit test project to test `StringLibrary` library
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png) 
 
 1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Core**. 
@@ -195,15 +195,15 @@ So far, although you've written the tests for the `StringLibrary` class library,
  
 When it finishes running your tests, **Test Explorer** displays both the overall results and the result of individual tests. In addition, the code window graphically displays both your test code coverage and the result for your tests. As the following figure shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in `StringLibrary` have code coverage (which is indicated by a blue line, "➖"). 
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-cs.png) 
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-vb.png) 
 ---  
 
 You can also get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code window. To examine this detail, do the following:
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. Click on the green check mark on the line that reads `if (String.IsNullOrWhiteSpace(s))` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the `if` conditional statement](media/lut-start/code-coverage-cs1.png) 
@@ -211,7 +211,7 @@ You can also get more detailed information about test coverage and test results 
 1. Click on the green check mark on the line that reads `return Char.IsUpper(s[0])` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that only two tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the return statement](media/lut-start/code-coverage-cs2.png)
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. Click on the green check mark on the line that reads `If (String.IsNullOrWhiteSpace(s)) Then` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the `If` conditional statement](media/lut-start/code-coverage-vb1.png) 
@@ -229,12 +229,12 @@ In this section, you'll extend your unit tests to the `StartsWithLower` method. 
 
 To extend code coverage to the `StartsWithLower` method, do the following:
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. Add the following `TestStartsWithLower` and `TestDoesNotStartWithLower` methods to your project's test source code file:
 
     [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#1)]
 
-1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse%2A> method.
+1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
 
     [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#2)]
 
@@ -245,7 +245,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 1. Switch to the window that contains the source code for the `StringLibrary` class. Live Unit Testing now shows that our code coverage is extended to the `StartsWithLower` method.
 
     ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png) 
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. Add the following `TestStartsWithLower` and `TestDoesNotStartWithLower` methods to your project's test source code file:
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#1)]
@@ -271,7 +271,7 @@ So far, all of our tests have succeed. In the next section, we'll examine how yo
 
 In this section, you'll explore how you can use Live Unit Testing to identify, troubleshoot, and address test failures. You'll do this by expanding test coverage to the `HasEmbeddedSpaces` method.
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. Add the following method to your test file:
 
     [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/unittest2.cs#3)]
@@ -291,7 +291,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     
 1. Select **Debug Selected** to debug the failed test. 
  
-1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue%2A> method call is shown in the following figure.  
+1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
 
    ![Live Unit Testing exception dialog.](media/lut-start/exception-dialog-cs.png) 
  
@@ -302,7 +302,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
    Note in the **Autos** window that the value of the `phrase` variable is "Name\tDescription", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize "\t", the tab character, as an embedded space.
 
 1. Select **Debug**, **Continue**, press F5, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. Add the following method to your test file:
 
     [!code-vb[The TestHasEmbeddedSpaces test method](samples/snippets/visual-basic/lut-start/unittest2.vb#3)]
@@ -338,7 +338,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces`, the test routine, made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 1. Look at the comparison in the `HasEmbeddedSpaces` method. It considers an embedded space to be U+0020. However, the Unicode Standard includes a number of other space characters. This suggests that the library code has incorrectly tested for a whitespace character.
  
 1. Replace the equality comparison with a call to the <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName> method:
@@ -349,7 +349,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
     ![The successful HasEmbeddedSpaces test.](media/lut-start/test-success-cs.png) 
 
-# [Visual Basic](#tab/vb)
+# [Visual Basic](#tab/visual-basic)
 1. Look at the comparison in the `HasEmbeddedSpaces` method. It considers an embedded space to be U+0020. However, the Unicode Standard includes a number of other space characters. This suggests that the library code has incorrectly tested for a whitespace character.
  
 1. Replace the equality comparison with a call to the <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName> method:
@@ -363,22 +363,22 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
 ## Excluding selected tests
 
-# [C#](#tab/cs)
+# [C#](#tab/csharp)
 In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
 
 For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this, right-click on the method signature of `TestStartswithUpper` method and select **Live Tests**, **Exclude TestStartsWithUpper**. Once you do this, as the following figure shows, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.
 
 ![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-cs.png) 
 
-You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Live Unit Testing with Visual Studio 2017](live-unit-testing#including-and-excluding-test-projects-and-test-methods).
-# [Visual Basic](#tab/vb)
+You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
+# [Visual Basic](#tab/visual-basic)
 In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
 
 For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this programmatically, apply the `<TestCategory("SkipWhenLiveUnitTesting")>` attribute to the method to the method, as the following figure shows. Once you do this, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.
 
 ![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-vb.png) 
 
-You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Live Unit Testing with Visual Studio 2017](live-unit-testing#including-and-excluding-test-projects-and-test-methods).
+You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
 ---
 
 ## See also
