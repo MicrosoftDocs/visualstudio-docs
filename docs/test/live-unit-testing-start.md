@@ -183,6 +183,7 @@ The next step is to create the unit test project to test `StringLibrary` library
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png) 
 
 1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
+
 ---
 
 You've created a class library as well as some unit tests for it. You've now finished the preliminaries needed to use Live Unit Testing.
@@ -203,6 +204,7 @@ When it finishes running your tests, **Test Explorer** displays both the overall
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-cs.png) 
 # [Visual Basic](#tab/visual-basic)
 ![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-vb.png) 
+
 ---  
 
 You can also get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code window. To examine this detail, do the following:
@@ -224,6 +226,7 @@ You can also get more detailed information about test coverage and test results 
 1. Click on the green check mark on the line that reads `Return Char.IsUpper(s(0))` in the `StartsWithUpper` method. As the following figure shows, Live Unit Testing indicates that only two tests cover that line of code, and that all have executed successfully.
 
    ![Code coverage for the return statement](media/lut-start/code-coverage-vb2.png)
+
 ---
 
 The major issue that Live Unit Testing identifies is incomplete code coverage. You'll address it in the next section. 
@@ -267,6 +270,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 1. Switch to the window that contains the source code for the `StringLibrary` class. Live Unit Testing now shows that our code coverage is extended to the `StartsWithLower` method.
 
     ![Code coverage for the StartsWithLower](media/lut-start/lut-extended-vb.png)
+
 ---
  
 In some cases, successful tests in **Test Explorer** may be grayed-out. That indicates that a test is currently executing, or that the test has not run again because there have been no code changes that would impact the test since it was last executed.
@@ -341,6 +345,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
    Note in the **Autos** window that the value of the `phrase` variable is "Name" + vbTab + "Description", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize the tab character as an embedded space.
 
 1. Select **Debug**, **Continue**, press F5, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
+
 --- 
 
 This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces`, the test routine, made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
@@ -366,6 +371,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 1. Live Unit Testing automatically re-runs the failed test method and updates the results in the code window and in **Test Explorer**, as the following figure shows:
 
     ![The successful HasEmbeddedSpaces test.](media/lut-start/test-success-vb.png) 
+
 ---
 
 ## Excluding selected tests
@@ -387,6 +393,7 @@ For example, since the `TestStartswithUpper` method has consistently passed, you
 ![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-vb.png) 
 
 You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
+
 ---
 
 ## See also
