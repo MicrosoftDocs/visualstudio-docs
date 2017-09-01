@@ -125,11 +125,11 @@ A common application scenario is to display selected data on a form. For example
   
      The query should be similar to the following:  
   
-     `SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax`  
-  
-     `FROM Customers`  
-  
-     `WHERE City = @City`  
+     ```sql
+     SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax`  
+     FROM Customers
+     WHERE City = @City  
+     ```
   
     > [!NOTE]
     >  Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  
