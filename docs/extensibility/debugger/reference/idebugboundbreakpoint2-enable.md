@@ -37,13 +37,13 @@ Enables or disables the breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Enable(   
    BOOL fEnable  
 );  
 ```  
   
-```cs  
+```csharp  
 int Enable(   
    int fEnable  
 );  

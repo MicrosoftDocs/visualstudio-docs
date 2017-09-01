@@ -37,13 +37,13 @@ Gets the breakpoint request that was used to create this pending breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointRequest(   
    IDebugBreakpointRequest2** ppBPRequest  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBreakpointRequest(   
    out IDebugBreakpointRequest2 ppBPRequest  
 );  

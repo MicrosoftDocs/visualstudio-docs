@@ -20,7 +20,7 @@ ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ---
 
 # Visual Studio 2017 workload and component IDs
-Click the edition names in the following table to see the available workload and component IDs you'll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
+Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

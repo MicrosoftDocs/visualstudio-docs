@@ -113,7 +113,7 @@ manager: "ghogen"
     End Namespace  
     ```  
 
-    ```cs  
+    ```csharp  
     using Microsoft.VisualStudio.SharePoint;
     using System;
     using System.ComponentModel;

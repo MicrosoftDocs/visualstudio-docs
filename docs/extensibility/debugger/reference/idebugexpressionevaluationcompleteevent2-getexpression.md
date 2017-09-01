@@ -36,13 +36,13 @@ Gets the original expression.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExpression(   
    IDebugExpression2** ppExpr  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetExpression(   
    out IDebugExpression2 ppExpr  
 );  

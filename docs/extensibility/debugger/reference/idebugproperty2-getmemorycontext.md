@@ -36,13 +36,13 @@ Gets the memory context of the property value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryContext (   
    IDebugMemoryContext2** ppMemory  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetMemoryContext(  
    out IDebugMemoryContext2 ppMemory  
 );  

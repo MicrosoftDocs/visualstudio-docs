@@ -34,13 +34,13 @@ Determines if the function at the specified debug address is considered stale.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsFunctionStale(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsFunctionStale(  
    IDebugAddress pAddress  
 );  
@@ -56,7 +56,7 @@ int IsFunctionStale(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::IsFunctionStale(  
     IDebugAddress* pAddress  
 )  

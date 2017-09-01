@@ -150,7 +150,7 @@ You can create an XML-based .vsct file from an existing binary .cto file. Doing 
   
 5.  Add a ProvideMenuResource attribute to the package class, as shown in the following example.  
   
-    ```cs  
+    ```csharp  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
     ```  
   

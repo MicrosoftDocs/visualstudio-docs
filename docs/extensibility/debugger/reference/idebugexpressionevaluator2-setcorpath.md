@@ -35,13 +35,13 @@ Sets the path to the common language runtime (CLR) loaded in the debugger.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetCorPath(  
    LPCOLESTR pcstrCorPath  
 );  
 ```  
   
-```cs  
+```csharp  
 int SetCorPath(  
    string pcstrCorPath  
 );  
@@ -57,7 +57,7 @@ int SetCorPath(
 ## Example  
  The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP ExpressionEvaluatorPackage::SetCorPath(LPCOLESTR pcstrCorPath)  
 {  
     VerifyInPtr(pcstrCorPath);  

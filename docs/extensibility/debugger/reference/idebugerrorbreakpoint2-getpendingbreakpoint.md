@@ -36,13 +36,13 @@ Gets the pending breakpoint that caused the error.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPendingBreakpoint (   
    IDebugPendingBreakpoint2** ppPendingBreakpoint  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetPendingBreakpoint (   
    out IDebugPendingBreakpoint2 ppPendingBreakpoint  
 );  

@@ -37,13 +37,13 @@ DEPRECATED. DO NOT USE.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DetachDebugger_V7 (   
    void   
 );  
 ```  
   
-```cs  
+```csharp  
 int DetachDebugger_V7 ();  
 ```  
   

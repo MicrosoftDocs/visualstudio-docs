@@ -36,14 +36,14 @@ Compares an object with this object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsEqual(   
    IDebugObject* pObject,  
    BOOL*         pfIsEqual  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsEqual(  
    IDebugObject pObject,  
    out int      pfIsEqual  

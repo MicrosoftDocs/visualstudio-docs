@@ -37,13 +37,13 @@ Deletes this pending breakpoint and all breakpoints bound from it.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Delete(   
    void   
 );  
 ```  
   
-```cs  
+```csharp  
 int Delete();  
 ```  
   
@@ -53,7 +53,7 @@ int Delete();
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that implements the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::Delete(void)    
 {    
    HRESULT hr;    

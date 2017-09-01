@@ -224,7 +224,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      For Visual C#, the event handler should look like this:  
   
-    ```cs  
+    ```csharp  
     private void Button_Click_1(object sender, RoutedEventArgs e)  
     {  
   

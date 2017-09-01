@@ -93,7 +93,7 @@ manager: "ghogen"
 Me.Save()  
 ```  
   
-```cs  
+```csharp  
 this.Save();  
 ```  
   
@@ -103,7 +103,7 @@ this.Save();
 Globals.ThisDocument.Save()  
 ```  
   
-```cs  
+```csharp  
 Globals.ThisDocument.Save();  
 ```  
   

@@ -36,13 +36,13 @@ Gets the type of the breakpoint represented by this resolution.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointType(   
    BP_TYPE* pBPType  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetBreakpointType(   
    out enum_ BP_TYPE pBPType  
 );  

@@ -107,7 +107,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.Close()  
     ```  
   
-    ```cs  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "Enabled");  
@@ -164,7 +164,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.Close()  
     ```  
   
-    ```cs  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "AuthenticodeRequired");  
@@ -221,7 +221,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.Close()  
     ```  
   
-    ```cs  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "Disabled");  

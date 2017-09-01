@@ -36,7 +36,7 @@ This method is called to display the specified value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisplayValue(  
    HWND             hwnd,  
    DWORD            dwID,  
@@ -45,7 +45,7 @@ HRESULT DisplayValue(
 );  
 ```  
   
-```cs  
+```csharp  
 int DisplayValue(  
    IntPtr          hwnd,   
    uint            dwID,   

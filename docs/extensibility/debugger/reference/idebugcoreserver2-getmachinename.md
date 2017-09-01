@@ -36,13 +36,13 @@ Gets the name of the machine the core server is running on.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* pbstrName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetName(   
    out string pbstrName  
 );  

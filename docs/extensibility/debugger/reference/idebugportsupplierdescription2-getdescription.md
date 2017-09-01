@@ -34,14 +34,14 @@ Retrieves the description and description metadata for the port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDescription(  
    PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,  
    BSTR *pbstrText  
 );  
 ```  
   
-```cs  
+```csharp  
 public int GetDescription(  
    out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
    out string pbstrText  

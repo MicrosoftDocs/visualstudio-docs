@@ -36,7 +36,7 @@ This function adds new files to the source control system.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccAdd(  
    LPVOID    pvContext,  
    HWND      hWnd,  

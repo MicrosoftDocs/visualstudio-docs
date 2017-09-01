@@ -42,7 +42,7 @@ typedef struct _tagNATIVE_ADDRESS {
 } NATIVE_ADDRESS;  
 ```  
   
-```cs  
+```csharp  
 public struct NATIVE_ADDRESS {  
    public uint unknown;  
 }  

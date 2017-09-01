@@ -36,7 +36,7 @@ This function cleans up any allocations or open connections created by a previou
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccUninitialize (  
    LPVOID pvContext  
 );  

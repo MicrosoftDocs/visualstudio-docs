@@ -36,13 +36,13 @@ Tests whether this object is a null reference.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsNullReference(   
    BOOL* pfIsNull  
 );  
 ```  
   
-```cs  
+```csharp  
 int IsNullReference(  
    out int pfIsNull  
 );  

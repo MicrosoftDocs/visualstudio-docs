@@ -42,7 +42,7 @@ HRESULT IsUserData(
 );  
 ```  
   
-```cs  
+```csharp  
 int IsUserData(  
    out int pfUser  
 );  

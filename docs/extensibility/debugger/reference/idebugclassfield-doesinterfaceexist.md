@@ -36,13 +36,13 @@ Determines if a specific interface is defined in the class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DoesInterfaceExist(   
    LPCOLESTR pszInterfaceName  
 );  
 ```  
   
-```cs  
+```csharp  
 int DoesInterfaceExist(  
    [In] string pszInterfaceName  
 );  

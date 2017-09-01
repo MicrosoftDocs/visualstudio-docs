@@ -36,14 +36,14 @@ This method maps a debug address into a document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetContextFromAddress(   
    IDebugAddress*           pAddress,  
    IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetContextFromAddress(  
    IDebugAddress              pAddress,   
    out IDebugDocumentContext2 ppDocContext  

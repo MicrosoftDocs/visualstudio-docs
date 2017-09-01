@@ -59,7 +59,7 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
   
 4.  Click the **ConditionName** property.  
   
-5.  Click the **ConditionName** ellipses **[...]** to open the **Select Condition** dialog box.  
+5.  Click the **ConditionName** ellipsis **[...]** to open the **Select Condition** dialog box.  
   
 6.  Click **New Condition** to open the **Rule Condition Editor** dialog box.  
   

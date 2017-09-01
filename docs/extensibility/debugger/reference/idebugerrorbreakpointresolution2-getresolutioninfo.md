@@ -36,14 +36,14 @@ Gets the breakpoint error resolution information.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResolutionInfo(   
    BPERESI_FIELDS            dwFields,  
    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetResolutionInfo(   
    enum_BPERESI_FIELDS        dwFields,  
    BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo  

@@ -36,7 +36,7 @@ This function concludes a batch of source control operations. These batches may 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccEndBatch(void);  
 ```  
   

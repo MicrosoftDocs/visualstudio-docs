@@ -43,7 +43,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
   
 4.  Open the MainWindow.xaml.cs (or MainWindow.xaml.vb) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.  
   
-    ```cs  
+    ```csharp  
     public class ShoppingCart : DependencyObject  
     {  
         public int ItemCount  

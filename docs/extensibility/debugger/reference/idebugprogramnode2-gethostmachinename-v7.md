@@ -37,13 +37,13 @@ DEPRECATED. DO NOT USE.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostMachineName_V7 (   
    BSTR* pbstrHostMachineName  
 );  
 ```  
   
-```cs  
+```csharp  
 int GetHostMachineName_V7 (   
    out string pbstrHostMachineName  
 );  

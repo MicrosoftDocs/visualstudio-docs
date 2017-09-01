@@ -36,7 +36,7 @@ Specifies the position from which to start seeking in a disassembly stream.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_SEEK_START {   
    SEEK_START_BEGIN       = 0x0001,  
    SEEK_START_END         = 0x0002,  
@@ -47,7 +47,7 @@ enum enum_SEEK_START { 
 typedef DWORD SEEK_START;  
 ```  
   
-```cs  
+```csharp  
 public enum enum_SEEK_START {   
    SEEK_START_BEGIN       = 0x0001,  
    SEEK_START_END         = 0x0002,  

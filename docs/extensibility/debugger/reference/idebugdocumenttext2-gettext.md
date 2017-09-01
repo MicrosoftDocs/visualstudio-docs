@@ -36,7 +36,7 @@ Retrieves the text from the specified position in the document.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetText(   
    TEXT_POSITION pos,  
    ULONG         cMaxChars,  
@@ -45,7 +45,7 @@ HRESULT GetText( 
 );  
 ```  
   
-```cs  
+```csharp  
 int GetText(   
    eumn_TEXT_POSITION pos,  
    uint               cMaxChars,  
@@ -73,7 +73,7 @@ int GetText( 
 ## Example  
  This example shows how this method can be called from C#.  
   
-```cs  
+```csharp  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio;  
 using Microsoft.VisualStudio.Debugger.Interop;  

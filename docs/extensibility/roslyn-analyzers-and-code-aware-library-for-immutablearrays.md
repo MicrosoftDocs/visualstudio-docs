@@ -176,7 +176,7 @@ You can drag the yellow execution pointer on the left side of the editor window.
 **Get the object creation expression's type.** "Type" is used in a few ways in this article, but this means if you have "new Foo" expression, you need to get a model of Foo.  You need to get the type of the object creation expression to see if it is the ImmutableArray\<T> type.  Use the semantic model again to get symbol information for the type symbol (ImmutableArray) in the object creation expression.  Enter the following line of code at the end of the function:
 
 ```csharp
-var symbolInfo = context.SemanticModel.GetSymbolInfo(objectCreation.Type) as INamedTypeSymbol;
+var symbolInfo = context.SemanticModel.GetSymbolInfo(objectCreation.Type).Symbol as INamedTypeSymbol;
 ```
 
 Because your analyzer needs to handle incomplete or incorrect code in editor buffers (for example, there is a missing `using` statement), you should check for `symbolInfo` being `null`.  You need to get a named type (INamedTypeSymbol) from the symbol information object to finish the analysis.
@@ -206,7 +206,7 @@ private void AnalyzeObjectCreation(SyntaxNodeAnalysisContext context)
                .Compilation
                .GetTypeByMetadataName(
                    "System.Collections.Immutable.ImmutableArray`1");
-    var symbolInfo = context.SemanticModel.GetSymbolInfo(objectCreation.Type) as
+    var symbolInfo = context.SemanticModel.GetSymbolInfo(objectCreation.Type).Symbol as
         INamedTypeSymbol;
     if (symbolInfo != null &&
         symbolInfo.ConstructedFrom.Equals(immutableArrayOfTType))
