@@ -75,7 +75,11 @@ TableAdapters provide communication between your application and a database. The
   
  Any changes that you make to the TableAdapter's main `Fill` method are reflected in the schema of the associated data table. For example, removing a column from the query in the main `Fill` method also removes the column from the associated data table. Additionally, removing the column from the main `Fill` method removes the column from any additional queries for that TableAdapter.  
   
- You can use the TableAdapter Query Configuration Wizard to create and edit additional queries for the TableAdapter. These additional queries must conform to the table schema, unless they return a scalar value.  Each additional query has a name that you specify. The following example shows you how to call an additional query named `FillByCity`: `CustomersTableAdapter.FillByCity(NorthwindDataSet.Customers, "Seattle")`.  
+ You can use the TableAdapter Query Configuration Wizard to create and edit additional queries for the TableAdapter. These additional queries must conform to the table schema, unless they return a scalar value.  Each additional query has a name that you specify.  
+ 
+ The following example shows you how to call an additional query named `FillByCity`:  
+ 
+ `CustomersTableAdapter.FillByCity(NorthwindDataSet.Customers, "Seattle")`  
   
 #### To start the TableAdapter Query Configuration Wizard with a new query  
   
