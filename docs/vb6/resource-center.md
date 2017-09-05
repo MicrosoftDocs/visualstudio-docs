@@ -16,6 +16,8 @@ manager: "wpickett"
 
 ## Visual Basic offers from partners
 
+[Partner offers](partners/index.md)   
+
 ## Other resources
 
 [Support statement for Visual Basic 6.0 on Windows](https://docs.microsoft.com/en-us/dotnet/visual-basic/reference/vb6-support)
