@@ -17,7 +17,7 @@ manager: "wpickett"
 
 <table>
    <tr>
-      <td><img src="media/vbuc.png" alt="Mobilize.Net's Visual Basic Upgrade Companion (VBUC)" width="400" /> </td> 
+      <td><img src="media/vbuc.png" alt="Mobilize.Net's Visual Basic Upgrade Companion (VBUC)" width="100" /> </td> 
       <td>Mobilize.Net's Visual Basic Upgrade Companion (VBUC) is the industry-leading tool for the migration of VIsual Basic 6 to both Visual Basic .NET and C#. With a proven track record of millions of lines of code upgraded to Microsoft's .NET Framework, the VBUC helps you move your business-critical applications out of obsolescence free of ties to third-party dependencies. </p>
       If you are look to take advantage of new Microsoft technologies, reducing development, deployment, nad maintenance costs, and addressing compliance issues or meeting market demands, the VBUC is the most advanced and cost-effective solution out there.</p> </td>  
    </tr>
