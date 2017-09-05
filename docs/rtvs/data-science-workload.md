@@ -49,7 +49,7 @@ By default, the workload installs the following options, which you can modify in
     - Runtime support for R development tools
 
 > [!Note]
-> Although F# is included with a number of other workloads and Python has a workload of its own, the Data Science and Analytical Applications is the only workload at present that includes R. Independent of the workload, the three R components are also selectable on the **Individual Components** tab in the installer. Select the options **Development activities > R language support**, **Development activities > Microsoft R Client**, and **Compilers, build tools, and runtimes > Runtime support for R development tools**.
+> Although F# is included with a number of other workloads and Python has a workload of its own, Data Science and Analytical Applications is the only workload at present that includes R. Independent of the workload, the three R components are also selectable on the **Individual Components** tab in the installer. Select the options **Development activities > R language support**, **Development activities > Microsoft R Client**, and **Compilers, build tools, and runtimes > Runtime support for R development tools**.
 
 ## SQL Server integration
 
