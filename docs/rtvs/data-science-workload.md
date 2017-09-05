@@ -28,7 +28,7 @@ The Data Science and Analytical Applications workload in Visual Studio brings to
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/data-science-workload.png)
 
-R and Python are two of the primary scripting languages used for data science. Both are easy to learn and are supported by a rich ecosystem of packages that address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. And F# is a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
+R and Python are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. And F# is a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 
 <!--Note link on the image because this one is large -->
 [![Screenshots of Visual Studio with R, Python, and F#](media/data-science-workload-screens.png)](media/data-science-workload-screens.png)
@@ -84,7 +84,7 @@ In addition to what's in the Data Science and Analytics Applications workload di
 
 The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac OSX, and Linux. For more information, see [Azure SDK for Python](../python/azure-sdk-for-python.md)
 
-Azure Notebooks (currently preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. To get started, visiaul [notebooks.azure.com](https://notebooks.azure.com/).
+Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. To get started, visit[notebooks.azure.com](https://notebooks.azure.com/).
 
 <!--Note link on the image because this one is large -->
 [![Screenshots of Azure Notebooks with the Introduction to R sample](media/data-science-workload-notebooks.png)](media/data-science-workload-notebooks.png)
