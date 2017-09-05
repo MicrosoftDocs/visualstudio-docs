@@ -125,7 +125,7 @@ This report is Company Confidential.
 ### Embedded program code  
  You can insert program code between `<#` and `#>`. For example:  
   
-```c#  
+```csharp  
 <table>  
     <# for (int i = 1; i <= 10; i++)  
        { #>  
@@ -135,7 +135,7 @@ This report is Company Confidential.
  </table>  
 ```  
   
-```vb#  
+```vb  
 <table>  
 <#  
     For i As Integer = 1 To 10  
@@ -161,14 +161,14 @@ This report is Company Confidential.
 ### Generating text at run time  
  In your application code, you can generate the content of your template using a call like this:  
   
-```c#  
+```csharp  
 MyWebPage page = new MyWebPage();  
 String pageContent = page.TransformText();  
 System.IO.File.WriteAllText("outputPage.html", pageContent);  
   
 ```  
   
-```vb#  
+```vb  
 Dim page = New My.Templates.MyWebPage  
 Dim pageContent = page.TransformText()  
 System.IO.File.WriteAllText("outputPage.html", pageContent)  
@@ -187,7 +187,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
   
  For example, you could create a separate file **MyWebPageCode.cs**:  
   
-```c#  
+```csharp  
 partial class MyWebPage  
 {  
     private MyData m_data;  
@@ -196,7 +196,7 @@ partial class MyWebPage
   
  In your template file **MyWebPage.tt**, you could write:  
   
-```c#  
+```csharp  
 <h2>Sales figures</h2>  
 <table>  
 <# foreach (MyDataItem item in m_data.Items)   
@@ -211,7 +211,7 @@ partial class MyWebPage
   
  To use this template in the application:  
   
-```c#  
+```csharp  
 MyData data = ...;  
 MyWebPage page = new MyWebPage(data);  
 String pageContent = page.TransformText();  
@@ -221,7 +221,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent);
 #### Constructor parameters in Visual Basic  
  In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the separate file **MyWebPageCode.vb** contains:  
   
-```vb#  
+```vb  
 Namespace My.Templates  
   Partial Public Class MyWebPage  
     Private m_data As MyData  
@@ -234,7 +234,7 @@ End Namespace
   
  The template file could contain:  
   
-```vb#  
+```vb  
 <#@ template language="VB" #>  
 <html><body>  
 <h1>Sales for January</h2>  
@@ -255,7 +255,7 @@ This report is Company Confidential.
   
  And the template would be invoked by passing the parameter in the constructor:  
   
-```vb#  
+```vb  
 Dim data = New My.Templates.MyData  
     ' Add data values here ....  
 Dim page = New My.Templates.MyWebPage(data)  
@@ -312,7 +312,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
   
  **SharedFragments.tt:**  
   
-```c#  
+```csharp  
 <#@ template language="C#" #>  
 <#+  
 protected void SharedText(int n)  
@@ -328,7 +328,7 @@ protected void SharedText(int n)
   
  **MyTextTemplate1.tt:**  
   
-```c#  
+```csharp  
 <#@ template language="C#" inherits="SharedFragments" #>  
 begin 1  
    <# SharedText(2); #>  
@@ -338,7 +338,7 @@ end 1
   
  **MyProgram.cs:**  
   
-```c#  
+```csharp  
 ...   
 MyTextTemplate1 t1  = new MyTextTemplate1();  
 string result = t1.TransformText();  
@@ -358,7 +358,7 @@ end 1
   
  **AbstractBaseTemplate1.tt:**  
   
-```c#  
+```csharp  
 <#@ template language="C#" #>  
   
 Here is the description for this derived template:  
@@ -382,7 +382,7 @@ End of common template.
   
  **DerivedTemplate1.tt:**  
   
-```c#  
+```csharp  
 <#@ template language="C#" inherits="AbstractBaseTemplate1" #>  
 <#   
   // Set the base template properties:  
@@ -409,7 +409,7 @@ protected override void SpecificFragment(int n)
   
  **Application code:**  
   
-```c#  
+```csharp  
 ...   
 DerivedTemplate1 t1 = new DerivedTemplate1();  
 string result = t1.TransformText();  

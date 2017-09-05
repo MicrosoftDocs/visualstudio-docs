@@ -42,7 +42,7 @@ HRESULT DestroyObjectID(
 );  
 ```  
   
-```c#  
+```csharp  
 int DestroyObjectID();  
 ```  
   

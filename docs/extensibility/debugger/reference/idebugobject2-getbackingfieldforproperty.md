@@ -42,7 +42,7 @@ HRESULT GetBackingFieldForProperty(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetBackingFieldForProperty(  
    out IDebugObject2 ppObject  
 );  

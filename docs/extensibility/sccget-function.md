@@ -36,7 +36,7 @@ This function retrieves a copy of one or more files for viewing and compiling bu
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGet(  
    LPVOID    pvContext,  
    HWND      hWnd,  

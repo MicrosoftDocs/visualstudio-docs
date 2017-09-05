@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "saving data, using transactions"
   - "System.Transactions namespace"
@@ -53,11 +51,11 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
   
  For more information, see [Save data in a transaction](../data-tools/save-data-in-a-transaction.md).  
   
-### To add a reference to the System.Transactions dll  
+### To add a reference to the System.Transactions.dll  
   
 1.  On the **Project** menu, select **Add Reference**.  
   
-2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and thenselect**OK**.  
+2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.  
   
      A reference to System.Transactions.dll is added to the project.  
   
@@ -66,7 +64,7 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
 -   Add code to save data within the using statement that contains the transaction. The following code shows how to create and instantiate a <xref:System.Transactions.TransactionScope> object in a using statement:  
   
      [!code-vb[VbRaddataSaving#11](../data-tools/codesnippet/VisualBasic/save-data-by-using-a-transaction_1.vb)]
-     [!code-cs[VbRaddataSaving#11](../data-tools/codesnippet/CSharp/save-data-by-using-a-transaction_1.cs)]  
+     [!code-csharp[VbRaddataSaving#11](../data-tools/codesnippet/CSharp/save-data-by-using-a-transaction_1.cs)]  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

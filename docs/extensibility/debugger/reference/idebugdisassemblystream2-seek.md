@@ -36,7 +36,7 @@ Moves the read pointer in the disassembly stream a given number of instructions 
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Seek(   
    SEEK_START          dwSeekStart,  
    IDebugCodeContext2* pCodeContext,  
@@ -45,7 +45,7 @@ HRESULT Seek( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Seek(   
    enum_SEEK_START    dwSeekStart,  
    IDebugCodeContext2 pCodeContext,  

@@ -36,14 +36,14 @@ Gets the object pointed to.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DeReference(   
    DWORD          dwIndex,  
    IDebugObject** ppObject  
 );  
 ```  
   
-```c#  
+```csharp  
 int Dereference(  
    uint             dwIndex,   
    out IDebugObject ppObject  

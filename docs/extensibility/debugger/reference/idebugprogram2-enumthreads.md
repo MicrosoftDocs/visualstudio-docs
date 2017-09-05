@@ -36,13 +36,13 @@ Retrieves a list of the threads that are running in the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumThreads(   
    IEnumDebugThreads2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumThreads(   
    out IEnumDebugThreads2 ppEnum  
 );  

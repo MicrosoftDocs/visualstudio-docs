@@ -43,7 +43,7 @@ After you implement a command, you can add code to update the user interface wit
   
          An <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface can be obtained from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service, as follows.  
   
-        ```c#  
+        ```csharp  
         void UpdateUI(Microsoft.VisualStudio.Shell.ServiceProvider sp)  
         {  
             IVsUIShell vsShell = (IVsUIShell)sp.GetService(typeof(IVsUIShell));  

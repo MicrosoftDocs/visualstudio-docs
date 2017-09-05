@@ -91,7 +91,7 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
 ### Get data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
  To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:  
   
-```c#  
+```csharp  
 <#@ template hostspecific="true" language="C#" #>  
 <#@ output extension=".txt" #>  
 <#@ assembly name="EnvDTE" #>  

@@ -66,7 +66,7 @@ IDebugField : IUnknown
   
  In the following C++ language example, `weather` is a class type, and `sunny` and `stormy` are symbols:  
   
-```cpp#  
+```cpp  
 class weather;  
 weather sunny;  
 weather stormy;  

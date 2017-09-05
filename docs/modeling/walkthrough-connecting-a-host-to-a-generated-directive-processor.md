@@ -110,11 +110,11 @@ You can write your own host that processes text templates. A basic custom host i
   
 4.  At the top of Program.cs or Module1.vb, add the following line of code:  
   
-    ```c#  
+    ```csharp  
     using Microsoft.Win32;  
     ```  
   
-    ```vb#  
+    ```vb  
     Imports Microsoft.Win32  
     ```  
   
@@ -123,7 +123,7 @@ You can write your own host that processes text templates. A basic custom host i
     > [!NOTE]
     >  In this step, you add references to the assemblies that are required by the generated directive processor that your host will support.  
   
-    ```c#  
+    ```csharp  
     //the host can provide standard assembly references  
     //the engine will use these references when compiling and  
     //executing the generated transformation class  
@@ -159,7 +159,7 @@ You can write your own host that processes text templates. A basic custom host i
     > [!IMPORTANT]
     >  This code contains hard-coded references to the name of the generated directive processor to which you want to connect. You could easily make this more general, in which case it looks for all directive processors listed in the registry and tries to find a match. In that case, the host would work with any generated directive processor.  
   
-    ```c#  
+    ```csharp  
     //the engine calls this method based on the directives the user has   
             //specified it in the text template  
             //this method can be called 0, 1, or more times  
@@ -244,7 +244,7 @@ You can write your own host that processes text templates. A basic custom host i
     > [!NOTE]
     >  The programming language of the text template does not need to match that of the custom host.  
   
-    ```c#  
+    ```csharp  
     Text Template Host Test  
   
     <#@ template debug="true" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>  
@@ -276,7 +276,7 @@ You can write your own host that processes text templates. A basic custom host i
     #>  
     ```  
   
-    ```vb#  
+    ```vb  
     Text Template Host Test  
   
     <#@ template debug="true" language="VB" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>  

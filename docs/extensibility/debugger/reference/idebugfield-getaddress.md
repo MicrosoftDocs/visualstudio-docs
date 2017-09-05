@@ -36,13 +36,13 @@ This method gets the debug address of a field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAddress(   
    IDebugAddress** ppAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAddress(  
    out IDebugAddress ppAddress  
 );  

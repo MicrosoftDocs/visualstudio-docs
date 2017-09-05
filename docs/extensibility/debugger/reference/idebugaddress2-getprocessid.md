@@ -42,7 +42,7 @@ HRESULT GetProcessID (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProcessID (  
    out uint pProcID  
 );  

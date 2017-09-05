@@ -56,12 +56,12 @@ manager: "ghogen"
   
 3.  To the bottom of the `createTask1_MethodInvoking` method, add the following code:  
   
-    ```vb#  
+    ```vb  
     createTask1_TaskProperties1.ExtendedProperties("Outcome") =   
       workflowProperties.InitiationData  
     ```  
   
-    ```c#  
+    ```csharp  
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =   
       workflowProperties.InitiationData;  
     ```  
@@ -106,7 +106,7 @@ manager: "ghogen"
   
 2.  Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:  
   
-    ```vb#  
+    ```vb  
     Imports System  
     Imports Microsoft.SharePoint  
     Imports Microsoft.SharePoint.WebControls  
@@ -119,7 +119,7 @@ manager: "ghogen"
     Imports Microsoft.SharePoint.Navigation  
     ```  
   
-    ```c#  
+    ```csharp  
     using System;  
     using Microsoft.SharePoint;  
     using Microsoft.SharePoint.WebControls;  
@@ -134,7 +134,7 @@ manager: "ghogen"
   
 3.  Add the following code to the `Page_Load` method:  
   
-    ```vb#  
+    ```vb  
     Try  
         ' Reference the Tasks list on the SharePoint site.  
         ' Replace "TestServer" with a valid SharePoint server name.  
@@ -204,7 +204,7 @@ manager: "ghogen"
     End Try  
     ```  
   
-    ```c#  
+    ```csharp  
     try  
     {  
         // Reference the Tasks list on the SharePoint site.  

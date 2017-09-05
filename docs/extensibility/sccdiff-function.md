@@ -36,7 +36,7 @@ This function displays (or optionally just checks for) the differences between t
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccDiff(  
    LPVOID    pvContext,  
    HWND      hWnd,  

@@ -79,7 +79,7 @@ IDebugSymbolProvider : IUnknown
 ## Example  
  This example shows how to instantiate the symbol provider, given its GUID (a debug engine must know this value).  
   
-```cpp#  
+```cpp  
 // A debug engine uses its own symbol provider and would know the GUID  
 // of that provider.  
 IDebugSymbolProvider *GetSymbolProvider(GUID *pSymbolProviderGuid)  

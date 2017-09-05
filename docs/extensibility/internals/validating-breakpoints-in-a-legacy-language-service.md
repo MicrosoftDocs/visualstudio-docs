@@ -50,7 +50,7 @@ A breakpoint indicates that program execution should stop at a particular point 
   
  This example assumes that you have added a `GetCodeSpan` method to the <xref:Microsoft.VisualStudio.Package.AuthoringSink> class that validates the text span and returns `true` if it is a valid breakpoint location.  
   
-```c#  
+```csharp  
 using Microsoft VisualStudio;  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  

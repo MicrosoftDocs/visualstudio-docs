@@ -42,7 +42,7 @@ HRESULT DisableENC(
 );  
 ```  
   
-```c#  
+```csharp  
    EncUnavailableReason reason  
 );  
 ```  

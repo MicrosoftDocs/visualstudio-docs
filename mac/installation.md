@@ -19,7 +19,7 @@ For working with iOS in Visual Studio you need the following pieces:
 
 * a Mac with macOS Sierra 10.12 or above
 * Xcode 8.3
-* An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary yo have an Apple ID for installing and signing into Xcode.
+* An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Install
 

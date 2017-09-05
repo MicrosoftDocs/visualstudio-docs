@@ -92,13 +92,13 @@ Application settings enable you to store application information dynamically. Se
 ## Accessing or Changing Application Settings at Run Time in Visual C# #
  In languages other than [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.  
   
-```c#  
+```csharp  
 Properties.Settings.Default.FirstUserSetting = "abc";  
 ```  
   
  You must also explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the `Closing` event handler of the main form. The following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example shows a call to the `Save` method.  
   
-```c#  
+```csharp  
 Properties.Settings.Default.Save();  
 ```  
   

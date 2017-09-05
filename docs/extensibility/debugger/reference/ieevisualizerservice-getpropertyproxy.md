@@ -43,7 +43,7 @@ HRESULT GetPropertyProxy(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPropertyProxy(  
    uint                     dwID,  
    out IPropertyProxyEESide proxy  

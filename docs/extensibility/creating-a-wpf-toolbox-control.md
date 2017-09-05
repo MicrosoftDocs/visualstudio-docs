@@ -75,7 +75,7 @@ The WPF (Windows Presentation Framework) Toolbox Control template lets you creat
   
      The resulting code should look like this:  
   
-    ```c#  
+    ```csharp  
     [ProvideToolboxControl("Test", true)]  
     public partial class TestControl : UserControl  
     {  

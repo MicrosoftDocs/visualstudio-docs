@@ -36,13 +36,13 @@ Creates an enumerator for static local variables of the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumStaticLocals(   
    IEnumDebugFields** ppLocals  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumStaticLocals(  
    out IEnumDebugFields ppLocals  
 );  

@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Visual Studio], object binding"
   - "data [Visual Studio], binding to objects"
@@ -38,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Bind objects in Visual Studio
-Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Frameworkautogenerates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object.    For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).  
+Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Framework auto-generates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object. For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).  
   
 > [!TIP]
 >  The approaches to object binding in this article should only be considered if your application is already based on datasets.These approaches can also be used if you are already familiar with datasets, and the data you will be processing is tabular and not too complex or too big. For an even simpler example, involving loading data directly into objects by using a DataReader and manually updating the UI without databinding, see [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md).  
@@ -61,11 +59,9 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
 -   Changing/editing the data in an object.  
   
--   Saving data from objects back to the database.  
+-   Saving data from objects back to the database.   
   
- 
-  
-### Loaddata into objects  
+### Load data into objects  
  For this example, you load data into your objects by using TableAdapters. By default, TableAdapters are created with two kinds of methods that fetch data from a database and populate data tables.  
   
 -   The `TableAdapter.Fill` method fills an existing data table with the data returned.  
@@ -79,7 +75,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following example shows how to loop through the rows in a data table, and populate an object with data:  
   
- [!code-cs[VbRaddataConnecting#4](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_1.cs)]
+ [!code-csharp[VbRaddataConnecting#4](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_1.cs)]
  [!code-vb[VbRaddataConnecting#4](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_1.vb)]  
   
 ### Create a typed collection of objects  
@@ -94,10 +90,10 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to create the class for a strongly-typed collection of `Order` objects:  
   
- [!code-cs[VbRaddataConnecting#8](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_2.cs)]
+ [!code-csharp[VbRaddataConnecting#8](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_2.cs)]
  [!code-vb[VbRaddataConnecting#8](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_2.vb)]  
   
-### Addobjects to a collection  
+### Add objects to a collection  
  You add objects to a collection by calling the `Add` method of your custom collection class or of the <xref:System.Windows.Forms.BindingSource>.  
   
  
@@ -106,7 +102,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:  
   
- [!code-cs[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
+ [!code-csharp[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
  [!code-vb[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]  
   
  The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:  
@@ -114,10 +110,10 @@ Visual Studio provides design-time tools for working with custom objects as the 
 > [!NOTE]
 >  In this example the `Orders` collection is a property of the `Customer` object.  
   
- [!code-cs[VbRaddataConnecting#6](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_4.cs)]
+ [!code-csharp[VbRaddataConnecting#6](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_4.cs)]
  [!code-vb[VbRaddataConnecting#6](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_4.vb)]  
   
-### Removeobjects from a collection  
+### Remove objects from a collection  
  You remove objects from a collection by calling the `Remove` or `RemoveAt` method of your custom collection class or of <xref:System.Windows.Forms.BindingSource>.  
   
 > [!NOTE]
@@ -125,10 +121,10 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> method:  
   
- [!code-cs[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]
+ [!code-csharp[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]
  [!code-vb[VbRaddataConnecting#7](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_5.vb)]  
   
-### Displayobject data to users  
+### Display object data to users  
  To display the data in objects to users, create an object data source using the **Data Source Configuration** wizard, and then drag the entire object or individual properties onto your form from the **Data Sources** window.  
   
 ### Modify the data in objects  
@@ -136,7 +132,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  If your application requires the tracking of changes and the rolling back of proposed changes to their original values, then you must implement this functionality in your object model. For examples of how data tables keep track of proposed changes, see <xref:System.Data.DataRowState>, <xref:System.Data.DataSet.HasChanges%2A>, and <xref:System.Data.DataTable.GetChanges%2A>.  
   
-### Savedata in objects back to the database  
+### Save data in objects back to the database  
  Save data back to the database by passing the values from your object to the TableAdapter's DBDirect methods.  
   
  Visual Studio creates DBDirect methods that can be executed directly against the database. These methods do not require DataSet or DataTable objects.  
@@ -151,7 +147,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following example shows how to use the `TableAdapter.Insert` DBDirect method to add a new customer directly into the database:  
   
- [!code-cs[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]
+ [!code-csharp[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]
  [!code-vb[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_6.vb)]  
   
 ## See Also  

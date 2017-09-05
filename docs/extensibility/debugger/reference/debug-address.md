@@ -45,7 +45,7 @@ typedef struct _tagDEBUG_ADDRESS {
 } DEBUG_ADDRESS;  
 ```  
   
-```c#  
+```csharp  
 public struct DEBUG_ADDRESS {  
    public uint                ulAppDomainID;  
    public Guid                guidModule;  

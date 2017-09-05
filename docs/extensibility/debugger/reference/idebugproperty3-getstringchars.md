@@ -44,7 +44,7 @@ HRESULT GetStringChars(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetStringChars(  
    uint       buflen,   
    out string rgString,   

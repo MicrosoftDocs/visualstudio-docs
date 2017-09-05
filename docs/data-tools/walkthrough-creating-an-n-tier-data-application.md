@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "n-tier applications, creating"
   - "n-tier applications, walkthroughs"
@@ -236,7 +234,7 @@ translation.priority.ht:
   
 2.  Add the following code under the **Add your service operations here** comment:  
   
-    ```vb#  
+    ```vb  
     <OperationContract()> _  
     Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable  
   
@@ -244,20 +242,19 @@ translation.priority.ht:
     Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable  
     ```  
   
-    ```c#  
+    ```csharp  
     [OperationContract]  
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();  
   
     [OperationContract]  
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();  
-  
     ```  
   
 3.  In the DataService project, double-click Service1.vb (or Service1.cs).  
   
 4.  Add the following code to the Service1 class:  
   
-    ```vb#  
+    ```vb  
     Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers  
         Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter  
         Return CustomersTableAdapter1.GetCustomers()  
@@ -269,14 +266,13 @@ translation.priority.ht:
     End Function  
     ```  
   
-    ```c#  
+    ```csharp  
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()  
     {  
         DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter  
              CustomersTableAdapter1  
             = new DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter();  
         return CustomersTableAdapter1.GetCustomers();  
-  
     }  
     public DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders()  
     {  
@@ -284,7 +280,6 @@ translation.priority.ht:
              OrdersTableAdapter1  
             = new DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter();  
         return OrdersTableAdapter1.GetOrders();  
-  
     }  
     ```  
   
@@ -351,18 +346,17 @@ translation.priority.ht:
   
 7.  Add the following code to the `Form1_Load` event handler.  
   
-    ```vb#  
+    ```vb  
     Dim DataSvc As New ServiceReference1.Service1Client  
     NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)  
     NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)  
     ```  
   
-    ```c#  
+    ```csharp  
     ServiceReference1.Service1Client DataSvc =   
         new ServiceReference1.Service1Client();  
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());  
     northwindDataSet.Orders.Merge(DataSvc.GetOrders());  
-  
     ```  
   
 ## Increasing the Maximum Message Size Allowed by the Service  

@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 ms.assetid: 36f913c0-f5a7-4831-83a0-baba721ac95c
 caps.latest.revision: 14
 author: "mikeblome"
@@ -222,7 +217,7 @@ In this walkthrough, you use Visual Studio to create a small database that conta
     GO  
     ```  
   
-5.  On the menu bar, select **File** > **Save SqlQuery_1.sql As**.  
+5.  On the menu bar, select **File** > **Save SqlQuery_1.sql As...**.  
   
      The **Save File As** dialog box appears.  
   

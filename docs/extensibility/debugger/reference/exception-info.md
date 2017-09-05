@@ -36,7 +36,7 @@ Describes an exception or run-time error thrown by the program being debugged.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagEXCEPTION_INFO {   
    IDebugProgram2* pProgram;  
    BSTR            bstrProgramName;  
@@ -47,7 +47,7 @@ typedef struct tagEXCEPTION_INFO { 
 } EXCEPTION_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct EXCEPTION_INFO {   
    public IDebugProgram2 pProgram;  
    public string         bstrProgramName;  

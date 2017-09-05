@@ -18,7 +18,7 @@ Visual Studio for Mac is a modern, sophisticated IDE with many features for crea
 * ASP.NET Core Web applications
 * Cross-platform Unity games
 
-It includes a rich editor, debugging, native platform integration with iOS, Mac and Android, and integrated source control to name just of few of its many features.
+It includes a rich editor, debugging, native platform integration with iOS, Mac and Android, and integrated source control to name just a few of its many features.
 
 This topic surveys various sections of Visual Studio for Mac, providing a look at some of the features that make it a powerful tool for creating cross-platform applications.
 

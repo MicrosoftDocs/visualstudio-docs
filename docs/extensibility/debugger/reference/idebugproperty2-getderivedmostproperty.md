@@ -36,13 +36,13 @@ Gets the derived-most property of a property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDerivedMostProperty (   
    IDebugProperty2** ppDerivedMost  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDerivedMostProperty (   
    out IDebugProperty2 ppDerivedMost  
 );  

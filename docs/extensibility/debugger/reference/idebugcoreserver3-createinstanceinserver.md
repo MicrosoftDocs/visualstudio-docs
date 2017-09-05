@@ -36,7 +36,7 @@ Creates an instance of a debug engine on the server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateInstanceInServer(  
    LPCWSTR  szDll,  
    WORD     wLangId,  
@@ -46,7 +46,7 @@ HRESULT CreateInstanceInServer(
 );  
 ```  
   
-```c#  
+```csharp  
 int CreateInstanceInServer(  
    string     szDll,   
    ushort     wLangID,   

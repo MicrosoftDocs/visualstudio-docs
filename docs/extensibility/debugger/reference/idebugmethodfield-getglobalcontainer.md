@@ -36,13 +36,13 @@ Gets the global container of the method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetGlobalContainer(  
    IDebugClassField** ppClass  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetGlobalContainer(  
    out IDebugClassField ppClass  
 );  

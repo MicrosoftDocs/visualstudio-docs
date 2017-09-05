@@ -115,7 +115,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
 3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
 
     > [!TIP]
-    > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** fter right-clicking on the **Name** column in the thread row.
+    > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** after right-clicking on the **Name** column in the thread row.
   
 4.  Right-click the thread marker to see the available options on the shortcut menu. 
     
@@ -148,7 +148,7 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)
 
-8. Open the Threads window by choosing **Debug / Windows / Threads**.
+8. Open the Threads window by choosing **Debug > Windows > Threads**.
 
     ![Threads Window](../debugger/media/dbg-threads-window.png "ThreadsWindow")  
   

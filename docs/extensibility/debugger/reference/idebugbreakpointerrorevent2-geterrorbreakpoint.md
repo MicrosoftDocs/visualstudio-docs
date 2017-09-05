@@ -36,13 +36,13 @@ Gets an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebu
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetErrorBreakpoint(   
    IDebugErrorBreakpoint2** ppErrorBP  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetErrorBreakpoint(   
    out IDebugErrorBreakpoint2 ppErrorBP  
 );  
@@ -61,7 +61,7 @@ int GetErrorBreakpoint( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointSetDebugEventBase** object that exposes the [IDebugBreakpointErrorEvent2](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointErrorDebugEventBase::GetErrorBreakpoint(  
     IDebugErrorBreakpoint2 **ppbp)  
 {  

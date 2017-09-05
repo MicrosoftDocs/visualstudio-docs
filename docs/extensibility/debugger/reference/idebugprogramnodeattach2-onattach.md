@@ -36,13 +36,13 @@ Attaches to the associated program or defers the attach process to the [Attach](
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT OnAttach(  
    [in] REFGUID guidProgramId  
 );  
 ```  
   
-```c#  
+```csharp  
 int OnAttach(  
    ref Guid guidProgramId  
 };  

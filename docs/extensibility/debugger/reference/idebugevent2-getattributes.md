@@ -36,13 +36,13 @@ Gets the attributes for this debug event.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAttribute(   
    DWORD* pdwAttrib  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAttribute(   
    out uint pdwAttrib  
 );  

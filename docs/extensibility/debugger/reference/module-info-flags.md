@@ -36,14 +36,14 @@ Specifies the state of symbols for a module.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MODULE_INFO_FLAGS {  
    MIF_SYMBOLS_LOADED = 0x0001  
 };  
 typedef DWORD MODULE_INFO_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_MODULE_INFO_FLAGS {  
    MIF_SYMBOLS_LOADED = 0x0001  
 };  

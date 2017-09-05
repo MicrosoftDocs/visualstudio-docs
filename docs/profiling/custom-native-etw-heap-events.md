@@ -59,7 +59,7 @@ Foo* pFoo2 = (Foo*)mPool.allocate();
 Foo* pFoo3 = (Foo*)mPool.allocate();
 ```
 
-A snapshot from the The [Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage) tool without custom heap tracking would show just the single 8192 byte allocation, and none of the custom allocations being made by the pool:
+A snapshot from the [Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage) tool without custom heap tracking would show just the single 8192 byte allocation, and none of the custom allocations being made by the pool:
 
 ![Windows Heap allocation](media/heap-example-windows-heap.png)
 

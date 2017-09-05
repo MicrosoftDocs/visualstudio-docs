@@ -102,7 +102,7 @@ Namespace Microsoft.Samples
 End Namespace  
 ```  
   
-```c#  
+```csharp  
   
       using System;   
 using System.Diagnostics;   
@@ -129,4 +129,4 @@ namespace Microsoft.Samples
 ## Example  
  The following example contains several methods that should be converted to properties, and several that should not because they do not behave like fields.  
   
- [!code-cs[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024-use-properties-where-appropriate_1.cs)]
+ [!code-csharp[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024-use-properties-where-appropriate_1.cs)]

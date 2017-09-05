@@ -36,13 +36,13 @@ This method informs the process that a session is no longer debugging the proces
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Detach(   
    IDebugSession2* pSession  
 );  
 ```  
   
-```c#  
+```csharp  
 int Detach(  
    IDebugSession2 pSession  
 );  

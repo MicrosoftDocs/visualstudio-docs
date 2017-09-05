@@ -36,7 +36,7 @@ Specifies the condition associated with the breakpoint pass count that causes th
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_PASSCOUNT_STYLE {   
    BP_PASSCOUNT_NONE             = 0x0000,  
    BP_PASSCOUNT_EQUAL            = 0x0001,  
@@ -46,7 +46,7 @@ enum enum_BP_PASSCOUNT_STYLE { 
 typedef DWORD BP_PASSCOUNT_STYLE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BP_PASSCOUNT_STYLE {   
    BP_PASSCOUNT_NONE             = 0x0000,  
    BP_PASSCOUNT_EQUAL            = 0x0001,  

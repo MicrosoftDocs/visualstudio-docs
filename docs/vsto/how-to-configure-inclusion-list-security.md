@@ -69,7 +69,7 @@ manager: "ghogen"
   
 2.  Open the Program.vb or Program.cs file for editing and add the following code.  
   
-    ```vb#  
+    ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")  
     key.SetValue("MyComputer", "Enabled")  
@@ -80,7 +80,7 @@ manager: "ghogen"
     key.Close()  
     ```  
   
-    ```c#  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "Enabled");  
@@ -128,7 +128,7 @@ manager: "ghogen"
   
 2.  Open the Program.vb or Program.cs file for editing and add the following code.  
   
-    ```vb#  
+    ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")  
     key.SetValue("MyComputer", "AuthenticodeRequired")  
@@ -139,7 +139,7 @@ manager: "ghogen"
     key.Close()  
     ```  
   
-    ```c#  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "AuthenticodeRequired");  
@@ -183,7 +183,7 @@ manager: "ghogen"
   
 2.  Open the Program.vb or Program.cs file for editing and add the following code.  
   
-    ```vb#  
+    ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")  
     key.SetValue("MyComputer", "Disabled")  
@@ -194,7 +194,7 @@ manager: "ghogen"
     key.Close()  
     ```  
   
-    ```c#  
+    ```csharp  
     Microsoft.Win32.RegistryKey key;  
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");  
     key.SetValue("MyComputer", "Disabled");  

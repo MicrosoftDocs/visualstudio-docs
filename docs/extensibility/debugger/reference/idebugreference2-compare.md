@@ -36,14 +36,14 @@ Compares one reference to another. Reserved for future use.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Compare (   
    REFERENCE_COMPARE dwCompare,  
    IDebugReference2* pReference  
 );  
 ```  
   
-```c#  
+```csharp  
 int Compare (   
    enum_REFERENCE_COMPARE dwCompare,  
    IDebugReference2       pReference  

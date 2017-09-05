@@ -36,7 +36,7 @@ This structure provides information about processes running on a machine.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagPROVIDER_PROCESS_DATA {  
    PROVIDER_FIELDS    Fields;  
    PROGRAM_NODE_ARRAY ProgramNodes;  
@@ -44,7 +44,7 @@ typedef struct tagPROVIDER_PROCESS_DATA {
 } PROVIDER_PROCESS_DATA;  
 ```  
   
-```c#  
+```csharp  
 public struct PROVIDER_PROCESS_DATA {  
    public uint               Fields;  
    public PROGRAM_NODE_ARRAY ProgramNodes;  

@@ -74,13 +74,13 @@ private static int AddInt(int add)
   
  We'll assume that the expected value of `resultInt` after calling `AddAll()` is 20 (the result of incrementing `testInt` 20 times). (We'll also assume that you can't see the bug in `AddInt()`).But the result is actually 44. How can we find the bug without stepping through `AddAll()` 10 times? We can use Historical Debugging to find the bug faster and more easily. Here's how:  
   
-1.  In Tools / Options / IntelliTrace / General, make sure that IntelliTrace is enabled, and select the IntelliTrace events and call information option. If you do not select this option, you will not be able to see the navigation gutter (as explained below).  
+1.  In Tools > Options > IntelliTrace > General, make sure that IntelliTrace is enabled, and select the IntelliTrace events and call information option. If you do not select this option, you will not be able to see the navigation gutter (as explained below).  
   
 2.  Set a breakpoint on the `Console.WriteLine(resultInt);` line.  
   
 3.  Start debugging. The code executes to the breakpoint. In the **Locals** window, you can see that the value of `resultInt` is 44.  
   
-4.  Open the **Diagnostic Tools** window (**Debug / Show Diagnostic Tools**). The code window should look like this:  
+4.  Open the **Diagnostic Tools** window (**Debug > Show Diagnostic Tools**). The code window should look like this:  
   
      ![Code window at the breakpoint](../debugger/media/historicaldebuggingbreakpoint.png "HistoricalDebuggingBreakpoint")  
   

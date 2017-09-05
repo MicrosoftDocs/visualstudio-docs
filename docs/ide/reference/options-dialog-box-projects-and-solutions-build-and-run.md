@@ -56,5 +56,5 @@ Determines how much information is written to the build log file, which is locat
 
 ## See Also  
 -[Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-- [Options Dialog Box,  Projects and Solutions](../../ide/projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box,  Projects and Solutions](projects-and-solutions-options-dialog-box.md)
+- [Options Dialog Box,  Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)

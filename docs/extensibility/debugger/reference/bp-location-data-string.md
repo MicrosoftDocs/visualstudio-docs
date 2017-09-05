@@ -36,7 +36,7 @@ Used for setting data breakpoints that are based on a string that the user can e
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_DATA_STRING {   
    IDebugThread2* pThread;  
    BSTR           bstrContext;  

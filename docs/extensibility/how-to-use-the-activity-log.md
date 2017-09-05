@@ -40,7 +40,7 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:  
   
-    ```c#  
+    ```csharp  
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
     if (log == null) return;  
   

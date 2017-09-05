@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/msbuild/msbuild1 
+redirect_url: /visualstudio/msbuild/msbuild
 ---

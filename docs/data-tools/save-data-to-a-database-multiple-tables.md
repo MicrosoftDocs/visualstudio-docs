@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "updating datasets, walkthroughs"
   - "data [Visual Studio], saving"
@@ -73,7 +71,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  Name the project `UpdateMultipleTablesWalkthrough`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
   
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -82,13 +80,13 @@ One of the most common scenarios in application development is to display data o
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **Data** menu, select **Show Data Sources**.  
   
 2.  In the **Data Sources** window, select**Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select**Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen do one of the following:  
+4.  On the **Choose your Data Connection** screen do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
@@ -96,9 +94,9 @@ One of the most common scenarios in application development is to display data o
   
     -   Select **New Connection** to open the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select**Next**.  
+5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file**, select**Next**.  
+6.  On the **Save connection string to the Application Configuration file**, select **Next**.  
   
 7.  On the **Choose your Database Objects**screen, expand the **Tables** node .  
   
@@ -132,7 +130,7 @@ One of the most common scenarios in application development is to display data o
      A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. An `OrdersTableAdapter` and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
 ## Addcode to update the database  
- You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the**Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
+ You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the **Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
   
 > [!NOTE]
 >  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](/dotnet/framework/data/adonet/transactions-and-concurrency).  
@@ -144,13 +142,13 @@ One of the most common scenarios in application development is to display data o
 2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, and <xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
   
      [!code-vb[VbRaddataSaving#10](../data-tools/codesnippet/VisualBasic/save-data-to-a-database-multiple-tables_1.vb)]
-     [!code-cs[VbRaddataSaving#10](../data-tools/codesnippet/CSharp/save-data-to-a-database-multiple-tables_1.cs)]  
+     [!code-csharp[VbRaddataSaving#10](../data-tools/codesnippet/CSharp/save-data-to-a-database-multiple-tables_1.cs)]  
   
 ## Test the application  
   
 #### To test the application  
   
-1.  Select**F5**.  
+1.  Select **F5**.  
   
 2.  Make some changes to the data of one or more records in each table.  
   

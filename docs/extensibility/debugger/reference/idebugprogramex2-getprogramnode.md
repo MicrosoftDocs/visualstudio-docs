@@ -36,13 +36,13 @@ Gets the program node associated with a program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgramNode(   
    IDebugProgramNode2** ppProgramNode  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProgramNode(   
    out IDebugProgramNode2 ppProgramNode  
 );  

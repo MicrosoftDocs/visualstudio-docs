@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "SQL Server Express"
   - "SQL Server LocalDB"

@@ -99,8 +99,8 @@ For more information on the advanced application protection features of Dotfusca
 [linking]: https://www.preemptive.com/products/dotfuscator/features#linking
 [pruning]: https://www.preemptive.com/products/dotfuscator/features#pruning
 
-[check-actions]: https://www.preemptive.com/images/stories/Dotfuscator/webframe.html#Check%20Actions.html
-[features]: https://www.preemptive.com/images/stories/Dotfuscator/webframe.html#Feature_Usage_Tracking_and_the_Feature_Attribute.html
+[check-actions]: https://www.preemptive.com/dotfuscator/pro/userguide/en/protection_checks_overview.html#actions
+[features]: https://www.preemptive.com/dotfuscator/pro/userguide/en/instrumentation_features.html
 
 [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
 [eval]: https://www.preemptive.com/eval-request

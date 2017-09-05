@@ -36,13 +36,13 @@ Gets the system thread identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThreadId (   
    DWORD* pdwThreadId  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetThreadId (   
    out uint pdwThreadId  
 );  
@@ -61,7 +61,7 @@ int GetThreadId ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {     
    *pdwThreadId = GetCurrentThreadId();    
    return NOERROR;    

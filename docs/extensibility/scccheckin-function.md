@@ -36,7 +36,7 @@ This function checks in previously checked-out files to the source control syste
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCheckin (  
    LPVOID    pvContext,  
    HWND      hWnd,  

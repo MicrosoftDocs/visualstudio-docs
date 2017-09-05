@@ -46,7 +46,7 @@ IDebugPortSupplier2 : IUnknown
 ## Notes for Callers  
  A call to `CoCreateInstance` with a port supplier's `GUID` returns this interface (this is the typical way to obtain this interface). For example:  
   
-```cpp#  
+```cpp  
 IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)  
 {  
     IDebugPortSupplier2 *pPS = NULL;  
