@@ -140,7 +140,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 |<xref:System.Data.DataRowState.Unchanged>|The row has not changed since <xref:System.Data.DataRow.AcceptChanges%2A> was last called.|  
   
 ### DataRowVersion enumeration  
-Datasets maintain multiple versions of records. The <xref:System.Data.DataRowVersion> fields can be used when retrieving the value found in a <xref:System.Data.DataRow> using the <xref:System.Data.DataRow.Item> property or the <xref:System.Data.DataRow.GetChildRows> method of the <xref:System.Data.DataRow> object.  
+Datasets maintain multiple versions of records. The <xref:System.Data.DataRowVersion> fields can be used when retrieving the value found in a <xref:System.Data.DataRow> using the <xref:System.Data.DataRow.Item%2A> property or the <xref:System.Data.DataRow.GetChildRows%2A> method of the <xref:System.Data.DataRow> object.  
   
 The following table details the possible values of the <xref:System.Data.DataRowVersion> enumeration:  
   
@@ -212,7 +212,7 @@ The following table describes which changes are committed based on what object t
 > [!NOTE]
 >  If you load a dataset by calling a TableAdapter's `Fill` method, you don't have to explicitly accept changes. By default, the `Fill` method calls the `AcceptChanges` method after it finishes populating the data table.  
   
- A related method, `RejectChanges`, undoes the effect of changes by copying the <xref:System.Data.DataRowVersion.Original> version back into the <xref:System.Data.DataRowVersion.Current> version of records. It also sets the <xref:System.Data.DataRow.RowState%2A> of each record back to <xref:System.Data.DataRowState.Unchanged>.  
+ A related method, <xref:System.Data.DataSet.RejectChanges%2A>, undoes the effect of changes by copying the <xref:System.Data.DataRowVersion.Original> version back into the <xref:System.Data.DataRowVersion.Current> version of records. It also sets the <xref:System.Data.DataRow.RowState%2A> of each record back to <xref:System.Data.DataRowState.Unchanged>.  
   
 ## Data validation  
  In order to verify that the data in your application meets the requirements of the processes that it is passed to, you often have to add validation. This might involve checking that a user's entry in a form is correct, validating data that's sent to your application by another application, or even checking that information that's calculated within your component falls within the constraints of your data source and application requirements.  
