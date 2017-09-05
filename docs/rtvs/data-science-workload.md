@@ -45,7 +45,7 @@ By default, the workload installs the following options, which you can modify in
     - Cookiecutter template support
 - R:
     - R language support    
-    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (the R interpreter, although you can use any R from [CRAN](https://cran.r-project.org/))
+    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (Microsoft’s fully compatible, community-supported R interpreter with ScaleR libraries for faster computation on single nodes or clusters. You can also use any R from [CRAN](https://cran.r-project.org/).)
     - Runtime support for R development tools
 
 > [!Note]
