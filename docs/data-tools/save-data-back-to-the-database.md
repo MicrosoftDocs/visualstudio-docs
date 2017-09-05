@@ -48,9 +48,9 @@ The dataset is an in-memory copy of data. If you modify that data, it's a good p
   
 -   By calling the UpdateAll method on the TableAdapterManager that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset  
   
- When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.  
+When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.  
   
- If you're familiar with TableAdapters, you can jump directly to one of these topics:  
+If you're familiar with TableAdapters, you can jump directly to one of these topics:  
   
 |Topic|Description|  
 |-----------|-----------------|  
@@ -110,9 +110,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 -   It prevents an error from being thrown after  you've finished updating one column but haven't started updating another.  
   
 -   It prevents certain update events from being raised (events that are often used for validation).  
-  
- After you complete an update, you can re-enable constraint checking, which also re-enables update events and raises them.  
-  
+   
 > [!NOTE]
 >  In Windows Forms, the data binding architecture that's built into the datagrid suspends constraint checking until focus moves out of a row, and you do not have to explicitly call the <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, or <xref:System.Data.DataRow.CancelEdit%2A> methods.  
   
@@ -179,9 +177,9 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
 -   Immediately after you have loaded information into the dataset, such as when you read data from the source.  
   
--   After sending changes from the dataset to the data source, (but not before, because you would lose the change information that's required to send changes to the database).  
+-   After sending changes from the dataset to the data source (but not before, because you would lose the change information that's required to send changes to the database).  
   
- You can commit the pending changes to the dataset by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method. Typically, <xref:System.Data.DataSet.AcceptChanges%2A> is called during the following times in your application.  
+You can commit the pending changes to the dataset by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method. Typically, <xref:System.Data.DataSet.AcceptChanges%2A> is called at the following times:  
   
 -   After you load the dataset. If you load a dataset by calling a TableAdapter's `Fill` method, then the adapter automatically commits changes for you. However, if you load a dataset by merging another dataset into it, then you have to commit the changes manually.  
   
@@ -193,7 +191,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
     > [!CAUTION]
     >  Committing the change this way erases any change information. Do not commit changes until after you  finish performing operations that require your application to know what changes have been made in the dataset.  
   
- This method accomplishes the following:  
+This method accomplishes the following:  
   
 -   Writes the <xref:System.Data.DataRowVersion> version of a record into its <xref:System.Data.DataRowVersion> version and overwrites the original version.  
   
@@ -201,9 +199,9 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
 -   Sets the <xref:System.Data.DataRow.RowState%2A> property of a record to <xref:System.Data.DataRowState>.  
   
- The <xref:System.Data.DataSet.AcceptChanges%2A> method is available at three levels. You can call it on a <xref:System.Data.DataRow> object to commits changes for just that row. You can also call it on a <xref:System.Data.DataTable> object to commit all rows in a table. Finally, you can call it on the <xref:System.Data.DataSet> object to commit all pending changes in all records of all tables of the dataset.  
+The <xref:System.Data.DataSet.AcceptChanges%2A> method is available at three levels. You can call it on a <xref:System.Data.DataRow> object to commits changes for just that row. You can also call it on a <xref:System.Data.DataTable> object to commit all rows in a table. Finally, you can call it on the <xref:System.Data.DataSet> object to commit all pending changes in all records of all tables of the dataset.  
   
- The following table describes which changes are committed based on what object the method is called on.  
+The following table describes which changes are committed based on what object the method is called on.  
   
 |Method|Result|  
 |------------|------------|  
@@ -230,9 +228,9 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
     > [!IMPORTANT]
     >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
- After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
-  
 ## Transmitting updates to the data source  
+After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
+
  As an illustration of how updates are made, suppose your application uses a dataset that contains a single data table. The application fetches two rows from the database. After the retrieval, the in-memory data table looks like this:  
   
 ```  
@@ -241,7 +239,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 (Unchanged)    c400         Nancy Buchanan    Pending  
 ```  
   
- Your application changes Nancy Buchanan's status to "Preferred." As a result of this change, the value of the <xref:System.Data.DataRow.RowState%2A> property for that row changes from <xref:System.Data.DataRowState> to <xref:System.Data.DataRowState>. The value of the <xref:System.Data.DataRow.RowState%2A> property for the first row remains <xref:System.Data.DataRowState>. The data table now looks like this:  
+ Your application changes Nancy Buchanan's status to "Preferred." As a result of this change, the value of the <xref:System.Data.DataRow.RowState%2A> property for that row changes from <xref:System.Data.DataRowState.Unchanged> to <xref:System.Data.DataRowState.Modified>. The value of the <xref:System.Data.DataRow.RowState%2A> property for the first row remains <xref:System.Data.DataRowState.Unchanged>. The data table now looks like this:  
   
 ```  
 (RowState)     CustomerID   Name             Status  
@@ -253,7 +251,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  For the second row, however, the `Update` method automatically invokes the correct data command and transmits it to the database. The specific syntax of the SQL statement depends on the dialect of SQL that's supported by the underlying data store. But the following general traits of the transmitted SQL statement are noteworthy:  
   
--   The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState>.  
+-   The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState.Modified>.  
   
 -   The transmitted SQL statement includes a WHERE clause indicating that the target of the UPDATE statement is the row where `CustomerID = 'c400'`. This part of the SELECT statement distinguishes the target row from all others because the `CustomerID` is the primary key of the target table. The information for the WHERE clause is derived from the original version of the record (`DataRowVersion.Original`), in case the values that are required to identify the row have  changed.  
   
