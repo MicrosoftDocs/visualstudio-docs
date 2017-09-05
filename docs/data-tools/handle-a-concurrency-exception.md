@@ -138,7 +138,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 -   The proposed changes in the dataset  
   
- The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
+The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
   
 #### To enable the handling of concurrency errors  
   
@@ -153,7 +153,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 ### Add code to handle the concurrency exception  
  When you attempt to perform an update and an exception gets raised, you generally want to do something with the information that's provided by the raised exception.  
   
- In this section, you add code that  attempts to update the database.You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
+ In this section, you add code that  attempts to update the database. You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
   
 > [!NOTE]
 >  The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.  
@@ -171,7 +171,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
      [!code-vb[VbRaddataConcurrency#2](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_2.vb)]  
   
 ### Display choices to the user  
- The code you just wrote calls the `CreateMessage` procedure to display error information to the user. For this walkthrough, you use a message box to display the different versions of the record to the user.This enables the user to choose whether to overwrite the record with the changes or cancel the edit. Once the user selects an option (clicks a button) on the message box, the response is passed to the `ProcessDialogResult` method.  
+ The code you just wrote calls the `CreateMessage` procedure to display error information to the user. For this walkthrough, you use a message box to display the different versions of the record to the user. This enables the user to choose whether to overwrite the record with the changes or cancel the edit. Once the user selects an option (clicks a button) on the message box, the response is passed to the `ProcessDialogResult` method.  
   
 ##### To create the message to display to the user  
   
