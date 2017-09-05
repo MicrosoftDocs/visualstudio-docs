@@ -15,7 +15,9 @@ ms.author: "ronpet"
 ---
 # Get started with Live Unit Testing in Visual Studio
 
-When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code. It provides immediate notification when changes have broken your code and indicates areas for which additional tests are needed. In this topic, you'll learn to use Live Unit Testing by creating a simple class library and using MSTest to test it.
+When you enable Live Unit Testing in a Visual Studio solution, Live Unit Testing visually depicts your test coverage and the status of your tests. It also dynamically executes tests whenever you modify your code. It provides immediate notification when changes have broken your code and indicates areas for which additional tests are needed. 
+
+Live Unit Testing can be used to test solutions that target either the .NET Framework or .NET Core. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets the .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
 
 # [C#](#tab/csharp)
 The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/utilitylibraries/) repo on GitHub.
@@ -373,26 +375,6 @@ This provides enough information for a preliminary investigation of the bug. Eit
 1. Live Unit Testing automatically re-runs the failed test method and updates the results in the code window and in **Test Explorer**, as the following figure shows:
 
     ![The successful HasEmbeddedSpaces test.](media/lut-start/test-success-vb.png) 
-
----
-
-## Excluding selected tests
-
-# [C#](#tab/csharp)
-In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
-
-For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this, right-click on the method signature of `TestStartswithUpper` method and select **Live Tests**, **Exclude TestStartsWithUpper**. Once you do this, as the following figure shows, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.pn.com
-
-You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
-
-# [Visual Basic](#tab/visual-basic)
-In large solutions with a large number of projects and test methods, you may not want all your tests to run all the time. Live Unit Testing lets you suspend the automatic execution of selected tests.
-
-For example, since the `TestStartswithUpper` method has consistently passed, you might choose to exclude it from Live Unit Testing. To do this programmatically, apply the `<TestCategory("SkipWhenLiveUnitTesting")>` attribute to the method to the method, as the following figure shows. Once you do this, the test is no longer shown in **Test Explorer**, and Live Unit Testing displays an empty beaker icon to represent the status of the test method; the icon indicates that the method is a test method, but that it is inactive.
-
-![The excluded TestStartsWithUpper unit test](media/lut-start/excluding-tests-vb.png) 
-
-You can also exclude individual test methods programmatically, and you can choose on per-project basis which tests to include or exclude. For more information on excluding tests, see [Including and excluding test projects and test methods](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods).
 
 ---
 
