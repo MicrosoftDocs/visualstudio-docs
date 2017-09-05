@@ -55,7 +55,7 @@ By default, the workload installs the following options, which you can modify in
 
 SQL Server supports using both R and Python to do advanced analytics directly inside SQL Server. R support is included with SQL Server 2016 and later; Python support is available in SQL Server 2017 CTP 2.0 and later.
 
-By running your code to where your data already lives, you enjoy a number of advantages:
+By running your code where your data already lives, you enjoy a number of advantages:
 
 - **Elimination of data movement**: Instead of moving data from the database to your application or model, you can build R and Python applications in the database. This capability eliminates barriers of security, compliance, governance, integrity, and a host of similar issues related to moving vast amounts of data around. It also enables you to consume datasets that couldn't fit into the memory of a client machine.
 
@@ -84,7 +84,7 @@ In addition to what's in the Data Science and Analytics Applications workload di
 
 The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac OSX, and Linux. For more information, see [Azure SDK for Python](../python/azure-sdk-for-python.md)
 
-Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. To get started, visit[notebooks.azure.com](https://notebooks.azure.com/).
+Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. Visit[notebooks.azure.com](https://notebooks.azure.com/).
 
 <!--Note link on the image because this one is large -->
 [![Screenshots of Azure Notebooks with the Introduction to R sample](media/data-science-workload-notebooks.png)](media/data-science-workload-notebooks.png)
