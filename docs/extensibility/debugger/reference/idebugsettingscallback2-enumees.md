@@ -34,7 +34,7 @@ Enumerates the available expression evaluators given the language and vendor ide
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumEEs(  
    DWORD  celtBuffer,  
    GUID*  rgguidLang,  
@@ -43,7 +43,7 @@ HRESULT EnumEEs(
 );  
 ```  
   
-```c#  
+```csharp  
 public int EnumEEs(  
    uint       celtBuffer,  
    ref Guid   rgguidLang,  

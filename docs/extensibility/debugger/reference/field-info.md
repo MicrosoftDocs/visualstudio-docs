@@ -36,7 +36,7 @@ This structure describes a local variable, parameter, or other field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagFieldInfo {   
    FIELD_INFO_FIELDS dwFields;  
    BSTR              bstrFullName;  
@@ -46,7 +46,7 @@ typedef struct _tagFieldInfo { 
 } FIELD_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct FIELD_INFO {  
    public uint   dwFields;  
    public string bstrFullName;  

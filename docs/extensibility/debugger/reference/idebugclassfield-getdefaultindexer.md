@@ -36,13 +36,13 @@ Gets the name of the default indexer.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDefaultIndexer(   
    BSTR* pbstrIndexer  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDefaultIndexer(  
    out string pbstrIndexer  
 );  
@@ -58,7 +58,7 @@ int GetDefaultIndexer(
 ## Remarks  
  The default indexer of a class is the property that is marked as the `Default` property for array accesses. This is specific to [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]. Here is an example of a default indexer declared in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] and how it is used.  
   
-```vb#  
+```vb  
 Imports System.Collections;  
   
 Public Class Class1  

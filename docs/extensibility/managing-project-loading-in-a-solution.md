@@ -53,7 +53,7 @@ Visual Studio solutions can contain a large number of projects. The default Visu
   
  You must get the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution> service  and set the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> property:  
   
-```c#  
+```csharp  
 IVsSolution pSolution = GetService(typeof(SVsSolution)) as IVsSolution;  
 object objLoadMgr = this;   //the class that implements IVsSolutionManager  
 pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLoadMgr);  
@@ -62,7 +62,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
 #### Implementing IVsSolutionLoadManager  
  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManager.OnBeforeOpenProject%2A> method is called during the process of opening the solution. To implement this method, you use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManagerSupport> service to set the load priority for the type of project you wish to manage. For example, the following code sets C# project types to load in the background:  
   
-```c#  
+```csharp  
 Guid guidCSProjectType = new Guid("{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}");  
 pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority.PLP_BackgroundLoad);  
 ```  

@@ -71,7 +71,7 @@ The IntelliSense Member Completion is a tool tip that displays a list of possibl
 ### Example  
  Here is a simplified example of detecting the member completion character and setting the appropriate <xref:Microsoft.VisualStudio.Package.TokenTriggers> flag. This example is for illustrative purposes only. It assumes that your scanner contains a method `GetNextToken` that identifies and returns tokens from a line of text. The example code simply sets the trigger whenever it sees the right kind of character.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   
@@ -112,7 +112,7 @@ namespace TestLanguagePackage
 ### Example  
  The following example shows one way to populate a <xref:Microsoft.VisualStudio.Package.Declarations> list. This code assumes that the parser constructs a declaration and adds it to the list by calling an `AddDeclaration` method on the `TestAuthoringScope` class.  
   
-```c#  
+```csharp  
 using System.Collections;  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  

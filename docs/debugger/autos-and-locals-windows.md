@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Inspect Variables in the Autos and Locals Windows in Visual Studio
-The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables display in this window is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
+The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug > Windows > Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug > Windows > Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables display in this window is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
   
 If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
   
@@ -116,7 +116,7 @@ private static int subtractVars(int i, int j)
 }  
 ```
 
- Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
+ Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
   
  Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
   

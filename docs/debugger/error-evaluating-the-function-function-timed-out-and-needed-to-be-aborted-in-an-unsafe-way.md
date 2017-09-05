@@ -42,7 +42,7 @@ The error message will tell you the name of the function the debugger tried to c
  
 ### Solution #3: Disable all implicit evaluation
  
-If the previous solutions don't fix the issue, go to *Tools* / *Options*, and uncheck the setting *Debugging* / *General* / *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
+If the previous solutions don't fix the issue, go to *Tools* > *Options*, and uncheck the setting *Debugging* > *General* > *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
 
 
 

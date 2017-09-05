@@ -59,7 +59,7 @@ If you don't have access to the project for the calling app, you can debug a DLL
   
 4.  Set **Debugger Type** to **Mixed** or **Auto**.
 
-    ![Enable mixed mode debugging](../debugger/media/dbg-mixed-mode-from-native.png "Enable nmixed mode debugging")
+    ![Enable mixed mode debugging](../debugger/media/dbg-mixed-mode-from-native.png "Enable mixed mode debugging")
 
 ### To enable mixed-mode debugging (C# or VB calling app)  
   

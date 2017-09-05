@@ -36,13 +36,13 @@ Gets the value returned on stepping out of or over a function.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReturnValue (   
    IDebugProperty2** ppReturnValue  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReturnValue (   
    out IDebugProperty2 ppReturnValue  
 );  

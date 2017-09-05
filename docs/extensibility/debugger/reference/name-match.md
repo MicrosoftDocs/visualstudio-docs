@@ -36,7 +36,7 @@ Selects the case option for matching names.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef enum {   
    nmNone            = 0,  
    nmCaseSensitive   = 1,  
@@ -44,7 +44,7 @@ typedef enum { 
 } NAME_MATCH;  
 ```  
   
-```c#  
+```csharp  
 public enum NameMatchOptions {   
    nmNone            = 0,  
    nmCaseSensitive   = 1,  

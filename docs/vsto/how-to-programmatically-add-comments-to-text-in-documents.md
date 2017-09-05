@@ -33,7 +33,7 @@ manager: "ghogen"
 1.  Call the <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> method of the <xref:Microsoft.Office.Tools.Word.Document.Comments%2A> property and supply a range and the comment text. To use the following code example, run it from the `ThisDocument` class in your project.  
   
      [!code-vb[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#118)]
-     [!code-cs[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#118)]  
+     [!code-csharp[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#118)]  
   
 ### To add a new comment to text in an VSTO Add-in  
   
@@ -42,7 +42,7 @@ manager: "ghogen"
      The following code example adds a comment to the active document. To use this example, run it from the `ThisAddIn` class in your project.  
   
      [!code-vb[Trin_VstcoreWordAutomationAddIn#118](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#118)]
-     [!code-cs[Trin_VstcoreWordAutomationAddIn#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#118)]  
+     [!code-csharp[Trin_VstcoreWordAutomationAddIn#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#118)]  
   
 ## Robust Programming  
  To change the user initials that Word adds to comments, use the <xref:Microsoft.Office.Interop.Word._Application.UserInitials%2A> property.  

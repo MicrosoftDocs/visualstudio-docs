@@ -36,13 +36,13 @@ Determines if a process can be terminated.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanTerminateProcess (   
    IDebugProcess2* pProcess  
 );  
 ```  
   
-```c#  
+```csharp  
 int CanTerminateProcess (   
    IDebugProcess2 pProcess  
 );  

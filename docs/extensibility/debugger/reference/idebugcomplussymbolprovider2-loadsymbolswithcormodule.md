@@ -35,7 +35,7 @@ Loads debug symbols given the **ICorDebugModule** object.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbolsWithCorModule(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -47,7 +47,7 @@ HRESULT LoadSymbolsWithCorModule(
 );  
 ```  
   
-```c#  
+```csharp  
 int LoadSymbolsWithCorModule(  
    uint   ulAppDomainID,  
    Guid   guidModule,  
@@ -87,7 +87,7 @@ int LoadSymbolsWithCorModule(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::LoadSymbolsWithCorModule(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

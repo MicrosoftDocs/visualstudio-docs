@@ -137,7 +137,7 @@ manager: "ghogen"
   
 -   [How to: Programmatically Print Worksheets](../vsto/how-to-programmatically-print-worksheets.md).  
   
--   [How to: Programmatically Run Excel Calculations Programmatically](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md).  
+-   [How to: Programmatically Run Excel Calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md).  
   
 -   [How to: Programmatically Sort Data in Worksheets](../vsto/how-to-programmatically-sort-data-in-worksheets.md).  
   

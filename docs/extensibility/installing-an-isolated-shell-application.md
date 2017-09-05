@@ -363,7 +363,7 @@ CString GetSetupPath()
 ### Running the Application MSI  
  After the Visual Studio Shell installer returns ERROR_SUCCESS, you can run the MSI for your application. Because your Setup program is providing the user interface, start your MSI in quiet mode (**/q**) and with logging (**/L**), as the following example shows.  
   
-```cpp#  
+```cpp  
 TCHAR temp[MAX_PATH];  
 GetTempPath(MAX_PATH, temp);  
   

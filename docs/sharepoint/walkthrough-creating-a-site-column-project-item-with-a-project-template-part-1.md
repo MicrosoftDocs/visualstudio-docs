@@ -151,7 +151,7 @@ manager: "ghogen"
   
 1.  In the **SiteColumnProjectItemTypeProvider** code file, replace the default code with the following code, and then save the file.  
   
-     [!code-cs[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs#1)]
+     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs#1)]
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb#1)]  
   
 ## Creating a Visual Studio Project Template  
@@ -246,11 +246,11 @@ manager: "ghogen"
   
 1.  In the SiteColumnProjectTemplate project, open the AssemblyInfo.cs or AssemblyInfo.vb file, and then add the following statement to the top of it:  
   
-    ```vb#  
+    ```vb  
     Imports System.Security  
     ```  
   
-    ```c#  
+    ```csharp  
     using System.Security;  
     ```  
   

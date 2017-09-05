@@ -72,7 +72,7 @@ Windows Forms applications can be configured for multiple cultures through the u
   
 2.  Use the following code to download the appropriate satellite assembly and start your application.  
   
-     [!code-cs[ClickOnce.SatelliteAssemblies#1](../deployment/codesnippet/CSharp/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.cs)]  
+     [!code-csharp[ClickOnce.SatelliteAssemblies#1](../deployment/codesnippet/CSharp/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.cs)]  
   
 ### To download satellite assemblies on demand in Visual Basic  
   

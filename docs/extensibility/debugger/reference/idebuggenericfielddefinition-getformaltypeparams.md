@@ -35,7 +35,7 @@ Retrieves the type parameters given the number of parameters.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFormalTypeParams(  
    ULONG32                   cParams,  
    IDebugGenericParamField** ppParams,  
@@ -43,7 +43,7 @@ HRESULT GetFormalTypeParams(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetFormalTypeParams(  
    uint                          cParams,  
    out IDebugGenericParamField[] ppParams,  

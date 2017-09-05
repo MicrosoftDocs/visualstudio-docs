@@ -36,13 +36,13 @@ Stops all threads running in this program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Stop(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int Stop();  
 ```  
   

@@ -36,7 +36,7 @@ Describes the result of binding a data breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_RESOLUTION_DATA {   
    BSTR              bstrDataExpr;  
    BSTR              bstrFunc;  
@@ -45,7 +45,7 @@ typedef struct _BP_RESOLUTION_DATA { 
 } BP_RESOLUTION_DATA;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_RESOLUTION_DATA {   
    public string bstrDataExpr;  
    public string bstrFunc;  

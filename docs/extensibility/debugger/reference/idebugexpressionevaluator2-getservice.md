@@ -35,14 +35,14 @@ Retrieves a service object given its unique identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetService (  
    GUID        uid,  
    IUnknown ** ppService  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetService (  
    Guid       uid,  
    out object ppService  

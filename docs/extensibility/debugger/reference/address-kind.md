@@ -51,7 +51,7 @@ enum enum_ADDRESS_KIND {
 typedef DWORD ADDRESS_KIND;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_ADDRESS_KIND {  
    ADDRESS_KIND_NATIVE                  = 0x0001,  
    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,  

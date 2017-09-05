@@ -29,7 +29,7 @@ manager: "ghogen"
 |Task|Procedure|  
 |----------|---------------|  
 |Create an e-mail message.|[How to: Programmatically Create an E-Mail Item](../vsto/how-to-programmatically-create-an-e-mail-item.md)|  
-|Send an e-mail message.|[How to: Programmatically Send E-Mail Programmatically](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|  
+|Send an e-mail message.|[How to: Programmatically Send E-Mail](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|  
 |Respond to new e-mail messages with a custom action.|[How to: Programmatically Perform Actions When an E-Mail Message Is Received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)|  
 |Save attachments.|[How to: Programmatically Save Attachments from Outlook E-Mail Items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)|  
 |Add attachments|[How to: Programmatically Attach Files to Outlook E-Mail Items](../vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md)|  

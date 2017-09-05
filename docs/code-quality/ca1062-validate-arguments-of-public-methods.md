@@ -60,7 +60,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule and a method that satisfies the rule.  
   
- ```cs
+ ```csharp
  using System;
 
 namespace DesignLibrary
@@ -129,7 +129,7 @@ End Namespace
 ## Example  
  In [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this rule does not detect that parameters are being passed to another method that does the validation.  
 
-```cs
+```csharp
 public string Method(string value)
 {
 	EnsureNotNull(value);
@@ -165,7 +165,7 @@ End Sub
   
  In the following `Person` class example, the `other` object that is passed to the `Person` copy constructor might be `null`.  
   
-```cs  
+```csharp  
 public class Person  
 {  
     public string Name { get; private set; }  
@@ -189,7 +189,7 @@ public class Person
 ## Example  
  In the following revised `Person` example, the `other` object that is passed to the copy constructor is first checked for null in the `PassThroughNonNull` method.  
   
-```cs  
+```csharp  
 public class Person  
 {  
     public string Name { get; private set; }  

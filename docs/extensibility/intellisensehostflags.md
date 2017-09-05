@@ -37,7 +37,7 @@ Specifies IntelliSense host flags.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum IntellisenseHostFlags  
 {  
     IHF_READONLYCONTEXT      = 0x00000001  

@@ -36,13 +36,13 @@ Creates an enumerator for the interfaces implemented by this class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumInterfacesImplemented(   
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumInterfacesImplemented(  
    out IEnumDebugFields ppEnum  
 );  

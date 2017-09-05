@@ -36,13 +36,13 @@ Retrieves a list of all available ports.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPorts(   
    IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumPorts(   
    out IEnumDebugPorts2 ppEnum  
 );  

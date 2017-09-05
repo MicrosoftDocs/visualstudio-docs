@@ -144,7 +144,7 @@ While Xamarin cross-platform features have always been a first-class feature of 
 
 ### Android 
 
-* [Android SDK manager](https://developer.xamarin.com/guides/android/application_fundamentals/using-the-sdk-manager/) (**Preview**) 
+* [Android SDK manager](https://developer.xamarin.com/guides/android/application_fundamentals/using-the-sdk-manager/)  
 * Android O will only be supported in Visual Studio for Mac, not 
 Xamarin Studio 
 
@@ -152,9 +152,9 @@ Xamarin Studio
 
 * [iOS signing workflow updates ](https://developer.xamarin.com/guides/cross-platform/macios/apple-account-management/) 
     * Create signing identities and install them to the local Keychain. 
-    * Create Provisioning Profiles. (**Preview**)
-    * Add a signing identity to an existing profile. (**Preview**)
-    *  Provision devices: register a device in the Apple Developer Portal and add them to a provisioning profile. (**Preview**)
+    * Create Provisioning Profiles. 
+    * Add a signing identity to an existing profile.
+    *  Provision devices: register a device in the Apple Developer Portal and add them to a provisioning profile.
 * iOS 11, watchOS 4, and tvOS 2 will only be supported in Visual Studio for Mac, not Xamarin Studio 
 * MacOS High Sierra will only be supported in Visual Studio for Mac, not Xamarin Studio 
 

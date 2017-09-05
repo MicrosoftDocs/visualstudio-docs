@@ -36,13 +36,13 @@ Returns the number of elements in the enumeration.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCount(  
    ULONG* pcelt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCount(  
    out uint pcelt  
 );  

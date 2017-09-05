@@ -42,7 +42,7 @@ HRESULT GetAddress (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAddress(  
    DEBUG_ADDRESS[] pAddress  
 );  

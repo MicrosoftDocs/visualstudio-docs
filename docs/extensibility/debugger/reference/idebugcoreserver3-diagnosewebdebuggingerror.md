@@ -36,13 +36,13 @@ Attempts to determine why an auto-attach failed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DiagnoseWebDebuggingError(  
    LPCWSTR pszUrl  
 );  
 ```  
   
-```c#  
+```csharp  
 int DiagnoseWebDebuggingError(  
    string pszUrl  
 );  

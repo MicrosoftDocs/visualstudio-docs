@@ -39,7 +39,7 @@ translation.priority.ht:
 When you try to do remote debugging, you might get the following error message:  
   
 ```  
-Error: The Visual Studio Remote Debugger on the target computer cannot connect back to this computer. Kerberos auythentication failed.  
+Error: The Visual Studio Remote Debugger on the target computer cannot connect back to this computer. Kerberos authentication failed.  
 ```  
   
  This error occurs when the Visual Studio Remote Debugging Monitor is running under the Local System or Network Service account. Under one of these accounts, the remote debugger must establish a Kerberos authentication connection to communicate back to the Visual Studio debugger host computer.  

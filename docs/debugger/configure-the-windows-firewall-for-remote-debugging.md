@@ -69,7 +69,7 @@ To open a port:
   
 1. Open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules / New Rule / Port**, and then click **Next**. (For Outgoing rules, choose **Outbound Rules** instead.)
+2. Then choose **Inbound Rules > New Rule > Port**, and then click **Next**. (For Outgoing rules, choose **Outbound Rules** instead.)
 
 3. Choose either **TCP** or **UDP**, depending on the port number.
 
@@ -120,7 +120,7 @@ If you are having trouble attaching to your app with the remote debugger, you ma
 
 ### (Managed or native compatibility mode) Open additional ports on the remote computer
 
-If you are using compatibility mode for the debugger (**Tools / Options / Debugging**), additional ports will need to be opened. Compatibility mode enables a legacy version of the debugger and different ports are required.
+If you are using compatibility mode for the debugger (**Tools > Options > Debugging**), additional ports will need to be opened. Compatibility mode enables a legacy version of the debugger and different ports are required.
 
 > [!NOTE]
 > The legacy version of the debugger is the Visual Studio 2010 debugger.

@@ -77,7 +77,7 @@ manager: "ghogen"
   
  The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Calling Code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
- [!code-cs[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
+ [!code-csharp[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
  [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]  
   
 ### Exposing Classes to VBA  
@@ -95,7 +95,7 @@ manager: "ghogen"
 ### Overriding the RequestComAddInAutomationService Method  
  The following code example demonstrates how to override <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> in the `ThisAddIn` class in your VSTO Add-in. This example assumes that you have defined a class named `AddInUtilities` that you want to expose to other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Calling Code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
- [!code-cs[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
+ [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
  [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]  
   
  When your VSTO Add-in is loaded, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method. The runtime assigns the returned object to the <xref:Microsoft.Office.Core.COMAddIn.Object%2A> property of a <xref:Microsoft.Office.Core.COMAddIn> object that represents your VSTO Add-in. This <xref:Microsoft.Office.Core.COMAddIn> object is available to other Office solutions, and to solutions that automate Office.  
@@ -127,14 +127,14 @@ End Sub
 ### Accessing Objects from Non-VBA Solutions  
  In a non-VBA solution, you must cast the <xref:Microsoft.Office.Core.COMAddIn.Object%2A> property value to the interface it implements, and then you can call the exposed methods on the interface object. The following code example demonstrates how to call the `ImportData` method from a different VSTO Add-in that was created by using the Office developer tools in Visual Studio.  
   
-```vb#  
+```vb  
 Dim addIn As Office.COMAddIn = Globals.ThisAddIn.Application.COMAddIns.Item("ExcelImportData")  
 Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _  
     addIn.Object, ExcelImportData.IAddInUtilities)  
 utilities.ImportData()  
 ```  
   
-```c#  
+```csharp  
 object addInName = "ExcelImportData";  
 Office.COMAddIn addIn = Globals.ThisAddIn.Application.COMAddIns.Item(ref addInName);  
 ExcelImportData.IAddInUtilities utilities = (ExcelImportData.IAddInUtilities)addIn.Object;  

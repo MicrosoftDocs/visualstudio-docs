@@ -31,15 +31,15 @@ translation.priority.mt:
 ---
 # Installing outside the extensions folder
 
-Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support for installing extension assets outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [installdir] is mapped to the Visual Studio instance's installation directory):
+Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support for installing extension assets outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [INSTALLDIR] is mapped to the Visual Studio instance's installation directory):
 
-* [installdir]\Common7\IDE\PublicAssemblies
-* [installdir]\Common7\IDE\ReferenceAssemblies
-* [installdir]\MSBuild
-* [installdir]\Schemas
-* [installdir]\Licenses
-* [installdir]\RemoteDebugger
-* [installdir]\VSTargets
+* [INSTALLDIR]\MSBuild
+* [INSTALLDIR]\Xml\Schemas
+* [INSTALLDIR]\Common7\IDE\PublicAssemblies
+* [INSTALLDIR]\Licenses
+* [INSTALLDIR]\Common7\IDE\ReferenceAssemblies
+* [INSTALLDIR]\Common7\IDE\RemoteDebugger
+* [INSTALLDIR]\Common7\IDE\VC\VCTargets
 
 >**Note:** The VSIX format does not allow you to install outside the VS install folder structure.
 
@@ -67,7 +67,7 @@ This will add some metadata to the corresponding `ProjectReference` property ins
 
 ## How to set a subpath under the InstallRoot
 
-If you'd like to install to a subpath underneath the `InstallRoot`, you can do so by setting the `VsixSubPath` property just like the `InstallRoot` property. For instance, say we want our project reference's output to install to '[installdir]\MSBuild\MyCompany\MySDK\1.0'. We can do this easily with the property designer:
+If you'd like to install to a subpath underneath the `InstallRoot`, you can do so by setting the `VsixSubPath` property just like the `InstallRoot` property. For instance, say we want our project reference's output to install to '[INSTALLDIR]\MSBuild\MyCompany\MySDK\1.0'. We can do this easily with the property designer:
 
 ![set subpath](media/set-subpath.png)
 

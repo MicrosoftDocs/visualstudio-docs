@@ -36,14 +36,14 @@ Gets extended information for the property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExtendedInfo (   
    REFGUID* guidExtendedInfo,  
    VARIANT* pExtendedInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetExtendedInfo (   
    ref Guid guidExtendedInfo,  
    out object pExtendedInfo  

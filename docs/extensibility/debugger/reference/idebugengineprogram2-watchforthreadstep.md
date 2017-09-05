@@ -36,7 +36,7 @@ Watches for execution (or stops watching for execution) to occur on the given th
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT WatchForThreadStep(   
    IDebugProgram2* pOriginatingProgram,  
    DWORD           dwTid,  
@@ -45,7 +45,7 @@ HRESULT WatchForThreadStep( 
 );  
 ```  
   
-```c#  
+```csharp  
 int WatchForThreadStep(   
    IDebugProgram2 pOriginatingProgram,  
    uint           dwTid,  

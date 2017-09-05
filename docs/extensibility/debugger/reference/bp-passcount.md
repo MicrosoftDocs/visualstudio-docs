@@ -36,14 +36,14 @@ Describes the count and conditions upon which a conditional breakpoint is fired.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_PASSCOUNT {   
    DWORD              dwPassCount;  
    BP_PASSCOUNT_STYLE stylePassCount;  
 } BP_PASSCOUNT;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_PASSCOUNT {   
    public uint dwPassCount;  
    public uint stylePassCount;  

@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  04/07/2017
+ms.date:  08/14/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -17,31 +17,16 @@ ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio 2017 workload and component IDs
-The following pages list the workload and component IDs you'll need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
+Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
 | [Visual&nbsp;Studio Enterprise&nbsp;2017](workload-component-id-vs-enterprise.md) | Microsoft.VisualStudio.Product.Enterprise | Microsoft DevOps solution for productivity and coordination across teams of any size |
 | [Visual&nbsp;Studio Professional&nbsp;2017](workload-component-id-vs-professional.md) | Microsoft.VisualStudio.Product.Professional | Professional developer tools and services for small teams |
-| [Visual&nbsp;Studio Community&nbsp;2017](workload-component-id-vs-community.md) | Microsoft.VisualStudio.Product.Community | Free, fully-featured IDE for students, open-source and individual developers |
+| [Visual&nbsp;Studio Community&nbsp;2017](workload-component-id-vs-community.md) | Microsoft.VisualStudio.Product.Community | Free, fully featured IDE for students, open-source, and individual developers |
 | [Visual&nbsp;Studio Team&nbsp;Explorer&nbsp;2017](workload-component-id-vs-team-explorer.md) | Microsoft.VisualStudio.Product.TeamExplorer | Interact with Team Foundation Server and Visual Studio Team Services without a Visual Studio developer toolset |
 | [Visual&nbsp;Studio Build&nbsp;Tools&nbsp;2017](workload-component-id-vs-build-tools.md) | Microsoft.VisualStudio.Product.BuildTools | The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support. |
 | [Visual&nbsp;Studio Test&nbsp;Agent&nbsp;2017](workload-component-id-vs-test-agent.md)  | Microsoft.VisualStudio.Product.TestAgent | Supports running automated tests and load tests remotely |

@@ -68,7 +68,7 @@ translation.priority.mt:
   
 1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```csharp  
     class ProtoClassA  
     {  
         // Invoke on 'MethodB'.  
@@ -105,7 +105,7 @@ translation.priority.mt:
   
 1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```csharp  
     class ProtoClassA  
     {  
         // Invoke on 'MethodB'.  
@@ -148,7 +148,7 @@ translation.priority.mt:
   
  The following code example contains members with implements/overrides relationships.  
   
- [!code-cs[CsUsingCsIDERefactor#1](../csharp-ide/codesnippet/CSharp/rename-refactoring-csharp_1.cs)]  
+ [!code-csharp[CsUsingCsIDERefactor#1](../csharp-ide/codesnippet/CSharp/rename-refactoring-csharp_1.cs)]  
   
  In the previous example, renaming `C.Method()` also renames `Ibase.Method()` because `C.Method()` implements `Ibase.Method()`. Next, the refactor engine recursively sees that `Ibase.Method()` is implemented by `Derived.Method()` and renames `Derived.Method()`. The refactor engine does not rename `Base.Method()`, because `Derived.Method()` does not override `Base.Method()`. The refactoring engine stops here unless you have **Rename overloads** checked in the **Rename** dialog box.  
   
@@ -160,14 +160,14 @@ translation.priority.mt:
 ## Renaming Properties of Anonymous Types  
  When you rename a property in anonymous types, the rename operation will propagate to properties in other anonymous types that have the same properties. The following examples illustrate this behavior.  
   
-```c#  
+```csharp  
 var a = new { ID = 1};  
 var b = new { ID = 2};  
 ```  
   
  In the preceding code, renaming `ID` will change `ID` in both statements because they have the same underlying anonymous type.  
   
-```c#  
+```csharp  
 var companyIDs =  
     from c in companylist  
     select new { ID = c.ID, Name = c.Name};  

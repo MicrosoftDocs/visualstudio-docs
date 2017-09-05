@@ -6,6 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 3
 author: "mikeblome"
@@ -30,14 +33,14 @@ translation.priority.mt:
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
 The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d).  
   
- By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).  
+By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).  
   
 > [!NOTE]
 >  This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.  
   
- This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.  
+This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.  
   
- During this walkthrough, you will learn how to perform the following tasks:  
+During this walkthrough, you will learn how to perform the following tasks:  
   
 -   Create a new Windows Forms application and add a [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] file to it.  
   
@@ -54,16 +57,16 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
 ## Prerequisites  
- To complete this walkthrough, you need the following:  
+To complete this walkthrough, you need the following:  
   
 -   Access to the SQL Server version of the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 -   The **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.   
   
 ## Creating an Application and Adding LINQ to SQL Classes  
- Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
+Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 #### To create a new Windows Application project that contains LINQ to SQL classes  
   
@@ -112,7 +115,6 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
     > [!NOTE]
     >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
-  
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
 ## Creating a DataGridView to Display the Customer Data on a Windows Form  
@@ -131,26 +133,24 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 4.  Add the following code to the form, global to the form, outside any specific method, but inside the Form1 class:  
   
-    ```vb#  
+    ```vb  
     Private NorthwindDataContext1 As New NorthwindDataContext  
     ```  
   
-    ```c#  
+    ```csharp  
     private NorthwindDataContext northwindDataContext1  
-        = new NorthwindDataContext();  
-  
+        = new NorthwindDataContext();    
     ```  
   
 5.  Create an event handler for the `Form_Load` event and add the following code to the handler:  
   
-    ```vb#  
+    ```vb  
     CustomerBindingSource.DataSource = NorthwindDataContext1.Customers  
     ```  
   
-    ```c#  
+    ```csharp  
     customerBindingSource.DataSource  
-        = northwindDataContext1.Customers;  
-  
+        = northwindDataContext1.Customers;    
     ```  
   
 ## Implementing Save Functionality  
@@ -168,11 +168,11 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 5.  Add the following code into the save button event handler:  
   
-    ```vb#  
+    ```vb  
     NorthwindDataContext1.SubmitChanges()  
     ```  
   
-    ```c#  
+    ```csharp  
     northwindDataContext1.SubmitChanges();  
     ```  
   

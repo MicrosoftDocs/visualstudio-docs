@@ -36,7 +36,7 @@ Specifies what actions to take when intercepting exceptions.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  
@@ -44,7 +44,7 @@ enum enum_INTERCEPT_EXCEPTION_ACTION
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  

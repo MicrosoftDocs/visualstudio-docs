@@ -36,13 +36,13 @@ Gets the system process identifier for the process hosting the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostPid (   
    AD_PROCESS_ID * pdwHostPid  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetHostPid (   
    out AD_PROCESS_ID pdwHostPid  
 );  
@@ -58,7 +58,7 @@ int GetHostPid ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetHostPid(DWORD* pdwHostPid) {    
     // Check for valid argument.    
    if (pdwHostPid)    

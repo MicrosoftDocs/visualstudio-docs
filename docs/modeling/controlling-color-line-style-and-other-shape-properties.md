@@ -39,7 +39,7 @@ Some shape properties such as color can be 'exposed' - that is, linked to a doma
 ## Dynamically updating an exposed property  
  Typically you want to make the exposed property dependent on another property. For example, you might want a shape to turn red whenever a particular domain property is less than zero. To make this dependency, create a [rule](../modeling/rules-propagate-changes-within-the-model.md). For example:  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  

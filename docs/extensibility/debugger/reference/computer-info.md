@@ -34,7 +34,7 @@ Describes the computer on which the debugger is running.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCOMPUTER_INFO  
 {  
     WORD wProcessorArchitecture;  
@@ -43,7 +43,7 @@ typedef struct tagCOMPUTER_INFO
 } COMPUTER_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct COMPUTER_INFO  
 {  
     public ushort wProcessorArchitecture;  

@@ -36,14 +36,14 @@ Gets the breakpoint resolution information that describes this breakpoint.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResolutionInfo(   
    BPRESI_FIELDS       dwFields,  
    BP_RESOLUTION_INFO* pBPResolutionInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetResolutionInfo(   
    enum BPRESI_FIELDS   dwFields,  
    BP_RESOLUTION_INFO[] pBPResolutionInfo  

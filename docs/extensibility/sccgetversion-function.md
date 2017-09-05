@@ -36,7 +36,7 @@ This function gets the version number of the Source Control Plug-in API supporte
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 LONG SccGetVersion(void);  
 ```  
   

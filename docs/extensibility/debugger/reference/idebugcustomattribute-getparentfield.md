@@ -36,13 +36,13 @@ Gets the field to which the custom attribute is attached.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetParentField(   
    IDebugField** ppField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetParentField(  
    out IDebugField ppField  
 );  

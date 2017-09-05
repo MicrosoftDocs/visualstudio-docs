@@ -36,7 +36,7 @@ Compares this document context to a given array of document contexts.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Compare(   
    DOCCONTEXT_COMPARE       compare,  
    IDebugDocumentContext2** rgpDocContextSet,  
@@ -45,7 +45,7 @@ HRESULT Compare( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Compare(   
    enum_ DOCCONTEXT_COMPARE compare,  
    IDebugDocumentContext2[] rgpDocContextSet,  

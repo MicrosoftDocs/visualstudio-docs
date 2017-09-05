@@ -36,7 +36,7 @@ Contains status information about symbol search paths that have been searched.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagSYMBOL_SEARCH_INFO  
 {  
    SYMBOL_SEARCH_INFO_FIELDS dwValidFields;  
@@ -44,7 +44,7 @@ typedef struct _tagSYMBOL_SEARCH_INFO
 } MODULE_SYMBOL_SEARCH_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct MODULE_SYMBOL_SEARCH_INFO {  
    public uint   dwValidFields;  
    public string bstrVerboseSearchInfo;  
@@ -61,7 +61,7 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
 ## Remarks  
  This structure is returned from a call to the [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) method.  
   
- If the `bstrVerboseSearchInfo` field is not empty, then it contains a list of paths searched and the results of that search. The list is formatted with a path, followed by ellipses ("..."), followed by the result. If there is more than one path result pair, then each pair is separated by a "\r\n" (carriage-return/linefeed) pair. The pattern looks like this:  
+ If the `bstrVerboseSearchInfo` field is not empty, then it contains a list of paths searched and the results of that search. The list is formatted with a path, followed by an ellipsis ("..."), followed by the result. If there is more than one path result pair, then each pair is separated by a "\r\n" (carriage-return/linefeed) pair. The pattern looks like this:  
   
  \<path>...\<result>\r\n\<path>...\<result>\r\n\<path>...\<result>  
   

@@ -36,13 +36,13 @@ This method gets the Edit and Continue (ENC) update for this program. A custom d
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetENCUpdate(   
    IUnknown** ppUpdate  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetENCUpdate(  
    out object ppUpdate  
 );  

@@ -71,7 +71,7 @@ This feature is available only if address-level debugging is enabled the **Optio
   
 ### To display the Disassembly window  
   
--   While you are debugging, select **Debug / Windows** and then click **Disassembly**.
+-   While you are debugging, select **Debug > Windows** and then click **Disassembly**.
   
 ### To turn optional information on or off  
   

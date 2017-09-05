@@ -36,13 +36,13 @@ Gets the port identifier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPortId(   
    GUID* pguidPort  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPortId(   
    out Guid pguidPort  
 );  

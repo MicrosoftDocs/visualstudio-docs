@@ -81,7 +81,7 @@ manager: "ghogen"
      When the user creates a new project, this event handler adds a task to the project.  
   
      [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
-     [!code-cs[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]  
+     [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]  
   
  To modify the project, this code example use the following objects:  
   
@@ -91,7 +91,7 @@ manager: "ghogen"
   
 1.  If you are using C#, add the following code to the `ThisAddIn_Startup` event handler. This code connects the `Application_Newproject` event handler with the NewProject event.  
   
-     [!code-cs[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]  
+     [!code-csharp[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]  
   
 -  
   

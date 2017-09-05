@@ -40,7 +40,7 @@ Loads (as necessary) symbols for all modules being debugged by this debugging en
 HRESULT LoadSymbols();  
 ```  
   
-```c#  
+```csharp  
 int LoadSymbols();  
 ```  
   

@@ -35,7 +35,7 @@ Loads debug symbols using the specified callback method.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbolsFromCallback(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -47,7 +47,7 @@ HRESULT LoadSymbolsFromCallback(
 );  
 ```  
   
-```c#  
+```csharp  
 int LoadSymbolsFromCallback(  
    uint   ulAppDomainID,  
    Guid   guidModule,  
@@ -87,7 +87,7 @@ int LoadSymbolsFromCallback(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::LoadSymbolsFromCallback(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

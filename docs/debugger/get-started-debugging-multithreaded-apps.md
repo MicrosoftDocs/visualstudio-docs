@@ -39,7 +39,9 @@ translation.priority.ht:
 # Get started debugging a multithreaded application in Visual Studio
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use conditional breakpoints and filter breakpoints, the **Parallel Stacks** window, and **Parallel Watch** window. This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
 
-You can also [watch a video on multithreaded debugging](#video) that shows similar steps.
+|         |         |
+|---------|---------|
+| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on multithreaded debugging that shows similar steps. |
 
 Other topics provide additional information on using other multithreaded debugging tools:
 
@@ -67,7 +69,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 6.  Delete the code that appears in the source file and replace it with the example code shown here.
 
-    ```C#
+    ```csharp
     using System;
     using System.Threading;
 
@@ -265,7 +267,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
 
 In the **Parallel Stacks** window, you can switch between a Threads view and (for task-based programming) Tasks view, and you can view call stack information for each thread. In this app, we can use the Threads view.
 
-1. Open the **Parallel Stacks** window by choosing **Debug / Windows / Parallel Stacks**. You should see something similar to this (the exact information will be different depending on the current location of each thread, your hardware, and your programming language).
+1. Open the **Parallel Stacks** window by choosing **Debug > Windows > Parallel Stacks**. You should see something similar to this (the exact information will be different depending on the current location of each thread, your hardware, and your programming language).
 
     ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
@@ -284,7 +286,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
 ## Set a Watch on a Variable
 
-1. Open the **Parallel Watch** window by choosing **Debug / Windows / Parallel Watch / Parallel Watch 1**.
+1. Open the **Parallel Watch** window by choosing **Debug > Windows > Parallel Watch > Parallel Watch 1**.
 
 2. Click in the cell where you see the `<Add Watch>` text (or the empty header cell in the 4th column), type `data`, and press Enter.
 

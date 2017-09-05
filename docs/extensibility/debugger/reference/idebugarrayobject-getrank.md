@@ -36,13 +36,13 @@ Gets the rank of the array, that is, the number of dimensions.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetRank(   
    DWORD* pdwRank  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetRank(  
    out uint pdwRank  
 );  

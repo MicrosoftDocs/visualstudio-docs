@@ -80,7 +80,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that contains a general catch block that satisfies the rule.  
   
- [!code-cs[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102-catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
+ [!code-csharp[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102-catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
   
  Compile the previous examples as follows.  
   

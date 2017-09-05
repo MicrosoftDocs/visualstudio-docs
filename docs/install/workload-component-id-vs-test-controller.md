@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  05/10/2017
+ms.date:  08/30/2017
 ms.topic: article
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -55,7 +55,8 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.0.26208.0 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.0.26711.1 | Required
+
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.

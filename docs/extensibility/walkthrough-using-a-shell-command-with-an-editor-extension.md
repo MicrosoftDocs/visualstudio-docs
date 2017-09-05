@@ -125,7 +125,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  Add three fields to the `CommentAdornment` class for the <xref:Microsoft.VisualStudio.Text.ITrackingSpan>, the author, and the description.  
   
-    ```c#  
+    ```csharp  
     public readonly ITrackingSpan Span;  
     public readonly string Author;  
     public readonly string Text;  
@@ -133,7 +133,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 6.  Add a constructor that initializes the fields.  
   
-    ```c#  
+    ```csharp  
     public CommentAdornment(SnapshotSpan span, string author, string text)  
     {  
         this.Span = span.Snapshot.CreateTrackingSpan(span, SpanTrackingMode.EdgeExclusive);  
@@ -149,7 +149,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2.  Add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using Microsoft.VisualStudio.Text;  
     using System;  
     using System.Windows;  
@@ -163,14 +163,14 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Make the `CommentBlock` class inherit from <xref:System.Windows.Controls.Canvas>.  
   
-    ```c#  
+    ```csharp  
     internal class CommentBlock : Canvas  
     { }  
     ```  
   
 4.  Add some private fields to define the visual aspects of the adornment.  
   
-    ```c#  
+    ```csharp  
     private Geometry textGeometry;  
     private Grid commentGrid;  
     private static Brush brush;  
@@ -180,7 +180,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  Add a constructor that defines the comment adornment and adds the relevant text.  
   
-    ```c#  
+    ```csharp  
     public CommentBlock(double textRightEdge, double viewRightEdge,   
             Geometry newTextGeometry, string author, string body)  
     {  
@@ -249,7 +249,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 6.  Also implement an <xref:System.Windows.Controls.Panel.OnRender%2A> event handler that draws the adornment.  
   
-    ```c#  
+    ```csharp  
     protected override void OnRender(DrawingContext dc)  
     {  
         base.OnRender(dc);  
@@ -273,7 +273,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2.  Add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel.Composition;  
     using Microsoft.VisualStudio.Text.Editor;  
     using Microsoft.VisualStudio.Utilities;  
@@ -282,11 +282,11 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 3.  Declare a class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Document>. The content type attribute specifies the kind of content to which the component applies. The text type is the base type for all non-binary file types. Therefore, almost every text view that is created will be of this type. The text view role attribute specifies the kind of text view to which the component applies. Document text view roles generally show text that is composed of lines and is stored in a file.  
   
      [!code-vb[VSSDKMenuCommandTest#11](../extensibility/codesnippet/VisualBasic/walkthrough-using-a-shell-command-with-an-editor-extension_1.vb)]
-     [!code-cs[VSSDKMenuCommandTest#11](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_1.cs)]  
+     [!code-csharp[VSSDKMenuCommandTest#11](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_1.cs)]  
   
 4.  Implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> method so that it calls the static `Create()` event of the `CommentAdornmentManager`.  
   
-    ```c#  
+    ```csharp  
     public void TextViewCreated(IWpfTextView textView)  
     {  
         CommentAdornmentManager.Create(textView);  
@@ -295,7 +295,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  Add a method that you can use to execute the command.  
   
-    ```c#  
+    ```csharp  
     static public void Execute(IWpfTextViewHost host)  
     {  
         IWpfTextView view = host.TextView;  
@@ -322,7 +322,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 1.  In the `Connector` class, declare a public field of type <xref:Microsoft.VisualStudio.Text.Editor.AdornmentLayerDefinition>, and export it with a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> that specifies a unique name for the adornment layer and an <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> that defines the Z-order relationship of this adornment layer to the other text view layers (text, caret, and selection).  
   
-    ```c#  
+    ```csharp  
     [Export(typeof(AdornmentLayerDefinition))]  
     [Name("CommentAdornmentLayer")]  
     [Order(After = PredefinedAdornmentLayers.Selection, Before = PredefinedAdornmentLayers.Text)]  
@@ -337,7 +337,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2.  Add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.Collections.ObjectModel;  
@@ -347,7 +347,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Add a class named `CommentAdornmentProvider`.  
   
-    ```c#  
+    ```csharp  
     internal class CommentAdornmentProvider  
     {  
     }  
@@ -355,7 +355,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 4.  Add private fields for the text buffer and the list of comment adornments related to the buffer.  
   
-    ```c#  
+    ```csharp  
     private ITextBuffer buffer;  
     private IList<CommentAdornment> comments = new List<CommentAdornment>();  
   
@@ -363,7 +363,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  Add a constructor for `CommentAdornmentProvider`. This constructor should have private access because the provider is instantiated by the `Create()` method. The constructor adds the `OnBufferChanged` event handler to the <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> event.  
   
-    ```c#  
+    ```csharp  
     private CommentAdornmentProvider(ITextBuffer buffer)  
     {  
         this.buffer = buffer;  
@@ -375,7 +375,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 6.  Add the `Create()` method.  
   
-    ```c#  
+    ```csharp  
     public static CommentAdornmentProvider Create(IWpfTextView view)  
     {  
         return view.Properties.GetOrCreateSingletonProperty<CommentAdornmentProvider>(delegate { return new CommentAdornmentProvider(view.TextBuffer); });  
@@ -385,7 +385,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 7.  Add the `Detach()` method.  
   
-    ```c#  
+    ```csharp  
     public void Detach()  
     {  
         if (this.buffer != null)  
@@ -399,7 +399,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 8.  Add the `OnBufferChanged` event handler.  
   
-    ```c#  
+    ```csharp  
     private void OnBufferChanged(object sender, TextContentChangedEventArgs e)  
     {  
         //Make a list of all comments that have a span of at least one character after applying the change. There is no need to raise a changed event for the deleted adornments. The adornments are deleted only if a text change would cause the view to reformat the line and discard the adornments.  
@@ -420,18 +420,18 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
     ```  
   
-     [!code-cs[VSSDKMenuCommandTest#21](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_2.cs)]
+     [!code-csharp[VSSDKMenuCommandTest#21](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_2.cs)]
      [!code-vb[VSSDKMenuCommandTest#21](../extensibility/codesnippet/VisualBasic/walkthrough-using-a-shell-command-with-an-editor-extension_2.vb)]  
   
 9. Add a declaration for a `CommentsChanged` event.  
   
-    ```c#  
+    ```csharp  
     public event EventHandler<CommentsChangedEventArgs> CommentsChanged;  
     ```  
   
 10. Create an `Add()` method to add the adornment.  
   
-    ```c#  
+    ```csharp  
     public void Add(SnapshotSpan span, string author, string text)  
     {  
         if (span.Length == 0)  
@@ -457,7 +457,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 11. Add a `RemoveComments()` method.  
   
-    ```c#  
+    ```csharp  
     public void RemoveComments(SnapshotSpan span)  
     {  
         EventHandler<CommentsChangedEventArgs> commentsChanged = this.CommentsChanged;  
@@ -484,7 +484,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 12. Add a `GetComments()` method that returns all the comments in a given snapshot span.  
   
-    ```c#  
+    ```csharp  
     public Collection<CommentAdornment> GetComments(SnapshotSpan span)  
     {  
         IList<CommentAdornment> overlappingComments = new List<CommentAdornment>();  
@@ -500,7 +500,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 13. Add a class named `CommentsChangedEventArgs`, as follows.  
   
-    ```c#  
+    ```csharp  
     internal class CommentsChangedEventArgs : EventArgs  
     {  
         public readonly CommentAdornment CommentAdded;  
@@ -522,7 +522,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2.  Add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.Windows.Media;  
@@ -533,7 +533,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Add a class named `CommentAdornmentManager`.  
   
-    ```c#  
+    ```csharp  
     internal class CommentAdornmentManager  
         {  
         }  
@@ -541,7 +541,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 4.  Add some private fields.  
   
-    ```c#  
+    ```csharp  
     private readonly IWpfTextView view;  
     private readonly IAdornmentLayer layer;  
     private readonly CommentAdornmentProvider provider;  
@@ -549,7 +549,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  Add a constructor that subscribes the manager to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events, and also to the `CommentsChanged` event. The constructor is private because the manager is instantiated by the static `Create()` method.  
   
-    ```c#  
+    ```csharp  
     private CommentAdornmentManager(IWpfTextView view)  
     {  
         this.view = view;  
@@ -565,7 +565,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 6.  Add the `Create()` method that gets a provider or creates one if required.  
   
-    ```c#  
+    ```csharp  
     public static CommentAdornmentManager Create(IWpfTextView view)  
     {  
         return view.Properties.GetOrCreateSingletonProperty<CommentAdornmentManager>(delegate { return new CommentAdornmentManager(view); });  
@@ -574,7 +574,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 7.  Add the `CommentsChanged` handler.  
   
-    ```c#  
+    ```csharp  
     private void OnCommentsChanged(object sender, CommentsChangedEventArgs e)  
     {  
         //Remove the comment (when the adornment was added, the comment adornment was used as the tag).   
@@ -589,7 +589,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 8.  Add the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> handler.  
   
-    ```c#  
+    ```csharp  
     private void OnClosed(object sender, EventArgs e)  
     {  
         this.provider.Detach();  
@@ -600,7 +600,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 9. Add the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> handler.  
   
-    ```c#  
+    ```csharp  
     private void OnLayoutChanged(object sender, TextViewLayoutChangedEventArgs e)  
     {  
         //Get all of the comments that intersect any of the new or reformatted lines of text.  
@@ -631,7 +631,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 10. Add the private method that draws the comment.  
   
-     [!code-cs[VSSDKMenuCommandTest#35](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_3.cs)]
+     [!code-csharp[VSSDKMenuCommandTest#35](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_3.cs)]
      [!code-vb[VSSDKMenuCommandTest#35](../extensibility/codesnippet/VisualBasic/walkthrough-using-a-shell-command-with-an-editor-extension_3.vb)]  
   
 ## Using the Menu Command to Add the Comment Adornment  
@@ -647,7 +647,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2.  Open the AddAdornment.cs file and add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using Microsoft.VisualStudio.TextManager.Interop;  
     using Microsoft.VisualStudio.Text.Editor;  
     using Microsoft.VisualStudio.Editor;  
@@ -656,7 +656,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Delete the ShowMessageBox() method and add the following command handler.  
   
-    ```c#  
+    ```csharp  
     private void AddAdornmentHandler(object sender, EventArgs e)  
     {  
     }  
@@ -664,7 +664,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 4.  Add code to get the active view. You must get the `SVsTextManager` of the Visual Studio shell to get the active `IVsTextView`.  
   
-    ```c#  
+    ```csharp  
     private void AddAdornmentHandler(object sender, EventArgs e)  
     {  
         IVsTextManager txtMgr = (IVsTextManager)ServiceProvider.GetService(typeof(SVsTextManager));  
@@ -676,7 +676,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  If this text view is an instance of an editor text view, you can cast it to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this:  
   
-    ```c#  
+    ```csharp  
     private void AddAdornmentHandler(object sender, EventArgs e)  
     {  
         IVsTextManager txtMgr = (IVsTextManager)ServiceProvider.GetService(typeof(SVsTextManager));  
@@ -700,7 +700,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 6.  Set the AddAdornmentHandler method as the handler for the AddAdornment command in the AddAdornment constructor.  
   
-    ```c#  
+    ```csharp  
     private AddAdornment(Package package)  
     {  
         if (package == null)  

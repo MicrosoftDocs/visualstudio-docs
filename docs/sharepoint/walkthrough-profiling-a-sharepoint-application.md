@@ -87,7 +87,7 @@ manager: "ghogen"
     Private webUrl As String = "/"  
     ```  
   
-    ```c#  
+    ```csharp  
     // SharePoint site/subsite.  
     private string siteUrl = "http://localhost";  
     private string webUrl = "/";  
@@ -120,7 +120,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     public override void FeatureActivated(SPFeatureReceiverProperties properties)  
     {  
         try  
@@ -166,7 +166,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     public void TimeCounter()  
     {  
         for (int i = 0; i < 100000; i++)  

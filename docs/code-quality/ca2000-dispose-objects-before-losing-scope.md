@@ -62,7 +62,7 @@ translation.priority.ht:
   
 -   Nesting constructors that are protected only by one exception handler. For example,  
   
-    ```cs
+    ```csharp
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
     { ... }  
     ```
@@ -94,7 +94,7 @@ translation.priority.ht:
   
  The `finally` block checks the value of `tempPort`. If it is not null, an operation in the method has failed, and `tempPort` is closed to make sure that any resources are released. The returned port object will contain the opened SerialPort object if the operations of the method succeeded, or it will be null if an operation failed.  
 
-```cs
+```csharp
 public SerialPort OpenPort1(string portName)
 {
    SerialPort port = new SerialPort(portName);

@@ -36,13 +36,13 @@ Retrieves a friendly name for the server.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServerFriendlyName(  
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetServerFriendlyName(  
    out string pbstrName  
 );  

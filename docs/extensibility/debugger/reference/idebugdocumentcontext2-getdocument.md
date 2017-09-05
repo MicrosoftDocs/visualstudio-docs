@@ -36,13 +36,13 @@ Gets the document that contains this document context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    IDebugDocument2** ppDocument  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocument(   
    out IDebugDocument2 ppDocument  
 );  

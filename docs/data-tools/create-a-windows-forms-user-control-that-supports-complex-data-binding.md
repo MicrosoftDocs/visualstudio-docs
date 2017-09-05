@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data binding, user controls"
   - "data binding, complex"
@@ -112,7 +110,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 2.  Replace the code in the `ComplexDataGridView` with the following:  
   
-     [!code-cs[VbRaddataDisplaying#4](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.cs)]
+     [!code-csharp[VbRaddataDisplaying#4](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.cs)]
      [!code-vb[VbRaddataDisplaying#4](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.vb)]  
   
 3.  From the **Build** menu, choose **Build Solution**.  
@@ -159,7 +157,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 5.  Click the drop-down arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data-bound controls on the form  

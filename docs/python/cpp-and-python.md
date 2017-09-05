@@ -142,7 +142,7 @@ For more information, see [Installing Python Support for Visual Studio](installa
         return (1 + pow(e, (-2 * x))) / (2 * pow(e, -x));
     }
 
-    double tanh(x) {
+    double tanh(double x) {
         return sinh(x) / cosh(x);
     }
     ```
@@ -157,7 +157,7 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
 1. In the C++ file, include `Python.h` at the top:
 
     ```cpp
-    include <Python.h>
+    #include <Python.h>
     ```
 
 1. Modify the `tanh` method to accept and return Python types:
@@ -216,7 +216,7 @@ Second, you can install the module in the global Python environment, making it a
 
 1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components > Compilers, build tools, and runtimes > Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself build with Visual Studio 2015 (version 14.0) and expects those tools be available when building an extension through the method described here.
 
-1. Create a file named `setup.py` in your C++ project by right-clicking the project, selecting **Add > New Items...*, searching for "Python" and selecting **Python file**, naming it setup.py, and selecting **OK**. When the file appears in the editor, paste the following code into it:
+1. Create a file named `setup.py` in your C++ project by right-clicking the project, selecting **Add > New Items...**, searching for "Python" and selecting **Python file**, naming it setup.py, and selecting **OK**. When the file appears in the editor, paste the following code into it:
 
     ```python
     from distutils.core import setup, Extension, DEBUG
