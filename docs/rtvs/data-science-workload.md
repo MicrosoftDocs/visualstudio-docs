@@ -1,7 +1,7 @@
 ---
 title: Data Science and Analytical Applications Workload in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/27/2017
+ms.date: 9/5/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,11 +41,11 @@ By default, the workload installs the following options, which you can modify in
 - Python:
     - Python language support
     - Python web support
-    - [Anaconda3 64-bit](https://www.continuum.io) (a Python interpreter that includes extensive data science libraries)
+    - [Anaconda3 64-bit](https://www.continuum.io) (A Python distro that includes extensive data science libraries and a Python interpreter)
     - Cookiecutter template support
 - R:
     - R language support    
-    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (the R interpreter)
+    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (the R interpreter, although you can use any R from [CRAN](https://cran.r-project.org/))
     - Runtime support for R development tools
 
 > [!Note]
