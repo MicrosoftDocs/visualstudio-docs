@@ -25,8 +25,8 @@ manager: "wpickett"
 
 <table>
    <tr>
-      <td><a href="http://www.artinsoft.com/msdn/?msdn"><img src="media/download.png" alt="Mobilize.Net's Visual Basic Upgrade Companion (VBUC)" width="50" /></a></td>
-      <td><a href="http://www.artinsoft.com/msdn/?msdn"><strong>Learn more and download a free version of VBUC</string></a></td>
+      <td><a href="http://www.mobilize.net/solution/msdn"><img src="media/download.png" alt="Mobilize.Net's Visual Basic Upgrade Companion (VBUC)" width="50" /></a></td>
+      <td><a href="http://www.mobilize.net/solution/msdn"><strong>Learn more and download a free version of VBUC</string></a></td>
    </tr>
 </table>  
 
@@ -34,7 +34,7 @@ manager: "wpickett"
 
 Microsoft and Mobilize.Net have partnered to offer a free VBUC license to you. The discount code below can be used to purchase a license that will allow you to migrate an application of up to 10,000 lines of VB6 code to VB.NET or C# for free. It can also be applied when purchasing a larger license.
 
-[Download your copy today.](http://www.artinsoft.com/msdn/?msdn) Use the code **MSDN** for a free license for up to 10,000 lines of code!
+[Download your copy today.](http://www.mobilize.net/solution/msdn) Use the code **MSDN** for a free license for up to 10,000 lines of code!
 
 ## Benefits
 
@@ -81,22 +81,22 @@ These are some of the unique characteristics of the Visual Basic Upgrade Compani
 For an updated, more detailed features list, please visit the [VBUC’s technical site](http://www.vbtonet.com/?msdn).
 
 ## Learn more and try it for yourself
-Learn more about the VBUC, read customer evidence, access white papers, videos and webcasts, or download a free trial at: https://www.artinsoft.com/msdn.
+Learn more about the VBUC, read customer evidence, access white papers, videos and webcasts, or download a free trial at http://www.mobilize.net/solution/msdn.
 
 ## Additional Resources
 
-- **VB/ASP Assessment Tool**: a free product that works as a measuring instrument for the upgrade effort, analyzing the application components and the relationships between them from a migration perspective, which considers elements, constructs, and features that consume significant resources during an upgrade project.
+- [**VB/ASP Assessment Tool**](https://www.mobilize.net/modernization-assessment-tool): a free product that works as a measuring instrument for the upgrade effort, analyzing the application components and the relationships between them from a migration perspective, which considers elements, constructs, and features that consume significant resources during an upgrade project.
 
-- **VB migration services**: Mobilize.Net can also provide consulting services that range from technical support on an hourly basis to a complete turn-key solution, accelerating and simplifying the migration process of your Visual Basic 6 applications, either to the .NET Platform or straight to the Web, significantly reducing costs, time, and risks.
+- [**VB migration services**](https://www.mobilize.net/solution/legacy-solutions/vbmap---migrate-from-vb6-to-net): Mobilize.Net can also provide consulting services that range from technical support on an hourly basis to a complete turn-key solution, accelerating and simplifying the migration process of your Visual Basic 6 applications, either to the .NET Platform or straight to the Web, significantly reducing costs, time, and risks.
  
-- **VBUC technical site**: a comprehensive website around the Visual basic Upgrade Companion, full of documentation and other resources to help you achieve success on your VB6 to .NET migration projects.
+- [**VBUC technical site**](http://www.vbtonet.com/?msdn): a comprehensive website around the Visual basic Upgrade Companion, full of documentation and other resources to help you achieve success on your VB6 to .NET migration projects.
 
-- **Mobilize.Net’s customers**: a partial list of companies that have benefitted from using our unique migration technology.
+- [**Mobilize.Net’s customers**](http://www.mobilize.net/resources/customer-list): a partial list of companies that have benefitted from using our unique migration technology.
 
-- **Mobilize.Net’s case studies and testimonials**: detailed customer evidence ranging from quotes to comprehensive success stories.
+- [**Mobilize.Net’s case studies and testimonials**](http://www.mobilize.net/case-studies/case-studies): detailed customer evidence ranging from quotes to comprehensive success stories.
  
-- **Mobilize.Net’s white papers**: loads of useful information to plan your migration project accordingly and succeed.
+- [**Mobilize.Net’s white papers**](http://www.mobilize.net/whitepapers): loads of useful information to plan your migration project accordingly and succeed.
  
-- **Mobilize.Net’s multimedia resources**: training /demo videos, webcasts, podcasts and more.
+- [**Mobilize.Net’s multimedia resources**](http://www.mobilize.net/tech-resources): training /demo videos, webcasts, podcasts and more.
 
  
