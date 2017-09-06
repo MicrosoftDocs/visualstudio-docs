@@ -30,9 +30,7 @@ translation.priority.mt:
 # Entity Data Model Tools in Visual Studio
 Entity Framework is an object-relational mapping technology that enables .NET developers to work with relational data by using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write. Entity Framework is the recommended object-relational mapping (ORM) modeling technology for new .NET applications.  
   
- As of March 2016, the most current released version is [Entity Framework 6](https://msdn.microsoft.com/en-us/data/ef) . [Entity Framework 7](https://docs.efproject.net/en/latest/) is in pre-release.  
-  
- [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools are designed to help you build [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)] applications. The complete documentation for [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools is here: [Entity Framework](https://msdn.microsoft.com/en-us/data/jj590134).  
+ [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools are designed to help you build Entity Framework (EF) applications. The complete documentation for Entity Framework is here: [EF Core and EF 6](https://docs.microsoft.com/en-us/ef/).  
   
  With [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools, you can create a *conceptual model* from an existing database and then graphically visualize and edit your conceptual model. Or, you can graphically create a conceptual model first, and then generate a database that supports your model. In either case, you can automatically update your model when the underlying database changes and automatically generate object-layer code for your application. Database generation and object-layer code generation are customizable.  
   
