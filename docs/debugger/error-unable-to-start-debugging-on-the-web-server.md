@@ -58,16 +58,16 @@ Often, this error occurs because an error or configuration change has occurred t
 
 The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
-- [IIS does not list a website that matches the launch url](#IIS_list)
+- [IIS does not list a website that matches the launch url](#IISlist)
 - [The web server is not configured correctly](#web_server_config)
-- [Unable to connect to the webserver](#unable_to_connect)
-- [The web server did not respond in a timely manner](#web_server_timeout)
+- [Unable to connect to the webserver](#unabletoconnect)
+- [The web server did not respond in a timely manner](#webservertimeout)
 - [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
 - [Could not start ASP.NET debugging](#aspnet)
 - [The debugger cannot connect to the remote computer](#cannot_connect)
 - [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
 
-## <a name="IIS_list"></a> IIS does not list a website that matches the launch url
+## <a name="IISlist"></a> IIS does not list a website that matches the launch url
 
 - Restart Visual Studio as an Administrator and retry debugging. (Some ASP.NET debugging scenarios require elevated privileges.)
 
@@ -77,13 +77,13 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 - See [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md).
 
-## <a name="unable_to_connect"></a> Unable to connect to the webserver
+## <a name="unabletoconnect"></a> Unable to connect to the webserver
 
 - Are you running Visual Studio and the Web server on the same machine and debugging using **F5** (instead of **Attach to Process**)? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 - If the Web server is remote, restart your Application Pool and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-## <a name="web_server_timeout"></a> The web server did not respond in a timely manner
+## <a name="webservertimeout"></a> The web server did not respond in a timely manner
 
 - Reset IIS and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
@@ -99,7 +99,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
-When debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 Also, if you are using a HOSTS file, make sure it is configured correctly. For example, if debugging using **F5** (instead of **Attach to Process**), the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
