@@ -3,7 +3,6 @@
 # [Installation](install/TOC.md)
 # [Visual Studio IDE](ide/visual-studio-ide.md)
 # [Visual Basic](/dotnet/visual-basic)
-## [Visual Basic 6.0 Resource Center](vb6/resource-center.md)
 # [Visual C#](/dotnet/csharp)
 # [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
 # [JavaScript](/scripting/javascript)
