@@ -97,7 +97,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
      The **NorthwindDataSet** is added to your project and the `Region` table appears in the **Data Sources** window.  
   
-## Addcontrols to the form to display the data  
+## Add controls to the form to display the data  
  Create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data bound controls on the Windows form  
