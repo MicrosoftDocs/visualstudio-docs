@@ -126,7 +126,8 @@ A common application scenario is to display selected data on a form. For example
      The query should be similar to the following:  
   
      ```sql
-     SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax`  
+     SELECT CustomerID, CompanyName, ContactName, ContactTitle,  
+          Address, City, Region, PostalCode, Country, Phone, Fax  
      FROM Customers
      WHERE City = @City  
      ```

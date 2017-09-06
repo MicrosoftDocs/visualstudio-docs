@@ -190,7 +190,7 @@ In the next step, you will configure a data source to enable data binding to the
   
 5.  Select **Customer** check box, and then choose the **Finish** button.  
   
- In this step, you will create the user interface that will display the data from the service.  
+In the next step, you will create the user interface that will display the data from the service.  
   
 #### To create the user interface  
   
