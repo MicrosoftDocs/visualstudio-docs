@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "databases, samples"
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
 caps.latest.revision: 28
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

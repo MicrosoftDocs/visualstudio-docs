@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "updating datasets, validating data"
 ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

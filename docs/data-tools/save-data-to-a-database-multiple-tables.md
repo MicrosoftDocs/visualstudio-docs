@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "data [Visual Studio], updating"
 ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

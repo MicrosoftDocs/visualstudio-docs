@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 caps.latest.revision: 11
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

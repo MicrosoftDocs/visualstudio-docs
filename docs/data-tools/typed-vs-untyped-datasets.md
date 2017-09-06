@@ -11,8 +11,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 caps.latest.revision: 5
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "constraints [Visual Basic], suspending during dataset update"
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
