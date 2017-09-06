@@ -86,4 +86,4 @@ Microsoft and Great Migrations have partnered to offer a free gmStudio license t
 - **Learn more**:  visit [Great Migrations Documentation Home](https://www.greatmigrations.com/resources/documentation.aspx) for white papers, case studies, videos and webcasts.
 
 - **Try it yourself**:  submit the [gmStudio Demo request form](http://www.greatmigrations.com/resources/gmstudio-promotion.aspx) to get a free trial version of gmStudio.
-- 
+  
