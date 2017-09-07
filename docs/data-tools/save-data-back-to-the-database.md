@@ -58,8 +58,8 @@ If you're familiar with TableAdapters, you can jump directly to one of these top
 |[Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)|How to perform updates with TableAdapters|  
 |[Hierarchical update](../data-tools/hierarchical-update.md)|How to perform updates from a dataset with two or more related tables|  
 |[Handle a concurrency exception](../data-tools/handle-a-concurrency-exception.md)|How to handle exceptions when two users attempt to change the same data in a database at the same time|  
-|[Save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)|How to save data in a transaction using the System.Transactions namespace  and the TransactionScope object|  
-|[Save data in a transaction](../data-tools/save-data-in-a-transaction.md)|How to save data in a transaction using the System.Transactions namespace|  
+|[How to: Save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)|How to save data in a transaction using the System.Transactions namespace  and the TransactionScope object|  
+|[Walkthrough: Save data in a transaction](../data-tools/save-data-in-a-transaction.md)|How to save data in a transaction using the System.Transactions namespace|  
 |[Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md)|How to edit records and save changes in multiple tables back to the database|  
 |[Save data from an object to a database](../data-tools/save-data-from-an-object-to-a-database.md)|How to pass data from an object that is not in a dataset to a database by using a TableAdapter DbDirect method|  
 |[Save data with the TableAdapter DBDirect methods](../data-tools/save-data-with-the-tableadapter-dbdirect-methods.md)|How to use the TableAdapter to send SQL queries directly to the database|  
