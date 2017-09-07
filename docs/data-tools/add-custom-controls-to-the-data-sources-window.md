@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Data Sources Window, selecting controls"
 ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 caps.latest.revision: 42
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -78,7 +78,7 @@ When you drag an item from the **Data Sources** window to a design surface to cr
   
      The controls you selected in the **Associated controls** box now appear in the drop-down menu for the item.  
   
-##  <a name="addingcontrols"></a> Addcontrols to the list of associated controls for a data type  
+##  <a name="addingcontrols"></a> Add controls to the list of associated controls for a data type  
  If you want to associate a control with a data type, but the control does not appear in the **Associated controls** box, you must add the control to the list. The control must be located in the current solution or in a referenced assembly. It must also be available in the **Toolbox**, and have an attribute that specifies the control's data binding behavior.  
   
 #### To add controls to the list of associated controls  

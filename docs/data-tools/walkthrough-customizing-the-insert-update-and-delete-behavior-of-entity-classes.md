@@ -11,8 +11,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
