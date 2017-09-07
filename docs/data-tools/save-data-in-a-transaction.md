@@ -1,5 +1,5 @@
 ---
-title: "Save data in a transaction | Microsoft Docs"
+title: "Walkthrough: Save data in a transaction | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Save data in a transaction
+# Walkthrough: Save data in a transaction
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  
@@ -60,11 +60,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **Data** menu, select **Show Data Sources**.  
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
 4.  On the **Choose your Data Connection** screen do one of the following:  
   
@@ -128,7 +128,7 @@ The order for reconciling changes to related data is as follows:
   
 -   Delete parent records. (In this case, delete records from the `Customers` table.)  
   
--   Insert parent records.(In this case, insert records in the `Customers` table.)  
+-   Insert parent records. (In this case, insert records in the `Customers` table.)  
   
 -   Insert child records. (In this case, insert records in the `Orders` table.)  
   
