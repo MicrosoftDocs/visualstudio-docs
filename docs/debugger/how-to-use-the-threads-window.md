@@ -165,7 +165,7 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 #### To unflag threads  
   
-1.  On the **Threads** window, right-click the line corresponding to the flagged thread.  
+1.  In the **Threads** window, right-click the line corresponding to the flagged thread.  
   
      A shortcut menu is displayed. It has options to **Unflag** and **Unflag All Threads**.  
   
@@ -208,9 +208,7 @@ You can flag threads that you want to give special attention. Flagging threads i
      After a momentary delay, a DataTip appears. It shows a partial call stack for the thread.
 
      > [!TIP]
-     > For a graphical view of the call stacks for threads, open the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window (while debugging, choose **Debug / Windows / Parallel Stacks**). You will see call stacks like this illustration.
-
-    ![Parallel Stacks Window](../debugger/media/dbg-threads-parallel-stacks.png "ParallelStacksWindow")    
+     > For a graphical view of the call stacks for threads, open the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window (while debugging, choose **Debug / Windows / Parallel Stacks**).  
   
 5.  Look at the fourth column from the left, which is labeled **Category**. The threads are classified into categories.  
   
