@@ -88,7 +88,7 @@ Get started by creating a team project, configuring your workspace, and reviewin
 
 <table>
 <tr valign="middle" align="center">
-<td>![VS](_img/index/vs-ide.png)<br/>[Visual Studio](/vsts/tfvc/share-your-code-in-tfvc-vs)</td>
+<td>![VS](media/vs-ide.png)<br/>[Visual Studio](/vsts/tfvc/share-your-code-in-tfvc-vs)</td>
 </tr>
 </table>    
 
