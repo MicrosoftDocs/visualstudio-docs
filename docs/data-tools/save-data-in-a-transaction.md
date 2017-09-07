@@ -42,12 +42,12 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
 ## Prerequisites  
  This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
-## Create a Windows application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1.  In Visual Studio, on the **File** menu, click **New > Project**.  
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
