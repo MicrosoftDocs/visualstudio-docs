@@ -1,4 +1,4 @@
----
+﻿---
 title: Version control in Visual Studio | VSTS & TFS
 description: Guide to getting started with version control in Viual Studio 
 keywords: VSTS, TFS, Version Control
@@ -33,31 +33,31 @@ Get started by creating a repo, uploading your code, and inviting developers to 
 
 <table>
 <tr valign="middle" align="center">
-<td>![Web](media/web.png)<br/>[Web](/vsts/git/create-new-repo.md)</td>
-<td>![VS](media/vs-ide.png)<br/>[Visual Studio](/vsts/git/share-your-code-in-git-vs.md)</td>
+<td>![Web](media/web.png)<br/>[Web](/vsts/git/create-new-repo)</td>
+<td>![VS](media/vs-ide.png)<br/>[Visual Studio](/vsts/git/share-your-code-in-git-vs)</td>
 </tr>
 </table>    
 
 
-Or, you can [import an existing repo](/vsts/git/import-git-repository.md) from GitHub, BitBucket, GitLab, or other location to a new, empty repo. 
+Or, you can [import an existing repo](/vsts/git/import-git-repository) from GitHub, BitBucket, GitLab, or other location to a new, empty repo. 
 
 ### Git Step-by-Step Tutorials  
 
 Learn the basics of working in Git with these tutorials which show tasks performed using Visual Studio.
 
-- [Create a new repo](/vsts/git/tutorial/creatingrepo.md)  
-- [Clone an existing repo](/vsts/git/tutorial/clone.md)  
-- [Save work with commits](/vsts/git/tutorial/commits.md)  
-- [Create work in branches](/vsts/git/tutorial/branches.md)  
-- [Share code with push](/vsts/git/tutorial/pushing.md)  
-- [Update code with fetch and pull](/vsts/git/tutorial/pulling.md)  
-- [Review code with pull requests](/vsts/git/tutorial/pullrequest.md)  
-- [Apply changes with rebase](/vsts/git/tutorial/rebase.md)  
-- [Copy changes with cherry-pick](/vsts/git/tutorial/cherry-pick.md)  
-- [Resolve merge conflicts](/vsts/git/tutorial/merging.md)  
-- [Undo changes](/vsts/git/tutorial/undo.md)  
-- [Ignore files](/vsts/git/tutorial/ignore-files.md)  
-- [Review history](/vsts/git/tutorial/history.md)  
+- [Create a new repo](/vsts/git/tutorial/creatingrepo)  
+- [Clone an existing repo](/vsts/git/tutorial/clone)  
+- [Save work with commits](/vsts/git/tutorial/commits)  
+- [Create work in branches](/vsts/git/tutorial/branches)  
+- [Share code with push](/vsts/git/tutorial/pushing)  
+- [Update code with fetch and pull](/vsts/git/tutorial/pulling)  
+- [Review code with pull requests](/vsts/git/tutorial/pullrequest)  
+- [Apply changes with rebase](/vsts/git/tutorial/rebase)  
+- [Copy changes with cherry-pick](/vsts/git/tutorial/cherry-pick)  
+- [Resolve merge conflicts](/vsts/git/tutorial/merging)  
+- [Undo changes](/vsts/git/tutorial/undo)  
+- [Ignore files](/vsts/git/tutorial/ignore-files)  
+- [Review history](/vsts/git/tutorial/history)  
 
 
 ### Git Videos 
@@ -88,7 +88,7 @@ Get started by creating a team project, configuring your workspace, and reviewin
 
 <table>
 <tr valign="middle" align="center">
-<td>![VS](_img/index/vs-ide.png)<br/>[Visual Studio](/vsts/tfvc/share-your-code-in-tfvc-vs.md)</td>
+<td>![VS](_img/index/vs-ide.png)<br/>[Visual Studio](/vsts/tfvc/share-your-code-in-tfvc-vs)</td>
 </tr>
 </table>    
 
@@ -96,8 +96,8 @@ Get started by creating a team project, configuring your workspace, and reviewin
 
 Learn the basics of working in TFVC with the following tutorial which shows a day in the life of a devops developer using Visual Studio and TFVC.
 
-* [Day in the life of a devops developer: suspend work, fix a bug, and conduct a code review](/vsts/tfvc/day-life-alm-developer-suspend-work-fix-bug-conduct-code-review.md)
-* [Visual Studio: Review Code](/vsts/tfvc/get-code-reviewed-vs.md)
+* [Day in the life of a devops developer: suspend work, fix a bug, and conduct a code review](/vsts/tfvc/day-life-alm-developer-suspend-work-fix-bug-conduct-code-review)
+* [Visual Studio: Review Code](/vsts/tfvc/get-code-reviewed-vs)
 
 
 ### TFVC Resources 
