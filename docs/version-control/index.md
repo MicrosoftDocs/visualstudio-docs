@@ -11,11 +11,23 @@ ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 ---
 
-# Git
+# Version Control in Visual Studio
 
-Use Git repos to host and collaborate on your code using Team Services or Team Foundation Server.  
+Version control systems are software that help you track changes you make in your code over time. As you edit to your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it.
 
-## 5-Minute Quickstarts 
+Without version control, you’re tempted to keep multiple copies of code on your computer. This is dangerous-it’s easy to change or delete a file in the wrong copy of code, potentially losing work. Version control systems solve this problem by managing all versions of your code but presenting you with a single version at a time.
+
+Visual Studio Team Services and TFS provide two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. This article provides an overview and a starting point for using Team Foundation Version Control. If you're deciding which type of Team Services/TFS version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc).
+
+* [Git](#git)
+* [Team Foundation Version Control (TFVC)](#TFVC)
+
+## Git
+Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
+
+Git’s flexibility and popularity make it a great choice for any team. Many developers and college graduates already know how to use Git. Git’s user community has created many resources to train developers and Git’s popularity make it easy to get help when you need it.  Nearly every development environment has Git support and Git command line tools run on every major operating system.
+
+### Git 5-Minute Quickstarts 
 
 Get started by creating a repo, uploading your code, and inviting developers to work in the repo. You can use any one of these clients or IDEs: 
 
@@ -29,7 +41,7 @@ Get started by creating a repo, uploading your code, and inviting developers to 
 
 Or, you can [import an existing repo](/vsts/git/import-git-repository.md) from GitHub, BitBucket, GitLab, or other location to a new, empty repo. 
 
-## Step-by-Step Tutorials  
+### Git Step-by-Step Tutorials  
 
 Learn the basics of working in Git with these tutorials which show tasks performed using Visual Studio.
 
@@ -48,7 +60,7 @@ Learn the basics of working in Git with these tutorials which show tasks perform
 - [Review history](/vsts/git/tutorial/history.md)  
 
 
-## Videos 
+### Git Videos 
  
 [![Git at scale video](media/git-at-scale-video-img.png)](https://channel9.msdn.com/Events/Build/20-7/P4-0-/player)  
 
@@ -56,7 +68,7 @@ Learn the basics of working in Git with these tutorials which show tasks perform
 
 
 
-## Resources 
+### Git Resources 
 
 - [What is Git?](https://www.visualstudio.com/learn/what-is-git/)  
 - [What is version control?](https://www.visualstudio.com/learn/what-is-version-control/)  
@@ -64,3 +76,32 @@ Learn the basics of working in Git with these tutorials which show tasks perform
 - [Migrate from TFVC to Git](https://www.visualstudio.com/learn/migrate-from-tfvc-to-git/)  
 - [Git at Scale](https://www.visualstudio.com/learn/git-at-scale/)   
 - [Marketplace extensions](https://marketplace.visualstudio.com/search?target=VSTS&category=Code&sortBy=Downloads)
+
+
+## TFVC
+
+Team Foundation Version Control (TFVC) is a centralized version control system. Typically, team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server.
+
+### TFVC 5-Minute Quickstarts 
+
+Get started by creating a team project, configuring your workspace, and reviewing and sharing your code.
+
+<table>
+<tr valign="middle" align="center">
+<td>![VS](_img/index/vs-ide.png)<br/>[Visual Studio](/vsts/tfvc/share-your-code-in-tfvc-vs.md)</td>
+</tr>
+</table>    
+
+### TFVC Step-by-Step Tutorials  
+
+Learn the basics of working in TFVC with the following tutorial which shows a day in the life of a devops developer using Visual Studio and TFVC.
+
+* [Day in the life of a devops developer: suspend work, fix a bug, and conduct a code review](/vsts/tfvc/day-life-alm-developer-suspend-work-fix-bug-conduct-code-review.md)
+* [Visual Studio: Review Code](/vsts/tfvc/get-code-reviewed-vs.md)
+
+
+### TFVC Resources 
+
+- [What is version control?](https://www.visualstudio.com/learn/what-is-version-control/)  
+- [Migrate from TFVC to Git](https://www.visualstudio.com/learn/migrate-from-tfvc-to-git/)  
+
