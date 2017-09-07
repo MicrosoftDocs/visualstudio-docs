@@ -2,7 +2,6 @@
 # [Installing database systems, tools, and samples](installing-database-systems-tools-and-samples.md)
 ## [Install SQL Server sample databases](install-sql-server-sample-databases.md)
 ## [Create a SQL database by using a script](create-a-sql-database-by-using-a-script.md)
-## [Create a SQL database by using a designer](create-a-sql-database-by-using-a-designer.md)
 ## [Upgrade .mdf files](upgrade-dot-mdf-files.md)
 # [Visual Studio data tools for .NET](visual-studio-data-tools-for-dotnet.md)
 ## [Create a simple data application by using ADO.NET](create-a-simple-data-application-by-using-adonet.md)
