@@ -23,7 +23,7 @@ translation.priority.ht:
   - "fr-fr"
   - "it-it"
   - "ja-jp"
-  - "ko-kr"  
+  - "ko-kr"
   - "pl-pl"
   - "pt-br"
   - "ru-ru"
