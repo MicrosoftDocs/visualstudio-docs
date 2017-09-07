@@ -1123,7 +1123,7 @@ csharp_space_between_method_declaration_parameter_list_parentheses = true
 ```
 # CSharp formatting settings:
 [*.cs]
-csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
+csharp_space_between_method_call_parameter_list_parentheses = true
 ```  
 
 ### <a name="space_other"> Space Within Parentheses for Other Options </a>
