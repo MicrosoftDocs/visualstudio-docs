@@ -64,7 +64,7 @@ To create a local layout, open a command prompt and use one of the commands from
 
 If you want to install a language other than English, change `en-US` to a locale from the list at the bottom of this page. Use this [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache as necessary.
 
-## Step 4 - Install Visual Studio from the local cache
+## Step 3 - Install Visual Studio from the local cache
 
 > [!TIP]
 > When you run from a local install cache, setup uses the local versions of each of these files. But if you select components during installation that aren't in the cache, we attempt to download them from the internet.
