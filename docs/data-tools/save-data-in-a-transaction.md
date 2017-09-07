@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
 caps.latest.revision: 15
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -84,7 +84,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data bound controls on the Windows form  
@@ -110,8 +110,8 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
      A reference to **System.Transactions** is added to the project.  
   
-## Modifythe code in the BindingNavigator's SaveItem button  
- For the first table dropped onto your form, code is added by default to the `click` event of the save button on the <xref:System.Windows.Forms.BindingNavigator>. You need to manually add code to update any additional tables. For this walkthrough, we refactor the existing save code out of the save button's click event handler.We also create a few more methods to provide specific update functionality based on whether the row needs to be added or deleted.  
+## Modify the code in the BindingNavigator's SaveItem button  
+ For the first table dropped onto your form, code is added by default to the `click` event of the save button on the <xref:System.Windows.Forms.BindingNavigator>. You need to manually add code to update any additional tables. For this walkthrough, we refactor the existing save code out of the save button's click event handler. We also create a few more methods to provide specific update functionality based on whether the row needs to be added or deleted.  
   
 #### To modify the auto-generated save code  
   
@@ -122,7 +122,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
      [!code-vb[VbRaddataSaving#4](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_1.vb)]
      [!code-csharp[VbRaddataSaving#4](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_1.cs)]  
   
- The order for reconciling changes to related data is as follows:  
+The order for reconciling changes to related data is as follows:  
   
 -   Delete child records. (In this case, delete records from the `Orders` table.)  
   

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "data [Visual Studio], TableAdapter"
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -97,7 +97,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
      The **NorthwindDataSet** is added to your project and the `Region` table appears in the **Data Sources** window.  
   
-## Addcontrols to the form to display the data  
+## Add controls to the form to display the data  
  Create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data bound controls on the Windows form  
