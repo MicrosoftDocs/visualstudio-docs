@@ -1,14 +1,14 @@
 ---
-title: Version control in Visual Studio | VSTS & TFS    
-description: Guide to getting started with version control in Viual Studio  
-ms.prod: vs-devops-alm
-ms.technology: vsts-sub-git 
-ms.service: vsts-code  
-ms.assetid:     
+title: Version control in Visual Studio | VSTS & TFS
+description: Guide to getting started with version control in Viual Studio 
+keywords: VSTS, TFS, Version Control
+author: steved0x
 ms.manager: douge
 ms.author: sdanie
 ms.date: 09/07/2017
-layout: LandingPage
+ms.topic: article
+ms.prod: .net-core
+ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 ---
 
 # Git
@@ -52,7 +52,7 @@ Learn the basics of working in Git with these tutorials which show tasks perform
  
 [![Git at scale video](media/git-at-scale-video-img.png)](https://channel9.msdn.com/Events/Build/20-7/P4-0-/player)  
 
-[![Creating a repo video](_media/create-a-git-repo-video-img.png)](https://channel9.msdn.com/series/Team-Services-Git-Tutorial/Git-Tutorial-Create-a-Git-repo-in-Visual-Studio-20-5/player)
+[![Creating a repo video](media/create-a-git-repo-video-img.png)](https://channel9.msdn.com/series/Team-Services-Git-Tutorial/Git-Tutorial-Create-a-Git-repo-in-Visual-Studio-20-5/player)
 
 
 

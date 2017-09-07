@@ -9,13 +9,13 @@
   - name: Create repo - Web
     href: /vsts/git/create-new-repo.md
   - name: Create repo - CLI
-    href: share-your-code-in-git-cmdline.md
+    href: /vsts/git/share-your-code-in-git-cmdline.md
   - name: Create repo - Visual Studio
     href: /vsts/git/share-your-code-in-git-vs-2017.md
   - name: Import repo - Web
     href: /vsts/git/import-git-repository.md
 - name: Tutorials
-  href: gitquickstart.md
+  href: /vsts/git/gitquickstart.md
   items:
   - name: Create a new repo
     href: /vsts/git/tutorial/creatingrepo.md
