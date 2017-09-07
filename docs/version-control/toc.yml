@@ -1,0 +1,81 @@
+- name: Version Control
+  href: index.md
+- name: Overview
+  items:
+  - name: Learn about Git
+    href: /vsts/git/tutorial/gitworkflow.md?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json
+- name: Quickstarts
+  items:
+  - name: Create repo - Web
+    href: /vsts/git/create-new-repo.md
+  - name: Create repo - CLI
+    href: share-your-code-in-git-cmdline.md
+  - name: Create repo - Visual Studio
+    href: /vsts/git/share-your-code-in-git-vs-2017.md
+  - name: Import repo - Web
+    href: /vsts/git/import-git-repository.md
+- name: Tutorials
+  href: gitquickstart.md
+  items:
+  - name: Create a new repo
+    href: /vsts/git/tutorial/creatingrepo.md
+  - name: Clone an existing repo
+    href: /vsts/git/tutorial/clone.md
+  - name: Save work with commits
+    href: /vsts/git/tutorial/commits.md
+  - name: Create work in branches
+    href: /vsts/git/tutorial/branches.md
+  - name: Share code with push
+    href: /vsts/git/tutorial/pushing.md
+  - name: Update code with fetch and pull
+    href: /vsts/git/tutorial/pulling.md
+  - name: Review code with pull requests
+    href: /vsts/git/tutorial/pullrequest.md
+  - name: Apply changes with rebase
+    href: /vsts/git/tutorial/rebase.md
+  - name: Copy changes with cherry-pick
+    href: /vsts/git/tutorial/cherry-pick.md
+  - name: Resolve merge conflicts
+    href: /vsts/git/tutorial/merging.md
+  - name: Undo changes
+    href: /vsts/git/tutorial/undo.md
+  - name: Ignore files
+    href: /vsts/git/tutorial/ignore-files.md
+  - name: Review history
+    href: /vsts/git/tutorial/history.md
+- name: Concepts
+  items:
+  - name: History in Git
+    href: /vsts/git/concepts/history.md
+  - name: History simplification
+    href: /vsts/git/concepts/history-simplification.md
+  - name: Branch organization
+    href: /vsts/git/concepts/git-branching-guidance.md
+  - name: Pull requests
+    href: /vsts/git/concepts/pull-requests.md
+    name: Forks
+    href: /vsts/git/concepts/forks.md
+  - name: Authentication
+    href: /vsts/git/auth-overview.md
+  - name: Understand dates in Git
+    href: /vsts/git/concepts/git-dates.md
+  - name: Understand names in Git
+    href: /vsts/git/concepts/git-names.md
+- name: How-to Guides
+  items:
+  - name: Authenticate with SSH
+    href: /vsts/git/use-ssh-keys-to-authenticate.md
+  - name: Authenticate with the Git Credential Manager
+    href: /vsts/git/set-up-credential-managers.md
+- name: Reference
+  items:
+  - name: Command reference
+    href: /vsts/git/command-prompt.md
+  - name: Frequently asked questions
+    href: /vsts/git/tutorial/howto.md
+- name: Resources
+  items:
+  - name: Pro Git
+    href: https://www.git-scm.com/book/en/v2
+    name: Learn Git
+    href: https://www.visualstudio.com/learn-git/

@@ -1,0 +1,7 @@
+- name: Visual Studio
+  tocHref: /visualstudio/
+  topicHref: /visualstudio/index
+  items: 
+  - name: Version Control
+    tocHref: /visualstudio/version-control/
+    topicHref: /visualstudio/version-control/index
