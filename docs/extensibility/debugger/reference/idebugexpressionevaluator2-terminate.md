@@ -35,13 +35,13 @@ Stops and cleans up the expression evaluator.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Terminate (  
     void  
 );  
 ```  
   
-```c#  
+```csharp  
 int Terminate ();  
 ```  
   
@@ -54,7 +54,7 @@ int Terminate ();
 ## Example  
  The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)  
 {  
     // scan the namespaces contained and delete  

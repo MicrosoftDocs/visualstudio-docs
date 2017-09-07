@@ -36,13 +36,13 @@ Creates an enumerator for the nested enumerators of this class.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumNestedEnums(   
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumNestedEnums(  
    out IEnumDebugFields ppEnum  
 );  

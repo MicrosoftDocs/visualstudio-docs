@@ -53,7 +53,7 @@ Each culture has different conventions for displaying dates, time, numbers, curr
   
  For example, the following code shows how you can use the <xref:System.IFormattable.ToString%2A> method to format currency for the current culture:  
   
-```vb#  
+```vb  
 ' Put the Imports statements at the beginning of the code module  
 Imports System.Threading  
 Imports System.Globalization  
@@ -63,7 +63,7 @@ Console.WriteLine(MyInt.ToString("C", Thread.CurrentThread.CurrentCulture))
   
 ```  
   
-```c#  
+```csharp  
 // Put the using statements at the beginning of the code module  
 using System.Threading;  
 using System.Globalization;  

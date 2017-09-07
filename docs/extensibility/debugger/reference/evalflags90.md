@@ -34,7 +34,7 @@ Enumerates the valid values for flags that control expression evaluation. This e
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EVALFLAGS90  
 {  
    // VS 8.0 values  
@@ -54,7 +54,7 @@ enum enum_EVALFLAGS90
 typedef DWORD EVALFLAGS90;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_EVALFLAGS90  
 {  
    // VS 8.0 values  

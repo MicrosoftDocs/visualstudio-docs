@@ -36,7 +36,7 @@ Specifies the information to be retrieved about a failed resolution of a breakpo
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BPERESI_FIELDS {   
    PERESI_BPRESLOCATION = 0x0001,  
    BPERESI_PROGRAM      = 0x0002,  
@@ -48,7 +48,7 @@ enum enum_BPERESI_FIELDS { 
 typedef DWORD BPERESI_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BPERESI_FIELDS {   
    PERESI_BPRESLOCATION = 0x0001,  
    BPERESI_PROGRAM      = 0x0002,  

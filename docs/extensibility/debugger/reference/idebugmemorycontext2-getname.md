@@ -37,13 +37,13 @@ Retrieves the user-displayable name for this context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetName(  
    out string pbstrName  
 );  

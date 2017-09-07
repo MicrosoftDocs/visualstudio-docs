@@ -36,13 +36,13 @@ Determines if a debug engine (DE) can detach from the program.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanDetach(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int CanDetach();  
 ```  
   

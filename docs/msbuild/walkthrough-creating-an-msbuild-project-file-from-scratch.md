@@ -72,7 +72,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 4.  Start Notepad or another text editor, and then type the following code.  
   
-    ```cs
+    ```csharp
     using System;  
   
     class HelloWorld  

@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a93c287-2834-4a83-a590-bdc3fe8d293f
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"
@@ -20,13 +20,13 @@ translation.priority.mt:
 # Add new connections
 You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:  
   
- Server Explorer  
+ - Server Explorer  
  Installed by default in Visual Studio. Can be used to test connections and view SQL Server databases, any other databases that have an ADO.NET provider installed, and some Azure services. Also shows low-level objects such as system performance counters, event logs, and message queues. If a data source has no ADO.NET provider, it won't show up here, but you can still use it from Visual Studio by connecting programmatically.  
   
- Cloud Explorer  
+ - Cloud Explorer  
  Install this window manually as a Visual Studio extension by selecting **Tools** > **Extensions and Updates** > **Online** > **Visual Studio Gallery**. Provides specialized functionality for exploring and connecting to Azure services.  
   
- SQL Server Object Explorer  
+ - SQL Server Object Explorer  
  Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio,  and then select **Change** to re-run the installer after selecting  the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.  
   
 ## Add a connection in Server Explorer  

@@ -35,13 +35,13 @@ Retrieves the primitive type that is associated with this field.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPrimitiveType (  
    DWORD* pdwType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPrimitiveType (  
    out uint pdwType  
 );  

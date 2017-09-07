@@ -35,7 +35,7 @@ Retrieves information about the modules in the symbol group.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCurrentModulesInfo(  
    unsigned long * pCount,  
    GUID *          ppGuids,  
@@ -45,7 +45,7 @@ HRESULT GetCurrentModulesInfo(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCurrentModulesInfo(  
    uint       pCount,  
    Guid       ppGuids,  

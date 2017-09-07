@@ -6,21 +6,16 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "Windows Forms, searching data"
   - "Windows Forms, displaying data"
   - "parameters, displaying filtered data"
-  - "data [Visual Studio], paramaterizing queries"
+  - "data [Visual Studio], parameterizing queries"
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 28
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -117,7 +112,7 @@ A common application scenario is to display selected data on a form. For example
   
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
-## Addparameterization (search functionality) to the query  
+## Add parameterization (search functionality) to the query  
  You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box.  
   
 #### To create a parameterized query and controls to enter the parameters  
@@ -130,11 +125,12 @@ A common application scenario is to display selected data on a form. For example
   
      The query should be similar to the following:  
   
-     `SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax`  
-  
-     `FROM Customers`  
-  
-     `WHERE City = @City`  
+     ```sql
+     SELECT CustomerID, CompanyName, ContactName, ContactTitle,  
+          Address, City, Region, PostalCode, Country, Phone, Fax  
+     FROM Customers
+     WHERE City = @City  
+     ```
   
     > [!NOTE]
     >  Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  

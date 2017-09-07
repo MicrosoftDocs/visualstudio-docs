@@ -36,7 +36,7 @@ This function renames a file in the source control system.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccRename(  
    LPVOID pvContext,  
    HWND   hWnd,  

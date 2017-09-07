@@ -216,7 +216,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      For Visual Basic, the event handler should look like this:  
   
-    ```vb#  
+    ```vb  
     Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)  
   
     End Sub  
@@ -224,7 +224,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      For Visual C#, the event handler should look like this:  
   
-    ```c#  
+    ```csharp  
     private void Button_Click_1(object sender, RoutedEventArgs e)  
     {  
   
@@ -233,7 +233,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
 2.  For Visual Basic, enter the following code:  
   
-    ```vb#  
+    ```vb  
     If RadioButton1.IsChecked = True Then  
         MessageBox.Show("Hello.")  
     Else RadioButton2.IsChecked = True  

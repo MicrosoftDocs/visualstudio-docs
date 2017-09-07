@@ -37,14 +37,14 @@ Adds the specified value to the current context and returns a new context.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Add(   
    UINT64                 dwCount,  
    IDebugMemoryContext2** ppMemCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int Add(  
    ulong                    dwCount,   
    out IDebugMemoryContext2 ppMemCxt  

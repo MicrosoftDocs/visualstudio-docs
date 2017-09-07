@@ -18,7 +18,7 @@
         topicHref: /visualstudio/data-tools/accessing-data-in-visual-studio
       - name: Extensibility
         tocHref: /visualstudio/extensibility/
-        topicHref: /visualstudio/extensibility/extensibility-in-visual-studio
+        topicHref: /visualstudio/extensibility/
         items:
         - name: Inside the Visual Studio SDK
           tocHref: /visualstudio/extensibility/internals/
@@ -76,7 +76,7 @@
             topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
           - name: MSBuild
             tocHref: /visualstudio/msbuild/
-            topicHref: /visualstudio/msbuild/msbuild1
+            topicHref: /visualstudio/msbuild/msbuild
       - name: Installation
         tocHref: /visualstudio/install/
         topicHref: /visualstudio/install/install-visual-studio

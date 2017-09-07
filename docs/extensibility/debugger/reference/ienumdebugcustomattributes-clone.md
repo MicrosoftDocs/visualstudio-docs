@@ -36,13 +36,13 @@ Creates an enumerator that contains the same enumeration state as the current en
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Clone (   
    IEnumCustomAttributes** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int Clone(  
    out IEnumDebugCustomAttributes ppEnum  
 );  

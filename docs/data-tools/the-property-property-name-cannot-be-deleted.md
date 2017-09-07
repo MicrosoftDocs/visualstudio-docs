@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 caps.latest.revision: 2
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # The property &lt;property name&gt; cannot be deleted
-The property \<property name> cannot be deleted because it is set as the Discriminator Property for the inheritance between \<class name> and \<class name>  
+The property \<property name> cannot be deleted because it is set as the **Discriminator Property** for the inheritance between \<class name> and \<class name>  
   
  The selected property is set as the **Discriminator Property** for the inheritance between the classes indicated in the error message. Properties cannot be deleted if they are participating in the inheritance configuration between data classes.  
   

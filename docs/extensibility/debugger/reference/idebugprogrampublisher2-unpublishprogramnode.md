@@ -42,7 +42,7 @@ HRESULT UnpublishProgramNode(
 );  
 ```  
   
-```c#  
+```csharp  
 int UnpublishProgramNode(  
    IDebugProgramNode2 pProgramNode  
 );  

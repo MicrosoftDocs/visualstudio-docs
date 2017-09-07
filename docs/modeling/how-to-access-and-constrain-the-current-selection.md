@@ -70,7 +70,7 @@ When you write a command or gesture handler for your domain-specific language, y
   
 3.  Add the following properties to the command set class for you domain-specific language to determine what type of window is active.  
   
-    ```c#  
+    ```csharp  
     // using Microsoft.VisualStudio.Modeling.Shell;  
   
     // Returns true if the model designer is the active selection container;  
@@ -118,7 +118,7 @@ When you write a command or gesture handler for your domain-specific language, y
 ### Example  
  The following code file creates a selection rule that expands the selection to include all instances of each of the domain shapes that was initially selected.  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using Microsoft.VisualStudio.Modeling;  

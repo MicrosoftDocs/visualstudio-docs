@@ -198,7 +198,7 @@ public override string ToString()
 ###  <a name="UniquePropertyWindowsStoreControlsDynamicControls"></a> Dynamic controls  
  If you have controls that are created dynamically from your code and not created statically or through templates in XAML files, you must set the Content or Name properties for the control. This makes sure that each dynamic control has a unique automation property. For example, if you have a check box that must be displayed when you select a list item, you can set these properties, as shown here:  
   
-```c#  
+```csharp  
   
 private void CreateCheckBox(string txt, StackPanel panel)  
    {  

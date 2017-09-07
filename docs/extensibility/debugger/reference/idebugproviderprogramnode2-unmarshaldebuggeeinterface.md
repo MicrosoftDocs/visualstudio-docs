@@ -43,7 +43,7 @@ HRESULT UnmarshalDebuggeeInterface(
 );  
 ```  
   
-```c#  
+```csharp  
 int UnmarshalDebuggeeInterface(  
    ref Guid   riid,  
    out IntPtr ppvObject  

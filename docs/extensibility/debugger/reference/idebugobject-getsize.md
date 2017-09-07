@@ -36,13 +36,13 @@ Gets the size of the object in bytes.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    UINT* pnSize  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSize(  
    out uint pnSize  
 );  

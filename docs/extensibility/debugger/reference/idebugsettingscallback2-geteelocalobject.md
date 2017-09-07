@@ -34,7 +34,7 @@ Retrieves a expression evaluator local object given the metric name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEELocalObject(  
    REFGUID     guidLang,  
    REFGUID     guidVendor,  
@@ -43,7 +43,7 @@ HRESULT GetEELocalObject(
 );  
 ```  
   
-```c#  
+```csharp  
 private int GetEELocalObject(  
    ref Guid          guidLang,  
    ref Guid          guidVendor,  

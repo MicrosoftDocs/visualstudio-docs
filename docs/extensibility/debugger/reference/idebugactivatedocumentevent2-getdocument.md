@@ -37,13 +37,13 @@ Gets the document to activate.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument (   
    IDebugDocument2** ppDoc  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocument (   
    out IDebugDocument2 ppDoc  
 );  

@@ -9,8 +9,6 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Visual Studio], TableAdapters"
   - "TableAdapters, parameterized queries"
@@ -20,8 +18,8 @@ helpviewer_keywords:
   - "queries [Visual Studio], TableAdapters"
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 caps.latest.revision: 20
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -64,7 +62,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 1.  Select a control on your form that is already bound to a dataset. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).  
   
-2.  On the **Data** menu, select**Add Query**.  
+2.  On the **Data** menu, select **Add Query**.  
   
 3.  Complete the **Search Criteria Builder** dialog box, adding a WHERE clause with the desired parameters to the SQL statement.  
   
@@ -72,12 +70,12 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 1.  Open the form in the **Windows Forms Designer**.  
   
-2.  On the **Data** menu, select**Add Query**or**Data Smart Tags**.  
+2.  On the **Data** menu, select **Add Query** or **Data Smart Tags**.  
   
     > [!NOTE]
     >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.  
   
-3.  In the **Select data source table** area, select the  tablethat you want to add parameterization to.  
+3.  In the **Select data source table** area, select the table that you want to add parameterization to.  
   
 4.  Type a name in the **New query name** box if you are creating a new query.  
   
@@ -87,30 +85,29 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 5.  In the **Query Text** box, type a query that takes parameters.  
   
-6.  Select**OK**.  
+6.  Select **OK**.  
   
      A control to input the parameter and a **Load** button are added to the form in a <xref:System.Windows.Forms.ToolStrip> control.  
   
- TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:  
+#### Querying for null values  
+TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:  
   
- `SELECT CustomerID, OrderDate, ShippedDate`  
-  
- `FROM Orders`  
-  
- `WHERE (ShippedDate = @ShippedDate) OR`  
-  
- `(ShippedDate IS NULL)`  
+ ```sql
+SELECT CustomerID, OrderDate, ShippedDate  
+FROM Orders  
+WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
+```  
   
  If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:  
   
- [!code-cs[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
+ [!code-csharp[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
  [!code-vb[VbRaddataTableAdapters#8](../data-tools/codesnippet/VisualBasic/create-parameterized-tableadapter-queries_1.vb)]  
-  
-#### To enable a query to accept null values  
-  
+
+ To enable a query to accept null values:
+
 1.  In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.  
   
-2.  In the **Properties** window, select**Parameters**.Then press the ellipsis (**...**) button to open the **Parameters Collection Editor**.  
+2.  In the **Properties** window, select **Parameters**, then click the ellipsis (**...**) button to open the **Parameters Collection Editor**.  
   
 3.  Select the parameter that allows null values and set the **AllowDbNull** property to `true`.  
   

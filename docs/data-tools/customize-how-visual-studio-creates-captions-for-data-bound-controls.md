@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "Label captions, Data Sources window"
   - "smart captions"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "Data Sources Window, label captions"
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
 caps.latest.revision: 12
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -88,15 +83,15 @@ When you drag items from the [Data Sources Window](add-new-data-sources.md) onto
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter the regular expression you want the **Data Sources** window to use.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter the replacement string formatted the way you want to display the patterns matched in your regular expression.  
   
-15. Right-click the **SmartCaptionSuffix** item, and select**Modify**.  
+15. Right-click the **SmartCaptionSuffix** item, and select **Modify**.  
   
 16. Enter any characters you want to appear at the end of the caption.  
   
@@ -124,11 +119,11 @@ When you drag items from the [Data Sources Window](add-new-data-sources.md) onto
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter `(.*)` for the value. This will match the entire string.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter `$1` for the value. This replaces the string with the matched value, which is the entire string so that it will remain unchanged.  
   

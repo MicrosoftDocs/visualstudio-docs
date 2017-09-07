@@ -57,7 +57,7 @@ Preparing to debug a Console project is similar to preparing to debug a Windows 
 ## Starting the application  
  When some console applications start, they run to completion and then exit. This behavior might not give you enough time to break execution and debug. To be able to debug an application, use one of the following procedures to start the application:  
   
--   Your application starts executing and runs untils it reaches the breakpoint.  
+-   Your application starts executing and runs until it reaches the breakpoint.  
   
 -   Your application starts and immediately breaks at the first line of source code.  
   

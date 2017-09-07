@@ -36,11 +36,11 @@ This method resets the enumeration to the first element.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Reset(void);  
 ```  
   
-```c#  
+```csharp  
 int Reset();  
 ```  
   

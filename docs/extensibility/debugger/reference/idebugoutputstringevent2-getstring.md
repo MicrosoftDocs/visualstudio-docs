@@ -36,13 +36,13 @@ Gets the displayable message.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetString(   
    BSTR* pbstrString  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetString(   
    out string pbstrString  
 );  

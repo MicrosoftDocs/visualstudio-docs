@@ -9,15 +9,13 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "custom controls [Visual Studio], Data Sources Window"
   - "Data Sources Window, controls"
 ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -115,7 +113,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 2.  Replace the code in the `PhoneNumberBox` with the following:  
   
-     [!code-cs[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
+     [!code-csharp[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
      [!code-vb[VbRaddataDisplaying#3](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.vb)]  
   
 3.  From the **Build** menu, choose **Build Solution**.  
@@ -164,7 +162,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 6.  Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto the form.  
   
 #### To create data-bound controls on the form  

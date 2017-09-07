@@ -56,7 +56,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 4.  Now add the following fields to the `MyToolWindow` class.  
   
-    ```c#  
+    ```csharp  
     private ITrackSelection trackSel;  
     private SelectionContainer selContainer;  
   
@@ -64,7 +64,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 5.  Add the following code to the MyToolWindow class.  
   
-    ```c#  
+    ```csharp  
     private ITrackSelection TrackSelection  
     {  
         get  
@@ -120,7 +120,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 1.  Open MyToolWindow.cs, and add the public boolean property IsChecked to the MyToolWindow class.  
   
-    ```c#  
+    ```csharp  
     [Category("My Properties")]  
     [Description("MyToolWindowControl properties")]  
     public bool IsChecked  
@@ -153,7 +153,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 3.  In MyToolWindow.cs, change the `MyToolWindow` constructor as follows:  
   
-    ```c#  
+    ```csharp  
     base.Content = new MyToolWindowControl(this);  
     ```  
   
@@ -165,7 +165,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 7.  Add the check box event handlers:  
   
-    ```c#  
+    ```csharp  
     private void checkbox_Checked(object sender, RoutedEventArgs e)  
     {  
         pane.IsChecked = true;  
@@ -196,7 +196,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 1.  Open MyToolWindow.cs and add a public class named `Simple`.  
   
-    ```c#  
+    ```csharp  
     public class Simple  
     {  
         private string someText = "";  
@@ -221,7 +221,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 2.  Add a SimpleObject property to the MyToolWindow class, plus two methods to switch the **Properties** window selection between the window pane and the `Simple` object.  
   
-    ```c#  
+    ```csharp  
     private Simple simpleObject = null;  
     public Simple SimpleObject  
     {  
@@ -249,7 +249,7 @@ This walkthrough exposes the public properties of an object to the **Properties*
   
 3.  In MyToolWindowControl.cs, replace the check box handlers with these lines of code:  
   
-    ```c#  
+    ```csharp  
     private void checkbox_Checked(object sender, RoutedEventArgs e)  
      {  
         pane.IsChecked = true;  

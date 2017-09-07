@@ -75,7 +75,7 @@ IDebugExpressionEvaluator : IUnknown
 ## Example  
  This example shows how to instantiate the expression evaluator given a symbol provider and an address in the source code. This example uses a function, `GetEEMetric`, from the [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) library, dbgmetric.lib.  
   
-```cpp#  
+```cpp  
 IDebugExpressionEvaluator GetExpressionEvaluator(IDebugSymbolProvider pSymbolProvider,  
                                                  IDebugAddress *pSourceAddress)  
 {  

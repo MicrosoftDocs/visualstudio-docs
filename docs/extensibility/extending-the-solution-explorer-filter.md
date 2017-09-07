@@ -72,7 +72,7 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
   
 1.  Add some GUIDs to the FileFilterPackageGuids.cs file:  
   
-    ```c#  
+    ```csharp  
     public const string guidFileFilterPackageCmdSetString = "00000000-0000-0000-0000-00000000"; // get your GUID from the .vsct file  
     public const int FileFilterId = 0x100;  
     ```  
@@ -85,7 +85,7 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
   
      The `ShouldIncludeInFilter` method filters the items in the **Solution Explorer** hierarchy based on the condition that you specify.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.ComponentModel.Composition;  
@@ -172,7 +172,7 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
   
 4.  In FileFilter.cs, remove the command placement and handling code from the FileFilter constructor. The result should look like this:  
   
-    ```c#  
+    ```csharp  
     private FileFilter(Package package)  
     {  
         if (package == null)  
@@ -188,7 +188,7 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
   
 5.  In FileFilterPackage,cs, replace the code in the Initialize() method with the following:  
   
-    ```c#  
+    ```csharp  
     protected override void Initialize()  
     {  
         Debug.WriteLine (string.Format(CultureInfo.CurrentCulture, "Entering Initialize() of: {0}", this.ToString()));  

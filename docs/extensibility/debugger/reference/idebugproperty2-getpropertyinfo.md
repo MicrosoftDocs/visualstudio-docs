@@ -36,7 +36,7 @@ Gets the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-p
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertyInfo (   
    DEBUGPROP_INFO_FLAGS dwFields,  
    DWORD                nRadix,  
@@ -47,7 +47,7 @@ HRESULT GetPropertyInfo ( 
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetPropertyInfo (   
    enum_DEBUGPROP_INFO_FLAGS dwFields,  
    uint                      nRadix,  

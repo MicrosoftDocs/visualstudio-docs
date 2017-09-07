@@ -36,13 +36,13 @@ Gets the result of expression evaluation.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResult(   
    IDebugProperty2** ppResult  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetResult(   
    out IDebugProperty2 ppResult  
 );  

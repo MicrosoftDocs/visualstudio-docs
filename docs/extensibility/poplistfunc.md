@@ -39,7 +39,7 @@ This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatel
 ## Signature  
  The source control plug-in modifies the list by calling an IDE-implemented function with the following prototype:  
   
-```cpp#  
+```cpp  
 typedef BOOL (*POPLISTFUNC) (  
    LPVOID pvCallerData,  
    BOOL fAddRemove,  

@@ -97,13 +97,13 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
   
 1.  Open TestCommand.cs and add the following command ID after the existing command ID.  
   
-    ```c#  
+    ```csharp  
     public const int cmdidTestSubCmd = 0x105;  
     ```  
   
 2.  Add the sub-command. Find the command constructor. Add the following lines just after the call to the `AddCommand` method.  
   
-    ```c#  
+    ```csharp  
     CommandID subCommandID = new CommandID(CommandSet, (int)TestCommandPackageGuids.cmdidTestSubCmd);  
     MenuCommand subItem = new MenuCommand(  
         new EventHandler(SubItemCallback), subCommandID);  
@@ -113,7 +113,7 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
   
      The `SubItemCallback` command handler will be defined later. The constructor should now look like this:  
   
-    ```c#  
+    ```csharp  
     private TestCommand(Package package)  
             {  
                 if (package == null)  
@@ -138,7 +138,7 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
   
 3.  Add SubItemCallback(). This is the method that is called when the new command in the submenu is clicked.  
   
-    ```c#  
+    ```csharp  
     private void SubItemCallback(object sender, EventArgs e)  
     {  
         IVsUIShell uiShell = (IVsUIShell)this.ServiceProvider.GetService(  

@@ -9,11 +9,6 @@ ms.topic: "article"
 f1_keywords: 
   - "DataRow.RowState"
   - "DataSet.GetChanges"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "DBDirect methods"
   - "updating data"
@@ -26,8 +21,8 @@ helpviewer_keywords:
   - "updating databases"
 ms.assetid: 21d2b115-62e4-4ac9-a873-dcbb535b8af8
 caps.latest.revision: 13
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 

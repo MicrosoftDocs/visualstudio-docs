@@ -55,7 +55,7 @@ You can define your own content type and link a file name extension to it by usi
   
 3.  Add the following `using` directives.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel.Composition;  
     using Microsoft.VisualStudio.Text.Classification;  
     using Microsoft.VisualStudio.Utilities;  
@@ -64,14 +64,14 @@ You can define your own content type and link a file name extension to it by usi
   
 4.  Declare a static class that contains the definitions.  
   
-    ```c#  
+    ```csharp  
     internal static class FileAndContentTypeDefinitions  
     {. . .}  
     ```  
   
 5.  In this class, export a <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> named "hid" and declare its base definition to be "text".  
   
-    ```c#  
+    ```csharp  
     internal static class FileAndContentTypeDefinitions  
     {  
         [Export]  
@@ -85,7 +85,7 @@ You can define your own content type and link a file name extension to it by usi
   
 -   To map this content type to a file name extension, export a <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> that has the extension ".hid" and the content type "hid".  
   
-    ```c#  
+    ```csharp  
     internal static class FileAndContentTypeDefinitions  
     {  
          [Export]  
@@ -108,7 +108,7 @@ You can define your own content type and link a file name extension to it by usi
   
 3.  When you export the extension class, add a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of type "hid" to it.  
   
-    ```c#  
+    ```csharp  
     [Export]  
     [ContentType("hid")]  
     ```  

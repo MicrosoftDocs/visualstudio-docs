@@ -115,7 +115,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
 3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
 
     > [!TIP]
-    > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** fter right-clicking on the **Name** column in the thread row.
+    > You may find it helpful to identify nameless threads by renaming them. In the Threads window, choose **Rename** after right-clicking on the **Name** column in the thread row.
   
 4.  Right-click the thread marker to see the available options on the shortcut menu. 
     
@@ -148,7 +148,7 @@ You can flag threads that you want to give special attention. Flagging threads i
   
     Only the flagged thread appears in the list now. (You can click the single flag button to toggle back to **Show All Threads** mode.)
 
-8. Open the Threads window by choosing **Debug / Windows / Threads**.
+8. Open the Threads window by choosing **Debug > Windows > Threads**.
 
     ![Threads Window](../debugger/media/dbg-threads-window.png "ThreadsWindow")  
   
@@ -165,7 +165,7 @@ You can flag threads that you want to give special attention. Flagging threads i
   
 #### To unflag threads  
   
-1.  On the **Threads** window, right-click the line corresponding to the flagged thread.  
+1.  In the **Threads** window, right-click the line corresponding to the flagged thread.  
   
      A shortcut menu is displayed. It has options to **Unflag** and **Unflag All Threads**.  
   
@@ -208,9 +208,7 @@ You can flag threads that you want to give special attention. Flagging threads i
      After a momentary delay, a DataTip appears. It shows a partial call stack for the thread.
 
      > [!TIP]
-     > For a graphical view of the call stacks for threads, open the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window (while debugging, choose **Debug / Windows / Parallel Stacks**). You will see call stacks like this illustration.
-
-    ![Parallel Stacks Window](../debugger/media/dbg-threads-parallel-stacks.png "ParallelStacksWindow")    
+     > For a graphical view of the call stacks for threads, open the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window (while debugging, choose **Debug / Windows / Parallel Stacks**).  
   
 5.  Look at the fourth column from the left, which is labeled **Category**. The threads are classified into categories.  
   

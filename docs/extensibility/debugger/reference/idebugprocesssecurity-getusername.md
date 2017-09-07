@@ -34,13 +34,13 @@ Gets the user name from the port supplier.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetUserName(  
     BSTR *pbstrUserName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetUserName (  
     string pbstrUserName  
 );  

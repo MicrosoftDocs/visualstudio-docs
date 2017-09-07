@@ -44,7 +44,7 @@ You often need to get Visual Studio services to access different features. In ge
   
 3.  In GetServiceCommand.cs, remove the body of the MenuItemCommand method and add the following code:  
   
-    ```c#  
+    ```csharp  
     IVsActivityLog activityLog = ServiceProvider.GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
     if (activityLog == null) return;  
     System.Windows.Forms.MessageBox.Show("Found the activity log service.");  
@@ -66,7 +66,7 @@ You often need to get Visual Studio services to access different features. In ge
   
  Here's an example of the way to get a service in a tool window or other non-VSPackage element.  
   
-```c#  
+```csharp  
 IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;  
 if (log == null) return;  
 ```  
@@ -78,7 +78,7 @@ if (log == null) return;
   
  Here's how to get a service from the DTE object.  
   
-```c#  
+```csharp  
 // Start with the DTE object, for example:   
 // using EnvDTE;  
 // DTE dte = (DTE)GetService(typeof(DTE));  

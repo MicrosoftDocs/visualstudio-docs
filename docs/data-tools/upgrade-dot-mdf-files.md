@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "SQL Server Express"
   - "SQL Server LocalDB"
@@ -20,8 +15,8 @@ helpviewer_keywords:
   - "upgrading to LocalDB"
 ms.assetid: 14ca6f76-f80e-4926-8020-3fee2d802b75
 caps.latest.revision: 33
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 

@@ -36,13 +36,13 @@ Gets the method that gets the property.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertyGetter(   
    IDebugMethodField** ppField  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetPropertyGetter(  
    out IDebugMethodField ppField  
 );  

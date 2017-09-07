@@ -9,16 +9,14 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data binding, user controls"
   - "LookupBindingPropertiesAttribute class, examples"
   - "user controls [Visual Basic], creating"
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -112,7 +110,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
 2.  Replace the code in the `LookupBox` with the following:  
   
      [!code-vb[VbRaddataDisplaying#5](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.vb)]
-     [!code-cs[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]  
+     [!code-csharp[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]  
   
 3.  From the **Build** menu, choose **Build Solution**.  
   
@@ -164,7 +162,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 8.  Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.  
   
-## Addcontrols to the form  
+## Add controls to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto **Form1**.  
   
 #### To create data-bound controls on the Windows Form  

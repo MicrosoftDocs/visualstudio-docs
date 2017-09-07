@@ -142,7 +142,7 @@ For more information, see [Installing Python Support for Visual Studio](installa
         return (1 + pow(e, (-2 * x))) / (2 * pow(e, -x));
     }
 
-    double tanh(x) {
+    double tanh(double x) {
         return sinh(x) / cosh(x);
     }
     ```
@@ -157,7 +157,7 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
 1. In the C++ file, include `Python.h` at the top:
 
     ```cpp
-    include <Python.h>
+    #include <Python.h>
     ```
 
 1. Modify the `tanh` method to accept and return Python types:

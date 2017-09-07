@@ -35,7 +35,7 @@ Retrieves the address within a function that represents the given line offset.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFunctionLineOffset(  
    IDebugAddress*  pAddress,   
    DWORD           dwLine,   
@@ -43,7 +43,7 @@ HRESULT GetFunctionLineOffset(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetFunctionLineOffset(  
    IDebugAddress     pAddress,   
    uint              dwLine,   
@@ -67,7 +67,7 @@ int GetFunctionLineOffset(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetFunctionLineOffset(  
     IDebugAddress *pAddress,  
     DWORD dwLine,  

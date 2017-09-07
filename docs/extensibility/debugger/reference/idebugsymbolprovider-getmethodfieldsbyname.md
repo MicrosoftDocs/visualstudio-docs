@@ -36,7 +36,7 @@ This method gets the field representing a fully qualified method name.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMethodFieldsByName(   
    LPCOLESTR          pszFullName,  
    NAME_MATCH         nameMatch,  
@@ -44,7 +44,7 @@ HRESULT GetMethodFieldsByName( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMethodFieldsByName(  
    string               pszFullName,   
    NAME_MATCH           nameMatch,   

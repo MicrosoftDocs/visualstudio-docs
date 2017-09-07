@@ -36,7 +36,7 @@ Specifies what information to retrieve about an [IDebugField](../../../extensibi
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_FIELD_INFO_FIELDS {   
    FIF_FULLNAME  = 0x0001,  
    FIF_NAME      = 0x0002,  
@@ -48,7 +48,7 @@ enum enum_FIELD_INFO_FIELDS { 
 typedef DWORD FIELD_INFO_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_FIELD_INFO_FIELDS {  
    FIF_FULLNAME  = 0x0001,  
    FIF_NAME      = 0x0002,  

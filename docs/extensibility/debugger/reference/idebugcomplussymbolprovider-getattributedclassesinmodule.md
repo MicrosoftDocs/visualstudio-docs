@@ -74,7 +74,7 @@ int GetAttributedClassesinModule (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetAttributedClassesinModule(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

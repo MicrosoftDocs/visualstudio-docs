@@ -36,7 +36,7 @@ Describes the resolution of an error breakpoint, including location, program, an
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_ERROR_RESOLUTION_INFO {   
    BPERESI_FIELDS         dwFields;  
    BP_RESOLUTION_LOCATION bpResLocation;  
@@ -47,7 +47,7 @@ typedef struct _BP_ERROR_RESOLUTION_INFO { 
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
    public uint                   dwFields;  
    public BP_RESOLUTION_LOCATION bpResLocation;  

@@ -36,13 +36,13 @@ Gets the property to be destroyed.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDebugProperty (   
    IDebugProperty2** ppProperty  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDebugProperty (   
    out IDebugProperty2 ppProperty  
 );  

@@ -36,13 +36,13 @@ Returns a reference to the property's value.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReference(  
    IDebugReference2** ppReference  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReference(  
    out IDebugReference2 ppReference  
 );  

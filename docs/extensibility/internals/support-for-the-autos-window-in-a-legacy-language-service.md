@@ -45,7 +45,7 @@ The **Autos** window displays expressions such as variables and parameters that 
   
  Note that the `GetAutoExpressionsCount` and `GetAutoExpression` methods are custom methods on the `TestAuthoringSink` object and were added to support this example. They represent one way in which expressions added to the `TestAuthoringSink` object by the parser (by calling the <xref:Microsoft.VisualStudio.Package.AuthoringSink.AutoExpression%2A> method) can be accessed outside the parser.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio;  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  

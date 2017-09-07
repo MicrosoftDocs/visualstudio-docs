@@ -35,7 +35,7 @@ Creates an array of the specified type and size.
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateArrayOfType (  
    IDebugField*  pTypeField,  
    DWORD         rank,  
@@ -43,7 +43,7 @@ HRESULT CreateArrayOfType (
 );  
 ```  
   
-```c#  
+```csharp  
 int CreateArrayOfType (  
    IDebugField     pTypeField,  
    uint            rank,  

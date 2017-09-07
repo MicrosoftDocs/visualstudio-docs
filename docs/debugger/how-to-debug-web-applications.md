@@ -61,7 +61,7 @@ translation.priority.ht:
   
      For more information, see [Debugger Basics](../debugger/debugger-basics.md).  
   
-3.  On the **Debug** menu, click **Stop Debugging** to end the debugging session, or, on the **File** menu in Internet Explorer, click **Close**.  
+3.  On the **Debug** menu, click **Stop Debugging** to end the debugging session or on the **File** menu in Internet Explorer, click **Close**.  
   
 ## See Also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   

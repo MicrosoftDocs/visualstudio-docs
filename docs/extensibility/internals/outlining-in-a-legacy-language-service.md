@@ -60,7 +60,7 @@ Outlining makes it possible to collapse a complex program into an overview or ou
   
  This example assumes C# rules for comments, strings, and literals.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   

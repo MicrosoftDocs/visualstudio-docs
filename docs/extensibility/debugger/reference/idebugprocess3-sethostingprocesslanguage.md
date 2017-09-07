@@ -42,7 +42,7 @@ HRESULT SetHostingProcessLanguage(
 );  
 ```  
   
-```c#  
+```csharp  
 int SetHostingProcessLanguage(  
    ref Guid guidLang  
 );  
