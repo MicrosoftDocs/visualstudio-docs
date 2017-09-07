@@ -58,16 +58,16 @@ Often, this error occurs because an error or configuration change has occurred t
 
 The `Unable to start debugging on the Web server` message is generic. Usually, a more specific message is included in the error string and that may help you identify the cause of the problem or search for a more exact fix. Here are a few of the more common error messages that are appended to the main error message:
 
-- [IIS does not list a website that matches the launch url](#IIS_list)
+- [IIS does not list a website that matches the launch url](#IISlist)
 - [The web server is not configured correctly](#web_server_config)
-- [Unable to connect to the webserver](#unable_to_connect)
-- [The web server did not respond in a timely manner](#web_server_timeout)
+- [Unable to connect to the webserver](#unabletoconnect)
+- [The web server did not respond in a timely manner](#webservertimeout)
 - [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
 - [Could not start ASP.NET debugging](#aspnet)
 - [The debugger cannot connect to the remote computer](#cannot_connect)
 - [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
 
-## <a name="IIS_list"></a> IIS does not list a website that matches the launch url
+## <a name="IISlist"></a> IIS does not list a website that matches the launch url
 
 - Restart Visual Studio as an Administrator and retry debugging. (Some ASP.NET debugging scenarios require elevated privileges.)
 
@@ -77,13 +77,13 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 - See [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md).
 
-## <a name="unable_to_connect"></a> Unable to connect to the webserver
+## <a name="unabletoconnect"></a> Unable to connect to the webserver
 
 - Are you running Visual Studio and the Web server on the same machine and debugging using **F5** (instead of **Attach to Process**)? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 - If the Web server is remote, restart your Application Pool and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
-## <a name="web_server_timeout"></a> The web server did not respond in a timely manner
+## <a name="webservertimeout"></a> The web server did not respond in a timely manner
 
 - Reset IIS and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
@@ -99,9 +99,9 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
-When debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
-Also, if you are using a HOSTS file, make sure it is configured correctly. For example, if debugging using **F5** (instead of **Attach to Process**), the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
+Also, if you are using a HOSTS file, make sure it is configured correctly. For example, the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
 ## <a name="see_help"></a> See help for common configuration errors. Running the webpage outside of the debugger may provide further information.
 
@@ -118,11 +118,11 @@ After taking steps detailed here to resolve the issue, and before trying again t
     The Application Pool may have stopped as a result of an error. Or, another configuration change that you made may require that you stop and restart your Application Pool.
     
     > [!NOTE]
-    > If the Application Pool keeps stopping, you may need to uninstall the URL Rewrite Module from the Control Panel. You can reinstall it using the Web Platform Installer (WPI). This issue may occur after a significant system upgrade.
+    > If the Application Pool keeps stopping, you may need to uninstall the URL Rewrite Module from the Control Panel. You can reinstall it using the Web Platform Installer (WebPI). This issue may occur after a significant system upgrade.
 
 * Check your Application Pool configuration, correct it if needed, and then retry.
 
-    If you have recently installed ASP.NET, the Application Pool may be configured for the wrong version of ASP.NET. Fix the issue and restart the Application Pool.
+    The Application Pool may be configured for a version of ASP.NET that does not match your Visual Studio project. Update the ASP.NET version in the Application Pool and restart it. For detailed information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
     Also, if password credentials have changed, you may need to update them in your Application Pool or Web site.  In the Application Pool, update credentials in **Advanced Settings > Process Model > Identity**. For the Web site, update credentials in **Basic Settings > Connect as...**. Restart your Application Pool.
     
@@ -132,7 +132,7 @@ After taking steps detailed here to resolve the issue, and before trying again t
 
 * Make sure that the correct version of ASP.NET is installed on IIS.
 
-    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
   
 * Resolve authentication errors if you are using only the IP address
 
@@ -158,7 +158,7 @@ If the IIS configuration is not causing the issue, try these steps:
 
      If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
      
-     For more information on deploying to IIS, see [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+     For more information on deploying to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
 * Create a basic ASP.NET application on the server (or use a basic web.config file).
 
