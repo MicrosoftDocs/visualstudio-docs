@@ -76,7 +76,7 @@ In the first step, you will add a Web project to host the service.
   
 4.  In the **New ASP.NET Project** dialog box, in the **Select a template** list, choose **Empty**, and then choose the **OK** button.  
   
- In this step, you will create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the Customers table in the Northwind database.  
+In the next step, you will create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the Customers table in the Northwind database.  
   
 #### To create the Entity Data Model  
   
@@ -112,7 +112,7 @@ In the first step, you will add a Web project to host the service.
   
      The entity model diagram will be displayed, and a NorthwindModel.edmx file will be added to your project.  
   
- In this step, you will create and test the data service.  
+In the next step, you will create and test the data service.  
   
 #### To create the data service  
   
@@ -145,7 +145,7 @@ In the first step, you will add a Web project to host the service.
   
 8.  Close the browser window.  
   
- In the next steps, you will create a Windows Forms client application to consume the service.  
+In the next steps, you will create a Windows Forms client application to consume the service.  
   
 ## Creating the Client Application  
  To create the client application, you will add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.  
@@ -164,7 +164,7 @@ In the first step, you will add a Web project to host the service.
   
 5.  On the menu bar, choose **Project**, **Set as StartUp Project**.  
   
- In this step, you will add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the Web project.  
+In the next step, you will add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the Web project.  
   
 #### To add a service reference  
   
@@ -176,7 +176,7 @@ In the first step, you will add a Web project to host the service.
   
 3.  Choose the **OK** button to add the service reference.  
   
- In this step, you will configure a data source to enable data binding to the service.  
+In the next step, you will configure a data source to enable data binding to the service.  
   
 #### To enable data binding to the service  
   
@@ -190,7 +190,7 @@ In the first step, you will add a Web project to host the service.
   
 5.  Select **Customer** check box, and then choose the **Finish** button.  
   
- In this step, you will create the user interface that will display the data from the service.  
+In the next step, you will create the user interface that will display the data from the service.  
   
 #### To create the user interface  
   
@@ -241,7 +241,7 @@ In the first step, you will add a Web project to host the service.
   
  You now have a working application that displays a list of customers from the NorthwindCustomers service. If you want to expose additional data through the service, you can modify the [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] to include additional tables from the Northwind database.  
   
- In the next optional step, you will learn how to filter the data that is returned by the service.  
+In the next optional step, you will learn how to filter the data that is returned by the service.  
   
 ## Adding Filtering Capabilities  
  In this step, you will customize the application to filter the data by the customer's city.  
