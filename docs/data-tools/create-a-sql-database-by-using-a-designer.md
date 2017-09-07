@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "SQL Server Express"
   - "local data"
@@ -23,8 +18,8 @@ helpviewer_keywords:
   - "database files, creating"
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 caps.latest.revision: 49
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 

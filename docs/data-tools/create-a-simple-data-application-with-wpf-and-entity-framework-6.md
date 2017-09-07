@@ -6,6 +6,8 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "CSharp"
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 22
 author: "gewarren"
@@ -20,7 +22,7 @@ translation.priority.mt:
 # Create a simple data application with WPF and Entity Framework 6
 This walkthough shows how to create a basic "forms over data" application in Visual Studio with SQL Server LocalDB, the Northwind database, Entity Framework 6, and Windows Presentation Foundation. It shows how to do basic databinding with a master-detail view, and it also has a custom "Binding Navigator" with buttons for "Move Next," "Move Previous," "Move to beginning," "Move to end," "Update" and "Delete."  
   
- This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate MVVM architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with very few modifications.  
+ This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-View Model (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with very few modifications.  
   
 ## Install and connect to Northwind  
  This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well if the ADO.NET data provider for that product supports Entity Framework.  
@@ -116,7 +118,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 7.  Visual Studio has generated all the binding code that connects the UI controls to events in the model. All we need to do, in order to see some data, is to write some code to populate the model. First let's navigate to MainWindow.xaml.cs and add a data member to the MainWindow class for the data context. This object, which has been generated for us, acts something like a control that tracks changes and events in the model. We'll also add the constructor initialization logic. The top of our class should look like this:  
   
-     [!code-cs[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]  
+     [!code-csharp[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]  
      
      Add a `using` directive for System.Data.Entity to bring the Load extension method into scope:  
   
@@ -126,7 +128,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 
      Now scroll down and find the Window_Loaded event handler. Notice that Visual Studio has added a CollectionViewSource object for us. This represents the NorthwindEntities object that we selected when we created the model. Let's add code to Window_Loaded so that the entire method now looks like this:  
 
-     [!code-cs[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]  
+     [!code-csharp[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]  
 
 8.  Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. We'll also create a way to view the other records and do basic CRUD operations.  
   
@@ -403,11 +405,12 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 The code-behind is minimal except for the add and delete methods. Navigation is performed by calling methods on the View property of the CollectionViewSource. The DeleteOrderCommandHandler shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The UpdateCommandHandler adds a new customer or order to the collection, or else just updates an existing customer or order with the changes that the user made in the text boxes.  
   
-1.  Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
+Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
   
-[!code-cs[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
+[!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
   
-2.  Press **F5** to start debugging. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes will be written to the model automatically.  
+## Run the application
+Press **F5** to start debugging. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes will be written to the model automatically.  
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)

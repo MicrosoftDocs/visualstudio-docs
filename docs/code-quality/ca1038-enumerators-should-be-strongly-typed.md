@@ -63,7 +63,7 @@ translation.priority.ht:
 ## Example  
  The following example demonstrates the correct way to implement a strongly typed <xref:System.Collections.IEnumerator> type.  
   
- [!code-cs[FxCop.Design.IEnumeratorStrongTypes#1](../code-quality/codesnippet/CSharp/ca1038-enumerators-should-be-strongly-typed_1.cs)]  
+ [!code-csharp[FxCop.Design.IEnumeratorStrongTypes#1](../code-quality/codesnippet/CSharp/ca1038-enumerators-should-be-strongly-typed_1.cs)]  
   
 ## Related Rules  
  [CA1035: ICollection implementations have strongly typed members](../code-quality/ca1035-icollection-implementations-have-strongly-typed-members.md)  

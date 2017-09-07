@@ -244,7 +244,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use the Run to Cursor feature](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
-    You should be paused on the breakpoint in `OnApplicationStartup` (since that is the first breakpoint.
+    You should be paused on the breakpoint in `MainWindow` (since that is the first breakpoint.
 
 3. Press F5 to advance to the `Add` method where you selected **Run to Cursor**.
 
@@ -274,7 +274,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
      
      ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
-     Here, the **Exception Helper** shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
+     Here, the **Exception Helper** shows you a `System.ArgumentException` and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
 
      In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable. (Hover over `value` to see the empty string.)
 

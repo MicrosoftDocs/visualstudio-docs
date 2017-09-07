@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "datasets [Visual Basic], walkthroughs"
   - "XML schemas, creating datasets"
@@ -19,8 +14,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 ms.assetid: 12360f54-db6c-45d2-a91f-fee43214b555
 caps.latest.revision: 19
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 
@@ -57,7 +52,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
- In order to complete this walkthrough, you need:  
+In order to complete this walkthrough, you need:  
   
 -   Access to the Northwind sample database (SQL Server or Access version). For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
@@ -103,7 +98,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
     >  You can connect to the SQL Server or Access version of Northwind for this walkthrough.  
   
 ## Creating the Tables in the Dataset  
- This section will explain how to add tables to the dataset.  
+This section explains how to add tables to the dataset.  
   
 #### To create the Customers table  
   
