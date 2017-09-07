@@ -97,6 +97,9 @@ Once Live Unit Testing is enabled (see the next section, [Starting, pausing, and
 
 You enable Live Unit Testing by selecting **Test**, **Live Unit Testing**, **Start** from the top-level Visual Studio menu. When Live Unit Testing is enabled, the options available on the **Live Unit Testing** menu change from a single item, **Start**, to **Pause**, **Stop**, and **Reset Clean**.
 
+> [!NOTE]
+> If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause**, **Stop**, and **Reset Clean** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution..."  
+
 At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you are in the middle of a refactoring and know that your tests will be broken for a while. The three menu options are:
 
 - **Pause**, which temporarily suspends Live Unit Testing. 
