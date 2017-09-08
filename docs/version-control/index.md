@@ -13,11 +13,91 @@ ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 
 # Version Control in Visual Studio
 
-Version control systems are software that help you track changes you make in your code over time. As you edit to your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it.
+Version control systems are software that help you track changes you make in your code over time. As you edit your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it.
 
-Without version control, you’re tempted to keep multiple copies of code on your computer. This is dangerous-it’s easy to change or delete a file in the wrong copy of code, potentially losing work. Version control systems solve this problem by managing all versions of your code but presenting you with a single version at a time.
+Visual Studio provides two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. If you're deciding which type of Team Services/TFS version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc).
 
-Visual Studio Team Services and TFS provide two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. This article provides an overview and a starting point for using Team Foundation Version Control. If you're deciding which type of Team Services/TFS version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc).
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="/vsts/git/create-new-repo">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/web.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a Git repo using the VSTS web portal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/vsts/git/share-your-code-in-git-vs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/vs-ide.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Manage your code using Git with Visual Studio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="/vsts/git/import-git-repository">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/vs-ide.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Import a repo from GitHub, BitBucket, GitLab and others into a blank VSTS Git repo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+
+    <li>
+        <a href="/vsts/tfvc/share-your-code-in-tfvc-vs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/vs-ide.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Manage your code using TFVC with Visual Studio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+
+
+
 
 * [Git](#git)
 * [Team Foundation Version Control (TFVC)](#TFVC)
@@ -27,16 +107,7 @@ Git is the most commonly used version control system today and is quickly becomi
 
 Git’s flexibility and popularity make it a great choice for any team. Many developers and college graduates already know how to use Git. Git’s user community has created many resources to train developers and Git’s popularity make it easy to get help when you need it.  Nearly every development environment has Git support and Git command line tools run on every major operating system.
 
-### Git 5-Minute Quickstarts 
-
-Get started by creating a repo, uploading your code, and inviting developers to work in the repo. You can use any one of these clients or IDEs: 
-
-<table>
-<tr valign="middle" align="center">
-<td>![Web](media/web.png)<br/>[Web](/vsts/git/create-new-repo)</td>
-<td>![VS](media/vs-ide.png)<br/>[Visual Studio](/vsts/git/share-your-code-in-git-vs)</td>
-</tr>
-</table>    
+  
 
 
 Or, you can [import an existing repo](/vsts/git/import-git-repository) from GitHub, BitBucket, GitLab, or other location to a new, empty repo. 
