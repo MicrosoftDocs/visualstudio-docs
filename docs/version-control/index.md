@@ -16,7 +16,7 @@ ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 
 Version control systems are software that help you track changes you make in your code over time. As you edit your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it.
 
-Visual Studio provides two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. If you're deciding which type of VSTS/TFS version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc).
+Visual Studio provides two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. If you're deciding which type of Visual Studio version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc).
 
 ## Git
 Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
