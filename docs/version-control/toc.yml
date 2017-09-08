@@ -6,43 +6,53 @@
     href: /vsts/git/tutorial/gitworkflow?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json
 - name: Quickstarts
   items:
-  - name: Create repo - Web
+  - name: Create a Git repo - Web
     href: /vsts/git/create-new-repo
-  - name: Create repo - CLI
+  - name: Create a Git repo - CLI
     href: /vsts/git/share-your-code-in-git-cmdline
-  - name: Create repo - Visual Studio
+  - name: Share you code in Git
     href: /vsts/git/share-your-code-in-git-vs-2017
-  - name: Import repo - Web
+  - name: Import repo into VSTS Git repo
     href: /vsts/git/import-git-repository
+  - name: Share your code in TFVC
+    href: share-your-code-in-tfvc-vs.md
 - name: Tutorials
-  href: /vsts/git/gitquickstart
   items:
-  - name: Create a new repo
-    href: /vsts/git/tutorial/creatingrepo
-  - name: Clone an existing repo
-    href: /vsts/git/tutorial/clone
-  - name: Save work with commits
-    href: /vsts/git/tutorial/commits
-  - name: Create work in branches
-    href: /vsts/git/tutorial/branches
-  - name: Share code with push
-    href: /vsts/git/tutorial/pushing
-  - name: Update code with fetch and pull
-    href: /vsts/git/tutorial/pulling
-  - name: Review code with pull requests
-    href: /vsts/git/tutorial/pullrequest
-  - name: Apply changes with rebase
-    href: /vsts/git/tutorial/rebase
-  - name: Copy changes with cherry-pick
-    href: /vsts/git/tutorial/cherry-pick
-  - name: Resolve merge conflicts
-    href: /vsts/git/tutorial/merging
-  - name: Undo changes
-    href: /vsts/git/tutorial/undo
-  - name: Ignore files
-    href: /vsts/git/tutorial/ignore-files
-  - name: Review history
-    href: /vsts/git/tutorial/history
+  - name Git
+    href: /vsts/git/gitquickstart
+    items:
+    - name: Create a new repo
+      href: /vsts/git/tutorial/creatingrepo
+    - name: Clone an existing repo
+      href: /vsts/git/tutorial/clone
+    - name: Save work with commits
+      href: /vsts/git/tutorial/commits
+    - name: Create work in branches
+      href: /vsts/git/tutorial/branches
+    - name: Share code with push
+      href: /vsts/git/tutorial/pushing
+    - name: Update code with fetch and pull
+      href: /vsts/git/tutorial/pulling
+    - name: Review code with pull requests
+      href: /vsts/git/tutorial/pullrequest
+    - name: Apply changes with rebase
+      href: /vsts/git/tutorial/rebase
+    - name: Copy changes with cherry-pick
+      href: /vsts/git/tutorial/cherry-pick
+    - name: Resolve merge conflicts
+      href: /vsts/git/tutorial/merging
+    - name: Undo changes
+      href: /vsts/git/tutorial/undo
+    - name: Ignore files
+      href: /vsts/git/tutorial/ignore-files
+    - name: Review history
+      href: /vsts/git/tutorial/history
+  - name: TFVC
+    items:
+    - name: "Walkthrough: Fix a bug and get your code reviewed"
+      href: day-life-alm-developer-suspend-work-fix-bug-conduct-code-review.md
+    - name: "Visual Studio: Review Code"
+      href: get-code-reviewed-vs.md
 - name: Concepts
   items:
   - name: History in Git
