@@ -126,4 +126,5 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [How to report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Troubleshooting Visual Studio 2017 installation issues](troubleshooting-installation-issues.md)
