@@ -51,7 +51,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Expand either **Visual C#** or **Visual Basic** in the left hand pane, then select **Windows Classic Desktop**.  
+3.  Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
 
 4. In the middle pane, select the **Windows Forms App** project type, and then click **OK**. 
   
