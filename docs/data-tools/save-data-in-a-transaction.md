@@ -40,20 +40,34 @@ translation.priority.mt:
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  
- This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+To complete this walkthrough, you need access to the Northwind sample database. If you don't already have the Northwind database available, follow these steps:
+
+1. If you don't have SQL Server Express LocalDB installed, you can install it from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx). If you are using Visual Studio 2017, you can also install SQL Server Express LocalDB as part of the **.NET desktop development** workload or as an individual component in the Visual Studio Installer.  
+
+2. Download the [.zip file](../data-tools/downloads/northwind.zip) containing the **northwind.sql** script.  
+
+3. Extract the **northwind.sql** script from the .zip file. This script creates the Northwind database from scratch and populates it with data.  
+
+4. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+   A query editor window opens.  
+
+5. Paste the contents of the **northwind.sql** script into the query editor, and then choose the **Execute** button (it looks like a green triangle).  
+
+   After a short time, the query finishes executing and the Northwind database is created.  
   
-## Create a Windows application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1. In Visual Studio, on the **File** menu, select **New > Project...**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
 
 3. In the middle pane, select the **Windows Forms App** project type.  
 
-4. Name the project **SavingDataInATransactionWalkthrough**, and then click **OK**. 
+4. Name the project **SavingDataInATransactionWalkthrough**, and then choose **OK**. 
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -62,11 +76,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **Data** menu, select **Show Data Sources**.  
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
 4.  On the **Choose your Data Connection** screen do one of the following:  
   

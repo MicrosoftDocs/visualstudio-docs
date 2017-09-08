@@ -41,15 +41,15 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 
     4. Paste the contents of the **northwind.sql** script into the query editor, and then click the **Execute** button (it looks like a green triangle).  
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 3.  [Add new connections](../data-tools/add-new-connections.md) for Northwind.  
   
 ## Configure the project  
   
-1.  In Visual Studio, choose **File > New Project** and then create a new C# WPF Application.  
+1.  In Visual Studio, choose **File**, **New**, **Project...** and then create a new C# WPF Application.  
   
-2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project > Manage NuGet Packages...**  
+2.  Next we will add the NuGet package for Entity Framework 6. In Solution Explorer, select the project node. In the main menu, choose **Project**, **Manage NuGet Packages...**  
   
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png "raddata_vs2015_manage_nuget_packages")  
   
@@ -61,9 +61,10 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Create the model  
   
-1.  Right click on the project node in Solution Explorer and choose **Add > New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
+1.  Right click on the project node in Solution Explorer and choose **Add**, **New Item...**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
   
      ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png "raddata EF New Project Item")  
+
   2.  Call the model `Northwind_model` and choose OK. This brings up the **Entity Data Model Wizard**. Choose **EF Designer from database** and then click **Next**.  
   
      ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png "raddata EF Model from Database")  
@@ -75,6 +76,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
      ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png "raddata Choose EF Objects")  
   
 5.  The wizard generates the C# classes that represent the Entity Framework model. These are plain old C# classes and they are what we will databind to the WPF user interface. The .edmx file describes the relationships and other metadata that associates the classes with objects in the database.  The .tt files are T4 templates that generate the code that will operate on the model and save changes to the database. You can see all these files in Solution Explorer under the Northwind_model node:  
+
        ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png "raddata Solution Explorer EF model files")  
   
      The designer surface for the .edmx file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.  
@@ -349,7 +351,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ```  
   
 ## Add buttons to navigate, add, update and delete  
- In Windows Forms applications, you get a BindingNavigator object with buttons for navigating through rows in a database and doing basic CRUD operations. WPF does not provide a BindingNavigator, but they are easy enough to make. We'll do that with buttons inside a horizontal StackPanel, and we'll associate the buttons with Commands that are bound to methods in the code behind.  
+ In Windows Forms applications, you get a BindingNavigator object with buttons for navigating through rows in a database and doing basic CRUD operations. WPF does not provide a BindingNavigator, but it is easy enough to create one. We'll do that with buttons inside a horizontal StackPanel, and we'll associate the buttons with Commands that are bound to methods in the code behind.  
   
  There are fours parts to the command logic: (1) the commands, (2) the bindings, (3) the buttons, and (4) the command handlers in the code-behind.  
   
