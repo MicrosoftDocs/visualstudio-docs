@@ -19,27 +19,7 @@ Version control systems are software that help you track changes you make in you
 ## Git
 Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
 
-Git’s flexibility and popularity make it a great choice for any team. Many developers and college graduates already know how to use Git. Git’s user community has created many resources to train developers and Git’s popularity make it easy to get help when you need it.  Nearly every development environment has Git support and Git command line tools run on every major operating system.
-
 <ul class="panelContent cardsFTitle">
-    <li>
-        <a href="/vsts/git/create-new-repo">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/web.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Create a Git repo using the VSTS web portal</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
     <li>
         <a href="/vsts/git/share-your-code-in-git-vs">
         <div class="cardSize">
@@ -52,6 +32,24 @@ Git’s flexibility and popularity make it a great choice for any team. Many dev
                     </div>
                     <div class="cardText">
                         <h3>Manage your code using Git with Visual Studio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/vsts/git/create-new-repo">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/web.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a Git repo using the VSTS web portal</h3>
                     </div>
                 </div>
             </div>
