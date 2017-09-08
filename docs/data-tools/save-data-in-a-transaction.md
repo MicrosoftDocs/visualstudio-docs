@@ -40,21 +40,21 @@ translation.priority.mt:
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  
-To complete this walkthrough, you need access to the Northwind sample database. If you don't already have the Northwind database available, follow these steps:
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
+  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
+  
+2.  Install the Northwind sample database by following these steps:  
 
-1. If you don't have SQL Server Express LocalDB installed, you can install it from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx). If you are using Visual Studio 2017, you can also install SQL Server Express LocalDB as part of the **.NET desktop development** workload or as an individual component in the Visual Studio Installer.  
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
 
-2. Download the [.zip file](../data-tools/downloads/northwind.zip) containing the **northwind.sql** script.  
+       A query editor window opens.  
 
-3. Extract the **northwind.sql** script from the .zip file. This script creates the Northwind database from scratch and populates it with data.  
+    2. Copy the [Northwind Transact-SQL script](../data-tools/samples/northwind.sql) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
 
-4. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
-   A query editor window opens.  
-
-5. Paste the contents of the **northwind.sql** script into the query editor, and then choose the **Execute** button (it looks like a green triangle).  
-
-   After a short time, the query finishes executing and the Northwind database is created.  
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Create a Windows Forms application  
  The first step is to create a **Windows Forms Application**.  

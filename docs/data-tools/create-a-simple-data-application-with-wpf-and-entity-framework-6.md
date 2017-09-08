@@ -25,21 +25,19 @@ This walkthough shows how to create a basic "forms over data" application in Vis
  This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-View Model (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with very few modifications.  
   
 ## Install and connect to Northwind  
- This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well if the ADO.NET data provider for that product supports Entity Framework.  
+This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well, if the ADO.NET data provider for that product supports Entity Framework.  
   
 1.  If you haven't already, install SQL Server Express LocalDB from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx). If you are using Visual Studio 2017, you can also install SQL Server Express LocalDB as part of the **.NET desktop development** workload or as an individual component in the Visual Studio Installer.  
   
 2.  Install the Northwind sample database by following these steps:  
 
-    1. Download the [.zip file](../data-tools/downloads/northwind.zip) containing the **northwind.sql** script.  
-
-    2. Extract the **northwind.sql** script from the .zip file. This script creates the Northwind database from scratch and populates it with data.  
-
-    3. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
 
        A query editor window opens.  
 
-    4. Paste the contents of the **northwind.sql** script into the query editor, and then click the **Execute** button (it looks like a green triangle).  
+    2. Copy the [Northwind Transact-SQL script](../data-tools/samples/northwind.sql) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
        After a short time, the query finishes executing and the Northwind database is created.  
   
