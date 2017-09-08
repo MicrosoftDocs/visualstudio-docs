@@ -13,7 +13,7 @@ ms.author: "ronpet"
 ---
 # Introducing Live Unit Testing
 
-Live Unit Testing is a technology available in Visual Studio 2017 version 15.3 that executes your unit tests automatically in real-time as you make code changes. Live Unit Testing:
+Live Unit Testing is a technology available in Visual Studio 2017 version 15.3 that executes your unit tests automatically in real time as you make code changes. Live Unit Testing:
 
 - Lets you refactor and change code with greater confidence. Live Unit Testing automatically executes all impacted tests as you edit your code to ensure that your changes do not break tests.
  
@@ -25,11 +25,11 @@ To learn more about Live Unit Testing:
 
 - Try the introductory tutorial, [Get started with Live Unit Testing in Visual Studio](live-unit-testing-start.md).
 
-- Read the detailed documentation, [Live Unit testing with Visual Studio 2017](live-unit-testing.md).
+- Read the detailed documentation, [Use Live Unit testing with Visual Studio 2017 Enterprise Edition](live-unit-testing.md).
  
 - Read the [Live Unit Testing FAQ](live-unit-testing-faq.md) to learn what's new in Live Unit Testing, as well as to read about tips and techniques for using Live Unit Testing.
  
-- Watch the Channel 9 video for a overview of Live Unit Testing and an overview of its features. 
+- Watch the Channel 9 video for a overview of Live Unit Testing and its features. </br>
 
    <iframe src="https://sec.ch9.ms/ch9/940d/4b7943b2-c6ca-4cb8-9ff4-b0283463940d/VS2017LaunchT105_high.mp4" width="960" height="540" allowFullScreen frameBorder="0"></iframe> 
 
