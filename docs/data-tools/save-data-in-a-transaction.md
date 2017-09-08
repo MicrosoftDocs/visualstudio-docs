@@ -1,7 +1,7 @@
 ---
-title: "Save data in a transaction | Microsoft Docs"
+title: "Walkthrough: Save data in a transaction | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,35 +36,37 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Save data in a transaction
-This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
+# Walkthrough: Save data in a transaction
+This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.  
   
 ## Prerequisites  
  This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
-## Create a Windows application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1.  In Visual Studio, on the **File** menu, click **New > Project**.  
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+3.  Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+4. In the middle pane, select the **Windows Forms App** project type, and then click **OK**. 
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create a database data source  
- This step uses the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
+ This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **View** menu, select **Other Windows > Data Sources**.  
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
 4.  On the **Choose your Data Connection** screen do one of the following:  
   
@@ -128,7 +130,7 @@ The order for reconciling changes to related data is as follows:
   
 -   Delete parent records. (In this case, delete records from the `Customers` table.)  
   
--   Insert parent records.(In this case, insert records in the `Customers` table.)  
+-   Insert parent records. (In this case, insert records in the `Customers` table.)  
   
 -   Insert child records. (In this case, insert records in the `Orders` table.)  
   
