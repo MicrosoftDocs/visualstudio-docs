@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an N-Tier Data Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -74,7 +74,7 @@ translation.priority.ht:
   
 #### To create the n-tier solution and DataEntityTier class library  
   
-1.  From the **File** menu, create a new project.  
+1.  From the **File** menu, select **New > Project...**.  
   
     > [!NOTE]
     >  The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Create the new project in one of these languages.  

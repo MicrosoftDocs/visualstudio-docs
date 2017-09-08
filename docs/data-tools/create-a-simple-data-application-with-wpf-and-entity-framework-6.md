@@ -35,7 +35,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 
     2. Extract the **northwind.sql** script from the .zip file. This script creates the Northwind database from scratch and populates it with data.  
 
-    3. In Visual Studio, open the **SQL Server Object Explorer** window. Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+    3. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
 
        A query editor window opens.  
 
@@ -417,12 +417,12 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 The code-behind is minimal except for the add and delete methods. Navigation is performed by calling methods on the View property of the CollectionViewSource. The DeleteOrderCommandHandler shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The UpdateCommandHandler adds a new customer or order to the collection, or else just updates an existing customer or order with the changes that the user made in the text boxes.  
   
-Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your CollectionViewSource for the Customers table has a different name, then you will need to adjust the name in each of these methods:  
+Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your CollectionViewSource for the Customers table has a different name, then you need to adjust the name in each of these methods:  
   
 [!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
   
 ## Run the application
-Press **F5** to start debugging. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes will be written to the model automatically.  
+To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.  
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)
