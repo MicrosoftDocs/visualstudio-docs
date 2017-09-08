@@ -1,4 +1,5 @@
 ﻿---
+layout: LandingPage
 title: Version control in Visual Studio | VSTS & TFS
 description: Guide to getting started with version control in Viual Studio 
 keywords: VSTS, TFS, Version Control
