@@ -76,18 +76,39 @@ To set up a Git repository, execute the following steps:
 
 ## Publishing a new project
 
-The new project dialog can be used to publish a new project using git. To enable it, select the **Use git for version control.** checkbox, as illustrated in the following screenshot. This will initalize your repo and add an optional .gitignore file:
+The new project dialog can be used to publish a new project using git. To enable it, select the **Use git for version control.** checkbox, as illustrated in the following screenshot. This will initialize your repo and add an optional .gitignore file:
 
 ![Push Changes to remote repository](media/version-control-git12.png)
 
+## Checkout an existing repository
+
+It's very likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to checkout this repo quickly. Follow the steps below to clone it to your machine:
+
+1. In the Menu bar, select **Version Control > Checkout…**:
+
+2. This displays the **Connect to Repository** tab:
+
+    ![Connect to Repository tab with details entered](media/version-control-git13.png)
+
+3. On the GitHub page of the remote repository, press the **Clone or Download** button and copy the URL provided:
+
+    ![github url displayed](media/version-control-git14.png)
+
+4. Replace all the text in the **URL** entry field in the **Connect to Repository** tab. This will populate most other fields in this tab for you, as illustrated in the image in step #2.
+
+5. Enter the directory that you want to clone the repo into and press **Checkout**.
+
+> [!NOTE]
+You may experience issues if the repo is over 4GB in size.
+
 ## Troubleshooting
 
-If you have issues with initalizing your project with an empty remote repository, you can try the following steps:
+If you have issues with initializing your project with an empty remote repository, you can try the following steps:
 
 - Go to your solution folder.
 - Press `Command + Shift + . ` To show the hidden files and folders.
-- If there's a `.git` folder, delete it.
-- If there's a `gitignore` file, delete it.
+- If there's a **.git** folder, delete it.
+- If there's a **gitignore** file, delete it.
 - Press `Command + Shift + . ` To hide the files and folders.
 - Open your solution in VS for Mac.
 - On the solution pad, select your solution node.
