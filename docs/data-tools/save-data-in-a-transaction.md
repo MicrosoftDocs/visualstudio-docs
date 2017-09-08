@@ -47,11 +47,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New > Project...**.  
   
-2.  Name the project **SavingDataInATransactionWalkthrough**.  
-  
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **SavingDataInATransactionWalkthrough**, and then click **OK**. 
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   

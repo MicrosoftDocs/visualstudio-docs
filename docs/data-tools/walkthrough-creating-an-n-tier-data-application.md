@@ -73,21 +73,16 @@ translation.priority.ht:
 >  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
   
 #### To create the n-tier solution and DataEntityTier class library  
+
+1. In Visual Studio, on the **File** menu, select **New > Project...**.  
   
-1.  From the **File** menu, select **New > Project...**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Class Library** project type.  
   
-    > [!NOTE]
-    >  The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Create the new project in one of these languages.  
+4. Name the project **DataEntityTier**.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **Windows**.  
-  
-3.  Click the **Class Library** template.  
-  
-4.  Name the project **DataEntityTier**.  
-  
-5.  Name the solution **NTierWalkthrough**.  
-  
-6.  Click **OK**.  
+5. Name the solution **NTierWalkthrough**, and then click **OK**.  
   
      An NTierWalkthrough solution that contains the DataEntityTier project is created and added to **Solution Explorer**.  
   
