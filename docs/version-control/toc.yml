@@ -3,7 +3,7 @@
 - name: Overview
   items:
   - name: Learn about Git
-    href: /vsts/git/tutorial/gitworkflow?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json
+    href: /vsts/git/tutorial/gitworkflow?toc=/vsts/git/vsvc/toc.json&bc=/vsts/git/vsvc/breadcrumb/toc.json
 - name: Quickstarts
   items:
   - name: Create repo - Web
