@@ -6,7 +6,7 @@ keywords: VSTS, TFS, Version Control
 author: steved0x
 ms.manager: douge
 ms.author: sdanie
-ms.date: 09/07/2017
+ms.date: 09/08/2017
 ms.topic: article
 ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
