@@ -72,29 +72,29 @@ To complete this walkthrough, you need access to the Northwind sample database. 
   
 #### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**.  
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DatasetDesignerWalkthrough`, and then click **OK**.  
-  
-     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will add the project to **Solution Explorer** and display a new form in the designer.  
+     Visual Studio adds the project to **Solution Explorer** and display a new form in the designer.  
   
 ## Adding a New Dataset to the Application  
   
 #### To add a new dataset item to the project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1.  On the **Project** menu, select **Add New Item...**.  
   
      The **Add New Item** dialog box appears.  
   
-2.  In the **Templates** box of the **Add New Item** dialog box, click **DataSet**.  
+2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.  
   
-3.  Name the Dataset `NorthwindDataset`, and then click **Add**.  
+3.  Name the Dataset **NorthwindDataset**, and then choose **Add**.  
   
-     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will add a file called **NorthwindDataset.xsd** to the project and open it in the **Dataset Designer**.  
+     Visual Studio adds a file called **NorthwindDataset.xsd** to the project and opens it in the **Dataset Designer**.  
   
 ## Creating a Data Connection in Server Explorer  
   
