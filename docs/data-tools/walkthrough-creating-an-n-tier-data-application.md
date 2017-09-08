@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an N-Tier Data Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/07/2017"
+ms.date: "09/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
