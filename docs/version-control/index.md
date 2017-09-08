@@ -73,25 +73,7 @@ Learn the basics of working in Git with these guides.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Import a repo from GitHub, BitBucket, GitLab and others into a blank VSTS Git repo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="/vsts/git/tutorial/creatingrepo">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/git-mark.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Create a new repo</h3>
+                        <h3>Import a repo from GitHub, BitBucket, GitLab and others</h3>
                     </div>
                 </div>
             </div>
