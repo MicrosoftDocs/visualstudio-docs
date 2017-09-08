@@ -69,7 +69,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="c" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
