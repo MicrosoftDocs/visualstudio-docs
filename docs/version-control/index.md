@@ -69,7 +69,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="c" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -105,7 +105,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -123,7 +123,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -141,7 +141,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -159,7 +159,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -177,7 +177,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -195,7 +195,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -213,7 +213,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -231,7 +231,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -249,7 +249,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -267,7 +267,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -285,7 +285,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -303,7 +303,7 @@ Learn the basics of working in Git with these guides.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="media/git-mark.png" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
