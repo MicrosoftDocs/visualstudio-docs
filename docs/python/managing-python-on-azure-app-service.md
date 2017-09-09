@@ -1,7 +1,7 @@
 ---
 title: "Managing Python on Azure App Service | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 9/6/2017
 ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,7 +28,7 @@ Python support on Azure App Service is provided as a set of App Service site ext
 
 ## Choosing a Python version through the Azure portal
 
-If your site is already deployed and running on Azure App Service, navigate to your App Service blade, scroll to the **Development Tools** section, and then select **Extensions > Add**. Scroll through the list to find the specific extensions for the version of Python you want. (Unfortunately, the list isn't sortable, so the different versions are often spread around in the list):
+If your site is already deployed and running on Azure App Service, navigate to your App Service in the Azure portal, scroll to the **Development Tools** section, and select **Extensions > Add**. Scroll through the list to find the specific extensions for the version of Python you want:
 
 ![Azure portal showing Python extensions](media/python-on-azure-extensions.png)
 
@@ -66,7 +66,13 @@ After installing the site extension (through either the portal or an Azure Resou
 
 ![Extension details on Azure App Service](media/python-on-azure-extension-detail.png)
 
-Your next step is to reference the Python installation in the site's `web.config` file for both the FastCGI and Http Platform request handlers.
+If you have trouble seeing the path for the extension, you can find it manually using the console:
+
+1. In your App Service on the Azure portal, select the **Development Tools > Console**.
+2. Enter the command `ls ../home` to see the top-level extensions folders, such as `Python361x64`.
+3. Enter a command like `ls ../home/python361x64` using one of the Python folders to verify that it contains `python.exe` and other interpreter files.
+
+Note that the full path to `python.exe` is important in the next step, which is to reference that path in the site's `web.config` file for either the FastCGI and Http Platform request handlers.
 
 ### Using the FastCGI handler
 
@@ -93,11 +99,11 @@ The `<appSettings>` are available to your app as environment variables:
 - `WSGI_HANDLER` must point to a WSGI app importable from your site.
 - `WSGI_LOG` is optional but recommended for debugging your site. 
 
-Under `<handlers>`, make sure the `scriptProcessor` attribute in the `<add>` element contains the proper paths to your specific installation. The path is again shown on the extension's details blade.
+Under `<handlers>`, make sure the `scriptProcessor` attribute in the `<add>` element contains the proper paths to your specific installation. The path is again shown on the extension's details.
 
 ### Using the Http Platform handler
 
-The HttpPlatform module passes the socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server. You specify the script in the `<httpPlatform>` element, where the `processPath` attribute points to Python and the `arguments` attribute points to your script and any arguments you want to provide:
+The HttpPlatform module passes the socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server. You specify the script in the `<httpPlatform>` element of `web.config`, where the `processPath` attribute points to Python and the `arguments` attribute points to your script and any arguments you want to provide:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,19 +132,21 @@ The `HTTP_PLATFORM_PORT` environment variable shown in the code contains the por
 
 ## Installing packages
 
-Because your app likely depends on a variety of packages, you need to make sure those packages are installed in your Python environment on App Service through one of three methods:.
+The Python interpreter installed through a site extension is only one piece of your Python environment. You likely need to install different packages in that environment as well, which can be done through one of three methods:
 
-- The Azure App Service console on the Azure portal
-- The Kudu REST API
-- Copying each library into the app source code
+- The [Azure App Service Kudu console](#kudu-console).
+- The [Kudu REST API](#kudu-rest-api)
+- [Copying libraries into app source code](#copying-libraries-into-app-source-code)
 
 ### Kudu console
 
-The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. In addition to being a valuable debugging tool, it can also be used for CLI-based configurations.
+The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. In addition to being a valuable debugging tool, it can also be used for CLI-based configurations such as installing packages.
 
-Access Kudu from your App Service blade by selecting **Development Tools > Advanced Tools**, then select **Go** to navigate to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/`:
+To open Kudu, go to your App Service on the Azure portal, select **Development Tools > Advanced Tools**, then select **Go**. This action navigates to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/`:
 
 ![The Kudu console for Azure App Service](media/python-on-azure-console01.png)
+
+You can bookmark this URL for future use, fo course.
 
 Select **Debug console > CMD** to open the console, in which you can navigate into your Python installation and see what libraries are already there.
 
@@ -149,12 +157,12 @@ To install a single package:
 
 ![Example of installing matplotlib through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
 
-To install packages from your `requirements.txt` (recommended):
+If you've deployed a `requirements.txt` for your application to the server already, install all those requirements as follows:
 
 1. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
-1. Use `python.exe -m pip install --upgrade -r d:\home\site\wwwroot\requirements.txt` to install a package.
+1. Enter the command `python.exe -m pip install --upgrade -r d:\home\site\wwwroot\requirements.txt`.
 
-Using requirements.txt is recommended because it's easy to reproduce your exact package set both locally and on the server.
+Using requirements.txt is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
 
 > [!Note]
 > There's no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
@@ -177,8 +185,9 @@ For information about commands and authentication, see the [Kudu documentation](
 
 Instead of installing packages directly on the server, you can instead copy libraries into your own source code and deploy them as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going.
 
-The caveat is that these libraries must precisely match the version of Python on the server, otherwise you'll see obscure errors after deployment. However, because the versions of Python in the App Service site extensions are exactly the same as those released on python.org, you can easily obtain a compatible version for local development.
+The caveat is that these libraries must precisely match the version of Python on the server, otherwise you'll see obscure errors after deployment. However, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development.
 
 ### Avoiding virtual environments
 
-Although working in a virtual environment locally can help you fully understand the dependencies needed by your site, using virtual environments on App Service is not recommended. Instead, just install libraries into your main Python folder and deploy them with your app to avoid having conflicting dependencies.
+Although working in a virtual environment locally can help you fully understand the dependencies needed by your site, using virtual environments on App Service is not recommended. Instead, just install libraries into your main Python folder and deploy them with your app to avoid conflicting dependencies.
+
