@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Visual C# and Visual Basic | Microsoft Docs"
+title: "Getting Started with Visual C# and Visual Basic using Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Getting Started with Visual C# and Visual Basic
+# Getting Started with Visual C# and Visual Basic using Visual Studio
 Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to start. Getting Started Help is a series of sequential lessons that introduces you to Visual C# and Visual Basic. Have fun, and write some great software.  
   
  To learn about Visual C++, see [Visual C++ resources](http://msdn.microsoft.com/vstudio/hh386302.aspx).  

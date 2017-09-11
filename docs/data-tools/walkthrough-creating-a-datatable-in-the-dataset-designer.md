@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "DataTable objects, creating"
   - "Dataset Designer, creating data tables"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
 ms.assetid: abf0a2b5-e4e5-422e-97ef-55a0e35a82df
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 
@@ -87,7 +82,6 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 1.  Drag a **DataTable** from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
      A table named **DataTable1** is added to the dataset.  
-  
    
 2.  Click the title bar of **DataTable1** and rename it `Music`.  
   
@@ -110,7 +104,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
      `Genre`: <xref:System.String?displayProperty=fullName>  
   
 ## Setting the Primary Key for the Table  
- All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.  
+All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.  
   
 #### To set the primary key of the data table  
   

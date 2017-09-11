@@ -66,12 +66,12 @@ manager: "ghogen"
   
  The following code example displays a security warning if the object model guard is enabled. The To property of the Microsoft.Office.Interop.Outlook.MailItem class is restricted by the object model guard. The Microsoft.Office.Interop.Outlook.MailItem object is untrusted because the code gets it from a Microsoft.Office.Interop.Outlook.Application that is created using the **new** operator, instead of obtaining it from the `Application` field.  
   
- [!code-cs[Trin_VstcoreOutlookSecurity#1](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#1)]
+ [!code-csharp[Trin_VstcoreOutlookSecurity#1](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#1)]
  [!code-vb[Trin_VstcoreOutlookSecurity#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#1)]  
   
  The following code example demonstrates how to use the restricted To property of a Microsoft.Office.Interop.Outlook.MailItem object that is trusted by the object model guard. The code uses the trusted `Application` field to get the Microsoft.Office.Interop.Outlook.MailItem.  
   
- [!code-cs[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#2)]
+ [!code-csharp[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#2)]
  [!code-vb[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#2)]  
   
 > [!NOTE]  

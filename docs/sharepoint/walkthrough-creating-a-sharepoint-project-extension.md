@@ -116,7 +116,7 @@ manager: "ghogen"
 1.  Paste the following code into the CustomProperty code file.  
   
      [!code-vb[SPExt_ProjectExtension#1](../sharepoint/codesnippet/VisualBasic/projectextension/customproperty.vb#1)]
-     [!code-cs[SPExt_ProjectExtension#1](../sharepoint/codesnippet/CSharp/projectextension/customproperty.cs#1)]  
+     [!code-csharp[SPExt_ProjectExtension#1](../sharepoint/codesnippet/CSharp/projectextension/customproperty.cs#1)]  
   
 ## Building the Solution  
  Next, build the solution to make sure that it compiles without errors.  

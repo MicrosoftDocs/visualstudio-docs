@@ -84,7 +84,7 @@ namespace Samples
  The following example shows a `static` method that violates this rule.  
   
 ### Code  
- [!code-cs[FxCop.Interoperability.ComVisibleStaticMembersViolation#1](../code-quality/codesnippet/CSharp/ca1407-avoid-static-members-in-com-visible-types_1.cs)]  
+ [!code-csharp[FxCop.Interoperability.ComVisibleStaticMembersViolation#1](../code-quality/codesnippet/CSharp/ca1407-avoid-static-members-in-com-visible-types_1.cs)]  
   
 ### Comments  
  In this example, the **Book.FromPages** method cannot be called from COM.  
@@ -97,7 +97,7 @@ namespace Samples
  The following example applies <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute> to the method.  
   
 ### Code  
- [!code-cs[FxCop.Interoperability.ComVisibleStaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1407-avoid-static-members-in-com-visible-types_2.cs)]  
+ [!code-csharp[FxCop.Interoperability.ComVisibleStaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1407-avoid-static-members-in-com-visible-types_2.cs)]  
   
 ## Related Rules  
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)  
