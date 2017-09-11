@@ -68,7 +68,7 @@ In order to complete this walkthrough, you need:
 
 4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**. 
   
-     The **DatasetDesignerWalkthrough** project is created and added to **Solution Explorer**.  
+     The **DatasetDesignerWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   

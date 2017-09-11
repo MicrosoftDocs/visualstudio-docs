@@ -82,7 +82,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 
 4. Name the project **SimpleControlWalkthrough**, and then choose **OK**. 
   
-     The **SimpleControlWalkthrough** project is created and added to **Solution Explorer**.  
+     The **SimpleControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Add a user control to the project  
  This walkthrough creates a simple data-bindable control from a **User Control**, so add a **User Control** item to the **SimpleControlWalkthrough** project.  

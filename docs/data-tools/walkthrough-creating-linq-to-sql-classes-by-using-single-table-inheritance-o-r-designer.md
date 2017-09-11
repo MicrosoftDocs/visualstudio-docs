@@ -103,16 +103,15 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 #### To create the new Windows Forms Application  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **InheritanceWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **InheritanceWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
-  
-4.  The InheritanceWalkthrough project is created and added to **Solution Explorer**.  
+     The **InheritanceWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Add a LINQ to SQL Classes File to the Project  
   

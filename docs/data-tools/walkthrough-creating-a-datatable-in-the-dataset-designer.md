@@ -59,7 +59,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 
 4. Name the project **DataTableWalkthrough**, and then choose **OK**. 
   
-     The **DataTableWalkthrough** project is created and added to **Solution Explorer**.  
+     The **DataTableWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   

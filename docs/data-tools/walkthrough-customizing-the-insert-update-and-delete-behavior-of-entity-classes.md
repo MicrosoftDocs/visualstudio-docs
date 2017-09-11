@@ -78,7 +78,7 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
 
 4. Name the project **UpdatingWithSProcsWalkthrough**, and then choose **OK**. 
   
-     The **UpdatingWithSProcsWalkthrough** project is created and added to **Solution Explorer**.  
+     The **UpdatingWithSProcsWalkthrough** project is created, and added to **Solution Explorer**.  
   
 4.  On the **Project** menu, click **Add New Item**.  
   

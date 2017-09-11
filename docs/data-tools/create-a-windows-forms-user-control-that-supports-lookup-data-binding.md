@@ -83,7 +83,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
 
 4. Name the project **LookupControlWalkthrough**, and then choose **OK**. 
   
-     The **LookupControlWalkthrough** project is created and added to **Solution Explorer**.  
+     The **LookupControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Add a user control to the project  
  This walkthrough creates a lookup control from a **User Control**, so add a **User Control** item to the **LookupControlWalkthrough** project.  

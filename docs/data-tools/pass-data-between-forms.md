@@ -75,7 +75,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
 
 4. Name the project **PassingDataBetweenForms**, and then choose **OK**. 
   
-     The **PassingDataBetweenForms** project is created and added to **Solution Explorer**.  
+     The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   
 ## Create the data source  
   
