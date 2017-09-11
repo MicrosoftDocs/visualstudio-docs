@@ -1,6 +1,5 @@
 # [Accessing data in Visual Studio](accessing-data-in-visual-studio.md)
 # [Installing database systems, tools, and samples](installing-database-systems-tools-and-samples.md)
-## [Install SQL Server sample databases](install-sql-server-sample-databases.md)
 ## [Create a SQL database by using a script](create-a-sql-database-by-using-a-script.md)
 ## [Create a SQL database by using a designer](create-a-sql-database-by-using-a-designer.md)
 ## [Upgrade .mdf files](upgrade-dot-mdf-files.md)

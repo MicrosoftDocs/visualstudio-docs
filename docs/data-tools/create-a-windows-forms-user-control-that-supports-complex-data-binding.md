@@ -128,7 +128,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Creating a data source from your database  
- This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database.  
   
 #### To create the data source  
   

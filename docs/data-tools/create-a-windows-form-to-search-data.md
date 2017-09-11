@@ -87,7 +87,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **WindowsSearchForm** project is created and added to **Solution Explorer**.  
   
 ## Create the data source  
- This step creates a data source from a database using the **Data Source Configuration** wizard. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step creates a data source from a database using the **Data Source Configuration** wizard.  
   
 #### To create the data source  
   
