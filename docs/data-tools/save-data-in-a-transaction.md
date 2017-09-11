@@ -1,5 +1,5 @@
 ---
-title: "Save data in a transaction | Microsoft Docs"
+title: "Walkthrough: Save data in a transaction | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/08/2017"
 ms.reviewer: ""
@@ -36,8 +36,8 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# Save data in a transaction
-This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
+# Walkthrough: Save data in a transaction
+This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.  
   
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
@@ -72,7 +72,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create a database data source  
- This step uses the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
+ This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
   
 #### To create the data source  
   
@@ -144,7 +144,7 @@ The order for reconciling changes to related data is as follows:
   
 -   Delete parent records. (In this case, delete records from the `Customers` table.)  
   
--   Insert parent records.(In this case, insert records in the `Customers` table.)  
+-   Insert parent records. (In this case, insert records in the `Customers` table.)  
   
 -   Insert child records. (In this case, insert records in the `Orders` table.)  
   

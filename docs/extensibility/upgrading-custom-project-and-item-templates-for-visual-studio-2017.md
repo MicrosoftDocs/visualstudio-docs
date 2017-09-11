@@ -209,7 +209,7 @@ We show the points of difference between the Visual Studio 2015 and Visual Studi
 
 2. Open a "Developer Command Prompt" for your installation by searching for it in Windows search and run `devenv /updateConfiguration`.
 
-3.  Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0\VsTemplateDiagnosticsList.csv**. Each template tree initialization appends entries to this log.  
+3.  Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.  
   
  The log file contains the following columns:  
   
