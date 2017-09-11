@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "09/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
