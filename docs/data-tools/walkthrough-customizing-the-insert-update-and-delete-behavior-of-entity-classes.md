@@ -68,18 +68,17 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-#### To create a new Windows Application project that contains LINQ to SQL classes  
+#### To create a new Windows Forms Application project that contains LINQ to SQL classes  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **UpdatingwithSProcsWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **UpdatingWithSProcsWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Therefore, create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
-  
-     The UpdatingwithSProcsWalkthrough project is created and added to **Solution Explorer**.  
+     The **UpdatingWithSProcsWalkthrough** project is created and added to **Solution Explorer**.  
   
 4.  On the **Project** menu, click **Add New Item**.  
   

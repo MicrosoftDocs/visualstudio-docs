@@ -51,7 +51,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Add a new **User Control** to your project.  
   
@@ -70,18 +70,20 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 -   Access to the Northwind sample database.  
   
-## Create a Windows Application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms Application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **LookupControlWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **LookupControlWalkthrough**, and then choose **OK**. 
   
-3.  Select **Windows  Forms Application**, and click **OK**.  
-  
-     The **LookupControlWalkthrough** project is created, and added to **Solution Explorer**.  
+     The **LookupControlWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Add a user control to the project  
  This walkthrough creates a lookup control from a **User Control**, so add a **User Control** item to the **LookupControlWalkthrough** project.  

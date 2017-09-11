@@ -101,7 +101,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 ## Create a New Project  
  Now that you have created the table, create a new project to demonstrate configuring inheritance.  
   
-#### To create the new Windows Application  
+#### To create the new Windows Forms Application  
   
 1.  From the **File** menu, create a new project.  
   
