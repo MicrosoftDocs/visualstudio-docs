@@ -50,25 +50,21 @@ Some other useful shortcut key combinations include the following.
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.  
 
 
-## Use the Sound applet to set breakpoint cues
-You can use the Sound applet in Windows to produce a sound when you hit a breakpoint in a debugging session.
+## Use the Sound applet to set build and breakpoint cues
+You can use the Sound applet in Windows to assign a sound event to Visual Studio. Specifically, you can assign sounds to the following program events:
+
+ * Breakpoint hit
+ * Build canceled
+ * Build failed
+ * Build succeeded
 
 Here's how.
 
-### If you use Cortana
-1. Say **Sounds**.
-
-2. Say **Change system sounds**.
-
-3. Say **Sounds**, say **Program Events**, and then say **Microsoft Visual Studio**.
-
-4. To be continued after testing... 
-
-### If you use a keyboard
-
-1. In the **Search** box on a computer running Windows 10, type **Sounds**.
+1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
   ![Search box in Windows 10](media/type-here-to-search.png "Type Sounds in the Search box on a computer running Windows 10")
+
+  (Alternatively, if you have Cortana enabled, say "Hey Cortana" and then say "Change system sounds.")
 
 2. Double-click **Change system sounds**.
 
