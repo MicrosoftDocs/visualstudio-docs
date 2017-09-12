@@ -29,9 +29,9 @@ To learn more about Live Unit Testing:
  
 - Read the [Live Unit Testing FAQ](live-unit-testing-faq.md) to learn what's new in Live Unit Testing, as well as to read about tips and techniques for using Live Unit Testing.
  
-- Watch the Channel 9 video for a overview of Live Unit Testing and its features. </br>
+- Watch the Channel 9 video for a overview of Live Unit Testing and its features. </p>
 
-   <iframe src="https://sec.ch9.ms/ch9/940d/4b7943b2-c6ca-4cb8-9ff4-b0283463940d/VS2017LaunchT105_high.mp4" width="960" height="540" allowFullScreen frameBorder="0"></iframe> 
+   > [!VIDEO https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105/player]
 
 ## Related resources
 [Code testing tools](https://www.visualstudio.com/vs/testing-tools/)   
