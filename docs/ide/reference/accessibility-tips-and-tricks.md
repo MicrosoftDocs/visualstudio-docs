@@ -64,7 +64,7 @@ Here's how.
 
   ![Search box in Windows 10](media/type-here-to-search.png "Type Sounds in the Search box on a computer running Windows 10")
 
-  (Alternatively, if you have Cortana enabled, say "Hey Cortana" and then say "Change system sounds.")
+  (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
 
 2. Double-click **Change system sounds**.
 
