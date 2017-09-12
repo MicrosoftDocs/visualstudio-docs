@@ -31,7 +31,7 @@ To learn more about Live Unit Testing:
  
 - Watch the Channel 9 video for a overview of Live Unit Testing and its features. </p>
 
-   <iframe src="https://sec.ch9.ms/ch9/940d/4b7943b2-c6ca-4cb8-9ff4-b0283463940d/VS2017LaunchT105_high.mp4" width="960" height="540" allowFullScreen frameBorder="0" autoplay="false"></iframe> 
+   > [!VIDEO https://sec.ch9.ms/ch9/940d/4b7943b2-c6ca-4cb8-9ff4-b0283463940d/VS2017LaunchT105_high.mp4]
 
 ## Related resources
 [Code testing tools](https://www.visualstudio.com/vs/testing-tools/)   
