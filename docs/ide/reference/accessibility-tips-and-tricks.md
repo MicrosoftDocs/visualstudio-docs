@@ -51,7 +51,7 @@ Some other useful shortcut key combinations include the following.
 
 
 ## Use the Sound applet to set build and breakpoint cues
-You can use the Sound applet in Windows to assign a sound event to Visual Studio. Specifically, you can assign sounds to the following program events:
+You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
  * Breakpoint hit
  * Build canceled
