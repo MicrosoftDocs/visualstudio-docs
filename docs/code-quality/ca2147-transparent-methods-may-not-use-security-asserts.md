@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "SecurityTransparentCodeShouldNotAssert"
 ms.assetid: 5d31e940-e599-4b23-9b28-1c336f8d910e
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

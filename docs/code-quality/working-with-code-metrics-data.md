@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "results window, code metrics"
 ms.assetid: 988193ec-b4a3-4e11-b5a1-7334979807d5
 caps.latest.revision: 17
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1021"
 ms.assetid: 970f2304-842c-4fb7-9734-f3871da8d479
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

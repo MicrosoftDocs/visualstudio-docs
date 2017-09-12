@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "dictionary, code analysis"
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

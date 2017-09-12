@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DoNotPrefixEnumValuesWithTypeName"
 ms.assetid: df0e3a12-67bf-48f1-a10b-2ef60484a5c7
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

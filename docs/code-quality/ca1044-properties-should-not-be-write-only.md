@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "PropertiesShouldNotBeWriteOnly"
 ms.assetid: 8386bf3a-b161-4841-bf8b-92591595aea9
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

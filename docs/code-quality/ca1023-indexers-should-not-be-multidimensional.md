@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "IndexersShouldNotBeMultidimensional"
 ms.assetid: ae499879-97f6-434e-a61d-1fedd231d2fb
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

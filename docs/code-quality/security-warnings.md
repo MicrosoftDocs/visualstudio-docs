@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "warnings, security"
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
 caps.latest.revision: 28
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

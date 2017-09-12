@@ -12,9 +12,9 @@ f1_keywords:
   - "CA2132"
 ms.assetid: e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "AvoidNamespacesWithFewTypes"
 ms.assetid: 9cb272f6-a3ff-45af-b35d-70dea620b074
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

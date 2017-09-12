@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.solution"
 ms.assetid: 92dc3250-a010-4396-b515-f03a0b30cd2a
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

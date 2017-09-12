@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "InitializeValueTypeStaticFieldsInline"
 ms.assetid: d1ea9d8b-ecc2-46ca-86e2-c41dd0e76658
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

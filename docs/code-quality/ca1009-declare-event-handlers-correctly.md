@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DeclareEventHandlersCorrectly"
 ms.assetid: ab65c471-1449-49d2-9896-7b9af74284b4
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

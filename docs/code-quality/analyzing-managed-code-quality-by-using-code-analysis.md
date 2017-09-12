@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "managed code analyis"
 ms.assetid: 68510a55-da51-4381-81a5-0feba76b8b4f
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

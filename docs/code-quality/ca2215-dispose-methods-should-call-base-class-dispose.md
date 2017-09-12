@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2215"
 ms.assetid: c772e7a6-a87e-425c-a70e-912664ae9042
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

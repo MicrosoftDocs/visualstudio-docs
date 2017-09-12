@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1819"
 ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

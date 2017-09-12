@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2208"
 ms.assetid: e2a48939-d9fa-478c-b2f9-3bdbce07dff7
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
