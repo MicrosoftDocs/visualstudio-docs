@@ -45,7 +45,7 @@ One of the most common scenarios in application development is to display data o
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+-   Creating a new **Windows Forms Application** project.  
   
 -   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
@@ -62,16 +62,18 @@ One of the most common scenarios in application development is to display data o
   
 -   Access to the Northwind sample database.  For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
-## Create the Windows application  
- The first step is to create a **Windows Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we're planning on saving it later.  
+## Create the Windows Forms application  
+ The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we'll save the project later.  
   
-#### To create the new Windows application project  
+#### To create the new Windows forms application project  
   
-1.  On the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project `UpdateMultipleTablesWalkthrough`.  
-  
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **UpdateMultipleTablesWalkthrough**, and then choose **OK**. 
   
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
