@@ -50,7 +50,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Add a new **User Control** to your project.  
   
@@ -69,16 +69,18 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 -   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
-## Create a Windows Application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms Application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **SimpleControlWalkthrough**.  
-  
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **SimpleControlWalkthrough**, and then choose **OK**. 
   
      The **SimpleControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
