@@ -76,7 +76,7 @@ Create the sample database by following these steps:
 
        A query editor window opens.  
 
-    6. Copy the [Sales Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/sales.sql) to your clipboard. This T-SQL script creates the schema for the sample database, including the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The script also creates some constraints, and four simple stored procedures.   
+    6. Copy the [Sales Transact-SQL script](../data-tools/samples/sales.sql) to your clipboard. This T-SQL script creates the schema for the sample database, including the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The script also creates some constraints, and four simple stored procedures.   
 
     7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
