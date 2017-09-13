@@ -173,6 +173,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 3. To install a single package:
 
     a. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
+     
     b. Use `python.exe -m pip install <package_name>` to install a package.
     
     ![Example of installing matplotlib through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
@@ -180,6 +181,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 4. If you've deployed a `requirements.txt` for your app to the server already, install all those requirements as follows:
 
     a. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
+    
     b. Run the command `python.exe -m pip install --upgrade -r d:\home\site\wwwroot\requirements.txt`.
     
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
