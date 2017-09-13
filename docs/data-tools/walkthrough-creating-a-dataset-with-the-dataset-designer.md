@@ -39,7 +39,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+-   Creating a new **Windows Forms Application** project.  
   
 -   Adding an empty **DataSet** item to the project.  
   
@@ -56,19 +56,19 @@ In order to complete this walkthrough, you need:
   
 -   Access to the Northwind sample database (SQL Server or Access version). For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
   
-## Creating a New Windows Application Project  
+## Creating a New Windows Forms Application Project  
   
-#### To create a new Windows Application project  
+#### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**. 
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DatasetDesignerWalkthrough`, and then click **OK**.  
-  
-     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will add the project to **Solution Explorer** and display a new form in the designer.  
+     The **DatasetDesignerWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   

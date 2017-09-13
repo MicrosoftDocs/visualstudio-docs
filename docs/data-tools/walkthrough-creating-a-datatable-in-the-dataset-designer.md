@@ -37,7 +37,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new Windows Application project  
+-   Creating a new Windows Forms Application project  
   
 -   Adding a new dataset to the application  
   
@@ -47,19 +47,19 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 -   Setting the primary key for the table  
   
-## Creating a New Windows Application  
+## Creating a New Windows Forms Application  
   
-#### To create a new Windows Application project  
+#### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DataTableWalkthrough**, and then choose **OK**. 
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DataTableWalkthrough`, and then click **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays **Form1** in the designer.  
+     The **DataTableWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   
