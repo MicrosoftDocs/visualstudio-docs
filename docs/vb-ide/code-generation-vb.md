@@ -11,8 +11,8 @@ ms.topic: "article"
 dev_langs: 
   - "visual-basic"
 ms.assetid: 73c19226-11f2-4b8f-a9e6-98f83fee0667
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -1,6 +1,5 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring/extract-method
-
 title: "Extract Method Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "Extract Method refactoring operation [C#]"
 ms.assetid: eeba11df-a815-4bec-9c21-8a831891b783
 caps.latest.revision: 29
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
