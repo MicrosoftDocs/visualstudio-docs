@@ -50,5 +50,5 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 * [Install Visual Studio](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
-* [Clean up Visual Studio](cleanup-visual-studio.md)
+* [Clean up Visual Studio](remove-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

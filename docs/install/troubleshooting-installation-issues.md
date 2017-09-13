@@ -51,9 +51,9 @@ In some situations, such as those related to corrupted files, the problems may h
 4. Click **Next** to review your problem report, and then click **Submit**.
 
 ### Step 5 - Run InstallCleanup.exe to clean up installation files
-As a last resort, you can [clean up Visual Studio](cleanup-visual-studio.md) to remove all installation files and product information.
+As a last resort, you can [clean up Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
-1. Follow the instructions in [Clean up Visual Studio](cleanup-visual-studio.md).
+1. Follow the instructions in [Clean up Visual Studio](remove-visual-studio.md).
 2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 

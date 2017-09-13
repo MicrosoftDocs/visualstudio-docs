@@ -1,6 +1,6 @@
 ---
-title: "Clean up Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to clean up Visual Studio, step-by-step."
+title: "Remove Visual Studio 2017 | Microsoft Docs"
+description: "Learn how to remove Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: "09/12/2017"
 ms.reviewer: ""
@@ -12,6 +12,8 @@ ms.topic: "article"
 f1_keywords:
   - "uninstall"
   - "uninstall Visual Studio"
+  - "remove"
+  - "remove Visual Studio"
   - "cleanup"
   - "cleanup Visual Studio"
   - "clean up"
@@ -22,7 +24,7 @@ ms.author: "heaths"
 manager: "erickn"
 ---
 
-# Clean up Visual Studio
+# Remove Visual Studio
 
 If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information. This is to be done as a last resort if repair or uninstall fail, and may uninstall features from other Visual Studio installations or other products which will need to be repaired.
 
