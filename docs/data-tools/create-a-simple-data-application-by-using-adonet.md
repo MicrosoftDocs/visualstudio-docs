@@ -62,25 +62,25 @@ This topic assumes that you're familiar with the basic functionality of the Visu
 ##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
 Create the sample database by following these steps:  
 
-    1. In Visual Studio, open the **Server Explorer** window.  
+1. In Visual Studio, open the **Server Explorer** window.  
 
-    2. Right-click on **Data Connections** and choose **Create New SQL Server Database...".  
+2. Right-click on **Data Connections** and choose **Create New SQL Server Database...".  
 
-    3. In the **Server name** text box, enter **(localdb)\mssqllocaldb**.  
+3. In the **Server name** text box, enter **(localdb)\mssqllocaldb**.  
 
-    4. In the **New database name** text box, enter **Sales**, then choose **OK**.  
+4. In the **New database name** text box, enter **Sales**, then choose **OK**.  
 
-      The empty **Sales** database is created and added to the Data Connections node in Server Explorer.  
+     The empty **Sales** database is created and added to the Data Connections node in Server Explorer.  
 
-    5. Right-click on the **Sales** data connection and select **New Query**.  
+5. Right-click on the **Sales** data connection and select **New Query**.  
 
-       A query editor window opens.  
+     A query editor window opens.  
 
-    6. Copy the [Sales Transact-SQL script](../data-tools/samples/sales.sql) to your clipboard. This T-SQL script creates the schema for the sample database, including the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The script also creates some constraints, and four simple stored procedures.   
+6. Copy the [Sales Transact-SQL script](../data-tools/samples/sales.sql) to your clipboard. This T-SQL script creates the schema for the sample database, including the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The script also creates some constraints, and four simple stored procedures.   
 
-    7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
-       After a short time, the query finishes executing and the database objects are created.  
+     After a short time, the query finishes executing and the database objects are created.  
   
 ##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   
