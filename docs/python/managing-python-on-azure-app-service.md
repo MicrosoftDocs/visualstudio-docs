@@ -104,7 +104,9 @@ FastCGI is an interface that works at the request level. IIS receives incoming c
   </appSettings>
   <system.webServer>
     <handlers>
-      <add name="PythonHandler" path="*" verb="*" modules="FastCgiModule" scriptProcessor="D:\home\Python361x64\python.exe|D:\home\Python361x64\wfastcgi.py" resourceType="Unspecified" requireAccess="Script"/>
+      <add name="PythonHandler" path="*" verb="*" modules="FastCgiModule"
+           scriptProcessor="D:\home\Python361x64\python.exe|D:\home\Python361x64\wfastcgi.py"
+           resourceType="Unspecified" requireAccess="Script"/>
     </handlers>
   </system.webServer>
 </configuration>
@@ -162,11 +164,9 @@ When using this method, we recommend avoiding virtual environments because they 
 
 The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
 
-1. Open Kudu from your App Service page on the Azure portal by selecting **Development Tools > Advanced Tools**, then selecting **Go**. This action navigates to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/`:
+1. Open Kudu from your App Service page on the Azure portal by selecting **Development Tools > Advanced Tools**, then selecting **Go**. This action navigates to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/` (which you can bookmark):
 
-    ![The Kudu console for Azure App Service](media/python-on-azure-console01.png)
-
-    You can bookmark this URL for future use, of course.
+    ![The Kudu console for Azure App Service](media/python-on-azure-console01.png)    
 
 2. Select **Debug console > CMD** to open the console, in which you can navigate into your Python installation and see what libraries are already there.
 
@@ -185,7 +185,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
     
 > [!Note]
-> There's no C compiler on your web server, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
+> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
 
 ### Kudu REST API
 
