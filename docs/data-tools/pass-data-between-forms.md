@@ -44,7 +44,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+-   Creating a new **Windows Forms Application** project.  
   
 -   Creating and configuring a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
@@ -75,15 +75,17 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes executing and the Northwind database is created.  
   
-## Create the Windows Application  
+## Create the Windows Forms Application  
   
 #### To create the new Windows project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project `PassingDataBetweenForms`.  
-  
-3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **PassingDataBetweenForms**, and then choose **OK**. 
   
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   

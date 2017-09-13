@@ -40,7 +40,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Create and configure a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
@@ -67,16 +67,18 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes executing and the Northwind database is created.  
   
-## Create a Windows application  
- The first step is to create a **Windows Application**.  
+## Create a Windows Forms application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **TableAdapterDbDirectMethodsWalkthrough**.  
-  
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **TableAdapterDbDirectMethodsWalkthrough**, and then choose **OK**. 
   
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   

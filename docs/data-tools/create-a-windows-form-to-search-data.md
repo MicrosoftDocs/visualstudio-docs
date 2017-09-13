@@ -73,16 +73,18 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes executing and the Northwind database is created.  
   
-## Create the Windows Application  
- The first step is to create a **Windows Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save it later.  
+## Create the Windows Forms Application  
+ The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save the project later.  
   
-#### To create the new Windows Application project  
+#### To create the new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project `WindowsSearchForm`.  
-  
-3.  Select **Windows Application** and click **OK**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **WindowsSearchForm**, and then choose **OK**. 
   
      The **WindowsSearchForm** project is created and added to **Solution Explorer**.  
   

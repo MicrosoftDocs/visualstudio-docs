@@ -39,7 +39,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Forms App** project.  
+-   Creating a new **Windows Forms Application** project.  
   
 -   Adding an empty **DataSet** item to the project.  
   

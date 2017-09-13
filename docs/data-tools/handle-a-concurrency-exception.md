@@ -42,7 +42,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
  This walkthrough takes you through the following process:  
   
-1.  Create a new **Windows Application** project.  
+1.  Create a new **Windows Forms Application** project.  
   
 2.  Create a new dataset based on the Northwind `Customers` table.  
   
@@ -77,19 +77,19 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Create a new project  
- You begin your walkthrough by creating a new Windows application.  
+ You begin your walkthrough by creating a new Windows Forms application.  
   
-#### To create a new Windows application project  
+#### To create a new Windows Forms application project  
   
-1.  On the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  In the **Project Types** pane, select a programming language.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **ConcurrencyWalkthrough**, and then choose **OK**. 
   
-3.  In the **Templates** pane, select **Windows Application**.  
-  
-4.  Name the project `ConcurrencyWalkthrough`, and then select **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays a new form in the designer.  
+     The **ConcurrencyWalkthrough** project is created and added to **Solution Explorer**, and a new form opens in the designer.  
   
 ## Create the Northwind dataset  
  In this section, you create a dataset named `NorthwindDataSet`.  
