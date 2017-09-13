@@ -59,7 +59,7 @@ A common application scenario is to display selected data on a form. For example
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 
@@ -67,7 +67,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.  
 
-    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSumpecuYdo6-SBYQyn1O0ZHI88uEks5ZwBYdwA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
@@ -87,7 +87,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **WindowsSearchForm** project is created and added to **Solution Explorer**.  
   
 ## Create the data source  
- This step creates a data source from a database using the **Data Source Configuration** wizard. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step creates a data source from a database using the **Data Source Configuration** wizard.  
   
 #### To create the data source  
   

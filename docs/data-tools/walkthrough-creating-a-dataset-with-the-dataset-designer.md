@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "09/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -54,7 +54,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 
@@ -62,7 +62,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.  
 
-    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSumpecuYdo6-SBYQyn1O0ZHI88uEks5ZwBYdwA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
