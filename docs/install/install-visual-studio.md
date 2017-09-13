@@ -120,11 +120,11 @@ After Visual Studio installation is complete, click the **Launch** button to [Ge
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
 
-## See also  
-* [Modify Visual Studio 2017](modify-visual-studio.md)
+## See also
 * [Update Visual Studio 2017](update-visual-studio.md)
+* [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
+* [Administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
