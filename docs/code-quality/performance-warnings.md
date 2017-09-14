@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "managed code analysis warnings, performance warnings"
 ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

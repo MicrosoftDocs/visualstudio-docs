@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an N-Tier Data Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -62,9 +62,21 @@ translation.priority.ht:
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](http://go.microsoft.com/fwlink/?LinkId=115188).  
   
 ## Prerequisites  
- To complete this walkthrough, you need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
+  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSumpecuYdo6-SBYQyn1O0ZHI88uEks5ZwBYdwA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating the N-Tier Solution and Class Library to Hold the Dataset (DataEntityTier)  
  The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The datasetis used to create the initial dataset and automatically separate the code into the two class libraries.  
@@ -73,34 +85,29 @@ translation.priority.ht:
 >  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
   
 #### To create the n-tier solution and DataEntityTier class library  
+
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-1.  From the **File** menu, create a new project.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Class Library** project type.  
   
-    > [!NOTE]
-    >  The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Create the new project in one of these languages.  
+4. Name the project **DataEntityTier**.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **Windows**.  
-  
-3.  Click the **Class Library** template.  
-  
-4.  Name the project **DataEntityTier**.  
-  
-5.  Name the solution **NTierWalkthrough**.  
-  
-6.  Click **OK**.  
+5. Name the solution **NTierWalkthrough**, and then choose **OK**.  
   
      An NTierWalkthrough solution that contains the DataEntityTier project is created and added to **Solution Explorer**.  
   
 ## Creating the Class Library to Hold the TableAdapters (DataAccessTier)  
  The next step after you create the DataEntityTier project is to create another class library project. This project will hold the generated `TableAdapter`s and is called the *data access tier* of the application. The data access tier contains the information that is required to connect to the database and is typically located in the middle tier.  
   
-#### To create the new class library for the TableAdapters  
+#### To create a separate class library for the TableAdapters  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1.  Right-click on the solution in Solution Explorer and choose **Add**, **New Project...**.  
   
-2.  In the **New Project** dialog box, in the **Templates** pane, click **Class Library**.  
+2.  In the **New Project** dialog box, in the middle pane, select **Class Library**.  
   
-3.  Name the project **DataAccessTier** and click **OK**.  
+3.  Name the project **DataAccessTier** and choose **OK**.  
   
      The DataAccessTier project is created and added to the NTierWalkthrough solution.  
   
@@ -112,32 +119,32 @@ translation.priority.ht:
   
 #### To create the dataset  
   
-1.  Click DataAccessTier in **Solution Explorer**.  
+1.  Select DataAccessTier in **Solution Explorer**.  
   
-2.  On the **Data** menu, click **Show Data Sources**.  
+2.  On the **Data** menu, select **Show Data Sources**.  
   
-3.  In the **Data Sources** window, click **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+3.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-4.  On the **Choose a Data Source Type** page, click **Database** and then click **Next**.  
+4.  On the **Choose a Data Source Type** page, select **Database** and then select **Next**.  
   
 5.  On the **Choose Your Data Connection** page, perform one of the following actions:  
   
-     If a data connection to the Northwind sample database is available in the drop-down list, click it.  
+     If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
      -or-  
   
-     Click **New Connection** to open the **Add Connection** dialog box.  
+     Select **New Connection** to open the **Add Connection** dialog box.  
   
-6.  If the database requires a password, select the option to include sensitive data, and then click **Next**.  
+6.  If the database requires a password, select the option to include sensitive data, and then choose **Next**.  
   
     > [!NOTE]
-    >  If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Click **Yes** to add the database file to the project.  
+    >  If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Choose **Yes** to add the database file to the project.  
   
-7.  Click **Next** on the **Save the Connection String to the Application Configuration File** page.  
+7.  Select **Next** on the **Save the Connection String to the Application Configuration File** page.  
   
 8.  Expand the **Tables** node on the **Choose Your Database Objects** page.  
   
-9. Click the check boxes for the **Customers** and **Orders** tables, and then click **Finish**.  
+9.  Select the check boxes for the **Customers** and **Orders** tables, and then choose **Finish**.  
   
      NorthwindDataSet is added to the DataAccessTier project and appears in the **Data Sources** window.  
   
@@ -148,13 +155,13 @@ translation.priority.ht:
   
 1.  Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.  
   
-2.  Click an empty area on the designer.  
+2.  Select an empty area on the designer.  
   
 3.  Locate the **DataSet Project** node in the **Properties** window.  
   
-4.  In the **DataSet Project** list, click **DataEntityTier**.  
+4.  In the **DataSet Project** list, select **DataEntityTier**.  
   
-5.  On the **Build** menu, click **Build Solution**.  
+5.  On the **Build** menu, select **Build Solution**.  
   
  The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (DataAccessTier) now contains only the TableAdapters. The project designated in the **DataSet Project** property (DataEntityTier) contains the typed dataset: NorthwindDataSet.Dataset.Designer.vb (or NorthwindDataSet.Dataset.Designer.cs).  
   
@@ -162,15 +169,15 @@ translation.priority.ht:
 >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.  
   
 ## Creating a New Service Application  
- Because this walkthrough demonstrates how to access the data access tier by using a WCF service, create a new WCF service application.  
+This walkthrough demonstrates how to access the data access tier by using a WCF service, so let's create a new WCF service application.  
   
 #### To create a new WCF Service application  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1.  Right-click on the solution in Solution Explorer and choose **Add**, **New Project...**.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **WCF**. In the **Templates** pane, click **WCF Service Library**.  
+2.  In the **New Project** dialog box, in the left-hand pane, select **WCF**.  In the middle pane, select **WCF Service Library**.  
   
-3.  Name the project **DataService** and click **OK**.  
+3.  Name the project **DataService** and select **OK**.  
   
      The DataService project is created and added to the NTierWalkthrough solution.  
   
@@ -290,16 +297,16 @@ translation.priority.ht:
   
 #### To create the presentation tier project  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1.  Right-click on the solution in Solution Explorer and choose **Add**, **New Project...**.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **Windows**. In the **Templates** pane, click **Windows Forms Application**.  
+2.  In the **New Project** dialog box, in the left-hand pane, select **Windows Classic Desktop**. In the middle pane, select **Windows Forms App**.  
   
 3.  Name the project **PresentationTier** and click **OK**.  
   
-4.  The PresentationTier project is created and added to the NTierWalkthrough solution.  
+    The PresentationTier project is created and added to the NTierWalkthrough solution.  
   
 ## Setting the PresentationTier Project as the Startup Project  
- Because the presentation tier is the actual client application that is used to present and interact with the data, you must set the PresentationTier project to be the Startup project.  
+We'll set the PresentationTier project to be the Startup project for the solution, because it's the actual client application that is used to present and interact with the data.  
   
 #### To set the new presentation tier project as the Startup project  
   
@@ -310,19 +317,19 @@ translation.priority.ht:
   
 #### To add a reference to the presentation tier  
   
-1.  In **Solution Explorer**, right-click PresentationTier and click **Add Reference**.  
+1.  In **Solution Explorer**, right-click PresentationTier and select **Add Reference**.  
   
-2.  In the **Add Reference** dialog box, click the **Projects** tab.  
+2.  In the **Add Reference** dialog box, select the **Projects** tab.  
   
-3.  Select **DataEntityTier** and click **OK**.  
+3.  Select **DataEntityTier** and choose **OK**.  
   
 #### To add a service reference to the presentation tier  
   
-1.  In **Solution Explorer**, right-click PresentationTier and click **Add Service Reference**.  
+1.  In **Solution Explorer**, right-click PresentationTier and select **Add Service Reference**.  
   
-2.  In the **Add Service Reference** dialog box, click **Discover**.  
+2.  In the **Add Service Reference** dialog box, select **Discover**.  
   
-3.  Select **Service1** and click **OK**.  
+3.  Select **Service1** and choose **OK**.  
   
     > [!NOTE]
     >  If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the GetCustomers and GetOrders methods).  
@@ -360,7 +367,7 @@ translation.priority.ht:
     ```  
   
 ## Increasing the Maximum Message Size Allowed by the Service  
- Because the service returns data from the Customers and Orders tables, the default value for maxReceivedMessageSize is not large enough to hold the data and must be increased. For this walkthrough, you will change the value to 6553600. You will change the value on the client, and this will automatically update the service reference.  
+The default value for maxReceivedMessageSize is not large enough to hold the data retrieved from the Customers and Orders tables. In the following steps, you'll increase the value to 6553600. You will change the value on the client, which automatically updates the service reference.  
   
 > [!NOTE]
 >  The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>.  
@@ -372,13 +379,7 @@ translation.priority.ht:
 2.  Locate the **maxReceivedMessage** size attribute and change the value to `6553600`.  
   
 ## Testing the Application  
- Run the application. The data is retrieved from the data service and displayed on the form.  
-  
-#### To test the application  
-  
-1.  Press F5.  
-  
-2.  The data from the Customers and Orders tables is retrieved from the data service and displayed on the form.  
+Run the application by pressing F5. The data from the Customers and Orders tables is retrieved from the data service and displayed on the form.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
