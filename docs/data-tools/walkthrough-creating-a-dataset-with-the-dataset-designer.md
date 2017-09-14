@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/02/2016"
+ms.date: "09/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -52,9 +52,21 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
-In order to complete this walkthrough, you need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database (SQL Server or Access version). For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSumpecuYdo6-SBYQyn1O0ZHI88uEks5ZwBYdwA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating a New Windows Forms Application Project  
   
@@ -66,23 +78,23 @@ In order to complete this walkthrough, you need:
 
 3. In the middle pane, select the **Windows Forms App** project type.  
 
-4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**. 
+4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**.  
   
-     The **DatasetDesignerWalkthrough** project is created, and added to **Solution Explorer**.  
+     Visual Studio adds the project to **Solution Explorer** and display a new form in the designer.  
   
 ## Adding a New Dataset to the Application  
   
 #### To add a new dataset item to the project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1.  On the **Project** menu, select **Add New Item...**.  
   
      The **Add New Item** dialog box appears.  
   
-2.  In the **Templates** box of the **Add New Item** dialog box, click **DataSet**.  
+2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.  
   
-3.  Name the Dataset `NorthwindDataset`, and then click **Add**.  
+3.  Name the Dataset **NorthwindDataset**, and then choose **Add**.  
   
-     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will add a file called **NorthwindDataset.xsd** to the project and open it in the **Dataset Designer**.  
+     Visual Studio adds a file called **NorthwindDataset.xsd** to the project and opens it in the **Dataset Designer**.  
   
 ## Creating a Data Connection in Server Explorer  
   
@@ -93,9 +105,6 @@ In order to complete this walkthrough, you need:
 2.  In **Server Explorer**, click the **Connect to Database** button.  
   
 3.  Create a connection to the Northwind sample database.  
-  
-    > [!NOTE]
-    >  You can connect to the SQL Server or Access version of Northwind for this walkthrough.  
   
 ## Creating the Tables in the Dataset  
 This section explains how to add tables to the dataset.  
