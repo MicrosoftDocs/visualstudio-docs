@@ -1269,7 +1269,7 @@ Identify _what_ symbols _with which_ modifiers and _at what_ accessibility level
 
 
 ### Style Specification
-Identify the naming style to apply to the symbols.
+Identify the naming style to apply to the symbols. You must specify a **capitalization** option as part of a naming style. 
 
 |  Option Name | `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>` |
 | ------------- |:-------------:|
