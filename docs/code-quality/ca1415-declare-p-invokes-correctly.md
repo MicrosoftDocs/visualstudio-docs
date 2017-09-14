@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DeclarePInvokesCorrectly"
 ms.assetid: 42a90796-0264-4460-bf97-2fb4a093dfdc
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows platform invoke methods that violate the rule and satisfy the rule.  
   
- [!code-cs[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]  
+ [!code-csharp[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]  
   
 ## See Also  
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

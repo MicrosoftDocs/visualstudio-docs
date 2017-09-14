@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "ImplementStandardExceptionConstructors"
 ms.assetid: a8623c56-273a-4c95-8d83-95911a042be7
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -68,4 +68,4 @@ translation.priority.mt:
 ## Example  
  The following example contains an exception type that violates this rule and an exception type that is correctly implemented.  
   
- [!code-cs[FxCop.Design.ExceptionMultipleCtors#1](../code-quality/codesnippet/CSharp/ca1032-implement-standard-exception-constructors_1.cs)]
+ [!code-csharp[FxCop.Design.ExceptionMultipleCtors#1](../code-quality/codesnippet/CSharp/ca1032-implement-standard-exception-constructors_1.cs)]

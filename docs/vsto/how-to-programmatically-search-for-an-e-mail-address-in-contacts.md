@@ -28,7 +28,7 @@ manager: "ghogen"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ## Example  
- [!code-cs[Trin_OL_SearchEmail#1](../vsto/codesnippet/CSharp/Trin_OL_SearchEmail/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_SearchEmail#1](../vsto/codesnippet/CSharp/Trin_OL_SearchEmail/thisaddin.cs#1)]  
   
 ## Compiling the Code  
  This example requires:  
@@ -37,7 +37,7 @@ manager: "ghogen"
   
 ## See Also  
  [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [How to: Programmatically Send E-Mail Programmatically](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
+ [How to: Programmatically Send E-Mail](../vsto/how-to-programmatically-send-e-mail-programmatically.md)   
  [How to: Programmatically Access Outlook Contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)   
  [How to: Programmatically Add an Entry to Outlook Contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)  
   

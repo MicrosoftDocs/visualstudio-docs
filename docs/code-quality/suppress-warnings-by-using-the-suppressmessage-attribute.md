@@ -20,9 +20,9 @@ helpviewer_keywords:
   - "code analysis, SuppressMessage attribute"
 ms.assetid: a38c57a2-d29d-43c0-84ff-3308b2484ce6
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

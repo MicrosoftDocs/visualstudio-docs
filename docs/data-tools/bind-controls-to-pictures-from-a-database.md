@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "images [Visual Basic], displaying on Windows Forms"
   - "data binding [Windows Forms], pictures"
@@ -22,8 +17,8 @@ helpviewer_keywords:
   - "images [Visual Basic], dragging from Data Sources window"
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 caps.latest.revision: 15
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

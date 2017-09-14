@@ -428,6 +428,25 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=856606">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1 cardScaleImage">
+                                                        <img data-scaleimage="./images/vs_tools-3.svg" src="./images/vs_web-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>.NET Core cross-platform development</h3>
+                                                    <p>Build cross-platform applications using .NET Core, ASP.NET Core, HTML, JavaScript, and container development tools.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -439,7 +458,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                         <a href="#features1"> </a>
                         <ul id="features1" class="cardsC">
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/visualstudio/ide/index-writing-code">
+                                <a href="https://go.microsoft.com/fwlink/?linkid=856608">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -592,7 +611,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
+                                <a href="https://go.microsoft.com/fwlink/?linkid=856607">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "code analysis, running"
 ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -52,7 +52,7 @@ manager: "ghogen"
   
      After you uncomment the code, it should resemble the following example. In this example, the Ribbon class is called `MyRibbon`.  
   
-     [!code-cs[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
+     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]  
   
 6.  Switch to the Ribbon XML code file and find the `Ribbon Callbacks` region.  

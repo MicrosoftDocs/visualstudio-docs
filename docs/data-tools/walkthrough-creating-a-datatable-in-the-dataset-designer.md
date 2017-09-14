@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "DataTable objects, creating"
   - "Dataset Designer, creating data tables"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
 ms.assetid: abf0a2b5-e4e5-422e-97ef-55a0e35a82df
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 
@@ -42,7 +37,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new Windows Application project  
+-   Creating a new Windows Forms Application project  
   
 -   Adding a new dataset to the application  
   
@@ -52,19 +47,19 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 -   Setting the primary key for the table  
   
-## Creating a New Windows Application  
+## Creating a New Windows Forms Application  
   
-#### To create a new Windows Application project  
+#### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DataTableWalkthrough**, and then choose **OK**. 
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DataTableWalkthrough`, and then click **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays **Form1** in the designer.  
+     The **DataTableWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   
@@ -87,7 +82,6 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 1.  Drag a **DataTable** from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
      A table named **DataTable1** is added to the dataset.  
-  
    
 2.  Click the title bar of **DataTable1** and rename it `Music`.  
   
@@ -110,7 +104,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
      `Genre`: <xref:System.String?displayProperty=fullName>  
   
 ## Setting the Primary Key for the Table  
- All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.  
+All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.  
   
 #### To set the primary key of the data table  
   
