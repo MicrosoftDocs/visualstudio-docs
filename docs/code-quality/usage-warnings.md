@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "usage warnings"
 ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
