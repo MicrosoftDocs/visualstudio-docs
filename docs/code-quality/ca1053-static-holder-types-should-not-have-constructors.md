@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "StaticHolderTypesShouldNotHaveConstructors"
 ms.assetid: 10302b9a-fa5e-4935-a06a-513d9600f613
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

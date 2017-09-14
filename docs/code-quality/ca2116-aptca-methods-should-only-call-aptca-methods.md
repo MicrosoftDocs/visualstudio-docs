@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2116"
 ms.assetid: 8b91637e-891f-4dde-857b-bf8012270ec4
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

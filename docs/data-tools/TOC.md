@@ -1,6 +1,5 @@
 # [Accessing data in Visual Studio](accessing-data-in-visual-studio.md)
 # [Installing database systems, tools, and samples](installing-database-systems-tools-and-samples.md)
-## [Install SQL Server sample databases](install-sql-server-sample-databases.md)
 ## [Upgrade .mdf files](upgrade-dot-mdf-files.md)
 # [Visual Studio data tools for .NET](visual-studio-data-tools-for-dotnet.md)
 ## [Create a simple data application by using ADO.NET](create-a-simple-data-application-by-using-adonet.md)

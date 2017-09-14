@@ -25,7 +25,7 @@ When you try to install or update Visual Studio 2017, the operation fails.
 To work around this issue, follow these steps.
 
 ### Step 1 - Check whether this problem is a known issue
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-knownissues) to see if there's a workaround for your problem.
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-knownissues).
 
 ### Step 2 - Check with the developer community
 Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community may have documented a solution to your problem.
@@ -50,10 +50,10 @@ In some situations, such as those related to corrupted files, the problems may h
 ![Tab to the Report New Problem button, then follow through the steps](media/problem-report-details.png)
 4. Click **Next** to review your problem report, and then click **Submit**.
 
-### Step 5 - Run InstallCleanup.exe to clean up installation files
-As a last resort, you can [clean up Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
+### Step 5 - Run InstallCleanup.exe to remove installation files
+As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
-1. Follow the instructions in [Clean up Visual Studio](remove-visual-studio.md).
+1. Follow the instructions in [Remove Visual Studio](remove-visual-studio.md).
 2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 

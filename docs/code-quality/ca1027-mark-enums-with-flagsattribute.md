@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "MarkEnumsWithFlags"
 ms.assetid: 249e882c-8cd1-4c00-a2de-7b6bdc1849ff
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

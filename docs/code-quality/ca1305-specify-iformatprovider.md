@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "SpecifyIFormatProvider"
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
