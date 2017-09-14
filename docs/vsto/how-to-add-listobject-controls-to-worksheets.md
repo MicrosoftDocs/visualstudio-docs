@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 ms.assetid: 40788ecb-937f-4d2a-90ba-9c938e495b74
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add ListObject Controls to Worksheets

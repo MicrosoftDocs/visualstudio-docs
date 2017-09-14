@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ListObject control, validating data"
 ms.assetid: 107bce92-e5ef-40be-8c05-cd6861d39d75
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Validate Data When a New Row is Added to a ListObject Control

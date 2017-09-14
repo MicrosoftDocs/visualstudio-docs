@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], printing"
 ms.assetid: 99285d98-1bb7-4ccb-83d9-e917b0a9ea42
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Print Documents

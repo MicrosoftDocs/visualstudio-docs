@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], data"
 ms.assetid: 3b2dd058-66dd-4a21-ac15-0f09a84c939f
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Data in Office Solutions Walkthroughs

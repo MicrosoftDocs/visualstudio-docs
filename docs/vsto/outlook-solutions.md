@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], Outlook solutions"
 ms.assetid: 2ae3cd9c-bf31-4efa-8b18-b6b1c34a8d93
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Outlook Solutions

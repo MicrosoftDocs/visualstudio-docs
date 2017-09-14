@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "XMLNodes control"
 ms.assetid: 25ba7a21-aabb-4cce-b0d7-57b4add3b485
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # XMLNodes Control

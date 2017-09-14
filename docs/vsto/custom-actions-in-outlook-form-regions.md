@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "custom actions [Office development in Visual Studio]"
 ms.assetid: 583fd5f0-aafa-4858-9c54-38a9fdf3bede
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Custom Actions in Outlook Form Regions

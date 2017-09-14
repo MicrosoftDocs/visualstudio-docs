@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio]"
 ms.assetid: 6f34251e-7d31-4f2b-ac17-42fd2837c626
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Caching Data

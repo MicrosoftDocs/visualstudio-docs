@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text searches"
 ms.assetid: a66962f5-eeb9-4dc6-a70f-9039ab437a63
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Search for and Replace Text  in Documents

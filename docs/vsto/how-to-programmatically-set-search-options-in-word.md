@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "searching, Word options"
 ms.assetid: 4412b4e8-2868-4afb-a593-983603ef9b02
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Set Search Options in Word

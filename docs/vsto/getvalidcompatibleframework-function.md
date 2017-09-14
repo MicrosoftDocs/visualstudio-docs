@@ -14,8 +14,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: dfb365c0-5ffc-4290-ab8b-bd347e0f0db9
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # GetValidCompatibleFramework Function

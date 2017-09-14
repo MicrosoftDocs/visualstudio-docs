@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Office object models"
 ms.assetid: 59704974-b7d9-46d6-949c-e97349c75279
 caps.latest.revision: 59
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Outlook Object Model Overview

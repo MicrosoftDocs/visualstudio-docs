@@ -16,8 +16,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 92d55e68-8f3f-4bf7-a21b-801c298b04c4
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint

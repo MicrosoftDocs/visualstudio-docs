@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], creating"
 ms.assetid: f8fe3f2b-36ba-4f71-abdb-d30ce7fecb30
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create an E-Mail Item

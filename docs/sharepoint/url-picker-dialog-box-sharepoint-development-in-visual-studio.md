@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, designer"
 ms.assetid: 33f8f521-e1f8-4242-a580-8a4bd9cb5ddc
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # URL Picker Dialog Box (SharePoint development in Visual Studio)

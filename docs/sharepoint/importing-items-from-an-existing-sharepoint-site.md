@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 ms.assetid: b1012eb8-5927-4522-9475-72f0ba55fcca
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Importing Items from an Existing SharePoint Site

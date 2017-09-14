@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "worksheets, protecting"
 ms.assetid: 50bde1ff-918a-42ca-ba1b-f22139f8717a
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Protect Worksheets

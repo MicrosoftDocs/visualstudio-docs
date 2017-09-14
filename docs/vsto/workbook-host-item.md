@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "events [Office development in Visual Studio]"
 ms.assetid: 54489d91-a799-4dc2-89b8-498cf17c2f57
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Workbook Host Item

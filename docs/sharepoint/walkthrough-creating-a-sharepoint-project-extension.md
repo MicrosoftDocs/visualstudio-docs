@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 ms.assetid: 5547e2ed-47a3-48f1-9619-42149c03df76
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a SharePoint Project Extension
