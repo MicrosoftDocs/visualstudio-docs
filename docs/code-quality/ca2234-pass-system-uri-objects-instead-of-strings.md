@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "PassSystemUriObjectsInsteadOfStrings"
 ms.assetid: 14616b37-74c4-4286-b051-115d00aceb5f
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -12,9 +12,9 @@ f1_keywords:
   - "CA2134"
 ms.assetid: 3b17e487-0326-442e-90e1-dc0ba9cdd3f2
 caps.latest.revision: 9
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

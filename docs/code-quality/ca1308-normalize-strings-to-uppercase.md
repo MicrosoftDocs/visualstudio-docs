@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1308"
 ms.assetid: 7e9a7457-3f93-4938-ac6f-1389fba8d9cc
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

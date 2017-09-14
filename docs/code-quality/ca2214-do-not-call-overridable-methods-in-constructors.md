@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DoNotCallOverridableMethodsInConstructors"
 ms.assetid: 335b57ca-a6e8-41b4-a20e-57ee172c97c3
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

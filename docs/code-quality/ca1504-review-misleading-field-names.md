@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "ReviewMisleadingFieldNames"
 ms.assetid: 94136ff1-4aaf-4dc2-9170-48c171ab7499
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

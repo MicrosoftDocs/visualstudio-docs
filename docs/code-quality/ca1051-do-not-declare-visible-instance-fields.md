@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DoNotDeclareVisibleInstanceFields"
 ms.assetid: 2805376c-824c-462c-81d1-c51aaf7cabe7
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

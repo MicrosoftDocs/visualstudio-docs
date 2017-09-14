@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DoNotDeclareReadOnlyMutableReferenceTypes"
 ms.assetid: 81b83ee5-4db5-4be0-9f8d-90b53894ec3b
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

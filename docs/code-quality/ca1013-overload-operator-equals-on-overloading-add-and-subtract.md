@@ -20,9 +20,9 @@ helpviewer_keywords:
   - "OverloadOperatorEqualsOnOverloadingAddAndSubtract"
 ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

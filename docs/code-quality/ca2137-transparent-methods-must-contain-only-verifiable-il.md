@@ -12,9 +12,9 @@ f1_keywords:
   - "CA2137"
 ms.assetid: cbaeb0e1-56b6-43b4-812a-596b2859c329
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

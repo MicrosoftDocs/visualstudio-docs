@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "UsePropertiesWhereAppropriate"
 ms.assetid: 3a04f765-af7c-4872-87ad-9cc29e8e657f
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
