@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1038"
 ms.assetid: 8919f526-d487-42a4-87dc-2b2ee25260c4
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

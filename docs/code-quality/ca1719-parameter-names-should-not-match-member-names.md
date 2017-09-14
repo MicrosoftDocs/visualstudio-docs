@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "ParameterNamesShouldNotMatchMemberNames"
 ms.assetid: c6fea690-1659-4ee7-a1c5-125ad6754525
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

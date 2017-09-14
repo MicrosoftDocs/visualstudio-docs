@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2123"
 ms.assetid: 4538ecd5-fc6f-4480-ab00-90b2ce4730db
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

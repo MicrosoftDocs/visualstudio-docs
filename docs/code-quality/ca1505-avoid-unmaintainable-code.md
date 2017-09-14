@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1505"
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

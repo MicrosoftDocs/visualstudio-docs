@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "managed code analysis warnings, globalization warnings"
 ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "TypesThatOwnDisposableFieldsShouldBeDisposable"
 ms.assetid: c85c126c-2b16-4505-940a-b5ddf873fb22
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

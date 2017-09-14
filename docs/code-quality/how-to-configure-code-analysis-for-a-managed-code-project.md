@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 618f6ff3-db0e-46cb-b08d-dfa35e62c9e7
 caps.latest.revision: 33
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

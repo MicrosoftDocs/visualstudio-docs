@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.codeanalysis.selecttfsruleset"
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

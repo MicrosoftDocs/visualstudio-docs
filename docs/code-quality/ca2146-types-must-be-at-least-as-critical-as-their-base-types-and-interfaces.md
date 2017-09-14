@@ -12,9 +12,9 @@ f1_keywords:
   - "CA2146"
 ms.assetid: 241fb784-1f6b-46e5-8ceb-c438e341d38e
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

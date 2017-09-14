@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1809"
 ms.assetid: 5c81ea43-cb49-448f-980f-a1dd9764043c
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
