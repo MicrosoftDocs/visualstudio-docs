@@ -13,6 +13,6 @@
 # [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 # [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 # [Port, Migrate, and Upgrade Your Code](porting/TOC.md)
-# [Extensibility](extensibility/)
+# [Extensibility](extensibility/index.md)
 # [Talk to Us](ide/talk-to-us.md)
 ## [How to Report a Problem with Visual Studio 2017](ide/how-to-report-a-problem-with-visual-studio-2017.md)
