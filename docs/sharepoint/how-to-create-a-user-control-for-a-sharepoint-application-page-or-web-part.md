@@ -49,7 +49,7 @@ manager: "ghogen"
   
      Visual Studio adds several folders and files to your project. For more information about these files, see [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).  
   
-     By default, the user control file appears in the **Source** view of the Visual Web Developer designer. In this view, you can edit the XML markup of the control. You can switch to **Design** view if you want to design the control visually by dragging controls from the **Toolbox**. See [NIB: Design View, Web Page Designer](http://msdn.microsoft.com/en-us/d8f2270a-357d-40a4-9b39-1a3f2366216d).  
+     By default, the user control file appears in the **Source** view of the Visual Web Developer designer. In this view, you can edit the XML markup of the control. You can switch to **Design** view if you want to design the control visually by dragging controls from the **Toolbox**. See [Design View, Web Page Designer](http://msdn.microsoft.com/en-us/d8f2270a-357d-40a4-9b39-1a3f2366216d).  
   
 7.  If you want to handle events that occur in the control, add code to the code file of the user control.  
   

@@ -1,4 +1,4 @@
---
+---
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
@@ -25,18 +25,18 @@ ms.author: "kempb"
 manager: "ghogen"
 ---
 # Troubleshooting SharePoint Solutions
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [NIB: Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).
+  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).
   
 ## Token Restrictions in Sandboxed Visual Web Parts  
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:  
   
-```  
+```xml  
 <script src="<% $SPUrl:~site/SiteAssets/ListOperations.js %>"></script>  
 ```  
   
  To work around this limitation and resolve the token, refer to it by using literals:  
   
-```  
+```xml  
 <asp:literal ID="Literal1" runat="server" Text="<script src='" />  
 <asp:literal ID="Literal2" runat="server" Text="<% $SPUrl:~site/SiteAssets/ListOperations.js %>" />  
 <asp:literal ID="Literal3" runat="server" Text="' type='text/javascript' ></script>" />  
@@ -76,7 +76,7 @@ manager: "ghogen"
 ### Resolution  
  The ID for a field definition must be a GUID surrounded by braces, as the following example shows:  
   
-```  
+```xml  
 <Field ID="{5744d18c-305e-4632-8bd1-09d134f4830d}"   
     Type="Note"   
     Name="PatientName"   
@@ -87,7 +87,7 @@ manager: "ghogen"
   
  As the following example shows, a field reference in a content type must be defined by using the empty element format (\<FieldRef />), not by using start/end elements (\<FieldRef>\</FieldRef>):  
   
-```  
+```xml  
 <FieldRef ID="{5744d18c-305e-4632-8bd1-09d134f4830d}"   
     Name="PatientName"   
     DisplayName="Patient Name"   
