@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], Visio"
 ms.assetid: c52948c6-6891-43ec-93ff-c54c74ec6016
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Visio Solutions

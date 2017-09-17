@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "ranges, defining in documents"
 ms.assetid: 0727c1cb-d44c-4f1c-a699-4365dd13be5d
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Define and Select Ranges in Documents

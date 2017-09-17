@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "IManagedAddin interface"
 ms.assetid: 5350629c-6cf8-42dd-ae65-3f34322ee10f
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # IManagedAddin Interface

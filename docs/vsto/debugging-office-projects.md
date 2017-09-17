@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], projects"
 ms.assetid: e360b9e9-9f36-48f0-a0c5-a6980fb47a87
 caps.latest.revision: 52
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Debugging Office Projects

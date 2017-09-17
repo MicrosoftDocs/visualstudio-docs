@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "casting, object to specific type"
 ms.assetid: 80b0d23e-df68-4ea9-a02b-238aee8ca9c0
 caps.latest.revision: 49
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Late Binding in Office Solutions

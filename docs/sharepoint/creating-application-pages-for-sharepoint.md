@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], creating"
 ms.assetid: a6e97149-15dd-4bdb-8d75-3b53f886f76c
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Application Pages for SharePoint

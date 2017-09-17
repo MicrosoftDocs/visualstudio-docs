@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 ms.assetid: f02568e7-5caa-45b4-aa2a-4f73b0565d4e
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Chart Controls to Worksheets

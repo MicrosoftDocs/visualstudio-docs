@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], restricted permissions"
 ms.assetid: 68ddb24e-71c6-46f7-8e11-c9899d7814df
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Content Controls to Word Documents

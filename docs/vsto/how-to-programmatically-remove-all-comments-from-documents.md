@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "comments, removing from documents"
 ms.assetid: 920de39a-3b6d-4682-bca6-f4b4dedda1ac
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Remove All Comments from Documents

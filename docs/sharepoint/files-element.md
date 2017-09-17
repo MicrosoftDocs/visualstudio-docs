@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Files element"
 ms.assetid: 3c611d5b-28f1-48a7-a068-63e01fa2f3aa
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Files Element

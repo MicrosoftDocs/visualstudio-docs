@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], walkthroughs"
 ms.assetid: 0a113292-02e2-4156-b5a2-9bb252f788cd
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthroughs Using Excel

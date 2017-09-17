@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], about custom task panes"
 ms.assetid: 9a415109-5333-433e-95c6-3d59ce9c4d02
 caps.latest.revision: 52
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Custom Task Panes

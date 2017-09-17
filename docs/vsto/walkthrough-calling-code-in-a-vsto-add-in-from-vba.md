@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "calling code from VBA"
 ms.assetid: 9c04d1df-0d93-473c-85fd-02dc2e956c9e
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Calling Code in a VSTO Add-in from VBA

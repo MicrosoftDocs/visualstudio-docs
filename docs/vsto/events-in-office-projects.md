@@ -36,8 +36,8 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 ms.assetid: 666d7f23-ef85-4f2e-9cd3-258df5bdc6fd
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Events in Office Projects

@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, localizing"
 ms.assetid: 0d4cfa2b-8b48-45c7-bbee-ece9b0baffaf
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Localizing SharePoint Solutions

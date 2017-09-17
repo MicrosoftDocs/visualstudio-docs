@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
 ms.assetid: 3ee1c03c-0bc3-49d7-8edf-b14fab9aceb8
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create Appointments

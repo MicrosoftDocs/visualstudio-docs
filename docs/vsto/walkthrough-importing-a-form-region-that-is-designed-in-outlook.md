@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], importing"
 ms.assetid: 86b0ef1a-6d7e-4ea5-b90e-458ffe4e1d10
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Importing a Form Region That Is Designed in Outlook

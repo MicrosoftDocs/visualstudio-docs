@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio]"
 ms.assetid: 4d551be0-2124-4481-b398-481ded9b5d46
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add or Remove SharePoint Connections

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], Outlook"
 ms.assetid: 11d10e72-806d-4d5e-b080-139bd8633eaa
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Customizing a Ribbon for Outlook

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 ms.assetid: d9d1e8db-9df2-4e07-ac8d-59ef05d24090
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add and Remove Additional Assemblies

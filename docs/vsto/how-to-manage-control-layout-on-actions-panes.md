@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], control layout"
 ms.assetid: 857550d0-b9c0-4d2f-a947-dd955bcf2823
 caps.latest.revision: 59
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Manage Control Layout on Actions Panes

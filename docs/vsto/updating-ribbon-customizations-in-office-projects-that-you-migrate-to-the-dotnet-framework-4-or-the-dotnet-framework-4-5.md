@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 ms.assetid: 3b7c8ad4-a616-4b42-9d62-9658fdefe6a3
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Updating Ribbon Customizations in Office Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5

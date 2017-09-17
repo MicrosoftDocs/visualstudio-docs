@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "text files, opening as workbooks"
 ms.assetid: 056ae3d0-7fe7-4c28-a2a5-5a948baee0e6
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Open Text Files as Workbooks

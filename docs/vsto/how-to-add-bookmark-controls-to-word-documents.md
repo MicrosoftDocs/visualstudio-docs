@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to documents"
 ms.assetid: 2940704e-31f5-4486-854e-76298a9e2ee4
 caps.latest.revision: 52
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Bookmark Controls to Word Documents

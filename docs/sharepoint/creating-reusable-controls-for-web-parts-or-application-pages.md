@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, user controls"
 ms.assetid: 8fcafd98-c002-47f1-b4a9-cbb500232616
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Reusable Controls for Web Parts or Application Pages

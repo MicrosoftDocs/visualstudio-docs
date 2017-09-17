@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], tables"
 ms.assetid: d0c0a84c-48d5-4c02-b026-d6924f155e04
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Tables

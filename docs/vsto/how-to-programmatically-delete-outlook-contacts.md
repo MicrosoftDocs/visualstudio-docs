@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], deleting"
 ms.assetid: 3aeb107f-b6d9-4645-b3d2-43c20beee833
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Delete Outlook Contacts

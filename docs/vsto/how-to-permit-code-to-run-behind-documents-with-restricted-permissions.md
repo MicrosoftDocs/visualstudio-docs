@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 ms.assetid: d037eae5-cf83-4be0-85ba-05e9f7d570e1
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Permit Code to Run Behind Documents with Restricted Permissions

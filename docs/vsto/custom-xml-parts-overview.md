@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom XML parts"
 ms.assetid: a14119dc-59e8-4614-94f1-08c92bdf7300
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Custom XML Parts Overview

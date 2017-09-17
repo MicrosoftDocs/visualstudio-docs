@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "keyboard shortcuts, Office development in Visual Studio"
 ms.assetid: d98edaab-846a-4baa-b190-702b1134754c
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box

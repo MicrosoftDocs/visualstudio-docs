@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "features [SharePoint development in Visual Studio]"
 ms.assetid: 2e211fb3-94f4-4921-ba77-2ba6717a3e41
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Features
