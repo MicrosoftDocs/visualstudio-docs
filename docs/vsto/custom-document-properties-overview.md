@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "_AssemblyName property"
 ms.assetid: 9a215904-b760-4a49-93e8-a1a708ce0526
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Custom Document Properties Overview

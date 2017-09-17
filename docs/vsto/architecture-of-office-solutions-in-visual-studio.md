@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], architecture"
 ms.assetid: d4692986-e5ea-4a2d-985a-3b31e41376da
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Architecture of Office Solutions in Visual Studio

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Excel projects [Office development in Visual Studio], getting started"
 ms.assetid: 8b73cf08-a173-4b49-b20f-2d2456dbe925
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Getting Started Programming Document-Level Customizations for Excel

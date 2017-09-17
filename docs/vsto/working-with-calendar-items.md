@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], calendars"
 ms.assetid: 8adf9a13-5bd9-4053-91fe-b8d5f8534e21
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Calendar Items

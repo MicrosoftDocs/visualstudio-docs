@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "menus, creating in Office applications"
 ms.assetid: 86dbf3ff-ba75-42f9-8df6-abfc19b3cf6b
 caps.latest.revision: 57
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Shortcut Menus for Bookmarks

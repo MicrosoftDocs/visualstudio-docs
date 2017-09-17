@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], Windows Forms"
 ms.assetid: a959506b-5038-49c2-831a-d63c6d6b797d
 caps.latest.revision: 76
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Windows Forms Controls on Office Documents Overview

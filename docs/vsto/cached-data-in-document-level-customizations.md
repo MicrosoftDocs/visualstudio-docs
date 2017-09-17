@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], data model"
 ms.assetid: 84808462-2c5d-4dc8-ab69-491d492b4a51
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Cached Data in Document-Level Customizations

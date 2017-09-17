@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "worksheets, adding controls at run time"
 ms.assetid: 4f68677a-4789-4564-b229-02e2d4031a5f
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Adding Controls to a Worksheet at Run Time in VSTO add-in Project

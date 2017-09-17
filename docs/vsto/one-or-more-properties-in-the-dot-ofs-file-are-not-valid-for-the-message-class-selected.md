@@ -16,8 +16,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: ca9e2ec1-df96-45ca-9611-cec47edfe1e4
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # One or more properties in the .ofs file are not valid for the message class selected

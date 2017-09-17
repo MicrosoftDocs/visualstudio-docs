@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "paragraphs, controlling structure"
 ms.assetid: 6d563834-34bd-4462-a556-4339d9277eee
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Exclude Paragraph Marks When Creating Ranges

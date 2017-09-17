@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to documents"
 ms.assetid: 83e6ebac-e468-4bef-a91c-78c7bf597a75
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Populate Documents with Data from Objects

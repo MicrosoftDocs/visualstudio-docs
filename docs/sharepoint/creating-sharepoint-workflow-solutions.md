@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 ms.assetid: fe79b99a-cb7c-4a14-8d9f-bce0c0805ba0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Workflow Solutions

@@ -14,8 +14,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 0bd1c6a6-67a5-4478-b942-8b937b28f723
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # IWefDebuggingSupport Interface

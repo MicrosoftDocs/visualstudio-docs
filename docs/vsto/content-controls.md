@@ -42,8 +42,8 @@ helpviewer_keywords:
   - "BuildingBlockGalleryContentControl class"
 ms.assetid: ed59e522-dd6e-4c82-8d49-f5dbcfcc950d
 caps.latest.revision: 65
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Content Controls

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
 ms.assetid: 5e443950-12e6-40d1-864b-c384b6be4ce4
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Extend a SharePoint Node in Server Explorer

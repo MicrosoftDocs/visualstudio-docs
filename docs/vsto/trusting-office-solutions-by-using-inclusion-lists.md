@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 ms.assetid: 6dae0128-435b-4fa1-aed9-73e728fdcacf
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Trusting Office Solutions by Using Inclusion Lists
