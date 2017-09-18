@@ -15,4 +15,4 @@
   - name: Import repo into VSTS Git repo
     href: /vsts/git/import-git-repository
   - name: Share your code in TFVC
-    href: share-your-code-in-tfvc-vs.md
+    href: /vsts/tfvc/share-your-code-in-tfvc-vs.md
