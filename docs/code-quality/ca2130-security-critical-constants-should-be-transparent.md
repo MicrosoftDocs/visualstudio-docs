@@ -12,9 +12,9 @@ f1_keywords:
   - "CA2130"
 ms.assetid: 344c7f7b-9130-4675-ae7f-9fa260cc9789
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

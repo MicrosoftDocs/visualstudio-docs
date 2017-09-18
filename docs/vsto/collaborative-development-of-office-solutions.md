@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "collaborative development [Office development in Visual Studio]"
 ms.assetid: c493354b-17d3-4e50-85f0-968b104bc978
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Collaborative Development of Office Solutions

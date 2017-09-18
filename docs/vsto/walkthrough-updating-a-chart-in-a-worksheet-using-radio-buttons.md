@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "worksheets, using radio buttons"
 ms.assetid: cacc43a3-6d95-4a47-b943-3457d97a16f8
 caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons

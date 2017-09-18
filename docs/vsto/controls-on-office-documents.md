@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], controls"
 ms.assetid: b057f321-8c60-4c02-b485-e2604a696623
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Controls on Office Documents

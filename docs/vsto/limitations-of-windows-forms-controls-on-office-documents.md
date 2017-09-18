@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
 ms.assetid: 95ff473e-4952-4977-bc88-c77289c9fb0b
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Limitations of Windows Forms Controls on Office Documents

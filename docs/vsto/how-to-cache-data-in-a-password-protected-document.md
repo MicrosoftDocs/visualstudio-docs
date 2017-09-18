@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], caching"
 ms.assetid: 91b865fc-bd01-438f-ac63-2fe3175bc2e8
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Cache Data in a Password-Protected Document

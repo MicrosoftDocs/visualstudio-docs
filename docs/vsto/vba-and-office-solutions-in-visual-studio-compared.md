@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
 ms.assetid: 31756c2f-8829-4011-ad77-134cb3728344
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # VBA and Office Solutions in Visual Studio Compared

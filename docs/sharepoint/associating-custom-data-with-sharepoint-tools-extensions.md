@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 ms.assetid: cfc87272-85a1-4c36-89e4-2662417d59ea
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Associating Custom Data with SharePoint Tools Extensions

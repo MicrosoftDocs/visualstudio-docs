@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 ms.assetid: 5dfc519f-a851-4661-8d2b-47e0d221e10e
 caps.latest.revision: 69
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office Solutions Development Overview (VSTO)

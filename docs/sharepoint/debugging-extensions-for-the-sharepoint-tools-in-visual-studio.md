@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging extensions"
 ms.assetid: 7cee8ce0-d07b-41f6-8ce1-b18e4be3b50c
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Debugging Extensions for the SharePoint Tools in Visual Studio

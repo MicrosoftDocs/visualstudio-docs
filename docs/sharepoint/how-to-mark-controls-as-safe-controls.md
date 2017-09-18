@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 ms.assetid: 813727d5-6750-407c-a23e-c38dd611e78c
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Mark Controls as Safe Controls

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Unprotect method"
 ms.assetid: 034688d2-eda7-4b4a-bcc2-d0999ff879a4
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Remove Protection from Worksheets

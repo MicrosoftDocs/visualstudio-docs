@@ -33,12 +33,12 @@ Ready to install? We'll walk you through it, step-by-step.
 
 Before you begin installing Visual Studio:
 
-1. Check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs). This helps you know whether your computer supports Visual Studio 2017.
-2. Apply the latest Windows updates. This ensures that your computer has both the latest security updates and the required system components for Visual Studio.
-3. Reboot. This ensures that any pending installs or updates don't hinder the Visual Studio install.
+1. Check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs). These requirements help you know whether your computer supports Visual Studio 2017.
+2. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
+3. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 4. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
-For questions about running previous versions of Visual Studio side-by-side with Visual Studio 2017, see the [Visual Studio compatibility details](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
 
 ## Step 2 - Download Visual Studio
 
@@ -90,7 +90,7 @@ After the installer is installed, you can use it to customize your installation 
 
 ## Step 5 - Select individual components (Optional)
 
-If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To do this, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To select individual components, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
@@ -120,11 +120,11 @@ After Visual Studio installation is complete, click the **Launch** button to [Ge
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
 
-## See also  
-* [Modify Visual Studio 2017](modify-visual-studio.md)
+## See also
 * [Update Visual Studio 2017](update-visual-studio.md)
+* [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
+* [Administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

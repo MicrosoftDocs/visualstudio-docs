@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, context menus"
 ms.assetid: 9a848817-db11-4294-8f6f-9181ab87aadd
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Commands to Shortcut Menus

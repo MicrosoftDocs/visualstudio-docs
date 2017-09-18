@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Excel host controls"
 ms.assetid: 3ed99480-234d-46b1-b91c-226018bd3faf
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Automating Excel by Using Extended Objects

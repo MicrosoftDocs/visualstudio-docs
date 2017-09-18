@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], updating documents"
 ms.assetid: 56e6d1f2-65a4-41f0-aff5-f0cfd96d7185
 caps.latest.revision: 60
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Updating a Chart in a Document Using Radio Buttons

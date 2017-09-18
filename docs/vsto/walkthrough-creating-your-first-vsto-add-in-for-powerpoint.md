@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], creating your first project"
 ms.assetid: 52d1543a-c9cb-4ee1-aa5b-90759fce9d3a
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First VSTO Add-in for PowerPoint

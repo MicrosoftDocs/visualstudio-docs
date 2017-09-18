@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "SafeControls element"
 ms.assetid: f5ffdbbe-cf85-4e5a-9d39-3cd4462f2a0e
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SafeControls Element

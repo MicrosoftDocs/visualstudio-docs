@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "attachments [Office development in Visual Studio]"
 ms.assetid: 2f05e2bb-ae4f-407c-a6da-a3b1a4c31ab3
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Save Attachments from Outlook E-Mail Items

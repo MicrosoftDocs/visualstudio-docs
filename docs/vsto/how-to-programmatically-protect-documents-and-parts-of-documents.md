@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Word documents, protection"
 ms.assetid: af8390fc-c4c7-48c7-94b8-4fedbaac0757
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Protect Documents and Parts of Documents

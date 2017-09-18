@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ranges, resetting in documents"
 ms.assetid: 45ea9434-e548-4d24-938f-4f1ffa5010d0
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Reset Ranges in Word Documents

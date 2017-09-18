@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "simple data binding [Office development in Visual Studio]"
 ms.assetid: 6b8fd638-af13-4ea1-b1c0-2763e2d8ae23
 caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Simple Data Binding in a Document-Level Project

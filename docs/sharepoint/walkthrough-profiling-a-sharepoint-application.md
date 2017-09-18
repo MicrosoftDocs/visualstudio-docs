@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 ms.assetid: 0b19d4b7-5fcc-42a2-b411-96eccd00137f
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Profiling a SharePoint Application

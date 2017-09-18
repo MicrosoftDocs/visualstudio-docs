@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "<document> element"
 ms.assetid: b4525a0e-8a03-4881-a3e2-8cc019029071
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;document&gt; Element (Office Development in Visual Studio)

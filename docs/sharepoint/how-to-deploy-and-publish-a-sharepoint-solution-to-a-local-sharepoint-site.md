@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 ms.assetid: 73f8d6a9-4c64-4bba-ae0e-9474baf8df26
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site

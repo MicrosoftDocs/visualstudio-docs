@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], common tasks"
 ms.assetid: d9204916-6471-4cf0-89a1-d46dae0e2599
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Worksheets
