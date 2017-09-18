@@ -65,15 +65,15 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 #### To add a new dataset item to the project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1.  On the **Project** menu, select **Add New Item...**.  
   
-     The Add New Item Dialog Box appears.  
+     The Add New Item dialog box appears.  
   
-2.  In the **Templates** box, select **DataSet**.  
+2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.  
   
-3.  Click **Add**.  
+3.  Choose **Add**.  
   
-     Visual Studio will add a file called **DataSet1.xsd** to the project and open it in the **Dataset Designer**.  
+     Visual Studio adds a file called **DataSet1.xsd** to the project and opens it in the **Dataset Designer**.  
   
 ## Adding a New DataTable to the Dataset  
   
