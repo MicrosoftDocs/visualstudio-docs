@@ -7,7 +7,7 @@
 # Tutorials
 ## [Getting Started with Python](getting-started.md)
 # Concepts
-### [Python Environments](python-environments.md)
+## [Python Environments](python-environments.md)
 ## [Python Projects](python-projects.md)
 ### [Web Project Templates](template-web.md)
 ### [Django Web Project Template](template-django.md)
