@@ -1,7 +1,7 @@
 ---
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using Visual Studio Tools for Unity
-In this section, you'll learn how to use Visual Studio Tools for Unity's integration and productivity features, and how to use the Visual Studio debugger for Unity development.  
+In this section, you'll learn how to use Visual Studio Tools for Unity's integration and productivity features, how to use the Visual Studio debugger for Unity development, and how to use Dotfuscator to protect Unity apps from piracy and tampering.
   
 ## Unity Integration and Productivity  
  Visual Studio Tools for Unity integrates with the Unity Editor to help you be more productive. These productivity-enhancing features automate common scripting tasks and bring information from Unity into Visual Studio so that you don't have to switch to the Unity Editor to find it.  
@@ -197,3 +197,10 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
      The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the Unity scripting engine.  
   
 4.  Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
+
+## Unity Protection with Dotfuscator
+
+As with all platforms that use intermediate code, the compiled C# code in Unity apps is susceptible to reverse engineering and tampering, which can result in piracy and intellectual property theft. To help mitigate these threats, Visual Studio includes a free obfuscation utility, [PreEmptive Protection - Dotfuscator](https://www.preemptive.com/products/dotfuscator/overview), which can protect Unity apps that target Android, iOS, UWP, and desktop platforms.
+
+To start using Dotfuscator to protect Unity apps, see [the instructions in the Dotfuscator User Guide](https://www.preemptive.com/dotfuscator/pro/userguide/en/getting_started_unity3D.html). Depending on your Visual Studio version, you may need to install the latest version of Dotfuscator, available on the [PreEmptive Solutions Dotfuscator Downloads page](https://www.preemptive.com/products/dotfuscator/downloads).
+
