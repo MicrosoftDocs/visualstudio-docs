@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 ms.assetid: 0609d8f0-4630-4e17-aeb3-14f3134165cf
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Configure Inclusion List Security

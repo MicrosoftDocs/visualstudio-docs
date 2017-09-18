@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, installation scenarios"
 ms.assetid: 71f34daf-8163-4a53-a401-9cab6581f30d
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Visual Studio Tools for Office Runtime Installation Scenarios

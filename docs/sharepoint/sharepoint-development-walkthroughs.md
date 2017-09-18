@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, walkthroughs"
 ms.assetid: f79cefcc-da33-49df-9e03-b9d79533a9a7
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SharePoint Development Walkthroughs

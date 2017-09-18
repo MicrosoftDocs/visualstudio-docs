@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], multiple columns"
 ms.assetid: 32ffad3d-fba4-476a-99b8-ef440434f4e1
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Complex Data Binding in a Document-Level Project

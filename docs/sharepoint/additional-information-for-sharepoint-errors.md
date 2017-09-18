@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 ms.assetid: 83d20a81-fd81-4cbd-8f28-bb6bddeb06de
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Additional Information for SharePoint Errors

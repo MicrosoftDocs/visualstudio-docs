@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], document properties"
 ms.assetid: 7ed65a3d-58ed-43b3-92d6-dc10a2c331db
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Populate Word Tables with Document Properties

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 ms.assetid: d1703957-81e2-47e1-b4ca-6a8d550d8da2
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Import a Custom Master Page and Site Page with an Image

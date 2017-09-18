@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], MSI"
 ms.assetid: 260dda48-f9d4-474c-8638-ecf5b2c2729d
 caps.latest.revision: 91
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Deploying an Office Solution by Using Windows Installer

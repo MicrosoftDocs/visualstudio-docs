@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "postActionData element"
 ms.assetid: e36cbd64-fd27-4413-b293-cf5546fbdfaf
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;postActionData&gt; Element (Office Development in Visual Studio)

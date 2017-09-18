@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 ms.assetid: 798bc2fa-449e-4d1a-86b4-18e57b02a4a8
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Calling Code from VBA in a Visual Basic Project

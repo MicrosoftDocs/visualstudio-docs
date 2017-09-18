@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 ms.assetid: ec9f5173-0923-4aee-985a-e760e80eaae3
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First Document-Level Customization For Word

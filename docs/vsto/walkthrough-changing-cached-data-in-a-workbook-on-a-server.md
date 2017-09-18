@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], server-side data access"
 ms.assetid: 69e13de3-9286-40cc-8c4b-1727caf761bf
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Changing Cached Data in a Workbook on a Server

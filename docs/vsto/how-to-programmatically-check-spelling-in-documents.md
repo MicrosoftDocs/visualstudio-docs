@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "spelling checker, documents"
 ms.assetid: 5bbe3a8d-fc65-4f57-bd63-5bb549dbc4bd
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Check Spelling in Documents

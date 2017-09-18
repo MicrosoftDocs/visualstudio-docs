@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "worksheets, hiding controls when printing"
 ms.assetid: a637fe9a-9de1-4162-8ff6-fe28ccd62389
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Hide Controls on Worksheets when Printing

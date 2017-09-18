@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], adding"
 ms.assetid: 49fa3d1e-1b8a-48be-95fb-35c59c4711f6
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Form Region to an Outlook Add-in Project

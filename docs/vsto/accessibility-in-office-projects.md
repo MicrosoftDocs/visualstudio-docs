@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "accessibility [Office development in Visual Studio]"
 ms.assetid: 48efcf1f-ca49-47ce-99f0-cc99f051aeae
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Accessibility in Office Projects

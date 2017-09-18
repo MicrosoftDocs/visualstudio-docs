@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], troubleshooting"
 ms.assetid: 2206aeb6-44b3-4786-ba99-9c7dad5cce7c
 caps.latest.revision: 74
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Troubleshooting Office Solution Deployment

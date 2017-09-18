@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 ms.assetid: d9c67fae-d097-4e26-a2b9-0f72ff800987
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server

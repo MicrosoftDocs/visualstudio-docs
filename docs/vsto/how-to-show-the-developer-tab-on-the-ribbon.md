@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Developer tab [Office development in Visual Studio]"
 ms.assetid: ce7cb641-44f2-4a40-867e-a7d88f8e98a9
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Show the Developer Tab on the Ribbon

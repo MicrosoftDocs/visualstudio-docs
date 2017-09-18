@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
 ms.assetid: 419f4e07-c67f-4fc9-973a-bc794f349ac3
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Master Detail Relation Using a Cached Dataset

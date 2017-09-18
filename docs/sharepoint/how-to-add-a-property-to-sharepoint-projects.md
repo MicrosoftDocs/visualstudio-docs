@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 ms.assetid: c5eb4900-c35f-490a-b856-bf167da2d293
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Property to SharePoint Projects

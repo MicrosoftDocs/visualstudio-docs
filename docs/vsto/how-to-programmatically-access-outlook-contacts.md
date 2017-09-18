@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], searching"
 ms.assetid: ea2297ea-6802-40e4-af1a-1e511a71ec75
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Access Outlook Contacts

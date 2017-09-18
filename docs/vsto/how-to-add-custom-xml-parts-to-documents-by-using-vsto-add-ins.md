@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
 ms.assetid: 872d2beb-193b-49f9-9a7b-dcebab91a73b
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins

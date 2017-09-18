@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Value2 property"
 ms.assetid: 1284d6c3-8200-4151-88ce-0b5c7765af25
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Properties in Office Projects

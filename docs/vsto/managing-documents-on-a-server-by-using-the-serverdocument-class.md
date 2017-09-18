@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ServerDocument class, managing documents on server"
 ms.assetid: 1ac90e89-d07d-4874-9d24-6741d6679a21
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Managing Documents on a Server by Using the ServerDocument Class

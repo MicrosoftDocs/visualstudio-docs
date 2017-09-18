@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "IntelliTrace"
 ms.assetid: 4bd80d2f-f680-4bf4-81c3-f14e8185f6a4
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Debugging a SharePoint Application by Using IntelliTrace
