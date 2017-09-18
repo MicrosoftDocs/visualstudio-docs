@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, adding items"
 ms.assetid: 25a76408-6061-4cd3-b210-100f1c644df7
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Items to a SharePoint Project

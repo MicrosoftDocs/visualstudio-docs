@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, overview"
 ms.assetid: 059bce0f-c301-4234-a0b4-9c14b7cdfa3e
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Developing SharePoint Solutions

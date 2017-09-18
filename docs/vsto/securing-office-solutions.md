@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio]"
 ms.assetid: af840916-dda4-4e52-b536-802ebcab30ca
 caps.latest.revision: 78
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Securing Office Solutions

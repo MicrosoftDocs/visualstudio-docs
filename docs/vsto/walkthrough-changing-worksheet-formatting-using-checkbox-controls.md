@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 ms.assetid: 4be79613-50a0-428e-9816-aadbc098272a
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Changing Worksheet Formatting Using CheckBox Controls

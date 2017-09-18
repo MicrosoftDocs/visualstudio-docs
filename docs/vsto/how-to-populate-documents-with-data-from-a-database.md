@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data, adding to documents"
 ms.assetid: 1eb5b13d-7359-407e-8be8-e42c1829f10c
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Populate Documents with Data from a Database

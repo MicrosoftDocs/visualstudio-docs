@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], creating"
 ms.assetid: 722ed0fa-116e-4eb5-9d86-586ed4ca7d6b
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add an Entry to Outlook Contacts

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, getting started"
 ms.assetid: 774ed85e-e615-403f-bcdf-2eb0929fdc4b
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Getting Started (SharePoint Development in Visual Studio)

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], sending"
 ms.assetid: 4fa0e1b5-2caf-4a11-8626-df643b23f5f0
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Send E-Mail  

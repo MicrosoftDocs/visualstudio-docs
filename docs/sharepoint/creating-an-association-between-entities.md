@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], associate external content types"
 ms.assetid: c908448c-13d3-4d2f-89ad-8d709b2958fb
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating an Association Between Entities

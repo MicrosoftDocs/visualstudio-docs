@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], creating Visio documents"
 ms.assetid: a0294d4c-be49-4cd0-b22e-3ec7568f3ec7
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create New Visio Documents

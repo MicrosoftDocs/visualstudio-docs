@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], creating custom templates"
 ms.assetid: c95b5e35-76c4-4f0a-b645-0467ae683659
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Item Templates and Project Templates for SharePoint Project Items

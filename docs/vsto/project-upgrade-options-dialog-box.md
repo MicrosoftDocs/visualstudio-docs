@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Options dialog box, Project Upgrade page"
 ms.assetid: 35568fe8-cbec-43cc-8cb1-75fe195e1793
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Project Upgrade, Options Dialog Box

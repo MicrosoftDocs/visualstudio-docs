@@ -14,11 +14,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Unload method"
-  - "IManagedAddin::Unload"
+  - 
 ms.assetid: 40a73f07-2605-4745-8ac5-0a0189167fd7
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # IManagedAddin::Unload

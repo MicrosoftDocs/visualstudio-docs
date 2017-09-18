@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], method"
 ms.assetid: f0c8a686-c0de-414e-8de9-f228f59d1eb3
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Define a Method Instance

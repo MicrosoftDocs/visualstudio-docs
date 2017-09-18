@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], replacing"
 ms.assetid: 405d7442-8ba3-4fcc-b17e-7b289ffd3967
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Insert Text into Word Documents

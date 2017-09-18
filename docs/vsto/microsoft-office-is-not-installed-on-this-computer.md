@@ -16,8 +16,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: da023863-721c-4e1a-96e1-6345dd12011e
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Microsoft Office is not installed on this computer

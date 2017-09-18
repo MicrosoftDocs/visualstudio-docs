@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "spelling, checking in worksheets"
 ms.assetid: 16367c5d-2075-4174-bb87-dfc59f02c84c
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Check Spelling in Worksheets

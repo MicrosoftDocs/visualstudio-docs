@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending project items"
 ms.assetid: 163738b9-e25a-49c9-8f33-4b57a2da6b07
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create a SharePoint Project Item Extension

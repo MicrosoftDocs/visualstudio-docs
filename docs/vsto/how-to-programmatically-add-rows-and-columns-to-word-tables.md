@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "columns [Office development in Visual Studio], adding to Word tables"
 ms.assetid: 01a9b6ca-1373-4a6e-b9e6-2225a1321daf
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add Rows and Columns to Word Tables

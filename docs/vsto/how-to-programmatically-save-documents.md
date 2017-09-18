@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], saving documents"
 ms.assetid: a6225ae9-94f5-421a-9860-5299002d543d
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Save Documents

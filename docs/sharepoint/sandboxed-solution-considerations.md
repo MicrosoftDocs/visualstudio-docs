@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "farm solutions [SharePoint development in Visual Studio]"
 ms.assetid: 6c2d2dc6-4acb-4b68-ba94-a61087e8dff0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Sandboxed Solution Considerations
