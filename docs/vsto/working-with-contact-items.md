@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio]"
 ms.assetid: e1bd9493-ee33-40e0-8b62-f310e9e35b33
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Contact Items

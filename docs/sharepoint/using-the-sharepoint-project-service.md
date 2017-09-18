@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 ms.assetid: bfb6cbc7-6c28-4e1a-abb4-88f149e7712c
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Using the SharePoint Project Service

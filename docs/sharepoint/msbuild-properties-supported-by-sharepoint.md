@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, MSBuild properties"
 ms.assetid: 7b2b58c6-55cd-4682-a5d7-43874e70920d
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # MSBuild Properties Supported by SharePoint

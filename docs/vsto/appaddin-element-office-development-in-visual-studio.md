@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 ms.assetid: 6152fe5b-6af1-465d-aee7-19e4fd4d04c1
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;appAddin&gt; Element (Office Development in Visual Studio)

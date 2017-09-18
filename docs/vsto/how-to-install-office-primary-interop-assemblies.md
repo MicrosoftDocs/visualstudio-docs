@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 ms.assetid: 92948fcc-76c6-4b08-ba63-cab59dd60eb1
 caps.latest.revision: 61
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Install Office Primary Interop Assemblies

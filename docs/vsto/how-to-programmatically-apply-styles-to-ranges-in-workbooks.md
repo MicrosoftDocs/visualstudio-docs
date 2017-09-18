@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "workbooks, styles"
 ms.assetid: c7e781ed-f366-45bb-aeb6-69c10d19d842
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Apply Styles to Ranges in Workbooks

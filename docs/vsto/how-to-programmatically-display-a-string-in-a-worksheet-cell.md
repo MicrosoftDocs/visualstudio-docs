@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "worksheets, displaying text in cells"
 ms.assetid: b19870ad-e132-49fd-994e-0a91710fa4c9
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Display a String in a Worksheet Cell

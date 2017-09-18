@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], debugging"
 ms.assetid: c4b79ea8-df70-4a72-b76e-26e337d65727
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Building Office Solutions

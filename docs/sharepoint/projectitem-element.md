@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ProjectItem element"
 ms.assetid: df588235-12a1-4798-bc56-ef81843de17f
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # ProjectItem Element

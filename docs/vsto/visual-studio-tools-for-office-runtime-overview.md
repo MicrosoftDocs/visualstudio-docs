@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "runtime [Office development in Visual Studio]"
 ms.assetid: 5526a4d2-a61c-43ee-8349-dd1968e0cdb4
 caps.latest.revision: 92
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Visual Studio Tools for Office Runtime Overview

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Web pages [Office development in Visual Studio], Outlook folders"
 ms.assetid: b211b1b2-11e4-4316-87b7-98a3d10f95d1
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Associate a Web Page with an Outlook Folder

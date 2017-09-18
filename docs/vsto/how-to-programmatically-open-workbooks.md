@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], opening workbooks"
 ms.assetid: 06c0ac87-a2c6-4cc1-87be-39be0cb81c71
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Open Workbooks

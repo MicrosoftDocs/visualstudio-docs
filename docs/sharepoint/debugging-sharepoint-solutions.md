@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging"
 ms.assetid: 5120f21e-4c27-4906-b982-85e9cd5170e6
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Debugging SharePoint Solutions

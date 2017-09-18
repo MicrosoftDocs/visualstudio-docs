@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "dialog boxes, hidden mode in Word"
 ms.assetid: a5619325-8b54-41f1-becb-3f6eae7e4a6b
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Use Word Dialog Boxes in Hidden Mode

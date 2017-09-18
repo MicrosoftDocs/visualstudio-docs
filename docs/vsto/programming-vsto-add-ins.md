@@ -36,8 +36,8 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 ms.assetid: c534786d-2833-4afa-9e4c-4633f46b9eed
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Programming VSTO Add-Ins

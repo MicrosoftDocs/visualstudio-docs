@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "configuration files [Office development in Visual Studio]"
 ms.assetid: f123838f-957a-4cf5-acc0-0cc0f4c2aea2
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Set Up Configuration Information for an Office Solution

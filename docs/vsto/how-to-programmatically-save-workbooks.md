@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "workbooks, saving backup copies"
 ms.assetid: 991ccf9b-5213-4094-9030-284ec167bdcc
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Save Workbooks

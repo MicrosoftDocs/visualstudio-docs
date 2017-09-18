@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "registry entries [Office development in Visual Studio]"
 ms.assetid: 319e5bbc-0234-4af0-91ce-54bcfafc173f
 caps.latest.revision: 79
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Registry Entries for VSTO Add-ins

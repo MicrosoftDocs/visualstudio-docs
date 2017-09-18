@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "extensibility interfaces [Office development in Visual Studio]"
 ms.assetid: 3f3f7908-9404-4eda-8899-4d18c75e3b4a
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Customizing UI Features By Using Extensibility Interfaces

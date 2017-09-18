@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 ms.assetid: 7dfa2c5d-3ac7-4573-abac-12a5e16efd1d
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add and Remove Features and Items to a Package by Using the Package Designer

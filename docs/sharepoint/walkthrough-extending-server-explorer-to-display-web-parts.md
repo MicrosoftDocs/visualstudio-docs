@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
 ms.assetid: 5b1f104a-0eaf-4929-9f1f-d7afcfc8b707
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Extending Server Explorer to Display Web Parts

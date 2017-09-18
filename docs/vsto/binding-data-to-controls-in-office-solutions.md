@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "controls, data binding"
 ms.assetid: b6faaed7-df9b-4d78-9863-e515cd5c7ed9
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Binding Data to Controls in Office Solutions

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], counting characters"
 ms.assetid: ab64fe87-896a-4b56-bdf8-91c4326b540e
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Count Characters in Documents

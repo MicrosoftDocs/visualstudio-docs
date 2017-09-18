@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], security"
 ms.assetid: c5ba86b1-e87f-4508-8c5a-1295681a9590
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Secure Deployment

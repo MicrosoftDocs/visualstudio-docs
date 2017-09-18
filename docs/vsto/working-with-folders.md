@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], folders"
 ms.assetid: 1379b5cb-5093-46a3-80f0-b7b3c66b1df3
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Folders

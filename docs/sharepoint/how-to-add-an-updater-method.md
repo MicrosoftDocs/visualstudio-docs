@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], updating entity instances"
 ms.assetid: c97e443c-58dc-4f8f-8cbd-0d52d8a6a06b
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add an Updater Method

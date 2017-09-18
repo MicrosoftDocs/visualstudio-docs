@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 ms.assetid: b38c3a35-8b4a-4e86-8475-88fa8a873a5d
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Attach Managed Code Extensions to Documents

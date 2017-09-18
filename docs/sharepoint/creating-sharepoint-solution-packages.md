@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "packages [SharePoint development in Visual Studio]"
 ms.assetid: 6b1f1fbf-fa9c-453d-80af-36ec9829677a
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Solution Packages

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "migrating Office solutions in Visual Studio"
 ms.assetid: cc60cdcb-593d-498a-8358-f1f3ac673fe1
 caps.latest.revision: 105
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Upgrading and Migrating Office Solutions
