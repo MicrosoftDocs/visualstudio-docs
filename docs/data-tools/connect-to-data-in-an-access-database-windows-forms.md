@@ -72,7 +72,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      ![OLE DB Provider Microsoft Office 12.0 Access](../data-tools/media/dataoledbprovideroffice12access.png "dataOLEDBProviderOffice12Access")  
 
      > [!NOTE]
-     >  If you don't see **Microsoft Office 12.0 Access Database Engine OLE DB Provider** in the OLE DB provider drop-down, you may need to install the [2007 Office System Driver: Data Connectivity Components](https://www.microsoft.com/en-us/download/confirmation.aspx?id=23734).
+     >  If you don't see **Microsoft Office 12.0 Access Database Engine OLE DB Provider** in the OLE DB provider drop-down, you may need to install the [2007 Office System Driver: Data Connectivity Components](https://www.microsoft.com/download/confirmation.aspx?id=23734).
   
 9. In the **Server or file name** text box, specify the path and file name of the .accdb file you want to connect to, and then select **OK**. (If the database file has a user name and password, specify them before you select **OK**.)    
   
