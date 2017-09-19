@@ -48,7 +48,7 @@ If the web server is remote, the remote debugger must be running on the remote c
 
 To follow the instructions in this topic, you need:
 
-- A version of Visual Studio that supports IIS Express (Visual Studio 2012 and later), or
+- IIS Express, which is included by default in Visual Studio 2012 and later, or
 
 - A local IIS web server that is configured correctly and can run the ASP.NET application without errors.
 
@@ -72,7 +72,7 @@ If the server is remote, the remote debugger must be running on the remote compu
 
 In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file. 
   
-1.  In Visual Studio, open the web.config file.  
+1.  In Visual Studio, open the project's web.config file.  
   
     > [!NOTE]  
     > You cannot access the web.config file remotely by using a Web browser. For security reasons, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you will get HTTP access error 403 (forbidden).  
@@ -129,7 +129,23 @@ For debugging on a local web server, set project properties. For debugging on a 
 
 ## (local IIS web server) Configure deployment
 
-1. 
+For IIS Express, the web app is deployed automatically when you start debugging. For local IIS, follow these steps.
+
+1. Make sure that IIS is configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+
+2. Right-click the project and choose **Publish**.
+
+    ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis.png "Publish to IIS")
+
+3. Choose **IIS, FTP, etc.** and click **Publish**.
+
+4. In the **Publish method** field, choose **File system**.
+
+5. For the **Target location**, click the **Browse** button.
+
+6. Choose **Local IIS**, and select a web site for deployment, and then click **Open**.
+
+7. Click **Save** to save the publish settings, and then click **Publish**.
 
 ## Set a breakpoint and start debugging
 
