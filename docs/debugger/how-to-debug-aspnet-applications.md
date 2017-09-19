@@ -121,23 +121,23 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     IIS Express is the default server for ASP.NET and does not require any special configuration. This is the easiest way to debug an ASP.NET application.
 
-    For a Web Forms ASP.NET project, the **Use custom server** appears under **Start Options** in the **Property Pages**.
+    For a Web Forms ASP.NET project, **Use custom server** appears under **Start Options** in the **Property Pages** (instead of **External Server**).
 
     ![Server settings for Web Forms app](../debugger/media/dbg-aspnet-server-settings-webforms.png "Server settings for Web Forms app")
 
-2. If you choose an external (or custom) server, enter the correct URL in the **Project URL** (or **Base URL**) field.
+2. If you choose an external (custom) server, enter the correct URL in the **Project URL** (or **Base URL**) field.
 
     If the external server is remote, the [remote debugger](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) must be running on the remote computer.
 
-    If the external server is local IIS, IIS must be configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
+    If the external server is local IIS, IIS must be installed and configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
 
 ## (local IIS web server) Configure deployment
 
 For IIS Express, the web app is deployed automatically when you start debugging. For local IIS, follow these steps.
 
-1. Make sure that IIS is configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+1. Make sure that IIS is installed and configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
-2. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, **Publish Web App**).
+2. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, use **Publish Web App**).
 
 3. Choose **IIS, FTP, etc.** and click **Publish**.
 
@@ -168,7 +168,7 @@ For IIS Express, the web app is deployed automatically when you start debugging.
 
 3. (local IIS web server) If you have difficulty hitting the breakpoint:
 
-    1. Start the Web app from IIS and make sure it runs correctly.
+    1. Start the web app from IIS and make sure it runs correctly. Leave the web app running.
 
     2. From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process (typically **w3wp.exe**). For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
