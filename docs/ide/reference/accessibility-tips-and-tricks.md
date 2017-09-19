@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/05/2017"
+ms.date: "09/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -31,7 +31,7 @@ Some colors are more difficult to see for folks with low vision. For developers 
 
 ## Use Annotations to reveal useful information about your code
 
-The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and navigate between these adornments.
+The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
 
   ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
 
