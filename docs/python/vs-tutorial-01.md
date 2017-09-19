@@ -32,9 +32,6 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 
 - Visual Studio 2017 with the Python workload installed. See [Installation - Visual Studio 2017](installation.md#visual-studio-2017) for completion of this requirement.
 
-> [!Note]
-> This walkthrough explores the Python experience in Visual Studio 2017; other versions are similar but may differ in some details.
-
 ## Step 1: Create a new Python project
 
 A *project* is how Visual Studio manages all the files that come together to produce a single application, including source code, resources, configurations, and so on. A project formalizes and maintains the relationship between all the project's files as well as external resources that are shared between multiple projects. As such, project allow your application to effortlessly expand and grow much easier than simply managing a project's relationships in ad hoc folders, scripts, text files, and even your own mind.
@@ -57,15 +54,15 @@ A *project* is how Visual Studio manages all the files that come together to pro
     
     ![Solution Explorer expanded to show various features](../images/vs-getting-started-python-03-solution-explorer.png)
 
-    a. Highlighted in bold is your project (1), using the name you gave in the New Project dialog. On disk, this project is represented by a `.pyproj` file in your project folder.
+    (1) Highlighted in bold is your project, using the name you gave in the New Project dialog. On disk, this project is represented by a `.pyproj` file in your project folder.
 
-    b. At the top level is a *solution* (2), which by default has the same name as your project. A solution, represented by a `.sln` file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project could reside within the same solution. The solution might also contain a project for a web service, along with projects for dedicated test programs. 
+    (2) At the top level is a *solution*, which by default has the same name as your project. A solution, represented by a `.sln` file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project could reside within the same solution. The solution might also contain a project for a web service, along with projects for dedicated test programs. 
 
-    c. Under your project you see source files, in this case only a single `.py` file (3). Selecting a file displays its properties in the Properties window. Double-clicking a file opens it in whatever way is appropriate for that file.
+    (3) Under your project you see source files, in this case only a single `.py` file. Selecting a file displays its properties in the Properties window. Double-clicking a file opens it in whatever way is appropriate for that file.
 
-    d. Also under the project is the **Python Environments** node (4). When you expand this, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
+    (4) Also under the project is the **Python Environments** node. When expanded, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
-    e. Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
+    Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
     
     
 ## Step 2: Writing and running code
@@ -92,8 +89,7 @@ While the Solution Explorer window is where you manage project files, the *edito
  
     ![IntelliSense syntax coloring and error highlighting](../images/vs-getting-started-python-06-IntelliSense3.png)
  
-
-    > [!Tip]]
+    > [!Tip]
     > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools > Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you'll see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. At any time, pressing F1 or selecting the **?** button on the dialog's title bar takes you to documentation for the current set of options.
 
 1. Run the code you've written to this point by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
