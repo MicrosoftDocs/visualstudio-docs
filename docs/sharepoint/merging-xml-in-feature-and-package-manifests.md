@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging"
 ms.assetid: fc1cbd2a-0166-4f2f-a81b-4dac2fa7b0f3
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Merging XML in Feature and Package Manifests

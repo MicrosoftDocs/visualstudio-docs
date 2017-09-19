@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 ms.assetid: d3c8a01c-8fac-40d0-bf9e-476901f1490a
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Troubleshooting SharePoint Solutions

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], opening Visio documents"
 ms.assetid: bddb820c-bde7-4d21-a0b3-6d1968baccab
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Open Visio Documents

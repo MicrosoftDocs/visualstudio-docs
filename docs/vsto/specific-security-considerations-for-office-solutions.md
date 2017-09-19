@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio], troubleshooting"
 ms.assetid: 6a8b3e12-26c6-4ee2-a37e-d5bc8df9c5d1
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Specific Security Considerations for Office Solutions

@@ -14,8 +14,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: e8195838-fb9f-42b2-bb76-7ae3753f7751
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # GetVstoSolutionMetadata Function

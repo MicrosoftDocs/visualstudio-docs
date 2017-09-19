@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 ms.assetid: 0037dbd8-0d2a-4766-90ea-81c819379582
 caps.latest.revision: 96
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create Office Projects in Visual Studio

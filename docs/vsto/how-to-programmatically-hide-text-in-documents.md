@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], hiding in documents"
 ms.assetid: f5ced4ec-22ca-463b-b963-d34ce631b486
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Hide Text in Documents

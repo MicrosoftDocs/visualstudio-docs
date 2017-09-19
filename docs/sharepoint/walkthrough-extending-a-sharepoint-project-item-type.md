@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending project items"
 ms.assetid: 1cea4e0f-ce33-4cd7-a664-800184865456
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Extending a SharePoint Project Item Type

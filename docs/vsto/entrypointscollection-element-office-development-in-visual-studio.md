@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "entryPointsCollection element"
 ms.assetid: da386d67-e45f-467c-a9ba-9b8451b520eb
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;entryPointsCollection&gt; Element (Office Development in Visual Studio)

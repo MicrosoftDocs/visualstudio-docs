@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 ms.assetid: 8b446cca-2adb-457b-bbfd-891209290e80
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Import a Master Page or Theme

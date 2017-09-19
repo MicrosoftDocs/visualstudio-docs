@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 ms.assetid: 4ba2d120-06b8-4ef3-84eb-c6c50ced9d82
 caps.latest.revision: 63
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Custom Deployment Step for SharePoint Projects

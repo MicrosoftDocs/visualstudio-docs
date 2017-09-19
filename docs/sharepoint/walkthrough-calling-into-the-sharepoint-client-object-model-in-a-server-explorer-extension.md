@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio]"
 ms.assetid: 897d3798-42c1-4fff-b280-8b84b53d80c6
 caps.latest.revision: 100
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Calling into the SharePoint Client Object Model in a Server Explorer Extension

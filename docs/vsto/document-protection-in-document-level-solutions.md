@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], restricted permissions"
 ms.assetid: a25472ad-03f0-4804-9d19-e5ff71340d49
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Document Protection in Document-Level Solutions

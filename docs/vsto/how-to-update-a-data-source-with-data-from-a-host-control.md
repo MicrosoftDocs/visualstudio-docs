@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, data sources"
 ms.assetid: b91025af-1eaa-44ee-88f2-71ecaa7a0440
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Update a Data Source with Data from a Host Control

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, unmanaged API reference"
 ms.assetid: cdbc70b1-1f98-43dc-a619-07d805e53dce
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Unmanaged API Reference (Office Development in Visual Studio)

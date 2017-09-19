@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "user controls [SharePoint development in Visual Studio], adding"
 ms.assetid: 492ea376-7188-4b5a-a2eb-adc0e3f51484
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create a User Control for a SharePoint Application Page or Web Part

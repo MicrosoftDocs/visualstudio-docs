@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
 ms.assetid: 5972664f-4e37-4dc6-90d0-69cedd057e60
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Dialog Box Launcher to a Ribbon Group

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "recent file list, Excel"
 ms.assetid: 210a3753-4845-4875-b34a-a30d3a1299b3
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically List Recently Used Workbook Files

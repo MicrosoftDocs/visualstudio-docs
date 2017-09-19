@@ -37,8 +37,8 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], writing code"
 ms.assetid: 2d4d8fd0-e881-4829-976f-0d1a9221dec0
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Writing Code in Office Solutions

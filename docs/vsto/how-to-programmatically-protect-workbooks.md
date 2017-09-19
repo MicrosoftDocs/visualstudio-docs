@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "workbooks, protecting"
 ms.assetid: 553c67b9-e2a4-46b6-878c-5b4b4efa4589
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Protect Workbooks

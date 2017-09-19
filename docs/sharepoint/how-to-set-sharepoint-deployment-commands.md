@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 ms.assetid: 289c8c33-a603-434e-889f-a0d0a1736ecb
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Set SharePoint Deployment Commands

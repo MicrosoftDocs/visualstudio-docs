@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 ms.assetid: 5179e544-f678-422e-a532-1e2d55004b60
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Programming Concepts and Features for SharePoint Tools Extensions

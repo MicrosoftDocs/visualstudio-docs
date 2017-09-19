@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "XMLMappedRange control, events"
 ms.assetid: af1ae1b7-6cbe-4d6b-bc22-d9a3c8740665
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # XmlMappedRange Control

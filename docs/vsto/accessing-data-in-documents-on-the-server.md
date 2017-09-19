@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data access [Office development in Visual Studio]"
 ms.assetid: 14a42e96-ed2f-48a1-a0c0-e19f9eba4956
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Accessing Data in Documents on the Server

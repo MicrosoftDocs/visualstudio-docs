@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], add reference"
 ms.assetid: 2ddf44b9-5f51-4bca-b8bb-94c4bbd1c5f3
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Include a Custom Assembly in a BDC Feature

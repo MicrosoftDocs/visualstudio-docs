@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], creating your first project"
 ms.assetid: a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First VSTO Add-in for Excel

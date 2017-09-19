@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 ms.assetid: 41ed9c1c-4239-4d80-934b-975fde744288
 caps.latest.revision: 152
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio"
 ms.assetid: 4bfb1e59-97c9-4594-93f8-3068b4eb9631
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Create SharePoint Solutions

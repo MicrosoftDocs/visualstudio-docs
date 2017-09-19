@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], displaying in print preview"
 ms.assetid: 96c7faea-9c5c-42b4-a009-08894a6d15c9
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Display Documents in Print Preview

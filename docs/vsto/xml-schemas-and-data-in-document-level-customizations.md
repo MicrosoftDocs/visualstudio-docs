@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, XML"
 ms.assetid: 74bd5773-6cb0-44fb-9738-75e2f2c6e48d
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # XML Schemas and Data in Document-Level Customizations
