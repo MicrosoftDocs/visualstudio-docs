@@ -10,7 +10,7 @@
     href: /vsts/git/create-new-repo
   - name: Create a Git repo - CLI
     href: /vsts/git/share-your-code-in-git-cmdline
-  - name: Share you code in Git
+  - name: Share your code in Git
     href: /vsts/git/share-your-code-in-git-vs-2017
   - name: Import repo into VSTS Git repo
     href: /vsts/git/import-git-repository
