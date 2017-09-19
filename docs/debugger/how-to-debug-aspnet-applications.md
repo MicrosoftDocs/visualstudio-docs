@@ -131,7 +131,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     If the external server is local IIS, IIS must be installed and configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
 
-## (local IIS web server) Configure deployment
+## (Local IIS web server) Configure deployment
 
 For IIS Express, the web app is deployed automatically when you start debugging. For local IIS, follow these steps.
 
