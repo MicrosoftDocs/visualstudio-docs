@@ -125,7 +125,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     ![Server settings for Web Forms app](../debugger/media/dbg-aspnet-server-settings-webforms.png "Server settings for Web Forms app")
 
-2. If you choose an external or custom server, enter the correct URL in the **Project URL** (or **Base URL**) field.
+2. If you choose an external (or custom) server, enter the correct URL in the **Project URL** (or **Base URL**) field.
 
     If the external server is remote, the [remote debugger](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) must be running on the remote computer.
 
@@ -157,15 +157,15 @@ For IIS Express, the web app is deployed automatically when you start debugging.
 
 2. If you are using IIS Express, press **F5** to start debugging.
 
-3. If you are running the app on an external server:
-
-    * Deploy the app to your local IIS server and start it. Make sure the app runs correctly.
-
-    * From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process. For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
-
-4. Take actions to run the code that contains the breakpoint.
+3. Take actions to run the code that contains the breakpoint.
 
     The debugger will pause where you set the breakpoint.
+
+3. (local IIS web server) If you have difficulty hitting the breakpoint:
+
+    1. Start the Web app from IIS and make sure it runs correctly.
+
+    2. From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process (typically **w3wp.exe**). For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
   
 ## Robust Programming  
