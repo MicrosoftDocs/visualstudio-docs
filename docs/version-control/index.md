@@ -27,7 +27,7 @@ Git is the most commonly used version control system today and is quickly becomi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/vs-ide.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ Git is the most commonly used version control system today and is quickly becomi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/web.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/common/i_web.svg" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ Git is the most commonly used version control system today and is quickly becomi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/git-mark.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/i_git-mark.svg" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -88,7 +88,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/vs-ide.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -106,7 +106,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/vs-ide.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
                         </div>
                     </div>
                     <div class="cardText">
