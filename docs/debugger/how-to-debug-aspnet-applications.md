@@ -133,7 +133,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
 ## (Local IIS web server) Configure deployment
 
-For IIS Express, the web app is deployed automatically when you start debugging. For local IIS, follow these steps.
+For IIS Express, the web app is deployed automatically when you start debugging (skip this section). For local IIS, follow these steps.
 
 1. Make sure that IIS is installed and configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
@@ -158,15 +158,15 @@ For IIS Express, the web app is deployed automatically when you start debugging.
 
 ## Set a breakpoint and start debugging
 
-1. In your project in Visual Studio, set a breakpoint on some C# or Visual Basic code that you know you can hit.
+1. In your project in Visual Studio, set a breakpoint on some code that you know will run.
 
-2. If you are using IIS Express, press **F5** to start debugging.
+2. Press **F5** to start debugging.
 
 3. Take actions to run the code that contains the breakpoint.
 
     The debugger will pause where you set the breakpoint.
 
-3. (local IIS web server) If you have difficulty hitting the breakpoint:
+3. (Local IIS web server) If you have difficulty hitting the breakpoint:
 
     1. Start the web app from IIS and make sure it runs correctly. Leave the web app running.
 
