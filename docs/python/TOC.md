@@ -2,10 +2,11 @@
 ## [Python in Visual Studio](python-in-visual-studio.md)
 # Quickstart
 ## [Installation](installation.md)
-## Python Projects (TODO)
+## Create and run a simple project (TODO)
 ## Interactive Window (TODO)
+## Create a project from existing code (TODO)
 # Tutorials
-## [Getting Started with Python](getting-started.md)
+## [Getting Started with Python](vs-tutorial-01.md)
 # Concepts
 ## [Python Environments](python-environments.md)
 ## [Python Projects](python-projects.md)
