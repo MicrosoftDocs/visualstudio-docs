@@ -63,7 +63,7 @@ Git is the most commonly used version control system today and is quickly becomi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/i_git-mark.svg" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/common/i_git-mark.svg" />
                         </div>
                     </div>
                     <div class="cardText">
