@@ -137,11 +137,13 @@ For IIS Express, the web app is deployed automatically when you start debugging.
 
 1. Make sure that IIS is configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
-2. Right-click the project and choose **Publish**.
+2. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, **Publish Web App**).
+
+3. Choose **IIS, FTP, etc.** and click **Publish**.
 
     ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis.png "Publish to IIS")
 
-3. Choose **IIS, FTP, etc.** and click **Publish**.
+    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name and choose **OK**.
 
 4. In the **Publish method** field, choose **File system**.
 
@@ -150,6 +152,9 @@ For IIS Express, the web app is deployed automatically when you start debugging.
 6. Choose **Local IIS**, and select a web site for deployment, and then click **Open**.
 
 7. Click **Save** to save the publish settings, and then click **Publish**.
+
+    > [!CAUTION]
+    >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
 
 ## Set a breakpoint and start debugging
 
