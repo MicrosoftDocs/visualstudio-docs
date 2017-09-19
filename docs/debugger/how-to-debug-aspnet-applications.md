@@ -42,10 +42,9 @@ translation.priority.ht:
 
 You can debug ASP.NET applications from Visual Studio.
 
-> [!NOTE]
-> If the server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). If you want to debug in browser developer tools rather than use the Visual Studio debugger, see F12 for Edge or Internet Explorer, and see X for Google Chrome.
+If the web server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). If you want to debug in browser developer tools rather than use the Visual Studio debugger, see F12 for Edge or Internet Explorer, and see X for Google Chrome.
 
-# Requirements
+## Requirements
 
 To follow the instructions in this topic, you need:
 
@@ -55,9 +54,9 @@ To follow the instructions in this topic, you need:
 
 If the server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). 
 
-# Configure debug settings
+## Configure debug settings
 
-## Enable ASP.NET debugging in the project properties (Visual Basic, C#)
+### Enable ASP.NET debugging in the project properties (Visual Basic, C#)
 
 1. Open your ASP.NET project in Visual Studio.
 
@@ -69,7 +68,7 @@ If the server is remote, the remote debugger must be running on the remote compu
 
     ![Debugger settings](../debugger/media/dbg-aspnet-enable-debugging.png "Debugger settings")
 
-## Enable debugging in the web.config file  
+### Enable debugging in the web.config file  
 
 In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file. 
   
@@ -91,7 +90,7 @@ The web.config file should look like the following example.
 > [!NOTE]
 > This is a partial web.config file. Additional XML sections are usually present between the configuration and system.web elements. The compilation element might also contain other attributes and elements.
   
-### Example  
+#### Example  
   
 ```  
 <configuration>  
@@ -110,7 +109,7 @@ The web.config file should look like the following example.
 > [!TIP]
 > If you are using an external server instead of the default IIS Express server, you must also make sure that the `targetFramework` attribute value matches the configuration on the server.
 
-# Configure project settings for the server
+## Configure project settings for the server
 
 For debugging on a local web server, set project properties. For debugging on a remote server, you will need more comprehensive instructions described in [Remote Debugging ASP.NET on IIS](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
@@ -128,7 +127,11 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     If the external server is local IIS, IIS must be configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
 
-# Set a breakpoint and start debugging
+## (local IIS web server) Configure deployment
+
+1. 
+
+## Set a breakpoint and start debugging
 
 1. In your project in Visual Studio, set a breakpoint on some C# or Visual Basic code that you know you can hit.
 
