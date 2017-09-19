@@ -52,7 +52,7 @@ A *project* is how Visual Studio manages all the files that come together to pro
 
 1. After a few moments, Visual Studio shows the project structure in the **Solution Explorer** window (1). The default code file is open in the editor (2). The properties window (3) also appears to show additional information for any item selected in Solution Explorer, including its exact location on disk.
  
-    ![Solution Explorer with a Python project](../images/vs-getting-started-python-02-window.png)
+    ![Solution Explorer with a Python project](../images/vs-getting-started-python-02-windows.png)
  
 1. Take a few moments to familiarize yourself with Solution Explorer, which is where you browse files and folders in your project.
     
