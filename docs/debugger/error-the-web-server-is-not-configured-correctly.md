@@ -48,9 +48,9 @@ Try these steps to resolve this issue:
 
 2. (IIS) Verify that the physical path is correct (in IIS, select the web site, choose **Basic Settings > Physical Path**).
 
-    The physical path may be incorrect if the web application was copied to a different machine, manually renamed, or moved. For older versions of IIS, the path may be found under the **Advanced Settings**. Reset IIS and retry.
+    The physical path may be incorrect if the web application was copied to a different machine, manually renamed, or moved. (For older versions of IIS, the path may be found under the **Advanced Settings**.) Reset IIS and retry.
 
-3. Verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+3. In Visual Studio, verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
     If you are using an external (custom) server such as IIS, the URL must be correct. Otherwise, select IIS Express and retry.
 
