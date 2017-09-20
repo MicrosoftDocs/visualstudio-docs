@@ -334,6 +334,6 @@ manager: "ghogen"
 ## See Also  
  [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md)   
  [IntelliTrace](/visualstudio/debugger/intellitrace)   
- [NIB: Walkthrough: Verify SharePoint Code by Using Unit Tests](http://msdn.microsoft.com/en-us/3d2c4aaf-3cb5-4825-b21b-f10222abe818)  
+ [Walkthrough: Verify SharePoint Code by Using Unit Tests](https://msdn.microsoft.com/en-us/library/gg599006(v=vs.100).aspx)  
   
   

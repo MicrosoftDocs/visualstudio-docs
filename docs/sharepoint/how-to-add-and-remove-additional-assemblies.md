@@ -115,6 +115,5 @@ manager: "ghogen"
  [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
- [NIB: Building SharePoint Solutions with Team Foundation Server](http://msdn.microsoft.com/en-us/700a570a-e98e-4425-aadd-34c014868d43)  
   
   
