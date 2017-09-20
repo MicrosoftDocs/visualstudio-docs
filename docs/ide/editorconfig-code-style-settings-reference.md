@@ -15,7 +15,7 @@ ms.assetid:
 caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: "davidcsa"
+manager: "ghogen"
 translation.priority.ht:
   - "cs-cz"
   - "de-de"
