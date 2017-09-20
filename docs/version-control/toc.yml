@@ -20,7 +20,7 @@
     href: /vsts/tfvc/share-your-code-in-tfvc-vs.md
 - name: Tutorials
   items:
-  - name Git
+  - name: Git
     href: /vsts/git/gitquickstart
     items:
     - name: Create a new repo
