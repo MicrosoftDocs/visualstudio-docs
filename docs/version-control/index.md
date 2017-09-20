@@ -124,7 +124,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/vs-ide.png" alt="" />
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
                         </div>
                     </div>
                     <div class="cardText">
