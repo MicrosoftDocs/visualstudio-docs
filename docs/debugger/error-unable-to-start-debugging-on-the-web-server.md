@@ -111,7 +111,7 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
-After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`, or you can perform a reset in IIS Manager. 
+After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`. 
 
 * Stop and restart your IIS Application Pools, then retry. 
 
