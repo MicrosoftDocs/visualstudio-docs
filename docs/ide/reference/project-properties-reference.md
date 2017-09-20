@@ -51,8 +51,6 @@ Learn more about how to configure and customize project properties.
 |[References Page, Project Designer (Visual Basic)](../../ide/reference/references-page-project-designer-visual-basic.md)|Use this page to manage references used by a project.|  
 |[Security Page, Project Designer](../../ide/reference/security-page-project-designer.md)|Use this page to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] deployment.|  
 |[Signing Page, Project Designer](../../ide/reference/signing-page-project-designer.md)|Use this page to sign application and deployment manifests, and sign the assembly.|  
-|||  
-|||  
   
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
