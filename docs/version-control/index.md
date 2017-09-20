@@ -21,7 +21,7 @@ Git is the most commonly used version control system today and is quickly becomi
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/vsts/git/share-your-code-in-git-vs?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
+        <a href="/vsts/git/share-your-code-in-git-vs-2017?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
