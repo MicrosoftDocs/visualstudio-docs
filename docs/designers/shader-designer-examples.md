@@ -5,14 +5,15 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f12f5dee-63ab-4376-9952-7f87f269e9c4
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
+ms.prod: """visual-studio-dev15"""
 ---
 # Shader Designer Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Shader Designer to create various graphics effects.  

@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4b204405-ba95-4c5e-bd51-ec033a3ebfb6
 caps.latest.revision: 18
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -28,6 +28,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.prod: """visual-studio-dev15"""
 ---
 # How to: Create a Geometry-Based Gradient Shader
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language to create a geometry-based gradient shader. This shader scales a constant RGB color value by the height of each point of an object in world space.  

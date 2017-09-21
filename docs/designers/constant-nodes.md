@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
 caps.latest.revision: 11
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -28,6 +28,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.prod: """visual-studio-dev15"""
 ---
 # Constant Nodes
 In the Shader Designer, constant nodes represent literal values and interpolated vertex attributes in pixel-shader calculations. Because vertex attributes are interpolated—and so, are different for each pixel—each pixel-shader instance receives a different version of the constant. This gives each pixel a unique appearance.  

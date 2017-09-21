@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -28,6 +28,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.prod: """visual-studio-dev15"""
 ---
 # Animate objects in XAML Designer
 You can create short animations that move objects, or fade them in and out.  

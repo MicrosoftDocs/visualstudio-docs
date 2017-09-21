@@ -5,14 +5,15 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
 caps.latest.revision: 7
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
+ms.prod: """visual-studio-dev15"""
 ---
 # How to: Export a Texture that Contains Mipmaps
 The Image Content Pipeline can generate mipmaps from a source image as part of your project's build phase. When you do not need to specify the image content of each MIP level manually—as you might do to achieve certain effects—generating mipmaps at build time ensures that mipmap contents never become out-of-sync and eliminates the performance cost of generating mipmaps at run time.  

@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8e90b252-646e-4449-a898-5f03e40df87d
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: """visual-studio-dev15"""
 ---
 # WPF Data Binding Using LINQ to XML Example
 This section provides a Windows Presentation Foundation (WPF) example that binds user interface components to an embedded XML data source. The name of this example (and the Visual Studio project that contains it) is *LinqToXmlDataBinding*.  

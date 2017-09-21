@@ -5,14 +5,15 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 caps.latest.revision: 8
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
+ms.prod: """visual-studio-dev15"""
 ---
 # Working with 3-D Models
 You can use the Model Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create 3-D models. You can use the models in your DirectX-based game or app.  

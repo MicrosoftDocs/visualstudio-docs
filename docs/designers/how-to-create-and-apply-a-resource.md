@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - """vs-ide-designers"""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.XamlDesigner.EditResource"
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -30,6 +30,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: """visual-studio-dev15"""
 ---
 # How to create and apply a resource
 Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A [ControlTemplate](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.controltemplate.aspx) defines the appearance of a control and can also be applied as a resource. For more info, see [Quickstart: styling controls](http://go.microsoft.com/fwlink/?LinkID=248239) and [QuickStart: control templates](http://go.microsoft.com/fwlink/?LinkID=247982).  
