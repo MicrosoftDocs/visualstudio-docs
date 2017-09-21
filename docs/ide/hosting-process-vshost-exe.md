@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "hosting process"
 ms.assetid: c6b9e2be-f18d-4d75-ac52-56d55784734b
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

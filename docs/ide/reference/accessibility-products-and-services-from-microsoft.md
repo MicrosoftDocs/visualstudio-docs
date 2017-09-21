@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "08/22/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "TTY/TDD services"
   - "documentation, recorded documentation"
   - "TDD services"
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "recorded documentation"
 ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
 caps.latest.revision: 14
-author: "TerryGLee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 ---

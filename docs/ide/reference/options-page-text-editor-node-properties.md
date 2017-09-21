@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
 ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

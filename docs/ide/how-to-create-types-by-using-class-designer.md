@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "attributes [Visual Studio], applying custom"
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "r Devenv switch (/r)"
 ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

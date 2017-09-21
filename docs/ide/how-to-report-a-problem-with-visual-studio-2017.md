@@ -8,10 +8,12 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 caps.latest.revision: 4
-author: "TerryGLee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 robots: noindex,nofollow
+ms.technology: 
+  - "vs-acquisition"
 ---
 # How to Report a Problem with Visual Studio 2017
 If you encounter a problem with Visual Studio, we want to know about it so that we can diagnose and fix it.  By using the **Report a Problem** tool, you can collect detailed  information about the problem and then send it to Microsoft with just a few button clicks.  

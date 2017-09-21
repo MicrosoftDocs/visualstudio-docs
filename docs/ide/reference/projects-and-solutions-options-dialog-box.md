@@ -8,16 +8,16 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.General"  
-  - "VS.ToolsOptionsPages.Projects.Locations"  
+f1_keywords: 
+  - "VS.ToolsOptionsPages.Projects.General"
+  - "VS.ToolsOptionsPages.Projects.Locations"
 helpviewer_keywords: 
   - "Projects and Solutions Options dialog box"
   - "Options dialog box, Projects and Solutions"
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Projects and Solutions, Options Dialog Box
