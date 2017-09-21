@@ -42,15 +42,17 @@ translation.priority.mt:
 
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`.
 
-Try these steps to resolve this issue:
+Take these steps to resolve this issue:
 
-1. If necessary, switch from a Release to a Debug build, and make sure that the web.config file contains `debug=true` in the compilation element. Reset IIS and retry.
+1. If the web app hosted on the server is configured as a Release build, republish as a Debug build, and verify that the web.config file contains `debug=true` in the compilation element. Reset IIS and retry.
 
-2. (IIS) Verify that the physical path is correct (in IIS, select the web site, choose **Basic Settings > Physical Path**).
+    For example, if you are using a Publish Profile for a Release build, change it to Debug and republish. Otherwise, the debug attribute will be set to `false` when you publish.
 
-    The physical path may be incorrect if the web application was copied to a different machine, manually renamed, or moved. (For older versions of IIS, the path may be found under the **Advanced Settings**.) Reset IIS and retry.
+2. (IIS) Verify that the physical path is correct. In IIS, you find this setting in **Basic Settings > Physical Path** (or **Advanced Settings** in older versions of IIS).
 
-3. In Visual Studio, verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+    The physical path may be incorrect if the web application was copied to a different machine, manually renamed, or moved. Reset IIS and retry.
+
+3. In Visual Studio, verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type. For a Web Forms project, open **Property Pages > Start Options > Server**).
 
     If you are using an external (custom) server such as IIS, the URL must be correct. Otherwise, select IIS Express and retry.
 
