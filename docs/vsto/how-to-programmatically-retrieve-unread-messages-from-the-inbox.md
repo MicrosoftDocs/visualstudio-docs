@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], unread mail"
 ms.assetid: 4ccfb146-4579-47b4-ab55-b49b02cdc726
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Retrieve Unread Messages from the Inbox

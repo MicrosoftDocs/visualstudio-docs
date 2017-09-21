@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "workbooks, running calculations"
 ms.assetid: 0bf30d93-8620-43ad-bfb8-f45bf3b5461f
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Run Excel Calculations  

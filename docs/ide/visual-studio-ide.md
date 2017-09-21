@@ -156,7 +156,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 Following are some other common productivity features in Visual Studio.  
 
-- The [Quick Launch](https://docs.microsoft.com/en-us/visualstudio/ide/reference/quick-launch-environment-options-dialog-box) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for and Visual Studio give you options that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any Workload or Individual component.
+- The [Quick Launch](https://docs.microsoft.com/en-us/visualstudio/ide/reference/quick-launch-environment-options-dialog-box) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
 
   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
@@ -164,7 +164,7 @@ Following are some other common productivity features in Visual Studio.
 
  ![Refactoring](../ide/media/VSIDE_refactor.png)  
 
--  **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
+-  **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:  
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)  
 
@@ -188,7 +188,7 @@ Following are some other common productivity features in Visual Studio.
 
  ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
-- A related tool, the [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what members (properties, methods, events) those types contain.
+- A related tool, the [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what members (properties, methods, events, etc.) those types contain.
 
   ![Object Browser showing System.Timer](../ide/media/objectbrowser.png)  
 

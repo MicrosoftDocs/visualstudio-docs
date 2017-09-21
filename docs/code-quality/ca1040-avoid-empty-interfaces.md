@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1040"
 ms.assetid: 120a741b-5fd1-4836-8453-7857e0cd0380
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], automating applications"
 ms.assetid: 77be5ab5-e330-4564-87ec-9cba564ba8f9
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Automating an Application from a Custom Task Pane

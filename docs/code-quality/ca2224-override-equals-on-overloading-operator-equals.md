@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2224"
 ms.assetid: 7312afd9-84ba-417f-923e-7a159b53bf70
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

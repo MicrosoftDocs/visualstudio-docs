@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create a Windows Forms user control that supports complex data binding
-When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.listBox>  
+When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>  
   
  For more information on control authoring, see [Developing Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).  
   
@@ -51,7 +51,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Add a new **User Control** to your project.  
   
@@ -66,20 +66,34 @@ When displaying data on forms in Windows applications, you can choose existing c
 -   Add the new control by dragging it from the **Data Sources Window** onto **Form1**.  
   
 ## Prerequisites  
- In order to complete this walkthrough, you will need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
-## Create a Windows Application  
- The first step is to create a **Windows Application**.  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSumpecuYdo6-SBYQyn1O0ZHI88uEks5ZwBYdwA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
+  
+## Create a Windows Forms Application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **ComplexControlWalkthrough**.  
-  
-3.  Select **Windows Application**, and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **ComplexControlWalkthrough**, and then choose **OK**. 
   
      The **ComplexControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -116,7 +130,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Creating a data source from your database  
- This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database.  
   
 #### To create the data source  
   

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "StaticConstructorsShouldBePrivate"
 ms.assetid: ee93c620-8fc1-4e47-866c-d389c3ca9f2e
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

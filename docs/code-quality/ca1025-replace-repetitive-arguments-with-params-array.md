@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1025"
 ms.assetid: f009b340-dea3-4459-8fe1-2143aa8b5d0b
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

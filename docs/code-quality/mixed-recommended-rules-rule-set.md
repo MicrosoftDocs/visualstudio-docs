@@ -10,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3186b5b-0149-4a75-826e-e3539e4e703f
 caps.latest.revision: 3
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2120"
 ms.assetid: e9989da1-55a0-43f8-9aa9-da86afae3b41
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "CA2241"
 ms.assetid: 83639bc4-4c91-4a07-a40e-dc5e49a84494
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -20,9 +20,9 @@ helpviewer_keywords:
   - "complexity managed code"
 ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

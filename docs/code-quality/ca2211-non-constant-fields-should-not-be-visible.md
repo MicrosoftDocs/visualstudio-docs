@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2211"
 ms.assetid: e1e42c40-0acd-4312-af29-70133739a304
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

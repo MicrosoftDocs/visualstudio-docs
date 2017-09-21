@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 ms.assetid: c5fccd45-cb3a-441c-89bf-257e9faf4587
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Globalization and Localization of Excel Solutions

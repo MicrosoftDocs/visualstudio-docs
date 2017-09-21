@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "DoNotLockOnObjectsWithWeakIdentity"
 ms.assetid: 16100b39-c6fc-452b-8fca-8b459a26c286
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

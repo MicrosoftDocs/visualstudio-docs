@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "MarkAttributesWithAttributeUsage"
 ms.assetid: 6ab70ec0-220f-4880-af31-45067703133c
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

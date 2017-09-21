@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "collapsing ranges"
 ms.assetid: 0bd059dd-8606-42ae-a8a9-97f8f3bd5cc5
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Collapse Ranges or Selections in Documents

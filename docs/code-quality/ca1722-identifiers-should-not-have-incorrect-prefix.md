@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectPrefix"
 ms.assetid: c3313c51-d004-4f9a-a0d1-6c4c4a1fb1e6
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "ImplementIDisposableCorrectly"
 ms.assetid: 12afb1ea-3a17-4a3f-a1f0-fcdb853e2359
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

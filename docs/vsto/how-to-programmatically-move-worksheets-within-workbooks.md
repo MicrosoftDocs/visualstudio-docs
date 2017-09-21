@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "workbooks, moving worksheets in"
 ms.assetid: a010a633-412e-4299-9587-cacb035842c1
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Move Worksheets Within Workbooks

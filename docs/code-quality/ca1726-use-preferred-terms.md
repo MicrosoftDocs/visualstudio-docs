@@ -15,9 +15,9 @@ helpviewer_keywords:
   - "UsePreferredTerms"
 ms.assetid: 642b2acd-3a33-4d1f-b0a7-67073ae73be2
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

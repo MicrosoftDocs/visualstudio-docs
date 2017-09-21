@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, unit testing"
 ms.assetid: b5f3bce2-6a51-41b1-a292-9e384bae420c
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Verifying and Debugging SharePoint Code

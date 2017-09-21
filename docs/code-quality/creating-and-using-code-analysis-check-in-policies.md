@@ -12,9 +12,9 @@ helpviewer_keywords:
   - "code analysis, check-in policies"
 ms.assetid: 3fa5a849-e05f-4e31-8ba3-b014c889d94d
 caps.latest.revision: 39
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

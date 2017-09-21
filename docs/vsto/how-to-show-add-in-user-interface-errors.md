@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
 ms.assetid: aa82cc04-e616-4501-940c-79d11fb393cc
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Show Add-in User Interface Errors

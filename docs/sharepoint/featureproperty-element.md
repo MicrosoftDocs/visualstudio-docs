@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "FeatureProperty element"
 ms.assetid: 36a771a6-98d0-4a40-a278-d76baea82452
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # FeatureProperty Element

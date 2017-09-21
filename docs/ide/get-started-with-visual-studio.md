@@ -95,7 +95,7 @@ To learn more about how to use the Output window for debugging, see [The Output 
 
 ## Access cloud-based resources
 
-If you want to use cloud-based resources in your app or game, you can do that by including [Azure services](https://azure.microsoft.com/en-us/services/). You can get the Azure SDK for .NET by installing the **Azure development** workload using the new Visual Studio Installer. The packages that are installed are at the same feature level as the 2.9.5 version of the SDK. For this version of Visual Studio and all future versions, the Azure SDK for .NET will only be available from the Visual Studio installer.
+If you want to use cloud-based resources in your app or game, you can do that by including [Azure services](https://azure.microsoft.com/en-us/services/). You can get the Azure SDK for .NET by installing the **Azure development** workload using the Visual Studio Installer. The packages that are installed are at the same feature level as the 2.9.5 version of the SDK. For this version of Visual Studio and all future versions, the Azure SDK for .NET will only be available from the Visual Studio installer.
 
 After installing the Azure development workload, a new tool window becomes available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
 

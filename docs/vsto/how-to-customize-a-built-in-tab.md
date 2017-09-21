@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "built-in tabs [Office development in Visual Studio]"
 ms.assetid: 197a7aaa-a51d-496c-b904-b9421849fad9
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Customize a Built-in Tab

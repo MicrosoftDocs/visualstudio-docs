@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "warnings, portability"
 ms.assetid: 902e859a-2153-4970-baaa-8a5b4a11806f
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

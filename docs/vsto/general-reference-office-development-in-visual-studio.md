@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, reference"
 ms.assetid: c7e78186-ee32-4dc1-b1fb-38310b1aadf7
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # General Reference (Office Development in Visual Studio)

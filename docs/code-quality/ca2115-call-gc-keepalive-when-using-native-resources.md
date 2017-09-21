@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CallGCKeepAliveWhenUsingNativeResources"
 ms.assetid: f00a59a7-2c6a-4bbe-a1b3-7bf77d366f34
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

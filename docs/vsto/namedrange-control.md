@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "NamedRange control"
 ms.assetid: 07878c7c-cb5a-4f98-95c4-e828de25dae5
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # NamedRange Control

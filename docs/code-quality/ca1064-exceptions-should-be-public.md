@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA1064"
 ms.assetid: 83eb224c-2456-4368-acf4-3b3378e67759
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
