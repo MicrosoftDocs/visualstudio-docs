@@ -1012,37 +1012,60 @@ csharp_indent_switch_labels = true
 ### <a name="label">Label Positioning</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_indent_labels`  |  C#  | one_less | Visual Studio 2017 v. 15.3  |
+|`csharp_indent_labels`  |  C#  | no_change | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 
 | ------------- |:-------------|
-| one_less | Labels are placed at one less indent to the current context |
+| flush_left | Labels are placed at the leftmost column |
+| one_less_than_current | Labels are placed at one less indent to the current context |
 | no_change | Labels are placed at the same indent as the current context |
 
 #### Applied:
+
 ```csharp
-// csharp_indent_labels = one_less
-private string MyMethod(...) 
+// csharp_indent_labels= flush_left
+class C
 {
-    if (...) {
-        goto error;
-    }
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
 error:
-    throw new Exception(...);
+        throw new Exception(...);
+    }
+}
+```
+
+```csharp
+// csharp_indent_labels = one_less_than_current
+class C
+{
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
+    error:
+        throw new Exception(...);
+    }
 }
 
 ```
 
 ```csharp
 // csharp_indent_labels= no_change
-private string MyMethod(...) 
+class C
 {
-    if (...) {
-        goto error;
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
+        error:
+        throw new Exception(...);
     }
-    error:
-    throw new Exception(...);
 }
 ```
 
@@ -1050,7 +1073,7 @@ private string MyMethod(...)
 ```
 # CSharp formatting settings:
 [*.cs]
-csharp_indent_labels = one_less
+csharp_indent_labels = flush_left
 ``` 
 
 ## <a name="spacing">Spacing Options</a>
