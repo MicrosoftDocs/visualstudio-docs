@@ -18,8 +18,8 @@ dev_langs:
 helpviewer_keywords: 
   - "refactoring [VB]"
 ms.assetid: 7312ea3f-7045-41e8-a699-7b580508d074
-author: "gewarren"
-ms.author: "gewarren"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
