@@ -50,6 +50,9 @@ Additionally, the Snapshot Debugger is only available for **Visual Studio Enterp
 
 2. Install the [Snapshot Debugger extension](http://aka.ms/snapshotdebuggervsix) for Visual Studio. This extension will enable you to set snappoints and logpoints against apps running in Azure App Services.
 
+    > [!IMPORTANT]
+    > Unfortunately, the download is currently offline due to technical difficulties. Please sign up for updates on this [survey page](https://www.surveymonkey.com/r/R7727FG).
+
 3. Open the project you would like to snapshot debug. 
 
     > [!NOTE] 
