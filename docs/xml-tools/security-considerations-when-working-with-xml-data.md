@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Security Considerations when Working with XML Data
 This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.  

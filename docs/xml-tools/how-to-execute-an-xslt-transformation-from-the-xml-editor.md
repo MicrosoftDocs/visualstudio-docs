@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Execute an XSLT Transformation from the XML Editor
 The XML Editor allows you to associate an XSLT style sheet with an XML document, perform the transformation, and view the output. The resulting output from the XSLT transformation is displayed in a new document window.  

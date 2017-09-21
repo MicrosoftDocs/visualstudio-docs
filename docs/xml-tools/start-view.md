@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Start View
 The Start View is the launching point for the XML Schema (XSD) Designer. When you create a new XSD file, you will initially see the Start View.  

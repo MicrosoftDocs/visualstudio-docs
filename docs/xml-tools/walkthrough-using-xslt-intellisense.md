@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Walkthrough: Using XSLT IntelliSense
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.  

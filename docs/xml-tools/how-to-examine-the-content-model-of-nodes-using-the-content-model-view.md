@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Examine the Content Model of Nodes Using the Content Model View
 This topic describes how to explore your nodes using the [Content Model View](../xml-tools/content-model-view.md).  

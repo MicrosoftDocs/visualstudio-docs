@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Integration of XML Literals with XML Schema Explorer
 Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML Literals Overview](http://go.microsoft.com/fwlink/?LinkId=140325).  

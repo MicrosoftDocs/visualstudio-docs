@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Create and Edit an XSD Schema File
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.  

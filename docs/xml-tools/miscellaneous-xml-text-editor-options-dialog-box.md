@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Miscellaneous, XML, Text Editor, Options Dialog Box
 This dialog box allows you to change the auto-completion and schema settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.  

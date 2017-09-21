@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Debugger User Interface (XSLT)
 This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.  

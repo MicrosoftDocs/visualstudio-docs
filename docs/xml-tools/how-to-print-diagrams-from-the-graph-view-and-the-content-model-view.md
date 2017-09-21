@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Print Diagrams from the Graph View and the Content Model View
 This topic describes how to print a diagram from the Graph View or the Content Model View.  

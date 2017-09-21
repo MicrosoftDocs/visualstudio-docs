@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Use XML Snippets
 You can invoke XML snippets by using the following two commands on the XML Editor shortcut menu. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Each XML snippet has designated snippet types. The snippet types determine whether the snippet is available with the **Insert Snippet** command, the **Surround With** command, or both.  

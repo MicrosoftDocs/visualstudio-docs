@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Use Breakpoints with XSLT
 You can set breakpoints in an XSLT style sheet or in the XML source document. If you set a breakpoint on a tag, when execution starts the breakpoint will move to the next statement that has source line information.  

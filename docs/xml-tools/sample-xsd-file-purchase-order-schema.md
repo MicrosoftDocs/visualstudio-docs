@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Sample XSD File: Purchase Order Schema
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.  

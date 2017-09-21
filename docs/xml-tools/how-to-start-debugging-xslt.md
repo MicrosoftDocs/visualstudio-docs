@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Start Debugging XSLT
 The XSLT debugger can be used to debug an XSLT style sheet or an XSLT application. When debugging, you can execute code one line at a time by stepping into, stepping over, or stepping out of the code. The commands to use the code-stepping functionality are the same for the XSLT debugger as for the other Visual Studio debuggers. Once you start debugging, the XSLT debugger opens windows to show the input document and the XSLT output.  

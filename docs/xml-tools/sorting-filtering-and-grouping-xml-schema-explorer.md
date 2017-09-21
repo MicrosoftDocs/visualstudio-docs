@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Sorting, Filtering, and Grouping (XML Schema Explorer)
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the XML Schema Explorer toolbar.  

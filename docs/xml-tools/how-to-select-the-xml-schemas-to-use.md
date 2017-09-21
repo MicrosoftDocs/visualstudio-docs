@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Select the XML Schemas to Use
 The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.  

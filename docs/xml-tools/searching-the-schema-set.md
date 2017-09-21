@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Searching the Schema Set
 The XML Schema Explorer enables you to search the schema set in the following ways:  

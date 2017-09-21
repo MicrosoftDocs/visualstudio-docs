@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Walkthrough: Using XML Editor Features
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.  

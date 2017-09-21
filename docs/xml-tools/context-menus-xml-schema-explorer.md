@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Context Menus (XML Schema Explorer)
 The following context menu items are used to perform schema-specific searches and other operations.  

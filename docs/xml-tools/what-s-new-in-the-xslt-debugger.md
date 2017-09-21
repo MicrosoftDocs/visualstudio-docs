@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # What&#39;s New in the XSLT Debugger
 The following features are new in Visual Studio 2010.  

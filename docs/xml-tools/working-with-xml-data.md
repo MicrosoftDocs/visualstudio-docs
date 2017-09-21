@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Working with XML Data
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  

@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # XML Editor
 The XML Editor is based on the [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  

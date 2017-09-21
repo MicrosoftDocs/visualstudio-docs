@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Use the XML Schema Designer with XML Literals
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.  
