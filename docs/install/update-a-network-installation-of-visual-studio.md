@@ -41,7 +41,7 @@ Let's walk through how to create and then update a layout:
   vs_enterprise.exe --layout c:\VS2017Layout  
   ```
 
-* Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that may have occurred. If you are performing a layout operation in an unattended manner (e.g. you have a script that is regularly run to update your layout to the latest version) use the --passive parameter and the process will close the window automatically.
+* Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
   ``` 
   vs_enterprise.exe --layout c:\VS2017Layout --passive 
