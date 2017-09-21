@@ -22,7 +22,7 @@ translation.priority.ht:
 
 3. Click **Publish**.
 
-    Visual Studio publishes the project the folder. Progress shows in the Output window.
+    Visual Studio publishes the project to the folder. Progress shows in the Output window.
 
 4. In the **Publish** dialog box, click the **Settings** link, and then select the **Settings** tab.
 
