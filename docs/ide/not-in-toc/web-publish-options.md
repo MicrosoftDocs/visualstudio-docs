@@ -5,7 +5,7 @@ ms.date: "03/09/2017"
 ms.reviewer: "riande"
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 

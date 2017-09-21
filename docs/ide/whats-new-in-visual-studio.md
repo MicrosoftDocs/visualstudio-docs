@@ -16,7 +16,7 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ---
 # What&#39;s New in Visual Studio 2017
 #### Updated for the 15.3 release

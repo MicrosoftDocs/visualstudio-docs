@@ -29,7 +29,7 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ---
 # Talk to Us
 We're interested in your ideas for improving our products and our documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  
