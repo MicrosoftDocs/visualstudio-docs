@@ -2,10 +2,9 @@
 title: Data Science and Analytical Applications Workload in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 9/5/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
   - "devlang-python"
   - "devlang-fsharp"

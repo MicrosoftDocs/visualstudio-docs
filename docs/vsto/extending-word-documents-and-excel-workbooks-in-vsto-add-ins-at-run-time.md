@@ -2,7 +2,6 @@
 title: "Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

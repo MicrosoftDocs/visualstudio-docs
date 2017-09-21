@@ -2,7 +2,6 @@
 title: "How to: Permit Code to Run Behind Documents with Restricted Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
