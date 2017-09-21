@@ -10,11 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.err.debug_in_zone_no_hostproc"
-  - 
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Advanced Security Settings dialog box"
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d

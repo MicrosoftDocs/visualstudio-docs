@@ -57,7 +57,7 @@ You can always return to this dialog box at any time to change the setting for a
 
 ## <a name="speed_up_solution_load"></a>Load large solutions faster in Visual Studio 2017
 
-Visual Studio 2017 introduces a new feature called lightweight solution load that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load. For detailed information on how you might benefit by using this feature, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio).
+Visual Studio 2017 introduces a new feature called lightweight solution load that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load. For detailed information on how you might benefit by using this feature, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md).
 
 > [!NOTE]
 > This content applies to Visual Studio 2017 Update 3.
