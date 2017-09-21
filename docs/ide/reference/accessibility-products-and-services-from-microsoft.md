@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "recorded documentation"
 ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
 caps.latest.revision: 14
-author: TerryGLee
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---
