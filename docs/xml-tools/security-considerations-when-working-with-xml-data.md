@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fce2b708-1aef-454f-be59-52b76f359351
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # Security Considerations when Working with XML Data
 This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.  

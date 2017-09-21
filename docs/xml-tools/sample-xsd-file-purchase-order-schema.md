@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # Sample XSD File: Purchase Order Schema
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.  

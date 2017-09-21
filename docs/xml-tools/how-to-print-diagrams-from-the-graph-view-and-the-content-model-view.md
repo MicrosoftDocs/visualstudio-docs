@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e1785e4-4aaf-4c66-8735-51e7ca035565
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # How to: Print Diagrams from the Graph View and the Content Model View
 This topic describes how to print a diagram from the Graph View or the Content Model View.  

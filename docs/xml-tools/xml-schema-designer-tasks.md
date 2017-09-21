@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f413f208-696f-446a-bb78-7fc55cf96d6c
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # XML Schema Designer Tasks
 This section describes how to complete common tasks with the XML Schema Designer tools.  

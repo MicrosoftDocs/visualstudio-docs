@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # How to: Create and Edit an XSD Schema File
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.  

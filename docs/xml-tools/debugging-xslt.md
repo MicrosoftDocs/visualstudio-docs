@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 344940bd-c41e-4ed9-8458-3e3aa8e6bb37
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # Debugging XSLT
 You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on. XSLT debugging is available in the Visual Studio Team System and the Professional Edition.  

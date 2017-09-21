@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 080bed0f-0ca9-4be7-aecd-6bdaebc04007
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # Editing XSLT Style Sheets
 The XML Editor can also be used to edit XSLT style sheets. You can take advantage of the default Editor features such as IntelliSense, outlining, XML snippets, and so on. In addition, there are also new features that make it easier to develop in XSLT.  

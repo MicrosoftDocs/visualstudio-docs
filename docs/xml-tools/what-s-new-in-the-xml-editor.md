@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd335a8d-6692-4a4c-9b5f-aa98f1fcaba3
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -28,6 +28,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.prod: "visual-studio-dev15"
 ---
 # What&#39;s New in the XML Editor
 The following features are new in Visual Studio 2010.  

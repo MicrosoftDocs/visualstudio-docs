@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 417ec1ca-e2fa-4496-87cb-ac04c9f26741
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # XML Editor Components
 This section discusses the XML Editor windows and dialog boxes. Because the XML Editor is based on the Text Editor, some of the integrated development environment (IDE) is configured using the general Text Editor settings.  

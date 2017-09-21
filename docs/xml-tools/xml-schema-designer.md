@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffdf63ee-faa6-45b7-bbf9-a5644dc8aca2
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # XML Schema Designer
 The XML Schema Designer (XSD Designer) is a graphical tool that allows you to visualize a schema set at different levels of abstraction. The following are the main components of the XSD Designer:  

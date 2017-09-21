@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cb69fbbd-d99c-439e-9498-5df9050f8df0
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # How to: Switch Between Views and the XML Editor
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML Editor. This example uses the [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md).  

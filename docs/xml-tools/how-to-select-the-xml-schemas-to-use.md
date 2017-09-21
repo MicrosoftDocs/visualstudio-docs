@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # How to: Select the XML Schemas to Use
 The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.  

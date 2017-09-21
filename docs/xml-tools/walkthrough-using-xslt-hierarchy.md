@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5e60c8ec-cd05-4597-b856-55038218acf4
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # Walkthrough: Using XSLT Hierarchy
 The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style sheet often uses `includes` and `imports` instructions. Compilation starts from the principal style sheet, but when you see an error as a result of compiling an XSLT style sheet, the error may come from a different source than the principal style sheet. Fixing the error or editing the style sheet may require access to included or imported style sheets. Stepping through the style sheet in the debugger may open included and imported style sheets, and you may want to add a breakpoint at some point in one or more of the included style sheets.  

@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: abb353bd-6c4a-4978-b03b-a8c245bbfb55
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # XML Document Validation
 The XML Editor checks XML 1.0 syntax and also performs data validation as you type. The editor can validate using a document type definition (DTD) or a schema. Red wavy underlines highlight any XML 1.0 well-formed errors. Blue wavy underlines show semantic errors based on DTD or schema validation. Each error has an associated entry in the error list. You can also view the error message by pausing the mouse over the wavy underline.  

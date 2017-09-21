@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fc7af94-dcb8-4226-a577-43f03664388b
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -27,6 +27,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.prod: "visual-studio-dev15"
 ---
 # How to: Add Nodes to the Workspace from the Start View
 This topic describes how to add global nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md) from the [Start View](../xml-tools/start-view.md).  
