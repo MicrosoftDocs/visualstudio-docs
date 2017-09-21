@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
 caps.latest.revision: 1
-author: Mikejo5000
-ms.author: mikejo
+author: "Mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
