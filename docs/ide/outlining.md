@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "outlining code"
 ms.assetid: d1476758-9d35-4d74-b63c-310661932ecd
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

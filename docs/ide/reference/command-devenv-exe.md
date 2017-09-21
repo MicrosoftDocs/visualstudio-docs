@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "/command Devenv switch"
 ms.assetid: 13c20cd6-f09d-400a-8b7b-ecc266a32cef
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

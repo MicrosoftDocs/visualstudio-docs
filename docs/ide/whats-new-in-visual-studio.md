@@ -6,15 +6,17 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.StartPage.WhatsNew"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
+ms.technology: 
+  - "vs-ide-general"
 ---
 # What&#39;s New in Visual Studio 2017
 #### Updated for the 15.3 release

@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -23,7 +23,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

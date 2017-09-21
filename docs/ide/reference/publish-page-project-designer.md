@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 ms.assetid: 153527c6-8b95-4003-8e8e-03a489d0a629
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

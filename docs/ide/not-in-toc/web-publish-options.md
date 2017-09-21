@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "03/09/2017"
 ms.reviewer: "riande"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
 caps.latest.revision: 1
-author: "kraigb"
-ms.author: "kraigb"
+author: mikejo
+ms.author: mikejo
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

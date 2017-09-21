@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "tglee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

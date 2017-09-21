@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ListRegisters command"
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

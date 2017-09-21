@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Open Project command"
 ms.assetid: baa85f86-041b-49f4-9ced-0c397dc180e1
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

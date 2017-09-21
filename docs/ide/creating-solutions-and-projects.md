@@ -4,25 +4,24 @@ ms.custom: ""
 ms.date: "03/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "solutions [Visual Studio], deleting"
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
 ms.assetid: 836f8ca0-3fc9-4f4b-9090-45f2e4d2e9c8
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-
 ---
 
 # Create solutions and projects

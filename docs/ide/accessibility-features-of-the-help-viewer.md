@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Help Viewer 2.0, accessibility features"
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

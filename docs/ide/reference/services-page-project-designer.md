@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Project Designer, Services page"
 ms.assetid: 6dd9e0fa-acba-4d7d-b081-705b0fc86ff5
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

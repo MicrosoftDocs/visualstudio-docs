@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

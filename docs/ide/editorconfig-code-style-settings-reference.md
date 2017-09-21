@@ -6,17 +6,17 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "CSharp"
   - "VB"
-helpviewer_keywords:
-  - "editor"  
-ms.assetid:
+helpviewer_keywords: 
+  - "editor"
+ms.assetid: 
 caps.latest.revision: 01
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: kuhlenh
+ms.author: kaseyu
 manager: "davidcsa"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -30,6 +30,8 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: 
+  - "vs-ide-editor"
 ---
 
 # .NET Coding Convention Settings For EditorConfig
