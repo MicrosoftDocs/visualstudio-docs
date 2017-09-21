@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "09/15/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-author: "TerryGLee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 ---

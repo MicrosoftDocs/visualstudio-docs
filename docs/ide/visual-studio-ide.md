@@ -8,10 +8,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -21,11 +21,13 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: 
+  - "vs-ide-general"
 ---
 # Visual Studio IDE feature tour
 This topic introduces you to the features of the Visual Studio IDE. The Visual Studio IDE is an interactive development environment (IDE); a creative launching pad that you can use to view and edit nearly any kind of code, and then debug, build, and publish apps for Android, iOS, Windows, the web, and the cloud. There are versions available for Mac and Windows. We'll walk through some things you can do with Visual Studio and how to install and use it, walk through creating a simple project, get pointers on debugging and deploying code, and take a tour of the various tool windows.

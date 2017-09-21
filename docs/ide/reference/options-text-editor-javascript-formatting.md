@@ -14,8 +14,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.New_Lines"
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

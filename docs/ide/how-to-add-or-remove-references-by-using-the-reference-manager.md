@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ReferenceManager"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual C# projects, references"
   - "references [Visual Studio], adding"
   - "assemblies [Visual Studio], references"
@@ -24,10 +24,10 @@ helpviewer_keywords:
   - "referencing components, assemblies not listed"
 ms.assetid: 1aabb520-99b0-46c6-9368-21b4d84793eb
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

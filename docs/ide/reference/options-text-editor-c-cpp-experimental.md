@@ -12,8 +12,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
 ms.assetid: b9e9dda2-350c-460d-b368-37d6c5342eee
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -30,6 +30,8 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: 
+  - "vs-ide-general"
 ---
 # Options, Text Editor, C/C++, Experimental
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release. This topic describes the options in Visual Studio 2017. For Visual Studio 2015, see [Options, Text Editor, C/C++, Experimental](https://msdn.microsoft.com/library/mt591979.aspx) 

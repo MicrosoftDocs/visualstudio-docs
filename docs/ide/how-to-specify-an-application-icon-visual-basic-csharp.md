@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "application icons [Visual Studio]"
 ms.assetid: ad8e14ed-adc2-45b6-a0be-818b16d5616f
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

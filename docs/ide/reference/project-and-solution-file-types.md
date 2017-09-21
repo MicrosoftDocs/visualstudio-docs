@@ -31,8 +31,8 @@ helpviewer_keywords:
   - "file types"
 ms.assetid: 0ba5007b-465d-4efa-b1e4-f0ee68527649
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

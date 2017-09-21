@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
