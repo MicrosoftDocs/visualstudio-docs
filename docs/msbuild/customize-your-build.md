@@ -92,7 +92,7 @@ It might be desirable to have common properties for all projects `(1)`, common p
 
 For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the "outer" file (`1`), you must take into account that once msbuild finds a `Directory.Build.props` file, it stops further scanning. To continue scanning, and merge into the outer file, place this into both inner files:
 
-`<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props'))" />`
+`<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />`
 
 A summary of msbuild's general approach is as follows:
 

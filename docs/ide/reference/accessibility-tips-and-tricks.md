@@ -1,7 +1,7 @@
 ---
-title: "Accessibility tips and tricks | Microsoft Docs"
+title: "Accessibility tips and tricks for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/05/2017"
+ms.date: "09/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -15,14 +15,25 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---
-# Accessibility tips and tricks
+# Accessibility tips and tricks for Visual Studio
 > [!TIP]
 > To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
-Visual Studio includes built-in accessibility features so you can easily work from the keyboard and use screen readers, or other assistive technologies and devices. The topic includes some suggestions for optimizing Visual Studio for accessibility as well as some useful shortcut key combinations. Use shortcut key combinations enable you to perform tasks in Visual Studio by using the keyboard, and sound cues in Windows to let you know when you have a breakpoint in your debugging process.
+Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists common shortcut key combinations that you can use to perform tasks with the keyboard only, and includes information about using high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
 
 ## Save your IDE settings  
  You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
+
+## Modify your IDE for high-contrast viewing
+For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
+
+  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "See the difference between the Blue theme and the Blue Extra Contrast theme")
+
+## Use Annotations to reveal useful information about your code
+
+The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
+
+  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
 
 ## Access toolbars by using shortcut key combinations
 The Visual Studio IDE has toolbars as do many tool windows. The following shortcut key combinations help you access them.
@@ -75,7 +86,9 @@ Here's how.
 
   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Double-click Change System Sounds in the Search results")
 
-4. Click **OK**, and you're all set.
+4. Click **OK**.
+
+
 
 ## See also  
 * [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

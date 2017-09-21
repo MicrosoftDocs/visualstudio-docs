@@ -48,7 +48,7 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
 -   [Add new data sources](../data-tools/add-new-data-sources.md)  
   
--   [Entity Data Model Tools in Visual Studio](../data-tools/entity-data-model-tools-in-visual-studio.md)  
+-   [Entity Framework Tools in Visual Studio](../data-tools/entity-data-model-tools-in-visual-studio.md)  
   
 -   [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)  
   
