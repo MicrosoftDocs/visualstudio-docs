@@ -1,5 +1,6 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring/change-method-signature
+
 title: "Reorder Parameters Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -18,9 +19,9 @@ helpviewer_keywords:
   - "Reorder Parameters refactoring [C#]"
 ms.assetid: 4dabf21a-a9f0-41e9-b11b-55760cf2bd90
 caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

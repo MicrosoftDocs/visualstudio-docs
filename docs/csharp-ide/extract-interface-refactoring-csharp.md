@@ -1,5 +1,7 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring/extract-interface
+
+
 title: "Extract Interface Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -16,9 +18,9 @@ helpviewer_keywords:
   - "Extract Interface refactoring operation [C#]"
 ms.assetid: 7d0aa225-3b33-4331-9652-5a67cac6f3d0
 caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

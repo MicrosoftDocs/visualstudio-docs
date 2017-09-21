@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "app.config files, adding to C# projects"
 ms.assetid: 9caf6bb0-c2fc-4ab6-ba69-bed3b880fbf8
 caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

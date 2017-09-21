@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "refactoring [C#]"
 ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
 caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: "BrianPeek"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

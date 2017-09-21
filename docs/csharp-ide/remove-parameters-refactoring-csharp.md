@@ -1,5 +1,6 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring/change-method-signature
+
 title: "Remove Parameters Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -19,9 +20,9 @@ helpviewer_keywords:
   - "Remove Parameters refactoring [C#]"
 ms.assetid: f4fc3265-0ef8-4398-a691-c338178697a6
 caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

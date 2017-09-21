@@ -1,5 +1,6 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring/rename
+
 title: "Rename Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -16,9 +17,9 @@ helpviewer_keywords:
   - "Rename refactoring [C#]"
 ms.assetid: 268942fc-b142-4dfa-8d90-bedd548c2e4f
 caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

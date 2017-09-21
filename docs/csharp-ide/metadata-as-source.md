@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "metadata as source [C#]"
 ms.assetid: 4945a07f-b3be-4f05-a587-fc29058aa8fa
 caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
-manager: "ghogen"
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
