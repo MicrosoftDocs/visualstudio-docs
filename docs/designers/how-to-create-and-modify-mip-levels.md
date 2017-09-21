@@ -13,7 +13,6 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Create and Modify MIP Levels
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).  

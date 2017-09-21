@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Value (XElement Dynamic Property)
 Gets or sets the content of the element.  

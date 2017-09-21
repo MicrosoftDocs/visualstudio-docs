@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Working with Textures and Images
 You can use the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  

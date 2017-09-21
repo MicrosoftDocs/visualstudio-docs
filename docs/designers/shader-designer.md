@@ -31,7 +31,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Shader Designer
 This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  

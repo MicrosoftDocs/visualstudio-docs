@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Export a Shader
 This document demonstrates how to use the Shader Designer to export a Directed Graph Shader Language (DGSL) shader so that you can use it in your app.  

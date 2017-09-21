@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Descendants (XElement Dynamic Property)
 Gets an indexer used to retrieve all the descendant elements of the current element that match the specified expanded name.  

@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # WPF Community Resources
 Microsoft exposes a variety of community resources for you to learn about, discuss, and provide feedback on Windows Presentation Foundation (WPF), including blogs produced by WPF team members and community leaders, forums, and the Microsoft Connect feedback center.  

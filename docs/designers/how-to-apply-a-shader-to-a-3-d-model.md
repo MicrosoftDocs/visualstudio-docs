@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Apply a Shader to a 3-D Model
 This document demonstrates how to use the Model Editor to apply a Directed Graph Shader Language (DGSL) shader to a 3-D model.  

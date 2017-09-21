@@ -16,7 +16,6 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Image Editor
 This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.  

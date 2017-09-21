@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Attribute (XElement Dynamic Property)
 Gets an indexer used to retrieve the attribute instance that corresponds to the specified expanded name.  

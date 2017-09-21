@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Math Nodes
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.  

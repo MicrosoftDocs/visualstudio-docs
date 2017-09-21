@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Insert images, videos, and audio clips in XAML Designer
 Images, videos, and audio clips add visual appeal to your app.  

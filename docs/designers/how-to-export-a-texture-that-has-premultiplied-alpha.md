@@ -13,7 +13,6 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Export a Texture that has Premultiplied Alpha
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.  

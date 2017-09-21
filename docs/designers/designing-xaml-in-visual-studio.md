@@ -13,7 +13,6 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Designing XAML in Visual Studio
 

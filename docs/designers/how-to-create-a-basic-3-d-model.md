@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Create a Basic 3-D Model
 This document demonstrates how to use the Model Editor to create a basic 3-D model.  

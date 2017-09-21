@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Model 3-D Terrain
 This document demonstrates how to use the Model Editor to create a 3-D terrain model.  

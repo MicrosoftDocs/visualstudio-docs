@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Artboard modifier keys in Blend
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.  

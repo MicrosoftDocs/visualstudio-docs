@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # XElement Class Dynamic Properties
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  

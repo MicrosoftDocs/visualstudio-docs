@@ -30,7 +30,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Value (XAttribute Dynamic Property)
 Gets or sets the value of the XML attribute.  

@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Keyboard shortcuts  for XAML Designer
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.  

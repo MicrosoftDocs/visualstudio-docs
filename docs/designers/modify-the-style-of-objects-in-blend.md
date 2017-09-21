@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Modify the style of objects in Blend
 The easiest way to customize an object is to set properties in the **Properties** pane.  

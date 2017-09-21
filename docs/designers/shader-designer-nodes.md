@@ -13,7 +13,6 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Shader Designer Nodes
 The articles in this section of the documentation contain information about the various Shader Designer nodes that you can use to create graphics effects.  

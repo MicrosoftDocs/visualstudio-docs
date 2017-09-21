@@ -27,7 +27,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Walkthrough: LinqToXmlDataBinding Example
 This walkthrough describes the LinqToXmlDataBinding example, and explains some of the more interesting contents of its two primary source files, L2DBForm.xaml and L2DBForm.xaml.cs.  

@@ -16,7 +16,6 @@ caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Model Editor
 This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to view, create, and modify 3-D models.  

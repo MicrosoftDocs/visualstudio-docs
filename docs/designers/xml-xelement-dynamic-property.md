@@ -29,7 +29,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Xml (XElement Dynamic Property)
 Gets the unformatted XML content of the element.  

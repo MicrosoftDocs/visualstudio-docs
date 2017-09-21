@@ -13,7 +13,6 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Image Editor Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.  

@@ -13,7 +13,6 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Designing User Interfaces
 You can create and design the user interface for your application by using a variety of tools in Visual Studio.

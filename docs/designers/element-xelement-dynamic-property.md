@@ -30,7 +30,6 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
-ms.prod: "visual-studio-dev15"
 ---
 # Element (XElement Dynamic Property)
 Gets an indexer used to retrieve the child element instance that corresponds to the specified expanded name.  

@@ -13,7 +13,6 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-ms.prod: "visual-studio-dev15"
 ---
 # Create Modern Desktop Applications with Windows Presentation Foundation
 

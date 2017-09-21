@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # How to: Modify the Pivot Point of a 3-D Model
 This document demonstrates how to use the Model Editor to modify the *pivot point* of a 3-D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.  

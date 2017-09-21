@@ -28,7 +28,6 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
-ms.prod: "visual-studio-dev15"
 ---
 # Introduction to WPF
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.  
