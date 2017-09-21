@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 ms.assetid: 99934f9e-901e-464e-ac8c-22c6c86440f4
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Calling into the SharePoint Object Models

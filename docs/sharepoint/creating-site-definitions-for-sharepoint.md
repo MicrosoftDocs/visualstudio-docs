@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "site definitions [SharePoint development in Visual Studio]"
 ms.assetid: 83db570d-6b9f-4dab-9e71-db41f17b987a
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Site Definitions for SharePoint

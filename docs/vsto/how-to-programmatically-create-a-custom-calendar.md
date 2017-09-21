@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "appointments [Office development in Visual Studio]"
 ms.assetid: 8272b53f-4cf0-46ee-b80e-93aa680cd9f5
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create a Custom Calendar

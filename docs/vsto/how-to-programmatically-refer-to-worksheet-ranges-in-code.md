@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], referring to worksheet ranges"
 ms.assetid: 113633b8-426a-4d02-b6b8-d459d1f110ea
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Refer to Worksheet Ranges in Code

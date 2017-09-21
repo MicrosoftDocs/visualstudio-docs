@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], current item"
 ms.assetid: b4fb5ccd-b297-463e-9208-1fec42482531
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Determine the Current Outlook Item

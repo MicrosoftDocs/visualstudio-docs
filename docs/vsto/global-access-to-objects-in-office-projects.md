@@ -34,8 +34,8 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 ms.assetid: f6a7f0ef-75d0-4a9b-9aec-be95ffa26adf
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Global Access to Objects in Office Projects

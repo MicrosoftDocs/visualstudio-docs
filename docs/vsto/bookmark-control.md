@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Bookmark control"
 ms.assetid: 940bf165-18c9-4db8-a46c-aad786b8bbad
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Bookmark Control

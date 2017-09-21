@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], opening without running code"
 ms.assetid: a853d91c-9fd6-421a-b3a2-956b6b494b96
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Open Office Solutions without Running Code

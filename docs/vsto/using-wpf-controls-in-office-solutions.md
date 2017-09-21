@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
 ms.assetid: 305a212b-0a95-40ad-87aa-22896fe80a04
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Using WPF Controls in Office Solutions

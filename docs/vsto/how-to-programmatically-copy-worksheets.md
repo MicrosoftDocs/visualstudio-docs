@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], copying worksheets"
 ms.assetid: e49e03f5-7b2f-416b-b5fe-0965336c47e1
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Copy Worksheets

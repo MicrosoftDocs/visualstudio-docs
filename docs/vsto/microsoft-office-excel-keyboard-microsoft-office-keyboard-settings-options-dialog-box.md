@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "keyboard shortcuts, Office development in Visual Studio"
 ms.assetid: 2a8b9e70-66fa-4461-8039-b6d8a2fbb963
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box

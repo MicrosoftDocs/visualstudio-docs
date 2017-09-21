@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "error messages, Office development in Visual Studio"
 ms.assetid: 7f74b826-8770-40d2-939b-4a4f20373f5a
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Error Messages (Office Development in Visual Studio)

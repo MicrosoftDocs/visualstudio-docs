@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], creating your first project"
 ms.assetid: 9d857be7-5c74-4303-baf4-672afc1ea397
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First VSTO Add-in for Word

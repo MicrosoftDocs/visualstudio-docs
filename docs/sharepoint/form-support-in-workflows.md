@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 ms.assetid: 1706f6a2-ea84-4234-85ae-19feb8540507
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Form Support in Workflows

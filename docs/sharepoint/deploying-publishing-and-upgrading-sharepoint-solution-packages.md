@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 ms.assetid: 5efc1d99-2bd2-4f1a-a7b0-86c3b8f533f0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Deploying, Publishing, and Upgrading SharePoint Solution Packages

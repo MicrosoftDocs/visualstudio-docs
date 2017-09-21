@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], mapping XML schemas"
 ms.assetid: 9bfb3c7b-6392-45bd-b4c1-b2012b9ded69
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Map Schemas to Word Documents Inside Visual Studio

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], data binding"
 ms.assetid: 106c07bd-e931-4dc5-94dc-ca43900fe09d
 caps.latest.revision: 63
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Binding Data to Controls on an Excel Actions Pane

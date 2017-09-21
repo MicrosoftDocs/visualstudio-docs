@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], shortcut keys"
 ms.assetid: 26617206-f4da-416f-a18a-d817b2d4872d
 caps.latest.revision: 79
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Ribbon Designer

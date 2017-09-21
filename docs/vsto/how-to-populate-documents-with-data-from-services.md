@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to documents"
 ms.assetid: 4c42653c-627f-445e-9024-8482eaf5562e
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Populate Documents with Data from Services

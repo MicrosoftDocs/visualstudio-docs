@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 ms.assetid: bb251fe9-f1bf-4ddd-9359-4b7f78fbd50f
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Shortcut Menu Item to SharePoint Projects

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], searching in documents"
 ms.assetid: 68dc41b1-eb96-4697-ac93-1a88c862ebad
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Loop Through Found Items in Documents

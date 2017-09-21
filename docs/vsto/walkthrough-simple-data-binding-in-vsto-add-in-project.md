@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], simple binding data"
 ms.assetid: b248d194-a8b1-4f87-94c4-24e940eea1fd
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Simple Data Binding in VSTO add-in Project

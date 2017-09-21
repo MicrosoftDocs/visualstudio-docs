@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], automating"
 ms.assetid: 9bedae85-32b6-4df6-82b2-9d124fb49636
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Target Office Applications Through Primary Interop Assemblies

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], document properties"
 ms.assetid: e9ef9fa3-36b9-48fb-8148-f5152463c03c
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Read from and Write to Document Properties

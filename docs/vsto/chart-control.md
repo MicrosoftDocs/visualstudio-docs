@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 ms.assetid: 64f1a7cc-cc66-47da-aaeb-44a62ae53909
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Chart Control

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 ms.assetid: d21a1be6-fabc-4573-b861-b76cec5814bd
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Documents
