@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ms.technology: 
-  - "vs-ide-editor"
+  - "vs-ide-general"
 ---
 
 # .NET Coding Convention Settings For EditorConfig

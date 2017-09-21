@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ms.technology: 
-  - "vs-ide-editor"
+  - "vs-ide-general"
 ---
 # Create portable, custom editor settings with EditorConfig
 Text editor settings in Visual Studio apply to all projects of a given type. So, for example, if you change a C# text editor setting, that setting applies to *all* C# projects in Visual Studio. However, in some cases, you may need to use conventions that differ from your own personal editor preferences. [EditorConfig](http://editorconfig.org/) files enable you to do this by providing common text editor options on a per-project basis. EditorConfig settings, which are contained in an .editorconfig file added to your codebase, supersede global Visual Studio text editor settings. This means that you can tailor each codebase to use the text editor settings you prefer. No plug-in is required to use this functionality in Visual Studio.
