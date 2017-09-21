@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "keyboard shortcuts [Visual Studio]"
   - "accessibility [Visual Studio]"
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: "tglee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 ---

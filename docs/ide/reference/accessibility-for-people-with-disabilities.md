@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "navigation aids [Visual Studio]"
   - "accessibility [Visual Studio]"
 ms.assetid: 6bbcfc31-edbe-4143-a703-fde023efbb62
-author: "tglee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 ---

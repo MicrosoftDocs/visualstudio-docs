@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visual Studio, getting started"
 ms.assetid: 38e90339-1da5-410c-8ba4-437fc556cba7
 caps.latest.revision: 65
-author: "tglee"
+author: TerryGLee
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
