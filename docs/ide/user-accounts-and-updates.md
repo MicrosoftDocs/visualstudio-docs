@@ -15,7 +15,7 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Connected Environment
-Visual Studio is a connected environment.  
+Visual Studio is a connected environment:  
 
 - You can sign in to Visual Studio to enable access to all the services associated with your user account, as well as all the accounts that are linked to that account. Your account settings roam with you wherever you use Visual Studio.  
 - Visual Studio informs you when any component of your installation, such as an SDK, had an update available.  
@@ -29,9 +29,9 @@ Visual Studio is a connected environment.
 |[Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)|Describes how and why to sign in to Visual Studio.|  
 |[Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)|Describes how to associate multiple Microsoft accounts and/or work or school accounts to enable access to resources and services from all your accounts.|  
 |[How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Describes how to unlock Visual Studio in various scenarios.|  
-|[Notifications](../ide/visual-studio-notifications.md)|Describes how Visual Studio notifies you when components such as SDKs, or Visual Studio itself, have an update available.|  
-|[Whitelisting URLs in a private network](whitelisting-urls-in-a-private-network.md)|Describes which URLs to whitelist for Visual Studio functionality, if you're in a private network that has a firewall.|  
-|[Proxy authorization required error](../ide/reference/proxy-authorization-required.md)|Describes which URLs to whitelist for Visual Studio functionality, when you're connected to the internet through a proxy server.|  
+|[Notifications](../ide/visual-studio-notifications.md)|Describes how Visual Studio notifies you when Visual Studio or components such as SDKs have an update available.|  
+|[Whitelisting URLs in a private network](whitelisting-urls-in-a-private-network.md)|Describes which URLs to whitelist for Visual Studio functionality if you're in a private network that has a firewall.|  
+|[Proxy authorization required error](../ide/reference/proxy-authorization-required.md)|Describes which URLs to whitelist for Visual Studio functionality when you're connected to the internet through a proxy server.|  
   
 ## See also  
 [Visual Studio IDE](../ide/visual-studio-ide.md)  

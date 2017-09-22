@@ -54,4 +54,7 @@ This error generally occurs when users are connected to the internet through a p
   
     OR  
   
--   You can also follow the instructions in [this post](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) to add code that will allow you to use the proxy.
+-   You can also follow the instructions in [this post](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) to add code that will allow you to use the proxy.  
+
+## See also
+[Connected environment](../ide/user-accounts-and-updates.md)  

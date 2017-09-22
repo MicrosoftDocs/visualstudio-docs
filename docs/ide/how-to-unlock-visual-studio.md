@@ -1,5 +1,5 @@
 ---
-title: "How to unlock Visual Studio | Microsoft Docs"
+title: "How to: unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 7/20/2017
 ms.reviewer: ""
@@ -15,7 +15,7 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 
-# How to: Unlock Visual Studio
+# How to: unlock Visual Studio
 You can evaluate Visual Studio for free up to 30 days. Signing into the IDE extends the trial period to 90 days. To continue using Visual Studio, unlock the IDE by  
   
 1.  using an online subscription, or,  
@@ -66,4 +66,5 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
 1.  If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the **File > Account Settings** dialog by selecting the **Add an account...** link.  
   
 ## See also  
- [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
+[Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)  
+[Connected environment](../ide/user-accounts-and-updates.md)  
