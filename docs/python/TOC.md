@@ -1,12 +1,15 @@
 # Overview
 ## [Python in Visual Studio](python-in-visual-studio.md)
 # Quickstart
-## [Installation](installation.md)
+## [Installation](quickstart-01-install.md)
 ## Create and run a simple project (TODO)
 ## Interactive Window (TODO)
 ## Create a project from existing code (TODO)
 # Tutorials
-## [Getting Started with Python](vs-tutorial-01.md)
+## [1 - Create a new Python project](vs-tutorial-01-01.md)
+## [2 - Writing and running code](vs-tutorial-01-02.md)
+## [3 - Using the interactive REPL window](vs-tutorial-01-03.md)
+## [4 - Running code in the debugger](vs-tutorial-01-04.md)
 # Concepts
 ## [Python Environments](python-environments.md)
 ## [Python Projects](python-projects.md)
@@ -16,6 +19,7 @@
 ## [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
 ## [Azure SDK for Python](azure-sdk-for-python.md)
 # How To
+## [Installation for Visual Studio 2015 and earlier](installation.md)
 ## [Editing Code](code-editing.md)
 ### [Formatting Code](code-formatting.md)
 ### [Refactoring Code](code-refactoring.md)
