@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "hv_general"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Microsoft Help Viewer 2.0 Help"
   - "Help Viewer 2.0, printing a topic"
   - "printing a topic[Help Viewer 2.0]"
@@ -21,10 +21,10 @@ helpviewer_keywords:
   - "toolbar [Help Viewer 2.0]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "project templates, updating existing templates"
 ms.assetid: d585e45b-7fe2-45fa-9cf3-7f2bc060f3c4
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

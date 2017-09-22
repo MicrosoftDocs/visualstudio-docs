@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "customizing search results [Help Viewer 2.0]"
 ms.assetid: 3431ec03-0221-4be2-9936-887a1c36db89
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

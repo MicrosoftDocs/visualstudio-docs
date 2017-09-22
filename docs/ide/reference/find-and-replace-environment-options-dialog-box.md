@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Find and Replace, customizing"
 ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

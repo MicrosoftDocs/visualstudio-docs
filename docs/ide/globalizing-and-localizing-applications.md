@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "international applications [Visual Studio]"
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

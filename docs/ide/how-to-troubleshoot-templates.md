@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Visual Studio templates, troubleshooting"
 ms.assetid: 3e577ad2-f725-4c11-93b3-477f2404ec81
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

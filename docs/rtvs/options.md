@@ -2,14 +2,13 @@
 title: "R Tools Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 6/29/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
 ms.devlang: r
 ms.tgt_pltfrm: ""
-f1_keywords:
+f1_keywords: 
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"

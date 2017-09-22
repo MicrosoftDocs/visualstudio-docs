@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "versions [Visual Studio], targeting .NET Framework version"
 ms.assetid: dea62d25-3d1b-492e-a6cc-b5154489800a
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

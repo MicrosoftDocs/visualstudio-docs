@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3c460fa9-2ea1-413f-ae54-54a1f2a499d1
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
