@@ -1,6 +1,6 @@
 # [Visual Studio IDE Feature Tour](visual-studio-ide.md)
 # [Get Started with Visual Studio](get-started-with-visual-studio.md)
-# [User Accounts and Updates](user-accounts-and-updates.md)
+# [Connected environment](user-accounts-and-updates.md)
 ## [Signing in to Visual Studio](signing-in-to-visual-studio.md)
 ## [Work with multiple user accounts](work-with-multiple-user-accounts.md)
 ## [How to unlock Visual Studio](how-to-unlock-visual-studio.md)
