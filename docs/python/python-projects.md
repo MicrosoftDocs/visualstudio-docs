@@ -85,6 +85,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
+
 ### Creating a project from existing files
 
 1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.

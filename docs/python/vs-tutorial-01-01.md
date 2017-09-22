@@ -1,5 +1,5 @@
 ---
-title: Working with Python in Visual Studio: Step 1 | Microsoft Docs
+title: Working with Python in Visual Studio, Step 1 | Microsoft Docs
 ms.custom: ""
 ms.date: 9/22/2017
 ms.reviewer: ""
@@ -36,7 +36,7 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 
 A *project* is how Visual Studio manages all the files that come together to produce a single application, including source code, resources, configurations, and so on. A project formalizes and maintains the relationship between all the project's files as well as external resources that are shared between multiple projects. As such, project allow your application to effortlessly expand and grow much easier than simply managing a project's relationships in ad hoc folders, scripts, text files, and even your own mind.
 
-1. In Visual Studio, select **File > New Project**, which brings up the **New Project** dialog. Here you browse templates across different languages, then select one for your project and specify where Visual Studio places files.
+1. In Visual Studio, select **File > New > Project** (Ctrl+Shift+N), which brings up the **New Project** dialog. Here you browse templates across different languages, then select one for your project and specify where Visual Studio places files.
 
 1. To view Python templates, select **Templates > Other Languages > Python** on the left, or searching for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
 
@@ -72,9 +72,6 @@ A *project* is how Visual Studio manages all the files that come together to pro
 ## Going deeper
 
 - [Python Projects in Visual Studio](python-projects.md).
-- [Web Project Templates](template-web.md)
-- [Django Web Project Template](template-django.md)
-- [Azure Cloud Service Template](template-azure-cloud-service.md)
 - Learn more about the Python language on [python.org](https://www.python.org)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
