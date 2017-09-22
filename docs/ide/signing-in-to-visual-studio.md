@@ -54,4 +54,4 @@ You can personalize and optimize your development experience in Visual Studio if
 1.  When you're done, select **Save changes**.  
 
 ## See also  
-[Connected environment](../ide/user-accounts-and-updates.md)  
+[Connected environment](../ide/connected-environment.md)  
