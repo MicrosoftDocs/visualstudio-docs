@@ -2,7 +2,6 @@
 title: "Migrating Office Solutions to the .NET Framework 4 or later | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

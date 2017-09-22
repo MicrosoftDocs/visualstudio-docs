@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
