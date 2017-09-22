@@ -48,7 +48,7 @@
 ## [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
 ## [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
 ## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
-# [Connected environment](user-accounts-and-updates.md)
+# [Connected environment](connected-environment.md)
 ## [Signing in to Visual Studio](signing-in-to-visual-studio.md)
 ## [Work with multiple user accounts](work-with-multiple-user-accounts.md)
 ## [How to unlock Visual Studio](how-to-unlock-visual-studio.md)

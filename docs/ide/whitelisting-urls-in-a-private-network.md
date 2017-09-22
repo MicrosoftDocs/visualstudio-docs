@@ -51,5 +51,5 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 
 ## See also  
 [Proxy authorization required error](../ide/reference/proxy-authorization-required.md)  
-[Connected environment](../ide/user-accounts-and-updates.md)  
+[Connected environment](../ide/connected-environment.md)  
 [Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)  
