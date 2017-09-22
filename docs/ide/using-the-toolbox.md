@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "toolbox"
 ms.assetid: 82e7cb43-4d0b-4e17-b7b0-43f96c22c3c2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

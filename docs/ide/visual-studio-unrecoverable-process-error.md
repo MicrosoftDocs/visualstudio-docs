@@ -6,19 +6,19 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "aspx"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "editor"
 ms.assetid: 2263956f-3ae0-4bdc-9d3a-4991dfaf4ddb
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -32,6 +32,8 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: 
+  - "vs-ide-general"
 ---
 # Visual Studio unrecoverable process error
 

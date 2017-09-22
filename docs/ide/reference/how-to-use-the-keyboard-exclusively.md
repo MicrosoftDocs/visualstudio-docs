@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "08/22/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Toolbox, shortcut keys"
   - "shortcut keys [Visual Studio]"
   - "windows [Visual Studio], accessibility"
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "keyboard shortcuts [Visual Studio]"
   - "accessibility [Visual Studio]"
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: "kempb"
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---

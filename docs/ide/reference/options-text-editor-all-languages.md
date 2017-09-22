@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "virtual space"
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

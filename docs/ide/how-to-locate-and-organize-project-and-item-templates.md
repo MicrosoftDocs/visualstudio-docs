@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "project templates [Visual Studio], locations"
   - "custom template locations [Visual Studio]"
   - "item templates, locations"
@@ -17,10 +17,10 @@ helpviewer_keywords:
   - "templates [Visual Studio], locations"
 ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

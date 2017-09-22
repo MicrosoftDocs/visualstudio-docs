@@ -2,10 +2,9 @@
 title: "Symbols for Mixed-Mode Python/C++ Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 7/12/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""

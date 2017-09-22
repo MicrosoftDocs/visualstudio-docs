@@ -52,7 +52,7 @@ translation.priority.mt:
 
 When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`.
 
-Often, this error occurs because an error or configuration change has occurred that requires an update to your Application Pools, an IIS reset, or both.
+Often, this error occurs because an error or configuration change has occurred that requires an update to your Application Pools, an IIS reset, or both. You can reset IIS by opening an elevated command prompt and typing `iisreset`. 
 
 ## <a name="specificerrors"></a>What is the detailed error message?
 
@@ -63,6 +63,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - [Unable to connect to the webserver](#unabletoconnect)
 - [The web server did not respond in a timely manner](#webservertimeout)
 - [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
+- [The remote server returned an error](#server_error)
 - [Could not start ASP.NET debugging](#aspnet)
 - [The debugger cannot connect to the remote computer](#cannot_connect)
 - [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
@@ -79,9 +80,9 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 ## <a name="unabletoconnect"></a> Unable to connect to the webserver
 
-- Are you running Visual Studio and the Web server on the same machine and debugging using **F5** (instead of **Attach to Process**)? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+- Are you running Visual Studio and the Web server on the same machine and debugging using **F5** (instead of **Attach to Process**)? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type. For a Web Forms project, open **Property Pages > Start Options > Server**.)
 
-- If the Web server is remote, restart your Application Pool and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- Otherwise, restart your Application Pool and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="webservertimeout"></a> The web server did not respond in a timely manner
 
@@ -92,6 +93,13 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - If you are debugging on a remote machine, make sure you have [installed and are running the remote debugger](../debugger/remote-debugging.md). If the message mentions a firewall, make sure the [correct ports in the firewall](../debugger/remote-debugger-port-assignments.md) are open, especially if you are using a third party firewall.
 - If you are using a HOSTS file, make sure it is configured correctly. For example, if debugging using **F5** (instead of **Attach to Process**), the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
+## <a name="server_error"></a> The remote server returned an error
+
+Check the error code that is returned in the message to help identify the cause of the problem. Here are a few common error codes.
+- (403) Forbidden. Verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type). Also, verify that the server's web.config includes `debug=true` in the compilation element. If these settings are already correct, verify that your Web Application folder has the correct folder permissions. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- (503) Server Unavailable. The Application Pool may have stopped due to an error or configuration change. Restart the Application Pool.
+- (404) Not Found. Make sure that the Application Pool is configured for the correct version of ASP.NET.
+
 ## <a name="aspnet"></a> Could not start ASP.NET debugging
 
 - Restart the Application Pool and reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
@@ -99,7 +107,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
-If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 Also, if you are using a HOSTS file, make sure it is configured correctly. For example, the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
@@ -111,7 +119,7 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
-After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`, or you can perform a reset in IIS Manager. 
+After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an elevated command prompt and typing `iisreset`. 
 
 * Stop and restart your IIS Application Pools, then retry. 
 

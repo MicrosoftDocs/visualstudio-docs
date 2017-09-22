@@ -4,25 +4,24 @@ ms.custom: ""
 ms.date: "03/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "solutions [Visual Studio], deleting"
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
 ms.assetid: 836f8ca0-3fc9-4f4b-9090-45f2e4d2e9c8
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-
 ---
 
 # Create solutions and projects
@@ -68,7 +67,7 @@ Projects are the logical containers for everything that's needed to build your a
 
 #### To create an empty solution  
 
-1.  On the **File** menu, choose **New**, **New Project**.  
+1.  On the **File** menu, choose **New**, **Project**.  
 
 2.  In the left pane, choose **Installed**, **Other Project Types**, **Visual Studio Solutions** in the expanded list.  
 
@@ -76,10 +75,10 @@ Projects are the logical containers for everything that's needed to build your a
 
 4.  Set the **Name** and **Location** values for your solution, then choose **OK**.  
 
-After you create an empty solution, you can add new or existing projects or items to it by choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
+After you create an empty solution, you can add new or existing projects or items to it by selecting it in Solution Explorer and then choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
 
 ### Delete solutions  
- You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
+ You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again into another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
 
 > [!NOTE]
 >  The .suo file is a hidden file that is not displayed under default File Explorer settings.  
@@ -90,7 +89,7 @@ After you create an empty solution, you can add new or existing projects or item
 
 2.  In File Explorer, navigate up one level.
 
-3.  Choose the directory containing the solution and then press the DELETE key.
+3.  Choose the folder that contains the solution and then press the DELETE key.
 
 ## See Also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
