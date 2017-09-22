@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: "VB"
 ms.assetid: ebc361fe-d9b1-4c7a-ae28-5e71b5775460
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 f1_keywords: 
   - "vsl.GenerateFromUsage"

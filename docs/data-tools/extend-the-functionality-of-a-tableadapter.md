@@ -33,6 +33,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Extend the functionality of a TableAdapter
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.  
