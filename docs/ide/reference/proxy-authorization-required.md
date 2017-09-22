@@ -15,7 +15,7 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Proxy Authorization Required
-This error generally occurs when users are connected to Visual Studio Team Services through a proxy server, and the proxy server blocks the calls. Visual Studio Team Services is used to keep the user signed in to the IDE.  
+This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.    
   
 ## To correct this error  
   
