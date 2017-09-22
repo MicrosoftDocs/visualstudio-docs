@@ -5,33 +5,33 @@ ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: b4f45f9d-9c8f-46ae-99f7-7705c6d90b6e
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-f1_keywords:
-    - "vs.csharp.refactoring.remove"
-	- "vs.csharp.refactoring.reorder"
-dev_langs:
-	- csharp
+f1_keywords: 
+  - "vs.csharp.refactoring.remove"
+  - "vs.csharp.refactoring.reorder"
+dev_langs: 
+  - csharp
 translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # Change a method signature in C# #
