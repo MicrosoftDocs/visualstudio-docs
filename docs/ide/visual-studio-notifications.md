@@ -15,7 +15,7 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Visual Studio notifications
-Visual Studio has a notification system that alerts you to various events, such as the following
+Visual Studio has a notification system that alerts you to various events, such as the following:  
 
 - An update is available for Visual Studio or a component in Visual Studio.  
 - An environment event that you might be interested in occurred.  
@@ -27,4 +27,5 @@ If you choose to always ignore a notification, Visual Studio will stop showing i
 ![Visual Studio notification icon](../ide/media/vs2015_notificationicon.png "vs2015_NotificationIcon")  
   
 ## See also  
-[Visual Studio IDE](../ide/visual-studio-ide.md)
+[Connected environment](../ide/user-accounts-and-updates.md)  
+[Visual Studio IDE](../ide/visual-studio-ide.md)  

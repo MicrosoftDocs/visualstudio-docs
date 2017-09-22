@@ -16,7 +16,7 @@ manager: "ghogen"
 # Whitelisting URLs in a private network    
 If you are using Visual Studio in a private network that uses a security appliance such as a firewall, Visual Studio might not be able to connect to some network resources. These resources include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:  
 
-**The underlying connection was closed: An unexpected error occurred on send**  
+     **The underlying connection was closed: An unexpected error occurred on send**  
 
 Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2. To fix the error, enable connections for the following URLs:
 
