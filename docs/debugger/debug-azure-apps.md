@@ -1,5 +1,5 @@
 ---
-title: "Debug Azure apps | Microsoft Docs"
+title: "Debug Azure services | Microsoft Docs"
 ms.date: "09/14/2017"
 ms.reviewer: ""
 ms.suite: ""
