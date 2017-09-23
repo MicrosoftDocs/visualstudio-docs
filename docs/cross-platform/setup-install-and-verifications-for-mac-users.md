@@ -2,7 +2,6 @@
 title: "Setup, install, and verifications for Mac users | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/13/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +11,7 @@ caps.latest.revision: 10
 author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -22,7 +21,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

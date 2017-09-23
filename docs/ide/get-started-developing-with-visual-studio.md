@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 65
-author: "kempb"
-ms.author: "kempb"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -25,7 +25,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "XML documentation, creating"
 ms.assetid: 947f9d9a-b0f3-408d-9866-d82895bcee31
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

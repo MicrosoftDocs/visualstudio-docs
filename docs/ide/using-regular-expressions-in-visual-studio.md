@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Visual Studio, regular expressions"
 ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

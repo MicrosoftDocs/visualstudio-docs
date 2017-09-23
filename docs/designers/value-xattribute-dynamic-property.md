@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
@@ -13,8 +13,8 @@ apiname:
 apitype: "Assembly"
 ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # How to: Configure inheritance by using the O/R Designer
 The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.md)] ([!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.  
@@ -50,7 +51,7 @@ The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.m
 5.  In each class, delete any object properties that you do not want to appear and that are not used for associations. You will receive an error if you attempt to delete object properties used for associations: [The property \<property name> cannot be deleted because it is participating in the association \<association name>](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).  
   
     > [!NOTE]
-    >  Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213).  
+    >  Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [Inheritance Basics (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics).  
   
 6.  Select the inheritance line in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].  
   
@@ -69,5 +70,5 @@ The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.m
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
  [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [Inheritance Basics (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)  
  [Inheritance](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)

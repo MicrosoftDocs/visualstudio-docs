@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "association lines"
 ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "File.AddNewItem command"
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

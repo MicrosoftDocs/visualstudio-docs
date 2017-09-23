@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -82,9 +81,6 @@ manager: "ghogen"
   
 2.  In **Solution Explorer**, open the shortcut menu for the **SiteColumnProjectItem** solution node, choose **Add**, and then choose **New Project**.  
   
-    > [!NOTE]  
-    >  In Visual Basic projects, the solution node appears only when the **Always show solution** check box is selected in the [NIB: General, Projects and Solutions, Options Dialog Box](http://msdn.microsoft.com/en-us/8f8e37e8-b28d-4b13-bfeb-ea4d3312aeca).  
-  
 3.  At the top of the **Add New Project** dialog box, make sure that **.NET Framework 4.5** is chosen in the list of versions of the .NET Framework.  
   
 4.  Expand the **Visual C#** node or the **Visual Basic** node, and choose the **Windows** node.  
@@ -159,9 +155,6 @@ manager: "ghogen"
 10. Choose the **OK** button to add the assemblies to the project.  
   
 11. In **Solution Explorer**, under the **References** folder for the **ProjectTemplateWizard** project, choose **EnvDTE**.  
-  
-    > [!NOTE]  
-    >  In Visual Basic projects, the **References** folder appears only when the **Always show solution** check box is selected in the [NIB: General, Projects and Solutions, Options Dialog Box](http://msdn.microsoft.com/en-us/8f8e37e8-b28d-4b13-bfeb-ea4d3312aeca).  
   
 12. In the **Properties** window, change the value of the **Embed Interop Types** property to **False**.  
   

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Perform Actions When an E-Mail Message Is Received | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

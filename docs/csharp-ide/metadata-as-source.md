@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "metadata as source [C#]"
 ms.assetid: 4945a07f-b3be-4f05-a587-fc29058aa8fa
 caps.latest.revision: 14
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

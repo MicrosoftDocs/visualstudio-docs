@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Help Viewer 2.0, restoring the default window layout"
 ms.assetid: 98625016-acce-46c9-9b5a-2107d2939a5e
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code, line number displaying"
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

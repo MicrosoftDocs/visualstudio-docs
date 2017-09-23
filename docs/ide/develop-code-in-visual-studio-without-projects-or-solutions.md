@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.texteditor"
-dev_langs:
+dev_langs: 
   - "JScript"
   - "VB"
   - "CSharp"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "code, editing"
   - "code editor, syntax coloring"
   - "code editor [Visual Studio]"
@@ -28,10 +28,10 @@ helpviewer_keywords:
   - "code"
 ms.assetid: cb53bb9b-5b76-4759-b9b8-7bf32298bcbb
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -41,7 +41,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

@@ -2,7 +2,6 @@
 title: "How to: Add and Remove Features and Items to a Package by Using the Package Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -61,8 +60,7 @@ manager: "ghogen"
   
 ## See Also  
  [Creating SharePoint Solution Packages](../sharepoint/creating-sharepoint-solution-packages.md)   
- [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)   
- [NOT IN BUILD: How to: Modify Package Properties](http://msdn.microsoft.com/en-us/372089ce-cda9-4c21-beb2-f964990b96ee)   
+ [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [How to: Create a Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)  
   
   

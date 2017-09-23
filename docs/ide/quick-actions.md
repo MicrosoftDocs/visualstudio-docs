@@ -4,32 +4,32 @@ ms.custom: ""
 ms.date: "05/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-    - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: e173fb7d-c5bd-4568-ba0f-aa61913b3244
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-dev_langs:
-    - CSharp
-    - VB
-translation.priority.ht:
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+dev_langs: 
+  - CSharp
+  - VB
+translation.priority.ht: 
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Quick Actions
 
