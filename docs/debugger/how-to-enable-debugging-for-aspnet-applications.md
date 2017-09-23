@@ -41,15 +41,17 @@ translation.priority.ht:
 
 You can debug ASP.NET applications from Visual Studio.
 
-If the web server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). If you want to debug in browser developer tools rather than use the Visual Studio debugger, see F12 for Edge or Internet Explorer, and see X for Google Chrome.
+If the web server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
 ## Requirements
 
 To follow the instructions in this topic, you need:
 
-- IIS Express, which is included by default in Visual Studio 2012 and later, or
+- IIS Express, which is included by default in Visual Studio 2012 and later
 
-- A local IIS web server that is configured correctly and can run the ASP.NET application without errors.
+    -or-
+
+- A local IIS web server (version 8.0 or higher) that is configured correctly and can run the ASP.NET application without errors.
 
 If the server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). 
 
@@ -136,7 +138,7 @@ For IIS Express, you don't need to configure the web server. IIS Express is reco
 
 If you are using local IIS web server, follow these steps.
 
-1. Make sure that IIS is installed and configured correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+1. Make sure that IIS is installed correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
     * Make sure that you install the correct version of ASP.NET on the server. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET).
 
@@ -159,7 +161,7 @@ If you are using local IIS web server, follow these steps.
 
 For IIS Express, the web app is deployed automatically when you start debugging (skip this section).
 
-If you are using local IIS web server, follow these steps.
+If you are using local IIS web server, follow these steps. There are different ways to publish your app to IIS. In these steps, we show how to create and use a Publish profile so that you can deploy using the file system.
 
 1. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, use **Publish Web App**).
 
@@ -175,10 +177,17 @@ If you are using local IIS web server, follow these steps.
 
 5. Choose **Local IIS**, and select a web site for deployment, and then click **Open**.
 
+    ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
+
     > [!TIP]
     > If you see a message that says the web server is not configured correctly, make sure that the correct version of ASP.NET is installed for IIS.
 
-6. Click **Save** to save the publish settings, and then click **Publish**.
+6. Click **Next** and choose a **Debug** configuration.
+
+    > [!NOTE]
+    > If you deploy with a Release configuration, this will set `debug=false` in the server's web.config file.
+
+7. Click **Save** to save the publish settings, and then click **Publish**.
 
     > [!CAUTION]
     >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
@@ -187,7 +196,7 @@ If you are using local IIS web server, follow these steps.
 
 1. In your project in Visual Studio, set a breakpoint on some code that you know will run.
 
-2. Press **F5** to start debugging.
+2. To start debugging, press **F5** (**Debug > Start Debugging**).
 
 3. Take actions to run the code that contains the breakpoint.
 
@@ -195,11 +204,11 @@ If you are using local IIS web server, follow these steps.
 
 ### (Local IIS) Troubleshooting: Cannot hit the breakpoint
 
-    1. Start the web app from IIS and make sure it runs correctly. Leave the web app running.
+1. Start the web app from IIS and make sure it runs correctly. Leave the web app running.
 
-    2. From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process (typically **w3wp.exe**). For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+2. From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process (typically **w3wp.exe** or **dotnet.exe**). For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-    If you are able to connect using **Attach to Process** and can hit a breakpoint, but can't debug using **F5**, then there is likely an incorrect setting in the project properties. If you are using a HOSTS file, verify that it is configured correctly.
+    If you are able to connect using **Attach to Process** and can hit a breakpoint, but can't start debugging using **F5**, then it is likely that a setting is incorrect in the project properties. If you are using a HOSTS file, verify that it is configured correctly.
 
   
 ## Robust Programming  
@@ -209,8 +218,15 @@ A Web site can contain multiple virtual directories and subdirectories, and Web.
   
 For example, you could specify `debug="true"` in www.microsoft.com/aaa/Web.config, and any application in the aaa folder or in any subfolder of aaa will inherit that setting. So if your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application is at www.microsoft.com/aaa/bbb, it will inherit that setting, as will any [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications in www.microsoft.com/aaa/ccc, www.microsoft.com/aaa/ddd, and so on. The only exception is if one of those applications overrides the setting by means of its own lower Web.config file.  
   
-Enabling debug mode will greatly affect the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
+> [!IMPORTANT]
+> Enabling debug mode will greatly affect the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
   
 ## See Also  
-[Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)  
+[ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)   
+[How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)   
+[How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)   
+[Debug deployed Web applications](debugging-deployed-web-applications.md)   
+[Walkthrough: Debugging a Web Form](walkthrough-debugging-a-web-form.md)   
+[How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)   
+[Debug Web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
   
