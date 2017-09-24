@@ -2,10 +2,9 @@
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/06/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -14,7 +13,7 @@ caps.latest.revision: 64
 author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -24,7 +23,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

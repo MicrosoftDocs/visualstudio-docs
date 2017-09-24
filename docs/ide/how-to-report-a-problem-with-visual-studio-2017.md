@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 caps.latest.revision: 4
-author: TerryGLee
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 robots: noindex,nofollow

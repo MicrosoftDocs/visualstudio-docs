@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Project Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/28/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

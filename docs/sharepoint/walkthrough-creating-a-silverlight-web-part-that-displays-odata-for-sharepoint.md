@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
