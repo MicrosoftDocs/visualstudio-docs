@@ -73,7 +73,7 @@ If you create a new ASP.NET project (**File > New Project**), the debug settings
 
 ### Enable debugging in the web.config file  
 
-In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file.
+In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file. A web.config file is required if you host the app on IIS or IIS Express.
   
 1.  In Visual Studio, open the project's web.config file.  
   

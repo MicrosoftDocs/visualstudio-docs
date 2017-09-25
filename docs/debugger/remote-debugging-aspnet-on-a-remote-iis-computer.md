@@ -130,6 +130,8 @@ You can also publish and deploy the app using the file system or other tools.
 > [!NOTE]
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
+For information on running the remote debugger as a service, see [Run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
+
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
 1. On the Visual Studio computer, open the **MyASPApp** solution.
