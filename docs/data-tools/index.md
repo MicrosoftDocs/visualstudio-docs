@@ -66,7 +66,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="/azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-st">
+        <a href="/azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
