@@ -24,9 +24,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 -   **Synchronizes your Visual Studio settings** - Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).  
 
--   **Permanently unlocks Visual Studio Express Edition** - You can use any edition of Visual Studio Express for as long as you like, instead of being limited to the trial period of 30 days.  
-
--   **Unlocks the Visual Studio Community Edition** instead of being limited to the trial period of 30 days.  
+-   **Unlocks the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.  
 
 -   **Extends the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.  
 
@@ -53,4 +51,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 1.  Select **Edit profile** and change the settings that you want.  
 
-1.  When you're done, select **Save changes**.
+1.  When you're done, select **Save changes**.  
+
+## See also  
+[Connected environment](../ide/connected-environment.md)  

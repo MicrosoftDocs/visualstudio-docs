@@ -143,7 +143,7 @@ Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation 
 
 **ID:** Microsoft.VisualStudio.Workload.Data
 
-**Description:** Connect, develop and test data solutions using SQL Server, Azure Data Lake, Hadoop or Azure ML.
+**Description:** Connect, develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.
 
 ### Components included by this workload
 

@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "08/30/2017"
+ms.date: "09/25/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -112,9 +112,15 @@ By default, the installer program tries to match the language of the operating s
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
-## Step 7 - Launch Visual Studio
 
-After Visual Studio installation is complete, click the **Launch** button to [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
+## Step 7 - Start developing
+1. After Visual Studio installation is complete, click the **Launch** button to [get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
+
+2. Click **File**, and then click **New Project**.
+
+3. Select a project type. <br><br>
+   For example, to [build a C++ app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build. <br><br>
+   To [build a C## app](../ide/getting-started-with-cpp-in-visual-studio.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 ## Get support
 
@@ -124,7 +130,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
-  * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Visual Studio 2017 Administrator Guide](visual-studio-administrator-guide.md)
+  * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
