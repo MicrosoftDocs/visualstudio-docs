@@ -122,7 +122,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     IIS Express is the default server for ASP.NET and does not require any special configuration. This is the easiest way to debug an ASP.NET application.
 
-    For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options** and **Use custom server** (instead of **External Server**).
+    For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options** and either **Use default Web server** or **Use custom server** (instead of **External Server**).
 
     ![Server settings for Web Forms app](../debugger/media/dbg-aspnet-server-settings-webforms.png "Server settings for Web Forms app")
 
@@ -134,7 +134,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
 ## (Local IIS web server) Configure IIS
 
-For IIS Express, you don't need to configure the web server. IIS Express is recommended for initial testing.
+For IIS Express, you don't need to configure the web server (skip this section). IIS Express is recommended for initial testing.
 
 If you are using local IIS web server, follow these steps.
 
