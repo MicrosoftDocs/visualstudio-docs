@@ -3,12 +3,12 @@ layout: LandingPage
 author: "gewarren"
 ms.author: "gewarren"
 ms.topic: landing-page
-title: Write and Manage Code using Visual Studio
+title: Write and Manage Code using Visual Studio Documentation
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 ms.technology: 
   - "vs-ide-general"
 ---
-# Write and Manage Code using Visual Studio  
+# Write and Manage Code using Visual Studio Documentation
 
 Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 
