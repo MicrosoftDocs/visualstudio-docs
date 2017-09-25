@@ -2,7 +2,6 @@
 title: "Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

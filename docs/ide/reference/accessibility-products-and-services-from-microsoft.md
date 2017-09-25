@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "08/22/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "TTY/TDD services"
   - "documentation, recorded documentation"
   - "TDD services"

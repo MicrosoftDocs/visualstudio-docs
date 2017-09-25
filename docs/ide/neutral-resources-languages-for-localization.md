@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "neutral resources"
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

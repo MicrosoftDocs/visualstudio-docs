@@ -5,15 +5,15 @@ ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "sample applications [Visual Studio]"
 ms.assetid: 3070fa13-46c7-4252-a1c2-857b4a2c9528
 caps.latest.revision: 51
-author: "mikeblome"
-ms.author: "mblome"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -33,8 +33,6 @@ translation.priority.mt:
 ---
 # Visual Studio Samples
 You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkID=127810) website.  
-  
- You can use the **New Project** dialog box to browse for samples. (To open the dialog box, on the menu bar, choose **File**, **New**, **Project**.)  
   
 ## Finding Samples  
  Here are some other places to look for samples.  

@@ -2,7 +2,6 @@
 title: "Walkthrough: Retrieving Cached Data from a Workbook on a Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

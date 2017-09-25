@@ -2,10 +2,9 @@
 title: Debugging Python in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -40,7 +39,7 @@ Also see the following scenario-specific debugging topics:
 
 <a name="debugging-without-a-project"</a>
 > [!Tip]
-> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md) and no arguments. But from then on, you have full debugging support.
+> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md)) and no arguments. But from then on, you have full debugging support.
 >
 > To control the environment and arguments, create a project for the code, which is easily done with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files) project template.
 

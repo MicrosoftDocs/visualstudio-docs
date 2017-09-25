@@ -5,32 +5,32 @@ ms.date: "12/14/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: 39a9ed11-363f-4dda-af3b-0affe6db1d42
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 f1_keywords: 
   - "vs.csharp.refactoring.encapsulatefield"
-dev_langs:
-	- csharp
+dev_langs: 
+  - csharp
 translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # Encapsulate a field in C# #

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], structures"
 ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

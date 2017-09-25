@@ -8,7 +8,7 @@
 ### [How to: Save and Edit Connection Strings](how-to-save-and-edit-connection-strings.md)
 ### [Connect to data in an Access database (Windows Forms)](connect-to-data-in-an-access-database-windows-forms.md)
 ## [Add new data sources](add-new-data-sources.md)
-## [Entity Data Model Tools in Visual Studio](entity-data-model-tools-in-visual-studio.md)
+## [Entity Framework Tools in Visual Studio](entity-data-model-tools-in-visual-studio.md)
 ## [Dataset tools in Visual Studio](dataset-tools-in-visual-studio.md)
 ### [Create and configure datasets in Visual Studio](create-and-configure-datasets-in-visual-studio.md)
 #### [Typed vs. untyped datasets](typed-vs-untyped-datasets.md)
