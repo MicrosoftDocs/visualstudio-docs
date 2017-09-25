@@ -20,31 +20,31 @@ If you are using Visual Studio in a private network that uses a security applian
 
 Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2. To fix the error, enable connections for the following URLs:
 
-1. https://management.core.windows.net  
+- https://management.core.windows.net  
 
-2. https://app.vssps.visualstudio.com  
+- https://app.vssps.visualstudio.com  
 
-3. https://login.microsoftonline.com  
+- https://login.microsoftonline.com  
 
-4. https://login.live.com  
+- https://login.live.com  
 
-5. https://go.microsoft.com  
+- https://go.microsoft.com  
 
-6. https://graph.windows.net  
+- https://graph.windows.net  
 
-7. https://app.vsspsext.visualstudio.com  
+- https://app.vsspsext.visualstudio.com  
 
-8. *.azurewebsites.net (for Azure connections)  
+- *.azurewebsites.net (for Azure connections)  
 
-9. *.nuget.org (for NuGet connections)  
+- *.nuget.org (for NuGet connections)  
 
-10. *.visualstudio.com  
+- *.visualstudio.com  
 
-11. cdn.vsassets.io (hosts content delivery network, or CDN, content)  
+- cdn.vsassets.io (hosts content delivery network, or CDN, content)  
 
-12. *.gallerycdn.vsassets.io (hosts VSTS extensions)  
+- *.gallerycdn.vsassets.io (hosts VSTS extensions)  
 
-13. static2.sharepointonline.com (hosts resources that Visual Studio uses in the office fabric UI kit, such as fonts)
+- static2.sharepointonline.com (hosts resources that Visual Studio uses in the office fabric UI kit, such as fonts)
 
 > [!NOTE]
 >  Privately owned NuGet server URLs may not be included in the list above. You can check the NuGet servers you are using by opening up %APPData%\Nuget\NuGet.Config.  
