@@ -18,7 +18,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="" alt="" />
+                            <img src="../data-tools/media/logo_VS.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -36,7 +36,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="" alt="" />
+                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,17 +48,17 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="/azure-docs/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started.md">
+        <a href="/azure-docs/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="" alt="" />
+                            <img src="../data-tools/media/logo_azure-datalake.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about Azure Data Lake Analytics and running Hive queries against Hadoop clusters in Azure HDInsight with Data Lake Tools for Visual Studio</h3>
+                        <h3>Learn about developing Big Data applications with U-SQL and .NET using Azure Data Lake</h3>
                     </div>
                 </div>
             </div>
@@ -66,17 +66,35 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="https://documentation.red-gate.com/dashboard.action">
+        <a href="/azure-docs/hdinsight/hdinsight-hadoop-visual-studio-tools-get-st.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="" alt="" />
+                            <img src="../data-tools/media/logo_azure-hd-insight.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about Redgate's ReadyRoll, SQL Prompt, and SQL Search tools to help simplify SQL and database development</h3>
+                        <h3>Learn about running Hive queries with Hadoop on Azure HDInsight</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/azure-docs/stream-analytics/stream-analytics-tools-for-visual-studio.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../data-tools/media/logo_azure-stream-analytics.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about developing near-real time big data solutions with Azure Streaming Analytics</h3>
                     </div>
                 </div>
             </div>
