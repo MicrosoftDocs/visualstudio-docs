@@ -235,7 +235,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Data storage and processing</h3>
-                                                    <p>Tools and frameworks to develop and test data solutions using SQL Server, Azure Data Lake, Hadoop, or Azure ML.</p>
+                                                    <p>Tools and frameworks to develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.</p>
                                                 </div>
                                             </div>
                                         </div>

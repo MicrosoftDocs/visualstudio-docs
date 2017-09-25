@@ -8,7 +8,7 @@ description: Learn about tools for data solutions in Visual Studio.
 ---
 # Use data tools in Visual Studio to develop data solutions
 
-Learn how to use data tools in Visual Studio to develop and test data solutions using SQL Server, Azure Data Lake, Hadoop, or Azure ML.
+Learn how to use data tools in Visual Studio to develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.
 
 <ul class="panelContent cardsFTitle">
     <li>
