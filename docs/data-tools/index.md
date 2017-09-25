@@ -30,7 +30,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx">
+        <a href="https://msdn.microsoft.com/en-us/library/hh272686(v=vs.103).aspx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -48,7 +48,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="/azure-docs/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started.md">
+        <a href="/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -66,7 +66,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="/azure-docs/hdinsight/hdinsight-hadoop-visual-studio-tools-get-st.md">
+        <a href="/azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-st">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -84,7 +84,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="/azure-docs/stream-analytics/stream-analytics-tools-for-visual-studio.md">
+        <a href="/azure/stream-analytics/stream-analytics-tools-for-visual-studio">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
