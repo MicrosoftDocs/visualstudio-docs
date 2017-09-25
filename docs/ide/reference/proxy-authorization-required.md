@@ -1,5 +1,5 @@
 ---
-title: "Proxy Authorization Required | Microsoft Docs"
+title: "Proxy authorization required error | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/22/2017"
 ms.reviewer: ""
