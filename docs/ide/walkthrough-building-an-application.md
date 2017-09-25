@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Building an Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/22/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,20 +13,6 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Building an Application
 By completing this walkthrough, you'll  become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information, among other tasks, for a sample application.  
@@ -46,23 +32,7 @@ By completing this walkthrough, you'll  become more familiar with several option
  [Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)  
   
 ##  <a name="BKMK_installapp"></a> Install the Sample Application  
- You'll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.  
-  
-#### To install the sample application  
-  
-1.  On the menu bar, choose **Tools**, **Extensions and Updates**.  
-  
-2.  Choose the **Online** category, and then choose the **Samples Gallery** category.  
-  
-3.  Specify `Introduction` in the search box to find the sample.  
-  
-     ![Extensions and Updates dialog box](../ide/media/buildwalk_extensionsdialogsampledownload.png "BuildWalk_ExtensionsDialogSampleDownload")  
-  
-4.  In the results list, choose either **Introduction to Building WPF Applications (Visual C#)** or **Introduction to Building WPF Applications (Visual Basic)**.  
-  
-5.  Choose the **Download** button, and then choose the **Close** button.  
-  
- The Introduction to Building WPF Applications sample appears in the **New Project** dialog box.  
+Download the [Introduction to Building WPF Applications](https://code.msdn.microsoft.com/Introduction-to-Building-b8d16419) sample. Choose either C# or Visual Basic. After the .zip file has downloaded, extract it and open the ExpenseItIntro.sln file. 
   
 #### To create a solution for the sample application  
   
