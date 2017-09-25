@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Configure Service Reference dialog box"
 ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -32,6 +32,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Configure Service Reference Dialog Box
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] services.  
@@ -96,7 +97,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Contains a list of referenced assemblies for the project or Web site. When **Reuse types in specified referenced assemblies** is selected, individual assemblies can be selected or cleared.  
   
  **Add Web Reference**  
- Displays the [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/en-us/bdf05776-c591-40af-bfd7-e1e2aa1e87b5).  
+ Displays the [Add Web Reference Dialog Box](https://msdn.microsoft.com/en-us/library/8dcbc50t(v=vs.100).aspx).  
   
 > [!NOTE]
 >  This option should be used only for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  

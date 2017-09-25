@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visual Studio, task list"
 ms.assetid: f46a75a8-47b3-4cb6-bb59-b72e3356a664
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

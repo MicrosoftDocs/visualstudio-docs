@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 caps.latest.revision: 11
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -34,6 +34,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Save a dataset as XML
 The XML data in a dataset can be accessed by calling the available XML methods  on the dataset. To save the data in XML format, you can call either the <xref:System.Data.DataSet.GetXml%2A> method or the <xref:System.Data.DataSet.WriteXml%2A> method of a <xref:System.Data.DataSet>.  

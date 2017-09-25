@@ -2,7 +2,6 @@
 title: "Customizing a Ribbon for InfoPath | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], InfoPath"
 ms.assetid: 498c6457-679a-46f2-939f-c0597a17b7ec
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Customizing a Ribbon for InfoPath

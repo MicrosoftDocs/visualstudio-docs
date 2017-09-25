@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "constraints [Visual Basic], suspending during dataset update"
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -38,6 +38,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Turn off constraints while filling a dataset
 If a dataset contains constraints (such as foreign-key constraints), they can raise errors related to the order of operations that are performed against the dataset. For example, loading child records before loading related parent records can violate a constraint and cause an error. As soon as you load a child record, the constraint checks for the related parent record and raises an error.  

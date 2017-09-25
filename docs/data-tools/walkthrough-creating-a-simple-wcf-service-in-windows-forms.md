@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "WCF services, walkthrough"
 ms.assetid: 5fef1a64-27a4-4f10-aa57-29023e28a2d6
 caps.latest.revision: 25
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -34,6 +34,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a simple WCF Service in Windows Forms
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] service, test it, and then access it from a Windows Forms application.  

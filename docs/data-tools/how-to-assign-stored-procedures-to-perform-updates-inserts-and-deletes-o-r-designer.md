@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 caps.latest.revision: 2
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 Stored procedures can be added to the O/R Designer and executed as typical <xref:System.Data.Linq.DataContext> methods. They can also be used to override the default [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database (for example, when calling the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method).  

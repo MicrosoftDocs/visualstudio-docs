@@ -2,7 +2,6 @@
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
 ms.assetid: 228a6190-8cb8-4182-b6d9-d4c656f4a164
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Filter Descriptor to a Finder Method

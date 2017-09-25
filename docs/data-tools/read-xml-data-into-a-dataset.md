@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], reading XML data"
 ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -38,6 +38,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Read XML data into a dataset
 ADO.NET provides simple methods for working with XML data. In this walkthrough, you  create a Windows application that  loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.  
@@ -62,11 +63,13 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To create the new Windows project  
   
-1.  On the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project `ReadingXML`.  
-  
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **ReadingXML**, and then choose **OK**. 
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   
@@ -181,10 +184,10 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
     |`Button2`|**Name**|`ShowSchemaButton`|  
     ||**Text**|`Show Schema`|  
   
-## Create the dataset thatreceives the XML data  
+## Create the dataset that receives the XML data  
  In this step, you create a new dataset named `authors`. For more information about datasets, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).  
   
-#### To create a new dataset that  receives the XML data  
+#### To create a new dataset that receives the XML data  
   
 1.  In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.  
   

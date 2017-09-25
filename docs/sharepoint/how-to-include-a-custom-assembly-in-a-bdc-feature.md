@@ -2,7 +2,6 @@
 title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], add reference"
 ms.assetid: 2ddf44b9-5f51-4bca-b8bb-94c4bbd1c5f3
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Include a Custom Assembly in a BDC Feature
@@ -43,7 +42,7 @@ manager: "ghogen"
 4.  In the **Select an Assembly** list, choose the custom assembly.  
   
     > [!NOTE]  
-    >  Assemblies only appear in the **Assign referenced assemblies to LobSystems** dialog box if you have added a reference to the project that contains the assembly. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+    >  Assemblies only appear in the **Assign referenced assemblies to LobSystems** dialog box if you have added a reference to the project that contains the assembly. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 5.  In the **Reference Properties** group, open the list that appears for the **LobSystem Scope** property, choose the LOB System of the methods that use the custom assembly, and then choose the **OK** button.  
   

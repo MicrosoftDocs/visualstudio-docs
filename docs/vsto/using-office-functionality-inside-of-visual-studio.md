@@ -2,7 +2,6 @@
 title: "Using Office Functionality Inside of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "Office functionality inside Visual Studio"
 ms.assetid: 593fd583-57e5-4ed5-8489-89f73b886c6c
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Using Office Functionality Inside of Visual Studio

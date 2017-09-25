@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 389873cc-92dd-48da-bfca-0f6c8e0ae3c2
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # The property &lt;property name&gt; cannot be deleted because it is participating in the association &lt;association name&gt;
 The selected property is set as the **Association Property** for the association between the classes indicated in the error message. Properties cannot be deleted if they are participating in an association between data classes.  

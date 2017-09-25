@@ -2,7 +2,6 @@
 title: "How AutoSave Impacts Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/20/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

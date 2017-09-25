@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af32653c-f4e6-4217-8c5a-e32b322b4918
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Data class inheritance (O/R Designer)
 Like other objects, [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes can use inheritance and be derived from other classes. In code, you can specify inheritance relationships between objects by declaring that one class inherits from another. In a database, inheritance relationships are created in several ways. The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.md)] ([!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]) supports the concept of single-table inheritance as it is often implemented in relational systems.  

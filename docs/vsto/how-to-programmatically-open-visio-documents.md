@@ -2,7 +2,6 @@
 title: "How to: Programmatically Open Visio Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], opening Visio documents"
 ms.assetid: bddb820c-bde7-4d21-a0b3-6d1968baccab
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Open Visio Documents

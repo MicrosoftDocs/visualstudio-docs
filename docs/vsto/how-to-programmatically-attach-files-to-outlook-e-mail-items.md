@@ -2,7 +2,6 @@
 title: "How to: Programmatically Attach Files to Outlook E-Mail Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "attachments [Office development in Visual Studio]"
 ms.assetid: 9bccf6f9-3c63-4d23-8f44-f7a608a43613
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Attach Files to Outlook E-Mail Items

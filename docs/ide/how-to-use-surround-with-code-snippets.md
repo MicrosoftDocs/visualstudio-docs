@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "snippets [C#], using Surround With"
 ms.assetid: 23e5288e-7897-417a-9ded-cf60dfc889ee
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

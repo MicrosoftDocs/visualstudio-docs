@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97ec5a04-6e23-45a2-9226-d77ead854392
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.  

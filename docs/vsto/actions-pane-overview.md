@@ -2,7 +2,6 @@
 title: "Actions Pane Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "user controls [Office development in Visual Studio], actions panes"
 ms.assetid: 1b9b7db5-b19f-44ea-a774-f0962ca03bd2
 caps.latest.revision: 101
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Actions Pane Overview

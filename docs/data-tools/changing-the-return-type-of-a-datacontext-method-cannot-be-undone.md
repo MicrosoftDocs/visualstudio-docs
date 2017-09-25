@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 76b161fc-5075-4192-8d94-f15b02e199e9
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Changing the return type of a DataContext method cannot be undone
 Changing the return type of a DataContext method cannot be undone. To revert back to the automatically generated type, you must drag the item from Server Explorer/Database Explorer onto the O/R Designer again. Are you sure you want to change the return type?  

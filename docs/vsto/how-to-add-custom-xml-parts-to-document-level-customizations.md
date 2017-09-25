@@ -2,7 +2,6 @@
 title: "How to: Add Custom XML Parts to Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom XML parts"
 ms.assetid: e305a3d6-3a0e-4e72-ab8c-6a87a3590068
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Custom XML Parts to Document-Level Customizations

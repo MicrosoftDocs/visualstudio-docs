@@ -2,7 +2,6 @@
 title: "How to: Create Custom Feature and Package Validation Rules for SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, validation rules"
 ms.assetid: 17e818f8-0f3a-4a96-a6fc-1634ddb4825d
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create Custom Feature and Package Validation Rules for SharePoint Solutions

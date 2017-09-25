@@ -2,7 +2,6 @@
 title: "How to: Cache Data for Use Offline or on a Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], offline use"
 ms.assetid: 6246b187-9413-4336-821d-2259b1adec5a
 caps.latest.revision: 49
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Cache Data for Use Offline or on a Server

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ADO.NET, data access"
 ms.assetid: 9812a6d5-23d2-4427-8b98-70a2abfec3bc
 caps.latest.revision: 100
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.ht: 
@@ -34,6 +34,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Accessing data in Visual Studio
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.  
@@ -81,7 +82,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
   
  For data-access documentation specifically related to ASP.NET, see  [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](http://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).  
   
- Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx.)  
+ Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).  
   
  For data storage on the local machine, the recommended approach is to use SQLite, which runs in the same process as the app. If an object-relational mapping (ORM) layer is required, you can use Entity Framework. For more information, see [Data access](https://msdn.microsoft.com/windows/uwp/data-access/index) in the Windows Developer Center.  
   

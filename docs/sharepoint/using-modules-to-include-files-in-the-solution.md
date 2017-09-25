@@ -2,7 +2,6 @@
 title: "Using Modules to Include Files in the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "modules [SharePoint development in Visual Studio]"
 ms.assetid: 74d1d69f-5cd9-452f-8d35-e1f4d8a084fd
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Using Modules to Include Files in the Solution

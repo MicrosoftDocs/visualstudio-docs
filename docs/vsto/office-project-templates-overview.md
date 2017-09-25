@@ -2,7 +2,6 @@
 title: "Office Project Templates Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -34,8 +33,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], project templates"
 ms.assetid: 2f86546b-307f-48ea-b01c-5f5a242fce17
 caps.latest.revision: 68
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office Project Templates Overview

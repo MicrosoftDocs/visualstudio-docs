@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Project Designer, Resources page"
 ms.assetid: f2582734-8ada-4baa-8a7c-e2ef943ddf7e
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

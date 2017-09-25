@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "managed code analyis"
 ms.assetid: 68510a55-da51-4381-81a5-0feba76b8b4f
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

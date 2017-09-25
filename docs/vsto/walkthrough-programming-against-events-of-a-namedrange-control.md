@@ -2,7 +2,6 @@
 title: "Walkthrough: Programming Against Events of a NamedRange Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "worksheets, automating"
 ms.assetid: b69676f9-23b2-4ed6-83ab-8868c3f10948
 caps.latest.revision: 57
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Programming Against Events of a NamedRange Control

@@ -2,7 +2,6 @@
 title: "Creating Pages for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "page layouts[SharePoint development in Visual Studio], designing"
 ms.assetid: 57678ed1-841f-45de-a1d3-5f9e233bf3ce
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Pages for SharePoint

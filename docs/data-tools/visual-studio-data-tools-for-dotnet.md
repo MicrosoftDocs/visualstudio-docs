@@ -16,6 +16,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Visual Studio data tools for .NET
 Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET Framework classes that provide data-access functionality are known as [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx). ADO.NET, along with the data tooling in Visual Studio, was originally designed primarily to support relational databases and XML. These days,  many NoSQL database vendors, or third parties, offer ADO.NET providers.  
@@ -48,7 +49,7 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
 -   [Add new data sources](../data-tools/add-new-data-sources.md)  
   
--   [Entity Data Model Tools in Visual Studio](../data-tools/entity-data-model-tools-in-visual-studio.md)  
+-   [Entity Framework Tools in Visual Studio](../data-tools/entity-data-model-tools-in-visual-studio.md)  
   
 -   [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)  
   

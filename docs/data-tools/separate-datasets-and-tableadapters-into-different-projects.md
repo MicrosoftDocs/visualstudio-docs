@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "n-tier applications, separating Datasets and TableAdapters"
 ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -29,6 +29,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Separate datasets and TableAdapters into different projects
 Typed datasets have been enhanced so that the [TableAdapters](create-and-configure-tableadapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  

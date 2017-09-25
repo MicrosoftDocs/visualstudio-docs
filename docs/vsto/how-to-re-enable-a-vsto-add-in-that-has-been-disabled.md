@@ -2,7 +2,6 @@
 title: "How to: Re-enable a VSTO Add-in That Has Been Disabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], enabling"
 ms.assetid: 69719a0a-984c-42cd-80a2-1367c866e5df
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Re-enable a VSTO Add-in That Has Been Disabled

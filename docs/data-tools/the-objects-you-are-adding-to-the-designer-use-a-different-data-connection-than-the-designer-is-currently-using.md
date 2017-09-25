@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # The objects you are adding to the designer use a different data connection than the designer is currently using
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?  

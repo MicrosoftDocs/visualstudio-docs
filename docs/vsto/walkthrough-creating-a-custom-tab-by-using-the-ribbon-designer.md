@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Tab by Using the Ribbon Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Custom tab [Office development in Visual Studio]"
 ms.assetid: 312865e6-950f-46ab-88de-fe7eb8036bfe
 caps.latest.revision: 68
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Custom Tab by Using the Ribbon Designer

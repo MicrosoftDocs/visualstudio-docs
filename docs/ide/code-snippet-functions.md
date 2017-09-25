@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

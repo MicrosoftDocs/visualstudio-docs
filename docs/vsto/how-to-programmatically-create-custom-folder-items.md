@@ -2,7 +2,6 @@
 title: "How to: Programmatically Create Custom Folder Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], custom"
 ms.assetid: 5af5b11c-3911-46fa-8a80-413c23b4f2b5
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create Custom Folder Items

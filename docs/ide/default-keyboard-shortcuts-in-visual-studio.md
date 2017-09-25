@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/26/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "shortcut keys [Visual Studio], keyboard binding schemes"
   - "keyboard binding schemes [Visual Studio]"
   - "Help [Visual Studio], shortcut keys"
@@ -16,10 +16,10 @@ helpviewer_keywords:
   - "keyboard shortcuts"
 ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

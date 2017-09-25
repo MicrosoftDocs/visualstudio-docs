@@ -2,7 +2,6 @@
 title: "Office Projects in the Visual Studio Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,8 +44,8 @@ helpviewer_keywords:
   - "VST.Designer.ExcelVST.Designer.Word"
 ms.assetid: 4bff36c9-4edd-4b28-89e6-0ea9f6caca02
 caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office Projects in the Visual Studio Environment

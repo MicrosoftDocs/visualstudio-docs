@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Data Sources window"
 ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -31,6 +31,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Set the control to be created when dragging from the Data Sources window
 You can create data-bound controls by dragging items from the **Data Sources** window onto the WPF designer or Windows Forms designer. Each item in the **Data Sources** window has a default control that is created when you drag it to the designer. However, you can choose to create a different control.  
@@ -52,7 +53,7 @@ You can create data-bound controls by dragging items from the **Data Sources** w
   
     -   To display all of the data in a single control, select a different control in the list, such as **DataGrid** or **List** in a WPF application, or **DataGridView** in a Windows Forms application.  
   
-     The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and whether you have added custom controls that support data binding to the **Toolbox**. If the control you want to create is in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
+     The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and whether you have added custom controls that support data binding to the **Toolbox**. If the control you want to create is not in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
      To learn how to create a custom Windows Forms control that can be added to the list of controls for data tables or objects in the **Data Sources** window, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).  
   

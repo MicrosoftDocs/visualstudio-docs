@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 487dafe4-d57c-4be1-9e3a-bb0a8699b2fa
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # The designer cannot be modified while debugging
 This message appears when an attempt is made to modify items on the O/R Designer when the application is running in debug mode. When the application is running in debug mode, the O/R Designer is read-only.  

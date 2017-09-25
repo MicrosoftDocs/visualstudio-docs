@@ -2,10 +2,9 @@
 title: Python Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -17,7 +16,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.Debugging"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
-
 author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"

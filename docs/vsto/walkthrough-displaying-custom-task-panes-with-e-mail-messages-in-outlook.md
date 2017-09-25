@@ -2,7 +2,6 @@
 title: "Walkthrough: Displaying Custom Task Panes with E-Mail Messages in Outlook | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], displaying with e-mail messages"
 ms.assetid: 04943967-a7ef-4876-9584-84ada427e3f3
 caps.latest.revision: 59
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Displaying Custom Task Panes with E-Mail Messages in Outlook

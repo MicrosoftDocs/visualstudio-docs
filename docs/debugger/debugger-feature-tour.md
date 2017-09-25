@@ -117,8 +117,9 @@ Press F5 until you reach the line of code where you selected **Run to Cursor**.
 
 This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
 
-    > [!NOTE]
-    > You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
+
+> [!NOTE]
+> You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
 
 ## Restart your app quickly
 

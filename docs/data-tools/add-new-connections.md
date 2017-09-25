@@ -8,14 +8,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a93c287-2834-4a83-a590-bdc3fe8d293f
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Add new connections
 You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:  

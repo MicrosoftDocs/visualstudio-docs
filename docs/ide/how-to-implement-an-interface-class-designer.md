@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "interfaces [Visual Studio]"
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

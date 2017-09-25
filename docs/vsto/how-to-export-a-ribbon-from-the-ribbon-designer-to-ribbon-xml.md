@@ -2,7 +2,6 @@
 title: "How to: Export a Ribbon from the Ribbon Designer to Ribbon XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "exporting Ribbon"
 ms.assetid: 96e0e9ed-4392-4f45-ac33-b6f7c22ea321
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Export a Ribbon from the Ribbon Designer to Ribbon XML

@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 caps.latest.revision: 2
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -25,6 +25,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.  

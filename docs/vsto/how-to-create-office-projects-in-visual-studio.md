@@ -2,7 +2,6 @@
 title: "How to: Create Office Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,8 +24,8 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 ms.assetid: 0037dbd8-0d2a-4766-90ea-81c819379582
 caps.latest.revision: 96
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create Office Projects in Visual Studio
@@ -85,7 +84,7 @@ manager: "ghogen"
 7.  Choose the **OK** button.  
   
     > [!NOTE]  
-    >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [NIB Temporary Projects](http://msdn.microsoft.com/en-us/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
+    >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary Projects](http://msdn.microsoft.com/en-us/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
   
 ### To create a document-level customization project  
   
@@ -108,7 +107,7 @@ manager: "ghogen"
 5.  In the **Name** box, type a name for the project. By default, this name is also used for the document. If your IDE is set to use Visual C# development settings or General development settings, also enter a location and solution name.  
   
     > [!NOTE]  
-    >  You cannot use surrogate characters in the path of the project location or in the project name. For information about surrogate characters, see [NIB: Unicode Support for Surrogate Pairs and Combining Character Sequences](http://msdn.microsoft.com/en-us/cba3285c-7b47-4ce8-8970-f48d6ac03e39). Also, if you plan to deploy the solution for use offline, the characters in the project name must fit the HTTP protocol specifications.  
+    >  You cannot use surrogate characters in the path of the project location or in the project name. Also, if you plan to deploy the solution for use offline, the characters in the project name must fit the HTTP protocol specifications.  
   
 6.  Choose the **OK** button.  
   

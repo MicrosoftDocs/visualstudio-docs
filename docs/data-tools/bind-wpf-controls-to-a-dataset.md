@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
 caps.latest.revision: 32
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -33,6 +33,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Bind WPF controls to a dataset
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You will also add buttons to browse through products and save changes to product records.  
@@ -56,7 +57,7 @@ You need the following components to complete this walkthrough:
   
 -   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
   
- Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
+Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
 -   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter](../data-tools/create-and-configure-tableadapters.md).  
   

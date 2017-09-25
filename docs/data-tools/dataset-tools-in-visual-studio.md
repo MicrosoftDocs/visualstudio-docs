@@ -47,8 +47,8 @@ helpviewer_keywords:
   - "data adapters, populating datasets"
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 caps.latest.revision: 49
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -65,6 +65,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Dataset tools in Visual Studio
 > [!NOTE]

@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 caps.latest.revision: 2
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] as <xref:System.Data.Linq.DataContext> methods. Calling the method and passing in the required parameters runs the stored procedure or function on the database and returns the data in the return type of the <xref:System.Data.Linq.DataContext> method. For detailed information about <xref:System.Data.Linq.DataContext> methods, see [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).  

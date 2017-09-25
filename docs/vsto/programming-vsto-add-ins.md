@@ -2,7 +2,6 @@
 title: "Programming VSTO Add-Ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -36,8 +35,8 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 ms.assetid: c534786d-2833-4afa-9e4c-4633f46b9eed
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Programming VSTO Add-Ins

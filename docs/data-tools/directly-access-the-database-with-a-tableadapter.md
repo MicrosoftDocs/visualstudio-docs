@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "TableAdapters"
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
 caps.latest.revision: 12
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -41,6 +41,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Directly access the database with a TableAdapter
 In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableAdapters are created with methods that can be run directly against the database. These methods (`TableAdapter.Insert`, `TableAdapter.Update`, and `TableAdapter.Delete`) can be called to manipulate data directly in the database.  
@@ -52,7 +53,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To insert new records directly into a database  
   
--   Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+-   Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind database as an example.  
   
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  

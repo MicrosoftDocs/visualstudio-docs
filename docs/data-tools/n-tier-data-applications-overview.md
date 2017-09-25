@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "n-tier applications, about n-tier applications"
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 caps.latest.revision: 26
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -30,6 +30,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # N-Tier Data Applications Overview
 *N-tier* data applications are data applications that are separated into multiple *tiers*. Also called "distributed applications" and "multitier applications," n-tier applications separate processing into discrete tiers that are distributed between the client and the server. When you develop applications that access data, you should have a clear separation between the various tiers that make up the application.  
@@ -38,7 +39,7 @@ translation.priority.ht:
   
  Visual Studio contains several features to help developers create n-tier applications:  
   
--   The datasetprovides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and `TableAdapter`s (data access layer) into discrete projects.  
+-   The dataset provides a **DataSet Project** property that enables you to separate the dataset (data entity layer) and TableAdapters (data access layer) into discrete projects.  
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   

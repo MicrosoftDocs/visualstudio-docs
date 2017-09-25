@@ -5,14 +5,14 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d1160f8-4e51-4e70-99cd-82ad10ee7b32
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

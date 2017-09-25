@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "managing change, database servers"
 ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
 caps.latest.revision: 37
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -31,6 +31,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Creating and managing databases and data-tier applications in Visual Studio
 > [!IMPORTANT]

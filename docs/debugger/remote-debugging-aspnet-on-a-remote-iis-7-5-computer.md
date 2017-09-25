@@ -37,7 +37,14 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET Core, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). You can also deploy and debug on IIS using Azure. For more information, see [Remote debug on Azure](../debugger/remote-debugging-azure.md).
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 10 (For Windows Server 2008 R2, server steps are different)
+* Windows Server 2012 R2 and IIS 10 (For Windows Server 2008 R2, the server steps are different)
+
+## Requirements
+
+The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
+
+> [!NOTE]
+> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
@@ -64,7 +71,7 @@ When you download the software, you may get requests to grant permission to load
 
 ## <a name="BKMK_deploy_asp_net"></a> Install ASP.NET 4.5 on Windows Server
 
-On Windows Server 2012 R2, see [IIS Configuration](https://docs.asp.net/en/latest/publishing/iis.html#iis-configuration) if you need more detailed information.
+If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
 1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET)
 
@@ -134,13 +141,6 @@ In this tutorial, we are using Visual Studio 2017.
 
 > [!TIP]
 > In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
-
-## Requirements
-
-The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2 and is also supported on Windows 7 and newer. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
-
-> [!NOTE]
->  The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported in this scenario.
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 

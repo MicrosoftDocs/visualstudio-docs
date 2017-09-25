@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "warnings, design"
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

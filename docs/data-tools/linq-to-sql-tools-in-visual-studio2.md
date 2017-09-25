@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # LINQ to SQL Tools in Visual Studio
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it is no longer under active development. Use LINQ to SQL when maintaining a legacy application that is already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.  

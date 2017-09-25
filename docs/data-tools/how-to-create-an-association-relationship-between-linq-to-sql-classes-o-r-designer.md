@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)
 Associations between entity classes in [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] are analogous to relationships between tables in a database. You can create associations between entity classes by using the **Association Editor** dialog box.  

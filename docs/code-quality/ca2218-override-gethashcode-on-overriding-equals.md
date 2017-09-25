@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "CA2218"
 ms.assetid: 69b020cd-29e8-45a6-952e-32cf3ce2e21d
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

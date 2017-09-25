@@ -2,7 +2,6 @@
 title: "Designing and Creating Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "Office project types in Visual Studio"
 ms.assetid: 53c32c61-3d3a-4427-a5a7-f9c2c8f1de02
 caps.latest.revision: 103
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Designing and Creating Office Solutions

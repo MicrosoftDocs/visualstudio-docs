@@ -2,7 +2,6 @@
 title: "How to: Create an Event Receiver | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "event receivers [SharePoint development in Visual Studio]"
 ms.assetid: 6f90cb48-eb8f-43c2-a3f7-ed4ce81aedf2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create an Event Receiver

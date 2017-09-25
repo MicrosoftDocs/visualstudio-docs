@@ -1,22 +1,21 @@
 ---
 title: Visual Studio Test Professional 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  08/09/2017
+ms.date: 08/30/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.prod: "visual-studio-dev15"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-ide-install"
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -26,7 +25,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
@@ -55,8 +54,8 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26208.0 | Required
-Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.26228.0 | Required
+Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.26711.1 | Required
+Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.26606.0 | Required
 
 ## Unaffiliated components
 

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 ms.assetid: f0862d48-fbbc-4cfe-b228-24492d5c89c4
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

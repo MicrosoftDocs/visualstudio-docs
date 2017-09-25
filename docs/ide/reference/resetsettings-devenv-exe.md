@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "/ResetSettings Devenv switch"
 ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

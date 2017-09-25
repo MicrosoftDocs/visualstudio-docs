@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], typedefs"
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -60,7 +60,7 @@ typedef class coord
 };  
 ```  
   
- For more information about using the `typedef` type, see [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/en-us/cc96cf26-ba93-4179-951e-695d1f5fdcf1).  
+ For more information about using the `typedef` type, see [typedef Specifier](https://msdn.microsoft.com/en-us/library/05w82thz.aspx).  
   
  A C++ typedef shape has the shape of the type specified in the typedef. For example, if the source declares `typedef class`, the shape has rounded corners and the label **Class**. For `typedef struct`, the shape has square corners and the label **Struct**.  
   
@@ -212,4 +212,4 @@ class A {
   
 ## See Also  
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/en-us/cc96cf26-ba93-4179-951e-695d1f5fdcf1)
+ [typedef Specifier](https://msdn.microsoft.com/en-us/library/05w82thz.aspx)

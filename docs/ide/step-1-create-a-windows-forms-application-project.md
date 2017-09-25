@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

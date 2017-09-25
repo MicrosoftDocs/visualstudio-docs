@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "project templates, creating"
 ms.assetid: a1a6999d-a34c-48a8-b1cf-027eb5c76398
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

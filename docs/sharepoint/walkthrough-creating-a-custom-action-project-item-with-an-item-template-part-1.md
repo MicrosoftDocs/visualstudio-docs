@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 ms.assetid: 41ed9c1c-4239-4d80-934b-975fde744288
 caps.latest.revision: 152
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1
@@ -93,9 +92,6 @@ manager: "ghogen"
 #### To create the item template project  
   
 1.  In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.  
-  
-    > [!NOTE]  
-    >  In Visual Basic projects, the solution node appears in **Solution Explorer** only when the **Always show solution** check box is selected in the [NIB: General, Projects and Solutions, Options Dialog Box](http://msdn.microsoft.com/en-us/8f8e37e8-b28d-4b13-bfeb-ea4d3312aeca).  
   
 2.  In the list at the top of the **New Project** dialog box, make sure that **.NET Framework 4.5** is selected.  
   
@@ -314,7 +310,7 @@ manager: "ghogen"
 6.  In the **Type** list, choose **Microsoft.VisualStudio.ItemTemplate**.  
   
     > [!NOTE]  
-    >  This value corresponds to the `ItemTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project item template. For more information, see [NIB: ItemTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/1d489e54-c1c5-4f96-a510-6c2640867ff0).  
+    >  This value corresponds to the `ItemTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project item template. For more information, see [ItemTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/1d489e54-c1c5-4f96-a510-6c2640867ff0).  
   
 7.  In the **Source** list, choose **A project in current solution**.  
   
@@ -327,7 +323,7 @@ manager: "ghogen"
 10. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.  
   
     > [!NOTE]  
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [NIB: MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
+    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
   
 11. In the **Source** list, choose **A project in current solution**.  
   

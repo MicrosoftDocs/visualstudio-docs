@@ -1,22 +1,21 @@
 ---
 title: Visual Studio Team Explorer 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  08/09/2017
+ms.date: 08/30/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.prod: "visual-studio-dev15"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-ide-install"
 ms.assetid: c6ef9a3b-d13d-49b4-9faa-51fa06b21e1f
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -26,7 +25,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
@@ -55,7 +54,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.0.26606.0 | Required
 
 ## Unaffiliated components
 

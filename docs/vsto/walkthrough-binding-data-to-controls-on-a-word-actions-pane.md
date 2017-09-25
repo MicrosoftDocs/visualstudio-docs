@@ -2,7 +2,6 @@
 title: "Walkthrough: Binding Data to Controls on a Word Actions Pane | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], data binding"
 ms.assetid: 5ef72fc7-412b-4454-9890-4479a13ee7f9
 caps.latest.revision: 64
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Binding Data to Controls on a Word Actions Pane

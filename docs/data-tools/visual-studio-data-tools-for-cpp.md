@@ -10,8 +10,8 @@ dev_langs:
   - "C++"
 ms.assetid: 3a3849d9-1bc7-47d1-805e-1755223ccba2
 caps.latest.revision: 9
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
 translation.priority.mt: 
@@ -19,6 +19,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Visual Studio data tools for C++
 Native C++ can often provide the fastest performance when you are accessing data sources. However, data tooling for C++ applications in Visual Studio is not as rich as it is for .NET applications. For example, the data sources windows cannot be used to drag and drop data sources onto a C++ design surface. If you need an object-relational layer, you will have to write your own, or use a third-party product.  The same is true for data-binding functionality, although applications that use the Microsoft Foundation Class library can use some database classes, together with documents and views, to store data in memory and display it to the user. For more information, see [Data Access in Visual C++](https://msdn.microsoft.com/en-us/library/7wtdsdkh.aspx) .  

@@ -2,7 +2,6 @@
 title: "Walkthrough: Deploying a Project Task List Definition | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 ms.assetid: 18b62016-ed30-4dd1-9dfc-0d7e82c6767f
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Deploying a Project Task List Definition

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add Comments to Text in Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding comments"
 ms.assetid: 4e396e31-01bf-424c-be6b-9a1806bcd572
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add Comments to Text in Documents

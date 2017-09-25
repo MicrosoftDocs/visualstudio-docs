@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 ms.assetid: 58f33b43-24e1-43b1-b08b-b74329960bd6
 caps.latest.revision: 36
-author: "mikeblome"
-ms.author: "mblome"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -29,6 +29,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Create and configure datasets in Visual Studio
 A *dataset* is a set of objects that store data from a database in memory and support change tracking to enable create, read, update and delete (CRUD) operations on that data without the need to be always connected to the database. Datasets were designed for simple *forms over data* business applications. For new applications, consider using Entity Framework to store and model data in memory. To work with datasets, you should have a basic knowledge of database concepts.  

@@ -2,7 +2,6 @@
 title: "Working with Text in Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], text"
 ms.assetid: 6f9e5a35-8c29-4237-bd44-f3a79e6a5f1c
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Text in Documents
