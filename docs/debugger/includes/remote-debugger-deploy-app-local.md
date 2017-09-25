@@ -14,11 +14,13 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
+1. In the **Solution Explorer**,  right-click the project node and select **Publish** (for Web Forms, **Publish Web App**).
 
 2. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
     ![RemoteDBG_Publish_Local](../media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
+
+    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name and choose **OK**.
 
 3. Click **Publish**.
 
