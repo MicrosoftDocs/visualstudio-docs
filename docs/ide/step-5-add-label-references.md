@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d418350c-0396-494e-8149-71fa61b395c5
 caps.latest.revision: 20
-author: TerryGLee
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

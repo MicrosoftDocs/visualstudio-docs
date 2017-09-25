@@ -2,10 +2,9 @@
 title: "Azure SDK for Python | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/7/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""

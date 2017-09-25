@@ -3,19 +3,18 @@ title: "Install Visual Studio behind a firewall or proxy server | Microsoft Docs
 description: ""
 ms.custom: ""
 ms.date: "08/01/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
   - "list of domains, locations, URLs"
-ms.assetid:
+ms.assetid: 
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
