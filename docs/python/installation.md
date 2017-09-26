@@ -20,7 +20,7 @@ manager: "ghogen"
 
 To install Python support for Visual Studio, follow the instructions in the section that matches your version of Visual Studio:
 
-- [Visual Studio 2017](quickstart-01-install.md)
+- [Visual Studio 2017](vs-tutorial-01-00.md)
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
 
@@ -36,7 +36,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-Refer to [Quickstart: install Python support in Visual Studio](quickstart-01-install.md).
+Refer to [Tutorial Step 0: install Python support in Visual Studio 2017](vs-tutorial-01-00.md).
 
 
 ## Visual Studio 2015

@@ -1,20 +1,18 @@
-# Overview
-## [Python in Visual Studio](python-in-visual-studio.md)
-# Quickstart
-## [Installation](quickstart-01-install.md)
-## [Create a project from existing code](quickstart-02a-project-from-existing.md)
-## [Create a project from a template](quickstart-02b-project-from-template.md)
-## [Create a project from a repository code](quickstart-02c-project-from-repository.md)
-## [Create a project from a Cookiecutter template](quickstart-02d-project-from-cookiecutter.md)
+# [Overview - Python in Visual Studio](python-in-visual-studio.md)
+# [Installation](installation.md)
+# Quickstarts
+## [Create a project from existing code](quickstart-01-project-from-existing.md)
+## [Create a project from a template](quickstart-02-project-from-template.md)
+## [Create a project from a repository](quickstart-03-project-from-repository.md)
+## [Create a project from a Cookiecutter template](quickstart-04-project-from-cookiecutter.md)
 # Tutorials
+## [0 - Install Python support](vs-tutorial-01-00.md)
 ## [1 - Create a new Python project](vs-tutorial-01-01.md)
 ## [2 - Writing and running code](vs-tutorial-01-02.md)
 ## [3 - Using the interactive REPL window](vs-tutorial-01-03.md)
 ## [4 - Running code in the debugger](vs-tutorial-01-04.md)
-## [5 - Installing packages and managing your environment]
-## [6 - Visualizing data]
-## [7 - Statistical programming]
-## [8 - Working with Git]
+## [5 - Installing packages and managing Python environments](vs-tutorial-01-05.md)
+## [6 - Working with Git](vs-tutorial-01-06.md)
 # Concepts
 ## [Python Environments](python-environments.md)
 ## [Python Projects](python-projects.md)
@@ -33,7 +31,7 @@
 ### [Using IPython REPL](interactive-repl-ipython.md)
 ## [Debugging](debugging.md)
 ### [Cross-platform Remote Debugging](debugging-cross-platform-remote.md)
-## [Publishing to Azure](publishing-to-azure.md)
+## [Publishing to Azure App Service](publishing-to-azure.md)
 ### [Azure Remote Debugging](debugging-azure-remote.md)
 ### [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md)
 ## Interacting with C++

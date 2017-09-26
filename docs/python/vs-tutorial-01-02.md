@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 2 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/22/2017
+ms.date: 9/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,11 +26,11 @@ While Solution Explorer is where you manage project files, the *editor* window i
 
 1. Start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the Tab key. Completions are most helpful when longer statements or identifiers are involved.
 
-    ![IntelliSense auto-completion popup](../images/vs-getting-started-python-04-IntelliSense1.png)
+    ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1.png)
 
 1. IntelliSense shows different information depending on the statement you're using, the function you're calling, and so forth. With the `print` function, typing `(` after `print` to indicate a function call displays full usage information for that function. The IntelliSense pop up also shows the current argument in boldface (**value** as shown here):
 
-    ![IntelliSense auto-completion popup for a function](../images/vs-getting-started-python-05-IntelliSense2.png)
+    ![IntelliSense auto-completion popup for a function](media/vs-getting-started-python-05-IntelliSense2.png)
 
 1. Complete the statement so it matches the following:
 
@@ -40,7 +40,7 @@ While Solution Explorer is where you manage project files, the *editor* window i
 
 1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. Also, temporarily delete the last `"` on the string and notice how Visual Studio will show a red underline for code that contains syntax errors. Then replace the `"` to correct the code.
  
-    ![IntelliSense syntax coloring and error highlighting](../images/vs-getting-started-python-06-IntelliSense3.png)
+    ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3.png)
  
     > [!Tip]
     > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools > Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you'll see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. At any time, pressing F1 or selecting the **?** button on the dialog's title bar takes you to documentation for the current set of options.
@@ -49,21 +49,21 @@ While Solution Explorer is where you manage project files, the *editor* window i
  
 1. When you run the program, a console window appears displaying the results, just as if you'd run a Python interpreter with `hello.py` from the command line. Press a key to close the window and return to the Visual Studio editor.
 
-    ![Output for the first run of the program](../images/vs-getting-started-python-07-output.png)
+    ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
 1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import `. A list of modules appears when you type the space:
 
-    ![IntellSense showing available modules for an import statement](../images/vs-getting-started-python-08-import1.png)
+    ![IntellSense showing available modules for an import statement](media/vs-getting-started-python-08-import1.png)
 
 1. Complete the line by typing or selecting `sys`.
 
 1. On the next line, type `from` to again see a list of modules:
 
-    ![IntellSense showing available modules for a from statement](../images/vs-getting-started-python-09-import2.png)
+    ![IntellSense showing available modules for a from statement](media/vs-getting-started-python-09-import2.png)
 
 1. Select or type `math`, then continue typing with a space and `import`, which displays the module members:
 
-    ![IntellSense showing module members](../images/vs-getting-started-python-10-import3.png)
+    ![IntellSense showing module members](media/vs-getting-started-python-10-import3.png)
 
 1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the auto-completions available for each. When you're done, your code should appear as follows:
 
@@ -92,18 +92,18 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. The interactive window opens below the editor with the usual `>>>` Python REPL prompt. Oftentimes you want to make the interactive window larger, which you can do by dragging the separator between the two windows:
 
-    ![Python interactive window and dragging to resize](../images/vs-getting-started-python-11-interactive1.png)
+    ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1.png)
 
     > [!Tip]
     > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see <a href="https://docs.microsoft.com/visualstudio/ide/customizing-window-layouts-in-visual-studio" target="_blank">Customizing window layouts</a>.
 
 1. Enter a few statements like `print("Hello, Visual Studio")` and expressions like `123/456` to see immediate results:
 
-    ![Python interactive window immediate results](../images/vs-getting-started-python-12-interactive2.png)
+    ![Python interactive window immediate results](media/vs-getting-started-python-12-interactive2.png)
 
 1. When you start writing a multiline statement, like a function definition, the interactive window shows Python's `...` prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation:
 
-    ![Python interactive window with statement continuation](../images/vs-getting-started-python-13-interactive3.png)
+    ![Python interactive window with statement continuation](media/vs-getting-started-python-13-interactive3.png)
 
 1. The interactive window provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
 
@@ -117,7 +117,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. Select only the `import` and `from` statements in `hello.py`, right-click, and select **Send to Interactive** (or press Ctrl+Enter). The code fragment is immediately pasted into the interactive window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
 
-    ![Sending code to the interactive window and testing it](../images/vs-getting-started-python-14-interactive4.png)
+    ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 
     > [!Tip]
     > Using Ctrl+Enter in the editor *without* a selection runs the current line of code in the interactive window and automatically places the caret on the next line. With this feature, pressing Ctrl+Enter repeatedly provides a convenient way to step through your code that is not possible with only the Python command line. It also lets you step through your code without running the debugger and without necessarily starting your program from the beginning.
@@ -130,17 +130,17 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
         print(s) 
     ```
 
-    ![Pasting multiple lines of code using Sending Interactive](../images/vs-getting-started-python-15-interactive5.png)
+    ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
 
 1. As you can see, this code works fine but its output isn't very inspiring. A different step value in the `for` loop would show more of the cosine wave. Fortunately, because the entire `for` loop is in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. Then press the left or right arrows to start navigating in the code (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press Ctrl+Enter (anywhere in the code) to run the whole statement again:
 
-    ![Editing a previous statement in the interactive window](../images/vs-getting-started-python-16-interactive6.png)
+    ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
 
 1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
  
 1. When you're satisfied with code you're written in the interactive window, select it, right-click and select **Copy Code** (Ctrl+Shift+C), and then paste into the editor. Notice how this special feature of Visual Studio automatically omits any output as well as the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
 
-    ![Interactive window copy code command on a selection with prompts and output](../images/vs-getting-started-python-17-interactive7.png)
+    ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)
 
     When you paste into the editor, you get only the code:
 
@@ -191,15 +191,15 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Set a breakpoint on the `for` statement by clicking once in the gray margin by that line, or by placing the caret in that line and using the **Debug > Toggle Breakpoint** command (F9). A red dot appears in the gray margin to indicate the breakpoint (as noted by the arrow below):
 
-    ![Setting a breakpoint](../images/vs-getting-started-python-18-debugging1.png)
+    ![Setting a breakpoint](media/vs-getting-started-python-18-debugging1.png)
 
 1. Start the debugger again (F5) and see that running the code stops on the line with that breakpoint. Here you can inspect the call stack and examine variables. Variables that are in-scope appear in the **Autos** window when they're defined; you can also switch to the **Locals** view at the bottom of that window to show all variables that Visual Studio finds in the current scope (including functions), even before they're defined:
 
-    ![Breakpoint UI experience for Python](../images/vs-getting-started-python-19-debugging2.png)
+    ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2.png)
 
 1. Observe the debugging toolbar (shown below) along the top of the Visual Studio Window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
 
-    ![Essential debugging toolbar buttons](../images/vs-getting-started-python-20-debugging3.png)
+    ![Essential debugging toolbar buttons](media/vs-getting-started-python-20-debugging3.png)
 
     The buttons from left to right as follows:
     - **Continue** (F5) runs the program until the next breakpoint or until program completion.
@@ -229,7 +229,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set this condition, right-click the red breakpoint dot and select **Conditions...** (Alt+F9,C). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press F5 to continue and observe that the program runs many iterations before the next break. 
 
-    ![Setting a breakpoint condition](../images/vs-getting-started-python-21-debugging4.png)
+    ![Setting a breakpoint condition](media/vs-getting-started-python-21-debugging4.png)
 
 1. To run the program to completion, disable the breakpoint by right-clicking and selecting **Disable breakpoint** (Ctrl+F9). Then select **Continue** (or press F5) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. Note that you can also delete the breakpoint by clicking its dot, but this also deletes any condition you've set.
 

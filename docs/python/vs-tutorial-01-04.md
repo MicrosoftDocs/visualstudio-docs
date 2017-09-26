@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 4 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/22/2017
+ms.date: 9/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -55,15 +55,15 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Set a breakpoint on the `for` statement by clicking once in the gray margin by that line, or by placing the caret in that line and using the **Debug > Toggle Breakpoint** command (F9). A red dot appears in the gray margin to indicate the breakpoint (as noted by the arrow below):
 
-    ![Setting a breakpoint](../images/vs-getting-started-python-18-debugging1.png)
+    ![Setting a breakpoint](media/vs-getting-started-python-18-debugging1.png)
 
 1. Start the debugger again (F5) and see that running the code stops on the line with that breakpoint. Here you can inspect the call stack and examine variables. Variables that are in-scope appear in the **Autos** window when they're defined; you can also switch to the **Locals** view at the bottom of that window to show all variables that Visual Studio finds in the current scope (including functions), even before they're defined:
 
-    ![Breakpoint UI experience for Python](../images/vs-getting-started-python-19-debugging2.png)
+    ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2.png)
 
 1. Observe the debugging toolbar (shown below) along the top of the Visual Studio Window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
 
-    ![Essential debugging toolbar buttons](../images/vs-getting-started-python-20-debugging3.png)
+    ![Essential debugging toolbar buttons](media/vs-getting-started-python-20-debugging3.png)
 
     The buttons from left to right as follows:
     - **Continue** (F5) runs the program until the next breakpoint or until program completion.
@@ -93,7 +93,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set this condition, right-click the red breakpoint dot and select **Conditions...** (Alt+F9,C). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press F5 to continue and observe that the program runs many iterations before the next break. 
 
-    ![Setting a breakpoint condition](../images/vs-getting-started-python-21-debugging4.png)
+    ![Setting a breakpoint condition](media/vs-getting-started-python-21-debugging4.png)
 
 1. To run the program to completion, disable the breakpoint by right-clicking and selecting **Disable breakpoint** (Ctrl+F9). Then select **Continue** (or press F5) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. Note that you can also delete the breakpoint by clicking its dot, but this also deletes any condition you've set.
 
@@ -103,8 +103,8 @@ In addition to managing projects, providing a rich editing experience, and the i
 ## Next Steps
 
 > [!div class="nextstepaction"]
-> TODO
+> [Installing packages and managing your Python environment](vs-tutorial-01-05.md)
 
 ### Going deeper
 - [Debugging](debugging.md).
-- Also see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) for full documentation of Visual Studio's debugging features.
+- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) provides full documentation of Visual Studio's debugging features.

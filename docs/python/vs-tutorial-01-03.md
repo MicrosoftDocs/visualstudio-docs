@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 3 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/22/2017
+ms.date: 9/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,18 +26,18 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. The interactive window opens below the editor with the usual `>>>` Python REPL prompt. Oftentimes you want to make the interactive window larger, which you can do by dragging the separator between the two windows:
 
-    ![Python interactive window and dragging to resize](../images/vs-getting-started-python-11-interactive1.png)
+    ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1.png)
 
     > [!Tip]
     > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see <a href="https://docs.microsoft.com/visualstudio/ide/customizing-window-layouts-in-visual-studio" target="_blank">Customizing window layouts</a>.
 
 1. Enter a few statements like `print("Hello, Visual Studio")` and expressions like `123/456` to see immediate results:
 
-    ![Python interactive window immediate results](../images/vs-getting-started-python-12-interactive2.png)
+    ![Python interactive window immediate results](media/vs-getting-started-python-12-interactive2.png)
 
 1. When you start writing a multiline statement, like a function definition, the interactive window shows Python's `...` prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation:
 
-    ![Python interactive window with statement continuation](../images/vs-getting-started-python-13-interactive3.png)
+    ![Python interactive window with statement continuation](media/vs-getting-started-python-13-interactive3.png)
 
 1. The interactive window provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
 
@@ -51,7 +51,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. Select only the `import` and `from` statements in `hello.py`, right-click, and select **Send to Interactive** (or press Ctrl+Enter). The code fragment is immediately pasted into the interactive window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
 
-    ![Sending code to the interactive window and testing it](../images/vs-getting-started-python-14-interactive4.png)
+    ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 
     > [!Tip]
     > Using Ctrl+Enter in the editor *without* a selection runs the current line of code in the interactive window and automatically places the caret on the next line. With this feature, pressing Ctrl+Enter repeatedly provides a convenient way to step through your code that is not possible with only the Python command line. It also lets you step through your code without running the debugger and without necessarily starting your program from the beginning.
@@ -64,17 +64,17 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
         print(s) 
     ```
 
-    ![Pasting multiple lines of code using Sending Interactive](../images/vs-getting-started-python-15-interactive5.png)
+    ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
 
 1. As you can see, this code works fine but its output isn't very inspiring. A different step value in the `for` loop would show more of the cosine wave. Fortunately, because the entire `for` loop is in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. Then press the left or right arrows to start navigating in the code (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press Ctrl+Enter (anywhere in the code) to run the whole statement again:
 
-    ![Editing a previous statement in the interactive window](../images/vs-getting-started-python-16-interactive6.png)
+    ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
 
 1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
  
 1. When you're satisfied with code you're written in the interactive window, select it, right-click and select **Copy Code** (Ctrl+Shift+C), and then paste into the editor. Notice how this special feature of Visual Studio automatically omits any output as well as the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
 
-    ![Interactive window copy code command on a selection with prompts and output](../images/vs-getting-started-python-17-interactive7.png)
+    ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)
 
     When you paste into the editor, you get only the code:
 

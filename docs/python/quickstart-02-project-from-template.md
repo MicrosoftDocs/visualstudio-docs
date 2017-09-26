@@ -79,8 +79,6 @@ Once you've [installed Python support in Visual Studio 2017](quickstart-01-insta
 
 1. Run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** on the menu. The results are displayed in a console window.
 
-
-
 ## Next Steps
 
 > [!div class="nextstepaction"]
