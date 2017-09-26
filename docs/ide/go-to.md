@@ -12,24 +12,10 @@ ms.assetid: 509b2107-23d1-4fb3-987f-ab99ef45b72e
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Go To
-There are many ways to easily navigate your code inside of the Visual Studio IDE, both from the keyboard and the mouse.
+There are many ways to easily navigate your code inside of the Visual Studio IDE, both from the keyboard and using the mouse.
 
 <!-- VERSIONLESS -->
 ## Go To All

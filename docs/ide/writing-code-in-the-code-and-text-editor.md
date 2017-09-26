@@ -64,21 +64,6 @@ caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Write code in the code editor
 The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code you are using by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Editing Your Code](https://www.visualstudio.com/features/ide-vs) for a quick overview.  
@@ -125,8 +110,8 @@ The Visual Studio editor provides many features that make it easier for you to w
 |Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line.|  
 |View White Space|Displays spaces as raised dots, and tabs as arrows. The end of a file is displayed as a rectangular glyph. If **Tools/Options/Text Editor/All Languages/Word Wrap/Show visible glyphs for word wrap** is selected, that glyph is also displayed.|  
 |Word Wrap|Causes all the lines in a document to be visible in the code window. You can turn word wrap off and on in the Text Editor All Languages settings (**Tools/Options/ Text Editor/All Languages**).|  
-|Uncomment Selection|Adds comment characters to the selection or the current line.|  
-|Comment Selection|Removes comment characters from the selection or the current line.|  
+|Comment Selection|Adds comment characters to the selection or the current line.|  
+|Uncomment Selection|Removes comment characters from the selection or the current line.|  
 |Increase Line Indent|Adds a tab (or the equivalent spaces) to the selected lines or the current line.|  
 |Decrease Line Indent|Removes a tab (or the equivalent spaces) from the selected lines or the current line.|  
 |Select Tag|In a document that contains tags (for example, XML or HTML), selects the tag.|  
@@ -163,7 +148,7 @@ The following commands are code-specific navigation methods:
 
  ![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
- To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**, or you can change the settings for individual languages). You can navigate in the dropdown boxes as follows:  
+You can navigate in the dropdown boxes as follows:  
 
 -   To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
 
@@ -171,13 +156,15 @@ The following commands are code-specific navigation methods:
 
 -   To shift focus from item to item on the navigation bar, press the TAB key.  
 
--   To select the Navigation bar item that has focus and return to the IDE, press the ENTER key  
+-   To select the Navigation bar item that has focus and return to the code window, press the ENTER key  
 
 -   To navigate to a class or type, choose its name in the left dropdown.  
 
 -   To navigate directly to a procedure in a class, choose a procedure in the right dropdown.  
 
- In a partial class, members defined outside the current code file may be disabled (appear in grey).  
+In a partial class, members defined outside the current code file may be disabled (appear in grey).  
+
+To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**, or you can change the settings for individual languages).  
 
 ## Find code using Go To commands
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Go To limits its search to areas where actual code is, such as in files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get hits that include instances of the string in code remarks. By using a Go To command, though, your search might pinpoint the function you are looking for, ignoring instances of the string in code remarks.
@@ -229,7 +216,7 @@ The results appear in a tool window named **'*{element}*' references**, where *{
 - Remove any filters on the returned results by choosing the **Clear All Filters** button.
 - Change how returned items are grouped by choosing a setting in the **Group by:** dropdown list box.
 - Keep the current search results window by choosing the **Keep Results** button.
-- Search for strings within the search results by entering text in the **Search Find All Referencs** text box.
+- Search for strings within the search results by entering text in the **Search Find All References** text box.
 
 You can also hover the mouse over any search result to see a preview of the returned item.
 
