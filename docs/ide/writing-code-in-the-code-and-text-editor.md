@@ -118,81 +118,36 @@ The Visual Studio editor provides many features that make it easier for you to w
 |Select Tag Content|In a document that contains tags (for example, XML or HTML), selects the content.|  
 
 ## Navigate and find code  
-You can move around in a document in several different ways. In addition to the standard operations, you can use the **Navigate Backward** (CTRL + MINUS) and **Navigate Forward** (CTRL + SHIFT + MINUS) buttons on the toolbar to move the insertion point to previous locations or return to more recent locations in the active document. These buttons retain the last 20 locations of the insertion point.
 
-![Forward and back navigation buttons](../ide/media/vs2017_nav_buttons.png)
+## Find code using Go To commands  
+Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Go To limits its search to areas where actual code is, such as in files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get hits that include instances of the string in code remarks. By using a Go To command, though, your search might pinpoint the function you are looking for, ignoring instances of the string in code remarks.  
 
-The Structure Visualizer feature in the code editor shows *structure guide lines* -  vertical dashed lines that indicate matching curly braces in your codebase. This makes it easier to see where logical blocks begin and end.
+### Find code using Go To  
 
-![Structure Visualizer](../ide/media/vside_structure_visualizer.png)
+1. Open a solution or folder in Visual Studio.  
 
-To disable structure guide lines, go to **Tools**, **Options**, **Text Editor**, **General** and clear the **Show structure guide lines** box.
+2. On the main menu, choose **Edit**, **Go To**, **Go To All**. A small text box appears in the upper corner of the code editor.  
 
-You can also use the enhanced scroll bar in a code window to get a bird's-eye view of your code. In map mode, you can see previews of the code when you move the cursor up and down the scroll bar, For more information, see [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md).  
+3. In the text box, enter the name of the code element you want to find.  
 
-The following commands are code-specific navigation methods:  
+    ![Navigate To window](../ide/media/vside_navigatetowindow.png "Navigate To window")  
 
-|||  
-|-|-|  
-|Find All References|(Context menu or SHIFT + F12): Finds all the references to the selected element in the solution.|  
-|Go To|Has the following commands: **Go To Line** (CTRL + G): Move to the specified line number in the active document. **Go to All** (CTRL + T): Move to the specified line, type, file, member, or symbol. **Go to File** (CTRL + 1, CTRL + F): Move to the specified file in the solution. **Go to Type** (CTRL + 1, CTRL + T): Move to the specified type in the solution. **Go to Member** (CTRL + 1, CTRL + M): Move to the specified member in the solution. **Go to Symbol** (CTRL + 1, CTRL + S): Move to the specifed symbol in the solution. See more on these commands in the section "Find code using Go To commands" later in this topic.|  
-|Go To Definition|(Context menu or F12): Finds the definition of the selected element.|  
-|Go To Implementation|(Context menu or CTRL + F12): Finds the place in the code where the selected element is implemented.|
-|Peek Definition|(Context menu or ALT + F12): Finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).|  
-|Next Method, Previous Method|(**Edit/Next Method, Previous Method**) In Visual Basic code files, use these commands to move the insertion point to different methods.|  
-|Reference Highlighting|When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW. You can change the highlighting color in **Tools/Options/Environment/Fonts and Colors/Highlighted Reference.**|  
-|Find code-related info|You can find info about specific code, like changes and who made those changes, references, bugs, work items, code reviews, and unit test status when you use CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with Team Foundation Server. See [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).|
-|View Call Hierarchy|(Context menu or CTRL + K, CTRL + T).|  
+    As you type, the results appear in a dropdown list below the text box.  
 
- You can also use the **navigation bar** (dropdown boxes at the top of the code window) to find code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base.
+1. To go to an element, choose it in the list.  
 
- ![Code navigation bar](../ide/media/vside_navigation_bar.png)
-
-You can navigate in the dropdown boxes as follows:  
-
--   To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
-
--   To return focus from the navigation bar to the code window, press the ESC key.  
-
--   To shift focus from item to item on the navigation bar, press the TAB key.  
-
--   To select the Navigation bar item that has focus and return to the code window, press the ENTER key  
-
--   To navigate to a class or type, choose its name in the left dropdown.  
-
--   To navigate directly to a procedure in a class, choose a procedure in the right dropdown.  
-
-In a partial class, members defined outside the current code file may be disabled (appear in grey).  
-
-To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**, or you can change the settings for individual languages).  
-
-## Find code using Go To commands
-Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Go To limits its search to areas where actual code is, such as in files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get hits that include instances of the string in code remarks. By using a Go To command, though, your search might pinpoint the function you are looking for, ignoring instances of the string in code remarks.
-
-### Find code using Go To
-
-1. Open a solution or folder in Visual Studio.
-1. On the main menu, choose **Edit**, **Go To**. A small text box appears in the upper corner of the code editor.
-1. In the text box, enter the name of the code element you want to find.
-
-    ![Navigate To window](../ide/media/vside_navigatetowindow.png "Navigate To window")
-
-    As you type, the results appear in a dropdown list below the text box.
-1. To go to an element, choose it in the list.
-
-
-### Filter your search
+### Filter your search  
 
 By default, the specified item is searched for in all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. The easiest way to open the Go To dialog box is to choose CTRL + T, and then change the prefacing character to one in the following list. (As an alternative, you can choose the following shortcut keys to automatically add the character for you.)
 
-|Symbol|Description|  
-|-|-|
-|None|No prefacing character. This finds the specified term in all lines, files, types, members, and symbols. Shortcut: CTRL + T|
-|:|Go to the specified line number. Shortcut: CTRL + G|
-|f|Go to the specified file name. Shortcut: CTRL + 1, CTRL + F|
-|t|Go to the specified type. Shortcut: CTRL + 1, CTRL + T|
-|m|Go to the specified member. Shortcut: CTRL + 1, CTRL + M|
-|#|Go to the specified symbol. Shortcut: CTRL + 1, CTRL + S|
+|Symbol|Description|Shortcut Keys|  
+|-|-|:--:|
+|None|No prefacing character. This finds the specified term in all lines, files, types, members, and symbols.|CTRL + T|
+|:|Go to the specified line number.|CTRL + G|
+|f|Go to the specified file name.|CTRL + 1, CTRL + F|
+|t|Go to the specified type.|CTRL + 1, CTRL + T|
+|m|Go to the specified member.|CTRL + 1, CTRL + M|
+|#|Go to the specified symbol.|CTRL + 1, CTRL + S|
 
 For example, to limit your search to only code symbols, open the Go To dialog box by pressing CTRL + T (or CTRL + ,) and then preface your Go To query with an "#" character, or choose **Edit**, **Go To**, **Go to Symbol** on the menu. Searching for `# application`, for instance, displays only code symbols that contain the word "application".
 
