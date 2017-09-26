@@ -140,7 +140,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
 
 ## Resources 
 
-- Pro Git book](https://git-scm.com/book/en/v2)  
+- [Pro Git book](https://git-scm.com/book/en/v2)  
 - [Plan your migration to Git](https://www.visualstudio.com/learn/centralized-to-git/)  
 - [Migrate from TFVC to Git](https://www.visualstudio.com/learn/migrate-from-tfvc-to-git/)  
 
