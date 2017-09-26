@@ -14,50 +14,14 @@ ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 
 # Version Control in Visual Studio
 
-Version control systems are software that help you track changes you make in your code over time. As you edit your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it. Visual Studio provides two models of version control: [Git](/vsts/git/index), which is distributed version control, and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index), which is centralized version control. If you're deciding which type of Visual Studio version control to use, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json).
+Version control systems help you track changes to code over time. As you make changes, the version control system takes a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it. Visual Studio provides [Git](/vsts/git/index) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index). To decide between the two systems, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json).
 
 ## Git
 Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/vsts/git/share-your-code-in-git-vs-2017?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Manage your code using Git with Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/vsts/git/create-new-repo?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/common/i_web.svg" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Create a Git repo using the VSTS web portal</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="/vsts/git/import-git-repository?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
+        <a href="https://www.visualstudio.com/learn-git/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -67,7 +31,43 @@ Git is the most commonly used version control system today and is quickly becomi
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Import a repo from GitHub, BitBucket, GitLab and others</h3>
+                        <h3>Learn Git</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/vsts/git/share-your-code-in-git-vs-2017?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/common/i_git-mark.svg" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started with Git with Visual Studio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/vsts/git/tutorial/clone?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/common/i_git-mark.svg" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Clone an existing Git repo</h3>
                     </div>
                 </div>
             </div>
@@ -82,6 +82,24 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
 
 <ul class="panelContent cardsFTitle">
     <li>
+        <a href="/vsts/tfvc/overview">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn TFVC</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="/vsts/tfvc/share-your-code-in-tfvc-vs?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
@@ -92,25 +110,7 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manage your code using TFVC with Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/vsts/tfvc/day-life-alm-developer-suspend-work-fix-bug-conduct-code-review?toc=/visualstudio/version-control/toc.json&bc=/visualstudio/version-control/breadcrumb/toc.json">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img width="48" height="48" alt="" src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Day in the life of a devops developer: suspend work, fix a bug, and conduct a code review</h3>
+                        <h3>Get started with TFVC in Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -140,11 +140,9 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
 
 ## Resources 
 
-- [What is Git?](https://www.visualstudio.com/learn/what-is-git/)  
-- [What is version control?](https://www.visualstudio.com/learn/what-is-version-control/)  
+- Pro Git book](https://git-scm.com/book/en/v2)  
 - [Plan your migration to Git](https://www.visualstudio.com/learn/centralized-to-git/)  
 - [Migrate from TFVC to Git](https://www.visualstudio.com/learn/migrate-from-tfvc-to-git/)  
-- [Git at Scale](https://www.visualstudio.com/learn/git-at-scale/)   
-- [Marketplace extensions](https://marketplace.visualstudio.com/search?target=VSTS&category=Code&sortBy=Downloads)
+
  
 
