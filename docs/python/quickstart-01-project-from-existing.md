@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Quickstart: create a Python project from existing code
 
-Once you've [installed Python support in Visual Studio 2017](quickstart-01-install.md), it's easy to bring existing Python code into a Visual Studio project. 
+Once you've [installed Python support in Visual Studio 2017](installation.md), it's easy to bring existing Python code into a Visual Studio project. 
 
 > [!Important]
 > The process described here does not move or copy the original source files. If you want to work with a copy, duplicate the folder first.

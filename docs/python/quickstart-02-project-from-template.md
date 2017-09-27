@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Quickstart: create a Python project from a template in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](quickstart-01-install.md), it's easy to create a new Python project using a variety of templates.
+Once you've [installed Python support in Visual Studio 2017](installation.md), it's easy to create a new Python project using a variety of templates.
 
 1. Launch Visual Studio.
 
