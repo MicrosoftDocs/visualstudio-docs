@@ -2,7 +2,6 @@
 title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 ms.assetid: 0b19d4b7-5fcc-42a2-b411-96eccd00137f
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Profiling a SharePoint Application

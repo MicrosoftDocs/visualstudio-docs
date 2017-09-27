@@ -2,7 +2,6 @@
 title: "How to: Programmatically Copy Data and Formatting across Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "copying data, Office development in Visual Studio"
 ms.assetid: eed7dbaf-bdb5-4330-ba2e-5f3d50817eca
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Copy Data and Formatting across Worksheets

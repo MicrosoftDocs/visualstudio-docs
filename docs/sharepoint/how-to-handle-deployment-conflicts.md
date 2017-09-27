@@ -2,7 +2,6 @@
 title: "How to: Handle Deployment Conflicts | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,8 +12,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 ms.assetid: 8e545873-3fed-46cf-a95f-27b5fc0d5f83
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Handle Deployment Conflicts

@@ -2,36 +2,35 @@
 title: "Generate a class or type - Code Generation (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: "VB"
 ms.assetid: ebc361fe-d9b1-4c7a-ae28-5e71b5775460
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-f1_keywords:
-	- "vsl.GenerateFromUsage"
-dev_langs:
-	- VB
+f1_keywords: 
+  - "vsl.GenerateFromUsage"
+dev_langs: 
+  - VB
 translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # Generate a class or type in Visual Basic

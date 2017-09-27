@@ -2,7 +2,6 @@
 title: "IManagedAddin::Load | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,12 +12,11 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
-  - "IManagedAddin::Load"
-  - "Load method"
+  - 
 ms.assetid: 3faf9312-8ab4-4960-b2e7-8ca9859a3dcf
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # IManagedAddin::Load

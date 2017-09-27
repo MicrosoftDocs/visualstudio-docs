@@ -2,7 +2,6 @@
 title: "How to: Add Windows Forms Controls to Office Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
 ms.assetid: 4d188ad2-8e17-4eb0-8422-2ff56c683e3d
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Windows Forms Controls to Office Documents

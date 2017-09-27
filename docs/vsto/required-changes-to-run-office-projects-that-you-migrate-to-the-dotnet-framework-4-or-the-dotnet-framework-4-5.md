@@ -2,7 +2,6 @@
 title: "Required Changes to Run Office Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 ms.assetid: e2cd35cc-7731-428e-9046-34fc57a02c48
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Required Changes to Run Office Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5

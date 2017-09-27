@@ -2,7 +2,6 @@
 title: "How to: Programmatically Search for a Specific Contact | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "searching contacts"
 ms.assetid: ca17ce97-7b07-46e6-a476-34003e9cb9ad
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Search for a Specific Contact

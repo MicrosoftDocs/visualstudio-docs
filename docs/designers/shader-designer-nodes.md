@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Shader Designer Nodes

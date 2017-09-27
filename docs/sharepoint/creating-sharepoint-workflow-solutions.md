@@ -2,7 +2,6 @@
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,8 +23,8 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 ms.assetid: fe79b99a-cb7c-4a14-8d9f-bce0c0805ba0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Workflow Solutions

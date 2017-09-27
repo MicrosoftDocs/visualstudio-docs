@@ -2,7 +2,6 @@
 title: "Office UI Customization Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], action panes"
 ms.assetid: 7d47536b-742d-4643-9d98-4f1d85cf8786
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office UI Customization Walkthroughs

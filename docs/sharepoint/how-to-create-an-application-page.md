@@ -2,7 +2,6 @@
 title: "How to: Create an Application Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], creating"
 ms.assetid: 9ad7044a-2fa7-4bba-8f25-b9f2cc1b7c6b
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create an Application Page

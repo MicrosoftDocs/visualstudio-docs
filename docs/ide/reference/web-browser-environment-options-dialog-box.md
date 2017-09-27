@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "Internet Explorer, setting options"
 ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "types [Visual Studio], derived"
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

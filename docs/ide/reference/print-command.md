@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Print command"
 ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

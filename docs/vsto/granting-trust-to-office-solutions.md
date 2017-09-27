@@ -2,7 +2,6 @@
 title: "Granting Trust to Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "granting trust [Office development in Visual Studio]"
 ms.assetid: 6c33e614-d367-4556-9e76-0f302ad0f929
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Granting Trust to Office Solutions

@@ -49,8 +49,8 @@ helpviewer_keywords:
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

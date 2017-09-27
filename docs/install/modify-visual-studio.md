@@ -55,8 +55,8 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
 
-## See also  
-* [Install Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)
-* [Update Visual Studio](update-visual-studio.md)
+## See also
+* [Install Visual Studio 2017](install-visual-studio.md)
+* [Update Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

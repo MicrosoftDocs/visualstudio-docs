@@ -2,7 +2,6 @@
 title: "How to: Resize Controls Within Worksheet Cells | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], resizing"
 ms.assetid: 1439db4a-e64b-4381-a6e6-605ba94db3de
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Resize Controls Within Worksheet Cells

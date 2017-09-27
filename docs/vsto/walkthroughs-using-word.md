@@ -2,7 +2,6 @@
 title: "Walkthroughs Using Word | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], Word"
 ms.assetid: cacab406-ad82-48d1-94a4-8b59453ef261
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthroughs Using Word

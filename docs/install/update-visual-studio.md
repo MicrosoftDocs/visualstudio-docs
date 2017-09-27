@@ -69,8 +69,8 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade failures](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures) KB article for troubleshooting tips.
 
 ## See also
-* [Install Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)
+* [Install Visual Studio 2017](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
+* [Administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "01/23/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.windows"
   - "vs.environment"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "windows [Visual Studio], managing"
   - "custom window configurations"
   - "layout [Visual Studio], window management"
@@ -25,10 +25,10 @@ helpviewer_keywords:
   - "custom layouts"
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -38,7 +38,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

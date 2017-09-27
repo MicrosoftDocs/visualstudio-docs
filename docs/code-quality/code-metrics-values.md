@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - "measure code quality"
 ms.assetid: bc38831e-2083-4ea4-8527-ee41499a342f
 caps.latest.revision: 20
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 ms.assetid: 81756490-ab5a-4fa4-96c6-eed2cfbf8374
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating and Debugging a SharePoint Workflow Solution

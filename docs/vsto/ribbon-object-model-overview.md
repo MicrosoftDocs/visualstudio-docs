@@ -2,7 +2,6 @@
 title: "Ribbon Object Model Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], object model"
 ms.assetid: cae24f66-e980-41ee-a915-d4c8e03efbc1
 caps.latest.revision: 75
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Ribbon Object Model Overview

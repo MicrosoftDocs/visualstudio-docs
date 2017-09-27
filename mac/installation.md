@@ -69,3 +69,15 @@ For working with iOS in Visual Studio you need the following pieces:
 
 > [!NOTE]
 If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/vs/) again if you wish to add the components later.
+
+## Manual Installation
+
+If your installation fails or any single component of your installation fails, you may be able to resolve the issue through manual installation. To view the required components and download each one, take the following steps:
+
+1. On the second screen on the Visual Studio Installer, go to the menu bar and select **View Manual Installation Instructions**:
+
+    ![Option showing manual install menu item](media/installer-image12.png)
+
+2. Follow the instructions to download and install the components manually:
+
+  ![Manual installation dialog](media/installer-image13.png)

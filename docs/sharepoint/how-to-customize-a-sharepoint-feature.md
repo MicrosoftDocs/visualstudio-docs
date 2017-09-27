@@ -2,7 +2,6 @@
 title: "How to: Customize a SharePoint Feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 ms.assetid: e624c546-564b-4c73-9f1b-dc3675e76a55
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Customize a SharePoint Feature

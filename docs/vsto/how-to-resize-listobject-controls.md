@@ -2,7 +2,6 @@
 title: "How to: Resize ListObject Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "ListObject control, resizing"
 ms.assetid: a4c7dceb-7b55-447e-9b88-c3596a2fc361
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Resize ListObject Controls

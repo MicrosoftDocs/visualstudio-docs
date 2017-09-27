@@ -2,7 +2,6 @@
 title: "Working with Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 ms.assetid: d21a1be6-fabc-4573-b861-b76cec5814bd
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Documents

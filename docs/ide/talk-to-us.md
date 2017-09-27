@@ -6,14 +6,14 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -23,11 +23,13 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: 
+  - "vs-acquisition"
 ---
 # Talk to Us
 We're interested in your ideas for improving our products and our documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  

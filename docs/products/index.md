@@ -35,7 +35,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.visualstudio.com/docs/overview" title="Visual Studio Team Services">
+                                <a href="https://docs.microsoft.com/vsts" title="Visual Studio Team Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 92d55e68-8f3f-4bf7-a21b-801c298b04c4
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint
@@ -69,7 +68,7 @@ manager: "ghogen"
   
 #### To customize the Silverlight Application  
   
-1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 2.  In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Service Reference**.  
   

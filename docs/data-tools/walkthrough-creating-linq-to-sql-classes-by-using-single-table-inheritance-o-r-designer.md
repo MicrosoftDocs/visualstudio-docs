@@ -29,6 +29,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)
 The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].  
@@ -101,18 +102,17 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 ## Create a New Project  
  Now that you have created the table, create a new project to demonstrate configuring inheritance.  
   
-#### To create the new Windows Application  
+#### To create the new Windows Forms Application  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **InheritanceWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **InheritanceWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
-  
-4.  The InheritanceWalkthrough project is created and added to **Solution Explorer**.  
+     The **InheritanceWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Add a LINQ to SQL Classes File to the Project  
   

@@ -2,7 +2,6 @@
 title: "Publish Wizard (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "Publish Wizard, Office solutions"
 ms.assetid: 793314b6-b6a6-4509-8f1c-dd9466cf5190
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Publish Wizard (Office Development in Visual Studio)

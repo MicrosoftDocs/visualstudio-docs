@@ -2,7 +2,6 @@
 title: "Automating Word by Using Extended Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,8 +23,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host controls"
 ms.assetid: 3911c7cd-7092-468d-bd82-2fdec53a2d9b
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Automating Word by Using Extended Objects

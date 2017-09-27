@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Code Editor, word wrap"
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

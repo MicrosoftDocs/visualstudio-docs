@@ -2,7 +2,6 @@
 title: "How to: Programmatically Reset Ranges in Word Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "ranges, resetting in documents"
 ms.assetid: 45ea9434-e548-4d24-938f-4f1ffa5010d0
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Reset Ranges in Word Documents

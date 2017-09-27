@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "64-bit programming [C++]"
 ms.assetid: b08ff3ad-c6fd-468f-94d5-01a61aab6833
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

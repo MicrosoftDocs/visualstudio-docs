@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflow initiation forms"
 ms.assetid: c8666d8c-b173-4245-8014-9c1cd6acb071
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Workflow with Association and Initiation Forms

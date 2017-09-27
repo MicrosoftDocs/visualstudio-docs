@@ -2,7 +2,6 @@
 title: "How to: Programmatically Print Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "print preview, worksheets"
 ms.assetid: 312bfcd7-0a74-421c-b42e-df71a06b7bdf
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Print Worksheets

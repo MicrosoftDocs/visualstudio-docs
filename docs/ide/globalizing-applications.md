@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Visual C#, international applications"
 ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

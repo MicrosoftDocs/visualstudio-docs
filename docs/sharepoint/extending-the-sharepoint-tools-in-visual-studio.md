@@ -2,7 +2,6 @@
 title: "Extending the SharePoint Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending tools"
 ms.assetid: 084cf4bf-aaba-4277-8032-448f2cb2a124
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Extending the SharePoint Tools in Visual Studio

@@ -2,7 +2,6 @@
 title: "Deploying Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying extensions"
 ms.assetid: 69927d95-acdf-4fd8-ac43-28e9a7fa8a38
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Deploying Extensions for the SharePoint Tools in Visual Studio
@@ -227,11 +226,11 @@ manager: "ghogen"
   
 4.  Modify the extension.vsixmanifest file:  
   
-    -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [NIB: MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
+    -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).  
   
     -   If your extension includes a SharePoint command that calls into the server object model for SharePoint, add a `Microsoft.VisualStudio.Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly that implements the SharePoint command in the VSIX package. For more information, see [Asset Element (VSX Schema)](http://msdn.microsoft.com/en-us/9fcfc098-edc7-484b-9d4c-acd17829d737).  
   
-    -   If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [NIB: ProjectTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/87add64c-9dcd-495f-8815-209dab182cb1) and [NIB: ItemTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/1d489e54-c1c5-4f96-a510-6c2640867ff0).  
+    -   If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [ProjectTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/87add64c-9dcd-495f-8815-209dab182cb1) and [ItemTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/1d489e54-c1c5-4f96-a510-6c2640867ff0).  
   
     -   If your extension includes a custom wizard for a project template or item template, add an `Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly in the VSIX package, and then set the `AssemblyName` attribute to the full assembly name (including version, culture, and public key token). For more information, see [Dependency Element (VSX Schema)](http://msdn.microsoft.com/en-us/1f63f60a-98ad-48ec-8e44-4eba383d3e37).  
   

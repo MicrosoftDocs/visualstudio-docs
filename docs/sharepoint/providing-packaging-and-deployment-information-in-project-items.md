@@ -2,7 +2,6 @@
 title: "Providing Packaging and Deployment Information in Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,8 +29,8 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 ms.assetid: 209ff3b9-d701-4d27-9d24-005fcc811cbe
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Providing Packaging and Deployment Information in Project Items

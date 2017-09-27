@@ -2,7 +2,6 @@
 title: "Extending SharePoint Packaging and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 ms.assetid: 4789ebb2-12bc-42b9-9427-e63d77137765
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Extending SharePoint Packaging and Deployment
