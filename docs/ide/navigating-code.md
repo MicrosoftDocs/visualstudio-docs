@@ -24,28 +24,10 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Navigating Code  
-Visual Studio provides numerous ways to navigate to code in the editor. These include:  
-
-|Navigation feature|How to invoke it|
-|--|:--:|
-|**Navigate Backward** and **Navigate Forward** commands|On the **View** menu or toolbar|    
-|Navigation Bar||  
-|Find All References|SHIFT + F12 or context menu|    
-|Reference highlighting||  
-|Go To commands (go to line, go to file, go to type, etc.)|CTRL + T (for Go To All)|  
-|Go To Definition|F12, or CTRL + click, or context menu|  
-|Peek Definition|ALT + F12, or CTRL + click (with peek option checked), or context menu|  
-|Go To Implementation|CTRL + F12 or context menu|  
-|Call Hierarchy|CTRL + K, CTRL + T or context menu|  
-|Next Method/Previous Method commands (Visual Basic only)|On the **Edit** menu|  
-|Structure Visualizer (vertical dashed lines that match up curly braces)||    
-|Enhanced scroll bar||  
-|CodeLens information||  
-
-More information about these navigation features is provided below.  
+Visual Studio provides numerous ways to navigate to code in the editor. This topic summarizes the different ways you can navigate your code and provides links to topics that provide more detail.  
 
 ## Navigate Backward and Navigate Forward commands  
-You can move around in a document in several different ways. In addition to the standard operations, you can use the **Navigate Backward** (CTRL + MINUS) and **Navigate Forward** (CTRL + SHIFT + MINUS) buttons on the toolbar to move the insertion point to previous locations or return to more recent locations in the active document. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.  
+You can move around in a document in several different ways. In addition to the standard operations, you can use the **Navigate Backward** (**Ctrl + MINUS**) and **Navigate Forward** (**Ctrl + Shift + MINUS**) buttons on the toolbar to move the insertion point to previous locations or return to more recent locations in the active document. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.  
 
 ![Forward and back navigation buttons](../ide/media/vs2017_nav_buttons.png)  
 
@@ -73,45 +55,52 @@ You can navigate around the drop-down boxes as follows:
 To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**, or you can change the settings for individual languages).  
 
 ## Find All References  
-Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results.  
+Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Finding references in your code](finding-references.md).  
 
 Input        | Function 
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **SHIFT + F12**  
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift + F12**  
 **Mouse**    | Select **Find All References** from the context menu  
 
 ## Reference highlighting
-When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press **CTRL + SHIFT + DOWN ARROW** or **CTRL + SHIFT + UP ARROW**. You can change the highlighting color in **Tools**, **Options**, **Environment**, **Fonts and Colors**, **Highlighted Reference.**  
+When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press **Ctrl + Shift + DOWN ARROW** or **Ctrl + Shift + UP ARROW**. You can change the highlighting color in **Tools**, **Options**, **Environment**, **Fonts and Colors**, **Highlighted Reference.**  
 
 ## Go To commands  
-Go To has the following commands:  
+Go To has the following commands, which are available in the **Edit** menu under **Go To**:  
 
-- **Go To Line** (CTRL + G): Move to the specified line number in the active document.  
+- **Go To Line** (**Ctrl + G**): Move to the specified line number in the active document.  
 
-- **Go to All** (CTRL + T): Move to the specified line, type, file, member, or symbol.  
+- **Go to All** (**Ctrl + T**): Move to the specified line, type, file, member, or symbol.  
 
-- **Go to File** (CTRL + 1, CTRL + F): Move to the specified file in the solution.  
+- **Go to File** (**Ctrl + 1**, **Ctrl + F**): Move to the specified file in the solution.  
 
-- **Go to Type** (CTRL + 1, CTRL + T): Move to the specified type in the solution.  
+- **Go to Type** (**Ctrl + 1**, **Ctrl + T**): Move to the specified type in the solution.  
 
-- **Go to Member** (CTRL + 1, CTRL + M): Move to the specified member in the solution.  
+- **Go to Member** (**Ctrl + 1**, **Ctrl + M**): Move to the specified member in the solution.  
 
-- **Go to Symbol** (CTRL + 1, CTRL + S): Move to the specifed symbol in the solution.  
+- **Go to Symbol** (**Ctrl + 1**, **Ctrl + S**): Move to the specifed symbol in the solution.  
 
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.  
 
 ## Go To Definition  
-Go To Definition takes you to the definition of the selected element. You can either choose **Go To Definition** from the context menu or press **F12**. Also, new for Visual Studio 2017 version 15.4 and later, you can press **CTRL** and click on the element to be taken to its definition. For more information, see [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
+Go To Definition takes you to the definition of the selected element. For more information, see [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
+
+Input        | Function 
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
+**Mouse**    | Right-click on the type name and select **Go To Definition**  
+             | OR  
+             | Press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)  
 
 ## Peek Definition  
 Peek Definition finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
 
 Input        | Function 
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **ALT + F12**
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt + F12**
 **Mouse**    | Right-click on the type name and select **Peek Definition**  
              | OR  
-             | Press **CTRL** and click on the type name (if you have the **Open definition in peek view** option checked)
+             | Press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)  
 
 ## Go To Implementation  
 Using Go To Implementation, you can navigate from a base class or type to its implementations. If there are multiple implementations, you will see them listed in the **Find Symbol Results** window:  
@@ -119,10 +108,15 @@ Using Go To Implementation, you can navigate from a base class or type to its im
 Input        | Function 
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl + F12**
-**Mouse**    | Right-click on the type name and select **Go To Implementation**  
+**Mouse**    | Right-click on the type name and select **Go To ImplementationView**  
 
-## Call hierarchy  
-You can view the call hierarchy for a method by choosing **View Call Hierarchy** from the context menu, or by pressing **CTRL + K**, **CTRL + T**.  
+## Call Hierarchy  
+Call Hierarchy shows you the calls to a method in the Call Hierarchy window:  
+
+Input        | Function 
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl + K**, **Ctrl + T**  
+**Mouse**    | Right-click on the member name and select **View Call Hierarchy**  
 
 ## Next Method and Previous Method commands (Visual Basic)  
 In Visual Basic code files, use these commands to move the insertion point to different methods. Choose **Edit**, **Next Method** or **Edit**, **Previous Method**.  

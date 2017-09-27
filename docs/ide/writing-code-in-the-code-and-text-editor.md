@@ -118,79 +118,10 @@ The Visual Studio editor provides many features that make it easier for you to w
 |Select Tag Content|In a document that contains tags (for example, XML or HTML), selects the content.|  
 
 ## Navigate and find code  
+You can move around in the code editor in several different ways. For more information about see [Navigating code](navigating-code.md).  
 
-## Find code using Go To commands  
-Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Go To limits its search to areas where actual code is, such as in files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get hits that include instances of the string in code remarks. By using a Go To command, though, your search might pinpoint the function you are looking for, ignoring instances of the string in code remarks.  
-
-### Find code using Go To  
-
-1. Open a solution or folder in Visual Studio.  
-
-2. On the main menu, choose **Edit**, **Go To**, **Go To All**. A small text box appears in the upper corner of the code editor.  
-
-3. In the text box, enter the name of the code element you want to find.  
-
-    ![Navigate To window](../ide/media/vside_navigatetowindow.png "Navigate To window")  
-
-    As you type, the results appear in a dropdown list below the text box.  
-
-1. To go to an element, choose it in the list.  
-
-### Filter your search  
-
-By default, the specified item is searched for in all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. The easiest way to open the Go To dialog box is to choose CTRL + T, and then change the prefacing character to one in the following list. (As an alternative, you can choose the following shortcut keys to automatically add the character for you.)
-
-|Symbol|Description|Shortcut Keys|  
-|-|-|:--:|
-|None|No prefacing character. This finds the specified term in all lines, files, types, members, and symbols.|CTRL + T|
-|:|Go to the specified line number.|CTRL + G|
-|f|Go to the specified file name.|CTRL + 1, CTRL + F|
-|t|Go to the specified type.|CTRL + 1, CTRL + T|
-|m|Go to the specified member.|CTRL + 1, CTRL + M|
-|#|Go to the specified symbol.|CTRL + 1, CTRL + S|
-
-For example, to limit your search to only code symbols, open the Go To dialog box by pressing CTRL + T (or CTRL + ,) and then preface your Go To query with an "#" character, or choose **Edit**, **Go To**, **Go to Symbol** on the menu. Searching for `# application`, for instance, displays only code symbols that contain the word "application".
-
-You can also quickly change the search filter by choosing buttons on the Go To dialog box toolbar. Buttons that change the filters are on the left side, and buttons that change the scope of the search are on the right side.
-
-![](../ide/media/vside_navigation_toolbar.png)
-
-If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the Type filter ("t") and then entering just the capital letters of the name (`CVM`) in the Go To dialog box.
-
-![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png)
-
-This feature can be helpful if your code has long names.
-
-## Finding references in your codebase
-To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. To use **Find All References**, choose that command on the context (right-click) menu of the element you want to find the references for, or choose the SHIFT + F12 keys.
-
-The results appear in a tool window named **'*{element}*' references**, where *{element}* is the name of the item you are searching for. A toolbar in this References window enables you to:
-- Change the scope of the search in a dropdown list box. You can choose to look only in changed documents all the way up to the entire solution.
-- Copy the selected referenced item by choosing the **Copy** button.
-- Choose buttons to go to the next or previous location in the list, or choose the F8 and SHIFT + F8 keys to do so.
-- Remove any filters on the returned results by choosing the **Clear All Filters** button.
-- Change how returned items are grouped by choosing a setting in the **Group by:** dropdown list box.
-- Keep the current search results window by choosing the **Keep Results** button.
-- Search for strings within the search results by entering text in the **Search Find All References** text box.
-
-You can also hover the mouse over any search result to see a preview of the returned item.
-
-![Find All References tool window](../ide/media/vside_findallreferences.png)
-
-To keep the results of your search, choose the **Keep Results** button. When you choose this button, the current search results stay in this window, and new search results appear in a new tool window.
-
-### Navigate to references
-In the Find All References dialog box, you can use the following methods to navigate to references.
-
-- Choose F8 to go to the next reference, or choose SHIFT + F8 to go to the previous reference.
-- Choose the ENTER key on a reference, or double-click it to go to it in code.
-- On the context menu of a reference, choose the **Go To Previous Location** / **Go To Next Location** commands.
-- Choose the UP and DOWN arrow keys (if they are enabled in the Options dialog box). To enable this functionality, on the menu, choose **Tools**, **Options**, **Environment**, **Tabs and Windows**, **Preview Tab**, and then select the **Allow new files to be opened in the preview tab** and **Preview selected files in Find Results** boxes.
-
-### Change reference groupings
-By default, references are grouped by project, then by definition. However, you can change this grouping order by changing the setting in the **Group by:** dropdown list box on the toolbar. For example, you can change it from the default setting of **Definition then project** to **Project then definition**, as well to other settings.
-
-**Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
+## Finding references in your code base  
+To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. Also, when you click on a type or member, the **reference highlighting** feature highlights automatically highlights all references to that type or member. For more information, see [Finding references in your code](finding-references.md).  
 
 ## Customize the Editor  
 You can share your Visual Studio settings with another developer, have your settings conform to a standard, or return to Visual Studio default settings by using the **Import and Export Settings Wizard** command on the **Tools** menu. In the **Import and Export Settings Wizard**, you can change selected general settings or language and project-specific settings.
