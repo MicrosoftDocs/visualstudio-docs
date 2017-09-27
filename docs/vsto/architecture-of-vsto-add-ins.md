@@ -2,7 +2,6 @@
 title: "Architecture of VSTO Add-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], architecture"
 ms.assetid: 978f102f-15c6-44e4-84e8-80b161408324
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Architecture of VSTO Add-ins

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Open Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], opening workbooks"
 ms.assetid: 06c0ac87-a2c6-4cc1-87be-39be0cb81c71
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Open Workbooks

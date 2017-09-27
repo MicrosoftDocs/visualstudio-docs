@@ -2,7 +2,6 @@
 title: "Getting Started Programming VSTO Add-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], getting started"
 ms.assetid: 9ac1e6ea-9511-4633-80f9-dc7641f22b63
 caps.latest.revision: 60
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Getting Started Programming VSTO Add-ins

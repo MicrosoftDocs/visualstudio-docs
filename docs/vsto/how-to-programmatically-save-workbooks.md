@@ -2,7 +2,6 @@
 title: "How to: Programmatically Save Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "workbooks, saving backup copies"
 ms.assetid: 991ccf9b-5213-4094-9030-284ec167bdcc
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Save Workbooks

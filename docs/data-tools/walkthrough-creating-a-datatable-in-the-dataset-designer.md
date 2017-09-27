@@ -31,13 +31,14 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a DataTable in the Dataset Designer
 This walkthrough explains how to create a <xref:System.Data.DataTable> (without a TableAdapter) using the **Dataset Designer**. For information on creating data tables that include TableAdapters, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new Windows Application project  
+-   Creating a new Windows Forms Application project  
   
 -   Adding a new dataset to the application  
   
@@ -47,33 +48,33 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 -   Setting the primary key for the table  
   
-## Creating a New Windows Application  
+## Creating a New Windows Forms Application  
   
-#### To create a new Windows Application project  
+#### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DataTableWalkthrough**, and then choose **OK**. 
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DataTableWalkthrough`, and then click **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays **Form1** in the designer.  
+     The **DataTableWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   
 #### To add a new dataset item to the project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1.  On the **Project** menu, select **Add New Item...**.  
   
-     The Add New Item Dialog Box appears.  
+     The Add New Item dialog box appears.  
   
-2.  In the **Templates** box, select **DataSet**.  
+2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.  
   
-3.  Click **Add**.  
+3.  Choose **Add**.  
   
-     Visual Studio will add a file called **DataSet1.xsd** to the project and open it in the **Dataset Designer**.  
+     Visual Studio adds a file called **DataSet1.xsd** to the project and opens it in the **Dataset Designer**.  
   
 ## Adding a New DataTable to the Dataset  
   

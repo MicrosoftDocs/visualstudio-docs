@@ -2,7 +2,6 @@
 title: "How to: Add XMLNode Controls to Word Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to documents"
 ms.assetid: d583b9d4-bd13-46e3-9eb7-da18fcb7eb8c
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add XMLNode Controls to Word Documents

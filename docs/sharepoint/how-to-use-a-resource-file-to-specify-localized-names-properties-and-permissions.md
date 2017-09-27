@@ -2,7 +2,6 @@
 title: "How to: Use a Resource File to Specify Localized Names, Properties, and Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,8 +24,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], resource strings"
 ms.assetid: 72bb744d-818b-4e5a-9da2-295412025680
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Use a Resource File to Specify Localized Names, Properties, and Permissions

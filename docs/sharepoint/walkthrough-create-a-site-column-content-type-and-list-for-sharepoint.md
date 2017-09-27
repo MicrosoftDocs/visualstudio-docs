@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a Site Column, Content Type, and List for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,8 +24,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, content types"
 ms.assetid: caebacc2-616c-4373-8e21-edc7979338e7
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Create a Site Column, Content Type, and List for SharePoint

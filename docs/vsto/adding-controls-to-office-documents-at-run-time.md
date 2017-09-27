@@ -2,7 +2,6 @@
 title: "Adding Controls to Office Documents at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,8 +25,8 @@ helpviewer_keywords:
   - "helper methods [Office development in Visual Studio]"
 ms.assetid: 4f43b3eb-f0ec-44e2-9885-6ede327c6913
 caps.latest.revision: 102
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Adding Controls to Office Documents at Run Time

@@ -1,0 +1,11 @@
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5c2d91;
+      }
+    </style>
+  </defs>
+  <title>logo_VS</title>
+  <path class="cls-1" d="M48,0,22.6,25.4,6.4,12.8,0,16V48l6.4,3.2L22.6,38.6,48,64l16-6.4V6.4ZM6,41.6V22.4L15.6,32Zm42,3.56L31.09,32,48,18.84Z"/>
+</svg>

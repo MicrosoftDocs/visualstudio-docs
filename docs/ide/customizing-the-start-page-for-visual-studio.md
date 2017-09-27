@@ -4,24 +4,24 @@ ms.custom: ""
 ms.date: "02/01/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.startpage"
   - "VS.StartPage.HowDoI"
   - "vs.ToolsOptionsPages.Startup"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Start Page [Visual Studio]"
   - "customizing Start Page [Visual Studio]"
   - "Visual Studio Start page"
 ms.assetid: 925d42eb-ec34-426e-ad81-19db8630e536
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

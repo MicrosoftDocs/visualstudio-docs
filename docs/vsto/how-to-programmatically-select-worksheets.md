@@ -2,7 +2,6 @@
 title: "How to: Programmatically Select Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Excel projects, selecting worksheets"
 ms.assetid: 9e7cdb11-e825-4c9f-abcd-d46fd20dc5e0
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Select Worksheets

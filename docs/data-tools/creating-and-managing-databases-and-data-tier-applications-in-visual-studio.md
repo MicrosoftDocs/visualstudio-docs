@@ -31,6 +31,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Creating and managing databases and data-tier applications in Visual Studio
 > [!IMPORTANT]

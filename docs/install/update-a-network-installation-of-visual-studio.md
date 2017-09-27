@@ -41,6 +41,12 @@ Let's walk through how to create and then update a layout:
   vs_enterprise.exe --layout c:\VS2017Layout  
   ```
 
+* Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
+
+  ``` 
+  vs_enterprise.exe --layout c:\VS2017Layout --passive 
+  ```
+
 * Here's how to add an additional workload and localized language.  (This command adds the Azure workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version. 
 
   ``` 

@@ -2,7 +2,6 @@
 title: "How to: Add a Parameter to a Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], method parameters"
 ms.assetid: c5b6fd32-bf85-4b2a-a01e-f9199f0fb26e
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Parameter to a Method

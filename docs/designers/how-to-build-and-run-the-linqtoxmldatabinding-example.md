@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3943deaf-80e2-4968-ac04-d3ef56cfad6c
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

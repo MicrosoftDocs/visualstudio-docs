@@ -5,32 +5,32 @@ ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: 60e2a623-b56d-4591-93dc-e51429e4e1ba
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 f1_keywords: 
-    - "vs.csharp.refactoring.rename"
-dev_langs:
-    - "CSharp"
+  - "vs.csharp.refactoring.rename"
+dev_langs: 
+  - "CSharp"
 translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # Rename a code symbol in C# #

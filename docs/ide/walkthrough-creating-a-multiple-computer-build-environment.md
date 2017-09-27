@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "build environment, MSBuild"
 ms.assetid: ae5391b1-3eec-42f5-beb3-f28630615a9e
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

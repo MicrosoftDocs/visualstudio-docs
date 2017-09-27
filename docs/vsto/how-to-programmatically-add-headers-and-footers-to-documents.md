@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add Headers and Footers to Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "footers, adding to documents"
 ms.assetid: c7a5cc8a-d8c0-48e9-81d3-108aa6bfbb74
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add Headers and Footers to Documents

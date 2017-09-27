@@ -2,7 +2,6 @@
 title: "Walkthrough: Binding to Data from a Service in a VSTO add-in Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], scrolling database records"
 ms.assetid: 9b008be4-06a3-4ffc-9f02-79dd6cfe00ab
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Binding to Data from a Service in a VSTO add-in Project

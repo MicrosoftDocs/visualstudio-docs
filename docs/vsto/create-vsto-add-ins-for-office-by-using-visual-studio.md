@@ -2,7 +2,6 @@
 title: "Create VSTO Add-ins for Office by using Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,8 +13,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: eabd0377-cb94-4c1e-a99c-f13ff8df1a87
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Create VSTO Add-ins for Office by using Visual Studio

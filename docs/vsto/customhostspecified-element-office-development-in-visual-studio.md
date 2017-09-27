@@ -2,7 +2,6 @@
 title: "&lt;customHostSpecified&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "customHostSpecified element"
 ms.assetid: 2212b7eb-bf94-4398-b9ea-0ab00203203b
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;customHostSpecified&gt; Element (Office Development in Visual Studio)

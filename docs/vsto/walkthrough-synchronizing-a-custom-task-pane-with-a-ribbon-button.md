@@ -2,7 +2,6 @@
 title: "Walkthrough: Synchronizing a Custom Task Pane with a Ribbon Button | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -27,8 +26,8 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
 ms.assetid: 00ce8b1e-1370-42f2-9dc9-609cada392f1
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Synchronizing a Custom Task Pane with a Ribbon Button

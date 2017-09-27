@@ -2,7 +2,6 @@
 title: "Converting Between SharePoint Project System Types and Other Visual Studio Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint project service"
 ms.assetid: ad5d8ab2-1659-4e6a-8783-47e0dad44b11
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Converting Between SharePoint Project System Types and Other Visual Studio Project Types

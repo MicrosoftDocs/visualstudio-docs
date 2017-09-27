@@ -2,7 +2,6 @@
 title: "How to: Configure a Computer to Develop Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 ms.assetid: 76b463dc-43f0-47a1-845b-fe0a5e14bd80
 caps.latest.revision: 130
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Configure a Computer to Develop Office Solutions

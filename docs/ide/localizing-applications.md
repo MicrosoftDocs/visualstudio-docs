@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

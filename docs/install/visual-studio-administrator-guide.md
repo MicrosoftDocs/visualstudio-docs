@@ -3,14 +3,13 @@ title: "Visual Studio administrator guide | Microsoft Docs"
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
 ms.date: "05/15/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
@@ -18,7 +17,7 @@ ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -28,7 +27,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"

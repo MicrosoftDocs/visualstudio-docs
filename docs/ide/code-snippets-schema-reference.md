@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IntelliSense Code Snippets, XML Schema"
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

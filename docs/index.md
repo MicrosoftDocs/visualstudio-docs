@@ -235,7 +235,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Data storage and processing</h3>
-                                                    <p>A full suite of tools for database developers to create solutions for SQL Server, Hadoop, and Azure ML.</p>
+                                                    <p>Tools and frameworks to develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -435,7 +435,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1 cardScaleImage">
-                                                        <img data-scaleimage="./images/vs_web-1.svg" src="./images/vs_web-1.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_tools-3.svg" src="./images/vs_web-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -553,18 +553,37 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833080">
+                                <a href="/vsts/#pivot=services&panel=code">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img data-scaleimage="./images/vs_features-6.svg" src="./images/vs_features-6.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-hub-docs-features-version-control.svg" src="./images/vs-hub-docs-features-version-control.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Collaborate</h3>
+                                                    <h3>Version Control</h3>
                                                     <p>Share code using version control technologies such as Git and TFVC.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/vsts">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs-hub-docs-features-devops.svg" src="./images/vs-hub-docs-features-devops.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>DevOps</h3>
+                                                    <p>Continuously build and release your apps in the cloud, and implement Agile practices with VSTS.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -2,7 +2,6 @@
 title: "How to: Run Code When Deployment Steps are Executed | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 ms.assetid: 6b0a52e5-e0ba-41bc-9e8a-1013e51fd3ba
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Run Code When Deployment Steps are Executed

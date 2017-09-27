@@ -2,7 +2,6 @@
 title: "Office Solutions Development Overview (VSTO) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 ms.assetid: 5dfc519f-a851-4661-8d2b-47e0d221e10e
 caps.latest.revision: 69
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office Solutions Development Overview (VSTO)
