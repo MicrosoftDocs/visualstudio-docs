@@ -16,7 +16,7 @@ ms.author: "kraigb"
 manager: "ghogen"
 ---
 
-## Step 5: Installing packages in your Python environment
+# Step 5: Installing packages in your Python environment
 
 **Previous step: [Running code in the debugger](vs-tutorial-01-04.md)**
 
