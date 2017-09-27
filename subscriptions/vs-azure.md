@@ -2,11 +2,10 @@
 title: Microsoft Azure Benefit | Visual Studio Marketplace
 description: [SEO-targeted description for search results HERE]
 ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 55472c6d-4b1d-4e84-9bfe-cd2f0a02870a
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
+ms.prod: vs-subscriptions
+ms.manager: jaunger
+ms.author: v-evwind
+author: EvanWindom
 ms.date: 7/24/2017
 ---
 
