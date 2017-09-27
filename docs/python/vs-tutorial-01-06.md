@@ -20,7 +20,7 @@ manager: "ghogen"
 
 **Previous step: [Installing packages and managing your Python environment](vs-tutorial-01-05.md)**
 
-Visual Studio provides direct integration with local Git repositories and those that reside on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and so on. TODO
+Visual Studio provides direct integration with local Git repositories and those that reside on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
 
 This topic describes creating a local Git repository for an existing project. For a walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-project-from-repository.md).
 
