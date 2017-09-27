@@ -16,9 +16,9 @@ translation.priority.ht:
 ---
 If you installed Web Deploy using the Web Platform Installer, you can deploy the app directly from Visual Studio.
 
-1. Start Visual Studio with elevated privileges, and re-open the project.
+1. Start Visual Studio with Administrator privileges, and re-open the project.
 
-    This may be required to deploy your app using Web Deploy.
+    Administrator privileges are required to deploy your app using Web Deploy.
 
 2. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 

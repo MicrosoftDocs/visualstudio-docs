@@ -41,8 +41,6 @@ translation.priority.ht:
 
 You can debug ASP.NET applications from Visual Studio.
 
-If the web server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
-
 ## Requirements
 
 To follow the instructions in this topic, you need:
@@ -128,7 +126,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     ![Server settings](../debugger/media/dbg-aspnet-server-settings.png "Server settings")
 
-    IIS Express is the default server for ASP.NET and does not require any special configuration by default. This is the easiest way to debug an ASP.NET application.
+    IIS Express is the default server for ASP.NET and does not typically require any special configuration. This is the easiest way to debug an ASP.NET application.
 
     For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options** and either **Use default Web server** or **Use custom server** (instead of **External Server**).
 
@@ -146,7 +144,7 @@ For IIS Express, you don't need to configure the web server (skip this section).
 
 If you are using local IIS web server, follow these steps.
 
-1. Make sure that IIS is installed correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+1. Make sure that IIS is installed correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
     * Make sure that you install the correct version of ASP.NET on the server. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET). To install ASP.NET Core, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html#iis-configuration).
 
