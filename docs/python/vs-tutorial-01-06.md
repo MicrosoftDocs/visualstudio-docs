@@ -16,7 +16,7 @@ ms.author: "kraigb"
 manager: "ghogen"
 ---
 
-## Step 6: Working with Git
+# Step 6: Working with Git
 
 **Previous step: [Installing packages and managing your Python environment](vs-tutorial-01-05.md)**
 
