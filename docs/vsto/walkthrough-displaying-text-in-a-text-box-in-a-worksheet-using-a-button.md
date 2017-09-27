@@ -2,7 +2,6 @@
 title: "Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text boxes"
 ms.assetid: 59b73159-aab7-4f61-9ace-1723c18d78d6
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button

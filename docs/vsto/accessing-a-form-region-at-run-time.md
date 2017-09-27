@@ -2,7 +2,6 @@
 title: "Accessing a Form Region at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], accessing at run time"
 ms.assetid: 58eaa9e0-acba-4a13-a6dd-b7e37a38156e
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Accessing a Form Region at Run Time

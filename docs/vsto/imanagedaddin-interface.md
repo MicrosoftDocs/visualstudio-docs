@@ -2,7 +2,6 @@
 title: "IManagedAddin Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "IManagedAddin interface"
 ms.assetid: 5350629c-6cf8-42dd-ae65-3f34322ee10f
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # IManagedAddin Interface

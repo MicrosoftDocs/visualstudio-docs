@@ -2,7 +2,6 @@
 title: "How to: Add and Remove Items to SharePoint Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 ms.assetid: 5957d04f-f832-40de-af08-3f23fb8e2e14
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add and Remove Items to SharePoint Features

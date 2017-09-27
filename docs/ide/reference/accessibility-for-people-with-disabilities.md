@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "08/22/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "navigation [Visual Studio], accessibility"
   - "navigation aids [Visual Studio]"
   - "accessibility [Visual Studio]"
 ms.assetid: 6bbcfc31-edbe-4143-a703-fde023efbb62
-author: "kempb"
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---

@@ -38,8 +38,8 @@ helpviewer_keywords:
   - "replacing text"
 ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

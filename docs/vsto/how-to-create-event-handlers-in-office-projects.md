@@ -2,7 +2,6 @@
 title: "How to: Create Event Handlers in Office Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "events [Office development in Visual Studio]"
 ms.assetid: 2cfd6a45-4c25-4431-b4fc-e0f2c0a72e54
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create Event Handlers in Office Projects

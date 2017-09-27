@@ -2,7 +2,6 @@
 title: "User Interface Reference (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "reference [Office development in Visual Studio], user interface"
 ms.assetid: e6c2657f-45e5-42d6-90c7-a45ec1dcbf50
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # User Interface Reference (Office Development in Visual Studio)

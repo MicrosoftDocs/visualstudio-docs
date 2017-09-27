@@ -2,7 +2,6 @@
 title: "How to: Programmatically Print Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], printing"
 ms.assetid: 99285d98-1bb7-4ccb-83d9-e917b0a9ea42
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Print Documents

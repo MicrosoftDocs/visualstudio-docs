@@ -2,7 +2,6 @@
 title: "Combining VBA and Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,8 +27,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
 ms.assetid: 2c10feeb-38af-4802-bbf4-d637db81a884
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Combining VBA and Document-Level Customizations

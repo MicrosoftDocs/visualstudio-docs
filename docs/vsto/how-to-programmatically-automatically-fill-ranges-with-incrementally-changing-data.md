@@ -2,7 +2,6 @@
 title: "How to: Programmatically Automatically Fill Ranges with Incrementally Changing Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "workbooks, filling ranges"
 ms.assetid: 27639d55-8ab5-483c-8907-2ea50dfd2188
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Automatically Fill Ranges with Incrementally Changing Data

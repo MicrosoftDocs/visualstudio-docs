@@ -2,7 +2,6 @@
 title: "PowerPoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], PowerPoint"
 ms.assetid: 02ebad64-9fd3-495f-ab27-4f6206b3d6d2
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # PowerPoint Solutions

@@ -58,8 +58,8 @@ helpviewer_keywords:
   - "Resource Compiler"
 ms.assetid: f382fd40-a98f-4934-8c9a-5aeae881acde
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

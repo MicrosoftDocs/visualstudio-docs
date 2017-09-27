@@ -2,7 +2,6 @@
 title: "How to: Add a Project Output Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, advanced packaging tools"
 ms.assetid: 9d6bc25e-bf0d-4483-a691-2ad7a796fa80
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Project Output Reference

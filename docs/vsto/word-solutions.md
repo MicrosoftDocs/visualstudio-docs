@@ -2,7 +2,6 @@
 title: "Word Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,8 +29,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Word"
 ms.assetid: ef339ad8-1897-4a44-b588-e6004d0b6d8b
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Word Solutions

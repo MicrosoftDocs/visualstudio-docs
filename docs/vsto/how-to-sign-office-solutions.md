@@ -2,7 +2,6 @@
 title: "How to: Sign Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "signing manifests [Office development in Visual Studio]"
 ms.assetid: d3df5ee6-f1b7-47ed-b7ee-8985679ee3af
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Sign Office Solutions

@@ -12,14 +12,16 @@ helpviewer_keywords:
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
 caps.latest.revision: 6
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: 
+  - "vs-ide-code-analysis"
 ---
 # Automatic feature suspension
 If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.  

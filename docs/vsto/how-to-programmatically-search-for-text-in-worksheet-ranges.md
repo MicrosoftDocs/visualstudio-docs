@@ -2,7 +2,6 @@
 title: "How to: Programmatically Search for Text in Worksheet Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "text searches, worksheets"
 ms.assetid: a6902711-fefb-450a-a76b-b1446d11c423
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Search for Text in Worksheet Ranges

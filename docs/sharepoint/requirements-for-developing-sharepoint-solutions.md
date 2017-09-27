@@ -2,7 +2,6 @@
 title: "Requirements for Developing SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, requirements"
 ms.assetid: ae8ff69d-4540-4380-ab0b-845f7108e89c
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Requirements for Developing SharePoint Solutions

@@ -2,7 +2,6 @@
 title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "application page [SharePoint development in Visual Studio]"
 ms.assetid: e4845d07-917b-45cb-a569-4ecdd602fbd9
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Add an Application Page to a Workflow

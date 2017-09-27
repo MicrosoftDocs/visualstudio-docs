@@ -2,7 +2,6 @@
 title: "Calling Code in VSTO Add-ins from Other Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "calling code from VBA"
 ms.assetid: c1f16b4c-9291-49ed-9694-a83a37109612
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Calling Code in VSTO Add-ins from Other Office Solutions

@@ -2,7 +2,6 @@
 title: "ListObject Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "ListObject control, improving performance when bound to data"
 ms.assetid: 2bdecbf0-2a0f-48de-a544-dca12bb4a9a3
 caps.latest.revision: 70
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # ListObject Control

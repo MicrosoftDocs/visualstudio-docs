@@ -1,7 +1,7 @@
 ---
 title: "Generating Files with the TextTransform Utility | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "9/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,8 +37,20 @@ TextTransform.exe is a command-line tool that you can use to transform a text te
   
  TextTransform.exe is located in the following directory:  
   
- **\Program Files\Common Files\Microsoft Shared\TextTemplating\11.0**  
-  
+ **\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE**  
+
+for the Professional edition, or
+
+ **\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**
+ 
+ for the Enterprise edition.
+
+In previous versions of Visual Studio, the file is found in the following location:
+
+**\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\{version}**
+
+where {version} depends on which previous version is installed.
+
 ## Syntax  
   
 ```  

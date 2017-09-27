@@ -1,7 +1,7 @@
 ---
 title: "Connect to data in an Access database (Windows Forms) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,6 +31,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # Connect to data in an Access database (Windows Forms)
 You can connect to an Access database (either an .mdf file or an .accdb file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your forms.   
@@ -50,32 +51,35 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png "ViewDataSources")  
   
 3.  In the **Data Sources** window, click **Add New Data Source**.  
-  
-     ![Add New Data Source](../data-tools/media/dataaddnewdatasource.png "dataAddNewDataSource")  
+
+     The **Data Source Configuration Wizard** opens.  
   
 4.  Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.  
   
 5.  Select **Dataset** on the **Choose a Database Model** page, and then select **Next**.  
   
 6.  On the **Choose your Data Connection** page, select **New Connection** to configure a new data connection.  
+
+     The **Add Connection** dialog box opens.  
   
-7.  Change the **Data source** to **.NET Framework Data Provider for OLE DB**.  
+7.  Select the **Change** button next to the **Data source** text box.
+
+     The **Change Data Source** dialog box opens.  
   
-     ![Change Data Provider to OLE DB](../data-tools/media/datachangedatasourceoledb.png "dataChangeDataSourceOLEDB")  
-  
-    > [!IMPORTANT]
-    >  Although a data source of **Microsoft Access Database File (OLE DB)** might seem like the right choice, you use that data-source type only for .mdb database files.  
-  
-8.  In **OLE DB Provider**, select **Microsoft Office 12.0 Access Database Engine OLE DB Provider**.  
+8.  In the list of data sources, choose **\<other\>**. In the **Data provider** drop-down, select **.NET Framework Data Provider for OLE DB**, then choose **OK**.  
+
+9. Back in the **Add Connection** dialog box, select **Microsoft Office 12.0 Access Database Engine OLE DB Provider** from the **OLE DB Provider** drop-down.  
   
      ![OLE DB Provider Microsoft Office 12.0 Access](../data-tools/media/dataoledbprovideroffice12access.png "dataOLEDBProviderOffice12Access")  
+
+     > [!NOTE]
+     >  If you don't see **Microsoft Office 12.0 Access Database Engine OLE DB Provider** in the OLE DB provider drop-down, you may need to install the [2007 Office System Driver: Data Connectivity Components](https://www.microsoft.com/download/confirmation.aspx?id=23734).
   
-9. In **Server or file name**, specify the path and name of the .accdb file to which you want to connect, and then select **OK**.  
-  
-    > [!NOTE]
-    >  If the database file has a user name and password, specify them before you select **OK**.  
+9. In the **Server or file name** text box, specify the path and file name of the .accdb file you want to connect to, and then select **OK**. (If the database file has a user name and password, specify them before you select **OK**.)    
   
 10. Select **Next** on the **Choose your Data Connection** page.  
+
+     You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
   
 11. Select **Next** on the **Save connection string to the Application Configuration file** page.  
   
@@ -97,6 +101,8 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png "ViewDataSources")  
   
 3.  In the **Data Sources** window, click **Add New Data Source**.  
+
+     The **Data Source Configuration Wizard** opens.
   
 4.  Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.  
   
@@ -106,7 +112,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
   
 7.  If the data source is not **Microsoft Access Database File (OLE DB)**, select **Change** to open the **Change Data Source** dialog box and select **Microsoft Access Database File**, and then select **OK**.  
   
-8.  In the **Database file name**, specify the path and name of the .mdb file to which you want to connect, and then select **OK**.  
+8.  In the **Database file name**, specify the path and name of the .mdb file you want to connect to, and then select **OK**.  
   
      ![Add Connection Access Database File](../data-tools/media/dataaddconnectionaccessmdb.png "dataAddConnectionAccessMDB")  
   

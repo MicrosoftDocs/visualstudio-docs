@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 9/22/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""

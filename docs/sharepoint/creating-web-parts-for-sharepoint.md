@@ -2,7 +2,6 @@
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,8 +28,8 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designing"
 ms.assetid: a6349e85-45cf-4766-b856-e25c9f1ffd34
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Web Parts for SharePoint

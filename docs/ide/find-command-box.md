@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Find/Command box"
 ms.assetid: c81736dd-7a26-4e11-95c8-c2a2e56d7a41
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

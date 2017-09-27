@@ -94,7 +94,7 @@ When you run a layout command, the options that you specify are saved (such as t
 
 ```vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US```
 
-When you want to update that layout to a newer version, you don't have to specify any additional command line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.
+When you want to update that layout to a newer version, you don't have to specify any additional command-line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.
 
 ```vs_enterprise.exe --layout c:\VS2017Layout```
 

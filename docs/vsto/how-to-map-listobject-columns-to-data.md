@@ -2,7 +2,6 @@
 title: "How to: Map ListObject Columns to Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "ListObject control, mapping data"
 ms.assetid: 2108d0c3-d595-410e-a0ae-3dd53bf6bcc7
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Map ListObject Columns to Data

@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Could not retrieve schema information for database object \<object name>
 This message typically appears when an object in **Server Explorer/Database Explorer** is copied to the clipboard, deleted from the database, and then pasted onto the designer. Because the database object no longer exists, this message appears.  

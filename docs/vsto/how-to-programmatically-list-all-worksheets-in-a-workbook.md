@@ -2,7 +2,6 @@
 title: "How to: Programmatically List All Worksheets in a Workbook | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "worksheets, listing"
 ms.assetid: 38b63d1d-6047-44e8-b089-c576c6179e4a
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically List All Worksheets in a Workbook

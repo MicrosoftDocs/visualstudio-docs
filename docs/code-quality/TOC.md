@@ -634,6 +634,7 @@
 ### [CA0503](ca0503.md)
 ### [CA0504](ca0504.md)
 ### [CA0505](ca0505.md)
+### [FxCopCmd Errors](fxcopcmd-errors.md)
 ## [Enhancing Code Quality with Team Project Check-in Policies](enhancing-code-quality-with-team-project-check-in-policies.md)
 ### [Creating and Using Code Analysis Check-In Policies](creating-and-using-code-analysis-check-in-policies.md)
 #### [How to: Create or Update Standard Code Analysis Check-in Policies](how-to-create-or-update-standard-code-analysis-check-in-policies.md)

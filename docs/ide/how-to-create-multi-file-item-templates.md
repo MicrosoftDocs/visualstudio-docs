@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "item templates, creating multi-file item templates"
 ms.assetid: fe3c4257-e383-4c80-b8af-c5c521959c33
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

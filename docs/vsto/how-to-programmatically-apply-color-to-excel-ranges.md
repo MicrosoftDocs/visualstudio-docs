@@ -2,7 +2,6 @@
 title: "How to: Programmatically Apply Color to Excel Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "ranges, applying color"
 ms.assetid: a9c40229-5308-459a-9216-7e13d82c7cb5
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Apply Color to Excel Ranges

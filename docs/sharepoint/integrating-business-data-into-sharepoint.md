@@ -2,7 +2,6 @@
 title: "Integrating Business Data into SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,8 +24,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], data"
 ms.assetid: e092e3d6-2c5f-4060-ae86-d37db8967559
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Integrating Business Data into SharePoint

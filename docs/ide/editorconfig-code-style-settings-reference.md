@@ -1,21 +1,21 @@
 ---
 title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
+ms.date: "08/16/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "CSharp"
   - "VB"
-helpviewer_keywords:
-  - "editor"  
-ms.assetid:
+helpviewer_keywords: 
+  - "editor"
+ms.assetid: 
 caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: "davidcsa"
+manager: "ghogen"
 translation.priority.ht:
   - "cs-cz"
   - "de-de"
@@ -30,6 +30,8 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: 
+  - "vs-ide-general"
 ---
 
 # .NET Coding Convention Settings For EditorConfig
@@ -883,7 +885,7 @@ csharp_new_line_before_members_in_anonymous_types = true
 ### <a name="newline_before_query"> Newline Before Members in Query Expression Clauses</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_new_line_within_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
+|`csharp_new_line_between_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 
@@ -893,14 +895,14 @@ csharp_new_line_before_members_in_anonymous_types = true
 
 #### Applied:
 ```csharp
-// csharp_new_line_within_query_expression_clauses = true
+// csharp_new_line_between_query_expression_clauses = true
 var q = from a in e
         from b in e
         select a * b;
 ```
 
 ```csharp
-// csharp_new_line_within_query_expression_clauses = false
+// csharp_new_line_between_query_expression_clauses = false
 var q = from a in e from b in e
         select a * b;
 ```
@@ -909,7 +911,7 @@ var q = from a in e from b in e
 ```
 # CSharp formatting settings:
 [*.cs]
-csharp_new_line_within_query_expression_clauses = true
+csharp_new_line_between_query_expression_clauses = true
 ``` 
 
 ## <a name="indent">Indentation Options</a>
@@ -1012,37 +1014,60 @@ csharp_indent_switch_labels = true
 ### <a name="label">Label Positioning</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_indent_labels`  |  C#  | one_less | Visual Studio 2017 v. 15.3  |
+|`csharp_indent_labels`  |  C#  | no_change | Visual Studio 2017 v. 15.3  |
 
 
 | Value | Description 
 | ------------- |:-------------|
-| one_less | Labels are placed at one less indent to the current context |
+| flush_left | Labels are placed at the leftmost column |
+| one_less_than_current | Labels are placed at one less indent to the current context |
 | no_change | Labels are placed at the same indent as the current context |
 
 #### Applied:
+
 ```csharp
-// csharp_indent_labels = one_less
-private string MyMethod(...) 
+// csharp_indent_labels= flush_left
+class C
 {
-    if (...) {
-        goto error;
-    }
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
 error:
-    throw new Exception(...);
+        throw new Exception(...);
+    }
+}
+```
+
+```csharp
+// csharp_indent_labels = one_less_than_current
+class C
+{
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
+    error:
+        throw new Exception(...);
+    }
 }
 
 ```
 
 ```csharp
 // csharp_indent_labels= no_change
-private string MyMethod(...) 
+class C
 {
-    if (...) {
-        goto error;
+    private string MyMethod(...) 
+    {
+        if (...) {
+            goto error;
+        }
+        error:
+        throw new Exception(...);
     }
-    error:
-    throw new Exception(...);
 }
 ```
 
@@ -1050,7 +1075,7 @@ private string MyMethod(...)
 ```
 # CSharp formatting settings:
 [*.cs]
-csharp_indent_labels = one_less
+csharp_indent_labels = flush_left
 ``` 
 
 ## <a name="spacing">Spacing Options</a>

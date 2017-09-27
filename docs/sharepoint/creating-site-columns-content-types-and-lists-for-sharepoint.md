@@ -2,7 +2,6 @@
 title: "Creating Site Columns, Content Types, and Lists for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 9ceed263-3aec-41dc-8708-63cb37a08fa8
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Site Columns, Content Types, and Lists for SharePoint

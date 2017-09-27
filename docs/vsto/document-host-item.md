@@ -2,7 +2,6 @@
 title: "Document Host Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], Document"
 ms.assetid: 4c1963f2-e88e-4c68-9f3d-13dedebddde4
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Document Host Item

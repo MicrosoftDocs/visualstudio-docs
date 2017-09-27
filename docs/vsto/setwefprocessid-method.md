@@ -2,7 +2,6 @@
 title: "SetWefProcessId Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,8 +13,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 404eec23-a67e-4f5b-b27d-86651f08be03
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SetWefProcessId Method

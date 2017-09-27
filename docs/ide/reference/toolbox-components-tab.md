@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Toolbox, Components tab"
 ms.assetid: 332fafab-a763-4244-b388-15d1b5b5cc04
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

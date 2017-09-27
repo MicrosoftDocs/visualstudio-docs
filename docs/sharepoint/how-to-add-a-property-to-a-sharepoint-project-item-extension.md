@@ -2,7 +2,6 @@
 title: "How to: Add a Property to a SharePoint Project Item Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending project items"
 ms.assetid: 4fd97ef2-86e7-4d92-8e34-5b0ec3cc43a0
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Property to a SharePoint Project Item Extension
