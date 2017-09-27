@@ -57,9 +57,7 @@ If the server is remote, the remote debugger must be running on the remote compu
 
 ## Configure debug settings
 
-### Enable ASP.NET debugging in the project properties (Visual Basic, C#)
-
-If you create a new ASP.NET project (**File > New Project**), the debug settings will already be configured correctly.
+### Enable ASP.NET debugging in the project properties
 
 1. Open your ASP.NET project in Visual Studio.
 
@@ -71,9 +69,17 @@ If you create a new ASP.NET project (**File > New Project**), the debug settings
 
     ![Debugger settings](../debugger/media/dbg-aspnet-enable-debugging.png "Debugger settings")
 
+> [!NOTE]
+> If you create a new ASP.NET project (**File > New Project**), the debug settings will already be configured correctly.
+
 ### Enable debugging in the web.config file  
 
-In ASP.NET versions prior to ASP.NET Core, you must enable debugging in the application's web.config file. A web.config file is required if you host the app on IIS or IIS Express.
+To debug a web app, application's web.config file must be configured correctly. A web.config file is required if you host the app on IIS or IIS Express.
+
+For ASP.NET Core, you can create the web.config, or it will be created automatically when the app is deployed later.
+
+> [!TIP]
+> Your deployment process may update the web.config settings. So before trying to debug, verify the web.config setting on the server.
   
 1.  In Visual Studio, open the project's web.config file.  
   
@@ -112,17 +118,17 @@ The web.config file should look like the following example.
 If you are using an external server instead of the default IIS Express server, you must also make sure that the `targetFramework` attribute value matches the configuration on the server.
 
 > [!IMPORTANT]
-> For best performance, set a production app to `debug=false` and specify a Release build when you build the app.
+> For best performance, set a production app to `debug=false` and specify a Release build when you build and publish the app.
 
 ## Configure project settings for the server
 
-For debugging on a local web server, set project properties. For debugging on a remote server, you will need more comprehensive instructions described in [Remote Debugging ASP.NET on IIS](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
+For debugging on a local web server, set project properties. For debugging on a remote server, follow the more comprehensive instructions described in [Remote Debugging ASP.NET on IIS](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) instead.
 
 1. In the **Web** tab of the project properties, select either **IIS Express** or **External Server** under the **Server** settings. (For some project types, these settings appear under the **Debug** tab instead.)
 
     ![Server settings](../debugger/media/dbg-aspnet-server-settings.png "Server settings")
 
-    IIS Express is the default server for ASP.NET and does not require any special configuration. This is the easiest way to debug an ASP.NET application.
+    IIS Express is the default server for ASP.NET and does not require any special configuration by default. This is the easiest way to debug an ASP.NET application.
 
     For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options** and either **Use default Web server** or **Use custom server** (instead of **External Server**).
 
@@ -132,7 +138,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     If the external server is local IIS, IIS must be installed and configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
 
-    If the external server is [remote](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), these project settings are not used for debugging.
+    If the external server is [remote](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), you will attach to the process instead, and these project settings are not used for debugging.
 
 ## (Local IIS web server) Configure IIS
 
@@ -142,7 +148,7 @@ If you are using local IIS web server, follow these steps.
 
 1. Make sure that IIS is installed correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
-    * Make sure that you install the correct version of ASP.NET on the server. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET).
+    * Make sure that you install the correct version of ASP.NET on the server. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET). To install ASP.NET Core, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html#iis-configuration).
 
     > [!NOTE]
     > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
@@ -165,31 +171,37 @@ For IIS Express, the web app is deployed automatically when you start debugging 
 
 If you are using local IIS web server, follow these steps. There are different ways to publish your app to IIS. In these steps, we show how to create and use a Publish profile so that you can deploy using the file system.
 
-1. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, use **Publish Web App**).
+1. Restart Visual Studio as an Administrator.
 
-2. Choose **IIS, FTP, etc.** and click **Publish**.
+    To deploy using this method, you need Administrator privileges.
+
+2. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, use **Publish Web App**).
+
+3. Choose **IIS, FTP, etc.** and click **Publish**.
 
     ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis.png "Publish to IIS")
 
     For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name and choose **OK**.
 
-3. In the **Publish method** field, choose **File system**.
+4. In the **Publish method** field, choose **File system**.
 
-4. For the **Target location**, click the **Browse** button.
+5. For the **Target location**, click the **Browse** button.
 
-5. Choose **Local IIS**, and select a web site for deployment, and then click **Open**.
+6. (ASP.NET Core) Choose **File System** and select the folder where you previously created for the app.
+
+6. (ASP.NET) Choose **Local IIS**, and select the web site you previously created, and then click **Open**.
 
     ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
 
     > [!TIP]
     > If you see a message that says the web server is not configured correctly, make sure that the correct version of ASP.NET is installed for IIS.
 
-6. Click **Next** and choose a **Debug** configuration.
+7. Click **Next** and choose a **Debug** configuration.
 
     > [!NOTE]
     > If you deploy with a Release configuration, this will set `debug=false` in the server's web.config file.
 
-7. Click **Save** to save the publish settings, and then click **Publish**.
+8. Click **Save** to save the publish settings, and then click **Publish**.
 
     > [!CAUTION]
     >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.

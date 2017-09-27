@@ -30,6 +30,9 @@ translation.priority.ht:
 
 5. Set the configuration to **Debug**, select **Delete all existing files prior to publish**, and then click **Save**.
 
+    > [!NOTE]
+    > If you use a Release build, you will disable debugging in the web.config file.
+
 6. Click **Publish**.
 
     ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")

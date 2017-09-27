@@ -34,6 +34,9 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
 6. Click **Next**, choose a **Debug** configuration, and choose **Remove additional files at destination** under the **File Publish** options.
 
+    > [!NOTE]
+    > If you choose a Release configuration, you will disable debugging in the web.config file.
+
 5. Click **Prev**, and then choose **Validate**. If the connection setup validates, you can try to publish.
 
 6. Click **Publish** to publish the app.
