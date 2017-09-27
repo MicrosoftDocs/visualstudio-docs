@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # The objects you are adding to the designer use a different data connection than the designer is currently using
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?  

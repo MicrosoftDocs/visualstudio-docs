@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "vshost.exe, disabling the hosting process"
 ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

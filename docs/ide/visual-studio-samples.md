@@ -5,15 +5,15 @@ ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "sample applications [Visual Studio]"
 ms.assetid: 3070fa13-46c7-4252-a1c2-857b4a2c9528
 caps.latest.revision: 51
-author: "mikeblome"
-ms.author: "mblome"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

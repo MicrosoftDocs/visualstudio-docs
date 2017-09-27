@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "editors, displaying URLs"
 ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

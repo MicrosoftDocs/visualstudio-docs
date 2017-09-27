@@ -2,7 +2,6 @@
 title: "Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

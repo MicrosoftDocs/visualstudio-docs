@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Debug.Watch command"
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Help Viewer 2.0, searching for keywords"
   - "Help Viewer 2.0, searching code"
   - "Help Viewer 2.0, searching code by programming language"
@@ -17,10 +17,10 @@ helpviewer_keywords:
   - "searching titles [Help Viewer 2.0]"
 ms.assetid: 0cdc1746-8481-45ec-9c53-d0d89cdcbd5e
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

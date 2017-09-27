@@ -73,9 +73,9 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
 |`Reverse`|`@(MyItem->Reverse())`|Returns the items in reverse order.|  
 |`AnyHaveMetadataValue`|`@(MyItem->AnyHaveMetadataValue("MetadataName", "MetadataValue"))`|Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive.|  
 |`ClearMetadata`|`@(MyItem->ClearMetadata())`|Returns items with their metadata cleared. Only the `itemspec` is retained.|  
-|`HasMetadata`|`@(MyItem->HasMetadataValue("MetadataName")`|Returns items that have the given metadata name. The comparison is case insensitive.|  
+|`HasMetadata`|`@(MyItem->HasMetadataValue("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|  
 |`Metadata`|`@(MyItem->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name.|  
-|`WithMetadataValue`|`@(MyItem->WithMetadataValue("MetadataName", "MetadataValue")`|Returns items that have the given metadata name and value. The comparison is case insensitive.|  
+|`WithMetadataValue`|`@(MyItem->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|  
   
  The following example shows how to use intrinsic item functions.  
   

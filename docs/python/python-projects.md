@@ -2,10 +2,9 @@
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -85,22 +84,13 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
+
 ### Creating a project from existing files
 
-1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.
-1. In the following dialog, set the path to your existing code, a filter for file types, and any search paths that your project requires, then select **Next**:
+> [!Important]
+> The process described here does not move or copy the original source files. If you want to work with a copy, duplicate the folder first.
 
-    ![New Project from Existing Code, step 1](media/projects-from-existing-1.png)
-
-1. Choose an environment for the project and the startup file, then press **Next**. (Note that the dialog shows only files in the root of the folder tree; if the file you want is in a subfolder, leave the startup file blank and set it later in Solution Explorer).
-
-    ![New Project from Existing Code, step 2](media/projects-from-existing-2.png)
-
-1. Select the location to save the project file (this action does not move or copy the original source files, so if you want a copy you should make one before using the template). In this dialog you can also include auto-detection of virtual environments and customize the project for different web frameworks.
-
-    ![New Project from Existing Code, step 3](media/projects-from-existing-3.png)
-
-1.  Select **Finish** and Visual Studio creates the project and open it in Solution Explorer. If you want to move the `.pyproj` file elsewhere, select it in Solution Explorer and choose **File > Save As**. This action updates file references in the project but does not move any code file.
+[!INCLUDE[project-from-existing](includes/project-from-existing.md)]
 
 ## Linked files
 
