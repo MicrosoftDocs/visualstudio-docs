@@ -23,11 +23,9 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 > [!Important]
 > The process described here does not move or copy the original source files. If you want to work with a copy, duplicate the folder first.
 
-1. Launch Visual Studio.
-
 [!INCLUDE[project-from-existing](includes/project-from-existing.md)]
 
-1. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**. 
+8. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**. 
 
 
 ## Next Steps
