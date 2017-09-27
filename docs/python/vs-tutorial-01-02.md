@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Step 2: Writing and running code
 
-**Previous step: [Creating a new Python project](vs-tutorial-01-01.md).**
+**Previous step: [Creating a new Python project](vs-tutorial-01-01.md)**
 
 While Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 

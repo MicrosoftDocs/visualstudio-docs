@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Step 3: Using the interactive REPL window
 
-**Previous step: [Writing and running code](vs-tutorial-01-02.md).**
+**Previous step: [Writing and running code](vs-tutorial-01-02.md)**
 
 The Visual Studio *interactive window* for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The interactive window provides all the capabilities of the REPL experience of the Python command line. It also makes it very easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 

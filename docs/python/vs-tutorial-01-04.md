@@ -18,7 +18,7 @@ manager: "ghogen"
 
 ## Step 4: Running code in the debugger
 
-**Previous step: [Using the interactive REPL window](vs-tutorial-01-03.md).**
+**Previous step: [Using the interactive REPL window](vs-tutorial-01-03.md)**
 
 In addition to managing projects, providing a rich editing experience, and the interactive window, Visual Studio provides full-featured debugging for Python code. In the debugger, you can run your code step by step, including every iteration of a loop. You can also pause the program whenever certain conditions are true. At any point when the program is paused in the debugger, you can examine the entire program state and change the value of variables. Such actions are essential for tracking down program bugs, and also provide very helpful aids for carefully following the exact program flow.
 

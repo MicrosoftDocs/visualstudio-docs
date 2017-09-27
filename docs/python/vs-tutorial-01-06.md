@@ -18,7 +18,7 @@ manager: "ghogen"
 
 ## Step 6: Working with Git
 
-**Previous step: [Installing packages and managing your Python environment](vs-tutorial-01-05.md).**
+**Previous step: [Installing packages and managing your Python environment](vs-tutorial-01-05.md)**
 
 Visual Studio provides direct integration with local Git repositories and those that reside on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and so on. TODO
 
