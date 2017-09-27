@@ -20,7 +20,7 @@ manager: "ghogen"
 
 Once you've [installed Python support in Visual Studio 2017](quickstart-01-install.md), you can easily clone a repository of Python code and create a project from it.
 
-![INCLUDE[install-github-extension](includes/install-github-extension.md)]
+[!INCLUDE[install-github-extension](includes/install-github-extension.md)]
 
 1. Launch Visual Studio.
 

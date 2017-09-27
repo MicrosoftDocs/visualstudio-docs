@@ -103,7 +103,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 ## Next Steps
 
 > [!div class="nextstepaction"]
-> [Installing packages and managing your Python environment](vs-tutorial-01-05.md)
+> [Installing packages in your Python environment](vs-tutorial-01-05.md)
 
 ### Going deeper
 - [Debugging](debugging.md).

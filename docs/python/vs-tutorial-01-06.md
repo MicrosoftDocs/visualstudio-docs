@@ -42,6 +42,8 @@ This topic describes creating a local Git repository for an existing project. Fo
 
 1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select **Sync** to push your local commits.
 
+## Going Deeper
+
 For a more extensive tutorial on working with Git, see [Share your code with Visual Studio 2017 and VSTS Git](https://docs.microsoft.com/vsts/git/share-your-code-in-git-vs-2017)
 
 

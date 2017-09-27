@@ -1,5 +1,5 @@
 ---
-title: title: Working with Python in Visual Studio, Step 0 - Installation | Microsoft Docs
+title: Working with Python in Visual Studio, Step 0 - Installation | Microsoft Docs
 ms.custom: ""
 ms.date: 9/26/2017
 ms.reviewer: ""

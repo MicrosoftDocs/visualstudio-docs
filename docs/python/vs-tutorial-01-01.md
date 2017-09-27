@@ -23,7 +23,7 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
 
 - [Step 0: Installation](vs-tutorial-01-00.md)
-- Step 1: Creating a Python project (this topic)
+- [Step 1: Creating a Python project (this topic)](#step-1-create-a-new-python-project)
 - [Step 2: Writing and running code to see Visual Studio IntelliSense at work](vs-tutorial-01-02.md)
 - [Step 3: Create more code in the interactive REPL window](vs-tutorial-01-03.md)
 - [Step 4: Run the completed program in the Visual Studio debugger](vs-tutorial-01-04.md)

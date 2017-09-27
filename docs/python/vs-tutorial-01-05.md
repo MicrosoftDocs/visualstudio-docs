@@ -34,11 +34,11 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. Install `matplotlib` by entering its name into the search field, then select the `pip install`
 
-  ![Installing matplotlib in the environment](media/environments-install-matplotlib1.png)
+  ![Installing matplotlib in the environment](media/environments-add-matplotlib1.png)
 
 1. After the package is installed, it appears in the Python Environments window. The **X** to the right of the package uninstalls it. 
 
-  ![Completion of installing matplotlib in the environment](media/environments-install-matplotlib2.png)
+  ![Completion of installing matplotlib in the environment](media/environments-add-matplotlib2.png)
 
   The small progress bar underneath the environment indicates that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
 
@@ -53,14 +53,13 @@ The Python developer community has produced thousands of useful packages that yo
         x = np.arange(0, radians(1800), radians(12))
         plt.plot(x, np.cos(x), 'b')
         plt.show()
-
-            
+                    
     main()
     ```  
 
 1. Run the program with (F5) or without the debugger (Ctrl+F5) to see the output:
 
-  ![Output of matplotlib example](media/environments-install-matplotlib3.png)
+  ![Output of matplotlib example](media/environments-add-matplotlib3.png)
 
 
 ## Next Steps

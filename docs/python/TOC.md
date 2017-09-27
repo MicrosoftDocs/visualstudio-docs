@@ -1,4 +1,4 @@
-# [Overview - Python in Visual Studio](python-in-visual-studio.md)
+# [Overview](python-in-visual-studio.md)
 # [Installation](installation.md)
 # Quickstarts
 ## [Create a project from existing code](quickstart-01-project-from-existing.md)
@@ -22,7 +22,6 @@
 ## [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
 ## [Azure SDK for Python](azure-sdk-for-python.md)
 # How To
-## [Installation for Visual Studio 2015 and earlier](installation.md)
 ## [Editing Code](code-editing.md)
 ### [Formatting Code](code-formatting.md)
 ### [Refactoring Code](code-refactoring.md)
@@ -34,6 +33,7 @@
 ## [Publishing to Azure App Service](publishing-to-azure.md)
 ### [Azure Remote Debugging](debugging-azure-remote.md)
 ### [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md)
+## [Installation for Visual Studio 2015 and earlier](installation.md)
 ## Interacting with C++
 ### [Creating a C++ Extension for Python](cpp-and-python.md)
 ### [Python/C++ Mixed-Mode Debugging](debugging-mixed-mode.md)
