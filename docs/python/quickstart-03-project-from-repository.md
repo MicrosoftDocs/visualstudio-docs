@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Quickstart: clone a repository of Python code in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](quickstart-01-install.md), you can easily clone a repository of Python code and create a project from it.
+Once you've [installed Python support in Visual Studio 2017](installation.md), you can easily clone a repository of Python code and create a project from it.
 
 [!INCLUDE[install-github-extension](includes/install-github-extension.md)]
 
@@ -66,7 +66,7 @@ Once you've [installed Python support in Visual Studio 2017](quickstart-01-insta
 1. Run the program again to see that the first check passes, and the program stops on the next koan. Continue correcting the errors and re-running the program as you want.
 
 > [!Important]
-> In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a  repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. These steps are described in [Tutorial Step 8 - Working with Git](vs-tutorial-01-08.md).
+> In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a  repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. These steps are described in [Tutorial Step 6 - Working with Git](vs-tutorial-01-06.md).
 
 ## Next Steps
 
