@@ -33,7 +33,6 @@
 ## [Publishing to Azure App Service](publishing-to-azure.md)
 ### [Azure Remote Debugging](debugging-azure-remote.md)
 ### [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md)
-## [Installation for Visual Studio 2015 and earlier](installation.md)
 ## Interacting with C++
 ### [Creating a C++ Extension for Python](cpp-and-python.md)
 ### [Python/C++ Mixed-Mode Debugging](debugging-mixed-mode.md)
@@ -41,5 +40,6 @@
 ## [Profiling](profiling.md)
 ## [Unit Testing](unit-testing.md)
 ## [Using the Cookiecutter Extension](cookiecutter.md)
+## [Installation for Visual Studio 2015 and earlier](installation.md)
 # Reference
 ## [Options](options.md)
