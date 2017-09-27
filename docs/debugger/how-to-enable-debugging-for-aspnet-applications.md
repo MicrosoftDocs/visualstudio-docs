@@ -68,13 +68,13 @@ If the server is remote, the remote debugger must be running on the remote compu
     ![Debugger settings](../debugger/media/dbg-aspnet-enable-debugging.png "Debugger settings")
 
 > [!NOTE]
-> If you create a new ASP.NET project (**File > New Project**), the debug settings will already be configured correctly.
+> If you create a new ASP.NET project (**File > New Project**), the debug settings are already configured correctly.
 
 ### Enable debugging in the web.config file  
 
 To debug a web app, application's web.config file must be configured correctly. A web.config file is required if you host the app on IIS or IIS Express.
 
-For ASP.NET Core, you can create the web.config, or it will be created automatically when the app is deployed later.
+For ASP.NET Core, the web.config file is created automatically when the app is deployed (if it is not already present).
 
 > [!TIP]
 > Your deployment process may update the web.config settings. So before trying to debug, verify the web.config setting on the server.
@@ -82,7 +82,7 @@ For ASP.NET Core, you can create the web.config, or it will be created automatic
 1.  In Visual Studio, open the project's web.config file.  
   
     > [!NOTE]  
-    > You cannot access the web.config file remotely by using a Web browser. For security reasons, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you will get HTTP access error 403 (forbidden).  
+    > You cannot access the web.config file remotely by using a Web browser. For security reasons, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you get an HTTP access error 403 (forbidden).  
   
 2.  Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.
 
@@ -92,10 +92,10 @@ For ASP.NET Core, you can create the web.config, or it will be created automatic
   
 4.  Make sure the `debug` attribute value is set to `true`.  
   
-The web.config file should look like the following example.
+The web.config file should look like the following example:
 
 > [!NOTE]
-> This is a partial web.config file. Additional XML sections are usually present between the configuration and system.web elements. The compilation element might also contain other attributes and elements.
+> This example is a partial web.config file. Additional XML sections are typically present between the configuration and system.web elements. The compilation element might also contain other attributes and elements.
   
 #### Example  
   
@@ -128,7 +128,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     IIS Express is the default server for ASP.NET and does not typically require any special configuration. This is the easiest way to debug an ASP.NET application.
 
-    For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options** and either **Use default Web server** or **Use custom server** (instead of **External Server**).
+    For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options**, and select either **Use default Web server** or **Use custom server** (instead of **External Server**).
 
     ![Server settings for Web Forms app](../debugger/media/dbg-aspnet-server-settings-webforms.png "Server settings for Web Forms app")
 
@@ -136,7 +136,7 @@ For debugging on a local web server, set project properties. For debugging on a 
 
     If the external server is local IIS, IIS must be installed and configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
 
-    If the external server is [remote](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), you will attach to the process instead, and these project settings are not used for debugging.
+    If the external server is [remote](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), you attach to the process instead, and these project settings are not used for debugging.
 
 ## (Local IIS web server) Configure IIS
 
@@ -179,7 +179,7 @@ If you are using local IIS web server, follow these steps. There are different w
 
     ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis.png "Publish to IIS")
 
-    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name and choose **OK**.
+    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
 
 4. In the **Publish method** field, choose **File system**.
 
@@ -197,7 +197,7 @@ If you are using local IIS web server, follow these steps. There are different w
 7. Click **Next** and choose a **Debug** configuration.
 
     > [!NOTE]
-    > If you deploy with a Release configuration, this will set `debug=false` in the server's web.config file.
+    > If you deploy with a Release configuration, this sets `debug=false` in the server's web.config file.
 
 8. Click **Save** to save the publish settings, and then click **Publish**.
 
@@ -212,7 +212,7 @@ If you are using local IIS web server, follow these steps. There are different w
 
 3. Take actions to run the code that contains the breakpoint.
 
-    The debugger will pause where you set the breakpoint.
+    The debugger pauses where you set the breakpoint.
 
 ### (Local IIS) Troubleshooting: Cannot hit the breakpoint
 
@@ -226,12 +226,12 @@ If you are using local IIS web server, follow these steps. There are different w
 ## Robust Programming  
 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to Web.config files and applies the new configuration settings. You do not have to restart the computer or restart the IIS server for changes to take effect.  
   
-A Web site can contain multiple virtual directories and subdirectories, and Web.config files may exist in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications inherit settings from Web.config files at higher levels in the URL path. Hierarchical configuration files allow you to change settings for several [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications at the same time, such as for all applications below it in the hierarchy. However, if `debug` is set in a file lower in the hierarchy, it will override the higher value.  
+A Web site can contain multiple virtual directories and subdirectories, and Web.config files may exist in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications inherit settings from Web.config files at higher levels in the URL path. Hierarchical configuration files allow you to change settings for several [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications at the same time, such as for all applications below it in the hierarchy. However, if `debug` is set in a file lower in the hierarchy, it overrides the higher value.  
   
-For example, you could specify `debug="true"` in www.microsoft.com/aaa/Web.config, and any application in the aaa folder or in any subfolder of aaa will inherit that setting. So if your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application is at www.microsoft.com/aaa/bbb, it will inherit that setting, as will any [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications in www.microsoft.com/aaa/ccc, www.microsoft.com/aaa/ddd, and so on. The only exception is if one of those applications overrides the setting by means of its own lower Web.config file.  
+For example, you could specify `debug="true"` in www.microsoft.com/aaa/Web.config, and any application in the aaa folder or in any subfolder of aaa inherits that setting. So if your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application is at www.microsoft.com/aaa/bbb, it inherits that setting, as will any [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications in www.microsoft.com/aaa/ccc, www.microsoft.com/aaa/ddd, and so on. The only exception is if one of those applications overrides the setting by means of its own lower Web.config file.  
   
 > [!IMPORTANT]
-> Enabling debug mode will greatly affect the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
+> Enabling debug mode greatly affects the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
   
 ## See Also  
 [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)   
