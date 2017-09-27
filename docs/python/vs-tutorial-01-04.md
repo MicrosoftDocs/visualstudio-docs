@@ -16,7 +16,7 @@ ms.author: "kraigb"
 manager: "ghogen"
 ---
 
-## Step 4: Running code in the debugger
+# Step 4: Running code in the debugger
 
 **Previous step: [Using the interactive REPL window](vs-tutorial-01-03.md)**
 
