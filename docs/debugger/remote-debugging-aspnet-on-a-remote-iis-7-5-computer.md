@@ -44,11 +44,11 @@ These procedures have been tested on these server configurations:
 The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
-> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
+> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low-bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-1. Create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application** . In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. Create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
 
 2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
 
@@ -104,7 +104,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 7. Under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the Application pool field to **ASP.NET v4.0** (ASP.NET 4.5 is not an option for the Application pool).
 
-8. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these are present, add IUSR as a user with Read & Execute rights.
+8. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these users are present, add IUSR as a user with Read & Execute rights.
 
 ## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
 
@@ -149,7 +149,7 @@ In this tutorial, we are using Visual Studio 2017.
 > [!NOTE]
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
-For information on running the remote debugger as a service, see [Run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
+For information on running the remote debugger as a service, see [Run the remote debugger as a service](../debugger/remote-debugging.md#bkmk_configureService).
 
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
@@ -157,7 +157,7 @@ For information on running the remote debugger as a service, see [Run the remote
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -195,7 +195,7 @@ Required ports:
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click **Next** and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+2. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
     If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
