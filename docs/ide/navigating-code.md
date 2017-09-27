@@ -24,10 +24,10 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Navigating Code  
-Visual Studio provides numerous ways to navigate to code in the editor. This topic summarizes the different ways you can navigate your code and provides links to topics that provide more detail.  
+Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.  
 
 ## Navigate Backward and Navigate Forward commands  
-You can move around in a document in several different ways. In addition to the standard operations, you can use the **Navigate Backward** (**Ctrl + MINUS**) and **Navigate Forward** (**Ctrl + Shift + MINUS**) buttons on the toolbar to move the insertion point to previous locations or return to more recent locations in the active document. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.  
+You can use the **Navigate Backward** (**Ctrl + -**) and **Navigate Forward** (**Ctrl + Shift + -**) buttons on the toolbar to move the insertion point to previous locations, or to return to a more recent location from a previous location. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.  
 
 ![Forward and back navigation buttons](../ide/media/vs2017_nav_buttons.png)  
 
@@ -44,15 +44,15 @@ You can navigate around the drop-down boxes as follows:
 
 -   To navigate directly to a procedure or other member of a class, choose it in the right drop-down.  
 
--   To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL + F2.  
+-   To shift focus from the code window to the navigation bar, press the shortcut key combination **Ctrl + F2**.  
 
--   To shift focus from box to box on the navigation bar, press the TAB key.  
+-   To shift focus from box to box on the navigation bar, press the **Tab** key.  
 
--   To select the navigation bar item that has focus and return to the code window, press the ENTER key.  
+-   To select the navigation bar item that has focus and return to the code window, press the **Enter** key.  
 
--   To return focus from the navigation bar to the code  without selecting anything, press the ESC key.  
+-   To return focus from the navigation bar to the code  without selecting anything, press the **Esc** key.  
 
-To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**, or you can change the settings for individual languages).  
+To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**), or you can change the settings for individual languages.  
 
 ## Find All References  
 Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Finding references in your code](finding-references.md).  
@@ -88,9 +88,7 @@ Go To Definition takes you to the definition of the selected element. For more i
 Input        | Function 
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
-**Mouse**    | Right-click on the type name and select **Go To Definition**  
-             | OR  
-             | Press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)  
+**Mouse**    | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)  
 
 ## Peek Definition  
 Peek Definition finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
@@ -98,9 +96,7 @@ Peek Definition finds the definition of the selected element and displays it in 
 Input        | Function 
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt + F12**
-**Mouse**    | Right-click on the type name and select **Peek Definition**  
-             | OR  
-             | Press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)  
+**Mouse**    | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)  
 
 ## Go To Implementation  
 Using Go To Implementation, you can navigate from a base class or type to its implementations. If there are multiple implementations, you will see them listed in the **Find Symbol Results** window:  
@@ -108,7 +104,7 @@ Using Go To Implementation, you can navigate from a base class or type to its im
 Input        | Function 
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl + F12**
-**Mouse**    | Right-click on the type name and select **Go To ImplementationView**  
+**Mouse**    | Right-click on the type name and select **Go To Implementation**  
 
 ## Call Hierarchy  
 Call Hierarchy shows you the calls to a method in the Call Hierarchy window:  
