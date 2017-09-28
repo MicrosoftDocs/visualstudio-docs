@@ -92,6 +92,8 @@ searchScope: []
                                 </a>
                             </li>
                         </ul>
+						<p>Lorem ipsum subscription dolor sit amet.</p>
+						<p><a href="#">Visual Studio subscription</a></p>
                     </li>
                 </ul>
             </li>
