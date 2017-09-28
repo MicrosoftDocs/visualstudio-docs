@@ -1,13 +1,15 @@
 ---
 title: Activating Pluralsight Benefit| Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 7a3f625f-58b5-4f08-b439-ce1ebc56c038
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/28/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to get started using the Pluralsight training subscription included with your Visual Studio subscription.
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Activating the Pluralsight Training Benefit in Visual Studio Subscriptions

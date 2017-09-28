@@ -1,13 +1,15 @@
 ---
-title: Assigning Licenses in the Administrator Portal | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 5b939294-a982-4465-96f4-468c20453e71
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/17/2017
+Title: Assign licenses to Visual Studio Subscriptions
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how administrators can assign licenses to subscribers
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Assigning Licenses in the Visual Studio Subscriptions Administrator Portal

@@ -1,13 +1,15 @@
 ---
 title: Compare Visual Studio subscriptions | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 6a5b7b40-5028-4215-8fde-2fad16ea9e50
-ms.manager: douge
-ms.author: douge
-ms.date: 7/10/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Compare features and benefits of Visual Studio standard and cloud subscriptions
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Compare Visual Studio subscription options

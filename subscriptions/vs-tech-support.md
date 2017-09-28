@@ -1,13 +1,15 @@
 ---
 title: Technical Support Benefit | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 8d98b3cc-00f7-4a42-a7e2-18c4d8cb6da8
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/28/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to activate the technical support benefit included with your Visual Studio subscription. 
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Activating the Technical Support Benefit in Visual Studio Subscriptions

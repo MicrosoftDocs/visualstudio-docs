@@ -1,13 +1,15 @@
 ---
 title: Handle expired licenses | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 9bc82cad-d6db-4a75-86a7-70a204c3bae8
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/17/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description: Learn how administrators can handle expired Visual Studio subscriptions
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Handling expired subscriptions

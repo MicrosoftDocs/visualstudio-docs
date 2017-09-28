@@ -1,13 +1,15 @@
 ---
 title: Edit Subscriptions in the Administrator Portal | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: a59b00c2-d63c-4ccf-b34c-65bd77d87500
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/17/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how administrators can edit subscription assignments.
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Editing Visual Studio Subscription Assignments

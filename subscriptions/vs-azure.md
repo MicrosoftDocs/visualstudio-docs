@@ -1,12 +1,15 @@
 ---
 title: Microsoft Azure Benefit | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-subscriptions
-ms.manager: jaunger
-ms.author: v-evwind
-author: EvanWindom
-ms.date: 7/24/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Using Microsoft Azure in Visual Studio subscriptions

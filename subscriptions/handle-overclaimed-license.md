@@ -1,13 +1,15 @@
 ---
 title: Handle over-claimed licenses | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: e8847de9-a298-4ba4-a23c-ef91984e5890
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/17/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how administrators can resolve over-claimed subscriptions
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Handling ‘over-claimed’ subscriptions
