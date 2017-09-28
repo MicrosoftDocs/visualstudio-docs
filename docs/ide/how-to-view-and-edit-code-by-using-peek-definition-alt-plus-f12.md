@@ -77,5 +77,5 @@ You can use the **Peek Definition** command to view and edit code without switch
   
 ## See Also  
 [Navigating Code](../ide/navigating-code.md)  
-[Go To Defintion and Peek Definition](../go-to-and-peek-definition.md)  
+[Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md)  
 [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
