@@ -37,7 +37,7 @@ Projects are the logical containers for everything that's needed to build your a
 
 |         |         |
 |---------|---------|
-|  ![movie camera icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=nRw1vJD6D_6311787171) on how to create a new project in Visual Studio from a template. |
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=nRw1vJD6D_6311787171) on how to create a new project in Visual Studio from a template. |
 
 ## Create a project from existing code files  
  If you have a collection of loose source files, you can easily create a project that contains them. Choose **File**, **New**, **Project From Existing Code** to start the **Create Project from Existing Code Files** wizard, and then follow the prompts.  

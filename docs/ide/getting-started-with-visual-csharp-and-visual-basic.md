@@ -40,7 +40,7 @@ Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to
 
 |         |         |
 |---------|---------|
-|  ![movie camera icon for video](media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=nl3AuKD6D_9011787171) on how to create a simple Universal Windows App in Visual Studio.  
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=nl3AuKD6D_9011787171) on how to create a simple Universal Windows App in Visual Studio.  
 
 ## See also
 [Get started developing with Visual Studio](get-started-developing-with-visual-studio.md)
