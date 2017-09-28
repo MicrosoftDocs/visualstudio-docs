@@ -105,17 +105,21 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
 
 ---
 
+<hr>    
 <h2>Reference</h2>
+
 <ul class="panelContent cardsW">
     <li>
+        <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><a href="/visualstudio/data-tools/accessing-data-in-visual-studio">Accessing data in Visual Studio</a></p>
+                        <p><Accessing data in Visual Studio</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
 </ul>
