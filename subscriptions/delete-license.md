@@ -5,7 +5,7 @@ ms.topic: get-started-article
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-marketplace
 ms.assetid: 6e2a08da-ab74-42ca-90c1-28491df97350
-ms.manager: douge
+ms.manager: jaunger
 ms.author: evan@reddoorcollaborative.com
 ms.date: 8/9/2017
 ---
