@@ -30,7 +30,7 @@ You can change the modifier key for mouse-click **Go To Definition** by going to
 ![Enabling mouse-click go to definition](../ide/media/editor_options_mouse_click_gotodef.png)  
 
 ## Peek Definition
-The Peek Definition feature lets you preview the definition of a type in the code editor itself, instead of in a new tab. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, either select **Peek Definition** from the context menu, or, in Visual Studio 2017 version 15.4 and later, there is an additional way to peek view a definition by using the mouse. First, go to **Tools**, **Options**, **Text Editor**, **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.  
+The Peek Definition feature lets you preview the definition of a type without leaving your current location in the editor. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, either select **Peek Definition** from the context menu, or, in Visual Studio 2017 version 15.4 and later, there is an additional way to peek view a definition by using the mouse. First, go to **Tools**, **Options**, **Text Editor**, **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.  
 
 ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)  
 
