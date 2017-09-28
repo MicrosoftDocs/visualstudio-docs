@@ -21,7 +21,10 @@ manager: "ghogen"
 The Go To Definition and Peek Definition features enable you to easily view the definition of a type or member.
 
 ## Go To Definition  
-The Go To Definition feature navigates to the source of a type or member, and opens the result in a new tab. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **F12**. If you are a mouse user, either select **Go To Definition** from the context menu, or, in Visual Studio 2017 version 15.4 and later, press **Ctrl** and click on the type or member.  
+The Go To Definition feature navigates to the source of a type or member, and opens the result in a new tab. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **F12**. If you are a mouse user, either select **Go To Definition** from the context menu, or, use the **Ctrl-click** functionality described below.  
+
+### Ctrl-click Go To Definition  
+New for Visual Studio 2017 version 15.4 is an easier way for mouse users to quickly access Go To Definition. To use it, press the **Ctrl** key and then click on the type or member. It's that easy!
 
 ![Mouse click go to definition animation](../ide/media/click_gotodef.gif)
 
