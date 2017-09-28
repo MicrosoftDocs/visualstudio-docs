@@ -111,4 +111,4 @@ For more information on the advanced application protection features of Dotfusca
 [register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
-[decode-obfuscated]: 
+[decode-obfuscated]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_decode_stack_trace.html
