@@ -1,7 +1,7 @@
 ---
 title: "Write code in the code editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/28/2017"
+ms.date: "09/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -118,10 +118,10 @@ The Visual Studio editor provides many features that make it easier for you to w
 |Select Tag Content|In a document that contains tags (for example, XML or HTML), selects the content.|  
 
 ## Navigate and find code  
-You can move around in the code editor in several different ways. For more information about see [Navigating code](navigating-code.md).  
+You can move around in the code editor in several different ways, including navigating backwards and forwards to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information see [Navigating code](navigating-code.md).  
 
 ## Finding references in your code base  
-To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. Also, when you click on a type or member, the **reference highlighting** feature highlights automatically highlights all references to that type or member. For more information, see [Finding references in your code](finding-references.md).  
+To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Finding references in your code](finding-references.md).  
 
 ## Customize the Editor  
 You can share your Visual Studio settings with another developer, have your settings conform to a standard, or return to Visual Studio default settings by using the **Import and Export Settings Wizard** command on the **Tools** menu. In the **Import and Export Settings Wizard**, you can change selected general settings or language and project-specific settings.
