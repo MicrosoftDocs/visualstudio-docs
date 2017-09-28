@@ -50,7 +50,7 @@ IntelliSense is the general term for a number of features: List Members, Paramet
  Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed under See Also.  
   
 ## List Members  
- A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters.  
+ A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that contains those characters.  
   
  After selecting an item, you can insert it into your code by pressing TAB or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get Quick Info for the item.  
   
@@ -106,7 +106,7 @@ IntelliSense is the general term for a number of features: List Members, Paramet
  **The cursor is in a string literal.** You can't use IntelliSense if the cursor is in the quotation marks around a string literal, as in the following example:  
   
 ```  
-MessageBox( hWnd, "String literal|") )  
+MessageBox( hWnd, "String literal|")
 ```  
   
  **The automatic options are turned off.** By default, IntelliSense works automatically, but you can disable it. Even if automatic statement completion is disabled, you can invoke an IntelliSense feature.  
