@@ -36,7 +36,7 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 
     ![Azure portal showing Python extensions](media/python-on-azure-extensions.png)
 
-    > [!Tip]]
+    > [!Tip]
     > The list of site extensions may hide site extensions for older versions of Python. If you need to install a version that's not shown in the list, you can do so through the Azure Resource Manager as described in the next section.
 
 1. Select the extension, accept the legal terms, then select **OK**.
@@ -206,5 +206,5 @@ Instead of using the Kudu console through the Azure portal, you can run commands
 
 For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). 
 
-You can also see credentials using the [`az webapp deployment list-publishing-profiles` command](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles) from the Azure CLI. A helper library for posting Kudu commands is available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
+You can also see credentials using the [az webapp deployment list-publishing-profiles command](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles) from the Azure CLI. A helper library for posting Kudu commands is available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
 
