@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "security [.NET Framework], maintaining after deployment"
 ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

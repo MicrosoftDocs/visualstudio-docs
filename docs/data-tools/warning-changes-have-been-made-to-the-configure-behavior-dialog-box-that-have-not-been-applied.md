@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Warning. Changes have been made to the Configure Behavior dialog box that have not been applied
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?  

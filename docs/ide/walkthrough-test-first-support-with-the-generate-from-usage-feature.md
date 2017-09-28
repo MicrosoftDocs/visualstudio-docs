@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Test-First Development"
 ms.assetid: 764c17a4-cd95-4c23-bf63-d92d9c5adfb2
 caps.latest.revision: 63
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

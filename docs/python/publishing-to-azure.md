@@ -2,10 +2,9 @@
 title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 9/6/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -113,7 +112,7 @@ Publishing to Azure App Service from Visual Studio 2017 only copies the projects
 
 1. When the browser opens, you may see the message, "The page cannot be displayed because an internal server error has occurred." This message indicates that your Python environment on the server is not completely configured. Refer again to [Managing Python on Azure App Service](managing-python-on-azure-app-service.md), making sure that you have an appropriate Python extension installed. Then double-check the path to the Python interpreter in your `web.config` file.     
  
-     Also use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file. Navigate to your Python folder, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#kudu-console) section:
+     Also use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file. Navigate to your Python folder, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
 
     ```
     python -m pip install --upgrade -r /home/site/wwwroot/requirements.txt

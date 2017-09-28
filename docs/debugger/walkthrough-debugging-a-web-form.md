@@ -179,4 +179,4 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
 6.  When you are finished debugging, on the **Debug** menu, click **Stop Debugging**.  
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)
+ [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

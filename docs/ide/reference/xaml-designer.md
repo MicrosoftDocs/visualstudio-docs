@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "03/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
-  - "VS.ToolsOptionsPages.XAMLDesigner"  
+f1_keywords: 
+  - "VS.ToolsOptionsPages.XAMLDesigner"
 ms.assetid: ad3820b2-0d95-4807-a75c-c3467ed973a3
 caps.latest.revision: 1
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

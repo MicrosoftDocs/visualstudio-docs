@@ -25,6 +25,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # O/R Designer Messages
 This topic lists the messages that you can encounter when you work with the O/R Designer.  

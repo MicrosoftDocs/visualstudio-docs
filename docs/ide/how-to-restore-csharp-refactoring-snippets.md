@@ -1,6 +1,5 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring-csharp
-
 title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -15,8 +14,8 @@ helpviewer_keywords:
   - "expansions, unsafe"
 ms.assetid: 12114273-7f2f-43d0-abcb-2d4711a3a68d
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

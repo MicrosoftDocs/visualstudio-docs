@@ -5,15 +5,14 @@ ms.date: 7/17/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d6c7295-ff64-4681-b01c-5056e8504569
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-
 ---
 # Create Modern Desktop Applications with Windows Presentation Foundation
 
