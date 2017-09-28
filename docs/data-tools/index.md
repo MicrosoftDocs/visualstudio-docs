@@ -2,9 +2,9 @@
 layout: LandingPage
 author: gewarren
 ms.author: gewarren
-ms.topic: landing-page
 title: Use data tools in Visual Studio to develop data solutions
 description: Learn about tools for data solutions in Visual Studio.
+ms.technology: "vs-data-tools"
 ---
 # Use data tools in Visual Studio to develop data solutions
 
