@@ -83,7 +83,7 @@ Go To has the following commands, which are available in the **Edit** menu under
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.  
 
 ## Go To Definition  
-Go To Definition takes you to the definition of the selected element. For more information, see [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
+Go To Definition takes you to the definition of the selected element. For more information, see [Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md).  
 
 Input        | Function 
 ------------ | ---
@@ -91,7 +91,7 @@ Input        | Function
 **Mouse**    | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)  
 
 ## Peek Definition  
-Peek Definition finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Defintion and Peek Definition](../go-to-and-peek-definition.md).  
+Peek Definition finds the definition of the selected element and displays it in a window in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md).  
 
 Input        | Function 
 ------------ | ---
