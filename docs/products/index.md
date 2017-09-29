@@ -92,7 +92,7 @@ searchScope: []
                                 </a>
                             </li>
                         </ul>
-						<div>
+						<div style="margin-left:10px;">
 						<p style="font-size:1.12em">Lorem ipsum subscription dolor sit amet.</p>
 					<p style="margin-top:30px;">
                                 <a href="#">
