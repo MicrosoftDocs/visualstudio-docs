@@ -28,7 +28,7 @@ In this topic:
 - [Configure Python on App Service](#configure-python-on-app-service)
 - [Publish to App Service - Visual Studio 2017](#publish-to-app-service-visual-studio-2017)
 - [Publish to App Service - Visual Studio 2015](#publish-to-app-service-visual-studio-2015)
-- [Remote debugging on App Service](remote-debugging-on-app-service)
+- [Remote debugging on App Service](#remote-debugging-on-app-service)
 
 > [!Note]
 > For background on the changes between Visual Studio 2015 and Visual Studio 2017, see the blog post, [Publish to Azure in Visual Studio 2017](https://blogs.msdn.microsoft.com/pythonengineering/2016/12/12/publish-to-azure-in-vs-2017/).
