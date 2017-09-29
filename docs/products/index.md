@@ -92,12 +92,13 @@ searchScope: []
                                 </a>
                             </li>
                         </ul>
-						<p>Lorem ipsum subscription dolor sit amet.</p>
-					<p>
+						<div>
+						<p style="font-size:1.12em">Lorem ipsum subscription dolor sit amet.</p>
+					<p style="margin-top:30px;">
                                 <a href="#">
                                     <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio subscription<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 14" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;"><path d="M7.4 7L1 .6l.6-.6 7 7-7 7-.6-.7L7.4 7z" /></svg></button>
                                 </a>
-                            </p>
+                            </p></div>
                     </li>					
                 </ul>
             </li>					
