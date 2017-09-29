@@ -1,7 +1,7 @@
 ---
 title: "Go To Definition and Peek Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/26/2017"
+ms.date: "10/5/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
