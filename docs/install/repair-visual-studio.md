@@ -9,27 +9,10 @@ ms.reviewer: ""
 ms.date: 09/28/2017
 ms.topic: "article"
 ms.suite: ""
-ms.prod: 
-  - "visual-studio-dev15"
 ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
-------
+---
 
 # Repair Visual Studio 2017
 
@@ -42,10 +25,10 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
      >[!NOTE]
      On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
-2.  Click or tap to start the installer, then select More, and then select Repair.
+2.  Click or tap to start the installer, then select **More**, and then select **Repair**.
 
 ## Get support
-For additional assistance, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
+For additional assistance, see [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) for troubleshooting tips.
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
