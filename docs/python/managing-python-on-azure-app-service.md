@@ -47,7 +47,7 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 
 If you are deploying an App Service with an Azure Resource Manager template, add the site extension as a resource. The extension appears as a nested resource with the type `siteextensions` and the name from [siteextensions.net](https://www.siteextensions.net/packages?q=Tags%3A%22python%22).
 
-For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following:
+For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following (some properties omitted):
 
 ```json
 "resources": [
@@ -55,7 +55,7 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
     "apiVersion": "2015-08-01",
     "name": "[parameters('siteName')]",
     "type": "Microsoft.Web/sites",
-    // other properties
+    
     "resources": [
       {
         "apiVersion": "2015-08-01",
@@ -65,8 +65,9 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
         "dependsOn": [
           "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
         ]
-      },
-    // other properties
+      }
+    ]
+  }
 ```
 
 ## Setting web.config to point to the Python interpreter
