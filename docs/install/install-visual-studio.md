@@ -82,7 +82,10 @@ After the installer is installed, you can use it to customize your installation 
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
-3.  After the new workloads and components are installed, click **Launch**.
+3.  After the new workloads and components are installed, click **Launch**.  
+
+> [!TIP]
+>  At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools**, **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
 
 |         |         |
 |---------|---------|
