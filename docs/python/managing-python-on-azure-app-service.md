@@ -49,13 +49,15 @@ If you are deploying an App Service with an Azure Resource Manager template, add
 
 For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following (some properties omitted):
 
-```json
+```
 "resources": [
   {
     "apiVersion": "2015-08-01",
     "name": "[parameters('siteName')]",
     "type": "Microsoft.Web/sites",
     
+    // ...
+
     "resources": [
       {
         "apiVersion": "2015-08-01",
@@ -65,7 +67,8 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
         "dependsOn": [
           "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
         ]
-      }
+      },
+      // ...
     ]
   }
 ```
