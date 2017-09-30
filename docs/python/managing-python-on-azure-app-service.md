@@ -55,7 +55,7 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
       "apiVersion": "2015-08-01",
       "name": "[parameters('siteName')]",
       "type": "Microsoft.Web/sites",
-      ...
+      //...
       "resources": [
         {
           "apiVersion": "2015-08-01",
@@ -66,7 +66,7 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
             "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
           ]
         },
-      ...
+      //...
 ```
 
 ## Setting web.config to point to the Python interpreter
