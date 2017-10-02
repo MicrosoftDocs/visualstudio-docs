@@ -13,11 +13,6 @@
 ## [Getting Started with Python](python/getting-started.md)
 ## Getting Started with C++ TODO
 # Concepts
-## [Visual Studio IDE](ide/visual-studio-ide.md)
-## [Data Access](data-tools/)
-## [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
-## [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
-## [Extensibility](extensibility/)
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [.NET Desktop Development](https://go.microsoft.com/fwlink/?linkid=833082)
@@ -57,6 +52,11 @@
 ## [TypeScript](https://go.microsoft.com/fwlink/?linkid=833066)
 ## [Python](https://go.microsoft.com/fwlink/?linkid=833068)
 ## [R](https://go.microsoft.com/fwlink/?linkid=833070)
+## [Visual Studio IDE](ide/visual-studio-ide.md)
+## [Data Access](data-tools/)
+## [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
+## [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
+## [Extensibility](extensibility/)
 # How-to Guides
 ## [Port, Migrate, and Upgrade Projects](porting/port-migrate-and-upgrade-visual-studio-projects.md)
 ## [Update Visual Studio](update-visual-studio.md)
