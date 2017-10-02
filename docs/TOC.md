@@ -9,6 +9,8 @@
 # Tutorials
 ## [Getting Started with Python](python/getting-started.md)
 ## Getting Started with C++ TODO
+# Samples
+## [Visual Studio Samples](ide/visual-studio-samples.md)
 # Concepts
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
