@@ -1,8 +1,5 @@
 # Overview
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
-## [What's New](ide/whats-new-in-visual-studio.md)
-## [How to Report a Problem with Visual Studio 2017](ide/how-to-report-a-problem-with-visual-studio-2017.md)
-## [Talk to Us](ide/talk-to-us.md)
 # [Installation](install/install-visual-studio.md)
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
 ## Install C++ support (TODO)
@@ -79,6 +76,7 @@
 ### [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 ### [Workload and Component ID Reference](workload-and-component-ids.md)
 # Reference
+## [What's New](ide/whats-new-in-visual-studio.md)
 ## [Visual Studio Reference](ide/reference/visual-studio-reference.md)
 ## [Visual Studio for Applications Reference](ide/reference/visual-studio-for-applications-reference.md)
 ## [General User Interface Elements](ide/reference/general-user-interface-elements-visual-studio.md)
@@ -87,4 +85,7 @@
 ## [XML Tools in Visual Studio](xml-tools/xml-tools-in-visual-studio.md)
 ## [MSBuild](msbuild/msbuild.md)
 ## [Accessibility for People with Disabilities](ide/reference/accessibility-for-people-with-disabilities.md)
+# Resources
+## [How to Report a Problem with Visual Studio 2017](ide/how-to-report-a-problem-with-visual-studio-2017.md)
+## [Talk to Us](ide/talk-to-us.md)
 
