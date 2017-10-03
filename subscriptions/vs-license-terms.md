@@ -1,15 +1,15 @@
 ---
-Title:  Visual Studio subscriptions license terms
-Breadcrumb_path: 
-Author: evanwindom
-Ms.author: jaunger
+title:  Visual Studio subscriptions license terms
+breadcrumb_path: 
+author: evanwindom
+ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Visual Studio subscriptions license terms.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+ms.date: 10/3/2017
+ms.topic: Get-Started-Article
+description:  Visual Studio subscriptions license terms.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 **MICROSOFT SOFTWARE LICENSE TERMS FOR THE FOLLOWING VISUAL STUDIO SUBSCRIPTIONS:**
 
@@ -18,7 +18,7 @@ Searchscope: VS Subscription
 _________________________________________________
 These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. Please read them. They apply to the software named above. The terms also apply to any Microsoft services and updates for the software, except to the extent these come with any different terms.
 
-**BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE. INSTEAD, RETURN IT TO THE RETAILER FOR A REFUND OR CREDIT.** If you cannot obtain a refund there, contact Microsoft or the Microsoft affiliate serving your country for information about Microsoft’s refund policies. See [www.microsoft.com/worldwide](https://www.microsoft.com/worldwide). In the United States and Canada, call (800) MICROSOFT or see [www.microsoft.com/info/nareturns.htm](https//www.microsoft.com/info/nareturns.htm).
+**BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE. INSTEAD, RETURN IT TO THE RETAILER FOR A REFUND OR CREDIT.** If you cannot obtain a refund there, contact Microsoft or the Microsoft affiliate serving your country for information about Microsoft’s refund policies. See [www.microsoft.com/worldwide](https://www.microsoft.com/worldwide). In the United States and Canada, call (800) MICROSOFT or see [www.microsoft.com/info/nareturns.htm](https://www.microsoft.com/info/nareturns.htm).
 
 **AS DESCRIBED BELOW, USING SOME FEATURES ALSO OPERATES AS YOUR CONSENT TO THE TRANSMISSION OF CERTAIN STANDARD COMPUTER INFORMATION DURING ACTIVATION, VALIDATION AND USE OF INTERNET-BASED SERVICES.** 
 _______________________________________
