@@ -29,7 +29,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "~/_breadcrumb/toc.yml"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "subscriptions"
