@@ -2,7 +2,6 @@
 title: "How to: Programmatically Copy Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], copying worksheets"
 ms.assetid: e49e03f5-7b2f-416b-b5fe-0965336c47e1
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Copy Worksheets

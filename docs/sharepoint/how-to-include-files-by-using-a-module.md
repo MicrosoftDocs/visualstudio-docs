@@ -2,7 +2,6 @@
 title: "How to: Include Files by Using a Module | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "modules [SharePoint development in Visual Studio]"
 ms.assetid: 16ac3c3b-8219-466c-8550-6109357f2f9a
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Include Files by Using a Module

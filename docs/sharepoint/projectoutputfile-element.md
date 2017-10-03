@@ -2,7 +2,6 @@
 title: "ProjectOutputFile Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "ProjectOutputFile element"
 ms.assetid: 52a017bf-e19c-49e4-bb8f-cbe6958195c2
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # ProjectOutputFile Element

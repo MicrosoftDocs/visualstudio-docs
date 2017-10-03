@@ -2,7 +2,6 @@
 title: "Threading Support in Office | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "object models [Office development in Visual Studio], threading support"
 ms.assetid: 810a6648-fece-4b43-9eb6-948d28ed2157
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Threading Support in Office

@@ -2,7 +2,6 @@
 title: "SharePoint Project Item Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -27,8 +26,8 @@ helpviewer_keywords:
   - "ProjectItem element"
 ms.assetid: 12b63cbc-bf94-4175-bfa8-2117943d00d1
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SharePoint Project Item Schema Reference

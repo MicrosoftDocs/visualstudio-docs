@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Solution Package by Using MSBuild Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 ms.assetid: c3880bdd-f0a1-4d53-9a97-5767cb3f7b8e
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create a SharePoint Solution Package by Using MSBuild Tasks

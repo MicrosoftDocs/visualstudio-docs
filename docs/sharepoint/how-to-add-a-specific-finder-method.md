@@ -2,7 +2,6 @@
 title: "How to: Add a Specific Finder Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], get an entity"
 ms.assetid: 7bbc5986-2828-4755-96fa-9f1dc0f8dc75
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Specific Finder Method

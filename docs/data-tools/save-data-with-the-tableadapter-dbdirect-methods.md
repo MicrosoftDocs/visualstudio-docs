@@ -34,13 +34,14 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Save data with the TableAdapter DBDirect methods
 This walkthrough provides detailed instructions for running SQL statements directly against a database by using the DBDirect methods of a TableAdapter. The DBDirect methods of a TableAdapter provide a fine level of control over your database updates. You can use them to run specific SQL statements and stored procedures by calling the individual `Insert`, `Update`, and `Delete` methods as needed by your application (as opposed to the overloaded `Update` method that performs the UPDATE, INSERT, and DELETE statements all in one call).  
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Create and configure a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).  
   
@@ -51,20 +52,34 @@ This walkthrough provides detailed instructions for running SQL statements direc
 -   Add methods to directly access the database and perform inserts, updates, and deletes..  
   
 ## Prerequisites  
- In order to complete this walkthrough, you will need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
-## Create a Windows application  
- The first step is to create a **Windows Application**.  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSszgwgms3gZinzLia4tP3LTkXNS6ks5Z29Y8wA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
+  
+## Create a Windows Forms application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **TableAdapterDbDirectMethodsWalkthrough**.  
-  
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **TableAdapterDbDirectMethodsWalkthrough**, and then choose **OK**. 
   
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   

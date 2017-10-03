@@ -2,7 +2,6 @@
 title: "Creating SharePoint Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,12 +16,12 @@ helpviewer_keywords:
   - "features [SharePoint development in Visual Studio]"
 ms.assetid: 2e211fb3-94f4-4921-ba77-2ba6717a3e41
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Features
-  You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, an XML file that describes each Feature.  
+  You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, which is an XML file that describes each Feature.  
   
 ## Adding Features to the SharePoint Solution  
  You can add a Feature to the SharePoint solution by using Solution Explorer or the Packaging Explorer. You can use one of the following methods to add a Feature.  
@@ -32,9 +31,7 @@ manager: "ghogen"
 -   In **Packaging Explorer**, open the shortcut menu for the package, and then choose **Add Feature**.  
   
 ## Using the Feature Designer  
- A SharePoint solution can contain one or more SharePoint Features, which are grouped under the Feature node in Solution Explorer. Each Feature has its own **Feature Designer** that you can use to customize the Feature properties. For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md).  
-  
- To distinguish Features from one another, you can configure the Feature properties such as the title, description, version, and scope. For more information, see [NIB: Building SharePoint Solutions with Team Foundation Server](http://msdn.microsoft.com/en-us/700a570a-e98e-4425-aadd-34c014868d43).  
+ A SharePoint solution can contain one or more SharePoint Features, which are grouped under the Feature node in Solution Explorer. Each Feature has its own **Feature Designer** that you can use to customize the Feature properties. For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md). To distinguish Features from one another, you can configure the Feature properties such as the title, description, version, and scope.  
   
 ### Feature Designer Options  
  After you create a Feature, you can use the Feature Designer to customize it.  

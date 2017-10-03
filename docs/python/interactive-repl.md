@@ -2,10 +2,9 @@
 title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -34,7 +33,7 @@ Visual Studio has a number of Python REPL modes to choose from:
 
 This topic describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
 
-For a detailed walkthrough with examples, including the interactions with the editor such as Ctrl+Enter, see [Getting started - Using the interactive REPL window](getting-started.md#using-the-interactive-repl-window). For a video introduction, see [Getting Started with Python in Visual Studio, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
+For a detailed walkthrough with examples, including the interactions with the editor such as Ctrl+Enter, see [Tutorial Step 3: Using the interactive REPL window](vs-tutorial-01-03.md). For a video introduction, see [Getting Started with Python in Visual Studio, Part 5: Interactive REPL](https://youtu.be/yc2CROtTsC0?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 2m51s).
 
 > [!VIDEO https://www.youtube.com/embed/yc2CROtTsC0]
 

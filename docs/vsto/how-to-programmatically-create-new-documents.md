@@ -2,7 +2,6 @@
 title: "How to: Programmatically Create New Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], creating"
 ms.assetid: c24bb8a3-1303-438e-9b33-ba8b00b29c3b
 caps.latest.revision: 49
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create New Documents

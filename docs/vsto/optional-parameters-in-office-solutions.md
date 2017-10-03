@@ -2,7 +2,6 @@
 title: "Optional Parameters in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "parameters [Office development in Visual Studio], optional"
 ms.assetid: 109eaef6-08bb-4b59-a29e-921f856027cc
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Optional Parameters in Office Solutions

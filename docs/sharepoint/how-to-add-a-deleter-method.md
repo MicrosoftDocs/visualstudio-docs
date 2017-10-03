@@ -2,7 +2,6 @@
 title: "How to: Add a Deleter Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,8 +24,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], removing data"
 ms.assetid: 3362eaf4-5dc7-4450-9009-b296308ae61f
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Deleter Method

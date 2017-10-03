@@ -6,16 +6,15 @@ author: "brickgeorge"
 ms.author: "v-brickg"
 ms.date: 08/04/2017
 ms.topic: "article"
-ms.prod: ""
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.custom: ""
 ms.reviewer: "Jamie.Young"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 manager: "ghogen"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "de-de"
   - "es-es"

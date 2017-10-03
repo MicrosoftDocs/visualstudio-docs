@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Devenv, syntax and list of switches"
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

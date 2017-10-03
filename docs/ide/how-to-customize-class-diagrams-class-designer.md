@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "class diagrams, removing type shapes"
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

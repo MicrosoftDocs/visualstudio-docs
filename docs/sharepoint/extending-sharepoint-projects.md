@@ -2,7 +2,6 @@
 title: "Extending SharePoint Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 ms.assetid: 4643012b-6e6c-4b7c-bb92-b04b34f6c715
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Extending SharePoint Projects

@@ -2,7 +2,6 @@
 title: "Features Available by Office Application and Project Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], features available"
 ms.assetid: 3e9aa4d3-affb-4f76-bc67-49fe5f26a6a1
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Features Available by Office Application and Project Type

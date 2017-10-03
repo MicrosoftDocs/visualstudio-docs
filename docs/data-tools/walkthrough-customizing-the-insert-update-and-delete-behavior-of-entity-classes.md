@@ -29,6 +29,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
 The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d).  
@@ -57,29 +58,38 @@ During this walkthrough, you will learn how to perform the following tasks:
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
 ## Prerequisites  
-To complete this walkthrough, you need the following:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the SQL Server version of the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
--   The **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.   
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSszgwgms3gZinzLia4tP3LTkXNS6ks5Z29Y8wA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating an Application and Adding LINQ to SQL Classes  
 Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-#### To create a new Windows Application project that contains LINQ to SQL classes  
+#### To create a new Windows Forms Application project that contains LINQ to SQL classes  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **UpdatingwithSProcsWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **UpdatingWithSProcsWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Therefore, create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and click **OK**. For more information, see [Client Applications](/dotnet/framework/develop-client-apps).  
-  
-     The UpdatingwithSProcsWalkthrough project is created and added to **Solution Explorer**.  
+     The **UpdatingWithSProcsWalkthrough** project is created, and added to **Solution Explorer**.  
   
 4.  On the **Project** menu, click **Add New Item**.  
   

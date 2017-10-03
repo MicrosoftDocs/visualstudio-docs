@@ -2,7 +2,6 @@
 title: "XMLNode Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "XMLNode control"
 ms.assetid: 4f5c7f17-62aa-483c-ab0d-b04614ab065d
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # XMLNode Control

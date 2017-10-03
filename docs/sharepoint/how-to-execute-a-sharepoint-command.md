@@ -2,7 +2,6 @@
 title: "How to: Execute a SharePoint Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], executing"
 ms.assetid: 2d1a163b-b601-4dac-bcea-328f24cb4d57
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Execute a SharePoint Command

@@ -25,7 +25,7 @@ When you try to install or update Visual Studio 2017, the operation fails.
 To work around this issue, follow these steps.
 
 ### Step 1 - Check whether this problem is a known issue
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-knownissues) to see if there's a workaround for your problem.
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-knownissues).
 
 ### Step 2 - Check with the developer community
 Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community may have documented a solution to your problem.
@@ -36,8 +36,8 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 **Note:** Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
 
 1. Close the Visual Studio Installer.
-2. Delete the Visual Studio Installer directory. Typically, the directory is C:\Program Files (x86)\Microsoft Visual Studio\Installer.
-3. Run the Visual Studio Installer bootstrapper. You may find the bootstrapper in your Downloads folder with a file name that follows a ```vs_[Visual Studio edition]__*.exe``` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://www.visualstudio.com/downloads/) page and clicking **Download** for your edition of Visual Studio. Run the executable to reset your installation metadata.
+2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
+3. Run the Visual Studio Installer bootstrapper. You may find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://www.visualstudio.com/downloads/) page and clicking **Download** for your edition of Visual Studio. Run the executable to reset your installation metadata.
 4. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
 
 ### Step 4 - Report a problem
@@ -46,24 +46,19 @@ In some situations, such as those related to corrupted files, the problems may h
 1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-the-visual-studio-installation-logs) below for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
-3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at %TEMP%\vslogs.zip).
+3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
 ![Tab to the Report New Problem button, then follow through the steps](media/problem-report-details.png)
 4. Click **Next** to review your problem report, and then click **Submit**.
 
-### Step 5 - Run InstallCleanup.exe to clean up installation files
-As a last resort, you can run InstallCleanup.exe. InstallCleanup.exe is a tool that's packaged with the Visual Studio Installer, and it cleans up installation files. This tool doesn't perform a full reinstall. This tool deletes cache and instance data for Visual Studio 2017.
+### Step 5 - Run InstallCleanup.exe to remove installation files
+As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
-1. Close the Visual Studio Installer.
-2. Open an administrator command prompt. To do this, follow these steps:
-   * On the **Start** menu, click **Run** (Start + R).
-   * Type **cmd**.
-   * Right-click **Command Prompt**, and then choose **Run as administrator**.
-3. Type the full path of the InstallCleanup.exe utility, and pass the following command-line switch: -f. By default, the path of the utility is as follows:
-   ```
-   C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
-   ```
-4. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
-5. Try to install or update Visual Studio again.
+1. Follow the instructions in [Remove Visual Studio](remove-visual-studio.md).
+2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
+3. Try to install or update Visual Studio again.
+
+## Contact Us
+If none of the other steps allow you to successfully install, you can contact us by live chat for  installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 ## How to troubleshoot an offline installer
 Here is a table of known issues and some workarounds when installing from a local layout that might help.
@@ -82,8 +77,8 @@ To collect the logs
 
 1. [Download the tool](https://aka.ms/vscollect).
 2. Open an administrative command prompt.
-3. Run Collect.exe from the directory where you saved the tool.
-4. Find the resulting Vslogs.zip file in your %TEMP% directory, for example, C:\Users\YourName\AppData\Local\Temp\vslogs.zip.
+3. Run `Collect.exe` from the directory where you saved the tool.
+4. Find the resulting `vslogs.zip` file in your `%TEMP%` directory, for example, `C:\Users\YourName\AppData\Local\Temp\vslogs.zip`.
 
 > [!NOTE]
-> The tool must be run under the same user account that the failed installation was run under. If you are running the tool from a different user account, set the –user:\<name\> option to specify the user account under which the failed installation was run. Run `Collect.exe -?` from an administrator command prompt for additional options and usage information.
+> The tool must be run under the same user account that the failed installation was run under. If you are running the tool from a different user account, set the `–user:<name>` option to specify the user account under which the failed installation was run. Run `Collect.exe -?` from an administrator command prompt for additional options and usage information.

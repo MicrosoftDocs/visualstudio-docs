@@ -26,6 +26,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.  

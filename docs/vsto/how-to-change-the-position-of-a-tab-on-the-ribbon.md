@@ -2,7 +2,6 @@
 title: "How to: Change the Position of a Tab on the Ribbon | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], tabs"
 ms.assetid: 3f0906e3-9708-4136-ac49-986bc4c92ea4
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Change the Position of a Tab on the Ribbon

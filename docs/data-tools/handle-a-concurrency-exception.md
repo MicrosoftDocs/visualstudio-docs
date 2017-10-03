@@ -1,7 +1,7 @@
 ---
 title: "Handle a concurrency exception | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,13 +36,14 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Handle a concurrency exception
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
   
  This walkthrough takes you through the following process:  
   
-1.  Create a new **Windows Application** project.  
+1.  Create a new **Windows Forms Application** project.  
   
 2.  Create a new dataset based on the Northwind `Customers` table.  
   
@@ -50,34 +51,46 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 4.  Fill a dataset with data from the `Customers` table in the Northwind database.  
   
-5.  Use the [Visual Database Tools](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
+5.  Use the **Show Table Data** feature in **Server Explorer** to access the `Customers` table's data and change a record.  
   
 6.  Change the same record to a different value, update the dataset, and attempt to write the changes to the database, which results in a concurrency error being raised.  
   
 7.  Catch the error, then display the different versions of the record, allowing the user to determine whether to continue and update the database, or to cancel the update.  
   
 ## Prerequisites  
- In order to complete this walkthrough, you need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database with permission to perform updates. For more information, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSszgwgms3gZinzLia4tP3LTkXNS6ks5Z29Y8wA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Create a new project  
- You begin your walkthrough by creating a new Windows application.  
+ You begin your walkthrough by creating a new Windows Forms application.  
   
-#### To create a new Windows application project  
+#### To create a new Windows Forms application project  
   
-1.  On the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  In the **Project Types** pane, select a programming language.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **ConcurrencyWalkthrough**, and then choose **OK**. 
   
-3.  In the **Templates** pane, select **Windows Application**.  
-  
-4.  Name the project `ConcurrencyWalkthrough`, and then select **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays a new form in the designer.  
+     The **ConcurrencyWalkthrough** project is created and added to **Solution Explorer**, and a new form opens in the designer.  
   
 ## Create the Northwind dataset  
  In this section, you create a dataset named `NorthwindDataSet`.  
@@ -153,7 +166,7 @@ The user is then able to either overwrite the database with the proposed version
 ### Add code to handle the concurrency exception  
  When you attempt to perform an update and an exception gets raised, you generally want to do something with the information that's provided by the raised exception.  
   
- In this section, you add code that  attempts to update the database. You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
+ In this section, you add code that attempts to update the database. You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
   
 > [!NOTE]
 >  The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.  

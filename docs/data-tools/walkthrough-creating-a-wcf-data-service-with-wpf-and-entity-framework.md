@@ -34,6 +34,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and then access it from a Windows Forms application.  
@@ -53,11 +54,21 @@ In this walkthrough you will:
 -   Optionally add filtering capabilities to the application.  
   
 ## Prerequisites  
-You need the following components to complete this walkthrough:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   The Northwind sample database.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
-     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases).  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSszgwgms3gZinzLia4tP3LTkXNS6ks5Z29Y8wA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating the Service  
 To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.  

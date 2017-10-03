@@ -2,7 +2,6 @@
 title: "How to: Programmatically List Recently Used Workbook Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "recent file list, Excel"
 ms.assetid: 210a3753-4845-4875-b34a-a30d3a1299b3
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically List Recently Used Workbook Files

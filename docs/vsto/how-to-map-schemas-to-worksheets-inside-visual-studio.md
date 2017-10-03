@@ -2,7 +2,6 @@
 title: "How to: Map Schemas to Worksheets Inside Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], XML schemas"
 ms.assetid: cef3f751-c1cf-46f3-9177-0bacdcee4121
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Map Schemas to Worksheets Inside Visual Studio

@@ -2,7 +2,6 @@
 title: "How to: Add a Finder Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], Finder method"
 ms.assetid: 5de2cae3-d1f7-4a68-aac0-458967aca692
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Finder Method

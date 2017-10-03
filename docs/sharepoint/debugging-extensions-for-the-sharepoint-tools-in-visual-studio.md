@@ -2,7 +2,6 @@
 title: "Debugging Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging extensions"
 ms.assetid: 7cee8ce0-d07b-41f6-8ce1-b18e4be3b50c
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Debugging Extensions for the SharePoint Tools in Visual Studio
@@ -26,8 +25,8 @@ manager: "ghogen"
 ## Debugging Extensions in the Experimental Instance of Visual Studio  
  To safeguard your Visual Studio development environment from accidental corruption by untested extensions, the Visual Studio SDK provides an alternative Visual Studio instance, called the *experimental instance*, that you can use to install and test extensions. You develop new extensions by using the regular instance of Visual Studio, but you debug and run them in the experimental instance. For more information, see [The Experimental Instance](/visualstudio/extensibility/the-experimental-instance).  
   
- If you use a VSIX project to deploy your extension, and the VSIX project is the startup project in your solution, Visual Studio automatically installs and runs the extension in the experimental instance when you debug your solution. The startup project is the project that starts when you debug a solution that contains multiple projects. For more information about using a VSIX project to deploy your extension, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md). For more information about startup projects, see [NIB How to: Set Startup Projects](http://msdn.microsoft.com/en-us/31465836-0911-48db-a5d9-e456b635e970).  
-  
+ If you use a VSIX project to deploy your extension, and the VSIX project is the startup project in your solution, Visual Studio automatically installs and runs the extension in the experimental instance when you debug your solution. The startup project is the project that starts when you debug a solution that contains multiple projects. For more information about using a VSIX project to deploy your extension, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
+
  For examples that demonstrate how to debug various types of extensions in the experimental instance of Visual Studio, see the following walkthroughs:  
   
 -   [Walkthrough: Extending a SharePoint Project Item Type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)  

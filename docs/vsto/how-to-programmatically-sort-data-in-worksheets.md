@@ -2,7 +2,6 @@
 title: "How to: Programmatically Sort Data in Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "sorting data, in worksheets"
 ms.assetid: 2fbc6e63-02ea-4624-8d6f-bed60e06c61e
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Sort Data in Worksheets

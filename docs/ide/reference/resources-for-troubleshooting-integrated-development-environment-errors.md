@@ -95,8 +95,8 @@ f1_keywords:
   - "vs.webclient.help.general"
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

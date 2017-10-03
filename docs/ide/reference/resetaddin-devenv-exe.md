@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "reset addin"
 ms.assetid: 9e339c8d-d768-4d86-8f45-2f479fc8255b
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

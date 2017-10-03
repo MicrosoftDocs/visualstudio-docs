@@ -2,7 +2,6 @@
 title: "How to: Programmatically Create a Meeting Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "calendars [Office development in Visual Studio], meeting requests"
 ms.assetid: 889f8fa4-c0d0-42be-9c16-9987b43008ab
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create a Meeting Request

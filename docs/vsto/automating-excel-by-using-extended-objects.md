@@ -2,7 +2,6 @@
 title: "Automating Excel by Using Extended Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,8 +23,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Excel host controls"
 ms.assetid: 3ed99480-234d-46b1-b91c-226018bd3faf
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Automating Excel by Using Extended Objects

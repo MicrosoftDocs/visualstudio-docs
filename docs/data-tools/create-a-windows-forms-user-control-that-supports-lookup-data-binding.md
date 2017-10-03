@@ -33,6 +33,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Create a Windows Forms user control that supports lookup data binding
 When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.ComboBox>.  
@@ -51,7 +52,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+-   Create a new **Windows Forms Application**.  
   
 -   Add a new **User Control** to your project.  
   
@@ -66,20 +67,34 @@ When displaying data on Windows Forms, you can choose existing controls from the
 -   Create a form to display data in the new control.  
   
 ## Prerequisites  
- In order to complete this walkthrough, you will need:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the Northwind sample database.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
-## Create a Windows Application  
- The first step is to create a **Windows Application**.  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/northwind.sql?token=AXuuSszgwgms3gZinzLia4tP3LTkXNS6ks5Z29Y8wA%3D%3D) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
+  
+## Create a Windows Forms Application  
+ The first step is to create a **Windows Forms Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **LookupControlWalkthrough**.  
-  
-3.  Select **Windows  Forms Application**, and click **OK**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **LookupControlWalkthrough**, and then choose **OK**. 
   
      The **LookupControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -115,7 +130,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
- This step creates a data source using the **Data Source Configuration**wizard, based on the `Customers` and `Orders` tables in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step creates a data source using the **Data Source Configuration**wizard, based on the `Customers` and `Orders` tables in the Northwind sample database.  
   
 #### To create the data source  
   

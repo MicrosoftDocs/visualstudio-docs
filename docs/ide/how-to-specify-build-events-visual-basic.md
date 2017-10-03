@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], events"
 ms.assetid: 40dc83bf-a7c5-4a14-816a-fa0980b6e4c3
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
@@ -138,7 +138,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
 1.  Create a Windows application for the project to be published. From the **File** menu, click **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Windows Application** template. Name the project `VBWinApp`.  
+2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows Classic Desktop** and then the **Windows Forms App** template. Name the project `VBWinApp`.  
   
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   

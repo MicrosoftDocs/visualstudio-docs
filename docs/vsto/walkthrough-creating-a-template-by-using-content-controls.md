@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Template By Using Content Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "content controls [Office development in Visual Studio], adding to documents"
 ms.assetid: 88fb9a60-dcc3-4a5f-a8c9-7aff01ca4b4b
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Template By Using Content Controls

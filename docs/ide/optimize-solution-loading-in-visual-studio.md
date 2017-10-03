@@ -6,17 +6,19 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "startup time [Visual Studio]"
   - "optimizing startup time [Visual Studio]"
   - "speed up start time [Visual Studio]"
 ms.assetid: 84989983-84bc-4f81-97a8-2131e3a25138
 caps.latest.revision: 4
-author: "mikejo"
-ms.author: "mikejo"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-f1_keywords:
-    - "vs.performancecenter"
+f1_keywords: 
+  - "vs.performancecenter"
+ms.technology: 
+  - "vs-ide-general"
 ---
 
 # Optimize Solution Loading in Visual Studio

@@ -2,7 +2,6 @@
 title: "How to: Add and Remove Feature Dependencies | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 ms.assetid: 2b34c8d9-c975-4fe9-b8e0-52db4a6014ea
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add and Remove Feature Dependencies

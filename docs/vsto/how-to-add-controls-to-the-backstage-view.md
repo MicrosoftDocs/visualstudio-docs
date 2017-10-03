@@ -2,7 +2,6 @@
 title: "How to: Add Controls to the Backstage View | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,8 +23,8 @@ helpviewer_keywords:
   - "Microsoft Office Menu"
 ms.assetid: 4fda1278-9aea-4d54-928a-269a81584494
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add Controls to the Backstage View

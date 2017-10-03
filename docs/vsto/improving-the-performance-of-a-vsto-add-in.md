@@ -2,7 +2,6 @@
 title: "Improving the Performance of a VSTO Add-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,8 +13,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 03ef25c2-6308-4737-a655-74bbbb472dc2
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Improving the Performance of a VSTO Add-in

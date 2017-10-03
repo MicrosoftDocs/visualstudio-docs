@@ -1,11 +1,10 @@
 ---
 title: Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 9/26/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -23,7 +22,12 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 
 Visual Studio on Windows provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python development and Data Science workloads (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). Python is not presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code (see [Q&A below](#questions-and-answers).
 
-Follow our [installation instructions](installation.md) to set up the Python workload, then use the links below to learn more about Python-related features as well as the capabilities of Visual Studio itself.
+To get started:
+
+- Follow the [installation instructions](installation.md) to set up the Python workload
+- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a project from a template](quickstart-02-project-from-template.md).
+- Follow the [Working with Python in Visual Studio](vs-tutorial-01-01.md) tutorial for a full end-to-end experience.
+- Then use the links below to explore Python-related features and the capabilities of Visual Studio itself.
 
 | Feature | Description | General Visual Studio Documentation | 
 | --- | --- | --- |

@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ProjectDependenciesDlg"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "vs.build.projectdependencies"
   - "project dependencies"
   - "builds [Visual Studio], setting up"
@@ -19,10 +19,10 @@ helpviewer_keywords:
   - "projects [Visual Studio], dependencies"
 ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"

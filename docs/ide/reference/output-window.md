@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Toolbox, removing controls"
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

@@ -2,7 +2,6 @@
 title: "The workbook used to create this project contains ActiveX controls that the designer cannot load | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 91e9c6ee-7543-41e3-be0c-6c000cfd32d1
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # The workbook used to create this project contains ActiveX controls that the designer cannot load

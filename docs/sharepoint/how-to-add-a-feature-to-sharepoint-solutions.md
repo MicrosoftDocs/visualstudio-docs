@@ -2,7 +2,6 @@
 title: "How to: Add a Feature to SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 ms.assetid: 47f5f5df-19e3-40f6-8efb-f458193ef19a
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Feature to SharePoint Solutions

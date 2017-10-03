@@ -1,23 +1,22 @@
 ---
 title: Visual Studio Community 2017 workload and component IDs | Microsoft Docs
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date:  08/30/2017
+ms.date: 08/30/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.prod: "visual-studio-dev15"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: 58494fc3-12de-4761-bd4a-74b54f72bfb3
-translation.priority.ht:
+translation.priority.ht: 
   - "de-de"
   - "es-es"
   - "fr-fr"
@@ -27,7 +26,7 @@ translation.priority.ht:
   - "ru-ru"
   - "zh-cn"
   - "zh-tw"
-translation.priority.mt:
+translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"
   - "pt-br"
@@ -141,7 +140,7 @@ Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation 
 
 **ID:** Microsoft.VisualStudio.Workload.Data
 
-**Description:** Connect, develop and test data solutions using SQL Server, Azure Data Lake, Hadoop or Azure ML.
+**Description:** Connect, develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.
 
 ### Components included by this workload
 

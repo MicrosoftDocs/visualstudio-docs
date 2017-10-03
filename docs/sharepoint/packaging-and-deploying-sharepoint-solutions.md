@@ -2,7 +2,6 @@
 title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging and deploying"
 ms.assetid: 39072fa7-9f94-49c0-9a67-cbcce0147e61
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Packaging and Deploying SharePoint Solutions
