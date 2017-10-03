@@ -1,13 +1,15 @@
 ---
 title: Using Subscriber Downloads on Visuals Studio Subscriptions | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: c9142f0d-1dce-41f7-9d6e-ff4b40ffba62
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/17/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to locate and download Microsoft products included with your Visual Studio subscription.  
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Using subscriber downloads in Visual Studio subscriptions

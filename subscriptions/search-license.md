@@ -1,13 +1,15 @@
 ---
 title: Searching and Filtering | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 2648e2b1-de67-4e74-a60f-b2cbbf988c67
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 8/9/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how administrators can locate individual subscribers or groups in the Administrator Portal. 
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Searching and Filtering Subscribers in Visual Studio Subscriptions

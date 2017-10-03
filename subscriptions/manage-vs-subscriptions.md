@@ -1,13 +1,14 @@
 ---
-title: Manage my subscriptions | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: bab56dab-555e-4c07-ab0f-38c43236bf35
-ms.manager: douge
-ms.author: douge
-ms.date: 7/10/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to get the most out of your Visual Studio subscriptions. 
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 # Signing in to the portal
 Welcome to Visual Studio your Visual Studio subscriptiion!  Your subscription provides you with all the software and benefits you need to stay up on all things code, including software, monthly Azure credits, collaboration tools, training perks, support, and more—all the latest and greatest from Microsoft.  In order to use the portal, you’ll need to sign in.

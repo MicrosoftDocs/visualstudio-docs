@@ -1,13 +1,15 @@
 ---
 title:  Windows Developer Account Benefit | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: cd62e792-e577-4b81-8f22-4a93305b1da2
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/31/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to activate the Windows Developer Account included with your Visual Studio subscription.  
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 #  Activating the Windows Developer Account in Visual Studio Subscriptions

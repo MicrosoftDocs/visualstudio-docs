@@ -1,13 +1,15 @@
 ---
 title: Xamarin University Benefit | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 586c5a8d-2941-4b04-b9bf-55ff38b5a915
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 8/1/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to activate the Xamarin University Training subscription included with your Visual Studio subscription. 
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Activating the Xamarin University Training Benefit in Visual Studio Subscriptions

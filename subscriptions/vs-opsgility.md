@@ -1,13 +1,15 @@
 ---
 title: Opsgility Benefit | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 7f95e9bc-b0e7-4749-a02e-1f134828445a
-ms.manager: douge
-ms.author: evan@reddoorcollaborative.com
-ms.date: 7/25/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how to get started using the Opsgility training benefit included with your Visual Studio subscription. 
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Activating the Opsgility Benefit in Visual Studio Subscriptions

@@ -1,13 +1,15 @@
 ---
 title:  Deleting an Assignment | Visual Studio Marketplace
-description: [SEO-targeted description for search results HERE]
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: 6e2a08da-ab74-42ca-90c1-28491df97350
-ms.manager: jaunger
-ms.author: evan@reddoorcollaborative.com
-ms.date: 8/9/2017
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Learn how administrators can delete subscription assignments
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 # Deleting Assignments in Visual Studio Subscirptions

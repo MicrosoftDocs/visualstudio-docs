@@ -1,13 +1,15 @@
 ---
 title: Buy Visual Studio subscriptions | Visual Studio Marketplace
-description: Subscriptions that include integrated developer tools and services for Windows, Java, Android, iOS, Linux, and modern app development
-ms.topic: get-started-article
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-marketplace
-ms.assetid: f5fab296-1942-47c9-b4c8-61bf347b3d87
-ms.manager: douge
-ms.author: elbatk
-ms.date: 11/29/2016
+Breadcrumb_path: 
+Author: evanwindom
+Ms.author: jaunger
+Manager: evelynp
+Ms.date: 10/3/2017
+Ms.topic: Get-Started-Article
+Description:  Explore your purchasing options for Visual Studio subscriptions
+Ms.prod: vs-subscription
+Ms.technology: vs-subscriptions
+Searchscope: VS Subscription
 ---
 
 #	Buy Visual Studio Professional and Visual Studio Enterprise subscriptions
