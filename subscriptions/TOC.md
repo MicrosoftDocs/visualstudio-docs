@@ -1,16 +1,3 @@
----
-Title:  Visual Studio Subscriptions Table of ContentsBreadcrumb_path: 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Table of contents for Visual Studio subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
----
-
 # [Visual Studio subscriptions](index.md)
 # Overview
 ## [Compare subscription options](compare-subscriptions.md)
