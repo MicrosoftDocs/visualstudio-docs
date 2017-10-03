@@ -2,7 +2,6 @@
 title: "Additional Support for Errors in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -60,8 +59,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, errors"
 ms.assetid: dcede68c-f269-46fe-a692-97517b671435
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Additional Support for Errors in Office Solutions

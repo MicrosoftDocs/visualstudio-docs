@@ -2,7 +2,6 @@
 title: "How to: Target the Office Multilingual User Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], globalization"
 ms.assetid: b1f03164-f0cf-42e3-942b-8cf90c242ffb
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Target the Office Multilingual User Interface

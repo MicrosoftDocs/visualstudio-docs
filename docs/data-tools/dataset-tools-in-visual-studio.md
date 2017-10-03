@@ -65,6 +65,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Dataset tools in Visual Studio
 > [!NOTE]

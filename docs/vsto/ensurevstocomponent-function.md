@@ -2,7 +2,6 @@
 title: "EnsureVSTOComponent Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,8 +13,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: e101fcd5-37a2-4b8c-b9ac-a84624298736
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # EnsureVSTOComponent Function

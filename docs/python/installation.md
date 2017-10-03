@@ -1,11 +1,10 @@
 ---
 title: Installation for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 9/22/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -21,11 +20,11 @@ manager: "ghogen"
 
 To install Python support for Visual Studio, follow the instructions in the section that matches your version of Visual Studio:
 
-- [Visual Studio 2017](#visual-studio-2017)
+- [Visual Studio 2017](vs-tutorial-01-00.md)
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
 
-For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice. For details, see [Python Environments](python-environments.md).
+For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice (Python  3.5 and earlier; 3.6 is not supported). For details, see [Python Environments](python-environments.md). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
 
 To quickly test Python support after following the installation steps, Open the Python Interactive window by pressing Alt-I and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
@@ -37,20 +36,8 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-1. Install the Visual Studio 2017 from [https://www.visualstudio.com/vs/](https://www.visualstudio.com/vs/).
+Refer to [Tutorial Step 0: install Python support in Visual Studio 2017](vs-tutorial-01-00.md).
 
-1. In the Visual Studio installer, select the **Web & Cloud > Python Development**  workload.
-
-    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
-
-    > [!Note]
-    > Python is also included in the **Data science and analytical applications** workload.
-
-1. On the right side of the installer, select the Python interpreters and other related tools you want to include. For example, if you plan on developing C++ extensions for Python, include the **Python native development tools** option.
-
-    ![Python development options in the Visual Studio installer](media/installation-python-options.png)
-
-1. If you already have interpreters installed on your computer, see [Creating an environment for an existing interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 
 ## Visual Studio 2015
 

@@ -2,7 +2,6 @@
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], parameter types"
 ms.assetid: 7494559f-1567-4cbd-bde0-05a2ed288c3a
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Define the Type Descriptor of a Parameter

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "multi-project templates"
 ms.assetid: 8c7f7065-137e-40ad-868d-37e007270efd
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

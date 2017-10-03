@@ -2,7 +2,6 @@
 title: "Overview of the Programming Model of SharePoint Tools Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending tools"
 ms.assetid: aec8165b-dff9-47be-82a5-3fa38e579297
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Overview of the Programming Model of SharePoint Tools Extensions

@@ -2,7 +2,6 @@
 title: "GetAutoInsertExtensions Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,8 +13,8 @@ dev_langs:
   - "CSharp"
 ms.assetid: 78388cce-7aae-4163-8db5-ce00d0a0c331
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # GetAutoInsertExtensions Method

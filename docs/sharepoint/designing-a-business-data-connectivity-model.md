@@ -2,7 +2,6 @@
 title: "Designing a Business Data Connectivity Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], designing a model"
 ms.assetid: 19cad8cf-8a82-4000-84cf-1e5aff54e5af
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Designing a Business Data Connectivity Model

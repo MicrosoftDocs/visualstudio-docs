@@ -2,7 +2,6 @@
 title: "How to: Programmatically Perform Actions When an E-Mail Message Is Received | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], custom actions"
 ms.assetid: cdd34fe4-e3d5-405a-a0ae-1e87216fe09c
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Perform Actions When an E-Mail Message Is Received

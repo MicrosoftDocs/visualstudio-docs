@@ -2,7 +2,6 @@
 title: "How to: Programmatically Cache a Data Source in an Office Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], caching"
 ms.assetid: 70b3fc06-7534-407e-898b-36f84e9a7516
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Cache a Data Source in an Office Document

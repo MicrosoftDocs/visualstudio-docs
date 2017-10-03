@@ -2,7 +2,6 @@
 title: "How to: Prevent Outlook from Displaying a Form Region | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "canceling form region display"
 ms.assetid: 82a25def-776a-476a-a72d-d0a48a827d3c
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Prevent Outlook from Displaying a Form Region

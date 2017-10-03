@@ -29,6 +29,7 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Create a simple data application by using ADO.NET
 When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.  
@@ -55,16 +56,32 @@ When you create an application that manipulates data in a database, you perform 
   
 -   Visual Studio Community Edition.  
   
--   SQL Server Express LocalDB.  
-  
--   The small sample database that you create by following the steps in [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md).  
-  
--   The connection string for the database after you set it up. You can find this value by opening **SQL Server Object Explorer**, opening the shortcut menu for the database, selecting **Properties**, and then scrolling to the **ConnectionString**  property.  
+-   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx).  
 
-This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
+This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) topic before you start this walkthrough.  
   
 ##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
- The sample database for this walkthrough includes the Customer and Orders tables. The tables contain no data initially, but you can add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
+Create the sample database by following these steps:  
+
+1. In Visual Studio, open the **Server Explorer** window.  
+
+2. Right-click on **Data Connections** and choose **Create New SQL Server Database...".  
+
+3. In the **Server name** text box, enter **(localdb)\mssqllocaldb**.  
+
+4. In the **New database name** text box, enter **Sales**, then choose **OK**.  
+
+     The empty **Sales** database is created and added to the Data Connections node in Server Explorer.  
+
+5. Right-click on the **Sales** data connection and select **New Query**.  
+
+     A query editor window opens.  
+
+6. Copy the [Sales Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/sales.sql?token=AXuuSv8UtPsvuZ-FlzAlEQ5dWRp5CGhwks5Z29b8wA%3D%3D) to your clipboard.  
+
+7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+     After a short time, the query finishes executing and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you'll create. The database also contains four simple stored procedures.   
   
 ##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   
@@ -127,7 +144,7 @@ This topic assumes that you're familiar with the basic functionality of the Visu
 ##  <a name="BKMK_storetheconnectionstring"></a> Store the connection string  
  When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the App.config file in your project, and create a method that returns the string when the method is called from any form in your application.  
   
- You can find the connection string in **SQL Server Object Explorer** by right-clicking the database, selecting **Properties**, and then locating the ConnectionString property. Use Ctrl+A, Ctrl+C to select and copy the string to the clipboard. 
+ You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use Ctrl+A, Ctrl+C to select and copy the string to the clipboard. 
   
 1.  If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.  
     If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
@@ -136,8 +153,7 @@ This topic assumes that you're familiar with the basic functionality of the Visu
   
 3.  In the **Type** list, select **(Connection String)**.  
   
-4.  In the **Scope** list, select **Application**.  
-  
+4.  In the **Scope** list, select **Application**.    
 
 5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   

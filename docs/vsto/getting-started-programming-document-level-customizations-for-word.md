@@ -2,7 +2,6 @@
 title: "Getting Started Programming Document-Level Customizations for Word | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Word projects [Office development in Visual Studio], getting started"
 ms.assetid: 30593c47-1658-4fca-b9a9-36fbdf73c901
 caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Getting Started Programming Document-Level Customizations for Word

@@ -2,7 +2,6 @@
 title: "Working with Visio Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], common tasks in Visio"
 ms.assetid: 0e9aa441-5bce-4a72-bc8b-7311e3235b9a
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Working with Visio Documents

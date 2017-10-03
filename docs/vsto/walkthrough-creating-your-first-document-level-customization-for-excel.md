@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating Your First Document-Level Customization for Excel | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 ms.assetid: 785d3b86-5ed5-4e0d-b5ee-896b6b1330ac
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First Document-Level Customization for Excel

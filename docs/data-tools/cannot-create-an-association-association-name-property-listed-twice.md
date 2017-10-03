@@ -25,6 +25,7 @@ translation.priority.ht:
   - "tr-tr"
   - "zh-cn"
   - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.  

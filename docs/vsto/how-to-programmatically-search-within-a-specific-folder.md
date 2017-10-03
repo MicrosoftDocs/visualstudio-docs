@@ -2,7 +2,6 @@
 title: "How to: Programmatically Search Within a Specific Folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], searching"
 ms.assetid: 8f2cdc8b-f757-412c-aa2b-ebd5bc52f697
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Search Within a Specific Folder

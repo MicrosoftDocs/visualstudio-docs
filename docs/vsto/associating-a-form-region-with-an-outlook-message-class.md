@@ -2,7 +2,6 @@
 title: "Associating a Form Region with an Outlook Message Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], message classes"
 ms.assetid: e2db8d61-fd5f-4059-beec-33b66970f520
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Associating a Form Region with an Outlook Message Class

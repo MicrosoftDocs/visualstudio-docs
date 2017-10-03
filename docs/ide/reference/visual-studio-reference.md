@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
@@ -44,9 +44,6 @@ This section includes user interface reference, language equivalents, and other 
   
  [XML Tools in Visual Studio](../../xml-tools/xml-tools-in-visual-studio.md)  
  Contains documents about the XML tools in Visual Studio and provides links to more information.  
-  
- [Visual Studio for Applications Reference](../../ide/reference/visual-studio-for-applications-reference.md)  
- Contains reference documentation for interfaces that you can use to integrate .NET Framework script engines into applications.  
   
  [MSBuild](../../msbuild/msbuild.md)
  Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add Pictures and Word Art to Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "WordArt, adding to documents"
 ms.assetid: 944e1858-bc7c-471f-b5e7-adf3b0fa574d
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add Pictures and Word Art to Documents

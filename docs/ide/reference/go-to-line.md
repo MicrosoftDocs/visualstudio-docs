@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Go To Line dialog box"
 ms.assetid: 529fa251-b7b3-49cf-863c-10e0b82ac7cc
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

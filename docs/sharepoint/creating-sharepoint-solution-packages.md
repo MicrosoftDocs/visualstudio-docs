@@ -2,7 +2,6 @@
 title: "Creating SharePoint Solution Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "packages [SharePoint development in Visual Studio]"
 ms.assetid: 6b1f1fbf-fa9c-453d-80af-36ec9829677a
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating SharePoint Solution Packages
@@ -73,8 +72,7 @@ manager: "ghogen"
  When you package your SharePoint project, a .wsp file is created for you in the SolutionFolder\bin\\*BuildConfiguration* folder. For example, if your solution is in *drive*:\Visual Studio 2013\Projects\ListDefinition1 and your build configuration is set to Release, the .wsp file is located in *drive*:\Visual Studio 2013\Projects\ListDefinition1\bin\Release.  
   
 ## See Also  
- [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)   
- [NOT IN BUILD: How to: Modify Package Properties](http://msdn.microsoft.com/en-us/372089ce-cda9-4c21-beb2-f964990b96ee)   
+ [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [How to: Add and Remove Features and Items to a Package by Using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)   
  [How to: Create a SharePoint Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)   
  [How to: Create a SharePoint Solution Package by Using MSBuild Tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   

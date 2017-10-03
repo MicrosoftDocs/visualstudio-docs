@@ -2,7 +2,6 @@
 title: "Event Logging for Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, event viewer"
 ms.assetid: 31a246fe-ce1c-4f0e-9a21-9cf974c247fe
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Event Logging for Office Solutions

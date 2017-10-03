@@ -2,7 +2,6 @@
 title: "Security and Deployment Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], deployment"
 ms.assetid: 0a74f24e-abb0-49ba-ad12-0e6a5b78b85d
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Security and Deployment Walkthroughs

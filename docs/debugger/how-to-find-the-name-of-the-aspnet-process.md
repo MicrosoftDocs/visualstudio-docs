@@ -66,5 +66,4 @@ Older ASP applications run inside the IIS process inetinfo.exe when they are run
  [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
  [System Requirements](../debugger/aspnet-debugging-system-requirements.md)   
- [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)
+ [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

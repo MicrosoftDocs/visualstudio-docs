@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "01/17/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.Spacing"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "element spacing, XAML view settings"
   - "attribute spacing, XAML view settings"
   - "XAML view settings, auto-formatting events"
@@ -32,10 +32,10 @@ helpviewer_keywords:
   - "XAML view settings, attribute spacing"
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
+translation.priority.ht: 
   - "cs-cz"
   - "de-de"
   - "es-es"
