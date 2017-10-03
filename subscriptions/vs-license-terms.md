@@ -1,15 +1,15 @@
 ---
-Title:  Visual Studio subscriptions license terms
-Breadcrumb_path: 
-Author: evanwindom
-Ms.author: jaunger
+title:  Visual Studio subscriptions license terms
+breadcrumb_path: 
+author: evanwindom
+ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Visual Studio subscriptions license terms.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+ms.date: 10/3/2017
+ms.topic: Get-Started-Article
+description:  Visual Studio subscriptions license terms.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 **MICROSOFT SOFTWARE LICENSE TERMS FOR THE FOLLOWING VISUAL STUDIO SUBSCRIPTIONS:**
 

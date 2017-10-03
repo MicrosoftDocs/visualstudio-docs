@@ -15,10 +15,8 @@ Searchscope: VS Subscription
 # Visual Studio Subscriptions
 ##  Developer tools, cloud services, software, support and training
 
-##  The most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.
+Visual Studio Subscriptions is the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.
 
 # Welcome to subscriptions!
 
-##  Whether you're a subscriber, or you manage subscriptions for your company, you'll find information to help you get the most out of Visual Studio subscriptions.  
-
-##  Click on a link to get started!
+Whether you're a subscriber, or you manage subscriptions for your company, you'll find information to help you get the most out of Visual Studio subscriptions.
