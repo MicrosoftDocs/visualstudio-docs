@@ -1,9 +1,8 @@
 # Overview
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
-# [Installation](install/install-visual-studio.md)
+# Installation
+## [Install Visual STudio](install/install-visual-studio.md)
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
-## Install C++ support (TODO)
-## Install Python support (TODO)
 # Quickstarts
 ## TODO
 # Tutorials
@@ -31,7 +30,7 @@
 ### [Visual Studio extension development](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [Linux development with C++](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [.NET Core cross-platform development](https://go.microsoft.com/fwlink/?linkid=833082)
-## Features
+## Tasks
 ### [Develop](https://go.microsoft.com/fwlink/?linkid=856608)
 ### [Build](https://go.microsoft.com/fwlink/?linkid=833077)
 ### [Debug](https://go.microsoft.com/fwlink/?linkid=833078)
@@ -58,11 +57,12 @@
 ## [Extensibility](extensibility/)
 # How-to Guides
 ## [Port, Migrate, and Upgrade Projects](porting/port-migrate-and-upgrade-visual-studio-projects.md)
-## [Update Visual Studio](update-visual-studio.md)
-## [Modify Visual Studio](modify-visual-studio.md)
-## [Uninstall Visual Studio](uninstall-visual-studio.md)
-## [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
-### [Install on low bandwidth or unreliable network environments](install-vs-inconsistent-quality-network.md)
+## Update, Install, and Modify Visual Studio
+### [Update Visual Studio](update-visual-studio.md)
+### [Modify Visual Studio](modify-visual-studio.md)
+### [Uninstall Visual Studio](uninstall-visual-studio.md)
+### [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
+#### [Install on low bandwidth or unreliable network environments](install-vs-inconsistent-quality-network.md)
 ## [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 ### [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 ### [Command-line parameter examples](command-line-parameter-examples.md)
