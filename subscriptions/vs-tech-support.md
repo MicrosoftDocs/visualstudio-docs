@@ -30,7 +30,7 @@ Resolve break-fix issues in non-production environments.  (Note:  Benefit must b
 6.	Once your account is set up, please go to step 8 to see how to submit a support incident online.  
 7.	In all geographies other than Europe, the Middle East and Africa, you can get your account set up by calling our [Technical Support team](http://support.microsoft.com/gp/customer-service-phone-numbers) in your country.  To find the correct phone number for your country, simply click on the letter that corresponds to the name of your country.  You’ll see a list of countries that begin with that letter, along with phone numbers and the support languages for those locations.  If your country is not listed, choose the nearest country that provides support in your preferred language.  
  
-8.	When you call, you’ll be asked to provide basic contact information, such as a name, phone number and email address.  You’ll also need to provide your subscription ID.  To locate that, click on the [Subscriptions](https;//my.visualstudio.com/subscriptions) tab on the [Subscriber Portal](https://my.visualstudio.com).  You’ll see the Subscription IDs listed for your subscription(s).
+8.	When you call, you’ll be asked to provide basic contact information, such as a name, phone number and email address.  You’ll also need to provide your subscription ID.  To locate that, click on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab on the [Subscriber Portal](https://my.visualstudio.com).  You’ll see the Subscription IDs listed for your subscription(s).
 
 ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
