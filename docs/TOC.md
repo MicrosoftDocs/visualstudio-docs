@@ -9,7 +9,7 @@
 # [Python](python/getting-started-with-python.md)
 # [R](rtvs/index.md)
 # [Visual F#](/dotnet/fsharp/)
-# [Data Access](data-tools/TOC.md)
+# [Data Access](data-tools/accessing-data-in-visual-studio.md)
 # [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 # [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 # [Port, Migrate, and Upgrade Your Code](porting/TOC.md)

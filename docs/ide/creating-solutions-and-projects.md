@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -35,6 +34,10 @@ Projects are the logical containers for everything that's needed to build your a
  Choose **File**, **New**, **Project** on the main menu to display the New Project dialog. In the left pane under **Installed**, **Templates**, choose the programming language and platform or technology, then choose from the available templates in the middle pane.  
 
  In the **New Project** dialog, the **Solution** drop-down gives you the option to create the new project in a new or existing solution, or in a new instance of Visual Studio.  
+
+|         |         |
+|---------|---------|
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=nRw1vJD6D_6311787171) on how to create a new project in Visual Studio from a template. |
 
 ## Create a project from existing code files  
  If you have a collection of loose source files, you can easily create a project that contains them. Choose **File**, **New**, **Project From Existing Code** to start the **Create Project from Existing Code Files** wizard, and then follow the prompts.  
