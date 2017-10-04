@@ -19,31 +19,18 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: View Existing Types (Class Designer)
 To see an existing type and its members, add its shape to a class diagram.  
   
  You can see local and referenced types. A local type exists in the currently open project and is read/write. A referenced type exists in another project or in a referenced assembly and is read-only.  
   
- To design new types on class diagrams, see [How to: Create Types by using Class Designer](../ide/how-to-create-types-by-using-class-designer.md).  
+ To design new types on class diagrams, see [How to: Create Types by using Class Designer](how-to-create-types.md).  
   
 ### To see types in a project on a class diagram  
   
-1.  From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).  
+1.  From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects(how-to-add-class-diagrams-to-projects.md).  
   
 2.  From the project in Solution Explorer, drag a source code file to the class diagram.  
   
@@ -76,6 +63,6 @@ To see an existing type and its members, add its shape to a class diagram.
      An auto-populated Class Diagram is created.  
   
 ## See Also  
- [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
- [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)
+ [How to: View Inheritance Between Types(how-to-view-inheritance-between-types.md)   
+ [How to: Customize Class Diagrams(how-to-customize-class-diagrams.md)   
+ [Viewing Types and Relationships(viewing-types-and-relationships.md)

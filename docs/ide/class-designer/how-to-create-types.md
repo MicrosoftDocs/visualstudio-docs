@@ -22,23 +22,10 @@ caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Create Types by using Class Designer
-To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md).  
+To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  
   
 -   [Create a new type](#CreateType)  
   
@@ -83,7 +70,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
     |Delegate|Parameters that define the delegate|  
     |Module|Methods, properties, fields, events, constructors (method), and constants that define the module|  
   
-     See [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
+     See [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
   
 ##  <a name="CustAttributeType"></a> Apply a custom attribute to a type  
   
@@ -106,8 +93,8 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
      When you're done, the custom attributes are applied to the type.  
   
 ## See Also  
- [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   
- [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   
- [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)   
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
- [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)
+ [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)  
+ [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
+ [Creating and Configuring Type Members](creating-and-configuring-type-members.md)   
+ [Working with Class Diagrams](working-with-class-diagrams.md)   
+ [Designing Classes and Types](designing-classes-and-types.md)

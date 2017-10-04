@@ -17,20 +17,7 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Visual C++ Classes in Class Designer
 Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and Visual C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
@@ -180,7 +167,7 @@ typedef struct
 |`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|  
   
 ## See Also  
- [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
+ [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
  [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)   
  [Anonymous Class Types](/cpp/cpp/anonymous-class-types)   
  [Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx)   

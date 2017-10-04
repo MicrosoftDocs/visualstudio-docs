@@ -23,20 +23,7 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Working with Visual C++ Code (Class Designer)
 Class Designer displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.  
@@ -87,7 +74,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 -   Ensure that Class Designer supports the type that you entered. See [Limitations for C++ Code Elements](#limitations).  
 
--   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../ide/managing-references-in-a-project.md).  
+-   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
 
 -   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
   
@@ -119,12 +106,12 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 -   Class Designer cannot display types that are void or that derive from a void type.  
 
 ## See Also  
- [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)   
- [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)   
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
- [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)   
- [Additional Information About Class Designer Errors](../ide/additional-information-about-class-designer-errors.md)   
- [Visual C++ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)   
- [Visual C++ Structures in Class Designer](../ide/visual-cpp-structures-in-class-designer.md)   
- [Visual C++ Enumerations in Class Designer](../ide/visual-cpp-enumerations-in-class-designer.md)   
- [Visual C++ Typedefs in Class Designer](../ide/visual-cpp-typedefs-in-class-designer.md)
+ [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)   
+ [Working with Classes and Other Types(working-with-classes-and-other-types.md)   
+ [Working with Class Diagrams(working-with-class-diagrams.md)   
+ [Designing Classes and Types(designing-classes-and-types.md)   
+ [Additional Information About Class Designer Errors](additional-information-about-class-designer-errors.md)   
+ [Visual C++ Classes in Class Designer](visual-cpp-classes-in.md)   
+ [Visual C++ Structures in Class Designer](visual-cpp-structures-in.md)   
+ [Visual C++ Enumerations in Class Designer](visual-cpp-enumerations-in.md)   
+ [Visual C++ Typedefs in Class Designer](visual-cpp-typedefs-in.md)

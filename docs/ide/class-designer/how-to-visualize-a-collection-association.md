@@ -20,20 +20,7 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Visualize a Collection Association (Class Designer)
 Properties and fields that are collections of other types can be displayed on the class diagram as a collection association. Unlike a regular association, which displays a field or property as a line linking the owning class to the field's type, a collection association is displayed as a line linking the owning class to the collected type.  
@@ -49,6 +36,6 @@ Properties and fields that are collections of other types can be displayed on th
      The property or field is shown as an association line linking to the collected type.  
   
 ## See Also  
- [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md)   
- [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)
+ [How to: Create Associations Between Types(how-to-create-associations-between-types.md)   
+ [Designing Classes and Types(designing-classes-and-types.md)   
+ [Viewing Types and Relationships(viewing-types-and-relationships.md)

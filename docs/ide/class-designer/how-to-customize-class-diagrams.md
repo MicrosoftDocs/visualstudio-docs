@@ -18,20 +18,7 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Customize Class Diagrams (Class Designer)
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.  
@@ -45,23 +32,23 @@ You can change the way that class diagrams display information. You can customiz
   
  **In this topic**  
   
--   [Zoom in and out of the class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#ZoomInOut)  
+-   [Zoom in and out of the class diagram](how-to-customize-class-diagrams.md#ZoomInOut)  
   
--   [Customize grouping and sorting of type members](../ide/how-to-customize-class-diagrams-class-designer.md#CustomizeGroupingSorting)  
+-   [Customize grouping and sorting of type members](how-to-customize-class-diagrams.md#CustomizeGroupingSorting)  
   
--   [Hide compartments on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideCompartments)  
+-   [Hide compartments on a type](how-to-customize-class-diagrams.md#HideCompartments)  
   
--   [Hide individual members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideMembers)  
+-   [Hide individual members on a type](how-to-customize-class-diagrams.md#HideMembers)  
   
--   [Show hidden compartments and members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayHiddenCompartmentsAndMemberrs)  
+-   [Show hidden compartments and members on a type](how-to-customize-class-diagrams.md#DisplayHiddenCompartmentsAndMemberrs)  
   
--   [Hide relationships](../ide/how-to-customize-class-diagrams-class-designer.md#HideAssociationAndInheritance)  
+-   [Hide relationships](how-to-customize-class-diagrams.md#HideAssociationAndInheritance)  
   
--   [Show hidden relationships](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayAssociationAndInheritance)  
+-   [Show hidden relationships](how-to-customize-class-diagrams.md#DisplayAssociationAndInheritance)  
   
--   [Remove a shape from a class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#RemoveCodeAndShape)  
+-   [Remove a shape from a class diagram](how-to-customize-class-diagrams.md#RemoveCodeAndShape)  
   
--   [Delete a type shape and its underlying code](../ide/how-to-customize-class-diagrams-class-designer.md#DeleteTypeShapeAndCode)  
+-   [Delete a type shape and its underlying code](how-to-customize-class-diagrams.md#DeleteTypeShapeAndCode)  
   
 ##  <a name="ZoomInOut"></a> Zoom in and out of the class diagram  
   
@@ -158,7 +145,7 @@ You can change the way that class diagrams display information. You can customiz
      The shape is removed from the diagram and its underlying code is deleted from the project.  
   
 ## See Also  
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)   
- [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)
+ [Working with Class Diagrams(working-with-class-diagrams.md)   
+ [How to: Change Between Member Notation and Association Notation(how-to-change-between-member-notation-and-association-notation.md)   
+ [How to: View Existing Types(how-to-view-existing-types.md)   
+ [Viewing Types and Relationships(viewing-types-and-relationships.md)

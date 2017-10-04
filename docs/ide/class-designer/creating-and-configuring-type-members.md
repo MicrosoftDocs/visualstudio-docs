@@ -34,20 +34,7 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Creating and Configuring Type Members (Class Designer)
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:  
@@ -69,11 +56,11 @@ You can add these members to types on a class diagram and configure those member
   
 |Task|Supporting Content|  
 |----------|------------------------|  
-|**Get started:** Before you create and configure type members, you must open the Class Details window.|-   [Opening the Class Details Window](../ide/creating-and-configuring-type-members-class-designer.md#OpenClassDetails)<br />-   [Class Details Usage Notes](../ide/creating-and-configuring-type-members-class-designer.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](../ide/creating-and-configuring-type-members-class-designer.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md)|  
-|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers)<br />-   [Modifying Type Members](../ide/creating-and-configuring-type-members-class-designer.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](../ide/creating-and-configuring-type-members-class-designer.md#AddMethodParams)|  
+|**Get started:** Before you create and configure type members, you must open the Class Details window.|-   [Opening the Class Details Window](creating-and-configuring-type-members.md#OpenClassDetails)<br />-   [Class Details Usage Notes](creating-and-configuring-type-members.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](creating-and-configuring-type-members.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|  
+|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](creating-and-configuring-type-members.md#CreateMembers)<br />-   [Modifying Type Members](creating-and-configuring-type-members.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](creating-and-configuring-type-members.md#AddMethodParams)|  
   
 ##  <a name="OpenClassDetails"></a> Opening the Class Details Window  
- By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)). You can also open the Class Details window explicitly, in the following ways.  
+ By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects(how-to-add-class-diagrams-to-projects.md)). You can also open the Class Details window explicitly, in the following ways.  
   
 #### To open the Class Details window  
   
@@ -138,10 +125,10 @@ You can add these members to types on a class diagram and configure those member
   
 4.  Optionally, specify other details about the member, such as its type.  
   
-     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md).  
+     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window(keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).  
   
 ##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
- Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
+ Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information(http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
  All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
   
@@ -169,7 +156,7 @@ You can add these members to types on a class diagram and configure those member
   
 -   **\<add member>**  
   
-     The last row in the Class Details window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
+     The last row in the Class Details window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
   
 -   **Member properties in the Properties window**  
   
@@ -219,14 +206,14 @@ You can add these members to types on a class diagram and configure those member
   
 -   **\<add parameter>**  
   
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
+     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#HowToAddParameterToMethod).  
   
  **Parameter properties in the Properties window**  
   
  The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
   
 > [!NOTE]
->  To add a parameter to a delegate, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
+>  To add a parameter to a delegate, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
   
 > [!NOTE]
 >  Although a destructor is a method, it cannot have parameters.  
@@ -273,7 +260,7 @@ You can add these members to types on a class diagram and configure those member
   
  All cells in the Class Details window are editable with a few exceptions:  
   
--   The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
+-   The entire type is read-only, when, for example, it resides in a referenced assembly. When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
   
 -   For indexers, the name is read-only and the rest (type, modifier, summary) are editable.  
   
@@ -334,5 +321,5 @@ You can add these members to types on a class diagram and configure those member
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)|You can view your existing types, members, and relationships in a class diagram.|  
-|[Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types-class-designer.md)|By using refactoring, you can easily rename type and type members. You can also move members between classes, split a class into partial classes, and implement interfaces.|
+|[Viewing Types and Relationships](viewing-types-and-relationships.md)|You can view your existing types, members, and relationships in a class diagram.|  
+|[Refactoring Classes and Types](refactoring-classes-and-types.md)|By using refactoring, you can easily rename type and type members. You can also move members between classes, split a class into partial classes, and implement interfaces.|
