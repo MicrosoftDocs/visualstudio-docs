@@ -57,6 +57,9 @@ As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to rem
 2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 
+## Contact Us
+If none of the other steps allow you to successfully install, you can contact us by live chat for  installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
 ## How to troubleshoot an offline installer
 Here is a table of known issues and some workarounds when installing from a local layout that might help.
 
