@@ -5,7 +5,7 @@
 # How-to Guides
 ##  Subscribers
 ### [Buy a subscription](buy-vs-subscriptions.md)
-### [Manage your subscription](manage-vs-subscription.md)
+### [Manage your subscription](manage-vs-subscriptions.md)
 ### [Using Subscriber Downloads](subscriber-downloads.md)
 ### [Using Product Keys](product-keys.md)
 ### How to Activate Benefits
@@ -26,7 +26,7 @@
 ##### [Pluralsight](vs-pluralsight.md)
 ##### [Xamarin University Training](vs-xamarin.md)
 ##### [Microsoft E-learning](vs-elearn.md)
-##### [MSDN Magazine Subscription](vs-msdn)
+##### [MSDN Magazine Subscription](vs-msdn.md)
 #### Support
 ##### [Technical Support](vs-tech-support.md)
 
