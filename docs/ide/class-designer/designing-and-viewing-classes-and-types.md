@@ -21,20 +21,7 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Designing and Viewing Classes and Types
 Design, visualize, and refactor classes and other types in your code with Class Designer in Visual Studio. Use class diagrams to create and edit classes in your Visual C# .NET, Visual Basic .NET, or C++ project, understand your project structure better, or reorganize your code.  
@@ -48,21 +35,20 @@ Design, visualize, and refactor classes and other types in your code with Class 
 -   **Refactor**: Override methods, rename identifiers, refactor parameters, and implement interfaces and abstract classes.  
   
 ## In This Section  
- [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)  
   
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)  
+ [Working with Class Diagrams(working-with-class-diagrams.md)  
   
- [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)  
+ [Designing Classes and Types(designing-classes-and-types.md)  
   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)  
+ [Viewing Types and Relationships(viewing-types-and-relationships.md)  
   
- [Refactoring Classes and Types (Class Designer)](../ide/refactoring-classes-and-types-class-designer.md)  
+ [Refactoring Classes and Types(refactoring-classes-and-types.md)  
   
- [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)  
+ [Working with Visual C++ Code(working-with-visual-cpp-code.md)  
   
- [Additional Information About Class Designer Errors](../ide/additional-information-about-class-designer-errors.md)  
+ [Additional Information About Class Designer Errors](additional-information-about-errors.md)  
   
 ## Related Sections  
- [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)  
+ [Writing Code](../writing-code-in-the-code-and-text-editor.md)  
   
- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+ [Map dependencies across your solutions](../../modeling/map-dependencies-across-your-solutions.md)

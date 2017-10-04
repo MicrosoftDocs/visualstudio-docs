@@ -18,33 +18,20 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 You can use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the **Class Details** window.  
   
  **In this topic**  
   
--   [Using the Mouse in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDesigner)  
+-   [Using the Mouse in Class Designer](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md#MouseClassDesigner)  
   
--   [Using the Mouse in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDetails)  
+-   [Using the Mouse in the Class Details Window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md#MouseClassDetails)  
   
--   [Using the Keyboard in Class Designer](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDesigner)  
+-   [Using the Keyboard in Class Designer](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md#KeyboardClassDesigner)  
   
--   [Using the Keyboard in the Class Details Window](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDetails)  
+-   [Using the Keyboard in the Class Details Window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md#KeyboardClassDetails)  
   
 ##  <a name="MouseClassDesigner"></a> Using the Mouse in Class Designer  
  The following mouse actions are supported in class diagrams:  
@@ -120,4 +107,4 @@ You can use the keyboard in addition to the mouse to perform navigational action
 |Right arrow|If the cursor is in the Name column, pressing the right arrow expands the current node in the hierarchy (if it is collapsed).|  
   
 ## See Also  
- [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)
+ [Creating and Configuring Type Members(creating-and-configuring-type-members.md)

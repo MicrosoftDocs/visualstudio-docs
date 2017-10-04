@@ -18,26 +18,13 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Change Between Member Notation and Association Notation (Class Designer)
 In Class Designer, you can change the way the class diagram represents an association relationship between two types from member notation to association notation and vice versa. Members displayed as association lines often provide a useful visualization of how types are related.  
   
 > [!NOTE]
->  Association relationships can be represented as a member property or field. To change member notation to association notation, one type must have a member of another type. To change association notation to member notation, the two types must be connected by an association line. For more information, see [How to: Create Associations Between Types (Class Designer)](../ide/how-to-create-associations-between-types-class-designer.md). If your project contains multiple class diagrams, changes that you make to the way a diagram displays association relationships affect only that diagram. To change the way another diagram displays association relationships, open or display that diagram and perform these steps.  
+>  Association relationships can be represented as a member property or field. To change member notation to association notation, one type must have a member of another type. To change association notation to member notation, the two types must be connected by an association line. For more information, see [How to: Create Associations Between Types](how-to-create-associations-between-types.md). If your project contains multiple class diagrams, changes that you make to the way a diagram displays association relationships affect only that diagram. To change the way another diagram displays association relationships, open or display that diagram and perform these steps.  
   
 ### To change member notation to association notation  
   
@@ -57,7 +44,7 @@ In Class Designer, you can change the way the class diagram represents an associ
      The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.  
   
 ## See Also  
- [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md)   
- [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
- [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   
- [How to: Visualize a Collection Association (Class Designer)](../ide/how-to-visualize-a-collection-association-class-designer.md)
+ [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)  
+ [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)   
+ [Viewing Types and Relationships](viewing-types-and-relationships.md)   
+ [How to: Visualize a Collection Association](how-to-visualize-a-collection-association.md)

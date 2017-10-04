@@ -18,20 +18,7 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # Visual C++ Typedefs in Class Designer
 Typedef statements create one or more layers of indirection between a name and its underlying type. The Class Designer supports C++ typedef types, which are declared with the keyword `typedef`, for example:  
@@ -211,5 +198,5 @@ class A {
  -> MyIntVect  
   
 ## See Also  
- [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
+ [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
  [typedef Specifier](https://msdn.microsoft.com/en-us/library/05w82thz.aspx)

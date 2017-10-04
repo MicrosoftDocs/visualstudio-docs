@@ -18,20 +18,7 @@ caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Create Inheritance Between Types (Class Designer)
 To create an inheritance relationship between two types on a class diagram using Class Designer, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.  
@@ -40,7 +27,7 @@ To create an inheritance relationship between two types on a class diagram using
   
 1.  From your project in Solution Explorer, open a class diagram (.cd) file.  
   
-     If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).  
+     If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).  
   
 2.  In the **Toolbox**, under **Class Designer**, click **Inheritance**.  
   
@@ -62,5 +49,5 @@ To create an inheritance relationship between two types on a class diagram using
 ## See Also  
  [Inheritance](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)   
  [Inheritance Basics](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)   
- [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
- [Visual C++ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)
+ [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)   
+ [Visual C++ Classes in Class Designer](visual-cpp-classes.md)

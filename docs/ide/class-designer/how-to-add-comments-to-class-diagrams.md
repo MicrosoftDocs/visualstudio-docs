@@ -19,20 +19,7 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Add Comments to Class Diagrams (Class Designer)
 You can use comment shapes to annotate class diagrams. A comment shape has one property, **Text**, into which you can type text. Comment shapes exist only on the diagram surface and not in code.  
@@ -48,6 +35,6 @@ You can use comment shapes to annotate class diagrams. A comment shape has one p
 2.  Click in the new comment shape on the diagram and type the text you want.  
   
 ## See Also  
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
- [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   
- [How to: Customize Class Diagrams (Class Designer)](../ide/how-to-customize-class-diagrams-class-designer.md)
+ [Working with Class Diagrams(working-with-class-diagrams.md)   
+ [Working with Class Diagrams(working-with-class-diagrams.md)   
+ [How to: Customize Class Diagrams(how-to-customize-class-diagrams.md)

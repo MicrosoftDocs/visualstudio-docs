@@ -21,20 +21,7 @@ caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+
 ---
 # How to: Create Associations Between Types (Class Designer)
 Association lines in Class Designer show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.  
@@ -67,4 +54,4 @@ Association lines in Class Designer show how classes in a diagram are related. A
      The name is updated in the **Class Details** window, on the association line, in the Properties window, and in code.  
   
 ## See Also  
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)
+ [How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)

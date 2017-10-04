@@ -7,7 +7,7 @@
 ### [Print Class Diagrams](how-to-print-class-diagrams.md)
 ### [Add Comments to Class Diagrams](how-to-add-comments-to-class-diagrams.md)
 ## [Designing Classes and Types](designing-classes-and-types.md)
-### [Create Types by using Class Designer](how-to-create-types-by-using.md)
+### [Create Types by using Class Designer](how-to-create-types.md)
 ### [Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 ### [Create Associations Between Types](how-to-create-associations-between-types.md)
 ### [Visualize a Collection Association](how-to-visualize-a-collection-association.md)
