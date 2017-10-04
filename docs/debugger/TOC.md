@@ -17,7 +17,6 @@
 ## [Debugger tips and tricks](debugger-tips-and-tricks.md)
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)
-## [Attach to running processes with the Visual Studio debugger](attach-to-running-processes-with-the-visual-studio-debugger.md)
 ## [Edit code and continue debugging](edit-and-continue.md)
 ### [How to: Enable and disable Edit and Continue](how-to-enable-and-disable-edit-and-continue.md)
 ### [How to: Stop code changes](how-to-stop-code-changes.md)
@@ -56,6 +55,7 @@
 ### [View modules](how-to-use-the-modules-window.md)
 #### [How to: Find which DLL your program crashed In](how-to-find-which-dll-your-program-crashed-in.md)
 ### [View script documents](how-to-view-script-documents.md)
+## [Attach to running processes with the Visual Studio debugger](attach-to-running-processes-with-the-visual-studio-debugger.md)
 ## Configure debugging
 ### [Debug user code](just-my-code.md)
 ### [Manage exceptions with the debugger](managing-exceptions-with-the-debugger.md)
