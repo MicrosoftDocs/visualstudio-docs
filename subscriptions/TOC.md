@@ -40,7 +40,7 @@ Searchscope: VS Subscription
 ##### [Pluralsight](vs-pluralsight.md)
 ##### [Xamarin University Training](vs-xamarin.md)
 ##### [Microsoft E-learning](vs-elearn.md)
-##### [MSDN Magazine Subscription](vs-msdn)
+##### [MSDN Magazine Subscription](vs-msdn.md)
 #### Support
 ##### [Technical Support](vs-tech-support.md)
 ##### [Priority Support](vs-priority-support.md)
