@@ -1,5 +1,4 @@
 # [Visual Studio IDE Feature Tour](visual-studio-ide.md)
-# [Get Started with Visual Studio](get-started-with-visual-studio.md)
 # [Personalizing the Visual Studio IDE](personalizing-the-visual-studio-ide.md)
 ## [How to: Change Fonts and Colors in Visual Studio](how-to-change-fonts-and-colors-in-visual-studio.md)
 ## [How to: Customize Menus and Toolbars in Visual Studio](how-to-customize-menus-and-toolbars-in-visual-studio.md)
