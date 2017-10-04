@@ -5,13 +5,12 @@
 # How-to Guides
 ##  Subscribers
 ### [Buy a subscription](buy-vs-subscriptions.md)
-### [Manage your subscription](manage-vs-subscription.edw.md)
+### [Manage your subscription](manage-vs-subscriptions.md)
 ### [Using Subscriber Downloads](subscriber-downloads.md)
 ### [Using Product Keys](product-keys.md)
 ### How to Activate Benefits
 #### Tools
 ##### [Visual Studio Enterprise](vs-ide-benefit.md) 
-##### [Visual Studio for Mac]
 ##### [Visual Studio Team Services](vs-vsts.md)
 ##### [Microsoft Azure](vs-azure.md) 
 ##### [Parasoft](vs-parasoft.md)
@@ -27,21 +26,16 @@
 ##### [Pluralsight](vs-pluralsight.md)
 ##### [Xamarin University Training](vs-xamarin.md)
 ##### [Microsoft E-learning](vs-elearn.md)
-##### [MSDN Magazine Subscription](vs-msdn)
+##### [MSDN Magazine Subscription](vs-msdn.md)
 #### Support
 ##### [Technical Support](vs-tech-support.md)
-##### [Priority Support](vs-priority-support.md)
 
 ## Administrators
-### [Admin roles and responsibilities](roles-responsibilities.md)
+### [Admin roles and responsibilities](admin-responsibilities.md)
 ### [Assign a subscription](assign-license.md)
 ### [Edit a subscription](edit-license.md)
 ### [Delete a subscription](delete-license.md)
 ### [Search for a subscription](search-license.md)
-### [Add multiple subscribers](bulk-assign-subscribers.md)
-### [Bulk edit subscriptions](bulk-edit-licenses.md)
-### [License usage reporting](license-reporting.md)
-### [Onboard your organization](onboarding.md)
 ### [Handle over-claimed subscriptions](handle-overclaimed-license.md)
 ### [Handle expired subscriptions](handle-expired-license.md)
 

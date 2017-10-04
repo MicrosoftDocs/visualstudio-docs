@@ -1,6 +1,5 @@
 ---
-title: Visual Studio IDE benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Visual Studio IDE benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

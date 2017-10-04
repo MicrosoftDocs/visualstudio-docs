@@ -1,6 +1,5 @@
 ---
-title: Opsgility Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Opsgility Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

@@ -1,6 +1,5 @@
 ---
 title: Using the Administrator Portal | Visual Studio Marketplace
-Breadcrumb_path: 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

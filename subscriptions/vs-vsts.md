@@ -1,6 +1,5 @@
 ---
-title: Visual Studio Team Services Benefit  | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Visual Studio Team Services Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

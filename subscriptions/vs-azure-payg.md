@@ -1,6 +1,5 @@
 ---
-title: Azure PAYG Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Azure PAYG Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

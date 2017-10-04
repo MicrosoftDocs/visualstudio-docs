@@ -1,6 +1,5 @@
 ---
-title: EMS Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: EMS Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
