@@ -45,7 +45,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 -   Typedef  
 
 > [!NOTE]
->  This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
+>  This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/uml-class-diagrams-reference.md).  
 
 ## Troubleshooting Type Resolution and Display Issues  
 
@@ -60,7 +60,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 ### Type Resolution Issues  
  Class Designer might not be able to resolve types for the following reasons:  
   
--   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
+-   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).  
   
 -   The type is not in the correct scope, so Class Designer cannot locate it. Ensure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
 
@@ -74,10 +74,8 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 -   Ensure that Class Designer supports the type that you entered. See [Limitations for C++ Code Elements](#limitations).  
 
--   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
+-   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).  
 
--   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
-  
 -   Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
 
 ### Troubleshooting Other Error Messages  
@@ -110,8 +108,8 @@ Class Designer displays a visual design surface called a *class diagram* that pr
  [Working with Classes and Other Types(working-with-classes-and-other-types.md)   
  [Working with Class Diagrams(working-with-class-diagrams.md)   
  [Designing Classes and Types(designing-classes-and-types.md)   
- [Additional Information About Class Designer Errors](additional-information-about-class-designer-errors.md)   
- [Visual C++ Classes in Class Designer](visual-cpp-classes-in.md)   
- [Visual C++ Structures in Class Designer](visual-cpp-structures-in.md)   
- [Visual C++ Enumerations in Class Designer](visual-cpp-enumerations-in.md)   
- [Visual C++ Typedefs in Class Designer](visual-cpp-typedefs-in.md)
+ [Additional Information About Class Designer Errors](additional-information-about-errors.md)   
+ [Visual C++ Classes in Class Designer](visual-cpp-classes.md)   
+ [Visual C++ Structures in Class Designer](visual-cpp-structures.md)   
+ [Visual C++ Enumerations in Class Designer](visual-cpp-enumerations.md)   
+ [Visual C++ Typedefs in Class Designer](visual-cpp-typedefs.md)
