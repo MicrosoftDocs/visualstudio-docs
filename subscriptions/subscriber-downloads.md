@@ -1,6 +1,5 @@
 ---
 title: Using Subscriber Downloads on Visuals Studio Subscriptions | Visual Studio Marketplace
-Breadcrumb_path: 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

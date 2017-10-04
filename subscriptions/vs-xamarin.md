@@ -1,6 +1,5 @@
 ---
-title: Xamarin University Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Xamarin University Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

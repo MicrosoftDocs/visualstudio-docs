@@ -1,6 +1,5 @@
 ---
-title: WhiteSource Bolt Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: WhiteSource Bolt Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

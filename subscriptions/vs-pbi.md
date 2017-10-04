@@ -1,6 +1,5 @@
 ---
-title: Power BI Pro Benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Power BI Pro Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

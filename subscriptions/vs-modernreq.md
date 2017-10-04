@@ -1,6 +1,5 @@
 ---
-title: Activating MODERNRequirements| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Activating MODERNRequirements 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
