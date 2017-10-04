@@ -198,5 +198,5 @@ class A {
  -> MyIntVect  
   
 ## See Also  
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)   
  [typedef Specifier](https://msdn.microsoft.com/en-us/library/05w82thz.aspx)

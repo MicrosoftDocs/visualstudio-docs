@@ -36,15 +36,15 @@ Design, visualize, and refactor classes and other types in your code with Class 
   
 ## In This Section  
   
- [Working with Class Diagrams(working-with-class-diagrams.md)  
+ [Working with Class Diagrams](working-with-class-diagrams.md)  
   
- [Designing Classes and Types(designing-classes-and-types.md)  
+ [Designing Classes and Types](designing-classes-and-types.md)  
   
- [Viewing Types and Relationships(viewing-types-and-relationships.md)  
+ [Viewing Types and Relationships](viewing-types-and-relationships.md)  
   
- [Refactoring Classes and Types(refactoring-classes-and-types.md)  
+ [Refactoring Classes and Types](refactoring-classes-and-types.md)  
   
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)  
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)  
   
  [Additional Information About Class Designer Errors](additional-information-about-errors.md)  
   

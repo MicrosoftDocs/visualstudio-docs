@@ -40,7 +40,7 @@ Class Designer does not track the location of your source files, so modifying yo
   
  You can find assistance with other errors and warnings in the following resources:  
   
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)  
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)  
  Includes troubleshooting information about displaying C++ in a class diagram.  
   
  [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?LinkId=160754)  

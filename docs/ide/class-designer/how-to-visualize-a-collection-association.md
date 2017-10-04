@@ -36,6 +36,6 @@ Properties and fields that are collections of other types can be displayed on th
      The property or field is shown as an association line linking to the collected type.  
   
 ## See Also  
- [How to: Create Associations Between Types(how-to-create-associations-between-types.md)   
- [Designing Classes and Types(designing-classes-and-types.md)   
- [Viewing Types and Relationships(viewing-types-and-relationships.md)
+ [How to: Create Associations Between Types](how-to-create-associations-between-types.md)   
+ [Designing Classes and Types](designing-classes-and-types.md)   
+ [Viewing Types and Relationships](viewing-types-and-relationships.md)

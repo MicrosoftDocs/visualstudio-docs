@@ -167,7 +167,7 @@ typedef struct
 |`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|  
   
 ## See Also  
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)   
  [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)   
  [Anonymous Class Types](/cpp/cpp/anonymous-class-types)   
  [Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx)   

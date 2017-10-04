@@ -43,5 +43,5 @@ enum class CardSuit {
  For more information about using the `enum` type, see [Enumerations](/cpp/cpp/enumerations-cpp).  
   
 ## See Also  
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)   
  [Enumerations](/cpp/cpp/enumerations-cpp)

@@ -105,9 +105,9 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 ## See Also  
  [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)   
- [Working with Classes and Other Types(working-with-classes-and-other-types.md)   
- [Working with Class Diagrams(working-with-class-diagrams.md)   
- [Designing Classes and Types(designing-classes-and-types.md)   
+ [Working with Classes and Other Types](working-with-classes-and-other-types.md)   
+ [Working with Class Diagrams](working-with-class-diagrams.md)   
+ [Designing Classes and Types](designing-classes-and-types.md)   
  [Additional Information About Class Designer Errors](additional-information-about-errors.md)   
  [Visual C++ Classes in Class Designer](visual-cpp-classes.md)   
  [Visual C++ Structures in Class Designer](visual-cpp-structures.md)   

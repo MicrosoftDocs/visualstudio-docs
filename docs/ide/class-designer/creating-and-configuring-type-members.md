@@ -60,7 +60,7 @@ You can add these members to types on a class diagram and configure those member
 |**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](creating-and-configuring-type-members.md#CreateMembers)<br />-   [Modifying Type Members](creating-and-configuring-type-members.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](creating-and-configuring-type-members.md#AddMethodParams)|  
   
 ##  <a name="OpenClassDetails"></a> Opening the Class Details Window  
- By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects(how-to-add-class-diagrams-to-projects.md)). You can also open the Class Details window explicitly, in the following ways.  
+ By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md)). You can also open the Class Details window explicitly, in the following ways.  
   
 #### To open the Class Details window  
   
@@ -125,10 +125,10 @@ You can add these members to types on a class diagram and configure those member
   
 4.  Optionally, specify other details about the member, such as its type.  
   
-     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window(keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).  
+     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).  
   
 ##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
- Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information(http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
+ Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
  All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
   
