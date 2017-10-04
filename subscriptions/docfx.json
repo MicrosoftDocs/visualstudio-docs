@@ -4,6 +4,7 @@
       {
         "files": [
           "**/*.md"
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/breadcrumb/toc.json"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "subscriptions"
