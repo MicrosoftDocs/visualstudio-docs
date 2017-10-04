@@ -1,6 +1,5 @@
 ---
-title: Technical Support Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Technical Support Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

@@ -1,6 +1,5 @@
 ---
 title: Compare Visual Studio subscriptions | Visual Studio Marketplace
-Breadcrumb_path: 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

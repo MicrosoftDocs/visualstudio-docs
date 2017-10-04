@@ -1,6 +1,5 @@
 ---
-title: Activating Pluralsight Benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Activating Pluralsight Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

@@ -1,6 +1,5 @@
 ---
-title: Parasoft Virtualize/SOAtest Professional Desktop Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Parasoft Virtualize/SOAtest Professional Desktop Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

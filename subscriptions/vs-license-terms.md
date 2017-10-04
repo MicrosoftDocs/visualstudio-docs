@@ -1,6 +1,5 @@
 ---
 title:  Visual Studio subscriptions license terms
-breadcrumb_path: 
 author: evanwindom
 ms.author: jaunger
 Manager: evelynp

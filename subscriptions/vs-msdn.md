@@ -1,6 +1,5 @@
 ---
-title: MSDN Magazine Benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: MSDN Magazine Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

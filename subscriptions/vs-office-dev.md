@@ -1,6 +1,5 @@
 ---
-title: Office 365 Developer Benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Office 365 Developer Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

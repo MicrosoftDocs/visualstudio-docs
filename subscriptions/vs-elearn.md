@@ -1,6 +1,5 @@
 ---
-title: Microsoft E-learning Benefit| Visual Studio Marketplace
-Breadcrumb_path: 
+title: Microsoft E-learning Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
