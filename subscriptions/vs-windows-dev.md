@@ -1,6 +1,5 @@
 ---
-title:  Windows Developer Account Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title:  Windows Developer Account Benefit
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

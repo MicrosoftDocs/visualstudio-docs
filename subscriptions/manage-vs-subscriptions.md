@@ -1,5 +1,5 @@
 ---
-Breadcrumb_path: 
+title:  Manage Visual Studio Subscriptions
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

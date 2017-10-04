@@ -1,6 +1,5 @@
 ---
-title: Microsoft Azure Benefit | Visual Studio Marketplace
-Breadcrumb_path: 
+title: Microsoft Azure Benefit 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
