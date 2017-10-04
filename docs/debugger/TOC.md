@@ -377,4 +377,4 @@
 ##### [About Microsoft Spy++](about-microsoft-spy-increment.md)
 ##### [Copyright notice for Spy++ help](copyright-notice-for-spy-increment-help.md)
 # Resources
-# [What's new for the debugger in Visual Studio](what-s-new-for-the-debugger-in-visual-studio.md)
+## [What's new for the debugger in Visual Studio](what-s-new-for-the-debugger-in-visual-studio.md)
