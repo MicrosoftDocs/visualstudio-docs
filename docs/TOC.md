@@ -1,7 +1,7 @@
 # Overview
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
 # Installation
-## [Install Visual STudio](install/install-visual-studio.md)
+## [Install Visual Studio](install/install-visual-studio.md)
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
 # Quickstarts
 ## TODO
