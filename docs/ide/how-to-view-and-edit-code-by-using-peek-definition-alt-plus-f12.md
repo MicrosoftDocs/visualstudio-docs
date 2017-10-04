@@ -1,7 +1,7 @@
 ---
 title: "How to: View and Edit Code by Using Peek Definition (Alt+F12) | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2017"
+ms.date: "10/5/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
