@@ -1,5 +1,5 @@
 ---
-title: "View a snapshot using IntelliTrace Step-Back  | Microsoft Docs"
+title: "View a snapshot using IntelliTrace step-back  | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/5/2017"
 ms.reviewer: ""
