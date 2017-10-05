@@ -23,23 +23,23 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Create solutions and projects
-*Projects* are logical containers in Visual Studio that hold the items needed to build your app, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the projects. You can then add new or existing projects to the solution if you want. Solutions can also contain files not connected to any specific project.
+*Projects* are logical containers in Visual Studio that hold the items needed to build your app, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the projects. You can then add new or existing projects to the solution if you want. Solutions can also contain files not connected to any specific project.  
 
 ![Solution/project hierarchy](./media/vside-proj-soln.png)
 
-You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in Solution Explorer (BikeSharing.Xamarin-UWP) that contains two projects: BikeSharing.Clients.Core and BikeSharing.Clients.Windows. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app.
+You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in Solution Explorer (BikeSharing.Xamarin-UWP) that contains two projects: BikeSharing.Clients.Core and BikeSharing.Clients.Windows. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can set which project is the startup project.  
 
 ![Solution Explorer with projects](./media/vside-solution-explorer-projects.png)
 
-While you can build projects starting with nothing, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials that you can add new or existing code and other resources to.
+While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.  
 
-However, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](./ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](./ide/develop-code-in-visual-studio-without-projects-or-solutions.md).  
 
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Tools**, **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide).
+>  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Tools**, **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide).  
 
 ## To create a project from a project template
-1. In Visual Studio, on the Start Page, enter the name of a project template into the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. As an alternative, you can choose **File**, **New**, **Project** on the menu, or choose the **New Project** button on the toolbar.
+1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template into the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu, or choose the **New Project** button on the toolbar.
 
   ![Start page](./media/vside-newproject1.png)
 
