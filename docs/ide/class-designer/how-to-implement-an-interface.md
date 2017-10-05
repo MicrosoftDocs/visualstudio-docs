@@ -22,7 +22,7 @@ manager: "ghogen"
 In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods. Class Designer generates an interface implementation and displays the relationship between the interface and the class as an inheritance relationship. You can implement an interface by drawing an inheritance line between the interface and the class or by dragging the interface from Class View.  
   
 > [!TIP]
->  You can create interfaces the same way you create other types. If the interface exists but does not appear on the class diagram, then first display it. For more information, see [How to: Create Types by using Class Designer](how-to-create-types.md) and [How to: View Existing Types(how-to-view-existing-types.md).  
+>  You can create interfaces the same way you create other types. If the interface exists but does not appear on the class diagram, then first display it. For more information, see [How to: Create Types by using Class Designer](how-to-create-types.md) and [How to: View Existing Types](how-to-view-existing-types.md).  
   
 ### To implement an interface by drawing an inheritance line  
   
@@ -32,7 +32,7 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.  
   
- For more information, see [How to: Create Inheritance Between Types(how-to-create-inheritance-between-types.md).  
+ For more information, see [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md).  
   
 ### To implement an interface from the Class View window  
   
@@ -49,6 +49,6 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
 ## See Also  
  [How to: Create Types by using Class Designer](how-to-create-types.md)   
- [How to: View Existing Types(how-to-view-existing-types.md)   
- [How to: Create Inheritance Between Types(how-to-create-inheritance-between-types.md)   
- [Refactoring Classes and Types(refactoring-classes-and-types.md)
+ [How to: View Existing Types](how-to-view-existing-types.md)   
+ [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)   
+ [Refactoring Classes and Types](refactoring-classes-and-types.md)

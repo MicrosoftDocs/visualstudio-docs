@@ -49,7 +49,7 @@ To design, edit, and refactor classes and other types, add a class diagram to yo
   
 ## See Also  
  [How to: Create Types by using Class Designer](how-to-create-types.md)   
- [How to: View Existing Types(how-to-view-existing-types.md)   
- [Designing Classes and Types(designing-classes-and-types.md)   
- [Viewing Types and Relationships(viewing-types-and-relationships.md)   
- [Working with Class Diagrams(working-with-class-diagrams.md)
+ [How to: View Existing Types](how-to-view-existing-types.md)   
+ [Designing Classes and Types](designing-classes-and-types.md)   
+ [Viewing Types and Relationships](viewing-types-and-relationships.md)   
+ [Working with Class Diagrams](working-with-class-diagrams.md)

@@ -38,6 +38,6 @@ struct MyStructure
 |`struct StructureName {};`|**StructureName**<br /><br /> Struct|  
   
 ## See Also  
- [Working with Visual C++ Code(working-with-visual-cpp-code.md)   
+ [Working with Visual C++ Code](working-with-visual-cpp-code.md)   
  [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)   
  [struct](/cpp/cpp/struct-cpp)

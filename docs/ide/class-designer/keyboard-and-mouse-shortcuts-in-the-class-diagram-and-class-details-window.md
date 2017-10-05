@@ -107,4 +107,4 @@ You can use the keyboard in addition to the mouse to perform navigational action
 |Right arrow|If the cursor is in the Name column, pressing the right arrow expands the current node in the hierarchy (if it is collapsed).|  
   
 ## See Also  
- [Creating and Configuring Type Members(creating-and-configuring-type-members.md)
+ [Creating and Configuring Type Members](creating-and-configuring-type-members.md)

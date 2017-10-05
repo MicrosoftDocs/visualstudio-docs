@@ -30,7 +30,7 @@ To see an existing type and its members, add its shape to a class diagram.
   
 ### To see types in a project on a class diagram  
   
-1.  From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects(how-to-add-class-diagrams-to-projects.md).  
+1.  From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).  
   
 2.  From the project in Solution Explorer, drag a source code file to the class diagram.  
   
@@ -63,6 +63,6 @@ To see an existing type and its members, add its shape to a class diagram.
      An auto-populated Class Diagram is created.  
   
 ## See Also  
- [How to: View Inheritance Between Types(how-to-view-inheritance-between-types.md)   
- [How to: Customize Class Diagrams(how-to-customize-class-diagrams.md)   
- [Viewing Types and Relationships(viewing-types-and-relationships.md)
+ [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)   
+ [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)   
+ [Viewing Types and Relationships](viewing-types-and-relationships.md)
