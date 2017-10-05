@@ -82,7 +82,8 @@ When you create a project, you can specify a specific version of the .NET Framew
 
 ![.NET Framework version selector](./media/vside-newproject-framework.png)
 
-If you set the .NET Framework version before selecting a project template, then Visual Studio will only show templates that are compatible with that .NET Framework version.
+> [!TIP]
+>  If you set the .NET Framework version before selecting a project template, then Visual Studio will only show templates that are compatible with that .NET Framework version.
 
 You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.  
 
