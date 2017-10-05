@@ -173,8 +173,6 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      Your window should look like this:  
   
-     Figure 8: RadioButtons in the Greetings window.  
-  
      ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")  
   
 3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `RadioButton1`.  Make sure you have selected the RadioButton and not the background Grid on the form; the Type field of the Property Window under the Name field should say RadioButton.  
