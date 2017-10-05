@@ -49,15 +49,17 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      ![Create a C# WPF Project, HelloWPFApp](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")  
   
- Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The WPF Designer shows a design view and a XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](http://msdn.microsoft.com/en-us/47ad0909-e89b-4996-b4ac-874d929f94ca)). The following items appear in **Solution Explorer**:  
+ Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The WPF Designer shows a design view and a XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:  
   
  ![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
   
  After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.  
   
 #### To change the name of MainWindow.xaml  
-  
-1.  In the following procedure, you'll give MainWindow a more specific name. In **Solution Explorer**, select MainWindow.xaml. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item. Change the **File Name** property to `Greetings.xaml`.  
+Let's give MainWindow a more specific name.  
+
+1. In **Solution Explorer**, select MainWindow.xaml. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.  
+2. Change the **File Name** property to `Greetings.xaml`.  
   
      ![Properties window with File Name highlighted](../ide/media/exploreide-filenameinpropertieswindow.png "ExploreIDE-FilenameinPropertiesWindow")  
   
@@ -80,11 +82,11 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
  ![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
   
- The XAML markup should look something like the following:  
+     The XAML markup should look something like the following:  
   
-```xaml  
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>  
-```  
+     ```xaml  
+     <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>  
+     ```  
   
 #### To customize the text in the text block  
   
@@ -96,7 +98,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
 2.  Re-center the TextBlock if necessary, and save your changes by pressing **Ctrl-s** or using the **File** menu item.  
   
- Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.  
+Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.  
   
 #### To add radio buttons  
   
@@ -114,7 +116,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
 4.  In the **Properties** window for the right RadioButton control, change the **Name** property to `RadioButton2`, and then save your changes.  
   
- You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.  
+You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.  
   
 #### To add display text for each radio button  
   
@@ -122,7 +124,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
 2.  Open the shortcut menu for RadioButton2 by pressing the right mouse button on RadioButton2, choose **Edit Text**, and then enter 'Goodbye'.  
   
- The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.  
+The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.  
   
 #### To add the button control  
   
@@ -184,7 +186,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
  Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
- In this step, you'll find the error that we caused earlier by changing the name of the main window XAML file.  
+ In this step, you'll find the error that we caused earlier by changing the name of the MainWindow.xaml file.  
   
 #### To start debugging and find the error  
   
@@ -198,7 +200,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
      ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png "ExploreIDE-StopDebugging")  
   
- We renamed Mainwindow.xaml to Greetings.xaml at the start of this walkthrough, but the code still refers to Mainwindow.xaml as the startup URI for the application, so the project can't start.  
+ We renamed MainWindow.xaml to Greetings.xaml at the start of this walkthrough, but the code still refers to mainwindow.xaml as the startup URI for the application, so the project can't start.  
   
 #### To specify Greetings.xaml as the startup URI  
   
@@ -206,7 +208,7 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
   
 2.  Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and then save the changes.  
   
- Start the debugger again (press **F5**). You should see the Greetings window of the application. Now close the application window to stop debugging.  
+Start the debugger again (press **F5**). You should see the Greetings window of the application. Now close the application window to stop debugging.  
   
 ### To debug with breakpoints  
 You can test the code during debugging by adding some breakpoints. You can add breakpoints by choosing **Debug**, **Toggle Breakpoint**, by clicking in the left margin of the editor next to the line of code where you want the break to occur, or by pressing **F9**.  
@@ -262,7 +264,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
- Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (...\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
+Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (...\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
 ## See Also  
  [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)   
