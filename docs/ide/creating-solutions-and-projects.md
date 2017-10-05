@@ -23,11 +23,11 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Create solutions and projects
-*Projects* are logical containers in Visual Studio that hold the items needed to build your app, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the projects. You can then add new or existing projects to the solution if you want. Solutions can also contain files not connected to any specific project.  
+*Projects* are logical containers in Visual Studio that hold the items needed to build your app, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the projects. You can then add new or existing projects to the solution if you want. Solutions can also contain files not connected to any specific project.   
 
 ![Solution/project hierarchy](./media/vside-proj-soln.png)
 
-You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in Solution Explorer (BikeSharing.Xamarin-UWP) that contains two projects: BikeSharing.Clients.Core and BikeSharing.Clients.Windows. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can set which project is the startup project.  
+You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in Solution Explorer (BikeSharing.Xamarin-UWP) that contains two projects: BikeSharing.Clients.Core and BikeSharing.Clients.Windows. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.   
 
 ![Solution Explorer with projects](./media/vside-solution-explorer-projects.png)
 
@@ -39,7 +39,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 >  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Tools**, **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide).  
 
 ## To create a project from a project template
-1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template into the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu, or choose the **New Project** button on the toolbar.
+1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu, or choose the **New Project** button on the toolbar.
 
   ![Start page](./media/vside-newproject1.png)
 
@@ -56,12 +56,11 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 1. Enter a name for the new project in the **Name** box. You can choose to save the project in the default location on your system, or choose the **Browse** button to find another location.
 
-  You can also optionally choose to change the solution name and add the new project to a Git repository.
+  You can also optionally choose to change the solution name, or add the new project to a Git repository by choosing **Add to Source Control**.
 
 1. Choose the **OK** button to create the solution and project.
 
-1. If you want to add an additional project to a solution, choose the solution node in Solution Explorer, and then on the menu, choose **Project**, **Add New Item**.
-
+1. If you want to add an additional project to a solution, choose the solution node in Solution Explorer, and then on the menu, choose **Project**, **Add New Item**.  
 
 ## Create a project from existing code files  
  If you have a collection of code source files, you can easily add them to a project.
@@ -85,10 +84,10 @@ When you create a project, you can specify a specific version of the .NET Framew
 
 If you set the .NET Framework version before selecting a project template, then Visual Studio will only show templates that are compatible with that .NET Framework version.
 
-You must have .NET Framework 3.5 installed on your system to access .NET framework versions earlier than .NET Framework 4.  
+You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.  
 
 ## Create empty solutions  
-Although projects can reside in a solution, you can also create empty solutions that have no projects. This might be preferable in cases where you want to build your solution and projects from scratch.
+You can also create empty solutions that have no projects. This might be preferable in cases where you want to construct your solution and projects from scratch.
 
 ### To create an empty solution  
 
@@ -105,7 +104,9 @@ After you create an empty solution, you can add new or existing projects or item
 As mentioned earlier, you can also open code projects without needing a solution. To learn about opening code without requiring a solution, see [Develop code in Visual Studio without projects or solutions](./ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Create a temporary project (C# and Visual Basic)
-If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
+If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.  
+
+To create a temporary project, first go to **Tools**, **Options**, **Projects and Solutions**, **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.  
 
 ## Delete a solution, project, or item
  You can delete solutions and their contents permanently, but not by using the Visual Studio IDE. Deleting items within Visual Studio only removes them from the current solution or project. To permanently delete a solution or other component from your system, use File Explorer to delete the folder that contains the .sln and .suo solution files. However, before permanently deleting a solution, it's recommended that you back up any projects or files in case you need them again.
