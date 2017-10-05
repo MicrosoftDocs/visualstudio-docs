@@ -16,52 +16,37 @@ caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ms.technology: 
   - "vs-ide-general"
 ---
 
 # .NET Coding Convention Settings For EditorConfig
-.NET coding conventions are configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable/disable individual .NET coding conventions** and **configure the degree at which you want the convention enforced** (via a severity level). To learn more about how to use EditorConfig to enforce consistency on your codebase, read [this article](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
+.NET coding conventions are configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable or disable individual .NET coding conventions** and **configure the degree to which you want the convention enforced** via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
-There are three supported .NET coding convention categories:
-- **[Language Conventions](#language)** are rules pertaining to the C# or Visual Basic language, for example, `var`/explicit type, use expression-bodied member.
-- **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read, for example, Allman braces, spaces in control blocks.
-- **[Naming Conventions](#naming)** are rules respecting the way objects are named, for example, `async` methods must end in "Async". 
+There are three supported .NET coding convention categories:  
+- **[Language Conventions](#language)** are rules pertaining to the C# or Visual Basic language. For example, using `var` versus an explicit type when defining variables, or using expression-bodied members.  
+- **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read. For example, Allman braces and spaces in control blocks are formatting options.  
+- **[Naming Conventions](#naming)** are rules regarding the naming of code elements. For example, `async` methods must end in "Async".  
 
-# <a name="language"> Language Conventions </a>
-## Overview
-**Rule Format:**
+## Language Conventions  
+### Rule Format  
 `options_name = false|true : none|suggestion|warning|error`
 
-For code style option, you must specify **true** (prefer this option) or **false** (do not prefer this option), a colon (`:`), and a severity (`none`, `silent`, `suggestion`, `warning`, or `error`). Severity means the level of enforcement for that style you want in your code base.
+For each code style option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), a colon (`:`), and a severity (`none`, `silent`, `suggestion`, `warning`, or `error`). The severity specifies the level of enforcement for that style.  
 
-`none` and `silent` are synonymous and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.
+`none` and `silent` are synonymous, and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.  
 
-Severity | effect
+Severity | Effect
 ------------ | -------------
-none/silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
-suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).
-warning | When this style is not being followed, show a compiler warning.
-error | When this style is not being followed, show a compiler error.
+none or silent | Do not show anything to the user when this style is not being followed. Code generation features will generate code in this style.  
+suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).  
+warning | When this style is not being followed, show a compiler warning.  
+error | When this style is not being followed, show a compiler error.  
 
-## .NET Language Convention Options
+### .NET Language Convention Options
 
-- **[.NET Code Style Settings](#this_and_me)**
-    - ["This." and "Me." Qualification](#this_and_me)
+- [.NET Code Style Settings](#this_and_me)
+    - ["This." and "Me." qualifiers](#this_and_me)
         - [Fields](#this_and_me_fields)
         - [Properties](#this_and_me_properties)
         - [Methods](#this_and_me_methods)
@@ -75,7 +60,7 @@ error | When this style is not being followed, show a compiler error.
         - [Explicit tuple names](#expression_level_tuple_names)
         - [Coalescing expressions in "null" checking](#expression_level_null_checking)
         - [Null propagation in "null" checking](#expression_level_null_propogation)
-- **[CSharp Code Style Settings](#csharp_codestyle)**
+- [CSharp Code Style Settings](#csharp_codestyle)
     - ["var"](#var)
         - ["var" for built-in types](#var_built_in)
         - ["var" when type is apparent](#var_apparent)
@@ -99,7 +84,7 @@ error | When this style is not being followed, show a compiler error.
     - [Code Block Preferences](#code_block)
         - [Prefer braces](#prefer_braces)
 
-## <a name="this_and_me">"This." and "Me." Qualification</a>
+## <a name="this_and_me">"This." and "Me." qualifiers</a>
 ### <a name="this_and_me_fields">Fields (IDE0003/IDE0009)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -301,7 +286,7 @@ dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
 ``` 
 
-# <a name="csharp_codestyle">CSharp Code Style Settings</a>
+## CSharp Code Style Settings  
 ## <a name="var">"var" and Explicit Types</a>
 ### <a name="var_built_in">"var" for built-in types (IDE0007, IDE0008)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
@@ -1233,8 +1218,8 @@ public int MyProperty
 csharp_preserve_single_line_blocks = true
 ``` 
 
-# <a name="naming"> Naming Conventions </a>
-## Overview
+## Naming Conventions  
+
 **Rule Format:**<br>
 namingRuleTitle:<br>
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`<br>
@@ -1252,10 +1237,10 @@ styleTitle:<br>
 `dotnet_naming_style.<styleTitle>.required_suffix = string`<br>
 `dotnet_naming_style.<styleTitle>.word_separator = string`<br>
 
-## Writing a Naming Convention
+### Writing a Naming Convention
 For naming conventions, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, is the only rule applied. 
 
-### Severity
+#### Severity
 The following are valid options for the severity of a naming style rule
  `none`, `silent`, `suggestion`, `warning`, `error`.
 
@@ -1263,9 +1248,9 @@ The following are valid options for the severity of a naming style rule
 
  `suggestion` means that the user is shown the following in the Error List: and the following in the IDE. The `suggestion` severity allows the naming rule to run, but it doesn't cause the build to break.
 
-Severity | effect
+Severity | Effect
 ------------ | -------------
-none/silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
+none or silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
 suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).
 warning | When this style is not being followed, show a compiler warning.
 error | When this style is not being followed, show a compiler error.
@@ -1327,3 +1312,6 @@ dotnet_naming_symbols.any_async_methods.required_modifiers         = async
 dotnet_naming_style.end_in_async.required_suffix = Async
 dotnet_naming_style.end_in_async.capitalization  = pascal_case
 ``` 
+
+## See Also
+[Quick Actions](../ide/quick-actions)  
