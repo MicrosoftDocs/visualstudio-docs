@@ -33,10 +33,10 @@ You can view your solutions and projects in a tool window called **Solution Expl
 
 While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.  
 
-That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](./ide/develop-code-in-visual-studio-without-projects-or-solutions.md).  
+That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).  
 
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Tools**, **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide).  
+>  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Tools**, **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
 
 ## To create a project from a project template
 1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu, or choose the **New Project** button on the toolbar.
@@ -48,7 +48,7 @@ That being said, solutions and projects are not required to develop apps in Visu
   ![New project dialog box](./media/vside-newproject-templates-list.png)
 
   > [!NOTE]
-  > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio).
+  > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio.md).
 
 1. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type. The following example shows the project templates available for Visual C# web projects.
 
@@ -102,7 +102,7 @@ You can also create empty solutions that have no projects. This might be prefera
 
 After you create an empty solution, you can add new or existing projects or items to it by choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
 
-As mentioned earlier, you can also open code projects without needing a solution. To learn about opening code without requiring a solution, see [Develop code in Visual Studio without projects or solutions](./ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+As mentioned earlier, you can also open code projects without needing a solution. To learn about opening code without requiring a solution, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Create a temporary project (C# and Visual Basic)
 If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.  
@@ -126,5 +126,5 @@ To create a temporary project, first go to **Tools**, **Options**, **Projects an
 ## See Also  
 [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)  
 [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)  
-[Visual Studio Samples](../visualstudio/ide/visual-studio-samples.md)  
+[Visual Studio Samples](../ide/visual-studio-samples.md)  
 [Developer code samples](https://code.msdn.microsoft.com/)  
