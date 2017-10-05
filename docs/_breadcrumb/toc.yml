@@ -18,16 +18,16 @@
     - name: Data Tools
       tocHref: /visualstudio/data-tools/ 
       topicHref: /visualstudio/data-tools/index
-      - name: Debugging
-        tocHref: /visualstudio/debugger/ 
-        topicHref: /visualstudio/debugger/index
-        items:
-        - name: Debug Interface Access SDK
-          tocHref: /visualstudio/debugger/debug-interface-access/
-          topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
-        - name: Graphics
-          tocHref: /visualstudio/debugger/graphics/
-          topicHref: /visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics
+    - name: Debugging
+      tocHref: /visualstudio/debugger/ 
+      topicHref: /visualstudio/debugger/index
+      items:
+      - name: Debug Interface Access SDK
+        tocHref: /visualstudio/debugger/debug-interface-access/
+        topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
+      - name: Graphics
+        tocHref: /visualstudio/debugger/graphics/
+        topicHref: /visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics
     - name: Deployment
       tocHref: /visualstudio/deployment/
       topicHref: /visualstudio/deployment/deploying-applications-services-and-components
