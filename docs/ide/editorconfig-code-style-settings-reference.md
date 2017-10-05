@@ -1314,4 +1314,4 @@ dotnet_naming_style.end_in_async.capitalization  = pascal_case
 ``` 
 
 ## See Also
-[Quick Actions](../ide/quick-actions)  
+[Quick Actions](../ide/quick-actions.md)  
