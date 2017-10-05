@@ -2,7 +2,6 @@
 title: "How to: Add an Actions Pane to Word Documents or Excel Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 ms.assetid: cea3c2b6-9364-4134-b812-50888ad8bd76
 caps.latest.revision: 63
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add an Actions Pane to Word Documents or Excel Workbooks

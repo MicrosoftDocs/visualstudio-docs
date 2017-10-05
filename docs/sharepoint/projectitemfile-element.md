@@ -2,7 +2,6 @@
 title: "ProjectItemFile Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "ProjectItemFile element"
 ms.assetid: 68d44d31-625a-4f02-b998-463ac0ffb2ef
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # ProjectItemFile Element

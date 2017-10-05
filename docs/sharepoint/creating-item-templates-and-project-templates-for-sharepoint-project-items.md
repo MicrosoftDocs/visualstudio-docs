@@ -2,7 +2,6 @@
 title: "Creating Item Templates and Project Templates for SharePoint Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], creating custom templates"
 ms.assetid: c95b5e35-76c4-4f0a-b645-0467ae683659
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Item Templates and Project Templates for SharePoint Project Items
@@ -40,7 +39,7 @@ manager: "ghogen"
 |Required file|Description|  
 |-------------------|-----------------|  
 |An .spdata file|This is an XML file that specifies the contents and default behavior of the project item. This file must be included in the item template. For more information about the contents of .spdata files, see [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md).|  
-|A .vstemplate file.|This file provides Visual Studio with the information required to display the template in the **Add New Item** dialog box and to create a project item from the template. This file must be included in the item template. For more information, see [NIB: Visual Studio Template Metadata Files](http://msdn.microsoft.com/en-us/129d59b5-7f9c-4daf-9832-eaedb3c4c961).|  
+|A .vstemplate file.|This file provides Visual Studio with the information required to display the template in the **Add New Item** dialog box and to create a project item from the template. This file must be included in the item template. For more information, see [Visual Studio Template Metadata Files](http://msdn.microsoft.com/en-us/129d59b5-7f9c-4daf-9832-eaedb3c4c961).|  
 |A Visual Studio extension assembly that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface.|This assembly defines the run time behavior of the project item. This assembly must be included in the VSIX package with the item template. For more information, see [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md) and [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).|  
   
  The following table lists some of the most common optional files that can be included in the item template. Some types of project items might require other files not listed here.  
@@ -63,7 +62,7 @@ manager: "ghogen"
   
 |Required file|Description|  
 |-------------------|-----------------|  
-|A .vstemplate file|This file provides Visual Studio with the information required to display the template in the **New Project** dialog box and to create a project from the template. For more information, see [NIB: Visual Studio Template Metadata Files](http://msdn.microsoft.com/en-us/129d59b5-7f9c-4daf-9832-eaedb3c4c961).|  
+|A .vstemplate file|This file provides Visual Studio with the information required to display the template in the **New Project** dialog box and to create a project from the template. For more information, see [Visual Studio Template Metadata Files](http://msdn.microsoft.com/en-us/129d59b5-7f9c-4daf-9832-eaedb3c4c961).|  
 |A csproj or .vbproj file|This is the project file. It defines the contents and configuration settings of the project.|  
 |Package.package|This file defines the deployment package for the project. When you use the Package Designer to customize the solution package for your project, Visual Studio stores data about the solution package in this file.<br /><br /> When you create a custom SharePoint project template, we recommend that you include only the minimum required content in the Package.package file, and that you configure the solution package by using the APIs in the <xref:Microsoft.VisualStudio.SharePoint.Packages> namespace in an extension that is associated with the project template. If you do this, your project template is protected from future changes to the structure of the Package.package file. For an example that demonstrates how to create a Package.package file with only the minimum required content, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md).<br /><br /> If you want to modify the Package.package file directly, you can verify the contents by using the schema at %Program Files (x86)%\Microsoft Visual Studio 11.0\Xml\Schemas\PackageModelSchema.xsd.|  
 |Package.Template.xml|This file provides the basis for the solution manifest file (manifest.xml) for the SharePoint solution package (.wsp) that is generated from the project. You can add content to this file if you want to specify some behavior that is not intended to be changed by users of your project type. For more information, see [Building Block: Solutions](http://go.microsoft.com/fwlink/?LinkId=169186) and [Solution Schema](http://go.microsoft.com/fwlink/?LinkId=177794).<br /><br /> When you build a solution package from the project, Visual Studio merges the contents of the Package.package and the Package.Template.xml files into the solution manifest file. For more information about building solution packages, see [How to: Create a SharePoint Solution Package (wsp)](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b).|  

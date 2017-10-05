@@ -2,7 +2,6 @@
 title: "SharePoint Development Samples | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, samples"
 ms.assetid: bb8c7c86-ed78-4245-8d50-31413753911d
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SharePoint Development Samples

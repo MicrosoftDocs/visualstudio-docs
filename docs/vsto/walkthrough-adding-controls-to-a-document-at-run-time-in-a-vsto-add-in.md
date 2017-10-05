@@ -2,7 +2,6 @@
 title: "Walkthrough: Adding Controls to a Document at Run Time in a VSTO Add-In | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding controls at run time"
 ms.assetid: ab6dff40-9964-468a-938c-a71a3ac23718
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Adding Controls to a Document at Run Time in a VSTO Add-In

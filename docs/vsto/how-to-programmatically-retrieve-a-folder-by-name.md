@@ -2,7 +2,6 @@
 title: "How to: Programmatically Retrieve a Folder by Name | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], retrieving by name"
 ms.assetid: 7f819525-b431-4b57-9a7f-3a6454c74298
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Retrieve a Folder by Name

@@ -2,7 +2,6 @@
 title: "Defining Custom SharePoint Project Item Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 ms.assetid: be300c24-fd1b-4fc7-a4e9-a5df1d81d3fc
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Defining Custom SharePoint Project Item Types

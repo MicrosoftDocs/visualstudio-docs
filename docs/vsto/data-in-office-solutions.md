@@ -2,7 +2,6 @@
 title: "Data in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "datasets [Office development in Visual Studio]"
 ms.assetid: 8478c095-864b-4ed3-8a70-1fc19b411c6a
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Data in Office Solutions

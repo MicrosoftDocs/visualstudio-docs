@@ -5,33 +5,33 @@ ms.date: "11/17/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: VB
 ms.assetid: 64b37bca-92b8-4154-9d65-54073e5740fc
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-f1_keywords:
-    - "vs.csharp.refactoring.remove"
-	- "vs.csharp.refactoring.reorder"
-dev_langs:
-	- VB
+f1_keywords: 
+  - "vs.csharp.refactoring.remove"
+  - "vs.csharp.refactoring.reorder"
+dev_langs: 
+  - VB
 translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pl-pl"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 
 # Change a method signature in Visual Basic

@@ -40,6 +40,10 @@ These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 10
 * Windows Server 2016 and IIS 10
 
+## Requirements
+
+Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low-bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
+
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
 1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)** .
@@ -71,7 +75,7 @@ When you download the software, you may get requests to grant permission to load
 
 ## Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://go.microsoft.com/fwlink/?linkid=844461) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module.
+1. Install the [.NET Core Windows Server Hosting](https://go.microsoft.com/fwlink/?linkid=844461) bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module.
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
@@ -118,13 +122,6 @@ You can also publish and deploy the app using the file system or other tools.
 
 > [!TIP]
 > In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
-
-## Requirements
-
-The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2 and is also supported on Windows 7 and newer. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
-
-> [!NOTE]
->  The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported in this scenario.
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
@@ -133,13 +130,15 @@ The remote debugger is supported on Windows Server starting with Windows Server 
 > [!NOTE]
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
+For information on running the remote debugger as a service, see [Run the remote debugger as a service](../debugger/remote-debugging.md#bkmk_configureService).
+
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
 1. On the Visual Studio computer, open the **MyASPApp** solution.
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P). 
+    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P). 
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.

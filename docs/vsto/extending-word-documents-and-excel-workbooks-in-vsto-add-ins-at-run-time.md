@@ -2,7 +2,6 @@
 title: "Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "HasVstoObject method"
 ms.assetid: c1607314-4cf8-439c-b4c5-709db8b71cff
 caps.latest.revision: 61
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time

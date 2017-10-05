@@ -5,7 +5,7 @@ ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-vb"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,8 +18,8 @@ dev_langs:
 helpviewer_keywords: 
   - "refactoring [VB]"
 ms.assetid: 7312ea3f-7045-41e8-a699-7b580508d074
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

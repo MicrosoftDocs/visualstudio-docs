@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], creating"
 ms.assetid: 6b88f3ef-02ff-4135-80ff-b4acacf8c695
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create a SharePoint Web Part by Using a Designer

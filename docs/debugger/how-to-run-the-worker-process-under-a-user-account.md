@@ -41,6 +41,9 @@ translation.priority.ht:
 ---
 # How to: Run the Worker Process Under a User Account
 To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.  
+
+ > [!IMPORTANT]
+ > Starting with Windows Server 2008 R2, we recommend the use of the [ApplicationPoolIdentity](https://docs.microsoft.com/en-us/iis/manage/configuring-security/application-pool-identities) as the identity for each application pool.
   
 ## Procedure  
   
@@ -95,5 +98,6 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.  
   
 ## See Also  
+[Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
 [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)  
   

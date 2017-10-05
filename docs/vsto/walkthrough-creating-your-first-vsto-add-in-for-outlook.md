@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating Your First VSTO Add-In for Outlook | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], creating your first project"
 ms.assetid: 2c5c5d75-27ee-471f-9328-58f0cf05b2b7
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating Your First VSTO Add-In for Outlook

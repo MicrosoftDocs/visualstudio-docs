@@ -2,7 +2,6 @@
 title: "How to: Get Data for a Built-In SharePoint Node in Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
 ms.assetid: 86d04e0a-c114-427e-9945-da5fa339fda4
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Get Data for a Built-In SharePoint Node in Server Explorer

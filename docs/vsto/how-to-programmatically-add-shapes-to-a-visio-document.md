@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add Shapes to a Visio Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "shapes [Office development in Visual Studio], adding Visio shapes"
 ms.assetid: 29613237-88f5-41a7-9e13-cfa177f41221
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add Shapes to a Visio Document

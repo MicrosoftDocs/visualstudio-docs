@@ -2,7 +2,6 @@
 title: "Developing Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], developing"
 ms.assetid: 7361cfe0-dee4-48d7-a066-232f87f093ca
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Developing Office Solutions

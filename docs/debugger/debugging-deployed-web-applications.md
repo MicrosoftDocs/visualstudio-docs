@@ -52,8 +52,7 @@ The process for attaching to the [!INCLUDE[vstecasp](../code-quality/includes/vs
 >  Many [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications reference DLLs that contain business logic or other useful code. Such a reference copies the DLL from your local computer to the \bin folder of the Web application's virtual directory when you deploy your app. When you are debugging, remember that your Web application is referencing that copy of the DLL and not the copy on your local computer. 
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
+ [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
  [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
  [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

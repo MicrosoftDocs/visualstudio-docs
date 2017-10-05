@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "Help Viewer 2.0, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

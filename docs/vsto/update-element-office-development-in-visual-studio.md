@@ -2,7 +2,6 @@
 title: "&lt;update&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <update> element"
 ms.assetid: bdd5dbf7-ddda-4ef6-9db5-1fb4405261a0
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;update&gt; Element (Office Development in Visual Studio)

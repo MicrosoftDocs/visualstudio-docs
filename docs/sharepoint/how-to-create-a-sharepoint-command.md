@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], creating"
 ms.assetid: e1fda8f0-eae1-4278-91c1-19a5e1fc327f
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Create a SharePoint Command

@@ -42,6 +42,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.General"
   - "VS.ToolsOptionsPages.Text_Editor.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp"
+  - "VS.ToolsOptionsPages.Text_Editor.Python"
+  - "VS.ToolsOptionsPages.Text_Editor.R"
 helpviewer_keywords: 
   - "Text Editor Options dialog box"
   - "Code Editor"
@@ -49,8 +51,8 @@ helpviewer_keywords:
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

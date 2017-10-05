@@ -4,30 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b73c865c-74e0-420e-89cc-43524f4aafd0
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Work with multiple user accounts
 If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Currently, Azure, Application Insights, Team Foundation Server, and Office 365 services support the streamlined sign-in experience. Additional services may become available as time goes by.
@@ -82,4 +67,7 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
  ![Account Manager](../ide/media/vs2015_accountmanager.gif "VS2015_AccountManager")  
 
 ## Revisit the Add Connected Services Wizard and Server Explorer  
- Now go to **Server Explorer** again, right-click on the Azure node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in Server Explorer. You should see all the services associated with the specified subscription.Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project, Add Connected Service** and **Team, Connect to Team Foundation Server**.
+ Now go to **Server Explorer** again, right-click on the Azure node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in Server Explorer. You should see all the services associated with the specified subscription.Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project, Add Connected Service** and **Team, Connect to Team Foundation Server**.  
+
+ ## See also  
+[Connected environment](../ide/connected-environment.md)  

@@ -33,7 +33,7 @@ We recommend that you try the [Visual Studio web installer](https://aka.ms/vsdow
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
 <br/>
 
-If you want to install a single instance of Visual Studio 2017 but your internet connection is unavailable or unreliable, see [Install Visual Studio 2017 on low bandwidth or unreliable network environments](../install/install-vs-inconsistent-quality-network.md). You can use the command line to create a local cache of the files you need to complete an offline install. This process replaces the ISO files available for previous versions.
+If you want to install offline because your internet connection is unavailable or unreliable, see [Install Visual Studio 2017 on low bandwidth or unreliable network environments](../install/install-vs-inconsistent-quality-network.md). You can use the command line to create a local cache of the files you need to complete an offline install. This process replaces the ISO files available for previous versions.
 
 > [!NOTE]
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.

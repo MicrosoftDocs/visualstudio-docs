@@ -2,7 +2,6 @@
 title: "How to: Programmatically Close Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], closing documents"
 ms.assetid: d5bee1dc-63d1-4307-828f-b7b077e20fb9
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Close Documents

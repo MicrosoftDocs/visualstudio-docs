@@ -2,7 +2,6 @@
 title: "Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "what's new [Office development in Visual Studio]"
 ms.assetid: 290f5cb4-e2ee-4ed8-987c-2f013405cee9
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5

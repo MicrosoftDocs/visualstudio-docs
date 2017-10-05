@@ -18,6 +18,8 @@ translation.priority.mt:
   - "pl-pl"
   - "pt-br"
   - "tr-tr"
+ms.technology: 
+  - "vs-ide-code-analysis"
 ---
 # How to: Enable and Disable Full Solution Analysis for Managed Code
 > [!NOTE]

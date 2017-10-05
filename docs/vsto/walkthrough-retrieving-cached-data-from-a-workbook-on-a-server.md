@@ -2,7 +2,6 @@
 title: "Walkthrough: Retrieving Cached Data from a Workbook on a Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], server-side data access"
 ms.assetid: ef6d61e5-a498-4b38-8e2e-2e80706d854b
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Retrieving Cached Data from a Workbook on a Server

@@ -2,7 +2,6 @@
 title: "Information Rights Management and Managed Code Extensions Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 ms.assetid: 9728f5fe-9122-48e7-b0a3-9f5e0a16164f
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Information Rights Management and Managed Code Extensions Overview

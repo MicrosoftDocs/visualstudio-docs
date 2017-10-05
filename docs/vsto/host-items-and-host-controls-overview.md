@@ -2,7 +2,6 @@
 title: "Host Items and Host Controls Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,8 +39,8 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], deleting"
 ms.assetid: 0601fed9-1a5b-4504-95ed-c6a2ddb710d9
 caps.latest.revision: 100
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Host Items and Host Controls Overview

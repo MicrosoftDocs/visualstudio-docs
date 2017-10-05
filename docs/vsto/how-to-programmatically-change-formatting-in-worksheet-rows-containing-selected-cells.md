@@ -2,7 +2,6 @@
 title: "How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "worksheets, changing formatting"
 ms.assetid: c55cd488-98d1-46c6-9715-0e9212d178de
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells

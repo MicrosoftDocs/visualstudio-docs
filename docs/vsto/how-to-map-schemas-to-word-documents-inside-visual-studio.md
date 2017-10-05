@@ -2,7 +2,6 @@
 title: "How to: Map Schemas to Word Documents Inside Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], mapping XML schemas"
 ms.assetid: 9bfb3c7b-6392-45bd-b4c1-b2012b9ded69
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Map Schemas to Word Documents Inside Visual Studio

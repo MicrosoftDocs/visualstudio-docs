@@ -2,7 +2,6 @@
 layout: LandingPage
 author: jasongroce
 ms.author: apexprodleads
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-sdk
 ms.topic: landing-page
 title: Visual Studio Extensibility Documentation

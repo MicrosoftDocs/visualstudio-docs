@@ -2,7 +2,6 @@
 title: "How to: Programmatically Retrieve Start and End Characters in Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], retrieving ranges"
 ms.assetid: 734c630c-abc9-491d-94b6-429d1fc7a4cc
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Retrieve Start and End Characters in Ranges

@@ -2,7 +2,6 @@
 title: "How to: Add XMLMappedRange Controls to Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 ms.assetid: e1d4f2a8-1157-49c2-9158-a1253b709cb8
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add XMLMappedRange Controls to Worksheets
