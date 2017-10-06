@@ -50,7 +50,7 @@ IntelliSense is the general term for a number of features: List Members, Paramet
  Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed under See Also.  
   
 ## List Members  
- A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters. The list also shows members where the beginning of *any* word within the name starts with those characters.  
+ A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters or where the beginning of *any* word within the name starts with those characters. IntelliSense also performs "camel case" matching, so you can just type the first letter of each camel-cased word in the member name to see the matches.   
   
  After selecting an item, you can insert it into your code by pressing TAB or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get Quick Info for the item.  
   
