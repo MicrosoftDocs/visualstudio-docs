@@ -84,7 +84,7 @@ Let's give MainWindow a more specific name.
   
  ![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
   
-     The XAML markup should look something like the following:  
+ The XAML markup should look something like the following:  
   
      ```xaml  
      <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>  
@@ -131,11 +131,11 @@ You can now add display text for each RadioButton control. The following procedu
 ### To set a radio button to be checked by default  
 In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.  
 
-1. In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:  
+In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:
 
-   ```xaml
-   IsChecked="True"
-   ```  
+```xaml
+IsChecked="True"
+```  
 
 The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.  
   
@@ -145,11 +145,12 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
   
 2.  In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.  
   
-     The markup should resemble the following example: `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`  
+     The markup should resemble the following example:  
+     `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`  
   
- Your window should resemble the following illustration.  
+     Your window should resemble the following illustration.  
   
- ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
+     ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
   
 ### Add code to the Display Button  
  When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the Button_Click event in Greetings.xaml.vb or Greetings.xaml.cs.  
@@ -176,7 +177,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
     ```vb  
     If HelloButton.IsChecked = True Then  
         MessageBox.Show("Hello.")  
-    ElseIf GoodbyeButton.IsChecked = True  
+    ElseIf GoodbyeButton.IsChecked = True Then 
         MessageBox.Show("Goodbye.")  
     End If  
   
