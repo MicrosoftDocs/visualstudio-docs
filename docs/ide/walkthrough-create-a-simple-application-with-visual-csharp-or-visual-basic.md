@@ -28,9 +28,11 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
  [Debug and test the application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
   
 ##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
- When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough.  
+When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.  
+
+![Choose settings dialog box](../ide/media/exploreide-settings.png "exploreide-settings")
   
- After you open Visual Studio, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.  
+ After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.  
   
  ![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png "ExploreIDE-IDEwithgeneralsettings")  
   
@@ -112,18 +114,29 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
   
      ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")  
   
-3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `RadioButton1`.  
+3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to **HelloButton**.  
+
+     ![RadioButton properties window](../ide/media/exploreide-buttonproperties.png "exploreide-buttonproperties")  
   
-4.  In the **Properties** window for the right RadioButton control, change the **Name** property to `RadioButton2`, and then save your changes.  
+4.  In the **Properties** window for the right RadioButton control, change the **Name** property to **GoodbyeButton**, and then save your changes.  
   
 You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.  
   
 #### To add display text for each radio button  
   
-1.  On the design surface, open the shortcut menu for RadioButton1 by pressing the right mouse button on RadioButton1, choose **Edit Text**, and then enter 'Hello'.  
+1.  On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter 'Hello'.  
   
-2.  Open the shortcut menu for RadioButton2 by pressing the right mouse button on RadioButton2, choose **Edit Text**, and then enter 'Goodbye'.  
-  
+2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter 'Goodbye'.  
+
+### To set a radio button to be checked by default  
+In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.  
+
+1. In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:  
+
+   ```xaml
+   IsChecked="True"
+   ```  
+
 The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.  
   
 #### To add the button control  
@@ -161,23 +174,22 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 2.  Enter the following code:  
   
     ```vb  
-    If RadioButton1.IsChecked = True Then  
+    If HelloButton.IsChecked = True Then  
         MessageBox.Show("Hello.")  
-    Else RadioButton2.IsChecked = True  
+    ElseIf GoodbyeButton.IsChecked = True  
         MessageBox.Show("Goodbye.")  
     End If  
   
     ```    
     ```csharp  
-    if (RadioButton1.IsChecked == true)  
-    {  
-        MessageBox.Show("Hello.");  
-    }  
-    else  
-    {  
-        RadioButton2.IsChecked = true;  
-        MessageBox.Show("Goodbye.");  
-    }  
+    if (HelloButton.IsChecked == true)
+    {
+         MessageBox.Show("Hello.");
+    }
+    else if (GoodbyeButton.IsChecked == true)
+    {
+        MessageBox.Show("Goodbye.");
+    }
     ```  
   
 3.  Save the application.  
