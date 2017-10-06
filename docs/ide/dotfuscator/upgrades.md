@@ -48,6 +48,7 @@ However, there are more features available to users who upgrade their version of
 ## Registering Dotfuscator CE
 
 Registered users of Dotfuscator CE get access to additional features, such as [command line support][cli], which makes it easy to integrate Dotfuscator CE into your automated build process.
+In addition, registering will grant access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
 
 Registration is quick, simple, and free of charge.
 To register Dotfuscator CE, see [the Registering Dotfuscator CE section on the Getting Started page of the full Dotfuscator CE User Guide][register-ce].
@@ -68,7 +69,6 @@ These include:
   * The ability to [automatically remove unused code from your application][pruning], reducing the amount of sensitive code that is shipped.
 * *Application Integrity Protection*
   * Additional [application defense behaviors][check-actions].
-  * The ability to inject anti-tamper and anti-debug code into `.dll` assemblies.
   * The ability to provide a warning period before an application's end-of-life deadline.
   * The ability to notify application code during an end-of-life warning period or after the deadline.
   * Telemetry encryption.
@@ -111,3 +111,4 @@ For more information on the advanced application protection features of Dotfusca
 [register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
+[decode-obfuscated]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_decode_stack_trace.html

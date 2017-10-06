@@ -23,7 +23,7 @@ manager: "ghogen"
 Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code. 
 
 > [!Tip]
-> By default, an App Service already has Python 2.7 and Python 3.4 installed in root folders on the server. However, you cannot customize or install packages in these environments. As a result, web apps that depend on these default environments must create an upload their own virtual environment, which is more complex to manage and maintain.
+> Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this topic.
 
 > [!Important]
 > The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).>
@@ -31,38 +31,46 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 ## Choosing a Python version through the Azure portal
 
 1. Create an App Service for your web app on the Azure portal.
-2. On the App Service's page, scroll to the **Development Tools** section, select **Extensions**, then select **+ Add**.
-3. Scroll down in the list to the extension that contains the version of Python you want:
+1. On the App Service's page, scroll to the **Development Tools** section, select **Extensions**, then select **+ Add**.
+1. Scroll down in the list to the extension that contains the version of Python you want:
 
     ![Azure portal showing Python extensions](media/python-on-azure-extensions.png)
 
-4. Select the extension, accept the legal terms, then select **OK**.
-5. A notification appears in the portal when installation is complete.
+    > [!Tip]
+    > The list of site extensions may hide site extensions for older versions of Python. If you need to install a version that's not shown in the list, you can do so through the Azure Resource Manager as described in the next section.
+
+1. Select the extension, accept the legal terms, then select **OK**.
+1. A notification appears in the portal when installation is complete.
+
 
 ## Choosing a Python version through the Azure Resource Manager
 
 If you are deploying an App Service with an Azure Resource Manager template, add the site extension as a resource. The extension appears as a nested resource with the type `siteextensions` and the name from [siteextensions.net](https://www.siteextensions.net/packages?q=Tags%3A%22python%22).
 
-For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following:
+For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following (some properties omitted):
 
-```json
-  "resources": [
-    {
-      "apiVersion": "2015-08-01",
-      "name": "[parameters('siteName')]",
-      "type": "Microsoft.Web/sites",
-      ...
-      "resources": [
-        {
-          "apiVersion": "2015-08-01",
-          "name": "python361x64",
-          "type": "siteextensions",
-          "properties": { },
-          "dependsOn": [
-            "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
-          ]
-        },
-      ...
+```
+"resources": [
+  {
+    "apiVersion": "2015-08-01",
+    "name": "[parameters('siteName')]",
+    "type": "Microsoft.Web/sites",
+    
+    // ...
+
+    "resources": [
+      {
+        "apiVersion": "2015-08-01",
+        "name": "python361x64",
+        "type": "siteextensions",
+        "properties": { },
+        "dependsOn": [
+          "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
+        ]
+      },
+      // ...
+    ]
+  }
 ```
 
 ## Setting web.config to point to the Python interpreter
@@ -73,7 +81,7 @@ Begin by finding the full path to the site extension's `python.exe`, then create
 
 ### Finding the path to python.exe
 
-A Python site extension is installed on the server under `d:\home` in a folder appropriate to the Python version and architecture. For example, Python 3.6.1 x64 is installed in `d:\home\python361x64`. The full path to the Python interpreter is then `d:\home\python361x64\python.exe`.
+A Python site extension is installed on the server under `d:\home` in a folder appropriate to the Python version and architecture (except in the case of a few older versions). For example, Python 3.6.1 x64 is installed in `d:\home\python361x64`. The full path to the Python interpreter is then `d:\home\python361x64\python.exe`.
 
 To see the specific path on your App Service, select **Extensions** on the App Service page, then select the extension in the list. 
 
@@ -91,14 +99,15 @@ If you have trouble seeing the path for the extension, you can find it manually 
 
 ### Configuring the FastCGI handler
 
-FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes. The [wfastcgi package](https://pypi.io/project/wfastcgi) is pre-installed and configured with each Python site extension, so you can easily enable it by including the code below in `web.config`. Note that the full paths to `python.exe` and `wfastcgi.py` are placed in the `PythonHandler` key:
+FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes. The [wfastcgi package](https://pypi.io/project/wfastcgi) is pre-installed and configured with each Python site extension, so you can easily enable it by including the code in `web.config` like what's shown below for a web app based on the Bottle framework. Note that the full paths to `python.exe` and `wfastcgi.py` are placed in the `PythonHandler` key:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <appSettings>
     <add key="PYTHONPATH" value="D:\home\site\wwwroot"/>
-    <add key="WSGI_HANDLER" value="app.wsgi_app"/>
+    <!-- The handler here is specific to Bottle; other frameworks vary. -->
+    <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
     <add key="WSGI_LOG" value="D:\home\LogFiles\wfastcgi.log"/>
   </appSettings>
   <system.webServer>
@@ -116,6 +125,7 @@ The `<appSettings>` defined here are available to your app as environment variab
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
 - `WSGI_LOG` is optional but recommended for debugging your app. 
 
+See [Publishing to Azure](publishing-to-azure.md) for additional details on `web.config` contents for Bottle, Flask, and Django web apps.
 
 ### Configuring the HttpPlatform handler
 
@@ -150,14 +160,13 @@ The Python interpreter installed through a site extension is only one piece of y
 
 To install packages directly in the server environment, use one of the following methods:
 
-- The [Azure App Service Kudu console](#azure-app-service-kudu-console).
-- The [Kudu REST API](#kudu-rest-api)
+| Methods | Usage | 
+| --- | --- |
+| [Azure App Service Kudu console](#azure-app-service-kudu-console) | Installs packages interactively. Packages must be pure Python or must publish wheels. |
+| [Kudu REST API](#kudu-rest-api) | Can be used to automate package installation.  Packages must be pure Python or must publish wheels. |
+| Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you'll see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
+| Virtual environments | Not supported. Instead, use bundling and set the `PYTHONPATH` environment variable to point to the location of the packages. |
 
-Alternately, you can install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going.
-
-The caveat is that such libraries must precisely match the version of Python on the server, otherwise you'll see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development.
-
-When using this method, we recommend avoiding virtual environments because they can lead to conflicting dependencies. Instead, just install libraries into your main Python folder and deploy them with your.
 
 ### Azure App Service Kudu console
 
@@ -175,7 +184,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
      
     b. Use `python.exe -m pip install <package_name>` to install a package.
     
-    ![Example of installing matplotlib through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
+    ![Example of installing bottle through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
     
 4. If you've deployed a `requirements.txt` for your app to the server already, install all those requirements as follows:
 
@@ -190,14 +199,16 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 
 ### Kudu REST API
 
-Instead of using the Kudu console through the Azure portal, you can run commands remotely through the Kudu REST API by posting the command to `https://yoursite.scm.azurewebsites.net/api/command`. For example, to install the `matplotlib` package, post the following JSON to `/api/command`:
+Instead of using the Kudu console through the Azure portal, you can run commands remotely through the Kudu REST API by posting the command to `https://yoursite.scm.azurewebsites.net/api/command`. For example, to install the `bottle` package, post the following JSON to `/api/command`:
 
 ```json
 {
-    "command": 'python.exe -m pip install matplotlib',
+    "command": 'python.exe -m pip install bottle',
     "dir": '\home\python361x64'
 }
 ```
 
-For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). You can also see credentials using the [`az webapp deployment list-publishing-profiles command`](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles) from the Azure CLI. A helper library for posting Kudu commands is also available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
+For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). 
+
+You can also see credentials using the `az webapp deployment list-publishing-profiles` command through the Azure CLI (see [az webapp deployment](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles). A helper library for posting Kudu commands is available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
 
