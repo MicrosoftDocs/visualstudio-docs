@@ -68,6 +68,3 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
 
 ## Revisit the Add Connected Services Wizard and Server Explorer  
  Now go to **Server Explorer** again, right-click on the Azure node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in Server Explorer. You should see all the services associated with the specified subscription.Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project, Add Connected Service** and **Team, Connect to Team Foundation Server**.  
-
- ## See also  
-[Connected environment](../ide/connected-environment.md)  

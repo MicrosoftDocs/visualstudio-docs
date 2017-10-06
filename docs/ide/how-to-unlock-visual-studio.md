@@ -63,4 +63,3 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
   
 ## See also  
 [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)  
-[Connected environment](../ide/connected-environment.md)  
