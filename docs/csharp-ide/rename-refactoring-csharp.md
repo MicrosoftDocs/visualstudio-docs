@@ -128,7 +128,7 @@ translation.priority.mt:
     > [!NOTE]
     >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
+3.  Type the keyboard shortcut **Shift+Alt+F10**, and then press the **DOWN ARROW** to display the smart tag menu.  
   
      -or-  
   
