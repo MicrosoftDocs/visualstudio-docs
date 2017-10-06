@@ -78,7 +78,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, choose **Add**, **New Item**, or **Add**, **Existing Item**.
 
 ## Create a .NET project that targets a specific version of the .NET Framework  
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **.NET Framework** version drop-down menu in the **New Project** dialog box.
+When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **.NET Framework** version drop-down menu in the **New Project** dialog box. If you are creating a project from a .NET Core template, the .NET Framework version you select in the drop-down is ignored.  
 
 ![.NET Framework version selector](./media/vside-newproject-framework.png)
 
