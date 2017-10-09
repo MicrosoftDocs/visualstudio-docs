@@ -20,7 +20,7 @@ manager: "ghogen"
 
 Visual Studio 2017 supports Python development with easy-to-install options in the Visual Studio installer. Here's how. 
 
-1. Download and run the Visual Studio 2017 installer from [visualstudio.com](https://www.visualstudio.com/downloads). Python is supported in all editions.
+1. Download and run the latest Visual Studio 2017 installer from [visualstudio.com](https://www.visualstudio.com/downloads). Python is supported in all editions of Visual Studio 2017 release 15.3 and higher; it may not appear with earlier release channels.
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
