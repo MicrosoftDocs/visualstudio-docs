@@ -166,7 +166,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
     - Download: `wget -O rtvs-daemon.tar.gz https://aka.ms/rtvs-daemon-current`
     - Extract: `tar -xvzf rtvs-daemon.tar.gz`
-    - Run Installer: `sudo rtvs-install`
+    - Run Installer: `sudo ./rtvs-install`
 
 1. Enable and start the daemon:
 
