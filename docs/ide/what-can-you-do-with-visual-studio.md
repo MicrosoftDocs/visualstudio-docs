@@ -1,5 +1,5 @@
 ---
-title: "What Can You Do with Visual Studio" | Microsoft Docs"
+title: "What Can You Do with Visual Studio? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -16,6 +16,7 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 ---
+
 # What can you do with Visual Studio?
 
 After you have [downloaded and installed](http://www.visualstudio.com/community) Visual Studio, choose one or more of the following sections to get started coding.  

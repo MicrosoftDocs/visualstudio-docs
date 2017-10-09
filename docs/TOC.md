@@ -7,9 +7,9 @@
 ## [Troubleshooting installation issues](install/troubleshooting-installation-issues.md)
 # Quickstarts
 ## [Walkthrough: Create a Simple Application with Visual C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
-## Move around in the IDE
-## Working with Solutions and Projects
-## Personalizing the Visual Studio IDE
+## (TODO) Move around in the IDE
+## (TODO) Working with Solutions and Projects
+## (TODO) Personalizing the Visual Studio IDE
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 ## [Finding and Using Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 # Tutorials
