@@ -43,3 +43,4 @@
 ## [Using the Cookiecutter Extension](cookiecutter.md)
 # Reference
 ## [Options](options.md)
+## [Installation Options](installation-options-vs2017.md)
