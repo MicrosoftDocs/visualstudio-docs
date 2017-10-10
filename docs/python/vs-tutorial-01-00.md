@@ -21,7 +21,7 @@ manager: "ghogen"
 1. Download and run the latest Visual Studio 2017 installer:    
 
     > [!div class="nextstepaction"]
-    > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTarget" />
+    > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a>
 
     >[!Tip]
     > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
@@ -45,3 +45,5 @@ manager: "ghogen"
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).
 - [Install locations](installation.md#install-locations).
+
+<iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetC" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetP" />

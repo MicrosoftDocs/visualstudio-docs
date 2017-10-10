@@ -39,7 +39,10 @@ To quickly test Python support after following the installation steps, Open the 
 1. Download and run the latest Visual Studio 2017 installer:
 
     > [!div class="nextstepaction"]
-    > <a target="frameTargetC" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a>      <a target="frameTargetP" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Professional</a>      <a target="frameTargetE" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Enterprise</a><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetC" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetP" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetE" />
+    > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTarget" />
+
+    >[!Tip]
+    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
@@ -114,3 +117,5 @@ where:
 ### User-specific installations (1.5 and earlier)
 
 Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case the installation path is `%LocalAppData%\Microsoft\VisualStudio\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>` where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
+
+<iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetC" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetP" />
