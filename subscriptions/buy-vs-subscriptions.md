@@ -59,7 +59,7 @@ Or sign up for a new subscription, if you don't have one.
 5.	Confirm and finish your purchase. 
 To view your subscription benefits now, 
 go to the Visual Studio subscriptions portal 
-[(https://my.visualstudio.com)](https://my.visualstudio.com) or click "View my subscription".
+[(https://my.visualstudio.com)](https://my.visualstudio.com) or click **View my subscription**.
 
 	<img alt="Finish purchase successfully" src="_img/buy-vs-subscriptions/buy-vs-sub-success.png" style="border: 1px solid #CCCCCC" />
 
@@ -67,7 +67,7 @@ go to the Visual Studio subscriptions portal
 
 	If you purchased more than one subscription, you can
 	assign subscriptions to others in the 
-	[Visual Studio Subscriptions Administration portal]( https://manage.visualstudio.com/cloud) or click "Assign to users".
+	[Visual Studio Subscriptions Administration portal]( https://manage.visualstudio.com/cloud) or click **Assign to users**.
 
 	<img alt="Assign subscriptions to others" src="_img/buy-vs-subscriptions/buy-vs-sub-success-many.png" style="border: 1px solid #CCCCCC" />
 
@@ -111,12 +111,49 @@ Visual Studio Standard subscriptions are available through the Microsoft Store. 
 1. Connect to the [Microsoft Store](https://www.microsoft.com).
 2. Click on the **Software** tab.
 3. Select **Professional software**.
+
+<img alt="Software Menu" src="_img/buy-vs-subscriptions/professional-software.png" style="border: 1px solid #CCCCCC" />
+
 4. In the **Shop categories** list, choose **Visual Studio**.
-5. In the **Shopt Visual Studio** list, choose the subscription you would like to purchase.  
+
+<img alt="Categories List" src="_img/buy-vs-subscriptions/shop-categories.png" style="border: 1px solid #CCCCCC" />
+
+5. In the **Shop Visual Studio** list, choose the subscription you would like to purchase. (Visual Studio Professional 2017 is a standlone license for the IDE and does not include a subscription.)
+
+<img alt="Visual Studio Products" src="_img/buy-vs-subscriptions/shop-visual-studio.png" style="border: 1px solid #CCCCCC" />
+
 6. On the product description page, you'll have the option to purchase a new subscription or purchase a new one.  Select your desired subscription type and add it to your cart. 
-7. Click the **Checkout** button to move to the **Review and place order** page. 
+
+<img alt="Visual Studio Enterprise options" src="_img/buy-vs-subscriptions/enterprise-options.png" style="border: 1px solid #CCCCCC" />
+
+7. In the Cart, click the **Checkout** button to move to the **Review and place order** page.  (You may need to sign in to your Microsoft Account to continue.) 
+
 8. Choose your payment type and click **Select**.
-9. If you have a payment instrument on file, select.  To add a payment instrument, such as a credit card, provide the details for your payment instrument and click **Save**.
+
+9. If you have a payment instrument on file, select it.  To add a payment instrument, such as a credit card, provide the details for your payment instrument and click **Save**.
+
 10. Click **Place order** to complete your purchase.  
 
+### Activating subscriptions purchased through the Microsoft Store
 
+If you've purchased a Visual Studio Subscription through the Microsoft Store, the activation steps can be initiated from the payment Confirmation Page or Confirmation Email. Note:  If you have not received an email, please validate your email address and check your spam folders.
+
+To activate your subscription: 
+
+1. Click on **Click here to sign in**. You will be redirected to [https://my.visualstudio.com/subscriptions/activate](https://my.visualstudio.com/subscriptions/activate)
+
+2. Enter the email address you'll be using to access to the Visual Studio subscription and click **Continue**.
+
+3. Depending on the email address, you may be redirected to either the **Microsoft Account (MSA)** sign-in page or the **Work or School** account sign-in page. 
+
+4. Enter your password, or complete sign in requirements.
+5. Upon successful sign in, an **Activate Your Visual Studio Subscription** window will appear.
+6. Enter the **Product Key** information available from the payment Confirmation Page or Confirmation Email and click **Activate**.
+
+7. Your subscription should now be visible on the [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions).
+
+
+## Buying Standard subscriptions through Volume License programs
+
+Organizations who want the benefits of multiple subscriptions can purchase them through various Volume License (VL) programs.  Volume Licenses are sold through authorized Microsoft Partners.  
+Learn how to [purchase through Volume Licensing](https://www.microsoft.com/Licensing/how-to-buy/how-to-buy.aspx). 
