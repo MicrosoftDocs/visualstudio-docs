@@ -38,7 +38,8 @@ To quickly test Python support after following the installation steps, Open the 
 
 1. Download and run the latest Visual Studio 2017 installer:
 
-    [!INCLUDE[installer-buttons](includes/installer-buttons.md)]
+    > [!div class="nextstepaction"]
+    > <a target="frameTargetC" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a>      <a target="frameTargetP" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Professional</a>      <a target="frameTargetE" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Enterprise</a><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetC" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetP" /><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTargetE" />
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 

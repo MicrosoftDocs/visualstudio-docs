@@ -20,8 +20,13 @@ manager: "ghogen"
 
 1. Download and run the latest Visual Studio 2017 installer:    
 
-    [!INCLUDE[installer-buttons](includes/installer-buttons.md)]
-    
+    > [!div class="nextstepaction"]
+    > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a><iframe src="" height="0" width="0" style="border:none;display:none" name="frameTarget" />
+
+    >[!Tip]
+    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
+
+
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
