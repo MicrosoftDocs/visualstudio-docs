@@ -172,10 +172,10 @@ You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it fr
 
 ## Known Issues
 
-* Snapshot Debugging with multiple Visual Studio clients against the same App Service is not currently supported.
+* Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
 * Roslyn IL Optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 * Special variables, ie *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
-* Snapshot Debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+* Snapshot debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
 
 
 ## See Also  
