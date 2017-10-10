@@ -118,4 +118,4 @@ where:
 
 Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case the installation path is `%LocalAppData%\Microsoft\VisualStudio\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\<PTVS_ver>` where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
 
-<iframe src="" height="0" width="0" style="border:none;display:none" name="frameTarget" />
+<iframe src="" height="0" width="0" frameborder="0" name="frameTarget" />

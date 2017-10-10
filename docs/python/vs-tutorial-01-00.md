@@ -45,4 +45,4 @@ manager: "ghogen"
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).
 - [Install locations](installation.md#install-locations).
 
-<iframe src="" height="0" width="0" style="border:none;display:none" name="frameTarget" />
+<iframe src="" height="0" width="0" frameborder="0" name="frameTarget" />
