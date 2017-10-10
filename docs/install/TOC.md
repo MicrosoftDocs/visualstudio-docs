@@ -4,7 +4,7 @@
 ## [Troubleshooting installation issues](troubleshooting-installation-issues.md)
 # [Update Visual Studio](update-visual-studio.md)
 # [Modify Visual Studio](modify-visual-studio.md)
-# [Repair Visual Studio 2017](repair-visual-studio.md)
+# [Repair Visual Studio](repair-visual-studio.md)
 # [Uninstall Visual Studio](uninstall-visual-studio.md)
 ## [Remove Visual Studio](remove-visual-studio.md)
 # [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
