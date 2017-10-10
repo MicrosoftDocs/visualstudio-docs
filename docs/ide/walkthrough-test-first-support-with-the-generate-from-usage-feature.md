@@ -159,5 +159,5 @@ Assume that the specification states that a new `Automobile` can be put into a R
  [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
- [Unit Test Your Code](../test/unit-test-your-code.md)
- [Quick Actions](../ide/quick-actions.md)
+ [Unit Test Your Code](../test/unit-test-your-code.md)  
+ [Quick Actions](../ide/quick-actions.md)  
