@@ -64,9 +64,9 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
   
 3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin(C# only), or directly below the squiggle if you hover over it.  
   
-     ![Smart Tag Underline in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
+     ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
 
-     ![Quick Actions Underline in  C&#35;](../ide/media/genclass_underline.png "GenClass_Underline")  
+     ![Quick Actions in C&#35;](../ide/media/genclass_underline.png "GenClass_Underline")  
   
 4.  Choose or click the Quick Actions light bulb. You'll see an error message that states that the type `Automobile` is not defined. You are also presented with some solutions.  
   
