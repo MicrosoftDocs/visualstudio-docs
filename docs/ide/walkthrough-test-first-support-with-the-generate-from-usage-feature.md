@@ -57,19 +57,22 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
   
 1.  The test project contains a file that is named UnitTest1. Double-click this file in **Solution Explorer** to open it in the Code Editor. A test class and test method have been generated.  
   
-2.  Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`. In C#, if a `UnitTest1()` constructor is present, rename it to `AutomobileTest()`.  
+2.  Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`.  
   
     > [!NOTE]
     >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an IntelliSense window is open, you can press **Ctrl+Alt+SPACEBAR** to toggle between completion mode and suggestion mode. See [Using IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.  
   
-3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin, or directly below the squiggle if you hover over it.  
+3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin(C# only), or directly below the squiggle if you hover over it.  
   
      ![Smart Tag Underline in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
+
      ![Quick Actions Underline in  C&#35;](../ide/media/genclass_underline.png "GenClass_Underline")  
   
-4.  Choose or click the Quick Actions light bulb. You'll see an error message that states that no type named `Automobile` is defined yet. You are also presented with some solutions. You could click **Generate 'Class Automobile'** to create a new file in your test project and populate it with an empty class named `Automobile`. This is a quick way to create a new class in a new file that has default access modifiers in the current project. You can also click **Generate new type** to open the **Generate New Type** dialog box. This dialog box provides options that include putting the class in an existing file and adding the file to a different project.  
+4.  Choose or click the Quick Actions light bulb. You'll see an error message that states that the type `Automobile` is not defined. You are also presented with some solutions.  
   
-5. Click **Generate new type** to open the **Generate New Type** dialog box, which is shown in the following illustration. In the **Project** list, click **GFUDemo\_VB** or **GFUDemo_CS** to instruct Visual Studio to add the file to the class library project instead of the test project.  
+5. Click **Generate new type...** to open the **Generate Type** dialog box. This dialog box provides options that include generating the type in a different project.  
+
+6. In the **Project** list, click **GFUDemo\_VB** or **GFUDemo_CS** to instruct Visual Studio to add the file to the class library project instead of the test project. If it's not already selected, choose **Create new file** and name it **Automobile.cs** or **Automoile.vb**.  
   
      ![Generate New Type dialog box](../ide/media/genotherdialog.png "GenOtherDialog")  
   
@@ -78,9 +81,9 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 7.  In **Solution Explorer**, look under the GFUDemo_VB or GFUDemo_CS project node to verify that the new Automobile.vb or Automobile.cs file is there. In the Code Editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`. You can continue to write your test with a minimum of interruption.  
   
 ### To generate a property stub  
-Assume that the product specification states that the `Automobile` class has two public properties named `Model` and `TopSpeed`. These properties must be initialized with default values of `"Not specified"` and `-1` by the default constructor. The following unit test will verify that the default constructor sets the properties to their correct default values.
+Assume that the product specification states that the `Automobile` class has two public properties named `Model` and `TopSpeed`. These properties must be initialized with default values of `"Not specified"` and `-1` by the default constructor. The following unit test will verify that the default constructor sets the properties to their correct default values.  
   
-1. Add the following line of code to `DefaultAutomobileIsInitializedCorrectly`.  
+1. Add the following line of code to the `DefaultAutomobileIsInitializedCorrectly` test method.  
   
      [!code-csharp[VbTDDWalkthrough#1](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.cs)]
      [!code-vb[VbTDDWalkthrough#1](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.vb)]  
@@ -99,10 +102,11 @@ Now we'll create a test method that will generate a constructor stub to initiali
      [!code-csharp[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.cs)]
      [!code-vb[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.vb)]  
   
-2.  Click the Quick Actions light bulb under the new class constructor and then click **Generate constructor in 'Automobile'**.  
+2.  Click the Quick Actions light bulb under the red squiggle, and then click **Generate constructor in 'Automobile'**.  
 
-     In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the `_model` and `_topSpeed` fields in the new constructor are the implicitly defined backing fields for the `Model` and `TopSpeed` properties.)
+     In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties.
   
+
 3.  After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the Quick Actions light bulb, and then click **Generate constructor in 'Automobile'**.  
   
 ### To generate a stub for a method  
@@ -117,22 +121,19 @@ Assume that the specification states that a new `Automobile` can be put into a R
   
 3.  Click the Quick Actions light bulb for the `IsRunning` property and then click **Generate property 'Automobile.IsRunning'**.  
 
-     The `Automobile` class now contains the following code.
-  
-     [!code-csharp[VbTDDWalkthrough#4](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_4.cs)]
-     [!code-vb[VbTDDWalkthrough#4](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_4.vb)]  
+     The `Automobile` class now contains a method named `Start()` and a property named `IsRunning`.  
   
 ### To run the tests  
   
-1.  On the **Test** menu, choose **Run**, **All Tests**. This command runs all tests in all test frameworks that are written for the current solution.  
-  
-     In this case, there are two tests, and they both fail, as expected. The `DefaultAutomobileIsInitializedCorrectly` test fails because the `Assert.IsTrue` condition returns `False`. The `AutomobileWithModelNameCanStart` test fails because the `Start` method in the `Automobile` class throws an exception.  
+1.  On the **Test** menu, choose **Run**, **All Tests**.  
+
+     The **Run**, **All Tests** command runs all the tests in any test frameworks that are written for the current solution. In this case, there are two tests, and they both fail, as expected. The `DefaultAutomobileIsInitializedCorrectly` test fails because the `Assert.IsTrue` condition returns `False`. The `AutomobileWithModelNameCanStart` test fails because the `Start` method in the `Automobile` class throws an exception.  
   
      The **Test Results** window is shown in the following illustration.  
   
      ![Test results that failed](../ide/media/testsfailed.png "TestsFailed")  
   
-2.  In the **Test Results** window, double-click on each test result row to go to the location of each test failure.  
+2.  In the **Test Results** window, double-click on each test result row to go to the location of each test.  
   
 ### To implement the source code  
   
@@ -148,7 +149,9 @@ Assume that the specification states that a new `Automobile` can be put into a R
   
 ### To run the tests again  
   
-On the **Test** menu, point to **Run**, and then click **All Tests**. This time the tests pass. The **Test Results** window is shown in the following illustration.  
+On the **Test** menu, point to **Run**, and then click **All Tests**.  
+
+     This time the tests pass. The **Test Results** window is shown in the following illustration.  
   
      ![Test results that passed](../ide/media/testspassed.png "TestsPassed")
   
