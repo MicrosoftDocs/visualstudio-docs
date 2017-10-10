@@ -48,12 +48,14 @@ Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 E
 
 1. Install the [Visual Studio Enterprise 15.5 Preview](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) or later.
 
-2. Open the project you would like to snapshot debug. 
+2. Launch VS and open Cloud Explorer from **View > Cloud Explorer**. Then update to the latest Cloud Explorer from the **Tools > Extensions and Updates...** menu in **Updates > Visual Studio Marketplace**. 
+
+3. Open the project you would like to snapshot debug. 
 
     > [!NOTE] 
     > In order to snapshot debug, you need to open the **same version of source code** that is published to your Azure Azure App Service. 
 
-3. In the Cloud Explorer, right click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
+4. In the Cloud Explorer, right click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
 
     ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
 
