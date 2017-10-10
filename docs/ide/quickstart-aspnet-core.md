@@ -36,6 +36,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![New ASP.NET Core Web Application dialogbox](../ide/media/quickstart-aspnet-core20.png)  
 
+## Explore the IDE  
 1. In the **Solution Explorer** toolbar, expand the **Pages** folder, then choose **About.cshtml** to open it in the editor. This file corresponds to a page called **About** in the web application.  
 
 1. In the editor, choose `AboutModel` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `AboutModel` C# class.  
@@ -62,6 +63,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.  
 
+## Run the application
 1. Press **Ctrl+F5** to run the application and open it in a web browser.  
 
 1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.  
