@@ -23,19 +23,22 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 First, you'll create an ASP.NET Core web application project. The project type comes with template files that constitute a functional web application, before you've even added anything!  
 
 1. Open Visual Studio 2017.  
-2. From the top menu bar, choose **File**, **New**, **Project...**.
-3. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.   
+
+1. From the top menu bar, choose **File**, **New**, **Project...**.  
+
+1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.   
 
      If you don't see the **.NET Core** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.  
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)  
 
-4. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the drop-down list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.  
+1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.  
 
    ![New ASP.NET Core Web Application dialogbox](../ide/media/quickstart-aspnet-core20.png)  
 
 1. In the **Solution Explorer** toolbar, expand the **Pages** folder, then choose **About.cshtml** to open it in the editor. This file corresponds to a page called **About** in the web application.  
-2. In the editor, choose `AboutModel` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `AboutModel` C# class.  
+
+1. In the editor, choose `AboutModel` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `AboutModel` C# class.  
 
    ![Go To Definition context menu](../ide/media/quickstart-aspnet-gotodefinition.png)  
 
@@ -43,7 +46,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
      The unnecessary usings are deleted from the file.  
 
-7. In the `OnGet()` method, change the body to the following code:  
+1. In the `OnGet()` method, change the body to the following code:  
 
  ```csharp
  public void OnGet()
@@ -53,17 +56,19 @@ First, you'll create an ASP.NET Core web application project. The project type c
  }
  ```  
 
-8. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View**, **Error List** from the top menu bar.  
+1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View**, **Error List** from the top menu bar.)  
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)  
 
 1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.  
-2. Press **Ctrl+F5** to run the application and open it in a web browser.  
-3. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.  
-4. Close the web browser.  
+
+1. Press **Ctrl+F5** to run the application and open it in a web browser.  
+
+1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.  
+
+1. Close the web browser.  
 
 Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
-## See also
-[TODO link to tutorial]  
+## See also   
 [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)  
