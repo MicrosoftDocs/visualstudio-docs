@@ -24,7 +24,7 @@ A common application scenario is to display selected data on a form. For example
   
  Using parameterized queries helps make your application efficient by letting the database do the work it is best at — quickly filtering records. In contrast, if you request an entire database table, transfer it over the network, and then use application logic to find the records you want, your application can become slow and inefficient.  
   
- You can add parameterized queries to any TableAdapter (and controls to accept parameter values and execute the query), using the **Search Criteria Builder** dialog box. Open the dialog box by selecting the **Add Query** command on the **Data** menu.  
+ You can add parameterized queries to any TableAdapter (and controls to accept parameter values and execute the query), using the **Search Criteria Builder** dialog box. Open the dialog box by selecting the **Add Query** command on the **Data** menu (or on any TableAdapter smart tag).  
   
  Tasks illustrated in this walkthrough include:  
   
