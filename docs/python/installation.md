@@ -50,6 +50,9 @@ To quickly test Python support after following the installation steps, Open the 
 
     Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for Python as well as the R and F# languages. For more information, see [Data science and analytical applications workload](../rtvs/data-science-workload.md).
 
+    > [!Note]
+    > The Python and Data Science workloads are available only with Visual Studio 2017 release 15.2 and later.
+
 1. On the right side of the installer, chose additional options if desired. Skip this step to accept the default options.
 
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)

@@ -18,7 +18,7 @@ manager: "ghogen"
 
 # Install Python support in Visual Studio
 
-1. Download and run the latest Visual Studio 2017 installer:    
+1. Download and run the latest Visual Studio 2017 installer (Python support is present in release 15.2 and later):    
 
     > [!div class="nextstepaction"]
     > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a>
