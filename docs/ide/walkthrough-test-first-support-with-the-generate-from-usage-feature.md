@@ -55,14 +55,14 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
   
 ### To generate a new class from a unit test  
   
-1.  The test project contains a file that is named UnitTest1. Double-click this file in **Solution Explorer** to open it in the Code Editor. A test class and test method have been generated.  
+1.  The test project contains a file that is named UnitTest1. Double-click this file in **Solution Explorer** to open it in the code editor. A test class and test method have been generated.  
   
 2.  Locate the declaration for class `UnitTest1` and rename it to `AutomobileTest`.  
   
 > [!NOTE]
 >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an IntelliSense window is open, you can press **Ctrl+Alt+SPACEBAR** to toggle between completion mode and suggestion mode. See [Using IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.  
   
-3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin(C# only), or directly below the squiggle if you hover over it.  
+3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.  
   
      ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
 
@@ -72,13 +72,13 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
   
 5. Click **Generate new type...** to open the **Generate Type** dialog box. This dialog box provides options that include generating the type in a different project.  
 
-6. In the **Project** list, click **GFUDemo\_VB** or **GFUDemo_CS** to instruct Visual Studio to add the file to the class library project instead of the test project. If it's not already selected, choose **Create new file** and name it **Automobile.cs** or **Automoile.vb**.  
+6. In the **Project** list, click **GFUDemo\_VB** or **GFUDemo_CS** to instruct Visual Studio to add the file to the class library project instead of the test project. If it's not already selected, choose **Create new file** and name it **Automobile.cs** or **Automobile.vb**.  
   
      ![Generate New Type dialog box](../ide/media/genotherdialog.png "GenOtherDialog")  
   
 6.  Click **OK** to close the dialog box and create the new file.  
   
-7.  In **Solution Explorer**, look under the GFUDemo_VB or GFUDemo_CS project node to verify that the new Automobile.vb or Automobile.cs file is there. In the Code Editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`. You can continue to write your test with a minimum of interruption.  
+7.  In **Solution Explorer**, look under the GFUDemo_VB or GFUDemo_CS project node to verify that the new Automobile.vb or Automobile.cs file is there. In the code editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`, which enables you to continue to write your test with a minimum of interruption.  
   
 ### To generate a property stub  
 Assume that the product specification states that the `Automobile` class has two public properties named `Model` and `TopSpeed`. These properties must be initialized with default values of `"Not specified"` and `-1` by the default constructor. The following unit test will verify that the default constructor sets the properties to their correct default values.  
@@ -137,7 +137,7 @@ Assume that the specification states that a new `Automobile` can be put into a R
   
 ### To implement the source code  
   
-1.  Add the following code to the default constructor so that the `Model`, `TopSpeed` and `IsRunning` properties are all initialized to their correct default values of `"Not specified"`, `-1`, and `True` (or `true` for C#).  
+1.  Add the following code to the default constructor so that the `Model`, `TopSpeed` and `IsRunning` properties are all initialized to their correct default values of `"Not specified"`, `-1`, and `False` (or `false` for C#).  
   
      [!code-csharp[VbTDDWalkthrough#5](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.cs)]
      [!code-vb[VbTDDWalkthrough#5](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.vb)]  
@@ -149,7 +149,7 @@ Assume that the specification states that a new `Automobile` can be put into a R
   
 ### To run the tests again  
   
-On the **Test** menu, point to **Run**, and then click **All Tests**.  
+- On the **Test** menu, point to **Run**, and then click **All Tests**.  
 
      This time the tests pass. The **Test Results** window is shown in the following illustration.  
   
