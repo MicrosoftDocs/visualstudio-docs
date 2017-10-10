@@ -84,7 +84,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |-|-|  
 |IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)|  
 |Force Show IntelliSense|Ctrl+J|  
-|Smart Tags|Ctrl+.|  
+|Quick Actions|Ctrl+.|  
 |Snippet Picker|Ctrl+K,X or ?,Tab (VB)|  
 |Surround With|Ctrl+K,S|  
 |Show Quick Info|Ctrl+K,I|  

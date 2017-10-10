@@ -36,11 +36,11 @@ manager: "ghogen"
 
 1.  On the menu bar, choose **View**, **Toolbox**.  
 
-2.  Choose the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
+2.  Use the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
 
-3.  Choose the Up Arrow or **Down Arrow** keys to move among the controls.  
+3.  Use the Up Arrow or **Down Arrow** keys to move among the controls.  
 
-4.  After the control is selected, choose the Enter key.  
+4.  After the control is selected, use the Enter key.  
 
  The control is added to the form or designer.  
 
@@ -70,13 +70,13 @@ manager: "ghogen"
 
 -   To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.  
 
--   To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter keyto navigate to the highlighted window.  
+-   To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.  
 
 #### To move and dock tool windows from the keyboard  
 
 1.  Navigate to the tool window you intend to move and give it focus.  
 
-2.  On the **Window** menu, click **Dockable**.  
+2.  On the **Window** menu, select the  **Dockable** option.  
 
 3.  Press **ALT** + **Space** and then choose **Move**.  
 
