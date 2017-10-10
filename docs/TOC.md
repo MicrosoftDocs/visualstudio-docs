@@ -29,6 +29,7 @@
 ### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
 ### [Workload and Component ID Reference](install/workload-and-component-ids.md)
 # Quickstarts
+## [Quickstart: use Visual Studio to create your first ASP.NET Core web app](ide/quickstart-aspnet-core.md)
 ## [Walkthrough: Create a Simple Application with Visual C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
 ## (TODO) Move around in the IDE
 ## (TODO) Working with Solutions and Projects
