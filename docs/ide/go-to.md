@@ -25,7 +25,7 @@ Visual Studio's **Go To** commands perform a focused search of your code to help
 
 Input        | Function 
 ------------ | ---
-**Keyboard** | Press **Ctrl + T**  
+**Keyboard** | Press **Ctrl + t** or **Ctrl + ,**     
 **Mouse**    | Select **Edit**, **Go To**, **Go To All**  
 
 This will display a small window at the top right of your code editor, by default.  

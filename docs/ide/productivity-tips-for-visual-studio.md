@@ -13,20 +13,6 @@ caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Productivity Tips for Visual Studio
 By following these tips, you can more quickly and efficiently write, navigate, and debug your code in Visual Studio. For more information about common keyboard shortcuts, see [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md). For a more complete list, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
@@ -85,23 +71,11 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      To insert a snippet, on the menu bar, choose **Edit**, **IntelliSense**, **Insert Snippet** or open the shortcut menu in a file and choose **Insert Snippet**. For more information, see [Code Snippets](../ide/code-snippets.md).  
   
--   **Fix code errors inline**. Smart Tags appear as blue or red boxes under a line of code. You can display Smart Tag options by pointing to one of the boxes or by placing the cursor in the line of code and choosing the Ctrl + . (period) keys.  
-  
-     Blue boxes suggest ways to fix errors in your code.  
-  
-     Figure 1: Error Smart Tags  
-  
-     ![Error Smart Tag Suggestions](../ide/media/productivity_bluesmarttags.png "Productivity_BlueSmartTags")  
-  
-     Red boxes suggest ways to refactor your code.  
-  
-     Figure 2: Refactoring Smart Tags  
-  
-     ![Refactor Smart Tag Suggestions](../ide/media/productivity_redsmarttags.png "Productivity_RedSmartTags")  
-  
+-   **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or by pressing **Alt + Enter** or **Ctrl + .** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.  
+
 -   **Show and edit the definition of a code element**. You can quickly show and edit the module in which a code element, such as a member, a variable, or a local, is defined.  
   
-     To open a definition in a pop-up window, highlight the element and then choose the Alt+F12 keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.  
+     To open a definition in a pop-up window, highlight the element and then choose the **Alt+F12** keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.  
   
 ##  <a name="BKMK_Navigating"></a> Navigating Within Your Code  
  You can use various techniques to find and move to specific locations in your code more quickly.  
