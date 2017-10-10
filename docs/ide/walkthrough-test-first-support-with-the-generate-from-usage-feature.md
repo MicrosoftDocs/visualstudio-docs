@@ -62,7 +62,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
  > [!NOTE]
  >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an IntelliSense window is open, you can press **Ctrl+Alt+SPACEBAR** to toggle between completion mode and suggestion mode. See [Using IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.  
   
-3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a Quick Actions light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.  
+3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a [Quick Actions](../ide/quick-actions.md) light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.  
   
      ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
 
@@ -160,3 +160,4 @@ Assume that the specification states that a new `Automobile` can be put into a R
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)
+ [Quick Actions](../ide/quick-actions.md)
