@@ -29,7 +29,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
   
  The Generate From Usage feature can be used with test frameworks that integrate with Visual Studio. In this topic, the Microsoft Unit Testing Framework is demonstrated.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To create a Windows Class Library project and a Test project  
   
