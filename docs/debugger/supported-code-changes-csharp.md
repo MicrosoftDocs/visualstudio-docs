@@ -42,11 +42,11 @@ Edit and Continue handles most types of code changes within method bodies. Most 
 
 The table below shows the changes that may be made to C# code during a debugging session without restarting the session.
 
-|Language element/feature|Edit operation|Limitations|
+|Language element/feature|Supported edit operation|Limitations|
 |-|-|-|
 |Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |Iterators|Add or modify|No|
-|async/await|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |Dynamic objects|Add or modify|No|
 |C# 6.0 language features|Add or modify|No|
 |lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
@@ -59,45 +59,42 @@ The table below shows the changes that may be made to C# code during a debugging
   
      Active statements include any statements, in functions on the call stack, that were called to get to the current statement.  
   
-     The current statement is marked by a yellow background in the source window. Other active statements are marked by a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.  
-  
--   Changing the signature of a type.  
-  
--   Adding an anonymous method that captures a variable that hasn't been captured before.  
-  
--   Adding, removing, or changing attributes.  
-  
--   Adding, removing, or changing `using` directives.  
-  
--   Adding a `foreach`, `using`, or `lock` around the active statement.  
+     The current statement is marked by a yellow background in the source window. Other active statements are marked by a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.
 
+- The following table shows unsupported changes to code by language element.
 
-
-
-|Language element/feature|Edit operation|
+|Language element/feature|Unsupported edit operation|
 |-|-|
-|Methods|Modify signatures|
+|All code elements|Renaming|
+|Namespaces|Add|
+|Namespaces, types, members|Delete|
 |Generics|Add or modify|
 |Interfaces|Modify|
-|Methods|Add method body|
 |Types|Add abstract or virtual member, add override|
 |Types|Add destructor|
+|Members|Modify a member referencing an embedded interop type|
+|Members (Visual Basic)|Modify a member with On Error or Resume statement|
+|Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
+|Methods|Modify signatures|
+|Methods|Add method body|
+|Methods|Delete method body|
 |Events or properties|Modify a type parameter, base type, delegate type, or return type |
 |Operators or indexers|Modify a type parameter, base type, delegate type, or return type |
 |catch blocks|Modify when it contains an active statement|
 |try-catch-finally blocks|Modify when it contains an active statement|
-|All code elements|Renaming|
-|Members, types, namespaces|Delete|
-|Methods|Delete method bodies|
 |using statements|Add|
-|Namespaces|Add|
-|Members (Visual Basic)|Edit member referencing an embedded interop type|
-|Members (Visual Basic)|Edit member with On Error or Resume statement|
-|async methods/lambdas|Edit an async method/lambda in a project that doesn't define or reference AsyncStateMachineAttribute type (e.g. projects targeting .NET Framework 4.0 and lower)|
-|Iterators|Edit an iterator method/lambda in a project that doesn't define or reference IteratorStateMachineAttribute type (e.g. projects targeting .NET Framework 4.0 and lower)|
+|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
   
 ## Unsafe code  
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.  
+
+## Unsupported app scenarios
+
+Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
+
+> [!NOTE]
+> Apps that are supported include UWP in Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
   
 ## Unsupported scenarios  
  Edit and Continue is not available in the following debugging scenarios:  

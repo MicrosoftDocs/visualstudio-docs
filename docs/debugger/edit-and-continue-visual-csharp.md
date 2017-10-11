@@ -41,8 +41,11 @@ translation.priority.ht:
 With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.  
   
  Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md).  
-  
- Edit and Continue is supported for 64-bit projects that target the .NET Framework 4.5.1.  
+
+Edit and Continue is supported in UWP in Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
+
+ > [!NOTE]
+ > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
   
  When Edit and Continue is enabled, supported changes are applied automatically when you use a debugger execution command, such as **Continue**, **Step**, **Set Next Statement**, or perform a function evaluation in a debugger window.  
   
