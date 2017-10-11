@@ -107,11 +107,11 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
         <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
         ```
 
-    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskExample", the entry would appear as follows:
+    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskAzurePublishExample", the entry would appear as follows:
 
         ```xml
         <!-- Flask apps only: change the project name to match your app -->
-        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.App"/>
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
     - **Django**: Two changes are needed to `web.config` for Django apps. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the `wsgi.py` file):
