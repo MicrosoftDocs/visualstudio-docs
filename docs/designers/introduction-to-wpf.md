@@ -362,10 +362,17 @@ End Namespace
   
 ### Content Model  
  The main purpose of a majority of the WPF controls is to display content. In WPF, the type and number of items that can constitute the content of a control is referred to as the control's *content model*. Some controls can contain a single item and type of content; for example, the content of a <xref:System.Windows.Controls.TextBox> is a string value that is assigned to the <xref:System.Windows.Controls.TextBox.Text%2A> property. The following example sets the content of a <xref:System.Windows.Controls.TextBox>.  
-  
- [!code-xaml[IntroToWPFSnippets#TextBoxContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_10.xaml)]  
-[!code-xaml[IntroToWPFSnippets#TextBoxContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_11.xaml)]  
-[!code-xaml[IntroToWPFSnippets#TextBoxContentMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_12.xaml)]  
+
+```xaml  
+<Window 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SDKSample.TextBoxContentWindow"
+    Title="TextBox Content">  
+
+    <TextBox Text="This is the content of a TextBox." />  
+</Window>  
+```
   
  The following figure shows the result.  
   
@@ -373,9 +380,25 @@ End Namespace
   
  Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.  
   
- [!code-xaml[IntroToWPFSnippets#ButtonContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_13.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ButtonContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_14.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ButtonContentMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_15.xaml)]  
+```xaml
+<Window 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SDKSample.ButtonContentWindow"
+    Title="Button Content">  
+
+  <Button Margin="20">
+    <!-- Button Content -->
+    <DockPanel Width="200" Height="180">
+      <Label DockPanel.Dock="Top" HorizontalAlignment="Center">Click Me!</Label>
+      <Border Background="Black" BorderBrush="Yellow" BorderThickness="2" 
+        CornerRadius="2" Margin="5">
+        <MediaElement Source="media/wpf.wmv" Stretch="Fill" />
+      </Border>
+    </DockPanel>
+  </Button>  
+</Window>  
+```
   
  The following figure shows the content of this button.  
   
@@ -409,10 +432,54 @@ End Namespace
   
  The default appearance is what you would expect from a <xref:System.Windows.Controls.ListBox>. However, the default appearance of each task contains only the task name. To show the task name, description, and priority, the default appearance of the <xref:System.Windows.Controls.ListBox> control's bound list items must be changed by using a <xref:System.Windows.DataTemplate>. The following XAML defines such a <xref:System.Windows.DataTemplate>, which is applied to each task by using the <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> attribute.  
   
- [!code-xaml[IntroToWPFSnippets#DataTemplateMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_18.xaml)]  
-[!code-xaml[IntroToWPFSnippets#DataTemplateMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_19.xaml)]  
-[!code-xaml[IntroToWPFSnippets#DataTemplateMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_20.xaml)]  
-[!code-xaml[IntroToWPFSnippets#DataTemplateMARKUP4](../designers/codesnippet/Xaml/introduction-to-wpf_21.xaml)]  
+```xaml
+<Window
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  x:Class="SDKSample.DataTemplateWindow"
+  Title="With a Data Template">
+  <Window.Resources>
+    <!-- Data Template (applied to each bound task item in the task collection) -->
+    <DataTemplate x:Key="myTaskTemplate">
+      <Border Name="border" BorderBrush="DarkSlateBlue" BorderThickness="2" 
+        CornerRadius="2" Padding="5" Margin="5">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,5,0" Text="Task Name:"/>
+          <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=TaskName}"/>
+          <TextBlock Grid.Row="1" Grid.Column="0" Padding="0,0,5,0" Text="Description:"/>
+          <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Description}"/>
+          <TextBlock Grid.Row="2" Grid.Column="0" Padding="0,0,5,0" Text="Priority:"/>
+          <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Priority}"/>
+        </Grid>
+      </Border>  
+    </DataTemplate>
+  </Window.Resources>
+
+  <!-- UI -->
+  <DockPanel>
+    <!-- Title -->
+    <Label DockPanel.Dock="Top" FontSize="18" Margin="5" Content="My Task List:"/>
+  
+    <!-- Data template is specified by the ItemTemplate attribute -->
+    <ListBox 
+      ItemsSource="{Binding}" 
+      ItemTemplate="{StaticResource myTaskTemplate}" 
+      HorizontalContentAlignment="Stretch" 
+      IsSynchronizedWithCurrentItem="True" 
+      Margin="5,0,5,5" />
+
+ </DockPanel>
+</Window>
+```  
   
  The following figure shows the effect of this code.  
   
@@ -425,10 +492,30 @@ End Namespace
 ### Styles  
  Styles enable developers and designers to standardize on a particular appearance for their product. WPF provides a strong style model, the foundation of which is the <xref:System.Windows.Style> element. The following example creates a style that sets the background color for every <xref:System.Windows.Controls.Button> on a window to `Orange`.  
   
- [!code-xaml[IntroToWPFSnippets#StyleMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_22.xaml)]  
-[!code-xaml[IntroToWPFSnippets#StyleMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_23.xaml)]  
-[!code-xaml[IntroToWPFSnippets#StyleMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_24.xaml)]  
-[!code-xaml[IntroToWPFSnippets#StyleMARKUP4](../designers/codesnippet/Xaml/introduction-to-wpf_25.xaml)]  
+```xaml
+<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SDKSample.StyleWindow"
+    Title="Styles">  
+  <!-- Style that will be applied to all buttons -->
+  <Style TargetType="{x:Type Button}">
+    <Setter Property="Background" Value="Orange" />
+    <Setter Property="BorderBrush" Value="Crimson" />
+    <Setter Property="FontSize" Value="20" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Setter Property="Margin" Value="5" />
+  </Style>  
+  <!-- This button will have the style applied to it -->
+  <Button>Click Me!</Button>
+
+  <!-- This label will not have the style applied to it -->
+  <Label>Don't Click Me!</Label>
+
+  <!-- This button will have the style applied to it -->
+  <Button>Click Me!</Button>  
+</Window>
+```  
   
  Because this style targets all <xref:System.Windows.Controls.Button> controls, the style is automatically applied to all the buttons in the window, as shown in the following figure.  
   
@@ -441,9 +528,25 @@ End Namespace
   
  The following example defines a common background color that is shared by a <xref:System.Windows.Controls.Button> and a <xref:System.Windows.Controls.Label>.  
   
- [!code-xaml[IntroToWPFSnippets#ResourceWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_26.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ResourceWindowMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_27.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ResourceWindowMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_28.xaml)]  
+```xaml
+<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SDKSample.ResourcesWindow"
+    Title="Resources Window">
+  
+  <!-- Define window-scoped background color resource -->
+  <Window.Resources>
+    <SolidColorBrush x:Key="defaultBackground" Color="Red" />
+  </Window.Resources>  
+
+  <!-- Button background is defined by window-scoped resource -->
+  <Button Background="{StaticResource defaultBackground}">One Button</Button>
+
+  <!-- Label background is defined by window-scoped resource -->
+  <Label Background="{StaticResource defaultBackground}">One Label</Label>  
+</Window>
+``` 
   
  This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:  
   
@@ -457,13 +560,35 @@ End Namespace
   
  As an alternative to directly associating your resources with a particular scope, you can package one or more resources by using a separate <xref:System.Windows.ResourceDictionary> that can be referenced in other parts of an application. For example, the following example defines a default background color in a resource dictionary.  
   
- [!code-xaml[IntroToWPFSnippets#ResourceDictionaryMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_29.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ResourceDictionaryMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_30.xaml)]  
+```xaml
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- Define background color resource -->
+  <SolidColorBrush x:Key="defaultBackground" Color="Red" />
+
+  <!-- Define other resources -->
+</ResourceDictionary>
+```  
   
  The following example references the resource dictionary defined in the previous example so that it is shared across an application.  
   
- [!code-xaml[IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_31.xaml)]  
-[!code-xaml[IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_32.xaml)]  
+```xaml
+<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SDKSample.App">
+  
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="BackgroundColorResources.xaml"/>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
+```  
   
  Resources and resource dictionaries are the foundation of WPF support for themes and skins.  
   
