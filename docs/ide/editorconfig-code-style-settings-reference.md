@@ -19,14 +19,13 @@ manager: "ghogen"
 ms.technology: 
   - "vs-ide-general"
 ---
-
 # .NET Coding Convention Settings For EditorConfig
-.NET coding conventions are configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable or disable individual .NET coding conventions** and **configure the degree to which you want the convention enforced** via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
+.NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable or disable individual .NET coding conventions** and **configure the degree to which you want the convention enforced** via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
 There are three supported .NET coding convention categories:  
-- **[Language Conventions](#language)** are rules pertaining to the C# or Visual Basic language. For example, using `var` versus an explicit type when defining variables, or using expression-bodied members.  
-- **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read. For example, Allman braces and spaces in control blocks are formatting options.  
-- **[Naming Conventions](#naming)** are rules regarding the naming of code elements. For example, `async` methods must end in "Async".  
+- **Language Conventions** are rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or using expression-bodied members.  
+- **Formatting Rules** are rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces and spaces in control blocks.  
+- **Naming Conventions** are rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
 ## Language Conventions  
 ### Rule Format  
