@@ -176,7 +176,7 @@ In this section, you'll create the application infrastructure, which includes th
      Your ExpenseReportPage.xaml file should now look like this in C#:  
   
     ```xaml  
-    Page x:Class="ExpenseIt.ExpenseReportPage"  
+    <Page x:Class="ExpenseIt.ExpenseReportPage"  
           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"   
@@ -383,11 +383,11 @@ In this section, you'll create the application infrastructure, which includes th
   
 1.  Open **ExpenseItHome.xaml**.  
   
-2.  Chose the `<Button` element and add the following XAML code immediately after the **HorizontalAlignment="Right"** element: `Click="Button_Click"`.  
+2.  Chose the `Button` element and add the following XAML code immediately after the `HorizontalAlignment="Right"` element: `Click="Button_Click"`.  
   
-     This adds an event handler for the button's `Click` event. The **<Button** element code should now look like this:  
+     This adds an event handler for the button's `Click` event. The **Button** element code should now look like this:  
   
-    ```  
+    ```xaml  
     <!-- View report button -->  
       <Button Grid.Column="1" Grid.Row="3" Margin="0,10,0,0" Width="125"  
     Height="25" HorizontalAlignment="Right" Click="Button_Click">View</Button>  
@@ -402,8 +402,7 @@ In this section, you'll create the application infrastructure, which includes th
     {  
         // View Expense Report  
         ExpenseReportPage expenseReportPage = new ExpenseReportPage();  
-        this.NavigationService.Navigate(expenseReportPage);  
-  
+        this.NavigationService.Navigate(expenseReportPage);    
     }  
     ```  
   
