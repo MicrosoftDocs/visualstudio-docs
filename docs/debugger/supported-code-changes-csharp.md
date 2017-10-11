@@ -35,9 +35,24 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Supported Code Changes (C#)
-Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.  
-  
+# Supported code changes (C#)
+Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
+
+## Supported changes to C# code
+
+The table below shows the changes that may be made to C# code during a debugging session without restarting the session.
+
+|Language element/feature|Edit operation|Limitations|
+|-|-|-|
+|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Iterators|Add or modify|No|
+|async/await|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Dynamic objects|Add or modify|No|
+|C# 6.0 language features|Add or modify|No|
+|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|LINQ expressions|Add or modify|[Same as lambda](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+
+## Unsupported changes to C# code
  The following changes cannot be applied to C# code during a debugging session:  
   
 -   Changes to the current statement or any other active statement.  
@@ -55,29 +70,37 @@ Edit and Continue handles most types of code changes within method bodies. Most 
 -   Adding, removing, or changing `using` directives.  
   
 -   Adding a `foreach`, `using`, or `lock` around the active statement.  
+
+
+
+
+|Language element/feature|Edit operation|
+|-|-|
+|Methods|Modify signatures|
+|Generics|Add or modify|
+|Interfaces|Modify|
+|Methods|Add method body|
+|Types|Add abstract or virtual member, add override|
+|Types|Add destructor|
+|Events or properties|Modify a type parameter, base type, delegate type, or return type |
+|Operators or indexers|Modify a type parameter, base type, delegate type, or return type |
+|catch blocks|Modify when it contains an active statement|
+|try-catch-finally blocks|Modify when it contains an active statement|
+|All code elements|Renaming|
+|Members, types, namespaces|Delete|
+|Methods|Delete method bodies|
+|using statements|Add|
+|Namespaces|Add|
+|Members (Visual Basic)|Edit member referencing an embedded interop type|
+|Members (Visual Basic)|Edit member with On Error or Resume statement|
+|async methods/lambdas|Edit an async method/lambda in a project that doesn't define or reference AsyncStateMachineAttribute type (e.g. projects targeting .NET Framework 4.0 and lower)|
+|Iterators|Edit an iterator method/lambda in a project that doesn't define or reference IteratorStateMachineAttribute type (e.g. projects targeting .NET Framework 4.0 and lower)|
   
-## Unsafe Code  
+## Unsafe code  
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.  
   
-## Exceptions  
- Edit and Continue supports changes to `catch` and `finally` blocks, except that adding a `catch` or `finally` block around the active statement is not allowed.  
-  
-## Unsupported Scenarios  
+## Unsupported scenarios  
  Edit and Continue is not available in the following debugging scenarios:  
-  
--   Debugging LINQ code in certain circumstances. For more information, see [Debugging LINQ](../debugger/debugging-linq.md).  
-  
-    -   Capturing a variable that hasn't been captured before.  
-  
-    -   Changing the type of query expression. (e.g., select a => select new { A = a };)  
-  
-    -   Removing a `where` that contains an active statement.  
-  
-    -   Removing a `let` that contains an active statement.  
-  
-    -   Removing a `join` that contains an active statement.  
-  
-    -   Removing an `orderby` that contains an active statement.  
   
 -   Mixed-mode (native/managed) debugging.  
   
@@ -93,7 +116,7 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 -   Debugging optimized code.  
   
--   Debugging an old version of your code after a new version failed to build because of build errors.  
+-   Debugging an old version of your code after a new version failed to build because of build errors.
   
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
