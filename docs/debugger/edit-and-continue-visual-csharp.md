@@ -1,7 +1,7 @@
 ---
 title: "Edit and Continue (Visual C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,27 +22,13 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Edit and Continue (Visual C#)
-With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.  
+ With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.  
   
- Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md).  
+ Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).  
 
-Edit and Continue is supported in UWP in Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
+ Edit and Continue is supported in UWP in Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
 
  > [!NOTE]
  > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
@@ -53,4 +39,4 @@ Edit and Continue is supported in UWP in Windows 10 and apps that support the .N
   
 ## See Also  
  [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)   
- [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md)
+ [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)

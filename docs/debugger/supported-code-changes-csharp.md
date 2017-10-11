@@ -1,7 +1,7 @@
 ---
-title: "Supported Code Changes (C#) | Microsoft Docs"
+title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,32 +15,19 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue [C#], supported code changes"
+  - "Edit and Continue [Visual Basic], supported code changes"
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-# Supported code changes (C#)
+# Supported code changes (C# and Visual Basic)
 Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
 
-## Supported changes to C# code
+## Supported changes to code
 
-The table below shows the changes that may be made to C# code during a debugging session without restarting the session.
+The table below shows the changes that may be made to C# and Visual Basic code during a debugging session without restarting the session.
 
 |Language element/feature|Supported edit operation|Limitations|
 |-|-|-|
@@ -48,12 +35,12 @@ The table below shows the changes that may be made to C# code during a debugging
 |Iterators|Add or modify|No|
 |async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |Dynamic objects|Add or modify|No|
-|C# 6.0 language features|Add or modify|No|
+|C# 6.0 language features|Add or modify|See [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |LINQ expressions|Add or modify|[Same as lambda](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 
-## Unsupported changes to C# code
- The following changes cannot be applied to C# code during a debugging session:  
+## Unsupported changes to code
+ The following changes cannot be applied to C# and Visual Basic code during a debugging session:  
   
 -   Changes to the current statement or any other active statement.  
   
@@ -70,14 +57,15 @@ The table below shows the changes that may be made to C# code during a debugging
 |Namespaces, types, members|Delete|
 |Generics|Add or modify|
 |Interfaces|Modify|
-|Types|Add abstract or virtual member, add override|
+|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
 |Types|Add destructor|
 |Members|Modify a member referencing an embedded interop type|
 |Members (Visual Basic)|Modify a member with On Error or Resume statement|
 |Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
 |Methods|Modify signatures|
-|Methods|Add method body|
+|Methods|Make an abstract method become non-abstract by adding a method body|
 |Methods|Delete method body|
+|Attributes|Add or modify|
 |Events or properties|Modify a type parameter, base type, delegate type, or return type |
 |Operators or indexers|Modify a type parameter, base type, delegate type, or return type |
 |catch blocks|Modify when it contains an active statement|
@@ -109,7 +97,7 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone a
   
 -   Debugging an embedded runtime application.  
   
--   Debugging an application that has **Attach to** instead of running the application by choosing **Start** from the **Debug** menu.  
+-   Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.  
   
 -   Debugging optimized code.  
   
