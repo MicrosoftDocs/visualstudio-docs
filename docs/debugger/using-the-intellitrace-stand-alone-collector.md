@@ -92,7 +92,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 1.  On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**  
   
-2.  Get the collector from the Microsoft Download Center or from the Visual Studio 2103 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::  
+2.  Get the collector from the Microsoft Download Center or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::  
   
     -   **Microsoft Download Center**:  
   
