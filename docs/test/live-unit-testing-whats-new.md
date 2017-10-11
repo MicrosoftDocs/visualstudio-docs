@@ -1,6 +1,6 @@
 ---
 title: "What's New in Live Unit Testing"
-ms.date: "2017-10-04"
+ms.date: "10-11-2017"
 ms.technology: 
   - "vs-devops-test"
 ms.topic: "article"
@@ -17,7 +17,7 @@ This topic lists the new features added to Live Unit Testing in each version of 
 
 ## What's new in Live Unit Testing for Visual Studio 2017 version 15.4
 
-Starting with Visual Studio 2017 version 15.4, Live Unit Testing improvements and enhancements in two major areas:
+Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improvements and enhancements in a number of areas:
 
 - **Improved discoverability**. For users who do not know that the Live Unit Testing feature exists, the Visual Studio IDE shows a gold bar that mentions Live Unit Testing whenever the user opens a solution that includes unit tests but Live Unit Testing is not enabled. The information presented in the gold bar allows the user to learn more about Live Unit Testing and to enable it. The gold bar also displays information when Live Unit Testing prerequisites are not met. These include:
 
@@ -55,3 +55,8 @@ In addition to these major additions, Live Unit Testing includes the following e
    - For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
    - For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
    - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+
+## See also
+[Introducing Live Unit Testing](live-unit-testing-intro.md)   
+[Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
+
