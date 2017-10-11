@@ -1,6 +1,6 @@
 ---
 title: "Capabilities of Dotfuscator | Microsoft Docs"
-ms.date: "2017-06-22"
+ms.date: "2017-10-10"
 ms.devlang: "dotnet"
 ms.technology: 
   - "vs-ide-general"
@@ -91,8 +91,8 @@ When run, the processed application will transmit analytics data to a configured
 [obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_overview.html
 [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[analytics]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_overview.html
-[endpoints]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_overview.html#endpoints
+[analytics]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html
+[endpoints]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html#endpoints
 
 [checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
 [check-app]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#app-notification
@@ -101,9 +101,9 @@ When run, the processed application will transmit analytics data to a configured
 [tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
 [debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
 [shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
-[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_exceptions.html
-[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_sessions.html
-[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_features.html
-[check-telemetry]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_checks.html
+[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
+[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
+[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
+[check-telemetry]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_checks.html
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_capabilities.html

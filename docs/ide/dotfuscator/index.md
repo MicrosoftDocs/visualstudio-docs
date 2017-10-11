@@ -1,6 +1,6 @@
 ---
 title: "Dotfuscator Community Edition (CE) | Microsoft Docs"
-ms.date: "2017-06-22"
+ms.date: "2017-10-10"
 ms.devlang: "dotnet"
 ms.technology: 
   - "vs-ide-general"
@@ -115,8 +115,8 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 [debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
 [shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
 
-[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_exceptions.html
-[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_sessions.html
-[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_features.html
+[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
+[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
+[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
