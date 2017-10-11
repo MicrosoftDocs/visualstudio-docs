@@ -28,18 +28,18 @@ manager: "ghogen"
 # Edit and Continue (Visual Basic)
 Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
   
- You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line that will be executed next, and will be located on an executable statement within a method or property body.
+ You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line containing an executable statement in a method or property body that will be executed next.
 
  Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).   
   
  When you make an unauthorized edit, the change is marked with a purple wavy underline and a task is displayed in the Task List. You must undo an unauthorized edit if you want to continue to use Edit and Continue. Certain unauthorized edits may be permitted if done outside Edit and Continue. If you want to retain the results of such an unauthorized edit, you must stop debugging and restart your application.  
   
- Edit and Continue is supported in UWP apps for Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
+ Edit and Continue is supported in UWP apps for Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
  > [!NOTE]
  > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
   
- Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code, mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md).
+ Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md).
   
  The topics in this section provide additional details about how to use this feature and what kinds of changes are not allowed.  
   

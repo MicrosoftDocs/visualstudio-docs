@@ -47,7 +47,7 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
   
     -   When an exception occurs, choose **Enable Editing** on the**Exception Assistant**.  
   
-2.  Make any desired and legal code changes.  
+2.  Make any desired and supported code changes.  
   
      For more information, see [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md).  
   

@@ -35,9 +35,11 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |Iterators|Add or modify|No|
 |async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |Dynamic objects|Add or modify|No|
-|C# 6.0 language features|Add or modify|See [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
 |lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
-|LINQ expressions|Add or modify|[Same as lambda](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+
+> [!NOTE]
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits) page.
 
 ## Unsupported changes to code
  The following changes cannot be applied to C# and Visual Basic code during a debugging session:  
@@ -82,7 +84,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
 
 > [!NOTE]
-> Apps that are supported include UWP in Windows 10 and apps that support the .NET Framework 4.6 desktop version of the CLR for both x86 and x64 (for example, Console, WPF, and Windows 8.1 apps).
+> Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
   
 ## Unsupported scenarios  
  Edit and Continue is not available in the following debugging scenarios:  

@@ -27,7 +27,7 @@ With Edit and Continue for C#, you can make changes to your code in break mode w
  Edit and Continue is invoked automatically when you make changes in break mode, then choose a debugger execution command, such as **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.  
   
 > [!NOTE]
->  Edit and Continue is not supported when debugging optimized code, mixed native/managed code, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes in one of these scenarios, the debugger puts up a dialog box explaining that Edit and Continue is not supported.  
+>  Edit and Continue is not supported when debugging optimized code, mixed native/managed code, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes in one of these scenarios, the debugger displays a dialog box explaining that Edit and Continue is not supported.  
   
 ### To invoke Edit and Continue automatically  
   
