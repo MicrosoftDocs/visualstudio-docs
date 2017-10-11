@@ -23,7 +23,7 @@
 ## [Create Modern Desktop Applications with Windows Presentation Foundation](create-modern-desktop-applications-with-windows-presentation-foundation.md)
 ### [Getting Started with WPF](getting-started-with-wpf.md)
 #### [Introduction to WPF](introduction-to-wpf.md)
-#### [Walkthrough: My First WPF Desktop Application2](walkthrough-my-first-wpf-desktop-application2.md)
+#### [Walkthrough: My First WPF Desktop Application](walkthrough-my-first-wpf-desktop-application2.md)
 #### [WPF Community Resources](wpf-community-resources.md)
 #### [WPF Data Binding with LINQ to XML](wpf-data-binding-with-linq-to-xml.md)
 ##### [WPF Data Binding with LINQ to XML Overview](wpf-data-binding-with-linq-to-xml-overview.md)

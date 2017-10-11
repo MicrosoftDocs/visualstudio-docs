@@ -156,7 +156,7 @@ In this section, you'll create the application infrastructure, which includes th
     In Visual Basic, the first line will by slightly different:  
   
     ```xaml  
-    NavigationWindow x:Class="MainWindow"
+    <NavigationWindow x:Class="MainWindow"
     ```  
   
      As with the properties that you set earlier, you could have set the `Source` property in the **Miscellaneous** category of the **Properties** window.  
