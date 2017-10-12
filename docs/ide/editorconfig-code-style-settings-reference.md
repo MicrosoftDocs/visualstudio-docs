@@ -19,40 +19,33 @@ manager: "ghogen"
 ms.technology: 
   - "vs-ide-general"
 ---
-# .NET Coding Convention Settings For EditorConfig
+# .NET coding convention settings for EditorConfig
 .NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.  
 
 There are three supported .NET coding convention categories:  
-- **Language Conventions**  
-   Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or using expression-bodied members.  
-- **Formatting Conventions**  
-   Rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces and spaces in control blocks.  
-- **Naming Conventions**  
+- [Language Conventions](#language-conventions)  
+   Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or preferring expression-bodied members.  
+- [Formatting Conventions](#formatting-conventions)  
+   Rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces, or preferring spaces in control blocks.  
+- [Naming Conventions](#naming-conventions)  
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
-## Language Conventions  
-### Rule Format  
-`options_name = false|true : none|suggestion|warning|error`
+## Language conventions  
+The rule for language conventions has the following format: `options_name = false|true : none|suggestion|warning|error`. For each language convention option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), and a **severity**. The severity specifies the level of enforcement for that style.  
 
-For each code style option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), a colon (`:`), and a severity (`none`, `silent`, `suggestion`, `warning`, or `error`). The severity specifies the level of enforcement for that style.  
-
-`none` and `silent` are synonymous, and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.  
+The following table lists the possible severity values and their effects:  
 
 Severity | Effect
 ------------ | -------------
-none or silent | Do not show anything to the user when this style is not being followed. Code generation features will generate code in this style.  
-suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).  
-warning | When this style is not being followed, show a compiler warning.  
-error | When this style is not being followed, show a compiler error.  
+none or silent | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however.  
+suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as two dots under the first two characters.  
+warning | When this style rule is violated, show a compiler warning.  
+error | When this style rule is violated, show a compiler error.  
 
-### .NET Language Convention Options
+The following list shows the allowable language convention options:  
 
-- [.NET Code Style Settings](#this_and_me)
+- .NET Code Style Settings
     - ["This." and "Me." qualifiers](#this_and_me)
-        - [Fields](#this_and_me_fields)
-        - [Properties](#this_and_me_properties)
-        - [Methods](#this_and_me_methods)
-        - [Events](#this_and_me_events)
     - [Language keywords (int, string, etc.) vs framework type names for type references](#language_keywords)
         - [Locals, parameters, and members](#language_keywords_variables)
         - [Member access expressions](#language_keywords_member_access)
@@ -84,84 +77,44 @@ error | When this style is not being followed, show a compiler error.
         - [Throw-expressions](#null_checking_throw_expressions)
         - [Conditional delegate calls](#null_checking_conditional_delegate_calls)
     - [Code Block Preferences](#code_block)
-        - [Prefer braces](#prefer_braces)
+        - [Prefer braces](#prefer_braces)  
 
-## <a name="this_and_me">"This." and "Me." qualifiers</a>
-### <a name="this_and_me_fields">Fields (IDE0003/IDE0009)</a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+### .NET code style settings
+
+#### <a name="this_and_me">"This." and "Me." qualifiers (IDE0003/IDE0009)</a>
+This style rule can be applied to fields, properties, methods and events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** meanss prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
+
+The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
+
+| Option Name | Applicable languages | Visual Studio default value | Supported version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-|  `dotnet_style_qualification_for_field` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
+| `dotnet_style_qualification_for_field` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
+| `dotnet_style_qualification_for_property` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
+| `dotnet_style_qualification_for_method` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
+| `dotnet_style_qualification_for_event` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |   
 
+The following table shows examples of what code might look like with and without this style rule applied:  
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer all non-static fields used in non-static methods to be prefaced with `this.` in C# or `Me.` in Visual Basic. | **C#:** <br>`this.capacity = 0;` <br><br> **Visual Basic:** <br> `Me.capacity = 0`
-| False | Prefer all non-static fields used in non-static methods to not be prefaced with `this.` in C# or `Me.` in Visual Basic. | **C#:** <br>`capacity = 0;` <br><br> **Visual Basic:** <br>`capacity = 0`
+| Symbol | With style rule applied | Without style rule applied |
+| :---------: | :--------------------- | :------------------------ |
+| Field | C# `this.capacity = 0;` <br>Visual Basic `Me.capacity = 0` | C# `capacity = 0;` <br>Visual Basic `capacity = 0` |
+| Property | C# `this.ID = 0;` <br>Visual Basic `Me.ID = 0` | C# `ID = 0;` <br>Visual Basic `ID = 0` |
+| Method | C# `this.Display();` <br>Visual Basic `Me.Display()` | C# `Display();` <br>Visual Basic `Display()` |
+| Event | C# `this.Elapsed += Handler;` <br>Visual Basic `AddHandler Me.Elapsed, AddressOf Handler` | C# `Elapsed += Handler;` <br>Visual Basic `AddHandler Elapsed, AddressOf Handler` |  
 
-#### Example editorconfig file:
+This rule could appear in an .editorconfig file as follows:  
+
 ```
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_qualification_for_field = false:suggestion
-```
-
-### <a name="this_and_me_properties">Properties (IDE0003/IDE0009) </a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_qualification_for_property`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer the all non-static properties used in non-static methods to be prefaced with `this.` in C# or `Me.` in Visual Basic.| **C#:** <br>`this.ID = 0;` <br><br> **Visual Basic:** <br>`Me.ID = 0`
-| False | Prefer all non-static properties used in non-static methods to *not* be prefaced with `this.` in C# or `Me.` in Visual Basic. | **C#:** <br>`ID = 0;` <br><br> **Visual Basic:** <br> `ID = 0`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_qualification_for_property = false:suggestion
-```
-
-### <a name="this_and_me_methods">Methods (IDE0003/IDE0009) </a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_qualification_for_method`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer all non-static methods called from within non-static methods to be prefaced with `this.` in C# and `Me.` in VB.| **C#:** <br>`this.Display();` <br><br> **Visual Basic:** <br> `Me.Display()`
-| False | Prefer all non-static methods called from within non-static methods to *not* be prefaced with `this.`in C# and `Me.` in VB. | **C#:** <br>`Display();` <br><br> **Visual Basic:** <br> `Display()`
-
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_qualification_for_method = false:suggestion
-```
-
-### <a name="this_and_me_events">Events (IDE0003/IDE0009) </a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_qualification_for_event`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer all non-static events referenced from within non-static methods to be prefaced with `this.` in C# and `Me.` in VB.| **C#:** <br>`this.Elapsed += Handler;` <br><br> **Visual Basic:** <br> `AddHandler Me.Elapsed, AddressOf Handler`
-| False | Prefer all non-static events referenced from within non-static methods to *not* be prefaced with `this.`in C# and `Me.` in VB. | **C#:** <br>`Elapsed += Handler;` <br><br> **Visual Basic:** <br>`AddHandler Elapsed, AddressOf Handler`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
-## <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references </a>
-### <a name="language_keywords_variables"> Locals, parameters, and members (IDE0012/IDE0014)</a>
+#### <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references </a>
+Locals, parameters, and members (IDE0012/IDE0014)
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
@@ -177,9 +130,10 @@ dotnet_style_qualification_for_event = false:suggestion
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
-### <a name="language_keywords_member_access">Member access expressions (IDE0013/IDE0015)</a>
+Member access expressions (IDE0013/IDE0015)
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
@@ -190,12 +144,6 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 | True | Prefer the keyword whenever a member-access expression is used on a type with a keyword representation (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`).| **C#:** <br>`var local = int.MaxValue;` <br><br> **Visual Basic:** <br> `Dim local = Integer.MaxValue`
 | False | Prefer the type name whenever a member access expression is used on a type with a keyword representation (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`). | **C#:** <br>`var local = Int32.MaxValue;` <br><br> **Visual Basic:** <br> `Dim local = Int32.MaxValue`
 
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
-dotnet_style_predefined_type_for_member_access = true:suggestion
-``` 
 
 ## <a name="expression_level">Expression-level Preferences</a>
 ### <a name="expression_level_object_initializers">Object initializers (IDE0017)</a>
@@ -582,7 +530,7 @@ csharp_style_conditional_delegate_call = false:suggestion
 csharp_prefer_braces = true:none
 ```
 
-# <a name="formatting"> Formatting Rules </a>
+## Formatting Conventions
 ## Overview
 **Rule Format:**
 `options_name = false|true`
