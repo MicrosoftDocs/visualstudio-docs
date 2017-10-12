@@ -115,6 +115,9 @@ The Visual Studio debugger provides many powerful features to help you debug you
     End Namespace
     ```
 
+    > [!NOTE]
+    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties > Application > Startup Object**).
+
 ## Set a breakpoint
 
 A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It is the most basic feature in debugging.
