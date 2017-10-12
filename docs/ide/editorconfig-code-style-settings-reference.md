@@ -23,9 +23,12 @@ ms.technology:
 .NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable or disable individual .NET coding conventions** and **configure the degree to which you want the convention enforced** via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
 There are three supported .NET coding convention categories:  
-- **Language Conventions** are rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or using expression-bodied members.  
-- **Formatting Rules** are rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces and spaces in control blocks.  
-- **Naming Conventions** are rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
+- **Language Conventions**  
+   Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or using expression-bodied members.  
+- **Formatting Conventions**  
+   Rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces and spaces in control blocks.  
+- **Naming Conventions**  
+   Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
 ## Language Conventions  
 ### Rule Format  
@@ -59,7 +62,7 @@ error | When this style is not being followed, show a compiler error.
         - [Explicit tuple names](#expression_level_tuple_names)
         - [Coalescing expressions in "null" checking](#expression_level_null_checking)
         - [Null propagation in "null" checking](#expression_level_null_propogation)
-- [CSharp Code Style Settings](#csharp_codestyle)
+- [C# Code Style Settings](#csharp_codestyle)
     - ["var"](#var)
         - ["var" for built-in types](#var_built_in)
         - ["var" when type is apparent](#var_apparent)
@@ -285,7 +288,7 @@ dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
 ``` 
 
-## CSharp Code Style Settings  
+## C# Code Style Settings  
 ## <a name="var">"var" and Explicit Types</a>
 ### <a name="var_built_in">"var" for built-in types (IDE0007, IDE0008)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
@@ -1218,9 +1221,11 @@ csharp_preserve_single_line_blocks = true
 ``` 
 
 ## Naming Conventions  
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async".  
 
-**Rule Format:**<br>
-namingRuleTitle:<br>
+### Overview  
+**Rule Format:**  
+namingRuleTitle:  
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`<br>
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`<br>
 `dotnet_naming_rule.<namingRuleTitle>.severity = none|suggestion|warning|error`<br>
@@ -1237,25 +1242,10 @@ styleTitle:<br>
 `dotnet_naming_style.<styleTitle>.word_separator = string`<br>
 
 ### Writing a Naming Convention
-For naming conventions, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied, is the only rule applied. 
-
-#### Severity
-The following are valid options for the severity of a naming style rule
- `none`, `silent`, `suggestion`, `warning`, `error`.
-
- `none` and `silent` are synonymous and mean that no indication of any kind should be shown to the user. This has the effect of disabling this rule.
-
- `suggestion` means that the user is shown the following in the Error List: and the following in the IDE. The `suggestion` severity allows the naming rule to run, but it doesn't cause the build to break.
-
-Severity | Effect
------------- | -------------
-none or silent | Do not show anything to the user when this style is not being followed, however code generation features generate in this style. 
-suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters).
-warning | When this style is not being followed, show a compiler warning.
-error | When this style is not being followed, show a compiler error.
+For each naming convention, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
 
 ### Symbol Specification
-Identify _what_ symbols _with which_ modifiers and _at what_ accessibility level the naming rule should apply to.
+Identify _what_ symbols, _with which_ modifiers, and _at what_ accessibility level, the naming rule should apply to.  
 
 |  Option Name | `dotnet_naming_rule.<namingRuleTitle>.symbols` |
 | ------------- |:-------------:|
@@ -1274,29 +1264,31 @@ Identify _what_ symbols _with which_ modifiers and _at what_ accessibility level
 | `method` |`protected_internal` (C#) | |
 | `field` | `protected_friend` (Visual Basic) | |
 | `event` | | |
-| `delegate` | | |
-
+| `delegate` | | |  
 
 ### Style Specification
-Identify the naming style to apply to the symbols.
+Identify the naming style to apply to the symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`  
 
-|  Option Name | `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>` |
+Specify the naming style using one or more of the following properties:  
+
+|  Property | Description |
 | ------------- |:-------------:|
-|  | `dotnet_naming_style.<styleTitle>.capitalization`|
-|  | `dotnet_naming_style.<styleTitle>.required_prefix`|
-|  | `dotnet_naming_style.<styleTitle>.required_suffix`|
-|  | `dotnet_naming_style.<styleTitle>.word_separator`|
+| `dotnet_naming_style.<styleTitle>.required_prefix`| Required characters that must appear at the beginning of the identifier. |  
+| `dotnet_naming_style.<styleTitle>.required_suffix`| Required characters that must appear at the end of the identifier. |  
+| `dotnet_naming_style.<styleTitle>.word_separator`| Required character between words in the identifier. | 
+| `dotnet_naming_style.<styleTitle>.capitalization`| Capitalization options for the identifier: `pascal_case`, `camel_case`, `first_word_upper`, `all_upper`, `all_lower` |  
 
+#### Severity
+The following table shows the severity options for a naming style rule:  
 
-| Style | Description |
-| ------------- |:-------------:|
-| Prefix | Required characters that must appear before the identifier. |
-| Suffix | Required characters that must appear after the identifier. |
-| Word Separator | Required separator between words in the identifier. |
-| Capitalization |`pascal_case`, `camel_case`, `first_word_upper`, `all_upper`, `all_lower` | 
+Severity | Effect
+------------ | -------------
+none or silent | When this style is not being followed, do not show anything to the user; however, code generation features generate new code in this style.  
+suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters). It has no effect at compile time.  
+warning | When this style is not being followed, show a compiler warning.  
+error | When this style is not being followed, show a compiler error.   
 
-
-### Example Naming Convention
+### Example naming convention
 ```
 # Dotnet Naming Conventions
 [*.{cs,vb}] 
@@ -1312,5 +1304,6 @@ dotnet_naming_style.end_in_async.required_suffix = Async
 dotnet_naming_style.end_in_async.capitalization  = pascal_case
 ``` 
 
-## See Also
+## See also
 [Quick Actions](../ide/quick-actions.md)  
+[Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options)  
