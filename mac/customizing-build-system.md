@@ -99,7 +99,7 @@ For example the code snippet below creates the iOS Launch Screens. These are of 
 
 The following resources can be used to learn about MSBuild in more detail:
 
-* [MSDN - Overview](https://msdn.microsoft.com/en-us/library/dd393574.aspx)
-* [MSDN - Concepts](https://msdn.microsoft.com/en-us/library/dd637714.aspx)
+* [MSDN - Overview](https://msdn.microsoft.com/library/dd393574.aspx)
+* [MSDN - Concepts](https://msdn.microsoft.com/library/dd637714.aspx)
 
 
