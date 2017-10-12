@@ -2,8 +2,8 @@
 # Overview
 ## [Debugger feature tour](debugger-feature-tour.md)
 # Quickstarts
-## [Debug a managed app](getting-started-with-the-debugger.md)
-## Debug a native app
+## [Debug a managed app](quickstart-debug-with-managed.md)
+## [Debug a native app](quickstart-debug-with-cplusplus.md)
 ## Debug a Web app
 # Tutorials
 ## [1. Navigate code with the debugger](getting-started-with-the-debugger.md)
