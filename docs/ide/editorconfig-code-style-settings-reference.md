@@ -20,7 +20,7 @@ ms.technology:
   - "vs-ide-general"
 ---
 # .NET Coding Convention Settings For EditorConfig
-.NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to **enable or disable individual .NET coding conventions** and **configure the degree to which you want the convention enforced** via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
+.NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.  
 
 There are three supported .NET coding convention categories:  
 - **Language Conventions**  
@@ -1221,65 +1221,35 @@ csharp_preserve_single_line_blocks = true
 ``` 
 
 ## Naming Conventions  
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async".  
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async". Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
 
-### Overview  
-**Rule Format:**  
-namingRuleTitle:  
-`dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`<br>
-`dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`<br>
-`dotnet_naming_rule.<namingRuleTitle>.severity = none|suggestion|warning|error`<br>
-<br>
-symbolTitle:<br>
-`dotnet_naming_symbols.<symbolTitle>.applicable_kinds = class, struct, interface, enum, property, method, field, event, namespace, delegate, type_parameter`<br>
-`dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities = public, internal, private, protected, protected_internal`<br>
-`dotnet_naming_symbols.<symbolTitle>.required_modifiers = abstract, async, const, readonly, static`<br>
-<br>
-styleTitle:<br>
-`dotnet_naming_style.<styleTitle>.capitalization = pascal_case|camel_case|first_word_upper|all_upper|all_lower`<br>
-`dotnet_naming_style.<styleTitle>.required_prefix = string`<br>
-`dotnet_naming_style.<styleTitle>.required_suffix = string`<br>
-`dotnet_naming_style.<styleTitle>.word_separator = string`<br>
+For each naming convention rule, identified by `namingRuleTitle`, you must specify the **symbols** it applies to, a naming **style**, and a **severity**:  
+  
+`dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`  
+`dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`  
+`dotnet_naming_rule.<namingRuleTitle>.severity = none|suggestion|warning|error`  
 
-### Writing a Naming Convention
-For each naming convention, you must specify **symbols**, **style**, and a **severity**. Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
+### Symbols
+Identify a group of symbols to apply a naming rule to with this property: `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`. Specify which kind of symbols, which modifiers, and which accessibility levels are included in the group using the following properties:  
 
-### Symbol Specification
-Identify _what_ symbols, _with which_ modifiers, and _at what_ accessibility level, the naming rule should apply to.  
-
-|  Option Name | `dotnet_naming_rule.<namingRuleTitle>.symbols` |
+| Property | Possible Values |
 | ------------- |:-------------:|
-|  | `dotnet_naming_symbols.<symbolTitle>.applicable_kinds`
-|  | `dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities`
-|  | `dotnet_naming_symbols.<symbolTitle>.required_modifiers`
+| `dotnet_naming_symbols.<symbolTitle>.applicable_kinds` | *, class, struct, interface, enum, property, method, field, event, namespace, delegate, type_parameter |
+| `dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities` | *, public, internal (C#), friend (Visual Basic), private, protected, protected\_internal (C#), protected\_friend (Visual Basic) |
+| `dotnet_naming_symbols.<symbolTitle>.required_modifiers` | abstract (C#), must_inherit (Visual Basic), async, const, readonly, static (C#), shared (Visual Basic) |  
 
-| Symbol | Accessibility | Modifiers
-| ------------- |------------- |------------- |
-| `*` | `*` |  `abstract` | 
-| `class` | `public` |  `must_inherit` | `async` | 
-| `struct` | `internal` (C#) /  | `const` | 
-| `interface` | `friend` (Visual Basic) | `readonly` | 
-| `enum` | `private`  | `static` | 
-| `property` | `protected` | `shared` |
-| `method` |`protected_internal` (C#) | |
-| `field` | `protected_friend` (Visual Basic) | |
-| `event` | | |
-| `delegate` | | |  
+### Style
+Identify the naming style to apply to a group of symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`. Specify the naming style using one or more of the following properties:  
 
-### Style Specification
-Identify the naming style to apply to the symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`  
-
-Specify the naming style using one or more of the following properties:  
-
-|  Property | Description |
+|  Property | Possible Values |
 | ------------- |:-------------:|
 | `dotnet_naming_style.<styleTitle>.required_prefix`| Required characters that must appear at the beginning of the identifier. |  
 | `dotnet_naming_style.<styleTitle>.required_suffix`| Required characters that must appear at the end of the identifier. |  
 | `dotnet_naming_style.<styleTitle>.word_separator`| Required character between words in the identifier. | 
-| `dotnet_naming_style.<styleTitle>.capitalization`| Capitalization options for the identifier: `pascal_case`, `camel_case`, `first_word_upper`, `all_upper`, `all_lower` |  
+| `dotnet_naming_style.<styleTitle>.capitalization`| `pascal_case`, `camel_case`, `first_word_upper`, `all_upper`, `all_lower` |  
 
 #### Severity
-The following table shows the severity options for a naming style rule:  
+Identify the severity level for a naming rule with this property: `dotnet_naming_rule.<namingRuleTitle>.severity`. The following table shows the severity value options:  
 
 Severity | Effect
 ------------ | -------------
@@ -1307,3 +1277,4 @@ dotnet_naming_style.end_in_async.capitalization  = pascal_case
 ## See also
 [Quick Actions](../ide/quick-actions.md)  
 [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options)  
+[.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)  
