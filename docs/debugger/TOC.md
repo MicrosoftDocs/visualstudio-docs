@@ -6,8 +6,8 @@
 ## [Debug a native app](quickstart-debug-with-cplusplus.md)
 ## Debug a Web app
 # Tutorials
-## [1. Navigate code with the debugger](getting-started-with-the-debugger.md)
-## 2. Inspect variables
+## [1. Start the debugger and navigate code](getting-started-with-the-debugger.md)
+## [2. Inspect data and exceptions](tutorial-inspect-data-and-exceptions.md)
 ## [Remote debug a C# project](remote-debugging-csharp.md)
 ## [Remote debug a C++ project](remote-debugging-cpp.md)
 ## [Remote debug ASP.NET Core on an IIS computer](remote-debugging-aspnet-on-a-remote-iis-computer.md)
