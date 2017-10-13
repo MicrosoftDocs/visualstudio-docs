@@ -82,7 +82,7 @@ The following list shows the allowable language convention options:
 ### .NET code style settings
 
 #### <a name="this_and_me">"This." and "Me." qualifiers (IDE0003/IDE0009)</a>
-This style rule can be applied to fields, properties, methods and events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** meanss prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
+This style rule can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
 
 The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
@@ -113,19 +113,25 @@ dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
-#### <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references </a>
-Locals, parameters, and members (IDE0012/IDE0014)
+#### <a name="language_keywords">Use language keywords instead of framework type names for type references</a>
+This style rule can be applied to local variables, method parameters, and class members (IDE0012/IDE0014), or as a separate rule to type member access expressions (IDE0013/IDE0015). A value of **true** means prefer the language keyword (e.g. `int`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
+
+The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
+
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
+|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
 
+The following table shows examples of what code might look like with and without this style rule applied:  
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | For locals, parameters and type members, prefer types that have a language keyword to represent them (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`) to use the keyword instead of the type name (`Int32`, `Int64`, etc.).| **C#:** <br>`private int _member;` <br><br> **Visual Basic:** `Private _member As Integer`
-| False | For locals, parameters and type members, prefer types that have a language keyword to represent them (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`) to use the type name (`Int32`, `Int64`, etc.) instead of the keyword.  | **C#:** <br>`private Int32 _member;` <br><br> **Visual Basic:** <br> `Private _member As Int32`
+| Where | With style rule applied | Without style rule applied |
+| :---------: | :--------------------- | :------------------------ |
+| Locals, parameters, and members | C# `private int _member;` <br>Visual Basic `Private _member As Integer` | C# `private Int32 _member;` <br>Visual Basic `Private _member As Int32` |
+| Member access expressions | C# `var local = int.MaxValue;` <br>Visual Basic `Dim local = Integer.MaxValue` | C# `var local = Int32.MaxValue;` <br>Visual Basic `Dim local = Int32.MaxValue` |  
 
-#### Example editorconfig file:
+This rule could appear in an .editorconfig file as follows:  
+
 ```
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
@@ -133,108 +139,42 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
-Member access expressions (IDE0013/IDE0015)
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
+#### <a name="expression_level">Expression-level Preferences</a>  
+The style rules in this section concern expression-level preferences, including bject initializers (IDE0017), collection initializers (IDE0028), explicit tuple names (IDE0033), coalescing expressions in "null" checking (IDE0029), and null propagation in "null" checking (IDE0031).  
 
+The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer the keyword whenever a member-access expression is used on a type with a keyword representation (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`).| **C#:** <br>`var local = int.MaxValue;` <br><br> **Visual Basic:** <br> `Dim local = Integer.MaxValue`
-| False | Prefer the type name whenever a member access expression is used on a type with a keyword representation (`int`, `double`, `float`, `short`, `long`, `decimal`, `string`). | **C#:** <br>`var local = Int32.MaxValue;` <br><br> **Visual Basic:** <br> `Dim local = Int32.MaxValue`
-
-
-## <a name="expression_level">Expression-level Preferences</a>
-### <a name="expression_level_object_initializers">Object initializers (IDE0017)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_object_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_collection_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_explicit_tuple_names`| C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_coalesce_expression`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_null_propagation`| C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW |  
 
+The following table explains and shows examples of what code might look like with and without this style rule applied:  
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer objects to be initialized using object initializers when possible.| **C#:** <br>`var c = new Customer(){ Age = 21 };` <br><br> **Visual Basic:** <br> `Dim c = New Customer() With { .Age = 21 }`
-| False | Prefer objects to *not* be initialized using object initializers. | **C#:** <br>`var c = new Customer();`<br>`c.Age = 21;` <br><br> **Visual Basic:** <br>`Dim c = new Customer() `<br>`c.Age = 21`
+| Where | With style rule set to `true` | Without style rule set to `false` |
+| :---------: | :--------------------- | :------------------------ |
+| Object initializers | Prefer objects to be initialized using object initializers when possible.<br>C# `var c = new Customer() { Age = 21 };` <br>Visual Basic `Dim c = New Customer() With { .Age = 21 }` | Prefer objects to *not* be initialized using object initializers.<br>C# `var c = new Customer();`<br>`c.Age = 21;` <br>Visual Basic `Dim c = new Customer() `<br>`c.Age = 21` |
+| Collection initializers | Prefer collections to be initialized using collection initializers when possible.<br>C# `var list = new List<int>{ 1, 2, 3 };` <br>Visual Basic `Dim list = new List(Of Integer) From { 1, 2, 3 }` | Prefer collections to *not* be initialized using collection initializers.C# `var list = new List<int>();`<br>`list.Add(1);`<br>`list.Add(2);`<br>`list.Add(3);` <br>Visual Basic `Dim list = new List(Of Integer)`<br>`list.Add(1)`<br>`list.Add(2)`<br>`list.Add(3)` |
+| Explicit tuple names | Prefer tuple names to ItemX properties.<br>C# `(string name, int age) customer = GetCustomer();`<br>`var name = customer.name;` <br>Visual Basic `Dim customer As (name As String, age As Integer) = GetCustomer()`<br>`Dim name = customer.name` | Prefer ItemX properties to tuple names.<br>C# `(string name, int age) customer = GetCustomer();`<br>`var name = customer.Item1;` <br>Visual Basic `Dim customer As (name As String, age As Integer) = GetCustomer()`<br>`Dim name = customer.Item1` |
+| Coalescing expressions | Prefer null coalescing expressions to ternary operator checking.<br>C# `var v = x ?? y;` <br>Visual Basic `Dim v = If(x, y)` | Prefer ternary operator checking to null coalescing expressions.<br>C# `var v = x != null ? x : y; // or`<br>`var v = x == null ? y : x;` <br>Visual Basic `Dim v = If(x Is Nothing, y, x) ' or`<br>`Dim v = If(x IsNot Nothing, x, y)` |
+| Null-conditional operator | Prefer to use null-conditional operator when possible.<br>C# `var v = o?.ToString();` <br>Visual Basic `Dim v = o?.ToString()` | Prefer to use ternary null checking where possible.<br>C# `var v = o == null ? null : o.ToString(); // or`<br>`var v = o != null ? o.String() : null;` <br>Visual Basic `Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or`<br> `Dim v = If(o IsNot Nothing, o.ToString(), Nothing)` |
 
-#### Example editorconfig file:
+This rule could appear in an .editorconfig file as follows:  
+
 ```
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_object_initializer = true:suggestion
-``` 
-
-### <a name="expression_level_collection_initializers">Collection initializers (IDE0028)</a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_collection_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer collections to be initialized using collection initializers when possible.| **C#:** <br>`var list = new List<int>{ 1, 2, 3 };` <br><br> **Visual Basic:** <br> `Dim list = new List(Of Integer) From { 1, 2, 3}`
-| False | Prefer objects to *not* be initialized using collection initializers. | **C#:** <br>`var list = new List<int>();`<br>`list.Add(1);`<br>`list.Add(2);`<br>`list.Add(3);` <br><br> **Visual Basic:** <br>`Dim list = new List(Of Integer)`<br>`list.Add(1)`<br>`list.Add(2)`<br>`list.Add(3)`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_collection_initializer = true:suggestion
-```
-
-### <a name="expression_level_tuple_names">Explicit tuple names (IDE0033)</a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_explicit_tuple_names`| C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer tuple names to ItemX properties.| **C#:** <br>`(string name, int age) customer = GetCustomer();`<br>`var name = customer.name;` <br><br> **Visual Basic:** <br> `Dim customer As (name As String, age As Integer) = GetCustomer()`<br>`Dim name = customer.name`
-| False | Prefer ItemX properties to tuple names. | **C#:** <br>`(string name, int age) customer = GetCustomer();`<br>`var name = customer.Item1;` <br><br> **Visual Basic:** <br>`Dim customer As (name As String, age As Integer) = GetCustomer()`<br> `Dim name = customer.Item1`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_explicit_tuple_names = true:suggestion
-``` 
-
-### <a name="expression_level_null_checking">Coalescing expressions in "null" checking (IDE0029)</a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_coalesce_expression`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer null coalescing expression to ternary operator checking.| **C#:** <br>`var v = x ?? y;` <br><br> **Visual Basic:** <br> `Dim v = If(x, y)`
-| False | Prefer ternary operator checking to null coalescing expression. | **C#:** <br>`var v = x != null ? x : y; // or`<br>`var v = x == null ? y : x;` <br><br> **Visual Basic:** <br>`Dim v = If(x Is Nothing, y, x) ' or`<br> `Dim v = If(x IsNot Nothing, x, y)`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_coalesce_expression = true:suggestion
-``` 
-
-### <a name="expression_level_null_propogation">Null propagation in "null" checking (IDE0031)</a>
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_null_propagation`| C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW |
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer to use null-conditional operator where possible.| **C#:** <br>`var v = o?.ToString();` <br><br> **Visual Basic:** <br> `Dim v = o?.ToString()`
-| False | Prefer to use ternary null checking where possible. | **C#:** <br>`var v = o == null ? null : o.ToString(); // or`<br>`var v = o != null ? o.String() : null;` <br><br> **Visual Basic:** <br>`Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or`<br> `Dim v = If(o IsNot Nothing, o.ToString(), Nothing)`
-
-#### Example editorconfig file:
-```
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
 dotnet_style_null_propagation = true:suggestion
 ``` 
+
+
 
 ## C# Code Style Settings  
 ## <a name="var">"var" and Explicit Types</a>
@@ -242,7 +182,6 @@ dotnet_style_null_propagation = true:suggestion
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_var_for_built_in_types`| C# | true:none | Visual Studio 2017 RTW |
-
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
