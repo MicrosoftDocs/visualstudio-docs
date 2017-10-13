@@ -42,7 +42,7 @@ The following table lists the possible severity values and their effects:
 Severity | Effect
 :------: | ------
 none or silent | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however.  
-suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as two dots under the first two characters.  
+suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three grey dots under the first two characters.  
 warning | When this style rule is violated, show a compiler warning.  
 error | When this style rule is violated, show a compiler error.  
 
@@ -103,14 +103,14 @@ The following table shows the option names, applicable programming languages, de
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
-|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
+|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW | 
 
-The following table shows examples of what code might look like with and without this style rule applied:  
+The following table shows examples of what code might look like with values of **true** and **false** for this style rule:  
 
-| Where | With style rule applied | Without style rule applied |
-| :---------: | :--------------------- | :------------------------ |
-| Locals, parameters, and members | C# `private int _member;` <br>Visual Basic `Private _member As Integer` | C# `private Int32 _member;` <br>Visual Basic `Private _member As Int32` |
-| Member access expressions | C# `var local = int.MaxValue;` <br>Visual Basic `Dim local = Integer.MaxValue` | C# `var local = Int32.MaxValue;` <br>Visual Basic `Dim local = Int32.MaxValue` |  
+| Rule | As applied with value of **true** | As applied with value of **false** |
+| :--- | :-------------------------------- | :--------------------------------- |
+| Locals, parameters, and members | C# `private int _member;` <br><br>Visual Basic `Private _member As Integer` | C# `private Int32 _member;` <br><br>Visual Basic `Private _member As Int32` |
+| Member access expressions | C# `var local = int.MaxValue;` <br><br>Visual Basic `Dim local = Integer.MaxValue` | C# `var local = Int32.MaxValue;` <br><br>Visual Basic `Dim local = Int32.MaxValue` |  
 
 This rule could appear in an .editorconfig file as follows:  
 
@@ -122,7 +122,7 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
 #### <a name="expression_level">Expression-level preferences</a>  
-The style rules in this section concern expression-level preferences, including bject initializers (IDE0017), collection initializers (IDE0028), explicit tuple names (IDE0033), coalescing expressions in "null" checking (IDE0029), and null propagation in "null" checking (IDE0031).  
+The style rules in this section concern expression-level preferences, including the use of object initializers (rule ID IDE0017), collection initializers (rule ID IDE0028), explicit tuple names (rule ID IDE0033), null coalescing expressions versus ternary operators (rule ID IDE0029), and the null-conditional operator (rule ID IDE0031).  
 
 The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
@@ -132,17 +132,100 @@ The following table shows the option names, applicable programming languages, de
 |`dotnet_style_collection_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
 |`dotnet_style_explicit_tuple_names`| C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
 |`dotnet_style_coalesce_expression`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-|`dotnet_style_null_propagation`| C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW |  
+|`dotnet_style_null_propagation`| C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW | 
 
-The following table explains and shows examples of what code might look like with and without this style rule applied:  
+**dotnet\_style\_object_initializer**  
+When this rule is set to **true**, prefer objects to be initialized using object initializers when possible.  
+When this rule is set to **false**, prefer objects to *not* be initialized using object initializers.  
 
-| Where | With style rule set to `true` | Without style rule set to `false` |
-| :---------: | :--------------------- | :------------------------ |
-| Object initializers | Prefer objects to be initialized using object initializers when possible.<br>C# `var c = new Customer() { Age = 21 };` <br>Visual Basic `Dim c = New Customer() With { .Age = 21 }` | Prefer objects to *not* be initialized using object initializers.<br>C# `var c = new Customer();`<br>`c.Age = 21;` <br>Visual Basic `Dim c = new Customer() `<br>`c.Age = 21` |
-| Collection initializers | Prefer collections to be initialized using collection initializers when possible.<br>C# `var list = new List<int>{ 1, 2, 3 };` <br>Visual Basic `Dim list = new List(Of Integer) From { 1, 2, 3 }` | Prefer collections to *not* be initialized using collection initializers.C# `var list = new List<int>();`<br>`list.Add(1);`<br>`list.Add(2);`<br>`list.Add(3);` <br>Visual Basic `Dim list = new List(Of Integer)`<br>`list.Add(1)`<br>`list.Add(2)`<br>`list.Add(3)` |
-| Explicit tuple names | Prefer tuple names to ItemX properties.<br>C# `(string name, int age) customer = GetCustomer();`<br>`var name = customer.name;` <br>Visual Basic `Dim customer As (name As String, age As Integer) = GetCustomer()`<br>`Dim name = customer.name` | Prefer ItemX properties to tuple names.<br>C# `(string name, int age) customer = GetCustomer();`<br>`var name = customer.Item1;` <br>Visual Basic `Dim customer As (name As String, age As Integer) = GetCustomer()`<br>`Dim name = customer.Item1` |
-| Coalescing expressions | Prefer null coalescing expressions to ternary operator checking.<br>C# `var v = x ?? y;` <br>Visual Basic `Dim v = If(x, y)` | Prefer ternary operator checking to null coalescing expressions.<br>C# `var v = x != null ? x : y; // or`<br>`var v = x == null ? y : x;` <br>Visual Basic `Dim v = If(x Is Nothing, y, x) ' or`<br>`Dim v = If(x IsNot Nothing, x, y)` |
-| Null-conditional operator | Prefer to use null-conditional operator when possible.<br>C# `var v = o?.ToString();` <br>Visual Basic `Dim v = o?.ToString()` | Prefer to use ternary null checking where possible.<br>C# `var v = o == null ? null : o.ToString(); // or`<br>`var v = o != null ? o.String() : null;` <br>Visual Basic `Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or`<br> `Dim v = If(o IsNot Nothing, o.ToString(), Nothing)` |
+Code examples:  
+
+```csharp
+// dotnet_style_object_initializer = true
+var c = new Customer() { Age = 21 };
+
+// dotnet_style_object_initializer = false
+var c = new Customer();
+c.Age = 21;
+```
+```vb
+
+```
+
+**dotnet\_style\_collection_initializer**  
+When this rule is set to **true**, prefer collections to be initialized using collection initializers when possible.  
+When this rule is set to **false**, prefer collections to *not* be initialized using collection initializers.
+
+Code examples:
+
+```csharp
+// dotnet_style_collection_initializer = true
+var list = new List<int> { 1, 2, 3 };
+
+// dotnet_style_collection_initializer = false
+var list = new List<int>();
+list.Add(1);
+list.Add(2);
+list.Add(3);
+```
+```vb
+
+```  
+
+**dotnet\_style\_explicit\_tuple_names**
+When this rule is set to **true**, prefer tuple names to ItemX properties.  
+When this rule is set to **false**, prefer ItemX properties to tuple names.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_explicit_tuple_names = true
+(string name, int age) customer = GetCustomer();
+var name = customer.name;
+
+// dotnet_style_explicit_tuple_names = false
+(string name, int age) customer = GetCustomer();
+var name = customer.Item1;
+```
+```vb
+
+```
+
+**dotnet\_style\_coalesce_expression**  
+When this rule is set to **true**, prefer null coalescing expressions to ternary operator checking.  
+When this rule is set to **false**, prefer ternary operator checking to null coalescing expressions.
+
+Code examples:  
+
+```csharp
+// dotnet_style_coalesce_expression = true
+var v = x ?? y;
+
+// dotnet_style_coalesce_expression = false
+var v = x != null ? x : y; // or
+var v = x == null ? y : x;
+```
+```vb
+
+```
+
+**dotnet\_style\_null_propagation**
+When this rule is set to **true**, prefer to use null-conditional operator when possible.  
+When this rule is set to **false**, prefer to use ternary null checking where possible.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_null_propagation = true
+var v = o?.ToString();
+
+// dotnet_style_null_propagation = false
+var v = o == null ? null : o.ToString(); // or
+var v = o != null ? o.String() : null;
+```
+```vb
+
+```  
 
 This rule could appear in an .editorconfig file as follows:  
 
