@@ -20,7 +20,7 @@ ms.technology:
   - "vs-ide-general"
 ---
 # .NET coding convention settings for EditorConfig
-.NET coding conventions settings can be configured using an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.  
+You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.  
 
 There are three supported .NET coding convention categories:  
 - [Language Conventions](#language-conventions)  
@@ -35,23 +35,34 @@ The rules for language conventions have the following format:
 
 `options_name = false|true : none|suggestion|warning|error`  
 
-For each language convention option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), and a **severity**. The severity specifies the level of enforcement for that style.  
+For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.  
 
 The following table lists the possible severity values and their effects:  
 
 Severity | Effect
-:------: | ------
+:------- | ------
 none or silent | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however.  
 suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three grey dots under the first two characters.  
 warning | When this style rule is violated, show a compiler warning.  
 error | When this style rule is violated, show a compiler error.  
 
-The following list shows the allowable language convention options:  
+The following list shows the allowable language convention rules:  
 
 - .NET Code Style Settings
     - ["This." and "Me." qualifiers](#this_and_me)
+        - dotnet\_style\_qualification\_for_field
+        - dotnet\_style\_qualification\_for_property
+        - dotnet\_style\_qualification\_for_method
+        - dotnet\_style\_qualification\_for_event
     - [Language keywords instead of framework type names for type references](#language_keywords)
+        - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
+        - dotnet\_style\_predefined\_type\_for\_member_access
     - [Expression-level preferences](#expression_level)
+        - dotnet\_style\_object_initializer
+        - dotnet\_style\_collection_initializer
+        - dotnet\_style\_explicit\_tuple_names
+        - dotnet\_style\_coalesce_expression
+        - dotnet\_style\_null_propagation
 - C# Code Style Settings
     - ["var"](#var)
     - [Expression-bodied members](#expression_body)
@@ -66,23 +77,98 @@ The following list shows the allowable language convention options:
 #### <a name="this_and_me">"This." and "Me." qualifiers (rule IDs IDE0003 and IDE0009)</a>
 This style rule can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
 
-The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| Option Name | Applicable languages | Visual Studio default value | Supported version |
+| Rule Name | Applicable languages | Visual Studio default value | Supported version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `dotnet_style_qualification_for_field` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
 | `dotnet_style_qualification_for_property` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
 | `dotnet_style_qualification_for_method` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
 | `dotnet_style_qualification_for_event` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |   
 
-The following table shows examples of what code might look like with values of **true** and **false** for this style rule:  
+**dotnet\_style\_qualification\_for_field**
+When this rule is set to **true**, prefer fields to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
+When this rule is set to **false**, prefer fields _not_ to be prefaced with `this.` or `Me.`.  
 
-| Symbol | As applied with value of **true** | As applied with value of **false** |
-| :----- | :-------------------------------- | :--------------------------------- |
-| Field | C# `this.capacity = 0;` <br><br>Visual Basic `Me.capacity = 0` | C# `capacity = 0;` <br><br>Visual Basic `capacity = 0` |
-| Property | C# `this.ID = 0;` <br><br>Visual Basic `Me.ID = 0` | C# `ID = 0;` <br><br>Visual Basic `ID = 0` |
-| Method | C# `this.Display();` <br><br>Visual Basic `Me.Display()` | C# `Display();` <br><br>Visual Basic `Display()` |
-| Event | C# `this.Elapsed += Handler;` <br><br>Visual Basic `AddHandler Me.Elapsed, AddressOf Handler` | C# `Elapsed += Handler;` <br><br>Visual Basic `AddHandler Elapsed, AddressOf Handler` |  
+Code examples:  
+
+```csharp
+// dotnet_style_qualification_for_field = true
+this.capacity = 0;
+
+// dotnet_style_qualification_for_field = false
+capacity = 0;
+```
+```vb
+' dotnet_style_qualification_for_field = true
+Me.capacity = 0
+
+' dotnet_style_qualification_for_field = false
+capacity = 0
+```  
+
+**dotnet\_style\_qualification\_for_property**
+When this rule is set to **true**, prefer properties to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
+When this rule is set to **false**, prefer properties _not_ to be prefaced with `this.` or `Me.`.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_qualification_for_property = true
+this.ID = 0;
+
+// dotnet_style_qualification_for_property = false
+ID = 0;
+```
+```vb
+' dotnet_style_qualification_for_property = true
+Me.ID = 0
+
+' dotnet_style_qualification_for_property = false
+ID = 0
+```  
+
+**dotnet\_style\_qualification\_for_method**
+When this rule is set to **true**, prefer methods to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
+When this rule is set to **false**, prefer methods _not_ to be prefaced with `this.` or `Me.`.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_qualification_for_method = true
+this.Display();
+
+// dotnet_style_qualification_for_method = false
+Display();
+```
+```vb
+' dotnet_style_qualification_for_method = true
+Me.Display()
+
+' dotnet_style_qualification_for_method = false
+Display()
+```  
+
+**dotnet\_style\_qualification\_for_event**
+When this rule is set to **true**, prefer events to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
+When this rule is set to **false**, prefer events _not_ to be prefaced with `this.` or `Me.`.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_qualification_for_event = true
+this.Elapsed += Handler;
+
+// dotnet_style_qualification_for_event = false
+Elapsed += Handler;
+```
+```vb
+' dotnet_style_qualification_for_event = true
+AddHandler Me.Elapsed, AddressOf Handler
+
+' dotnet_style_qualification_for_event = false
+AddHandler Elapsed, AddressOf Handler
+```  
 
 This rule could appear in an .editorconfig file as follows:  
 
@@ -98,19 +184,54 @@ dotnet_style_qualification_for_event = false:suggestion
 #### <a name="language_keywords">Language keywords instead of framework type names for type references</a>
 This style rule can be applied to local variables, method parameters, and class members (rule IDs IDE0012 and IDE0014), or as a separate rule to type member access expressions (rule IDs IDE0013 and IDE0015). A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
 
-The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
-|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW | 
+|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |  
 
-The following table shows examples of what code might look like with values of **true** and **false** for this style rule:  
+**dotnet\_style\_predefined\_type\_for\_locals\_parameters_members**  
+When this rule is set to **true**, prefer the language keyword for local variables, method parameters, and class members, instead of the type name, for types that have a keyword to represent them.  
+When this rule is set to **false**, prefer the type name for local variables, method parameters, and class members, instead of the language keyword.  
 
-| Rule | As applied with value of **true** | As applied with value of **false** |
-| :--- | :-------------------------------- | :--------------------------------- |
-| Locals, parameters, and members | C# `private int _member;` <br><br>Visual Basic `Private _member As Integer` | C# `private Int32 _member;` <br><br>Visual Basic `Private _member As Int32` |
-| Member access expressions | C# `var local = int.MaxValue;` <br><br>Visual Basic `Dim local = Integer.MaxValue` | C# `var local = Int32.MaxValue;` <br><br>Visual Basic `Dim local = Int32.MaxValue` |  
+Code examples:  
+
+```csharp
+// dotnet_style_predefined_type_for_locals_parameters_members = true
+private int _member;
+
+// dotnet_style_predefined_type_for_locals_parameters_members = false
+private Int32 _member;
+```
+```vb
+' dotnet_style_predefined_type_for_locals_parameters_members = true
+Private _member As Integer
+
+' dotnet_style_predefined_type_for_locals_parameters_members = false
+Private _member As Int32
+``` 
+
+**dotnet\_style\_predefined\_type\_for\_member_access**   
+When this rule is set to **true**, prefer the language keyword for member access expressions, instead of the type name, for types that have a keyword to represent them.  
+When this rule is set to **false**, prefer the type name for member access expressions, instead of the language keyword.  
+
+Code examples:  
+
+```csharp
+// dotnet_style_predefined_type_for_member_access = true
+var local = int.MaxValue;
+
+// dotnet_style_predefined_type_for_member_access = false
+var local = Int32.MaxValue;
+```
+```vb
+' dotnet_style_predefined_type_for_member_access = true
+Dim local = Integer.MaxValue
+
+' dotnet_style_predefined_type_for_member_access = false
+Dim local = Int32.MaxValue
+```  
 
 This rule could appear in an .editorconfig file as follows:  
 
@@ -124,9 +245,9 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 #### <a name="expression_level">Expression-level preferences</a>  
 The style rules in this section concern expression-level preferences, including the use of object initializers (rule ID IDE0017), collection initializers (rule ID IDE0028), explicit tuple names (rule ID IDE0033), null coalescing expressions versus ternary operators (rule ID IDE0029), and the null-conditional operator (rule ID IDE0031).  
 
-The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_object_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
 |`dotnet_style_collection_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
@@ -149,7 +270,12 @@ var c = new Customer();
 c.Age = 21;
 ```
 ```vb
+' dotnet_style_object_initializer = true
+Dim c = New Customer() With {.Age = 21}
 
+' dotnet_style_object_initializer = false
+Dim c = New Customer()
+c.Age = 21
 ```
 
 **dotnet\_style\_collection_initializer**  
@@ -169,10 +295,17 @@ list.Add(2);
 list.Add(3);
 ```
 ```vb
+' dotnet_style_collection_initializer = true
+Dim list = New List(Of Integer) From {1, 2, 3}
 
+' dotnet_style_collection_initializer = false
+Dim list = New List(Of Integer)
+list.Add(1)
+list.Add(2)
+list.Add(3)
 ```  
 
-**dotnet\_style\_explicit\_tuple_names**
+**dotnet\_style\_explicit\_tuple_names**  
 When this rule is set to **true**, prefer tuple names to ItemX properties.  
 When this rule is set to **false**, prefer ItemX properties to tuple names.  
 
@@ -188,7 +321,13 @@ var name = customer.name;
 var name = customer.Item1;
 ```
 ```vb
+ ' dotnet_style_explicit_tuple_names = true
+Dim customer As (name As String, age As Integer) = GetCustomer()
+Dim name = customer.name
 
+' dotnet_style_explicit_tuple_names = false
+Dim customer As (name As String, age As Integer) = GetCustomer()
+Dim name = customer.Item1
 ```
 
 **dotnet\_style\_coalesce_expression**  
@@ -206,10 +345,15 @@ var v = x != null ? x : y; // or
 var v = x == null ? y : x;
 ```
 ```vb
+' dotnet_style_coalesce_expression = true
+Dim v = If(x, y)
 
+' dotnet_style_coalesce_expression = false
+Dim v = If(x Is Nothing, y, x) ' or
+Dim v = If(x IsNot Nothing, x, y)
 ```
 
-**dotnet\_style\_null_propagation**
+**dotnet\_style\_null_propagation**  
 When this rule is set to **true**, prefer to use null-conditional operator when possible.  
 When this rule is set to **false**, prefer to use ternary null checking where possible.  
 
@@ -224,7 +368,12 @@ var v = o == null ? null : o.ToString(); // or
 var v = o != null ? o.String() : null;
 ```
 ```vb
+' dotnet_style_null_propagation = true
+Dim v = o?.ToString()
 
+' dotnet_style_null_propagation = false
+Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
+Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```  
 
 This rule could appear in an .editorconfig file as follows:  
@@ -247,7 +396,7 @@ dotnet_style_null_propagation = true:suggestion
 "var" when type is apparent (IDE0007, IDE0008)
 "var" elsewhere (IDE0007, IDE0008)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_var_for_built_in_types`| C# | true:none | Visual Studio 2017 RTW |
 |`csharp_style_var_when_type_is_apparent`| C# | true:none | Visual Studio 2017 RTW |
@@ -286,7 +435,7 @@ Properties (IDE0025)
 Indexers (IDE0026)
 Accessors (IDE0027)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_expression_bodied_methods`| C# 6.0+ | false:none | Visual Studio 2017 RTW |
 |`csharp_style_expression_bodied_constructors`| C# 7.0+ | false:none | Visual Studio 2017 RTW |
@@ -344,7 +493,7 @@ csharp_style_expression_bodied_accessors = false:none
 "as" with "null" checking (IDE0019)
 Inlined variable declarations (IDE0018)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_pattern_matching_over_is_with_cast_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 |`csharp_style_pattern_matching_over_as_with_null_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
@@ -378,7 +527,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 
 Simplify `default` expressions (IDE0034)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_prefer_simple_default_expression` | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
 
@@ -399,7 +548,7 @@ csharp_prefer_simple_default_expression = true:suggestion
 Throw-expressions (IDE0016)
 Prefer conditional delegate calls (IDE0041)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_throw_expression`  | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
 |`csharp_style_conditional_delegate_call`  | C# 6.0+ | true:suggestion | Visual Studio 2017 RTW |
@@ -426,7 +575,7 @@ csharp_style_conditional_delegate_call = false:suggestion
 
 Prefer braces (IDE0011)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_prefer_braces`  | C#  | true:none | Visual Studio 2017 v. 15.3 |
 
@@ -448,7 +597,7 @@ Overview
 **Rule Format:**
 `options_name = false|true`
 
-For formatting options, you must specify **true** (prefer this option) or **false** (do not prefer this option) except in a couple cases where you must instead specify what conditions you want the rule applied to.
+For formatting rules, you must specify **true** (prefer this style) or **false** (do not prefer this style) except in a couple cases where you must instead specify what conditions you want the rule applied to.
 
 ### .NET formatting settings
 
@@ -464,7 +613,7 @@ For formatting options, you must specify **true** (prefer this option) or **fals
 
 Sort System Directives First
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_sort_system_directives_first`  |  C# and Visual Basic | true | Visual Studio 2017 v. 15.3  |
 
@@ -486,7 +635,7 @@ dotnet_sort_system_directives_first = true
 
  Newline Before Open Brace (`{`)
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_before_open_brace`  |  C#  | all | Visual Studio 2017 v. 15.3  |
 
@@ -526,7 +675,7 @@ csharp_new_line_before_open_brace = methods, properties, control_blocks, types
 
 Newline Before `else`
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_before_else` |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -564,7 +713,7 @@ csharp_new_line_before_else = true
 
 Newline Before `catch`
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_catch`|  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -602,7 +751,7 @@ csharp_new_line_before_catch = true
 
 Newline Before `finally`
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_finally`|  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -645,7 +794,7 @@ csharp_new_line_before_finally = true
 
 Newline Before Members in Object Initializers
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_members_in_object_initializers`|  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -681,7 +830,7 @@ csharp_new_line_before_members_in_object_initializers = true
 
 Newline Before Members in Anonymous Types
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_members_in_anonymous_types` |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -717,7 +866,7 @@ csharp_new_line_before_members_in_anonymous_types = true
 
 Newline Before Members in Query Expression Clauses
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_between_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -751,7 +900,7 @@ csharp_new_line_between_query_expression_clauses = true
 
 Indent `switch` Case Contents
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_indent_case_contents`  |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -800,7 +949,7 @@ csharp_indent_case_contents = true
 
 Indent `switch` Labels
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_indent_switch_labels`  |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -849,7 +998,7 @@ csharp_indent_switch_labels = true
 
 Label positioning
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_indent_labels`  |  C#  | no_change | Visual Studio 2017 v. 15.3  |
 
@@ -918,7 +1067,7 @@ csharp_indent_labels = flush_left
 
 Space After Cast
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_after_cast` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
@@ -936,7 +1085,7 @@ csharp_space_after_cast = true
 
 Space After Keywords in Control Flow Statements
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_after_keywords_in_control_flow_statements` |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -954,7 +1103,7 @@ csharp_space_after_keywords_in_control_flow_statements = true
 
 Space Between Method Declaration Argument-List Parentheses
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_between_method_declaration_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
@@ -972,7 +1121,7 @@ csharp_space_between_method_declaration_parameter_list_parentheses = true
 
 Space Within Parentheses for Method Call Argument List
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |  `csharp_space_between_method_call_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
 
@@ -988,9 +1137,9 @@ Space Within Parentheses for Method Call Argument List
 csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
 ```  
 
-pace Within Parentheses for Other Options
+Space Within Parentheses for Other Options
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |  `csharp_space_between_parentheses`  |  C#  | false | Visual Studio 2017 v. 15.3  |
 
@@ -1011,7 +1160,7 @@ csharp_space_between_parentheses = control_flow_statements, type_casts
 
 Leave Statements and Member Declarations on the Same Line
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |  `csharp_preserve_single_line_statements`   |  C#  | true | Visual Studio 2017 v. 15.3  |
 
@@ -1041,7 +1190,7 @@ csharp_preserve_single_line_statements = true
 
 Leave Block on Single Line
 
-| **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |   `csharp_preserve_single_line_blocks`    |  C#  | true | Visual Studio 2017 v. 15.3  |
 
