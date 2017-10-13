@@ -31,12 +31,16 @@ There are three supported .NET coding convention categories:
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
 ## Language conventions  
-The rule for language conventions has the following format: `options_name = false|true : none|suggestion|warning|error`. For each language convention option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), and a **severity**. The severity specifies the level of enforcement for that style.  
+The rules for language conventions have the following format:  
+
+`options_name = false|true : none|suggestion|warning|error`  
+
+For each language convention option, you must specify either **true** (prefer this option) or **false** (do not prefer this option), and a **severity**. The severity specifies the level of enforcement for that style.  
 
 The following table lists the possible severity values and their effects:  
 
 Severity | Effect
------------- | -------------
+:------: | ------
 none or silent | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however.  
 suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as two dots under the first two characters.  
 warning | When this style rule is violated, show a compiler warning.  
@@ -46,20 +50,20 @@ The following list shows the allowable language convention options:
 
 - .NET Code Style Settings
     - ["This." and "Me." qualifiers](#this_and_me)
-    - [Language keywords (int, string, etc.) vs framework type names for type references](#language_keywords)
-    - [Expression-level Preferences](#expression_level)
+    - [Language keywords instead of framework type names for type references](#language_keywords)
+    - [Expression-level preferences](#expression_level)
 - C# Code Style Settings
     - ["var"](#var)
     - [Expression-bodied members](#expression_body)
     - [Pattern matching](#pattern_matching)
     - [Inlined variable declarations](#inlined_variable_declarations)
-    - [Expression-level Preferences](#expression_level_csharp)
-    - ["Null" Checking Preferences](#null_checking)
-    - [Code Block Preferences](#code_block)
+    - [Expression-level preferences](#expression_level_csharp)
+    - ["Null" checking preferences](#null_checking)
+    - [Code block preferences](#code_block)
 
 ### .NET code style settings
 
-#### <a name="this_and_me">"This." and "Me." qualifiers (IDE0003/IDE0009)</a>
+#### <a name="this_and_me">"This." and "Me." qualifiers (rule IDs IDE0003 and IDE0009)</a>
 This style rule can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
 
 The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
@@ -71,14 +75,14 @@ The following table shows the option names, applicable programming languages, de
 | `dotnet_style_qualification_for_method` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
 | `dotnet_style_qualification_for_event` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |   
 
-The following table shows examples of what code might look like with and without this style rule applied:  
+The following table shows examples of what code might look like with values of **true** and **false** for this style rule:  
 
-| Symbol | With style rule applied | Without style rule applied |
-| :---------: | :--------------------- | :------------------------ |
-| Field | C# `this.capacity = 0;` <br>Visual Basic `Me.capacity = 0` | C# `capacity = 0;` <br>Visual Basic `capacity = 0` |
-| Property | C# `this.ID = 0;` <br>Visual Basic `Me.ID = 0` | C# `ID = 0;` <br>Visual Basic `ID = 0` |
-| Method | C# `this.Display();` <br>Visual Basic `Me.Display()` | C# `Display();` <br>Visual Basic `Display()` |
-| Event | C# `this.Elapsed += Handler;` <br>Visual Basic `AddHandler Me.Elapsed, AddressOf Handler` | C# `Elapsed += Handler;` <br>Visual Basic `AddHandler Elapsed, AddressOf Handler` |  
+| Symbol | As applied with value of **true** | As applied with value of **false** |
+| :----- | :-------------------------------- | :--------------------------------- |
+| Field | C# `this.capacity = 0;` <br><br>Visual Basic `Me.capacity = 0` | C# `capacity = 0;` <br><br>Visual Basic `capacity = 0` |
+| Property | C# `this.ID = 0;` <br><br>Visual Basic `Me.ID = 0` | C# `ID = 0;` <br><br>Visual Basic `ID = 0` |
+| Method | C# `this.Display();` <br><br>Visual Basic `Me.Display()` | C# `Display();` <br><br>Visual Basic `Display()` |
+| Event | C# `this.Elapsed += Handler;` <br><br>Visual Basic `AddHandler Me.Elapsed, AddressOf Handler` | C# `Elapsed += Handler;` <br><br>Visual Basic `AddHandler Elapsed, AddressOf Handler` |  
 
 This rule could appear in an .editorconfig file as follows:  
 
@@ -91,8 +95,8 @@ dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
-#### <a name="language_keywords">Use language keywords instead of framework type names for type references</a>
-This style rule can be applied to local variables, method parameters, and class members (IDE0012/IDE0014), or as a separate rule to type member access expressions (IDE0013/IDE0015). A value of **true** means prefer the language keyword (e.g. `int`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
+#### <a name="language_keywords">Language keywords instead of framework type names for type references</a>
+This style rule can be applied to local variables, method parameters, and class members (rule IDs IDE0012 and IDE0014), or as a separate rule to type member access expressions (rule IDs IDE0013 and IDE0015). A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
 
 The following table shows the option names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
@@ -984,7 +988,7 @@ public int MyProperty
 csharp_preserve_single_line_blocks = true
 ``` 
 
-## Naming Conventions  
+## Naming conventions  
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async". Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
 
 For each naming convention rule, identified by `namingRuleTitle`, you must specify the **symbols** it applies to, a naming **style**, and a **severity**:  
