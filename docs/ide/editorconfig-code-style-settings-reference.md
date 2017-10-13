@@ -91,8 +91,8 @@ The following list shows the allowable language convention rules:
 ### .NET code style settings  
 The style rules in this section are applicable to both C# and Visual Basic. To see code examples in your preferred programming language, choose it in the drop-down **Language** menu at the top-right corner of your browser window.  
 
-#### <a name="this_and_me">"This." and "Me." qualifiers (rule IDs IDE0003 and IDE0009)</a>
-This style rule can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
+#### <a name="this_and_me">"This." and "Me." qualifiers</a>
+This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
 
 The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
@@ -199,14 +199,14 @@ dotnet_style_qualification_for_event = false:suggestion
 ```
 
 #### <a name="language_keywords">Language keywords instead of framework type names for type references</a>
-This style rule can be applied to local variables, method parameters, and class members (rule IDs IDE0012 and IDE0014), or as a separate rule to type member access expressions (rule IDs IDE0013 and IDE0015). A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
+This style rule can be applied to local variables, method parameters, and class members, or as a separate rule to type member access expressions. A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.  
 
-The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, rules IDs, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
-|`dotnet_style_predefined_type_for_member_access`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |  
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | ------- | -------------------- | ----------------------| ----------------  |
+|`dotnet_style_predefined_type_for_locals_parameters_members`| IDE0012 and IDE0014 | C# and Visual Basic | true:none | Visual Studio 2017 RTW |
+|`dotnet_style_predefined_type_for_member_access`| IDE0013 and IDE0015 | C# and Visual Basic | true:none | Visual Studio 2017 RTW |  
 
 **dotnet\_style\_predefined\_type\_for\_locals\_parameters_members**  
 When this rule is set to **true**, prefer the language keyword for local variables, method parameters, and class members, instead of the type name, for types that have a keyword to represent them.  
@@ -260,17 +260,17 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
 #### <a name="expression_level">Expression-level preferences</a>  
-The style rules in this section concern expression-level preferences, including the use of object initializers (rule ID IDE0017), collection initializers (rule ID IDE0028), explicit tuple names (rule ID IDE0033), null coalescing expressions versus ternary operators (rule ID IDE0029), and the null-conditional operator (rule ID IDE0031).  
+The style rules in this section concern expression-level preferences, including the use of object initializers, collection initializers, explicit tuple names, null coalescing expressions versus ternary operators, and the null-conditional operator.  
 
-The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:  
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`dotnet_style_object_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-|`dotnet_style_collection_initializer`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-|`dotnet_style_explicit_tuple_names`| C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
-|`dotnet_style_coalesce_expression`| C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-|`dotnet_style_null_propagation`| C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW | 
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | ------- | -------------------- | ----------------------| ----------------  |
+|`dotnet_style_object_initializer`| IDE0017 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_collection_initializer`| IDE0028 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_explicit_tuple_names`| IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_coalesce_expression`| IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
+|`dotnet_style_null_propagation`| IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW | 
 
 **dotnet\_style\_object_initializer**  
 When this rule is set to **true**, prefer objects to be initialized using object initializers when possible.  
@@ -471,18 +471,18 @@ csharp_style_var_elsewhere = true:suggestion
 ``` 
 
 #### <a name="expression_bodied_members">Expression-bodied members</a>
-The style rules in this section concern the use of [expression-bodied members](/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members) when the logic consists of a single expression. This rule can be applied to methods (rule ID IDE0022), constructors (rule ID IDE0021), operators (rule IDs IDE0023 and IDE0024), properties (rule ID IDE0025), indexers (rule ID IDE0026), and accessors (rule ID IDE0027).  
+The style rules in this section concern the use of [expression-bodied members](/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members) when the logic consists of a single expression. This rule can be applied to methods, constructors, operators, properties, indexers, and accessors.  
 
-The following table shows the rule names, applicable language versions, default values, and first supported version of Visual Studio:  
+The following table shows the rule names, rule IDs, applicable language versions, default values, and first supported version of Visual Studio:  
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_expression_bodied_methods`| C# 6.0+ | false:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_constructors`| C# 7.0+ | false:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_operators` | C# 7.0+ | false:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_properties` | C# 7.0+ | true:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_indexers` | C# 7.0+ | true:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_accessors` | C# 7.0+ | true:none | Visual Studio 2017 RTW |  
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | ------- | -------------------- | ----------------------| ----------------  |
+|`csharp_style_expression_bodied_methods`| IDE0022 | C# 6.0+ | false:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_constructors`| IDE0021 | C# 7.0+ | false:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_operators` | IDE0023 and IDE0024 | C# 7.0+ | false:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_properties` | IDE0025 | C# 7.0+ | true:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_indexers` | IDE0026 | C# 7.0+ | true:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_accessors` | IDE0027 | C# 7.0+ | true:none | Visual Studio 2017 RTW |  
 
 **csharp\_style\_expression\_bodied_methods**  
 When this rule is set to **true**, prefer expression-bodied members for methods.  
@@ -583,16 +583,43 @@ csharp_style_expression_bodied_accessors = false:none
 ```  
 
 #### <a name="pattern_matching">Pattern matching</a>
+The style rules in this section concern the use of [pattern matching](/dotnet/csharp/pattern-matching) in C#.  
 
-"is" with "cast" checking (IDE0020)
-"as" with "null" checking (IDE0019)
-Inlined variable declarations (IDE0018)
+The following table shows the rule names, rule IDs, applicable language versions, default values, and first supported version of Visual Studio:  
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_pattern_matching_over_is_with_cast_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
-|`csharp_style_pattern_matching_over_as_with_null_check` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
-|`csharp_style_inlined_variable_declaration` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| csharp_style_pattern_matching_over_is_with_cast_check | IDE0020 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+| csharp_style_pattern_matching_over_as_with_null_check | IDE0019 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+
+**csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check**  
+When this rule is set to **true**, prefer pattern matching instead of `is` expressions with type casts.  
+When this rule is set to **false**, prefer `is` expressions with type casts instead of pattern matching.  
+
+Code examples:  
+
+```csharp
+// csharp_style_pattern_matching_over_is_with_cast_check = true
+if (o is int i) {...}
+
+// csharp_style_pattern_matching_over_is_with_cast_check = false
+if (o is int) {var i = (int)o; ... }
+```
+
+**csharp\_style\_pattern\_matching\_over\_as\_with\_null_check**  
+When this rule is set to **true**, prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type.  
+When this rule is set to **false**, prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type.  
+
+Code examples:  
+
+```csharp
+// csharp_style_pattern_matching_over_as_with_null_check = true
+if (o is string s) {...}
+
+// csharp_style_pattern_matching_over_as_with_null_check = false
+var s = o as string;
+if (s != null) {...}
+```
 
 #### Example editorconfig file:
 ```
@@ -600,31 +627,31 @@ Inlined variable declarations (IDE0018)
 [*.cs]
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
-csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer pattern matching instead of `is` expressions with type casts.| **C#:** <br>`if (o is int i) {...}`
-| False | Prefer `is` expressions with type casts instead of pattern matching.| **C#:** <br>`if (o is int) {var i = (int)o; ... }`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type.| **C#:** <br>`if (o is string s) {...}`
-| False | Prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type.| **C#:** <br>`var s = o as string; if (s != null) {...}`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
-| False | Prefer `out` variables to be declared explicitly.| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
-
 #### <a name="inlined_variable_declarations">Inlined variable declarations</a>
+This style rule concerns whether `out` variables are declared inline or not. Starting in C# 7, you can [declare an out variable in the argument list of a method call](/dotnet/csharp/language-reference/keywords/out-parameter-modifier#calling-a-method-with-an-out-argument), rather than in a separate variable declaration.  
 
-Inlined variable declarations (IDE0018)
+The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|`csharp_style_inlined_variable_declaration` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+| Rule Name | Rules ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | -------- | -------------------- | ----------------------| ----------------  |
+|`csharp_style_inlined_variable_declaration` | IDE0018 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+
+**csharp\_style\_inlined\_variable_declaration**  
+When this rule is set to **true**, prefer `out` variables to be declared inline in the argument list of a method call when possible.  
+When this rule is set to **false**, prefer `out` variables to be declared before the method call.  
+
+Code examples:  
+
+```csharp
+// csharp_style_inlined_variable_declaration = true
+if (int.TryParse(value, out int i) {...}
+
+// csharp_style_inlined_variable_declaration = fale
+int i;
+if (int.TryParse(value, out i) {...}
+```
 
 #### Example editorconfig file:
 ```
@@ -632,11 +659,6 @@ Inlined variable declarations (IDE0018)
 [*.cs]
 csharp_style_inlined_variable_declaration = true:suggestion
 ```
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
-| False | Prefer `out` variables to be declared explicitly.| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
 
 #### <a name="expression_level_csharp">Expression-level preferences</a>
 
