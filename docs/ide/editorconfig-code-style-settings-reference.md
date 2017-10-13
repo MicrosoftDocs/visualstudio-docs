@@ -1,7 +1,7 @@
 ---
 title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "08/16/2017"
+ms.date: "10/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -64,15 +64,32 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
 - C# Code Style Settings
-    - ["var"](#var)
+    - [Implicit and explicit types](#var)
+        - csharp\_style\_var\_for\_built\_in_types
+        - csharp\_style\_var\_when\_type\_is_apparent
+        - csharp\_style\_var_elsewhere
     - [Expression-bodied members](#expression_body)
+        - csharp\_style\_expression\_bodied_methods
+        - csharp\_style\_expression\_bodied_constructors
+        - csharp\_style\_expression\_bodied_operators
+        - csharp\_style\_expression\_bodied_properties
+        - csharp\_style\_expression\_bodied_indexers
+        - csharp\_style\_expression\_bodied_accessors
     - [Pattern matching](#pattern_matching)
+        - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
+        - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
     - [Inlined variable declarations](#inlined_variable_declarations)
+        - csharp\_style\_inlined\_variable_declaration
     - [Expression-level preferences](#expression_level_csharp)
+        - csharp\_prefer\_simple\_default_expression
     - ["Null" checking preferences](#null_checking)
+        - csharp\_style\_throw_expression
+        - csharp\_style\_conditional\_delegate_call
     - [Code block preferences](#code_block)
+        - csharp\_prefer_braces
 
-### .NET code style settings
+### .NET code style settings  
+The style rules in this section are applicable to both C# and Visual Basic. To see code examples in your preferred programming language, choose it in the drop-down **Language** menu at the top-right corner of your browser window.  
 
 #### <a name="this_and_me">"This." and "Me." qualifiers (rule IDs IDE0003 and IDE0009)</a>
 This style rule can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
@@ -86,7 +103,7 @@ The following table shows the rule names, applicable programming languages, defa
 | `dotnet_style_qualification_for_method` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
 | `dotnet_style_qualification_for_event` | C# and Visual Basic | false:none | Visual Studio 2017 RTW |   
 
-**dotnet\_style\_qualification\_for_field**
+**dotnet\_style\_qualification\_for_field**  
 When this rule is set to **true**, prefer fields to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
 When this rule is set to **false**, prefer fields _not_ to be prefaced with `this.` or `Me.`.  
 
@@ -107,7 +124,7 @@ Me.capacity = 0
 capacity = 0
 ```  
 
-**dotnet\_style\_qualification\_for_property**
+**dotnet\_style\_qualification\_for_property**  
 When this rule is set to **true**, prefer properties to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
 When this rule is set to **false**, prefer properties _not_ to be prefaced with `this.` or `Me.`.  
 
@@ -128,7 +145,7 @@ Me.ID = 0
 ID = 0
 ```  
 
-**dotnet\_style\_qualification\_for_method**
+**dotnet\_style\_qualification\_for_method**  
 When this rule is set to **true**, prefer methods to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
 When this rule is set to **false**, prefer methods _not_ to be prefaced with `this.` or `Me.`.  
 
@@ -149,7 +166,7 @@ Me.Display()
 Display()
 ```  
 
-**dotnet\_style\_qualification\_for_event**
+**dotnet\_style\_qualification\_for_event**  
 When this rule is set to **true**, prefer events to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
 When this rule is set to **false**, prefer events _not_ to be prefaced with `this.` or `Me.`.  
 
@@ -389,18 +406,60 @@ dotnet_style_null_propagation = true:suggestion
 ``` 
 
 ### C# code style settings  
+The style rules in this section are applicable to C# only.  
 
-#### <a name="var">"var" and explicit types</a>
+#### <a name="var">Implicit and explicit types</a>
+The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.  
 
-"var" for built-in types (IDE0007, IDE0008)
-"var" when type is apparent (IDE0007, IDE0008)
-"var" elsewhere (IDE0007, IDE0008)
+The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_var_for_built_in_types`| C# | true:none | Visual Studio 2017 RTW |
 |`csharp_style_var_when_type_is_apparent`| C# | true:none | Visual Studio 2017 RTW |
 |`csharp_style_var_elsewhere`| C# | true:none | Visual Studio 2017 RTW |
+
+**csharp\_style\_var\_for\_built\_in_types**  
+When this rule is set to **true**, prefer `var` is used to declare variables with built-in system types such as `int`.  
+When this rule is set to **false**, prefer explicit type over `var` to declare variables with built-in system types such as `int`.
+
+Code examples:  
+
+```csharp
+// csharp_style_var_for_built_in_types = true
+var x = 5;
+
+// csharp_style_var_for_built_in_types = false
+int x = 5;
+```
+
+**csharp\_style\_var\_when\_type\_is_apparent**  
+When this rule is set to **true**, prefer `var` when the type is already mentioned on the right-hand side of a declaration expression.  
+When this rule is set to **false**, prefer explicit type over `var` when the type is already mentioned on the right-hand side of a declaration expression.  
+
+Code examples:  
+
+```csharp
+// csharp_style_var_when_type_is_apparent = true
+var obj = new Customer();
+
+// csharp_style_var_when_type_is_apparent = false
+Customer obj = new Customer();
+```
+
+**csharp\_style\_var_elsewhere**  
+When this rule is set to **true**, prefer `var` over explicit type in all cases, unless overridden by another code style rule.  
+When this rule is set to **false**, prefer explicit type over `var` in all cases, unless overridden by another code style rule.  
+
+Code examples:  
+
+```csharp
+// csharp_style_var_elsewhere = true
+var f = this.Init();
+
+// csharp_style_var_elsewhere = false
+bool f = this.Init();
+```
 
 #### Example editorconfig file:
 ```
@@ -411,29 +470,10 @@ csharp_style_var_when_type_is_apparent = true:suggestion
 csharp_style_var_elsewhere = true:suggestion
 ``` 
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer `var` is used for built-in system types such as `int`.| **C#:** <br>`var x = 5;`
-| False | Prefer `var` not be used for built-in system types such as `int`. | **C#:** <br>`int x = 5;`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer `var` when the type is already mentioned on the right-hand side of a declaration expression.| **C#:** <br>`var obj = new C();`
-| False | Prefer to not use `var` when the type is already mentioned on the right-hand side of a declaration expression. | **C#:** <br>`C obj = new C();`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer `var` in all cases unless overridden by another code style rule.| **C#:** <br>`var f = this.Init();`
-| False | Prefer to not use var in all cases unless overridden by another code style rule.| **C#:** <br>`bool f = this.Init();`
-
 #### <a name="expression_bodied_members">Expression-bodied members</a>
+The style rules in this section concern the use of [expression-bodied members](/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members) when the logic consists of a single expression. This rule can be applied to methods (rule ID IDE0022), constructors (rule ID IDE0021), operators (rule IDs IDE0023 and IDE0024), properties (rule ID IDE0025), indexers (rule ID IDE0026), and accessors (rule ID IDE0027).  
 
-Methods (IDE0022)
-Constructors (IDE0021)
-Operators (IDE0023, IDE0024)
-Properties (IDE0025)
-Indexers (IDE0026)
-Accessors (IDE0027)
+The following table shows the rule names, applicable language versions, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -442,7 +482,93 @@ Accessors (IDE0027)
 |`csharp_style_expression_bodied_operators` | C# 7.0+ | false:none | Visual Studio 2017 RTW |
 |`csharp_style_expression_bodied_properties` | C# 7.0+ | true:none | Visual Studio 2017 RTW |
 |`csharp_style_expression_bodied_indexers` | C# 7.0+ | true:none | Visual Studio 2017 RTW |
-|`csharp_style_expression_bodied_accessors` | C# 7.0+ | true:none | Visual Studio 2017 RTW |
+|`csharp_style_expression_bodied_accessors` | C# 7.0+ | true:none | Visual Studio 2017 RTW |  
+
+**csharp\_style\_expression\_bodied_methods**  
+When this rule is set to **true**, prefer expression-bodied members for methods.  
+When this rule is set to **false**, do not prefer expression-bodied members for methods.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_methods = true
+public int GetAge() => this.Age;
+
+// csharp_style_expression_bodied_methods = false
+public int GetAge() { return this.Age; }
+```  
+
+**csharp\_style\_expression\_bodied_constructors**  
+When this rule is set to **true**, prefer expression-bodied members for constructors.  
+When this rule is set to **false**, do not prefer expression-bodied members for constructors.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_constructors = true
+public Customer(int age) => Age = age;
+
+// csharp_style_expression_bodied_constructors = false
+public Customer(int age) { Age = age; }
+```  
+
+**csharp\_style\_expression\_bodied_operators**  
+When this rule is set to **true**, prefer expression-bodied members for operators.  
+When this rule is set to **false**, do not prefer expression-bodied members for operators.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_operators = true
+public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
+    => new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);
+
+// csharp_style_expression_bodied_operators = false
+public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
+{ return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary); }
+```  
+
+**csharp\_style\_expression\_bodied_properties**  
+When this rule is set to **true**, prefer expression-bodied members for properties.  
+When this rule is set to **false**, do not prefer expression-bodied members for properties.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_properties = true
+public int Age => _age;
+
+// csharp_style_expression_bodied_properties = false
+public int Age { get { return _age; }}
+```  
+
+**csharp\_style\_expression\_bodied_indexers**  
+When this rule is set to **true**, prefer expression-bodied members for indexers.  
+When this rule is set to **false**, do not prefer expression-bodied members for indexers.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_indexers = true
+public T this[int i] => _value[i];
+
+// csharp_style_expression_bodied_indexers = false
+public T this[int i] { get { return _values[i]; } }
+```  
+
+**csharp\_style\_expression\_bodied_accessors**  
+When this rule is set to **true**, prefer expression-bodied members for accessors.  
+When this rule is set to **false**, do not prefer expression-bodied members for accessors.  
+
+Code examples:  
+
+```csharp
+// csharp_style_expression_bodied_accessors = true
+public int Age { get => _age; set => _age = value; }
+
+// csharp_style_expression_bodied_accessors = false
+public int Age { get { return _age; } set { _age = value; } }
+```  
 
 #### Example editorconfig file:
 ```
@@ -454,38 +580,7 @@ csharp_style_expression_bodied_operators = false:none
 csharp_style_expression_bodied_properties = true:none
 csharp_style_expression_bodied_indexers = false:none
 csharp_style_expression_bodied_accessors = false:none
-``` 
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for methods.| **C#:** <br>`public int GetAge() => this.Age;`
-| False | Do not prefer expression-bodied members for methods.| **C#:** <br>`public int GetAge() { return this.Age; }`
-
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for constructors.| **C#:** <br>`public Customer(int age) => Age = age;`
-| False | Do not prefer expression-bodied members for constructors.| **C#:** <br>`public Customer(int age) { Age = age; }`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for operators.| **C#:** <br>`public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)`<br>`=> new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);`
-| False | Do not prefer expression-bodied members for operators.| **C#:** <br>`public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)`<br>`{ return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary); }`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for properties.| **C#:** <br>`public int Age => _age;`
-| False | Do not prefer expression-bodied members for properties.| **C#:** <br>`public int Age { get { return _age; }}`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for indexers.| **C#:** <br>`public T this[int i] => _value[i];`
-| False | Do not prefer expression-bodied members for indexers.| **C#:** <br>`public T this[int i] { get { return _values[i]; } }`
-
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Prefer expression-bodied members for accessors.| **C#:** <br>`public int Age { get => _age; set => _age = value; }`
-| False | Do not prefer expression-bodied members for accessors.| **C#:** <br>`public int Age { get { return _age; } set { _age = value; } }`
+```  
 
 #### <a name="pattern_matching">Pattern matching</a>
 
@@ -517,6 +612,26 @@ csharp_style_inlined_variable_declaration = true:suggestion
 | ------------- |:-------------|:-------------|
 | True | Prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type.| **C#:** <br>`if (o is string s) {...}`
 | False | Prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type.| **C#:** <br>`var s = o as string; if (s != null) {...}`
+
+| Value | Description | Applied 
+| ------------- |:-------------|:-------------|
+| True | Prefer `out` variables to be declared inline when possible. | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
+| False | Prefer `out` variables to be declared explicitly.| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
+
+#### <a name="inlined_variable_declarations">Inlined variable declarations</a>
+
+Inlined variable declarations (IDE0018)
+
+| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| ----------- | -------------------- | ----------------------| ----------------  |
+|`csharp_style_inlined_variable_declaration` | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+
+#### Example editorconfig file:
+```
+# CSharp code style settings:
+[*.cs]
+csharp_style_inlined_variable_declaration = true:suggestion
+```
 
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
