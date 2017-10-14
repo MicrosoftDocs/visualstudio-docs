@@ -785,11 +785,29 @@ The following list shows the formatting convention rules available in Visual Stu
 
 - .NET Formatting Settings
     - [Organize Usings](#usings)
+        - dotnet_sort_system_directives_first
 - C# Formatting Settings
     - [Newline Options](#newline)
+        - csharp_new_line_before_open_brace
+        - csharp_new_line_before_else
+        - csharp_new_line_before_catch
+        - csharp_new_line_before_finally
+        - csharp_new_line_before_members_in_object_initializers
+        - csharp_new_line_before_members_in_anonymous_types
+        - csharp_new_line_between_query_expression_clauses
     - [Indentation Options](#indent)
+        - csharp_indent_case_contents
+        - csharp_indent_switch_labels
+        - csharp_indent_labels
     - [Spacing Options](#spacing)
+        - csharp_space_after_cast
+        - csharp_space_after_keywords_in_control_flow_statements
+        - csharp_space_between_method_declaration_parameter_list_parentheses
+        - csharp_space_between_method_call_parameter_list_parentheses
+        - csharp_space_between_parentheses
     - [Wrapping Options](#wrapping)
+        - csharp_preserve_single_line_statements
+        - csharp_preserve_single_line_blocks
 
 ### .NET formatting settings
 The formatting rules in this section are applicable to C# and Visual Basic.  
