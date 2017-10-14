@@ -122,8 +122,8 @@ Another way that you can change the default language is by running the installer
 2. Click **File**, and then click **New Project**.
 
 3. Select a project type. <br><br>
-   For example, to [build a C++ app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build. <br><br>
-   To [build a C## app](../ide/getting-started-with-cpp-in-visual-studio.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md),  click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build. <br><br>
+   To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 ## Get support
 

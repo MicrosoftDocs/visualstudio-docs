@@ -19,21 +19,6 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Rename Refactoring (C#)
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  
@@ -45,7 +30,7 @@ translation.priority.mt:
   
 |Feature|Behavior of Refactoring in the IDE|  
 |-------------|----------------------------------------|  
-|Code Editor|In the Code Editor, rename refactoring is available when you position the cursor on certain types of code symbols. When the cursor is in this position, you can invoke the **Rename** command by typing the keyboard shortcut (CTRL + R, CTRL + R), or by selecting the **Rename** command from a smart tag, shortcut menu, or the **Refactor** menu.|  
+|Code Editor|In the Code Editor, rename refactoring is available when you position the cursor on certain types of code symbols. When the cursor is in this position, you can invoke the **Rename** command by typing the keyboard shortcut (Ctrl + R, Ctrl + R), or by selecting the **Rename** command from Quick Actions, the shortcut menu, or the **Refactor** menu.|  
 |Class View|When you select an identifier in Class View, rename refactoring is available from the shortcut menu and **Refactor** menu.|  
 |Object Browser|When you select an identifier in Object Browser, rename refactoring is only available from the **Refactor** menu.|  
 |Property Grid of the Windows Forms Designer|In the **Property Grid** of the Windows Forms Designer, changing the name of a control will initiate a rename operation for that control. The **Rename** dialog box will not appear.|  
@@ -100,7 +85,7 @@ translation.priority.mt:
   
 7.  In the **Preview Changes** dialog box, click **Apply**.  
   
-#### To rename an identifier using smart tags  
+#### To rename an identifier using Quick Actions  
   
 1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
@@ -123,22 +108,18 @@ translation.priority.mt:
     }  
     ```  
   
-2.  In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
+2.  In the declaration for `MethodB`, type or backspace over the method identifier. A Quick Actions light bulb will appear in the margin.  
   
     > [!NOTE]
-    >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
+    >  You can only invoke rename refactoring using Quick Actions at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
-  
-     -or-  
-  
-     Move the mouse pointer over the smart tag prompt to display the smart tag. Then move the mouse pointer over the smart tag and click the DOWN ARROW to display the smart tag menu.  
-  
-4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
+3.  Type the keyboard shortcut **Shift+Alt+F10** to display the Quick Actions menu.  
   
      -or-  
   
-     Select the **Rename with preview** menu item to invoke rename refactoring with a preview of the changes to your code. The **Preview Changes** dialog box will appear.  
+     Click the black triangle next to the light bulb to display the Quick Actions menu.  
+  
+4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
   
 ## Remarks  
   
