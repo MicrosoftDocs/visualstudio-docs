@@ -187,7 +187,7 @@ AddHandler Me.Elapsed, AddressOf Handler
 AddHandler Elapsed, AddressOf Handler
 ```  
 
-This rule could appear in an .editorconfig file as follows:  
+These rules could appear in an .editorconfig file as follows:  
 
 ```
 # CSharp and Visual Basic code style settings:
@@ -250,7 +250,7 @@ Dim local = Integer.MaxValue
 Dim local = Int32.MaxValue
 ```  
 
-This rule could appear in an .editorconfig file as follows:  
+These rules could appear in an .editorconfig file as follows:  
 
 ```
 # CSharp and Visual Basic code style settings:
@@ -393,7 +393,7 @@ Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```  
 
-This rule could appear in an .editorconfig file as follows:  
+These rules could appear in an .editorconfig file as follows:  
 
 ```
 # CSharp and Visual Basic code style settings:
@@ -743,8 +743,8 @@ csharp_style_throw_expression = true:suggestions:
 csharp_style_conditional_delegate_call = false:suggestion
 ```
 
-#### <a name="code_block">"Code block preferences</a>
-This style rule concerns the use of curly braces (`{ }`) to surround code blocks.  
+#### <a name="code_block">Code block preferences</a>
+This style rule concerns the use of curly braces `{ }` to surround code blocks.  
 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
@@ -847,10 +847,8 @@ The following table shows the "new line" rule names, applicable languages, defau
 | csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 v. 15.3  |
 | csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 v. 15.3  |
 
-
-New line before opening brace
-
-For this rule, you do not specify **true** or **false**. Instead you specify **all**, **none**, or one or more code elements such as **methods** or **properties**. The complete list of allowable values is shown in the following table:  
+**csharp\_new\_line\_before\_open_brace**  
+This rule concerns whether an open brace `{` should be placed on the same line as the preceding code, or on a new line. For this rule, you do not specify **true** or **false**. Instead you specify **all**, **none**, or one or more code elements such as **methods** or **properties**, to define when this rule should be applied. The complete list of allowable values is shown in the following table:  
 
 | Value | Description 
 | ------------- |:-------------|
@@ -878,12 +876,9 @@ void MyMethod() {
 }
 ```
 
-Newline Before `else`
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Place `else` statements on a new line.  |
-| False | Place `else` statements on the same line.  |
+**csharp\_new\_line\_before_else**  
+When this rule is set to **true**, place `else` statements on a new line.  
+When this rule is set to **false**, place `else` statements on the same line.  
 
 Code examples:  
 
@@ -904,12 +899,9 @@ if (...) {
 }
 ```
 
-Newline Before `catch`
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Place `catch` statements on a new line.  |
-| False | Place `catch` statements on the same line. |
+**csharp\_new\_line\_before_catch**    
+When this rule is set to **true**, place `catch` statements on a new line.  
+When this rule is set to **false**, place `catch` statements on the same line.  
 
 Code examples:  
 
@@ -930,12 +922,9 @@ try {
 }
 ```
 
-Newline Before `finally`
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Require `finally` statements to be on a new line after the closing brace.  |
-| False | Require `finally` statements to be on the same line as the closing brace.  |
+**csharp\_new\_line\_before_finally**      
+When this rule is set to **true**, require `finally` statements to be on a new line after the closing brace.  
+When this rule is set to **false**, require `finally` statements to be on the same line as the closing brace.  
 
 Code examples:  
 
@@ -961,12 +950,9 @@ try {
 }
 ```
 
-Newline Before Members in Object Initializers
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Require members of object intializers to be on separate lines.  |
-| False | Require members of object initializers to be on the same line.  |
+**csharp\_new\_line\_before\_members\_in\_object_initializers**       
+When this rule is set to **true**, require members of object intializers to be on separate lines.  
+When this rule is set to **false**, require members of object initializers to be on the same line.  
 
 Code examples:  
 
@@ -985,12 +971,9 @@ var z = new B()
 }
 ```
 
-Newline Before Members in Anonymous Types
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Require members of anonymous types to be on separate lines.  |
-| False | Require members of anonymous types to be on the same line.  |
+**csharp\_new\_line\_before\_members\_in\_anonymous_types**       
+When this rule is set to **true**, require members of anonymous types to be on separate lines.  
+When this rule is set to **false**, require members of anonymous types to be on the same line.  
 
 Code examples:  
 
@@ -1009,12 +992,9 @@ var z = new
 }
 ```
 
-Newline Before Members in Query Expression Clauses
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Require elements of query expression clauses to be on separate lines.  |
-| False | Require elements of query expression clauses to be on the same line.  |
+**csharp_new_line_between_query_expression_clauses**       
+When this rule is set to **true**, require elements of query expression clauses to be on separate lines.  
+When this rule is set to **false**, require elements of query expression clauses to be on the same line.  
 
 Code examples:  
 
@@ -1044,6 +1024,9 @@ csharp_new_line_between_query_expression_clauses = true
 ``` 
 
 #### <a name="indent">Indentation options</a>  
+These formatting rules concern the use of indentation to format code.  
+
+The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -1051,12 +1034,9 @@ csharp_new_line_between_query_expression_clauses = true
 | csharp_indent_switch_labels |  C# | true | Visual Studio 2017 v. 15.3  |
 | csharp_indent_labels |  C# | no_change | Visual Studio 2017 v. 15.3  |
 
-Indent `switch` Case Contents
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Indent `switch` case contents  |
-| False | Do not indent `switch` case contents |
+**csharp\_indent\_case_contents**  
+When this rule is set to **true**, indent `switch` case contents.  
+When this rule is set to **false**, do not indent `switch` case contents.  
 
 Code examples:  
 
@@ -1088,12 +1068,9 @@ switch(c) {
 }
 ```
 
-Indent `switch` Labels
-
-| Value | Description 
-| ------------- |:-------------|
-| True | Indent `switch` labels  |
-| False | Do not indent `switch` labels |
+**csharp\_indent\_switch_labels**  
+When this rule is set to **true**, indent `switch` labels.  
+When this rule is set to **false**, do not indent `switch` labels.  
 
 Code examples:  
 
@@ -1125,10 +1102,11 @@ default:
 }
 ```
 
-Label positioning
+**csharp\_indent_labels**  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
 
-| Value | Description 
-| ------------- |:-------------|
+| Value | Description |
+| ----- |:----------- |
 | flush_left | Labels are placed at the leftmost column |
 | one_less_than_current | Labels are placed at one less indent to the current context |
 | no_change | Labels are placed at the same indent as the current context |
@@ -1187,6 +1165,9 @@ csharp_indent_labels = flush_left
 ``` 
 
 #### <a name="spacing">Spacing Options</a>  
+These formatting rules concern the use of space characters to format code.  
+
+The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -1196,42 +1177,83 @@ csharp_indent_labels = flush_left
 | csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
 | csharp_space_between_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
 
+**csharp\_space\_after_cast**  
+When this rule is set to **true**, require a space between a cast and the value.  
+When this rule is set to **false**, require _no_ space between the cast and the value.  
 
-Space After Cast
+Code examples:
 
-| Value | Description | Applied |
-| ------------- |:-------------|:-------------|
-| True | Require a space between a cast and the value  | **C#:** <br>`int y = (int) x;`
-| False | Require no space between the cast and the value | **C#:** <br>`int y = (int)x;`
+```csharp
+// csharp_space_after_cast = true
+int y = (int) x;
 
-Space After Keywords in Control Flow Statements
+// csharp_space_after_cast = false
+int y = (int)x;
+```
 
-| Value | Description | Applied |
-| ------------- |:-------------|:-------------|
-| True | Require a space after a keyword | **C#:** <br>`for (int i;i<x;i++) { ... }`
-| False | Require no space after a keyword | **C#:** <br>`for(int i;i<x;i++) { ... }`
+**csharp_space_after_keywords_in_control_flow_statements**  
+When this rule is set to **true**, require a space after a keyword in a control flow statement such as a `for` loop.  
+When this rule is set to **false**, require _no_ space after a keyword in a control flow statement such as a `for` loop.  
 
-Space Between Method Declaration Argument-List Parentheses
+Code examples:
 
-| Value | Description | Applied |
-| ------------- |:-------------|:-------------|
-| True | Require a space after a keyword | **C#:** <br>`void Bark( int x ) { ... }`
-| False | Require no space after a keyword | **C#:** <br>`void Bark(int x) { ... }`
+```csharp
+// csharp_space_after_keywords_in_control_flow_statements = true
+for (int i;i<x;i++) { ... }
 
-Space Within Parentheses for Method Call Argument List
+// csharp_space_after_keywords_in_control_flow_statements = false
+for(int i;i<x;i++) { ... }
+```
 
-| Value | Description | Applied |
-| ------------- |:-------------|:-------------|
-| true | Place space between parentheses of control flow statements | **C#:** <br>`MyMethod( argument );`
-| false | Place space between parentheses of expressions | **C#:** <br>`MyMethod(argument);`
+**csharp_space_between_method_declaration_parameter_list_parentheses**  
+When this rule is set to **true**, place a space character after the opening parenthesis and before the closing parenthesis of a method declaration parameter list.  
+When this rule is set to **false**, do not place space characters after the opening parenthesis and before the closing parenthesis of a  method declaration parameter list.  
 
-Space Within Parentheses for Other Options
+Code examples:
 
-| Value | Description | Applied |
-| ------------- |:-------------|:-------------|
-| control_flow_statements | Place space between parentheses of control flow statements | **C#:** <br>`for( int i;i<x;i++ ) { ... }`
-| expressions | Place space between parentheses of expressions | **C#:** <br>`var z = ( x * y ) - ( ( y - x ) * 3);`
-| type_casts | Place space between parentheses in type casts | **C#:**<br>`int y = ( int )x;`
+```csharp
+// csharp_space_between_method_declaration_parameter_list_parentheses = true
+void Bark( int x ) { ... }
+
+// csharp_space_between_method_declaration_parameter_list_parentheses = false
+void Bark(int x) { ... }
+```
+
+**csharp_space_between_method_call_parameter_list_parentheses**  
+When this rule is set to **true**, place a space character after the opening parenthesis and before the closing parenthesis of a method call.  
+When this rule is set to **false**, do not place space characters after the opening parenthesis and before the closing parenthesis of a method call.  
+
+Code examples:
+
+```csharp
+// csharp_space_between_method_call_parameter_list_parentheses = true
+MyMethod( argument );
+
+// csharp_space_between_method_call_parameter_list_parentheses = false
+MyMethod(argument);
+```
+
+**csharp_space_between_parentheses**  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:------------|
+| control_flow_statements | Place space between parentheses of control flow statements |
+| expressions | Place space between parentheses of expressions |
+| type_casts | Place space between parentheses in type casts |
+
+Code examples:
+
+```csharp
+// csharp_space_between_parentheses = control_flow_statements
+for( int i;i<x;i++ ) { ... }
+
+// csharp_space_between_parentheses = expressions
+var z = ( x * y ) - ( ( y - x ) * 3);
+
+// csharp_space_between_parentheses = type_casts
+int y = ( int )x;
+```
 
 Example .editorconfig file:  
 
@@ -1246,18 +1268,18 @@ csharp_space_between_parentheses = control_flow_statements, type_casts
 ``` 
 
 #### <a name="wrapping">Wrapping options</a>
+These formatting rules concern the use of single lines versus separate lines for statements and code blocks.  
+
+The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_preserve_single_line_statements |  C# | true | Visual Studio 2017 v. 15.3  |
 | csharp_preserve_single_line_blocks |  C# | true | Visual Studio 2017 v. 15.3  |
 
-Leave Statements and Member Declarations on the Same Line
-
-| Value | Description |
-| ------------- |:-------------|
-| True | Leave statements and member declarations on the same line  | 
-| False | Leave statements and member declarations on different lines | 
+**csharp_preserve_single_line_statements**   
+When this rule is set to **true**, leave statements and member declarations on the same line.  
+When this rule is set to **false**, leave statements and member declarations on different lines.  
 
 Code examples:  
 
@@ -1270,12 +1292,9 @@ int i = 0;
 string name = "John";
 ```
 
-Leave Block on Single Line
-
-| Value | Description |
-| ------------- |:-------------|
-| True | Leave block on single line | 
-| False | Leave block on separate lines | 
+**csharp_preserve_single_line_blocks** 
+When this rule is set to **true**, leave code block on single line.  
+When this rule is set to **false**, leave code block on separate lines.  
 
 Code examples:  
 
