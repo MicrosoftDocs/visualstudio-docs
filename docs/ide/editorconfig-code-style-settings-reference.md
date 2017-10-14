@@ -31,7 +31,7 @@ There are three supported .NET coding convention categories:
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
 ## Language conventions  
-The rules for language conventions have the following format:  
+Rules for language conventions have the following format:  
 
 `options_name = false|true : none|suggestion|warning|error`  
 
@@ -461,7 +461,8 @@ var f = this.Init();
 bool f = this.Init();
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -570,7 +571,8 @@ public int Age { get => _age; set => _age = value; }
 public int Age { get { return _age; } set { _age = value; } }
 ```  
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -621,7 +623,8 @@ var s = o as string;
 if (s != null) {...}
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -653,7 +656,8 @@ int i;
 if (int.TryParse(value, out i) {...}
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -683,7 +687,8 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -729,7 +734,8 @@ func?.Invoke(args);
 if (func != null) { func(args); }
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -760,7 +766,8 @@ if (test) { this.Display(); }
 if (test) this.Display();
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp code style settings:
 [*.cs]
@@ -768,14 +775,13 @@ csharp_prefer_braces = true:none
 ```
 
 ## Formatting conventions
+Most of the rules for formatting conventions have the following format:  
 
-Overview
-**Rule Format:**
-`options_name = false|true`
+`rule_name = false|true`  
 
-For formatting rules, you must specify **true** (prefer this style) or **false** (do not prefer this style) except in a couple cases where you must instead specify what conditions you want the rule applied to.
+You specify either **true** (prefer this style) or **false** (do not prefer this style). You do not specify a severity. For a few rules, instead of true or false, you specify other values to describe when and where to apply the rule.  
 
-### .NET formatting settings
+The following list shows the formatting convention rules available in Visual Studio:  
 
 - .NET Formatting Settings
     - [Organize Usings](#usings)
@@ -785,20 +791,38 @@ For formatting rules, you must specify **true** (prefer this style) or **false**
     - [Spacing Options](#spacing)
     - [Wrapping Options](#wrapping)
 
-#### <a name="usings">Organize usings</a>
+### .NET formatting settings
+The formatting rules in this section are applicable to C# and Visual Basic.  
 
-Sort System Directives First
+#### <a name="usings">Organize usings</a>
+This formatting rule concerns the placement of System.* using directives with respect to other using directives.  
+
+The following table shows the rule name, applicable languages, default value, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | dotnet_sort_system_directives_first |  C# and Visual Basic | true | Visual Studio 2017 v. 15.3  |
 
-| Value | Description | Applied 
-| ------------- |:-------------|:-------------|
-| True | Sort System.* usings alphabetically and place them before other usings.| **C#:** <br>`using System.Collections.Generic;`<br> `using System.Threading.Tasks;`<br> `using Octokit;`
-| False | Have no requirements on the ordering of usings | **C#:** <br>`using System.Collections.Generic;`<br> `using Octokit;` <br> `using System.Threading.Tasks;`
+**dotnet\_sort\_system\_directives_first**  
+When this rule is set to **true**, sort System.* using directives alphabetically, and place them before other usings.  
+When this rule is set to **false**, do not place System.* using directives before other using directives.  
 
-#### Example editorconfig file:
+Code examples:  
+
+```csharp
+// dotnet_sort_system_directives_first = true
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Octokit;
+
+// dotnet_sort_system_directives_first = false
+using System.Collections.Generic;
+using Octokit;
+using System.Threading.Tasks;
+```
+
+Example .editorconfig file:  
+
 ```
 # .NET formatting settings:
 [*.{cs,vb}]
@@ -806,22 +830,36 @@ dotnet_sort_system_directives_first = true
 ``` 
 
 ### <a name="csharp_formatting">C# formatting settings</a>  
+The formatting rules in this section apply only to C# code.  
 
 #### <a name="newline">Newline Options</a>  
+These formatting rules concern the use of new lines to format code.  
 
- Newline Before Open Brace (`{`)
+The following table shows the "new line" rule names, applicable languages, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_new_line_before_open_brace |  C# | all | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_else |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_catch |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_finally |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_members_in_object_initializers |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 v. 15.3  |
+
+
+New line before opening brace
+
+For this rule, you do not specify **true** or **false**. Instead you specify **all**, **none**, or one or more code elements such as **methods** or **properties**. The complete list of allowable values is shown in the following table:  
 
 | Value | Description 
 | ------------- |:-------------|
-| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types. (For multiple, separate with ','). | Require braces to be on a new line for the given expressions (Allman style) |
-| all | Require braces to be on a new line for all expressions (Allman) |
-| none | Require braces to be on the same line for all expressions (K&R) |
+| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types. (For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
+| all | Require braces to be on a new line for all expressions ("Allman" style) |
+| none | Require braces to be on the same line for all expressions ("K&R") |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_open_brace = all
 void MyMethod() 
@@ -831,9 +869,7 @@ void MyMethod()
         ...
     }
 }
-```
 
-```csharp
 // csharp_new_line_before_open_brace = none
 void MyMethod() {
     if (...) {
@@ -842,25 +878,15 @@ void MyMethod() {
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_open_brace = methods, properties, control_blocks, types
-``` 
-
 Newline Before `else`
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_else |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Place `else` statements on a new line.  |
 | False | Place `else` statements on the same line.  |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_else = true
 if (...) {
@@ -869,9 +895,7 @@ if (...) {
 else {
     ...
 }
-```
 
-```csharp
 // csharp_new_line_before_else = false
 if (...) {
     ...
@@ -880,25 +904,15 @@ if (...) {
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_else = true
-``` 
-
 Newline Before `catch`
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_catch |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Place `catch` statements on a new line.  |
 | False | Place `catch` statements on the same line. |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_catch = true
 try {
@@ -907,9 +921,7 @@ try {
 catch (Exception e) {
     ...
 }
-```
 
-```csharp
 // csharp_new_line_before_catch = false
 try {
     ...
@@ -918,25 +930,15 @@ try {
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_catch = true
-``` 
-
 Newline Before `finally`
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_finally |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Require `finally` statements to be on a new line after the closing brace.  |
 | False | Require `finally` statements to be on the same line as the closing brace.  |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_finally = true
 try {
@@ -948,9 +950,7 @@ catch (Exception e) {
 finally {
     ...
 }
-```
 
-```csharp
 // csharp_new_line_before_finally = false
 try {
     ...
@@ -961,25 +961,15 @@ try {
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_finally = true
-``` 
-
 Newline Before Members in Object Initializers
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_members_in_object_initializers |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Require members of object intializers to be on separate lines.  |
 | False | Require members of object initializers to be on the same line.  |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_members_in_object_initializers = true
 var z = new B()
@@ -987,9 +977,7 @@ var z = new B()
     A = 3,
     B = 4
 }
-```
 
-```csharp
 // csharp_new_line_before_members_in_object_initializers = false
 var z = new B()
 {
@@ -997,25 +985,15 @@ var z = new B()
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_members_in_object_initializers = true
-``` 
-
 Newline Before Members in Anonymous Types
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Require members of anonymous types to be on separate lines.  |
 | False | Require members of anonymous types to be on the same line.  |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_before_members_in_anonymous_types = true
 var z = new
@@ -1023,9 +1001,7 @@ var z = new
     A = 3,
     B = 4
 }
-```
 
-```csharp
 // csharp_new_line_before_members_in_anonymous_types = false
 var z = new
 {
@@ -1033,59 +1009,57 @@ var z = new
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_new_line_before_members_in_anonymous_types = true
-``` 
-
 Newline Before Members in Query Expression Clauses
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Require elements of query expression clauses to be on separate lines.  |
 | False | Require elements of query expression clauses to be on the same line.  |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_new_line_between_query_expression_clauses = true
 var q = from a in e
         from b in e
         select a * b;
-```
 
-```csharp
 // csharp_new_line_between_query_expression_clauses = false
 var q = from a in e from b in e
         select a * b;
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp formatting settings:
 [*.cs]
+csharp_new_line_before_open_brace = methods, properties, control_blocks, types
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
 csharp_new_line_between_query_expression_clauses = true
 ``` 
 
 #### <a name="indent">Indentation options</a>  
 
-Indent `switch` Case Contents
-
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_indent_case_contents |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_indent_switch_labels |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_indent_labels |  C# | no_change | Visual Studio 2017 v. 15.3  |
+
+Indent `switch` Case Contents
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Indent `switch` case contents  |
 | False | Do not indent `switch` case contents |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_indent_case_contents = true
 switch(c) {
@@ -1099,9 +1073,7 @@ switch(c) {
         Console.WriteLine("The color is unknown.");
         break;
 }
-```
 
-```csharp
 // csharp_indent_case_contents = false
 switch(c) {
     case Color.Red:
@@ -1116,25 +1088,15 @@ switch(c) {
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_indent_case_contents = true
-``` 
-
 Indent `switch` Labels
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_indent_switch_labels |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
 | True | Indent `switch` labels  |
 | False | Do not indent `switch` labels |
 
-#### Applied:
+Code examples:  
+
 ```csharp
 // csharp_indent_switch_labels = true
 switch(c) {
@@ -1148,9 +1110,7 @@ switch(c) {
         Console.WriteLine("The color is unknown.");
         break;
 }
-```
 
-```csharp
 // csharp_indent_switch_labels = false
 switch(c) {
 case Color.Red:
@@ -1165,18 +1125,7 @@ default:
 }
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_indent_switch_labels = true
-``` 
-
 Label positioning
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_indent_labels |  C# | no_change | Visual Studio 2017 v. 15.3  |
 
 | Value | Description 
 | ------------- |:-------------|
@@ -1184,7 +1133,7 @@ Label positioning
 | one_less_than_current | Labels are placed at one less indent to the current context |
 | no_change | Labels are placed at the same indent as the current context |
 
-#### Applied:
+Code examples:  
 
 ```csharp
 // csharp_indent_labels= flush_left
@@ -1199,9 +1148,7 @@ error:
         throw new Exception(...);
     }
 }
-```
 
-```csharp
 // csharp_indent_labels = one_less_than_current
 class C
 {
@@ -1215,9 +1162,6 @@ class C
     }
 }
 
-```
-
-```csharp
 // csharp_indent_labels= no_change
 class C
 {
@@ -1232,92 +1176,56 @@ class C
 }
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp formatting settings:
 [*.cs]
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
 csharp_indent_labels = flush_left
 ``` 
 
 #### <a name="spacing">Spacing Options</a>  
 
-Space After Cast
-
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_space_after_cast |  C# | false | Visual Studio 2017 v. 15.3  |
+| csharp_space_after_keywords_in_control_flow_statements |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
+| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
+| csharp_space_between_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
+
+
+Space After Cast
 
 | Value | Description | Applied |
 | ------------- |:-------------|:-------------|
 | True | Require a space between a cast and the value  | **C#:** <br>`int y = (int) x;`
 | False | Require no space between the cast and the value | **C#:** <br>`int y = (int)x;`
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_space_after_cast = true
-``` 
-
 Space After Keywords in Control Flow Statements
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_after_keywords_in_control_flow_statements |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description | Applied |
 | ------------- |:-------------|:-------------|
 | True | Require a space after a keyword | **C#:** <br>`for (int i;i<x;i++) { ... }`
 | False | Require no space after a keyword | **C#:** <br>`for(int i;i<x;i++) { ... }`
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_space_after_keywords_in_control_flow_statements = true
-``` 
-
 Space Between Method Declaration Argument-List Parentheses
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
 
 | Value | Description | Applied |
 | ------------- |:-------------|:-------------|
 | True | Require a space after a keyword | **C#:** <br>`void Bark( int x ) { ... }`
 | False | Require no space after a keyword | **C#:** <br>`void Bark(int x) { ... }`
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_space_between_method_declaration_parameter_list_parentheses = true
-```
-
 Space Within Parentheses for Method Call Argument List
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
 
 | Value | Description | Applied |
 | ------------- |:-------------|:-------------|
 | true | Place space between parentheses of control flow statements | **C#:** <br>`MyMethod( argument );`
 | false | Place space between parentheses of expressions | **C#:** <br>`MyMethod(argument);`
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
-```  
-
 Space Within Parentheses for Other Options
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_between_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
 
 | Value | Description | Applied |
 | ------------- |:-------------|:-------------|
@@ -1325,63 +1233,56 @@ Space Within Parentheses for Other Options
 | expressions | Place space between parentheses of expressions | **C#:** <br>`var z = ( x * y ) - ( ( y - x ) * 3);`
 | type_casts | Place space between parentheses in type casts | **C#:**<br>`int y = ( int )x;`
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp formatting settings:
 [*.cs]
+csharp_space_after_cast = true
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_between_method_declaration_parameter_list_parentheses = true
+csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
 csharp_space_between_parentheses = control_flow_statements, type_casts
 ``` 
 
 #### <a name="wrapping">Wrapping options</a>
 
-Leave Statements and Member Declarations on the Same Line
-
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_preserve_single_line_statements`   |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_preserve_single_line_statements |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_preserve_single_line_blocks |  C# | true | Visual Studio 2017 v. 15.3  |
+
+Leave Statements and Member Declarations on the Same Line
 
 | Value | Description |
 | ------------- |:-------------|
 | True | Leave statements and member declarations on the same line  | 
 | False | Leave statements and member declarations on different lines | 
 
-#### Applied
+Code examples:  
+
 ```csharp
 //csharp_preserve_single_line_statements = true
 int i = 0; string name = "John";
-```
 
-```csharp
 //csharp_preserve_single_line_statements = false
 int i = 0; 
 string name = "John";
 ```
 
-#### Example editorconfig file:
-```
-# CSharp formatting settings:
-[*.cs]
-csharp_preserve_single_line_statements = true
-``` 
-
 Leave Block on Single Line
-
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
-| ----------- | -------------------- | ----------------------| ----------------  |
-|   `csharp_preserve_single_line_blocks`    |  C# | true | Visual Studio 2017 v. 15.3  |
 
 | Value | Description |
 | ------------- |:-------------|
 | True | Leave block on single line | 
 | False | Leave block on separate lines | 
 
-#### Applied
+Code examples:  
+
 ```csharp
 //csharp_preserve_single_line_blocks = true
 public int Foo { get; set; }
-```
 
-```csharp
 //csharp_preserve_single_line_blocks = false
 public int MyProperty
 { 
@@ -1389,12 +1290,14 @@ public int MyProperty
 }
 ```
 
-#### Example editorconfig file:
+Example .editorconfig file:  
+
 ```
 # CSharp formatting settings:
 [*.cs]
+csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
-``` 
+```
 
 ## Naming conventions  
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async". Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
