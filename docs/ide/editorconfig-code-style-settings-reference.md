@@ -673,7 +673,7 @@ The following table shows the rule name, rule ID, applicable language versions, 
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
 | csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
 
-**csharp\_prefer\_simple\_default_expression** 
+**csharp\_prefer\_simple\_default_expression**  
 When this rule is set to **true**, prefer `default` over `default(T)`.  
 When this rule is set to **false**, prefer `default(T)` over `default`.  
 
@@ -870,7 +870,7 @@ This rule concerns whether an open brace `{` should be placed on the same line a
 
 | Value | Description 
 | ------------- |:-------------|
-| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types. (For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
+| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types.<br>(For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
 | all | Require braces to be on a new line for all expressions ("Allman" style) |
 | none | Require braces to be on the same line for all expressions ("K&R") |
 
@@ -1310,7 +1310,7 @@ int i = 0;
 string name = "John";
 ```
 
-**csharp_preserve_single_line_blocks** 
+**csharp_preserve_single_line_blocks**  
 When this rule is set to **true**, leave code block on single line.  
 When this rule is set to **false**, leave code block on separate lines.  
 
@@ -1339,7 +1339,7 @@ csharp_preserve_single_line_blocks = true
 ## Naming conventions  
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async". Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
 
-For each naming convention rule, identified by `namingRuleTitle`, you must specify the **symbols** it applies to, a naming **style**, and a **severity**:  
+For each naming convention rule, identified by **namingRuleTitle**, you must specify the **symbols** it applies to, a naming **style**, and a **severity**:  
   
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`  
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`  
@@ -1355,17 +1355,21 @@ Identify a group of symbols to apply a naming rule to with this property: `dotne
 | dotnet\_naming\_symbols.\<symbolTitle\>.required\_modifiers | abstract (C#), must_inherit (Visual Basic), async, const, readonly, static (C#), shared (Visual Basic) |  
 
 ### Style
-Identify the naming style to apply to a group of symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`. Specify the naming style using one or more of the following properties:  
+Identify the naming style to apply to a group of symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`.  
+
+Specify the naming style using one or more of the following properties:  
 
 |  Property | Possible Values |
 | ------------- |:-------------:|
-| dotnet_naming_style.<styleTitle>.required_prefix | Required characters that must appear at the beginning of the identifier. |  
-| dotnet_naming_style.<styleTitle>.required_suffix | Required characters that must appear at the end of the identifier. |  
-| dotnet_naming_style.<styleTitle>.word_separator | Required character between words in the identifier. | 
-| dotnet_naming_style.<styleTitle>.capitalization | `pascal_case`, `camel_case`, `first_word_upper`, `all_upper`, `all_lower` |  
+| dotnet_naming_style.\<styleTitle\>.required_prefix | Required characters that must appear at the beginning of the identifier. |  
+| dotnet_naming_style.\<styleTitle\>.required_suffix | Required characters that must appear at the end of the identifier. |  
+| dotnet_naming_style.\<styleTitle\>.word_separator | Required character between words in the identifier. | 
+| dotnet_naming_style.\<styleTitle\>.capitalization | pascal_case, camel_case, first_word_upper, all_upper, all_lower |  
 
 #### Severity
-Identify the severity level for a naming rule with this property: `dotnet_naming_rule.<namingRuleTitle>.severity`. The following table shows the severity value options:  
+Identify the severity level for a naming rule with this property: `dotnet_naming_rule.<namingRuleTitle>.severity`.  
+
+The following table shows the severity value options:  
 
 Severity | Effect
 ------------ | -------------
@@ -1374,7 +1378,7 @@ suggestion | When this style is not being followed, show it to the user as a sug
 warning | When this style is not being followed, show a compiler warning.  
 error | When this style is not being followed, show a compiler error.   
 
-### Example naming convention
+### Example .editorconfig file with naming conventions
 ```
 # Dotnet Naming Conventions
 [*.{cs,vb}] 
