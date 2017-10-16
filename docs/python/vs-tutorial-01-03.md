@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 3 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 10/16/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,7 +26,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. The interactive window opens below the editor with the usual `>>>` Python REPL prompt. Oftentimes you want to make the interactive window larger, which you can do by dragging the separator between the two windows:
 
-    ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1.png)
+    ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1b.png)
 
     > [!Tip]
     > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see <a href="https://docs.microsoft.com/visualstudio/ide/customizing-window-layouts-in-visual-studio" target="_blank">Customizing window layouts</a>.
@@ -41,7 +41,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. The interactive window provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
 
-1. Visual Studio can send multiple lines of code from an editor window to the interactive window. This capability allows you to maintain code in a source file and easily send select parts of it to the interactive window. You can then work with such code fragments in the rapid REPL environment rather than having to run the whole program. To see this feature, first replace the `for` loop in your `hello.py` file with the following:
+1. Visual Studio can send multiple lines of code from an editor window to the interactive window. This capability allows you to maintain code in a source file and easily send select parts of it to the interactive window. You can then work with such code fragments in the rapid REPL environment rather than having to run the whole program. To see this feature, first replace the `for` loop in the `PythonApplication1.py` file with the following:
 
     ```python
     # Create a string with spaces proportional to a cosine of x in degrees
@@ -49,7 +49,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
         return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
     ```
 
-1. Select only the `import` and `from` statements in `hello.py`, right-click, and select **Send to Interactive** (or press Ctrl+Enter). The code fragment is immediately pasted into the interactive window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
+1. Select only the `import` and `from` statements in the `.py` file, right-click, and select **Send to Interactive** (or press Ctrl+Enter). The code fragment is immediately pasted into the interactive window and run. Now select the `make_dot_string` function and repeat the same command, which again runs that code fragment. Because the code defines a function, you can quickly test that function by calling it a few times:
 
     ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 
