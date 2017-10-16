@@ -22,7 +22,7 @@ manager: "ghogen"
 
 In addition to managing projects, providing a rich editing experience, and the interactive window, Visual Studio provides full-featured debugging for Python code. In the debugger, you can run your code step by step, including every iteration of a loop. You can also pause the program whenever certain conditions are true. At any point when the program is paused in the debugger, you can examine the entire program state and change the value of variables. Such actions are essential for tracking down program bugs, and also provide very helpful aids for carefully following the exact program flow.
 
-1. Replace the code in your `hello.py` file with the following. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
+1. Replace the code in the `PythonApplication1.py` file with the following. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
 
     ```python  
     import sys  
@@ -59,7 +59,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Start the debugger again (F5) and see that running the code stops on the line with that breakpoint. Here you can inspect the call stack and examine variables. Variables that are in-scope appear in the **Autos** window when they're defined; you can also switch to the **Locals** view at the bottom of that window to show all variables that Visual Studio finds in the current scope (including functions), even before they're defined:
 
-    ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2.png)
+    ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2b.png)
 
 1. Observe the debugging toolbar (shown below) along the top of the Visual Studio Window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
 
