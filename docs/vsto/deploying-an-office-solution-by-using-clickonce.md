@@ -280,13 +280,11 @@ manager: "ghogen"
   
 ### Re-sign the application and deployment manifests  
   
-1.  In the **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** folder, copy the **ExcelWorkbook_TemporaryKey.pfx** certificate file, and then paste it into the *PublishFolder* **\Application Files\ExcelWorkbook***MostRecentPublishedVersion* folder.  
+1.  In the **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** folder, copy the **ExcelWorkbook_TemporaryKey.pfx** certificate file, and then paste it into the *PublishFolder* **\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder.
   
-2.  
+2.  Open the Visual Studio command prompt, and then change directories to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder (for example, **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).  
   
-3.  Open the Visual Studio command prompt, and then change directories to the **c:\publish\Application Files\ExcelWorkbook***MostRecentPublishedVersion* folder (for example, **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).  
-  
-4.  Sign the modified application manifest by running the following command:  
+3.  Sign the modified application manifest by running the following command:  
   
     ```  
     mage -sign ExcelWorkbook.dll.manifest -certfile ExcelWorkbook_TemporaryKey.pfx  
@@ -294,9 +292,7 @@ manager: "ghogen"
   
      The message "ExcelWorkbook.dll.manifest successfully signed" appears.  
   
-5.  
-  
-6.  Change to the **c:\publish** folder, and then update and sign the deployment manifest by running the following command:  
+4.  Change to the **c:\publish** folder, and then update and sign the deployment manifest by running the following command:  
   
     ```  
     mage -update ExcelWorkbook.vsto -appmanifest "Application Files\Ex  
@@ -308,7 +304,7 @@ manager: "ghogen"
   
      The message "ExcelWorkbook.vsto successfully signed" appears.  
   
-7.  Copy the ExcelWorkbook.vsto file to the **c:\publish\Application Files\ExcelWorkbook***MostRecentVersionNumber* directory.  
+5.  Copy the ExcelWorkbook.vsto file to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ directory.  
   
 ##  <a name="SharePoint"></a> Put the document of a solution onto a server that's running SharePoint (document-level customizations only)  
  You can publish your document-level customization to end users by using SharePoint. When users go to the SharePoint site and open the document, the runtime automatically installs the solution from the shared network folder to the user's local computer. After the solution is installed locally, the customization will still function even if the document is copied elsewhere, such as the desktop.  

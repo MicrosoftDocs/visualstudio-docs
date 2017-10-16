@@ -66,7 +66,8 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 ## Publish the Extension to the Visual Studio Marketplace
 
- As of now, you will still need to use the Visual Studio Gallery to upload your extensions to the Visual Studio Marketplace.
+> [!NOTE] 
+> We are in the process of migrating the publishing experience to Visual Studio Marketplace.  In the meantime, please continue to use Visual Studio Gallery to publish your extensions.  Your extensions will appear in the Visual Studio Marketplace once it has been published.
 
 1. Make sure that you have built the Release version of your extension and that it is up-to-date.
 

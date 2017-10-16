@@ -78,7 +78,7 @@ csc /t:library autoexp.cs
 ## Using Expressions in DebuggerDisplay  
  Although you can use a general expression between the braces in a DebuggerDisplay attribute, this practice is not recommended.  
   
- A general expression in DebuggerDisplay has implicit access to the `this` pointer for the current instance of the target type only. The expression has no access to aliases, locals, or pointers. If the expression references properties, attributes on those properties are not processed. For example, the C# code `[DebuggerDisplay("Object {count - 2}"`  would display `Object 6` if the field `count` was 8.  
+ A general expression in DebuggerDisplay has implicit access to the `this` pointer for the current instance of the target type only. The expression has no access to aliases, locals, or pointers. If the expression references properties, attributes on those properties are not processed. For example, the C# code `[DebuggerDisplay("Object {count - 2}")]`  would display `Object 6` if the field `count` was 8.  
   
  Using expressions in DebuggerDisplay can lead to the following issues:  
   
@@ -100,7 +100,7 @@ public sealed class MyClass
    {         
         get  
         {  
-             return string.Format("("Object {0}", count - 2);  
+             return string.Format("Object {0}", count - 2);  
         }      
     }  
 }  
@@ -160,7 +160,9 @@ class MyHashtable
     public MyHashtable()  
     {  
         hashtable = new Hashtable();    
-    }    private string DebuggerDisplay    {        get { return "Count = " + hashtable.Count); }    }  
+    }
+    
+    private string DebuggerDisplay    {        get { return "Count = " + hashtable.Count); }    }  
   
     private class HashtableDebugView  
     {  
