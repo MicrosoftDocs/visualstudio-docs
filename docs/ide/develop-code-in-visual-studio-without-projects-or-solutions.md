@@ -1,7 +1,7 @@
 ---
 title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/27/2017"
+ms.date: "10/16/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: "vs-ide-general"
@@ -9,10 +9,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.texteditor"
-dev_langs: 
-  - "JScript"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "code, editing"
   - "code editor, syntax coloring"
@@ -92,30 +88,27 @@ The drop-down list box next to the Start button on the toolbar lists all of the 
 
 Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations which appear in the Run Button's drop down list.  
 
-Visual Studio currently supports debugging for the following languages:  
+Visual Studio currently supports debugging for the following:  
 
-- Node.js  
+- JavaScript files  
 
-- Python  
+- Python files  
 
 - MSBuild-based projects (C#, VB, C++)  
 
-- Any executable with PDB (Python Debugger) files.  
+- Any executable with PDB (program database) files  
 
-### To debug Node.js and Python:  
-1. Install Node.js or Python Tools or Visual Studio 2017 and the Node.js runtime.  
+### To debug JavaScript or Python code:  
+1. Install the [Node.js development](https://www.visualstudio.com/vs/node-js/) or [Python development](https://www.visualstudio.com/vs/python/) workload by choosing **Tools**, **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.  
 
-1. On the context menu of a JavaScript file in Solution Explorer, choose the **Set as Startup Item** command.  
+   ![Node.js and Python development workloads](media/python_nodejs_workloads.png)
 
-1. Choose the **F5** key to begin debugging.  
-
-### To debug MSBuild projects  
-1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, choose the project or select the project or file that you want to display as the startup item in Solution Explorer.  
+1. On the context menu of a JavaScript or Python file in Solution Explorer, choose the **Set as Startup Item** command.  
 
 1. Choose the **F5** key to begin debugging.  
 
-### To debug executable files  
-1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, choose the project or select the project or file that you want to display as the startup item in Solution Explorer.  
+### To debug MSBuild projects or executable files:  
+1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, select the project or file that you want to display as the startup item in Solution Explorer.  
 
 1. Choose the **F5** key to begin debugging.  
 
@@ -126,48 +119,16 @@ If the codebase uses custom build tools that Visual Studio doesn't recognize, th
 
 You can also create arbitrary build tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder or rename a file. Or, you can create more targeted custom build tasks that do things such as compile and build your project using specific arguments. The following steps show how to create both types of build tasks.  
 
-#### To create an arbitrary build task  
-1. Choose the file or folder of the project in Solution explorer where you want the task, and on the file or folder's context (right-click) menu, choose **Configure Tasks**.  
-
-  ![Configure tasks](./media/VSIDE_Code_Config_Task.png)
-
-  Choosing **Configure Tasks** opens a file called tasks.vs.json. If this file doesn't exist, it is created. This file contains the build tasks for the selected file or folder.  
-
-  ![Tasks.vs.json file](./media/VSIDE_Code_Tasks_JSON.png)
-
-1. Add the following build task to tasks.vs.json. For this example, we'll add a simple task called "List outputs" that lists files and subfolders of the selected folder in the Output window. (The new task should be added within the existing "tasks" array.)  
-
-  ```xml
-      {
-        "taskName": "List outputs",
-        "appliesTo": "*",
-        "type": "command",
-        "command": "${env.COMSPEC}",
-        "args": [
-          "dir ${outDir}"
-        ]
-      },
-  ```
-  The complete build task should look like this.  
-
-  ![Arbitrary build task](./media/VSIDE_Code_Tasks_ArbTask.png)
-
-1. Save the project.  
-
-1. Open the context menu for the selected folder. You should see the new arbitrary build task appear at the bottom of the context menu.  
-
-  ![Arbitrary build task command](./media/VSIDE_Code_Tasks_ArbTask2.png)
-
-1. Choose the new **List outputs** command to execute the task.  
-
 ### To create a custom build task
 In this procedure, we will add two custom build tasks that use nMake to build and clean your code.  
 
 1. Choose a file of the project in Solution Explorer that you want to designate later as the startup item. On the file's context (right-click) menu, choose **Configure Tasks**.  
 
-  ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask1.png)
+  ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask1.png)  
 
-1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called makefile-clean which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nNake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
+   The tasks.vs.json file opens in the editor. If this file doesn't exist, it is created. This file contains the build tasks for the selected file or folder.  
+
+1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called "makefile-clean" which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nMake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
 
   ```xml
   {
@@ -201,9 +162,7 @@ In this procedure, we will add two custom build tasks that use nMake to build an
   > [!NOTE]
   > The commands appear under the **Configure Tasks** command due to their `contextType` settings; "build" and "clean" are build commands, so they appear in the build section in the middle of the context menu.  
 
-  Now that you have associated custom build commands with the file, you can designate the file as the startup item.  
-
-1. On the file's context menu, choose **Set as Startup Item**.  
+1. Now that you have associated custom build commands with the file, you can designate the file as the startup item. On the file's context menu, choose **Set as Startup Item**.  
 
   ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask4.png)
 
@@ -211,27 +170,61 @@ In this procedure, we will add two custom build tasks that use nMake to build an
 
   ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask5.png)
 
-You can now choose the **Start** button or the **F5** key to run your codebase. You can edit and debug your codebase in Visual Studio even though Visual Studio doesn't recognize the build tools of the codebase. Output from the build task appears in the **Output** window, and build errors appear in the **Error List**. The tasks.vs.json build task file couples the Visual Studio inner development loop to the custom build tools used by your codebase.  
+You can now choose the **Start** button or the **F5** key to run your code. You can edit and debug your code in Visual Studio even though Visual Studio doesn't recognize the build tools of the codebase. Output from the build task appears in the **Output** window, and build errors appear in the **Error List**. The tasks.vs.json build task file couples the Visual Studio inner development loop to the custom build tools used by your codebase.  
 
 Custom build tasks can be added to individual files or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all .js files.  
 
 Visual Studio supports the VSCode `$variable` substitution in the root of tasks.vs.json, in addition to environment variables (such as `$env.var`) or keys.  
 
-## Specify build Output  
+#### To create an arbitrary build task  
+1. Choose the file or folder of the project in Solution Explorer where you want the task, and on the file or folder's context (right-click) menu, choose **Configure Tasks**.  
+
+  ![Configure tasks](./media/VSIDE_Code_Config_Task.png)
+
+  Choosing **Configure Tasks** opens a file called tasks.vs.json. If this file doesn't exist, it is created. This file contains the build tasks for the selected file or folder.  
+
+  ![tasks.vs.json file](./media/VSIDE_Code_Tasks_JSON.png)
+
+1. Add the following build task to tasks.vs.json. For this example, we'll add a simple task called "List outputs" that lists files and subfolders of the selected folder in the Output window. The new task should be added within the existing "tasks" array.  
+
+  ```xml
+      {
+        "taskName": "List outputs",
+        "appliesTo": "*",
+        "type": "command",
+        "command": "${env.COMSPEC}",
+        "args": [
+          "dir ${outDir}"
+        ]
+      },
+  ```
+  The complete build task should look like this.  
+
+  ![Arbitrary build task](./media/VSIDE_Code_Tasks_ArbTask.png)
+
+1. Save the project.  
+
+1. Open the context menu for the selected folder. You should see the new arbitrary build task appear at the bottom of the context menu.  
+
+  ![Arbitrary build task command](./media/VSIDE_Code_Tasks_ArbTask2.png)
+
+1. Choose the new **List outputs** command to execute the task.  
+
+### Specify build output  
 If your project needs to be compiled, you can add an additional tag called `output` to the tasks.vs.json file. Here is an example.  
 
 `"output": "${workspaceRoot}\\bin\\hellomake.exe"`
 
-Specifying the output location notifies Visual Studio where to find the project's build output.  
+Specifying the output location lets Visual Studio know where to find the project's build output.  
 
-## Tasks.vs.json file location  
+### tasks.vs.json file location  
 By default, the tasks.vs.json file is located in a hidden folder called `.vs`. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar.  
 
 ![Arbitrary build task command](./media/VSIDE_Code_Tasks_FileLocation.png)
 
 The tasks.vs.json file is hidden because most users generally don't want to check it into source control. However, if you want to be able to check it into source control, drag the file into the root of your project where it will be visible.  
 
-Other .json files may be present in the .vs folder, but the only ones you should move are the tasks.vs.json file and the launch.vs.json file (if one is there). The launch.vs.json file configures the Visual Studio debugger, while the tasks.vs.json file configures build in Visual Studio.  
+Other .json files may be present in the .vs folder, but the only ones you should move are the tasks.vs.json file and the launch.vs.json file (if there is one). The launch.vs.json file configures the Visual Studio debugger, while the tasks.vs.json file configures build.  
 
 ## See also
 [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
