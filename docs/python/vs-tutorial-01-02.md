@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 2 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 10/16/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,17 +20,17 @@ manager: "ghogen"
 
 **Previous step: [Creating a new Python project](vs-tutorial-01-01.md)**
 
-While Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
+Although Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 
-1. After creating a new "Python Application" project, a default empty file named `PythonApplication1.py` is open in the Visual Studio editor. To rename it, right-click the file in Solution Explorer, select **Rename**, and enter `hello.py`.
+1. After creating a new "Python Application" project, a default empty file named `PythonApplication1.py` is open in the Visual Studio editor. 
 
-1. Start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the Tab key. Completions are most helpful when longer statements or identifiers are involved.
+1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the Tab key. Completions are most helpful when longer statements or identifiers are involved.
 
-    ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1.png)
+    ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1b.png)
 
 1. IntelliSense shows different information depending on the statement you're using, the function you're calling, and so forth. With the `print` function, typing `(` after `print` to indicate a function call displays full usage information for that function. The IntelliSense pop up also shows the current argument in boldface (**value** as shown here):
 
-    ![IntelliSense auto-completion popup for a function](media/vs-getting-started-python-05-IntelliSense2.png)
+    ![IntelliSense auto-completion popup for a function](media/vs-getting-started-python-05-IntelliSense2b.png)
 
 1. Complete the statement so it matches the following:
 
@@ -40,14 +40,14 @@ While Solution Explorer is where you manage project files, the *editor* window i
 
 1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. Also, temporarily delete the last `"` on the string and notice how Visual Studio will show a red underline for code that contains syntax errors. Then replace the `"` to correct the code.
  
-    ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3.png)
+    ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3b.png)
  
     > [!Tip]
     > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools > Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you'll see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. 
 
 1. Run the code you've written to this point by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
  
-1. When you run the program, a console window appears displaying the results, just as if you'd run a Python interpreter with `hello.py` from the command line. Press a key to close the window and return to the Visual Studio editor.
+1. When you run the program, a console window appears displaying the results, just as if you'd run a Python interpreter with `PythonApplication1.py` from the command line. Press a key to close the window and return to the Visual Studio editor.
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
