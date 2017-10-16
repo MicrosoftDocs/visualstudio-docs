@@ -37,7 +37,7 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
     ![Azure portal showing Python extensions](media/python-on-azure-extensions.png)
 
     > [!Tip]
-    > The list of site extensions may hide site extensions for older versions of Python. If you need to install a version that's not shown in the list, you can do so through the Azure Resource Manager as described in the next section.
+    > If you need an older version of Python and don't see it listed in the site extensions, you can still install it through the Azure Resource Manager as described in the next section.
 
 1. Select the extension, accept the legal terms, then select **OK**.
 1. A notification appears in the portal when installation is complete.
