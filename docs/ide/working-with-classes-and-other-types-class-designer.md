@@ -29,20 +29,6 @@ caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Working with Classes and Other Types (Class Designer)
 Focus more easily on the classes and types that you care about the most when you create and edit them with Class Designer in Visual Studio. Use class diagrams to work more visually with your Visual C# .NET, Visual Basic .NET, or C++ code.  

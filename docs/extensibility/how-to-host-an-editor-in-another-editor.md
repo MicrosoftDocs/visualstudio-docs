@@ -14,20 +14,6 @@ ms.assetid: 2b0eb705-fe94-4ca8-93e0-9dbd8ce61a44
 caps.latest.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Host An Editor in Another Editor
 In Visual Studio you can host one editor inside another by specifying the hosting window as a parent window. To do so, set the parameters <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> and <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> on the child window frame.  

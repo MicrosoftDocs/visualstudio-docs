@@ -13,20 +13,6 @@ helpviewer_keywords:
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
 ms.author: "heaths"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Locating Visual Studio
 

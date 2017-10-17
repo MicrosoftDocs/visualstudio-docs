@@ -15,20 +15,6 @@ caps.latest.revision: 15
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating a Workflow Project
 Workflows, [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] workflow services, custom activities, and custom activity designers can be created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates. This section describes how to create libraries and applications with the project templates available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  

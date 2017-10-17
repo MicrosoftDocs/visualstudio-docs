@@ -15,20 +15,6 @@ ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Launching the Debugger
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.  

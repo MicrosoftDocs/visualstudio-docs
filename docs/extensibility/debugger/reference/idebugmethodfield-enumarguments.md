@@ -16,20 +16,6 @@ ms.assetid: 3ab55488-2437-4ff6-a9ae-78ea6d7b23a8
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugMethodField::EnumArguments
 Creates an enumerator for the type of each argument required to call the method.  

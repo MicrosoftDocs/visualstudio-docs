@@ -16,20 +16,6 @@ manager: "ghogen"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Code Styles and Quick Actions

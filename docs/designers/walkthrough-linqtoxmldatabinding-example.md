@@ -13,20 +13,6 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: LinqToXmlDataBinding Example
 This walkthrough describes the LinqToXmlDataBinding example, and explains some of the more interesting contents of its two primary source files, L2DBForm.xaml and L2DBForm.xaml.cs.  

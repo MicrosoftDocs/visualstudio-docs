@@ -1,7 +1,7 @@
 ---
 title: "How to: View and Edit Code by Using Peek Definition (Alt+F12) | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2017"
+ms.date: "10/04/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,7 +22,7 @@ You can use the **Peek Definition** command to view and edit code without switch
 ## Working with Peek Definition  
   
 #### To open a Peek Definition window    
-1.  You can peek a definition by choosing **Peek Definition** from the context menu for a member that you want to explore. Or, from the keyboard, press **Alt + F12**.  
+1.  You can peek a definition by choosing **Peek Definition** from the context menu for a member that you want to explore. In Visual Studio 2017 version 15.4 and later, if the option is enabled, you can also peek a definition using the mouse by pressing **Ctrl** (or another modifier) and clicking the member name. Or, from the keyboard, press **Alt + F12**.  
   
      This illustration shows the **Peek Definition** window for a method that's named `Print()`:  
   
@@ -50,6 +50,15 @@ You can use the **Peek Definition** command to view and edit code without switch
 -   When you start to edit inside a **Peek Definition** window, the file that you're modifying automatically opens as a separate tab in the code editor and reflects the changes that you've made. You can continue to make, undo, and save changes in the **Peek Definition** window, and the tab will continue to reflect those changes. Even if you close the **Peek Definition** window without saving your changes, you can make, undo, and save more changes in the tab, picking up exactly where you left off in the **Peek Definition** window.  
   
      ![Editing within a Peek window](../ide/media/peekedit.png "PeekEdit")  
+  
+#### To change options for Peek Definition  
+1. Go to **Tools**, **Options**, **Text Editor**, **General**.  
+
+2. Select the option **Open definition in peek view**.  
+
+3. Click **OK** to close the **Options** dialog box.  
+
+     ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)  
 
 #### To use keyboard shortcuts for Peek Definition    
 -   You can use these keyboard shortcuts with the **Peek Definition** window:  

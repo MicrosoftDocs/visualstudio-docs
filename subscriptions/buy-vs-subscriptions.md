@@ -155,5 +155,8 @@ To activate your subscription:
 
 ## Buying Standard subscriptions through Volume License programs
 
+
 Organizations who want the benefits of multiple subscriptions can purchase them through various Volume License (VL) programs.  Volume Licenses are sold through authorized Microsoft Partners.  
 Learn how to [purchase through Volume Licensing](https://www.microsoft.com/Licensing/how-to-buy/how-to-buy.aspx). 
+Visit the [Marketplace and Billing Q&A](/vsts/marketplace/marketplace-billing-qa) to find answers to multiple common questions around the Visual Studio Marketplace and Azure billing. 
+

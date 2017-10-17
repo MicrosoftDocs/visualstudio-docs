@@ -17,11 +17,6 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # /Updateconfiguration (devenv.exe)
 Notifies [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  

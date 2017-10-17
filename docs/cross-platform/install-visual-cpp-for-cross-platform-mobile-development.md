@@ -15,21 +15,6 @@ caps.latest.revision: 15
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Install Visual C++ for Cross-Platform Mobile Development
 [Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink/p/?LinkId=536383) is an installable component of Visual Studio 2015. It includes cross-platform Visual Studio templates and installs the cross-platform tools and SDKs to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug and test cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps using Visual Studio. For an overview of the component, see [Visual C++ Cross-Platform Mobile](http://go.microsoft.com/fwlink/p/?LinkId=536387)  

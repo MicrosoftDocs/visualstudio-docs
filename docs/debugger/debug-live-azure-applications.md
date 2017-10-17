@@ -14,21 +14,6 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Debug live ASP.NET apps using snappoints and logpoints
 
@@ -39,16 +24,16 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for **Visual Studio Enterprise**. 
+Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 Enterprise (15.5+)**. 
 
 > [!NOTE]
 > With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
 
 ## Start the Snapshot Debugger
 
-1. Install the [Visual Studio Enterprise 15.4 Preview](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) or later.
+1. Install the [Visual Studio Enterprise 15.5 Preview](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) or later.
 
-2. Install the [Snapshot Debugger extension](http://aka.ms/snapshotdebuggervsix) for Visual Studio. This extension will enable you to set snappoints and logpoints against apps running in Azure App Services.
+2. Launch VS and open Cloud Explorer from **View > Cloud Explorer**. Then update to the latest Cloud Explorer from the **Tools > Extensions and Updates...** menu in **Updates > Visual Studio Marketplace**. 
 
 3. Open the project you would like to snapshot debug. 
 
@@ -174,11 +159,10 @@ You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it fr
 
 ## Known Issues
 
+* Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
 * Roslyn IL Optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 * Special variables, ie *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
-* Snapshot Debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
-* Snapshot Debugging against [deployment slots](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-staged-publishing) is not currently supported.
-* Snapshot Debugging with multiple Visual Studio clients against the same App Service is not currently supported.
+* Snapshot debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
 
 
 ## See Also  

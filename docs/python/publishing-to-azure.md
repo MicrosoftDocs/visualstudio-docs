@@ -37,7 +37,7 @@ In this topic:
 
 For this walkthrough you'll need a web app project based on the Bottle, Flask, or Django frameworks. If you don't yet have a project and would like to try the publishing process, create a simple test project as follows:
 
-1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**.    
+1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**. (The Bottle template is included with the Python development workload; see [Installation](installation.md).)
 
 1. Follow the prompts to install external packages, selecting **Install into a virtual environment** and your preferred base interpreter for the virtual environment. You typically match this choice with the version of Python installed on App Service.
 
@@ -107,11 +107,11 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
         <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
         ```
 
-    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskExample", the entry would appear as follows:
+    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskAzurePublishExample", the entry would appear as follows:
 
         ```xml
         <!-- Flask apps only: change the project name to match your app -->
-        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.App"/>
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
     - **Django**: Two changes are needed to `web.config` for Django apps. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the `wsgi.py` file):
@@ -211,6 +211,8 @@ Eventually you may want to maintain your own `web.config` file and use `requirem
 
 ## Remote debugging on Azure App Service
 
-To enable remote debugging with either Visual Studio 2017 or 2015, right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. This template adds a debugging `web.debug.config` file to your project along with a `ptvsd` folder containing debugging tools.
+When you publish a Debug configuration from Visual Studio 2015, the process automatically creates a `web.debug.config` file and adds a `ptvsd` folder containing the necessary debugging tools.
 
-Once you publish the app again, you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).
+With Visual Studio 2017, you instead add these components directly to the project. Right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. A debugging `web.debug.config` file and the `ptvsd` tool folder appear in your project.
+
+Once these files are deployed to the server (automatically with Visual Studio 2015; on your next publish with Visual Studio 2017), you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).

@@ -14,20 +14,6 @@ ms.assetid: 78338537-b451-4655-9f04-a21f6fe197a3
 caps.latest.revision: 4
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # AsyncTaskMethodBuilder.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  

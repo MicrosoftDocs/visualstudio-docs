@@ -1,16 +1,3 @@
----
-Title:  Visual Studio Subscriptions Table of ContentsBreadcrumb_path: 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Table of contents for Visual Studio subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
----
-
 # [Visual Studio subscriptions](index.md)
 # Overview
 ## [Compare subscription options](compare-subscriptions.md)
@@ -18,7 +5,7 @@ Searchscope: VS Subscription
 # How-to Guides
 ##  Subscribers
 ### [Buy a subscription](buy-vs-subscriptions.md)
-### [Manage your subscription](manage-vs-subscription.edw.md)
+### [Manage your subscription](manage-vs-subscriptions.md)
 ### [Using Subscriber Downloads](subscriber-downloads.md)
 ### [Using Product Keys](product-keys.md)
 ### How to Activate Benefits
@@ -42,11 +29,12 @@ Searchscope: VS Subscription
 ##### [MSDN Magazine Subscription](vs-msdn.md)
 #### Support
 ##### [Technical Support](vs-tech-support.md)
-##### [Priority Support](vs-priority-support.md)
 
 ## Administrators
+
 ### [Accessing the Administrator Portal](access-admin-portal.md)
 ### [Using the Administrator Portal](using-admin-portal.md)
+### [Admin roles and responsibilities](admin-responsibilities.md)
 ### [Assign a subscription](assign-license.md)
 ### [Edit a subscription](edit-license.md)
 ### [Delete a subscription](delete-license.md)
