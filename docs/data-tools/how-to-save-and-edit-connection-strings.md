@@ -11,11 +11,6 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ms.technology: "vs-data-tools"
 ---
 # How to: Save and Edit Connection Strings

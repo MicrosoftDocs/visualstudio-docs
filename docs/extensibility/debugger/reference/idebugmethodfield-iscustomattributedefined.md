@@ -16,20 +16,6 @@ ms.assetid: 1b5d95a8-cc87-4acb-9e6a-3928f3632b7c
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugMethodField::IsCustomAttributeDefined
 Determines whether a specific custom attribute has been defined.  

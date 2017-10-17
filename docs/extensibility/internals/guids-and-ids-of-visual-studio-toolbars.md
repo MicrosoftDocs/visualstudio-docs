@@ -20,20 +20,6 @@ ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # GUIDs and IDs of Visual Studio Toolbars
 This topic enumerates the GUID and ID values of the toolbars that are included in the Visual Studio integrated development environment (IDE), and of the groups they contain. These values are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).  

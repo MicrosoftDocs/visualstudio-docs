@@ -14,20 +14,6 @@ ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 caps.latest.revision: 21
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Document Lock Holder Management
 The Running Document Table (RDT) maintains a count of open documents and any edit locks they have. You can place an edit lock on a document in the RDT when it is programmatically edited in the background without the user seeing an open document in a document window. This functionality is often used by designers that modify multiple files through a graphical user interface.  

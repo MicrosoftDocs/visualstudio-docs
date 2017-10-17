@@ -23,20 +23,6 @@ caps.latest.revision: 17
 author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects
 You can configure which rules the code analysis tool uses to analyze the code in each configuration of your project. In addition, you can direct code analysis to suppress warnings from code that was generated and added to your project by a third-party tool.  

@@ -15,21 +15,6 @@ ms.service:
 ms.technology: 
   - "vs-ide-install"
 ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Build Tools 2017 component directory

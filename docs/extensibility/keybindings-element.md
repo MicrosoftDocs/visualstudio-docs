@@ -17,20 +17,6 @@ ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # KeyBindings Element
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  

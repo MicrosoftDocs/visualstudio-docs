@@ -14,20 +14,6 @@ ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Authoring .Vsct Files
 This document shows how to author a .vsct file to add menu items, toolbars, and other user interface (UI) elements to the Visual Studio integrated development environment (IDE). Use these steps when you add UI elements to a Visual Studio Package (VSPackage) that does not already have a .vsct file.  

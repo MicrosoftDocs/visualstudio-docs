@@ -16,20 +16,6 @@ ms.assetid: 15a11ad7-0fcc-4e80-ae34-8a7dd7bae3c3
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBinder::Bind
 This method gets the memory context or object that contains the symbol's current value.  

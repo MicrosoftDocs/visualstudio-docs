@@ -16,20 +16,6 @@ ms.assetid: 33942e4a-0a0a-49e8-a693-004954f6d38a
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
 This method gets the breakpoint request information that describes this breakpoint request.  

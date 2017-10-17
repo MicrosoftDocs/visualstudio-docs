@@ -16,20 +16,6 @@ ms.assetid: e65b4b15-46d8-4ca7-9456-2b4c078f7cf9
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgramNode2::GetHostPid
 Gets the system process identifier for the process hosting the program.  

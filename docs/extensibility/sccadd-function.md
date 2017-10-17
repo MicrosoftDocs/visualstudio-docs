@@ -16,20 +16,6 @@ ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SccAdd Function
 This function adds new files to the source control system.  

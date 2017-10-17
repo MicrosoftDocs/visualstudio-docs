@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/06/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "MSBuild.UnregisterAssembly.UnregisterTlbFileNotRegistered"
   - "MSBuild.DollarSignInTaskOutputPropertyName"
   - "MSBuild.CannotModifyEnvironmentProperty"
@@ -435,7 +435,7 @@ f1_keywords:
   - "VST.MSBuild.errVCTaskNoInputs"
   - "MSBuild.General.ParameterUnsupportedOnHostCompiler"
   - "VST.MSBuild.errVCTaskIncorrectInputFile"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "MSB3501"
   - "MSB3211"
   - "MSB3245"
@@ -604,20 +604,6 @@ author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 redirect_url: https://social.msdn.microsoft.com/Forums/vstudio/home?forum=msbuild
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Additional MSBuild Resources
 If you are trying to solve a problem and cannot find the information you need in the documentation, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  

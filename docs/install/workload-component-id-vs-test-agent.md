@@ -15,21 +15,6 @@ ms.service:
 ms.technology: 
   - "vs-ide-install"
 ms.assetid: 55aea29b-1066-4e5a-aa99-fc87d4efb6d5
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Test Agent 2017 component directory

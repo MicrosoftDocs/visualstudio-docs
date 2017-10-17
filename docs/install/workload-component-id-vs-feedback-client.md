@@ -15,21 +15,6 @@ ms.service:
 ms.technology: 
   - "vs-ide-install"
 ms.assetid: 7392a100-100c-458c-9394-828695109015
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Feedback Client 2017 component directory

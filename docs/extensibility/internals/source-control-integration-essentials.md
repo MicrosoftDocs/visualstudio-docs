@@ -16,20 +16,6 @@ ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Source Control Integration Essentials
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports two types of source control integration: a source control plug-in that provides basic functionality and is built using the Source Control Plug-in API (formerly known as the MSSCCI API), and a VSPackage-based source control integration solution that provides more robust functionality.  

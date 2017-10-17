@@ -16,20 +16,6 @@ ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BP_TYPE
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.  

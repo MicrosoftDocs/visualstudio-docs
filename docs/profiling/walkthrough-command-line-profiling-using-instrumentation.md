@@ -17,21 +17,6 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Walkthrough: Command-Line Profiling Using Instrumentation
 This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] stand-alone application to collect detailed timing and call count data by using the instrumentation method of the Profiling Tools. In this walkthrough, you will accomplish the following tasks:  

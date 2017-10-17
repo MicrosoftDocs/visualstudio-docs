@@ -13,11 +13,6 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ms.technology: "vs-data-tools"
 ---
 # Create a simple data application with WPF and Entity Framework 6

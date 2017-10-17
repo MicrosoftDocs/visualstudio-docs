@@ -13,20 +13,6 @@ caps.latest.revision: 4
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # GPU Usage
 Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to better understand the high-level hardware utilization of your Direct3D app. You can use it to determine whether the performance of your app is CPU-bound or GPU-bound and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10; it doesn't support other graphics APIs such as Direct2D or OpenGL.  

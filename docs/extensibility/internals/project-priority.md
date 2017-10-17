@@ -14,20 +14,6 @@ ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Project Priority
 A project item usually is a member of only one project in the solution. Therefore, the IDE can easily determine which project is used to open the item. However, if an item is a member of more than one project, the IDE uses a priority scheme to determine the best project for opening the item.  

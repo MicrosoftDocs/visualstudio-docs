@@ -16,21 +16,6 @@ ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: be73e3af-d87b-4d14-bd08-2e4bda074fb3
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Enterprise 2017 component directory

@@ -15,21 +15,6 @@ ms.service:
 ms.technology: 
   - "vs-ide-install"
 ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Test Controller 2017 component directory

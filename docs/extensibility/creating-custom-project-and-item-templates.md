@@ -12,20 +12,6 @@ ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating Custom Project and Item Templates
 The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the zip file to the location you  

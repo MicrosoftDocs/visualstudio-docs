@@ -16,20 +16,6 @@ ms.assetid: df759e89-8193-418c-8038-6626304d387b
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Provide Expanded Outlining Support in a Legacy Language Service
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.  

@@ -16,20 +16,6 @@ ms.assetid: 54c72e23-cd4c-4746-935c-abea8057dd1b
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugCustomAttributes::Skip
 Skips a specified number of custom attributes in an enumeration sequence.  

@@ -13,20 +13,6 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Visual Studio Emulator for Android
 The Visual Studio Emulator for Android is a desktop application that emulates an Android device. It provides a virtualized environment in which you can debug and test Android apps without a physical device. It also provides an isolated environment for your application prototypes.  

@@ -23,21 +23,6 @@ caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Debugger Settings and Preparation
 This section describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger. If you create your program in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using the project templates, these settings are set correctly for you in the Debug configuration.  

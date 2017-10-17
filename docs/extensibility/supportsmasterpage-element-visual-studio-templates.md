@@ -17,20 +17,6 @@ ms.assetid: ce877a6a-9bba-4fd9-92fb-0a8dfec9e75b
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SupportsMasterPage Element (Visual Studio Templates)
 Specifies whether the or not the **Select Master Page** checkbox is enabled on the **Add New Item** dialog box.  

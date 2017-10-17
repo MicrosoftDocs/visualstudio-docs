@@ -15,20 +15,6 @@ ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
 caps.latest.revision: 19
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDE-Defined Commands for Extending Project Systems
 When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.  

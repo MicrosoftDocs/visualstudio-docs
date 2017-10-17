@@ -16,20 +16,6 @@ ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BP_FLAGS
 Provides optional flags that may be used to specify additional information when setting a breakpoint.  
