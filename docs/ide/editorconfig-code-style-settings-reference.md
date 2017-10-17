@@ -42,7 +42,7 @@ There are three supported .NET coding convention categories:
 - **[Formatting Rules](#formatting)** are rules regarding the layout and structure of your code in order to make it easier to read, for example, Allman braces, spaces in control blocks.
 - **[Naming Conventions](#naming)** are rules respecting the way objects are named, for example, `async` methods must end in "Async". 
 
-# <a name="language"> Language Conventions </a>
+# <a name="language">Language Conventions</a>
 ## Overview
 **Rule Format:**
 `options_name = false|true : none|suggestion|warning|error`
@@ -118,7 +118,7 @@ error | When this style is not being followed, show a compiler error.
 dotnet_style_qualification_for_field = false:suggestion
 ```
 
-### <a name="this_and_me_properties">Properties (IDE0003/IDE0009) </a>
+### <a name="this_and_me_properties">Properties (IDE0003/IDE0009)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_qualification_for_property`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
@@ -136,7 +136,7 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 ```
 
-### <a name="this_and_me_methods">Methods (IDE0003/IDE0009) </a>
+### <a name="this_and_me_methods">Methods (IDE0003/IDE0009)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_qualification_for_method`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
@@ -155,7 +155,7 @@ dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 ```
 
-### <a name="this_and_me_events">Events (IDE0003/IDE0009) </a>
+### <a name="this_and_me_events">Events (IDE0003/IDE0009)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_qualification_for_event`| C# and Visual Basic | false:none | Visual Studio 2017 RTW |
@@ -173,8 +173,8 @@ dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_event = false:suggestion
 ```
 
-## <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references </a>
-### <a name="language_keywords_variables"> Locals, parameters, and members (IDE0012/IDE0014)</a>
+## <a name="language_keywords">Language keywords (int, string, etc.) vs framework type names for type references</a>
+### <a name="language_keywords_variables">Locals, parameters, and members (IDE0012/IDE0014)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`dotnet_style_predefined_type_for_locals_parameters_members`| C# and Visual Basic | true:none | Visual Studio 2017 RTW |
@@ -339,7 +339,7 @@ csharp_style_var_for_built_in_types = true:suggestion
 csharp_style_var_when_type_is_apparent = true:suggestion
 ``` 
 
-### <a name="var_elsewhere">"var" elsewhere (IDE0007, IDE0008) </a>
+### <a name="var_elsewhere">"var" elsewhere (IDE0007, IDE0008)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_style_var_elsewhere`| C# | true:none | Visual Studio 2017 RTW |
@@ -521,7 +521,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 csharp_style_inlined_variable_declaration = true:suggestion
 ```
 ## <a name="expression_level_csharp">Expression-level Preferences</a>
-### <a name="expression_level_default">Simplify `default` expressions (IDE0034) </a>
+### <a name="expression_level_default">Simplify `default` expressions (IDE0034)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_prefer_simple_default_expression` | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
@@ -549,7 +549,7 @@ csharp_prefer_simple_default_expression = true:suggestion
 | Value | Description | Applied 
 | ------------- |:-------------|:-------------|
 | True | Prefer to use `throw` expressions instead of `throw` statements. | **C#:** <br>`this.s = ss ?? throw new ArgumentNullException(nameof(s));`
-| False | Prefer to use `throw` statements instead of `throw` expressions.| **C#:** <br>`if (s==null) {throw new ArgumentNullException(nameof(s));} this.s = s;`
+| False | Prefer to use `throw` statements instead of `throw` expressions.| **C#:** <br>`if (ss == null) { throw new ArgumentNullException(nameof(s)); } this.s = s;`
 
 #### Example editorconfig file:
 ```
@@ -576,7 +576,7 @@ csharp_style_throw_expression = true:suggestion
 csharp_style_conditional_delegate_call = false:suggestion
 ```
 
-## <a name="code_block">"Code Block Preferences</a>
+## <a name="code_block">Code Block Preferences</a>
 ### <a name="prefer_braces">Prefer braces (IDE0011)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
@@ -595,7 +595,7 @@ csharp_style_conditional_delegate_call = false:suggestion
 csharp_prefer_braces = true:none
 ```
 
-# <a name="formatting"> Formatting Rules </a>
+# <a name="formatting">Formatting Rules</a>
 ## Overview
 **Rule Format:**
 `options_name = false|true`
@@ -651,7 +651,7 @@ dotnet_sort_system_directives_first = true
 
 # <a name="csharp_formatting">C# Formatting Settings</a>
 ## <a name="newline">Newline Options</a>
-### <a name="newline_before_brace"> Newline Before Open Brace (`{`)</a>
+### <a name="newline_before_brace">Newline Before Open Brace (`{`)</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_before_open_brace`  |  C#  | all | Visual Studio 2017 v. 15.3  |
@@ -691,7 +691,7 @@ void MyMethod() {
 csharp_new_line_before_open_brace = methods, properties, control_blocks, types
 ``` 
 
-### <a name="newline_before_else"> Newline Before `else`</a>
+### <a name="newline_before_else">Newline Before `else`</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_before_else` |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -729,7 +729,7 @@ if (...) {
 csharp_new_line_before_else = true
 ``` 
 
-### <a name="newline_before_catch"> Newline Before `catch`</a>
+### <a name="newline_before_catch">Newline Before `catch`</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_catch`|  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -767,7 +767,7 @@ try {
 csharp_new_line_before_catch = true
 ``` 
 
-### <a name="newline_before_finally"> Newline Before `finally`</a>
+### <a name="newline_before_finally">Newline Before `finally`</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_finally`|  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -810,7 +810,7 @@ try {
 csharp_new_line_before_finally = true
 ``` 
 
-### <a name="newline_before_object"> Newline Before Members in Object Initializers</a>
+### <a name="newline_before_object">Newline Before Members in Object Initializers</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_members_in_object_initializers`|  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -846,7 +846,7 @@ var z = new B()
 csharp_new_line_before_members_in_object_initializers = true
 ``` 
 
-### <a name="newline_before_anonymous"> Newline Before Members in Anonymous Types</a>
+### <a name="newline_before_anonymous">Newline Before Members in Anonymous Types</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_new_line_before_members_in_anonymous_types` |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -882,7 +882,7 @@ var z = new
 csharp_new_line_before_members_in_anonymous_types = true
 ``` 
 
-### <a name="newline_before_query"> Newline Before Members in Query Expression Clauses</a>
+### <a name="newline_before_query">Newline Before Members in Query Expression Clauses</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |`csharp_new_line_between_query_expression_clauses`  |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -915,7 +915,7 @@ csharp_new_line_between_query_expression_clauses = true
 ``` 
 
 ## <a name="indent">Indentation Options</a>
-### <a name="indent_switch"> Indent `switch` Case Contents </a>
+### <a name="indent_switch">Indent `switch` Case Contents</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_indent_case_contents`  |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -963,7 +963,7 @@ switch(c) {
 csharp_indent_case_contents = true
 ``` 
 
-### <a name="indent_switch_labels"> Indent `switch` Labels </a>
+### <a name="indent_switch_labels">Indent `switch` Labels</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_indent_switch_labels`  |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -1079,7 +1079,7 @@ csharp_indent_labels = flush_left
 ``` 
 
 ## <a name="spacing">Spacing Options</a>
-### <a name="space_after_cast"> Space After Cast </a>
+### <a name="space_after_cast">Space After Cast</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_after_cast` |  C#  | false | Visual Studio 2017 v. 15.3  |
@@ -1097,7 +1097,7 @@ csharp_indent_labels = flush_left
 csharp_space_after_cast = true
 ``` 
 
-### <a name="space_control_flow"> Space After Keywords in Control Flow Statements </a>
+### <a name="space_control_flow">Space After Keywords in Control Flow Statements</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_after_keywords_in_control_flow_statements` |  C#  | true | Visual Studio 2017 v. 15.3  |
@@ -1115,7 +1115,7 @@ csharp_space_after_cast = true
 csharp_space_after_keywords_in_control_flow_statements = true
 ``` 
 
-### <a name="space_parameter_list"> Space Between Method Declaration Argument-List Parentheses </a>
+### <a name="space_parameter_list">Space Between Method Declaration Argument-List Parentheses</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | `csharp_space_between_method_declaration_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
@@ -1133,7 +1133,7 @@ csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_between_method_declaration_parameter_list_parentheses = true
 ```
 
-### <a name="space_method_call"> Space Within Parentheses for Method Call Argument List</a>
+### <a name="space_method_call">Space Within Parentheses for Method Call Argument List</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |  `csharp_space_between_method_call_parameter_list_parentheses` |  C#  | false | Visual Studio 2017 v. 15.3  |
@@ -1151,7 +1151,7 @@ csharp_space_between_method_declaration_parameter_list_parentheses = true
 csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
 ```  
 
-### <a name="space_other"> Space Within Parentheses for Other Options </a>
+### <a name="space_other">Space Within Parentheses for Other Options</a>
 | **Option Name** | **Applicable Languages** | **Visual Studio Default** | **Supported Version** |
 | ----------- | -------------------- | ----------------------| ----------------  |
 |  `csharp_space_between_parentheses`  |  C#  | false | Visual Studio 2017 v. 15.3  |
@@ -1233,7 +1233,7 @@ public int MyProperty
 csharp_preserve_single_line_blocks = true
 ``` 
 
-# <a name="naming"> Naming Conventions </a>
+# <a name="naming">Naming Conventions</a>
 ## Overview
 **Rule Format:**<br>
 namingRuleTitle:<br>
