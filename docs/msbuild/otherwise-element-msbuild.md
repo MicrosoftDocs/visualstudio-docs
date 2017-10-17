@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Otherwise"
-dev_langs:
+dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "<Otherwise> Element [MSBuild]"
   - "Otherwise Element [MSBuild]"
 ms.assetid: de3997e9-1595-4263-a886-95530b56a319
@@ -23,20 +23,6 @@ caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Otherwise Element (MSBuild)
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.  

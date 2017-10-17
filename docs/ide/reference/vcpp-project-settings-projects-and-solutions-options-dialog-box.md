@@ -23,21 +23,6 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] build and project settings related to logging, performance, and supporting file types.  

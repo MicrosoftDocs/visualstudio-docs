@@ -16,20 +16,6 @@ ms.assetid: 2c935ee0-2e22-4be0-a852-73736f33c8c9
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugEventCallback2
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).  

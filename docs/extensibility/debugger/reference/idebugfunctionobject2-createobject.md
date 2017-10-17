@@ -15,20 +15,6 @@ ms.assetid: 148de615-941e-4b64-ab11-75b692aae465
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugFunctionObject2::CreateObject
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  

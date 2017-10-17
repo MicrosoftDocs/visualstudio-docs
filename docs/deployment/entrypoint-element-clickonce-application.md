@@ -23,20 +23,6 @@ caps.latest.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # &lt;entryPoint&gt; Element (ClickOnce Application)
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is run on a client computer.  

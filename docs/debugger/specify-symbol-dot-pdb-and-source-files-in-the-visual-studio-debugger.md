@@ -8,11 +8,11 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ToolsOptionsPages.Debugger.Native"
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
-  - "vs.debug.nosymbols" 
+  - "vs.debug.nosymbols"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -32,21 +32,6 @@ caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger
 A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source code for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information:

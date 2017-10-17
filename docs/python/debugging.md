@@ -37,13 +37,14 @@ Also see the following scenario-specific debugging topics:
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)
 
-<a name="debugging-without-a-project"</a>
+<a name="debugging-without-a-project"></a>
 > [!Tip]
 > Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md)) and no arguments. But from then on, you have full debugging support.
 >
 > To control the environment and arguments, create a project for the code, which is easily done with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files) project template.
 
-<a name="debugging-with-a-project"</a>
+<a name="debugging-with-a-project"></a>
+
 ## Basic debugging
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections. For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).

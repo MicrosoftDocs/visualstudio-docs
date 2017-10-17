@@ -18,21 +18,6 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "tr-tr"
 ---
 # Run Store apps from Visual Studio
 Store apps run on a broad range of devices, and Visual Studio provides you with a number of ways to run and interact with those apps. The "F5" experience is enhanced to make it easy to debug, profile, and test apps during development.  

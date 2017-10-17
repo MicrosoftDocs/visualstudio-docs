@@ -13,21 +13,6 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Using Performance Rules to Analyze Data
 The performance warnings of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools indicate issues in a profiled application that can slow program execution. Warnings can also indicate that you might need to change collection methods to collect more useful data. Performance warnings are generated automatically in a profiling session. Warnings appear in the **Error List** window when a profiling data file is opened in Visual Studio. From the **Error List** window, you can locate the source code of the issue, and you can display detailed information about the error, such as information about how to resolve the problem. You can also disable warnings in which you are not interested.  

@@ -16,20 +16,6 @@ ms.assetid: 0248430a-3b61-4809-87a9-e9b6bb7d1130
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BP_LOCATION_TYPE
 Specifies the location type of the breakpoint for a breakpoint request.  

@@ -13,20 +13,6 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Get Started with the Visual Studio Debugger
 The Visual Studio debugger is easy to use in any language. Here we'll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.

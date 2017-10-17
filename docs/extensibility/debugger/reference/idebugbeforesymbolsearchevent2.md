@@ -14,20 +14,6 @@ ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBeforeSymbolSearchEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.  

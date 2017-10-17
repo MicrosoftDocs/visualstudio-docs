@@ -13,20 +13,6 @@ caps.latest.revision: 15
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Step 7: Add Dialog Components to Your Form
 To enable your program to open picture files and choose a background color, in this step, you add an **OpenFileDialog** component and a **ColorDialog** component to your form.  

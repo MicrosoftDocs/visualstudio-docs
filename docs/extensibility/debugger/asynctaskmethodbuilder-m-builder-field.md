@@ -14,20 +14,6 @@ ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb
 caps.latest.revision: 4
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # AsyncTaskMethodBuilder.m_builder Field
 Represents the generic builder object to which this non-generic instance delegates.  

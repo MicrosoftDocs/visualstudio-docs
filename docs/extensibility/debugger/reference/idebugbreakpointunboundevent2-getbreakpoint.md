@@ -16,20 +16,6 @@ ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 Gets the breakpoint that became unbound.  

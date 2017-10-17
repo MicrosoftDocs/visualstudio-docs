@@ -13,21 +13,6 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Modify the Pivot Point of a 3-D Model
 This document demonstrates how to use the Model Editor to modify the *pivot point* of a 3-D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.  

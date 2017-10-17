@@ -16,20 +16,6 @@ ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugReference2::GetSize
 Gets the size, in bytes, of the value of the reference. Reserved for future use.  

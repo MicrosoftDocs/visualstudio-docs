@@ -15,20 +15,6 @@ ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.  

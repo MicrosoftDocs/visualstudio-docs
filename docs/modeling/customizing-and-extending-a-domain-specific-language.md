@@ -13,11 +13,6 @@ caps.latest.revision: 48
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Customizing and Extending a Domain-Specific Language
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:  
