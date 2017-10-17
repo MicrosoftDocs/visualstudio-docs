@@ -16,20 +16,6 @@ ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugAddresses::Next
 This method returns the next set of elements from the enumeration.  

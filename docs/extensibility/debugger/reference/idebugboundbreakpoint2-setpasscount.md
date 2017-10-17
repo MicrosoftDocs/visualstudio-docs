@@ -17,20 +17,6 @@ ms.assetid: b32c12f9-b34d-43bd-a1b9-61af6cf8e51b
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBoundBreakpoint2::SetPassCount
 Sets or changes the pass count associated with this bound breakpoint.  

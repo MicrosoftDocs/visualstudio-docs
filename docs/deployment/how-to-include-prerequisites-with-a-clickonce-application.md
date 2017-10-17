@@ -13,20 +13,6 @@ caps.latest.revision: 16
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Include Prerequisites with a ClickOnce Application
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.  

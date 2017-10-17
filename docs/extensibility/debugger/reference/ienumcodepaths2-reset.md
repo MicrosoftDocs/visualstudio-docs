@@ -16,20 +16,6 @@ ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumCodePaths2::Reset
 Resets the enumeration to the first element.  

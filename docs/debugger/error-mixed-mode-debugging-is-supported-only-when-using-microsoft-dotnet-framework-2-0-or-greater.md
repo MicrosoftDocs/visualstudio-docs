@@ -20,20 +20,6 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
 To debug mixed native and managed code, you must have [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version 2.0, 3.0. 3.5, or 4.0. Mixed-mode debugging with earlier versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] is not supported.  

@@ -14,20 +14,6 @@ ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
 caps.latest.revision: 26
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Implementing a Legacy Language Service
 To implement a language service using the managed package framework (MPF), you must derive a class from the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the following abstract methods and properties:  

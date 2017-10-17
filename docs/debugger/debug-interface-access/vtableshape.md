@@ -18,21 +18,6 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # VTableShape
 The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class child symbol identified by the `SymTagVTableShape` tag.  

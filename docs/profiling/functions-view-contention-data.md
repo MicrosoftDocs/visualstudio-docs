@@ -15,20 +15,6 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Functions View - Contention Data
 The Functions report view of contention data lists the functions in the profiling run that were blocked from execution during the profiling run.  

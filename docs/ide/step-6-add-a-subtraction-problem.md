@@ -13,21 +13,6 @@ caps.latest.revision: 25
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Step 6: Add a Subtraction Problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:  

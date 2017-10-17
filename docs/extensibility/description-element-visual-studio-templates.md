@@ -14,20 +14,6 @@ ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Description Element (Visual Studio Templates)
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.  

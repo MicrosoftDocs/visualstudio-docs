@@ -15,20 +15,6 @@ ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
 caps.latest.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:  

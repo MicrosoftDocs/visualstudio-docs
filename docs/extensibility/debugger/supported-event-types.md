@@ -14,20 +14,6 @@ ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Supported Event Types
 Visual Studio debugging currently supports the following event types:  

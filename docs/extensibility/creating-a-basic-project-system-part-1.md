@@ -16,20 +16,6 @@ ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 caps.latest.revision: 47
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating a Basic Project System, Part 1
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.  

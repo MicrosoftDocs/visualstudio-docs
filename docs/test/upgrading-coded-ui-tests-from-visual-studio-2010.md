@@ -12,21 +12,6 @@ ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 33
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Upgrading Coded UI Tests from Visual Studio 2010
 Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 are silently repaired when opened in Visual Studio 2012. If the Test projects are checked into source control, the project files are checked out for this repair. Once repaired, these test projects containing coded UI tests can then be used in both [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  

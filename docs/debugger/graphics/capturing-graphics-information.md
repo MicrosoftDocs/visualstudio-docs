@@ -17,20 +17,6 @@ caps.latest.revision: 41
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Capturing Graphics Information
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  

@@ -15,20 +15,6 @@ ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.  

@@ -16,20 +16,6 @@ ms.assetid: 375afb8c-882d-44db-bfa7-e2c9eb555122
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgram2::WriteDump
 Writes a dump to a file.  

@@ -26,20 +26,6 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Debugging Errors and Warning Dialog Boxes
 Below are the errors and warning dialog boxes you may encounter while debugging your application.  

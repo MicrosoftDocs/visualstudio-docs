@@ -16,20 +16,6 @@ ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 caps.latest.revision: 37
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Dynamically Adding Menu Items
 You can add menu items at run time by specifying the `DynamicItemStart` command flag on a placeholder button definition in the Visual Studio command-table (.vsct) file, then defining (in code) the number of menu items to display and handling the command(s). When the VSPackage is loaded, the placeholder is replaced with the dynamic menu items.  

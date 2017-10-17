@@ -15,20 +15,6 @@ ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 Retrieves a type given its primitive type.  

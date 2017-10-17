@@ -12,21 +12,6 @@ ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 9
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Sample Excel Extension: TechnologyManager Class
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager> class and is responsible for providing core services for the [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] extension. Although the base class has many methods, only a subset of them is used in this sample.  

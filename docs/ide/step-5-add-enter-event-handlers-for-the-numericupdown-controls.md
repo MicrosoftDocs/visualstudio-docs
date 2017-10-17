@@ -13,21 +13,6 @@ caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Step 5: Add Enter Event Handlers for the NumericUpDown Controls
 In the fifth part of this tutorial, you'll add Enter event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each NumericUpDown control as soon as the quiz taker chooses it and starts to enter a different value.  

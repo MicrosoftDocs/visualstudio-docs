@@ -15,20 +15,6 @@ ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
 caps.latest.revision: 30
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Installing VSPackages With Windows Installer
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] splash screen and About dialog box.  

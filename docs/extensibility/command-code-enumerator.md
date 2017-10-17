@@ -15,20 +15,6 @@ ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Command Code Enumerator
 This enumerator is used in the options for the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) and the [SccPopulateList](../extensibility/sccpopulatelist-function.md)to indicate the command for which the options are specified.  

@@ -17,21 +17,6 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # IDiaSymbol::get_hasSetJump
 Retrieves a flag that specifies whether the function contains a use of the [setjmp](/cpp/c-runtime-library/reference/setjmp) command (paired with the [longjmp](/cpp/c-runtime-library/reference/longjmp) command, these form the C-style method of exception handling).  

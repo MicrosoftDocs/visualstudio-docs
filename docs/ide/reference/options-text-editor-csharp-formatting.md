@@ -30,20 +30,6 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Options, Text Editor, C#, Formatting
 Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access this dialog box, click **Options** on the **Tools** menu, expand **Text Editor**, expand **C#**, and then click **Formatting**.  

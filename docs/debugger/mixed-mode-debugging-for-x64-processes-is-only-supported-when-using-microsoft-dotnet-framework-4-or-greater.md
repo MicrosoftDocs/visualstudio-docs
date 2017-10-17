@@ -20,20 +20,6 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
 .NET Framework versions earlier than 4 do not provide support for mixed-mode debugging of x64 processes. That means that you cannot step from managed code to native code, or from native code to managed code, while debugging.  

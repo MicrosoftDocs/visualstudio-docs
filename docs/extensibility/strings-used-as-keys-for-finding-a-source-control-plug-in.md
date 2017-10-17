@@ -14,20 +14,6 @@ ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 The following strings are the keys for accessing the registry to find information about the source control plug-in.  

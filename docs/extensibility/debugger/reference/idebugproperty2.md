@@ -16,20 +16,6 @@ ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProperty2
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.  

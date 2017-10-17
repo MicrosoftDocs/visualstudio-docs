@@ -16,20 +16,6 @@ ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Support Outlining in a Legacy Language Service
 Outlining is used to expand or collapse different regions of text. The way outlining is used can be defined differently by different languages. For more information, see [Outlining](../../ide/outlining.md).  

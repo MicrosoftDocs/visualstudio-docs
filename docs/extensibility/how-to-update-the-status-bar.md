@@ -14,20 +14,6 @@ ms.assetid: 7500c8a7-4913-4818-a88b-bfd1b9887cb6
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Update the Status Bar
 The **Status Bar** is a control bar located at the bottom of many application windows that contains one or more status text lines or indicators.  

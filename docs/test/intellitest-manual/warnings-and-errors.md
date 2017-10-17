@@ -14,20 +14,6 @@ ms.assetid: F725B4A3-F79E-4F05-945F-847756CD69B9
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Warnings and errors
 

@@ -16,21 +16,6 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Adding tier interaction data from the command line
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  

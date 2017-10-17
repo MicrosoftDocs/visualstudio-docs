@@ -16,20 +16,6 @@ ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgramEx2::GetProgramNode
 Gets the program node associated with a program.  

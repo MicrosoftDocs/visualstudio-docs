@@ -11,21 +11,6 @@ caps.latest.revision: 13
 author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Verify your Xamarin environment
 Once the installers have completed (see [Setup and install](../cross-platform/setup-and-install.md)), spend a few minutes to verify that everything is ready to experience Xamarin development.  

@@ -15,21 +15,6 @@ caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Target Build Order
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  

@@ -12,20 +12,6 @@ helpviewer_keywords:
 ms.assetid: 5b51fb96-94f4-4926-92b9-262156c05b85
 author: "rpetrusha"
 ms.author: "ronpet"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Live Unit Testing with Visual Studio 2017

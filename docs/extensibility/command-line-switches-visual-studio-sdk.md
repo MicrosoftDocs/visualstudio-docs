@@ -16,20 +16,6 @@ ms.assetid: 0a22516f-f60e-4476-ac5b-f41e5ffaaf8b
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Command-Line Switches (Visual Studio SDK)
 Devenv.exe, the executable that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), supports command-line switches specifically for development of VSPackages. VSPackages can also make their own switches available at the Devenv command line. The following topics provide information about how to use command-line switches in the IDE.  

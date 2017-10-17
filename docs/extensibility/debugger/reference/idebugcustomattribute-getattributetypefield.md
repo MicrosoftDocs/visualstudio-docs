@@ -16,20 +16,6 @@ ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
 Gets the custom attribute class type.  

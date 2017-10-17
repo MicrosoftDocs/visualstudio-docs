@@ -21,21 +21,6 @@ caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # ASP.NET Debugging: System Requirements
 This topic describes the software and security requirements for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] debugging scenarios:  

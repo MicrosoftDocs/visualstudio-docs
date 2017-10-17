@@ -12,20 +12,6 @@ ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
 caps.latest.revision: 3
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Upgrading Custom Project and Item Templates for Visual Studio 2017

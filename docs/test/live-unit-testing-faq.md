@@ -12,20 +12,6 @@ helpviewer_keywords:
 ms.assetid: 61baf3bb-646f-4c5a-b7c0-a6bdff68f21c
 author: "rpetrusha"
 ms.author: "ronpet"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Live Unit Testing Frequently Asked Questions
 

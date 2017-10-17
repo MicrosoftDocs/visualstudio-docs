@@ -16,20 +16,6 @@ ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugClassField::GetDefaultIndexer
 Gets the name of the default indexer.  

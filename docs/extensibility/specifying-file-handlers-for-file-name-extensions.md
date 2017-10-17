@@ -14,20 +14,6 @@ ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
 caps.latest.revision: 18
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Specifying File Handlers for File Name Extensions
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.  

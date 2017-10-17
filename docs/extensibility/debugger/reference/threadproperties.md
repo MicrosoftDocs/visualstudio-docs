@@ -16,20 +16,6 @@ ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # THREADPROPERTIES
 Describes the properties of a thread.  

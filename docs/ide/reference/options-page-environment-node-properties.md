@@ -16,20 +16,6 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Options Page, Environment Node Properties
 This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.  

@@ -14,20 +14,6 @@ ms.assetid: b804b619-70eb-4c38-80d9-c8b32b65ed3e
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugCustomAttributeQuery
 Represents a query for custom attributes on a method or type.  

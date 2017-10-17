@@ -21,20 +21,6 @@ caps.latest.revision: 12
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # MSBuild Well-known Item Metadata
 The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file `C:\MyProject\Source\Program.cs` in the project.  

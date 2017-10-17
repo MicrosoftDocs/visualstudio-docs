@@ -15,20 +15,6 @@ ms.assetid: 392e3063-f0a0-4130-9583-23bd2aa3fa36
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Combo Element
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.  

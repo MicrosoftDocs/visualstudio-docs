@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "TaskBody element [MSBuild]"
   - "<TaskBody> element [MSBuild]"
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
@@ -21,20 +21,6 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # TaskBody Element (MSBuild)
 Contains the data that is passed to a `UsingTask``TaskFactory`. For more information, see [UsingTask Element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  

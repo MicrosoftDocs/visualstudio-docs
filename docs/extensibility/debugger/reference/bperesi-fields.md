@@ -16,20 +16,6 @@ ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BPERESI_FIELDS
 Specifies the information to be retrieved about a failed resolution of a breakpoint.  

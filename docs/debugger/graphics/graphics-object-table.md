@@ -17,20 +17,6 @@ caps.latest.revision: 16
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Graphics Object Table
 The Graphics Object Table in Visual Studio Graphics Analysis helps you understand the Direct3D objects that support a frame of your game or app.  

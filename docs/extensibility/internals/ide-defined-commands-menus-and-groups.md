@@ -16,20 +16,6 @@ ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
 caps.latest.revision: 27
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDE-Defined Commands, Menus, and Groups
 Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

@@ -14,20 +14,6 @@ ms.assetid: be6e504d-4ab3-4141-a61b-0953ee0e038e
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugArrayObject2
 > [!IMPORTANT]

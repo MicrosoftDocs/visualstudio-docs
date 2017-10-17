@@ -13,20 +13,6 @@ caps.latest.revision: 11
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Change the Graphics Diagnostics Playback Machine
 You can play back graphics information by using your local machine, or by using a remote machine or device.  

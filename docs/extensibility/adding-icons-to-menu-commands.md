@@ -16,20 +16,6 @@ ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adding Icons to Menu Commands
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.  

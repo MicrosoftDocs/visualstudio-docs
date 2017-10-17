@@ -16,20 +16,6 @@ ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating a WPF Toolbox Control
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users.  

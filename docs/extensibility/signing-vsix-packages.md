@@ -18,20 +18,6 @@ ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Signing VSIX Packages
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.  

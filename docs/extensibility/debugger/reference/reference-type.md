@@ -16,20 +16,6 @@ ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # REFERENCE_TYPE
 Specifies the reference type.  

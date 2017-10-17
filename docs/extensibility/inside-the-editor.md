@@ -14,20 +14,6 @@ ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 caps.latest.revision: 31
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Inside the Editor
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  

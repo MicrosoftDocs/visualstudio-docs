@@ -17,20 +17,6 @@ ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BuildProjectOnLoad (Visual Studio Templates)
 Specifies whether to build the project immediately after it's created.  

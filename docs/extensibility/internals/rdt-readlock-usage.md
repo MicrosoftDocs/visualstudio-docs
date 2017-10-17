@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "RDT_ReadLock"
   - "visible"
   - "RDT_EditLock"
@@ -17,20 +17,6 @@ ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # RDT_ReadLock Usage
 

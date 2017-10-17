@@ -18,21 +18,6 @@ ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Use Wizards with Project Templates
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  

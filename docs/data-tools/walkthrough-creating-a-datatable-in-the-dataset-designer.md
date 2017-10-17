@@ -17,20 +17,6 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
 robots: noindex,nofollow
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a DataTable in the Dataset Designer

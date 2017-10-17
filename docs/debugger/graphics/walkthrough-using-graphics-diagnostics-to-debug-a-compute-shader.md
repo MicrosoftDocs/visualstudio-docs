@@ -13,20 +13,6 @@ caps.latest.revision: 12
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
 This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics tools to investigate a compute shader that generates incorrect results.  

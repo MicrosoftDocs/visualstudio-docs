@@ -18,20 +18,6 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Code Analysis, Project Designer
 Contains the code analysis tool that you can opt to run on your code. The tool reports information about your assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  

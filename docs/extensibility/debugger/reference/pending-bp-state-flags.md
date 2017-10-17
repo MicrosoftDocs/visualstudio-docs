@@ -16,20 +16,6 @@ ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # PENDING_BP_STATE_FLAGS
 Specifies the pending breakpoint state flags.  

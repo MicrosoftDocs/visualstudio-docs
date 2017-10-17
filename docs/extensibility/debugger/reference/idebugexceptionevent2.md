@@ -16,20 +16,6 @@ ms.assetid: 53d32e59-a84b-4710-833e-c5ab08100516
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugExceptionEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an exception is thrown in the program currently being executed.  

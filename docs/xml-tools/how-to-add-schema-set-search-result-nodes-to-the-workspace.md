@@ -13,20 +13,6 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Add Schema Set Search Result Nodes to the Workspace
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.  

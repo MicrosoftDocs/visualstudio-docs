@@ -14,20 +14,6 @@ ms.assetid: 8a52ddca-bd99-49c0-9778-469dce7abd44
 caps.latest.revision: 4
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProcessSecurity
 `IDebugProcessSecurity` is implemented by a port supplier to warn the user that attaching to the process is unsafe.  

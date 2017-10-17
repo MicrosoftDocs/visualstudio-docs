@@ -17,20 +17,6 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Cores View Zoom Tool
 The Zoom control is a slider that lets you zoom in and out on the timeline so that you can focus on areas of particular interest. This control zooms on the center of the current view, so adjust the view before you zoom in.  

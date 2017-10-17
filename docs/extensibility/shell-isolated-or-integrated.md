@@ -18,20 +18,6 @@ ms.assetid: c64a9bf0-9bf8-45c3-8fa2-306fa6cab66a
 caps.latest.revision: 25
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Shell (Isolated or Integrated)
 You can create your own Visual Studio-based application in either integrated or isolated mode. In integrated mode, many Visual Studio features are available in addition to your application. In the isolated mode, you choose a subset of Visual Studio features that you wish to distribute along with your own extension.  

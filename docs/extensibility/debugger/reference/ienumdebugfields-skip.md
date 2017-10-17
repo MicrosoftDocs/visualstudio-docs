@@ -16,20 +16,6 @@ ms.assetid: b3bc51c4-21ae-4913-800c-c2ca9dc18443
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugFields::Skip
 This method skips over the specified number of elements.  

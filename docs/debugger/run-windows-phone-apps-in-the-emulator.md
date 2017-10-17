@@ -18,21 +18,6 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Run Windows Phone 8.1 apps in the emulator
 The Windows Phone emulator provides a virtualized environment in which you can debug and test Windows Phone apps on your computer without a physical device. You can simulate common touch and rotation events and choose the physical screen size and resolution that you want to emulate. You can also test many commonly used features, such as location, networking, notifications, sensors, the accelerometer, and the optional SD card.  
