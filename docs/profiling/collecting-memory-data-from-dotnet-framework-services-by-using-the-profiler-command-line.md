@@ -13,21 +13,6 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service using the sampling method from the command line.  

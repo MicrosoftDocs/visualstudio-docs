@@ -17,21 +17,6 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Dia2dump.cpp Source File
 The following Dia2dump.cpp source code displays the contents of a .pdb file. This source code is used by [Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md).  

@@ -21,21 +21,6 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Outlining
 You can choose to hide some code from view by collapsing a region of code so that it appears under a plus sign (+). You expand a collapsed region by clicking the plus sign. (Or you can press CTRL + M + M to collapse a region and then CTRL+ M + M to expand it again.) You can also collapse an outlining region by double-clicking any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.  

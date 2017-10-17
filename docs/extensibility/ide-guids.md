@@ -15,20 +15,6 @@ ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
 caps.latest.revision: 19
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDE GUIDs
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.  

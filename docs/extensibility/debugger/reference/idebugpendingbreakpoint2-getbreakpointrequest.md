@@ -17,20 +17,6 @@ ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 Gets the breakpoint request that was used to create this pending breakpoint.  

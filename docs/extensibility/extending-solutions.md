@@ -12,20 +12,6 @@ ms.assetid: 5cb60183-2a87-4551-a19f-c7c4e65d60c0
 caps.latest.revision: 2
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Extending Solutions
 A solution is a grouping of one or more projects that work together to create an application.  

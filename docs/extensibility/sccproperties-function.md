@@ -16,20 +16,6 @@ ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
 caps.latest.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SccProperties Function
 This function displays source control properties for a file or project.  

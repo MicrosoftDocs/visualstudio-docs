@@ -13,20 +13,6 @@ caps.latest.revision: 13
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Use the Expression Editor
 The Expression Editor is a [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] control that is used in many workflow activities as a means of entering and evaluating these expressions. The Expression Editor provides a full-fledged IDE editing experience including IntelliSense, colorization, ParamInfo, error squiggles, among other features. The compiler validates the expression after it is entered. If the expression is invalid, an error icon is displayed. The editor can also be opened as an **Expression Editor** dialog box.  

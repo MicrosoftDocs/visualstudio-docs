@@ -16,20 +16,6 @@ ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugAlias::GetICorDebugValue
 Retrieves a managed code interface that represents the value associated with this alias.  

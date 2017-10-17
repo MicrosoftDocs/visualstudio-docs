@@ -11,23 +11,8 @@ ms.topic: "article"
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
 caps.latest.revision: 1
 author: "gregvanl"
-
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Installing outside the extensions folder
 

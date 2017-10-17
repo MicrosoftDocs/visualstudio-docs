@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "06/14/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "MSBuild, additional resources"
 ms.assetid: 3206dc09-daa4-43c4-8073-731a82e36a89
 caps.latest.revision: 15
@@ -21,20 +21,6 @@ author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 redirect_url: https://social.msdn.microsoft.com/Forums/vstudio/home?forum=msbuild
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Additional Resources for MSBuild
 The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  

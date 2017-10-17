@@ -14,20 +14,6 @@ ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # m_taskId Field
 The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.  

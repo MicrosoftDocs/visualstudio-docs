@@ -15,20 +15,6 @@ ms.assetid: e662c5ea-a5c1-478e-a268-5980dadffcd1
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
 Returns the number of type parameter arguments for this instance.  

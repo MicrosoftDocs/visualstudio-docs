@@ -16,20 +16,6 @@ ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 Gets the original expression.  

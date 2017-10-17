@@ -16,21 +16,6 @@ caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Performance Session Overview
 This overview explains the basics of profiling. Developers who are new to performance work will see how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools can help them become productive quickly and increase the performance of their code. Developers who are experienced in profiling can gain an overview of specific Profiling Tools features and processes.  

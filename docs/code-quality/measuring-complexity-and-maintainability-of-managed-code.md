@@ -23,21 +23,6 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Measuring Complexity and Maintainability of Managed Code
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. In recent years, many software measures, known as code metrics, have been developed that can help developers understand where their code needs rework or increased testing.  

@@ -17,20 +17,6 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Globalizing Applications
 Globalization is the process of designing and developing a software product that functions for multiple cultures. This section applies to both Windows Forms and Web Forms pages.  

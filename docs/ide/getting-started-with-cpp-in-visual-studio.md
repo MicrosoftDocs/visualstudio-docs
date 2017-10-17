@@ -13,21 +13,6 @@ caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Getting Started with C++ in Visual Studio
 By completing this walkthrough, you'll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  

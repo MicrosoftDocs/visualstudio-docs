@@ -16,20 +16,6 @@ ms.assetid: 876ac9da-3b7c-4156-b79a-8f340e9fcea6
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgram2::EnumModules
 Retrieves a list of the modules that this program has loaded and is executing.  

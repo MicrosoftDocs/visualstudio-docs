@@ -24,20 +24,6 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Edit and Continue Dialog Box (C++)
 Edit and Continue could not apply the changes you made to your native code. This may be a temporary condition. Sometimes Edit and Continue cannot apply native code changes immediately, but can apply them later during the debugging session (for example, after completion of the current call to the procedure now executing). For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  

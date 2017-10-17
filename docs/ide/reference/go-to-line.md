@@ -18,20 +18,6 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Go To Line
 This dialog box allows you to move to a specific line in the active document. To access this dialog box, open a document for editing, then select **Go To** on the **Edit** menu.  

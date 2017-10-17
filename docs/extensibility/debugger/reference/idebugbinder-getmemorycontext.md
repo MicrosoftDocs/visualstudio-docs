@@ -16,20 +16,6 @@ ms.assetid: 801c5b60-acff-4822-b23d-e9c7bbca8a0f
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBinder::GetMemoryContext
 This method converts either an object location or a memory address to a memory context.  

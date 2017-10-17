@@ -18,20 +18,6 @@ ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # CreateExpInstance Utility
 Use the CreateExpInstance utility to create, reset, or delete an experimental instance of Visual Studio. You can use the experimental instance to debug and test Visual Studio extensions without changing the underlying product.  

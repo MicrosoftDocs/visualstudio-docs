@@ -16,20 +16,6 @@ ms.assetid: 7d26fb23-5d49-4ba7-b7c5-3aed4d7be81e
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugModuleLoadEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a module is loaded or unloaded.  

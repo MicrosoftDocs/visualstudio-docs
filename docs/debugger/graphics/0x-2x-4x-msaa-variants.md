@@ -13,20 +13,6 @@ caps.latest.revision: 8
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # 0x/2x/4x MSAA Variants
 Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains.  

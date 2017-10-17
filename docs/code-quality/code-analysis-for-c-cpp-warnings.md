@@ -23,20 +23,6 @@ caps.latest.revision: 41
 author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Code Analysis for C/C++ Warnings
 This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
