@@ -2,7 +2,6 @@
 title: "Word Object Model Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Office object models"
 ms.assetid: b66a7d9e-0a51-4ef5-8754-b2b899f9094c
 caps.latest.revision: 78
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Word Object Model Overview

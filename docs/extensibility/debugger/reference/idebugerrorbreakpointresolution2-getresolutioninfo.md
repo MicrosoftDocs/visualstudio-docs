@@ -16,20 +16,6 @@ ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint error resolution information.  

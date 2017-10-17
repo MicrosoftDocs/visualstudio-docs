@@ -2,7 +2,6 @@
 title: "&lt;friendlyName&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
 ms.assetid: 80250fbf-fccf-4baa-948e-ace7f4449e9c
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;friendlyName&gt; Element (Office Development in Visual Studio)

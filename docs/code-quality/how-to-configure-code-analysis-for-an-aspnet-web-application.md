@@ -5,31 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.propertypages.asp"
 ms.assetid: b3000b31-fd9d-489e-81a2-a4bee49453ba
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 ---
 # How to: Configure Code Analysis for an ASP.NET Web Application
 In [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)] you can select from a list of Code Analysis *rule sets* to apply to [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. The default rule set is the Microsoft Mininimum Recommended Rules. You can select another rule set to apply to the Web site.  

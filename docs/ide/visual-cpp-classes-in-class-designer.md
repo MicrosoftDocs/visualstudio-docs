@@ -14,23 +14,9 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], classes"
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Visual C++ Classes in Class Designer
 Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and Visual C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
@@ -64,7 +50,7 @@ class Penguin : public Bird, public Swimmer {};
 > [!NOTE]
 >  The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to Class View, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.  
   
- For more information about multiple-class inheritance, see [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).  
+ For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).  
   
 ## Abstract Classes  
  Class Designer supports abstract classes (also named "abstract base classes"). These are classes that you never instantiate, but from which you can derive other classes. Using an example from "Multiple Inheritance" earlier in this document, you might instantiate the `Bird` class as individual objects as follows:  
@@ -183,6 +169,6 @@ typedef struct
  [Working with Visual C++ Code (Class Designer)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)   
  [Anonymous Class Types](/cpp/cpp/anonymous-class-types)   
- [(NOTINBUILD) Multiple Inheritance](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
+ [Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx)   
  [Multiple Base Classes](/cpp/cpp/multiple-base-classes)   
  [Templates](/cpp/cpp/templates-cpp)

@@ -1,14 +1,13 @@
 ---
 title: "Upgrade Dotfuscator Community Edition (CE) | Microsoft Docs"
 ms.date: "2017-02-08"
-ms.prod: "visual-studio-dev15"
 ms.devlang: "dotnet"
-ms.technology:
-  - "dotfuscator"
+ms.technology: 
+  - "vs-ide-general"
 ms.topic: "article"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, upgrade, command line
-helpviewer_keywords:
-  - "PreEmptive Protection - Dotfuscator"
+helpviewer_keywords: 
+  - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
   - "Dotfuscator"
@@ -25,20 +24,6 @@ description: "Learn how to upgrade the free Dotfuscator Community Edition includ
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Upgrade Dotfuscator Community Edition (CE)
@@ -49,6 +34,7 @@ However, there are more features available to users who upgrade their version of
 ## Registering Dotfuscator CE
 
 Registered users of Dotfuscator CE get access to additional features, such as [command line support][cli], which makes it easy to integrate Dotfuscator CE into your automated build process.
+In addition, registering will grant access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
 
 Registration is quick, simple, and free of charge.
 To register Dotfuscator CE, see [the Registering Dotfuscator CE section on the Getting Started page of the full Dotfuscator CE User Guide][register-ce].
@@ -69,7 +55,6 @@ These include:
   * The ability to [automatically remove unused code from your application][pruning], reducing the amount of sensitive code that is shipped.
 * *Application Integrity Protection*
   * Additional [application defense behaviors][check-actions].
-  * The ability to inject anti-tamper and anti-debug code into `.dll` assemblies.
   * The ability to provide a warning period before an application's end-of-life deadline.
   * The ability to notify application code during an end-of-life warning period or after the deadline.
   * Telemetry encryption.
@@ -112,3 +97,4 @@ For more information on the advanced application protection features of Dotfusca
 [register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
+[decode-obfuscated]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_decode_stack_trace.html

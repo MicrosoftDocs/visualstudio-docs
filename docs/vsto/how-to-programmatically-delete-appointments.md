@@ -2,7 +2,6 @@
 title: "How to: Programmatically Delete Appointments | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "appointments [Office development in Visual Studio]"
 ms.assetid: 34bd2d5e-a075-4fbe-809f-479c72fc735a
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Delete Appointments

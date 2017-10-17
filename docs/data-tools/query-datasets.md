@@ -14,11 +14,7 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+ms.technology: "vs-data-tools"
 ---
 # Query datasets
 To search for specific records in a dataset,  use the FindBy method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).  

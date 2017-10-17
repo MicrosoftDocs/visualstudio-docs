@@ -14,20 +14,6 @@ ms.assetid: daa2df22-9181-4bad-b007-a7d40302bce1
 caps.latest.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Providing a Language Service Context by Using the Legacy API
 There are two options for a language service to provide user context using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor: provide text marker context, or provide all user context. The differences between each are outlined here.  

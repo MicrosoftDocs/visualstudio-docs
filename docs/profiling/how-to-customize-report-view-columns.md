@@ -18,21 +18,6 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Customize Report View Columns
 Performance tools in Visual Studio Team System Development Edition  are fully integrated into the integrated development environment (IDE) to provide a seamless user experience. The following list is representative of views that can be customized by adding, removing, and rearranging columns:  

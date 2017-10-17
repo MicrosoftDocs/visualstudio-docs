@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "Describes how to create a network install point for deploying Visual Studio within an enterprise"
-ms.date: "08/30/2017"
+ms.date: "10/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -40,9 +40,13 @@ Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/r
 
 ## Create an offline installation folder
 
-To create an offline installation with all languages and all features, use one of the commands from the following examples:
+You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
-(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10).
+   > [!IMPORTANT]
+   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
+
+   > [!TIP]
+   > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
 
 - For Visual Studio Enterprise, run:
 
@@ -55,9 +59,6 @@ To create an offline installation with all languages and all features, use one o
 - For Visual Studio Community, run:
 
   ```vs_community.exe --layout c:\vs2017offline```
-
-> [!IMPORTANT]
-> A complete Visual Studio 2017 layout requires at least 20 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
 
 ## Modify the response.json file
 
@@ -94,7 +95,7 @@ When you run a layout command, the options that you specify are saved (such as t
 
 ```vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US```
 
-When you want to update that layout to a newer version, you don't have to specify any additional command line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.
+When you want to update that layout to a newer version, you don't have to specify any additional command-line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.
 
 ```vs_enterprise.exe --layout c:\VS2017Layout```
 

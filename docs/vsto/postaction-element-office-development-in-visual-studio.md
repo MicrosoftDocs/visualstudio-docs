@@ -2,7 +2,6 @@
 title: "&lt;postAction&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "postAction element"
 ms.assetid: a047e2e2-9732-4140-b8bd-bc5bd1b84291
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # &lt;postAction&gt; Element (Office Development in Visual Studio)

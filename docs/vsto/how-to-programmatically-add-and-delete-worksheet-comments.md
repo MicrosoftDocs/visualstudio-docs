@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add and Delete Worksheet Comments | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "comments, worksheets"
 ms.assetid: 3408ce22-a7b7-4e2b-bfc1-dc24d679ee73
 caps.latest.revision: 53
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add and Delete Worksheet Comments

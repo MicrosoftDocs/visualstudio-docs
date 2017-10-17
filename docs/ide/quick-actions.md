@@ -4,32 +4,18 @@ ms.custom: ""
 ms.date: "05/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-    - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: e173fb7d-c5bd-4568-ba0f-aa61913b3244
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-dev_langs:
-    - CSharp
-    - VB
-translation.priority.ht:
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+dev_langs: 
+  - CSharp
+  - VB
 ---
 # Quick Actions
 
@@ -56,7 +42,7 @@ Here are some of the common Quick Actions which are applicable to both C# and Vi
 ### Add missing cases/default case/both
 When creating a `switch` statement in C#, or `Select Case` statement in Visual Basic, you can use a Code Action to automatically add missing case items, a default case statement, or both.  For an empty statement like the following:
 
-```CSharp
+```csharp
 enum MyEnum
 {
     Item1,
@@ -72,8 +58,7 @@ switch(myEnum)
 {
 }
 ```
-
-```VB
+```vb
 Enum MyEnum
     Item1
     Item2
@@ -90,7 +75,7 @@ End Select
 
 Using the **Add Both** Quick Action to fill in both missing cases and a default case will create the following:
 
-```CSharp
+```csharp
 switch(myEnum)
 {
     case MyEnum.Item1:
@@ -103,8 +88,7 @@ switch(myEnum)
         break;
 }
 ```
-
-```VB
+```vb
 Select Case myEnum
     Case MyEnum.Item1
         Exit Select
@@ -118,7 +102,7 @@ End Select
 ### Correct misspelled type
 If you accidentally misspell a type in Visual Studio, this Quick Action will automatically correct it for you.  You will see these items in the light bulb menu as **"Change '*misspelled type*' to '*correct type*'**.  For example:
 
-```CSharp
+```csharp
 // Before
 private viod MyMethod()
 {
@@ -131,8 +115,7 @@ private void MyMethod()
 {
 }
 ```
-
-```VB
+```vb
 ' Before
 Function MyFunction as Intger
 End Function
@@ -147,7 +130,7 @@ End Function
 ### Remove unnecessary cast
 If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item will remove the cast from your code.
 
-```CSharp
+```csharp
 // before
 int number = (int)3;
 
@@ -156,8 +139,7 @@ int number = (int)3;
 // after
 int number = 3;
 ```
-
-```VB
+```vb
 ' Before
 Dim number as Integer = CType(3, Integer)
 
@@ -170,7 +152,7 @@ Dim number as Integer = 3
 ### Replace method with property / Replace property with method
 These Quick Actions will convert a method to a property, or vice versa.  The example below shows the change from a method to a property.  For the opposite case, simply invert the *Before* and *After* sections.
 
-```CSharp
+```csharp
 private int MyValue;
 
 // Before
@@ -187,8 +169,7 @@ public int MyValue
     get { return MyValue; }
 }
 ```
-
-```VB
+```vb
 Dim MyValue As Integer
 
 ' Before
@@ -209,7 +190,7 @@ End Property
 ### Make Method Synchronous
 When using the `async`/`Async` keyword on a method, it is expected that somewhere inside that method the `await`/`Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async`/`Async` keyword and changing the return type.  Use the **Make method synchronous** option from the Quick Actions menu.
 
-```CSharp
+```csharp
 // Before
 async Task<int> MyAsyncMethod()
 {
@@ -224,8 +205,7 @@ int MyAsyncMethod()
     return 3;
 }
 ```
-
-```VB
+```vb
 ' Before
 Async Function MyAsyncMethod() As Task(Of Integer)
     Return 3
@@ -242,7 +222,7 @@ End Function
 ### Make Method Asynchronous
 When using the `await`/`Await` keyword inside of a method, it is expected that the method itself is marked with the `async`/`Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous.  Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
-```CSharp
+```csharp
 // Before
 int MyAsyncMethod()
 {
@@ -257,8 +237,7 @@ async Task<int> MyAsyncMethod()
     return await Task.Run(...);
 }
 ```
-
-```VB
+```vb
 ' Before
 Function MyAsyncMethod() as Integer
     Return  Await Task.Run(...)
@@ -283,7 +262,7 @@ Using types located in other projects in your solution will display the Quick Ac
 
 When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import statement will be created.
 
-```CSharp
+```csharp
 // Before
 Debug.WriteLine("Hello");
 
@@ -294,8 +273,7 @@ using System.Diagnostics;
 
 Debug.WriteLine("Hello");
 ```
-
-```VB
+```vb
 ' Before
 Debug.WriteLine("Hello")
 
@@ -310,7 +288,7 @@ Debug.WriteLine("Hello")
 ### Convert to Interpolated String
 [Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
-```CSharp
+```csharp
 // Before
 int num = 3;
 string s = string.Format("My string with {0} in the middle", num);
@@ -321,8 +299,7 @@ string s = string.Format("My string with {0} in the middle", num);
 int num = 3;
 string s = $"My string with {num} in the middle";
 ```
-
-```VB
+```vb
 ' Before
 Dim num as Integer = 3
 Dim s as String = String.Format("My string with {0} in the middle", num)
@@ -376,7 +353,7 @@ This Quick Action enables you to add separator characters into literal values. (
 ### Convert **if** construct to **switch**
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
-```CSharp
+```csharp
 // Before
 if (obj is string s)
 {
@@ -401,8 +378,7 @@ switch (obj)
     break;
 }
 ```
-
-```VB
+```vb
 ' Before
 If TypeOf obj Is String s Then
     Console.WriteLine("obj is a string: " + s)

@@ -6,9 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "msdnstart"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio"
   - "Visual Studio 2017"
 ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
@@ -16,21 +16,6 @@ caps.latest.revision: 125
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Welcome to Visual Studio 2017!
 We've got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, Linux, Windows, and others in one integrated development environment (IDE). Get great interactive code help (*IntelliSense*), easy code navigation and debugging, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  

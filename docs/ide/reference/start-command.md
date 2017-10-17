@@ -15,23 +15,9 @@ helpviewer_keywords:
   - "Debug.Start command"
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Start Command
 Begins debugging the startup project.  

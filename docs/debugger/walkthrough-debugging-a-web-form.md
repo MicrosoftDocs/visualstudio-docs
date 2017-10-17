@@ -27,20 +27,6 @@ caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Debugging a Web Form
 The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.  
@@ -179,4 +165,4 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
 6.  When you are finished debugging, on the **Debug** menu, click **Stop Debugging**.  
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)
+ [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

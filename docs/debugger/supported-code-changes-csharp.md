@@ -1,7 +1,7 @@
 ---
-title: "Supported Code Changes (C#) | Microsoft Docs"
+title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,69 +15,79 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue [C#], supported code changes"
+  - "Edit and Continue [Visual Basic], supported code changes"
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-# Supported Code Changes (C#)
-Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.  
-  
- The following changes cannot be applied to C# code during a debugging session:  
+# Supported code changes (C# and Visual Basic)
+Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
+
+## Supported changes to code
+
+The table below shows the changes that may be made to C# and Visual Basic code during a debugging session without restarting the session.
+
+|Language element/feature|Supported edit operation|Limitations|
+|-|-|-|
+|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Iterators|Add or modify|No|
+|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Dynamic objects|Add or modify|No|
+|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+
+> [!NOTE]
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits) page.
+
+## Unsupported changes to code
+ The following changes cannot be applied to C# and Visual Basic code during a debugging session:  
   
 -   Changes to the current statement or any other active statement.  
   
      Active statements include any statements, in functions on the call stack, that were called to get to the current statement.  
   
-     The current statement is marked by a yellow background in the source window. Other active statements are marked by a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.  
+     The current statement is marked by a yellow background in the source window. Other active statements are marked by a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.
+
+- The following table shows unsupported changes to code by language element.
+
+|Language element/feature|Unsupported edit operation|
+|-|-|
+|All code elements|Renaming|
+|Namespaces|Add|
+|Namespaces, types, members|Delete|
+|Generics|Add or modify|
+|Interfaces|Modify|
+|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|Types|Add destructor|
+|Members|Modify a member referencing an embedded interop type|
+|Members (Visual Basic)|Modify a member with On Error or Resume statement|
+|Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
+|Methods|Modify signatures|
+|Methods|Make an abstract method become non-abstract by adding a method body|
+|Methods|Delete method body|
+|Attributes|Add or modify|
+|Events or properties|Modify a type parameter, base type, delegate type, or return type |
+|Operators or indexers|Modify a type parameter, base type, delegate type, or return type |
+|catch blocks|Modify when it contains an active statement|
+|try-catch-finally blocks|Modify when it contains an active statement|
+|using statements|Add|
+|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
   
--   Changing the signature of a type.  
-  
--   Adding an anonymous method that captures a variable that hasn't been captured before.  
-  
--   Adding, removing, or changing attributes.  
-  
--   Adding, removing, or changing `using` directives.  
-  
--   Adding a `foreach`, `using`, or `lock` around the active statement.  
-  
-## Unsafe Code  
+## Unsafe code  
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.  
+
+## Unsupported app scenarios
+
+Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows Store 8.1.
+
+> [!NOTE]
+> Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
   
-## Exceptions  
- Edit and Continue supports changes to `catch` and `finally` blocks, except that adding a `catch` or `finally` block around the active statement is not allowed.  
-  
-## Unsupported Scenarios  
+## Unsupported scenarios  
  Edit and Continue is not available in the following debugging scenarios:  
-  
--   Debugging LINQ code in certain circumstances. For more information, see [Debugging LINQ](../debugger/debugging-linq.md).  
-  
-    -   Capturing a variable that hasn't been captured before.  
-  
-    -   Changing the type of query expression. (e.g., select a => select new { A = a };)  
-  
-    -   Removing a `where` that contains an active statement.  
-  
-    -   Removing a `let` that contains an active statement.  
-  
-    -   Removing a `join` that contains an active statement.  
-  
-    -   Removing an `orderby` that contains an active statement.  
   
 -   Mixed-mode (native/managed) debugging.  
   
@@ -89,11 +99,11 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 -   Debugging an embedded runtime application.  
   
--   Debugging an application that has **Attach to** instead of running the application by choosing **Start** from the **Debug** menu.  
+-   Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.  
   
 -   Debugging optimized code.  
   
--   Debugging an old version of your code after a new version failed to build because of build errors.  
+-   Debugging an old version of your code after a new version failed to build because of build errors.
   
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   

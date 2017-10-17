@@ -2,7 +2,6 @@
 title: "How to: Expose Code to VBA in a Visual Basic Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], exposing code to VBA"
 ms.assetid: dc74f3ea-3f78-47f8-8a82-a67896144dd9
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Expose Code to VBA in a Visual Basic Project

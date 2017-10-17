@@ -5,7 +5,7 @@ ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,24 +18,9 @@ helpviewer_keywords:
   - "Visual C#, development environment"
 ms.assetid: e10e2cba-641f-47a3-88a3-6748965254d7
 caps.latest.revision: 29
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 ---
 # Using the Visual Studio Development Environment for C# #
 The Visual Studio integrated development environment (IDE) is a collection of development tools exposed through a common user interface. Some of the tools are shared with other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] languages, and some, such as the C# compiler, are unique to Visual C#. This topic provides links to the most important Visual C# tools.  

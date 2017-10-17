@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,24 +13,9 @@ helpviewer_keywords:
   - "team-based development, enhancing code quality"
 ms.assetid: 0ab72c33-148a-4a8a-a7bf-046995514c84
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 ---
 # Enhancing Code Quality with Team Project Check-in Policies
 When you use Team Foundation Version Control (TFVC), you can create check-in policies for your team projects. to enforce practices that lead to better code and more efficient group development. Check-in policies are rules that are set at the team project level and enforced on developer computers before code is allowed to be checked in.  

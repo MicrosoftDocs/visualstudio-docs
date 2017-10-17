@@ -44,7 +44,7 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 
 ## Step 2 - Create a local install cache
 
-To create a local layout, open a command prompt and use one of the commands from the following examples: The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
+You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples: The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
 
@@ -63,6 +63,9 @@ To create a local layout, open a command prompt and use one of the commands from
    ```vs_community.exe --layout c:\vs2017layout --lang en-US```
 
 If you want to install a language other than English, change `en-US` to a locale from the list at the bottom of this page. Use this [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache as necessary.
+
+> [!IMPORTANT]
+> A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download. See [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) for information on how to create a layout with only the components you want to install.
 
 ## Step 3 - Install Visual Studio from the local cache
 

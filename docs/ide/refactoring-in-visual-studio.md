@@ -1,6 +1,5 @@
 ---
 redirect_url: /visualstudio/ide/refactoring-code-generation-quick-actions
-
 title: "Refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -12,23 +11,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
 caps.latest.revision: 3
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Refactoring in Visual Studio
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior. Some common *refactorings* include:  

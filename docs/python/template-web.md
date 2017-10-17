@@ -2,10 +2,9 @@
 title: Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -19,9 +18,11 @@ manager: "ghogen"
 
 # Python Web Project Templates
 
-Python in Visual Studio supports developing web projects in frameworks such as Bottle, Django, and Flask through project templates and a debug launcher that can be configured to handle various frameworks. However, Visual Studio does not include the frameworks themselves, however, which you must install separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
+Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. You can also use the generic "Web Project" template for other frameworks such as Pyramid.
 
-Each template (as accessed through **File > New > Project...**) launches a web server with a randomly selected local port, opens your default browser when debugging, and allows direct publishing to [Microsoft Azure](http://www.azure.com). Templates are provided for the Bottle, Flask, and Django, and you can use the generic "Web Project" template for other frameworks such as Pyramid.
+Visual Studio does not include the frameworks themselves. You must install frameworks separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
+
+When run, a project created from a template (as accessed through **File > New > Project...**) launches a web server with a randomly selected local port, opens your default browser when debugging, and allows direct publishing to Microsoft Azure.
 
 ![New Web Project templates](media/template-web-new-project.png)
 
@@ -41,7 +42,7 @@ For an introduction to Python web projects, see [Getting Started with PTVS, Part
 
 ## Debugging
 
-When a web project is started for debugging, Visual Studio starts the web server locally and opens your default browser to that address and port. TO specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
+When a web project is started for debugging, Visual Studio starts the web server locally and opens your default browser to that address and port. To specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
 
   ![Web launcher properties for the generic web template](media/template-web-launcher-properties.png)
 

@@ -2,7 +2,6 @@
 title: "Project Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], Project"
 ms.assetid: 4ce92269-eb6d-44aa-bee3-6d38ec9995f9
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Project Solutions

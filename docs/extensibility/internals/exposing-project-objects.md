@@ -15,20 +15,6 @@ ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Exposing Project Objects
 Custom project types can provide automation objects in order to allow access to the project using automation interfaces. Every project type is expected to provide the standard <xref:EnvDTE.Project> automation object that is accessed from <xref:EnvDTE.Solution>, which contains a collection of all projects that are open in the IDE. Each item in the project is expected to be exposed by a <xref:EnvDTE.ProjectItem> object accessed with `Project.ProjectItems`. In addition to these standard automation objects, projects can choose to offer project-specific automation objects.  

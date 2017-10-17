@@ -13,20 +13,6 @@ caps.latest.revision: 1
 author: "gregg-miskelly"
 ms.author: "greggm"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Migrate 64-bit debugger COM class registration
 

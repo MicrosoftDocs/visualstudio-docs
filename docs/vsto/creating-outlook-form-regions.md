@@ -2,7 +2,6 @@
 title: "Creating Outlook Form Regions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], form regions"
 ms.assetid: a8005641-cc8b-4e07-8dca-294327cdc8d4
 caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Creating Outlook Form Regions

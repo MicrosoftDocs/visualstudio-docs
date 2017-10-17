@@ -2,7 +2,6 @@
 title: "How to: Add a Custom Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], custom properties"
 ms.assetid: 670c7fff-a8fb-499f-8694-d5aecc432c16
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add a Custom Property

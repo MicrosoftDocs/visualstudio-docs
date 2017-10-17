@@ -1,7 +1,7 @@
 ---
 title: "Generating Files with the TextTransform Utility | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "9/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +14,6 @@ caps.latest.revision: 41
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Generating Files with the TextTransform Utility
 TextTransform.exe is a command-line tool that you can use to transform a text template. When you call TextTransform.exe, you specify the name of a text template file as an argument. TextTransform.exe calls the text transformation engine and processes the text template. TextTransform.exe is usually called from scripts. However, it is not usually required, because you can perform text transformation either in Visual Studio or in the build process.  
@@ -37,8 +23,20 @@ TextTransform.exe is a command-line tool that you can use to transform a text te
   
  TextTransform.exe is located in the following directory:  
   
- **\Program Files\Common Files\Microsoft Shared\TextTemplating\11.0**  
-  
+ **\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE**  
+
+for the Professional edition, or
+
+ **\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**
+ 
+ for the Enterprise edition.
+
+In previous versions of Visual Studio, the file is found in the following location:
+
+**\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\{version}**
+
+where {version} depends on which previous version is installed.
+
 ## Syntax  
   
 ```  

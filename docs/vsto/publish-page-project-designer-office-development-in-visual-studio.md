@@ -2,7 +2,6 @@
 title: "Publish Page, Project Designer (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
 ms.assetid: 94d9bdf1-84fa-4e26-8ece-a1a0dabda5ea
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Publish Page, Project Designer (Office Development in Visual Studio)

@@ -11,24 +11,9 @@ helpviewer_keywords:
   - "debugger"
 ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 caps.latest.revision: 1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Visual Studio Performance Tips and Tricks
 

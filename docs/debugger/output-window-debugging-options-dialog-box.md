@@ -22,20 +22,6 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Output Window, Debugging, Options Dialog Box
 You can specify which types of debugging information appear in the **Output** window. To display these options, open the **Tools** menu, click **Options**, expand the **Debugging** node, and click **Output Window**.  

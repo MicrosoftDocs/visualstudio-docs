@@ -2,7 +2,6 @@
 title: "How to: Customize a SharePoint Solution Package by Using MSBuild Targets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 ms.assetid: 7fa6a276-04c8-463e-be95-57c2c6240d76
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Customize a SharePoint Solution Package by Using MSBuild Targets

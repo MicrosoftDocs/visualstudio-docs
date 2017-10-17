@@ -2,7 +2,6 @@
 title: "Walkthrough: Debugging a SharePoint Application by Using IntelliTrace | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "IntelliTrace"
 ms.assetid: 4bd80d2f-f680-4bf4-81c3-f14e8185f6a4
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Debugging a SharePoint Application by Using IntelliTrace
@@ -334,6 +333,6 @@ manager: "ghogen"
 ## See Also  
  [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md)   
  [IntelliTrace](/visualstudio/debugger/intellitrace)   
- [NIB: Walkthrough: Verify SharePoint Code by Using Unit Tests](http://msdn.microsoft.com/en-us/3d2c4aaf-3cb5-4825-b21b-f10222abe818)  
+ [Walkthrough: Verify SharePoint Code by Using Unit Tests](https://msdn.microsoft.com/en-us/library/gg599006(v=vs.100).aspx)  
   
   

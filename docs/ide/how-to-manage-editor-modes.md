@@ -26,23 +26,9 @@ helpviewer_keywords:
   - "views, outlining"
 ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Manage Editor Modes
 You can display the Visual Studio Code Editor in various display modes.  

@@ -16,20 +16,6 @@ ms.assetid: 52c42a2e-f144-476b-8bef-442464c8fe8e
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 This method converts a method location and offset into a memory address.  

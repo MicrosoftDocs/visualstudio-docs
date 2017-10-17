@@ -2,7 +2,6 @@
 title: "Persisting Dynamic Controls in Office Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], persisting in the document"
 ms.assetid: 200352d1-66aa-4156-9ecd-6fd8792974cd
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Persisting Dynamic Controls in Office Documents

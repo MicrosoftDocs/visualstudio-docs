@@ -2,7 +2,6 @@
 title: "How to: Add and Remove Additional Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 ms.assetid: d9d1e8db-9df2-4e07-ac8d-59ef05d24090
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Add and Remove Additional Assemblies
@@ -115,6 +114,5 @@ manager: "ghogen"
  [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
- [NIB: Building SharePoint Solutions with Team Foundation Server](http://msdn.microsoft.com/en-us/700a570a-e98e-4425-aadd-34c014868d43)  
   
   

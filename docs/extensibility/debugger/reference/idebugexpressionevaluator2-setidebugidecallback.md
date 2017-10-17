@@ -15,20 +15,6 @@ ms.assetid: f01c40ad-ef4b-477b-8304-602c6972bc88
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
 Enables a debug engine to pass a callback to the expression evaluator during initialization.  

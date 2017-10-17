@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,23 +20,9 @@ helpviewer_keywords:
   - "code analysis, SuppressMessage attribute"
 ms.assetid: a38c57a2-d29d-43c0-84ff-3308b2484ce6
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: "ghogen"
 ---
 # Suppress Warnings By Using the SuppressMessage Attribute
 It is often useful to indicate that the warning is nonapplicable to let team members know that the code was reviewed and it was determined that the warning should be suppressed. In Source Suppression (ISS) lets a developer to put the attribute that suppresses a warning close to the location that generated the warning. You can add the ISS attribute directly to the source file or you can use the shortcut menu in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  

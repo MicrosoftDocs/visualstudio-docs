@@ -2,7 +2,6 @@
 title: "Walkthrough: Complex Data Binding in VSTO add-in Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "complex data [Office development in Visual Studio]"
 ms.assetid: ff52fb56-1f67-4ae2-a3d1-93038619d4e6
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Complex Data Binding in VSTO add-in Project

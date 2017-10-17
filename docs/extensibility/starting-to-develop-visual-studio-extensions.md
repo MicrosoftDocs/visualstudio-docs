@@ -1,7 +1,7 @@
 ---
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,20 +15,6 @@ ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 29
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Starting to Develop Visual Studio Extensions
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
@@ -45,7 +31,7 @@ If you've never written a Visual Studio extension before, you probably have some
   
 -   Domain-specific designers for scenarios like data design or cloud support  
   
- For examples of extensions, check out the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).  
+ For examples of extensions, check out the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Many extensions are open sourced, and the Marketplace includes links to their GitHub repo. 
   
 ## Which Visual Studio features can I extend?  
  In theory, you can extend just about any part of Visual Studio: menus, toolbars, commands, windows, solutions, projects, editors, and so on.  
@@ -93,9 +79,9 @@ If you've never written a Visual Studio extension before, you probably have some
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  
   
 ## Where can I find examples of VSSDK code?  
- Each of the links listed in the preceding section have step-by-step walkthroughs that show you how to implement specific features. You can also find open source VSSDK samples on GitHub at [Visual Studio Samples](https://aka.ms/vs2015sdksamples).  
+ Each of the links listed in the preceding section have step-by-step walkthroughs that show you how to implement specific features. You can also find open source VSSDK samples on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).  
   
 ## How can I distribute my extension?  
  You can install your extension on another computer or send it to your friends as a .vsix file, which you install by double-clicking it. You can find out more about VSIX packages at [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).  
   
- You can also publish your extension on the Visual Studio Gallery, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension for the Gallery, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Gallery, see [Products and Extensions for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/).
+ You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](https://docs.microsoft.com/en-us/vsts/integrate/ide/extensions/overview).

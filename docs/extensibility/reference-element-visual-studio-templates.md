@@ -17,20 +17,6 @@ ms.assetid: 852772ea-c324-42e9-8c8a-6d565414a109
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Reference Element (Visual Studio Templates)
 Specifies the assembly reference to add when the item is added to a project.  

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add New Worksheets to Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "worksheets, adding to workbooks"
 ms.assetid: 19f0d815-51b2-406c-9f36-34aa0ec16b4a
 caps.latest.revision: 52
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Add New Worksheets to Workbooks

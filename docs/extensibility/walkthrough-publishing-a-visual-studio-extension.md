@@ -4,31 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "publishing web controls"
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Publishing a Visual Studio Extension
 
@@ -66,7 +52,8 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 ## Publish the Extension to the Visual Studio Marketplace
 
- As of now, you will still need to use the Visual Studio Gallery to upload your extensions to the Visual Studio Marketplace.
+> [!NOTE] 
+> We are in the process of migrating the publishing experience to Visual Studio Marketplace.  In the meantime, please continue to use Visual Studio Gallery to publish your extensions.  Your extensions will appear in the Visual Studio Marketplace once it has been published.
 
 1. Make sure that you have built the Release version of your extension and that it is up-to-date.
 

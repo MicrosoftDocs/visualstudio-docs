@@ -14,20 +14,6 @@ ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # s_taskIdCounter Field
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.  

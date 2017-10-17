@@ -2,7 +2,6 @@
 title: "Walkthrough: Inserting Data into a Workbook on a Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "workbooks [Office development in Visual Studio], inserting data"
 ms.assetid: e6481902-781c-4666-bc18-4d69368c9bb3
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Inserting Data into a Workbook on a Server

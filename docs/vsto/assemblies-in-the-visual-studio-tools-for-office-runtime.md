@@ -2,7 +2,6 @@
 title: "Assemblies in the Visual Studio Tools for Office Runtime | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, assemblies"
 ms.assetid: d2b7f8f4-0f41-4943-bca5-48c520748b7e
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Assemblies in the Visual Studio Tools for Office Runtime

@@ -2,7 +2,6 @@
 title: "Application and Deployment Manifests in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "assemblies [Office development in Visual Studio], updating"
 ms.assetid: 4e9abc7c-ef9f-4cb2-a7a9-c95c5f4a1fb7
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Application and Deployment Manifests in Office Solutions

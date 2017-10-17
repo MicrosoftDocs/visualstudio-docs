@@ -4,31 +4,17 @@ ms.custom: ""
 ms.date: "01/17/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "VSPackages, lightweight solution load"
   - "VSPackages, fast solution load"
 ms.assetid: 0a71d91e-dc71-4d6b-bbfe-9e4ecd9e5fd1
 caps.latest.revision: 1
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Lightweight Solution Load (LSL)
 

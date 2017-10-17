@@ -15,20 +15,6 @@ ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # MSSCCPRJ.SCC File
 When a Visual Studio solution or project is placed under source control using the IDE, the IDE receives two key pieces of information from the source control plug-in in the form of strings. These strings, "AuxPath" and "ProjName", are opaque to the IDE, but they are used by the plug-in to locate the solution or project in version control. The IDE typically obtains these strings the first time by calling the [SccGetProjPath](../extensibility/sccgetprojpath-function.md), and it then saves them in the solution or project file for future calls to the [SccOpenProject](../extensibility/sccopenproject-function.md). When embedded in the solution and project files, the "AuxPath" and "ProjName" strings are not automatically updated when a user branches, forks, or copies solution and project files that are in version control. To make sure that the solution and project files point to their correct location in version control, users must manually update the strings. Because the strings are meant to be opaque, it may not always be clear how they should be updated.  

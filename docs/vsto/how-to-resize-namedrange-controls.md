@@ -2,7 +2,6 @@
 title: "How to: Resize NamedRange Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "ranges, resizing in Excel"
 ms.assetid: 7d6f0b2f-be46-49b7-9f38-b4c8849683f7
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Resize NamedRange Controls

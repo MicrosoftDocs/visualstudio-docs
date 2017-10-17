@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "javascript.project.property.debugging.debuggertype"
   - "javascript.project.property.debugging.requireauthentication"
   - "javascript.project.property.outputpath"
@@ -18,23 +18,9 @@ f1_keywords:
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
 ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Property Pages, JavaScript
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  

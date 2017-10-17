@@ -18,20 +18,6 @@ ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 caps.latest.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Support for the Visual Studio SDK
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).  
@@ -50,9 +36,10 @@ Several support options are available for customers who have questions about how
 ### Visual Studio Gallery  
  The [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.  
   
-### Codeplex  
- [CodePlex](http://go.microsoft.com/fwlink/?LinkId=76627) is the Microsoft open source project-hosting Web site. You can use CodePlex to create and share new projects, contribute to existing projects, or use the applications on the site and provide feedback. All PowerToys (and their documentation) that were included with earlier versions of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] are now available on CodePlex.  
-  
+### Visual Studio SDK Samples
+
+You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repository contains samples that illustrate various extensible features in Visual Studio.
+
 ## Included Support  
   
 ### Visual Studio Product Support  

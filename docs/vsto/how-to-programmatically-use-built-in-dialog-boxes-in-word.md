@@ -2,7 +2,6 @@
 title: "How to: Programmatically Use Built-In Dialog Boxes in Word | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "dialog boxes, Word"
 ms.assetid: 0c7e4338-dead-4444-868b-3b0212368455
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Use Built-In Dialog Boxes in Word

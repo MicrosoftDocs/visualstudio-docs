@@ -2,7 +2,6 @@
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,8 +25,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, templates"
 ms.assetid: 54a7576f-d3f9-475d-8ed7-b675ad21cb53
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SharePoint Project and Project Item Templates

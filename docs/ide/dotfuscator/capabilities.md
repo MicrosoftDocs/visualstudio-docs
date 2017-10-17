@@ -1,14 +1,13 @@
 ---
 title: "Capabilities of Dotfuscator | Microsoft Docs"
-ms.date: "2017-06-22"
-ms.prod: "visual-studio-dev15"
+ms.date: "2017-10-10"
 ms.devlang: "dotnet"
-ms.technology:
-  - "dotfuscator"
+ms.technology: 
+  - "vs-ide-general"
 ms.topic: "article"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
-helpviewer_keywords:
-  - "PreEmptive Protection - Dotfuscator"
+helpviewer_keywords: 
+  - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
   - "Dotfuscator"
@@ -18,20 +17,6 @@ description: "Learn the capabilities of the free Dotfuscator Community Edition i
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Capabilities of Dotfuscator
@@ -92,8 +77,8 @@ When run, the processed application will transmit analytics data to a configured
 [obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_overview.html
 [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[analytics]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_overview.html
-[endpoints]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_overview.html#endpoints
+[analytics]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html
+[endpoints]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html#endpoints
 
 [checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
 [check-app]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#app-notification
@@ -102,9 +87,9 @@ When run, the processed application will transmit analytics data to a configured
 [tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
 [debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
 [shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
-[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_exceptions.html
-[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_sessions.html
-[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_features.html
-[check-telemetry]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_checks.html
+[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
+[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
+[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
+[check-telemetry]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_checks.html
 
 [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_capabilities.html

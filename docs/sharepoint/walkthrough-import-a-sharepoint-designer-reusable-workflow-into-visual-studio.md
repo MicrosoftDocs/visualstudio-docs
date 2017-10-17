@@ -2,7 +2,6 @@
 title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "reusable workflows [SharePoint development in Visual Studio]"
 ms.assetid: a6550615-4433-4aba-8bdf-0fcbf8dbcf97
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio

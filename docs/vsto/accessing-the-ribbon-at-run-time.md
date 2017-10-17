@@ -2,7 +2,6 @@
 title: "Accessing the Ribbon at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "RibbonManager class"
 ms.assetid: 8a7c7c6d-1a18-4d6b-98ee-e483d41f0cd8
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Accessing the Ribbon at Run Time

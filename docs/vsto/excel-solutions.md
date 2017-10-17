@@ -2,7 +2,6 @@
 title: "Excel Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,8 +29,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], Excel"
 ms.assetid: 34444d54-d7b6-479a-b5b7-a946267081e9
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Excel Solutions

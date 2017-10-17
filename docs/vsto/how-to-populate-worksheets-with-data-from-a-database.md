@@ -2,7 +2,6 @@
 title: "How to: Populate Worksheets with Data from a Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to worksheets"
 ms.assetid: e9e37cf1-53ca-45d0-8409-5428be7f96c5
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Populate Worksheets with Data from a Database

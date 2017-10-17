@@ -2,7 +2,6 @@
 title: "Using Windows Forms Controls on Excel Worksheets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Window Forms controls"
 ms.assetid: bbda7461-0d69-4b56-8ba3-418d63ba49db
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Using Windows Forms Controls on Excel Worksheets

@@ -17,20 +17,6 @@ ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPendingBreakpoint2::CanBind
 Determines whether this pending breakpoint can bind to a code location.  

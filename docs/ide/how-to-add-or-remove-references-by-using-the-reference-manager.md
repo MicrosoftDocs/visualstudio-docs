@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ReferenceManager"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual C# projects, references"
   - "references [Visual Studio], adding"
   - "assemblies [Visual Studio], references"
@@ -24,23 +24,9 @@ helpviewer_keywords:
   - "referencing components, assemblies not listed"
 ms.assetid: 1aabb520-99b0-46c6-9368-21b4d84793eb
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Add or Remove References By Using the Reference Manager
 You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references mscorlib.dll. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.  

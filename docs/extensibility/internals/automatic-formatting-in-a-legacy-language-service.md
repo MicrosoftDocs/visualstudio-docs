@@ -14,20 +14,6 @@ ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Automatic Formatting in a Legacy Language Service
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.  

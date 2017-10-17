@@ -2,7 +2,6 @@
 title: "Additional Resources for Developing Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, additional resources"
 ms.assetid: 002957c3-7793-40a0-834a-fcb9c2b03a6f
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Additional Resources for Developing Office Solutions

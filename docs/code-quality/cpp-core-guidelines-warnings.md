@@ -10,6 +10,8 @@ ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"
 ms.author: "mblome"
 manager: "ghogen"
+ms.technology: 
+  - "vs-ide-code-analysis"
 ---
 # Using the C++ Core Guidelines checkers
 The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).

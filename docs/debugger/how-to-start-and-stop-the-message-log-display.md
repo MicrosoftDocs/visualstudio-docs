@@ -17,20 +17,6 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Start and Stop the Message Log Display
 When a [Messages View](../debugger/messages-view.md) window is active, a **Start Logging** or **Stop Logging** choice appears on the Spy++ **Messages** menu, and the corresponding **Start Logging** or **Stop Logging** toolbar button becomes active.  
