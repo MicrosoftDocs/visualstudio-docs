@@ -16,21 +16,6 @@ ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: a3c0cc76-e3ce-435c-a1af-a6318b5a4dbe
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Desktop Express 2017 workload and component IDs
