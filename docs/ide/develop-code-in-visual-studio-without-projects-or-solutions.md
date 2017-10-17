@@ -21,6 +21,8 @@ helpviewer_keywords:
   - "code editor"
   - "code files"
   - "code"
+  - "tasks.vs.json"
+  - "launch.vs.json"
 ms.assetid: cb53bb9b-5b76-4759-b9b8-7bf32298bcbb
 caps.latest.revision: 44
 author: "gewarren"
@@ -28,9 +30,9 @@ ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Develop code in Visual Studio without projects or solutions  
-In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, find a code project on Git, clone it, and then open it directly into Visual Studio and begin developing without having to create a solution or project.  
+Visual Studio 2017 introduces the "Open Folder" feature, which enables you to open a folder of source files and immediately start coding with support for IntelliSense, browsing, refactoring, debugging, and so on. No .sln or .*proj files are loaded; if needed, you can specify custom tasks as well as build and launch parameters through simple .json files.  
 
-Not only can you edit the code and build it in Visual Studio, you can also navigate through your code (such as by using the Navigate To command). Code will appear with syntax colorization and, in many cases, include basic statement completion and debugging, complete with breakpoints. Some languages will include even more functionality. See [Create portable, custom editor settings](create-portable-custom-editor-options.md) for more information.  
+After you open your code files in Visual Studio, Solution Explorer displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion. Some languages will include even more editing functionality &mdash; see [Create portable, custom editor settings](create-portable-custom-editor-options.md) for more information.  
 
 ## Open code anywhere  
 You can open code into Visual Studio in the following ways:  
@@ -40,6 +42,8 @@ You can open code into Visual Studio in the following ways:
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.  
 
 - Choose the **Open Folder** link on the Visual Studio Start Page.  
+
+- If you are a keyboard user, press **Ctrl+Shift+Alt+O**.   
 
 - Open code cloned from a GitHub repo.  
 
@@ -88,15 +92,15 @@ The drop-down list box next to the Start button on the toolbar lists all of the 
 
 Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations which appear in the Run Button's drop down list.  
 
-Visual Studio currently supports debugging for the following:  
+Visual Studio currently supports debugging for the following: 
+
+- MSBuild-based projects (C#, VB, C++)  
+
+- Any executable with PDB (program database) files   
 
 - JavaScript files  
 
 - Python files  
-
-- MSBuild-based projects (C#, VB, C++)  
-
-- Any executable with PDB (program database) files  
 
 ### To debug JavaScript or Python code:  
 1. Install the [Node.js development](https://www.visualstudio.com/vs/node-js/) or [Python development](https://www.visualstudio.com/vs/python/) workload by choosing **Tools**, **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.  
@@ -112,21 +116,46 @@ Visual Studio currently supports debugging for the following:
 
 1. Choose the **F5** key to begin debugging.  
 
-## Enable custom build tools
-Visual Studio knows how to run many different languages, but it doesn't know how to run everything. If Visual Studio knows how to run your language, you can run the code right away. If you try to run your code but Visual Studio doesn't know how to run it, an information bar prompts you to designate a file in your codebase to act as the startup item.  
+## Configuring Open Folder projects
+You can customize an Open Folder project through two JSON files:
+|File name|Purpose|
+|-|-|
+|tasks.vs.json|Specify custom build commands and compiler switches, and arbitrary tasks. Accessed via the **Solution Explorer** context menu item **Configure Tasks**.|
+|launch.vs.json|Specify command line arguments for debugging. Accessed via the **Solution Explorer** context menu item **Debug and Launch Settings**.|
 
-If the codebase uses custom build tools that Visual Studio doesn't recognize, though, then you will likely not be able to run and debug the code in Visual Studio until you complete some additional steps. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. You can create a build task to specify all the items a language needs to build and run its code.  
+The tasks.vs.json and launch.vs.json files are located in a hidden folder called `.vs`. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
 
-You can also create arbitrary build tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder or rename a file. Or, you can create more targeted custom build tasks that do things such as compile and build your project using specific arguments. The following steps show how to create both types of build tasks.  
+### Define tasks with tasks.vs.json
+You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**. 
 
-### To create a custom build task
-In this procedure, we will add two custom build tasks that use nMake to build and clean your code.  
+![Open Folder Configure Tasks](../ide/media/configure_tasks.png)
+
+This creates (or opens) the `tasks.vs.json` file in the .vs folder which Visual Studio creates in your root project folder. You can define any arbitrary task in this file and then invoke it from the **Solution Explorer** context menu. The following example shows a tasks.vs.json file that defines a single task. `taskName` defines the name that appears in the context menu. `appliesTo` defines which files the command can be performed on. The `command` property refers to the COMSPEC environment variable, which identifies the path for the console (cmd.exe on Windows). The `args` property specifies the command line to be invoked. The `${file}` macro retrieves the selected file in **Solution Explorer**. The following example will display the filename of the currently selected .js file.
+
+```json
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "Echo filename",
+      "appliesTo": "*.js",
+      "type": "default",
+      "command": "${env.COMSPEC}",
+      "args": ["echo ${file}"]
+    }
+  ]
+}
+```
+After saving tasks.vs.json, you can right-click any .js file in the folder, choose **Echo filename** from the context menu, and see the file name displayed in the Output window.  
+
+#### To create a custom build task
+If your codebase uses custom build tools that Visual Studio doesn't recognize, then you will likely not be able to run and debug the code in Visual Studio until you complete some additional steps. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. In this procedure, we will add two custom build tasks that use nMake to build and clean your code.  
 
 1. Choose a file of the project in Solution Explorer that you want to designate later as the startup item. On the file's context (right-click) menu, choose **Configure Tasks**.  
 
   ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask1.png)  
 
-   The tasks.vs.json file opens in the editor. If this file doesn't exist, it is created. This file contains the build tasks for the selected file or folder.  
+   The tasks.vs.json file opens in the editor.  
 
 1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called "makefile-clean" which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nMake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
 
@@ -174,57 +203,76 @@ You can now choose the **Start** button or the **F5** key to run your code. You 
 
 Custom build tasks can be added to individual files or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all .js files.  
 
-Visual Studio supports the VSCode `$variable` substitution in the root of tasks.vs.json, in addition to environment variables (such as `$env.var`) or keys.  
+#### appliesTo
+You can create tasks for any file or folder by specifying its name in the `appliesTo` field, for example `"appliesTo" : "hello.js"`. The following file masks can be used as values:
+|||
+|-|-|
+|`"*"`| task is available to all files and folders in the workspace|
+|`"*/"`| task is available to all folders in the workspace|
+|`"*.js"`| task is available to all files with the extension .js in the workspace|
+|`"/*.js"`| task is available to all files with the extension .js in the root of the workspace|
+|`"src/*/"`| task is available to all subfolders of the "src" folder|
 
-#### To create an arbitrary build task  
-1. Choose the file or folder of the project in Solution Explorer where you want the task, and on the file or folder's context (right-click) menu, choose **Configure Tasks**.  
+#### output
+Use the `output` property to specify the executable that will launch when you press **F5**. For example:
 
-  ![Configure tasks](./media/VSIDE_Code_Config_Task.png)
+```json
+      "output": "${workspaceRoot}\\bin\\hellomake.exe" 
+```
 
-  Choosing **Configure Tasks** opens a file called tasks.vs.json. If this file doesn't exist, it is created. This file contains the build tasks for the selected file or folder.  
+#### Macros for tasks.vs.json
 
-  ![tasks.vs.json file](./media/VSIDE_Code_Tasks_JSON.png)
+|||
+|-|-|
+|`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer Command Prompt for Visual Studio](/dotnet/framework/tools/developer-command-prompt-for-vs).|
+|`${workspaceRoot}`| The full path to the workspace folder (for example, "C:\sources\hello")|
+|`${file}`| The full path of the file or folder selected to run this task against (for example, "C:\sources\hello\src\hello.js")|
+|`${relativeFile}`| The relative path to the file or folder (for example, "src\hello.js")|
+|`${fileBasename}`| The name of the file without path or extension (for example, "hello")|
+|`${fileDirname}`| The full path to the file, excluding the filename (for example, "C:\sources\hello\src")|
+|`${fileExtname}`| The extension of the selected file (for example,  ".js")|
 
-1. Add the following build task to tasks.vs.json. For this example, we'll add a simple task called "List outputs" that lists files and subfolders of the selected folder in the Output window. The new task should be added within the existing "tasks" array.  
+#### Custom macros
+To define a custom macro in tasks.vs.json, add a name:value pair prior to the task blocks. The following example defines a macro named `outDir` which is consumed in the `args` property:
 
-  ```xml
-      {
-        "taskName": "List outputs",
-        "appliesTo": "*",
-        "type": "command",
-        "command": "${env.COMSPEC}",
-        "args": [
-          "dir ${outDir}"
-        ]
-      },
-  ```
-  The complete build task should look like this.  
+```json
+{
+"version": "0.2.1",
+  "outDir": "${workspaceRoot}\\bin",
+  "tasks": [
+    {
+      "taskName": "List outputs",
+      "*",
+      "type": "command",
+      "command": "${env.COMSPEC}",
+      "args": [
+        "dir ${outDir}"
+      ]
+    }
+  ]
+```
 
-  ![Arbitrary build task](./media/VSIDE_Code_Tasks_ArbTask.png)
+### Configure debugging parameters with launch.vs.json
+To customize your program’s command line arguments, right-click on the executable in **Solution Explorer** and select **Debug and Launch Settings**. This will open an existing `launch.vs.json` file, or if none exists, it will create a new file prepopulated with the information about the program you have selected. 
 
-1. Save the project.  
+To specify additional arguments, just add them in the `args` JSON array as shown in the following example:
 
-1. Open the context menu for the selected folder. You should see the new arbitrary build task appear at the bottom of the context menu.  
+```json
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "7zip\\Bundles\\Alone\\O\\7za.exe",
+      "name": "7za.exe list content of helloworld.zip",
+      "args": [ "l", "d:\\sources\\helloworld.zip" ]
+    }
+  ]
+}
+```
 
-  ![Arbitrary build task command](./media/VSIDE_Code_Tasks_ArbTask2.png)
-
-1. Choose the new **List outputs** command to execute the task.  
-
-### Specify build output  
-If your project needs to be compiled, you can add an additional tag called `output` to the tasks.vs.json file. Here is an example.  
-
-`"output": "${workspaceRoot}\\bin\\hellomake.exe"`
-
-Specifying the output location lets Visual Studio know where to find the project's build output.  
-
-### tasks.vs.json file location  
-By default, the tasks.vs.json file is located in a hidden folder called `.vs`. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar.  
-
-![Arbitrary build task command](./media/VSIDE_Code_Tasks_FileLocation.png)
-
-The tasks.vs.json file is hidden because most users generally don't want to check it into source control. However, if you want to be able to check it into source control, drag the file into the root of your project where it will be visible.  
-
-Other .json files may be present in the .vs folder, but the only ones you should move are the tasks.vs.json file and the launch.vs.json file (if there is one). The launch.vs.json file configures the Visual Studio debugger, while the tasks.vs.json file configures build.  
+When you save this file, the new configuration appears in the Debug Target drop-down list, and you can select it to start the debugger. You can create as many debug configurations as you like, for any number of executables. If you press **F5** now, the debugger will launch and hit any breakpoint you may have already set. All the familiar debugger windows and their functionality are now available.  
 
 ## See also
 [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
