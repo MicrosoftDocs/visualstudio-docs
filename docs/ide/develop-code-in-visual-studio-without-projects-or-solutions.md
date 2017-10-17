@@ -123,16 +123,17 @@ You can customize an Open Folder project through two JSON files:
 |[tasks.vs.json](#tasks)|Specify custom [build commands](#buildtask) and compiler switches, and [arbitrary](#arbitrary) (non-build related) tasks.<br>Accessed via the **Solution Explorer** context menu item **Configure Tasks**.|
 |[launch.vs.json](#launch)|Specify command line arguments for debugging.<br>Accessed via the **Solution Explorer** context menu item **Debug and Launch Settings**.|
 
-The tasks.vs.json and launch.vs.json files are located in a hidden folder called `.vs`. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
+The tasks.vs.json and launch.vs.json files are located in a hidden folder called `.vs` in your root project folder. They are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** from the Solution Explorer context menu. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
 
 ### <a id=tasks>Define tasks with tasks.vs.json</>
 You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**. 
 
 ![Open Folder Configure Tasks](../ide/media/configure_tasks.png)
 
-This creates (or opens) the `tasks.vs.json` file in the .vs folder which Visual Studio creates in your root project folder. You can define any arbitrary task in this file and then invoke it from the **Solution Explorer** context menu.  
+This creates (or opens) the `tasks.vs.json` file in the .vs folder. You can define a build task or arbitrary task in this file, and then invoke it using the name you gave it from the **Solution Explorer** context menu.  
 
 #### Properties for tasks.vs.json
+This section describes some of the properties you can specify in tasks.vs.json.  
 
 ##### appliesTo
 You can create tasks for any file or folder by specifying its name in the `appliesTo` field, for example `"appliesTo" : "hello.js"`. The following file masks can be used as values:
@@ -196,7 +197,7 @@ If your codebase uses custom build tools that Visual Studio doesn't recognize, t
 
    The tasks.vs.json file opens in the editor.  
 
-1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called "makefile-clean" which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nMake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
+1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called "makefile-clean" which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the Visual Studio workload that contains [nMake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
 
   ```json
   {
@@ -259,6 +260,7 @@ The following example shows a tasks.vs.json file that defines a single task. Whe
   ]
 }
 ```
+
 After saving tasks.vs.json, you can right-click any .js file in the folder, choose **Echo filename** from the context menu, and see the file name displayed in the Output window.  
 
 ### <a id=launch>Configure debugging arguments with launch.vs.json</>
