@@ -14,20 +14,6 @@ ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProcessQueryProperties::QueryProperty
 This method queries for a specified property value of the debugging process.  

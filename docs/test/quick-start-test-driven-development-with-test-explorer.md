@@ -12,21 +12,6 @@ ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
 caps.latest.revision: 15
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Quick Start: Test Driven Development with Test Explorer
 We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are   specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.  

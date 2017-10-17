@@ -32,20 +32,6 @@ caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Viewing the Structure of Code
 You can examine the objects and members in Visual Studio projects, and the objects and members in .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).  

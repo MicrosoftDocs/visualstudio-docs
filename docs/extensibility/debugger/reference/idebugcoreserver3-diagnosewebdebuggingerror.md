@@ -16,20 +16,6 @@ ms.assetid: 8c4570ca-ae55-42f2-bbaa-8d8e75d2fa19
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 Attempts to determine why an auto-attach failed.  

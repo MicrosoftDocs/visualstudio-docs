@@ -16,20 +16,6 @@ ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugObject2::GetICorDebugValue
 Gets a managed code object representing the value associated with this object.  

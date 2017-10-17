@@ -13,21 +13,6 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Insert controls and modify their behavior in XAML Designer
 Controls enable users to interact with your app. You can use them to collect information and to perform actions such as animate an object or query a data source.  

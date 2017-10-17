@@ -15,20 +15,6 @@ ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
 caps.latest.revision: 48
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adding a Toolbar to a Tool Window
 This walkthrough shows how to add a toolbar to a tool window.  

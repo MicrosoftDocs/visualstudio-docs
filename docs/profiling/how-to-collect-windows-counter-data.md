@@ -20,21 +20,6 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Collect Windows Counter Data
 Windows Counters are system performance counters that can be collected at set intervals during profiling. In the Marks view of the Profiling Tools report, a row is labeled **AutoMark** for each collection interval. The row contains columns that describe the performance counter values at that interval. To restrict the analysis to a period of time between two particular marks, select the marks, right-click, and then select **Filter By** ->  **Marks** from the shortcut menu.  

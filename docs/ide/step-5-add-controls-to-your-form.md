@@ -13,21 +13,6 @@ caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Step 5: Add Controls to Your Form
 In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  

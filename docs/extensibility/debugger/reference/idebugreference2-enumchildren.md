@@ -16,20 +16,6 @@ ms.assetid: 35b3c2f3-69f4-4013-b555-f847221f62e8
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugReference2::EnumChildren
 Get a list of selected children of a reference. Reserved for future use.  

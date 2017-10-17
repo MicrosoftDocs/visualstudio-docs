@@ -16,21 +16,6 @@ ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: 58494fc3-12de-4761-bd4a-74b54f72bfb3
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Community 2017 workload and component IDs

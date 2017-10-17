@@ -13,20 +13,6 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ForEach&lt;T&gt; Activity Designer
 The <xref:System.Activities.Statements.ForEach%601> activity executes the activity contained in its <xref:System.Activities.Statements.ForEach%601.Body%2A> for each item in a specified <xref:System.Activities.Statements.ForEach%601.Values%2A> collection.  

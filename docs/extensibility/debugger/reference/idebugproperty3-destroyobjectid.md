@@ -16,20 +16,6 @@ ms.assetid: bd08f356-cc67-4717-98c9-c3d00cad2040
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProperty3::DestroyObjectID
 Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties.  

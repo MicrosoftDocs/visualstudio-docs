@@ -16,20 +16,6 @@ ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugModuleLoadEvent2::GetModule
 Gets the module that is being loaded or unloaded.  

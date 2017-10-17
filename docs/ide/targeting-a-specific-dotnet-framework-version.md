@@ -18,20 +18,6 @@ caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Targeting a Specific .NET Framework Version
 In Visual Studio, you can specify the version or profile of the .NET Framework that you want your project to target. For an application to run on another computer, the Framework version that the application targets must be compatible with the Framework version that is installed on the computer.  

@@ -23,20 +23,6 @@ caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # UnregisterAssembly Task
 Unregisters the specified assemblies for COM interop purposes. Performs the reverse of the [RegisterAssembly task](../msbuild/registerassembly-task.md).  

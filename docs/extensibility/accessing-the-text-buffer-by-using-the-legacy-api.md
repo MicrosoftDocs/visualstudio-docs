@@ -14,20 +14,6 @@ ms.assetid: cd6cf4ae-fff5-4e23-b293-7cbafdb8aed2
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Accessing the Text Buffer by Using the Legacy API
 The text is responsible for managing text streams and file persistence. Although the buffer can read or write other formats, all ordinary communication with the buffer is performed by using Unicode. In the legacy APIs, the text buffer can use either a one- or a two-dimensional coordinate system to identify character locations in the buffer.  

@@ -30,20 +30,6 @@ caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Continuing Execution After an Exception
 When the debugger breaks execution because of an exception, you will see the **Exception Helper**, by default. If you have disabled the **Exception Helper** in the **Options** dialog box, you will see the **Exception Assistant** (C# or Visual Basic) or the **Exception** dialog box (C++).  

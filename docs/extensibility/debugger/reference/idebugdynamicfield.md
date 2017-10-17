@@ -16,20 +16,6 @@ ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugDynamicField
 This interface represents a type of a variable.  

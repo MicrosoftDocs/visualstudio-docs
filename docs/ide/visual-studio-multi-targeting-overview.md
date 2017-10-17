@@ -18,20 +18,6 @@ caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Visual Studio Multi-Targeting Overview
 In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is required for your application. Therefore, if you want to use this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to continue to develop a project that you started in an earlier version, you do not have to change the framework target. You could also create a solution that contains projects that target different versions of the framework. Framework targeting also helps guarantee that the application uses only functionality that is available in the specified version of the framework.  

@@ -19,20 +19,6 @@ ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Session Debug Manager
 The session debug manager (SDM) manages any number of debug engines (DE) debugging any number of programs in multiple processes on any number of machines. In addition to being a debug engine multiplexer, the SDM provides a unified view of the debug session to the IDE.  

@@ -20,20 +20,6 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Error: Remote computer could not initiate DCOM communications
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is  

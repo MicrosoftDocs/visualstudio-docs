@@ -16,21 +16,6 @@ ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
 ms.assetid: 5719032b-2c2e-416e-a281-a4573ec74e38
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Professional 2017 component directory

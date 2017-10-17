@@ -16,20 +16,6 @@ ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # METADATA_ADDRESS_LOCAL
 This structure represents the address of a local variable within a scope (usually a function or method).  

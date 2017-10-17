@@ -16,20 +16,6 @@ ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SccCheckout Function
 Given a list of fully qualified file names, this function checks them out to the local drive. The comment applies to all files being checked out. The comment argument can be a `null` string.  

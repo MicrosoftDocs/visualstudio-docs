@@ -15,20 +15,6 @@ caps.latest.revision: 2
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Graphics State
 The State window in Visual Studio graphics Diagnostics helps you understand the graphics state that is active at the time of the current event, such as a draw call.  

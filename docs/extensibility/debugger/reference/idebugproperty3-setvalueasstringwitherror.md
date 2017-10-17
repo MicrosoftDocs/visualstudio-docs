@@ -16,20 +16,6 @@ ms.assetid: b378368f-4a45-4b2f-8e3d-3bff7a18ab17
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProperty3::SetValueAsStringWithError
 Sets the value of this property and returns an error message, if necessary.  

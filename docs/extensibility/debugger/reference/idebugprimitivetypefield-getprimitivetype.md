@@ -15,20 +15,6 @@ ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.  

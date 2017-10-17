@@ -20,20 +20,6 @@ caps.latest.revision: 7
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create File Associations For a ClickOnce Application
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is straightforward.  

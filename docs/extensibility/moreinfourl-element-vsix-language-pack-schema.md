@@ -12,20 +12,6 @@ ms.assetid: 3f07b67b-95c5-4ae8-8b7e-d643cbbb0348
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # MoreInfoURL Element (VSIX Language Pack Schema)
 Optional. A link to localized information about the extension.  

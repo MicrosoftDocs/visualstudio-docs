@@ -14,20 +14,6 @@ ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Properties Display Grid
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.  

@@ -16,20 +16,6 @@ ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 caps.latest.revision: 38
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adding a Menu Controller to a Toolbar
 This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md) walkthrough and shows how to add a menu controller to the tool window toolbar. The steps shown here also can be applied to the toolbar that is created in the [Adding a Toolbar](../extensibility/adding-a-toolbar.md) walkthrough.  

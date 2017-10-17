@@ -25,21 +25,6 @@ caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:  

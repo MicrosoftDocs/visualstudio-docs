@@ -16,20 +16,6 @@ ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 Gets the pending breakpoint that caused the error.  

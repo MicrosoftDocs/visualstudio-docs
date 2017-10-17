@@ -16,20 +16,6 @@ ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugMessageEvent2
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.  

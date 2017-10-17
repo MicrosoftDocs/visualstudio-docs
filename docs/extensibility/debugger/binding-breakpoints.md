@@ -14,20 +14,6 @@ ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Binding Breakpoints
 If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the request and prompts the debug session to create the breakpoint.  

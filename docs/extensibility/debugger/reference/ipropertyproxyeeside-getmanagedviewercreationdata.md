@@ -16,20 +16,6 @@ ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
 Retrieves information about the viewer for this property type in order to instantiate that viewer.  

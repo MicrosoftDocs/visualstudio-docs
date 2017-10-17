@@ -22,20 +22,6 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Edit and Continue Dialog Box
 (Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  

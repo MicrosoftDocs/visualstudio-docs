@@ -15,20 +15,6 @@ caps.latest.revision: 14
 author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  

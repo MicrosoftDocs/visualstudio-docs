@@ -21,20 +21,6 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Designing and Viewing Classes and Types
 Design, visualize, and refactor classes and other types in your code with Class Designer in Visual Studio. Use class diagrams to create and edit classes in your Visual C# .NET, Visual Basic .NET, or C++ project, understand your project structure better, or reorganize your code.  

@@ -14,20 +14,6 @@ ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgramDestroyEventFlags2
 Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI when you end a debug session.  

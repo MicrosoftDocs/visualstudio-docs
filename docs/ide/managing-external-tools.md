@@ -61,20 +61,6 @@ caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Manage external tools
 You can call external tools from inside Visual Studio by using the **Tools** menu. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  

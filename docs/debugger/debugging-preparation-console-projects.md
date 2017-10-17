@@ -22,20 +22,6 @@ caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Debugging Preparation: Console Projects
 Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations. For more information, see [Windows Forms Applications](../debugger/debugging-preparation-windows-forms-applications.md), and [Debugging Preparation: Windows Forms Applications (.NET)](http://msdn.microsoft.com/en-us/a8bc54de-41a3-464d-9a12-db9bdcbc1ad5). Because of the similarity of all console applications, this topic covers the following project types:  

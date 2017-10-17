@@ -16,20 +16,6 @@ ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgram2::GetDisassemblyStream
 Gets the disassembly stream for this program or a part of this program.  

@@ -14,20 +14,6 @@ ms.assetid: b75bbb51-8e42-41b1-bece-09ab0b1f03cc
 caps.latest.revision: 18
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Contained Languages
 *Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.  

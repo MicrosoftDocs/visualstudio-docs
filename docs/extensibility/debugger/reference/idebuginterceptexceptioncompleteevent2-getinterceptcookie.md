@@ -16,20 +16,6 @@ ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 Called when the processing of an intercepted exception has completed.  

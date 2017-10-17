@@ -13,20 +13,6 @@ caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Step 4: Lay Out Your Form with a TableLayoutPanel Control
 In this step, you add a `TableLayoutPanel` control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  

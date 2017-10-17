@@ -13,20 +13,6 @@ caps.latest.revision: 5
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Getting Started with Debugging in Visual Studio
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this topic, find out how to start using the most basic set of debugging UI features.  

@@ -13,20 +13,6 @@ caps.latest.revision: 31
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Step 3: Assign a Random Icon to Each Label
 If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the label controls on your form by using an `AssignIconsToSquares()` method.  

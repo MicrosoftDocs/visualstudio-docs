@@ -16,20 +16,6 @@ ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProperty2::GetMemoryBytes
 Gets the memory bytes that compose the value of a property.  

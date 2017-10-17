@@ -12,20 +12,6 @@ ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Delayed Document Loading
 When a user reopens a Visual Studio solution, most of the associated documents are not loaded immediately. The document window frame is created in a pending-initialization state, and a placeholder document (called a stub frame) is placed in the Running Document Table (RDT).  

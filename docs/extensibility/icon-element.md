@@ -15,20 +15,6 @@ ms.assetid: 73c58fe3-d53c-4f4e-b025-29567c6cbb7c
 caps.latest.revision: 5
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Icon Element
 The guid attribute of the Icon tag is the guid of a defined bitmap.  The id attribute selects the slot in the bitmap strip. This element is optional.  If this element is omitted the value of **guidOfficeIcon:msotcidNoIcon** will be implied.  

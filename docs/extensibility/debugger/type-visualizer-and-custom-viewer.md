@@ -15,20 +15,6 @@ ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Type Visualizer and Custom Viewer
 A type visualizer is a component that displays a piece of data in a very specific format. This format is entirely up to the implementer of the visualizer, be it the end user or a third-party supplier of visualizers.  

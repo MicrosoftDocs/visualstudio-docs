@@ -10,20 +10,6 @@ ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Image Library Viewer
 The Visual Studio Image Library Viewer tool can load and search image manifests, allowing the user to manipulate them in the same way Visual Studio would. The user can alter background, sizes, DPI, high contrast, and other settings. The tool also displays loading information for each image manifest and displays source information for each image in the image manifest. This tool is useful for:  
