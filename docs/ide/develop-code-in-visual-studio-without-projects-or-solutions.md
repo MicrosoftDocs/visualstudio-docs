@@ -125,7 +125,7 @@ You can customize an Open Folder project through two JSON files:
 
 The tasks.vs.json and launch.vs.json files are located in a hidden folder called `.vs`. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
 
-### <a id=tasks />Define tasks with tasks.vs.json
+### <a id=tasks>Define tasks with tasks.vs.json</>
 You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**. 
 
 ![Open Folder Configure Tasks](../ide/media/configure_tasks.png)
@@ -187,7 +187,7 @@ To define a custom macro in tasks.vs.json, add a name:value pair prior to the ta
   ]
 ```
 
-#### <a id=buildtask />To create a custom build task
+#### <a id=buildtask>To create a custom build task</>
 If your codebase uses custom build tools that Visual Studio doesn't recognize, then you will likely not be able to run and debug the code in Visual Studio until you complete some additional steps. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. In this procedure, we will add two custom build tasks that use nMake to build and clean your code.  
 
 1. Choose a file of the project in Solution Explorer that you want to designate later as the startup item. On the file's context (right-click) menu, choose **Configure Tasks**.  
@@ -242,7 +242,7 @@ You can now choose the **Start** button or the **F5** key to run your code. You 
 
 Custom build tasks can be added to individual files or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all .js files.  
 
-#### <a id=arbitrary />Define arbitrary tasks in tasks.vs.json
+#### <a id=arbitrary>Define arbitrary tasks in tasks.vs.json</>
 The following example shows a tasks.vs.json file that defines a single task. When invoked, the task displays the filename of the currently selected .js file. `taskName` defines the name that appears in the context menu. `appliesTo` defines which files the command can be performed on. The `command` property refers to the COMSPEC environment variable, which identifies the path for the console (cmd.exe on Windows). The `args` property specifies the command line to be invoked. The `${file}` macro retrieves the selected file in **Solution Explorer**.  
 
 ```json
@@ -261,7 +261,7 @@ The following example shows a tasks.vs.json file that defines a single task. Whe
 ```
 After saving tasks.vs.json, you can right-click any .js file in the folder, choose **Echo filename** from the context menu, and see the file name displayed in the Output window.  
 
-### <a id=launch />Configure debugging arguments with launch.vs.json
+### <a id=launch>Configure debugging arguments with launch.vs.json</>
 To customize your program’s command line arguments for debugging, right-click on the executable in **Solution Explorer** and select **Debug and Launch Settings**. This will open an existing `launch.vs.json` file, or if none exists, it will create a new file prepopulated with the information about the program you have selected. 
 
 To specify additional command line arguments, just add them in the `args` JSON array as shown in the following example:
