@@ -20,20 +20,6 @@ caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Summary View
 The Summary view displays information about the most performance-expensive functions or objects in a profiling run. This view provides a timeline graph and two or more lists of the most expensive functions or objects based on the performance metrics of the profiling method. The data in this view depends on the profiling method that was used (sampling, instrumentation, or concurrency) and whether .NET memory allocation was collected.  

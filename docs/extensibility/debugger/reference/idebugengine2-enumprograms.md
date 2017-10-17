@@ -16,20 +16,6 @@ ms.assetid: 56bf98eb-beec-4e5f-9ebe-46c922e54c56
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugEngine2::EnumPrograms
 Retrieves a list of all programs being debugged by a debug engine (DE).  

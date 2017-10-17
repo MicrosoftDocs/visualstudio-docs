@@ -16,20 +16,6 @@ ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # AD_PROCESS_ID
 Specifies the process ID, which may be either a system ID or a GUID.  

@@ -14,20 +14,6 @@ ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
 Determines that the function at the specified debug address is deleted.  

@@ -16,20 +16,6 @@ ms.assetid: 0cfe79b8-c3f1-48b0-a225-e39dee2c92fe
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IPropertyProxyEESide::CreateReplacementObject
 Creates a copy of a data object specific to the expression evaluator (EE).  

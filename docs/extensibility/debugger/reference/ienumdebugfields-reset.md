@@ -16,20 +16,6 @@ ms.assetid: 38ff61e4-0120-42e8-971a-16be6050b425
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugFields::Reset
 This method resets the enumeration to the first element.  

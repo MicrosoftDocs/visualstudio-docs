@@ -17,20 +17,6 @@ ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # CommandPlacements Element
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  

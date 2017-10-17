@@ -17,20 +17,6 @@ ms.assetid: 0534224f-654f-4862-bc4d-a9a81a5f8899
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPendingBreakpoint2::SetCondition
 Sets or changes the condition associated with the pending breakpoint.  

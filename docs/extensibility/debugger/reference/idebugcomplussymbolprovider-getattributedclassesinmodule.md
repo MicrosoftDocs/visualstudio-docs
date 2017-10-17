@@ -15,20 +15,6 @@ ms.assetid: d8b087f3-1d32-4570-9eb0-7e0f7b051bc8
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 Retrieves the classes with the specified attribute in a given module.  

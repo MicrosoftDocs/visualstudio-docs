@@ -13,20 +13,6 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio
 You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  

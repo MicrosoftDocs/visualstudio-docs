@@ -14,20 +14,6 @@ ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
 caps.latest.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Single and Multi-tab Views
 An editor can create different types of views. One example is a code editor window, another is a forms designer.  

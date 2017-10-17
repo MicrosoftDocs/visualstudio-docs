@@ -15,20 +15,6 @@ ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugBinder3::GetMemoryContext64
 Converts either an object location or a 64-bit memory address to a memory context.  

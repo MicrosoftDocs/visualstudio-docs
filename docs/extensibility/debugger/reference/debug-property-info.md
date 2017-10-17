@@ -16,20 +16,6 @@ ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # DEBUG_PROPERTY_INFO
 Contains information about a debug property.  

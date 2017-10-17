@@ -13,20 +13,6 @@ caps.latest.revision: 4
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BC Texture Compression Variant
 Enables block compression on textures that have a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.  

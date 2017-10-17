@@ -15,20 +15,6 @@ ms.assetid: e25e7a46-6a55-4726-8def-ca316f553d6b
 caps.latest.revision: 35
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Registering and Unregistering VSPackages
 You use attributes to register a VSPackage, but  

@@ -17,21 +17,6 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Cores View Legend
 The Cores View legend identifies each thread by color and name. It includes columns that show counts for cross-core context switches, total context switches, and the percent of context switches that cross cores. Rows in the legend are sorted by the number of cross-core context switches, in decreasing order.  

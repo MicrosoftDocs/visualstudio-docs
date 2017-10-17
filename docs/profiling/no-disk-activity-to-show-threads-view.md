@@ -17,20 +17,6 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # No Disk Activity to Show (Threads View)
 Disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll. Also, make sure that no disk channels are hidden.  

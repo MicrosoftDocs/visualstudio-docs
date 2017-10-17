@@ -14,20 +14,6 @@ ms.assetid: 841c5908-4f3f-400b-a7b0-96a95f362817
 caps.latest.revision: 5
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # NotifyDebuggerOfWaitCompletion Method
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.  
