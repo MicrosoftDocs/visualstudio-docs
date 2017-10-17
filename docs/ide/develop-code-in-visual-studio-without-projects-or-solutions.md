@@ -88,9 +88,9 @@ You can debug your code in Visual Studio without a project or solution. To debug
 
 The drop-down list box next to the Start button on the toolbar lists all of the startup items that Visual Studio detects, as well as items you specifically choose in a folder.  
 
-![Run Button](./media/VSIDE_Code_Run_Button.png)  
+![Start debugging button](./media/start_button.png)  
 
-Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations which appear in the Run Button's drop down list.  
+Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations which appear in the Start button's drop-down list.  
 
 Visual Studio "Open Folder" currently supports debugging for the following: 
 
@@ -117,13 +117,14 @@ Visual Studio "Open Folder" currently supports debugging for the following:
 1. Choose the **F5** key to begin debugging.  
 
 ## Customizing Open Folder projects
-You can customize an Open Folder project through two JSON files:
+You can customize an Open Folder project through three JSON files:
 |File name|Purpose|
 |-|-|
+|settings.vs.json|[TODO]|
 |[tasks.vs.json](#tasks)|Specify custom [build commands](#buildtask) and compiler switches, and [arbitrary](#arbitrary) (non-build related) tasks.<br>Accessed via the **Solution Explorer** context menu item **Configure Tasks**.|
 |[launch.vs.json](#launch)|Specify command line arguments for debugging.<br>Accessed via the **Solution Explorer** context menu item **Debug and Launch Settings**.|
 
-The tasks.vs.json and launch.vs.json files are located in a hidden folder called `.vs` in your root project folder. They are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** from the Solution Explorer context menu. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
+The JSON files are located in a hidden folder called `.vs` in your root project folder. They are created by Visual Studio on an as-needed basis when you choose either [TODO - for settings file], **Configure Tasks**, or **Debug and Launch Settings** from the Solution Explorer context menu. To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar. These .json files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your project where they will be visible.  
 
 ### <a name="tasks"/>Define tasks with tasks.vs.json
 You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**. 
