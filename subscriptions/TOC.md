@@ -24,7 +24,6 @@ Searchscope: VS Subscription
 ### How to Activate Benefits
 #### Tools
 ##### [Visual Studio Enterprise](vs-ide-benefit.md) 
-##### [Visual Studio for Mac]
 ##### [Visual Studio Team Services](vs-vsts.md)
 ##### [Microsoft Azure](vs-azure.md) 
 ##### [Parasoft](vs-parasoft.md)
