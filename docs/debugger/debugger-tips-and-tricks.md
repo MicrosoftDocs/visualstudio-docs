@@ -79,7 +79,7 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
   
 5.  Right-click the object ID variable and choose **Add Watch**.
 
-For more information, see [Create an Object ID](https://docs.microsoft.com/en-us/visualstudio/debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
+For more information, see [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
 ## View return values for functions
 
@@ -157,7 +157,10 @@ To find out how the debugger classifies code as user code, see [Just My Code](..
 
 ## Learn more
 
-See this visual studio [blog post](https://blogs.msdn.microsoft.com/visualstudio/2017/06/26/7-lesser-known-hacks-for-debugging-in-visual-studio/) that describes some lesser known tips and tricks.
+For additional tips and tricks and more detailed information, see these blog posts:
+
+- [7 lesser known hacks for debugging in Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2017/06/26/7-lesser-known-hacks-for-debugging-in-visual-studio/)
+- [7 hidden gems in Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2017/10/05/7-hidden-gems-in-visual-studio-2017/)
 
 ## See Also
 [Keyboard Shortcuts](../ide/tips-and-tricks-for-visual-studio.md)
