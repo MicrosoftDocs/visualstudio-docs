@@ -6,32 +6,15 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
-helpviewer_keywords:
-  - "editor"  
-ms.assetid:
+helpviewer_keywords: 
+  - "editor"
+ms.assetid: 
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.technology: 
+  - "vs-ide-general"
 ---
 # Create portable, custom editor settings with EditorConfig
 Text editor settings in Visual Studio apply to all projects of a given type. So, for example, if you change a C# text editor setting, that setting applies to *all* C# projects in Visual Studio. However, in some cases, you may need to use conventions that differ from your own personal editor preferences. [EditorConfig](http://editorconfig.org/) files enable you to do this by providing common text editor options on a per-project basis. EditorConfig settings, which are contained in an .editorconfig file added to your codebase, supersede global Visual Studio text editor settings. This means that you can tailor each codebase to use the text editor settings you prefer. No plug-in is required to use this functionality in Visual Studio.
@@ -86,13 +69,36 @@ Now, when you press the TAB key, you get Tab characters instead of spaces.
 
 In most cases when you implement a Visual Studio language service, no additional work is needed to support EditorConfig universal properties. The core editor automatically discovers and reads the .editorconfig file when users open files, and it sets the appropriate text buffer and view options. However, some language services opt to use an appropriate contextual text view option rather than using global settings for items such as tabs and spaces when a user edits or formats text. In these cases, the language service must be updated to support EditorConfig files.
 
-The following table lists the changes needed to update a language service to support EditorConfig files.
+Following are the changes needed to update a language service to support EditorConfig files, by replacing a global language-specific option with a contextual option:
 
-| Deprecated global language-specific option | Contextual option replacement |
-| :------------- | :------------- |
-| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs | !textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) or !textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) |
-| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize | textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId) |
-| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize | textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) or textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId) |
+Replace:  
+
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs  
+
+With:  
+
+!textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) or
+!textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId)  
+
+*****
+Replace:  
+
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize  
+
+With:  
+
+textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) or 
+textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId)  
+
+*****
+Replace:  
+
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize  
+
+With:  
+
+textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) or 
+textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)  
 
 # See Also
 [Create Portable Custom Editor Options with EditorConfig](create-portable-custom-editor-options.md)

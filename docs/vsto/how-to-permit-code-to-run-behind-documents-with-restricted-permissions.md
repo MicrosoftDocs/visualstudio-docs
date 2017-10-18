@@ -2,7 +2,6 @@
 title: "How to: Permit Code to Run Behind Documents with Restricted Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 ms.assetid: d037eae5-cf83-4be0-85ba-05e9f7d570e1
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Permit Code to Run Behind Documents with Restricted Permissions

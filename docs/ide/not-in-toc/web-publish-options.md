@@ -4,31 +4,17 @@ ms.custom: ""
 ms.date: "03/09/2017"
 ms.reviewer: "riande"
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
 caps.latest.revision: 1
-author: "kraigb"
-ms.author: "kraigb"
+author: "Mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # What publishing options are right for me?

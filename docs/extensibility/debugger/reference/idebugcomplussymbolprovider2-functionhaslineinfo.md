@@ -15,20 +15,6 @@ ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 Determines if the specified method has line information.  

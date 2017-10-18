@@ -1,6 +1,6 @@
 ---
-title: "Debug Azure apps | Microsoft Docs"
-ms.date: "08/08/2017"
+title: "Debug Azure services | Microsoft Docs"
+ms.date: "09/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,25 +14,10 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
-# Debug Azure apps
+# Debug Azure services
 
-You can use Visual Studio to debug Azure apps in different scenarios:
+You can use Visual Studio to debug Azure services in different scenarios:
 
 - To debug a production app hosted in Azure App Service, see [Debug a live Azure app](../debugger/debug-live-azure-applications.md).
 

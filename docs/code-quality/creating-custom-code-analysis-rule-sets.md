@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88db3a0a-1b92-496d-9fae-b2bb980f5933
@@ -13,21 +13,6 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Creating Custom Code Analysis Rule Sets
 You apply code analysis rules to a managed code project by specifying a rule set that contains one or more rules. The Microsoft standard rule sets provide groups of rules that are organized by function and depth. For example, the Microsoft Basic Design Guidelines Rules and the Microsoft Extended Design Guidelines Rules contain rules that focus on usability and maintainability issues, with added emphasis on naming rules in the Extended rule set.  

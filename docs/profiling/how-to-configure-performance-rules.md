@@ -15,21 +15,6 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Configure Performance Rules
 The performance warnings of th Visual Studio Profiling Tools indicate issues in a profiled application that can slow program execution. Warnings can also indicate that you might need to change collection methods to collect more useful data. Performance warnings are generated automatically in a profiling session and appear in the **Error List** window when a profiling data file is opened in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Certain warnings might not apply to the scenarios that you are interested in, and some warnings might be raised inaccurately. You can configure performance warnings to show or hide specific warnings.  

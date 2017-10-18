@@ -13,23 +13,9 @@ helpviewer_keywords:
   - "Visual Studio templates, using parameters"
 ms.assetid: a62924a7-4ba0-413d-b606-fdbe1fcf2807
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Substitute Parameters in a Template
 You may replace template parameters such as class names and namespaces when a file based on a template is created. For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  

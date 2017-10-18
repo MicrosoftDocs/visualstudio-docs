@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Tab by Using Ribbon XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,8 +20,8 @@ helpviewer_keywords:
   - "Custom tab [Office development in Visual Studio]"
 ms.assetid: f6391a01-df1a-4a0f-bfbb-a9526c73b2b3
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Custom Tab by Using Ribbon XML

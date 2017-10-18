@@ -16,20 +16,6 @@ ms.assetid: ba0c162a-61e8-4a0b-811f-4c1d8a5d82f0
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BP_RESOLUTION_INFO
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.  

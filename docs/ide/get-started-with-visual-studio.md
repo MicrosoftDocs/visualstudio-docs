@@ -1,39 +1,7 @@
 ---
-title: "Get Started with Visual Studio | Microsoft Docs"
-description: "Learn the basics about how to get started using Visual Studio"
-ms.custom: ""
-ms.date: "03/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords:
-  - "Visual Studio, getting started"
-ms.assetid: 38e90339-1da5-410c-8ba4-437fc556cba7
-caps.latest.revision: 65
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+redirect_url: ../ide/visual-studio-ide
 ---
 # Get Started with Visual Studio
-
 Visual Studio is a powerful tool for developing your apps. If you haven't done so already, go ahead and download and install [Visual Studio](https://www.visualstudio.com/vs/). See the video [Getting Started with Visual Studio - Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) for more information about downloading Visual Studio and configuring it the way you want.
 
 ## Visual Studio tour
@@ -49,7 +17,6 @@ As you enter code, the code editor helps you more quickly and easily write and f
 Some solution types may include windows called *forms*, such as Windows Presentation Foundation (WPF) forms, Windows forms, Extensible Application Markup Language (XAML) forms and others. In those cases, you will also see a visual designer in this space that lets you drag and drop controls, such as buttons and list boxes, onto the form that users interact with when they run your app.
 
 ### Solution Explorer
-
 A tool window called **Solution Explorer** lists all your code files. Solution Explorer can help organize your code by grouping its files into solutions and projects. The project in bold is called the *startup project*. It's the first code that runs when you start your solution. You can change the startup project. See the video [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) for more information.
 
 ![Solution Explorer collapsed nodes](../ide/media/VSIDE_SolutionExplorer2_callouts.png)
@@ -94,7 +61,6 @@ To learn more about how to use the Output window for debugging, see [The Output 
 - **Videos** - To learn more about other features and aspects of Visual Studio, check out videos on the [Microsoft Visual Studio channel](https://www.youtube.com/user/VisualStudio/videos) on YouTube, Visual Studio videos on [Channel 9](https://channel9.msdn.com/Tags/visual+studio), or on the [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!jobf=Developer).
 
 ## Access cloud-based resources
-
 If you want to use cloud-based resources in your app or game, you can do that by including [Azure services](https://azure.microsoft.com/en-us/services/). You can get the Azure SDK for .NET by installing the **Azure development** workload using the new Visual Studio Installer. The packages that are installed are at the same feature level as the 2.9.5 version of the SDK. For this version of Visual Studio and all future versions, the Azure SDK for .NET will only be available from the Visual Studio installer.
 
 After installing the Azure development workload, a new tool window becomes available in Visual Studio called **Cloud Explorer**. Cloud Explorer enables you to browse and manage your Azure assets and resources from within Visual Studio. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.

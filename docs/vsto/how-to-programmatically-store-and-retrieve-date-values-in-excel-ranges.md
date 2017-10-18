@@ -2,7 +2,6 @@
 title: "How to: Programmatically Store and Retrieve Date Values in Excel Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,8 +22,8 @@ helpviewer_keywords:
   - "date values"
 ms.assetid: e1cdd262-0356-4499-8bc5-e730f74235a2
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Store and Retrieve Date Values in Excel Ranges

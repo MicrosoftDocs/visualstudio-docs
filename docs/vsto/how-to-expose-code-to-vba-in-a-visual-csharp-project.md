@@ -2,7 +2,6 @@
 title: "How to: Expose Code to VBA in a Visual C# Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "exposing code to VBA"
 ms.assetid: 56d5894b-4823-42f4-8c7e-d8739b859c52
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Expose Code to VBA in a Visual C# Project

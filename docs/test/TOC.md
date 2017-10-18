@@ -46,6 +46,7 @@
 #### [Troubleshooting Code Coverage](troubleshooting-code-coverage.md)
 ### [Using emulators to isolate unit tests for Sharepoint 2010 applications](using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md)
 ## [Introducing Live Unit Testing](live-unit-testing-intro.md)
+### [What's new in Live Unit Testing](live-unit-testing-whats-new.md)
 ### [Get started with Live Unit Testing](live-unit-testing-start.md)
 ### [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md)
 ### [Live Unit Testing FAQ](live-unit-testing-faq.md)

@@ -15,23 +15,9 @@ helpviewer_keywords:
   - "Debug.SetCurrentStackFrame command"
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Set Current Stack Frame Command
 Allows you to set a particular stack frame.  

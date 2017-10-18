@@ -2,7 +2,6 @@
 title: "How to: Programmatically Create Word Tables | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "tables [Office development in Visual Studio], adding to documents"
 ms.assetid: fe1f9143-9622-45e8-b0a5-511336d99ad1
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Create Word Tables

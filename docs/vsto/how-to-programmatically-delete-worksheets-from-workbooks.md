@@ -2,7 +2,6 @@
 title: "How to: Programmatically Delete Worksheets from Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "worksheets, deleting"
 ms.assetid: c5ae99f0-806d-4320-a29c-75ad444fb996
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Delete Worksheets from Workbooks

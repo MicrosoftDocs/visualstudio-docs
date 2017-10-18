@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8e852628-99fc-4e6e-8602-e1c13dde3b95
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # XSLT Profiler
 The XSLT Profiler is a performance analysis profiler tool that helps you develop and debug XSLT documents. The XSLT Profiler allows developers to measure and evaluate performance-related problems in XSLT code by creating detailed XSLT performance reports. The XSLT Profiler includes useful hints for XSL and XSLT style sheet optimizations, which are essential for XSLT-based applications that demand maximum performance.  

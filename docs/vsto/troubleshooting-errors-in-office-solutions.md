@@ -2,7 +2,6 @@
 title: "Troubleshooting Errors in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,8 +23,8 @@ helpviewer_keywords:
   - "troubleshooting [Office development in Visual Studio]"
 ms.assetid: 8bbf5433-1992-4ecf-ae1b-19117b8ebe43
 caps.latest.revision: 69
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Troubleshooting Errors in Office Solutions

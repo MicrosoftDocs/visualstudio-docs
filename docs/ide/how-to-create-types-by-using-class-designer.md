@@ -19,23 +19,9 @@ helpviewer_keywords:
   - "attributes [Visual Studio], applying custom"
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create Types by using Class Designer
 To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md).  

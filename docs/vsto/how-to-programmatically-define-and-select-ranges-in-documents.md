@@ -2,7 +2,6 @@
 title: "How to: Programmatically Define and Select Ranges in Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "ranges, defining in documents"
 ms.assetid: 0727c1cb-d44c-4f1c-a699-4365dd13be5d
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Define and Select Ranges in Documents

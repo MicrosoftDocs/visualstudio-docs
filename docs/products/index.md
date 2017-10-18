@@ -35,7 +35,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.visualstudio.com/docs/overview" title="Visual Studio Team Services">
+                                <a href="https://docs.microsoft.com/vsts" title="Visual Studio Team Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -92,6 +92,13 @@ searchScope: []
                                 </a>
                             </li>
                         </ul>
+						<div style="margin-left:10px; margin-top:40px;">
+						<p style="font-size:1.12em">Developer tools, cloud services, software, support and training</p>
+					<p style="margin-top:24px;">
+                                <a href="https://aka.ms/vs-subscriptions/">
+                                    <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio Subscription<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 14" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;"><path d="M7.4 7L1 .6l.6-.6 7 7-7 7-.6-.7L7.4 7z" /></svg></button>
+                                </a>
+                            </p></div>
                     </li>
                 </ul>
             </li>

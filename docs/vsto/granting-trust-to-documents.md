@@ -2,7 +2,6 @@
 title: "Granting Trust to Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "granting trust [Office development in Visual Studio]"
 ms.assetid: 16893647-501e-4836-98af-a79a1e9de3ee
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Granting Trust to Documents

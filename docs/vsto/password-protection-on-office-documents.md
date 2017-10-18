@@ -2,7 +2,6 @@
 title: "Password Protection on Office Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 ms.assetid: 9cee99c8-73c6-4f89-9d5e-7912c876ff96
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Password Protection on Office Documents

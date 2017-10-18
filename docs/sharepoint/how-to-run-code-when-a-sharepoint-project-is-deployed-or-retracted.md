@@ -2,7 +2,6 @@
 title: "How to: Run Code When a SharePoint Project is Deployed or Retracted | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,8 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 ms.assetid: 353bbe6d-9b76-48ad-9fba-7e3c3712452f
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Run Code When a SharePoint Project is Deployed or Retracted

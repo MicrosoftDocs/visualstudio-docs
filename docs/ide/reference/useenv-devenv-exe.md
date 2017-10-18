@@ -21,23 +21,9 @@ helpviewer_keywords:
   - "Devenv, /UseEnv"
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /UseEnv (devenv.exe)
 Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  

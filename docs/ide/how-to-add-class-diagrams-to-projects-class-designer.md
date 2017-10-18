@@ -13,23 +13,9 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], opening"
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Add Class Diagrams to Projects (Class Designer)
 To design, edit, and refactor classes and other types, add a class diagram to your Visual C# .NET, Visual Basic .NET, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.  

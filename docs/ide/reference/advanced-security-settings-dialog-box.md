@@ -10,32 +10,13 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.err.debug_in_zone_no_hostproc"
-  - "vs.err.debug_in_zone_no_hostproc:11310"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Advanced Security Settings dialog box"
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Advanced Security Settings Dialog Box
 This dialog box allows you to specify security settings related to debugging in zone.  

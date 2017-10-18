@@ -26,23 +26,9 @@ helpviewer_keywords:
   - "List Members"
 ms.assetid: 9fdb489b-8b46-4b92-9ccc-c8f8cc184081
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Using IntelliSense
 IntelliSense is the general term for a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you are using, keep track of the parameters you are typing, and add calls to properties and methods with only a few keystrokes.  
@@ -50,7 +36,7 @@ IntelliSense is the general term for a number of features: List Members, Paramet
  Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed under See Also.  
   
 ## List Members  
- A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters.  
+ A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters or where the beginning of *any* word within the name starts with those characters. IntelliSense also performs "camel case" matching, so you can just type the first letter of each camel-cased word in the member name to see the matches.   
   
  After selecting an item, you can insert it into your code by pressing TAB or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get Quick Info for the item.  
   
@@ -106,7 +92,7 @@ IntelliSense is the general term for a number of features: List Members, Paramet
  **The cursor is in a string literal.** You can't use IntelliSense if the cursor is in the quotation marks around a string literal, as in the following example:  
   
 ```  
-MessageBox( hWnd, "String literal|") )  
+MessageBox( hWnd, "String literal|")
 ```  
   
  **The automatic options are turned off.** By default, IntelliSense works automatically, but you can disable it. Even if automatic statement completion is disabled, you can invoke an IntelliSense feature.  

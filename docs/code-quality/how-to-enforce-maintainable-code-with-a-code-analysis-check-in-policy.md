@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -15,21 +15,6 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Enforce Maintainable Code with a Code Analysis Check-in Policy
 Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but they cannot invoke code metrics as part of a check-in policy. However, a team  can enable Code Analysis rules that verify the compliance of their code with Code Metrics standards and enforce the rules through check-in policies. For more information about code metrics, see the [Code Metrics Values](../code-quality/code-metrics-values.md).  

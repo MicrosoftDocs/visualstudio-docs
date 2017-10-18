@@ -31,20 +31,34 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-            "breadcrumb_path": "~/_breadcrumb/toc.yml",
-            "ROBOTS": "INDEX,FOLLOW",
-            "author": "",
-            "ms.author": "",
-            "manager": "ghogen",
-            "ms.date": "11/16/2016",
-            "ms.topic": "article",
-            "audience": "developer",
-            "ms.reviewer": "",
-            "ms.prod": "visual-studio-dev15",
-            "ms.technology": "vs-ide-general",
-            "ms.tgt_pltfrm": "dotnet",
-            "searchScope": ["VS IDE"]},
-    "fileMetadata": {},
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "ROBOTS": "INDEX,FOLLOW",
+      "author": "",
+      "ms.author": "",
+      "manager": "ghogen",
+      "ms.date": "11/16/2016",
+      "ms.topic": "article",
+      "audience": "developer",
+      "ms.reviewer": "",
+      "ms.prod": "visual-studio-dev15",
+      "ms.technology": "vs-ide-general",
+      "ms.tgt_pltfrm": "dotnet",
+      "searchScope": ["VS IDE"],
+      "featureFlags": ["productfeedback"],
+      "product_feedback_link_url1": "https://developercommunity.visualstudio.com/",
+      "product_feedback_link_text_key1": "feedbackProduct"
+    },
+    "fileMetadata": {
+      "product_feedback_link_url2": {
+        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs"
+      },
+      "product_feedback_link_text_key2": {
+        "extensibility/**/*.md": "getHelp"
+      },
+      "product_feedback_link_text_key1": {
+        "extensibility/**/*.md": "feedbackProduct"
+      }
+    },
     "template": [],
     "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs"

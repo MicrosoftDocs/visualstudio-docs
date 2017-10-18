@@ -18,24 +18,9 @@ helpviewer_keywords:
   - "build platforms [Visual Studio]"
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Understanding Build Platforms
 You can store different versions of solution and project properties that apply to different target platforms. For example, you can create a Debug configuration that targets an x86 platform and a Debug configuration that targets an x64 platform. You can quickly change the active platform so that you can easily build multiple configurations.  

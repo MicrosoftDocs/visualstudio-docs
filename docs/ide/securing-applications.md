@@ -16,20 +16,6 @@ caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Securing Applications
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  
@@ -40,7 +26,7 @@ While most applications possess common security challenges, each application dom
  [Security Best Practices](/cpp/top/security-best-practices-for-cpp)  
  Provides information on security features and practices available when working in Visual C++.  
   
- [NOT IN BUILD: Security and Programming (C# and Visual Basic)](http://msdn.microsoft.com/en-us/227e2863-cf09-4c28-9611-bcd82be5e994)  
+ [Security and Programming (C# and Visual Basic)](https://msdn.microsoft.com/en-us/library/ms233782(v=vs.100).aspx)  
  Provides information about the top three security concerns for Visual Basic and C# developers: privileges, Web applications, and Visual Studio setup.  
   
 ## Securing Mobile Applications  

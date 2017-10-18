@@ -2,7 +2,6 @@
 title: "How to: Install the Visual Studio Tools for Office Runtime Redistributable | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "installing Office development tools in Visual Studio"
 ms.assetid: ac7a9ad3-e810-4d7f-a0e2-9992c9036b8d
 caps.latest.revision: 94
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Install the Visual Studio Tools for Office Runtime Redistributable

@@ -2,7 +2,6 @@
 title: "Ribbon Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "custom Ribbon, multiple Ribbons"
 ms.assetid: 2bdef092-190d-47e3-9440-e862b95dacaa
 caps.latest.revision: 64
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Ribbon Overview

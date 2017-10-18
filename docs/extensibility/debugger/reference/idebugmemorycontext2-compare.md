@@ -17,20 +17,6 @@ ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
 caps.latest.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugMemoryContext2::Compare
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.  

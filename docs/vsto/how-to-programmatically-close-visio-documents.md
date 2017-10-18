@@ -2,7 +2,6 @@
 title: "How to: Programmatically Close Visio Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], closing Visio documents"
 ms.assetid: 59c0e215-a4c1-4b39-a491-37534f172705
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Programmatically Close Visio Documents

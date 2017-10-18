@@ -14,20 +14,6 @@ ms.assetid: 97c48c49-3fb2-4778-accd-8585fa4feabf
 caps.latest.revision: 3
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # AsyncVoidMethodBuilder.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  

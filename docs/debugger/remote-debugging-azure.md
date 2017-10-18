@@ -13,21 +13,6 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017
@@ -52,6 +37,10 @@ For an Azure VM, you must deploy your app from Visual Studio to Azure and you al
 
 > [!NOTE]
 > To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
+
+### Requirements
+
+Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
@@ -174,10 +163,6 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 ### <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-
-### Requirements
-
-The remote debugger is supported on Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 

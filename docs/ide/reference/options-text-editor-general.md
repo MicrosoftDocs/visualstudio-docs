@@ -42,6 +42,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.General"
   - "VS.ToolsOptionsPages.Text_Editor.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp"
+  - "VS.ToolsOptionsPages.Text_Editor.Python"
+  - "VS.ToolsOptionsPages.Text_Editor.R"
 helpviewer_keywords: 
   - "Text Editor Options dialog box"
   - "Code Editor"
@@ -49,23 +51,9 @@ helpviewer_keywords:
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Options, Text Editor, General
 This dialog box lets you change global settings for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code and Text Editor. To display this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, and then click **General**.  

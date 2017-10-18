@@ -21,21 +21,6 @@ caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Remote Debugging a Visual C++ Project in Visual Studio
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
@@ -43,6 +28,13 @@ To debug a Visual Studio application on a different computer, install and run th
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
 
 For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
+
+## Requirements
+
+The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
+
+> [!NOTE]
+> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
   
 ## Download and Install the Remote Tools
 
@@ -50,10 +42,6 @@ For information about remote debugging Universal Windows Apps (UWP), see [Debug 
   
 > [!TIP]
 > In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
-  
-## Requirements
-
-The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. Remote debugging over an Internet connection is not supported. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger
 

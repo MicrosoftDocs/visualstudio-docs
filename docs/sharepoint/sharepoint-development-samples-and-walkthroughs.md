@@ -2,7 +2,6 @@
 title: "SharePoint Development Samples and Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, walkthroughs"
 ms.assetid: 3cf81bd7-f120-4d2f-951f-ea628c90d172
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # SharePoint Development Samples and Walkthroughs

@@ -14,20 +14,6 @@ ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Migrating a Legacy Language Service
 You can migrate a legacy language service to a later version of Visual Studio by updating the project and adding a source.extension.vsixmanifest file to the project. The language service itself will continue to function as before, because the Visual Studio editor adapts it.  

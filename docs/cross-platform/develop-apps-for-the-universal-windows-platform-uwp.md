@@ -13,21 +13,6 @@ caps.latest.revision: 48
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device from phones to desktops. Create these Universal Windows apps with Visual Studio 2015 and the Universal Windows App Development tools.  
@@ -42,32 +27,22 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   
  **What exactly is the Universal Windows Platform?**  
   
- It's simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](http://msdn.microsoft.com/library/windows/apps/dn894631.aspx).  
+ It's simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide).  
   
 ## Requirements  
  The Universal Windows App Development tools come with emulators that you can use to see how your app looks on different devices. If you want to use these emulators, you need to install this software on a physical machine. The physical machine must run Windows 8.1 (x64) Professional edition or higher, and have a processor that supports Client Hyper-V and Second Level Address Translation (SLAT). The emulators cannot be used when Visual Studio is installed on a virtual machine.  
   
  Here is the list of software that you need:  
   
--   [Windows 10](http://windows.microsoft.com/windows/downloads)  
+-   [Windows 10](http://windows.microsoft.com/windows/downloads). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform Targeting](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) and [System Requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs).   
   
--   [Visual Studio 2015](http://go.microsoft.com/fwlink/p/?LinkId=526725). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.  
+-   [Visual Studio 2017](https://www.visualstudio.com/downloads/). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.  
   
- After installing this software, you need to [enable your Windows 10 device](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx) for development. (You no longer need a developer license for each Windows 10 device.)  
-  
- **Windows 8.1 and Windows 7 support**  
-  
- If you choose to develop Universal Windows apps with Visual Studio 2015 on a platform other than Windows 10, these are the restrictions:  
-  
--   Windows 8.1: You can't run the app locally (only on a remote Windows 10 device). You can use the emulators in Visual Studio, but not the simulator.  
-  
--   Windows 7: You can't run the app locally (only on a remote Windows 10 device). You can't use the emulators or the simulator in Visual Studio either.  
-  
- You can only use the XAML designer if your development platform is Windows 10.  
-  
+ After installing this software, you need to [enable your Windows 10 device](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development) for development. (You no longer need a developer license for each Windows 10 device.)  
+    
 ## Universal Windows apps  
- Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](http://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).  
+ Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](https://docs.microsoft.com/windows/uwp/get-started/your-first-app). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).  
   
- If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015 RC, [port these existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) to use the latest Universal Windows Platform.  
+ If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015, [port these existing apps](https://docs.microsoft.com/windows/uwp/porting/index) to use the latest Universal Windows Platform.  
   
- After you create your Universal Windows app, you must [package your app](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) to install it on a Windows 10 device or submit it to the Windows Store.
+ After you create your Universal Windows app, you must [package your app](https://docs.microsoft.com/windows/uwp/packaging/index) to install it on a Windows 10 device or submit it to the Windows Store.

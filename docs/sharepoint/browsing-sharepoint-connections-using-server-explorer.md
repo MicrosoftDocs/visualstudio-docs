@@ -2,7 +2,6 @@
 title: "Browsing SharePoint Connections Using Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio]"
 ms.assetid: b3b1d97b-e990-414c-8ba5-3fd1b463fbef
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Browsing SharePoint Connections Using Server Explorer

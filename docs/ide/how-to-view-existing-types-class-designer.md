@@ -16,23 +16,9 @@ helpviewer_keywords:
   - "class diagrams, types"
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: View Existing Types (Class Designer)
 To see an existing type and its members, add its shape to a class diagram.  

@@ -2,7 +2,6 @@
 title: "How to: Protect Parts of Documents by Using Content Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,8 +21,8 @@ helpviewer_keywords:
   - "GroupContentControl"
 ms.assetid: 50d7286a-7746-446f-8eef-06ceeadc94d0
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # How to: Protect Parts of Documents by Using Content Controls

@@ -15,24 +15,9 @@ helpviewer_keywords:
   - "File.AddNewItem command"
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Add New Item Command
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  

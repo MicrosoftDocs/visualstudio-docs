@@ -2,7 +2,6 @@
 title: "Collaborative Development of Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,8 +18,8 @@ helpviewer_keywords:
   - "collaborative development [Office development in Visual Studio]"
 ms.assetid: c493354b-17d3-4e50-85f0-968b104bc978
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Collaborative Development of Office Solutions

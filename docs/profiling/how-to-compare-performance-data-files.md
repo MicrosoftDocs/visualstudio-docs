@@ -18,21 +18,6 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Compare Performance Data Files
 You can compare the results of two different profiler data files (.vsp or .vsps) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  

@@ -1,6 +1,5 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring-csharp
-
 title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "expansions, unsafe"
 ms.assetid: 12114273-7f2f-43d0-abcb-2d4711a3a68d
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Restore C# Refactoring Snippets
 C# refactoring operations rely on code snippets found in the following directory:  

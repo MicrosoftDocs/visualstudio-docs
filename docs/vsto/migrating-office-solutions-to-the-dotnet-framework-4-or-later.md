@@ -2,7 +2,6 @@
 title: "Migrating Office Solutions to the .NET Framework 4 or later | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +17,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 ms.assetid: 31f6c48b-c086-4362-8629-f644d6083a44
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Migrating Office Solutions to the .NET Framework 4 or later

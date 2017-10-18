@@ -15,20 +15,6 @@ ms.assetid: 8c3db51d-7014-4484-802a-15aa1353dbdb
 caps.latest.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # CustomDataSignature Element (Visual Studio Templates)
 Specifies the text signature to locate the custom data.  

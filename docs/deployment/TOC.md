@@ -103,4 +103,3 @@
 #### [<PackageFiles> Element (Bootstrapper)](packagefiles-element-bootstrapper.md)
 #### [<Strings> Element (Bootstrapper)](strings-element-bootstrapper.md)
 #### [<Schedules> Element (Bootstrapper)](schedules-element-bootstrapper.md)
-## [InstallShield Limited Edition](installshield-limited-edition.md)

@@ -16,23 +16,9 @@ helpviewer_keywords:
   - "code comments"
 ms.assetid: f36b46af-443a-4fa6-a2c3-0c4962bbd4aa
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Supplying XML Code Comments
 You can make the comments in source code files available as IntelliSense. When you add the /doc switch to the Visual Basic, C#, or C++ compiler command line, an .xml file is generated that serves as the basis for IntelliSense documentation.  

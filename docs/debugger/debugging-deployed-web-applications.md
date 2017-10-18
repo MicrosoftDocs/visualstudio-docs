@@ -25,20 +25,6 @@ caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Debugging Deployed ASP.NET Applications
 To use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to debug a deployed application, you must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process and make sure that the debugger has access to symbols for the application. You must also locate and open the source files for the application. For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md), and [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
@@ -52,8 +38,7 @@ The process for attaching to the [!INCLUDE[vstecasp](../code-quality/includes/vs
 >  Many [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications reference DLLs that contain business logic or other useful code. Such a reference copies the DLL from your local computer to the \bin folder of the Web application's virtual directory when you deploy your app. When you are debugging, remember that your Web application is referencing that copy of the DLL and not the copy on your local computer. 
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
- [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
+ [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
  [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
  [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

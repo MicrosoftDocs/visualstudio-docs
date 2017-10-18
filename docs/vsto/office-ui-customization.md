@@ -2,7 +2,6 @@
 title: "Office UI Customization | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], UI customization"
 ms.assetid: 3d7c7b88-2053-4ada-bfe7-e7bb202c430b
 caps.latest.revision: 74
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: "ghogen"
 ---
 # Office UI Customization
