@@ -16,20 +16,6 @@ ms.assetid: 368ced5b-c5d9-4090-a5b4-26ff400d1a55
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugCoreServer3::GetConnectionProtocol
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  

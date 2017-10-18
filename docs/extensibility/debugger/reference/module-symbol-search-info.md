@@ -16,20 +16,6 @@ ms.assetid: 432aff03-08a5-4c5a-b2d5-e212090fc70a
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 Contains status information about symbol search paths that have been searched.  

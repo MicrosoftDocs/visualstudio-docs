@@ -17,20 +17,6 @@ ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
 caps.latest.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # QUERYCHANGESFUNC
 This is a callback function used by the [SccQueryChanges](../extensibility/sccquerychanges-function.md) operation to enumerate a collection of file names and determine each file's status.  

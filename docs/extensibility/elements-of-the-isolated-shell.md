@@ -14,20 +14,6 @@ ms.assetid: f8d68c3d-9134-4a8f-b566-485956cd321e
 caps.latest.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Elements of the Isolated Shell
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  

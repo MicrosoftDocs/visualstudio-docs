@@ -16,20 +16,6 @@ ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 Watches for execution (or stops watching for execution) to occur on the given thread.  

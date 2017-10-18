@@ -16,20 +16,6 @@ ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # DBG_ATTRIB_FLAGS
 Describes various attributes for an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) or an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) interface. Member of the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure.  

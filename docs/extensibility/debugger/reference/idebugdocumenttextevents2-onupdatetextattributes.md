@@ -16,20 +16,6 @@ ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 Notifies the debug package that text attributes have been updated in the document.  

@@ -13,20 +13,6 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adding References Using NuGet Versus an Extension SDK
 You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.  

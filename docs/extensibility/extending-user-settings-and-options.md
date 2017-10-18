@@ -17,20 +17,6 @@ ms.assetid: 5bb6277a-8c9d-48c8-9b4e-1cb3052caded
 caps.latest.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Extending User Settings and Options
 In Visual Studio there are two main ways to maintain user preferences. The **Tools / Options** pages allow users to set their own values for many different kinds of settings, both general and language-specific. User settings allow users to specify general Visual Studio configuration properties. For more information about options pages, see [Options and Options Pages](../extensibility/internals/options-and-options-pages.md). For more information about user settings, see [Support for User Settings](../extensibility/internals/support-for-user-settings.md).  

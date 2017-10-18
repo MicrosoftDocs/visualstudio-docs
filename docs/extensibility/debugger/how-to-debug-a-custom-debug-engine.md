@@ -15,20 +15,6 @@ ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How To: Debug a Custom Debug Engine
 A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method. This means that the DE is launched under the control of the instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] controlling the project type. However, that instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] cannot debug the DE. What follows are the steps to allow you to debug your custom DE.  

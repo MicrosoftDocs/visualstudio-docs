@@ -16,20 +16,6 @@ ms.assetid: d4b72e04-f726-46cf-8e56-5203ff205b12
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgramPublisher2::PublishProgramNode
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).  

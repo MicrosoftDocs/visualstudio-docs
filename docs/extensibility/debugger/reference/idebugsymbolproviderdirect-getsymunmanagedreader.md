@@ -15,20 +15,6 @@ ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
 Retrieves a symbol reader for unmanaged code.  

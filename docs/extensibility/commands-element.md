@@ -17,20 +17,6 @@ ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Commands Element
 Represents the collection of commands on the VSPackage toolbar. The collection can have up to five subsections, as follows: menus, groups, buttons, combos, and bitmaps.  

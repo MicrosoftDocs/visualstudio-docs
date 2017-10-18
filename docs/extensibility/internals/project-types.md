@@ -15,20 +15,6 @@ ms.assetid: 263a084f-f97a-4e09-add7-f0e8a6a27daf
 caps.latest.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Project Types
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.  

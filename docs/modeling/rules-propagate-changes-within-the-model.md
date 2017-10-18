@@ -14,20 +14,6 @@ caps.latest.revision: 30
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Rules Propagate Changes Within the Model
 You can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK). When a change occurs to any element in the Store, rules are scheduled to be executed, usually when the outermost transaction is committed. There are different types of rules for different kinds of events, such as adding an element, or deleting it. You can attach rules to specific types of elements, shapes, or diagrams. Many built-in features are defined by rules: for example, rules ensure that a diagram is updated when the model changes. You can customize your domain-specific language by adding your own rules.  

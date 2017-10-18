@@ -11,21 +11,6 @@ caps.latest.revision: 10
 author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Setup, install, and verifications for Mac users
 This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows computer and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.

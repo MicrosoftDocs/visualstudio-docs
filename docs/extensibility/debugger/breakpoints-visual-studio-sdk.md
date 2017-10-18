@@ -14,20 +14,6 @@ ms.assetid: acfcabed-9f2f-436c-ad18-7ca2f45d631b
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Breakpoints (Visual Studio SDK)
 There are three types of breakpoints: pending, bound, and error.  

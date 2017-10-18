@@ -16,20 +16,6 @@ ms.assetid: f2fa81e7-822f-456e-8729-a96a18eea771
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProperty3::CreateObjectID
 Creates a unique ID for this property to ensure that it is unique among all other properties.  

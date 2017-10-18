@@ -16,20 +16,6 @@ ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 19
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Generate Registry Information for an Installer
 The RegPkg.exe utility can be used to generate a registration manifest for a managed VSPackage. The manifest can be incorporated into a Windows Installer setup package. RegPkg also can generate a file that can be included in a setup source file based on the [Windows Installer XML Toolset](http://go.microsoft.com/fwlink/?LinkId=62238).  

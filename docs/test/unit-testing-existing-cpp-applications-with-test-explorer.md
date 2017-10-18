@@ -12,20 +12,6 @@ ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 11
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Unit testing existing C++ applications with Test Explorer
 We recommend that, before you change an existing application, you make sure that it has a good coverage with unit tests. This gives you confidence that your changes have not introduced bugs. If the application does not already have unit tests, you can add them by using the techniques demonstrated in this topic. This topic describes how to add unit tests for existing Visual C++ code, starting with deciding how to test your code, and then creating, writing, and finally, running the tests.  

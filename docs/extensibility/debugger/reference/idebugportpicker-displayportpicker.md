@@ -15,20 +15,6 @@ ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPortPicker::DisplayPortPicker
 Displays the specified dialog box that allows the user to select a port.  

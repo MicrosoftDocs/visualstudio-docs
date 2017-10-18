@@ -17,20 +17,6 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create Multi-Project Templates
 Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.  

@@ -17,20 +17,6 @@ ms.assetid: 63df14c7-8d7e-47c1-afa7-5a1ab5d8eaba
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugMemoryContext2::Subtract
 Subtracts the specified value from the current context and returns a new context.  

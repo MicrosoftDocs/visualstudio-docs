@@ -15,20 +15,6 @@ ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
 caps.latest.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Syntax Coloring in a Legacy Language Service
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses a coloring service to identify elements of the language and display them with the specified colors in an editor.  

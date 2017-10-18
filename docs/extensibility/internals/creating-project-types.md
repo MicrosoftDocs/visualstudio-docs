@@ -15,20 +15,6 @@ ms.assetid: bdb2d22e-d622-450c-bb2d-98152a745fcf
 caps.latest.revision: 25
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating Project Types
 You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  

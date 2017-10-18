@@ -25,20 +25,6 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Executable for Debugging Session Dialog Box
 This dialog box appears when you try to debug a DLL for which no executable is specified. Visual Studio cannot launch a DLL directly. Instead, it will launch the specified executable. You can debug the DLL when it is called by the executable.  

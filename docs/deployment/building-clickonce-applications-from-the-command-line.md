@@ -21,20 +21,6 @@ caps.latest.revision: 23
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Building ClickOnce Applications from the Command Line
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] on another computer that has only the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installed. This allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.  

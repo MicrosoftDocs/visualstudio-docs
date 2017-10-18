@@ -15,21 +15,6 @@ caps.latest.revision: 65
 author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Get Started Developing with Visual Studio
 Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.  

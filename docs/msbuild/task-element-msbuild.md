@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs:
+dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Task element [MSBuild]"
   - "<Task> element [MSBuild]"
 ms.assetid: d82e2485-e5f0-4936-a357-745bacccc299
@@ -21,20 +21,6 @@ caps.latest.revision: 22
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Task Element (MSBuild)
 Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. The element name is determined by the name of the task being created.  

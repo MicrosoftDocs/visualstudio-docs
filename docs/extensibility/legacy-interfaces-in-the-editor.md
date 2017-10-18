@@ -14,20 +14,6 @@ ms.assetid: 741d45f5-0ea3-4614-972a-8728fe054e07
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Legacy Interfaces in the Editor
 You can access the Visual Studio editor from legacy interfaces. The Visual Studio SDK includes adapters known as *shims*, which enable these interfaces to interact with the new editor. Nevertheless, we recommend that you update your legacy code to use the new editor API. Your code will perform better and you can use new technologies such as the Windows Presentation Foundation (WPF) and the Managed Extensibility Framework (MEF).  

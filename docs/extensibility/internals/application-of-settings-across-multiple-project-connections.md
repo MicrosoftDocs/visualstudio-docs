@@ -14,20 +14,6 @@ ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
 caps.latest.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Application of Settings Across Multiple Project Connections
 A source control plug-in built using the Source Control Plug-in API 1.2, can use a batch operation to execute the same source control operation across multiple projects or multiple connection contexts. Batches can be used to eliminate redundant, per-project dialog boxes from the user experience.  

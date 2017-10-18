@@ -14,20 +14,6 @@ ms.assetid: A7B98509-7ACA-4E25-BD1B-BBC98742F028
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Overview of Microsoft IntelliTest
 

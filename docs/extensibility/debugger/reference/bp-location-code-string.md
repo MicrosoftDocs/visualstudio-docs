@@ -16,20 +16,6 @@ ms.assetid: a4cd71c6-5052-45fe-907b-ebc6ca1df2e4
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # BP_LOCATION_CODE_STRING
 Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE).  

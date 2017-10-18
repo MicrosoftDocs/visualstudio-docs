@@ -16,20 +16,6 @@ ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # MACHINE_INFO_FIELDS
 Specifies what kind of information to retrieve for a particular machine.  

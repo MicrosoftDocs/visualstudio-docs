@@ -15,20 +15,6 @@ ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
 caps.latest.revision: 18
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Test Area 2: Get From Source Control
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.  

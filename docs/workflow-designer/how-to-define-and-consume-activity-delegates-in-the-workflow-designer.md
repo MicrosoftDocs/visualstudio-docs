@@ -10,20 +10,6 @@ ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 caps.latest.revision: 3
 ms.author: "sdanie"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Define and consume activity delegates in the Workflow Designer
 [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] includes a new out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc%601>.  

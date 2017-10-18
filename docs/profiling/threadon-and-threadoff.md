@@ -13,20 +13,6 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ThreadOn and ThreadOff
 The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available in command-line profiling sessions that use the instrumentation method. **ThreadOff** and **ThreadOn** pause and resume profiling for the specified thread. **ThreadOff** stops profiling the thread and **ThreadOn** starts profiling the thread.  

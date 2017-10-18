@@ -15,20 +15,6 @@ ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # VisibilityItem Element
 The `VisibilityItem` element determines the static visibility of commands and toolbars. Every entry identifies a command or menu, and also an associated command UI context. Visual Studio detects commands, menus, and toolbars, and their visibility, without loading the VSPackages that define them. The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method to determine whether a command UI context is active.  

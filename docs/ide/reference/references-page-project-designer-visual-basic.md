@@ -21,21 +21,6 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # References Page, Project Designer (Visual Basic)
 Use the **References** page of the **Project Designer** to manage references, Web references, and imported namespaces in your project. Projects can contain references to COM components, XML Web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).  

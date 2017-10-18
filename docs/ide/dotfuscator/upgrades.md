@@ -24,20 +24,6 @@ description: "Learn how to upgrade the free Dotfuscator Community Edition includ
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Upgrade Dotfuscator Community Edition (CE)

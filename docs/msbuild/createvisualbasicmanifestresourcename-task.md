@@ -21,20 +21,6 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # CreateVisualBasicManifestResourceName Task
 Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  

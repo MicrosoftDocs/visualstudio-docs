@@ -16,20 +16,6 @@ ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 caps.latest.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Upgrading Projects
 Changes to the project model from one version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.  

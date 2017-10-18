@@ -13,20 +13,6 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # TerminateWorkflow Activity Designer
 The **TerminateWorkflow** activity designer is used to create and configure a <xref:System.Activities.Statements.TerminateWorkflow> activity.  

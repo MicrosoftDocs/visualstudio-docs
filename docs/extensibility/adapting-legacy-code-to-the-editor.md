@@ -14,20 +14,6 @@ ms.assetid: a208d38e-9bea-41c9-9fe2-38bd86a359cb
 caps.latest.revision: 25
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adapting Legacy Code to the Editor
 The Visual Studio editor has many features that you can access from existing code components. The following instructions show how to adapt a non-MEF component, for example, a VSPackage, to consume editor functionality. The instructions also show how to use adapters to get the services of the editor in both managed and unmanaged code.  

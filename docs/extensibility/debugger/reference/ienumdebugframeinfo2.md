@@ -16,20 +16,6 @@ ms.assetid: 994e30ad-435a-4f9e-9272-d96d9e01099c
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugFrameInfo2
 This interface enumerates [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures.  

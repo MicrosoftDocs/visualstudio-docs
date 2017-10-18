@@ -23,21 +23,6 @@ caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Visual Studio Integration (MSBuild)
 Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] format can be successfully used in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], even if the project was authored by a different tool and has a customized build process.  

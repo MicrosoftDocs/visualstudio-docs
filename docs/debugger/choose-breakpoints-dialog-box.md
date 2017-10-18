@@ -26,20 +26,6 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Choose Breakpoints Dialog Box
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.  

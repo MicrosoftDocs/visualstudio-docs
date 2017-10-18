@@ -16,20 +16,6 @@ ms.assetid: 0f2a8c51-1315-4c96-8aa1-6a937dc2a769
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugProgram2::EnumThreads
 Retrieves a list of the threads that are running in the program.  

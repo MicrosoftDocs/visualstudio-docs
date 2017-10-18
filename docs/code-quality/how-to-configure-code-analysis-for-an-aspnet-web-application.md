@@ -15,21 +15,6 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Configure Code Analysis for an ASP.NET Web Application
 In [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] and [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)] you can select from a list of Code Analysis *rule sets* to apply to [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. The default rule set is the Microsoft Mininimum Recommended Rules. You can select another rule set to apply to the Web site.  

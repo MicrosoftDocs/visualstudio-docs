@@ -16,20 +16,6 @@ ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
 caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SccGetEvents Function
 This function retrieves a queued status event.  

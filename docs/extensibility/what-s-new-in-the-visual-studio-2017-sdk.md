@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/09/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,20 +13,6 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 

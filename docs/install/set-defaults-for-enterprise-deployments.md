@@ -4,35 +4,20 @@ description: "Domain policies and other configuration operations for enterprise 
 ms.date: "05/05/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "gpo"
   - "policy"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
 author: "heaths"
 ms.author: "heaths"
 manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Set defaults for enterprise deployments of Visual Studio
 

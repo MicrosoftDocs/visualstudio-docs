@@ -15,20 +15,6 @@ ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Bitmaps Element
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  

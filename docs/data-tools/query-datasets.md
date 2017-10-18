@@ -14,11 +14,6 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ms.technology: "vs-data-tools"
 ---
 # Query datasets

@@ -16,20 +16,6 @@ ms.assetid: 301b7a75-ecfa-46f1-9131-66cf3e4be147
 caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugPropertyDestroyEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a property that is associated with a specific document is about to be destroyed.  

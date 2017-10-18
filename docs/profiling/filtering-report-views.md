@@ -15,20 +15,6 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Filtering Report Views
 You can apply filters to profiling data files to limit the profiling data that is displayed in the Performance Report views and exported to report files. You can limit a report to the data between time stamp values, and you can limit the data to specific processes and threads. You can save filters to a file and then create a filter on a different profiling data file by importing the saved filter.  

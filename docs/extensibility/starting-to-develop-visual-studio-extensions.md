@@ -15,20 +15,6 @@ ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 29
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Starting to Develop Visual Studio Extensions
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  

@@ -22,21 +22,6 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Remove Parameters Refactoring (C#)
 `Remove Parameters` is a refactoring operation that provides an easy way to remove parameters from methods, indexers, or delegates. Remove Parameters changes the declaration; at any locations where the member is called, the parameter is removed to reflect the new declaration.  

@@ -23,20 +23,6 @@ caps.latest.revision: 27
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # GenerateDeploymentManifest Task
 Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest describes the deployment of an application by defining a unique identity for the deployment, identifying deployment traits such as install or online mode, specifying application update settings and update locations, and indicating the corresponding [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest.  

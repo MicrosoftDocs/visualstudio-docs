@@ -16,20 +16,6 @@ ms.assetid: a5a02b38-4e3a-4f0e-b529-f770c3485c8b
 caps.latest.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IEnumDebugErrorBreakpoints2::Skip
 Skips over the specified number of elements.  
