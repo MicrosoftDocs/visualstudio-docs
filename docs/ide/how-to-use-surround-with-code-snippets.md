@@ -16,20 +16,6 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Use Surround-with Code Snippets
 The following procedures describe how to use surround-with code snippets. Surround-with code snippets are available three ways: through a keyboard shortcut, through the Edit menu, and through the context menu.  

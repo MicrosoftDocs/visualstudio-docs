@@ -13,20 +13,6 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Command-Line Arguments for the Help Content Manager
 You can specify how to deploy and manage local Help content by using command-line arguments for Help Content Manager (HlpCtntmgr.exe). You must run scripts for this command-line tool with administrator permissions, and you can't run these scripts as a service. You can perform the following tasks by using this tool:  

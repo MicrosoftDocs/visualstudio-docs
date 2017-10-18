@@ -25,20 +25,6 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Allocation Hooks and C Run-Time Memory Allocations
 A very important restriction on allocation hook functions is that they must explicitly ignore `_CRT_BLOCK` blocks (the memory allocations made internally by C run-time library functions) if they make any calls to C run-time library functions that allocate internal memory. The `_CRT_BLOCK` blocks can be ignored by including code such as the following at the beginning of your allocation hook function:  

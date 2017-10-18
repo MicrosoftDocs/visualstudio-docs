@@ -15,20 +15,6 @@ ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Define Element
 Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols Element](../extensibility/symbols-element.md).  

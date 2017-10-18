@@ -14,20 +14,6 @@ ms.assetid: 81331a7b-6bec-46e4-a53e-515d0fad2400
 caps.latest.revision: 3
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # AsyncVoidMethodBuilder.m_objectIdForDebugger Field
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  

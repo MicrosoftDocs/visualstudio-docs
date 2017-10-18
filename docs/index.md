@@ -707,7 +707,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             </div>
                                             <div class="cardText">
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833063">
-                                                    <h3>Visual C++</h3>
+                                                    <h3>C++</h3>
                                                     <p>A powerful and flexible programming language and development environment for creating applications for Windows, Linux, iOS, and Android.</p>
                                                 </a>
                                             </div>

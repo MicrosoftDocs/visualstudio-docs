@@ -11,20 +11,6 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Customizing Text and Image Fields
 When you define a text decorator in a shape, it is represented by a TextField. For examples of the initialization of TextFields and other ShapeFields, inspect Dsl\GeneratedCode\Shapes.cs in your DSL solution.  

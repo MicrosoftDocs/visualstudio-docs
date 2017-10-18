@@ -15,11 +15,6 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ms.technology: 
   - "vs-ide-code-analysis"
 ---

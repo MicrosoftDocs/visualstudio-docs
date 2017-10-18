@@ -11,20 +11,6 @@ caps.latest.revision: 7
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Control Flow Activity Designers
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to control the flow within a workflow. The following topics describe these activities and provide guidance on how to use them.  
