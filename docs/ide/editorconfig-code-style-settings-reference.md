@@ -1281,7 +1281,7 @@ Example .editorconfig file:
 csharp_space_after_cast = true
 csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_between_method_declaration_parameter_list_parentheses = true
-csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
+csharp_space_between_method_call_parameter_list_parentheses = true
 csharp_space_between_parentheses = control_flow_statements, type_casts
 ``` 
 
@@ -1364,7 +1364,10 @@ Specify the naming style using one or more of the following properties:
 | dotnet_naming_style.\<styleTitle\>.required_prefix | Required characters that must appear at the beginning of the identifier. |  
 | dotnet_naming_style.\<styleTitle\>.required_suffix | Required characters that must appear at the end of the identifier. |  
 | dotnet_naming_style.\<styleTitle\>.word_separator | Required character between words in the identifier. | 
-| dotnet_naming_style.\<styleTitle\>.capitalization | pascal_case, camel_case, first_word_upper, all_upper, all_lower |  
+| dotnet_naming_style.\<styleTitle\>.capitalization | pascal_case, camel_case, first_word_upper, all_upper, all_lower |
+
+> [!NOTE]
+> You must specify a capitalization style as part of your naming style, otherwise your naming style will be ignored.  
 
 #### Severity
 Identify the severity level for a naming rule with this property: `dotnet_naming_rule.<namingRuleTitle>.severity`.  
