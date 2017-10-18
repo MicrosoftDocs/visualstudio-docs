@@ -8,11 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "attributes [C#], debugger"
   - "DebuggerDisplay attribute"
