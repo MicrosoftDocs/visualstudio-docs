@@ -1281,7 +1281,7 @@ Example .editorconfig file:
 csharp_space_after_cast = true
 csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_between_method_declaration_parameter_list_parentheses = true
-csharp_space_between_method_call_parameter_list_parentheses = control_flow_statements, type_casts
+csharp_space_between_method_call_parameter_list_parentheses = true
 csharp_space_between_parentheses = control_flow_statements, type_casts
 ``` 
 
