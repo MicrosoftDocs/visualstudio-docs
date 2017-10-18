@@ -14,20 +14,6 @@ ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
 caps.latest.revision: 5
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # SetNotificationForWaitCompletion Method
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  

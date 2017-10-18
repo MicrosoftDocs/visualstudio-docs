@@ -15,20 +15,6 @@ ms.assetid: 654910b2-c239-44c8-92fc-317680a5672f
 caps.latest.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugWindowsComputerPort2::GetComputerInfo
 Retrieves information about the computer on which the debugger in running.  

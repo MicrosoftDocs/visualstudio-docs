@@ -211,6 +211,8 @@ Eventually you may want to maintain your own `web.config` file and use `requirem
 
 ## Remote debugging on Azure App Service
 
-To enable remote debugging with either Visual Studio 2017 or 2015, right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. This template adds a debugging `web.debug.config` file to your project along with a `ptvsd` folder containing debugging tools.
+When you publish a Debug configuration from Visual Studio 2015, the process automatically creates a `web.debug.config` file and adds a `ptvsd` folder containing the necessary debugging tools.
 
-Once you publish the app again, you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).
+With Visual Studio 2017, you instead add these components directly to the project. Right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. A debugging `web.debug.config` file and the `ptvsd` tool folder appear in your project.
+
+Once these files are deployed to the server (automatically with Visual Studio 2015; on your next publish with Visual Studio 2017), you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).

@@ -16,20 +16,6 @@ ms.assetid: 48788dbf-7da0-4443-8061-aab966fc22c8
 caps.latest.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Name Element (Visual Studio Templates)
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.  

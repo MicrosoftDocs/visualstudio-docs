@@ -20,20 +20,6 @@ caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Specify Verbose Log Files for ClickOnce Deployments
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  

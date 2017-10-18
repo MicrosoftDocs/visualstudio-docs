@@ -13,20 +13,6 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Filter Report Views from the Summary Timeline
 You can filter the data that appears in performance reports by specifying a time segment in the timeline graph of the Summary View. When you filter reports, the profiling data file is reanalyzed to include only the time segment that you specified.  

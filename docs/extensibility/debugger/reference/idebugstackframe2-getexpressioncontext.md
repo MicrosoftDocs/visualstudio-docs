@@ -16,20 +16,6 @@ ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
 caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # IDebugStackFrame2::GetExpressionContext
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.  
