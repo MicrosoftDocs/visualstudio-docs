@@ -38,6 +38,7 @@ Also see the following scenario-specific debugging topics:
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)
 
 <a name="debugging-without-a-project"></a>
+
 > [!Tip]
 > Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md)) and no arguments. But from then on, you have full debugging support.
 >

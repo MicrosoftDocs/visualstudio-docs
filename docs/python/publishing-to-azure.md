@@ -154,17 +154,25 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. When the browser opens, you may see the message, "The page cannot be displayed because an internal server error has occurred." This message indicates that your Python environment on the server is not fully configured, in which case do the following steps:
 
-    a. Refer again to [Managing Python on Azure App Service](managing-python-on-azure-app-service.md), making sure that you have an appropriate Python extension installed...
+    a. Refer again to [Managing Python on Azure App Service](managing-python-on-azure-app-service.md), making sure that you have an appropriate Python site extension installed.
      
-    b. Double-check the path to the Python interpreter in your `web.config` file.     
+    b. Double-check the path to the Python interpreter in your `web.config` file. The path must exactly match the install location of your chosen site extension.    
  
-    c. Use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file: navigate to your Python folder, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
+    c. Use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file: navigate to the same Python folder that's used in `web.config`, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
 
     ```
     python -m pip install --upgrade -r /home/site/wwwroot/requirements.txt
     ```          
 
-    d. You may need to restart the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
+    If you see permission errors when running this command, double-check that you're running the command in your site extension folder and *not* in the folder of one of App Service's default Python installations. Because you can't modify those default environments, attempting to install packages will certainly fail.
+
+    d. For detailed error output, add the following line to `web.config` within the `<system.webServer>` node, which provides more detailed error output:
+
+    ```xml
+    <httpErrors errorMode="Detailed"></httpErrors>
+    ```
+
+    e. Try restarting the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
 
     > [!Tip] 
     > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file. 
