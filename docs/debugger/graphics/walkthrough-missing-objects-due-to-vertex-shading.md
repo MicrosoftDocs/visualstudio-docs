@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e42b54a0-8092-455c-945b-9ecafb129d93
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Walkthrough: Missing Objects Due to Vertex Shading
