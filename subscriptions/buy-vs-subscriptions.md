@@ -103,7 +103,7 @@ go to the Visual Studio subscriptions portal
 
 ### Marketplace and Billing Q&A
 
-Visit the [Marketplace and Billing Q&A](../marketplace-billing-qa.md) to find answers to multiple common questions around the Visual Studio Marketplace and Azure billing. 
+Visit the [Marketplace and Billing Q&A](/vsts/marketplace/marketplace-billing-qa) to find answers to multiple common questions around the Visual Studio Marketplace and Azure billing. 
 
 ## Buying Standard subscriptions through the Microsoft Store
 Visual Studio Standard subscriptions are available through the Microsoft Store.  To purchase or renew a subscription:
