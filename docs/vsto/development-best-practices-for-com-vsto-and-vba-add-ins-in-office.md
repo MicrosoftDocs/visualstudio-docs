@@ -2,7 +2,6 @@
 title: "Development best practices for COM, VSTO, and VBA  add-ins in Office | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/25/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
