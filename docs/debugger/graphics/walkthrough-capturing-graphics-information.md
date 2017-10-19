@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 48f12f6e-57b4-48ec-a145-89fa71a42424
 caps.latest.revision: 19
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Walkthrough: Capturing Graphics Information

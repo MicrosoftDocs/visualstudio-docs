@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3dbc3247-00f5-4644-8ff9-72e9febcf09a
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # 1x1 Viewport Size Variant

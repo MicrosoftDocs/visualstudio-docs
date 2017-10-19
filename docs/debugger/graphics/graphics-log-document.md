@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.graphics.vsglog"
 ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
 caps.latest.revision: 31
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Graphics Log Document
