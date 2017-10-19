@@ -21,3 +21,6 @@
 ## [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 ## [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 ## [Workload and Component ID Reference](workload-and-component-ids.md)
+# [Install Build Tools into a Container](build-tools-container.md)
+## [Advanced Example for Containers](advanced-build-tools-container.md)
+## [Caveats for Containers](build-tools-container-caveats.md)
