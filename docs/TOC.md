@@ -1,7 +1,6 @@
 # Overview
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
 ## [Visual Studio IDE Overview](ide/visual-studio-ide.md)
-## [What can you do with Visual Studio?](ide/what-can-you-do-with-visual-studio.md)
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [.NET Desktop Development](https://go.microsoft.com/fwlink/?linkid=833083)
@@ -71,12 +70,11 @@
 ### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
 ### [Workload and Component ID Reference](install/workload-and-component-ids.md)
 # Quickstarts
-## [Quickstart: use Visual Studio to create your first ASP.NET Core web app](ide/quickstart-aspnet-core.md)
-## [Walkthrough: Create a Simple Application with Visual C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
-## (TODO) Move around in the IDE
-## (TODO) Working with Solutions and Projects
-## (TODO) Personalizing the Visual Studio IDE
-## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
+## [Create your first ASP.NET Core web app](ide/quickstart-aspnet-core.md)
+## [Create a Simple App with C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+## Move around in the IDE
+## Work with Solutions and Projects
+## Personalize the Visual Studio IDE
 ## [Finding and Using Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
@@ -113,7 +111,17 @@
 ### [Step 8: Add a Method to Verify Whether the Player Won](ide/step-8-add-a-method-to-verify-whether-the-player-won.md)
 ### [Step 9: Try Other Features](ide/step-9-try-other-features.md)
 # Samples
-## [Visual Studio Samples](ide/visual-studio-samples.md)
+## [.NET Core (GitHub)](https://github.com/dotnet/core/tree/master/samples)
+## [.NET Framework](http://msdn.microsoft.com/177055f8-4a1f-43e7-aee6-995c196079b1)
+## [Windows (Windows Dev Center)](https://developer.microsoft.com/windows/samples)
+## [C++](https://docs.microsoft.com/cpp/visual-cpp-samples)
+## [C#](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=C%23&f%5B0%5D.Text=C%23)
+## [Visual Basic](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=VB&f%5B0%5D.Text=VB.NET)
+## [F#](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=F%23&f%5B0%5D.Text=F%23)
+## [JavaScript](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=JavaScript)
+## [DirectX](http://code.msdn.microsoft.com/site/search?query=DirectX&f%5B1%5D.Value=DirectX&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=C%20%20&f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Text=Invalid%20Value&ac=2)
+## [Office and SharePoint (Office Dev Center)](https://dev.office.com/code-samples)
+## [Extensibility (GitHub)](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 # How-to Guides
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
@@ -277,7 +285,8 @@
 #### [Shortcut Keys (Help Viewer)](ide/shortcut-keys-help-viewer.md)
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
-## [Visual Studio Template Reference](ide/visual-studio-template-reference.md)
+## Visual Studio Template Reference
+### [Template Schema Reference](extensibility/visual-studio-template-schema-reference,md)
 ### [Template Parameters](ide/template-parameters.md)
 ### [Creating Project and Item Templates](ide/creating-project-and-item-templates.md)
 #### [Create Project Templates](ide/how-to-create-project-templates.md)
@@ -291,7 +300,7 @@
 ##### [Update Existing Templates](ide/how-to-update-existing-templates.md)
 ##### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
 ##### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
-## [General User Interface Elements](ide/reference/general-user-interface-elements-visual-studio.md)
+## General User Interface Elements
 ### [Call Hierarchy](ide/reference/call-hierarchy.md)
 ### [Choose Toolbox Items, WPF Components](ide/reference/choose-toolbox-items-wpf-components.md)
 ### [Code Snippet Picker](ide/reference/code-snippet-picker.md)
