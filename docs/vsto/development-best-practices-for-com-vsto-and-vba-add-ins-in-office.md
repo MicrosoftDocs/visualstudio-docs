@@ -22,14 +22,14 @@ manager: "lforman"
 # Development best practices for COM, VSTO, and VBA  add-ins in Office
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
 
--  That your add-ins are compatible across different versions and deployments of Office.
+-  Compatibility of your add-ins across different versions and deployments of Office.
 -  Reduced complexity of add-in deployment for your users and IT administrators.
--  That unintended installation or runtime failures of your add-in do not occur.
+-  Unintended installation or runtime failures of your add-in do not occur.
 
 >Note: Using the [Desktop Bridge](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-root) to prepare your COM, VSTO or VBA add-in for the Windows Store is not supported. COM, VSTO and VBA add-ins cannot be distributed in the Windows Store or the Office Store. 
   
 ## Do not check for Office during installation  
- We don’t recommend that your add-in detect whether Office is installed during the installation process. If Office is not installed, you can install the add-in, and the user will be able to access it after Office is installed. 
+ We don’t recommend having your add-in detect whether Office is installed during the add-in installation process. If Office is not installed, you can install the add-in, and the user will be able to access it after Office is installed. 
   
 ## Use Embedded Interop Types (NoPIA)  
 If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding Type Information from Microsoft Office Assemblies](https://msdn.microsoft.com/en-us/library/ee317478.aspx) and [Type Equivalence and Embedded Interop Types](https://docs.microsoft.com/en-us/dotnet/framework/interop/type-equivalence-and-embedded-interop-types). 
