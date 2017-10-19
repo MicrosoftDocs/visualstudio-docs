@@ -1,7 +1,7 @@
 ---
 title: "Create portable, custom editor settings with EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/17/2017"
+ms.date: "10/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,36 +29,38 @@ Because the settings are contained in a file in the codebase, they travel along 
 ## Override EditorConfig settings
 When you add a .editorconfig file to a folder in your file hierarchy, its settings apply to all applicable files at that level and below. To override EditorConfig settings for a particular project or codebase and use different or overriding values than the top-level .editorconfig file, just add a .editorconfig file to the level you want to change.
 
-![EditorConfig hiearchy](../ide/media/vside_editorconfig_hierarchy.png)
+![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
 
 The new .editorconfig file settings will apply to the level in which it is located and all its subfiles.
 
 ## Supported settings
-The editor in Visual Studio supports the following values of the core set of EditorConfig options.
+The editor in Visual Studio supports the following from the core set of [EditorConfig properties](http://editorconfig.org/#supported-properties):  
+
 - indent_style
 - indent_size
 - tab_width
 - end_of_line
 - charset
 - root
-- [code style conventions](../ide/editorconfig-code-style-settings-reference.md)
+
+In addition, it supports the [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md).  
 
 EditorConfig settings are supported in all Visual Studio-supported languages except for XML.
 
 ## Example
-Here is an example that shows the indent state of a C# code snippet before and after adding a .editorconfig file to the project. The **Tabs** setting in the **Options** dialog box for the Visual Studio text editor is set to produce space characters when you press the TAB key in your code.
+Here is an example that shows the indent state of a C# code snippet before and after adding a .editorconfig file to the project. The **Tabs** setting in the **Options** dialog box for the Visual Studio text editor is set to produce space characters when you press the **Tab** key in your code.
 
 ![Text Editor tab setting](../ide/media/vside_editorconfig_tabsetting.png)
 
-As expected, pressing the TAB key on the next line indents the line by adding four additional white space characters.
+As expected, pressing the **Tab** key on the next line indents the line by adding four additional white space characters.
 
 ![Code before using EditorConfig](../ide/media/vside_editorconfig_before.png)
 
-We'll add the following to a new file called .editorconfig to the project. (The `[*.cs]` setting means that this change will apply only to .cs files in this project.)
+We'll add a new file called .editorconfig to the project, with the following contents. The `[*.cs]` setting means that this change will apply only to .cs files in this project.  
 
 ![Added .editorconfig file to project](../ide/media/vside_editorconfig_addconfig.png)
 
-Now, when you press the TAB key, you get Tab characters instead of spaces.
+Now, when you press the **Tab** key, you get tab characters instead of spaces.
 
 ![TAB adds Tab character](../ide/media/vside_editorconfig_tab.png)
 
@@ -69,35 +71,45 @@ Now, when you press the TAB key, you get Tab characters instead of spaces.
 
 In most cases when you implement a Visual Studio language service, no additional work is needed to support EditorConfig universal properties. The core editor automatically discovers and reads the .editorconfig file when users open files, and it sets the appropriate text buffer and view options. However, some language services opt to use an appropriate contextual text view option rather than using global settings for items such as tabs and spaces when a user edits or formats text. In these cases, the language service must be updated to support EditorConfig files.
 
-Following are the changes needed to update a language service to support EditorConfig files, by replacing a global language-specific option with a contextual option:
+Following are the changes needed to update a language service to support EditorConfig files, by replacing a global _language-specific_ option with a _contextual_ option:  
 
+### Indent style
 Replace:  
 
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs  
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs  
+_or_  
+Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs  
 
 With:  
 
-!textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) or
+!textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId)  
+_or_  
 !textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId)  
 
-*****
+### Indent size
 Replace:  
 
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize  
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize  
+_or_  
+Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize  
 
 With:  
 
-textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) or 
-textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId)  
+textBufferOptions.GetOptionValue(DefaultOptions.IndentSizeOptionId)  
+_or_  
+textView.Options.GetOptionValue(DefaultOptions.IndentSizeOptionId)  
 
-*****
+### Tab size
 Replace:  
 
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize or Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize  
+Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize  
+_or_  
+Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize  
 
 With:  
 
-textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) or 
+textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId)  
+_or_  
 textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)  
 
 # See Also
