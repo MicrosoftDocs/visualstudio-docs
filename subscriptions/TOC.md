@@ -39,9 +39,6 @@
 ### [Edit a subscription](edit-license.md)
 ### [Delete a subscription](delete-license.md)
 ### [Search for a subscription](search-license.md)
-### [Add multiple subscribers](bulk-assign-subscribers.md)
-### [Bulk edit subscriptions](bulk-edit-licenses.md)
-### [License usage reporting](license-reporting.md)
 ### [Handle over-claimed subscriptions](handle-overclaimed-license.md)
 ### [Handle expired subscriptions](handle-expired-license.md)
 
