@@ -93,6 +93,11 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master"
+    },
+    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/visualstudio-docs-pr",
       "branch": "live",
@@ -111,6 +116,11 @@
       }
     }
   ],
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "branch_target_mapping": {
     "live": [
       "Publish",
