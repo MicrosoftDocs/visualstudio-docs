@@ -31,10 +31,9 @@
 ##### [Technical Support](vs-tech-support.md)
 
 ## Administrators
-
+### [Admin roles and responsibilities](admin-responsibilities.md)
 ### [Accessing the Administrator Portal](access-admin-portal.md)
 ### [Using the Administrator Portal](using-admin-portal.md)
-### [Admin roles and responsibilities](admin-responsibilities.md)
 ### [Assign a subscription](assign-license.md)
 ### [Edit a subscription](edit-license.md)
 ### [Delete a subscription](delete-license.md)
@@ -45,6 +44,6 @@
 ### [Handle over-claimed subscriptions](handle-overclaimed-license.md)
 ### [Handle expired subscriptions](handle-expired-license.md)
 
-# Resources
-## [Terms of Use](vs-license-terms.md)
-## [Subscription Support](https://www.visualstudio.com/subscriptions/support/)
+## Resources
+### [Terms of Use](vs-license-terms.md)
+### [Subscription Support](https://www.visualstudio.com/subscriptions/support/)
