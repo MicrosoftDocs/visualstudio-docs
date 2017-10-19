@@ -74,6 +74,6 @@ You can update an existing template outside Visual Studio by modifying the files
 ## See also  
 [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
 [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
-[Visual Studio Template Schema Reference](../extensibil0ity/visual-studio-template-schema-reference.md)   
+[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
 [Template Parameters](../ide/template-parameters.md)   
 [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)
