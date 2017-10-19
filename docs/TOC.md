@@ -1,6 +1,6 @@
 # Overview
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
-## [Visual Studio IDE Feature Tour](ide/visual-studio-ide.md)
+## [Visual Studio IDE Overview](ide/visual-studio-ide.md)
 ## [What can you do with Visual Studio?](ide/what-can-you-do-with-visual-studio.md)
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
