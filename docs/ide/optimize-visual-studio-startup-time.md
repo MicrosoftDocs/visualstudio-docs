@@ -1,7 +1,7 @@
 ---
 title: "Optimize Visual Studio Startup Time | Microsoft Docs"
 ms.custom: ""
-ms.date: 8/31/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -55,20 +55,8 @@ If a tool window is slowing down Visual Studio startup and you wish to change th
 
 You can always return to this dialog box at any time to change the setting for any given tool window.
 
-## <a name="speed_up_solution_load"></a>Load large solutions faster in Visual Studio 2017
-
-Visual Studio 2017 introduces a new feature called lightweight solution load that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load. For detailed information on how you might benefit by using this feature, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md).
-
-> [!NOTE]
-> This content applies to Visual Studio 2017 Update 3.
-
-### Enable or disable lightweight solution load
-
-You can right-click the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and reopen the solution to activate lightweight solution load.
-
-![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
-
-To configure global settings for lightweight solution load, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md#global_solution_load_settings).
+> [NOTE]
+> Versions of Visual Studio prior to Update 15.5 had a feature called **Lightweight Solution Load**. This feature has been deprecated in Visual Studio 2017 Update 15.5 and later.  
 
 ## See Also
 [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
