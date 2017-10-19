@@ -1,4 +1,4 @@
-# [Shell (Isolated or Integrated)](../shell-isolated-or-integrated.md)
+# [Shell (Isolated or Integrated)](shell-isolated-or-integrated.md)
 ## [Visual Studio Isolated Shell](../visual-studio-isolated-shell.md)
 ### [Walkthrough: Creating a Basic Isolated Shell Application](../walkthrough-creating-a-basic-isolated-shell-application.md)
 ### [Customizing the Isolated Shell](../customizing-the-isolated-shell.md)

@@ -1,3 +1,3 @@
 ---
-redirect_url: shell-isolated-or-integrated.md
+redirect_url: shell-isolated-or-integrated
 ---
