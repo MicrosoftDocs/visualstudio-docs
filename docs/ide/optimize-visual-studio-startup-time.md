@@ -1,7 +1,7 @@
 ---
 title: "Optimize Visual Studio performance | Microsoft Docs"
 ms.custom: ""
-ms.date: 11/15/2017
+ms.date: 10/19/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
