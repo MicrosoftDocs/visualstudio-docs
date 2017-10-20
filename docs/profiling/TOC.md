@@ -1,7 +1,16 @@
-# [Profiling feature tour](profiling-feature-tour.md)
-## [Beginner's guide to performance profiling](beginners-guide-to-performance-profiling.md)
-## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
+
+# Profiling documentation
+# Overview
+## [Profiling feature tour](profiling-feature-tour.md)
+# Quickstarts
+## [Analyze CPU usage (managed)](quickstart-debug-with-managed.md)
+## [Analyze CPU usage (native)](quickstart-debug-with-cplusplus.md)
+# Tutorials
+## [Profile application performance in Visual Studio](beginners-guide-to-performance-profiling.md)
+# Concepts
 ## [Run profiling tools with or without the debugger](running-profiling-tools-with-or-without-the-debugger.md)
+# How-to guides
+## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
 ## [Analyze memory usage](memory-usage.md)
 ### [Custom native ETW heap events](custom-native-etw-heap-events.md)
 ### [Memory usage without the debugger](memory-usage-without-debugging2.md)

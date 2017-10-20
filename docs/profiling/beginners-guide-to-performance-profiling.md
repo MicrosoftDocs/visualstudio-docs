@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide to Performance Profiling in Visual Studio | Microsoft Docs"
+title: "Profile application performance in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/27/2017"
 ms.reviewer: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-# Beginner's Guide to Performance Profiling
+# Profile application performance in Visual Studio
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
   
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
