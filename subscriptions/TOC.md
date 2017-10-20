@@ -31,6 +31,9 @@
 ##### [Technical Support](vs-tech-support.md)
 
 ## Administrators
+
+### [Accessing the Administrator Portal](access-admin-portal.md)
+### [Using the Administrator Portal](using-admin-portal.md)
 ### [Admin roles and responsibilities](admin-responsibilities.md)
 ### [Assign a subscription](assign-license.md)
 ### [Edit a subscription](edit-license.md)
