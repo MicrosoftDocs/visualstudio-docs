@@ -22,15 +22,15 @@ You can customize your Visual Studio isolated shell application by changing diff
  The isolated shell template solution includes a *SolutionName*.Application.pkgdef file that allows you to modify the following features:  
   
 ##### The application title  
- You can customize the application title, which is the name that is displayed in the title bar of the application, by changing the value of the "AppName" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ You can customize the application title, which is the name that is displayed in the title bar of the application, by changing the value of the "AppName" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
  If you do not want the application title to display the project that is currently loaded, change the value of the "ShowHierarchyRootInTitle" row in the *SolutionName*.Application.pkgdef file from dword:00000001 to dword:00000000.  
   
 ##### The application icon  
- You can customize the application icon, which is the icon that is displayed by the application name in the application title bar. Copy a different icon to the icon directory. In **Solution Explorer**, add the icon to the Resource Files folder. Then open the VSShellStub.rc file and replace the value of IDI_STUBPROGRAM with the name of the new icon. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ You can customize the application icon, which is the icon that is displayed by the application name in the application title bar. Copy a different icon to the icon directory. In **Solution Explorer**, add the icon to the Resource Files folder. Then open the VSShellStub.rc file and replace the value of IDI_STUBPROGRAM with the name of the new icon. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ##### The command-line logo  
- You can customize the command-line logo, which is the text that appears when the application is started from the command line, by changing the value of the "CommandLineLogo" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
+ You can customize the command-line logo, which is the text that appears when the application is started from the command line, by changing the value of the "CommandLineLogo" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md)  
   
 ##### The name of the user files subfolder  
  You can change the name of the folder your application maintains for user files by changing the value of the "UserFilesSubFolderName" row in *SolutionName*.Application.pkgdef file.  
@@ -54,7 +54,7 @@ You can customize your Visual Studio isolated shell application by changing diff
  You can customize the web browser page, which is page that is displayed when the web browser window is opened, by changing the value of the "DefaultSearchPage" row in the *SolutionName*.Application.pkgdef file.  
   
 ##### The default home page  
- You can customize the home page by changing the value of the "DefaultHomePage" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
+ You can customize the home page by changing the value of the "DefaultHomePage" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md)  
   
 ##### Whether or not to hide the solution concept  
  You can specify whether or not to hide the solution in your application by changing the value of the "HideSolutionConcept" row in the *SolutionName*.Application.pkgdef file. To hide the solution, set the value `dword:00000001`, and to show the solution, set the value `dword:00000000`.  
@@ -102,7 +102,7 @@ DisableStartPage=dword:00000000
   
  On all the files, set the **Item Type** property to **Isolated Shell File** in order for the files to be copied to the *$RootFolder$* directory. (To set the **Item Type** property, right-click the file and select **Properties**. This property is found under **Configuration Properties**, **General**.)  
   
- For more information on customizing start pages, see [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).  
+ For more information on customizing start pages, see [Customizing the Start Page](../../ide/customizing-the-start-page-for-visual-studio.md).  
   
 ## Using other elements of the isolated shell  
  You can use other files and projects that are included in the isolated shell solution template to further customize your application.  
@@ -114,13 +114,13 @@ DisableStartPage=dword:00000000
 [$RootKey$\Projects\{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3}\AddItemTemplates\TemplateDirs\{39c9c826-8ef8-4079-8c95-428f5b1c323f}]  
 ```  
   
- removes the Miscellaneous Files project from the set of project templates displayed in the **New Project** dialog. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ removes the Miscellaneous Files project from the set of project templates displayed in the **New Project** dialog. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ##### Enable/disable menu commands  
- The *SolutionName*UI.vsct file includes a commented-out list of all the menu commands available to the isolated shell. To disable a given command, uncomment the corresponding row. For example, to disable the Window/Split comment, uncomment the `<Define name="No_SplitCommand"/>` row. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ The *SolutionName*UI.vsct file includes a commented-out list of all the menu commands available to the isolated shell. To disable a given command, uncomment the corresponding row. For example, to disable the Window/Split comment, uncomment the `<Define name="No_SplitCommand"/>` row. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ##### The bitmap used on the splash screen  
- You can customize the bitmap used on the splash screen, which is the window that is displayed when the application is started, by changing the value of the "SplashScreenBitmap" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ You can customize the bitmap used on the splash screen, which is the window that is displayed when the application is started, by changing the value of the "SplashScreenBitmap" row in the *SolutionName*.Application.pkgdef file. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ##### The Help/About window  
- In the isolated shell template there is a separate project you can use to customize the Help/About box for your application. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).
+ In the isolated shell template there is a separate project you can use to customize the Help/About box for your application. For more details, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).
