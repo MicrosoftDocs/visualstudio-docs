@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/walkthrough-creating-a-basic-isolated-shell-application
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -22,7 +21,7 @@ manager: "ghogen"
 This walkthrough shows how to create an isolated shell solution, customize the Help About tool window, and create a setup program that installs the isolated shell.  
   
 ## Prerequisites  
- To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). To deploy the isolated shell, you must also use the Visual Studio Shell (Isolated) Redistributable Package.  
+ To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../visual-studio-sdk.md). To deploy the isolated shell, you must also use the Visual Studio Shell (Isolated) Redistributable Package.  
   
 ## Creating an Isolated Shell Solution  
  This section shows how to use the Visual Studio Shell Isolated project template to create an isolated shell solution. The solution contains the following projects:  
@@ -102,7 +101,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
  You can remove some of the packages that are loaded with Visual Studio by editing the .pkgundef file if you do not want those features in your custom isolated shell application. You specify the package in one of the subkeys of the $RootKey$\Packages registry key.  
   
 > [!NOTE]
->  To find the GUIDs of Visual Studio features, see [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md).  
+>  To find the GUIDs of Visual Studio features, see [Package GUIDs of Visual Studio Features](package-guids-of-visual-studio-features.md).  
   
  The following procedure shows how to remove the XML editor from the isolated shell.  
   

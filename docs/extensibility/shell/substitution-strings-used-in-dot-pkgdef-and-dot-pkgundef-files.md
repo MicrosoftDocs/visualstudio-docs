@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files
 title: "Substitution Strings Used in .Pkgdef and .Pkgundef Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
