@@ -55,7 +55,7 @@ If a tool window is slowing down Visual Studio startup and you wish to change th
 
 You can always return to this dialog box at any time to change the setting for any given tool window.
 
-> [NOTE]
+> [!NOTE]
 > Versions of Visual Studio prior to Update 15.5 had a feature called **Lightweight Solution Load**. This feature is no longer available in Visual Studio 2017 Update 15.5 and later. In Visual Studio Update 15.5 and later, large solutions load much faster than previously, even without Lightweight Solution Load.  
 
 ## See Also
