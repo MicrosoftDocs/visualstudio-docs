@@ -1,4 +1,4 @@
----
+,---
 title: "Advanced Example for Containers | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2017"
@@ -15,17 +15,17 @@ manager: "ghogen"
 ---
 # Advanced Example for Containers
 
-The sample Dockerfile in [Install Build Tools into a Container](build-tools-container.md) always uses the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull this image may be okay for many scenarios. In practice, however, it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
+The sample Dockerfile in [Install Build Tools into a Container](build-tools-container.md) always uses the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image may be okay for many scenarios. In practice, however, it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
 
-The following example Dockerfile uses a specific version tag of the microsoft/windowsservercore image. Using a specific tag for a base image is common to know that building or rebuilding images always has the same basis.
+The following example Dockerfile uses a specific version tag of the microsoft/windowsservercore image. Using a specific tag for a base image is commonplace and makes it easy to remember that building or rebuilding images always has the same basis.
 
 > [!NOTE]
-> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593 that has known issues launching the installer in a container. For more information, see [caveats](build-tools-container-caveats.md).
+> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593, which has known issues launching the installer in a container. For more information, see [caveats](build-tools-container-caveats.md).
 
-The example also uses a Build Tools 2017 bootstrapper that installs a specific version built at the same time as the bootstrapper. The product could still be updated via the Release channel, but that is not a practical scenario for containers that you would typically rebuild. If you want to get the URLs for a specific channel, you can download the channel from https://aka.ms/vs/15/release/channel, open the downloaded JSON file, and examine the bootstrapper URLs. For more information, see [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md).
+The example also uses a Build Tools 2017 bootstrapper that installs a specific version built at the same time as the bootstrapper. The product could still be updated via the Release channel, but that is not a practical scenario for containers that you would typically rebuild. If you want to get the URLs for a specific channel, you can download the channel from https://aka.ms/vs/15/release/channel, open the JSON file, and examine the bootstrapper URLs. For more information, see [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md).
 
 ```dockerfile
-# Use a specific tagged image. Tags can be changed, though that is practically unlikely for most images.
+# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
 # You could also use the immutable tag @sha256:d841bd78721c74f9b88e2700f5f3c2d66b54cb855b8acb4ab2c627a76a46301d
 FROM microsoft/windowsservercore:10.0.14393.1770
 
@@ -63,7 +63,7 @@ ENTRYPOINT C:\BuildTools\Common7\Tools\VsDevCmd.bat &&
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 ```
 
-This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an installation does occur, you can copy the logs to your host machine to analyze the failure.
+This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an installation failure does occur, you can copy the logs to your host machine to analyze the failure.
 
 ```
 > docker build -t buildtools:15.4.27004.2005 -t buildtools:latest -m 2GB .
