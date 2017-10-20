@@ -45,7 +45,7 @@
 ## [Getting Started with Debugging in Visual Studio](getting-started-with-debugging-in-visual-studio.md)
 # [How to: Move Around in the Visual Studio IDE](how-to-move-around-in-the-visual-studio-ide.md)
 # Optimize Visual Studio Performance
-## [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
+## [Optimize Visual Studio Performance](optimize-visual-studio-startup-time.md)
 ## [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
 ## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
 # [Connected environment](connected-environment.md)
