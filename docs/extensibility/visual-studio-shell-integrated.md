@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/visual-studio-shell-integrated
 title: "Visual Studio Shell (Integrated) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"

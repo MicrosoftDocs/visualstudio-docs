@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/distributing-isolated-shell-applications
 title: "Distributing Isolated Shell Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

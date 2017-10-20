@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/installing-an-isolated-shell-application
 title: "Installing an Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

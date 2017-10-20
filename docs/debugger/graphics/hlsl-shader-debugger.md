@@ -12,8 +12,8 @@ f1_keywords:
   - "vs.graphics.shaderviewer"
 ms.assetid: 4ccec541-3c49-42bd-972a-686eb3a88fbc
 caps.latest.revision: 18
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # HLSL Shader Debugger
