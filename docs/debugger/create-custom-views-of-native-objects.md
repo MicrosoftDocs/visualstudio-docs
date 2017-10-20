@@ -493,7 +493,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 </Type>  
 ```  
 
-You can `Exec` to execute code inside of a `CustomListItems` expansion using the variables and objects defined in the `CustomListItems` expansion. You cannot use `Exec` to evaluate functions.
+You can use `Exec` to execute code inside of a `CustomListItems` expansion using the variables and objects defined in the `CustomListItems` expansion. You cannot use `Exec` to evaluate functions.
 
 You can use logical operators, arithmetic operators, and assignment operators with `Exec`.
 
