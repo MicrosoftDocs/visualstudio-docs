@@ -46,7 +46,6 @@
 # [How to: Move Around in the Visual Studio IDE](how-to-move-around-in-the-visual-studio-ide.md)
 # Optimize Visual Studio Performance
 ## [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
-## [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
 ## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
 # [Connected environment](connected-environment.md)
 ## [Signing in to Visual Studio](signing-in-to-visual-studio.md)
