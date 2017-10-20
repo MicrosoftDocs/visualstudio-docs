@@ -47,7 +47,7 @@ The key field that needs to be in the certificate is the fully-qualified domain 
 For more background, see [public key certificates](https://en.wikipedia.org/wiki/Public_key_certificate) on Wikipedia.
 
 ## Install an SSL certificate on Windows
-The SSL certifcate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
+The SSL certificate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
 
 ### Obtaining a self-signed certificate
 

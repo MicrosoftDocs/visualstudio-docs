@@ -80,7 +80,7 @@ If your remote machine is setup to use your domain account, you can use the doma
 
 ### Logon to Linux workspace
 
-To logon to a linux account use `<<unix>>\username` format. For example, if you have an acocunt by the name `ruser`, then you should type in the username as `<<unix>>\ruser`.
+To logon to a linux account use `<<unix>>\username` format. For example, if you have an account by the name `ruser`, then you should type in the username as `<<unix>>\ruser`.
 
 ## Switching between workspaces
 
