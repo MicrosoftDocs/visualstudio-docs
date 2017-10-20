@@ -20,9 +20,9 @@ ms.author: "gregvanl"
 manager: "ghogen"
 ---
 # Visual Studio Isolated Shell
-The Visual Studio isolated shell allows you to create stand-alone applications that can run side-by-side with other versions of Visual Studio. It is used primarily to host specialized tools that can use Visual Studio services but also have a customized appearance and branding. Visual Studio features and menu command groups can be easily turned on and off. Application titles, application icons, and splash screens are fully customizable. For a list of customizable features, see [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md).  
+The Visual Studio isolated shell allows you to create stand-alone applications that can run side-by-side with other versions of Visual Studio. It is used primarily to host specialized tools that can use Visual Studio services but also have a customized appearance and branding. Visual Studio features and menu command groups can be easily turned on and off. Application titles, application icons, and splash screens are fully customizable. For a list of customizable features, see [Customizing the Isolated Shell](customizing-the-isolated-shell.md).  
   
- To work with an isolated shell project, you must install the Visual Studio SDK. Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ To work with an isolated shell project, you must install the Visual Studio SDK. Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../installing-the-visual-studio-sdk.md).  
   
  To create an isolated shell application, start with a Visual Studio Shell Isolated project. This project contains everything that you need to develop and test your own isolated shell application. When you are ready to write the setup program that deploys your application, you must get the isolated shell redistributable package from [Microsoft Visual Studio Shell (Isolated) Redistributable Package](http://go.microsoft.com/fwlink/?LinkId=616022).  
   
@@ -30,12 +30,12 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 >  Before you can access the isolated shell redistributable package, you will be asked to fill out a brief customer survey.  After filling out the survey, you'll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
   
 > [!NOTE]
->  For more information about how to deploy an isolated shell-based application, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+>  For more information about how to deploy an isolated shell-based application, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ## Working with the isolated shell  
  A Visual Studio isolated shell application has full access to Visual Studio services and supports special customization and branding. There are several ways you can customize an isolated shell application:  
   
--   You can use VSPackages and Managed Extensibility Framework (MEF) component parts to extend an isolated shell application just as you would use them in any other Visual Studio extension. For more information, see [Extending the Isolated Shell](../extensibility/extending-the-isolated-shell.md).  
+-   You can use VSPackages and Managed Extensibility Framework (MEF) component parts to extend an isolated shell application just as you would use them in any other Visual Studio extension. For more information, see [Extending the Isolated Shell](extending-the-isolated-shell.md).  
   
 -   To make Visual Studio features and menu command groups available or unavailable, update the .vsct file in the user interface (UI) project of the application.  
   
@@ -45,7 +45,7 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
   
 -   Some aspects of the shell can also be specified when the application is started. To do this, update the parameters in the call to the Start entry point of the appenvstub.dll.  
   
- For more information about the different elements that you can customize, see [Elements of the Isolated Shell](../extensibility/elements-of-the-isolated-shell.md).  
+ For more information about the different elements that you can customize, see [Elements of the Isolated Shell](elements-of-the-isolated-shell.md).  
   
 ## Standard Features of the Isolated Shell  
  The following features are standard to all editions of Visual Studio.  
@@ -60,4 +60,4 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 |Extensibility|Consumes VSPackages and MEF components|  
   
 ## See Also  
- [Shell (Isolated or Integrated)](../extensibility/shell-isolated-or-integrated.md)
+ [Shell (Isolated or Integrated)](shell-isolated-or-integrated.md)

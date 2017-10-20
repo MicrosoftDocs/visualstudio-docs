@@ -17,7 +17,7 @@ ms.author: "gregvanl"
 manager: "ghogen"
 ---
 # Isolated Shell Entry Point Parameters (C++)
-When a Visual Studio shell-based application starts, it calls the Start entry point of the Visual Studio shell. The following settings can be overridden in the call to the Start entry point of the shell. For a description of each setting, see [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  
+When a Visual Studio shell-based application starts, it calls the Start entry point of the Visual Studio shell. The following settings can be overridden in the call to the Start entry point of the shell. For a description of each setting, see [.Pkgdef Files](modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  
   
 -   AddinsAllowed  
   
@@ -91,5 +91,5 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
  To disable add-ins and change the default projects location for your application, you can set the last parameter to "AddinsAllowed=false;DefaultProjectsLocation=%USERPROFILE%\temp".  
   
 ## See Also  
- [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)   
- [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)
+ [Customizing the Isolated Shell](customizing-the-isolated-shell.md)   
+ [.Pkgdef Files](modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)

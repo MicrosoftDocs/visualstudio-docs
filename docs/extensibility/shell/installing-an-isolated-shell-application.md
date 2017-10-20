@@ -365,4 +365,4 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
+ [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md)

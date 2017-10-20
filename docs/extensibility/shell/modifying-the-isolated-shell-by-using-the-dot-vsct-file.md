@@ -35,7 +35,7 @@ The UI project for a Visual Studio isolated shell project contains a .vsct file 
   
 ```  
   
- For a more detailed example these customizations, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+ For a more detailed example these customizations, see [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ## Referenced Files  
  The default .vsct file for an application references the following files. These files are located in the \VisualStudioIntegration\Common\Inc\ subdirectory of the Visual Studio SDK installation directory.  
@@ -50,7 +50,7 @@ The UI project for a Visual Studio isolated shell project contains a .vsct file 
   
  The AppIDCmdUsed.vsct file includes Visual Studio UI elements based on the symbols defined in the application .vsct file.  
   
- For more information, see [Designing XML Command Table (.Vsct) Files](../extensibility/internals/designing-xml-command-table-dot-vsct-files.md) and the [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md).  
+ For more information, see [Designing XML Command Table (.Vsct) Files](../internals/designing-xml-command-table-dot-vsct-files.md) and the [VSCT XML Schema Reference](../vsct-xml-schema-reference.md).  
   
 ## See Also  
- [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)
+ [Visual Studio Isolated Shell](visual-studio-isolated-shell.md)
