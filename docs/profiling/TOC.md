@@ -10,7 +10,6 @@
 # Concepts
 ## [Run profiling tools with or without the debugger](running-profiling-tools-with-or-without-the-debugger.md)
 # How-to guides
-## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
 ## [Analyze memory usage](memory-usage.md)
 ### [Custom native ETW heap events](custom-native-etw-heap-events.md)
 ### [Memory usage without the debugger](memory-usage-without-debugging2.md)
@@ -376,3 +375,5 @@
 ##### [CvWriteMessage Function](cvwritemessage-function.md)
 ### [Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](concurrency-visualizer-command-line-utility-cvcollectioncmd.md)
 ## [Analyze energy use in Store apps](analyze-energy-use-in-store-apps.md)
+# Resources
+## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
