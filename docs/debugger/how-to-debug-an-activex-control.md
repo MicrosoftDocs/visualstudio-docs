@@ -58,5 +58,5 @@ manager: "ghogen"
  [ActiveX Controls](/cpp/mfc/activex-controls)   
  [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
