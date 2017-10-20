@@ -21,8 +21,11 @@ manager: "ghogen"
 This topic explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server. 
 
 - [Remote computer requirements](#remote-computer-requirements)
-- [Install an SSL certificate](#install-an-ssl-certificate-windows)
-- [Install R services](#install-r-services-windows)
+- [Install an SSL certificate](#install-an-ssl-certificate)
+- [Install an SSL certificate on Windows](#install-an-ssl-certificate-on-windows)
+- [Install an SSL certificate on Ubuntu](#install-an-ssl-certificate-on-ubuntu)
+- [Install R services on Windows](#install-r-services-on-windows)
+- [Install R services on Ubuntu](#install-r-services-on-ubuntu)
 - [Configure R services](#configure-r-services)
 - [Troubleshooting](#troubleshooting)
 
@@ -31,7 +34,7 @@ This topic explains how to configure a remote server with SSL and an appropriate
 - Windows 10, Windows Server 2016, or Windows Server 2012 R2. RTVS also requires
 - [.NET Framework 4.6.1](https://www.microsoft.com/download/details.aspx?id=49981) or greater
 
-## Install an SSL certificate (Windows)
+## Install an SSL certificate
 
 RTVS requires that all communications with a remote server happens over HTTP, which requires an SSL certificate on the server. You can use either a certificate signed by a trusted certificate authority (recommended), or a self-signed certificate. (A self-signed certificate causes RTVS to issue warnings when connected). With either one, you then need to install it on the computer and allow access to its private key.
 
@@ -43,9 +46,12 @@ The key field that needs to be in the certificate is the fully-qualified domain 
 
 For more background, see [public key certificates](https://en.wikipedia.org/wiki/Public_key_certificate) on Wikipedia.
 
-### Obtaining a self-signed certificate (Windows)
+## Install an SSL certificate on Windows
+The SSL certifcate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
 
-Compared with a certificate from a trusted authority, a self-signed certificate is like creating an identification card for yourself. This process is, of course, much simpler than working with a trusted authority, but also lacks strong authentication, meaning that an attacker can substitute their own certificate for the unsigned certificate and capture all of the traffic between the client and the server. Therefore, *self-signed certificate should be used only for testing scenarios, on a trusted network, and never in production.*
+### Obtaining a self-signed certificate
+
+Skip this section if you have a trusted certificate. Compared with a certificate from a trusted authority, a self-signed certificate is like creating an identification card for yourself. This process is, of course, much simpler than working with a trusted authority, but also lacks strong authentication, meaning that an attacker can substitute their own certificate for the unsigned certificate and capture all of the traffic between the client and the server. Therefore, *self-signed certificate should be used only for testing scenarios, on a trusted network, and never in production.*
 
 For this reason, RTVS always issues the following warning when connecting to a server with a self-signed certificate:
 
@@ -68,14 +74,14 @@ To issue a self-signed certificate:
 
 For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Self-signed_certificate) on Wikipedia.
 
-### Installing the certificate (Windows)
+### Installing the certificate
 
 To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. Right click on the **Personal** folder and select the **All Tasks > Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
 
-### Granting permissions to read the SSL certificate's private key (Windows)
+### Granting permissions to read the SSL certificate's private key
 
 Once the certificate is imported, grant the `NETWORK SERVICE` account permissions to read the private key as described in the following instructions. `NETWORK_SERVICE` is the account used to run the R Services broker, which is the service that terminates incoming SSL connections to the server computer.
 
@@ -88,9 +94,12 @@ Once the certificate is imported, grant the `NETWORK SERVICE` account permission
 
 1. Select **OK** twice to dismiss the dialogs and commit your changes.
 
-### Obtaining a self-signed certificate (Ubuntu)
+## Install an SSL certificate on Ubuntu
+The `rtvs-daemon` package will install a self-signed certificate by default as a part of the installation.
 
-For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self signed certificate during installation.
+### Obtaining a self-signed certificate
+
+For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
 To issue a self signed certificate yourself:
 1. SSH or login to your linux machine.
@@ -107,7 +116,7 @@ To issue a self signed certificate yourself:
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
 
-### Configuring RTVS daemon (Ubuntu)
+### Configuring RTVS daemon
 
 The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.config.json`. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
 
@@ -126,7 +135,7 @@ The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.
 
 Save the file and restart the daemon, `sudo systemctl restart rtvsd`.
     
-## Install R services (Windows)
+## Install R services on Windows
 
 To run R code, the remote computer must have an R interpreter installed as follows:
 
@@ -151,7 +160,7 @@ R services start automatically when the computer reboots:
 
 You can see these services in the services management console (`compmgmt.msc`).  
 
-## Install R Services (Ubuntu)
+## Install R Services on Ubuntu
 
 To run R code, the remote computer must have an R interpreter installed as follows:
 
@@ -162,11 +171,12 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Download, extract and run the install script [RTVS daemon package](https://aka.ms/rtvs-daemon-current). This should install the required packages, their dependencies, and the RTVS daemon:
+1. Download, extract and run the install script [RTVS daemon package](https://aka.ms/r-remote-services-linux-binary-current). This should install the required packages, their dependencies, and the RTVS daemon:
 
     - Download: `wget -O rtvs-daemon.tar.gz https://aka.ms/rtvs-daemon-current`
     - Extract: `tar -xvzf rtvs-daemon.tar.gz`
-    - Run Installer: `sudo ./rtvs-install`
+    - Run Installer: `sudo ./rtvs-install` . Dotnet package installation requires us to add a new trusted signing key. To install silently or for automation use this command `sudo ./rtvs-install -s`.
+    
 
 1. Enable and start the daemon:
 
@@ -174,6 +184,8 @@ To run R code, the remote computer must have an R interpreter installed as follo
     - Start daemon: `sudo systemctl start rtvsd`
 
 1. Check if the daemon is running, run this command `ps -A -f | grep rtvsd`. You should see a process running as `rtvssvc` user. You should now be able to connect to this from R Tools for visual Studio, suing the url to this linux machine.
+
+To configure `rtvs-daemon`, see `man rtvsd`.
 
 ## Configure R services
 
