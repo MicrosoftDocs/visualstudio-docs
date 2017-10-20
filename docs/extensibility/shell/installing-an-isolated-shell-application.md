@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/installing-an-isolated-shell-application
 title: "Installing an Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -366,4 +365,4 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
+ [Walkthrough: Creating a Basic Isolated Shell Application](walkthrough-creating-a-basic-isolated-shell-application.md)
