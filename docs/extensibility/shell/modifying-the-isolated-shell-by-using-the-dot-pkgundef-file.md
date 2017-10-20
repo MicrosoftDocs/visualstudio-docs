@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file
 title: "Modifying the Isolated Shell By Using the .Pkgundef File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -42,5 +41,5 @@ You can modify the .pkgundef file to exclude specified registry entries from an 
  to the application's .pkgundef file.  
   
 ## See Also  
- [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md)   
- [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)
+ [Package GUIDs of Visual Studio Features](package-guids-of-visual-studio-features.md)   
+ [Customizing the Isolated Shell](customizing-the-isolated-shell.md)

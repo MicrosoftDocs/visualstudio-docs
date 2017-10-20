@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/distributing-isolated-shell-applications
 title: "Distributing Isolated Shell Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -21,11 +20,11 @@ You must install Visual Studio and the Visual Studio SDK in order to create an i
   
 |Name|Description|  
 |----------|-----------------|  
-|Visual Studio SDK|The SDK you must have to develop and test extensions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also use the SDK to create your own instance of the Visual Studio isolated shell.<br /><br /> Visual Studio is a prerequisite for the SDK.|  
+|Visual Studio SDK|The SDK you must have to develop and test extensions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. You can also use the SDK to create your own instance of the Visual Studio isolated shell.<br /><br /> Visual Studio is a prerequisite for the SDK.|  
 |Microsoft Visual Studio Isolated Shell Redistributable|The redistributable that you include in your Setup program when you build a tools environment on the Visual Studio isolated shell. The isolated Shell redistributable package includes the .NET Framework 4.5.|  
   
 ## Creating an Installation Program for the Application  
- You must create a special installation program for your integrated or isolated shell application. For more information, see [Installing an Isolated Shell Application](../extensibility/installing-an-isolated-shell-application.md).  
+ You must create a special installation program for your integrated or isolated shell application. For more information, see [Installing an Isolated Shell Application](installing-an-isolated-shell-application.md).  
   
 ## Allowing for Updates to your Application  
- Your installation program must allow for the possibility that your application will be updated, either by Microsoft updates or by your company's updates. For more information about updates, see [Servicing Guidelines for Isolated Shell Applications](../extensibility/servicing-guidelines-for-isolated-shell-applications.md).
+ Your installation program must allow for the possibility that your application will be updated, either by Microsoft updates or by your company's updates. For more information about updates, see [Servicing Guidelines for Isolated Shell Applications](servicing-guidelines-for-isolated-shell-applications.md).

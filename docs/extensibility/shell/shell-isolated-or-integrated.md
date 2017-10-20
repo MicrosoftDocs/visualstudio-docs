@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/shell-isolated-or-integrated
 title: "Shell (Isolated or Integrated) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -33,15 +32,15 @@ You can create your own Visual Studio-based application in either integrated or 
 > [!NOTE]
 >  The Visual Studio shell integrated mode can be installed together with all editions of Visual Studio except the Express editions.  
   
- For more information, see [Visual Studio Shell (Integrated)](../extensibility/visual-studio-shell-integrated.md).  
+ For more information, see [Visual Studio Shell (Integrated)](visual-studio-shell-integrated.md).  
   
 ## Isolated Mode  
  Isolated mode allows you to create custom tools that run side-by-side with other versions of Visual Studio. It is intended primarily for tools that can access Visual Studio services without depending on all the standard Visual Studio features. You can customize the appearance of applications built on the Visual Studio isolated shell. You can easily turn off the features and menu command groups that you do not wish to appear together with your application.  
   
- For more information, see [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md).  
+ For more information, see [Visual Studio Isolated Shell](visual-studio-isolated-shell.md).  
   
 ## Distributing your Integrated or Isolated Shell Application  
- In order to distribute your integrated or isolated shell application, you need to include your application, a special integrated or isolated shell redistributable, and an installation program. For more information about distribution and installation, see [Distributing Isolated Shell Applications](../extensibility/distributing-isolated-shell-applications.md).  
+ In order to distribute your integrated or isolated shell application, you need to include your application, a special integrated or isolated shell redistributable, and an installation program. For more information about distribution and installation, see [Distributing Isolated Shell Applications](distributing-isolated-shell-applications.md).  
   
 > [!IMPORTANT]
 >  The [End User License Agreement (EULA)](https://www.visualstudio.com/en-us/support/legal/mt171552) for the Visual Studio integrated and isolated shells includes a section on data collection (**Section 3. Data**).  It describes the customer usage data that may be collected by Microsoft from users of either the integrated or isolated shell software that you build into your application. For more information, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/en-us/dn948229).  
@@ -55,4 +54,4 @@ You can create your own Visual Studio-based application in either integrated or 
  For more information about redistributable packages, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) Web site.  
   
 ## See Also  
- [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
+ [Shipping Visual Studio Extensions](../shipping-visual-studio-extensions.md)
