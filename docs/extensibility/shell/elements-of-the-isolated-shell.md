@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/elements-of-the-isolated-shell
 title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

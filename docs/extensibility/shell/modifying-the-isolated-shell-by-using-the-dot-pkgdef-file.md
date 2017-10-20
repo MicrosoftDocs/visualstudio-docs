@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file
 title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

@@ -186,7 +186,7 @@
 ## [How to: Use Rule-based UI Context for Visual Studio Extensions](how-to-use-rule-based-ui-context-for-visual-studio-extensions.md)
 ## [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md)
 ## [Troubleshooting VSPackages](troubleshooting-vspackages.md)
-# [Shell (Integrated or Isolated)](shell-extensibility/shell-isolated-or-integrated.md)
+# [Shell (Integrated or Isolated)](shell/)
 # [Shipping Visual Studio Extensions](shipping-visual-studio-extensions.md)
 ## [VSIX Project Template](vsix-project-template.md)
 ## [Getting Started with the VSIX Project Template](getting-started-with-the-vsix-project-template.md)

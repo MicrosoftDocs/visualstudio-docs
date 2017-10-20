@@ -1,5 +1,4 @@
 ---
-redirect_url: shell/visual-studio-isolated-shell
 title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
