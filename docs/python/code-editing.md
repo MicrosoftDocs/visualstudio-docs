@@ -30,9 +30,9 @@ For general documentation on editing code in Visual Studio, see [Writing Code in
 
 The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](vs-tutorial-01-03.md) and [Using the interactive window - Send code to interactive command](interactive-repl.md#send-code-to-interactive-command) for details.
 
-For an introduction to editing Python code, see [Getting Started with Python in Visual Studio, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m48s):
+For an introduction to editing Python code, see [Editing Python Code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567) (Microsoft Virtual Academy, 2m30s):
 
-> [!VIDEO https://www.youtube.com/embed/uZGZNEyyeKs]
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567]
 
 ## IntelliSense
 
