@@ -27,7 +27,7 @@ Using [Docker](https://www.docker.com/what-docker) you create an image from whic
 
 If you have already installed Docker for Windows, you can skip to step 3.
 
-## 1. Enable Hyper-V
+## Step 1. Enable Hyper-V
 
 Hyper-V is not enabled by default. It must be enabled to start Docker for Windows, since currently only Hyper-V isolation is supported for Windows 10.
 
@@ -37,19 +37,19 @@ Hyper-V is not enabled by default. It must be enabled to start Docker for Window
 > [!NOTE]
 > Virtualization must be enabled on your machine. It is typically enabled by default; however, if Hyper-V install fails, refer to your system documentation for how to enable virtualization.
 
-## 2. Install Docker for Windows
+## Step 2. Install Docker for Windows
 
-If using Windows 10 you can download and install [Docker Community Edition for Windows](https://www.docker.com/docker-windows). You can use PowerShell to [install Docker Enterprise Edition for Windows Server 2016](https://docs.docker.com/engine/installation/windows/docker-ee) using Desired State Configuration (DSC), or a [package provider](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/deploy-containers-on-server) for a simple single installation.
+If using Windows 10, you can download and install [Docker Community Edition for Windows](https://www.docker.com/docker-windows). You can use PowerShell to [install Docker Enterprise Edition for Windows Server 2016](https://docs.docker.com/engine/installation/windows/docker-ee) using Desired State Configuration (DSC), or a [package provider](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/deploy-containers-on-server) for a simple single installation.
 
-## 3. Switch to Windows Containers
+## Step 3. Switch to Windows Containers
 
-You can only install Build Tools 2017 on Windows, which requires you [switch to Windows Containers](https://docs.docker.com/docker-for-windows/#getting-started-with-windows-containers). Windows containers on Windows 10 support only [Hyper-V isolation](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/hyperv-container), while Windows containers on Windows Server 2016 support both Hyper-V and process isolation.
+You can only install Build Tools 2017 on Windows, which requires you [switch to Windows containers](https://docs.docker.com/docker-for-windows/#getting-started-with-windows-containers). Windows containers on Windows 10 support only [Hyper-V isolation](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/hyperv-container), while Windows containers on Windows Server 2016 support both Hyper-V and process isolation.
 
-## 4. Expand maximum container disk size
+## Step 4. Expand maximum container disk size
 
-Visual Studio Build Tools - and to a greater extent, Visual Studio - require lots of disk space for all the tools that get installed. Even though our example Dockerfile disables the package cache, the disk size of container images must be increased to accommodate space required. Currently on Windows, you can only increase disk size by changing the Docker configuration.
+Visual Studio Build Tools - and to a greater extent, Visual Studio - require lots of disk space for all the tools that get installed. Even though our example Dockerfile disables the package cache, the disk size of container images must be increased to accommodate the space required. Currently on Windows, you can only increase disk size by changing the Docker configuration.
 
-On Windows 10,
+**On Windows 10**:
 
 1. [Rick-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings...**.
 2. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
@@ -74,7 +74,7 @@ On Windows 10,
    ```
 5. Click **Apply**.
 
-On Windows Server 2016,
+**On Windows Server 2016**:
 
 1. Stop the "docker" service:
    ```
@@ -94,9 +94,9 @@ On Windows Server 2016,
    sc.exe start docker
    ```
 
-## 5. Create and build the Dockerfile
+## Step 5. Create and build the Dockerfile
 
-You need to save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
+You must save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
 
 > [!NOTE]
 > This example Dockerfile only excludes older Windows SDKs that cannot be installed into containers. Older releases cause the build command to fail.
@@ -144,7 +144,7 @@ You need to save the following example Dockerfile to a new file on your disk. If
 
    The final image is tagged "buildtools2017:latest" so you can easily run it in a container as "buildtools2017" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2017 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
-## 6. Using the built image
+## Step 6. Using the built image
 
 Now that you have created an image, you can run it in a container to do both interactive and automated builds. The example uses the Developer Command Prompt, so your PATH and other environment variables are already configured.
 
@@ -159,4 +159,4 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
 ## See also
 
 * [Advanced Example for Containers](advanced-build-tools-container.md)
-* [Caveats for Containers](build-tools-container-caveats.md)
+* [Known Issues for Containers](build-tools-container-caveats.md)
