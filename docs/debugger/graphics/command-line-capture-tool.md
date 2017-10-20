@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Command-Line Capture Tool
