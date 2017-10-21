@@ -10,10 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "natvis"
-  - #dev_langs:
-  - "FSharp"
-  - "VB"
-  - "CSharp"
+dev_langs:
   - "C++"
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 caps.latest.revision: 19
@@ -492,6 +489,26 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
     </Expand>  
 </Type>  
 ```  
+
+You can use `Exec` to execute code inside of a `CustomListItems` expansion using the variables and objects defined in the `CustomListItems` expansion. You cannot use `Exec` to evaluate functions.
+
+You can use logical operators, arithmetic operators, and assignment operators with `Exec`.
+
+The following intrinsic functions are supported:
+
+- `strlen, wcslen, strnlen, wcsnlen, strcmp, wcscmp, _stricmp, _strcmpi, _wcsicmp, strncmp, wcsncmp, _strnicmp, _wcsnicmp, memcmp, memicmp, wmemcmp, strchr, wcschr, memchr, wmemchr, strstr, wcsstr, __log2, __findNonNull`
+- `GetLastError, TlsGetValue, DecodeHString, WindowsGetStringLen, WindowsGetStringRawBuffer, WindowsCompareStringOrdinal, RoInspectCapturedStackBackTrace, CoDecodeProxy, GetEnvBlockLength, DecodeWinRTRestrictedException, DynamicMemberLookup, DecodePointer, DynamicCast`
+- `ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)`
+- `ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)`
+- `ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)`
+- `ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)`
+- `ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)`
+- `ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)`
+- `Stdext_HashMap_Int_OperatorBracket_idx`
+- `Std_UnorderedMap_Int_OperatorBracket_idx`
+- `TreeTraverse_Init // Initializes a new tree traversal`
+- `TreeTraverse_Next // Returns nodes in a tree`
+- `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
   
 ####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here's the visualization for the `std::map` type using this feature:  

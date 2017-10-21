@@ -45,5 +45,5 @@ Debugging COM server applications poses a unique set of problems that are not al
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [How to: Debug COM Clients and Servers Using RPC Debugging](../debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md)   
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

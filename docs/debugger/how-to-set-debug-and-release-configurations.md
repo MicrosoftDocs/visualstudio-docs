@@ -110,7 +110,7 @@ For detailed information on project settings for debug configurations in C#, see
     The symbol file(s) get created in the same folder as the executable or the main output file.
   
 ## See Also  
- [Specify symbol (.pdb) files and source files in the  Visua Studio debugger](../debugger/debugger-settings-and-preparation.md)
+ [Specify symbol (.pdb) files and source files in the  Visua Studio debugger](../debugger/debugger-settings-and-preparation.md)  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
