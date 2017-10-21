@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/isolated-shell-entry-point-parameters-cpp
 title: "Isolated Shell Entry Point Parameters (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

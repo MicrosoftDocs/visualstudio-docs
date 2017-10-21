@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/package-guids-of-visual-studio-features
 title: "Package GUIDs of Visual Studio Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

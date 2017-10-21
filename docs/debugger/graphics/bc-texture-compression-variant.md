@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "ghogen"
 ---
 # BC Texture Compression Variant
