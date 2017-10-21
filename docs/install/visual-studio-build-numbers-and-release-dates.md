@@ -71,7 +71,7 @@ The following tables lists the build numbers and release dates for Visual Studio
 | 15.0.0 | Release | 3/7/2017 | 15.0.26228.4 |
 
 ## See Also
-* [Visual Studio 2017 administrator](visual-studio-administrator-guide.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
-* [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+* [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
+* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
