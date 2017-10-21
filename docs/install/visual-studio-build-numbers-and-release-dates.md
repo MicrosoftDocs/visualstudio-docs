@@ -1,20 +1,17 @@
+---
 title: Visual Studio 2017 build numbers and release dates  | Microsoft Docs
-description: "A list of released versions of Visual Studio 2017, to date. "
+description: "A list of released versions and build numbers for Visual Studio 2017, to date."
 keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 10/09/2017
+ms.date: 10/18/2017
 ms.topic: article
 helpviewer_keywords:
-  - "version, Visual Studio"
-  - "release, Visual Studio"
-  - "reference, Visual Studio"
-  - "install Visual Studio, administrator guide"
-ms.service:
 ms.technology:
   - "vs-ide-install"
   - "vs-ide-sdk"
+ms.service:
 ---
 
 # Visual Studio 2017 build numbers and release dates
@@ -33,8 +30,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.3.4​	                | ​Release	   | 9/12/2017​	       | 15.0.26730.15​     |
 | 15.4 Preview 2​	        | ​​Preview​	   | 9/11/2017​	       | 15.0.26906.1​      |
 | 15.3.3​	​                | Release	   | 8/29/2017​	       | 15.0.26730.12​     |
-​| 15.4 Preview 1	        | ​Preview	   | ​8/24/2017	       ​| 15.0.26823.01     |
-​| 15.3.2	                | ​Release	​   | 8/22/2017	       | 15.0.26730.10     |
+​| 15.4 Preview 1	       | ​Preview	    | ​8/24/2017	       | 15.0.26823.01     |
+| 15.3.2	               | ​Release	​    | 8/22/2017	      | 15.0.26730.10     |
 ​| 15.3.1	                | ​Release	   ​| 8/18/2017	       | ​15.0.26730.08     |
 ​| 15.3.1 Preview 1	      | ​Preview	   | ​8/18/2017	       | ​15.0.26730.08     |
 | ​15.3.1 servicing event	| ​Release	   | ​8/18/2017	       | ​15.0.26730.08     |
