@@ -39,6 +39,6 @@ The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
  [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)  
   
 ## See Also  
- [Performance Explorer](../profiling/performance-explorer.md)
- [Profiling in Visual Studio](../profiling/index.md)
+ [Performance Explorer](../profiling/performance-explorer.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
