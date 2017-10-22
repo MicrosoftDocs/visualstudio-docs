@@ -21,7 +21,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
  This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.  
   
 > [!NOTE]
->  Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
+>  Visual Studio Community, Enterprise, and Professional provide additional features for unit testing.  
 >   
 >  -   Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
 > -   Run your tests after every build.  
