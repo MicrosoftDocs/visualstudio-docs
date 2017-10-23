@@ -55,5 +55,7 @@ A Visual Studio subscription license also allows your end users to access the so
 [Download the Visual Studio licensing white paper](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=2b1504e6-0bf1-46da-be0e-85cc792c6b9d)
 
 [Compare subscription options and pricing](https://www.visualstudio.com/pricing).
+
 [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare/).
+
 For MCT Software & Services and MCT Developer Software & Services subscriptions, please refer to the [Microsoft Certified Trainer website](https://www.microsoft.com/learning/en-us/mct-certification.aspx#item-ID0EFAAAAACA) for details on the training use rights that come with your subscription.  
