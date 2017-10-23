@@ -15,7 +15,7 @@ ms.service:
 ---
 
 # Visual Studio 2017 build numbers and release dates
-The following tables lists the build numbers and release dates for Visual Studio 2017, to date.
+The following table lists the build numbers and release dates for Visual Studio 2017, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
