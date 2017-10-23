@@ -20,7 +20,9 @@
 ## [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 ## [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 ## [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-## [Workload and Component ID Reference](workload-and-component-ids.md)
+# Reference
+## [Visual Studio workload and component IDs](workload-and-component-ids.md)
+## [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md)
 # [Install Build Tools into a Container](build-tools-container.md)
 ## [Advanced Example for Containers](advanced-build-tools-container.md)
 ## [Known Issues for Containers](build-tools-container-issues.md)
