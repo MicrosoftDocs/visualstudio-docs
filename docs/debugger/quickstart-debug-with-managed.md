@@ -85,7 +85,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     ```vb
     Imports System.Collections.Generic
 
-    Namespace another_vb_toss
+    Namespace MyDbgApp
         Class Program
             Private Shared Sub doWork()
                 Dim c1 As New LinkedList(Of Integer)()

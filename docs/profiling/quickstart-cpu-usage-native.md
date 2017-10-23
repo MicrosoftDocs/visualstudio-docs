@@ -135,6 +135,8 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/quickstart-cpu-usage-summary.png "Diagnostics Tools Enable CPU Profiling")
 
+     When data collection is enabled, the record button displays a red circle.
+
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute, and also provides a timeline graph you can use to focus on specific segments of the sampling session.You can only view this collected data when your application is halted at a breakpoint.
 
 6.  Hit F5 to run the app to your second breakpoint.

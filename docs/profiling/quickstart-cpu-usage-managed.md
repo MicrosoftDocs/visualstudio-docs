@@ -8,8 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-f1_keywords: 
-  - ""
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
@@ -31,7 +29,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. In Visual Studio, choose **File > New Project**.
 
-2. Under **Visual C#**, choose **Windows Classic Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+2. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**.
 
 3. Type a name like **MyProfilerApp** and click **OK**.
 
@@ -100,12 +98,73 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
         }
     }
     ```
-  
+
+    ```vb
+    Imports System
+    Imports System.Threading
+    
+    Namespace MyProfilerApp
+        Public Class ServerClass
+            Const MIN_ITERATIONS As Integer = Integer.MaxValue / 1000
+            Const MAX_ITERATIONS As Integer = MIN_ITERATIONS + 10000
+    
+            Private m_totalIterations As Long = 0
+            ReadOnly m_totalItersLock As New Object()
+            ' The method that will be called when the thread is started.
+            Public Sub DoWork()
+                Console.WriteLine("ServerClass.InstanceMethod is running on another thread.")
+    
+                Dim x = GetNumber()
+            End Sub
+    
+            Private Function GetNumber() As Integer
+                Dim rand = New Random()
+                Dim iters = rand.[Next](MIN_ITERATIONS, MAX_ITERATIONS)
+                Dim result = 0
+                SyncLock m_totalItersLock
+                    m_totalIterations += iters
+                End SyncLock
+                ' we're just spinning here  
+                ' and using Random to frustrate compiler optimizations  
+                For i As Integer = 0 To iters - 1
+                    result = rand.[Next]()
+                Next
+                Return result
+            End Function
+        End Class
+    
+        Public Class Simple
+            Public Shared Sub Main()
+                For i As Integer = 0 To 199
+                    CreateThreads()
+                Next
+            End Sub
+            Public Shared Sub CreateThreads()
+                Dim serverObject As New ServerClass()
+    
+                Dim InstanceCaller As New Thread(New ThreadStart(AddressOf serverObject.DoWork))
+                ' Start the thread.
+                InstanceCaller.Start()
+    
+                Console.WriteLine("The Main() thread calls this after " + "starting the new InstanceCaller thread.")
+    
+            End Sub
+        End Class
+    End Namespace
+    ```
+
+    > [!NOTE]
+    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties > Application > Startup Object**).
+
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
   
 1.  First, set a breakpoint in your app on this line of code in the `Main` function:
 
     `for (int i = 0; i < 200; i++)`
+
+    or, for Visual Basic:
+
+    `For i As Integer = 0 To 199`
 
     Set a breakpoint by clicking in the gutter to the left of the line of code.
 
@@ -125,6 +184,8 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 5.  While the debugger is paused, enable the collection of the CPU Usage data by choosing **Record CPU Profile**, and then open the **CPU Usage** tab.
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/quickstart-cpu-usage-summary.png "Diagnostics Tools Enable CPU Profiling")
+
+     When data collection is enabled, the record button displays a red circle.
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute, and also provides a timeline graph you can use to focus on specific segments of the sampling session.You can only view this collected data when your application is halted at a breakpoint.
 
@@ -159,7 +220,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete.
 
-    **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this illustration, 2856 out of 2863 ms were spent in the function body, and the remaining time (<20 ms) was spent in external code called by this function). Actual values will vary depending on your environment.
+    **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this illustration, 2856 out of 2863 ms were spent in the function body, and the remaining time (<20 ms) was spent in external code called by this function). Actual values will be different depending on your environment.
 
     > [!TIP]
     > High values in **Function Body** may indicate a performance bottleneck within the function itself.
