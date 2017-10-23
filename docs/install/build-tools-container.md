@@ -159,4 +159,4 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
 ## See also
 
 * [Advanced Example for Containers](advanced-build-tools-container.md)
-* [Known Issues for Containers](build-tools-container-caveats.md)
+* [Known Issues for Containers](build-tools-container-issues.md)

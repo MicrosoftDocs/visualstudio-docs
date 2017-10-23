@@ -20,7 +20,7 @@ The sample Dockerfile in [Install Build Tools into a Container](build-tools-cont
 The following example Dockerfile uses a specific version tag of the microsoft/windowsservercore image. Using a specific tag for a base image is commonplace and makes it easy to remember that building or rebuilding images always has the same basis.
 
 > [!NOTE]
-> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593, which has known issues launching the installer in a container. For more information, see [caveats](build-tools-container-caveats.md).
+> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593, which has known issues launching the installer in a container. For more information, see [known issues](build-tools-container-issues.md).
 
 The example also uses a Build Tools 2017 bootstrapper that installs a specific version built at the same time as the bootstrapper. The product could still be updated via the Release channel, but that is not a practical scenario for containers that you would typically rebuild. If you want to get the URLs for a specific channel, you can download the channel from https://aka.ms/vs/15/release/channel, open the JSON file, and examine the bootstrapper URLs. For more information, see [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md).
 
@@ -84,4 +84,4 @@ At line:1 char:1
 ## See also
 
 * [Install Build Tools into a Container](build-tools-container.md)
-* [Known Issues for Containers](build-tools-container-caveats.md)
+* [Known Issues for Containers](build-tools-container-issues.md)
