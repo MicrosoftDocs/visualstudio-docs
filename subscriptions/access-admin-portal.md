@@ -30,8 +30,3 @@ If you need information about how to set up an administrator, please watch [this
 
 If you have already been set up as an administrator, then you can go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
 
-## For Cloud Subscriptions
-
-## For Program Subscriptions
-
-## New Visual Studio Subscriptions Administrator portal 
