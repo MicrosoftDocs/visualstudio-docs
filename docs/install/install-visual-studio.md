@@ -136,4 +136,5 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Visual Studio 2017 Administrator Guide](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Install Build Tools into a Container](build-tools-container.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
