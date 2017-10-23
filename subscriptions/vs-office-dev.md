@@ -24,21 +24,21 @@ Subscribers with Visual Studio Enterprise or Visual Studio Enterprise Subscripti
 3. Once the sign in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible. 
 4. Click on the **Get Code** link at the bottom of the benefit tile.   When the code has been  retrieved, click **Activate**. 
 
-![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
+    ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
 
 5.	The next step is to create an account.  Provide your contact information, and click **Next**. 
 
-![Office 365 Dev Benefit Account](_img\vs-office-dev\vs-office-dev-account-cropped.png)
+    ![Office 365 Dev Benefit Account](_img\vs-office-dev\vs-office-dev-account-cropped.png)
 
 
 6.	Provide the requested information about where you’ll be using the subscription and click **Next**.  The information is used to determine subscription availability and any applicable taxes.  
 
-![Office 365 Dev Benefit Contact Information](_img\vs-office-dev\vs-office-dev-contact-cropped.png)
+    ![Office 365 Dev Benefit Contact Information](_img\vs-office-dev\vs-office-dev-contact-cropped.png)
 
 
 7.	Create your username and password for your account.  
 
-![Office 365 Dev Benefit User Name](_img\vs-office-dev\vs-office-dev-username-cropped.png)
+    ![Office 365 Dev Benefit User Name](_img\vs-office-dev\vs-office-dev-username-cropped.png)
 
 8.	Provide a phone number and choose whether to receive a confirmation code via phone or text.  This helps us ensure the account is being created by a real person. Enter the code you receive and click **Next**.
 
@@ -46,7 +46,7 @@ Subscribers with Visual Studio Enterprise or Visual Studio Enterprise Subscripti
 
 10.	The next page will confirm that your subscription is available to you at no cost.  Click **Next** to continue.  
 
-![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
+    ![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
 
 
 11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.
@@ -54,11 +54,11 @@ Subscribers with Visual Studio Enterprise or Visual Studio Enterprise Subscripti
     Note:  For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.
  
 
-![Office 365 Dev Benefit Payment](_img\vs-office-dev\vs-office-dev-credit-blur-cropped.png)
+    ![Office 365 Dev Benefit Payment](_img\vs-office-dev\vs-office-dev-credit-blur-cropped.png)
 
 12.	At this point, you have successfully redeemed your Office 365 Developer Subscription benefit.  You’ll see a page confirming your order.  The page will provide a link to the [sign-in page](https://portal.office.com "Office 365 sign-in page").  We recommend bookmarking the page for later use.  You’ll also want to record the user ID shown on the page.  (You will also receive a welcome email at the address you provided when you set up the account.)  Click **Start setup** to continue.  
 
-![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
+    ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
 
 ## Setting up the Office 365 Developer subscription benefit
 
@@ -66,37 +66,54 @@ Subscribers with Visual Studio Enterprise or Visual Studio Enterprise Subscripti
 
 Note:  To sign in to https://portal.office.com, you will need to use your new Office 365 Developer Subscription User ID that you created in Step 7 above.
 
-![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
+    ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
 
 2. After clicking **Start Setup**, “Step 1” will ask to connect to an existing domain you already own, or to continue using the tenant setup during redemption process.  In the example below, we’ve opted to continue using our appsbyjane2017.onmicrosoft.com” domain.
 
-![Office 365 Dev Benefit Admin Center](_img\vs-office-dev\vs-office-dev-admin-cropped.png)
+    ![Office 365 Dev Benefit Admin Center](_img\vs-office-dev\vs-office-dev-admin-cropped.png)
 
 12.	Step 2 allows administrators to add users to the Office 365 account.  Add your desired users, and click **Next**.  
 
-
-
-
-
-
-
-
 13.	Step 3 enables you to install your Office apps.  You can choose to install now, or wait until later.  To install Office Professional Plus or Skype for Business, simply click one of the corresponding **Install now** buttons.  Your Office 365 ProPlus subscription includes:
-- Word
-- Excel
-- PowerPoint
-- OneNote
-- Access
-- Publisher
-- Outlook
-- Skype for Business
-- OneDrive for Business
+    - Word
+    - Excel
+    - PowerPoint
+    - OneNote
+    - Access
+    - Publisher
+    - Outlook
+    - Skype for Business
+    - OneDrive for Business
+
 14.	Choose your preferred language and click **Install**. 
 
-![Office 365 Dev Benefit Install Apps](_img\vs-office-dev\vs-office-dev-install-cropped.png)
+    ![Office 365 Dev Benefit Install Apps](_img\vs-office-dev\vs-office-dev-install-cropped.png)
 
-15. Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.  
+15. Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.
+
 16.	When the User Account Control dialog appears, click **Yes** to allow Office to install on your computer.  
 
-![Office 365 Dev Benefit Install](_img\vs-office-dev\vs-office-dev-app-install-cropped.png)
+    ![Office 365 Dev Benefit Install](_img\vs-office-dev\vs-office-dev-app-install-cropped.png)
+
+
+## Updating the number of users from the Office 365 Admin Portal
+
+In case you didn’t assign the required number of users during the redemption process and wish to increase this number at a later time, follow the steps below. 
+
+1. To increase users after the redemption process has been completed, you will need to visit [https://portal.office.com](https://portal.office.com) and sign in with the “User ID” created during the tenant creation steps.
+
+Note:  If you’re having trouble finding your sign in information, look in your “Order Confirmation” email sent from the “Microsoft Online Service Team” with the subject “Order Confirmation:  Thank you for your purchase”.  Alternatively, you can also search your inbox for “Body:(Office 365 Enterprise E3 Developer MSDN)”.
+
+2. After successful sign in, select the **Admin** tile. You will be redirected to the “Admin Center”.
+
+3. From the left hand navigation panel, click the drop down for **Billing** and choose **Subscriptions**.
+
+4. Locate the Office 365 Enterprise E3 Developer MSDN subscription, and click **Add/ Remove Licenses**.
+
+5. Increase or decrease the **Total users** to the desired value (not to exceed 25), and click **Submit**.
+
+6. The “Purchase” value, as indicated on the “Subscriptions” page, should now match the value submitted.
+
+Note:  Exceeding a value of 25 “Total users” will result in an error.
+
 
