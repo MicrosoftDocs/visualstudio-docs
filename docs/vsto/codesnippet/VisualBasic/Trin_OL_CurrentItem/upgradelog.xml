@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_OL_CurrentItem">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Trin_OL_CurrentItem.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Trin_OL_CurrentItem.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:32 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_OL_CurrentItem.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_CurrentItem.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\Trin_OL_CurrentItem.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_CurrentItem.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\Trin_OL_CurrentItem.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\Trin_OL_CurrentItem.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\Trin_OL_CurrentItem_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_OL_CurrentItem\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_OL_CurrentItem.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_OL_CurrentItem.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_OL_CurrentItem" Source="Trin_OL_CurrentItem.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,1 @@
+    Inherits DataService(Of northwindEntities)

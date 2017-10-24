@@ -1,0 +1,1 @@
+        Assert.IsTrue((myAuto.Model = "Not specified") And (myAuto.TopSpeed = -1))

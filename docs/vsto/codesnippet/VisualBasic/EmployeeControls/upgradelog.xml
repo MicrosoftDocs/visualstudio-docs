@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EmployeeControls">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\EmployeeControls.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\EmployeeControls.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="7:44 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="EmployeeControls.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="EmployeeControls.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls.sln">
+</Event><Event ErrorLevel="0" Project="" Source="EmployeeControls.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls.v11.suo">
+</Event><Event ErrorLevel="3" Project="EmployeeControls" Source="EmployeeControls.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls.vbproj">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls.vbproj.user">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls.docx">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\EmployeeControls_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="employees.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\employees.xsd">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="employees.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\employees.xml">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="ThisDocument.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlXmlPartWalkthrough\VB\Backup\ThisDocument.resx">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EmployeeControls" Source="EmployeeControls.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EmployeeControls.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EmployeeControls.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EmployeeControls" Source="EmployeeControls.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

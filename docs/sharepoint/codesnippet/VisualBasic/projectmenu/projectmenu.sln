@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectMenu", "ProjectMenu.vbproj", "{1F088772-113C-4A68-B5DA-D0FAD7FA922F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Extension", "Extension\Extension.vbproj", "{85AD6814-2D61-45F5-B736-BD6CDF619BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F088772-113C-4A68-B5DA-D0FAD7FA922F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F088772-113C-4A68-B5DA-D0FAD7FA922F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F088772-113C-4A68-B5DA-D0FAD7FA922F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F088772-113C-4A68-B5DA-D0FAD7FA922F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AD6814-2D61-45F5-B736-BD6CDF619BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AD6814-2D61-45F5-B736-BD6CDF619BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AD6814-2D61-45F5-B736-BD6CDF619BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AD6814-2D61-45F5-B736-BD6CDF619BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

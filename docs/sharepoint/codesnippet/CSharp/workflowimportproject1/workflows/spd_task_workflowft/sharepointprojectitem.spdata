@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Workflow" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SPD_Task_WorkflowFT\" Type="ElementManifest" />
+    <ProjectItemFile Source="SPD Task Workflow.aspx" Target="Layouts\WorkflowImportProject1\SPD_Task_WorkflowFT\" Type="TemplateFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,47 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "contributors_to_exclude": ["conceptdev","meganbradley"],
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "manager": "crdun",
+      "ms.topic": "article",
+      "audience": "developer",
+      "ms.prod": "visual-studio-mac",
+      "ms.technology": "vs-ide-general",
+      "searchScope": ["Mac"]
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "mac"
+  }
+}

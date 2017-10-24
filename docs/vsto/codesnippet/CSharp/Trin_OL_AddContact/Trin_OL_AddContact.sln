@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trin_ol_addcontact", "trin_ol_addcontact.csproj", "{2D868BF9-95F6-4311-81FA-037C876938EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{2D868BF9-95F6-4311-81FA-037C876938EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D868BF9-95F6-4311-81FA-037C876938EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D868BF9-95F6-4311-81FA-037C876938EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D868BF9-95F6-4311-81FA-037C876938EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+        config.SetEntitySetAccessRule("*", EntitySetRights.All)

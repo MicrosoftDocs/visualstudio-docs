@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_OL_CustFolderItem", "Trin_OL_CustFolderItem.csproj", "{FDFB06AF-FA37-459A-90EC-0BF78479D960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{FDFB06AF-FA37-459A-90EC-0BF78479D960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFB06AF-FA37-459A-90EC-0BF78479D960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFB06AF-FA37-459A-90EC-0BF78479D960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFB06AF-FA37-459A-90EC-0BF78479D960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

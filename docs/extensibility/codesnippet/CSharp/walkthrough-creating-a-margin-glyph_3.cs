@@ -1,0 +1,1 @@
+    const double m_glyphSize = 16.0;

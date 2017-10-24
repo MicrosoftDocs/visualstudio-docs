@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_Outlook_RL_PerformActions">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Trin_Outlook_RL_PerformActions.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Trin_Outlook_RL_PerformActions.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:54 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_Outlook_RL_PerformActions.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_RL_PerformActions.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\Trin_Outlook_RL_PerformActions.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_RL_PerformActions.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\Trin_Outlook_RL_PerformActions.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\Trin_Outlook_RL_PerformActions.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\Trin_Outlook_RL_PerformActions_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_RL_PerformActions\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_RL_PerformActions.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_Outlook_RL_PerformActions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_RL_PerformActions" Source="Trin_Outlook_RL_PerformActions.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

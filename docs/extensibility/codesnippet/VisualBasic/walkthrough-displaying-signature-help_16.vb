@@ -1,0 +1,1 @@
+    Private m_textBuffer As ITextBuffer

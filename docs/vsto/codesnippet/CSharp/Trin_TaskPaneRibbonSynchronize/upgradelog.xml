@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_TaskPaneRibbonSynchronize">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Trin_TaskPaneRibbonSynchronize.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Trin_TaskPaneRibbonSynchronize.v11.suo">
+</Property><Property Name="Date" Value="Monday, November 07, 2011">
+</Property><Property Name="Time" Value="13:28 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_TaskPaneRibbonSynchronize.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneRibbonSynchronize.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Trin_TaskPaneRibbonSynchronize.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneRibbonSynchronize.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Trin_TaskPaneRibbonSynchronize.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Trin_TaskPaneRibbonSynchronize.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Trin_TaskPaneRibbonSynchronize.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ManageTaskPaneRibbon.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ManageTaskPaneRibbon.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ManageTaskPaneRibbon.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ManageTaskPaneRibbon.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="TaskPaneControl.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\TaskPaneControl.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="TaskPaneControl.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\TaskPaneControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Trin_TaskPaneRibbonSynchronize_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="ManageTaskPaneRibbon.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\ManageTaskPaneRibbon.resx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="TaskPaneControl.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneRibbonSynchronize\CS\Backup\TaskPaneControl.resx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneRibbonSynchronize.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_TaskPaneRibbonSynchronize.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneRibbonSynchronize" Source="Trin_TaskPaneRibbonSynchronize.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

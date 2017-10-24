@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreActionsPaneExcelVB">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Trin_VstcoreActionsPaneExcelVB.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Trin_VstcoreActionsPaneExcelVB.v11.suo">
+</Property><Property Name="Date" Value="Monday, November 07, 2011">
+</Property><Property Name="Time" Value="13:35 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreActionsPaneExcelVB.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneExcelVB.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Trin_VstcoreActionsPaneExcelVB.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneExcelVB.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Trin_VstcoreActionsPaneExcelVB.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Trin_VstcoreActionsPaneExcelVB.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Trin_VstcoreActionsPaneExcelVB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="ActionsControl.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\ActionsControl.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="ActionsControl.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\ActionsControl.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="HelloControl.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\HelloControl.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="HelloControl.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\HelloControl.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="NorthwindDataSet.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\NorthwindDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Sheet1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Sheet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Sheet1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Sheet1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="ThisWorkbook.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\ThisWorkbook.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="ThisWorkbook.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\ThisWorkbook.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="WorkbookVB.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\WorkbookVB.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="app.config" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="NorthwindDataSet.xsc" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\NorthwindDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="NorthwindDataSet.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\NorthwindDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="NorthwindDataSet.xss" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\NorthwindDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Trin_VstcoreActionsPaneExcelVB_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Sheet1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\VB\Backup\Sheet1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreActionsPaneExcelVB" Source="Trin_VstcoreActionsPaneExcelVB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreActionsPaneExcelVB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreActionsPaneExcelVB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreActionsPaneExcelVB" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreActionsPaneExcelVB" Source="app.config" Description="Converted">
+</Event></UpgradeLog>

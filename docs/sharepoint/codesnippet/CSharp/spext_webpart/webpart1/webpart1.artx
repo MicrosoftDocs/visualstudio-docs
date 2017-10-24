@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Artifact ArtifactType="Microsoft.VisualStudio.Tools.SharePoint.WebPart" DefaultFile="WebPart1.cs" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/ArtifactModel">
+  <ArtifactItems>
+    <ArtifactItem Source="Elements.xml" Type="ElementManifest" />
+    <ArtifactItem Source="WebPart1.webpart" Type="ElementFile" />
+  </ArtifactItems>
+  <SafeControls>
+    <SafeControl Namespace="SpExt_WebPart" TypeName="*" />
+  </SafeControls>
+</Artifact>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Trin_ExcelWorkbookPDA", "Trin_ExcelWorkbookPDA.vbproj", "{64280D6D-CAB1-444D-A756-0A2131D337D9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RegistryPDA", "RegistryPDA\RegistryPDA.vbproj", "{21157A34-8C00-444A-BA81-99DA9A2837CB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FileCopyPDA", "FileCopyPDA\FileCopyPDA.vbproj", "{CA4C7AA7-2A77-4434-B643-9C9FE8DD7D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{21157A34-8C00-444A-BA81-99DA9A2837CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21157A34-8C00-444A-BA81-99DA9A2837CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21157A34-8C00-444A-BA81-99DA9A2837CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21157A34-8C00-444A-BA81-99DA9A2837CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64280D6D-CAB1-444D-A756-0A2131D337D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64280D6D-CAB1-444D-A756-0A2131D337D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64280D6D-CAB1-444D-A756-0A2131D337D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64280D6D-CAB1-444D-A756-0A2131D337D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4C7AA7-2A77-4434-B643-9C9FE8DD7D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4C7AA7-2A77-4434-B643-9C9FE8DD7D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4C7AA7-2A77-4434-B643-9C9FE8DD7D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4C7AA7-2A77-4434-B643-9C9FE8DD7D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

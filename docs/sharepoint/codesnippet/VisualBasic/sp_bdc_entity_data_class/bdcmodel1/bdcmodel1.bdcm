@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/windows/2007/BusinessDataCatalog" Name="BdcModel1">
+  <LobSystems>
+    <LobSystem Name="BdcModel1" Type="DotNetAssembly">
+      <LobSystemInstances>
+        <LobSystemInstance Name="BdcModel1" />
+      </LobSystemInstances>
+      <Entities>
+        <Entity Name="Contact" Namespace="SP_BDC_Entity_Data_Class" Version="1.0.0.4">
+          <Properties>
+            <Property Name="Class" Type="System.String">SP_BDC_Entity_Data_Class.ContactService, BdcModel1</Property></Properties>
+          <Identifiers>
+            <Identifier Name="ContactID" TypeName="System.Int32" /></Identifiers></Entity></Entities>
+    </LobSystem>
+  </LobSystems>
+</Model>

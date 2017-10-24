@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="7ff6fa28-9753-450d-bdf3-d86e729e77a2" solutionId="7ff6fa28-9753-450d-bdf3-d86e729e77a2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="ProjectTaskList1">
+    <features>
+        <featureReference projectId="a94a6274-6658-4846-86e2-05deb0c85da3" itemId="860744f4-29b4-4a54-a373-d1397aeedd6e" />
+    </features>
+</package>

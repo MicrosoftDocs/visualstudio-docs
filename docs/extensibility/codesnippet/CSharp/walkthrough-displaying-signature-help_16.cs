@@ -1,0 +1,1 @@
+    private ITextBuffer m_textBuffer;

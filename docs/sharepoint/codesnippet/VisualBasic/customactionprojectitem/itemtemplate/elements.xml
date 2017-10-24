@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements Id="$guid8$" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="$IdValue$"
+                GroupId="$GroupIdValue$"
+                Location="$LocationValue$"
+                Sequence="1000"
+                Title="$TitleValue$"
+                Description="$DescriptionValue$" >
+    <UrlAction Url="$UrlValue$"/>
+  </CustomAction>
+</Elements>

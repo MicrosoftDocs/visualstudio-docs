@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="1bcd770e-e277-4fab-b128-f43c04379a9a" solutionId="1bcd770e-e277-4fab-b128-f43c04379a9a" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SpExt_WebPart">
+    <featureRefs>
+        <featureRef projectId="fe9aa7b3-67e3-46c5-b157-172a90fcafaa" itemId="11e78ae2-8508-44bc-8a78-e7e4d31ef3d2" />
+    </featureRefs>
+</package>
