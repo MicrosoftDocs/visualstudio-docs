@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ProjectItem Type="Microsoft.VisualStudio.SharePoint.EventHandler" DefaultFile="EventReceiver1.vb" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
-  <Files>
-    <ProjectItemFile Source="Elements.xml" Target="EventReceiver1\" Type="ElementManifest" />
-  </Files>
-</ProjectItem>

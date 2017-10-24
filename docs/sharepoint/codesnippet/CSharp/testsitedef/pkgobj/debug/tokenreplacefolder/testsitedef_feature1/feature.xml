@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="af637b03-c0d5-4408-b63d-182f40e02d59" Scope="Site" Title="TestSiteDef Feature1">
-  <ElementManifests>
-    <ElementManifest Location="VisualWebPart1\Elements.xml" />
-    <ElementFile Location="VisualWebPart1\VisualWebPart1.webpart" />
-  </ElementManifests>
-</Feature>

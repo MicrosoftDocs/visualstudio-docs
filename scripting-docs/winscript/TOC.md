@@ -1,7 +1,0 @@
-# [Windows Script Interfaces](windows-script-interfaces.md)
-# [Windows Script Hosts](windows-script-hosts.md)
-# [Windows Script Engines](windows-script-engines.md)
-# [Active Script Debugging Overview](active-script-debugging-overview.md)
-## [Implementing Smart Host Helper Interfaces](implementing-smart-host-helper-interfaces.md)
-# [Active Script Profiling Overview](active-script-profiling-overview.md)
-# [Windows Script Interfaces Reference](reference/TOC.md)

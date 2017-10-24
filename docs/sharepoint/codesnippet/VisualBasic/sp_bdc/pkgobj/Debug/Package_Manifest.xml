@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="90be17f7-959d-4aa9-a8b6-bf9cf6e19c71">
-  <Assemblies>
-    <Assembly Location="SP_BDC.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="SP_BDC_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

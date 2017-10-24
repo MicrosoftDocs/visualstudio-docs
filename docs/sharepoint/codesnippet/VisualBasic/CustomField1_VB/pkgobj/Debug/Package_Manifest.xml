@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="cea5c3f8-de0e-4151-869a-e2728b27fb3f">
-  <Assemblies>
-    <Assembly Location="CustomField1_VB.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="CustomField1_VB_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

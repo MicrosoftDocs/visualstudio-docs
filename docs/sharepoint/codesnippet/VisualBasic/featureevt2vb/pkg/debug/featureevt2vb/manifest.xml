@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7b51d578-9a3e-4fd6-afbd-5e87281fe378">
-  <Assemblies>
-    <Assembly Location="FeatureEvt2VB.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="FeatureEvt2VB_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

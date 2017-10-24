@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Field ID="{5744d18c-305e-4632-8bd1-09d134f4830d}" Type="Note" Name="PatientName" DisplayName="Patient Name">
-  </Field>
-</Elements>

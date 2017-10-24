@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="fb4bc38b-1875-4030-91b6-04ca1b5c59fe" Scope="Site" Title="Converted workflows">
-  <ElementManifests>
-    <ElementManifest Location="SPD_Task_WorkflowFT\Elements.xml" />
-  </ElementManifests>
-</Feature>

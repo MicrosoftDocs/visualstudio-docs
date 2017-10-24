@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ListInstance Title="ProjectTaskList - ListInstance1"
-                OnQuickLaunch="TRUE"
-                TemplateType="107"
-                Url="Lists/ProjectTaskList-ListInstance1"
-                Description="">
-  </ListInstance>
-</Elements>

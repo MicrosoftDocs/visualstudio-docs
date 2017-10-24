@@ -1,1 +1,0 @@
-Internet Explorer 9 standards mode

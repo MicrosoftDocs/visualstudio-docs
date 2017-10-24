@@ -1,3 +1,0 @@
-Supported in Microsoft Edge (Edge browser) with experimental JavaScript features enabled (about:flags). See [Version Information](../../../javascript/reference/javascript-version-information.md).  
-  
- Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Not supported in Windows 8.1.
