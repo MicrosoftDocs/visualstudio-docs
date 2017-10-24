@@ -14,7 +14,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Step-back debugging with IntelliTrace //Title TBD
+# Step-back debugging with IntelliTrace
 IntelliTrace Step-back automatically takes a snapshot of your application on every breakpoint and debugger step event. This enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past. This can save you time when you want to see previous application state without having to restart debugging or recreate the debugging state again.
 
 IntelliTrace Step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, Managed Console apps, and Managed Class Libraries. Debugging ASP.NET Core or UWP applications is not currently supported. 
