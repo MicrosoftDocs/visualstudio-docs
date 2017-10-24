@@ -28,11 +28,10 @@ When you select **OK**, the profiler runs and opens a performance report through
 
 ![Profiling performance report](media/profiling-results.png)
 
-For an overview, see the following
+For a demonstration, see the video [Profiling Python](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567) (Microsoft Virtual Academy, 3m00s).
 
-For a walkthrough demonstration, see the [Profiling with Python Tools for Visual Studio](http://www.youtube.com/watch?v=K-KqkFkp55k) video (8m52s).
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Testing-Python-hb46k6LWE_405918567]
 
-> [!VIDEO https://www.youtube.com/embed/K-KqkFkp55k]
 
 ## Profiling for IronPython
 

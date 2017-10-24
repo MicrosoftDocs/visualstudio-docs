@@ -36,10 +36,6 @@ When deploying to Microsoft Azure App Service, select a version of Python as a [
 
 Microsoft Azure Cloud Service *does* support the `requirements.txt` file. [Azure Cloud Service Projects](template-azure-cloud-service.md) for details.
 
-For an introduction to Python web projects, see [Getting Started with PTVS, Part 6: Web sites](https://youtu.be/FJx5mutt1uk?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m10s).
-
-> [!VIDEO https://www.youtube.com/embed/FJx5mutt1uk]
-
 ## Debugging
 
 When a web project is started for debugging, Visual Studio starts the web server locally and opens your default browser to that address and port. To specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:

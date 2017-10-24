@@ -22,7 +22,7 @@ Most regular Python debuggers support debugging of only Python code. In practice
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 
-For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s).
+For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s). The video is applicable to both Visual Studio 2015 and 2017.
 
 > [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
 

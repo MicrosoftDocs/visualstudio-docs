@@ -42,6 +42,6 @@ You may encounter the following dialog boxes as you debug your application.
 -   [Debugging Errors and Warning Dialog Boxes](../debugger/debugging-errors-and-warning-dialog-boxes.md)  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Command Window](../ide/reference/command-window.md)
