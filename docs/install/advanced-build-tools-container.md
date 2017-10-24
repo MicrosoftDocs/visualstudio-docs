@@ -1,10 +1,10 @@
-,---
+---
 title: "Advanced Example for Containers | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,7 @@ author: "heaths"
 ms.author: "heaths"
 manager: "ghogen"
 ---
+
 # Advanced Example for Containers
 
 The sample Dockerfile in [Install Build Tools into a Container](build-tools-container.md) always uses the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image may be okay for many scenarios. In practice, however, it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
