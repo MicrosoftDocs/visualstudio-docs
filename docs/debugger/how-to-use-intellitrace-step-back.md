@@ -57,8 +57,6 @@ You can also view a snapshot from the Events tab. Select an event with a snapsho
 ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging
 .png "Activate Historical Debugging on an event")
 
-This will put Visual Studio in **historical debugging** mode, and allow you to view all historical data corresponding to the snapshot.
-
 
 > [!NOTE]
 >  Unlike using Set Next Statement and re-running your code, viewing a snapshot doesn’t re-run your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
