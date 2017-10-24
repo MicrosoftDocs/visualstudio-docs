@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/walkthrough-creating-a-basic-isolated-shell-application
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

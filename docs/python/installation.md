@@ -71,6 +71,8 @@ To quickly test Python support after following the installation steps, Open the 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
 
 
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567]
+
 ## Visual Studio 2015
 
 1. Run the Visual Studio installer through **Control Panel > Programs and Features**, selecting **Microsoft Visual Studio 2015** and then **Change**.

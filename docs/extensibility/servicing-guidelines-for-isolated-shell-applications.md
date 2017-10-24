@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/servicing-guidelines-for-isolated-shell-applications
 title: "Servicing Guidelines for Isolated Shell Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

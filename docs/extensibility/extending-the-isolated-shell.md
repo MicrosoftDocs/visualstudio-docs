@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/extending-the-isolated-shell
 title: "Extending the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

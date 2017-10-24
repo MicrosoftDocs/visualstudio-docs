@@ -39,14 +39,11 @@ In this topic:
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
-For an introduction to Python projects in Visual Studio, see [Getting Started with Python Tools Part 2: Projects](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m18s).
+For an introduction to Python projects in Visual Studio, see the video [Getting Python Code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=iLAv23LWE_3905918567) (Microsoft Virtual Academy, 2m17s).
 
-> [!VIDEO https://www.youtube.com/embed/KHPoVpL7zHg]
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Getting-Python-Code-iLAv23LWE_3905918567]
 
-Also see the video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
-
-> [!VIDEO https://www.youtube.com/embed/Aq8eqApnugM]
-
+Also see the older video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
 
 ## Adding files, assigning a startup file, and setting environments
 

@@ -165,5 +165,5 @@ To analyze memory usage, click one of the links that opens up a detailed report 
  [Visual C++ Blog: Native Memory Diagnostic Tools for Visual Studio 2015 CTP](http://blogs.msdn.com/b/vcblog/archive/2014/06/04/native-memory-diagnostic-tools-for-visual-studio-14-ctp1.aspx)
 
 ## See Also
- [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

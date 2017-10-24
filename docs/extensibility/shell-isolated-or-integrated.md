@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/shell-isolated-or-integrated
 title: "Shell (Isolated or Integrated) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"

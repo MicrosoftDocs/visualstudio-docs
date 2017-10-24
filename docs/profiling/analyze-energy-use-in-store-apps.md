@@ -151,5 +151,5 @@ if (performance && performance.mark) {
 -   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
 
 ## See Also
- [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
