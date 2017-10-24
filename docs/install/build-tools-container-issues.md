@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/18/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,7 +15,7 @@ manager: "ghogen"
 ---
 # Known issues for containers
 
-There a few issues when installing Visual Studio into a Docker container.
+There are a few issues when installing Visual Studio into a Docker container.
 
 ## Windows container
 
