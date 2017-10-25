@@ -1,0 +1,59 @@
+- name: Visual Studio Tools for AI
+  href: index.yml
+  items:
+    - name: Overview
+      href: overview.md
+    - name: Installation
+      href: installation.md 
+    - name: Quickstarts
+      items: 
+        - name: Tensorflow + Machine Learning Gallery
+          href: 
+        - name: CNTK + existing code 
+          href: 
+    - name: Tutorials 
+      items:
+        - name: Prepare your environment
+          href: 
+        - name: Create a new deep learning project
+          href:
+        - name: Training a model locally
+          href:       
+        - name: Train your model on the cloud
+          href:
+        - name: Debugging your model
+          href:
+        - name: Measuring and improving the quality of your model
+          href:
+        - name: Hyperparamter tuning
+          href:
+        - name: Operationize the model
+          href:
+    - name: Concepts 
+      items:
+        - name: Cloud compute targets
+          href: 
+        - name: Supported Frameworks
+          href:
+    - name: How To
+      items:
+        - name: Train your model
+          href: 
+        - name: Use Docker
+          href: 
+        - name: Debugging
+          href: 
+        - name: Working with Azure GPU virtual machines
+          href: 
+
+    - name: Samples
+      href: https://github.com/Microsoft/samples-for-ai
+    - name: Reference
+      items:
+        - name: Configuration Options
+          href: 
+        - name: Machine Learning Templates
+          href: 
+    
+
+
