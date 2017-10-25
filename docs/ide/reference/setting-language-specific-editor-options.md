@@ -16,7 +16,7 @@ ms.assetid: ba64d517-a60d-409b-9860-5d75065a5bb7
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Setting Language-Specific Editor Options
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers a variety of Text Editor options that apply to specific programming languages.  

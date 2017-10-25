@@ -17,7 +17,7 @@ ms.assetid: 61de76c8-69d7-4cdb-b605-e132f45d05d9
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Open Solution Command
 Opens an existing solution, closing any other open solutions.  

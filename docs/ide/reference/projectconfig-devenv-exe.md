@@ -24,7 +24,7 @@ ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /ProjectConfig (devenv.exe)
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/project` argument.  

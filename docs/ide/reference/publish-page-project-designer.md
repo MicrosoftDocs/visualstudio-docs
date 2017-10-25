@@ -21,7 +21,7 @@ ms.assetid: 153527c6-8b95-4003-8e8e-03a489d0a629
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Publish Page, Project Designer
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  
