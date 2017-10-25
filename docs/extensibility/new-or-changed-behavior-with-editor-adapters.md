@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # New or Changed Behavior with Editor Adapters
 If you are updating code that was written against earlier versions of the Visual Studio core editor, and you plan to use the editor adapters (or shims) rather than using the new API, you should be aware of the following differences in the behavior of the editor adapters with respect to the previous core editor.  

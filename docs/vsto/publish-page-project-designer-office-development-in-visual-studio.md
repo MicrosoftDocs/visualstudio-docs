@@ -21,7 +21,7 @@ ms.assetid: 94d9bdf1-84fa-4e26-8ece-a1a0dabda5ea
 caps.latest.revision: 31
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Publish Page, Project Designer (Office Development in Visual Studio)
   The **Publish** page of the **Project Designer** is used to configure properties for deployment.  

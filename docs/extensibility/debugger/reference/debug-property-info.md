@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUG_PROPERTY_INFO
 Contains information about a debug property.  

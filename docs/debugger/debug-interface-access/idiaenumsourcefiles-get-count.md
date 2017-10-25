@@ -16,7 +16,7 @@ ms.assetid: 04083b97-e1ac-4baf-bf5a-50a4dc1c6f27
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSourceFiles::get_Count
 Retrieves the number of source files.  

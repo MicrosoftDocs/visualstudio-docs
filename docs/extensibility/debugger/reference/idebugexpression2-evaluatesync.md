@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpression2::EvaluateSync
 This method evaluates the expression synchronously.  

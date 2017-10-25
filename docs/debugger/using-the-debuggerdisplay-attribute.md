@@ -16,7 +16,7 @@ ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using the DebuggerDisplay Attribute
 The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisplayattribute) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  

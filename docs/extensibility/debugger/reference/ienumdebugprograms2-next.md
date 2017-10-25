@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9120e263-e97c-4a40-ab2c-e9264ce3d6c4
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPrograms2::Next
 Returns the next set of elements from the enumeration.  

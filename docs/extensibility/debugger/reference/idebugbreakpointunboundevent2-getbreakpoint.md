@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 Gets the breakpoint that became unbound.  

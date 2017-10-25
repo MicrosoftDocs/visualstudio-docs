@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DISASSEMBLY_FLAGS
 Specifies the flags for disassembly.  

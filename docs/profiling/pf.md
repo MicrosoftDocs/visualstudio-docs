@@ -12,7 +12,7 @@ ms.assetid: cdc0a094-a986-4629-bd1c-dd5fdca323dc
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # PF
 The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  

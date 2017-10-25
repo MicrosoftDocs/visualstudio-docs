@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: add6a6b5-e752-47dd-9613-29206ea809b0
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject2::GetField
 Gets the type of this object.  

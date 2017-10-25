@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 4bb621bd-72f5-43d5-916f-9f66617da049
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Drop-down Bar
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  

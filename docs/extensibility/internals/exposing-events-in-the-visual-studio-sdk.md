@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Exposing Events in the Visual Studio SDK
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.  

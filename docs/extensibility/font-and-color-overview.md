@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 2203e4e7-8b7f-44ec-8884-6ff718d4f278
 caps.latest.revision: 22
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Font and Color Overview
 This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  

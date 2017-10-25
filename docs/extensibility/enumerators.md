@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
 caps.latest.revision: 19
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Enumerators
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.  

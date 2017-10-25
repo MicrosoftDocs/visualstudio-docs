@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 caps.latest.revision: 3
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Installing the Visual Studio SDK
 The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on.  

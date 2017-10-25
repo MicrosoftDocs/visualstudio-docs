@@ -12,7 +12,7 @@ ms.assetid: c122b08e-e3bf-43e6-bd6c-e776e178fd9a
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
 ---
 # Analyze CPU Usage in a Universal Windows App (UWP)

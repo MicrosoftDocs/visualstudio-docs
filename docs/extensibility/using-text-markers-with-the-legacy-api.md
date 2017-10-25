@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using Text Markers with the Legacy API
 A text marker is a floating range of text in a buffer that can affect the display and behavior of a region of text. Markers include breakpoints, bookmarks, wavy underlines, and read-only regions. Text markers are basically different from syntax coloring. Syntax coloring is a quick way to communicate the language syntax that is associated with a region of text. Syntax coloring is generally requested when Windows repaints the screen, when speed is important. Syntax coloring changes only the color of text. Text markers can change many other text properties. Text markers can "float" and apply special behavior and coloring.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2::GetParent
 Gets the parent reference of a reference. Reserved for future use.  

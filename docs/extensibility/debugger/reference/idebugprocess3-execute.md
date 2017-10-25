@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d831cd81-d7bf-4172-8517-aa699867791f
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::Execute
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.  

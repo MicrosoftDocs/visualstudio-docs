@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
 caps.latest.revision: 30
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugger Components
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  

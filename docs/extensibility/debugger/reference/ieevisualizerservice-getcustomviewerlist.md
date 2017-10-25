@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEVisualizerService::GetCustomViewerList
 This method returns a list of type visualizers that this service knows about.  

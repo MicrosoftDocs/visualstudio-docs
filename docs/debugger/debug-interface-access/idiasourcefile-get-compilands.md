@@ -16,7 +16,7 @@ ms.assetid: 57deb50a-9c22-43ea-a80c-eab205997bc4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSourceFile::get_compilands
 Retrieves an enumerator of compilands that have line numbers referencing this file.  

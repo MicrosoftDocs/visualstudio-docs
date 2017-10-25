@@ -16,7 +16,7 @@ ms.assetid: 75d128a8-3dce-40ed-b392-de3fdda041b7
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::get_globalScope
 Retrieves a reference to the global scope.  

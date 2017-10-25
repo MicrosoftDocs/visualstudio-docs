@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b19a7934-6179-4a68-9075-bd7dcd640b05
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramCreateEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program is attached to.  

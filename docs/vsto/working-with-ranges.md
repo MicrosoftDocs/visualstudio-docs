@@ -20,7 +20,7 @@ ms.assetid: 26835a5d-402c-4c13-8f33-e4d8ffed3dfe
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Ranges
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Interop.Excel.Range> classes contain the methods and properties you use to perform tasks with ranges.  

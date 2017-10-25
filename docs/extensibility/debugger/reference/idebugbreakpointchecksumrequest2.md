@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointChecksumRequest2
 Represents a document checksum for a breakpoint request.  

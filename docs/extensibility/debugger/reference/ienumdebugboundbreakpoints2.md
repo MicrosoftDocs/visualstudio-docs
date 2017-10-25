@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ea03e7e1-28d6-40b7-8097-bbb61d3b7caa
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugBoundBreakpoints2
 This interface enumerates the bound breakpoints associated with a pending breakpoint or breakpoint bound event.  

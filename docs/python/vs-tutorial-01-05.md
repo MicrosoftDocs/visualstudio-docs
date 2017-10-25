@@ -13,7 +13,7 @@ ms.assetid: 69e51c46-9a10-4d6f-9f74-2d1385beb1ac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 5: Installing packages in your Python environment

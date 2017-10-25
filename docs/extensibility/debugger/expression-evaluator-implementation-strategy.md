@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Expression Evaluator Implementation Strategy
 > [!IMPORTANT]

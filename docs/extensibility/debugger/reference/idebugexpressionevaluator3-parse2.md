@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator3::Parse2
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.  

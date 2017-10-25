@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject2::GetBackingFieldForProperty
 Gets the field or variable (if any) that may be backing the property represented by this object.  

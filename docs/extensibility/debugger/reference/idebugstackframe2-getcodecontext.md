@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetCodeContext
 Gets the code context for this stack frame.  

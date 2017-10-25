@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TemplateContent Element (Visual Studio Templates)
 Specifies the contents of the template.  

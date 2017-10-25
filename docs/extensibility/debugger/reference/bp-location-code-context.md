@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_LOCATION_CODE_CONTEXT
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.  

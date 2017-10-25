@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAddress2
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.  

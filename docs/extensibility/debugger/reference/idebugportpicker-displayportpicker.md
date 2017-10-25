@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortPicker::DisplayPortPicker
 Displays the specified dialog box that allows the user to select a port.  

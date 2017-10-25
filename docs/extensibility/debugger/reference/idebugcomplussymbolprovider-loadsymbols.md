@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3499680d-0b9a-4f20-8432-c89a41b29b87
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
 Loads the specified debug symbols in memory.  

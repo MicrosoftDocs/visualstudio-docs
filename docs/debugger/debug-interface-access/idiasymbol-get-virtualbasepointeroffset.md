@@ -16,7 +16,7 @@ ms.assetid: a4f2649c-6702-491c-90a1-d6d669258c51
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_virtualBasePointerOffset
 Retrieves the offset of the virtual base pointer.  

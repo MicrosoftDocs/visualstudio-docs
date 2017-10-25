@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 caps.latest.revision: 29
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # New Project Generation: Under the Hood, Part One
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayField::GetElementType
 Gets the type of element in the array.  

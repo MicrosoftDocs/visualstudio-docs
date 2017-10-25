@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 064231e7-59b5-4437-8240-a23c0a7ec2a9
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Sending Events
 The mechanism for communication between the debugger and the debug engine (DE) is an event model based on DCOM. Events are sent as COM objects, and each event has parameters that specify the following:  

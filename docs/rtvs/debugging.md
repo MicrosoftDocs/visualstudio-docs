@@ -13,7 +13,7 @@ ms.assetid: cb5fe5f8-03bc-42bf-8346-c845036a9c6c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Debugging R in Visual Studio

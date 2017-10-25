@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Component Management
 Units of tasks in the Windows Installer are referred to as Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups that use Windows Installer.  

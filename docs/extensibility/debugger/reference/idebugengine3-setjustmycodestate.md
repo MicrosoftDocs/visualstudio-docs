@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine3::SetJustMyCodeState
 This method tells the debug engine about the JustMyCode state information.  

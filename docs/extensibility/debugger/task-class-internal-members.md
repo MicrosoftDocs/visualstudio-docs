@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 28e47c3b-9323-424a-80ac-6cc3bf19e09b
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Task Class - Internal Members
 This topic describes the internal members of the <xref:System.Threading.Tasks.Task?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the <xref:System.Threading.Tasks.Task> reference topic.  

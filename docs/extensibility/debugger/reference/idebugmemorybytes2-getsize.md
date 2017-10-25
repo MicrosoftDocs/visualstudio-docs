@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMemoryBytes2::GetSize
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.  

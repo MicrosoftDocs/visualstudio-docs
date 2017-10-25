@@ -20,7 +20,7 @@ ms.assetid: 7948e8a6-40b2-4ebb-8461-e220a9e78cd7
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging WPF
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.  

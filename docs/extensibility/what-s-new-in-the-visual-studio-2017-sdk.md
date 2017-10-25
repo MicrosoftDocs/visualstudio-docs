@@ -12,7 +12,7 @@ ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 

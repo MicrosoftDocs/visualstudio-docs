@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1b043327-302a-4f6d-b51d-f94f9d7c7f9d
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUGREF_INFO_FLAGS
 Specifies what information to retrieve about a debug reference object.  

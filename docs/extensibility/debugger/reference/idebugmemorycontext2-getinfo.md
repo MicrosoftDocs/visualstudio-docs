@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMemoryContext2::GetInfo
 Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure that describes the context.  

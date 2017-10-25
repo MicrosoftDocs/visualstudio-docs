@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 23
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Checklist: Creating New Project Types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  

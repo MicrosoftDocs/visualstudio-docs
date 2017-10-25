@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 3f07b67b-95c5-4ae8-8b7e-d643cbbb0348
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MoreInfoURL Element (VSIX Language Pack Schema)
 Optional. A link to localized information about the extension.  

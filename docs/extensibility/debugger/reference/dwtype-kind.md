@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # dwTYPE_KIND
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  

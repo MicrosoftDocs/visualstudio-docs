@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 151003a9-2e4d-4acf-9f4d-365dfa6b9596
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineProgram2
 This interface provides multi-threaded debugging support.  

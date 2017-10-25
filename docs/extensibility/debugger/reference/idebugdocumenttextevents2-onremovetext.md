@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1ebeabb2-52a1-4ccc-83cd-9ae7c3541783
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2::onRemoveText
 Notifies the debug package that text has been removed from the document.  

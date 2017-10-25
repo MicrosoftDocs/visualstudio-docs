@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Local Values
 > [!IMPORTANT]

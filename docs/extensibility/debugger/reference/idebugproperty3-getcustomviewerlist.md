@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 74490fd8-6f44-4618-beea-dab64961bb8a
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty3::GetCustomViewerList
 Gets a list of custom viewers associated with this property.  

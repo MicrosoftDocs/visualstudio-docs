@@ -25,7 +25,7 @@ ms.assetid: b7ce8696-ebb8-4354-a767-f76b8ada4ac1
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # COM Server and Container Debugging
 COM applications perform a number of tasks outside of the programmer's direct control. Communication between DLLs, usage counts on objects, and Clipboard operations are just a few of the areas where you might encounter unexpected behavior. When this happens, your first step is to track down the source of the problem.  

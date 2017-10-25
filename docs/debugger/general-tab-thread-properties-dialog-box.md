@@ -15,7 +15,7 @@ ms.assetid: 46b6c668-6786-456e-97dc-337bcac0d812
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # General Tab, Thread Properties Dialog Box
 Use this dialog box to find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](../debugger/threads-view.md) window, or open [Messages View](../debugger/messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.  

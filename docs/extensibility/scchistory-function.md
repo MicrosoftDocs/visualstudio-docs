@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccHistory Function
 This function displays the history of the specified files.  

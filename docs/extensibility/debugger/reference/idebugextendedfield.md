@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b491499c-af57-47da-87d6-34b7398f6591
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExtendedField
 Extends the types of fields that are available to support managed code generics.  

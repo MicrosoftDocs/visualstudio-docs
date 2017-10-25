@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Miscellaneous Files Project
 When a user opens project items, the IDE assigns to the Miscellaneous Files project any items that are not members of any projects in a solution.  

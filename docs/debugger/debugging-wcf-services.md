@@ -20,7 +20,7 @@ ms.assetid: 6c8974d0-2c15-4d9f-a7f3-cabd4b204cda
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging WCF Services
 ## In This Section  

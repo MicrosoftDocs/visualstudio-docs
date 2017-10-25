@@ -15,7 +15,7 @@ ms.assetid: 404eec23-a67e-4f5b-b27d-86651f08be03
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # SetWefProcessId Method
   Provides the process identifier that will run Web Extensions Framework (WEF) content.  

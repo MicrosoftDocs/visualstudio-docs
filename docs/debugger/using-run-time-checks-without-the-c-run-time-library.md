@@ -27,7 +27,7 @@ ms.assetid: 30ed90f3-9323-4784-80a4-937449eb54f6
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using Run-Time Checks Without the C Run-Time Library
 If you link your program without the C run-time library, using **/NODEFAULTLIB**, and want to use run-time checks, you must link with RunTmChk.lib.  

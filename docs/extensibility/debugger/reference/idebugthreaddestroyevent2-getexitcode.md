@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8bf47a17-f811-4d9b-bcea-7488908830ff
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
 Gets the exit code for a thread.  

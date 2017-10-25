@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 52fca002-a9ef-43b1-9192-afbe7bb59ad4
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::GetHostingProcessLanguage
 This method returns a `GUID` representing the language of this process as set by a call to [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md).  

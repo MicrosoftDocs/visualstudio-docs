@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Contributing to the Add New Item Dialog Box
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the `Projects` registry subkey.  

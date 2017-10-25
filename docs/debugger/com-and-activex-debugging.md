@@ -25,7 +25,7 @@ ms.assetid: 3260b2a7-3239-493d-9271-aedf705c13c7
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # COM and ActiveX Debugging
 This section provides tips on debugging COM applications and ActiveX controls.  

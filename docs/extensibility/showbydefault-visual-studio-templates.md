@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 7be783f6-0ef6-42bc-924a-df9a2eba7781
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # ShowByDefault (Visual Studio Templates)
 If `false`, specifies that the template will only be displayed under the specified [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md).  

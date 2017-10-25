@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 Gets the type of the breakpoint represented by this resolution.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 34c1652e-f019-48ba-8b26-ace20f8a158c
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThreadNameChangedEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread name changes in the program being debugged.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayObject::GetElements
 Gets an enumerator of all elements of the array.  

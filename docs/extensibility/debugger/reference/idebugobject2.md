@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ef640967-8adb-4793-994d-ae1736510891
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject2
 > [!IMPORTANT]

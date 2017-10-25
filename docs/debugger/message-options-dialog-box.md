@@ -15,7 +15,7 @@ ms.assetid: 88ad85af-3f56-4df1-98b6-fab34c1e5874
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Message Options Dialog Box
 Use this dialog box to select which messages are listed in [Messages View](../debugger/messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.  

@@ -16,7 +16,7 @@ ms.assetid: ee89bba8-5d5c-4a0b-aa0d-1aad56baa380
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaTable::get__NewEnum
 Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  

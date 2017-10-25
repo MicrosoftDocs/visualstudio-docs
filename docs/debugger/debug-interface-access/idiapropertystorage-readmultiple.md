@@ -16,7 +16,7 @@ ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaPropertyStorage::ReadMultiple
 Reads specified properties from the current property set.  

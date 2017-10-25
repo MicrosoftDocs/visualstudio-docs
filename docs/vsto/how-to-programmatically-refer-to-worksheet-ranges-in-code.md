@@ -20,7 +20,7 @@ ms.assetid: 113633b8-426a-4d02-b6b8-d459d1f110ea
 caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Refer to Worksheet Ranges in Code
   You use a similar process to refer to the contents of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.  

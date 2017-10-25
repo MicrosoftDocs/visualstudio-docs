@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
 caps.latest.revision: 27
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering Project and Item Templates
 Project types must register the directories where their project and project-item templates are located. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.  

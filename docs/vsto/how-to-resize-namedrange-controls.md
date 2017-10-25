@@ -19,7 +19,7 @@ ms.assetid: 7d6f0b2f-be46-49b7-9f38-b4c8849683f7
 caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Resize NamedRange Controls
   You can set the size of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control when you add it to a Microsoft Office Excel document; however, you might want to resize it at a later time.  

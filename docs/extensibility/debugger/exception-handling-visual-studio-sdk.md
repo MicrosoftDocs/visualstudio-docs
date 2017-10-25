@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7279dc16-db14-482c-86b8-7b3da5a581d2
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Exception Handling (Visual Studio SDK)
 The following describes the process that occurs when exceptions are thrown.  

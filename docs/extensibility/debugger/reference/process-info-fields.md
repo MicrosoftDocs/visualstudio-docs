@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0d9cc345-3d3a-44d8-ae15-a67acb97a828
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PROCESS_INFO_FIELDS
 Specified what kind of information to retrieve for a process.  

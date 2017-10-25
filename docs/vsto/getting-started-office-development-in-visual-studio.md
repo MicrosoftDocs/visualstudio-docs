@@ -17,7 +17,7 @@ ms.assetid: fc27e84c-dca2-4b0a-8794-f57a2a886262
 caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started (Office Development in Visual Studio)
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.  

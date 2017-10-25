@@ -19,7 +19,7 @@ ms.assetid: d4692986-e5ea-4a2d-985a-3b31e41376da
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Architecture of Office Solutions in Visual Studio
   The topics in this section provide information about how solutions created by using the Office developer tools in Visual Studio work.  

@@ -17,7 +17,7 @@ ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Task Base Class
 Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class. This class adds several parameters to the tasks that derive from them. These parameters are listed in this document.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d5b6f03c-d49d-4b83-b072-016ac3124f5f
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetProcessId
 Gets the GUID for this process.  

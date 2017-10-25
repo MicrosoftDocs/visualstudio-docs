@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: bbe4aa4e-b4b0-403e-b7a0-5dd6eb24e5a9
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccGetCommandOptions Function
 This function prompts the user for advanced options for a given command.  

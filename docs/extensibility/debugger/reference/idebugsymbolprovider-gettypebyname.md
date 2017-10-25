@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetTypeByName
 This method maps a symbol name to a symbol type.  

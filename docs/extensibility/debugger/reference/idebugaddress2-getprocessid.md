@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAddress2::GetProcessID
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.  

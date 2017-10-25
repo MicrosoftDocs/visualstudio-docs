@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 26
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.  

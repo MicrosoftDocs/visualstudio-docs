@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 403c2a51-3ba5-431f-a1dd-2f3b2046c00c
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugFields
 This interface represents a collection of objects implementing the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  

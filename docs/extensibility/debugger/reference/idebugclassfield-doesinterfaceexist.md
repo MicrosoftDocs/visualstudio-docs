@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cc0c8642-1a76-4fda-a309-7018a34883c9
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugClassField::DoesInterfaceExist
 Determines if a specific interface is defined in the class.  

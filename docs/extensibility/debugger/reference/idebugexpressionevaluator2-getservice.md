@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator2::GetService
 Retrieves a service object given its unique identifier.  

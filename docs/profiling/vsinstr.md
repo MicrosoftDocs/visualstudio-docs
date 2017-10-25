@@ -21,7 +21,7 @@ ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 caps.latest.revision: 44
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # VSInstr
 VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:  

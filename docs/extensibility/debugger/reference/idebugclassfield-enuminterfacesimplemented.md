@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugClassField::EnumInterfacesImplemented
 Creates an enumerator for the interfaces implemented by this class.  

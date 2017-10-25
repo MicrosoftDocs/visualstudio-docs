@@ -16,7 +16,7 @@ ms.assetid: 9ff61542-9be7-4e81-bfe5-5d2c6eb112c1
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # span::~span Destructor
 Destroys the `span` object and releases its resources.  

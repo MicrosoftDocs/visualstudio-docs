@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.  

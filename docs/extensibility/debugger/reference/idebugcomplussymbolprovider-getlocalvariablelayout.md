@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b7328d85-e5e9-4d9f-bcd1-e7711fd33878
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
 Retrieves the layout of local variables for a set of methods.  

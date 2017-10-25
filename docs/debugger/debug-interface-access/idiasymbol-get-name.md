@@ -16,7 +16,7 @@ ms.assetid: 050ec02f-b7b3-48fc-8e35-58bdf7d938b0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_name
 Retrieves the name of the symbol.  

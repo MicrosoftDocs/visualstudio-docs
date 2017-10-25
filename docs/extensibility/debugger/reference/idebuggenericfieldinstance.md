@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: f68b4761-be8b-4801-9d4b-cde90e01d95e
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldInstance
 Represents an instance of a field for a managed code generic type.  

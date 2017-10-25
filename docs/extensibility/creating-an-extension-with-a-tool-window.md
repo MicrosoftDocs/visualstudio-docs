@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating an Extension with a Tool Window
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.  

@@ -20,7 +20,7 @@ ms.assetid: 7d47536b-742d-4643-9d98-4f1d85cf8786
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Office UI Customization Walkthroughs
   The following walkthroughs demonstrate ways that you can customize the user interface (UI) of Microsoft Office applications by using document-level customizations and VSTO Add-ins.  

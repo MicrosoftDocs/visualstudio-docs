@@ -16,7 +16,7 @@ ms.assetid: a3319ed0-3979-483b-9852-c0af96852c48
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaDataSource::openSession
 Opens a session for querying symbols.  

@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: b3c8cfc4-7c1f-4606-970e-3f7651604bab
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Generate an override in C# #

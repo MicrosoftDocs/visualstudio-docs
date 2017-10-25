@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 caps.latest.revision: 31
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Custom Editors and Designers
 The Visual Studio integrated development environment (IDE) can host different types of editor:  

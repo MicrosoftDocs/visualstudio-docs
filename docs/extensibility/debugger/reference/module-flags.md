@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MODULE_FLAGS
 Used to describe a module.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4fe28074-a960-41ad-b74d-b57f04c0c0ad
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugModules2
 This interface enumerates a list of modules.  

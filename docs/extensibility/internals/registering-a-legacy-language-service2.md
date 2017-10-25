@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
 caps.latest.revision: 24
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering a Legacy Language Service
 The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

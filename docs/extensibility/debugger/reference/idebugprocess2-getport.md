@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e39b6e5a-64eb-48cf-a53d-da4fdb968e2d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetPort
 Gets the port that the process is running on.  

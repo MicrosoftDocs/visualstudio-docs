@@ -14,7 +14,7 @@ ms.assetid: f0e64c0e-cdb3-4ad4-9723-09934166f3a2
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Display Thread Properties
 To find out more about a thread listed in [Threads View](../debugger/threads-view.md), use the [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md).  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 1AF69C0E-0AC9-451B-845D-AE4EDBCEA65C
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 # Update a network-based installation of Visual Studio
 

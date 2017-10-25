@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EVENTATTRIBUTES
 Specifies the event attributes.  

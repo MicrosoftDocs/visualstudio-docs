@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending the Output Window
 The **Output** window is a set of read/write text panes. Visual Studio has these built-in panes: **Build**, in which projects communicate messages about builds, and **General**, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] communicates messages about the IDE. Projects get a reference to the **Build** pane automatically through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> interface methods, and Visual Studio offers direct access to the **General** pane through the <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> service. In addition to the built-in panes, you can create and manage your own custom panes.  

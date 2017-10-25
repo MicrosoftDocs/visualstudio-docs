@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # m_stateFlags Field
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.  

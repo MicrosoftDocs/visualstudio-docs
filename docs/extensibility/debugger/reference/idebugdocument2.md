@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1bc58426-dbf5-4471-9aad-9d66cd80eef0
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocument2
 This interface represents a source document.  

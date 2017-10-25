@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 82879fbe-7756-42cd-9a07-c10edf5b4673
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectItem Element (Visual Studio Project Templates)
 Specifies a file that is included in the project template.  

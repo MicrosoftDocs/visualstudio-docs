@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
 Gets a displayable description of the exception.  

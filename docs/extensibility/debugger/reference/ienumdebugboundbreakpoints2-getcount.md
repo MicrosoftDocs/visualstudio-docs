@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugBoundBreakpoints2::GetCount
 Returns the number of elements in the enumeration.  

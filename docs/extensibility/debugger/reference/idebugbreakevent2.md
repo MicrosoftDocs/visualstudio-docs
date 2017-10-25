@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 57dfdbc2-4e68-4dbf-9579-006cd6fb1c62
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakEvent2
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.  

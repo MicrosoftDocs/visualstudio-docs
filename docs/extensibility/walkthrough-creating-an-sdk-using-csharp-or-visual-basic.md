@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
 caps.latest.revision: 20
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Creating an SDK using C# or Visual Basic
 In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:  

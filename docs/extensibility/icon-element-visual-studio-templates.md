@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ec01d903-f4c2-4ca2-9cbc-e939ec84016c
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Icon Element (Visual Studio Templates)
 Specifies the path and the filename of the image file that serves as the icon, which appears in either the **New Project** or the **Add New Item** dialog box, for the template.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEntryPointEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when the program is about to execute its first instruction of user code.  

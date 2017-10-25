@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::GetProgramId
 Gets a GUID for this program.  

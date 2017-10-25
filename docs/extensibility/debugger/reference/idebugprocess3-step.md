@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::Step
 Causes the process to step one instruction or statement.  

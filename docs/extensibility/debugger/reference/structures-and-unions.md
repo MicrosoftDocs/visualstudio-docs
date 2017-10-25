@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9ff0a8f8-1ee6-4fdd-8b80-206436ff589b
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Structures and Unions
 The following are structures and unions in the Visual Studio Debugging SDK.  

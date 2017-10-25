@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cd0a73dc-dd25-46fd-8c4f-5b011501afeb
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPortSuppliers2
 This interface enumerates port suppliers.  

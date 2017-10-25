@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentText2
 This interface represents a text document.  

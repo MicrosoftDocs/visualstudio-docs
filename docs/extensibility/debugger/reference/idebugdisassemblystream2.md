@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b03cab0c-3f0b-4cc6-88dc-acb3b48c567a
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDisassemblyStream2
 This interface represents a stream of instructions.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b3cdec9f-ef7b-44d0-a775-d17ef7eae968
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::GetType
 This method gets the type of field.  

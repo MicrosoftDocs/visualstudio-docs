@@ -20,7 +20,7 @@ ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # CallTarget Task
 Invokes the specified targets within the project file.  
