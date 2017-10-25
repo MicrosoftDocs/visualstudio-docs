@@ -49,7 +49,7 @@ Visual Studio is now more lightweight than ever! The new modular installer enabl
 
 ![Visual Studio installer](../ide/media/vside_tour_install_dialog.png)
 
-In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times. For example, selecting the new Lightweight Solution Load feature, located on the main menu under **Tools**, **Options**, **Projects and Solutions**, enables larger solutions to load faster.  
+In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).  
 
