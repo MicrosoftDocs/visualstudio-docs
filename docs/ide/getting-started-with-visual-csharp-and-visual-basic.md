@@ -18,7 +18,7 @@ ms.assetid: d57bb19f-58d6-48cc-96cb-ab1c540a25d0
 caps.latest.revision: 13
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started with Visual C# and Visual Basic using Visual Studio
 Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to start. Getting Started Help is a series of sequential lessons that introduces you to Visual C# and Visual Basic. Have fun, and write some great software.  

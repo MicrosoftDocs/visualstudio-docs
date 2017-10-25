@@ -63,7 +63,7 @@ ms.assetid: cb53ab9a-5b76-4759-b9e8-7bf32298ecbe
 caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Write code in the code editor
 The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Editing Your Code](https://www.visualstudio.com/features/ide-vs) for a quick overview.  

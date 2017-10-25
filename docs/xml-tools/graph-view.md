@@ -12,7 +12,7 @@ ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Graph View
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.  

@@ -20,7 +20,7 @@ ms.assetid: 03b8b47a-e9d8-4692-835f-2d22ec6c76a4
 caps.latest.revision: 35
 author: "corob-msft"
 ms.author: "corob"
-manager: "ghogen"
+manager: ghogen
 ---
 # Analyzing C/C++ Code Quality by Using Code Analysis
 You can improve your C/C++ code by using the code analysis in Visual Studio to find and fix code defects.  

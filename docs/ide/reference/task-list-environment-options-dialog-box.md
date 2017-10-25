@@ -27,7 +27,7 @@ ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Task List, Environment, Options Dialog Box
 This Options page allows you to add, delete, and change the comment tokens that generate **Task List** reminders. To display these settings, select **Options** from the **Tools** menu, expand the **Environment** folder, and choose **Task List**.  

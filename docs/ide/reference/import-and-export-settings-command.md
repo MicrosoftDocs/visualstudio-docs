@@ -17,7 +17,7 @@ ms.assetid: 94a06468-a44d-403d-a931-77bbc9d06e56
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Import and Export Settings Command
 Imports, exports, or resets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] settings.  

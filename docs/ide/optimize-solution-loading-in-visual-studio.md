@@ -14,7 +14,7 @@ ms.assetid: 84989983-84bc-4f81-97a8-2131e3a25138
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.performancecenter"
 ms.technology: 

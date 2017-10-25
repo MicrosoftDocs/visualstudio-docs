@@ -18,7 +18,7 @@ ms.assetid: 774bc55d-e588-48ee-8f38-c228580feca2
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2212: Do not mark serviced components with WebMethod
 |||  

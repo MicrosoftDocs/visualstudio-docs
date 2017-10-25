@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 7312ea3f-7045-41e8-a699-7b580508d074
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Refactoring

@@ -21,7 +21,7 @@ ms.assetid: 58cc3f44-c296-4a88-a008-09d28598d9c0
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Class View and Object Browser Icons
 **Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.  

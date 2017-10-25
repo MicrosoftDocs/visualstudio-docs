@@ -22,7 +22,7 @@ ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Turn off constraints while filling a dataset

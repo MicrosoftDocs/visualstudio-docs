@@ -20,7 +20,7 @@ ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Property Pages, JavaScript
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  

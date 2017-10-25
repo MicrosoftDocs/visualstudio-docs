@@ -60,7 +60,7 @@ ms.assetid: f382fd40-a98f-4934-8c9a-5aeae881acde
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Manage external tools
 You can call external tools from inside Visual Studio by using the **Tools** menu. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
