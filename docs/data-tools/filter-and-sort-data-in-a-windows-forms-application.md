@@ -21,7 +21,7 @@ ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Filter and sort data in a Windows Forms application

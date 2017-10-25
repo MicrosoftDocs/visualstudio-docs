@@ -16,7 +16,7 @@ ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Globalizing Applications
 Globalization is the process of designing and developing a software product that functions for multiple cultures. This section applies to both Windows Forms and Web Forms pages.  

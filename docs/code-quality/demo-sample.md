@@ -15,7 +15,7 @@ ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 caps.latest.revision: 21
 author: "corob-msft"
 ms.author: "corob"
-manager: "ghogen"
+manager: ghogen
 ---
 # Demo Sample
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  

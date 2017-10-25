@@ -17,7 +17,7 @@ ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Customize the Help Viewer
 You can configure several features of the Help Viewer by using the **Viewer Options** dialog box.  

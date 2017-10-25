@@ -18,7 +18,7 @@ ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1903: Use only API from targeted framework
 |||  

@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: 25bb9d99-aeff-4053-925d-2177f5e79574
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"

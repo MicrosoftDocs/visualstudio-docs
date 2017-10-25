@@ -17,7 +17,7 @@ ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating a UI by using XAML Designer in Visual Studio
 The XAML Designer in Visual Studio provides a visual interface to help you design XAML-based Windows and Web apps. You can create user interfaces for your apps by dragging controls from the **Toolbox** and setting properties in the **Properties** window. You can also edit XAML directly in XAML view.  

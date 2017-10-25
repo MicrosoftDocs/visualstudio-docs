@@ -22,7 +22,7 @@ ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
 caps.latest.revision: 53
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using Regular Expressions in Visual Studio
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).  

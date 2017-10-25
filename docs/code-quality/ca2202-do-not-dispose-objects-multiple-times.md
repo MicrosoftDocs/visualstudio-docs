@@ -18,7 +18,7 @@ ms.assetid: fa85349a-cf1e-42c8-a86b-eacae1f8bd96
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2202: Do not dispose objects multiple times
 |||  

@@ -12,7 +12,7 @@ ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugger User Interface (XSLT)
 This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.  

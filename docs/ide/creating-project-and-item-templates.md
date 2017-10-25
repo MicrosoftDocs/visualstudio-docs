@@ -21,7 +21,7 @@ ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Project and Item Templates
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and item templates provide reusable stubs that give users some basic code and structure that they can use for their own purposes.  

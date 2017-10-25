@@ -18,7 +18,7 @@ ms.assetid: 40e39873-7872-4988-8195-9eb0ade9ece0
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1055: URI return values should not be strings
 |||  

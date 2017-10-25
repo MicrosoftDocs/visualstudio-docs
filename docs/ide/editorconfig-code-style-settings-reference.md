@@ -15,7 +15,7 @@ ms.assetid:
 caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-ide-general"
 ---

@@ -12,7 +12,7 @@ ms.assetid: f64d4369-2307-4175-a39a-2e45506f7fa1
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create and Modify MIP Levels
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).  

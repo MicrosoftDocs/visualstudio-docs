@@ -16,7 +16,7 @@ ms.assetid: 12360f54-db6c-45d2-a91f-fee43214b555
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
 ms.technology: "vs-data-tools"
 ---

@@ -19,7 +19,7 @@ ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Globalizing and Localizing Applications
 If you plan on distributing your application to an international audience, you'll need to keep several things in mind during the design and development phases. Even if you don't have such plans, a small effort up front can make things considerably easier should your plans change in future versions of your application. Services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] make it easy to develop a single application that can adapt to different locales using managed development with Visual Studio.  

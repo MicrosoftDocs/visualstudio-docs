@@ -13,7 +13,7 @@ dev_langs:
 ms.assetid: 73c19226-11f2-4b8f-a9e6-98f83fee0667
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Code Generation

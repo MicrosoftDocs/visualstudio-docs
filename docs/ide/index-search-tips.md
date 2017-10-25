@@ -17,7 +17,7 @@ ms.assetid: f9ffa8e9-3ece-419d-a465-f9c2c21fd4ba
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Index Search Tips
 You can locate information in the Index by entering keywords. This topic suggests useful ways to search Help using the Index.  

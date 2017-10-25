@@ -18,7 +18,7 @@ ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage
 |||  

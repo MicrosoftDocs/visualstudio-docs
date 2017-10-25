@@ -18,7 +18,7 @@ ms.assetid: 83eb224c-2456-4368-acf4-3b3378e67759
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1064: Exceptions should be public
 |||  

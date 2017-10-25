@@ -28,7 +28,7 @@ ms.assetid: 4909e38d-2ea8-4caf-92b1-857bd162ab7c
 caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Classes and Other Types (Class Designer)
 Focus more easily on the classes and types that you care about the most when you create and edit them with Class Designer in Visual Studio. Use class diagrams to work more visually with your Visual C# .NET, Visual Basic .NET, or C++ code.  
