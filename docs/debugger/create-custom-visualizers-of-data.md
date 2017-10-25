@@ -32,7 +32,7 @@ manager: "ghogen"
 
  > [!NOTE]
  > To create a custom visualizer for native code, see the 
-[SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. In **Store** apps, custom visualizers are not supported.
+[SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. In UWP and Windows 8.x apps, custom visualizers are not supported.
 
  In the debugger, visualizers are represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). When you see the magnifying glass icon in a **DataTip**, in a debugger window like the **Watch** window, or in the **QuickWatch** dialog box, you can click the magnifying glass to select a visualizer appropriate to the data type of the corresponding object.
 
