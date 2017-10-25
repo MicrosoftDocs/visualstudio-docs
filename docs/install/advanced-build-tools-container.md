@@ -66,7 +66,7 @@ CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 
 This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an installation failure does occur, you can copy the logs to your host machine to analyze the failure.
 
-```
+```shell
 > docker build -t buildtools:15.4.27004.2005 -t buildtools:latest -m 2GB .
 Sending build context to Docker daemon
 ...
@@ -81,6 +81,8 @@ At line:1 char:1
 
 > docker cp 4b62b4ce3a3c:C:\Users\ContainerAdministrator\AppData\Local\TEMP\vslogs.zip "%TEMP%\vslogs.zip"
 ```
+
+After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine or submit an issue on the [Developer Community](https://developercommunity.visualstudio.com) web site.
 
 ## See also
 

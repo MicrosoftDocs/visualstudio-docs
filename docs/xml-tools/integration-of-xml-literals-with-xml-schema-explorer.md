@@ -12,7 +12,7 @@ ms.assetid: 57a29998-c6e8-48ac-bdb0-5788e73f9164
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Integration of XML Literals with XML Schema Explorer
 Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML Literals Overview](http://go.microsoft.com/fwlink/?LinkId=140325).  

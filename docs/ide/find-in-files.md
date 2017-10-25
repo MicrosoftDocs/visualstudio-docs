@@ -24,7 +24,7 @@ ms.assetid: 989e0737-46d7-4474-8453-fad52a74669d
 caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Find in Files
 **Find in Files** allows you to search a specified set of files. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  

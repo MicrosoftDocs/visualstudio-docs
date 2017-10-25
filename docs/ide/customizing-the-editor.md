@@ -15,7 +15,7 @@ ms.assetid: 7f4eee2a-586f-49ae-a763-4d9c0ac5bc71
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Customizing the Editor
 You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../ide/reference/text-editor-options-dialog-box.md) or type `Editor` into **QuickLaunch**. You can also change how editor windows are displayed.  

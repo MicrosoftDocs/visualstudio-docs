@@ -22,7 +22,7 @@ manager: "ghogen"
 
 Lightweight Solution Load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
 
-LSL can effect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
+LSL can affect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
 
 For further background on LSL, use the following links:
 

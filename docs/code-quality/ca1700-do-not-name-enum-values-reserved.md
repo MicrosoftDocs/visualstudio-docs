@@ -18,7 +18,7 @@ ms.assetid: 7a7e01c3-ae7d-4c82-a646-91b58864a749
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1700: Do not name enum values &#39;Reserved&#39;
 |||  

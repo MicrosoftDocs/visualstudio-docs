@@ -14,7 +14,7 @@ ms.assetid: 3cfe09d2-1120-46e8-b882-f7056acb778b
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Synchronized Settings, Environment, Options Dialog Box
 Use this page to specify whether to synchronize (roam) your settings across multiple machines. For more information, see [Synchronized Settings](../../ide/synchronized-settings-in-visual-studio.md).  

@@ -18,7 +18,7 @@ ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 55
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Default Keyboard Shortcuts in Visual Studio
 For more information about keyboard accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the Keyboard Exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).

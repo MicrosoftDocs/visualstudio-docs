@@ -12,7 +12,7 @@ ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Help Content Manager Overrides
 You can modify the registry to change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE.  

@@ -10,7 +10,7 @@ ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Could not retrieve schema information for database object \<object name>

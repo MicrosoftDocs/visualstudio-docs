@@ -15,7 +15,7 @@ ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Properties Reference
 Learn more about how to configure and customize project properties.  

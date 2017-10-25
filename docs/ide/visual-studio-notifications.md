@@ -12,7 +12,7 @@ ms.assetid: cfbbc30a-bb61-42e6-b58e-b4ea9d33c440
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio notifications
 Visual Studio has a notification system that alerts you to various events, such as the following:  
