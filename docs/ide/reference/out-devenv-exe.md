@@ -22,7 +22,7 @@ ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /Out (devenv.exe)
 Specifies a file to store and display errors when you run, build, rebuild, or deploy a solution.  

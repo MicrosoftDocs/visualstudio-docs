@@ -18,7 +18,7 @@ ms.assetid: 10e97f8a-aa6e-47aa-b253-1e5d3a295d82
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1824: Mark assemblies with NeutralResourcesLanguageAttribute
 |||  

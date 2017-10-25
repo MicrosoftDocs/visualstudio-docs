@@ -12,7 +12,7 @@ ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Sign in to Visual Studio
 You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.  

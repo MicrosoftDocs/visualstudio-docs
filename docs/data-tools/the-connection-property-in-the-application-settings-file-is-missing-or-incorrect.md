@@ -10,7 +10,7 @@ ms.assetid: 77724510-ff59-4d43-b933-a0434e1ac597
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # The connection property in the Application Settings file is missing or incorrect

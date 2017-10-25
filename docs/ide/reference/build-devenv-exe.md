@@ -17,7 +17,7 @@ ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /Build (devenv.exe)
 Builds a solution using a specified solution configuration file.  

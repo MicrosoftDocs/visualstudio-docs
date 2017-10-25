@@ -14,7 +14,7 @@ ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Xml (XElement Dynamic Property)
 Gets the unformatted XML content of the element.  

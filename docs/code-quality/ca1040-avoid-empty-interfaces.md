@@ -18,7 +18,7 @@ ms.assetid: 120a741b-5fd1-4836-8453-7857e0cd0380
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1040: Avoid empty interfaces
 |||  

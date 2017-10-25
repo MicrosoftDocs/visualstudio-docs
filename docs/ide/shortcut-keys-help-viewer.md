@@ -15,7 +15,7 @@ ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Shortcut Keys (Help Viewer)
 You can navigate in the Microsoft Help Viewer by using the shortcut keys in the following table:  

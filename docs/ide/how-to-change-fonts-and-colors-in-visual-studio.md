@@ -15,7 +15,7 @@ ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Change Fonts and Colors in Visual Studio
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.  

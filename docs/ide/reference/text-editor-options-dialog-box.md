@@ -24,7 +24,7 @@ ms.assetid: 90d4e522-6391-4571-927d-b466a9766342
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Text Editor Options Dialog Box
 The editor options in the **Options** dialog box provide ways to customize the appearance and behavior of the editor.  

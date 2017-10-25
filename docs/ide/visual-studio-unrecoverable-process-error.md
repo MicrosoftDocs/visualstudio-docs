@@ -17,7 +17,7 @@ ms.assetid: 2263956f-3ae0-4bdc-9d3a-4991dfaf4ddb
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-ide-general"
 ---

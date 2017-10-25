@@ -12,7 +12,7 @@ ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Tutorial 1: Create a Picture Viewer
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:  

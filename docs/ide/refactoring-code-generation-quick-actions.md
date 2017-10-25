@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: fc929a81-b20c-4802-92a7-388fd15aec3c
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Refactoring, Code Generation and Quick Actions in Visual Studio
 Visual Studio provides a variety of tools to help you when writing code.  Because the functionality of these tools is closely tied to language syntax, each language service in Visual Studio provides its own capabilities.

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6bbcfc31-edbe-4143-a703-fde023efbb62
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessibility for People with Disabilities
 > [!TIP]

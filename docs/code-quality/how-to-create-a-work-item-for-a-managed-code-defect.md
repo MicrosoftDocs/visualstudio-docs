@@ -15,7 +15,7 @@ ms.assetid: 46ddfd57-af4a-4c1d-bd00-8e6328f321f0
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create a Work Item for a Managed Code Defect
 You can use the work item tracking feature to log work item from within [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)]. To use this feature, your project must be part of Team Project in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)].  
