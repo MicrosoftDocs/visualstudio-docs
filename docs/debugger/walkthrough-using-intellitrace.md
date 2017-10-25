@@ -93,13 +93,7 @@ You can use IntelliTrace to collect information about specific events or categor
 8.  If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.  
 
 ##  <a name="GettingStarted"></a> Using IntelliTrace with events and snapshots  
- PROJECTM: You can try debugging with just IntelliTrace events. IntelliTrace events are debugger events, exceptions, .NET Framework events, and other system events. You should turn on or turn off specific events to control the events that IntelliTrace records before you start debugging. For more information, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
-  
- The following steps show how to debug with IntelliTrace events only:  
-  
-1.  Turn on the IntelliTrace event for File Access. Go to the **Tools > Options > IntelliTrace > IntelliTrace Events** page, and expand the **File** category. Check the **File** event category. This causes all the file events (access, close, delete) to be checked.  
-  
-2.  Create a C# console application. In the Program.cs file, add the following `using` statement: 
+ Potential IntelliTrace step-back content.
 
 ## Using IntelliTrace with events and function calls  
  IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).
