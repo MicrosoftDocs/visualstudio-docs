@@ -18,7 +18,7 @@ ms.assetid: 42a90796-0264-4460-bf97-2fb4a093dfdc
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1415: Declare P/Invokes correctly
 |||  

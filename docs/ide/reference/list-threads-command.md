@@ -18,7 +18,7 @@ ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # List Threads Command
 Displays a list of the threads in the current program.  

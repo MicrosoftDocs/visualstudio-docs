@@ -18,7 +18,7 @@ ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
 caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Application Page, Project Designer (C#)
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  

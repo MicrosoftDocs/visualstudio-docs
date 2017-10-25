@@ -12,7 +12,7 @@ ms.assetid: 89604bcf-da25-4180-a1d2-c5f22ab67bb6
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # WPF Community Resources
 Microsoft exposes a variety of community resources for you to learn about, discuss, and provide feedback on Windows Presentation Foundation (WPF), including blogs produced by WPF team members and community leaders, forums, and the Microsoft Connect feedback center.  

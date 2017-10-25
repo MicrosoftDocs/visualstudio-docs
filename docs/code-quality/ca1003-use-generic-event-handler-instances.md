@@ -18,7 +18,7 @@ ms.assetid: 402101b6-555d-4cf7-b223-1d9fdfaaf1cd
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1003: Use generic event handler instances
 |||  

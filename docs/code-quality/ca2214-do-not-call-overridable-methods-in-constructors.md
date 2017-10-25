@@ -18,7 +18,7 @@ ms.assetid: 335b57ca-a6e8-41b4-a20e-57ee172c97c3
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2214: Do not call overridable methods in constructors
 |||  

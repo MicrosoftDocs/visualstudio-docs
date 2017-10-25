@@ -18,7 +18,7 @@ ms.assetid: cf45f8df-6855-4cb6-a4e2-7cfed714cf2f
 caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1715: Identifiers should have correct prefix
 |||  

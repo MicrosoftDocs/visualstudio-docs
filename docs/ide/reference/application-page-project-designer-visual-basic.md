@@ -18,7 +18,7 @@ ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Application Page, Project Designer (Visual Basic)
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  

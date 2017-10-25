@@ -16,7 +16,7 @@ ms.assetid: 22b99f49-1924-4fb5-a421-c8b23e5d5cd4
 caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Analyzing Managed Code for Code Defects
 In this walkthrough, you analyze a managed project for code defects by using the code analysis tool.  

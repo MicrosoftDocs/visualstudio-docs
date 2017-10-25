@@ -19,7 +19,7 @@ ms.assetid: ca361466-53bd-44db-a28a-3a74bc03b028
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Replace in Files
 **Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  

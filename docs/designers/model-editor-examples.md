@@ -12,7 +12,7 @@ ms.assetid: dd0f4155-b4f9-4f16-b0fd-3f4cd4c80d5a
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Model Editor Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Model Editor.  

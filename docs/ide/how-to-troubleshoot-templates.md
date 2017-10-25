@@ -14,7 +14,7 @@ ms.assetid: 3e577ad2-f725-4c11-93b3-477f2404ec81
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Troubleshoot Templates
 If a template fails to load in the development environment, there are several ways to locate the problem.  

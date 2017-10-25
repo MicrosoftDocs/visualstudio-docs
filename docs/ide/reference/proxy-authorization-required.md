@@ -12,7 +12,7 @@ ms.assetid: c2d24ae1-9902-460e-b72a-0299eed9ee82
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Proxy Authorization Required
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.    

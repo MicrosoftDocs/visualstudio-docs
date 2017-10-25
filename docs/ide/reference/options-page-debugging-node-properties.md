@@ -12,7 +12,7 @@ ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Options Page, Debugging Node Properties
 The following tables describe the pages (or properties collections) that are associated with the **Debugging** category, `DTE.Properties("Debugging", <Property Page>)` of the **Options** dialog box.  

@@ -18,7 +18,7 @@ ms.assetid: 693f4970-f512-40cb-ae3b-a0f3a5c6d6f1
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1703: Resource strings should be spelled correctly
 |||  

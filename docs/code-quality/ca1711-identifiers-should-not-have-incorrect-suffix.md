@@ -18,7 +18,7 @@ ms.assetid: a63359ab-386d-44ae-b381-ee3a983aca29
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1711: Identifiers should not have incorrect suffix
 |||  

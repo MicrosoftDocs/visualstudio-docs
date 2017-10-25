@@ -15,7 +15,7 @@ ms.assetid: a293ec17-4dd7-4a99-8eeb-99f44a822a8b
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Best Practices for Using Code Snippets
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  

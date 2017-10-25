@@ -15,7 +15,7 @@ ms.assetid: a62924a7-4ba0-413d-b606-fdbe1fcf2807
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Substitute Parameters in a Template
 You may replace template parameters such as class names and namespaces when a file based on a template is created. For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  

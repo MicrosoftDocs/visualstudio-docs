@@ -12,7 +12,7 @@ ms.assetid: 418cc9cb-68ad-47e9-a6c8-a48b9c35db45
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2153: Avoid Handling Corrupted State Exceptions
 |||  

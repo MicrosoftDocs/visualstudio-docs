@@ -12,7 +12,7 @@ ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
 caps.latest.revision: 11
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Step 9: Try Other Features
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.  

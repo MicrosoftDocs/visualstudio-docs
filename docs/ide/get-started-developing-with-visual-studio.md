@@ -14,7 +14,7 @@ ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 65
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Get Started Developing with Visual Studio
 Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.  

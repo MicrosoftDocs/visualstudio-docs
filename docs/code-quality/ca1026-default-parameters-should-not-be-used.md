@@ -18,7 +18,7 @@ ms.assetid: 09643415-36ef-4d0f-9411-5721e14e2512
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1026: Default parameters should not be used
 |||  

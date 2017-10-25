@@ -16,7 +16,7 @@ ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Create a Windows Forms user control that supports simple data binding

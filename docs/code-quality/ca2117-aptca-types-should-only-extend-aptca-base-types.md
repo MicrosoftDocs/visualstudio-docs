@@ -18,7 +18,7 @@ ms.assetid: c505b586-2f1e-47cb-98ee-a5afcbeda70f
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2117: APTCA types should only extend APTCA base types
 |||  

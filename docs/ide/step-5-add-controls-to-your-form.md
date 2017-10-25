@@ -12,7 +12,7 @@ ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Step 5: Add Controls to Your Form
 In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  

@@ -19,7 +19,7 @@ ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Security Warnings
 Security warnings support safer libraries and applications. These warnings help prevent security flaws in your program. If you disable any of these warnings, you should clearly mark the reason in code and also inform the designated security officer for your development project.  

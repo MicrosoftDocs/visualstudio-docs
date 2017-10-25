@@ -18,7 +18,7 @@ ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: View Existing Types (Class Designer)
 To see an existing type and its members, add its shape to a class diagram.  

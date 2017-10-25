@@ -18,7 +18,7 @@ ms.assetid: f009b340-dea3-4459-8fe1-2143aa8b5d0b
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1025: Replace repetitive arguments with params array
 |||  

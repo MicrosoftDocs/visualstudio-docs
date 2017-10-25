@@ -19,7 +19,7 @@ ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Bind controls to pictures from a database

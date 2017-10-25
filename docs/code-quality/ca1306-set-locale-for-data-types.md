@@ -18,7 +18,7 @@ ms.assetid: 104297b2-5806-4de0-a8d9-c589380a796c
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1306: Set locale for data types
 |||  
