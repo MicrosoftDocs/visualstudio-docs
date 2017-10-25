@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
 caps.latest.revision: 24
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Legacy Language Service Interfaces
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.  

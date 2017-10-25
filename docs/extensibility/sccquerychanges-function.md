@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccQueryChanges Function
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.  

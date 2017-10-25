@@ -19,7 +19,7 @@ ms.assetid: bb8c7c86-ed78-4245-8d50-31413753911d
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # SharePoint Development Samples
   You can use Visual Studio to download and install samples of SharePoint applications from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=254185).  

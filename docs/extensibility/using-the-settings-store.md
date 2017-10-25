@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 caps.latest.revision: 28
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using the Settings Store
 There are two kinds of settings stores:  

@@ -16,7 +16,7 @@ ms.assetid: 7ab0b525-a5a7-4692-acad-e8c00fa9ab9a
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackWalkFrame::readMemory
 Reads memory from image.  

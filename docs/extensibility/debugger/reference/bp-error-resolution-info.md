@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_ERROR_RESOLUTION_INFO
 Describes the resolution of an error breakpoint, including location, program, and thread.  

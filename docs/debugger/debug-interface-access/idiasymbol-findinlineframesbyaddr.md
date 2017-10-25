@@ -14,7 +14,7 @@ ms.assetid: 36a122e6-f27e-40cd-9784-cdaf279e1905
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findInlineFramesByAddr
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.  

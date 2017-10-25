@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 Notifies the debug package that text attributes have been updated in the document.  

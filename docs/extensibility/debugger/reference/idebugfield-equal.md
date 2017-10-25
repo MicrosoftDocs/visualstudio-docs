@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::Equal
 This method compares this field with the specified field for equality.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BPERESI_FIELDS
 Specifies the information to be retrieved about a failed resolution of a breakpoint.  

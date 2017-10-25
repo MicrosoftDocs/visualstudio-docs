@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 Gets the pending breakpoint that caused the error.  

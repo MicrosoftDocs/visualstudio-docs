@@ -13,7 +13,7 @@ ms.assetid: aa52ed0e-cdb5-4fb2-814c-c94cac2ffc6f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # R Tools for Visual Studio Sample Projects

@@ -16,7 +16,7 @@ ms.assetid: 746cdf8e-9097-415d-ba10-069854153185
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSegment::get_execute
 Retrieves a flag that indicates whether the segment is executable.  

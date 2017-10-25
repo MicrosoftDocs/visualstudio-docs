@@ -13,7 +13,7 @@ ms.assetid: 3d0f1631-360b-45d4-a0cb-01c3c10d25f2
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Formatting Python code

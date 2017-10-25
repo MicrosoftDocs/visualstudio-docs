@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 71d959c7-45df-485f-b0ee-f1c0439d54fb
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder3::GetMemoryObject
 This method retrieves a memory object that represents the memory that this object is bound to.  

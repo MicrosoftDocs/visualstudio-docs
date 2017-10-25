@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint error resolution information.  

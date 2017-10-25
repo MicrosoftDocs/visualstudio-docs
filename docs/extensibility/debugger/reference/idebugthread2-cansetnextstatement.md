@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThread2::CanSetNextStatement
 Determines whether the current instruction pointer can be set to the given stack frame.  

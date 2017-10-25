@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: ff86d7bd-837b-4664-b0ea-d3ee0c52fe87
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - "VB"
 ---

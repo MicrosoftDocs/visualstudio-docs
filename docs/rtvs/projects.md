@@ -13,7 +13,7 @@ ms.assetid: 732b73cf-2014-4f98-838e-4141ef9dedac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating R projects in Visual Studio

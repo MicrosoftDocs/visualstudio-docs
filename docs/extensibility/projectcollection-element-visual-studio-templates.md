@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectCollection Element (Visual Studio Templates)
 Specifies the organization and contents of multi-project templates.  

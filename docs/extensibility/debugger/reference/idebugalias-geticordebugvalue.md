@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAlias::GetICorDebugValue
 Retrieves a managed code interface that represents the value associated with this alias.  

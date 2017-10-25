@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cb89692e-7657-47ff-846d-311943521951
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject::GetManagedDebugObject
 Creates a copy of the managed object in the address space of the debug engine.  

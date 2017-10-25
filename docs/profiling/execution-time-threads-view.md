@@ -16,7 +16,7 @@ ms.assetid: 80c100f8-2502-4613-bfef-4f4f2e09cc8d
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Execution Time (Threads View)
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.  

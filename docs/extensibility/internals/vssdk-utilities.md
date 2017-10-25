@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: a469208a-cb70-4d87-a79b-d2086fc4fae4
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # VSSDK Utilities
 The topics in this section describe the tools that ship with the VSSDK.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplierLocale2::SetLocale
 Sets the locale for the port supplier.  

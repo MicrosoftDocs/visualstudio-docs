@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 57dac3b7-0cdd-405c-9af5-30ed9ca45e53
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # License Element (VSIX Language Pack Schema)
 Optional. The path of a localized version of the license file for the extension.  

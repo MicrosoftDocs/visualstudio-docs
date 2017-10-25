@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
 Retrieves the expression evaluator metric file given the name or the metric.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5f95fd0c-fdce-497f-9f54-2ad8749494e9
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEnumField::GetStringFromValue
 This method obtains the name of the enumeration constant given its value.  

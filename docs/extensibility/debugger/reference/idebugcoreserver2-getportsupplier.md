@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: acf181d4-ef42-4aa5-86f9-95fd5467ea31
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer2::GetPortSupplier
 Retrieves a specific port supplier.  

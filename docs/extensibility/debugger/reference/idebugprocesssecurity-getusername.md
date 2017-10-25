@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcessSecurity::GetUserName
 Gets the user name from the port supplier.  

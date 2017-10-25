@@ -16,7 +16,7 @@ ms.assetid: e0b8dbc0-6061-4f31-bead-2cd72be44e41
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSourceFile::get_uniqueId
 Retrieves a simple integer key value that is unique for this image.  

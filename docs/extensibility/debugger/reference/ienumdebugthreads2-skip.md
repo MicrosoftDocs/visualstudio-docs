@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: eab068d4-1f8d-44cd-bc54-92a10fe23de6
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugThreads2::Skip
 Skips over the specified number of elements.  

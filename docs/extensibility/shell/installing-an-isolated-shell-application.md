@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 40
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Installing an Isolated Shell Application
 To install a Shell app you must perform the following steps.  

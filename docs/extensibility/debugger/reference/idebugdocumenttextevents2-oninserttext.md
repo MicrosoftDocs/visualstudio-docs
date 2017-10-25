@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6040181f-7288-4a42-953c-d23f74200431
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2::onInsertText
 Notifies the debug package that text has been inserted into the document.  

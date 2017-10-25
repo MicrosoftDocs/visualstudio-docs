@@ -23,7 +23,7 @@ ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
 caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Create custom views of data in the Visual Studio debugger
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides a variety of tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.

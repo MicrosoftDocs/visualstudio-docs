@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d1f985bd-743e-40b7-9458-d9af53647c91
 caps.latest.revision: 22
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Font and Color Information for Text Colorization
 The process that renders or displays colorized text in user interface (UI) elements depends on the type of project, its technology, and developer preferences. The **Fonts and Colors** property page stores the settings.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 97071846-007e-450f-95a6-f072d0f5e61e
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Control of Execution
 The debug engine (DE) typically sends one of the following events as the last startup event:  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 86ea2c8a-54a3-48e8-83c7-18a515273129
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_LOCATION_RESOLUTION
 Describes the resolution of a breakpoint at a specific location.  

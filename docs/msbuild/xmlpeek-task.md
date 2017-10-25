@@ -20,7 +20,7 @@ ms.assetid: 19196031-a3bc-41b5-9c4a-f2572630e179
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # XmlPeek Task
 Returns values as specified by XPath Query from an XML file.  

@@ -12,7 +12,7 @@ ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.

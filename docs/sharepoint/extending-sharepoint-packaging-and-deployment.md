@@ -17,7 +17,7 @@ ms.assetid: 4789ebb2-12bc-42b9-9427-e63d77137765
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending SharePoint Packaging and Deployment
   You can extend the packaging and deployment process for SharePoint projects.

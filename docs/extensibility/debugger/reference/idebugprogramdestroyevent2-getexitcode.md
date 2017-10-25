@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramDestroyEvent2::GetExitCode
 Gets the program's exit code.  

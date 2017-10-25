@@ -14,7 +14,7 @@ ms.assetid: a70785f2-5997-40ec-a90f-80a52449768b
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Memory Tab, Process Properties Dialog Box
 Use the **Memory** tab to show how a process uses memory. To display the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md), move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  

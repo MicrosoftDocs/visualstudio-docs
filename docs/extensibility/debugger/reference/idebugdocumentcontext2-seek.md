@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 71501356-8a82-4d36-b354-6625bdd2baa0
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentContext2::Seek
 Moves the document context by a given number of statements or lines.  

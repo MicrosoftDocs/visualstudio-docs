@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9c1d940f-8a54-41f7-a8aa-c870e324371c
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Types Architecture
 This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

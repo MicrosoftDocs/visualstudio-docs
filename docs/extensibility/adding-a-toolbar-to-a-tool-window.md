@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
 caps.latest.revision: 48
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Adding a Toolbar to a Tool Window
 This walkthrough shows how to add a toolbar to a tool window.  

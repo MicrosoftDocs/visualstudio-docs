@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BuildProjectOnLoad (Visual Studio Templates)
 Specifies whether to build the project immediately after it's created.  

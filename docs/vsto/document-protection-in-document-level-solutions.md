@@ -21,7 +21,7 @@ ms.assetid: a25472ad-03f0-4804-9d19-e5ff71340d49
 caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Document Protection in Document-Level Solutions
   You can use the protection features of Microsoft Office Word and Microsoft Office Excel in document-level projects. These features block unauthorized users from making changes to protected parts of a document.  

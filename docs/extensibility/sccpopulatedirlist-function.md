@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccPopulateDirList Function
 This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine.  

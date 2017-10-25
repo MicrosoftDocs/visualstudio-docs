@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: dae0050a-a50a-4f35-bfbd-e538f537b20f
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplierEx2
 Provides support for a port supplier to select and interact with a core server.  

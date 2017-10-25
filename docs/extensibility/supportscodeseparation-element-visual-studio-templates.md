@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.  

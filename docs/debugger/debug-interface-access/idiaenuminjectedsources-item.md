@@ -16,7 +16,7 @@ ms.assetid: 14846955-7270-451d-91d2-9cb34bb65187
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumInjectedSources::Item
 Retrieves an injected source by means of an index.  

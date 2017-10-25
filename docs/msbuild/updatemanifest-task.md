@@ -20,7 +20,7 @@ ms.assetid: 1291fd33-b89e-4e15-8fb1-69f9625cf2d2
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # UpdateManifest Task
 Updates selected properties in a manifest and resigns.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugModuleLoadEvent2::GetModule
 Gets the module that is being loaded or unloaded.  

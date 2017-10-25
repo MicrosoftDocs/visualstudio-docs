@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionContext2::GetName
 Retrieves the name of the evaluation context.  

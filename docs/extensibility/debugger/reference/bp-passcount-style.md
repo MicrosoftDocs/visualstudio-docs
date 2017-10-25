@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_PASSCOUNT_STYLE
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.  

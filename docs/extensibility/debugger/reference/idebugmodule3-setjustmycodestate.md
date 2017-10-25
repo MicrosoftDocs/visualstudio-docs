@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugModule3::SetJustMyCodeState
 Marks the module as being user code or not.  

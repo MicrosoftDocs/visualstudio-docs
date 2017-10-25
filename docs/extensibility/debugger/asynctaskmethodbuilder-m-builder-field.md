@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # AsyncTaskMethodBuilder.m_builder Field
 Represents the generic builder object to which this non-generic instance delegates.  

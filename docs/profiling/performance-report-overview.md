@@ -16,7 +16,7 @@ ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
 caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Performance Report Overview
 You can view the profiling data of a performance session in the **Performance Report** window of the Visual Studio Team System Development Edition integrated development environment (IDE). The profiling data is saved in .vsp and .vsps files. Report view windows enable you to view and analyze application performance issues.  

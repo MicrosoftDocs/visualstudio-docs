@@ -16,7 +16,7 @@ ms.assetid: 400b59b9-373c-42cb-aae1-570494214328
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # UdtKind
 Describes the variety of user-defined type (UDT).  

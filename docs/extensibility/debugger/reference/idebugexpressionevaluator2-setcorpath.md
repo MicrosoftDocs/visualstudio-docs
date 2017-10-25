@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator2::SetCorPath
 Sets the path to the common language runtime (CLR) loaded in the debugger.  

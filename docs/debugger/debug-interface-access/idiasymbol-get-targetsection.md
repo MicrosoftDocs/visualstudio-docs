@@ -16,7 +16,7 @@ ms.assetid: 95382395-da41-4aa8-87f1-5b03da128565
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_targetSection
 Retrieves the address section of a thunk target.  

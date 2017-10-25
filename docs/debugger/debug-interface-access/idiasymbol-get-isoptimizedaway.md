@@ -14,7 +14,7 @@ ms.assetid: c18b1e38-b152-4a13-aba0-59faded5b2e6
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_isOptimizedAway
 Specifies whether the variable is optimized away.  

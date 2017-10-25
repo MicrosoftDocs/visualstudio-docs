@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
 caps.latest.revision: 34
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command Availability
 The Visual Studio context determines which commands are available. The context can change depending on the current project, the current editor, the VSPackages that are loaded, and other aspects of the integrated development environment (IDE).  

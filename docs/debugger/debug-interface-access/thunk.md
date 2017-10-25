@@ -17,7 +17,7 @@ ms.assetid: 01abb95f-d89a-465c-a4eb-8e8509598c95
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Thunk
 Each `thunk` is identified by a `SymTagThunk` tag.  

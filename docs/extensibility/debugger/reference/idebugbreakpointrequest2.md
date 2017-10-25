@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointRequest2
 This interface represents the information necessary to create and bind any type of breakpoint.  
