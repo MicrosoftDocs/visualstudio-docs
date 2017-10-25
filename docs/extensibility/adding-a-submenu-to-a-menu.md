@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 caps.latest.revision: 43
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Adding a Submenu to a Menu
 This walkthrough builds on the demonstration in [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) by showing how to add a submenu to the **TestMenu** menu.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_RES_DATA_FLAGS
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  

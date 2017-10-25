@@ -12,7 +12,7 @@ ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line
 This section describes the procedures and options for collecting detailed performance data for Windows services using the instrumentation method from the command line.  

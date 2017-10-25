@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomAttribute::GetName
 Gets the name of the custom attribute.  

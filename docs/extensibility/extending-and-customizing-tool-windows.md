@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
 caps.latest.revision: 20
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending and Customizing Tool Windows
 Visual Studio provides several different types of windows, for example tool windows, document windows, and dialog windows. Other windows such as the Properties window, the Output window, and the Task List window, are types of tool windows.  

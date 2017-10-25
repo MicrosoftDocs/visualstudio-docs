@@ -15,7 +15,7 @@ ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 125
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Welcome to Visual Studio 2017!
 We've got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, Linux, Windows, and others in one integrated development environment (IDE). Get great interactive code help (*IntelliSense*), easy code navigation and debugging, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  

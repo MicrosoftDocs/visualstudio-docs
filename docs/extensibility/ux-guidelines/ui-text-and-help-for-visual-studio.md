@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
 caps.latest.revision: 2
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # UI Text and Help for Visual Studio
 ##  <a name="BKMK_UITextAndTerminology"></a> UI text and terminology  

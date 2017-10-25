@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 57b7f502-3b04-42d9-90d5-f57772a7c757
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # LocalizedName Element (VSIX Language Pack Schema)
 Required. The localized name of the extension to be installed.  

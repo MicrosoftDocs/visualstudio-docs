@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Bitmaps Element
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9e6a5054-41b7-4223-b509-b93689d366a5
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty2::SetValueAsString
 Sets the value of a property from a given string.  

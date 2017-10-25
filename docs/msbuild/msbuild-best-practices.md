@@ -15,7 +15,7 @@ ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MSBuild Best Practices
 We recommend the following best practices for writing MSBuild scripts:  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDefaultPort2::QueryIsLocal
 This method determines whether this port is on the local machine.  

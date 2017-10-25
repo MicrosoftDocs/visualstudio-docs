@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Images and Icons for Visual Studio
 ##  <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio  

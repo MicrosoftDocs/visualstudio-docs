@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 This method determines whether the visualizer can have the data object it represents updated.  

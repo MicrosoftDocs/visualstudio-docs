@@ -20,7 +20,7 @@ ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Object Lifetime View
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  

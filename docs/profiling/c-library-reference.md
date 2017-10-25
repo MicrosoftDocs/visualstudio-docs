@@ -14,7 +14,7 @@ ms.assetid: 46907a60-25e2-470d-a650-ae7349f868fd
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # C Library Reference
 This section contains reference information for the Concurrency Visualizer SDK.  

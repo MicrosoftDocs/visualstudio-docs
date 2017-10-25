@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentContext2::GetSourceRange
 Gets the source code range of this document context.  

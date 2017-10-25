@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # FullClassName Element (Visual Studio Template Wizard Extension)
 The fully qualified name of the class that implements the `IWizard` interface.  

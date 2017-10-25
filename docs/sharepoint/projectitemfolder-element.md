@@ -17,7 +17,7 @@ ms.assetid: 15b386dd-f523-4425-9fcc-517325681358
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectItemFolder Element
   Represents a mapped folder.  

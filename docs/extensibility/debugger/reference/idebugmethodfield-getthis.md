@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMethodField::GetThis
 Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.  

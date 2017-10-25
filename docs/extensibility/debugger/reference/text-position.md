@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6dcec574-a852-49fa-8c2e-2e71cbb5e3c6
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TEXT_POSITION
 Describes the line and column location in the given text.  

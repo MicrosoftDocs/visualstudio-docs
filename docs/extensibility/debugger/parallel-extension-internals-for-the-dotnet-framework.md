@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 93e07cfa-91fa-464c-b866-8bf5570411df
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Parallel Extension Internals for the .NET Framework
 This section describes the internal types, methods, and fields of classes that help you implement a custom debugger for the parallel extensions to the .NET Framework.  

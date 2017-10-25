@@ -20,7 +20,7 @@ ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # CreateCSharpManifestResourceName Task
 Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  

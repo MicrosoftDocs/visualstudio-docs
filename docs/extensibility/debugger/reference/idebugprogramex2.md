@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 663359ed-635a-4539-addb-0cc52f19d1bd
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramEx2
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.  

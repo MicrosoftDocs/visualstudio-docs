@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::EnumThreads
 Retrieves a list of all the threads running in the process.  

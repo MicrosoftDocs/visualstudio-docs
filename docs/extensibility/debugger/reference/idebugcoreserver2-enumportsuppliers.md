@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ce0c90e4-8e02-4b08-b558-7677fb2c88f7
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer2::EnumPortSuppliers
 Retrieves a list of all available port suppliers.  

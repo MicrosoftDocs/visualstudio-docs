@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Shell (Integrated)
 The Visual Studio integrated shell includes the integrated development environment (IDE), debugger, and source control integration. No programming language is included. However, the integrated shell does provide a framework that allows you to add programming languages.  

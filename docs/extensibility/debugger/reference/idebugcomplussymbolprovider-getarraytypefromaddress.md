@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 Retrieves type information about the specified array given its debug address.  

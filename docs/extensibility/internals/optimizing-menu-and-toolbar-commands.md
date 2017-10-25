@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 8385f1a6-1e98-4dca-83d2-fcbed7177242
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Optimizing Menu and Toolbar Commands
 The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides ways to help minimize UI command confusion.  

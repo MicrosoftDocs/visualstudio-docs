@@ -16,7 +16,7 @@ ms.assetid: 4d119965-33a8-474c-9c64-95c5218c389c
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_lexicalParent
 Retrieves a reference to the lexical parent of the symbol.  

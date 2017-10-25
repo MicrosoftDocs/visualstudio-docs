@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # GUID_ARRAY
 Describes an array of unique identifiers for available debug engines.  

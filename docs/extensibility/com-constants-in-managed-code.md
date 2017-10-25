@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # COM Constants in Managed Code
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.  

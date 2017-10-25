@@ -16,7 +16,7 @@ ms.assetid: ef4f6259-a110-43b6-a325-364154e1ba00
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Report Based on Visible Time Range
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.  

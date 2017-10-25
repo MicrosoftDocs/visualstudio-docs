@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ee2b9084-2db1-4e49-a1d9-387284b7c3f8
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::Detach
 Detaches the debugger from this process by detaching all of the programs in the process.  

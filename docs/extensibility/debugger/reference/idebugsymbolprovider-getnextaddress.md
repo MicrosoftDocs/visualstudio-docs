@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetNextAddress
 Gets the debug address that follows a given debug address in a method.  

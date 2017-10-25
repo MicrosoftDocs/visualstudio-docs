@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetPhysicalStackRange
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.  

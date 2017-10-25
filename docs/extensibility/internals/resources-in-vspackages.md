@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 caps.latest.revision: 23
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Resources in VSPackages
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.  

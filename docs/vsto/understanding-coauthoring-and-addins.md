@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: a9479a52-54e5-421c-9a89-69607153bf6b
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Understanding Coauthoring and Add-Ins
 

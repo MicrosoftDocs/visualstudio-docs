@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine2::SetMetric
 This method sets a registry value known as a metric.  

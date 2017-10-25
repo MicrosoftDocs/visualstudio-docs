@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9d860a20-c154-4df4-ba15-636e0fcd42bf
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer3::DisableAutoAttach
 Disables automatic attaching for all debug engines associated with this server.  

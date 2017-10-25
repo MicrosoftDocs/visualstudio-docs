@@ -16,7 +16,7 @@ ms.assetid: 22b8ee29-79ef-427f-bd05-00d255ab836b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaLineNumber::get_statement
 Retrieves a flag indicating that this line information describes the beginning of a statement, rather than an expression, in the program source.  

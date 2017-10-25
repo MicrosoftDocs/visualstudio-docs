@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
 caps.latest.revision: 27
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # What&#39;s New in Source Control
 In [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  

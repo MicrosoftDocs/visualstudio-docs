@@ -16,7 +16,7 @@ ms.assetid: 66eb38ce-a5e1-467e-b845-b3dc433eda91
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_execute
 Retrieves a flag that indicates whether the section is executable as code.  

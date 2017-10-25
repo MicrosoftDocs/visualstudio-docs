@@ -17,7 +17,7 @@ ms.assetid: 71f34daf-8163-4a53-a401-9cab6581f30d
 caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Tools for Office Runtime Installation Scenarios
   You can install the Visual Studio 2010 Tools for Office Runtime in three ways:  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c5f8f417-0ef0-4fd0-a779-b0a8ead4effe
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
 Retrieves a value that corresponds to the specified metric of the expression evaluator.  

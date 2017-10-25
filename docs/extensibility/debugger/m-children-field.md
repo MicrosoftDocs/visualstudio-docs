@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 0a3b5653-7bc0-4a7a-8963-9020bc52b9cb
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # m_children Field
 The list of child tasks that are registered with this task.  

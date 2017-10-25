@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
 caps.latest.revision: 36
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # The Experimental Instance
 To safeguard your Visual Studio development environment from untested applications that might change it, the VSSDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this experimental instance.  

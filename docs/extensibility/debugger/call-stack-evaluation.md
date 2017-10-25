@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 373d6b49-0459-4cce-816e-05745a44fe49
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Call Stack Evaluation
 In order to view the stack frames of the call stack during break mode , you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  

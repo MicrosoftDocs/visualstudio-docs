@@ -14,7 +14,7 @@ ms.assetid: 8821d98c-0771-43b2-a38b-e9039a3abd75
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Process View - Contention Data
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  

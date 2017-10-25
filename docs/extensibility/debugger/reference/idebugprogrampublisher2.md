@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b1d17f63-7146-4076-a588-034cfc6858b9
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramPublisher2
 This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging.  

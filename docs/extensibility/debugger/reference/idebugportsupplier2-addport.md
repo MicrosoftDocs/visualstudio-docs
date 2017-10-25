@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: df491161-6bf3-4fcc-b478-b9ec88ec995f
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplier2::AddPort
 Adds a port.  

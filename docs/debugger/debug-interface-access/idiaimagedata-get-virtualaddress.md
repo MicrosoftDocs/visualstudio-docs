@@ -16,7 +16,7 @@ ms.assetid: 67ecdc8c-d342-4d0b-b02a-c6b88e22fd02
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaImageData::get_virtualAddress
 Retrieves the location in virtual memory of the image.  

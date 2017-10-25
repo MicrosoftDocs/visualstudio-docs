@@ -602,7 +602,7 @@ ms.assetid: 29dd85ee-1530-43c1-b085-bb2330ac5a48
 caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 redirect_url: https://social.msdn.microsoft.com/Forums/vstudio/home?forum=msbuild
 ---
 # Additional MSBuild Resources

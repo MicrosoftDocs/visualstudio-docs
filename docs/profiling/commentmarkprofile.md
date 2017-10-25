@@ -15,7 +15,7 @@ ms.assetid: 33ccff45-c33a-4672-b41f-5b317b848cd1
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CommentMarkProfile
 The `CommentMarkProfile` function inserts a numeric marker and a text string in the .vsp file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  

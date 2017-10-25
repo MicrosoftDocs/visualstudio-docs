@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d41dd5ea-aa25-4bf3-bcfd-e0bf451ead49
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldDefinition::TypeParamCount
 Retrieves the number of type parameters that are associated with the generic field.  

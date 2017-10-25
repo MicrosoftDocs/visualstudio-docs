@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramPublisher2::PublishProgram
 This method makes a program available for debug engines (DEs) and the session debug manager.  

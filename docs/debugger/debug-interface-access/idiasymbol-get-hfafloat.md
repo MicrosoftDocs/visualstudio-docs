@@ -16,7 +16,7 @@ ms.assetid: 73ddcffe-cdac-4b03-be42-82ef985d17ee
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_hfaFloat
 Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type float.  

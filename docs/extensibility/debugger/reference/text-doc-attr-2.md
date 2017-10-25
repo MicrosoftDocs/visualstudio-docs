@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TEXT_DOC_ATTR_2
 Describes the attributes of a document.  

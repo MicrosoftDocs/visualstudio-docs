@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDisassemblyStream2::GetCodeLocationId
 Returns a code location identifier for a particular code context.  

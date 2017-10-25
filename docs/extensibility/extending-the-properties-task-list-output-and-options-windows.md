@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 caps.latest.revision: 37
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending the Properties, Task List, Output, and Options Windows
 You can access any tool window in Visual Studio. This walkthrough shows how to integrate information about your tool window into a new **Options** page and a new setting on the **Properties** page, and also how to write to the **Task List** and **Output** windows.  

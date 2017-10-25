@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_STATE
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.  

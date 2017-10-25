@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
 caps.latest.revision: 25
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started with the VSIX Project Template
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.  

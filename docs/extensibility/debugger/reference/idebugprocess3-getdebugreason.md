@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::GetDebugReason
 This method returns the reason that the process was launched for debugging.  

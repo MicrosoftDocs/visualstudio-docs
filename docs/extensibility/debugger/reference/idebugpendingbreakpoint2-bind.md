@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::Bind
 Binds this pending breakpoint to one or more code locations.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 558e3d41-0db5-4c44-82bb-6bb87892b093
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Folder Element (Visual Studio Project Templates)
 Specifies a folder that will be added to the project.  

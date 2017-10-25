@@ -13,7 +13,7 @@ ms.assetid: aa667357-763f-4ce6-8e47-48f9337658a8
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Remotely Debugging Python Code on Linux

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::GetContainer
 This method gets the container of a field.  

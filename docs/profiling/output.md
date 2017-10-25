@@ -12,7 +12,7 @@ ms.assetid: 5e286e61-4548-42cf-a635-e608c5edbe2b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Output
 The **Output** option specifies the name of the profiling data file for the performance session. **Output** must be used with the **Start** option.  

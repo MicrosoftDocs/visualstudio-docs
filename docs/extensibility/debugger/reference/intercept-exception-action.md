@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # INTERCEPT_EXCEPTION_ACTION
 Specifies what actions to take when intercepting exceptions.  

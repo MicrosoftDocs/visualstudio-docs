@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 37c0a841-1c8d-4802-a990-36b54bca3ef7
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineCreateEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created.  

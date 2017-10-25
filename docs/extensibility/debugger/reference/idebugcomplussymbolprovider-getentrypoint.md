@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9640e121-1da1-41f9-8e66-76efca36baf2
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetEntryPoint
 Retrieves the application entry point.  

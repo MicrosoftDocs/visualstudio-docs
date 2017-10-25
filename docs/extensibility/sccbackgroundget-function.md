@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccBackgroundGet Function
 This function retrieves from source control each of the specified files with no user interaction.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CONST_GUID_ARRAY
 A structure that holds a list of `GUID`s.  

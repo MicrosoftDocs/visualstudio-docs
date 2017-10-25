@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject2::IsUserData
 Determines whether the object represents user data.  

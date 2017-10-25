@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 97c48c49-3fb2-4778-accd-8585fa4feabf
 caps.latest.revision: 3
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # AsyncVoidMethodBuilder.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  

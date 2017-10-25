@@ -19,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
 caps.latest.revision: 28
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Developing a Legacy Language Service
 This section links to topics that help you create a legacy language service.  

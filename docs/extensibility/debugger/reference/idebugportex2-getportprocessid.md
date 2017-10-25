@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortEx2::GetPortProcessId
 Gets the process ID of the port itself.  

@@ -13,7 +13,7 @@ ms.assetid: bc668a4b-10ae-4199-90b8-c984456b6003
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Using PyLint to check Python code

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
 caps.latest.revision: 38
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Adding Search to a Tool Window
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:  

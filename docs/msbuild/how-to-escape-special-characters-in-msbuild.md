@@ -17,7 +17,7 @@ ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
 caps.latest.revision: 12
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Escape Special Characters in MSBuild
 Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files. Examples of the characters include semicolons (;) and asterisks (*). For a complete list of these special characters, see [MSBuild Special Characters](../msbuild/msbuild-special-characters.md).  

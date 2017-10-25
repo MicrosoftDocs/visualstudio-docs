@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Strings Element
 The Strings element must contain at least a **ButtonText** child element. All other child elements are optional. Invalid XML characters such as '&' and '<' must be coded as entities ('&amp;' and '&lt;' and so on).  

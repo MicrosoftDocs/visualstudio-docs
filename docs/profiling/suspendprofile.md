@@ -14,7 +14,7 @@ ms.assetid: 7c8de6e6-bb88-4353-92c3-ce7290310d61
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # SuspendProfile
 The `SuspendProfile` method increments the Suspend/Resume counter for the specified profiling level.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 693bd794-7215-4f07-8651-b57366d39953
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer2::GetMachineName
 Gets the name of the machine the core server is running on.  

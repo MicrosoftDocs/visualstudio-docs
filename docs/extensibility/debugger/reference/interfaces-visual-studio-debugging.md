@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Interfaces (Visual Studio Debugging)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b9ba0908-ae4c-4a64-aab1-bee453dd7a22
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Event Sources (Visual Studio SDK)
 There are two sources of events: the debug engine (DE) and the session debug manager (SDM). Events sent from a DE have a non-NULL engine, while events sent from the SDM have a NULL engine.  

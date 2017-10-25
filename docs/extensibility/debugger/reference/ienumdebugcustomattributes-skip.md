@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 54c72e23-cd4c-4746-935c-abea8057dd1b
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugCustomAttributes::Skip
 Skips a specified number of custom attributes in an enumeration sequence.  

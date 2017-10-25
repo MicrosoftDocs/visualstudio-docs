@@ -16,7 +16,7 @@ ms.assetid: 900a05dd-c29b-44ad-b46b-f43bda819a66
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_backEndMajor
 Retrieves the back-end major version number of the compiler.  

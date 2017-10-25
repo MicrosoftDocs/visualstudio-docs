@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d774322c-e72d-4df3-b317-928da39dadc5
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugThreads2::Clone
 Returns a copy of the current enumeration as a separate object.  

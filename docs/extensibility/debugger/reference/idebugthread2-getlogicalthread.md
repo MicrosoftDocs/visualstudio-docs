@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: bce6230e-41d4-49b7-a050-2dde5efb6805
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThread2::GetLogicalThread
 Debug engines do not implement this method.  

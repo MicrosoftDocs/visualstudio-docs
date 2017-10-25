@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugContainerField::EnumFields
 Creates an enumerator for the fields of the container.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplierLocale2
 Provides locale support for a port supplier.  

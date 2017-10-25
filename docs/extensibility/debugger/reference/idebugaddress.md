@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: bc709ff7-4966-4f36-9af2-690efe2cea1d
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAddress
 This interface represents the address of an item. It is returned by the symbol handler.  

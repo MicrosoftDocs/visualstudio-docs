@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # REFERENCE_TYPE
 Specifies the reference type.  

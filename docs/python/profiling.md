@@ -13,7 +13,7 @@ ms.assetid: 2723d4d0-89c8-4279-bfc2-27c0834a997e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Profiling Python Code

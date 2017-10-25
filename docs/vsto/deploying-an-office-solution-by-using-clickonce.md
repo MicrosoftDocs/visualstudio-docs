@@ -18,7 +18,7 @@ ms.assetid: feb516b3-5e4d-449a-9fd2-347d08d90252
 caps.latest.revision: 59
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Deploying an Office Solution by Using ClickOnce
   You can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. However, ClickOnce requires that you install your solution separately for each user of a computer. Therefore, you should consider using Windows Installer (.msi) if more than one user will run your solution on the same computer.  

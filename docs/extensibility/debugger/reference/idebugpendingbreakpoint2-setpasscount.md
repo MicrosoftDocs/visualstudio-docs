@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 Sets or changes the pass count associated with the pending breakpoint.  

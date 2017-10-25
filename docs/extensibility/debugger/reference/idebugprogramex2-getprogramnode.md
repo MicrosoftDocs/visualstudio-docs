@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramEx2::GetProgramNode
 Gets the program node associated with a program.  

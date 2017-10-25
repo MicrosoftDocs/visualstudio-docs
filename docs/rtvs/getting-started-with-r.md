@@ -13,7 +13,7 @@ ms.assetid: 39228cf0-8d21-43bb-a2ce-5e5fdc81ec41
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Getting started with R Tools for Visual Studio

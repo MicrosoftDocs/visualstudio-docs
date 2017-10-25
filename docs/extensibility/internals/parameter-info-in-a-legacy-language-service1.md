@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Parameter Info in a Legacy Language Service
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.  

@@ -15,7 +15,7 @@ ms.assetid: 897c00d5-5767-433b-a960-4a29c6023ede
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command-Line Profiling of ASP.NET Web Applications
 This section describes the procedures and options for collecting performance data for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.  
