@@ -55,42 +55,55 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 2. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
 3. [Toggle the **Basic**](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file) button to **Advanced**.
 4. Add the following JSON array property to increase disk space to 120GB (more than enough for Build Tools with room to grow).
-   ```js
-   "storage-opts": [
-     "size=120GB"
-   ]
+
+   ```json
+   {
+     "storage-opts": [
+       "size=120GB"
+     ]
+   }
    ```
+
    This property is added to anything you already have. For example, with these changes applied to the default daemon configuration file, you should now see:
-   ```js
+
+   ```json
    {
      "registry-mirrors": [],
      "insecure-registries": [],
      "debug": true,
      "experimental": true,
      "storage-opts": [
-       "Size=120GB"
+       "size=120GB"
      ]
    }
    ```
+
 5. Click **Apply**.
 
 **On Windows Server 2016**:
 
 1. Stop the "docker" service:
-   ```
+
+   ```shell
    sc.exe stop docker
    ```
+
 2. From an elevated command prompt, edit "%ProgramData%\Docker\config\daemon.json" (or whatever you specified to `dockerd --config-file`).
 3. Add the following JSON array property to increase disk space to 120GB (more than enough for Build Tools with room to grow).
-   ```js
-   "storage-opts": [
-     "size=120GB"
-   ]
+
+   ```json
+   {
+     "storage-opts": [
+       "size=120GB"
+     ]
+   }
    ```
+
    This property is added to anything you already have.
 4. Save and close the file.
 5. Start the "docker" service:
-   ```
+
+   ```shell
    sc.exe start docker
    ```
 
@@ -103,14 +116,19 @@ You must save the following example Dockerfile to a new file on your disk. If th
 
 1. Open a command prompt.
 2. Create a new directory (recommended):
-   ```
+
+   ```shell
    mkdir C:\BuildTools
    ```
+
 3. Change directories to this new directory:
-   ```
+
+   ```shell
    cd C:\BuildTools
    ```
+
 3. Save the following content to C:\BuildTools\Dockerfile.
+
    ```dockerfile
    # Use the latest Windows Server Core image.
    FROM microsoft/windowsservercore
@@ -136,10 +154,13 @@ You must save the following example Dockerfile to a new file on your disk. If th
    # Default to PowerShell if no other command specified.
    CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
+
 4. Run the following command within that directory.
-   ```
+
+   ```shell
    docker build -t buildtools2017:latest -m 2GB .
    ```
+
    This command builds the Dockerfile in the current directory using 2GB of memory. The default 1GB is not sufficient when some workloads are installed; however, you may be able to build with only 1GB of memory depending on your build requirements.
 
    The final image is tagged "buildtools2017:latest" so you can easily run it in a container as "buildtools2017" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2017 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
@@ -150,7 +171,8 @@ Now that you have created an image, you can run it in a container to do both int
 
 1. Open a command prompt.
 2. Run the container to start a PowerShell environment with all developer environment variables set:
-   ```
+
+   ```shell
    docker run -it buildtools2017
    ```
 
