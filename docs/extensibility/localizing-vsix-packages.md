@@ -43,7 +43,7 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 
 ## The Extension.vsixlangpack File
 
-The Extension.vsixlangpack file follows the [VSIX Language Pack Schema 2.0](../extensibility/vsix-language-pack-schema-2-0-reference.md). This schema has a [VSIXLanguagePack](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md) root element, and these four child elements: [LocalizedName](../extensibility/localizedname-element-vsix-language-pack-schema.md), [LocalizedDescription](../extensibility/localizeddescription-element-vsix-language-pack-schema.md), [MoreInfoURL](../extensibility/moreinfourl-element-vsix-language-pack-schema.md), and [License](../extensibility/license-element-vsix-language-pack-schema.md). These child elements correspond to the `Name`, `Description`, `MoreInfoURL`, and `License` child elements of the `Identifier` element of the Extension.vsixmanifest file.
+The Extension.vsixlangpack file follows the [VSIX Language Pack Schema 2.0](../extensibility/vsix-language-pack-schema-2-0-reference.md). This schema has a `PackageLanguagePackManifest`, which is immediately followed by a `Metadata` child element. The Metadata element can contain up to 6 child elements, `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon`. These child elements correspond to the `DisplayName`, `Description`, `MoreInfo`, `License`, `ReleaseNotes`, and `Icon` child elements of the `Metadata` element of the Extension.vsixmanifest file.
 
 When you create a vsixlangpack file, you must set the `Include in Vsix` property to `true`. Otherwise, the localized installation text will be ignored.
 
