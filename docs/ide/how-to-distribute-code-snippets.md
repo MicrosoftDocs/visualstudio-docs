@@ -80,7 +80,7 @@ You can simply give your code snippets to your friends and have them install the
 
 4.  Add the .pkgdef file as an asset in the VSIX manifest. In the source.extension.vsixmanifest file, go to the **Assets** tab and click **New**.  
 
-5.  In the **Add New Asset** dialog, set the **Type** to **Microsoft.VisualStudio.VsPackage**, the **Type** to **File on filesystem**, and the **Path** to **HelloWorldVB.pkgdef** (which should appear in the dropdown).  
+5.  In the **Add New Asset** dialog, set the **Type** to **Microsoft.VisualStudio.VsPackage**, the **Source** to **File on filesystem**, and the **Path** to **HelloWorldVB.pkgdef** (which should appear in the dropdown).  
 
 ### Testing the Snippet  
 

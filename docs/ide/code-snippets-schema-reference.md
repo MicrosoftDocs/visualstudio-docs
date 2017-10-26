@@ -38,10 +38,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
 |[Header Element](../ide/code-snippets-schema-reference.md#header)|[Reference Element](../ide/code-snippets-schema-reference.md#reference)||  
   
 ##  <a name="assembly"></a> Assembly Element  
- Specifies the name of the assembly referenced by the code snippet.  
-  
-> [!NOTE]
->  The `Assembly` element is only supported by Visual Basic code snippets.  
+ Specifies the name of the assembly referenced by the code snippet.
   
  The text value of the **Assembly** element is either the friendly text name of the assembly, such as `System.dll`, or its strong name, such as `System,Version=1.0.0.1,Culture=neutral,PublicKeyToken=9b35aa323c18d4fb1`.  
   
@@ -468,10 +465,7 @@ is a great color. I love Blue.
 |[Declarations Element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|  
   
 ##  <a name="reference"></a> Reference Element  
- Specifies information about the assembly references required by the code snippet.  
-  
-> [!NOTE]
->  The `Reference` element is only supported for Visual Basic projects.  
+ Specifies information about the assembly references required by the code snippet. 
   
 ```xml  
 <Reference>  
@@ -491,9 +485,6 @@ is a great color. I love Blue.
   
 ##  <a name="references"></a> References Element  
  Groups individual `Reference` elements.  
-  
-> [!NOTE]
->  The `References` element is only supported for Visual Basic projects.  
   
 ```xml  
 <References>  

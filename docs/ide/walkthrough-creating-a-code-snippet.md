@@ -115,7 +115,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 6.  Save the snippet file again.  
   
-7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press TAB. The snippet code should be inserted.  
+7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice. The snippet code should be inserted.  
   
 ### To Add References and Imports  
   
