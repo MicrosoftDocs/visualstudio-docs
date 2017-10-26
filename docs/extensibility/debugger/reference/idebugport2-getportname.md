@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4478b3d5-aa30-4105-8d05-e3bae2f8917a
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPort2::GetPortName
 Gets the port name.  

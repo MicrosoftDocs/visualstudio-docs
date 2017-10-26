@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 caps.latest.revision: 24
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Core Interfaces
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].  

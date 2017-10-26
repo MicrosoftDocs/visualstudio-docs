@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: d1a9b99f-fbdc-45ed-920a-e08c3d931ac9
 caps.latest.revision: 27
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using Fonts and Colors
 The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides support for using fonts and colors to display text.  

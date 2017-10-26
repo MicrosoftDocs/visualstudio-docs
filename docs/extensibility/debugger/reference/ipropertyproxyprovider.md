@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IPropertyProxyProvider
 This interface supplies a proxy interface to view and change an object's data.  

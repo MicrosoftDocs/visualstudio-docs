@@ -14,7 +14,7 @@ ms.assetid: 30e13cee-e511-49ec-affd-99b0097071b2
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_acceleratorPointerTags
 Returns all accelerator pointer tag values that correspond to a C++ AMP accelerator stub function.  

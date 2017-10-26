@@ -16,7 +16,7 @@ ms.assetid: 8c29c91a-062d-4566-a9b7-49251036a15a
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_relocationsCrc
 Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6a3dee11-5267-4d77-9e28-6a38413ba70b
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugErrorBreakpoints2::Next
 Returns the next set of elements from the enumeration.  

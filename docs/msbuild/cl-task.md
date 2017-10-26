@@ -25,7 +25,7 @@ ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
 caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # CL Task
 Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.exe) files, dynamic-link library (.dll) files, or code module (.netmodule) files. For more information, see [Compiler Options](/cpp/build/reference/compiler-options).  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 859d1a51-1c65-4c8b-ae74-3b74b181ebcd
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEVisualizerServiceProvider
 > [!IMPORTANT]

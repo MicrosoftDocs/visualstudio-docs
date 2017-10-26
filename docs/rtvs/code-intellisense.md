@@ -13,7 +13,7 @@ ms.assetid: d96e3677-e5ec-4e11-82a8-d914a93b1aa9
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # IntelliSense

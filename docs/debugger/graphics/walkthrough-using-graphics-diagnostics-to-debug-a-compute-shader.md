@@ -12,7 +12,7 @@ ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
 This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics tools to investigate a compute shader that generates incorrect results.  

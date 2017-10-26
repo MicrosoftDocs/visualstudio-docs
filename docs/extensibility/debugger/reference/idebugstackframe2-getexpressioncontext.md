@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetExpressionContext
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.  

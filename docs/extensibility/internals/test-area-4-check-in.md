@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Test Area 4: Check In
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ce29a248-81a0-42c0-99a7-1606e8c548ec
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcessQueryProperties
 This interface is an extension interface implemented by [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) implementers. It allows the implementer to get information on the debugging process environment.  

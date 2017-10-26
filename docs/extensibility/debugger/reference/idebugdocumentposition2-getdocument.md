@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentPosition2::GetDocument
 Gets the containing document.  

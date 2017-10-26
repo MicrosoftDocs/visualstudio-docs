@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 23911c5b-2bbf-4734-9976-87a0bd6ea36c
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugTypeFieldBuilder2
 Extends the **IDebugTypeFieldBuilder** to be able to create array types.  

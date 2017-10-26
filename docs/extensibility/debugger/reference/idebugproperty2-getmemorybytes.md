@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty2::GetMemoryBytes
 Gets the memory bytes that compose the value of a property.  

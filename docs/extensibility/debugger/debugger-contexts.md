@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 79808036-b680-4e4c-9c61-4ed43aa11323
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugger Contexts
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, the debug engine (DE) operates simultaneously within several distinct contexts, as follows:  

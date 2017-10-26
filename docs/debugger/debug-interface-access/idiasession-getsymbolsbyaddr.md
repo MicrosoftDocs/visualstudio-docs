@@ -16,7 +16,7 @@ ms.assetid: eafcc757-b488-487d-a063-ad3703ff42e8
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::getSymbolsByAddr
 Retrieves an enumerator that finds symbols in the order of their addresses.  

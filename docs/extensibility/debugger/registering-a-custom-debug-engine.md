@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering a Custom Debug Engine
 The debug engine must register itself as a class factory following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.  

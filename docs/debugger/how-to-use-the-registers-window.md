@@ -27,7 +27,7 @@ ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
 caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # View Register Values and use the Registers Window in the Visual Studio Debugger
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  

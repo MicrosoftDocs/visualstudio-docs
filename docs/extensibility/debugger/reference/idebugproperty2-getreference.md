@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2fa97d9b-c3d7-478e-ba5a-a933f40a0103
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty2::GetReference
 Returns a reference to the property's value.  

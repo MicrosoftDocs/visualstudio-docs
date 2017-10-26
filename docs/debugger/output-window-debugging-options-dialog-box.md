@@ -21,7 +21,7 @@ ms.assetid: d67387c2-39e9-4790-93bc-e41bff12fb9c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Output Window, Debugging, Options Dialog Box
 You can specify which types of debugging information appear in the **Output** window. To display these options, open the **Tools** menu, click **Options**, expand the **Debugging** node, and click **Output Window**.  

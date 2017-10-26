@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Implementing Code Snippets
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.  

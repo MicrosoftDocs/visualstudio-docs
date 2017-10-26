@@ -16,7 +16,7 @@ ms.assetid: ce526259-85a6-475b-9274-0b3a21d95db2
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackFrame::get_rawLVarInstanceValue
 This method retrieves the value of the specified local variable as raw bytes.  

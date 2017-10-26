@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEVisualizerService::GetPropertyProxy
 This method returns a proxy for a property object.  

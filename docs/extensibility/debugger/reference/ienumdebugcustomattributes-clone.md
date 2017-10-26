@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e6825000-e195-42b4-b296-bfe1e533d79b
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugCustomAttributes::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

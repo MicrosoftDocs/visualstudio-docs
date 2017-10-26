@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator2::PreloadModules
 Preloads the modules designated by the specified symbol provider.  

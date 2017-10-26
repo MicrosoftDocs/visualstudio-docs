@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Stepping in Break Mode
 The following describes the process that occurs when the debugger is in break mode and must step through code:  

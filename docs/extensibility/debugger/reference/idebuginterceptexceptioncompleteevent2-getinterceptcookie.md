@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 Called when the processing of an intercepted exception has completed.  

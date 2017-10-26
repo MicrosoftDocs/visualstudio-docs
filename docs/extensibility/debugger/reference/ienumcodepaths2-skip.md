@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 356472d8-68b2-4b7e-b5f0-1f16d4ee80af
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumCodePaths2::Skip
 Skips over the specified number of elements.  

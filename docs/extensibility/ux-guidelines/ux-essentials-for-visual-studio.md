@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # UX Essentials for Visual Studio
 ## Best practices  

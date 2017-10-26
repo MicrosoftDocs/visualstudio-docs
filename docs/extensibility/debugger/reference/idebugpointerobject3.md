@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 11d26af4-1079-435e-96fa-d5269cbea8eb
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPointerObject3
 > [!IMPORTANT]

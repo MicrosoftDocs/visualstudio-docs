@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExceptionEvent2::GetException
 Gets a detailed description of the exception that fired this event.  

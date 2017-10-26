@@ -16,7 +16,7 @@ ms.assetid: 1da52539-9872-4c20-8eaa-74b6cb5f3b02
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_liveRangeStartRelativeVirtualAddress
 Returns the beginning of the address range in which the local symbol is valid.  

@@ -16,7 +16,7 @@ ms.assetid: ba8142e3-5c77-43cc-bd33-c077dcc18cab
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaLineNumber::get_relativeVirtualAddress
 Retrieves the relative virtual address (RVA) of the block.  

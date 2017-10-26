@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 caps.latest.revision: 22
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Commands That Must Be Run After Installation
 If you deploy your extension through an .msi file, you must run `devenv /setup` as part of your installation in order for Visual Studio to discover your extensions.  

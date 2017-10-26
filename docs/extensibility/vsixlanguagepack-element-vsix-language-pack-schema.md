@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 767f5c22-8b87-49ca-92aa-a7a3f026469f
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # VSIXLanguagePack Element (VSIX Language Pack Schema)
 Required. Provides the root element for a VSIX language pack. The VSIX language pack provides localized installation information for a VSIX package.  

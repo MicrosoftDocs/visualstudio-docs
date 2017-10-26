@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
 Creates an object that represents a primitive type.  

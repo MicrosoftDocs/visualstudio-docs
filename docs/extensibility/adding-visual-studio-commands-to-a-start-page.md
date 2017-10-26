@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 20
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Adding Visual Studio Commands to a Start Page
 When you create a custom start page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a start page.  

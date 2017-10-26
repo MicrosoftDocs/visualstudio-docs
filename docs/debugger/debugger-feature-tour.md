@@ -14,7 +14,7 @@ ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Feature Tour of the Visual Studio Debugger
 

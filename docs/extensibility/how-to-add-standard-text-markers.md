@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: a39fca69-0014-474c-933f-51f0e9b9617e
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add Standard Text Markers
 Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor.  

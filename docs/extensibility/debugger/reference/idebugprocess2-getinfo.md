@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetInfo
 Gets a description of the process.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9be49e9f-1864-41c2-8a3c-f66895881341
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Text Buffer Events in the Legacy API
 The text buffer object emits several different events that allow you to respond to different situations.  

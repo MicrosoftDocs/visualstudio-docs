@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 8c3db51d-7014-4484-802a-15aa1353dbdb
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CustomDataSignature Element (Visual Studio Templates)
 Specifies the text signature to locate the custom data.  

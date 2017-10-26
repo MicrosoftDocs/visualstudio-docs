@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 5fc00ced-882c-4b48-b46c-1fa5a2469f94
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Register for Text Buffer Events with the Legacy API
 If you are accessing the text buffer by using the legacy API, you should register for text buffer events as shown in the following procedure.  

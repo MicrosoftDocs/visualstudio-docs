@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CustomParameter Element (Visual Studio Templates)
 Contains a custom parameter name and value to use when a project or item is created from the template.  

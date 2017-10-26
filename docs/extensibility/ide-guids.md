@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
 caps.latest.revision: 19
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDE GUIDs
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.  

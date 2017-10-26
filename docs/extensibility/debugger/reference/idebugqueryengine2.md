@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugQueryEngine2
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).  

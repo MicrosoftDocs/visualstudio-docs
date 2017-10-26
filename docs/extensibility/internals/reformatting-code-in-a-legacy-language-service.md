@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Reformatting Code in a Legacy Language Service
 

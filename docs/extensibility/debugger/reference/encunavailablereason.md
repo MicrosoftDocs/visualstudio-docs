@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EncUnavailableReason
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.  

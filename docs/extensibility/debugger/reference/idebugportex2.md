@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 144724d0-38ee-4c9b-87ca-8a504371182b
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortEx2
 This interface lets the session debug manager (SDM) control the programs and processes running on a port.  

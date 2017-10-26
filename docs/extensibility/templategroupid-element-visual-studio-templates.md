@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TemplateGroupID Element (Visual Studio Templates)
 Specifies what kind of project an item templates will show up in. This element is significant when [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `false`. When [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `true`, then an item template is available in all project types.  

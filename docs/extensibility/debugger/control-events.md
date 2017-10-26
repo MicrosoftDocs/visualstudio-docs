@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 0fc63484-5fb6-4887-9ea4-1905b459ca9d
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Control Events
 You must send events during the controlled execution of your program. All of the events are sent using the [IDebugEvent2](../../extensibility/debugger/reference/idebugevent2.md) interface and have attributes that require you to implement the [IDebugEvent2::GetAttributes](../../extensibility/debugger/reference/idebugevent2-getattributes.md) method.  

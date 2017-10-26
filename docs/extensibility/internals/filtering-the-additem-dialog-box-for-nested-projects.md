@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Filtering the AddItem Dialog Box for Nested Projects
 When you display an **AddItem** dialog box for a nested project, the parent project can control what items are displayed in the dialog box.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9e2834dd-4ecf-45af-8e6c-f9318ebdac06
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThread2::SetNextStatement
 Sets the current instruction pointer to the given code context.  

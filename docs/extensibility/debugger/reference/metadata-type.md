@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # METADATA_TYPE
 This structure specifies information about a field type taken from metadata.  

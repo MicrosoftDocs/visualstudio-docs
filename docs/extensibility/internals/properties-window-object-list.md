@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 6c159c9d-345d-4b23-8ddd-9839d338b62f
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Properties Window Object List
 The object list in the **Properties** window is a drop-down list that allows you to change the selection to other objects available within one or more selected windows. Selecting a different object from within this list triggers a call to <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer.SelectObjects%2A> to inform the environment that a new object has been selected. The information displayed in the **Properties** window is then changed to show the properties associated with the newly selected object.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 60e4689c-c899-4c14-9d18-96393b741e1f
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2::onDestroy
 Indicates that the entire document has been destroyed.  

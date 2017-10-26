@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f6fb4985-8dd6-4a9b-98e0-15dbc64cc9ec
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugErrorBreakpoints2::Clone
 Returns a copy of the current enumeration as a separate object.  

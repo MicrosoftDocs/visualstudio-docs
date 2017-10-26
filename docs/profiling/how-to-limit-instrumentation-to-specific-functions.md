@@ -14,7 +14,7 @@ ms.assetid: bd98d6bf-2560-4eba-b063-2facb09f87c4
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Limit Instrumentation to Specific Functions
 You can limit instrumentation and data collection to one or more functions by setting options in the **Advanced** page of the **Performance Session** or target binary property pages:  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 75b8f9d0-b908-40d0-b109-70feaed2ab0c
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TASK_STATE_EXECUTED Field
 The task is running but has not yet completed.  

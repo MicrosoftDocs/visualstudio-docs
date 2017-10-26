@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d9ad3e22-b6b2-421e-9a43-6bb8c70d12a9
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
 Gets the result of expression evaluation.  

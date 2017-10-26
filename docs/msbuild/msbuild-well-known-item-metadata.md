@@ -20,7 +20,7 @@ ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
 caps.latest.revision: 12
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MSBuild Well-known Item Metadata
 The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file `C:\MyProject\Source\Program.cs` in the project.  

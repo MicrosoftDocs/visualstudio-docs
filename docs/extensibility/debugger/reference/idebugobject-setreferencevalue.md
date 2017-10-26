@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 08c78a4e-98eb-41cb-8b75-02a6a43d49f7
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject::SetReferenceValue
 Sets the reference value of this object.  

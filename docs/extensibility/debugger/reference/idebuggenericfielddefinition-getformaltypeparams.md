@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldDefinition::GetFormalTypeParams
 Retrieves the type parameters given the number of parameters.  

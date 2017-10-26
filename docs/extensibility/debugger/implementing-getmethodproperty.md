@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Implementing GetMethodProperty
 > [!IMPORTANT]

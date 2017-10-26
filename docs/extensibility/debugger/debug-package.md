@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug Package
 The debug package runs in the Visual Studio shell and handles all of the UI. It consumes the Visual Studio debugging interfaces and communicates with the session debug manager (SDM).  

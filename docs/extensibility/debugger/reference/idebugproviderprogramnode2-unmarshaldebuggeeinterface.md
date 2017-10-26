@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 Obtains a specified interface across process boundaries.  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 Retrieves information about the method at the specified debug address.  

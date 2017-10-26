@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Fonts and Formatting for Visual Studio
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  

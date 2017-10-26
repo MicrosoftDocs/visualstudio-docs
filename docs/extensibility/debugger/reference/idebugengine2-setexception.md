@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e6f5ec48-09e8-4b9b-9dc9-55f8d883f1b7
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine2::SetException
 Specifies how the debug engine (DE) should handle a given exception.  

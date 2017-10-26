@@ -16,7 +16,7 @@ ms.assetid: 78005efa-2883-4823-b4e4-711a66672c78
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackFrame::get_lengthParams
 Retrieves the number of bytes of parameters pushed on the stack.  

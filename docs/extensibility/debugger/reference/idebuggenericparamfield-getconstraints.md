@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 86a78b5a-ee0f-4999-a0ba-919d3dc7d969
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericParamField::GetConstraints
 Retrieves the constraints that are associated with this generic parameter.  

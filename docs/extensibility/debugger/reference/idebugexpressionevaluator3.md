@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c27c2a14-300b-4535-be22-767c83602f69
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator3
 > [!IMPORTANT]

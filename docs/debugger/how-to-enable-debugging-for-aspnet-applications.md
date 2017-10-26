@@ -21,7 +21,7 @@ ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug ASP.NET Applications in Visual Studio
 

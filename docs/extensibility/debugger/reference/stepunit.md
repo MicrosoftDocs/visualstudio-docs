@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # STEPUNIT
 Specifies the step unit for stepping.  

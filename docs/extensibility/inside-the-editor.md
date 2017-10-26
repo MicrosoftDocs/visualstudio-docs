@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 caps.latest.revision: 31
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Inside the Editor
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  

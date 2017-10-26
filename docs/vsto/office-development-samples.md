@@ -17,7 +17,7 @@ ms.assetid: 9ebc7de2-59dd-414c-888b-7549d3c3543c
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Office Development Samples
   Visual Studio includes sample applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions. The code in these samples illustrates the syntax, structure, and techniques used to build Office solutions.  

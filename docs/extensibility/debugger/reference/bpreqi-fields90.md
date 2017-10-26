@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: bf6f7efc-39f2-46a2-906d-c3647bf89995
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BPREQI_FIELDS90
 Enumerates the valid values that specify the information to be retrieved about a breakpoint request. This enumeration extends the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration.  

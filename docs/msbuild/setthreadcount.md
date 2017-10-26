@@ -19,7 +19,7 @@ ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # SetThreadCount
 Sets the global thread count, and assigns that count to the current thread.  

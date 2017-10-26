@@ -18,7 +18,7 @@ ms.assetid: d1703957-81e2-47e1-b4ca-6a8d550d8da2
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Import a Custom Master Page and Site Page with an Image
   This walkthrough demonstrates how to import a SharePoint custom master page and a site page that has an image into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.  

@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
 caps.latest.revision: 35
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Managing VSPackages
 In most cases you don't need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c846a440-1d91-4d48-b8f1-82e902ae152b
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine3::LoadSymbols
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.  

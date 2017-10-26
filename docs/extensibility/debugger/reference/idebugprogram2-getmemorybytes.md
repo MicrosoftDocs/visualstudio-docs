@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1cdedb47-caf8-468e-aaf4-163f16afb403
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::GetMemoryBytes
 Retrieves the memory bytes occupied by the program.  

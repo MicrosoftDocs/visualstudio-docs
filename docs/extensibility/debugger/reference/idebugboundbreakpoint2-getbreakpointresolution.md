@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBoundBreakpoint2::GetBreakpointResolution
 Gets the breakpoint resolution that describes this breakpoint.  

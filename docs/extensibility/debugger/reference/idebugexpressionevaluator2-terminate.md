@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator2::Terminate
 Stops and cleans up the expression evaluator.  

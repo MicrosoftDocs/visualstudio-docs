@@ -16,7 +16,7 @@ ms.assetid: 5d92e394-649b-49f2-bce7-12dd9d666d85
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSegment::get_length
 Retrieves the number of bytes in the segment.  

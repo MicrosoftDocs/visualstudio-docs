@@ -16,7 +16,7 @@ ms.assetid: 139a35bd-faeb-4878-be72-394dedfbb18f
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_symTag
 Retrieves the symbol type classifier.  

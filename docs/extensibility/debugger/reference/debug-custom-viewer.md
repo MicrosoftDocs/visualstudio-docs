@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUG_CUSTOM_VIEWER
 A structure that identifies a custom viewer or type visualizer.  

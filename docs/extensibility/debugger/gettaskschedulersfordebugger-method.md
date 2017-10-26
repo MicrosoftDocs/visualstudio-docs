@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 58aa236a-5ab8-4695-b303-89dffdbcd946
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetTaskSchedulersForDebugger Method
 Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8b491b00-f9e7-45b3-9115-fe58c3464289
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcessEx2::AddImplicitProgramNodes
 This method adds a program node for each debug engine (DE) specified.  

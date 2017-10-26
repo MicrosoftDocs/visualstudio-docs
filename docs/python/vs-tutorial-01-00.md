@@ -13,7 +13,7 @@ ms.assetid: 33b93cb7-d826-4206-894a-fcfab32e7e76
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Install Python support in Visual Studio

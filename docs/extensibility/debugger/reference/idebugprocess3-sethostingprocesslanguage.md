@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::SetHostingProcessLanguage
 This method sets the language that the process will be hosted under. This language can then be used by the debug engine (DE) to load the appropriate expression evaluator.  

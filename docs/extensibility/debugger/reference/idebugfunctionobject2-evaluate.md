@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: bc54c652-904b-4297-a6db-faa329684881
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionObject2::Evaluate
 Calls the function and returns the resulting value as an object.  

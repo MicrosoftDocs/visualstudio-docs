@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2006cb2b-1dfa-4a2d-8e3e-db2ce0302e0d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2::GetMemoryBytes
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.  

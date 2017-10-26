@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::Terminate
 Terminates the program.  

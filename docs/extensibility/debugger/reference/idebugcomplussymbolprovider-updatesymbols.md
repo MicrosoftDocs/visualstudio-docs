@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
 Updates the debug symbols in memory with those from the specified data stream.  

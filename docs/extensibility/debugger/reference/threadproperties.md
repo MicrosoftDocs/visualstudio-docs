@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # THREADPROPERTIES
 Describes the properties of a thread.  

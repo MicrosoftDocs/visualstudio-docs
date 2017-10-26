@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 Loads debug symbols given the data stream.  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Enumerating Locals
 > [!IMPORTANT]

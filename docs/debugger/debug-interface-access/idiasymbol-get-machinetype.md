@@ -16,7 +16,7 @@ ms.assetid: 30870b10-6f32-45c6-a0d7-020dea707710
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_machineType
 Retrieves the type of the target CPU.  

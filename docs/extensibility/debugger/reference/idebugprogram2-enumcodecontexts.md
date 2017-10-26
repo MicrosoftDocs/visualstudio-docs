@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::EnumCodeContexts
 Retrieves a list of the code contexts for a given position in a source file.  

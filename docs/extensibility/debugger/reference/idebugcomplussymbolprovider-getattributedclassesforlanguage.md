@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: e5b1b8b6-52a6-4ade-9a36-644abfa9f4b2
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.  

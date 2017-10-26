@@ -23,7 +23,7 @@ ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DebugBreak and __debugbreak
 You can call the DebugBreak Win32 function or the [__debugbreak](/cpp/intrinsics/debugbreak) intrinsic at any point in your code. `DebugBreak` and `__debugbreak` have the same effect as setting a breakpoint at that location.  

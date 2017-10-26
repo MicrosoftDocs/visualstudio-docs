@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayField
 This interface describes an array symbol or type.  

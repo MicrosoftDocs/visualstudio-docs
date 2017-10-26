@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d0861e0c-b819-490c-9604-5e6d08ac291a
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Process Debug Manager
 The process debug manager (PDM) is a component of Visual Studio that manages programs and processes, making them available to the session debug manager and the debug engines.  

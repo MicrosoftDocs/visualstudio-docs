@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionContext2
 This interface represents a context for expression evaluation  

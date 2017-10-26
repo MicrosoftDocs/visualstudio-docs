@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e22d3723-b4d4-4524-8a2f-3adb55bbd273
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MODULE_INFO_FLAGS
 Specifies the state of symbols for a module.  

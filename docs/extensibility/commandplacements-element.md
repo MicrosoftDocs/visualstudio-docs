@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CommandPlacements Element
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  

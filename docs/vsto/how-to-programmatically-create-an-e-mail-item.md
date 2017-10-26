@@ -19,7 +19,7 @@ ms.assetid: f8fe3f2b-36ba-4f71-abdb-d30ce7fecb30
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Create an E-Mail Item
   This example creates an e-mail message in Microsoft Office Outlook.  
