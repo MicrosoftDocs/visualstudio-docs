@@ -11,11 +11,11 @@
 ## [Deploy an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 ## [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment)
 ## [Deploy ASP.NET to IIS](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
-## Deploy a Web app using Web Deploy
+## Deploy a Web app using the Publish tool (Web Deploy)
 ## [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps)
 ## [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
 ## [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications)
-## Deply a managed app using ClickOnce
+## [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 # How-to guides
 ## [ClickOnce Security and Deployment](clickonce-security-and-deployment.md)
 ### [Choosing a ClickOnce Deployment Strategy](choosing-a-clickonce-deployment-strategy.md)
