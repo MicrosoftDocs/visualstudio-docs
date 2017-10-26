@@ -1,4 +1,22 @@
-# [Deploying Applications, Services, and Components](deploying-applications-services-and-components.md)
+# Deployment documentation
+# Overview
+## [Deploying Applications, Services, and Components](deploying-applications-services-and-components.md)
+# Quickstarts
+## Deploy a managed app to a local folder
+## Deploy an ASP.NET Core app to a local folder
+## Deploy a native app to a local folder
+# Tutorials
+## [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)
+## [Deploy a .NET Core Application with CLI tools](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-cli)
+## [Deploy an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
+## [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment)
+## [Deploy ASP.NET to IIS](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
+## Deploy a Web app using Web Deploy
+## [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps)
+## [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
+## [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications)
+## Deply a managed app using ClickOnce
+# How-to guides
 ## [ClickOnce Security and Deployment](clickonce-security-and-deployment.md)
 ### [Choosing a ClickOnce Deployment Strategy](choosing-a-clickonce-deployment-strategy.md)
 ### [ClickOnce Cache Overview](clickonce-cache-overview.md)
@@ -66,27 +84,6 @@
 #### [Security, Versioning, and Manifest Issues in ClickOnce Deployments](security-versioning-and-manifest-issues-in-clickonce-deployments.md)
 #### [Troubleshooting Specific Errors in ClickOnce Deployments](troubleshooting-specific-errors-in-clickonce-deployments.md)
 #### [Debugging ClickOnce Applications That Use System.Deployment.Application](debugging-clickonce-applications-that-use-system-deployment-application.md)
-### [ClickOnce Reference](clickonce-reference.md)
-#### [ClickOnce Application Manifest](clickonce-application-manifest.md)
-##### [<assembly> Element (ClickOnce Application)](assembly-element-clickonce-application.md)
-##### [<assemblyIdentity> Element (ClickOnce Application)](assemblyidentity-element-clickonce-application.md)
-##### [<trustInfo> Element (ClickOnce Application)](trustinfo-element-clickonce-application.md)
-##### [<entryPoint> Element (ClickOnce Application)](entrypoint-element-clickonce-application.md)
-##### [<dependency> Element (ClickOnce Application)](dependency-element-clickonce-application.md)
-##### [<file> Element (ClickOnce Application)](file-element-clickonce-application.md)
-##### [<fileAssociation> Element (ClickOnce Application)](fileassociation-element-clickonce-application.md)
-#### [ClickOnce Deployment Manifest](clickonce-deployment-manifest.md)
-##### [<assembly> Element (ClickOnce Deployment)](assembly-element-clickonce-deployment.md)
-##### [<assemblyIdentity> Element (ClickOnce Deployment)](assemblyidentity-element-clickonce-deployment.md)
-##### [<description> Element (ClickOnce Deployment)](description-element-clickonce-deployment.md)
-##### [<deployment> Element (ClickOnce Deployment)](deployment-element-clickonce-deployment.md)
-##### [<compatibleFrameworks> Element (ClickOnce Deployment)](compatibleframeworks-element-clickonce-deployment.md)
-##### [<dependency> Element (ClickOnce Deployment)](dependency-element-clickonce-deployment.md)
-##### [<publisherIdentity> Element (ClickOnce Deployment)](publisheridentity-element-clickonce-deployment.md)
-##### [<Signature> Element (ClickOnce Deployment)](signature-element-clickonce-deployment.md)
-##### [<customErrorReporting> Element (ClickOnce Deployment)](customerrorreporting-element-clickonce-deployment.md)
-#### [ClickOnce Unmanaged API Reference](clickonce-unmanaged-api-reference.md)
-### [ClickOnce Deployment Samples and Walkthroughs](clickonce-deployment-samples-and-walkthroughs.md)
 ## [Application Deployment Prerequisites](application-deployment-prerequisites.md)
 ### [Deploying Prerequisites for 64-bit Applications](deploying-prerequisites-for-64-bit-applications.md)
 ### [Creating Bootstrapper Packages](creating-bootstrapper-packages.md)
@@ -103,3 +100,26 @@
 #### [<PackageFiles> Element (Bootstrapper)](packagefiles-element-bootstrapper.md)
 #### [<Strings> Element (Bootstrapper)](strings-element-bootstrapper.md)
 #### [<Schedules> Element (Bootstrapper)](schedules-element-bootstrapper.md)
+## [ClickOnce Deployment Samples and Walkthroughs](clickonce-deployment-samples-and-walkthroughs.md)
+# Reference
+## [ClickOnce Reference](clickonce-reference.md)
+### [ClickOnce Application Manifest](clickonce-application-manifest.md)
+#### [<assembly> Element (ClickOnce Application)](assembly-element-clickonce-application.md)
+#### [<assemblyIdentity> Element (ClickOnce Application)](assemblyidentity-element-clickonce-application.md)
+#### [<trustInfo> Element (ClickOnce Application)](trustinfo-element-clickonce-application.md)
+#### [<entryPoint> Element (ClickOnce Application)](entrypoint-element-clickonce-application.md)
+#### [<dependency> Element (ClickOnce Application)](dependency-element-clickonce-application.md)
+#### [<file> Element (ClickOnce Application)](file-element-clickonce-application.md)
+#### [<fileAssociation> Element (ClickOnce Application)](fileassociation-element-clickonce-application.md)
+### [ClickOnce Deployment Manifest](clickonce-deployment-manifest.md)
+#### [<assembly> Element (ClickOnce Deployment)](assembly-element-clickonce-deployment.md)
+#### [<assemblyIdentity> Element (ClickOnce Deployment)](assemblyidentity-element-clickonce-deployment.md)
+#### [<description> Element (ClickOnce Deployment)](description-element-clickonce-deployment.md)
+#### [<deployment> Element (ClickOnce Deployment)](deployment-element-clickonce-deployment.md)
+#### [<compatibleFrameworks> Element (ClickOnce Deployment)](compatibleframeworks-element-clickonce-deployment.md)
+#### [<dependency> Element (ClickOnce Deployment)](dependency-element-clickonce-deployment.md)
+#### [<publisherIdentity> Element (ClickOnce Deployment)](publisheridentity-element-clickonce-deployment.md)
+#### [<Signature> Element (ClickOnce Deployment)](signature-element-clickonce-deployment.md)
+#### [<customErrorReporting> Element (ClickOnce Deployment)](customerrorreporting-element-clickonce-deployment.md)
+### [ClickOnce Unmanaged API Reference](clickonce-unmanaged-api-reference.md)
+
