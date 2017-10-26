@@ -32,7 +32,7 @@ The O/R Designer supports only the .NET Framework Data Provider for SQL Server (
    The action is stopped. Create or use a data connection that uses the .NET Framework Provider for SQL Server.  
   
 ## See Also  
-[LINQ to SQL Tools in Visual Studio](../linq-to-sql-tools-in-visual-studio2.md)   
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
 [.NET Framework Data Providers](/dotnet/framework/data/adonet/data-providers)   
-[Accessing data in Visual Studio](../accessing-data-in-visual-studio.md)
+[Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
