@@ -16,6 +16,7 @@ helpviewer_keywords:
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
 caps.latest.revision: 8
 ms.author: "dagriffe"
+author: "dgriffen"
 manager: "ghogen"
 ---
 # VSIX Language Pack Schema 2.0 Reference
