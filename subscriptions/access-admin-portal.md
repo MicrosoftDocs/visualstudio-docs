@@ -30,3 +30,23 @@ If you need information about how to set up an administrator, please watch [this
 
 If you have already been set up as an administrator, then you can go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
 
+## For Cloud subscriptions
+When you purchase Visual Studio Cloud subscriptions, you are automatically set up as an administrator for those subscriptions.  If you've already purchased them, you can manage them at [https://manage.visualstudio.com](https://manage.visualstudio.com).
+
+To purchase Visual Studio Cloud subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscriptions).
+
+
+## For Programs subscriptions
+
+### Microsoft BizSpark
+If you are a Microsoft BizSpark administrator, you can manage your organization's Visual Studio subscriptions in **My BizSpark** by signing in at:  [https://bizspark.microsoft.com/my/index](https://bizspark.microsoft.com/my/index).
+
+Find more information about the Microsoft BizSpark program, [https://bizspark.microsoft.com](https://bizspark.microsoft.com).
+
+
+### Imagine
+If you are a Microsoft Imagine administrator, please visit [https://imagine.microsoft.com/institutions/index](https://imagine.microsoft.com/institutions/index).
+
+
+### Partner
+For more information about the Microsoft Partner Network (MPN) Visual Studio subscriptions, take a look at this article for resources to help you purchase and manage them: [https://support.microsoft.com/help/4013871/microsoft-partner-network-mpn-visual-studio-subscriptions](https://support.microsoft.com/help/4013871/microsoft-partner-network-mpn-visual-studio-subscriptions).
