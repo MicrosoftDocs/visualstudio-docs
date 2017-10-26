@@ -32,9 +32,15 @@ Resource files are files that are part of an application but are not compiled, f
   
  For more information about resources in .NET desktop apps, see [Resources in Desktop Apps](/dotnet/framework/resources/index). For more information about resources in C++ desktop apps, see [Working with Resource Files](/cpp/windows/working-with-resource-files).  
   
- Windows Store apps use a different resource model from desktop apps. For information about resources in Windows Store apps, see [Defining Application Resources](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx) on the Windows Dev Center website.  
+ Microsoft Store apps use a different resource model from desktop apps. For information about resources in Microsoft Store apps, see [Defining Application Resources](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx) on the Windows Dev Center website.  
   
 ## Working with Resources  
- In a managed code project, open the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or type ALT + ENTER in the **Solution Explorer** window). Select the **Resources** tab. You can add a .resx file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.  
+In a managed code project, open the project properties window. You can open the properties window by either:
+
+- right-clicking the project node in **Solution Explorer** and selecting **Properties**
+- typing **project properties** in the **Quick Launch** window
+- choosing **Alt + Enter** in the **Solution Explorer** window
+
+Select the **Resources** tab. You can add a .resx file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.  
   
- To find out how to work with resources in C++ projects, see [How to: Create a Resource](/cpp/windows/how-to-create-a-resource).
+To find out how to work with resources in C++ projects, see [How to: Create a Resource](/cpp/windows/how-to-create-a-resource).
