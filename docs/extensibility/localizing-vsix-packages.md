@@ -1,7 +1,7 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,13 +29,13 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 
 ```text
 .
-├───MyExtension.dll
-├───Extension.vsixmanifest
-├───[Content_Types].xml
-├───es-ES
-│   └───Extension.vsixlangpack
-└───fr-FR
-    └───Extension.vsixlangpack
+├── MyExtension.dll
+├── Extension.vsixmanifest
+├── [Content_Types].xml
+├── es-ES
+│   └── Extension.vsixlangpack
+└── fr-FR
+    └── Extension.vsixlangpack
 ```
 
 > [!NOTE]
@@ -99,6 +99,8 @@ The following example shows relevant portions of an Extension.vsixmanifest file,
 
 ## See Also
 
- [VSIX LanguagePack Schema 2.0 Reference](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)
- [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
- [VSIX Project Template](../extensibility/vsix-project-template.md)
+|Title|Description|
+|-----------|-----------------|
+|[VSIX LanguagePack Schema 2.0 Reference](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)|A VSIX language pack describes the localization information of a .vsix deployment file.|
+|[Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
+|[Localizing Menu Commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|

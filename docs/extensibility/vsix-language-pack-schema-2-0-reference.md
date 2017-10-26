@@ -1,7 +1,7 @@
 ---
 title: "VSIX Language Pack Schema 2.0 Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/26/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "localize vsix"
   - "localize package"
   - "localize extension"
-ms.assetid: be48e639-340a-468a-9f5f-68911bfef93c
+ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
 caps.latest.revision: 8
-ms.author: "gregvanl"
+ms.author: "dagriffe"
 manager: "ghogen"
 ---
 # VSIX Language Pack Schema 2.0 Reference
