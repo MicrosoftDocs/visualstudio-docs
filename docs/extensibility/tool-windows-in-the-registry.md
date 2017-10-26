@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c4bb8add-7148-49e4-a377-01d059fd5524
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Tool Windows in the Registry
 VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] as tool window providers. Tool windows created by using the Visual Studio Package template do this by default. Tool window providers have system registry keys that specify visibility attributes, such as default tool window size and location, the GUID of the window that serves as the tool window pane, and docking style.  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
 Retrieves the metadata import information.  

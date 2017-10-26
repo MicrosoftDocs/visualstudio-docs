@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # GUIDs and Constants in the Visual Studio SDK
 The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  

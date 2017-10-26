@@ -12,7 +12,7 @@ ms.assetid: 7261e01d-3c72-46ce-9fb3-5f33b2ddb901
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # ToggleHUD
 Toggles the graphics diagnostics *HUD* (Head-Up Display) overlay on or off.  

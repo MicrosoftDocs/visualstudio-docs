@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMessageEvent2
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.  

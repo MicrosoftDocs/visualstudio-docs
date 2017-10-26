@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DISASSEMBLY_STREAM_SCOPE
 Specifies the scope of the disassembly stream.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder3::GetExceptionObjectAndType
 This method retrieves the exception associated with an object, if any.  

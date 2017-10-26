@@ -18,7 +18,7 @@ ms.assetid: 47915fbb-103f-4333-b157-1da16bf49660
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1816: Call GC.SuppressFinalize correctly
 |||  

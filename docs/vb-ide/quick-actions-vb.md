@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: 03eb6929-ac58-42ce-8a5f-47cf3f1d7c08
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - csharp
   - VB

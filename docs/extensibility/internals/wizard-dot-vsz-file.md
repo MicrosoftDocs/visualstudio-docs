@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Wizard (.Vsz) File
 The integrated development environment (IDE) uses .vsz files to start wizards. These .vsz files contain information that the IDE uses to determine which wizard to call and what information to pass to the wizard.  

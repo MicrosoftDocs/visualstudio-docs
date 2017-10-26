@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.  

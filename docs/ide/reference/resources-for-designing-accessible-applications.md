@@ -17,7 +17,7 @@ ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 caps.latest.revision: 15
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Resources for Designing Accessible Applications
 Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).  

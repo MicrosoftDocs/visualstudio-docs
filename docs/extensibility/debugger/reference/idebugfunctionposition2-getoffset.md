@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 60943782-aec7-4be2-b222-1984ed53a543
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionPosition2::GetOffset
 Retrieves the position of the function in the source document.  

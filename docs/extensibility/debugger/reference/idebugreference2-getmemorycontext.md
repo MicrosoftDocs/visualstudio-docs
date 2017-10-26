@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2::GetMemoryContext
 Gets a memory context of a reference. Reserved for future use.  

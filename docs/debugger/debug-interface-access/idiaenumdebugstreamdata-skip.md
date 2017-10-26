@@ -16,7 +16,7 @@ ms.assetid: 106ae1d3-a379-4077-babf-2665e697b0c4
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumDebugStreamData::Skip
 Skips a specified number of records in an enumerated sequence.  

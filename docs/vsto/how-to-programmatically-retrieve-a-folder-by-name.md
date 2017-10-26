@@ -17,7 +17,7 @@ ms.assetid: 7f819525-b431-4b57-9a7f-3a6454c74298
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Retrieve a Folder by Name
   This example gets a reference to a named custom folder and then displays the contents of the folder.  

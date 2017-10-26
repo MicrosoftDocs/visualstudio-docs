@@ -16,7 +16,7 @@ ms.assetid: 704c1cc0-5b84-4334-a02a-70f43aff39d5
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_noReturn
 Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/cpp/cpp/noreturn) attribute.  

@@ -18,7 +18,7 @@ ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1812: Avoid uninstantiated internal classes
 |||  

@@ -12,7 +12,7 @@ ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 caps.latest.revision: 29
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Step 6: Name Your Button Controls
 There's only one PictureBox on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one CheckBox, which is named **checkBox1**. Soon, you will write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you will know what it means when you see **pictureBox1** or **checkBox1** in your code.  

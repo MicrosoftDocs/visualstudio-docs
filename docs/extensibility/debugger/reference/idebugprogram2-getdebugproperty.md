@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::GetDebugProperty
 Gets the program's properties.  

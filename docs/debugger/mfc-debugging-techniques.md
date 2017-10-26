@@ -29,7 +29,7 @@ ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # MFC Debugging Techniques
 If you are debugging an MFC program, these debugging techniques may be useful.  

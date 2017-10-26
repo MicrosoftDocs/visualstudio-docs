@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 78f67d92-77f7-45cb-ad75-6e3346379cc3
 caps.latest.revision: 20
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command Handling
 Your editor can define new commands. Commands are typically displayed in a menu, on a tool bar, or in a context menu.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder3::GetEEService
 This method returns a requested service.  

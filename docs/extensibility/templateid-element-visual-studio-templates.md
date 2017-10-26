@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 6ca24b4e-0325-4a9e-855e-0cbbe7361d8f
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TemplateID Element (Visual Studio Templates)
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.  

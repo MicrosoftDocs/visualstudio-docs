@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 0b4abeac-2eaf-4b2e-a2d5-c9ec303bc869
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 Retrieves the name of the module currently being debugged.  

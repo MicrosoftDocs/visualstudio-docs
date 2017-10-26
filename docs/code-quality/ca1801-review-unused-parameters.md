@@ -19,7 +19,7 @@ ms.assetid: 5d73545c-e153-4b7c-a7b2-be6bf5aca5be
 caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1801: Review unused parameters
 |||  

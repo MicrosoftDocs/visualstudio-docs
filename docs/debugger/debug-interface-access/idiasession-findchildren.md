@@ -16,7 +16,7 @@ ms.assetid: 5d19046f-f668-4aa9-8788-95cda9a98997
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findChildren
 Retrieves all children of a specified parent identifier that match the name and symbol type.  

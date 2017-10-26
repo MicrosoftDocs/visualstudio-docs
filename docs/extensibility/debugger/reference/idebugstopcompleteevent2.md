@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ff3e89f4-61bb-489d-901c-447260100218
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStopCompleteEvent2
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.  

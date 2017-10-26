@@ -13,7 +13,7 @@ ms.assetid: b723b343-dffb-457e-9af7-ee48c1451e30
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Remote Debugging Troubleshooter for Python and Azure

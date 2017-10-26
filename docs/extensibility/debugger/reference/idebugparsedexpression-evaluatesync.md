@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugParsedExpression::EvaluateSync
 This method evaluates the parsed expression and optionally casts the result to another data type.  

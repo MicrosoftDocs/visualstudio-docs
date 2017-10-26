@@ -18,7 +18,7 @@ ms.assetid: 2e4fea6d-758d-4150-8744-6102a1d58c1c
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CvIsEnabled Function
 Determines whether any session has enabled the specified ETW provider.  

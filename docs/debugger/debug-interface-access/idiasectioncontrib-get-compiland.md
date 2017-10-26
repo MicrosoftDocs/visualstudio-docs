@@ -16,7 +16,7 @@ ms.assetid: c0496f6f-f8f2-435f-8674-6c32db6c5934
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_compiland
 Retrieves a reference to the compiland symbol that contributed this section.  

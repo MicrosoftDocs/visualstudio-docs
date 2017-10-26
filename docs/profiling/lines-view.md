@@ -18,7 +18,7 @@ ms.assetid: 71ec0781-6031-4e17-af09-f50226018437
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Lines View
 The Lines view is available only for profiler data that was collected by using the sampling method. The view is not available for data that was collected by using instrumentation.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5dd2643e-c20a-470e-9024-2a423eb39856
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineLaunch2::LaunchSuspended
 This method launches a process by means of the debug engine (DE).  

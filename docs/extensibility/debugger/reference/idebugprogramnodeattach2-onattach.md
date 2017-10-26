@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
 caps.latest.revision: 3
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramNodeAttach2::OnAttach
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.  

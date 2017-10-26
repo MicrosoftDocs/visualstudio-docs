@@ -12,7 +12,7 @@ ms.assetid:
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-ide-general"
 ---

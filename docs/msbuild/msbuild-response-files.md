@@ -22,7 +22,7 @@ ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
 caps.latest.revision: 3
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MSBuild Response Files
 Response (.rsp) files are text files that contain MSBuild.exe command line switches. Each switch can be on a separate line or all switches can be on one line. Comment lines are prefaced with a **#** symbol. The **@** switch is used to pass another response file to MSBuild.exe.  

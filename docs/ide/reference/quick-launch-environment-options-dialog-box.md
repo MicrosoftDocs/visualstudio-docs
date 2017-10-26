@@ -18,7 +18,7 @@ ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Quick Launch, Environment, Options Dialog Box
 You can use **Quick Launch** to quickly search and execute actions for IDE assets such as options, templates, menus. You can't use **Quick Launch** to search for code and symbols. The **Quick Launch** search box is located at the top-right corner of the menu bar and is accessible by choosing the Ctrl+Q keys. Simply enter your search string in the box. To search for strings that contain @, use '@@'.  

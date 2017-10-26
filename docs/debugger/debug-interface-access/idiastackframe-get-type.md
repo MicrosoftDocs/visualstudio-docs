@@ -16,7 +16,7 @@ ms.assetid: 99daa97b-5c05-455d-bd1e-800762ccf7c9
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackFrame::get_type
 Retrieves the frame type.  

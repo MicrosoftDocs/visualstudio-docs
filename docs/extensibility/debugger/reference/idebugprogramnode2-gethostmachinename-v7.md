@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: a992f2c9-f68b-4146-8cc2-027753bf7ce6
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramNode2::GetHostMachineName_V7
 DEPRECATED. DO NOT USE.  

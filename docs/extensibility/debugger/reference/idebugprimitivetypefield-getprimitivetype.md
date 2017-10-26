@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.  

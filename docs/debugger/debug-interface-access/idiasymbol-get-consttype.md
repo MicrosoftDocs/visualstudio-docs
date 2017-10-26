@@ -16,7 +16,7 @@ ms.assetid: cb43605e-fa39-4f83-b047-f936a8019d03
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_constType
 Retrieves a flag that specifies whether the user-defined data type is constant.  

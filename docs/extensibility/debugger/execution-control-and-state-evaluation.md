@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 55adde38-1622-4b51-83cb-ce1b04c1ca7a
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Execution Control and State Evaluation
 Debugging an application requires implementing such execution control features as stepping into functions, stopping at breakpoints, and continuing execution. Visual Studio debugging bases its execution control on events sent between debugger components.  

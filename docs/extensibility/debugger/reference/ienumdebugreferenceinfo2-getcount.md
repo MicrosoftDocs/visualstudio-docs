@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e62706e0-d2cd-48fb-8fdf-444463c651ab
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugReferenceInfo2::GetCount
 Returns the number of elements in the enumeration.  

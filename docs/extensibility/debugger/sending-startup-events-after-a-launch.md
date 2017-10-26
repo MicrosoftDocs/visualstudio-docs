@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Sending Startup Events After a Launch
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.  

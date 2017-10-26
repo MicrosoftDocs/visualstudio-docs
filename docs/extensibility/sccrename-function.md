@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccRename Function
 This function renames a file in the source control system.  

@@ -13,7 +13,7 @@ ms.assetid: 03effe56-d6f6-461d-9005-e43c15bf537c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Editing Python code

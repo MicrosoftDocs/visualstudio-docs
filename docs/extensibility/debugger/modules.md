@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: c4cf2809-dbdb-4e75-9273-b3d3d77b67d0
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modules
 In terms of the debugger architecture, a **module**:  

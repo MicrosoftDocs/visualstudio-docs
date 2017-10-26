@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetMetricString
 Retrieves the value string of the metric given its name.  

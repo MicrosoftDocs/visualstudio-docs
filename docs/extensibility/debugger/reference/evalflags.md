@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EVALFLAGS
 Specifies flags that control expression evaluation.  

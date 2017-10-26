@@ -12,7 +12,7 @@ ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Use the XML Schema Designer with XML Literals
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.  

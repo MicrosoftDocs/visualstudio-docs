@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 caps.latest.revision: 24
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Determining Whether to Implement a Source Control VSPackage
 This section elaborates the choices of source control plug-ins and source control VSPackages for extending source control solutions and gives broad guidelines about choosing a suitable integration path.  

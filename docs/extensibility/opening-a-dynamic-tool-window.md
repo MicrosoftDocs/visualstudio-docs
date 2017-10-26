@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
 caps.latest.revision: 21
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Opening a Dynamic Tool Window
 Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. Tool windows like these are called *dynamic* or *auto-visible*.  

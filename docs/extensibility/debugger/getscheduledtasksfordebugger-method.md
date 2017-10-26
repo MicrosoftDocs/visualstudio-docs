@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetScheduledTasksForDebugger Method
 Retrieves an array of all scheduled tasks.  

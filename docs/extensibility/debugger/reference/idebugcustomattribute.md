@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c5ae41e9-00b9-4cca-871d-b8de9ef390d1
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomAttribute
 This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute.  

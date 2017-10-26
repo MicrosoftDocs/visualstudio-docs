@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
 Unloads the debug symbols for the specified module from memory.  

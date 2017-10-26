@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c6d46c5d-ade8-4dc8-9862-8fc7876658c4
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentContext2::GetDocument
 Gets the document that contains this document context.  

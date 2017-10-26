@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
 caps.latest.revision: 23
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending the Status Bar
 You can use the Visual Studio status bar at the bottom of the IDE to display information.  

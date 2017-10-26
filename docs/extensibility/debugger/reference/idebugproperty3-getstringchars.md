@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty3::GetStringChars
 Retrieves the string associated with this property and stores it in a user-supplied buffer.  

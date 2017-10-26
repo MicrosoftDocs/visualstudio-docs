@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PROVIDER_PROCESS_DATA
 This structure provides information about processes running on a machine.  

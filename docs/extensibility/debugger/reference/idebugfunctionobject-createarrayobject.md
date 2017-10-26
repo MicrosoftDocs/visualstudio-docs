@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionObject::CreateArrayObject
 Creates an array object. This array can contain either primitive or object instance values.  

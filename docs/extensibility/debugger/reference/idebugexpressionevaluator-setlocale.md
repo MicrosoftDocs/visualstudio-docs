@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator::SetLocale
 This method sets the language to use to create printable results.  

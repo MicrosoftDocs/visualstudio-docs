@@ -17,7 +17,7 @@ ms.assetid: 91e77ad4-4da3-419d-85fb-9036f0e5c330
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Targeting a Specific .NET Framework Version
 In Visual Studio, you can specify the version or profile of the .NET Framework that you want your project to target. For an application to run on another computer, the Framework version that the application targets must be compatible with the Framework version that is installed on the computer.  

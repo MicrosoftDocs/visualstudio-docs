@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Attaching and Detaching to a Program
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.  

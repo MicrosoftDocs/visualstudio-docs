@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a835f65b-91b0-48ad-8485-04534c814b1b
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionPosition2
 This interface represents an abstract position of a function in a source document.  

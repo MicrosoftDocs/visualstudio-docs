@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: b32c12f9-b34d-43bd-a1b9-61af6cf8e51b
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBoundBreakpoint2::SetPassCount
 Sets or changes the pass count associated with this bound breakpoint.  

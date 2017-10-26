@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
 author: "corob"
 ms.author: "mblome"
-manager: "ghogen"
+manager: ghogen
 f1_keywords:
   - VC.Project.VCNMakeTool.BuildCommandLine
   - VC.Project.VCNMakeTool.ReBuildCommandLine

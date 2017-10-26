@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineProgram2::Stop
 Stops all threads running in this program.  

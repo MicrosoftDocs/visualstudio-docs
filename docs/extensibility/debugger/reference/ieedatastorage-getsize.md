@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEDataStorage::GetSize
 Returns the number of bytes contained in this object.  

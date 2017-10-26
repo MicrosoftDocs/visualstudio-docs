@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:  

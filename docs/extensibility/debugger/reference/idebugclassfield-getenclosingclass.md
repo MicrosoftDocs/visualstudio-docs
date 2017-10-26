@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugClassField::GetEnclosingClass
 Gets the class that encloses this class.  

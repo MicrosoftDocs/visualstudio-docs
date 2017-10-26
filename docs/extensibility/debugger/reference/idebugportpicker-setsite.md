@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortPicker::SetSite
 Sets the service provider.  

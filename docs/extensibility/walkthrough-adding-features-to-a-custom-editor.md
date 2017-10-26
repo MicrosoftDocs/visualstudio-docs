@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 caps.latest.revision: 38
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Adding Features to a Custom Editor
 After you create a custom editor, you can add more features to it.  

@@ -18,7 +18,7 @@ ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Immediate Window
 The **Immediate** window is used to debug and evaluate expressions, execute statements, print variable values, and so forth. It allows you to enter expressions to be evaluated or executed by the development language during debugging. To display the **Immediate** window, open a project for editing, then choose **Windows** from the **Debug** menu and select **Immediate**, or press CTRL+ALT+I.  

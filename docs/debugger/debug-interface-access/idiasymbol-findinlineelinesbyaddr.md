@@ -14,7 +14,7 @@ ms.assetid: f1ab47ca-c851-48ea-9c12-47fb80b31102
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findInlineeLinesByAddr
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified address range.  

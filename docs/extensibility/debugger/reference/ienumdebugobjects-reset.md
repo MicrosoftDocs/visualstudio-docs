@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4a245e47-cc39-4177-b83d-083ea0e3190f
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugObjects::Reset
 This method resets the enumeration to the first element.  

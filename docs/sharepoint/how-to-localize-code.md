@@ -20,7 +20,7 @@ ms.assetid: 0e852052-5ad4-4517-81cf-8865ec304441
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Localize Code
   Unlocalized code uses hard-coded string values. To localize code strings, replace them with calls to <xref:System.Web.HttpContext.GetGlobalResourceObject%2A>, which is a method that references localized resources.  

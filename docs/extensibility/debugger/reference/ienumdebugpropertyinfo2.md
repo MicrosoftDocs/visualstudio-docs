@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: fdea8262-40b8-473e-88ba-639e4c4648e6
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPropertyInfo2
 This interface enumerates [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structures.  

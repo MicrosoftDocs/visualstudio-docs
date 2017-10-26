@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a1961ef3-d69d-4022-b8c9-b9cfb9811345
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayField::GetNumberOfElements
 Gets the number of elements in the array.  

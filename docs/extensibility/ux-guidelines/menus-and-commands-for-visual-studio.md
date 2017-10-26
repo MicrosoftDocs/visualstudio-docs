@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Menus and Commands for Visual Studio
 ## Command usage  

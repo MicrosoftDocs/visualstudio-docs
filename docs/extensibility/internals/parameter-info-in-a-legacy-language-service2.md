@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
 caps.latest.revision: 23
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Parameter Info in a Legacy Language Service
 IntelliSense Parameter Info is a tooltip that displays the signature of a method when the user types the parameter list start character (typically an open parenthesis) for the method parameter list. As each parameter is entered and the parameter separator (typically a comma) is typed, the tooltip is updated to show the next parameter in bold.  

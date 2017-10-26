@@ -18,7 +18,7 @@ ms.assetid: eab780ea-3b1f-4d32-b15a-5d48da2df46b
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1007: Use generics where appropriate
 |||  

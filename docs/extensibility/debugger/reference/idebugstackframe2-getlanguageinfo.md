@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetLanguageInfo
 Gets the language associated with this stack frame.  

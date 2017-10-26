@@ -12,7 +12,7 @@ ms.assetid: 7bce69e2-407c-4342-8516-641586968928
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Collecting .NET Framework Memory Data for Stand-Alone Applications by Using the Profiler Command Line
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET client (stand-alone) application by using the sampling method from the command line.  

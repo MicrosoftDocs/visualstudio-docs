@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty2::GetDerivedMostProperty
 Gets the derived-most property of a property.  

@@ -13,7 +13,7 @@ ms.assetid: 2192dc77-b5da-4332-b753-fa20f03f81e0
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Debugging Your Python Code

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
 caps.latest.revision: 20
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.  

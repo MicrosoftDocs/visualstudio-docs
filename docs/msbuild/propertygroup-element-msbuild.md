@@ -22,7 +22,7 @@ ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
 caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # PropertyGroup Element (MSBuild)
 Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be a child of a `PropertyGroup` element.  

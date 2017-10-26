@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 Loads debug symbols using the specified callback method.  

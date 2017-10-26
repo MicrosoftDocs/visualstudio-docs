@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Calling Debugger Events
 Events in debugging sessions occur in a specific order.  

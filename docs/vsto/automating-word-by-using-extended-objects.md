@@ -25,7 +25,7 @@ ms.assetid: 3911c7cd-7092-468d-bd82-2fdec53a2d9b
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Automating Word by Using Extended Objects
   When you develop Word solutions in Visual Studio, you can use *host items* and *host control*s in your solutions. These are objects that extend certain commonly used objects in the Word object model (that is, the object model that is exposed by the primary interop assembly for Word), such as the <xref:Microsoft.Office.Interop.Word.Document> and <xref:Microsoft.Office.Interop.Word.ContentControl> objects. The extended objects behave like the Word objects they are based on, but they add additional events and data binding capabilities to the objects.  

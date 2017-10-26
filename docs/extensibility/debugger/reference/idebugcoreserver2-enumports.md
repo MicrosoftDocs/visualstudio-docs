@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer2::EnumPorts
 Retrieves a list of all available ports.  

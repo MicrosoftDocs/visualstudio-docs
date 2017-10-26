@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2daded43-e427-4fbb-a19e-f3834e3723af
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReturnValueEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) after stepping out of or over a function.  

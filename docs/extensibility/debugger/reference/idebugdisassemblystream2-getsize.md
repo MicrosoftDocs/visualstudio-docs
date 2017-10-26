@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDisassemblyStream2::GetSize
 Gets the size in instructions of this disassembly stream.  

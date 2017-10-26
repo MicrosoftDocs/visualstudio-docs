@@ -17,7 +17,7 @@ ms.assetid: df588235-12a1-4798-bc56-ef81843de17f
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectItem Element
   Represents a SharePoint project item. This is the required root element of the .spdata file.  

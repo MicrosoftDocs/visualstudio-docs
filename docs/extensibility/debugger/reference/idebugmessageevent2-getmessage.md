@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMessageEvent2::GetMessage
 Gets the message to be displayed.  

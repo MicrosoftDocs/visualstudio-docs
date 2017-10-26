@@ -19,7 +19,7 @@ ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
 caps.latest.revision: 22
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MSBuild Reference
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reference information.  

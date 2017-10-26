@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer3::GetServerName
 Retrieves the name of the server.  

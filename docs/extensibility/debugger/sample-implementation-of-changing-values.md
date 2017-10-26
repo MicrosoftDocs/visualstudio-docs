@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Sample Implementation of Changing Values
 > [!IMPORTANT]

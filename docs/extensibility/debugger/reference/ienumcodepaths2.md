@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumCodePaths2
 This interface represents a list of code paths.  

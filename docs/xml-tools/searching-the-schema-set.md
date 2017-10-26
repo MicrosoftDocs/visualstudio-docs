@@ -12,7 +12,7 @@ ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Searching the Schema Set
 The XML Schema Explorer enables you to search the schema set in the following ways:  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7a27d56f-20d4-4e5c-af7b-7307d3aff0a1
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetContextFromAddress
 This method maps a debug address into a document context.  

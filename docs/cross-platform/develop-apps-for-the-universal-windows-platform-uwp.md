@@ -12,7 +12,7 @@ ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
 caps.latest.revision: 48
 author: "stevehoag"
 ms.author: "shoag"
-manager: "ghogen"
+manager: ghogen
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device, from phones to desktops. Create these Universal Windows apps with Visual Studio and the Universal Windows App development tools.  

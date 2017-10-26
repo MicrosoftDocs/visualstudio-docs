@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2364b876-5be1-4bab-9b8f-3b6121da35c6
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayField::GetRank
 Gets the rank or number of dimensions of the array.  

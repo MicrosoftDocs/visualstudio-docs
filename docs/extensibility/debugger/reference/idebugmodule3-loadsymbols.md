@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7548c8c1-cbc6-48aa-a845-19058d4a85bb
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugModule3::LoadSymbols
 Loads the symbols for the current module.  

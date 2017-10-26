@@ -17,7 +17,7 @@ ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
 caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create Inheritance Between Types (Class Designer)
 To create an inheritance relationship between two types on a class diagram using Class Designer, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.  

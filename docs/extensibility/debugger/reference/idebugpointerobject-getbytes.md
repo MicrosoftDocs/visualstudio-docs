@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPointerObject::GetBytes
 Gets the value pointed to as a series of consecutive bytes.  

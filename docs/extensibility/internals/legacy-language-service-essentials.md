@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
 caps.latest.revision: 21
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Legacy Language Service Essentials
 You must provide a language service to integrate a programming language into Visual Studio. This topic explains the features available in legacy language services.  

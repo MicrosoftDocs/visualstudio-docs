@@ -15,7 +15,7 @@ ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Spy++ Reference
 See the sections listed below for descriptions of each Spy++ menu and dialog box:  

@@ -16,7 +16,7 @@ ms.assetid: bb6baa40-fece-4a4c-aba9-f4b41f418f8b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_notPaged
 Retrieves a flag that indicates whether the section cannot be paged out of memory.  

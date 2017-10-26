@@ -16,7 +16,7 @@ ms.assetid: 546121bc-67e0-4a5a-a456-12bd78fd6de2
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # marker_series::write_message Method
 Writes a message to the Concurrency Visualizer trace file.  

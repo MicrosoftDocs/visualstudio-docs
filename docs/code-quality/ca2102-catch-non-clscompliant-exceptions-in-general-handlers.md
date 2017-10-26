@@ -17,7 +17,7 @@ ms.assetid: bf2df68f-d386-4379-ad9e-930a2c2e930d
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2102: Catch non-CLSCompliant exceptions in general handlers
 |||  

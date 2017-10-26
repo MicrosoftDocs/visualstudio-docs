@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PROVIDER_FLAGS
 Specifies desired properties to be obtained from a program provider.  

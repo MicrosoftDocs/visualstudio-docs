@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCanStopEvent2::GetReason
 Gets the reason why the debug engine (DE) wants to stop.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpression2::EvaluateAsync
 This method evaluates the expression asynchronously.  

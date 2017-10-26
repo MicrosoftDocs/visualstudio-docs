@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDynamicField
 This interface represents a type of a variable.  

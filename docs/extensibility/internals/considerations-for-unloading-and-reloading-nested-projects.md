@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Considerations for Unloading and Reloading Nested Projects
 When you implement nested project types, you must perform additional steps when you unload and reload the projects. To correctly notify listeners to solution events, you must correctly raise the `OnBeforeUnloadProject` and `OnAfterLoadProject` events.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0bdb1152-4752-4464-ae7c-6d666dc293b7
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugErrorBreakpointResolution2::GetBreakpointType
 Gets the breakpoint type.  

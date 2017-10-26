@@ -12,7 +12,7 @@ ms.assetid: 7f33771b-f3c8-4c02-bef6-f581b623c303
 caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader
 |||  

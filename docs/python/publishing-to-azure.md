@@ -13,7 +13,7 @@ ms.assetid: 85031f91-3a65-463b-a678-1e69f1b843e6
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Publishing to Azure App Service

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
 Retrieves information about the viewer for this property type in order to instantiate that viewer.  

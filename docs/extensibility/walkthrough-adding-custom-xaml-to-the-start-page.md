@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9af4d5f9-1cfc-4221-aea7-c8cd3f7571a6
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Adding Custom XAML to the Start Page
 This walkthrough shows how to create a custom Visual Studio Start Page that contains a Web browser.  

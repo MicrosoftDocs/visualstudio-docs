@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a2f66ab5-53e5-4cdc-a1b5-3b8afa8ee646
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetName
 Gets the title, friendly name, or file name of the process.  

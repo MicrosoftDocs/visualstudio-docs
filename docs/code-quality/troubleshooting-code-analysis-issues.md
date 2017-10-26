@@ -12,7 +12,7 @@ ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting Code Analysis Issues
 This topic contains troubleshooting information for the following Visual Studio code analysis issues.  

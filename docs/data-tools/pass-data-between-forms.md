@@ -19,7 +19,7 @@ ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Pass data between forms

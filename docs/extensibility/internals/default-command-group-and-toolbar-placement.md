@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
 caps.latest.revision: 30
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Default Command, Group, and Toolbar Placement
 For product uniformity and stability, the UI displays certain command groups by default, and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.  

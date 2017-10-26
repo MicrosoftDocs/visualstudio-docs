@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Choosing the Installation Directory for a VSPackage
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9cee2a20-f8ac-4d9d-aef9-068fcd9f27a4
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modifying the Isolated Shell By Using the .Pkgundef File
 You can modify the .pkgundef file to exclude specified registry entries from an isolated shell application. Typically, the first time an application is started on a computer, the Visual Studio shell copies the existing Visual Studio registry entries to the root registry key for the application. This includes any references to currently installed VSPackages.  

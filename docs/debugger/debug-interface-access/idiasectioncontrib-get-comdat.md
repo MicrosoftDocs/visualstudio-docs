@@ -16,7 +16,7 @@ ms.assetid: 8bd9be8d-59ee-4698-b055-daba354b8dcc
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_comdat
 Retrieves a flag that indicates whether the section is a COMDAT record.  

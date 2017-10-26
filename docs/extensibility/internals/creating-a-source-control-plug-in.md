@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c7e69fa4-150e-469a-a6fc-fa1260bdbb07
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating a Source Control Plug-in
 The Visual Studio SDK provides resources that enable you to add source control capability to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.  

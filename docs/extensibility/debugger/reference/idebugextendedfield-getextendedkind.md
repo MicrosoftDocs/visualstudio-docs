@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 20dc1c13-3cc0-4bb4-9c99-fa85587c86c3
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExtendedField::GetExtendedKind
 Retrieves the specified extended field kind.  

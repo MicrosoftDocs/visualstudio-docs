@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.  

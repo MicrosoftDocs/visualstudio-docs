@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramNode2::GetProgramName
 Gets the name of the program.  

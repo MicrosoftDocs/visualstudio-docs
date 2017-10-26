@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
 Gets a list of all error breakpoints that resulted from this pending breakpoint.  

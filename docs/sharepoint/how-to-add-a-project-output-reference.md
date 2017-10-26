@@ -21,7 +21,7 @@ ms.assetid: 9d6bc25e-bf0d-4483-a691-2ad7a796fa80
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Project Output Reference
   To deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint, add them as a project output reference.  

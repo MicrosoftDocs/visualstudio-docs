@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 008a20c7-1b27-4013-bf96-d6a3f510da02
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Evaluation Context
 > [!IMPORTANT]

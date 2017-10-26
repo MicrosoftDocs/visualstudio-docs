@@ -15,7 +15,7 @@ ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessibility Features of the Help Viewer
 Microsoft is committed to making its products and services easier for everyone to use. This topic includes information about the features, products, and services that help make Microsoft Help Viewer 2.2 accessible for people with a wide range of abilities.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 24ba362e-5be1-481a-b071-e1ebd3cae6e8
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointBoundEvent2
 This interface tells the session debug manager (SDM) that a pending breakpoint has been successfully bound to a loaded program.  

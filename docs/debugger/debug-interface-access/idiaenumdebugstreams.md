@@ -16,7 +16,7 @@ ms.assetid: 611caf4f-7a5f-4aa4-b909-52feeb3cc752
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumDebugStreams
 Enumerates the various debug streams contained in the data source.  

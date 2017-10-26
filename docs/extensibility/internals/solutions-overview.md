@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Solutions Overview
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The solution (.sln) file is text-based and can be placed under source code control and shared between users. The solution user option (.suo) file is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.  

@@ -16,7 +16,7 @@ ms.assetid: d585e45b-7fe2-45fa-9cf3-7f2bc060f3c4
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: update existing templates
 After you create a template and compress the files into a .zip file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.  

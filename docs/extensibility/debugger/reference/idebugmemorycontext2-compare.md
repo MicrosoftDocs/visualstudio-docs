@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMemoryContext2::Compare
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.  

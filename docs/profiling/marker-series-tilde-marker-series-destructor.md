@@ -16,7 +16,7 @@ ms.assetid: 5632523b-fd58-40aa-8523-f29ee9083a65
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # marker_series::~marker_series Destructor
 Destroys marker_series object and releases all allocated resources.  

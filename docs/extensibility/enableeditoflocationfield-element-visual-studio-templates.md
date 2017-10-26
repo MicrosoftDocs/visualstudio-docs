@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EnableEditOfLocationField Element (Visual Studio Templates)
 Specifies if the user can edit the location field.  

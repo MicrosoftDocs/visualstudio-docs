@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EXCEPTION_STATE
 Specifies the exception state.  

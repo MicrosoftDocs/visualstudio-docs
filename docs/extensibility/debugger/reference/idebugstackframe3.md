@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame3
 This interface extends [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) to handle intercepted exceptions.  

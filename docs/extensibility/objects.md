@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 8a5ab7a4-3668-4f78-9c08-04c5af7090f2
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Objects
 The following reference information explains objects that are used to create an instance of the core text editor.  

@@ -22,7 +22,7 @@ ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetFrameworkPath Task
 Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d02a08e3-f34f-461e-8195-5157e154c481
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugFrameInfo2::GetCount
 Returns the number of elements in the enumeration.  

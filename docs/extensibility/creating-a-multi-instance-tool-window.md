@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating a Multi-Instance Tool Window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  

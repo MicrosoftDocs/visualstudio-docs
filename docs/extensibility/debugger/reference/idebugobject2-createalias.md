@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugObject2::CreateAlias
 Creates a unique ID or alias for this object or returns an existing alias.  

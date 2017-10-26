@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: 60e2a623-b56d-4591-93dc-e51429e4e1ba
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.rename"
 dev_langs: 

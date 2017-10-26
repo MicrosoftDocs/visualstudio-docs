@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugOutputStringEvent2::GetString
 Gets the displayable message.  

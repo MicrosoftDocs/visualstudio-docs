@@ -18,7 +18,7 @@ ms.assetid: f5ced4ec-22ca-463b-b963-d34ce631b486
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Hide Text in Documents
   You can hide text in a document by setting the <xref:Microsoft.Office.Interop.Word._Font.Hidden%2A> property of the <xref:Microsoft.Office.Interop.Word.Range.Font%2A> for a particular range of text.  

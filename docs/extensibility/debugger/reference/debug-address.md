@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUG_ADDRESS
 This structure represents an address.  

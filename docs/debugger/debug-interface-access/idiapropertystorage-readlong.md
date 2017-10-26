@@ -16,7 +16,7 @@ ms.assetid: 32054cbc-db55-4513-a1b4-de80e77aac8a
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaPropertyStorage::ReadLONG
 Reads `LONG` values in a property set.  

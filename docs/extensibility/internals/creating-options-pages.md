@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
 caps.latest.revision: 29
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Options Pages
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE by adding **Options** pages under the **Tools** menu.  

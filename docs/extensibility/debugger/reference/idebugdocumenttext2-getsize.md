@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentText2::GetSize
 Retrieves the size of the text at this position in the document.  
