@@ -1,8 +1,18 @@
-<!--
-# Prerequisites <a id="prerequisites"></a>
--->
+---
+title: AI Tools for Visual Studio
+description: Installation of AI Tools for Visual Studio
+keywords: ai, visual studio
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 10/26/2017
+ms.topic: article
+ms.technology: visual studio
+ms.devlang: multiple
+ms.service: multiple
+---
 
-## Overview <a id="overview"></a>
+# Installation <a id="installation"></a>
 
 We assume that you are working on a Windows 10 x64 machine.
 Other 64-bit OSes such as Windows 7/8.1 (both Professional and Enterprise editions), Server 2012 R2/2016 (both Standard and Datacenter editions) should work, but they are not fully tested.
