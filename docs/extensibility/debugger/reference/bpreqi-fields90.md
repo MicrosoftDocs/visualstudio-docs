@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "BPREQI_FIELDS90 enumeration"
 ms.assetid: bf6f7efc-39f2-46a2-906d-c3647bf89995
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

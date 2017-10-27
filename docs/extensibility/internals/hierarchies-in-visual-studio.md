@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDE, hierarchies"
 ms.assetid: 0a029a7c-79fd-4b54-bd63-bd0f21aa8d30
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

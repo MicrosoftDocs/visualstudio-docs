@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSPackages, solutions"
 ms.assetid: 78c6ac4b-6817-4bf3-ae2f-053e4ff96d17
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

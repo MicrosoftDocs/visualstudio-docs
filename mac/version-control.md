@@ -1,5 +1,5 @@
 ---
-title: Version Control
+title: Version Control | Microsoft Docs
 description: Using Git and Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns

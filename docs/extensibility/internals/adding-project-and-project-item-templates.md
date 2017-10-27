@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "project items [Visual Studio], adding"
 ms.assetid: 8c59217f-56e5-4540-a73b-cd10de189373
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

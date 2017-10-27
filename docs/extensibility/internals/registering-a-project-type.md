@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "registration, new project types"
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

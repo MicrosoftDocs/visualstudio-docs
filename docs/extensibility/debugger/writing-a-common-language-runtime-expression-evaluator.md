@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluators tutorial"
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugTypeFieldBuilder::CreatePointerToType"
 ms.assetid: 73966e8a-b643-43e0-9b4e-0aa4b402ebbe
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

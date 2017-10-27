@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "extensibility [Visual Studio], projects and solutions"
 ms.assetid: df976c76-27ec-4f00-ab6d-a26a745dc6c7
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

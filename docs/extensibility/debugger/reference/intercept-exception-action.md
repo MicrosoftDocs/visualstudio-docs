@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "INTERCEPT_EXCEPTION_ACTION enumeration"
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

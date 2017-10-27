@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "<SupportsLanguageDropDown> element [Visual Studio Templates]"
 ms.assetid: 641197d5-f724-4c06-bc47-2e22dad3fbfb
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "essentials, Source Control Integration"
 ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

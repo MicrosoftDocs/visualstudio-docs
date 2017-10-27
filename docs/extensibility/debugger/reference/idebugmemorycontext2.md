@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugMemoryContext2 interface"
 ms.assetid: 3a544c8b-11dc-46bb-8549-261e4ac5bbc4
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

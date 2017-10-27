@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDocumentText2::GetSize"
 ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

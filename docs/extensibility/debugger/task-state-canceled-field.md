@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "TASK_STATE_CANCELED field, Task class [.NET Framework debug engines]"
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

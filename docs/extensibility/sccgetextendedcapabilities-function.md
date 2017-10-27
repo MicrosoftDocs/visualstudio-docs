@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccGetExtendedCapabilities function"
 ms.assetid: 588c6a92-2147-4d8b-a357-96ca7da0a092
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

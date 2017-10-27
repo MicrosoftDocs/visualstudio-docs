@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, changing source control"
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

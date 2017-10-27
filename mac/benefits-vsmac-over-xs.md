@@ -1,5 +1,5 @@
 ---
-title: "Benefits of Visual Studio for Mac over Xamarin Studio"
+title: "Benefits of Visual Studio for Mac over Xamarin Studio | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

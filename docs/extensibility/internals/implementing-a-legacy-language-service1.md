@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "language services, managed"
 ms.assetid: df638f24-166d-4b80-be82-c9c39ca7a556
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider interface"
 ms.assetid: 5b98e908-fd15-49a6-9010-933c9b948085
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

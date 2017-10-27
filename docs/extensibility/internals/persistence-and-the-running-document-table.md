@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "running document table (RDT), architecture"
 ms.assetid: 27117eae-6c58-4189-a61a-1397a43b5ecf
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

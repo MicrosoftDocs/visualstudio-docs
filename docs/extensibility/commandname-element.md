@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandName"
 ms.assetid: a338b767-aa7e-4536-9908-e19a50ab60ac
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

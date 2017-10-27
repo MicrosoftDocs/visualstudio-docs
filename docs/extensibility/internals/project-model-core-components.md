@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "project models, services"
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

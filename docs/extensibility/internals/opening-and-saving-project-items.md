@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], file persistence"
 ms.assetid: f71898ad-335f-4c43-a177-4da87078afd1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

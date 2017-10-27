@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "vs:VSCommands"
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

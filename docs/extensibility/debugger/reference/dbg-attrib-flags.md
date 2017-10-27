@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "DBGPROP_ATTRIB_FLAGS enumerations"
 ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

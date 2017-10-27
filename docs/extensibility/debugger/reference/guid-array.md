@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "GUID_ARRAY structure"
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

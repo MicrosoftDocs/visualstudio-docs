@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugPropertyInfo2"
 ms.assetid: fdea8262-40b8-473e-88ba-639e4c4648e6
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

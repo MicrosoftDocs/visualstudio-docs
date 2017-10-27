@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "project subtypes, extended properties"
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
