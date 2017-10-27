@@ -10,7 +10,7 @@ ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 caps.latest.revision: 4
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
 ms.technology: 
   - "vs-acquisition"

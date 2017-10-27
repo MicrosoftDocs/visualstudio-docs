@@ -10,21 +10,7 @@ ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice

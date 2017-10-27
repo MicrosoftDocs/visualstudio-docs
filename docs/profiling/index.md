@@ -46,7 +46,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling.md#video">
+        <a href="../profiling/beginners-guide-to-performance-profiling.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

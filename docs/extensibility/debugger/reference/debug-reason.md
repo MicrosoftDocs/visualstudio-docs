@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # DEBUG_REASON
 Specifies why the process was launched for debugging.  

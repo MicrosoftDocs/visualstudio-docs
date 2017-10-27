@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "04/07/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -12,22 +12,7 @@ ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 caps.latest.revision: 10
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Getting Started with Visual Studio Tools for Unity
 In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.  

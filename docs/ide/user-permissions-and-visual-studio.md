@@ -17,21 +17,7 @@ ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # User Permissions and Visual Studio
 For reasons of security you should run Visual Studio as a normal user whenever possible.  

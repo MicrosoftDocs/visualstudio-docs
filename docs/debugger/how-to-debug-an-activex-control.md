@@ -28,21 +28,7 @@ ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Debug an ActiveX Control
 > [!NOTE]
@@ -72,5 +58,5 @@ translation.priority.ht:
  [ActiveX Controls](/cpp/mfc/activex-controls)   
  [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)   
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

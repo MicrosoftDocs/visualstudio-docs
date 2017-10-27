@@ -17,7 +17,7 @@ ms.assetid: 6152fe5b-6af1-465d-aee7-19e4fd4d04c1
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;appAddin&gt; Element (Office Development in Visual Studio)
   The `appAddin` element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.  

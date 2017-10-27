@@ -24,21 +24,7 @@ ms.assetid: 90d4e522-6391-4571-927d-b466a9766342
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Text Editor Options Dialog Box
 The editor options in the **Options** dialog box provide ways to customize the appearance and behavior of the editor.  

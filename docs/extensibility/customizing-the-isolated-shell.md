@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/customizing-the-isolated-shell
 title: "Customizing the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -13,21 +14,7 @@ helpviewer_keywords:
 ms.assetid: e0b7c3ae-210f-4f48-ac49-6a59e6034f5f
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Customizing the Isolated Shell
 You can customize your Visual Studio isolated shell application by changing different aspects of the Visual Studio user interface and by restricting the commands and features included in your specialized application.  

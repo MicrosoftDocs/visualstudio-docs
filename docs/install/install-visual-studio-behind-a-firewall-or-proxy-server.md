@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install Visual Studio behind a firewall or proxy server
 

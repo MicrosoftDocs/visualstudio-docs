@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: 939b6f9c-113b-471d-9f30-b03871af6285
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # BP_UNBOUND_REASON
 Gives the reason a breakpoint was unbound.  

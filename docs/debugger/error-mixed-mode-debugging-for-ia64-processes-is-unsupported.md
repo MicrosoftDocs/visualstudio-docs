@@ -19,21 +19,7 @@ ms.assetid: b60e9660-02da-4dea-9e6d-8cb64e996bdf
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: Mixed mode debugging for IA64 processes is unsupported
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not support debugging mixed native and managed code in an Itanium-based process.  

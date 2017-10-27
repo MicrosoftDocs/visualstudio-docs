@@ -13,21 +13,7 @@ helpviewer_keywords:
 ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Enabling a Program to Be Debugged
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.  

@@ -17,7 +17,7 @@ ms.assetid: e7c61749-fc73-412c-be30-4af5ff2a9fd2
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # SafeControl Element
   Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.  

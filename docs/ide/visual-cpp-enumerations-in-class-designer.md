@@ -14,22 +14,7 @@ ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Visual C++ Enumerations in Class Designer
 Class Designer supports C++ `enum` and scoped `enum class` types. Following is an example:  

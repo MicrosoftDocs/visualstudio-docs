@@ -14,21 +14,7 @@ helpviewer_keywords:
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
 Retrieves the number of value strings to display for the specified property or field.  

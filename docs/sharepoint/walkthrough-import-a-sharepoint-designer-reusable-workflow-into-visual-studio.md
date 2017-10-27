@@ -22,7 +22,7 @@ ms.assetid: a6550615-4433-4aba-8bdf-0fcbf8dbcf97
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.  

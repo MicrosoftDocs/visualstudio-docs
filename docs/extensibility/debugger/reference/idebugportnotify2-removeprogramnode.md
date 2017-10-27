@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPortNotify2::RemoveProgramNode
 Unregisters a program that can be debugged from the port it is running on.  

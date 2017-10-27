@@ -13,21 +13,6 @@ caps.latest.revision: 1
 author: "willbrown"
 ms.author: "willbrown"
 manager: "justinclareburt"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
-  
 ---
 # How to: Make Extensions Compatible with Visual Studio 2017 and Visual Studio 2015
 

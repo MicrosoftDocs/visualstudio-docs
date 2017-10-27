@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files
 title: "Substitution Strings Used in .Pkgdef and .Pkgundef Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -13,21 +14,7 @@ helpviewer_keywords:
 ms.assetid: b1755d63-d794-4fd7-864b-70a9684881c2
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Substitution Strings Used in .Pkgdef and .Pkgundef Files
 You can use the substitution strings listed below in the .pkgdef and .pkgundef files you define for your Visual Studio isolated shell application.  

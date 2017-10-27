@@ -17,22 +17,7 @@ ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Memory Usage without the Debugger
 You can use the **Memory Usage** tool without debugging to do the following  
@@ -214,8 +199,8 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
 ## See Also  
- [JavaScript Memory](../profiling/javascript-memory.md)
- [Profiling in Visual Studio](../profiling/index.md)
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [JavaScript Memory](../profiling/javascript-memory.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)  
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

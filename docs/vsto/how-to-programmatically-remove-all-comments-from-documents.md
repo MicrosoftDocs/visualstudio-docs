@@ -18,7 +18,7 @@ ms.assetid: 920de39a-3b6d-4682-bca6-f4b4dedda1ac
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Remove All Comments from Documents
   Use the DeleteAllComments method to remove all comments from a Microsoft Office Word document.  

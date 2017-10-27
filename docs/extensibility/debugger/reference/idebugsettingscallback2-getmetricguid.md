@@ -13,21 +13,7 @@ helpviewer_keywords:
 ms.assetid: 91092763-3362-4857-adf0-231bc1254206
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetMetricGuid
 Retrieves the unique identifier of a metric given its name.  

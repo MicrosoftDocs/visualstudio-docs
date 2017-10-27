@@ -14,7 +14,7 @@ description: The process amd steps to write a C++ extension or module for Python
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating a C++ extension for Python

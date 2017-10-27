@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/distributing-isolated-shell-applications
 title: "Distributing Isolated Shell Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -11,21 +12,7 @@ ms.topic: "article"
 ms.assetid: c503a985-d67a-4ef8-9123-7744a78f2f17
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Distributing Isolated Shell Applications
 You must install Visual Studio and the Visual Studio SDK in order to create an isolated shell application. To distribute the application to the machines of other users or customers, you must include a special redistributable package for the isolated shell.  

@@ -12,24 +12,10 @@ ms.devlang: csharp
 ms.assetid: 03eb6929-ac58-42ce-8a5f-47cf3f1d7c08
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - csharp
   - VB
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Quick Actions for Visual Basic

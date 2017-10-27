@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
 Determines the location of the specified managed assembly reference.  

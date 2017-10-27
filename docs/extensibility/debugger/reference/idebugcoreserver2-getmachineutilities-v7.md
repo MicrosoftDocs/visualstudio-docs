@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.  

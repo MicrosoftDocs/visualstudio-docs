@@ -14,7 +14,7 @@ ms.assetid: ea813046-1ae6-4c9f-9784-dc41494101b9
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Options Dialog Box, Projects and Solutions, Web Projects

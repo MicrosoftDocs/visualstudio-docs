@@ -12,22 +12,7 @@ ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
 caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # MSBuild Glossary
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  

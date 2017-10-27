@@ -13,21 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::EnumEEs
 Enumerates the available expression evaluators given the language and vendor identifiers.  

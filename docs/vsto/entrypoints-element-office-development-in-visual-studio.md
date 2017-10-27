@@ -17,7 +17,7 @@ ms.assetid: 991d7cbf-85e5-4307-a470-076b2f74d859
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;entryPoints&gt; Element (Office Development in Visual Studio)
   The `entryPoints` element of the `vstav3` namespace contains all the `entryPoint` elements associated with an Office solution.  

@@ -15,21 +15,7 @@ helpviewer_keywords:
 ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetDebugProperty
 Gets a description of the properties of a stack frame.  

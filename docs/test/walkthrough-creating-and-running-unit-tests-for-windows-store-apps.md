@@ -17,21 +17,6 @@ ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 21
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Walkthrough: Creating and Running Unit Tests for Windows Store Apps
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.  

@@ -9,21 +9,7 @@ ms.topic: "article"
 ms.assetid: 89ab5741-c664-4b45-8662-3dd01a5761be
 caps.latest.revision: 3
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Color Theming Tools
 The VS SDK provides several tools to help you create and manage color themes.  

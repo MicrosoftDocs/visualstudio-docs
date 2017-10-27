@@ -22,7 +22,7 @@ ms.assetid: 3c46bbb1-0a98-495c-9fd1-dc57a6aedc11
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Replaceable Parameters
   Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  

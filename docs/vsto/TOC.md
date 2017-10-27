@@ -150,6 +150,7 @@
 ##### [Troubleshooting Errors in Office Solutions](troubleshooting-errors-in-office-solutions.md)
 ##### [How to: Re-enable a VSTO Add-in That Has Been Disabled](how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)
 ##### [Additional Support for Errors in Office Solutions](additional-support-for-errors-in-office-solutions.md)
+#### [Development best practices for COM, VSTO, and VBA  add-ins in Office](development-best-practices-for-com-vsto-and-vba-add-ins-in-office.md)
 #### [Threading Support in Office](threading-support-in-office.md)
 #### [How to: Read from and Write to Document Properties](how-to-read-from-and-write-to-document-properties.md)
 #### [How to: Create and Modify Custom Document Properties](how-to-create-and-modify-custom-document-properties.md)
