@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugMethodField interface"
 ms.assetid: a7dc9030-fc98-4cf1-b943-37a4003300b6
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMethodField
 This interface describes a method.  

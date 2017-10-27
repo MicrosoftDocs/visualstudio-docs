@@ -19,7 +19,7 @@ ms.assetid: da7ec48f-92cb-4fa3-b3e2-447c238d17a8
 caps.latest.revision: 54
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add NamedRange Controls to Worksheets
   You can add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a Microsoft Office Excel worksheet at design time and at run time in document-level projects.  

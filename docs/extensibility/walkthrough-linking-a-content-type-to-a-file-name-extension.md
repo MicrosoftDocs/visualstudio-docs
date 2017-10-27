@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - link content type to file name extension"
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Linking a Content Type to a File Name Extension
 You can define your own content type and link a file name extension to it by using editor Managed Extensibility Framework (MEF) extensions. In some cases, the file name extension has already been defined by a language service; nevertheless, to use it with MEF you still must link it to a content type.  

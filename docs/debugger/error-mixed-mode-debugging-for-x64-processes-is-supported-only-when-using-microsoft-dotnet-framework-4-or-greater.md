@@ -19,7 +19,7 @@ ms.assetid: e4b0216c-7006-4832-883f-08e982ba8d3f
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
 To debug mixed native and managed code in a 64-bit process, you must have [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version 4. Mixed-mode debugging of 64-bit processes with [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] versions earlier than 4 is not supported.  

@@ -1,7 +1,7 @@
 ---
 title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 642dc47e-c265-44ea-a77d-3db14170a36f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Working with the Python Interactive Window

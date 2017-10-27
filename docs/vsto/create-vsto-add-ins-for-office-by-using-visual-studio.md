@@ -15,7 +15,7 @@ ms.assetid: eabd0377-cb94-4c1e-a99c-f13ff8df1a87
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Create VSTO Add-ins for Office by using Visual Studio
   You can use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office. These applications are also named *Office solutions*.  

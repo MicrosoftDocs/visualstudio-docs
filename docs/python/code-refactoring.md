@@ -1,7 +1,7 @@
 ---
 title: "Refactoring Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 76ebcb29-72d1-4958-9a63-8984c03d5c22
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Refactoring Python code

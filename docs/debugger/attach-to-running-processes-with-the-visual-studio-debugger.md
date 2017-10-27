@@ -31,7 +31,7 @@ ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Attach to Running Processes with the Visual Studio Debugger
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, click **Debug > Attach to Process** (or press **CTRL+ALT+P**) to open the **Attach to Process** dialog box.

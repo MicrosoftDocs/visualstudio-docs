@@ -16,7 +16,7 @@ ms.assetid: f5c08603-0b3e-4e81-acf1-1b95a6a83bed
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_nopad
 Retrieves a flag indicating whether the section should not be padded to the next memory boundary.  

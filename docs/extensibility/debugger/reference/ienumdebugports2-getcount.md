@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugPorts2::GetCount"
 ms.assetid: d714455c-e4fc-48dc-a6d4-7e8b5d7c1bce
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPorts2::GetCount
 Returns the number of elements in the enumeration.  

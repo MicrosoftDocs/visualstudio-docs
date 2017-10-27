@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: f76d717c-56ed-4373-8cf9-9bd1a053a4cd
 author: "corob"
 ms.author: "mblome"
-manager: "ghogen"
+manager: ghogen
 f1_keywords:
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory

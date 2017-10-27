@@ -1,7 +1,7 @@
 ---
 title: "Workspaces in R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/30/2017
+ms.date: 06/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: d610279c-d6c3-4084-939a-bf042f64d4dd
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Controlling where R code runs with workspaces

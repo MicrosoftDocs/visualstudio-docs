@@ -18,7 +18,7 @@ ms.assetid: 95b7b0c1-ecc9-405f-8456-5f9cfb866498
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Block
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.  

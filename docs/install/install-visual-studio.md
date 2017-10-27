@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.

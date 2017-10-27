@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty2::SetValueAsReference method"
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty2::SetValueAsReference
 Sets the value of this property to the value of the given reference.  

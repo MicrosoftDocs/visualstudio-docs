@@ -17,7 +17,7 @@ ms.assetid: e42a21a8-6423-4caf-b4dc-72b263e76019
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Run Windows Store apps on the local machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

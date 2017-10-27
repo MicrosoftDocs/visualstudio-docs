@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Debugging SDK, roadmap"
 ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Roadmap for Extending the Debugger
 This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].  

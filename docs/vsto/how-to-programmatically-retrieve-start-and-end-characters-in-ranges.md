@@ -20,7 +20,7 @@ ms.assetid: 734c630c-abc9-491d-94b6-429d1fc7a4cc
 caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Retrieve Start and End Characters in Ranges
   This example demonstrates how you can retrieve the character positions of the start and end positions of a range.  

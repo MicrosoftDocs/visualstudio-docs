@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "GetName method"
 ms.assetid: 8c212556-7d9e-4d68-b2a9-8212f50d0287
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMemoryContext2::GetName
 Retrieves the user-displayable name for this context.  

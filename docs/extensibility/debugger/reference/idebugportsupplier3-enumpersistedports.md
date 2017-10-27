@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugPortSupplier3::EnumPersistedPorts"
 ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
 This method retrieves an object that allows enumeration of the list of persisted ports.  

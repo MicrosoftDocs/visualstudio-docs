@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "BP_CONDITION structure"
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_CONDITION
 Describes the conditions under which a breakpoint fires.  

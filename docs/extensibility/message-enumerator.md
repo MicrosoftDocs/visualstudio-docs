@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "source control plug-ins, message enumeration"
 ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Message Enumerator
 The following flags are used for the `TEXTOUTPROC` function, which is a callback function that the IDE provides when it calls the [SccOpenProject](../extensibility/sccopenproject-function.md) (see [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) for details on the callback function).  

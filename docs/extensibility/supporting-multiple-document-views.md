@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - multiple document views"
 ms.assetid: c7ec2366-91c4-477f-908d-e89068bdb3e3
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Supporting Multiple Document Views
 You can provide more than one view of a document by creating separate document data and document view objects for your editor. Some cases in which an additional document view would be useful are:  

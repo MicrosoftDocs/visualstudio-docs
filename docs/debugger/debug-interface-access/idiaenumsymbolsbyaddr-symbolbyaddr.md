@@ -16,7 +16,7 @@ ms.assetid: 0b6f5a68-8402-4f29-8219-20576fda8166
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSymbolsByAddr::symbolByAddr
 Positions the enumerator by performing a lookup by image section number and offset.  

@@ -24,7 +24,7 @@ ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Profiling on HPC (High Performance Computing) Clusters
 You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../profiling/includes/vspreext_md.md)] or [!INCLUDE[vsUltExt](../profiling/includes/vsultext_md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  

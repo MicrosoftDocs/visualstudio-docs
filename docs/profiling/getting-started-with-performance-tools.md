@@ -15,7 +15,7 @@ ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started with Performance Tools
 This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  

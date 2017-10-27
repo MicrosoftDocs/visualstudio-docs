@@ -18,7 +18,7 @@ ms.assetid: 06c0ac87-a2c6-4cc1-87be-39be0cb81c71
 caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Open Workbooks
   The <xref:Microsoft.Office.Interop.Excel.Workbooks> collection in Microsoft Office Excel makes it possible to work with all open workbooks and to open workbooks.  

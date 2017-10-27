@@ -22,7 +22,7 @@ ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # GenerateTemporaryTargetAssembly Task
 The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  

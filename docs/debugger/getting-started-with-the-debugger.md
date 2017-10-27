@@ -14,7 +14,7 @@ ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Get started with the Visual Studio debugger
 

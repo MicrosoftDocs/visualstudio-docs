@@ -62,7 +62,7 @@ You can use file properties to indicate what actions the project system should p
  Displays the full path to the file as a read-only value. To change the path of the file, you can drag-and-drop the file in Solution Explorer.  
 
 ## Reference File Properties  
- This section describes properties common to files referenced from a [!INCLUDE[win8_app_js](../../ide/reference/includes/win8_app_js_md.md)]. When you select a reference such as a .winmd file, an SDK reference, a project-to-project reference, or an assembly reference in Solution Explorer, other properties may display in the Properties window, according to the file type.  
+ This section describes properties common to files referenced from a UWP app built using JavaScript. When you select a reference such as a .winmd file, an SDK reference, a project-to-project reference, or an assembly reference in Solution Explorer, other properties may display in the Properties window, according to the file type.  
 
 ### Culture  
  Displays the language associated with the reference.  

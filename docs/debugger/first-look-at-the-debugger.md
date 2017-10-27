@@ -12,7 +12,7 @@ ms.assetid: 0b3138c4-b840-446a-a15c-10ed8e2dd050
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Get Started with the Visual Studio Debugger
 The Visual Studio debugger is easy to use in any language. Here we'll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.

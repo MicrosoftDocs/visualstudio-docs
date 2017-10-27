@@ -16,7 +16,7 @@ ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaLoadCallback::NotifyOpenPDB
 Called when a candidate .pdb file is opened.  

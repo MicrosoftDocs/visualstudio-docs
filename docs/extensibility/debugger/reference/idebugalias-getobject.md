@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugAlias::GetObject method"
 ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAlias::GetObject
 Gets the object that this alias is for.  

@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "GetSymUnmanagedReader"
 ms.assetid: 8f1c1627-217f-4405-8141-7a2eb80310a5
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 Retrieves the symbol reader to be used by unmanaged code.  

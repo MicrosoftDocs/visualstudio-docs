@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "project types [Visual Studio SDK]"
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
 caps.latest.revision: 43
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Projects
 In Visual Studio, projects are the containers that developers use to organize source code files and other resources that appear in **Solution Explorer**. Typically, projects are files (for example, a .csproj file for a C# project) that store references to source code files and resources like bitmap files. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system in three main ways: *project types*, *project subtypes*, and *custom tools*.  

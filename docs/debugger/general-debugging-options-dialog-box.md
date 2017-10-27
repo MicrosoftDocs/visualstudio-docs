@@ -25,7 +25,7 @@ ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
 caps.latest.revision: 46
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # General, Debugging, Options Dialog Box
 The **Tools > Options > Debugging > General** page lets you set the following options:  

@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "<Assembly> element [Visual Studio templates]"
 ms.assetid: 9242f76a-1273-4b8a-8f26-6606f91829ef
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Assembly Element (Visual Studio Templates)
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.  

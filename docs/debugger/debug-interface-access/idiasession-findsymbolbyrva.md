@@ -16,7 +16,7 @@ ms.assetid: 14fb2903-b771-44d6-b0a8-44e0097c58ce
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findSymbolByRVA
 Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA).  

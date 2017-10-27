@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "FIELD_INFO structure"
 ms.assetid: bfafef6d-0c83-43d7-a779-1f0d24b166a1
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # FIELD_INFO
 This structure describes a local variable, parameter, or other field.  

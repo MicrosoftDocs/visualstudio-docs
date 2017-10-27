@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetRank method"
 ms.assetid: 9948551a-e334-4ff6-979c-08dab633b9b6
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayObject::GetRank
 Gets the rank of the array, that is, the number of dimensions.  

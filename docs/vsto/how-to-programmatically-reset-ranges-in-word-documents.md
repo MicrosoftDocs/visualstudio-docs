@@ -18,7 +18,7 @@ ms.assetid: 45ea9434-e548-4d24-938f-4f1ffa5010d0
 caps.latest.revision: 39
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Reset Ranges in Word Documents
   Use the <xref:Microsoft.Office.Interop.Word.Range.SetRange%2A> method to resize an existing range in a Microsoft Office Word document.  

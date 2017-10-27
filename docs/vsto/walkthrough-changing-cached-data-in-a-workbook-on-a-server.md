@@ -21,7 +21,7 @@ ms.assetid: 69e13de3-9286-40cc-8c4b-1727caf761bf
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Changing Cached Data in a Workbook on a Server
   This walkthrough demonstrates how to modify a dataset that is cached in a Microsoft Office Excel workbook without starting Excel by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class.  

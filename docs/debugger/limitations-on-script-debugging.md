@@ -21,7 +21,7 @@ ms.assetid: 280eead5-693c-47af-967f-dfe9d23f84db
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Limitations on Script Debugging
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  

@@ -1,7 +1,7 @@
 ---
 title: "Remote Workspaces with R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/30/2017
+ms.date: 06/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 5778c9cf-564d-47b0-8d64-e5dc09162479
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Setting up remote workspaces

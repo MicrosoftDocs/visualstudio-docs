@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio 2017 administrator guide
 

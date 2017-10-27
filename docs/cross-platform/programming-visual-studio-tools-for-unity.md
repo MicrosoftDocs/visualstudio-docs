@@ -12,7 +12,7 @@ ms.assetid: a5758cb0-e73b-45f5-8cae-c0eb40491026
 caps.latest.revision: 3
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Programming Visual Studio Tools for Unity
 In this section, you'll find examples for using the Visual Studio Tools for Unity API.  

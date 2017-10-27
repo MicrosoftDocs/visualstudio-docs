@@ -12,7 +12,7 @@ ms.assetid: ab573755-6370-48aa-853d-a7321c424c79
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # .NET Framework Usage Performance Rules
 Performance rules in the.NET Framework Usage category identify specific methods that can be optimized and also identify more general usage patterns, such as garbage collection and lock contention, that can be investigated for performance issues.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugThread2::Suspend"
 ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThread2::Suspend
 Suspends a thread.  

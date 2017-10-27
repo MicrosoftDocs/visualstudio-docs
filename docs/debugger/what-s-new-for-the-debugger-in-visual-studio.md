@@ -22,7 +22,7 @@ ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 caps.latest.revision: 81
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # What's New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 

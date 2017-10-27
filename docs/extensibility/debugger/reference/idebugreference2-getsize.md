@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugReference2::GetSize"
 ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2::GetSize
 Gets the size, in bytes, of the value of the reference. Reserved for future use.  

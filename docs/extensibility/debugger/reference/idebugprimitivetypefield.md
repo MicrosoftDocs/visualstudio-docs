@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugPrimitiveTypeField interface"
 ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPrimitiveTypeField
 Represents a primitive type enumeration value from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
