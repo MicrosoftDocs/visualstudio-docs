@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "LAUNCH_FLAGS enumeration"
 ms.assetid: f51aab02-d257-4302-bb79-b7d8ba9ac4e5
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

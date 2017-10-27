@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::GetCount"
 ms.assetid: d02a08e3-f34f-461e-8195-5157e154c481
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

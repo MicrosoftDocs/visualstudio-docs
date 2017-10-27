@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugClassField::GetEnclosingClass method"
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

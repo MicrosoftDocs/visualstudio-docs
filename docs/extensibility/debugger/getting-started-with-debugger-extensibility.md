@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Debugging SDK, getting started"
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

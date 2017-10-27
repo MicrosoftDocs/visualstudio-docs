@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProperty2::GetMemoryBytes"
 ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "project files, saving data"
 ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

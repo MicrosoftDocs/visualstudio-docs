@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "outlining, supporting"
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

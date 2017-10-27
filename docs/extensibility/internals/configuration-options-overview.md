@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "configuration options, about configuration options"
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

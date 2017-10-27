@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, VisibilityItem"
 ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

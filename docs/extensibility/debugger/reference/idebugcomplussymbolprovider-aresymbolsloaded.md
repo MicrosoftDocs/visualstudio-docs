@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::AreSymbolsLoaded"
 ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

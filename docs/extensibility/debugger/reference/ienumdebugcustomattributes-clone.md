@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::Clone"
 ms.assetid: e6825000-e195-42b4-b296-bfe1e533d79b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugMethodField::EnumArguments method"
 ms.assetid: 3ab55488-2437-4ff6-a9ae-78ea6d7b23a8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

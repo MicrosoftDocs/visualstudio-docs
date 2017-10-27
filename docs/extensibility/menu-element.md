@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Menus element (VSCT XML schema)"
 ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

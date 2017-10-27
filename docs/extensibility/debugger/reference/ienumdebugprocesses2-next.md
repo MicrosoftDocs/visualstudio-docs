@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::Next"
 ms.assetid: abef89eb-198b-49cd-a4c9-17bce6cac0e1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

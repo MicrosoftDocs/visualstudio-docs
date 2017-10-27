@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProgramNodeAttach2 interface"
 ms.assetid: 46b37ac9-a026-4ad3-997b-f19e2f8deb73
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

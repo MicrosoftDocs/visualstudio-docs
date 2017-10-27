@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], enumerations"
 ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

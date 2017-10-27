@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCoreServer3 interface"
 ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugEngine2::Attach"
 ms.assetid: 173dcbda-5019-4c5e-bca9-a071838b5739
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

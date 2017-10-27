@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "persistence, determining which editor opens a file"
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

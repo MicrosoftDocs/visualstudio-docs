@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with WPF | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/17/2017
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

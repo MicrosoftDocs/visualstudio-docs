@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], builds"
 ms.assetid: 120377f1-51aa-4445-b2f7-06ab7fc2b47f
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

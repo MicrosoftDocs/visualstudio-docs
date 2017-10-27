@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugExpression2::EvaluateSync"
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

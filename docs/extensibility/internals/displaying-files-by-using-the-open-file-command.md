@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "persistence, supporting Open File command"
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
