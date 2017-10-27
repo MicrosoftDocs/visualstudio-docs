@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Shell [Visual Studio], integrated mode features"
 ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

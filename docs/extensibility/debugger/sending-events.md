@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], sending events"
 ms.assetid: 064231e7-59b5-4437-8240-a23c0a7ec2a9
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

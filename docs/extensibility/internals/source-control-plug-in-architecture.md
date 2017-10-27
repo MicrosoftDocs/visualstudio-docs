@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "source control plug-ins, architecture"
 ms.assetid: 35351d4c-9414-409b-98fc-f2023e2426b7
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

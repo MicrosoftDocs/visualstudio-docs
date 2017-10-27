@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], elements"
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

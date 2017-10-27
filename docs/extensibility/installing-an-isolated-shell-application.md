@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Visual Studio shell, deploying shell-based applications"
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 40
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

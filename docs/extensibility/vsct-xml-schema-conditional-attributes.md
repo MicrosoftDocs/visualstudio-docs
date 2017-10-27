@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "conditional attributes (VSCT XML schema)"
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

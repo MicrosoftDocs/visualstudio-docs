@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProperty2::GetDerivedMostProperty"
 ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

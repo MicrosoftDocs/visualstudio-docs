@@ -1,7 +1,7 @@
 ---
 title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/27/2017
+ms.date: 09/27/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

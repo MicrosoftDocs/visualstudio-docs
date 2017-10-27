@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProgram2 interface"
 ms.assetid: 8d73df73-cfff-4b8b-b426-d6051edb1939
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

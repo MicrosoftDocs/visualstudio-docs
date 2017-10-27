@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "ReadAt method"
 ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

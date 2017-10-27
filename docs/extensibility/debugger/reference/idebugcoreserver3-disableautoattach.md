@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCoreServer3::DisableAutoAttach"
 ms.assetid: 9d860a20-c154-4df4-ba15-636e0fcd42bf
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

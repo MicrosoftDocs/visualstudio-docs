@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_RETVAL structure"
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

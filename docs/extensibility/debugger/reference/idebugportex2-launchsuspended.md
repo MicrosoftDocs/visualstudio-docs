@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPortEx2::LaunchSuspended"
 ms.assetid: 34b2cf99-2e52-4757-8969-1d12ac517ec0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

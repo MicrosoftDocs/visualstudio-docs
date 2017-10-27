@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2"
 ms.assetid: 24ba362e-5be1-481a-b071-e1ebd3cae6e8
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

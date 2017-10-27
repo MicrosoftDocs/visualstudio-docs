@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "registry, language services"
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

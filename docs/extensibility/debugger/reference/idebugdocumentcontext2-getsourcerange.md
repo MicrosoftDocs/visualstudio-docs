@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDocumentContext2::GetSourceRange"
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

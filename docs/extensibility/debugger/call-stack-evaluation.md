@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "call stacks, evaluation"
 ms.assetid: 373d6b49-0459-4cce-816e-05745a44fe49
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

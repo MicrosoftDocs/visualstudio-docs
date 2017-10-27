@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "views [Visual Studio SDK], VSTextBuffer object"
 ms.assetid: c5f94b45-7249-4e1f-a53d-1d2a1c61e0ef
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

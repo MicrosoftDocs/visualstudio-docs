@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::Next"
 ms.assetid: e36f856b-2619-42d1-b73e-4f2390fc22bd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

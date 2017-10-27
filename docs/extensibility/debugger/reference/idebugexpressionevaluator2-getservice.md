@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "GetService"
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

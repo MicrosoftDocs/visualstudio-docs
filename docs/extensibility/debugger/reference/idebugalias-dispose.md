@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugAlias::Dispose method"
 ms.assetid: e84909a4-d378-4f48-bf25-2c014c77c8e3
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

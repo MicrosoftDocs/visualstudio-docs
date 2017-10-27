@@ -27,5 +27,5 @@ For each item, you can set the **Preference** and **Severity** using the drop do
 
 Code Style settings for .NET can also be managed with an [EditorConfig](editorconfig-code-style-settings-reference.md) file.  In this case, the settings selected in the Options window will be the fallback settings, with the EditorConfig file taking precedence.  You can use this file to enforce and configure the coding style for your entire repo or team.
 
-# See Also
+## See Also
 * [Quick Actions](quick-actions.md)

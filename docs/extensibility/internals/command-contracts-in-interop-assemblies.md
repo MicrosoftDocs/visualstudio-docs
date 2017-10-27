@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "interop assemblies, command contracts"
 ms.assetid: 57245708-f539-42dc-8963-2754a48f0189
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

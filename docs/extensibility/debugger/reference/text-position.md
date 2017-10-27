@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "TEXT_POSITION structure"
 ms.assetid: 6dcec574-a852-49fa-8c2e-2e71cbb5e3c6
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

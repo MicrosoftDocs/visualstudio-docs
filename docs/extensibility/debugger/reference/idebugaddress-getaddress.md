@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugAddress:GetAddress method"
 ms.assetid: 2590387b-5d36-4116-9a75-737957b8898e
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

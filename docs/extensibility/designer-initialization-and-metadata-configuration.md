@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "designers [Visual Studio SDK], configuring metadata"
 ms.assetid: f7fe9a7e-f669-4642-ad5d-186b2e6e6ec9
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

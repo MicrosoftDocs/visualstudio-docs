@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], side-by-side"
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

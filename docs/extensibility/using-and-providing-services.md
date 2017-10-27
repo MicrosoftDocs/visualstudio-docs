@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "services"
 ms.assetid: c0b415ba-b825-4da0-9faf-8a60a663e302
 caps.latest.revision: 41
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

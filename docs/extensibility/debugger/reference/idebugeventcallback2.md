@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugEventCallback2"
 ms.assetid: 2c935ee0-2e22-4be0-a852-73736f33c8c9
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

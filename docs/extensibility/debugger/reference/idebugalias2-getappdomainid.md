@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugAlias2::GetAppDomainId"
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

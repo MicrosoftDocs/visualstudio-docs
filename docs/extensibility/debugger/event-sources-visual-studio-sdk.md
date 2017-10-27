@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], event sources"
 ms.assetid: b9ba0908-ae4c-4a64-aab1-bee453dd7a22
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

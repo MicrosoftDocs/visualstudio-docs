@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "CATIDs for VSPackages"
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

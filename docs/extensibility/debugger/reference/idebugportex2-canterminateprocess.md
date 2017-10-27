@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPortEx2::CanTerminateProcess"
 ms.assetid: 111f65d8-5a1a-42b3-9de3-dd9bb03a33fd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
