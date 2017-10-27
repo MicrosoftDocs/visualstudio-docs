@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortRequest"
 ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugFunctionObject2 interface"
 ms.assetid: 56b2fdff-146d-4138-a34c-59a9c65a3ddd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

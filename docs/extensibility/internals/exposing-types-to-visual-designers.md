@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "custom tools, exposing types to visual designers"
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

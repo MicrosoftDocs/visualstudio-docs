@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], new project generation"
 ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

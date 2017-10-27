@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - adapter behavior"
 ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

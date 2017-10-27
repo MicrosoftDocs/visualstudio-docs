@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

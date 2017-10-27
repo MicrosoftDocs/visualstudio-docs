@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::Virtualize method"
 ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

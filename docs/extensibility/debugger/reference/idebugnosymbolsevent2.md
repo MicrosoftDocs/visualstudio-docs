@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugNoSymbolsEvent2 interface"
 ms.assetid: f6fb6388-47f6-4385-9ad5-95d62f9a7592
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

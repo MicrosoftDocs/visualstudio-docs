@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text manager"
 ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

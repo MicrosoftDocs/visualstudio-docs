@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Cloning a repository of Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/25/2017
+ms.date: 09/25/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

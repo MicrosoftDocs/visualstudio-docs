@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, command code enumeration"
 ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

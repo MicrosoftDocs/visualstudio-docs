@@ -1,7 +1,7 @@
 ---
 title: Variable Explorer in R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/30/2017
+ms.date: 06/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

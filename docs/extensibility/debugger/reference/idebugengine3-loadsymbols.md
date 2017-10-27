@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugEngine3::LoadSymbols"
 ms.assetid: c846a440-1d91-4d48-b8f1-82e902ae152b
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugDocumentPositionOffset2::GetRange"
 ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

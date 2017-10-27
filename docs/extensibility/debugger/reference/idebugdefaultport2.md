@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDefaultPort2 interface"
 ms.assetid: 7b3452af-9a96-4c4c-9946-4339b72d3d7b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

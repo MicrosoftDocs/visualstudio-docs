@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], type visualizer"
 ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPortSupplier3 interface"
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

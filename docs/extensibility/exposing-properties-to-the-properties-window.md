@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Property Browser, exposing properties"
 ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
 caps.latest.revision: 36
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

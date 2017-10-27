@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "breakpoint bound events"
 ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

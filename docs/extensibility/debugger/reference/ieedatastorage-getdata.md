@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEEDataStorage::GetData"
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

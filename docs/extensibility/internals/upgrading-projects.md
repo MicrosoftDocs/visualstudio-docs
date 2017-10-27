@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "VSPackages, upgrade support"
 ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

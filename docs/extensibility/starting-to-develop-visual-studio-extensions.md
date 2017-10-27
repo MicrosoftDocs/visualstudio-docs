@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

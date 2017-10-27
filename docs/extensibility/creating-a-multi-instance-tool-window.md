@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

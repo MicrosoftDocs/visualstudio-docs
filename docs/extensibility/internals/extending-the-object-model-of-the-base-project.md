@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "automation object model"
 ms.assetid: 2f95cc53-dff6-476c-bacd-500fb0ff7725
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

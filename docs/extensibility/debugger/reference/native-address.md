@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "NATIVE_ADDRESS structure"
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

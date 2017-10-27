@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetBreakpoint"
 ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2"
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

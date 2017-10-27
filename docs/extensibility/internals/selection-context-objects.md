@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "selection, context objects"
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

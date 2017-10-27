@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, sharing items"
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

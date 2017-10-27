@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "programming languages, integrating into Visual Studio"
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

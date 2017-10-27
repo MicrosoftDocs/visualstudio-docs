@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - instantiating editor"
 ms.assetid: dda23b18-96ef-43c6-b0dc-06d15cbe5cbb
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

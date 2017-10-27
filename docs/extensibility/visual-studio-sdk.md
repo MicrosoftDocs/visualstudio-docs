@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Visual Studio, SDK"
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
 caps.latest.revision: 56
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

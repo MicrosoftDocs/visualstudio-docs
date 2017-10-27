@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "web site projects, registration"
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

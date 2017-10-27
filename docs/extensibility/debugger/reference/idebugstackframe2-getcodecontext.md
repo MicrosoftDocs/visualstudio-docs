@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetCodeContext"
 ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

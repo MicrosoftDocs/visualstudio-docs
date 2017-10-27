@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugObject::IsEqual method"
 ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
