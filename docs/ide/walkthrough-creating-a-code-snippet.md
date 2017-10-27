@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Code Snippet | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/11/2017"
+ms.date: "10/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -78,9 +78,9 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
      %USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets  
   
-6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file click **Insert Snippet** on the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.  
+6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets**, **Insert Snippet** from the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.  
   
-7.  You should see `Console.WriteLine("Hello, World!")` inserted in the code.  
+    `Console.WriteLine("Hello, World!")` is inserted in the code file.  
   
 ### Adding Description and Shortcut Fields  
   
@@ -113,11 +113,13 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 6.  Save the snippet file again.  
   
-7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice. The snippet code should be inserted.  
+7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice.
+
+    The snippet code is inserted.
   
 ### To Add References and Imports  
   
-1.  With Visual Basic snippets you can add a reference to a project by using the References element, and add an Imports declaration by using the Imports element. (Snippets in other languages do not have this feature.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the System.Windows.Forms.dll assembly to the project.  
+1.  You can add a reference to a project by using the References element, and add an Imports declaration by using the Imports element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the System.Windows.Forms.dll assembly to the project.  
   
 2.  Open your snippet.  
   

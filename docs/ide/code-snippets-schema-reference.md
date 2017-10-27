@@ -69,36 +69,39 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
   
  A text value is required. This text specifies the author of the code snippet.  
   
-##  <a name="code"></a> Code Element  
- Provides a container for short code blocks.  
+## <a name="code" /> Code Element  
+Provides a container for short code blocks.  
   
- Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents text selected in the document that is to be inserted into the snippet when it is invoked. For example, given a snippet that includes:  
+### Keywords
+Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents text selected in the document that is to be inserted into the snippet when it is invoked. For example, given a snippet that includes:  
   
 ```  
 $selected$ is a great color.  
 ```  
   
- If the word "Blue" is selected when the user invokes the template, the result is:  
+If the word "Blue" is selected when the user invokes the template, the result is:  
   
 ```  
 Blue is a great color.  
 ```  
   
- You may not use either `$end$` or `$selected$` more than once in a code snippet. If you do, only the second instance is recognized. Given a snippet that includes:  
+You may not use either `$end$` or `$selected$` more than once in a code snippet. If you do, only the second instance is recognized. Given a snippet that includes:  
   
 ```  
 $selected$ is a great color. I love $selected$.  
 ```  
   
- If the word "Blue" is selected, the result is:  
+If the word "Blue" is selected, the result is:  
   
 ```  
-is a great color. I love Blue.  
+ is a great color. I love Blue.  
 ```  
   
- The initial space appears because there is a space between `$selected$` and `is`.  
+The initial space appears because there is a space between `$selected$` and `is`.  
   
- All other `$` keywords are dynamically defined in the `<Literal>` and `<Object>` tags.  
+All other `$` keywords are dynamically defined in the `<Literal>` and `<Object>` tags.  
+
+Following is the structure of the Code element:
   
 ```xml  
 <Code Language="Language"  
@@ -106,37 +109,41 @@ is a great color. I love Blue.
     Delimiter="Delimiter">  
     Code to insert  
 </Code>  
-```  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Delimiter`|Optional attribute. Specifies the delimiter used to describe literals and objects in the code. By default, the delimiter is `$`.|  
-|`Kind`|Optional attribute. Specifies the kind of code that the snippet contains and the location at which a code snippet must be inserted for the code snippet to compile. The values available are `method body`, `method decl`, `type decl`, `file`, and `any`.|  
-|`Language`|Required attribute. Specifies the language of the code snippet.|  
-  
-|Kind Attribute Value|Description|  
-|--------------------------|-----------------|  
-|`method body`|Specifies that the code snippet is a method body, and therefore, must be inserted inside a method declaration.|  
-|`method decl`|Specifies that the code snippet is a method, and therefore, must be inserted inside a class or module.|  
-|`type decl`|Specifies that the code snippet is a type, and therefore, must be inserted inside a class, module, or namespace.|  
-|`file`|Specifies that the snippet is a full code file. These code snippets can be inserted alone into a code file, or inside a namespace.|  
-|`any`|Specifies that the snippet can be inserted anywhere. This tag is used for code snippets that are context-independent, such as comments.|  
-  
-|Language Attribute Value|Description|  
-|------------------------------|-----------------|  
-|`VB`|Identifies a Visual Basic code snippet.|  
-|`CSharp`|Identifies a C# code snippet.|  
-|`CPP`|Identifies a C++ code snippet.|  
-|`XML`|Identifies an XML code snippet.|  
-|`JavaScript`|Identifies a JavaScript code snippet.|  
-|`SQL`|Identifies a SQL code snippet.|  
-|`HTML`|Identifies an HTML code snippet.|  
-  
+```
+
+A text value is required. This text specifies the code, along with the literals and objects, that you can use when this code snippet is inserted into a code file.  
+
+### Attributes
+There are three attributes available for the Code element:
+
+- **Language** - _Required_ attribute that specifies the language of the code snippet. The value can be one of the following:
+
+   |Value|Description|  
+   |-----|-----------|  
+   |`VB`|Identifies a Visual Basic code snippet.|  
+   |`CSharp`|Identifies a C# code snippet.|  
+   |`CPP`|Identifies a C++ code snippet.|  
+   |`XML`|Identifies an XML code snippet.|  
+   |`JavaScript`|Identifies a JavaScript code snippet.|  
+   |`SQL`|Identifies a SQL code snippet.|  
+   |`HTML`|Identifies an HTML code snippet.|
+ 
+- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains, and the location at which a code snippet must be inserted for the code snippet to compile. The value can be one of the following:
+
+   |Value|Description|  
+   |-----|-----------|  
+   |`method body`|Specifies that the code snippet is a method body, and therefore, must be inserted inside a method declaration.|  
+   |`method decl`|Specifies that the code snippet is a method, and therefore, must be inserted inside a class or module.|  
+   |`type decl`|Specifies that the code snippet is a type, and therefore, must be inserted inside a class, module, or namespace.|  
+   |`file`|Specifies that the snippet is a full code file. These code snippets can be inserted alone into a code file, or inside a namespace.|  
+   |`any`|Specifies that the snippet can be inserted anywhere. This tag is used for code snippets that are context-independent, such as comments.|
+
+- **Delimiter** - _Optional_ attribute that specifies the delimiter used to describe literals and objects in the code. By default, the delimiter is `$`.
+
+### Parent element
 |Parent Element|Description|  
 |--------------------|-----------------|  
-|[Snippet Element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|  
-  
- A text value is required. This text specifies the code, along with the literals and objects, that you can use when this code snippet is inserted into a project.  
+|[Snippet Element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
   
 ##  <a name="codesnippet"></a> CodeSnippet Element  
  Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.  
