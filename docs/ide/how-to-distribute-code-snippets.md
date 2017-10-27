@@ -94,7 +94,7 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 4.  Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Insert Snippet**.  
 
-5.  You should see HelloWorldVB as one of the folders. Double-click it. You should see a pop-up **Insert Snippet: HellowWorldVB >** that has a dropdown **HelloWorldVB**. Click the HelloWorldVB dropdown. You should see the following line added to the file:  
+5.  You should see HelloWorldVB as one of the folders. Double-click it. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Click the HelloWorldVB dropdown. You should see the following line added to the file:  
 
     ```vb  
     Console.WriteLine("Hello, World!")  

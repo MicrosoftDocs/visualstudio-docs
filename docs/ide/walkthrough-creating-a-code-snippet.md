@@ -234,7 +234,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 8.  Open a Visual Basic project and add the snippet.  
   
-9. The code should look like the following, where the replacements `SQL connection string` and `dcConnection` are highlighted in light orange. Press TAB to navigate from one to the other.  
+9. The code should look like the following, where the replacements `SQL connection string` and `dcConnection` are highlighted in light orange. Choose **Tab** to navigate from one to the other.  
   
     ```vb  
     Dim daCustomers As SqlDataAdapter  
