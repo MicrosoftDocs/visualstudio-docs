@@ -34,9 +34,9 @@ When you add a .editorconfig file to a folder in your file hierarchy, its settin
 root = true
 ```
 
-EditorConfig files are read top to bottom, and the closest EditorConfig files are read last. Conventions from matching EditorConfig sections are applied in the order they were read, so conventions in closer files take precedence.
-
 ![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
+
+EditorConfig files are read top to bottom, and the closest EditorConfig files are read last. Conventions from matching EditorConfig sections are applied in the order they were read, so conventions in closer files take precedence.
 
 ## Supported settings
 The editor in Visual Studio supports the following from the core set of [EditorConfig properties](http://editorconfig.org/#supported-properties):  
