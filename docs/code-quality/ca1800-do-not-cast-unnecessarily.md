@@ -39,7 +39,7 @@ For complete analysis by this rule, the tested assembly must be built by using d
 ## Rule Description  
 Duplicate casts decrease performance, especially when the casts are performed in compact iteration statements. For explicit duplicate cast operations, store the result of the cast in a local variable and use the local variable instead of the duplicate cast operations.  
   
-If the C# `is` operator is used to test whether the cast will succeed before the actual cast is performed, consider testing the result of the `as` operator instead. This provides the same functionality without the implicit cast operation that is performed by the `is` operator. Or, in C# 7.0 and later, use the `is` operator with [pattern matching](/dotnet/csharp/language-reference/keywords/is#pattern-matching-with-is) to test the type conversion, and if it will succeed, cast the expression to a variable of that type.
+If the C# `is` operator is used to test whether the cast will succeed before the actual cast is performed, consider testing the result of the `as` operator instead. This provides the same functionality without the implicit cast operation that is performed by the `is` operator. Or, in C# 7.0 and later, use the `is` operator with [pattern matching](/dotnet/csharp/language-reference/keywords/is#pattern-matching-with-is) to check the type conversion and cast the expression to a variable of that type in one step.
   
 ## How to Fix Violations  
  To fix a violation of this rule, modify the method implementation to minimize the number of cast operations.  
@@ -48,7 +48,7 @@ If the C# `is` operator is used to test whether the cast will succeed before the
  It is safe to suppress a warning from this rule, or to ignore the rule completely, if performance is not a concern.  
   
 ## Examples  
- The following example shows a method that violates the rule by using the C# `is` operator. A second method satisfies the rule by replacing the `is` operator with a test against the result of the `as` operator, which decreases the number of cast operations per iteration from two to one. A third method also satisfies the rule by using `is` with pattern matching to create a variable of the desired type if the type conversion would succeed.
+ The following example shows a method that violates the rule by using the C# `is` operator. A second method satisfies the rule by replacing the `is` operator with a test against the result of the `as` operator, which decreases the number of cast operations per iteration from two to one. A third method also satisfies the rule by using `is` with [pattern matching](/dotnet/csharp/language-reference/keywords/is#pattern-matching-with-is) to create a variable of the desired type if the type conversion would succeed.
   
  [!code-csharp[FxCop.Performance.UnnecessaryCastsAsIs#1](../code-quality/codesnippet/CSharp/ca1800-do-not-cast-unnecessarily_1.cs)]  
 
