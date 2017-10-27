@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], isolated shell-based application"
 ms.assetid: 8b12e223-aae3-4c23-813d-ede1125f5f69
 caps.latest.revision: 54
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

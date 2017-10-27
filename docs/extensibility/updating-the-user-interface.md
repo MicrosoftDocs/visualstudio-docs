@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "commands, updating UI"
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
 caps.latest.revision: 41
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

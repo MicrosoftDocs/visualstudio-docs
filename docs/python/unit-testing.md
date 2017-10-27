@@ -1,7 +1,7 @@
 ---
 title: Unit Testing for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

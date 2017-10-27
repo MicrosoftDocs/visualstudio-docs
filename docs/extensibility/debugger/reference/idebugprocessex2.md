@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProcessEx2 interface"
 ms.assetid: 44e309ba-1d6f-499b-aa7e-9b34858a6d57
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

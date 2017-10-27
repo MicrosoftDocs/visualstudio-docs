@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "file extensions, specifying file handlers"
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

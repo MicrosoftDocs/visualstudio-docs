@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "visual studio package"
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
 caps.latest.revision: 56
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

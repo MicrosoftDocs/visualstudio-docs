@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "VSTemplate element [Visual Studio project templates]"
 ms.assetid: f8ac561b-3b0b-4246-9ec9-118d2447e9a9
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

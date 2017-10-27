@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Properties window, object list"
 ms.assetid: 6c159c9d-345d-4b23-8ddd-9839d338b62f
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

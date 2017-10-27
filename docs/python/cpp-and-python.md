@@ -1,7 +1,7 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/28/2017
+ms.date: 09/28/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

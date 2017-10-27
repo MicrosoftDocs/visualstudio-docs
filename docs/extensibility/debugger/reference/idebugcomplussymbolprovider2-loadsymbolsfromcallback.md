@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback"
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

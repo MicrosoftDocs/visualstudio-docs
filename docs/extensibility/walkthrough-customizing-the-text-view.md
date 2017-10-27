@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - customizing the view"
 ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

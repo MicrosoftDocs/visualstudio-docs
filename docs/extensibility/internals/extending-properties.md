@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Properties window, providing support"
 ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

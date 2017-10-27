@@ -1,5 +1,5 @@
 ---
-title: "Managing Project and Solution Properties"
+title: "Managing Project and Solution Properties | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -8,7 +8,7 @@ ms.assetid: 75247EB8-323A-4AFD-A451-6703A03D5D1F
 ---
 # Managing Project and Solution Properties
 
-## Project options 
+## Project options
 
 Project options are specific to each project and affect how the project is written, built, and run. This contrasts with Visual Studio for Mac Preferences, which set user-specific options, and with Solution options, which set options for the entire solution. Project options are stored in the project (.csproj) file, so that other developers can build and run the project correctly. This allows many developers to work on the same document without compromising the formatting of the file.
 

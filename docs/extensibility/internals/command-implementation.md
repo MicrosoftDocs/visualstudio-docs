@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "commands, implementation"
 ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

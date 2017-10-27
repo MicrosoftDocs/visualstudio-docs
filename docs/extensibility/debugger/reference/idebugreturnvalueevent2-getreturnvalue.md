@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugReturnValueEvent2::GetReturnValue"
 ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

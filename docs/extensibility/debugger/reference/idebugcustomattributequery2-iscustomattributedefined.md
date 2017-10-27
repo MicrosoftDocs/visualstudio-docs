@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::IsCustomAttributeDefined"
 ms.assetid: 5c07cc52-6d2d-42df-9d76-9f1f769641db
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

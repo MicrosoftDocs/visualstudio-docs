@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "New Project dialog box, extending"
 ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

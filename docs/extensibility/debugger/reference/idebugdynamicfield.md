@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDynamicField interface"
 ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

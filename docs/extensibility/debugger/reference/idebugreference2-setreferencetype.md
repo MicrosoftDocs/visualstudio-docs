@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugReference2::SetReferenceType"
 ms.assetid: 5854a172-ea82-481c-97d9-c7fc16923d44
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugModules2::Skip"
 ms.assetid: 61dc42f4-8544-45bb-8da0-fb22cccec7da
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

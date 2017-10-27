@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "libraries, symbol-browsing tools"
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

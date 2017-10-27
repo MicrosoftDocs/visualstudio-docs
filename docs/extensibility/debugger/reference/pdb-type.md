@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "PDB_TYPE structure"
 ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode, package GUIDs"
 ms.assetid: f56f0356-f3ac-48bc-9674-94259e29a4df
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

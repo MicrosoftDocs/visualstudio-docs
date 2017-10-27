@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugOutputStringEvent2 interface"
 ms.assetid: 86596fd1-cecc-4813-8add-dc3d70068f9b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

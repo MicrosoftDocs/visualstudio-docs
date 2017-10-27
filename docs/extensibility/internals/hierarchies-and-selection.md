@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "hierarchies"
 ms.assetid: cad0a859-7a84-4ce5-b0a9-f7f64e5f8ebb
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

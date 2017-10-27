@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode, .pkgundef file"
 ms.assetid: 9cee2a20-f8ac-4d9d-aef9-068fcd9f27a4
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

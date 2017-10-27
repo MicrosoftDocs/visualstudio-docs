@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugMethodField::GetGlobalContainer method"
 ms.assetid: 041ac5aa-0b80-4310-b9ae-b88f8e7e0e5f
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
