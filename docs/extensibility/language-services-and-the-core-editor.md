@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: e03199a6-ad5f-4075-bfba-8d36865112b7
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Language Services and the Core Editor
 Editors in Visual Studio are frequently associated with a language service. Among other things, a language service provides syntax coloring, statement completion, IntelliSense, and text formatting.  

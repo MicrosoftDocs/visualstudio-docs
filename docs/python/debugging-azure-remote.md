@@ -13,7 +13,7 @@ ms.assetid: d68fdc53-65a1-423c-8964-9815dbb3387e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Remotely Debugging Python Code on Azure

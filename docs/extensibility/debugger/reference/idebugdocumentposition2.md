@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0e838ced-12bb-4efc-b811-2b7c034b77b0
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentPosition2
 This interface represents an abstract position in a source file.  

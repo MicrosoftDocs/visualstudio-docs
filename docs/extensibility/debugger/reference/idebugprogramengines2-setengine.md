@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c05857ee-89cf-455e-8f1e-300cce4a2eab
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramEngines2::SetEngine
 Tells the program or program node which debug engine (DE) to use to debug this program.  

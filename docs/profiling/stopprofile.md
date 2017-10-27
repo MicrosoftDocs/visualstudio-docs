@@ -14,7 +14,7 @@ ms.assetid: be75b03c-7af5-4abe-a54a-6ee5479ad877
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # StopProfile
 The `StopProfile` function sets the counter to 0 (off) for the specified profiling level.  

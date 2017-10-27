@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 179c7c54-8446-462d-b099-e0f9cf06dc52
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
 Enumerates all breakpoints bound from this pending breakpoint.  

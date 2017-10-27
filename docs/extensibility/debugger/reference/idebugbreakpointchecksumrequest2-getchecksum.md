@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.  

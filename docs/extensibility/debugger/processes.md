@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Processes
 In terms of the debugger architecture, a **process**:  

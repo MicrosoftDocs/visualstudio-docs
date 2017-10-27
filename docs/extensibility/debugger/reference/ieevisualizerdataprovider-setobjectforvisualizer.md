@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 40dad2be-57ff-4f74-9d82-c48039c125c4
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 This method changes the object that the visualizer represents.  

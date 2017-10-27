@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 22c177a2-af81-4234-812b-f9b47be245a2
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugFields::Next
 This method returns the next set of elements from the enumeration.  

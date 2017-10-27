@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomViewer::DisplayValue
 This method is called to display the specified value.  

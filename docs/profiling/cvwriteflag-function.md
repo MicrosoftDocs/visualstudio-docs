@@ -22,7 +22,7 @@ ms.assetid: ee9da1e2-7b34-4cba-81e2-215d25d32e4d
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CvWriteFlag Function
 Writes a flag to the Concurrency Visualizer trace file.  

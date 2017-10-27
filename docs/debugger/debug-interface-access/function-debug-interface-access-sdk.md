@@ -16,7 +16,7 @@ ms.assetid: 458dc91c-b78b-4427-84f4-615d89e26760
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Function (Debug Interface Access SDK)
 Each function is identified by a `SymTagFunction` symbol.  

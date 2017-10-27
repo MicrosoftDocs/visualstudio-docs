@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TASK_STATE_RAN_TO_COMPLETION Field
 The task completed execution successfully.  

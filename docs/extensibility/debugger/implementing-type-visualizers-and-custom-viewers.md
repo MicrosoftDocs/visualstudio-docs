@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: abef18c0-8272-4451-b82a-b4624edaba7d
 caps.latest.revision: 14
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Implementing Type Visualizers and Custom Viewers
 > [!IMPORTANT]

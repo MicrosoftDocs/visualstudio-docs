@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplierEx2::SetServer
 Sets the core server for the port supplier.  

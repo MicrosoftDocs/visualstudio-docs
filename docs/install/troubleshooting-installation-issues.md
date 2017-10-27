@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting Visual Studio 2017 installation and upgrade issues
 

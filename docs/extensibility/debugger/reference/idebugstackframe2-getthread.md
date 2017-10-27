@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetThread
 Gets the thread associated with a stack frame.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 66d54c2c-9302-47c8-9975-f30ed988ab29
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcessEx2::Detach
 This method informs the process that a session is no longer debugging the process.  

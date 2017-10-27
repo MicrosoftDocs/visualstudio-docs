@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::GetDisassemblyStream
 Gets the disassembly stream for this program or a part of this program.  

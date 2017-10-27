@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
 caps.latest.revision: 15
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # FIELD_MODIFIERS
 Specifies modifiers for a field type.  

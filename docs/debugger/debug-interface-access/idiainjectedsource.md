@@ -16,7 +16,7 @@ ms.assetid: 75192c5c-812d-4675-9dc5-4c2cff3ba503
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaInjectedSource
 Accesses injected source code stored in the DIA data source.  

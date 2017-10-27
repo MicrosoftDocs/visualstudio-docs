@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder::ResolveDynamicType
 This method returns the exact type of a variable.  

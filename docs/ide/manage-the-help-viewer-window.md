@@ -15,7 +15,7 @@ ms.assetid: 98625016-acce-46c9-9b5a-2107d2939a5e
 caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Manage the Help Viewer Window
 In the Help Viewer you can customize the window layout.  

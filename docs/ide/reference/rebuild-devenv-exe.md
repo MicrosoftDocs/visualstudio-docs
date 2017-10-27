@@ -18,7 +18,7 @@ ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /Rebuild (devenv.exe)
 Cleans and then builds the specified solution configuration.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # s_taskIdCounter Field
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.  

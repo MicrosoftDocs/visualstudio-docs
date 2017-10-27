@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: be1f1cd5-0b2f-435c-a052-dca28a7c978d
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramNameChangedEvent2
 Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes.  

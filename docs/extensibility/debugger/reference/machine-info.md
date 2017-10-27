@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MACHINE_INFO
 Describes a particular machine.  

@@ -25,7 +25,7 @@ ms.assetid: 486bfec2-39bd-4d78-892a-42352128ee52
 caps.latest.revision: 135
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IntelliTrace
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:  

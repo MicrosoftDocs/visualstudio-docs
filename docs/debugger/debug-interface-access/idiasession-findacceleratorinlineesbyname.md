@@ -14,7 +14,7 @@ ms.assetid: e203e5c2-6563-43fa-be56-3063955043ab
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findAcceleratorInlineesByName
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.  

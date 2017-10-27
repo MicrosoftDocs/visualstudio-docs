@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: eecf08b6-f9b7-4358-941b-3a448a92ac62
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCanStopEvent2::GetCodeContext
 Gets the code context that describes the location of this event.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine2::GetEngineID
 Gets the GUID of the debug engine (DE).  

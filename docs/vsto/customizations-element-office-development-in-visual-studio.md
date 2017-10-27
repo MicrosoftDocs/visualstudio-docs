@@ -19,7 +19,7 @@ ms.assetid: fe1133ef-5fdf-4945-a67b-55a66a4e2109
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;customizations&gt; Element (Office Development in Visual Studio)
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.  

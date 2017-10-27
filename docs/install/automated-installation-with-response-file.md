@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "command-line"
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # How to define settings in a response file

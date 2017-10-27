@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 48172dd7-24a5-4884-8a73-f92497ad6a0d
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - "CSharp"
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
 Constructs a field instance given an array of type arguments.  

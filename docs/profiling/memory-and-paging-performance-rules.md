@@ -12,7 +12,7 @@ ms.assetid: f37972b2-efe4-4a1c-a5d1-a246ccd76817
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Memory and Paging Performance Rules
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.  

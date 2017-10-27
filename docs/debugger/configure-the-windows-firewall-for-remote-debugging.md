@@ -12,7 +12,7 @@ ms.assetid: 66e3230a-d195-4473-bbce-8ca198516014
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Configure the Windows Firewall for Remote Debugging
 This topic describes how to configure the firewall to enable remote debugging on computers that run the following operating systems:  

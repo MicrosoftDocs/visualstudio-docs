@@ -8,6 +8,7 @@
 ## [Synchronized Settings in Visual Studio](synchronized-settings-in-visual-studio.md)
 # [Get Started Developing with Visual Studio](get-started-developing-with-visual-studio.md)
 ## [Getting Started with Visual C# and Visual Basic](getting-started-with-visual-csharp-and-visual-basic.md)
+### [Quickstart: Create your first ASP.NET Core web app](../ide/quickstart-aspnet-core.md)
 ### [Walkthrough: Create a Simple Application with Visual C# or Visual Basic](walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
 ### [Tutorial 1: Create a Picture Viewer](tutorial-1-create-a-picture-viewer.md)
 #### [Step 1: Create a Windows Forms Application Project](step-1-create-a-windows-forms-application-project.md)
@@ -44,7 +45,7 @@
 ## [Getting Started with Debugging in Visual Studio](getting-started-with-debugging-in-visual-studio.md)
 # [How to: Move Around in the Visual Studio IDE](how-to-move-around-in-the-visual-studio-ide.md)
 # Optimize Visual Studio Performance
-## [Optimize Visual Studio Startup Time](optimize-visual-studio-startup-time.md)
+## [Optimize Visual Studio Performance](optimize-visual-studio-startup-time.md)
 ## [Optimize Solution Loading](optimize-solution-loading-in-visual-studio.md)
 ## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
 # [Connected environment](connected-environment.md)

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Attaching Directly to a Program
 Users who want to debug programs in a process that is already running typically follow this process:  

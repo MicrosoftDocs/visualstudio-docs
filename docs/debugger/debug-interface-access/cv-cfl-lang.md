@@ -16,7 +16,7 @@ ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CV_CFL_LANG
 Specifies the source code language of the application or linked module.  

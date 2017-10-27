@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BPRESI_FIELDS
 Specifies the information  to be retrieved about the successful resolution of a breakpoint.  

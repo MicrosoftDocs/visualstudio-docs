@@ -17,7 +17,7 @@ ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # User Permissions and Visual Studio
 For reasons of security you should run Visual Studio as a normal user whenever possible.  

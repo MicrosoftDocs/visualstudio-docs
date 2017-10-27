@@ -16,7 +16,7 @@ ms.assetid: d66e5c84-565d-494e-8486-f91db9a34548
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackWalkHelper
 Facilitates walking the stack using the program debug database (.pdb) file.  

@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 caps.latest.revision: 18
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating a Custom Start Page
 You can create a custom Start Page by following the steps in this document.  

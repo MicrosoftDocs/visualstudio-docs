@@ -19,7 +19,7 @@ ms.assetid: bbba0766-2502-4ef1-a75d-bf1f0db39e37
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: Remote computer could not initiate DCOM communications
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is  

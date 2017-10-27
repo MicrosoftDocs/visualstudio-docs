@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering Single File Generators
 To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.  

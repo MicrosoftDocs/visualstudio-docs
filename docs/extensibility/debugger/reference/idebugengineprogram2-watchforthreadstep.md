@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 Watches for execution (or stops watching for execution) to occur on the given thread.  

@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/package-guids-of-visual-studio-features
 title: "Package GUIDs of Visual Studio Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -13,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: f56f0356-f3ac-48bc-9674-94259e29a4df
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Package GUIDs of Visual Studio Features
 You can use the following GUIDs in the .pkgundef file of your isolated shell application to exclude specific packages from the application.  

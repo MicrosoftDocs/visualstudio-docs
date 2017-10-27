@@ -21,7 +21,7 @@ ms.assetid: 1624e4af-018e-4b7c-9a00-063bfe97fb7d
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging Web Applications: Troubleshooting
 This section contains common procedures that can be used to resolve errors.  

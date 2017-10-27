@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 148de615-941e-4b64-ab11-75b692aae465
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionObject2::CreateObject
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  

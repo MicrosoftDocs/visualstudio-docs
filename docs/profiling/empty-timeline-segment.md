@@ -16,7 +16,7 @@ ms.assetid: f37b301f-3edc-4e56-8084-feec2dc5a9b1
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Empty Timeline Segment
 In the Concurrency Visualizer, the reason that a section of the timeline is empty (has a white background) depends on the kind of channel.  

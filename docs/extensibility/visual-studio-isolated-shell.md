@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/visual-studio-isolated-shell
 title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -17,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 35
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Isolated Shell
 The Visual Studio isolated shell allows you to create stand-alone applications that can run side-by-side with other versions of Visual Studio. It is used primarily to host specialized tools that can use Visual Studio services but also have a customized appearance and branding. Visual Studio features and menu command groups can be easily turned on and off. Application titles, application icons, and splash screens are fully customizable. For a list of customizable features, see [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md).  

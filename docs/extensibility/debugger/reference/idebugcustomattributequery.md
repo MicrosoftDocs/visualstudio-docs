@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b804b619-70eb-4c38-80d9-c8b32b65ed3e
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomAttributeQuery
 Represents a query for custom attributes on a method or type.  

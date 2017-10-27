@@ -18,7 +18,7 @@ ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1002: Do not expose generic lists
 |||  

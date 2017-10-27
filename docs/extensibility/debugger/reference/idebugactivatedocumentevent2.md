@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 6f37edd7-a48c-4b41-b160-dff9be63a284
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugActivateDocumentEvent2
 The debug engine (DE) uses this interface to request a document to be loaded.  

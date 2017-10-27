@@ -16,7 +16,7 @@ ms.assetid: f9ce875d-c263-43e5-a534-f34c37f9866f
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaAddressMap::put_imageAlign
 Sets the image alignment.  

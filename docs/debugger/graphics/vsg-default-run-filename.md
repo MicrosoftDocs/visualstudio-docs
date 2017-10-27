@@ -10,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea549d2f-c857-458c-93c7-bc5a2d11d15d
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # VSG_DEFAULT_RUN_FILENAME
 Defines the default file name of the graphics log file.  

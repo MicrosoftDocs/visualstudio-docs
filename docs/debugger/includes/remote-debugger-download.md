@@ -32,6 +32,6 @@ translation.priority.ht:
     >   
     >  Surface 3 switched from ARM to x64 architecture. An ARM version of the remote tools is not available for Visual Studio 2017. For Visual Studio 2015, find the ARM version in the Visual Studio 2015 RTW download.
   
-3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. Follow the [setup instructions](#bkmk_setup).
+3.  When you have finished downloading the executable, go to the next section and follow setup instructions.
 
 If you try to copy the remote debugger (msvsmon.exe) to the remote computer and run it, be aware that the **Remote Debugger Configuration Wizard** (**rdbgwiz.exe**) is installed only when you download the tools. You may need to use the wizard for configuration later, especially if you want the remote debugger to run as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).

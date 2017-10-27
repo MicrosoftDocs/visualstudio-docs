@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: b5a853b7-221e-4d62-8948-07423089d75d
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldDefinition
 Represents the definition of a field for a managed code generic type.  

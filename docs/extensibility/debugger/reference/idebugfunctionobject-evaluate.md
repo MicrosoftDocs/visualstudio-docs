@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionObject::Evaluate
 Calls the function and returns the resulting value as an object.  

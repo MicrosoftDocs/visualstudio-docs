@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PROGRAM_NODE_ARRAY
 Contains an array of objects that describe programs of interest.  

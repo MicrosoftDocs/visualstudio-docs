@@ -14,7 +14,7 @@ ms.assetid: 577c8011-9269-4373-8577-b4822a983724
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
 Specifies whether the `this` pointer is based on a symbol value.  

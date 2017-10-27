@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Colors and Styling for Visual Studio
 ## Using color in Visual Studio  

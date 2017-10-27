@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: a6d0ae82-7617-4915-9713-369abe3e2e53
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDisassemblyStream2::GetCodeContext
 Returns a code context object corresponding to a specified code location identifier.  

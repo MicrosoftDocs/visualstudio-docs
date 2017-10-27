@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 72915146-215f-4c99-a034-131b2b474e0e
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugCodeContexts2
 This interface enumerates the code contexts associated with the debug session, or with a particular program or document.  

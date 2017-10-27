@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 872b04a8-70de-4ab5-aceb-684c81828545
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.  

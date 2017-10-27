@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
 caps.latest.revision: 16
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccDiff Function
 This function displays (or optionally just checks for) the differences between the current file (on the local disk) and its last checked-in version in the source control system.  

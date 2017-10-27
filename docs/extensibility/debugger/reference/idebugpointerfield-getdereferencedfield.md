@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8de988ab-cd79-4287-be72-3c900f2fe407
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPointerField::GetDereferencedField
 This method returns the type of object to which this pointer object points.  

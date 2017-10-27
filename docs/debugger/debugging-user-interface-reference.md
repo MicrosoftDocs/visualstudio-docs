@@ -22,7 +22,7 @@ ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging User Interface Reference
 You may encounter the following dialog boxes as you debug your application.  
@@ -42,6 +42,6 @@ You may encounter the following dialog boxes as you debug your application.
 -   [Debugging Errors and Warning Dialog Boxes](../debugger/debugging-errors-and-warning-dialog-boxes.md)  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [Command Window](../ide/reference/command-window.md)

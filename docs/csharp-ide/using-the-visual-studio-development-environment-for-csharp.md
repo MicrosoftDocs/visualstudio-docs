@@ -20,7 +20,7 @@ ms.assetid: e10e2cba-641f-47a3-88a3-6748965254d7
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using the Visual Studio Development Environment for C# #
 The Visual Studio integrated development environment (IDE) is a collection of development tools exposed through a common user interface. Some of the tools are shared with other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] languages, and some, such as the C# compiler, are unique to Visual C#. This topic provides links to the most important Visual C# tools.  

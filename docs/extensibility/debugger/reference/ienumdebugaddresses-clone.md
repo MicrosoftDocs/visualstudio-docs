@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 71189a00-34eb-4c71-b96e-8bd6e70c6966
 caps.latest.revision: 5
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugAddresses::Clone
 This method returns a copy of the current enumeration as a separate object.  

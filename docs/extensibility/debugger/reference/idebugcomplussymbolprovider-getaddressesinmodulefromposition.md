@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.  

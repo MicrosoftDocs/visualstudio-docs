@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 Retrieves the name of the assembly given its module and application domain.  

@@ -19,7 +19,7 @@ ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /Run (devenv.exe)
 Compiles and runs the specified project or solution.  

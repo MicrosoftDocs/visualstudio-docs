@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 30
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Inside the Visual Studio SDK
 This section provides in-depth information about Visual Studio extensions, including Visual Studio architecture, components, services, schemas, utilities, and the like.  

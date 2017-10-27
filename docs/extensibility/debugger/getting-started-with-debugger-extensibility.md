@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
 caps.latest.revision: 17
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started with Debugger Extensibility
 The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the information that you must have to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.  

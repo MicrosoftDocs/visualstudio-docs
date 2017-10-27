@@ -22,7 +22,7 @@ ms.assetid: 9095b4f1-88da-4194-914b-ee1456826830
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MergeLocalizationDirectives Task
 The <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges the localization attributes and comments of one or more [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] binary format files into a single file for the whole assembly.  

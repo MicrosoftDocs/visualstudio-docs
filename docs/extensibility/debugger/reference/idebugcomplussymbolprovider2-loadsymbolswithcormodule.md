@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
 caps.latest.revision: 12
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 Loads debug symbols given the **ICorDebugModule** object.  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PENDING_BP_STATE_INFO
 Contains information about the state of a breakpoint that is ready to bind to a code location.  

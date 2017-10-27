@@ -21,7 +21,7 @@ ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Install a Visualizer
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Installing a visualizer is a simple process.  

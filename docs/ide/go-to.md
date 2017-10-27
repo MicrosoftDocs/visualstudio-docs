@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "go to"
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Find code using Go To commands  
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface. This feature exists in Visual Studio 2017 and later.  

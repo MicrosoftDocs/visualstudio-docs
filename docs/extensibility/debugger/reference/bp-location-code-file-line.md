@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 3ff32032-d412-44d3-91bf-870cc354a09e
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_LOCATION_CODE_FILE_LINE
 Contains the data for the location of a breakpoint at a specific line in a code source file.  

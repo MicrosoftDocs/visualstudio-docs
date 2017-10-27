@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Automatic Formatting in a Legacy Language Service
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.  

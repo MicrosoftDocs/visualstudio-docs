@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumCodePaths2::Reset
 Resets the enumeration to the first element.  

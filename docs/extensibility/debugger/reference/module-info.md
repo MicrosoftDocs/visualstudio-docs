@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MODULE_INFO
 Describes a particular module (DLL, EXE, or assembly).  

@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 67da406c-eadb-421e-ae12-e26e9866f262
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPorts2::Reset
 Resets the enumeration to the first element.  

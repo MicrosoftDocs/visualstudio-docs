@@ -18,7 +18,7 @@ ms.assetid: 855772a4-aa9e-410b-88c1-c5fba1ca63da
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1713: Events should not have before or after prefix
 |||  

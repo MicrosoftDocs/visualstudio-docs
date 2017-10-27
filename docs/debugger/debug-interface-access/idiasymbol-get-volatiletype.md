@@ -16,7 +16,7 @@ ms.assetid: 19782a4d-40a8-467b-ab7d-58bc4d812309
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_volatileType
 Retrieves a flag that specifies whether the user-defined data type (UDT) is volatile.  

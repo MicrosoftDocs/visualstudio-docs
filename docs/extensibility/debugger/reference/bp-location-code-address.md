@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 83c9da8b-19d9-4be5-b225-854543654901
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_LOCATION_CODE_ADDRESS
 Describes the location of a breakpoint at an address in code.  

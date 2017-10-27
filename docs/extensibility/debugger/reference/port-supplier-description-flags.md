@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 Defines the metadata that can be retrieved about a port supplier.  

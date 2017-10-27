@@ -16,7 +16,7 @@ ms.assetid: a21114a6-56a3-4e8a-a65f-58ec2a0a8908
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_hasCastOperator
 Retrieves a flag that specifies whether the user-defined data type has any cast operators defined.  

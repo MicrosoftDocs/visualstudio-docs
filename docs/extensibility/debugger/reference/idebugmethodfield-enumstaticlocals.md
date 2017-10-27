@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: e0c522c4-f759-4c32-ae87-7abcb573e77d
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMethodField::EnumStaticLocals
 Creates an enumerator for static local variables of the method.  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2dfed0be-6972-4bec-baec-f0b78df9ef97
 caps.latest.revision: 6
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugTypeFieldBuilder
 Represents the ability to create a field that represents a type.  

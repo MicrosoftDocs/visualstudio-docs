@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Termination and Detaching
 The following describes normal termination.  

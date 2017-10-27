@@ -22,7 +22,7 @@ ms.assetid: 937aa9d6-278a-4df3-bef7-151441df16d5
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CvWriteAlert Function
 Writes an alert to the Concurrency Visualizer trace file.  

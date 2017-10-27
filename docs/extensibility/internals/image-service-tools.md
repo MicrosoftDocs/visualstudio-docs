@@ -9,7 +9,7 @@ ms.topic: "article"
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
 caps.latest.revision: 4
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Image Service Tools
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.  

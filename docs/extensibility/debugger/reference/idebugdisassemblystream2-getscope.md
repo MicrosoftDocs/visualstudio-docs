@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDisassemblyStream2::GetScope
 Gets the scope of the disassembly stream.  

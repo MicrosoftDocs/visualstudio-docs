@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::EnumEEs
 Enumerates the available expression evaluators given the language and vendor identifiers.  

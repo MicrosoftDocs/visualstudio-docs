@@ -16,7 +16,7 @@ ms.assetid: cf08850b-8b75-4e8c-90bd-bd0214756f99
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaDataSource::get_lastError
 Retrieves the file name for the last load error.  

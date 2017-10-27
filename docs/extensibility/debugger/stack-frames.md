@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Stack Frames
 In terms of the debugger architecture, a **stack frame**:  

@@ -17,7 +17,7 @@ ms.assetid: 52a017bf-e19c-49e4-bb8f-cbe6958195c2
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectOutputFile Element
   Represents the output of a separate project to include with the project item when it is deployed to SharePoint.  

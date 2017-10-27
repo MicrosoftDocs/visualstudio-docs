@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPort2::GetPortRequest
 Gets the description of a port that was previously used to create the port (if available).  

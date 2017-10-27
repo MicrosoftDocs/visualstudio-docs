@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2be92bea-8133-412b-9015-1833baf16e1b
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # GETHOSTNAME_TYPE
 Specifies the type of host name.  

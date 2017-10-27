@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
 caps.latest.revision: 10
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReturnValueEvent2::GetReturnValue
 Gets the value returned on stepping out of or over a function.  

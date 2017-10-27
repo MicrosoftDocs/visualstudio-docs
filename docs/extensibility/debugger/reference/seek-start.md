@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SEEK_START
 Specifies the position from which to start seeking in a disassembly stream.  

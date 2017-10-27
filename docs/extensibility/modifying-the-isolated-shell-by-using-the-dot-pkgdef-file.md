@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file
 title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -13,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 69e8f78e-bcf1-46cb-8866-7de37d134997
 caps.latest.revision: 27
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modifying the Isolated Shell By Using the .Pkgdef File
 The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.  

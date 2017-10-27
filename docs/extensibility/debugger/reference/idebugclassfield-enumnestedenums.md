@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 90fd0cef-9145-4de6-91d4-6c881df39d6e
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugClassField::EnumNestedEnums
 Creates an enumerator for the nested enumerators of this class.  

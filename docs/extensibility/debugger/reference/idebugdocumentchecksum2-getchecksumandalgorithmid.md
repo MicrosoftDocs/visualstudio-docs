@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 25efef99-0ef3-4332-a752-607605fc6e67
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.  

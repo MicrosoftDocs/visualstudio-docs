@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
 This method sets the registry root. Used for side-by-side debugging.  

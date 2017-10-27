@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 368ced5b-c5d9-4090-a5b4-26ff400d1a55
 caps.latest.revision: 8
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCoreServer3::GetConnectionProtocol
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  

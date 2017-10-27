@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
 caps.latest.revision: 11
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # MODULE_INFO_FIELDS
 Specifies the flags for the debug module information.  

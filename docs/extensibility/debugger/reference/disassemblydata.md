@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
 caps.latest.revision: 13
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DisassemblyData
 Describes one disassembly instruction for the integrated development environment (IDE) to display.  

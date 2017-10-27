@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
 caps.latest.revision: 7
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEEDataStorage::GetData
 Retrieves the specified number of bytes from the object.  

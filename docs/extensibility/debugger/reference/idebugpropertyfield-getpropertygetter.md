@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ab9f861a-42ad-4a82-9ae6-2606176f755a
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPropertyField::GetPropertyGetter
 Gets the method that gets the property.  

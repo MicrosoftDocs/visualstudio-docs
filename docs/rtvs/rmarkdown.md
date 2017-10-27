@@ -13,7 +13,7 @@ ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating R Markdown documents

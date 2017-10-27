@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 201838c2-260d-4071-b6c3-f526874e19c9
 caps.latest.revision: 9
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # m_action Field
 The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.  

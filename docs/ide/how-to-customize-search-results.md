@@ -15,7 +15,7 @@ ms.assetid: 3431ec03-0221-4be2-9936-887a1c36db89
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Customize Search Results
 You can customize how search results appear in the **Search** tab in several ways.  
