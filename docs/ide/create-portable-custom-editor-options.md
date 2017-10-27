@@ -75,12 +75,14 @@ If there is an EditorConfig file anywhere in the directory structure at or above
 
 **"User preferences for this file type are overridden by this project's coding conventions."**
 
-This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size, tab size, indent style &mdash; tabs or spaces, or coding conventions such as the use of `var`) are specified in an EditorConfig file at or above the project in the directory structure, the settings in the EditorConfig file will override the settings in **Tools**, **Options**, **Text Editor**.
+This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size, tab size, indent style &mdash; tabs or spaces, or coding conventions such as the use of `var`) are specified in an EditorConfig file at or above the project in the directory structure, the settings in the EditorConfig file will override the settings in **Tools**, **Options**, **Text Editor**. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools**, **Options**, **Text Editor**. Unchecking the option will turn off EditorConfig support for Visual Studio.
 
-You can find any EditorConfig files in parent directories by opening a command prompt and running the following command from the root of the disk that contains your project:
+![Tools Options - follow project coding conventions](media/coding_conventions_option.png)
+
+You can find .editorconfig files in parent directories by opening a command prompt and running the following command from the root of the disk that contains your project:
 
 ```
-dir *.editorconfig /s
+dir .editorconfig /s
 ```
 
 You can control the scope of your EditorConfig conventions by setting the ```root=true``` property in the .editorconfig file at the root of your repo or in the directory that your project resides. Visual Studio looks for a file named .editorconfig in the directory of the opened file and in every parent directory. Visual Studio stops searching if the root filepath is reached, or if a .editorconfig file with ```root=true``` is found.
