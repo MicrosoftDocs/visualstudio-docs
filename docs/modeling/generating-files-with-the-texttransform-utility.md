@@ -1,7 +1,7 @@
 ---
 title: "Generating Files with the TextTransform Utility | Microsoft Docs"
 ms.custom: ""
-ms.date: "9/21/2017"
+ms.date: "09/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

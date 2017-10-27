@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "menus, creating cascading submenus"
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 caps.latest.revision: 43
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDocumentContext2::Compare"
 ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

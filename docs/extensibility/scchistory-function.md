@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccHistory function"
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

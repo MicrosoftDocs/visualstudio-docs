@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "glossary [Visual Studio SDK]"
 ms.assetid: b64d432b-c39b-4904-ad18-3c3218b6e3aa
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

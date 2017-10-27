@@ -1,5 +1,5 @@
 ---
-title: "Collecting Application Statistics for ASP.NET Web Applications Using the Profiler Sampling Method from the Command Line | Microsoft Docs"
+title: "Collect statistics for ASP.NET web apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -17,7 +17,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Collecting Application Statistics for ASP.NET Web Applications Using the Profiler Sampling Method from the Command Line
+# Collect statistics for ASP.NET web apps
+
 This section describes the procedures and options for collecting performance statistics for an ASP.NET Web application by using the **VSPerfASPNETCmd** and **VSPerfCmd** command-line tool and the sampling profiling method.  
   
 > [!NOTE]

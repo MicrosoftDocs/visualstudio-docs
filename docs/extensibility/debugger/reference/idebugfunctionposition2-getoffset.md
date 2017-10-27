@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugFunctionPosition2::GetOffset"
 ms.assetid: 60943782-aec7-4be2-b222-1984ed53a543
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

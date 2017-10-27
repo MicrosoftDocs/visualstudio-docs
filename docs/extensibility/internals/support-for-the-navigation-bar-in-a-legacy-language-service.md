@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "language services [managed package framework], Navigation bar"
 ms.assetid: 2d301ee6-4523-4b82-aedb-be43f352978e
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

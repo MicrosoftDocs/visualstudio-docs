@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::SetLocale method"
 ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

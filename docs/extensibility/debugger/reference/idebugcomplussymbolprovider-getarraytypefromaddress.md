@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress"
 ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

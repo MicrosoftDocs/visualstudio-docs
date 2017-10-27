@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "persistence, supporting Open With command"
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

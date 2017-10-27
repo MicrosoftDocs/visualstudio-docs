@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "menus, changing command appearance"
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "launch conditions"
 ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
 caps.latest.revision: 50
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

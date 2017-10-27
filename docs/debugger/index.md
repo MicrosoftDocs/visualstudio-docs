@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Debugging your Apps in Visual Studio
+title: Debugging your Apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to debug applications, services, and tools in the language of your choice, for your platforms and devices.
 ms.technology: vs-ide-debug
 ---

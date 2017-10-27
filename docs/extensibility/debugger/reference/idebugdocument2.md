@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDocument2 interface"
 ms.assetid: 1bc58426-dbf5-4471-9aad-9d66cd80eef0
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

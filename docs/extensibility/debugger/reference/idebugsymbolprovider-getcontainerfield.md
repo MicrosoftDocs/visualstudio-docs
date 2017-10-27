@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetContainerField method"
 ms.assetid: d6b56b4f-a96b-4fa7-87c1-bac4e58fa766
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

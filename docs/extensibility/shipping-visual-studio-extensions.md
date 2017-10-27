@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "satellite DLLs, in VSIX packages"
 ms.assetid: 13cd263d-25f7-488e-9c1a-cff908caedb6
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBreakpointErrorEvent2"
 ms.assetid: adee79df-8db5-4510-a7df-c50f4dbf5e35
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

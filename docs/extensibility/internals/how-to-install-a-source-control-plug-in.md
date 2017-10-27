@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, installing"
 ms.assetid: 9e2e01d9-7beb-42b2-99b2-86995578afda
 caps.latest.revision: 32
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], deleting breakpoints"
 ms.assetid: 75a046cc-d20a-4c79-ad2d-1f18426ac5d0
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

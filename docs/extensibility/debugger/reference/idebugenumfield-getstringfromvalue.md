@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugEnumField::GetStringFromValue method"
 ms.assetid: 5f95fd0c-fdce-497f-9f54-2ad8749494e9
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

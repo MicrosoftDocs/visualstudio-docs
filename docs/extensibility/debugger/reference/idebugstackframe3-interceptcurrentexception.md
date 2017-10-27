@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugStackFrame3::InterceptCurrentException"
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

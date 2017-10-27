@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::RemovePort"
 ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

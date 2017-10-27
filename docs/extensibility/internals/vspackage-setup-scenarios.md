@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "VSPackages, deployment considerations"
 ms.assetid: d2928498-f27c-46b4-a9cd-cba41fd85a10
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

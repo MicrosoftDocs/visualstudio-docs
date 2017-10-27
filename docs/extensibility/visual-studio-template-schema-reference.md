@@ -14,6 +14,7 @@ helpviewer_keywords:
   - ".vstemplate files"
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

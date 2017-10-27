@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - undo management"
 ms.assetid: 1942245d-7a1d-4a11-b5e7-a3fe29f11c0b
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

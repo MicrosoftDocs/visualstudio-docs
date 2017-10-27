@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Icon element [Visual Studio project templates]"
 ms.assetid: ec01d903-f4c2-4ca2-9cbc-e939ec84016c
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

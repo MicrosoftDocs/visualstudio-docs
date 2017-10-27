@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IsAddressSequencePoint"
 ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

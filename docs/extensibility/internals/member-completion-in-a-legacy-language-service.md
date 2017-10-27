@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "language services [managed package framework], IntelliSense Member Completion"
 ms.assetid: 500f718d-9028-49a4-8615-ba95cf47fc52
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

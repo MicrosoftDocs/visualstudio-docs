@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricDword"
 ms.assetid: c5f8f417-0ef0-4fd0-a779-b0a8ead4effe
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
