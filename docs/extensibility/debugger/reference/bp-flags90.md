@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "BP_FLAGS90 enumeration"
 ms.assetid: 3e5a06c5-fb30-4b8a-b2d5-4a0570fc80bd
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

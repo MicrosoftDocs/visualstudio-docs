@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], opening folders"
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

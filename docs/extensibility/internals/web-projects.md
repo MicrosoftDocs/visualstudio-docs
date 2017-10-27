@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "web projects"
 ms.assetid: d9c0329f-4b0b-4fda-8061-cce69f2f502d
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SEEK_START enumeration"
 ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

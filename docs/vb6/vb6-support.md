@@ -1,5 +1,5 @@
 ---
-title: "Support Statement for Visual Basic 6.0"
+title: "Support Statement for Visual Basic 6.0 | Microsoft Docs"
 ms.date: "08/28/2017"
 ms.technology: 
   - "devlang-visual-basic"

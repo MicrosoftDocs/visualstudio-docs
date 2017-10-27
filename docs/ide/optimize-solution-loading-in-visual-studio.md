@@ -1,7 +1,7 @@
 ---
 title: "Optimize Solution Loading in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 8/31/2017
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

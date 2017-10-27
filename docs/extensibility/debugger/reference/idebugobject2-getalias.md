@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugObject2::GetAlias method"
 ms.assetid: aa6824d5-c932-42ba-8713-950e7d1fb42f
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

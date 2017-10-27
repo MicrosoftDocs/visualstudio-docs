@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugExpressionContext2::GetName"
 ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

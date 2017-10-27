@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "managed package framework, creating projects"
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

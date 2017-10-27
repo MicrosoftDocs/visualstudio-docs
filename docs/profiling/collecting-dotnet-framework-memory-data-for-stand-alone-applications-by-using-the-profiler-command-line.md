@@ -1,5 +1,5 @@
 ---
-title: "Collecting .NET Framework Memory Data for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
+title: "Collect .NET Framework Memory Data by using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -14,7 +14,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Collecting .NET Framework Memory Data for Stand-Alone Applications by Using the Profiler Command Line
+# Collect .NET Framework Memory Data by using the Profiler Command Line
+
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET client (stand-alone) application by using the sampling method from the command line.  
   
 ## Common Tasks  

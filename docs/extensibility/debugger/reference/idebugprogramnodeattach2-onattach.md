@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProgramNodeAttach2::OnAttach"
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

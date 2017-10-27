@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCoreServer2::EnumPortSuppliers"
 ms.assetid: ce0c90e4-8e02-4b08-b558-7677fb2c88f7
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

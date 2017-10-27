@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugObject2::GetBackingFieldForProperty method"
 ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

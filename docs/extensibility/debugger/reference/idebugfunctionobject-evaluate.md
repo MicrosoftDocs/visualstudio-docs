@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugFunctionObject::Evaluate method"
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

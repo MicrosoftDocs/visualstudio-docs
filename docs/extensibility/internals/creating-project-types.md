@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], new project types"
 ms.assetid: bdb2d22e-d622-450c-bb2d-98152a745fcf
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

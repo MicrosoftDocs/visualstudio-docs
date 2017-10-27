@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDE, currency"
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

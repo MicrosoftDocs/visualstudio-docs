@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Shell [Visual Studio], isolated mode"
 ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 35
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugReference2::EnumChildren"
 ms.assetid: 35b3c2f3-69f4-4013-b555-f847221f62e8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

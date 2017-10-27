@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugOutputStringEvent2::GetString"
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

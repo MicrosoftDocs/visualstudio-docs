@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - link keystrokes to commands"
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
 caps.latest.revision: 32
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

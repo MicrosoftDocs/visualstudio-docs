@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCoreServer2::GetName"
 ms.assetid: 693bd794-7215-4f07-8651-b57366d39953
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

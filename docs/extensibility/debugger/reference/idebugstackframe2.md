@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugStackFrame2 interface"
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

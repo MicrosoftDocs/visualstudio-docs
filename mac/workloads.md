@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio for Mac Workloads"
+title: "Visual Studio for Mac Workloads | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 08/03/2017

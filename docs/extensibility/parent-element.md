@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Parent element (VSCT XML schema)"
 ms.assetid: e4624ac8-1b9a-4940-910a-528a661cefad
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
