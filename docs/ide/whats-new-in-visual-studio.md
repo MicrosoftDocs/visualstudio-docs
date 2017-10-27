@@ -54,7 +54,7 @@ To learn more about the new installation experience, including step-by-step inst
 
 ## Performance and productivity
 ### Sign in across multiple accounts  
-We've introduced a new identity service in Visual Studio that allows you to share user accounts across Team Explorer, Azure Tools, Windows Store publishing, and more.
+We've introduced a new identity service in Visual Studio that allows you to share user accounts across Team Explorer, Azure Tools, Microsoft Store publishing, and more.
 
 You can stay signed in longer, too. Visual Studio won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
 
