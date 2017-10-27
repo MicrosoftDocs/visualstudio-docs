@@ -15,16 +15,18 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+dev_langs:
+ - "VB"
 ---
 # How to: Distribute Code Snippets
 You can simply give your code snippets to your friends and have them install the snippets on their own computers by using the Code Snippets Manager. However, if you have several snippets to distribute or would like to distribute them more widely, you include your snippet file in a Visual Studio extension, which Visual Studio users can install.  
 
- You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio Downloads](https://www.visualstudio.com/downloads/).  
+You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio Downloads](https://www.visualstudio.com/downloads/).  
 
 ## Setting up the Extension  
- In this procedure we will use the same Hello World code snippet created in [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). We will supply the .snippet text, so you don't have to go back and make one.  
+In this procedure we will use the same Hello World code snippet created in [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). We will supply the .snippet text, so you don't have to go back and make one.  
 
-1.  Create a new VSIX project named **TestSnippet**. (**File / New / Project / Visual C# (or Visual Basic / Extensibility**)  
+1.  Create a new VSIX project named **TestSnippet**. (**File**, **New**, **Project**, **Visual C# (or Visual Basic)**, **Extensibility**.)  
 
 2.  In the **TestSnippet** project, add a new XML file and call it **VBCodeSnippet.snippet**. Replace the content with the following:  
 
@@ -74,7 +76,7 @@ You can simply give your code snippets to your friends and have them install the
     "HelloWorldVB"="$PackageFolder$"  
     ```  
 
-     If you examine this key, you can see how to specify different languages.  
+    If you examine this key, you can see how to specify different languages.  
 
 3.  Select the .pkgdef file in the Solution Explorer, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.  
 
@@ -99,4 +101,4 @@ You can simply give your code snippets to your friends and have them install the
     ```  
 
 ## See Also  
- [Code Snippets](../ide/code-snippets.md)
+[Code Snippets](../ide/code-snippets.md)

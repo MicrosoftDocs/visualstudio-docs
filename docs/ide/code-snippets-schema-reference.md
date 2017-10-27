@@ -60,8 +60,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
 ```xml  
 <Author>  
    Code Snippet Author  
-</Author>  
-  
+</Author>    
 ```  
   
 |Parent Element|Description|  
@@ -75,13 +74,13 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
   
  Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents text selected in the document that is to be inserted into the snippet when it is invoked. For example, given a snippet that includes:  
   
-```xml  
+```  
 $selected$ is a great color.  
 ```  
   
  If the word "Blue" is selected when the user invokes the template, the result is:  
   
-```xml  
+```  
 Blue is a great color.  
 ```  
   
@@ -147,7 +146,6 @@ is a great color. I love Blue.
     <Header>... </Header>  
     <Snippet>... </Snippet>  
 </CodeSnippet>  
-  
 ```  
   
 |Attribute|Description|  
@@ -170,7 +168,6 @@ is a great color. I love Blue.
 <CodeSnippets>  
     <CodeSnippet>... </CodeSnippet>  
 </CodeSnippets>  
-  
 ```  
   
 |Child Element|Description|  
@@ -185,7 +182,6 @@ is a great color. I love Blue.
     <Literal>... </Literal>  
     <Object>... </Object>  
 </Declarations>  
-  
 ```  
   
 |Child Element|Description|  
@@ -204,7 +200,6 @@ is a great color. I love Blue.
 <Default>  
     Default value  
 </Default>  
-  
 ```  
   
 |Parent Element|Description|  
@@ -261,7 +256,6 @@ is a great color. I love Blue.
     <Keywords>... </Keywords>  
     <Shortcut>... </Shortcut>  
 </Header>  
-  
 ```  
   
 |Child Element|Description|  
@@ -288,7 +282,6 @@ is a great color. I love Blue.
 <HelpUrl>  
     www.microsoft.com  
 </HelpUrl>  
-  
 ```  
   
 |Parent Element|Description|  
@@ -304,7 +297,6 @@ is a great color. I love Blue.
 <ID>  
     Unique Identifier  
 </ID>  
-  
 ```  
   
 |Parent Element|Description|  
@@ -324,7 +316,6 @@ is a great color. I love Blue.
 <Import>  
     <Namespace>... </Namespace>  
 </Import>  
-  
 ```  
   
 |Child Element|Description|  
@@ -527,8 +518,7 @@ is a great color. I love Blue.
     <Imports>... </Imports>  
     <Declarations>... </Declarations>  
     <Code>... </Code>  
-</Snippet>  
-  
+</Snippet>    
 ```  
   
 |Child Element|Description|  
