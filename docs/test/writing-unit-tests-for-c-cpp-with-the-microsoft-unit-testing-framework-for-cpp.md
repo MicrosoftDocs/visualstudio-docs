@@ -58,17 +58,18 @@ The .cpp file in your test project (by default named unittest1.cpp) has a stub c
 
 TEST_CLASS and TEST_METHOD are part of the Microsoft Native Test Framework. For more information and documentation on all the available macros and functions, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](using-microsoft-visualstudio-testtools-cppunittestframework.md).
 
-A TEST_METHOD returns void. To produce a test result, use the static methods in the Assert class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that that takes a `std::string`, and also defines a public function named `GetName` which returns the string that was used to initialize the class. We can test that the class was initialized as expected like so:
+A TEST_METHOD returns void. To produce a test result, use the static methods in the Assert class to test actual results against what is expected. In the following example, assume `md_utils` has a public method that that takes a `std::string` and returns a result. We can test that the function works as expected like so:
 
 ```cpp
-		TEST_METHOD(TestClassInitialization)
+		TEST_METHOD(get_class_name)
 		{
-			std::string name = "Bill";
-			MyClass mc(name);
-			Assert::AreEqual(name, mc.GetName());
+			string s = "    title: \"CWnd Class | Microsoft Docs\"";
+			md_utils mdu;
+			auto result = mdu.get_class_name(s);
+			Assert::AreEqual(string("CWnd"), result);
 		}
 ```
-In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
+In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results. 
 
 You can add *traits* to test methods to specify test owners, priority and other information. For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
@@ -87,6 +88,8 @@ You can add *traits* to test methods to specify test owners, priority and other 
 3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window looks something like this:
 
 ![Test Explorer after tests are run](media/cpp-test-explorer-passed.png "C++ Test Explorer after running tests")
+
+It looks like something changed that caused the get_class_name test method to fail. The message offers details that help to diagnose the cause. If necessary, we could right-click on the failing test and choose **Debug Selected Tests** to step through the `md_utils::get_class_name` function. 
 
 For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
