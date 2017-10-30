@@ -4,19 +4,20 @@ ms.custom: ""
 ms.date: "10/6/2017"
 ms.reviewer: ""
 ms.suite: ""
+ms.technology:
+  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "VS.StartPage.WhatsNew"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-ms.technology: 
-  - "vs-acquisition"
 ---
 # What&#39;s New in Visual Studio 2017
 #### Updated for the 15.4 release
@@ -104,7 +105,7 @@ In Visual Studio Enterprise 2017, live unit testing gives you live unit test res
 
 ![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
 
-For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md). 
+For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
 #### Set up a CI/CD pipeline to run automated tests efficiently
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
