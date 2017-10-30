@@ -74,13 +74,11 @@ You can add *traits* to test methods to specify test owners, priority and other 
 
 2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
   
-3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
-
-After running all the tests, the window looks something like this:
+3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window looks something like this:
 
 ![Test Explorer after tests are run](media/cpp-test-explorer-passed.png "C++ Test Explorer after running tests")
 
-For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
+For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 ## See Also
 [Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md)
