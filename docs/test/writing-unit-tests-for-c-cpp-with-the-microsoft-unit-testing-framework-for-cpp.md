@@ -14,28 +14,29 @@ ms.author: "mblome"
 manager: "ghogen"
 ---
 # Writing unit tests for C/C++
-Visual Studio supports unit tests for C++ code using any of these frameworks:
+Visual Studio supports unit testing for C++ code using these frameworks:
  -  Microsoft Unit Testing Framework for C++
  -  Google Test
- -  Boost.Test
+ -  Boost.Test (Visual Studio extension)
  -  CTest  
 
-For Boost.Test support, download the extension on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest). When the adapter is installed, you will see it in the list shown above. Additional third-party adapters for other C++ test frameworks are available on the Visual Studio marketplace.
+In addition, you can write your own test adapter for whatever framework you would like to use within Visual Studio. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks).
 
-CTest support is installed along with the CMake Tools for Visual Studio component which is part of the C++ Desktop Workload. 
+For Boost.Test integration, download the extension on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest). 
 
-In addition, you can write your own test adapter for whatever framework you would like to use within Visual Studio. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks)
+The Microsoft and Google frameworks are included in the C++ Desktop workload. CTest support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the C++ Desktop Workload. 
   
 ## Basic test workflow
-The following procedure shows the basic steps to get you started with the Microsoft Unit Testing Framework. The basic workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
+The following sections show the basic steps to get you started with the Microsoft Unit Testing Framework. The workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
   
 ### Create a test project
-You define an run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
+You define and run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
 
 ![C++ Test Projects](media/cpp-new-test-project.png "C++ new test project templates")
 
 ### Create references to other projects in the solution
-To enable your test code to access the functions in the project to be tested, add a reference to the project in your test project. Right- click on the test project node in **Solution Explorer** and choose **Add | Reference**. Then in the dialog choose the project(s) you want to test.
+To enable your test code to access the functions in the project to be tested, add a reference to the project in your test project. Right- click on the test project node in **Solution Explorer** and choose **Add | Reference**. Then in the dialog choose the project(s) you want to test. 
+Google.Test might require additional configuration, see []() for more information.
 
 ![Add reference](media/cpp-add-ref-test-project.png "C++ test add a reference to projects to be tested")
 
@@ -45,7 +46,10 @@ Next, in your unit test .cpp file, add an `#include` directive for any header fi
 ![Add include directives](media/cpp-add-includes-test-project.png "C++ test add includes for header files")
 
 ### Write test methods
-The .cpp file in your test project (by default named unittest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
+> [!NOTE] 
+> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. Google.Test, Boost.Test and other frameworks each have their own syntax.
+
+The .cpp file in your test project (by default named UnitTest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
 
 ![Add include directives](media/cpp-write-test-methods.png "C++ test add includes for header files")
 
@@ -81,4 +85,5 @@ You can add *traits* to test methods to specify test owners, priority and other 
 For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 ## See Also
-[Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md)
+[Using the Microsoft Unit Testing Framework for C/C++](unit-testing-existing-cpp-applications.md)
+
