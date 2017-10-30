@@ -1,5 +1,5 @@
 ---
-title: "Writing Unit tests for C/C++ | Microsoft Docs"
+title: "Writing unit tests for C/C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/27/2017"
 ms.reviewer: ""
@@ -20,7 +20,7 @@ Visual Studio supports unit tests for C++ code using any of these options:
  -  Boost.Test
  -  CTest   
   
- The following procedure contains the essential information that will get you started. The later sections provide a walkthrough that describes the steps in more detail.  
+ The following procedure contains the essential information to get you started testing the exported functions (DLLs) or public member functions in your program. For a deeper dive, see [Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md).
   
 ## Create a test project
 You define an run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose ** Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The available projects might differ from what you see here depending on what you have installed on your machine:
@@ -57,4 +57,19 @@ A TEST_METHOD returns void. To produce a test result, use the static methods in 
 In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
 
 
+## Run the tests  
+  
+1.  On the **Test** menu, choose **Windows**, **Test Explorer**. The following illustration shows a test project whose tests have not yet run. 
 
+![Test Explorer before tests are run](media/cpp-test-explorer.png "C++ Test Explorer")
+
+After running all the tests, the window looks something like this:
+
+![Test Explorer after tests are run](media/cpp-test-explorer-passed.png "C++ Test Explorer after running tests")
+
+2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+  
+3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+
+## See Also
+[Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md)

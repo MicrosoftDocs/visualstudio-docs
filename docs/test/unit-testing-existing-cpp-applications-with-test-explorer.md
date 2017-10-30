@@ -1,7 +1,7 @@
 ---
 title: "Unit testing existing C++ applications with Test Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/04/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,7 +25,7 @@ We recommend that, before you change an existing application, you make sure that
   
  There are several ways to test product code, depending on whether it exposes the interfaces that you want to test. Choose one of the following ways:  
   
- **The unit tests will use only functions that are exported from the code under test:**  
+ **The unit tests can call only functions that are exported from the code under test:**  
  Add a separate test project. In the test project, add a reference to the project under test.  
   
  Go to the procedure [To reference exported functions from the test project](#projectRef).  
@@ -42,7 +42,7 @@ We recommend that, before you change an existing application, you make sure that
   
  Go to the procedure [To change the code under test to a static library](#staticLink).  
   
- **The unit tests must use private functions and data, and the code must be built as a dynamic link library (DLL):**  
+ **The unit tests must use private member functions and data, and the code must be built as a dynamic link library (DLL):**  
  Add unit tests in the same project as the product code.  
   
  Go to the procedure [To add unit tests in the same project](#sameProject).  
@@ -61,9 +61,9 @@ We recommend that, before you change an existing application, you make sure that
   
  Continue with the procedure [To link the tests to the object or library files](#objectRef).  
   
-###  <a name="projectRef"></a> To reference exported functions from the test project  
+###  <a name="projectRef"></a> To reference exported DLL functions from the test project  
   
--   If a project under test exports the functions that you want to test, then you can add a reference to the code project from the test project.  
+-   If a project under test is a DLL that exports the functions that you want to test, then you can add a reference to the code project from the test project.  
   
     1.  Create a C++ test project.  
   
