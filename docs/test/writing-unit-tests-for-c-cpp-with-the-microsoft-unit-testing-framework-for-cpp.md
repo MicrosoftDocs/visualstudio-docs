@@ -26,24 +26,25 @@ CTest support is installed along with the CMake Tools for Visual Studio componen
 
 In addition, you can write your own test adapter for whatever framework you would like to use within Visual Studio. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks)
   
-The following procedure shows the basic steps to get you started. It uses the Microsoft Unit Testing Framework but the basic workflow is the same for Google.Test, Boost.Test and any other framework that is implemented via a test adapter. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
+## Basic test workflow
+The following procedure shows the basic steps to get you started with the Microsoft Unit Testing Framework. The basic workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
   
-## Create a test project
+### Create a test project
 You define an run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
 
 ![C++ Test Projects](media/cpp-new-test-project.png "C++ new test project templates")
 
-## Create references to other projects in the solution
+### Create references to other projects in the solution
 To enable your test code to access the functions in the project to be tested, add a reference to the project in your test project. Right- click on the test project node in **Solution Explorer** and choose **Add | Reference**. Then in the dialog choose the project(s) you want to test.
 
 ![Add reference](media/cpp-add-ref-test-project.png "C++ test add a reference to projects to be tested")
 
-## Add #include directives for header files
+### Add #include directives for header files
 Next, in your unit test .cpp file, add an `#include` directive for any header files that declare the types and functions you want to test. For a typical solution, type `#include "../` and then Intellisense will activate to help you choose. Repeat for any additional headers.
 
 ![Add include directives](media/cpp-add-includes-test-project.png "C++ test add includes for header files")
 
-## Write test methods
+### Write test methods
 The .cpp file in your test project (by default named unittest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
 
 ![Add include directives](media/cpp-write-test-methods.png "C++ test add includes for header files")
@@ -62,8 +63,10 @@ A TEST_METHOD returns void. To produce a test result, use the static methods in 
 ```
 In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
 
+You can add *traits* to test methods to specify test owners, priority and other information. For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
-## Run the tests  
+
+### Run the tests  
   
 1.  On the **Test** menu, choose **Windows**, **Test Explorer**. The following illustration shows a test project whose tests have not yet run. 
 
