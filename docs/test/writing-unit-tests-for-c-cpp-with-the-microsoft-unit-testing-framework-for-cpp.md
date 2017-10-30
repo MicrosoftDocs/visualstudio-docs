@@ -27,7 +27,10 @@ For Boost.Test integration, download the extension on the Visual Studio Marketpl
 The Microsoft and Google frameworks are included in the C++ Desktop workload. CTest support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the C++ Desktop Workload. 
   
 ## Basic test workflow
-The following sections show the basic steps to get you started with the Microsoft Unit Testing Framework. The workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
+The following sections show the basic steps to get you started with the Microsoft Unit Testing Framework. The workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. 
+
+> [!NOTE] 
+> Since CMake is supported through the [Open Folder](/cpp/non-msbuild-projects) environment, there is no Visual Studio test project for CTest.
   
 ### Create a test project
 You define and run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
@@ -49,7 +52,7 @@ Next, in your unit test .cpp file, add an `#include` directive for any header fi
 > [!NOTE] 
 > This section shows syntax for the Microsoft Unit Testing Framework for C/C++. Google.Test, Boost.Test and other frameworks each have their own syntax.
 
-The .cpp file in your test project (by default named UnitTest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
+The .cpp file in your test project (by default named unittest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
 
 ![Add include directives](media/cpp-write-test-methods.png "C++ test add includes for header files")
 
@@ -75,6 +78,9 @@ You can add *traits* to test methods to specify test owners, priority and other 
 1.  On the **Test** menu, choose **Windows**, **Test Explorer**. The following illustration shows a test project whose tests have not yet run. 
 
 ![Test Explorer before tests are run](media/cpp-test-explorer.png "C++ Test Explorer")
+
+> [!NOTE]
+> CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
 
 2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
   
