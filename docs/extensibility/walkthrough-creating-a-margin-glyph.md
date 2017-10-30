@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - margin glyph"
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Creating a Margin Glyph
 You can customize the appearance of editor margins by using custom editor extensions. This walkthrough puts a custom glyph on the indicator margin whenever the word "todo" appears in a code comment.  

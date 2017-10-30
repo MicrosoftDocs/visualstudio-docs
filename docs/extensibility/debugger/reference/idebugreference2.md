@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugReference2 interface"
 ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2
 This interface represents a reference to a stack frame property or some other property.  

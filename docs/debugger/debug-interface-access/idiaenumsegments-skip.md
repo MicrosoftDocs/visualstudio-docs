@@ -16,7 +16,7 @@ ms.assetid: ec67039f-da8c-4e70-8db7-957d7d5281e8
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSegments::Skip
 Skips a specified number of segments in an enumeration sequence.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - ".vsct files, common menu tasks"
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
 caps.latest.revision: 49
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending Menus and Commands
 Commands are the way you add actions and processes to Visual Studio. In most cases commands are displayed on menus or toolbars. The VSPackage project template shows how to implement a very basic command. For a slightly longer but still basic implementation, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  

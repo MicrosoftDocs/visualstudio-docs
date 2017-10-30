@@ -16,7 +16,7 @@ ms.assetid: 29080009-36e4-4697-acd7-50f2e3e1bf1b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findChildrenExByVA
 Retrieves the children of the symbol that are valid at a specified virtual address.  

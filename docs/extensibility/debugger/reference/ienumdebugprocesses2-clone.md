@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::Clone"
 ms.assetid: 3d4196d3-5a80-4f76-b8b2-f72e80c8d406
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugProcesses2::Clone
 Returns a copy of the current enumeration as a separate object.  

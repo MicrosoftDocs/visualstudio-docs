@@ -18,7 +18,7 @@ ms.assetid: b07e0375-bb73-47e3-8d1d-b9b492fb16c9
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Configure Noise Reduction in Report Views
 Performance reports can be configured for noise reduction by limiting the amount of data that is presented in the Call Tree view and the Allocation view. By using noise reduction, performance problems are more prominent. This is useful when you analyze performance reports.  

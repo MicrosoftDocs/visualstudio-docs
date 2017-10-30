@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "VSCT files, creating"
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create a .Vsct File  
   

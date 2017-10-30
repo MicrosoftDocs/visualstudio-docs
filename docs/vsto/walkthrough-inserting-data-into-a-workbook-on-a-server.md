@@ -21,7 +21,7 @@ ms.assetid: e6481902-781c-4666-bc18-4d69368c9bb3
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Inserting Data into a Workbook on a Server
   This walkthrough demonstrates how to insert data into a dataset that is cached in a Microsoft Office Excel workbook without starting Excel by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class.  

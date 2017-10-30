@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3::GetCustomViewerCount"
 ms.assetid: dc5bb3e4-dc85-46e4-98fa-c6be8583b985
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty3::GetCustomViewerCount
 Gets the number of custom viewers that might be available for this property.  

@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "NotifyDebuggerOfWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: 841c5908-4f3f-400b-a7b0-96a95f362817
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # NotifyDebuggerOfWaitCompletion Method
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.  

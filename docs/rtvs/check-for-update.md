@@ -1,7 +1,7 @@
 ---
 title: "Current Version of R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/25/2017
+ms.date: 07/25/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: ae5fca3b-ce82-4b81-8625-75454e4099b0
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # RTVS Current Version

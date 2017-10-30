@@ -16,7 +16,7 @@ ms.assetid: 8292bb08-4dc8-4663-beb4-258f5d5a448d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_offset
 Retrieves the offset of the symbol location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsRegRel` or `LocIsBitField`.  

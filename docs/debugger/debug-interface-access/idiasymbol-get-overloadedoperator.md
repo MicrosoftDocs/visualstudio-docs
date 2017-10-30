@@ -16,7 +16,7 @@ ms.assetid: 257a9894-e980-47ae-bdc0-c5e2293ea734
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_overloadedOperator
 Retrieves a flag that specifies whether the user-defined data type has overloaded operators.  

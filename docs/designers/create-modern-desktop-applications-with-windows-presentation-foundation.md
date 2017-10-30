@@ -1,7 +1,7 @@
 ---
 title: "Create Modern Desktop Applications with Windows Presentation Foundation | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/17/2017
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

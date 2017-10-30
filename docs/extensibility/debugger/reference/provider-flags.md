@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "PROVIDER_FLAGS enumeration"
 ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PROVIDER_FLAGS
 Specifies desired properties to be obtained from a program provider.  

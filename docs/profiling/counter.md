@@ -12,7 +12,7 @@ ms.assetid: aa4b4cdb-e6ea-433a-9579-56f3785e1385
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Counter
 The **Counter** option collects data from processor (hardware) performance counters.  

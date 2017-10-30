@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::Reset"
 ms.assetid: 31cbde4f-0bba-497a-9969-d2c342ef4a7b
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugProcesses2::Reset
 Resets the enumeration to the first element.  

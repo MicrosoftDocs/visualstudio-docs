@@ -23,7 +23,7 @@ ms.assetid: 9c04d1df-0d93-473c-85fd-02dc2e956c9e
 caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Calling Code in a VSTO Add-in from VBA
   This walkthrough demonstrates how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.  

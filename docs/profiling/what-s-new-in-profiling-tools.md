@@ -15,7 +15,7 @@ ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # What's New in Profiling Tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.

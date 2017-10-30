@@ -16,7 +16,7 @@ ms.assetid: f8bcab77-afca-4a8f-8710-697842f8a518
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaPropertyStorage::ReadPropertyNames
 Retrieves corresponding string names for given property identifiers.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2::CanPassToDebuggee"
 ms.assetid: ae4bbe0a-fbe1-49be-a310-ea64279a434b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.  

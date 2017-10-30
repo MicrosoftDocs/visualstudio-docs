@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - undo management"
 ms.assetid: 1942245d-7a1d-4a11-b5e7-a3fe29f11c0b
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Implement Undo Management
 The primary interface used for undo management is <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager>, which is implemented by the environment. To support undo management, implement separate undo units (that is, <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit>, which can contain multiple individual steps.  

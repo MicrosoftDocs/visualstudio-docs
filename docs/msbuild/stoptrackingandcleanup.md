@@ -19,7 +19,7 @@ ms.assetid: 9f8c5994-2dfc-43c3-a5fb-89b2f8990429
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # StopTrackingAndCleanup
 Stops all tracking and frees any memory used by the tracking session.  

@@ -14,7 +14,7 @@ ms.assetid: 56ba4bc0-8f96-47c2-8b18-332b4e7c2d91
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findInlineeLines
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol.  

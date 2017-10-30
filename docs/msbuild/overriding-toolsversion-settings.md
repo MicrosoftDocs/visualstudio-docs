@@ -15,7 +15,7 @@ ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 24
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Overriding ToolsVersion Settings
 You can change the Toolset for projects and solutions in one of three ways:  

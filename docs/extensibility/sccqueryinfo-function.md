@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "SccQueryInfo function"
 ms.assetid: 3973d336-a9b7-41a2-a4e6-bb8184a96aaf
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccQueryInfo Function
 This function obtains status information for a set of selected files under source control.  

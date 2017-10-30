@@ -65,13 +65,12 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Customize how models are saved to file.|See [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)|  
 |Save models to databases or other media.|Override *YourLanguage*DocData<br /><br /> See [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)|  
 |Integrate several DSLs so that they work as part of one application.|See [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).|  
-|Allow your DSL to be extended by third parties, and control the extension.|[Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md)<br /><br /> [Sharing Classes between DSLs by using a DSL Library](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md)<br /><br /> [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md)|  
-|||  
+|Allow your DSL to be extended by third parties, and control the extension.|[Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md)<br /><br /> [Sharing Classes between DSLs by using a DSL Library](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md)<br /><br /> [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md)|
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+ [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

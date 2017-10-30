@@ -22,7 +22,7 @@ ms.assetid: 02ebad64-9fd3-495f-ab27-4f6206b3d6d2
 caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # PowerPoint Solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office PowerPoint. You can use VSTO Add-ins to automate PowerPoint, extend PowerPoint features, or customize the PowerPoint user interface (UI).  

@@ -16,7 +16,7 @@ ms.assetid: ba1863ad-e35f-4d34-a2f2-5e68957d1915
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # CvInitProvider Function
 Initializes marker provider. Has to be called before any other Concurrency Visualizer SDK functions.  

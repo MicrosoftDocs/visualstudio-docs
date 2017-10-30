@@ -17,7 +17,7 @@ ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # VTableShape
 The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class child symbol identified by the `SymTagVTableShape` tag.  

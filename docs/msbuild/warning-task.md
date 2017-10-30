@@ -22,7 +22,7 @@ ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
 caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Warning Task
 Logs a warning during a build based on an evaluated conditional statement.  

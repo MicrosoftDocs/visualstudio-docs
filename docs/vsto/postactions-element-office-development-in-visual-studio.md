@@ -19,7 +19,7 @@ ms.assetid: 6e487549-fdd6-49bd-be7a-b91f1f964594
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;postActions&gt; Element (Office Development in Visual Studio)
   The `postActions` element of the `vstav3` namespace contains all the `postAction` elements that describe post-deployment actions, which run after Office solutions are installed.  

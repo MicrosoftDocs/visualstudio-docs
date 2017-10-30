@@ -14,7 +14,7 @@ ms.assetid: ac108db1-9dbf-4dc4-bf48-159ca8d3725c
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findInlineeLinesByRVA
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified relative virtual address (RVA).  

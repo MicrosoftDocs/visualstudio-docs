@@ -58,7 +58,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
  **Application type**  
- Specifies the type of application to build. For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
+ Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
   
  For a web application project, you must specify **Class Library**.  
   

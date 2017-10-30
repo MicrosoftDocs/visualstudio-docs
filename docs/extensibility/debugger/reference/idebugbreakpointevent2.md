@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBreakpointEvent2 interface"
 ms.assetid: 50b3a7a7-331b-42c8-922c-ff3522ebe1da
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when a program stops at a breakpoint.  

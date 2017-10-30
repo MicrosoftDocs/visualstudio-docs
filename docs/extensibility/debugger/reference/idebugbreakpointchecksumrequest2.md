@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2 interface"
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointChecksumRequest2
 Represents a document checksum for a breakpoint request.  

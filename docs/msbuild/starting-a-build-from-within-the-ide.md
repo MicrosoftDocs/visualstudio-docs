@@ -14,7 +14,7 @@ ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Starting a Build from within the IDE
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  

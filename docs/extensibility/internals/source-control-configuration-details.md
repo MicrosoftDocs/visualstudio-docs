@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], configuration details"
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Source Control Configuration Details
 In order to implement source control, you need to properly configure your project system or editor to do the following:  

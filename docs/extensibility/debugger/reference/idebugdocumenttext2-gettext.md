@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugDocumentText2::GetText"
 ms.assetid: f8c15a58-da77-473e-a721-7a094e306c63
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentText2::GetText
 Retrieves the text from the specified position in the document.  

@@ -22,7 +22,7 @@ ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetFrameworkSdkPath Task
 Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  

@@ -1,7 +1,7 @@
 ---
 title: Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 09/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Working with Python in Visual Studio

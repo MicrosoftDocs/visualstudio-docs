@@ -1,7 +1,7 @@
 ---
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: c9c53f76-d0ef-4095-8b39-b7eb9bb33aba
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Python Projects

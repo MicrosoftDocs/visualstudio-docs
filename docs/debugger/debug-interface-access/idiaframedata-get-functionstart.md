@@ -16,7 +16,7 @@ ms.assetid: 49fd24fb-65c2-4812-8303-56a968353e1b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaFrameData::get_functionStart
 Retrieves a flag that indicates whether the block contains the entry point of a function.  

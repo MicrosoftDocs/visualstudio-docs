@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Groups element (VSCT XML schema)"
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Group Element
 Defines a VSPackage command group.  

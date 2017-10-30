@@ -12,7 +12,7 @@ ms.assetid: 509d2d4f-48a5-4cdf-acad-6f7b75421303
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # PerfTips
 Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools** help you to monitor and analyze the performance of your app while you are debugging.  

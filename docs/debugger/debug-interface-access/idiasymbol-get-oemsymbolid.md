@@ -16,7 +16,7 @@ ms.assetid: 187801f0-bd82-4c5b-9fae-8eeb1a4ac0ce
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_oemSymbolId
 Retrieves the original equipment manufacturer (OEM) symbol's ID value.  

@@ -19,7 +19,7 @@ ms.assetid: a5619325-8b54-41f1-becb-3f6eae7e4a6b
 caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Use Word Dialog Boxes in Hidden Mode
   You can perform complex operations with one method call by invoking the built-in dialog boxes in Microsoft Office Word without displaying them to the user. You can do this by using the <xref:Microsoft.Office.Interop.Word.Dialog.Execute%2A> method of the <xref:Microsoft.Office.Interop.Word.Dialog> object without calling the <xref:Microsoft.Office.Interop.Word.Dialog.Display%2A> method.  

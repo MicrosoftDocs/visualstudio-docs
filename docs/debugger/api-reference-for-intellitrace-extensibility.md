@@ -14,7 +14,7 @@ ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # API Reference for IntelliTrace Extensibility
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.  

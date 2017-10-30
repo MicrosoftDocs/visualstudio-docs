@@ -1,7 +1,7 @@
 ---
 title: "R Tools Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,7 +17,7 @@ ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # R Tools for Visual Studio options

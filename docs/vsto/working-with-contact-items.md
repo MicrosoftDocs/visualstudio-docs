@@ -20,7 +20,7 @@ ms.assetid: e1bd9493-ee33-40e0-8b62-f310e9e35b33
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Contact Items
   The <xref:Microsoft.Office.Interop.Outlook.ContactItem> class contains the methods and properties you use to perform tasks with contacts.  

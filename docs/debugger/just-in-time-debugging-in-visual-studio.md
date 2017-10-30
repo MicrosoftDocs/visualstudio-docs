@@ -15,7 +15,7 @@ ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
 caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Respond to the Just-In-Time Debugger
 

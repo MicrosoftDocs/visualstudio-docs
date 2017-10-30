@@ -23,7 +23,7 @@ ms.assetid: 59704974-b7d9-46d6-949c-e97349c75279
 caps.latest.revision: 59
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Outlook Object Model Overview
   To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.  

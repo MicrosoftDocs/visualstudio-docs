@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], sessions"
 ms.assetid: 18d82199-b2d4-47a9-924f-ab64faf60ca1
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug Session
 In terms of the debugger architecture, a **session**:  

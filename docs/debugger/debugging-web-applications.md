@@ -22,7 +22,7 @@ ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging Web Applications
 This section explains how to debug several types of Web applications.  

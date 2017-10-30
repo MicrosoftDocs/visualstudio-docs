@@ -19,7 +19,7 @@ ms.assetid: 1e6131ad-0e5b-4189-be67-5b2ed87d193d
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Restore Selections After Searches
   If you find and replace text in a document, you might want to restore the user's original selection after the search is completed.  

@@ -23,7 +23,7 @@ ms.assetid: fd9e4225-68cb-4608-8b27-468b0218c936
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # SetEnv Task
 Sets or deletes the value of a specified environment variable.  

@@ -20,7 +20,7 @@ ms.assetid: 83db570d-6b9f-4dab-9e71-db41f17b987a
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Site Definitions for SharePoint
   The SharePoint Site Definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] lets you create a *site definition*, which serves as a foundation for a new SharePoint site. These definitions not only determine the appearance and behavior of the SharePoint site, but also its default content and functionality. In the definition you can put preconfigured lists, content types, event receivers, images, and other items. SharePoint includes some site definitions such as BLOG, for example. When you create a site based on the BLOG site definition, the site contains the lists, Web parts, and other items that a blogging site requires.  

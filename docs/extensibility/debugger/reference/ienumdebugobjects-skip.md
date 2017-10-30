@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugObjects::Skip method"
 ms.assetid: 957cead8-0a9c-4403-b190-b9fbadc49d42
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugObjects::Skip
 This method skips over the specified number of elements.  

@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugDocumentPositionOffset2 interface"
 ms.assetid: f1b05db3-50d8-453f-a72f-e68b239236a4
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentPositionOffset2
 Represents a position in a source file as a character offset.  

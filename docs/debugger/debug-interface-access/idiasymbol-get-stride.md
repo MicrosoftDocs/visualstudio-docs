@@ -14,7 +14,7 @@ ms.assetid: 4264742a-3d91-44b9-9d14-87adbc77f0f0
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_stride
 Retrieves the stride of the matrix or strided array.  

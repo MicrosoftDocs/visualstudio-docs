@@ -16,7 +16,7 @@ ms.assetid: e6d6deee-dc12-4b38-af15-f917b2d4368e
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaImageData::get_relativeVirtualAddress
 Retrieves the location in virtual memory of the module relative to the application.  
