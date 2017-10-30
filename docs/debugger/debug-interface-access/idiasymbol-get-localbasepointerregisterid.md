@@ -16,7 +16,7 @@ ms.assetid: 9cbcaf00-9ace-45e1-b164-7a9439e08083
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_localBasePointerRegisterId
 Retrieves the ID of the register that holds a base pointer to local variables on the stack. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  

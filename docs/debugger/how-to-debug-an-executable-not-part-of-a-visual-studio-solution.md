@@ -22,7 +22,7 @@ ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Debug an executable that is not part of a Visual Studio solution
 Sometimes, you may want to debug an executable (.exe file) that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or an executable you received from someone else.  

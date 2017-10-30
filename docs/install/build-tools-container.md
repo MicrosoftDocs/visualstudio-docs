@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: "d5c038e2-e70d-411e-950c-8a54917b578a"
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install Build Tools into a Container
 
@@ -32,7 +32,7 @@ If you have already installed Docker for Windows, you can skip to step 3.
 Hyper-V is not enabled by default. It must be enabled to start Docker for Windows, since currently only Hyper-V isolation is supported for Windows 10.
 
 * [Enable Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-* [Enable Hyper-V on Windows Server 2017](https://docs.microsoft.com/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server)
+* [Enable Hyper-V on Windows Server 2016](https://docs.microsoft.com/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server)
 
 > [!NOTE]
 > Virtualization must be enabled on your machine. It is typically enabled by default; however, if Hyper-V install fails, refer to your system documentation for how to enable virtualization.

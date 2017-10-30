@@ -17,7 +17,7 @@ ms.assetid: e6c2657f-45e5-42d6-90c7-a45ec1dcbf50
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # User Interface Reference (Office Development in Visual Studio)
   The following user interface elements are part of Office projects in Visual Studio.  

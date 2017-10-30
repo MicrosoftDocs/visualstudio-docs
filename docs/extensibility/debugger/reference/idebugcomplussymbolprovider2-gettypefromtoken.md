@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "GetTypeFromToken"
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
 Retrieves a type given its token.  

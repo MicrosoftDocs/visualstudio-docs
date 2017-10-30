@@ -14,7 +14,7 @@ ms.assetid: 61427d33-30d2-4ac9-9bd6-c58c6c705072
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findInlineeLinesByVA
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified virtual address (VA).  

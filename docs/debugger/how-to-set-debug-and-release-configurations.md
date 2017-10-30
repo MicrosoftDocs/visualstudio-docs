@@ -35,7 +35,7 @@ ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set debug and release configurations in Visual Studio
 Visual Studio projects have separate release and debug configurations for your program. As the names imply, you build the debug version for debugging and the release version for the final release distribution.  

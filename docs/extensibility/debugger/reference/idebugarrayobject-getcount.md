@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetCount method"
 ms.assetid: 7931f3f7-033c-4bf8-8abd-95183952ebb0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayObject::GetCount
 Gets the count of elements in the array.  

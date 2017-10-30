@@ -12,7 +12,7 @@ ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 14
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Application Lifecycle Management (ALM) with Xamarin apps
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).  

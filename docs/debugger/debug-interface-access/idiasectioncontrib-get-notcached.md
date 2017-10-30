@@ -16,7 +16,7 @@ ms.assetid: 5408ea53-f64c-431e-9f62-62819026b038
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_notCached
 Retrieves a flag that indicates whether the section cannot be cached.  

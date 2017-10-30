@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "Debugging SDK, samples"
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Debugging Samples
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].  

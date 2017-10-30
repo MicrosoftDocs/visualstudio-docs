@@ -21,7 +21,7 @@ ms.assetid: bff1895b-d3fe-4ec0-ba91-f8884dc35957
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Edit a SharePoint Deployment Configuration
   You can create a deployment configuration or modify an existing deployment configuration. For example, you could run a single step or change the order of the steps in the deployment process. You may want to create or modify deployment configurations because the built-in and programmatically added configurations cannot be changed.  

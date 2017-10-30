@@ -23,7 +23,7 @@ ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Debug Inline Assembly Code
 > [!NOTE]

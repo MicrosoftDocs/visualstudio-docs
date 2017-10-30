@@ -16,7 +16,7 @@ ms.assetid: f5c108be-a0cc-408b-9590-b8d44361810c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_initializedData
 Retrieves a flag that indicates whether the section contains initialized data.  

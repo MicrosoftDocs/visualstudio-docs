@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "expression evaluation, context"
 ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Expression Evaluation Context
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, an **expression evaluation context**:  

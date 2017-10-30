@@ -16,7 +16,7 @@ ms.assetid: 001fbfce-a278-4502-aa27-26d65dd61453
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Concurrency Namespace (Concurrency Visualizer)
 The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).  

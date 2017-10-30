@@ -16,7 +16,7 @@ ms.assetid: 360b61b1-69b1-4a8b-ba37-97a1d835ac53
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSegment::get_addressSection
 Retrieves the section number that maps to this segment.  

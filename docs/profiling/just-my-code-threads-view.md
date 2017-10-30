@@ -16,7 +16,7 @@ ms.assetid: a9ac8a2c-9d99-4207-8ed4-e87f033f440d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Just My Code (Threads View)
 If you select this option, you will filter the call stack to show only your code plus one level of called functions.  

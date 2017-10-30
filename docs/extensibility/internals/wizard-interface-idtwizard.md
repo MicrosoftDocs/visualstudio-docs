@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "wizards, interface"
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Wizard Interface (IDTWizard)
 The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.  

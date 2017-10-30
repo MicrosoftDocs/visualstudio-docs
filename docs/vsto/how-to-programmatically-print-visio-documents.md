@@ -18,7 +18,7 @@ ms.assetid: 606a2678-5eb8-40b2-a50a-305cecb1b3d4
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Print Visio Documents
   You can print a complete Microsoft Office Visio document or only a specific page.  

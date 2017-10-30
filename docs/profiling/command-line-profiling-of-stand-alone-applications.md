@@ -15,7 +15,7 @@ ms.assetid: a47f2bf2-186d-4120-bb79-34e2f3a1ee42
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command-Line Profiling of Stand-Alone Applications
 This section describes the procedures and options for collecting performance data for stand-alone (client) applications by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.  

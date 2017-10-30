@@ -12,7 +12,7 @@ ms.devlang: VB
 ms.assetid: 8ad16c15-432b-4b8c-86fd-5f31ad652d24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.extractmethod"
 dev_langs: 

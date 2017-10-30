@@ -16,7 +16,7 @@ ms.assetid: f647eee9-a73c-483b-9fe9-21f42e560a7b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findLinesByVA
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.  

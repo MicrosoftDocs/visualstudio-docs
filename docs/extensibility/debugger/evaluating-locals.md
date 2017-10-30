@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "expression evaluation, evaluating locals"
 ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Evaluating Locals
 > [!IMPORTANT]

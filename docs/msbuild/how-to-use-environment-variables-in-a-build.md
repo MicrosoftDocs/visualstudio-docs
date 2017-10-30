@@ -16,7 +16,7 @@ ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 caps.latest.revision: 15
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Use Environment Variables in a Build
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.  

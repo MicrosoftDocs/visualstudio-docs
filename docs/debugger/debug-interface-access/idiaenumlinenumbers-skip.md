@@ -16,7 +16,7 @@ ms.assetid: d182c269-8c76-4d8b-8275-c6807c5ae4e1
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumLineNumbers::Skip
 Skips a specified number of line numbers in an enumeration sequence.  

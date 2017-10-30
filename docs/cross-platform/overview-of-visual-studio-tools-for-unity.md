@@ -12,7 +12,7 @@ ms.assetid: b4231bb9-45c4-4c77-ac3c-d05033b26393
 caps.latest.revision: 4
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Overview of Visual Studio Tools for Unity
 In this section, you'll learn more about the features Visual Studio Tools for Unity offers, and how you can use them to become more productive with Unity.  

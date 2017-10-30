@@ -20,7 +20,7 @@ ms.assetid: 9ac1e6ea-9511-4633-80f9-dc7641f22b63
 caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started Programming VSTO Add-ins
   You can use VSTO Add-ins to automate Microsoft Office applications, extend features of the application, and customize the user interface (UI) of the application. For information about how VSTO Add-ins compare to other types of Office solutions you can create by using Visual Studio, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  

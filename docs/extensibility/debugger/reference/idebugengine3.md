@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugEngine3 interface"
 ms.assetid: 8bdf4bb7-3b5d-4991-8981-772d4f6bb656
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine3
 Represents a single debug engine (DE) that controls the debugging of one or more modules.  

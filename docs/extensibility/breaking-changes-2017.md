@@ -12,7 +12,7 @@ ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Changes in Visual Studio 2017 extensibility
 

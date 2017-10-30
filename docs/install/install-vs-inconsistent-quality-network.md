@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 44DB1998-68CD-4560-870A-EE5B993DCF6E
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Install Visual Studio 2017 on low bandwidth or unreliable network environments

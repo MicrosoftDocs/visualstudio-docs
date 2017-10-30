@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "BP_RESOLUTION_LOCATION structure"
 ms.assetid: 21dc5246-69c1-43e3-855c-9cd4e596c0e6
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_RESOLUTION_LOCATION
 Specifies the structure of the breakpoint resolution location.  

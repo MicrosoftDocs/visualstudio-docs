@@ -20,7 +20,7 @@ ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Find the Name of the ASP.NET Process
 To attach to a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, you have to know the name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process:  

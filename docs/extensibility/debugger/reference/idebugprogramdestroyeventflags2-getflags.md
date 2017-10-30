@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEventFlags2::GetFlags"
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 Retrieves the program destroy flags.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "PromptForSaveOnCreation element [Visual Studio project templates]"
 ms.assetid: 75174674-0c3c-4b57-b2fd-6ea8e817b67d
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PromptForSaveOnCreation Element (Visual Studio Templates)
 Specifies whether the user is prompted for a project save location via the **New Project** dialog box when creating a project. If this element is set to `true`, then the user is prompted for a save location; if `false`, then they are not prompted. (That is, a temporary project is created.)  

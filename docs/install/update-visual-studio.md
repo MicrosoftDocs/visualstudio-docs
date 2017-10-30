@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: db005b65-d233-4471-b337-551fb3fa2464
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Update Visual Studio 2017 to the most recent release
 We update Visual Studio often to extend its functionality and to fix customer-reported issues. To make sure you have the most [current, optimized release of Visual Studio](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history), you'll want to update it. Here's how.

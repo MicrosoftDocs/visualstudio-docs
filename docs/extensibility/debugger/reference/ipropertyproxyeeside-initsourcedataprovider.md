@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::InitSourceDataProvider"
 ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IPropertyProxyEESide::InitSourceDataProvider
 Initializes the source data for this object and returns an object containing the initial data.  

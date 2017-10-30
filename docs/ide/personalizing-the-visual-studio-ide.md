@@ -1,7 +1,7 @@
 ---
 title: "Personalize the Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/20/2017
+ms.date: 07/20/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

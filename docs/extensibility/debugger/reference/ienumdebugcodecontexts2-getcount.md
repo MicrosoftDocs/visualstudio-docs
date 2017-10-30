@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugCodeContexts2::GetCount"
 ms.assetid: 74c52fcf-688c-40df-9acd-29b3b84e6216
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugCodeContexts2::GetCount
 Returns the number of elements in the enumeration.  

@@ -19,7 +19,7 @@ ms.assetid: 0c9d22d0-0852-4260-89c6-b83f24e48793
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;entryPoint&gt; Element (Office Development in Visual Studio)
   Each `entryPoint` element of the `vstav3` namespace identifies a customization assembly that should be run when this [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application is installed.  

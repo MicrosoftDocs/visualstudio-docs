@@ -16,7 +16,7 @@ ms.assetid: 60d05654-e832-4a2e-a4a7-fe9922c459fe
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_age
 Retrieves the age value of a .pdb file.  

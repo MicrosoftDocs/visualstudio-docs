@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "CONNECTION_PROTOCOL enumeration"
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CONNECTION_PROTOCOL
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).  

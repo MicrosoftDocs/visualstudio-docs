@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "SolutionFolder element [Visual Studio Templates]"
 ms.assetid: 963f0398-fb50-4d8e-879d-d48f8b7c6d80
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SolutionFolder Element (Visual Studio Templates)
 Groups projects in multi-project templates.  

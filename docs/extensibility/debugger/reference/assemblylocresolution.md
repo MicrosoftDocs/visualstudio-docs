@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "ASSEMBLYLOCRESOLUTION enumeration"
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # ASSEMBLYLOCRESOLUTION
 Specifies where an assembly is located.  

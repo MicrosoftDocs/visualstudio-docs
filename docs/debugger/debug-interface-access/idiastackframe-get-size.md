@@ -16,7 +16,7 @@ ms.assetid: 71e2f5ab-4aa8-4922-aa8a-b7db97ee143c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackFrame::get_size
 Retrieves the size of the stack frame in bytes.  

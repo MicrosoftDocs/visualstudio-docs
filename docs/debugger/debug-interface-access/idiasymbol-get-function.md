@@ -16,7 +16,7 @@ ms.assetid: 48b3a318-3211-410f-8570-c02ee210f0a5
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_function
 Retrieves a flag that specifies whether the public symbol refers to a function.  

@@ -10,8 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Roslyn Analyzers and Code-aware Library for ImmutableArrays
 

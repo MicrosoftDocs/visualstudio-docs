@@ -14,7 +14,7 @@ ms.assetid: 36b1e881-ea76-48b0-b67f-e9eb0d19bec7
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_isMatrixRowMajor
 Specifies whether the matrix is row major.  

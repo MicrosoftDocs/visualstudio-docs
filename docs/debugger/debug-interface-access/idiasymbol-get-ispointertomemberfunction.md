@@ -14,7 +14,7 @@ ms.assetid: aa9b5599-9602-41be-ab50-d84b90bee72f
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_isPointerToMemberFunction
 Specifies whether this symbol is a pointer to a member function.  

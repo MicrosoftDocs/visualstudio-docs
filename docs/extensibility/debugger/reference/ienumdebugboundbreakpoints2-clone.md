@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Clone"
 ms.assetid: c6ce01a2-7da3-46ec-9837-855042fa7244
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugBoundBreakpoints2::Clone
 Returns a copy of the current enumeration as a separate object.  
