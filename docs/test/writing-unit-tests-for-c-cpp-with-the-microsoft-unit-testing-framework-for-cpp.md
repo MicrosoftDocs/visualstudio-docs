@@ -13,17 +13,23 @@ caps.latest.revision: 14
 ms.author: "mblome"
 manager: "ghogen"
 ---
-# Writing Unit tests for C/C++
-Visual Studio supports unit tests for C++ code using any of these options:
- -  the Microsoft Unit Testing Framework for C++
+# Writing unit tests for C/C++
+Visual Studio supports unit tests for C++ code using any of these frameworks:
+ -  Microsoft Unit Testing Framework for C++
  -  Google Test
  -  Boost.Test
- -  CTest   
+ -  CTest  
+
+For Boost.Test support, download the extension on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest). When the adapter is installed, you will see it in the list shown above. Additional third-party adapters for other C++ test frameworks are available on the Visual Studio marketplace.
+
+CTest support is installed along with the CMake Tools for Visual Studio component which is part of the C++ Desktop Workload. 
+
+In addition, you can write your own test adapter for whatever framework you would like to use within Visual Studio. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks)
   
- The following procedure contains the essential information to get you started testing the exported functions (DLLs) or public member functions in your program. For a deeper dive, see [Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md).
+The following procedure shows the basic steps to get you started. It uses the Microsoft Unit Testing Framework but the basic workflow is the same for Google.Test, Boost.Test and any other framework that is implemented via a test adapter. Since CMake is supported through the Open Folder environment, there is no Visual Studio test project for it. You can run CTest tests from the CMake menu, but full IDE integration with **Test Explorer** is not yet available. 
   
 ## Create a test project
-You define an run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose ** Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The available projects might differ from what you see here depending on what you have installed on your machine:
+You define an run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
 
 ![C++ Test Projects](media/cpp-new-test-project.png "C++ new test project templates")
 
@@ -63,13 +69,15 @@ In the previous example, the result of the `Assert::AreEqual` call determines wh
 
 ![Test Explorer before tests are run](media/cpp-test-explorer.png "C++ Test Explorer")
 
+2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+  
+3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+
 After running all the tests, the window looks something like this:
 
 ![Test Explorer after tests are run](media/cpp-test-explorer-passed.png "C++ Test Explorer after running tests")
 
-2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
-  
-3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 ## See Also
 [Unit Testing Existing C++ Applications](unit-testing-existing-cpp-applications.md)

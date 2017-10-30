@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 11
-ms.author: "douge"
-manager: "douge"
+ms.author: mblome
+manager: ghogen
 ---
 # Unit testing existing C++ applications with Test Explorer
 We recommend that, before you change an existing application, you make sure that it has a good coverage with unit tests. This gives you confidence that your changes have not introduced bugs. If the application does not already have unit tests, you can add them by using the techniques demonstrated in this topic. This topic describes how to add unit tests for existing Visual C++ code, starting with deciding how to test your code, and then creating, writing, and finally, running the tests.  
@@ -158,8 +158,11 @@ We recommend that, before you change an existing application, you make sure that
   
 ## Run the tests  
   
-1.  On the **View** menu, choose **Other Windows**, **Test Explorer**.  
+1.  On the **Test** menu, choose **Windows**, **Test Explorer**.  
+2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
   
-2.  In Test Explorer, choose **Run All**.  
+2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
   
- For more information, see [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md).
+## See Also
+[Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+
