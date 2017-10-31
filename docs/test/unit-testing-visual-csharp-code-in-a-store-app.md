@@ -1,5 +1,5 @@
 ---
-title: "Unit testing Visual C# code in a Store app | Microsoft Docs"
+title: "Unit testing Visual C# code in a UWP app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -13,8 +13,8 @@ caps.latest.revision: 19
 ms.author: "douge"
 manager: "douge"
 ---
-# Unit testing Visual C# code in a Store app
-This topic describes one way to create unit tests for a Visual C# class in a Windows Store app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.  
+# Unit testing Visual C# code in a UWP app
+This topic describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.  
   
  This topic demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.  
   
@@ -48,13 +48,13 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 1.  On the **File** menu, choose **New**, and then choose **New Project**.  
   
-2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store**. Then choose **Blank App** from the list of project templates.  
+2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.  
   
 3.  Name the project `Maths` and make sure **Create directory for solution** is selected.  
   
 4.  In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.  
   
-5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store** . Then choose **Unit Test Library (Windows Store apps)** from the list of project templates.  
+5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal** . Then choose **Unit Test Library (Universal Windows)** from the list of project templates.  
   
      ![Create the unit test project](../test/media/ute_cs_windows_createunittestproject.png "UTE_Cs_windows_CreateUnitTestProject")  
   
