@@ -12,7 +12,7 @@ ms.assetid: d3dc6a7e-bc0f-48a6-a4ec-f386348bb296
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProcessOn and ProcessOff
 The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume profiling for the specified process in a command-line profiling session. **ProcessOff** stops profiling the process and **ProcessOn** starts profiling the process.  

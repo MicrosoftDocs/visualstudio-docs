@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 683790b4-b68b-42d7-8dc4-a68eca05aa01
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Generate a method in Visual Basic

@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "breakpoint bound events"
 ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # When a Breakpoint Binds or Becomes Unbound
 When a breakpoint cannot be bound at the time a call is made to the [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) method, the bind time and create time of the breakpoint are different.  

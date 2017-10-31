@@ -15,7 +15,7 @@ ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modules View - Sampling Data
 The Modules view of sampling data displays performance data that is grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The sampled functions of the module are listed underneath the module node.  

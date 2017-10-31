@@ -17,7 +17,7 @@ ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
 caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Run UWP and Windows 8.1 apps in the simulator
 The Visual Studio simulator for UWP and Windows 8.1 apps is a desktop application that simulates a UWP or Windows 8.1 app. You can run applications choose the physical screen size and resolution that you want to emulate. You can also simulate common touch and rotation events and simulate network connection properties.

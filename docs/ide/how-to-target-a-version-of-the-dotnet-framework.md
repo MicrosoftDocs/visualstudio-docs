@@ -65,7 +65,7 @@ This document describes how to target a version of the .NET Framework when you c
      ![Visual Studio App Properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
   
     > [!NOTE]
-    >  After you create a Windows Store app, you can't change the targeted version of either Windows or the .NET Framework.  
+    >  After you create a UWP app, you can't change the targeted version of either Windows or the .NET Framework.  
   
 3.  In the **Target Framework** list, choose the version that you want.  
   

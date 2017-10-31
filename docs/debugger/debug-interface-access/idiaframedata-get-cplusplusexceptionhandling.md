@@ -16,7 +16,7 @@ ms.assetid: 54ee9cde-ce8e-45f1-809c-6fbad800d850
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaFrameData::get_cplusplusExceptionHandling
 Retrieves a flag that indicates whether C++ exception handling is in effect.  

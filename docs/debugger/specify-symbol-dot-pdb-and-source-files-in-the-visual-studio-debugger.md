@@ -31,7 +31,7 @@ ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger
 A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source code for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information:

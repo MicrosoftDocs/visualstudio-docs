@@ -20,7 +20,7 @@ ms.assetid: 53c32c61-3d3a-4427-a5a7-f9c2c8f1de02
 caps.latest.revision: 103
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Designing and Creating Office Solutions
   Visual Studio provides project templates that you can use to create several different types of Office solutions. This section of the documentation describes the project templates and provides guidance about creating Office projects. For information about how to implement code and user interface customizations after you have created your project, see [Developing Office Solutions](../vsto/developing-office-solutions.md).  

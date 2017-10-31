@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 ms.assetid: 096d273d-4fe9-4f24-9b00-470bfbdf4bdf
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending Projects
 Projects and solutions are the ways Visual Studio organizes code and resource files into compilation and deployment units. You can find more information about projects in [Projects (Visual Studio SDK)](../extensibility/extending-projects.md).  

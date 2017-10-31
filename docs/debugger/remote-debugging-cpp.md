@@ -20,7 +20,7 @@ ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Remote Debugging a Visual C++ Project in Visual Studio
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.

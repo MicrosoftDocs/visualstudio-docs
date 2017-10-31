@@ -21,7 +21,7 @@ ms.assetid: 51fb5bdd-b99c-4716-83bc-e66a5da15169
 caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Creating a Web Part for SharePoint
   Web Parts enable users to directly modify the content, appearance, and behavior of SharePoint site pages by using a browser. This walkthrough shows you how to create a Web Part by using the **Web Part** item template in Visual Studio 2010.  

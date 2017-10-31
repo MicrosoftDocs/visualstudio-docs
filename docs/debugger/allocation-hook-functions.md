@@ -26,7 +26,7 @@ ms.assetid: 6bfbdb65-8cb1-4c21-8c45-7194a2b77c1e
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Allocation Hook Functions
 An allocation hook function, installed using [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  

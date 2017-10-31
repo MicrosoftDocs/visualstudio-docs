@@ -17,7 +17,7 @@ ms.assetid: 8a5b78aa-7b3d-476c-a47d-abfaff3fae7c
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DA0008: Few samples collected
 |||  

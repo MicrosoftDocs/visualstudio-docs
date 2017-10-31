@@ -14,7 +14,7 @@ ms.assetid: f9ed21b7-9397-4813-926e-ade11914b06b
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_baseDataSlot
 Retrieves the base data slot.  

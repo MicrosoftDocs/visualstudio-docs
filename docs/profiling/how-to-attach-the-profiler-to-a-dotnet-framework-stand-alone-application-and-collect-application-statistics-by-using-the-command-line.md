@@ -12,7 +12,7 @@ ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea
 caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application and Collect Application Statistics by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect performance statistics by using the sampling method.  

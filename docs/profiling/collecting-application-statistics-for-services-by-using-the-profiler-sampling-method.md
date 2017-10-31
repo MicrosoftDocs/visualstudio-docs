@@ -12,7 +12,7 @@ ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Collecting Application Statistics for Services by Using the Profiler Sampling Method
 This section describes the procedures and options for collecting performance statistics for Windows services using the sampling method from the command line.  

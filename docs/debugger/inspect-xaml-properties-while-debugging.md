@@ -12,7 +12,7 @@ ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Inspect XAML properties while debugging
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.  

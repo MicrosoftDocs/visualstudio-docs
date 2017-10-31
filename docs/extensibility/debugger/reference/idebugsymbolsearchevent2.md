@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugSymbolSearchEvent2"
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolSearchEvent2
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.  

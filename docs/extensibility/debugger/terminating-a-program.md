@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], terminating a program"
 ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Terminating a Program
 The following is a description of the termination of a single program with one thread.  

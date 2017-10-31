@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugDocumentPosition2::IsPositionInDocument"
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocumentPosition2::IsPositionInDocument
 Determines if the document position is contained in the given document.  

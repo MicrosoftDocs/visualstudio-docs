@@ -68,7 +68,7 @@ The following list shows the allowable language convention rules:
         - csharp\_style\_var\_for\_built\_in_types
         - csharp\_style\_var\_when\_type\_is_apparent
         - csharp\_style\_var_elsewhere
-    - [Expression-bodied members](#expression_body)
+    - [Expression-bodied members](#expression_bodied_members)
         - csharp\_style\_expression\_bodied_methods
         - csharp\_style\_expression\_bodied_constructors
         - csharp\_style\_expression\_bodied_operators

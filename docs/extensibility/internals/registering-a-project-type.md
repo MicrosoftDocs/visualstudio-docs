@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "registration, new project types"
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering a Project Type
 When you create a new project type, you must create registry entries that enable [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.  

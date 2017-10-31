@@ -16,7 +16,7 @@ ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DiaAddressMapEntry
 Describes an entry in an address map.  

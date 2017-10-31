@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::UnpublishProgram"
 ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramPublisher2::UnpublishProgram
 Makes a program unavailable to be debugged.  

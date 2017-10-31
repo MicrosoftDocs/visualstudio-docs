@@ -16,7 +16,7 @@ ms.assetid: 39736f35-6c73-4f54-a092-517192e417ff
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_uninitializedData
 Retrieves a flag that indicates whether the section contains uninitialized data.  

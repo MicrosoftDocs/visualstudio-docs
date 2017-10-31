@@ -17,7 +17,7 @@ ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Deploy UWP apps from Visual Studio
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

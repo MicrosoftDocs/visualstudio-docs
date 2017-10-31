@@ -20,7 +20,7 @@ ms.assetid: a9753fbb-e7f4-47f0-9dbe-9de90c6c8457
 caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.

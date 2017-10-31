@@ -12,7 +12,7 @@ ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78
 caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a stand-alone (client) application and collect performance statistics by using the sampling method.  

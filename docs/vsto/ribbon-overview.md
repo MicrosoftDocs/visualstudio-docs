@@ -23,7 +23,7 @@ ms.assetid: 2bdef092-190d-47e3-9440-e862b95dacaa
 caps.latest.revision: 64
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Ribbon Overview
   The Ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the Ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.  

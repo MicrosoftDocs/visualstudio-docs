@@ -1,7 +1,7 @@
 ---
 title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/24/2017
+ms.date: 07/24/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Port, Migrate, and Upgrade Visual Studio Projects

@@ -20,7 +20,7 @@ ms.assetid: 19f0d815-51b2-406c-9f36-34aa0ec16b4a
 caps.latest.revision: 52
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Add New Worksheets to Workbooks
   You can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.  

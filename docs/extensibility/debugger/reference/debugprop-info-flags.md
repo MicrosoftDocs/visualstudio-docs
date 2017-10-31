@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "DBGPROP_INFO_FLAGS enumeration"
 ms.assetid: 1c7fe777-615e-4929-9ed4-970d9fe0eb81
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUGPROP_INFO_FLAGS
 Specifies what information to retrieve about a debug property object.  

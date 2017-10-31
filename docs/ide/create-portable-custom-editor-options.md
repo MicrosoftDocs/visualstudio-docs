@@ -112,5 +112,5 @@ textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId)
 _or_  
 textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)  
 
-# See Also
+## See Also
 [Create Portable Custom Editor Options with EditorConfig](create-portable-custom-editor-options.md)

@@ -18,7 +18,7 @@ ms.assetid: 92948fcc-76c6-4b08-ba63-cab59dd60eb1
 caps.latest.revision: 61
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Install Office Primary Interop Assemblies
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.  

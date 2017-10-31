@@ -17,7 +17,7 @@ ms.assetid: 60159535-61ec-466a-a4a6-115ec72a8af5
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Control execution of a Store app in a Visual Studio debug session for UWP apps (JavaScript)
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  

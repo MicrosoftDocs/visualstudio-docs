@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "language services, implementing hidden text regions"
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Provide Hidden Text Support in a Legacy Language Service
 You can create hidden text regions in addition to outline regions. Hidden text regions can be client-controlled or editor-controlled and are used to hide a region of text completely. The editor displays a hidden region as horizontal lines. An example of this is the Script Only view in the HTML editor.  

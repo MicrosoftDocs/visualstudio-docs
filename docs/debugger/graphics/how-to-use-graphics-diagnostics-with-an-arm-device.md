@@ -12,7 +12,7 @@ ms.assetid: 346fd3c0-9e92-4ab8-bb3b-1aa9000a2483
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Use Graphics Diagnostics with an ARM Device
 Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based devices that run Windows RT 8.1 or Windows Phone 8.1. You can capture graphics information from your Direct3D app while it runs on the device, or use the device as the playback machine for previously captured graphics information.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "DefaultName element [Visual Studio project templates]"
 ms.assetid: 0ff056c8-b9d2-4747-9308-92adf1811491
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DefaultName Element (Visual Studio Templates)
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.  

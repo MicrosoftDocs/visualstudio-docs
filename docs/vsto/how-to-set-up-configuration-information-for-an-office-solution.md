@@ -18,7 +18,7 @@ ms.assetid: f123838f-957a-4cf5-acc0-0cc0f4c2aea2
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set Up Configuration Information for an Office Solution
   You can use configuration files to configure settings that are specific to your Office solutions. You can specify settings such as assembly binding policy, remoting objects, debug, and trace settings.  

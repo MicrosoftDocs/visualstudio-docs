@@ -24,7 +24,7 @@ ms.assetid: 670c7fff-a8fb-499f-8694-d5aecc432c16
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Custom Property
   You can add custom properties to the model by using the **Property Editor**. You can access these properties in code to retrieve information such as connection strings and other data at run time.  

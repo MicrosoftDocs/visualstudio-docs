@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text layers"
 ms.assetid: 2258fcdd-38d1-479d-b8f8-1d4e6525f72c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessing Text Layers by Using the Legacy API
 A text layer typically encapsulates some aspect of text layout. For example, a "function-at-a-time" layer hides text before and after a function containing the caret (text insertion point).  

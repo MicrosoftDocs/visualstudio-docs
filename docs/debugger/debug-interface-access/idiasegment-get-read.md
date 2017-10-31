@@ -16,7 +16,7 @@ ms.assetid: aafbc86d-352c-4e1a-911a-1472d2d59212
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSegment::get_read
 Retrieves a flag that indicates whether the segment can be read.  

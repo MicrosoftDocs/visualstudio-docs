@@ -12,7 +12,7 @@ ms.assetid: a0046c47-26c8-4bec-96a0-81da05e5104a
 caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Attach the Profiler to a .NET Service to Collect Application Statistics by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect performance statistics by using the sampling method.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "language services [managed package framework], custom document properties"
 ms.assetid: cc714a67-b33e-4440-9203-3c90f648bd9c
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Custom Document Properties in a Legacy Language Service
 Document properties can be displayed in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Properties** window. Programming languages generally do not have properties associated with individual source files. However, XML supports document properties that affect the encoding, schema, and stylesheet.  

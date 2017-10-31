@@ -14,7 +14,7 @@ ms.assetid: 6e9cc5ca-24cc-49cf-aa22-c89733828f8c
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Windows Tab, Message Options Dialog Box
 Use the **Windows** tab to set the scope of the messages listed in [Messages View](../debugger/messages-view.md). To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.  

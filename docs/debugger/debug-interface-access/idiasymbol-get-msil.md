@@ -16,7 +16,7 @@ ms.assetid: 43a8e003-6856-4726-aa16-c0d4dae7299b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_msil
 Retrieves a flag that specifies whether the symbol refers to Microsoft Intermediate Language (MSIL) code.  

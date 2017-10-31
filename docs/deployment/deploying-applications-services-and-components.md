@@ -1,7 +1,7 @@
 ---
 title: "Deploying Applications, Services, and Components | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

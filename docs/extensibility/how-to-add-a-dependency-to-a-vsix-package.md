@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "vsix reference"
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Dependency to a VSIX Package
 You can set up a VSIX package deployment that installs any dependencies that are not already present on the target computer. To accomplish this, include the VSIX dependencies to the source.extension.vsixmanifest file.  

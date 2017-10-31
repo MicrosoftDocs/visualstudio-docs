@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugSymbolSearchEvent2::GetSymbolSearchInfo"
 ms.assetid: ae9eb72b-f2aa-43b8-87ca-da19d2e78d17
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 Called by an event handler to retrieve results about a symbol load process.  

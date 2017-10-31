@@ -17,7 +17,7 @@ ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
 caps.latest.revision: 43
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Run UWP apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

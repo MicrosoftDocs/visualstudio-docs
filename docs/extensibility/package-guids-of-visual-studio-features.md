@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode, package GUIDs"
 ms.assetid: f56f0356-f3ac-48bc-9674-94259e29a4df
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Package GUIDs of Visual Studio Features
 You can use the following GUIDs in the .pkgundef file of your isolated shell application to exclude specific packages from the application.  

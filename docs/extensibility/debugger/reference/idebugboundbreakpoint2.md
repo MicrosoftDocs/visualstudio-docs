@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2 interface"
 ms.assetid: df33c52e-ded2-48a0-951d-1f36c8fc922e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBoundBreakpoint2
 This interface represents a breakpoint that is bound to a code location.  

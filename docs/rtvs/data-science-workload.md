@@ -14,7 +14,7 @@ ms.assetid: 018069f3-6d1a-4143-a851-d86d2ff5fbfc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Data Science and Analytical Applications workload

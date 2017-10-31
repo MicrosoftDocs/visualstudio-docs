@@ -24,7 +24,7 @@ ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Edit code and continue Debugging in Visual Studio (C#, VB, C++)
 Edit and Continue is a time-saving feature that enables you to make changes to your source code while your program is in break mode. When you resume execution of the program by choosing an execution command like **Continue** or **Step**, Edit and Continue automatically applies the code changes with some limitations. This allows you to make changes to your code during a debugging session, instead of having to stop, recompile your entire program, and restart the debugging session.  

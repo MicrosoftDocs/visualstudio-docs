@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2"
 ms.assetid: 6b1e1863-0c64-4d85-8ab9-aface522fdea
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointUnboundEvent2
 This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program.  
