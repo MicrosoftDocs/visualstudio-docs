@@ -19,7 +19,7 @@ ms.assetid: 289c8c33-a603-434e-889f-a0d0a1736ecb
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set SharePoint Deployment Commands
   You can customize the deployment process by setting pre-deployment and post-deployment commands. These commands run before and after other deployment actions when you debug SharePoint solutions from Visual Studio.  

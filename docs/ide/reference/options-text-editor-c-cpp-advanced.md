@@ -18,7 +18,7 @@ ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Options, Text Editor, C/C++, Advanced
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  

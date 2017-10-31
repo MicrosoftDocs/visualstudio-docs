@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: "140083f1-05bc-4014-949e-fb5802397c7a"
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 # Known issues for containers
 

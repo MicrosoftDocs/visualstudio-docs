@@ -12,7 +12,7 @@ ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting Code Metrics Issues
 You might encounter some of the following issues when you collect code metrics:  

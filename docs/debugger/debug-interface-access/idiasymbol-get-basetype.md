@@ -16,7 +16,7 @@ ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_baseType
 Retrieves the base type for this symbol*.*  

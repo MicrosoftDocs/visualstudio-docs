@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 4 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 09/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: d76f8d93-30f4-424e-be90-0765d036c816
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 4: Running code in the debugger

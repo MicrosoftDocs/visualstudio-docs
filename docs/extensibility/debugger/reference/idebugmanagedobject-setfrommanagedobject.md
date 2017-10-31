@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugManagedObject::SetFromManagedObject method"
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugManagedObject::SetFromManagedObject
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.  

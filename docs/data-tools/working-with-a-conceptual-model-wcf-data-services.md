@@ -14,7 +14,7 @@ ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Working with a Conceptual Model (WCF Data Services)

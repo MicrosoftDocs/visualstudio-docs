@@ -12,7 +12,7 @@ ms.assetid: b73c865c-74e0-420e-89cc-43524f4aafd0
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Work with multiple user accounts
 If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Currently, Azure, Application Insights, Team Foundation Server, and Office 365 services support the streamlined sign-in experience. Additional services may become available as time goes by.
@@ -40,12 +40,12 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
 
 ### Access your Azure account via Add Connected Service dialog  
 
-1.  Create a Universal App project in C#.  
+1.  Create a UWP app project in C#.  
 
 2.  Choose the project node in Solution Explorer and then choose **Add, Connected Service**. The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.  
 
     > [!WARNING]
-    >  If this is the first time you are creating a Store app in Visual Studio on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124;  Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/en-us/library/windows/apps/dn706236.aspx).  
+    >  If this is the first time you are creating a UWP app in Visual Studio on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124;  Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/en-us/library/windows/apps/dn706236.aspx).  
 
 ###  <a name="access_azure"></a> Access Azure Active Directory in a Web project  
  Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in Web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File, New Project, C#, Cloud, ASP.NET Web Application**). In the New ASP.NET Project dialog choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.  

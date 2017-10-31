@@ -19,7 +19,7 @@ ms.assetid: c5eb4900-c35f-490a-b856-bf167da2d293
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Property to SharePoint Projects
   You can use a project extension to add a property to any SharePoint project. The property appears in the **Properties** window when the project is selected in **Solution Explorer**.  

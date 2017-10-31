@@ -12,7 +12,7 @@ ms.assetid: 6722263c-ccef-40c7-a0ae-87a863fbab00
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # VsgDbg Class
 Represents an interface for programmatic control of the in-app component of graphics diagnostics.  

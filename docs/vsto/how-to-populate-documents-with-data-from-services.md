@@ -19,7 +19,7 @@ ms.assetid: 4c42653c-627f-445e-9024-8482eaf5562e
 caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Populate Documents with Data from Services
   Data access works the same way in document-level projects for Microsoft Office as it does in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel and Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  

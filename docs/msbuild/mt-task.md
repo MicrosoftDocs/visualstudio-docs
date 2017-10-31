@@ -28,7 +28,7 @@ ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MT Task
 Wraps the Microsoft Manifest Tool, mt.exe. For more information, see "Mt.exe" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  

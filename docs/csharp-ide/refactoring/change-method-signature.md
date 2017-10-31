@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: b4f45f9d-9c8f-46ae-99f7-7705c6d90b6e
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"

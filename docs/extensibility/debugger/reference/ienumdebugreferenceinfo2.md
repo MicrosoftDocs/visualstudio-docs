@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2"
 ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugReferenceInfo2
 This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.  

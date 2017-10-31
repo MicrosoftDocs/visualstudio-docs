@@ -14,7 +14,7 @@ ms.assetid: 64834351-e2c9-4f1c-9dc0-2abb5478bc63
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_numberOfColumns
 Retrieves the number of columns in the matrix.  

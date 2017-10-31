@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], file persistence"
 ms.assetid: f71898ad-335f-4c43-a177-4da87078afd1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Opening and Saving Project Items
 When you add a new project type, you must manage the opening and saving of your projects files in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.  

@@ -1,7 +1,7 @@
 ---
 title: "Editing Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/10/2017
+ms.date: 07/10/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 03effe56-d6f6-461d-9005-e43c15bf537c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Editing Python code

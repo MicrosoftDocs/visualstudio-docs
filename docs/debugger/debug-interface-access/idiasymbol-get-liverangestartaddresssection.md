@@ -16,7 +16,7 @@ ms.assetid: 892b80ff-5957-4233-b4d7-6144167be289
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_liveRangeStartAddressSection
 Returns the section part of the starting address of the range in which the local symbol is valid.  

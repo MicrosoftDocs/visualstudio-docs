@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugErrorBreakpoint2 interface"
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugErrorBreakpoint2
 This interface represents an error or warning breakpoint, such as an invalid location, an invalid expression, or the reasons why the pending breakpoint has not bound (code not loaded yet, and so on).  

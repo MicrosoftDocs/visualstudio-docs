@@ -12,7 +12,7 @@ ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How To: Use the Concurrency Visualizer Markers SDK
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.  

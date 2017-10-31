@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProgram2::WriteDump"
 ms.assetid: 375afb8c-882d-44db-bfa7-e2c9eb555122
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::WriteDump
 Writes a dump to a file.  

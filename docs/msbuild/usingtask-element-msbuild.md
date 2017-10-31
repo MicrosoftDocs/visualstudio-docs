@@ -22,7 +22,7 @@ ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
 caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # UsingTask Element (MSBuild)
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.  

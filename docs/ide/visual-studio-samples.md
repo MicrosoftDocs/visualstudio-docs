@@ -14,7 +14,7 @@ ms.assetid: 3070fa13-46c7-4252-a1c2-857b4a2c9528
 caps.latest.revision: 51
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Samples
 You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkID=127810) website.  

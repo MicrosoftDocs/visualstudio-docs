@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreateStringObject method"
 ms.assetid: fd6070ab-07d4-4ea1-8d71-b16592d6f1a7
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugFunctionObject::CreateStringObject
 Creates a string object.  

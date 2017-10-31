@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::GetServer"
 ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetServer
 Gets the server that this process is running on.  

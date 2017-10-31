@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text view"
 ms.assetid: 8f751f72-c972-4be3-84ee-19c281e02e25
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessing theText View by Using the Legacy API
 A text view is a presentation of the text that is stored in a text buffer. You can access the text view by using the legacy API as shown in the following section.  

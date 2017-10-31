@@ -16,7 +16,7 @@ ms.assetid: 5f425fa3-7ba6-4979-8b3e-0fcd06cbba73
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_code
 Retrieves a flag that specifies whether the symbol refers to a code address.  

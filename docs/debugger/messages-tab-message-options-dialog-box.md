@@ -14,7 +14,7 @@ ms.assetid: fb9fa211-e82c-40a5-9e4b-ba8de07313c0
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Messages Tab, Message Options Dialog Box
 Use the **Messages** tab to select which message types to list in [Messages View](../debugger/messages-view.md), and to specify message search criteria. To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.  

@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetCurrentModulesState"
 ms.assetid: a0c85318-5686-4eed-b213-21f2b9e681e6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 Retrieves information about the symbol group of which the symbol provider is a member.  

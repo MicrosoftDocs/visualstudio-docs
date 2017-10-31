@@ -16,7 +16,7 @@ ms.assetid: dbb55936-b754-4a27-8b82-9537a7adb664
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumLineNumbers::get_Count
 Retrieves the number of line numbers.  

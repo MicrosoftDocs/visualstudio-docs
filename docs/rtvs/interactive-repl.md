@@ -1,7 +1,7 @@
 ---
 title: "Interactive REPL with the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/28/2017
+ms.date: 06/28/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 45d7c6ff-abd3-42a4-8376-0e9c8f7226d5
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Working with the R Interactive window

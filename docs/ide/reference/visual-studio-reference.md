@@ -12,7 +12,7 @@ ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Reference
 This section includes user interface reference, language equivalents, and other reference documents.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
 Obtains the custom attributes bytes given the name of the custom attribute.  

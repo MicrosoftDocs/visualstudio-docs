@@ -17,7 +17,7 @@ ms.assetid: af489a35-3317-465d-9639-21df4f1ca974
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Reference (SharePoint Tools Extensibility)
   This section contains reference documentation for extending the SharePoint tools in Visual Studio.  

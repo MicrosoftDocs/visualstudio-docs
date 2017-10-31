@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "VSPackages, registering"
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # VSPackage Registration
 VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.  

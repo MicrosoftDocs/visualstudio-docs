@@ -26,7 +26,7 @@ ms.assetid: 9f013c2b-0306-4b34-ba7f-d4445a874da1
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Debug COM Servers
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  

@@ -12,7 +12,7 @@ ms.assetid: f9732480-287f-40f1-a4ff-b112e143b940
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # TargetCLR
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.  

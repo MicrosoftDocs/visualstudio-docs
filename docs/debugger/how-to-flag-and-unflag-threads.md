@@ -19,7 +19,7 @@ ms.assetid: 952d579d-6911-413e-b3e5-54e7e797e70c
 caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Flag and Unflag Threads
 You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks** (thread view), **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.  

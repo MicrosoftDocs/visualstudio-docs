@@ -21,7 +21,7 @@ ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Options, Text Editor, Basic (Visual Basic)
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:  

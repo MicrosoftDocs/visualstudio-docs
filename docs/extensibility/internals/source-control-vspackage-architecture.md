@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "source control packages, architecture"
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Source Control VSPackage Architecture
 A source-control package is a VSPackage that uses services that the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE provides. In return, a source-control package provides its functionality as a source control service. Additionally, a source-control package is a more versatile alternative than a source control plug-in for integrating source control into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

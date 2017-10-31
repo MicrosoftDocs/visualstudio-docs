@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "SccGetVersion function"
 ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccGetVersion Function
 This function gets the version number of the Source Control Plug-in API supported by the source control plug-in.  

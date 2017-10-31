@@ -23,7 +23,7 @@ ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Analyze HTML UI responsiveness in Universal Windows Apps
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for  Universal Windows Apps.  

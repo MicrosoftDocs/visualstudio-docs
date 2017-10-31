@@ -20,7 +20,7 @@ ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Property Pages, JavaScript
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  
@@ -44,7 +44,7 @@ The **Property Pages**provides access to project settings. You can use the pages
  Use the following options to set general properties of the project.  
 
 > [!NOTE]
->  Some options are only available in Windows Store apps.  
+>  Some options are only available in UWP apps.  
 
  **Output Path**  
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.  
@@ -58,7 +58,7 @@ The **Property Pages**provides access to project settings. You can use the pages
  Use the following options to set properties for debugging behavior in the project.  
 
 > [!NOTE]
->  Some options are only available in Windows Store apps.  
+>  Some options are only available in UWP apps.  
 
  **Debugger to Launch**  
  Specifies the default host for the debugger.  

@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: "d5c038e2-e70d-411e-950c-8a54917b578a"
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install Build Tools into a Container
 

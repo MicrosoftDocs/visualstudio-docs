@@ -17,7 +17,7 @@ ms.assetid: 12ec0dab-46a4-43d8-984a-440730ef37a9
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Code Analysis for Managed Code Overview
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  

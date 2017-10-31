@@ -16,7 +16,7 @@ ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DA0039: Very High Rate of Lock contentions
 |||  

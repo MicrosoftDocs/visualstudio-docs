@@ -19,7 +19,7 @@ ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Performance Warnings
 Performance warnings support high-performance libraries and applications.  

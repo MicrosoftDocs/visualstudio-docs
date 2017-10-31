@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBinder3::FindAlias method"
 ms.assetid: b8333701-2718-4983-8513-0875fb7cb730
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder3::FindAlias
 This method locates an alias, given a name. This will search all aliases in the program.  

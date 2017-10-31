@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d8e0b3fd-d1d9-4e3f-b0f6-9f8ffbbc6297
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Move type to a matching file in Visual Basic

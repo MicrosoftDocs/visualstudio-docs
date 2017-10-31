@@ -21,7 +21,7 @@ ms.assetid: ab354047-053e-4f94-8ac1-26e761442b6f
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # About the Registers Window in Visual Studio
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  

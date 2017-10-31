@@ -21,7 +21,7 @@ ms.assetid: 3740e41d-a57e-43bb-87e7-6e5481ef290b
 caps.latest.revision: 70
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Changing Document Formatting Using CheckBox Controls
   This walkthrough demonstrates how to use Windows Forms controls in a document-level customization for Microsoft Office Word to change text formatting.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugCodeContext2 interface"
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCodeContext2
 This interface represents the starting position of a code instruction. For most run-time architectures today, a code context can be thought of as an address in a program's execution stream.  

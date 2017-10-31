@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::GetPortSupplierId"
 ms.assetid: 741d0829-0943-49bf-b56e-61e836043006
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplier2::GetPortSupplierId
 Gets the port supplier identifier.  

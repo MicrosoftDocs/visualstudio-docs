@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "ProjectTemplateLink element [Visual Studio Templates]"
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # ProjectTemplateLink Element (Visual Studio Templates)
 Specifies the path to the .vstemplate file of one project in a multi-project template.  

@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "source control plug-ins, strings used for finding"
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 The following strings are the keys for accessing the registry to find information about the source control plug-in.  

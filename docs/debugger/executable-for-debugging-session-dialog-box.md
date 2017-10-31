@@ -24,7 +24,7 @@ ms.assetid: c0ddbe32-b99f-4425-acf1-f48842804f56
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Executable for Debugging Session Dialog Box
 This dialog box appears when you try to debug a DLL for which no executable is specified. Visual Studio cannot launch a DLL directly. Instead, it will launch the specified executable. You can debug the DLL when it is called by the executable.  

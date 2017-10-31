@@ -16,7 +16,7 @@ ms.assetid: c02a6c92-f406-4646-82e7-3cd005af900e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_guid
 Retrieves the symbol's globally unique identifier (GUID).  

@@ -16,7 +16,7 @@ ms.assetid: 6b388fe1-eabc-4720-9d59-dc09b0ceaeac
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumDebugStreams::Item
 Retrieves a debug stream by means of an index or name.  
