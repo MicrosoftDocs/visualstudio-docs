@@ -72,7 +72,7 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Include analysis logs | On | Keeps a running log of Python-related activities within Visual Studio, used to diagnose issues with the tools. Logging does incur a small increase in memory usage for Visual Studio; turn this option off if you need to reduce memory usage. |
+| Include analysis logs | On | When selected, and you save diagnostics to a file or copy them to the clipboard (using the buttons), this option includes detailed logs relating to analysis of installed Python environments. This option may significantly increase the size of the generated file, but is often required to diagnose IntelliSense issues. |
 | Save diagnostics to file (button) | n/a | Prompts for a filename, then saves the log to a text file. |
 | Copy diagnostics to clipboard (button) | n/a | Places the entirety of the log on the clipboard; this operation may take some time depending on the size of the log. |
 
