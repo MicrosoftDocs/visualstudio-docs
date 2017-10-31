@@ -214,7 +214,7 @@ $[MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture)
  This property function has the following syntax:  
 
 ```  
-$([MSBuild]::EnsureTrailingSlash('$(PathProperty)')  
+$([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 ```  
 
 ##  MSBuild GetDirectoryNameOfFileAbove  
