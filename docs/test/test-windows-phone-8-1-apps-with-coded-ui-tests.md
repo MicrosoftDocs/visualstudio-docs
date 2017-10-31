@@ -332,7 +332,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?  
  **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
--   A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
+-   A UWP app running on local machine will run as a UWP app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
   
 -   A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
   

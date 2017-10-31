@@ -15,7 +15,7 @@ manager: "douge"
 ---
 # Test Windows UWP Apps with Coded UI Tests
 
-Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1 apps. 
+Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps. 
   
 ## Create a simple UWP app  
   
@@ -308,7 +308,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
-- A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
+- A UWP app running on local machine will run as a UWP app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
   
 - A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
   
