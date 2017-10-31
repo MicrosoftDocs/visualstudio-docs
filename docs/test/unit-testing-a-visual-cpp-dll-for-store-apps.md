@@ -14,7 +14,7 @@ ms.author: "douge"
 manager: "douge"
 ---
 # Unit testing a Visual C++ DLL for Store apps
-This topic describes one way to create unit tests for a C++ DLL for Windows Store apps The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a Windows Store app that shows a user the fun things that can be done with math.  
+This topic describes one way to create unit tests for a C++ DLL for UWP apps The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a UWP app that shows a user the fun things that can be done with math.  
   
  This topic shows you how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.  
   
@@ -41,7 +41,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
 1.  On the **File** menu, choose **New**, and then choose **New Project**.  
   
-2.  On the New Project dialog, expand **Installed**, then expand **Visual C++** and choose **Windows Store**. Then choose **Unit Test Library (Windows Store apps)** from the list of project templates.  
+2.  On the New Project dialog, expand **Installed**, then expand **Visual C++** and choose **Windows Store**. Then choose **Unit Test Library (UWP apps)** from the list of project templates.  
   
      ![Create a C&#43;&#43; unit test library](../test/media/ute_cpp_windows_unittestlib_create.png "UTE_Cpp_windows_UnitTestLib_Create")  
   
@@ -88,7 +88,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
      ![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png "UTE_Cpp_windows_RooterLib_Create")  
   
-2.  In the **Add New Project** dialog box, choose **DLL (Windows Store apps)**.  
+2.  In the **Add New Project** dialog box, choose **DLL (UWP apps)**.  
   
 3.  Add the following code to the **RooterLib.h** file:  
   
