@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command-line parameter examples for Visual Studio 2017 installation
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md),

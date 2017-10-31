@@ -16,7 +16,7 @@ ms.assetid: 907531b6-1ef8-4153-986d-b72611a1632d
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findInjectedSource
 Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process.  

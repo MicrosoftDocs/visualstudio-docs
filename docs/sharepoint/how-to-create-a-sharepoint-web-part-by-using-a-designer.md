@@ -21,7 +21,7 @@ ms.assetid: 6b88f3ef-02ff-4135-80ff-b4acacf8c695
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create a SharePoint Web Part by Using a Designer
   You can create a web part by adding a **Visual Web Part** item to any SharePoint project. This opens the Visual Web Developer designer in Visual Studio where you can add controls and code to the web part. Visual web parts function the same way as web parts do. The only difference is that you design visual web parts in the Visual Web Developer designer.  

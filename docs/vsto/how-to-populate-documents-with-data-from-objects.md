@@ -18,7 +18,7 @@ ms.assetid: 83e6ebac-e468-4bef-a91c-78c7bf597a75
 caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Populate Documents with Data from Objects
   Accesing data in a data object works the same way in document-level projects for Microsoft Office Word as it does in Windows Forms projects. You use the same tools and code to bring the data from an object into your solution, and you can use Windows Forms controls to display the data. In addition, you can display data by using host controls. Host controls are native objects in Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  

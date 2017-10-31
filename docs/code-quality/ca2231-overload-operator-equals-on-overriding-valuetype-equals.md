@@ -19,7 +19,7 @@ ms.assetid: 114c0161-261a-40ad-8b2c-0932d6909d2a
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2231: Overload operator equals on overriding ValueType.Equals
 |||  

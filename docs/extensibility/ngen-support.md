@@ -12,7 +12,7 @@ ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Ngen support in VSIX v3
 

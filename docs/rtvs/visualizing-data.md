@@ -1,7 +1,7 @@
 ---
 title: Visualizing Data with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 496619c9-4005-4c20-baf6-80b4bb1ceb56
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating visual data plots with R

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugEngine2::CreatePendingBreakpoint"
 ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 Creates a pending breakpoint in the debug engine (DE).  

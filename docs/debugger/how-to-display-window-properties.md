@@ -14,7 +14,7 @@ ms.assetid: 4c2f52de-bd91-42cf-9028-67aa75f8bd26
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Display Window Properties
 To find out more about a window listed in [Windows View](../debugger/windows-view.md), use the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md).  

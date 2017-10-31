@@ -16,7 +16,7 @@ ms.assetid: 0efefa39-49a5-4282-9d41-e50832d927e0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_signature
 Retrieves the symbol's signature value.  

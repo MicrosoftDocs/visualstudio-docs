@@ -16,7 +16,7 @@ ms.assetid: ee44dd55-39a0-4b7b-97ff-2e1226eeb2bd
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSegments::Item
 Retrieves a segment by means of an index.  

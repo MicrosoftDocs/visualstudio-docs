@@ -12,7 +12,7 @@ ms.assetid: 1d6700a9-fd67-4794-8997-399589e99bec
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create an XML Schema from an XML Document
 The XML Editor allows you to create an XML Schema definition language (XSD) schema from an XML document. The XML instance document determines how the schema is generated in the following manner:  

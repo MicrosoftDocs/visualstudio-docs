@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugEngineCreateEvent2::GetEngine"
 ms.assetid: 187d24ed-9f9a-4418-a0ef-b8a19f54652c
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngineCreateEvent2::GetEngine
 Retrieves the object that represents the newly created debug engine (DE).  

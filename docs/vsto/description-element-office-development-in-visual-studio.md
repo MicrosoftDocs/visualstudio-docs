@@ -19,7 +19,7 @@ ms.assetid: 27c90f8c-393d-4557-9371-2e4e3c4a2d95
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;description&gt; Element (Office Development in Visual Studio)
   The `description` element of the `vstov4` namespace stores the description for the Office solution that appears in the COM add-ins dialog box of Microsoft Office applications.  

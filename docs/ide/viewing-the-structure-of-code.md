@@ -31,7 +31,7 @@ ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Viewing the Structure of Code
 You can examine the objects and members in Visual Studio projects, and the objects and members in .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).  

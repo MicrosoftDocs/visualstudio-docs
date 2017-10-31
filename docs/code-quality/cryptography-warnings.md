@@ -12,7 +12,7 @@ ms.assetid: d96723ea-a293-488d-b9db-adb437e50cdd
 caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Cryptography Warnings
 Cryptography warnings support safer libraries and applications through the correct use of cryptography. These warnings help prevent security flaws in your program. If you disable any of these warnings, you should clearly mark the reason in code and also inform the designated security officer for your development project.  

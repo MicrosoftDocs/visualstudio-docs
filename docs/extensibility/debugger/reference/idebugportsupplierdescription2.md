@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugPortSupplierDescription2 interface"
 ms.assetid: dd19b9d6-0703-44b3-9498-cedffa0ce5b7
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplierDescription2
 Enables the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box.  

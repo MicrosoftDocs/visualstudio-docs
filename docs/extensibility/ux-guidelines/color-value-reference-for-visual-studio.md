@@ -13,7 +13,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
-manager: "ghogen"
+manager: ghogen
 ---
 # Color value reference for Visual Studio
 This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes. 

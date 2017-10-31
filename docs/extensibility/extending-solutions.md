@@ -10,8 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5cb60183-2a87-4551-a19f-c7c4e65d60c0
 caps.latest.revision: 2
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extending Solutions
 A solution is a grouping of one or more projects that work together to create an application.  

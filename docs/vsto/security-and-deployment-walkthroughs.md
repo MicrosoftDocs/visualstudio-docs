@@ -20,7 +20,7 @@ ms.assetid: 0a74f24e-abb0-49ba-ad12-0e6a5b78b85d
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Security and Deployment Walkthroughs
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.  

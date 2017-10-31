@@ -19,8 +19,9 @@ helpviewer_keywords:
   - "Visual Studio SDK, command-line switches"
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Devenv Command-Line Switches for VSPackage Development
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows developers to automate tasks from the command line when executing devenv.exe, the file that starts the Visual Studio integrated development environment (IDE).  

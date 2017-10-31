@@ -16,7 +16,7 @@ ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting Snippets
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.  

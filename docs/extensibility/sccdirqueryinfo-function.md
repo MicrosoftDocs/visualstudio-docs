@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "SccDirQueryInfo function"
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccDirQueryInfo Function
 This function examines a list of fully qualified directories for their current status.  

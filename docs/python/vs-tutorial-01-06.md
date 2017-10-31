@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 6 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 09/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: c7eece8d-9cd3-467e-9c95-0baf0861d93e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 6: Working with Git

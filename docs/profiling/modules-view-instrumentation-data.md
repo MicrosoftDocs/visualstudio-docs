@@ -14,7 +14,7 @@ ms.assetid: 895b9589-1987-4160-916f-53b898a69cf0
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modules View - Instrumentation Data
 The Modules view displays performance data that is grouped by the modules that were in the profiling data. The functions of the module are listed below the module node.  

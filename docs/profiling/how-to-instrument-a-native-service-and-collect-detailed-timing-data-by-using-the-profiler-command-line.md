@@ -12,7 +12,7 @@ ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Instrument a Native Service and Collect Detailed Timing Data by Using the Profiler Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a native (C/C++) service and collect detailed timing data.  

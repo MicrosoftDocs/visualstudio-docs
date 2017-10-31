@@ -16,7 +16,7 @@ ms.assetid: 7d141223-132a-409c-a5a4-94f97340313c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_targetOffset
 Retrieves the offset section of a thunk target.  

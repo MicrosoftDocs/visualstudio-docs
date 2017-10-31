@@ -1,5 +1,5 @@
 ---
-title: "Block Selection"
+title: "Block Selection | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

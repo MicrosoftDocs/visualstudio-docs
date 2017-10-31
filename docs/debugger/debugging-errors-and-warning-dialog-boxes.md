@@ -25,7 +25,7 @@ ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging Errors and Warning Dialog Boxes
 Below are the errors and warning dialog boxes you may encounter while debugging your application.  

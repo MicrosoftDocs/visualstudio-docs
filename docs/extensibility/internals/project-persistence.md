@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], persistance"
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Persistence
 Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.  

@@ -20,7 +20,7 @@ ms.assetid: eed7dbaf-bdb5-4330-ba2e-5f3d50817eca
 caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Copy Data and Formatting across Worksheets
   You can copy data from a range on one sheet to all the other sheets in a workbook by using the <xref:Microsoft.Office.Interop.Excel.Worksheets.FillAcrossSheets%2A> method. Specify a range, and whether you want to copy data, formatting, or both.  

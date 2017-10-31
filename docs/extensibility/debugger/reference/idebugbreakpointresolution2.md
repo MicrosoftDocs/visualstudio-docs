@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 451d5bce-b9c1-48ff-beaa-2b4c3e1ceea0
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBreakpointResolution2
 This interface represents the information that describes a bound breakpoint.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "outlining, supporting"
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Provide Expanded Outlining Support in a Legacy Language Service
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.  

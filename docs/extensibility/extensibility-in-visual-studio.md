@@ -8,8 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 81b0dbe6-ddf3-4899-b09c-a3837037231d
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Extensibility in Visual Studio
 Visual Studio gives you a lot of extensibility options. You can create your own SDKs, use the Windows, Windows Phone, and Azure SDKs (which are installed as part of Visual Studio), and extend Visual Studio itself.  

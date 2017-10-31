@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Deploying Custom Start Pages
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  

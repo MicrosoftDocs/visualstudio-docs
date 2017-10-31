@@ -16,7 +16,7 @@ ms.assetid: 0ad4926f-636e-41f8-a5b1-faf9d9b0a254
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Application Properties
 You can set general application properties for Visual Basic, C#, and F# applications, such as application type, startup object, and assembly information, in the **Application** pane of the **Project Designer**.  

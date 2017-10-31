@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandFlag"
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command Flag Element
 Modifies its parent element.  

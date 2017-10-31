@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "OBJECT_TYPE enumeration"
 ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # OBJECT_TYPE
 Specifies the type of an object from the expression evaluator.  

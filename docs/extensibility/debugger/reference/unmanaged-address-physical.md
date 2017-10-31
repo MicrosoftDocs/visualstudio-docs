@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
 This structure represents a physical address.  

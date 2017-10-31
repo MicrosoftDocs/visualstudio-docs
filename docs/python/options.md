@@ -1,7 +1,7 @@
 ---
-title: Python Options in Visual Studio | Microsoft Docs"
+title: "Python Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +19,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Options for Python in Visual Studio

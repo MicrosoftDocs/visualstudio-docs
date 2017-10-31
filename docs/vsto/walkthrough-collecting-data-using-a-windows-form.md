@@ -20,7 +20,7 @@ ms.assetid: 40e87f7f-cfbb-4761-bf1b-d042f45f4f09
 caps.latest.revision: 54
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Collecting Data Using a Windows Form
   This walkthrough demonstrates how to open a Windows Form from a document-level customization for Microsoft Office Excel, collect information from the user, and write that information into a worksheet cell.  

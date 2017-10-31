@@ -18,7 +18,7 @@ ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Save a dataset as XML

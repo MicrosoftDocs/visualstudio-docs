@@ -20,7 +20,7 @@ ms.assetid: 596425c8-14c7-4c05-8823-e1c52f420f5e
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  

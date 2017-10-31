@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "<Assembly> element [Visual Studio Template Wizard Extension]"
 ms.assetid: 0c3dc280-1753-4ea2-a13c-d31d13b935b2
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Assembly Element (Visual Studio Template Wizard Extension)
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.  

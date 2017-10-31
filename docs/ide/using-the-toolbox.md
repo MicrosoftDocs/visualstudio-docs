@@ -30,7 +30,7 @@ ms.assetid: 82e7cb43-4d0b-4e17-b7b0-43f96c22c3c2
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using the Toolbox
 You can use the toolbox to add controls and other items to your project. You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.  

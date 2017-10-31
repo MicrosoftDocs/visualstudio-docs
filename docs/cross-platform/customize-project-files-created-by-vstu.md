@@ -12,7 +12,7 @@ ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
 caps.latest.revision: 2
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Customize Project Files Created by VSTU
 Visual Studio Tools for Unity provides a Unity-style callback during project file generation. Register with the `VisualStudioIntegration.ProjectFileGeneration` event to modify the project file whenever it's regenerated.  

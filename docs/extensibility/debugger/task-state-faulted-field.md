@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "TASK_STATE_FAULTED field, Task class [.NET Framework debug engines]"
 ms.assetid: ced826ae-09a9-4acf-af00-a2343d396bb8
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TASK_STATE_FAULTED Field
 The task completed due to an unhandled exception.  

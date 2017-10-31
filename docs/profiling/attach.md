@@ -12,7 +12,7 @@ ms.assetid: 79614283-6733-4592-a53a-d428052271ad
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Attach
 The VSPerfCmd.exe **Attach** option begins sample profiling of the running process specified by the process ID (PID).  

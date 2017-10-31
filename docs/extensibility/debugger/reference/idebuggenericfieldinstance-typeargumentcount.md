@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "IDebugGenericFieldInstance::TypeArgumentCount"
 ms.assetid: e662c5ea-a5c1-478e-a268-5980dadffcd1
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
 Returns the number of type parameter arguments for this instance.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugField::GetExtendedInfo method"
 ms.assetid: 46c0dd4d-4fd5-4efd-a908-71e4248e8e8d
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::GetExtendedInfo
 This method gets extended information about a field.  

@@ -18,7 +18,7 @@ ms.assetid: 2c614edc-4e94-4b4f-8067-eea677a75cd9
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2228: Do not ship unreleased resource formats
 |||  

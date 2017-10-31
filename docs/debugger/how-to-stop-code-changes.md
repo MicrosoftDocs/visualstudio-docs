@@ -21,7 +21,7 @@ ms.assetid: 9e72a50c-bb0a-4eaa-9ac1-d00930b68d38
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Stop Code Changes
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  

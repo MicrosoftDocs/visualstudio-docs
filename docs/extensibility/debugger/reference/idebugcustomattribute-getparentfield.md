@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugCustomAttribute::GetParentField"
 ms.assetid: bcdfdf37-bfcf-4988-a7b8-4c731d0af1b0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomAttribute::GetParentField
 Gets the field to which the custom attribute is attached.  

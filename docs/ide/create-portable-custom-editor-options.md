@@ -12,7 +12,7 @@ ms.assetid:
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-ide-general"
 ---
@@ -112,5 +112,5 @@ textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId)
 _or_  
 textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)  
 
-# See Also
+## See Also
 [Create Portable Custom Editor Options with EditorConfig](create-portable-custom-editor-options.md)

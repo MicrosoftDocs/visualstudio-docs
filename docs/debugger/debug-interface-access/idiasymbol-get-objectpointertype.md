@@ -16,7 +16,7 @@ ms.assetid: bce193b9-67b0-4c35-96e5-6a664937322e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_objectPointerType
 Retrieves the type of the object pointer for a class method.  
