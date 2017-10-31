@@ -15,13 +15,13 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Performance Tools on Windows 8 and Windows Server 2012 applications
-Enhanced security features starting in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. Windows Store apps also require new collection techniques. This topic describes the changes for performance tools starting onWindows 8 and Windows Server 2012 platforms.
+Enhanced security features starting in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. UWP apps also require new collection techniques. This topic describes the changes for performance tools starting onWindows 8 and Windows Server 2012 platforms.
   
 > [!NOTE]
 >  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
- [Collecting data on Windows Store apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
+ [Collecting data on UWP apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
   
  [Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE)  
   
@@ -31,10 +31,10 @@ Enhanced security features starting in Windows 8 and Windows Server 2012 require
   
  [Collecting tier interaction (TIP) data](#BKMK_Collecting_tier_interaction__TIP__data)  
   
-##  <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Collecting data on Windows Store apps from the Visual Studio IDE  
- When you profile a Windows Store app that is written in JavaScript and HTML 5, you collect instrumentation data for the JavaScript code. When you profile a Windows Store app or component that is written in Visual C++, Visual C#, or Visual Basic, you collect sampling data for the native and managed code. You can profile your app locally or on a remote machine.  
+##  <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Collecting data on UWP apps from the Visual Studio IDE  
+ When you profile a UWP app that is written in JavaScript and HTML 5, you collect instrumentation data for the JavaScript code. When you profile a UWP app or component that is written in Visual C++, Visual C#, or Visual Basic, you collect sampling data for the native and managed code. You can profile your app locally or on a remote machine.  
   
- These profiling features and options are not supported when profiling Windows Store apps:  
+ These profiling features and options are not supported when profiling UWP apps:  
   
 -   Profiling JavaScript apps using the sampling method.  
   
@@ -50,21 +50,21 @@ Enhanced security features starting in Windows 8 and Windows Server 2012 require
   
 -   Instrumentation options, such as collecting performance and windows counter data, or specifying additional command-line options.  
   
- For more information about profiling Windows Store apps, see the following topics:  
+ For more information about profiling UWP apps, see the following topics:  
   
- [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)  
+ [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)  
   
- [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
+ [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
   
  [Profiling Tools](profiling-tools.md)  
   
 -   [JavaScript Memory](../profiling/javascript-memory.md)
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
+-   [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+-   [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
--   [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
+-   [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in UWP apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -85,7 +85,7 @@ Enhanced security features starting in Windows 8 and Windows Server 2012 require
   
 |Tool name|Description|  
 |---------------|-----------------|  
-|[VSPerf](../profiling/vsperf.md)|Collects profiling data from Windows Store apps and collects sample profiling data from Windows 8 desktop applications and Windows Server 2012 applications..|  
+|[VSPerf](../profiling/vsperf.md)|Collects profiling data from UWP apps and collects sample profiling data from Windows 8 desktop applications and Windows Server 2012 applications..|  
 |[VSPerfCmd](../profiling/vsperfcmd.md)|Collects instrumentation, concurrency, and tier interaction profiling data from apps that are running on theWindows 8 desktop or Windows Server 2012. Collects all types of profiling data from previous versions of Windows.|  
   
  Both tools are installed with Visual Studio for use on the local computer.  
@@ -118,7 +118,7 @@ Enhanced security features starting in Windows 8 and Windows Server 2012 require
   
 1.  To collect tier interaction data from apps that are running on the Windows 8 desktop or Windows Server 2012, you must use the instrumentation method.  
   
-2.  You cannot collect tier interaction data for Windows Store apps.  
+2.  You cannot collect tier interaction data for UWP apps.  
   
 3.  You can include tier interaction data in all profiling methods on other supported version of Windows.  
   

@@ -63,7 +63,7 @@ manager: "ghogen"
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
 > [!CAUTION]
->  The sample app here is a Windows Store app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
+>  The sample app here is a UWP app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
   
 #### To debug JavaScript code in the FlipView app  
   

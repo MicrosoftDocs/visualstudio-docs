@@ -28,8 +28,8 @@ Store apps run on a broad range of devices, and Visual Studio provides you with 
   
 |||  
 |-|-|  
-|[Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)|Run your Windows Store app on the Visual Studio device.|  
-|[Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)|Run your Windows Store app in a desktop window that simulates [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] functionality such as touch and orientation.|  
-|[Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)|Deploy and run your Windows Store app on a device that is connected to the Visual Studio machine over a network or directly through an Ethernet cable.|  
-|[Run Windows Phone apps in the emulator](../debugger/run-windows-phone-apps-in-the-emulator.md)|Run your Windows Store app in a desktop window that simulates a Windows Phone.|  
-|[Deploy Windows Store apps from Visual Studio](../debugger/deploy-windows-store-apps-from-visual-studio.md)|Deploy and register your Windows Store app on a device for ad-hoc testing.|
+|[Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)|Run your UWP app on the Visual Studio device.|  
+|[Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)|Run your UWP app in a desktop window that simulates [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] functionality such as touch and orientation.|  
+|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)|Deploy and run your UWP app on a device that is connected to the Visual Studio machine over a network or directly through an Ethernet cable.|  
+|[Run Windows Phone apps in the emulator](../debugger/run-windows-phone-apps-in-the-emulator.md)|Run your UWP app in a desktop window that simulates a Windows Phone.|  
+|[Deploy UWP apps from Visual Studio](../debugger/deploy-windows-store-apps-from-visual-studio.md)|Deploy and register your UWP app on a device for ad-hoc testing.|

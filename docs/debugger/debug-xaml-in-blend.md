@@ -51,7 +51,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
   
      In the **New Project** dialog box, a list of project types appears on the left side. When you click a project type, the project templates that are associated with it appear on the right side.  
   
-2.  In the list of project types, click **XAML (Windows Store)**.  
+2.  In the list of project types, click **XAML (Microsoft Store)**.  
   
 3.  In the list of project templates, click **Blank App**.  
   
@@ -119,7 +119,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
 ## Debugging in Visual Studio  
  You can open [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] projects in Visual Studio to more easily debug the code in your app. To open a [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)]. You will be prompted to reload the project. Click **Yes to All** to continue working in [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)].  
   
- For more information about debugging your app, see [Debug Windows Store apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).  
+ For more information about debugging your app, see [Debug UWP apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).  
   
 ## Getting help  
- If you need more help debugging your [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] app, you can search the [Windows Store app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
+ If you need more help debugging your [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] app, you can search the [UWP app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.

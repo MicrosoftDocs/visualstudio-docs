@@ -14,11 +14,11 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "performance, JavaScript [Windows Store apps]"
-  - "performance tools, JavaScript [Windows Store apps]"
+  - "performance, JavaScript [UWP apps]"
+  - "performance tools, JavaScript [UWP apps]"
   - "UI Responsiveness Profiler [JavaScript]"
   - "profiler, UI responsiveness [JavaScript]"
-  - "profiler, JavaScript [Windows Store apps]"
+  - "profiler, JavaScript [UWP apps]"
 ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 47
 author: "mikejo5000"
@@ -37,7 +37,7 @@ This topic describes how to isolate performance problems in your apps using the 
 -   Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)  
   
 ##  <a name="RunningProfiler"></a> Run the HTML UI Responsiveness Tool  
- You can use the HTML UI Responsiveness tool when you have a working Windows Universal or Windows Store app open in Visual Studio or installed on a computer running Windows 8 or later.  
+ You can use the HTML UI Responsiveness tool when you have a working UWP or Windows 8.1 app open in Visual Studio or installed on a computer running Windows 8 or later.  
   
 1.  If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as one of the Windows Phone emulators, **Local Machine**, **Simulator**, or **Remote Machine**.  
   
@@ -51,7 +51,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
     -   **Startup Project**. Choose this option to analyze the current startup project. If you're running the app on a remote machine or device, you must use this setting, which is the default value.  
   
-    -   **Running App**. Choose this option to select a Windows Store app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.  
+    -   **Running App**. Choose this option to select a UWP app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.  
   
          You can use this option to analyze performance of apps that are running on your computer when you don't have access to source code.  
   
@@ -354,7 +354,7 @@ if (performance.mark && performance.measure) {
   
 -   Watch [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
   
--   Read performance tips for Windows Store apps built for Windows using JavaScript. For more info, see [Performance best practices for Windows Store apps using JavaScript](http://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
+-   Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](http://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
   
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   

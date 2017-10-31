@@ -25,7 +25,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Walkthrough: Improving UI responsiveness (HTML)
-This walkthrough leads you through the process of identifying and fixing a performance issue by using the [HTML UI responsiveness profiler](../profiling/html-ui-responsiveness.md). The profiler is available in Visual Studio for Windows Universal and Windows Store apps  using JavaScript. In this scenario, you create a performance test app that updates DOM elements too frequently, and you use the profiler to identify and fix this problem.  
+This walkthrough leads you through the process of identifying and fixing a performance issue by using the [HTML UI responsiveness profiler](../profiling/html-ui-responsiveness.md). The profiler is available in Visual Studio for Windows Universal and UWP apps  using JavaScript. In this scenario, you create a performance test app that updates DOM elements too frequently, and you use the profiler to identify and fix this problem.  
   
 ### Creating and running the performance test app  
   

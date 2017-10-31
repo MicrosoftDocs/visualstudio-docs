@@ -1,5 +1,5 @@
 ---
-title: "Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript) | Microsoft Docs"
+title: "Control execution of a UWP app in a Visual Studio debug session (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -19,7 +19,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)
+# Control execution of a Store app in a Visual Studio debug session for UWP apps (JavaScript)
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The functions in the sample code are designed only to demonstrate the debugging procedures described in this topic. The functions do not employ best practices of app or function design. In fact, you will quickly discover that the functions, and the app itself, do not do much of anything at all.  
@@ -31,7 +31,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 > [!NOTE]
 >  **The Module pattern**  
 >   
->  Windows Store apps often use the JavaScript *Module pattern* to encapsulate data and functions in a page. The Module pattern uses a single, self-executing, and anonymous closure to keep the page functionality separate from the global namespace. In this topic, we call that function the *module*.  
+>  UWP apps often use the JavaScript *Module pattern* to encapsulate data and functions in a page. The Module pattern uses a single, self-executing, and anonymous closure to keep the page functionality separate from the global namespace. In this topic, we call that function the *module*.  
   
 ## In this topic  
  You can learn how to:  
@@ -53,13 +53,13 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
  [Navigate to code by using the Call Stack window](#BKMK_Navigate_to_code_by_using_the_Call_Stack_window)  
   
 ##  <a name="BKMK_Create_the_sample_app"></a> Create the sample app  
- Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine program state. All of the code that you will invoke is called from the `module` function of the default.js file. No controls are added and no events are handled.  
+ Debugging is about code, so the sample app uses the framework of the UWP app only to create a source file in which you can see how navigating a debug session works and how to examine program state. All of the code that you will invoke is called from the `module` function of the default.js file. No controls are added and no events are handled.  
   
-1.  **Create a blank JavaScript Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
+1.  **Create a blank JavaScript UWP app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Microsoft Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
   
      Note the script files that are loaded into the page.  
   
-    -   The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create Windows Store apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.  
+    -   The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create UWP apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.  
   
     -   Your code starts in the `default.js`  file.  
   
@@ -304,5 +304,5 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
  [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)   
  [Quickstart: Debugger navigation (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
+ [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

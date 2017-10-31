@@ -22,7 +22,7 @@ Tier interaction profiling provides additional information about the execution t
   
  **Windows 8 and Windows Server 2012**  
   
- To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps you must use the instrumentation method. Collecting tier interaction data on Windows Store apps is not supported.  
+ To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps you must use the instrumentation method. Collecting tier interaction data on UWP apps is not supported.  
   
  **Visual Studio editions**  
   

@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML and CSS (UWP and Windows Store Apps) | Microsoft Docs"
+title: "Debug HTML and CSS (UWP and Windows 8.1 Apps) | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.reviewer: ""
@@ -18,15 +18,15 @@ dev_langs:
 helpviewer_keywords: 
   - "debugging, CSS"
   - "debugging, HTML"
-  - "debugging, JavaScript [Windows Store apps]"
-  - "DOM Explorer [Windows Store apps]"
+  - "debugging, JavaScript [UWP apps]"
+  - "DOM Explorer [UWP apps]"
 ms.assetid: 6d156cff-36c6-425a-acf8-e1f02d4f7869
 caps.latest.revision: 101
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Debug HTML and CSS in UWP and Windows Store Apps
+# Debug HTML and CSS in UWP and Windows 8.1 Apps
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova.  
@@ -49,7 +49,7 @@ manager: "ghogen"
   
 -   Inspect how CSS styles have been applied to page elements, and trace the rules that have been applied.  
   
- When debugging apps, you often need to select elements in DOM Explorer. When you select an element, the values that appear on the tabs on the right side of the DOM Explorer automatically update to reflect the selected element in DOM Explorer. These are the tabs: **Styles**, **Computed**, **Layout**. Windows Store apps also support the **Events** and **Changes** tabs. For more info about selecting elements, see [Selecting elements](#SelectingElements).  
+ When debugging apps, you often need to select elements in DOM Explorer. When you select an element, the values that appear on the tabs on the right side of the DOM Explorer automatically update to reflect the selected element in DOM Explorer. These are the tabs: **Styles**, **Computed**, **Layout**. UWP apps also support the **Events** and **Changes** tabs. For more info about selecting elements, see [Selecting elements](#SelectingElements).  
   
 > [!TIP]
 >  If the DOM Explorer window is closed, choose **Debug**>**Windows** > **DOM Explorer** to re-open it. The window only appears during a script debugging session.  
@@ -57,7 +57,7 @@ manager: "ghogen"
  In the procedure that follows, we'll go through the process of interactively debugging an app by using DOM Explorer. We'll create an app that uses a `FlipView` control and then debug it. The app contains several errors.  
   
 > [!WARNING]
->  The following sample app is a Windows Store app. The same features are supported for Cordova, but the app would be different.  
+>  The following sample app is a UWP app. The same features are supported for Cordova, but the app would be different.  
   
 #### To debug by inspecting the live DOM  
   

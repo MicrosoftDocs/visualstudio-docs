@@ -1,5 +1,5 @@
 ---
-title: "Refresh an UWP or Windows Store App | Microsoft Docs"
+title: "Refresh an UWP or Windows 8.1 App | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -14,20 +14,20 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "JavaScript debugging, refreshing pages [Windows Store apps]"
-  - "debugging, refreshing pages [Windows Store apps]"
-  - "DOM Explorer, Refresh [Windows Store apps]"
-  - "Refresh [Windows Store apps]"
+  - "JavaScript debugging, refreshing pages [UWP apps]"
+  - "debugging, refreshing pages [UWP apps]"
+  - "DOM Explorer, Refresh [UWP apps]"
+  - "Refresh [UWP apps]"
 ms.assetid: fd99ee60-fa94-46df-8b17-369f60bfd908
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Refresh a UWP or Windows Store App
+# Refresh a UWP or Windows 8.1 App
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for both Windows Store and Windows Phone Store apps.  
+ You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP and Windows 8.1 apps.  
   
  Refresh doesn't maintain your app state or reflect the following changes to your app:  
   
@@ -48,7 +48,7 @@ manager: "ghogen"
   
 1.  In Visual Studio, create a new project by using the Navigation App project template.  
   
-     This can be Windows Store app, Windows Phone Store app, or a universal app.  
+     This can be UWP app or a Windows 8.1 app.  
   
 2.  With the template open in Visual Studio, select a debug target.  
   

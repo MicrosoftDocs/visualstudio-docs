@@ -1,5 +1,5 @@
 ---
-title: "Run Windows Store apps on a remote machine | Microsoft Docs"
+title: "Run UWP apps on a remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.reviewer: ""
@@ -19,10 +19,10 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Run Windows Store apps on a remote machine
+# Run UWP apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
-To run a Windows Store app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+To run a UWP app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
 
 In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
 
@@ -56,9 +56,6 @@ For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of
  To connect directly to a remote device, connect the Visual Studio computer to the device with a standard Ethernet cable. If the device does not have an Ethernet port, you can use a USB to Ethernet adapter to connect to the cable.  
   
 ## <a name="BKMK_download"></a> Download and Install the Remote Tools
-
-> [!IMPORTANT]
-> Debugging Windows Store apps requires Visual Studio 2013 or more recent versions.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   

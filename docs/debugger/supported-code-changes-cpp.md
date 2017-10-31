@@ -68,7 +68,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
   
 -   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)  
   
--   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging Windows Store apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
+-   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging UWP apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in UWP C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
   
 -   Debugging on Windows 98.  
   
