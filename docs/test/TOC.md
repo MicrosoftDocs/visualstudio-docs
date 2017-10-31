@@ -39,6 +39,7 @@
 #### [Sample Project for Creating Unit Tests](sample-project-for-creating-unit-tests.md)
 ### [Writing Unit tests for C/C++](writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)
 #### [Using the Microsoft Unit Testing Framework for C++](unit-testing-existing-cpp-applications-with-test-explorer.md)
+#### [How to use Google Test for C++ in Visual Studio](how-to-use-google-test-for-cpp.md)
 #### [Walkthrough: Writing Unit tests for C++ DLLs](how-to-write-unit-tests-for-cpp-dlls.md)
 #### [Unit testing a C++ DLL for UWP apps](unit-testing-a-visual-cpp-dll-for-store-apps.md)
 #### [Microsoft Unit Testing Framework for C++ API Reference](using-microsoft-visualstudio-testtools-cppunittestframework.md)
