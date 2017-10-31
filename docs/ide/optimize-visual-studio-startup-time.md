@@ -64,7 +64,7 @@ You can always re-enable the extension for future sessions by using the Extensio
     ![Manage Visual Studio Performance - tool windows view](../ide/media/vside_perfdialog_toolwindows.png)
 
 > [!NOTE]
-> Versions of Visual Studio prior to Update 15.5 had a feature called **Lightweight Solution Load**. This feature is no longer available in Visual Studio 2017 Update 15.5 and later. In Visual Studio Update 15.5 and later, large solutions load much faster than previously, even without Lightweight Solution Load.  
+> Versions of Visual Studio prior to Update 15.5 had a feature called **lightweight solution load**. This feature is no longer available in Visual Studio 2017 Update 15.5 and later. In Visual Studio Update 15.5 and later, large solutions load much faster than previously, even without lightweight solution load.  
 
 ## See Also
 [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
