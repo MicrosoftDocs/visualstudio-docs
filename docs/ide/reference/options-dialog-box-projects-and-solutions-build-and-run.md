@@ -21,7 +21,6 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-
 # Options Dialog Box,  Projects and Solutions, Build and Run
 
 In this dialog box, you can specify the maximum number of Visual C++ or Visual C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
@@ -53,7 +52,7 @@ Determines how much information appears in the **Output** window for the build.
 
 Determines how much information is written to the build log file, which is located at \\...\\*ProjectName*\Debug\\*ProjectName*.log.  
 
-## See Also  
--[Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-- [Options Dialog Box,  Projects and Solutions](projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box,  Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
+## See also  
+[Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)  
+[Options Dialog Box, Projects and Solutions](projects-and-solutions-options-dialog-box.md)  
+[Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
