@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/09/2016"
+ms.date: "10/31/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
