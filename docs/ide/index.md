@@ -350,34 +350,156 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 
 <h2>Languages</h2>
 
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img src="/media/logos/logo_Csharp.svg" alt="C sharp" />&nbsp;C#</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img src="/media/logos/logo_vb.svg" alt="Visual Basic" />&nbsp;VB</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833063"><img src="/media/logos/logo_Cplusplus.svg" alt="C plus plus" />&nbsp;C++</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img src="/media/logos/logo_Fsharp.svg" alt="F sharp" />&nbsp;F#</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img src="/media/logos/logo_js.svg" alt="JavaScript" />&nbsp;JavaScript</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img src="/media/logos/logo_TS.svg" alt="TypeScript" />&nbsp;TypeScript</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img src="/media/logos/logo_Python.svg" alt="Python" />&nbsp;Python</a></div>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833070"><img src="/media/logos/logo_R.svg" alt="R" />&nbsp;R</a></div>
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833062">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_Csharp.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>C#</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>    
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833060">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_vb.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>VB</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833063">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_Cplusplus.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>C++</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833067">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_Fsharp.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>F#</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833064">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_js.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833066">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_TS.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>TypeScript</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833068">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_Python.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833070">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_R.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>R</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
 
 
 
 <h2>Workloads</h2>
 
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833082"><img src="/en-us/media/common/i_road-map.svg" alt="UWP" />&nbsp;UWP</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833083"><img src="/en-us/media/common/i_road-map.svg" alt=".NET Desktop" />&nbsp;.NET Desktop</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833084"><img src="/en-us/media/common/i_road-map.svg" alt="Windows development with C++" />&nbsp;Windows (C++)</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833085"><img src="/en-us/media/common/i_road-map.svg" alt="Web development" />&nbsp;Web</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833086"><img src="/en-us/media/common/i_road-map.svg" alt="Azure" />&nbsp;Azure</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img src="/en-us/media/common/i_road-map.svg" alt="Python" />&nbsp;Python</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=834351"><img src="/en-us/media/common/i_road-map.svg" alt="Node.js" />&nbsp;Node.js</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833095"><img src="/en-us/media/common/i_road-map.svg" alt="Data storage and processing" />&nbsp;Data</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=834748"><img src="/en-us/media/common/i_road-map.svg" alt="Data science" />&nbsp;Data science</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833075"><img src="/en-us/media/common/i_road-map.svg" alt="Office/Sharepoint" />&nbsp;Office/Sharepoint</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833088"><img src="/en-us/media/common/i_road-map.svg" alt="Mobile development with .NET" />&nbsp;Mobile .NET</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833091"><img src="/en-us/media/common/i_road-map.svg" alt="Unity" />&nbsp;Unity</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833089"><img src="/en-us/media/common/i_road-map.svg" alt="Mobile development with JavaScript" />&nbsp;Mobile JavaScript</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833090"><img src="/en-us/media/common/i_road-map.svg" alt="Mobile development with C++" />&nbsp;Mobile C++</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=834749"><img src="/en-us/media/common/i_road-map.svg" alt="Game development with C++" />&nbsp;Games C++</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=834750"><img src="/en-us/media/common/i_road-map.svg" alt="Visual Studio extension development" />&nbsp;Extensions</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=833099"><img src="/en-us/media/common/i_road-map.svg" alt="Linux development with C++" />&nbsp;Linux C++</a>
-<div class="cardImage"><a href="https://go.microsoft.com/fwlink/?linkid=856606"><img src="/en-us/media/common/i_road-map.svg" alt=".NET Core cross-platform development" />&nbsp;.NET Core</a>
+TBD
