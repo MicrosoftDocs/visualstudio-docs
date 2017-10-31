@@ -90,11 +90,11 @@ To access the **Application** page, choose a project node (not the **Solution** 
   
 -   **Properties\app.manifest**. This option is required for applications deployed by ClickOnce or Registration-Free COM. If you publish an application by using ClickOnce deployment, **Manifest** is automatically set to this option.  
   
- **Resource File**  
- Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
+**Resource File**  
+Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
   
- Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
+Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
   
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)  
- [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)
+[Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)
