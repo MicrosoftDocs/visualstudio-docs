@@ -20,7 +20,7 @@ ms.assetid: 33f8f521-e1f8-4242-a580-8a4bd9cb5ddc
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # URL Picker Dialog Box (SharePoint development in Visual Studio)
   In the URL picker dialog box, you can choose files such as master page files or image files that are located in your project or on the local server that's running SharePoint.  

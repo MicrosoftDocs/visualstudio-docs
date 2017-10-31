@@ -13,7 +13,7 @@ ms.assetid: c9171e4c-1bba-4581-b18e-cc8a9ad25f0c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 2: Writing and running code

@@ -16,7 +16,7 @@ ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Performance Session Properties
 A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.  

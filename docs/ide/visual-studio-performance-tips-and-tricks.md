@@ -13,7 +13,7 @@ ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Performance Tips and Tricks
 

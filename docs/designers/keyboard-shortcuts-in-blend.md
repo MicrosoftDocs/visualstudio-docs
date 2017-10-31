@@ -12,7 +12,7 @@ ms.assetid: 3a1b6830-30c2-4a36-bd14-6961f5edf9cb
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Keyboard shortcuts in Blend
 ## Project shortcuts  

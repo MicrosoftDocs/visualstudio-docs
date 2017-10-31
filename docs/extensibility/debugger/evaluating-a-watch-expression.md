@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "watch expressions"
 ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Evaluating a Watch Expression
 > [!IMPORTANT]

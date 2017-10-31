@@ -16,7 +16,7 @@ ms.assetid: 1d53972f-6f35-4842-8c74-1b627f18c70a
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Command-Line Profiling Using Sampling
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.  

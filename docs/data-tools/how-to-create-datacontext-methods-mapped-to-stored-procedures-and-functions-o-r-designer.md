@@ -10,7 +10,7 @@ ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)

@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugBeforeSymbolSearchEvent2 interface"
 ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBeforeSymbolSearchEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.  

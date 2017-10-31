@@ -19,7 +19,7 @@ ms.assetid: bdd5dbf7-ddda-4ef6-9db5-1fb4405261a0
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;update&gt; Element (Office Development in Visual Studio)
   The `update` element specifies the interval at which the solution will check for updates.  

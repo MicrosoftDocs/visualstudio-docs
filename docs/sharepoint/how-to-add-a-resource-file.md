@@ -20,7 +20,7 @@ ms.assetid: 2b4ac232-992e-4070-8e98-6f11eb88e1a8
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Resource File
   The commands for adding resource files is on the shortcut menu of the solution node and feature nodes in Solution Explorer. For more information, see [Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md).  

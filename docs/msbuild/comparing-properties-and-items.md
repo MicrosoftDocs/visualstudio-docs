@@ -14,7 +14,7 @@ ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 caps.latest.revision: 16
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Comparing Properties and Items
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  

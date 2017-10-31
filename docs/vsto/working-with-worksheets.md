@@ -18,7 +18,7 @@ ms.assetid: d9204916-6471-4cf0-89a1-d46dae0e2599
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Worksheets
   The <xref:Microsoft.Office.Tools.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Worksheet> classes contain the methods and properties you use to perform tasks with worksheets.  

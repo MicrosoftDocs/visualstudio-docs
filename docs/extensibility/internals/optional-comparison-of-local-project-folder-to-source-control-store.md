@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "source control plug-ins, local project folders"
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Optional Comparison of Local Project Folder to Source Control Store
 In Source control Plug-in API 1.2 the comparison between the local project folder and source control is accomplished by using the functions [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) and [SccDirDiff](../../extensibility/sccdirdiff-function.md).  

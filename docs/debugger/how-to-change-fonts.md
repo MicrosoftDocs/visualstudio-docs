@@ -14,7 +14,7 @@ ms.assetid: 3ee22eb9-978f-4efd-a5e0-f071745496ce
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Change Fonts
 You can change the font, font style, and font size for Spy++ windows.  

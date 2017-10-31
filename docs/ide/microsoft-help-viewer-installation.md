@@ -15,7 +15,7 @@ ms.assetid: 51e72eac-d5d7-45e6-8899-04935499d1a6
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Microsoft Help Viewer Installation
 Several products display Help in Microsoft Help Viewer. Installation instructions will vary based on which product installed the Help Viewer.  

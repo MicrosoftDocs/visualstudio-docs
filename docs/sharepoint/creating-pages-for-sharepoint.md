@@ -22,7 +22,7 @@ ms.assetid: 57678ed1-841f-45de-a1d3-5f9e233bf3ce
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Pages for SharePoint
   You can create application pages, site pages, master pages and page layouts for a SharePoint site.  

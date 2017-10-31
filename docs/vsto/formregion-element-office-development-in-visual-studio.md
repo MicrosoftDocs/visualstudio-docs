@@ -17,7 +17,7 @@ ms.assetid: d397cf31-c0ef-47f0-860a-cd816e4bf6eb
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;formRegion&gt; Element (Office Development in Visual Studio)
   The `formRegion` element of the `vstov4` namespace identifies a Microsoft Office Outlook form region that is associated with an VSTO Add-in.  

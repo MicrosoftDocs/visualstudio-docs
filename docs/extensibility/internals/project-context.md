@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Context
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.  

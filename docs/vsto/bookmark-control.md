@@ -22,7 +22,7 @@ ms.assetid: 940bf165-18c9-4db8-a46c-aad786b8bbad
 caps.latest.revision: 55
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Bookmark Control
   The <xref:Microsoft.Office.Tools.Word.Bookmark> control is a bookmark that has a unique name, exposes events, and can be bound to data. The bookmark can be used as a placeholder to mark an item or location in a Microsoft Office Word document. The <xref:Microsoft.Office.Tools.Word.Bookmark> control is a combination of a <xref:Microsoft.Office.Interop.Word.Bookmark> object and a <xref:Microsoft.Office.Interop.Word.Range> object.  

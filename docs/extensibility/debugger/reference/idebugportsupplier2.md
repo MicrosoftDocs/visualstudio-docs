@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugPortSupplier2 interface"
 ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplier2
 This interface supplies ports to the session debug manager (SDM).  

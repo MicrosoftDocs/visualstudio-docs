@@ -10,7 +10,7 @@ ms.assetid: a2098fd9-8334-4e95-9b8d-bc3da689d9e3
 caps.latest.revision: 9
 author: "corob-msft"
 ms.author: "corob"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-ide-code-analysis"
 ---

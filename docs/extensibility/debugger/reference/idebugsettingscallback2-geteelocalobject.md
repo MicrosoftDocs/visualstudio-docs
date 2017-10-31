@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEELocalObject"
 ms.assetid: e69a3469-a049-420c-b918-c48a1e7b9baf
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetEELocalObject
 Retrieves a expression evaluator local object given the metric name.  

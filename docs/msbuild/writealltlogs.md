@@ -19,7 +19,7 @@ ms.assetid: 1fa3e10b-263c-4960-a9ad-485c02a7a872
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # WriteAllTLogs
 Writes tracking logs for all threads and contexts.  

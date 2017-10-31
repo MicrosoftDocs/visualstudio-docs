@@ -15,7 +15,7 @@ ms.assetid: db0c32cf-8e50-4e1b-9a9f-4c07fd6a2163
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Search Tools for Spy++ Views
 Use these dialog boxes to specify what data a Spy++ Views window will display:  

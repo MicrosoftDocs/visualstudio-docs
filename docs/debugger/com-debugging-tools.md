@@ -25,7 +25,7 @@ ms.assetid: 4296ad30-6952-46cb-b002-6b34eee1993a
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # COM Debugging Tools
 This topic lists tools that can help you test and inspect COM programs.  

@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: 25bb9d99-aeff-4053-925d-2177f5e79574
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
@@ -27,5 +27,5 @@ For each item, you can set the **Preference** and **Severity** using the drop do
 
 Code Style settings for .NET can also be managed with an [EditorConfig](editorconfig-code-style-settings-reference.md) file.  In this case, the settings selected in the Options window will be the fallback settings, with the EditorConfig file taking precedence.  You can use this file to enforce and configure the coding style for your entire repo or team.
 
-# See Also
+## See Also
 * [Quick Actions](quick-actions.md)

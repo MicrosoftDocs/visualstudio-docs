@@ -14,7 +14,7 @@ ms.assetid: 876f145b-ec07-4240-ade6-4f6e44baadce
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # ResumeProfile
 The `ResumeProfile` method decrements the Suspend/Resume counter for the specified profiling level.  

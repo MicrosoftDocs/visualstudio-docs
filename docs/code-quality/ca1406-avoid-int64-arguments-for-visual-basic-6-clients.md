@@ -18,7 +18,7 @@ ms.assetid: d5d0d3fc-f105-43da-be5b-923ab023309c
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1406: Avoid Int64 arguments for Visual Basic 6 clients
 |||  

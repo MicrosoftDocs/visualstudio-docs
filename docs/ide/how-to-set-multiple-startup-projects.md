@@ -14,7 +14,7 @@ ms.assetid: 6131eb80-8745-4eb9-bdab-433e69b41651
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set Multiple Startup Projects
 Visual Studio allows you to specify how more than one project is run when you start the debugger.  

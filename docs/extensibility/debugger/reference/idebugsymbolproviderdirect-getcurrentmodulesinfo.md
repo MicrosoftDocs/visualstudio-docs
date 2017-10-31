@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "GetCurrentModulesInfo"
 ms.assetid: b3b45ed2-ea4e-4389-b78a-11fc9796a6c1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Retrieves information about the modules in the symbol group.  

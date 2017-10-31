@@ -17,7 +17,7 @@ ms.assetid: 51893967-98c8-4141-ba40-03646f221760
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug HTML, CSS, and JavaScript sample code
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  

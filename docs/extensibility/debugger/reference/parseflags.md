@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "PARSEFLAGS enumeration"
 ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # PARSEFLAGS
 Specifies how to parse an expression.  

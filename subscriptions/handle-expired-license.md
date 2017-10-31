@@ -11,7 +11,7 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Handling expired subscriptions
+# Handling Expired Subscriptions
 
 When a user’s subscription has expired, this is indicated in the portal by a red bar next to their name. For those subscribers to continue using their Visual Studio Subscription benefits, you will need to renew their licenses. 
 

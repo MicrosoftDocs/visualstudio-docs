@@ -12,7 +12,7 @@ ms.assetid: ea9770eb-bf41-4a52-a673-07beaa663df3
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Locate Information
 The Help Viewer provides several different ways for you to locate information in Help. Depending on what kind of information you're looking for, certain strategies might be more effective than others.  

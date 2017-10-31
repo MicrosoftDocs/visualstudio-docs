@@ -22,7 +22,7 @@ ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
 caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # FindUnderPath Task
 Determines which items in the specified item collection have paths that are in or below the specified folder.  

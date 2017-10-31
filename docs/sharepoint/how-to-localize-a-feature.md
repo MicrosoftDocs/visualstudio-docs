@@ -20,7 +20,7 @@ ms.assetid: 66a0b389-1f71-421f-9817-a19840765d83
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Localize a Feature
   By default, feature titles and descriptions use hard-coded string values. To localize the feature title and description, replace the strings with expressions that reference localized resources.  

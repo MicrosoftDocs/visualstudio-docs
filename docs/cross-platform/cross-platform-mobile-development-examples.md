@@ -14,7 +14,7 @@ ms.assetid: bc384c12-fccc-45d7-9fb9-b90d536aa663
 caps.latest.revision: 3
 author: "corob-msft"
 ms.author: "corob"
-manager: "ghogen"
+manager: ghogen
 ---
 # Cross-Platform Mobile Development Examples
 Several of the templates installed by Visual C++ for Cross-Platform Mobile Development generate complete examples that you can use to learn from. Additionally, the Windows Dev Center has several example applications that you can download and try out in Visual Studio.  

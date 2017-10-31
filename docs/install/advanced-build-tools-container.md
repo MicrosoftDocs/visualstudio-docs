@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: "e03835db-a616-41e6-b339-92b41d0cfc70"
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Advanced Example for Containers

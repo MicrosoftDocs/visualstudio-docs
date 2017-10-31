@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "debug engines, attaching to programs"
 ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Attaching to the Program
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.  

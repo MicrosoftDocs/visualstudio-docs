@@ -17,7 +17,7 @@ ms.assetid: 36f6f123-0c14-4763-99c3-bd60ecb95b87
 caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Identifying Performance Problems
 This walkthrough demonstrates how to profile an application to identify performance problems.  

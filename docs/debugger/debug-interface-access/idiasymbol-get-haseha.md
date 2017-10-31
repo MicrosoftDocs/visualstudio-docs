@@ -16,7 +16,7 @@ ms.assetid: cb61dfd9-fe69-461c-8185-288440454864
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_hasEHa
 Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling.  

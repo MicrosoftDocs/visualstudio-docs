@@ -16,7 +16,7 @@ ms.assetid: 99db875a-caae-4d60-ae70-64bc8a9f6fba
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_classParent
 Retrieves a reference to the class parent of the symbol.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::ResolveAssemblyRef"
 ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
 Determines the location of the specified managed assembly reference.  

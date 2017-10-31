@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugDocument2::GetDocumentClassID"
 ms.assetid: 111c2b85-ebfa-487f-b896-2ec4a3eac4d1
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugDocument2::GetDocumentClassID
 Gets the class identifier of the document.  

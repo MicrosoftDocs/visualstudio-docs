@@ -1,7 +1,7 @@
 ---
 title: Web Project Template for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 401e7725-8be5-4e67-862c-bf0690a529e3
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Python Web Project Templates

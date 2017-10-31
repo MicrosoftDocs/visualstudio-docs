@@ -21,7 +21,7 @@ ms.assetid: 414e7741-c07d-4900-9d10-68b821413b3f
 caps.latest.revision: 61
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Running Solutions in Different Versions of Microsoft Office
     

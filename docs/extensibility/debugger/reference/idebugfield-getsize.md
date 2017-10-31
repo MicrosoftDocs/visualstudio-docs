@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugField::GetSize method"
 ms.assetid: 73329924-3751-4f44-af54-5986b7943374
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::GetSize
 This method gets the size of a field, in bytes.  

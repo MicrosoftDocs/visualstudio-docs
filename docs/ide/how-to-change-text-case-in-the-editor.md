@@ -15,7 +15,7 @@ ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Change Text Case in the Editor
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.  

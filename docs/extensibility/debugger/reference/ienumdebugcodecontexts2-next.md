@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugCodeContexts2::Next"
 ms.assetid: 0d8aa2db-0994-4166-b364-2e25d936fffc
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugCodeContexts2::Next
 Returns the next set of elements from the enumeration.  
