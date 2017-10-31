@@ -1,5 +1,5 @@
 ---
-title: "Run unit tests for Store apps in Visual Studio | Microsoft Docs"
+title: "Run unit tests for UWP apps in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 12
 ms.author: "douge"
 manager: "douge"
 ---
-# Run unit tests for Store apps in Visual Studio
+# Run unit tests for UWP apps in Visual Studio
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  
   
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: "Test Windows UWP and 8.1 Store Apps with Coded UI Tests | Microsoft Docs"
+title: "Test Windows UWP Apps with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 23
 ms.author: "douge"
 manager: "douge"
 ---
-# Test Windows UWP and 8.1 Store Apps with Coded UI Tests
+# Test Windows UWP Apps with Coded UI Tests
 
 Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1 apps. 
   
@@ -29,7 +29,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 2.  Create a new project for a blank XAML based UWP app using either Visual C# or Visual Basic template.  
   
-     ![Create a Windows Store Blank App &#40;XAML&#41;](../test/media/cuit_windowsstoreapp_newproject_blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
+     ![Create a App &#40;XAML&#41;](../test/media/cuit_windowsstoreapp_newproject_blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
   
 3.  In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
   
@@ -320,4 +320,4 @@ After you create the project, authoring a test stays the same as before.
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Set a Unique Automation Property for Windows Store Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)
+ [Set a Unique Automation Property for UWP Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)

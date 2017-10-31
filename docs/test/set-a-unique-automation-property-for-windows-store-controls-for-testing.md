@@ -1,5 +1,5 @@
 ---
-title: "Set a Unique Automation Property for Windows Store Controls for Testing | Microsoft Docs"
+title: "Set a Unique Automation Property for UWP Controls for Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 10
 ms.author: "douge"
 manager: "douge"
 ---
-# Set a Unique Automation Property for Windows Store Controls for Testing
+# Set a Unique Automation Property for UWP Controls for Testing
 If you want to run coded UI tests for your XAML-based UWP application, you must have a unique automation property that identifies each control.  
   
  You can assign a unique automation property based on the type of XAML control in your application. Here's how to assign this unique automation property in the following situations:  
@@ -199,4 +199,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 ```  
   
 ## See Also  
- [Test Windows UWP and 8.1 Store Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
+ [Test Windows UWP Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)

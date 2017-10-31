@@ -61,7 +61,7 @@ Coded UI tests provide a way to create fully
 automated tests to validate the functionality and 
 behavior of your application’s user interface.
 They can automate UI testing across a variety 
-of technologies, including XAML-based Windows Store 
+of technologies, including XAML-based UWP 
 apps, browser apps, and SharePoint apps.
 
 Whether you choose best of breed Coded 

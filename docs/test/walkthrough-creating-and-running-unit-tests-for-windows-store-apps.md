@@ -47,7 +47,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
      The New Project dialog displays.  
   
-2.  Under Templates, choose the programming language you want to create unit test in and then choose the associated [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] unit test library. For example, choose **Visual C#** , then choose **Windows Store**, and then choose **Unit Test Library (UWP apps)**.  
+2.  Under Templates, choose the programming language you want to create unit test in and then choose the associated [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test Library (Universal Windows)**.  
   
     > [!NOTE]
     >  Visual Studio includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
@@ -144,5 +144,5 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
  [MSDN Library - Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](http://go.microsoft.com/fwlink/?LinkID=223683)  
   
 ## See Also  
- [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
+ [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
  [Build and test a UWP app using Team Foundation Build](http://msdn.microsoft.com/Library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)

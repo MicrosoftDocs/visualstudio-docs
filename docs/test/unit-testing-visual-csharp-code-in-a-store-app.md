@@ -48,13 +48,13 @@ This topic describes one way to create unit tests for a Visual C# class in a UWP
   
 1.  On the **File** menu, choose **New**, and then choose **New Project**.  
   
-2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store**. Then choose **Blank App** from the list of project templates.  
+2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.  
   
 3.  Name the project `Maths` and make sure **Create directory for solution** is selected.  
   
 4.  In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.  
   
-5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store** . Then choose **Unit Test Library (UWP apps)** from the list of project templates.  
+5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal** . Then choose **Unit Test Library (Universal Windows)** from the list of project templates.  
   
      ![Create the unit test project](../test/media/ute_cs_windows_createunittestproject.png "UTE_Cs_windows_CreateUnitTestProject")  
   

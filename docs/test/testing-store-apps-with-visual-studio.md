@@ -1,5 +1,5 @@
 ---
-title: "Testing Store apps with Visual Studio | Microsoft Docs"
+title: "Testing UWP apps with Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 20
 ms.author: "susanno"
 manager: "douge"
 ---
-# Testing Store apps with Visual Studio
+# Testing UWP apps with Visual Studio
 Visual Studio includes testing tools that can help you ensure that your Store app is of the highest quality.  
   
 ## In this section  
