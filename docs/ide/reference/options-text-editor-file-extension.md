@@ -42,7 +42,7 @@ This Options dialog allows you to specify how all files with certain file extens
  **Remove**  
  Deletes the selected entry from the Extension List.  
   
- Extension List  
+ **Extension List**  
  Lists all extensions for which an Editing Experience has been specified.  
   
  **Map extensionless files to**  
