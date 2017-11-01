@@ -27,7 +27,7 @@ The XML Editor checks XML 1.0 syntax and also performs data validation as you ty
   
 -   An "x-schema" XDR schema namespace URI.  
   
- Schemas can also be found in the following additional locations when the schema has a non-empty target namespace:  
+Schemas can also be found in the following additional locations when the schema has a non-empty target namespace:  
   
 -   Another editor window that contains the schema.  
   

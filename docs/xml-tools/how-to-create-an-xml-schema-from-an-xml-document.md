@@ -23,9 +23,9 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
   
 -   If the XML document contains an inline XML-Data Reduced (XDR) schema, the XDR schema is converted to a corresponding XML Schema.  
   
- The schemas that are created are then used to provide IntelliSense for the XML document.  
+The schemas that are created are then used to provide IntelliSense for the XML document.  
   
- For more information about the schema inference engine, see [Inferring an XML Schema](/dotnet/standard/data/xml/inferring-an-xml-schema).  
+For more information about the schema inference engine, see [Inferring an XML Schema](/dotnet/standard/data/xml/inferring-an-xml-schema).  
   
 ### To create an XML Schema  
   

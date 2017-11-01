@@ -21,13 +21,13 @@ The XML Schema Designer is integrated with the XML Editor. If you modify an XSD 
   
 -   In the Graph View and the XML Schema Explorer, double-click a node, or right-click a node and select **View Code**. In the Content Model View, right-click a node and select **View Code**.  
   
- The following screenshot shows an XML Schema opened in the XML Schema Explorer. The XML Schema Explorer displays the schema set in a tree view. The XML Editor displays the text view of the node that is currently active in the XML Schema Explorer.  
+The following screenshot shows an XML Schema opened in the XML Schema Explorer. The XML Schema Explorer displays the schema set in a tree view. The XML Editor displays the text view of the node that is currently active in the XML Schema Explorer.  
   
- ![XSDDesignerWithXMLEditor](../xml-tools/media/xsddesignerwithxmleditor.gif "XSDDesignerWithXMLEditor")  
+![XSDDesignerWithXMLEditor](../xml-tools/media/xsddesignerwithxmleditor.gif "XSDDesignerWithXMLEditor")  
   
- Sometimes it is helpful to see the code in the XML Editor and the graphical designer side by side. To view both files at the same time, right-click anywhere in the XML Editor and select **View Designer**. In the Visual Studio Windows menu, select **New Horizontal (or Vertical) Tab Group**.  
+Sometimes it is helpful to see the code in the XML Editor and the graphical designer side by side. To view both files at the same time, right-click anywhere in the XML Editor and select **View Designer**. In the Visual Studio Windows menu, select **New Horizontal (or Vertical) Tab Group**.  
   
- ![XSDDesignerWithXMLEditorAndCMV](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif "XSDDesignerWithXMLEditorAndCMV")  
+![XSDDesignerWithXMLEditorAndCMV](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif "XSDDesignerWithXMLEditorAndCMV")  
   
 ## See Also  
  [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
