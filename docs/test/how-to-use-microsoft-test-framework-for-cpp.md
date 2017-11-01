@@ -1,16 +1,24 @@
 ---
-redirect_url: /visualstudio/test/how-to-use-microsoft-test-framework-for-cpp
+title: "How to use the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2017"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-devops-test"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
+caps.latest.revision: 11
+ms.author: mblome
+manager: ghogen
 ---
 # How to use the Microsoft Unit Testing Framework for C++
-We recommend that, before you change an existing application, you make sure that it has a good coverage with unit tests. This gives you confidence that your changes have not introduced bugs. If the application does not already have unit tests, you can add them by using the techniques demonstrated in this topic. This topic describes how to add unit tests for existing Visual C++ code, starting with deciding how to test your code, and then creating, writing, and finally, running the tests.  
-  
-## Deciding how to test your code  
- Open the existing C++ project, and inspect it to decide how you want to add the unit tests. You might want to use some modeling tools, which help you see dependencies in the code, and help you understand how the parts interact. For more information, see [Visualize code](../modeling/visualize-code.md).  
-  
- We recommend that you separate your changes into small tasks. Before each small change, write unit tests for aspects of the behavior that will remain the same. These tests will continue to pass after you have made the change. For example, if you plan to change a sorting function so that it sorts a list of people by last name instead of by first name, then you can write a unit test that verifies that all the input names appear in the output. After you have made the change, you might want to add new unit tests for the new behavior.  
-  
- If it is practical, many or all of your unit tests should use only functions that are exported. But if you are changing just a small part of the whole application, then you might want to use functions that are not exported. For example, you might want tests that invoke internal functions, or tests that set and get the values of internal variables.  
-  
+
+To use the Microsoft Unit Testing Framework for C++, first add a test project to your solution, and configure it as described in [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
+
+
+
  There are several ways to test product code, depending on whether it exposes the interfaces that you want to test. Choose one of the following ways:  
   
  **The unit tests can call only functions that are exported from the code under test:**  
