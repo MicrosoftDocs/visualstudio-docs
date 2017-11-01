@@ -22,14 +22,14 @@ manager: "douge"
 >  Existing unit tests in your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 test projects will work seamlessly between [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)]. No changes are made to the test project files when a Visual Studio 2010 test project containing your unit tests is opened in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], or vice-versa.  
   
 > [!CAUTION]
->  Visual Studio 2010 can't open a C++/CLI project that targets the 11.0 toolset—that is, a project created in Visual Studio 2012. This restriction applies to all C++/CLI projects, not just C++/CLI unit test projects.  
+>  Visual Studio 2010 can't open a C++/CLI project that targets the 11.0 toolset—that is, a project created in Visual Studio 2012 or later. This restriction applies to all C++/CLI projects, not just C++/CLI unit test projects.  
   
 > [!NOTE]
 >  You can run the new unit tests using vstest.console.exe from the command line. For more information about using vstest.console.exe, see [VSTest.Console.exe command-line options](/devops-test-docs/test/vstest-console-exe-command-line-options), or run the command by using the help switch: **vstest.console.exe /?**. You can continue to run your existing unit tests using MStest.exe. For more information, see [Run automated tests from the command line using MSTest](/devops-test-docs/test/run-automated-tests-from-the-command-line-using-mstest) and [MSTest.exe command-line options](/devops-test-docs/test/mstest-exe-command-line-options).  
   
  Another significant change is the new Test Explorer. In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], some of the testing windows you might be familiar with from previous version of Visual Studio have been deprecated, such as the Test View window. Test Explorer is designed to better support developers and teams who incorporate unit testing in their software development practices. For more information, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).  
   
-## Compatibility issues between Visual Studio 2010 SP1 and Visual Studio 2012  
+## Compatibility issues between Visual Studio 2010 SP1 and Visual Studio 2012 or later  
  Here are some issues to be aware of when you migrate unit tests between Visual Studio 2010 SP1 and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)]:  
   
 |Unit Test functionality|Issue|Solution|  
