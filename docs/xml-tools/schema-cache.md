@@ -75,7 +75,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
 -   LCID  
   
- The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
+The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
   
 ```  
 <Catalog href="file://c:/xcbl/xcblCatalog.xml"/>  
