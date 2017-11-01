@@ -53,7 +53,7 @@ You can use file properties to indicate what actions the project system should p
 
 -   **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.  
 
- The default value for **Package Action** depends on the extension of the file that you add to the solution.  
+The default value for **Package Action** depends on the extension of the file that you add to the solution.  
 
 ### File Name Property  
  Displays the file name as a read-only value. To rename the file, you must right-click in Solution Explorer and select **Rename**.  
