@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "shortcut keys [Help Viewer 2.0]"
-  - "Help Viewer 2.0, shortcut keys"
+  - "shortcut keys [Help Viewer]"
+  - "Help Viewer, shortcut keys"
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 caps.latest.revision: 22
 author: "gewarren"

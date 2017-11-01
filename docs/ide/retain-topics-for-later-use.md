@@ -11,11 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "hv_favorites"
 helpviewer_keywords: 
-  - "Help Viewer 2.0, bookmarking topics"
-  - "Help Viewer 2.0, copying topics"
-  - "Help Viewer 2.0, Favorites tab"
-  - "bookmarking topics [Help Viewer 2.0]"
-  - "Favorites tab [Help Viewer 2.0]"
+  - "Help Viewer, bookmarking topics"
+  - "Help Viewer, copying topics"
+  - "Help Viewer, Favorites tab"
+  - "bookmarking topics [Help Viewer]"
+  - "Favorites tab [Help Viewer]"
 ms.assetid: f0a4c657-001d-4604-a403-d46f15782724
 caps.latest.revision: 8
 author: "gewarren"

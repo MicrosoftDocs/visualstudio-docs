@@ -225,7 +225,6 @@
 #### [Logical Operators in Search Expressions](logical-operators-in-search-expressions.md)
 #### [Advanced Search Operators in Search Expressions](advanced-search-operators-in-search-expressions.md)
 #### [How to: Customize Search Results](how-to-customize-search-results.md)
-## [Manage the Help Viewer Window](manage-the-help-viewer-window.md)
 ## [Retain Topics for Later Use](retain-topics-for-later-use.md)
 ## [Customize the Help Viewer](customize-the-help-viewer.md)
 ## [Troubleshooting the Help Viewer](troubleshooting-the-help-viewer.md)

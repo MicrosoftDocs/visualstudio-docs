@@ -1,7 +1,7 @@
 ---
 title: "Help Content Manager Overrides | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/01/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,18 +15,40 @@ ms.author: "gewarren"
 manager: ghogen
 ---
 # Help Content Manager Overrides
-You can modify the registry to change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE.  
+You can change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE by creating a [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) file to set various registry key values.
+
+## How to control Help Viewer behavior by using a .pkgdef file
+
+1. Create a .pkgdef file with the first line as `[$RootKey$\Help]`.
+
+2. Add any or all of the registry key values described in the table below on separate lines, e.g. `“UseOnlineHelp”=dword:00000001`.
+
+3. Copy the file to %ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition\>\Common7\IDE\CommonExtensions.
+
+4. Run devenv /updateconfiguration in a Developer Command Prompt.
+
+## Registry key values
+|Registry Key Value|Type|Data|Description|  
+|------------------|----|----|-----------|  
+|NewContentAndUpdateService|string|\<http URL for service endpoint\>|Define a unique service endpoint|
+|UseOnlineHelp|dword|`0` to specify local Help, `1` to specify online Help|Define online or offline Help default|
+|OnlineBaseUrl|string|\<http URL for service endpoint\>|Define a unique F1 endpoint|
+|OnlineHelpPreferenceDisabled|dword|`0` to enable or `1` to disable online Help preference option|Disable online Help preference option|
+|DisableManageContent|dword|`0` to enable or `1` to disable the **Manage Content** tab in Help Viewer|Disable the Manage Content tab|
+|DisableFirstRunHelpSelection|dword|`0` to enable or `1` to disable help features that are configured the first time that Visual Studio starts|Disable installation of content at first launch of Visual Studio|
+
+## Example .pkgdef file contents
+
+```
+[$RootKey$\Help]
+“NewContentAndUpdateService”=”https://some.service.endpoint”
+“UseOnlineHelp”=dword:00000001
+“OnlineBaseUrl”=”https://some.service.endpoint”
+“OnlineHelpPreferenceDisabled”=dword:00000000
+“DisableManageContent”=dword:00000000
+“DisableFirstRunHelpSelection”=dword:00000001
+```
   
-|Task|Registry Key|Value and Definition|  
-|----------|------------------|--------------------------|  
-|Define unique service endpoint|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSWinExpress\14.0\Help|NewContentAndUpdateService--*HTTPValueForTheServiceEndpoint*.|  
-|Define online/offline default|HKEY_LOCAL_MACHINE\Software\Microsoft\VSWinExpress\14.0\help|UseOnlineHelp--Enter `0` to specify local Help, and enter `1` to specify online Help.|  
-|Define unique F1 endpoint|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSWinExpress\14.0\Help|OnlineBaseUrl--*HTTPValueForTheServiceEndpoint*|  
-|Override BITS job priority|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\Help\v2.2|BITSPriority--Use one of the following values: **foreground**, **high**, **normal**, or **low**.|  
-|Disable Online (and IDE Online option)|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|OnlineHelpPreferenceDisabled--Set to 1 to disable access of online Help content.|  
-|Disable Manage Content|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|ContentManagementDisabled--Set to 1 to disable the **Manage Content** tab in Help Viewer.|  
-|Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.2\Catalogs\VisualStudio11|LocationPath="*ContentStoreNetworkShare*"|  
-|Disable installation of content at first launch of Visual Studio feature.|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\VisualStudio\14.0\Help|DisableFirstRunHelpSelection--Set to 1 to disable help features that are configured the first time that Visual Studio starts.|  
-  
-## See Also  
- [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)
+## See also
+[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)
+[Modifying the Isolated Shell By Using the .Pkgdef File](../extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)

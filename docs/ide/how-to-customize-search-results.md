@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Help Viewer 2.0, customizing search results"
-  - "customizing search results [Help Viewer 2.0]"
+  - "Help Viewer, customizing search results"
+  - "customizing search results [Help Viewer]"
 ms.assetid: 3431ec03-0221-4be2-9936-887a1c36db89
 caps.latest.revision: 6
 author: "gewarren"
