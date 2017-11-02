@@ -41,7 +41,7 @@ The following table includes some basic rules and guidelines for developing sear
 > - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md).  
   
 ### Filters  
- You can further restrict search results by using advanced search operators. Help includes three categories that you can use to filter results of a full-text search: Title, Code, and Keyword. For more information, see [Advanced Search Operators in Search Expressions](../ide/advanced-search-operators-in-search-expressions.md).  
+ You can further restrict search results by using advanced search operators. Help includes three categories that you can use to filter results of a full-text search: Title, Code, and Keyword.
   
 ### Ranking of search results  
  The search algorithm applies certain criteria to help rank search results higher or lower in the results list. In general:  

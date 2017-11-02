@@ -142,6 +142,6 @@ Before you can create the base content set, you must first uninstall all local V
 3.  Run the .bat file on the local machines that you want to install the Help content on.  
   
 ## See also
-[Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)   
+[Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)  
 [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
