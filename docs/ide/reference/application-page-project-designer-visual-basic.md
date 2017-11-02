@@ -23,9 +23,9 @@ manager: ghogen
 # Application Page, Project Designer (Visual Basic)
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  
   
- To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## General Application Settings  
  The following options enable you to configure general settings for an application.  
