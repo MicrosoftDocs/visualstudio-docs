@@ -32,9 +32,6 @@ You can change the width of the navigation or document windows by pointing to th
 ## Help Viewer position  
 You can reposition the Help Viewer by dragging its title bar to a different position.  
   
-## Internet Explorer options  
-You can make the Help Viewer more accessible by changing Internet Explorer options that relate to how webpages appear. 
-  
 ## See also
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)  
 [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)
