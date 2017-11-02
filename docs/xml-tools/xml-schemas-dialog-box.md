@@ -29,17 +29,17 @@ The **XML Schemas** dialog box is used to select which XML schema definition lan
   
 -   **Do not use selected schemas**. This schema is not used by the current document, even if the schema has a matching `targetNamespace`. This setting can be useful for resolving conflicts when there is more than one version of the same schema in the schema cache or solution.  
   
- **Target Namespace**  
- Displays the target namespace associated with the XML Schema.  
+**Target Namespace**  
+Displays the target namespace associated with the XML Schema.  
   
- **File Name**  
- Displays the XML Schema file name.  
+**File Name**  
+Displays the XML Schema file name.  
   
- **Add**  
- Opens the **Open XSD Schema** dialog, which enables you to select additional schemas to add to the schema set. When you add a schema to the schema set, the **Use** column value is set to **Use this schema**.  
+**Add**  
+Opens the **Open XSD Schema** dialog, which enables you to select additional schemas to add to the schema set. When you add a schema to the schema set, the **Use** column value is set to **Use this schema**.  
   
- **Remove**  
- Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.  
+**Remove**  
+Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.  
   
 ## See Also  
  [XML Editor Components](../xml-tools/xml-editor-components.md)   
