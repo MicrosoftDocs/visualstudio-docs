@@ -44,7 +44,7 @@
 #### [How to: use CTest in Visual Studio](how-to-use-ctest.md)
 #### [How to: write unit tests for C/C++ DLLs](how-to-write-unit-tests-for-cpp-dlls.md)
 #### [Walkthrough: Writing Unit tests for C++ DLLs](walkthrough-writing-unit-tests-for-cpp-dlls.md)
-#### [Microsoft Unit Testing Framework for C++ API Reference](using-microsoft-visualstudio-testtools-cppunittestframework.md)
+#### [Microsoft Unit Testing Framework for C++ API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)
 ### [Using Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 ### [Customizing Code Coverage Analysis](customizing-code-coverage-analysis.md)
 #### [Analyzing Code Coverage in Build Verification Tests](analyzing-code-coverage-in-build-verification-tests.md)
