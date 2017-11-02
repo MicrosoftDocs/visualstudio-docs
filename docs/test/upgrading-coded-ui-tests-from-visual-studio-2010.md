@@ -14,7 +14,7 @@ ms.author: "douge"
 manager: "douge"
 ---
 # Upgrading Coded UI Tests from Visual Studio 2010
-Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 are silently repaired when opened in Visual Studio 2012. If the Test projects are checked into source control, the project files are checked out for this repair. Once repaired, these test projects containing coded UI tests can then be used in both [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  
+Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 are silently repaired when opened in Visual Studio 2012 or later. If the Test projects are checked into source control, the project files are checked out for this repair. Once repaired, these test projects containing coded UI tests can then be used in both [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  
   
  **Requirements**  
   
@@ -29,7 +29,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 > [!WARNING]
 >  When a test project that was created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and contains only unit tests is opened in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], coded UI tests cannot be added to it. Similarly, you cannot add a coded UI test to a unit test project that was created in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  
   
-## Compatibility Issues between Visual Studio 2010 and Visual Studio 2012  
+## Compatibility Issues between Visual Studio 2010 and Visual Studio 2012 or later  
  The following table lists issues to be aware of when migrating coded UI tests between [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  
   
 > [!CAUTION]
@@ -43,7 +43,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 |In [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)], references were added inside a 'Choose' statement in the csproj file. In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], we are using a Feedback targets file to include Coded UI Test Assembly references.|In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], a Coded UI Test cannot be added to a Test Project created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] (or SP1) that did not contain a Coded UI Test.<br /><br /> The repair process adds the targets file and the Choose statement. If a Coded UI Test is not in the Test Project, then the project is marked as repaired and the appropriate references will not be added when adding Coded UI Test in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|You will have to create a new Test Project in the same solution using [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] and add your new Coded UI Test in it. Alternately, you can add Coded UI Tests into the Test Project in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 and open that project in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|  
   
 ##  <a name="UpgradingCodedUIFromVS2010_Update"></a> Visual Studio 2010 SP1 Update  
- An update to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] SP1 with compatibility support for Visual Studio 2012 and Windows 8 is available for download at the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=34677) and also as a Visual Studio update.  
+ An update to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] SP1 with compatibility support for Visual Studio 2012 or later, and Windows 8 or later, is available for download at the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=34677) and also as a Visual Studio update.  
   
  After you apply the update, the following [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] SP1 coded UI test tool features are improved for Windows 8:  
   
