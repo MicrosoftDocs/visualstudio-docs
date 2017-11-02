@@ -14,7 +14,9 @@ ms.author: "mblome"
 manager: "ghogen"
 ---
 # Writing unit tests for C/C++
-Visual Studio supports unit testing for C++ code using these frameworks:
+Unit testing C++ code in Visual Studio is based on **Test Explorer**, just like for .NET languages. Some features such as Live Unit Testing, Coded UI Tests and INtelliTest are not supported for C++. 
+
+Visual Studio includes these C++ test frameworks:
  -  Microsoft Unit Testing Framework for C++
  -  Google Test
  -  Boost.Test
@@ -25,13 +27,10 @@ In addition, you can write your own test adapter for whatever framework you woul
 **Visual Studio 2017 version 15.5**
 Both Google Test Adapter and Boost.Test Adapter are included as components of the **C++ Desktop Workload**. For earlier versions of Visual Studio, you can download the extensions on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest) and [Google Test Adapter](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforGoogleTest). 
 
-CTest support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the C++ Desktop Workload. 
+CTest support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the C++ Desktop Workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-in-visual-studio.md).
   
 ## Basic test workflow
-The following sections show the basic steps to get you started with the Microsoft Unit Testing Framework. The workflow is similar for any other framework that is implemented via a test adapter, with some differences in configuration and test code syntax. 
-
-> [!NOTE] 
-> Since CMake is supported through the [Open Folder](/cpp/non-msbuild-projects) environment, not the Visual Studio project system, there is no Visual Studio test project for CTest.
+The following sections show the basic steps to get you started with C++ unit testing. The basic configuration is very similar for the Microsoft, Google and Boost.Test frameworks, and any other third-party test adapter from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). 
   
 ### Create a test project
 You define and run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add | New Project**. Then in the left pane choose *Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available by default when the C++ Desktop Workload is installed:
@@ -50,13 +49,13 @@ Next, in your unit test .cpp file, add an `#include` directive for any header fi
 
 ### Write test methods
 > [!NOTE] 
-> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. Google.Test, Boost.Test and other frameworks each have their own syntax.
+> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/Primer). For Boost.Test, see [Boost Test Library: The Unit Test Framework](http://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 The .cpp file in your test project (by default named unittest1.cpp) has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
 
 ![Add include directives](media/cpp-write-test-methods.png "C++ test add includes for header files")
 
-TEST_CLASS and TEST_METHOD are part of the Microsoft Native Test Framework. For more information and documentation on all the available macros and functions, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](using-microsoft-visualstudio-testtools-cppunittestframework.md).
+TEST_CLASS and TEST_METHOD are part of the Microsoft Native Test Framework. 
 
 A TEST_METHOD returns void. To produce a test result, use the static methods in the Assert class to test actual results against what is expected. In the following example, assume `md_utils` has a public method that that takes a `std::string` and returns a result. We can test that the function works as expected like so:
 

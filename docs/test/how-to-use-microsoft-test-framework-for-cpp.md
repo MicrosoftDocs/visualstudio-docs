@@ -15,10 +15,6 @@ manager: ghogen
 ---
 # How to use the Microsoft Unit Testing Framework for C++
 
-To use the Microsoft Unit Testing Framework for C++, first add a test project to your solution, and configure it as described in [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
-
-
-
  There are several ways to test product code, depending on whether it exposes the interfaces that you want to test. Choose one of the following ways:  
   
  **The unit tests can call only functions that are exported from the code under test:**  
