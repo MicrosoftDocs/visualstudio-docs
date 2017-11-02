@@ -43,7 +43,7 @@ Advanced search operators refine your search for content by specifying where in 
 |A term in an example of a specific programming language|code:vb:|code:vb:string|Topics that contain "string" in a Visual Basic code example.|  
 |A topic that is associated with a specific index keyword|keyword:|keyword:readbyte|Topics that are associated with the "readbyte" index keyword.|  
 
-> [!WARNING]
+> [!IMPORTANT]
 >  You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.    
 
 ### Programming languages for code examples

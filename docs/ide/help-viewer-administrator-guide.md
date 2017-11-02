@@ -17,25 +17,22 @@ manager: ghogen
 # Help Viewer administrator guide
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.  
   
-If your network environment allows clients to access the internet, you can use command line scripts to deploy local Help content from the internet.  
+If your network environment allows clients to access the internet, you can use the Help Content Manager executable to deploy local Help content from the internet. For more information about HlpCtntMgr.exe command line syntax, see [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).
+
+For information about creating content, creating an intranet service endpoint, and similar types of activities, see the [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md).  
   
-If do not have internet access in your network environment, the Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../ide/help-content-manager-overrides.md) for functions such as:
+If do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../ide/help-content-manager-overrides.md) for functionality such as:
 
 - online versus offline help
-- content installation at first launch of the IDE
-- specifying an intranet content service
-- managing content  
-  
-The basic syntax is as follows:  
 
-```
-\\%ProgramFiles(x86)%\Microsoft Help Viewer\v2.3\HlpCtntmgr.exe /operation \<*argument*> /catalogname \<*name*> /locale \<*locale*> /sourceuri \<*.msha path or URL*>
-```
-  
-For more information about HlpCtntMgr.exe command line syntax, see [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md). For information about creating content, creating an intranet service endpoint, and similar types of activities, see the Help Viewer SDK.  
+- content installation at first launch of the IDE
+
+- specifying an intranet content service
+
+- managing content 
   
 ## Deploying local Help content from the internet  
-You can use Help Content Mananger(HlpCtntMgr.exe) to deploy local Help content from the internet to client computers. Use the following syntax:  
+You can use Help Content Mananger (HlpCtntMgr.exe) to deploy local Help content from the internet to client computers. Use the following syntax:  
   
 ```
 \\%ProgramFiles(x86)%\Microsoft Help Viewer\v2.3\HlpCtntmgr.exe /operation \<*name*> /catalogname \<*catalog name*> /locale \<*locale*>
@@ -144,4 +141,5 @@ Before you can create the base content set, you must first uninstall all local V
 ## See also
 [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)  
 [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)  
-[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)  
+[Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)

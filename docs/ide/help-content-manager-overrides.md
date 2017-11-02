@@ -25,7 +25,7 @@ You can change the default behavior of the Help Viewer and Help-related features
 
 3. Copy the file to %ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition\>\Common7\IDE\CommonExtensions.
 
-4. Run devenv /updateconfiguration in a Developer Command Prompt.
+4. Run `devenv /updateconfiguration` in a Developer Command Prompt.
 
 ### Registry key values
 |Registry Key Value|Type|Data|Description|  

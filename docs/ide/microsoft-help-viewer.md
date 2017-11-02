@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/02/2017"
+ms.date: "11/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,12 +26,7 @@ ms.author: "gewarren"
 manager: ghogen
 ---
 # Microsoft Help Viewer
-You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer.  
-
-> [!NOTE]
-> Microsoft Help Viewer is an optional installation component of Visual Studio. To install Help Viewer, see [Microsoft Help Viewer Installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, after installing the Help Viewer, go to the **Help** menu in Visual Studio, choose **Set Help Preference**, and then choose **Launch in Help Viewer**.
-
- You can do the following:  
+You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer, including Visual Studio, the .NET Framework, language reference, SQL Server, and Windows Development. Help Viewer enables you to:  
 
 -   Find and download sets of content, which are also referred to as books.  
 
@@ -41,7 +36,9 @@ You can install and view content for various products and technologies on your l
 
 -   Find information by using full-text search.  
 
--   View, bookmark, and print topics.  
+-   View, bookmark, and print topics.
+
+To install Help Viewer, see [Microsoft Help Viewer Installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, after installing the Help Viewer, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference**, **Launch in Help Viewer**.
 
 ## Help Viewer tour
 You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.
@@ -82,6 +79,7 @@ The toolbar in the Help Viewer window contains the following buttons:
 
 -   The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab. 
 
-## See also  
+## See also
+[Microsoft Help Viewer Installation](../ide/microsoft-help-viewer-installation.md)  
 [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)  
 [Install and Manage Local Content](../ide/install-and-manage-local-content.md)
