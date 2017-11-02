@@ -83,7 +83,5 @@ The toolbar in the Help Viewer window contains the following buttons:
 -   The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab. 
 
 ## See also  
-[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)   
-[Install and Manage Local Content](../ide/install-and-manage-local-content.md)   
-[Locate Information](../ide/locate-information.md)   
-[Troubleshooting the Help Viewer](../ide/troubleshooting-the-help-viewer.md)
+[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)  
+[Install and Manage Local Content](../ide/install-and-manage-local-content.md)

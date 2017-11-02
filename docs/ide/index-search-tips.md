@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/how-to-find-topics-in-the-index
+---
 title: "Index Search Tips | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -55,7 +57,3 @@ If you do not find an entry for the word or phrase you entered, try the followin
 -   Enter a synonym of the word or verb you are looking for.  
   
      For example, if you entered the term "building", try "creating" instead.  
-  
-## See also  
-[Full-Text Search Tips](../ide/full-text-search-tips.md)   
-[Locate Information](../ide/locate-information.md)

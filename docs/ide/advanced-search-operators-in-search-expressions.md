@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/logical-operators-in-search-expressions
+---
 title: "Advanced Search Operators in Search Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/02/2017"
@@ -44,8 +46,4 @@ You can use the code: operator to find content about any of several programming 
 |C++|code:cpp<br/>code:c++<br/>code:cplusplus|  
 |F#|code:f#<br/>code:fsharp|  
 |JavaScript|code:javascript<br/>code:js|  
-|XAML|code:xaml|  
-
-## See also
-[Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)   
-[Full-Text Search Tips](../ide/full-text-search-tips.md)
+|XAML|code:xaml|

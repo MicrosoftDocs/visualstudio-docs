@@ -1,7 +1,7 @@
 ---
 title: "How to: Find Topics in the Table of Contents | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -51,5 +51,6 @@ If you have opened a topic using the index or full-text search features, you can
      The **Contents** tab opens and displays the topic's location in the TOC.  
   
 ## See also
-[Locate Information](../ide/locate-information.md)   
+[How to: find topics in the index](../ide/how-to-find-topics-in-the-index.md)  
+[How to: search for topics](../ide/how-to-search-for-topics.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

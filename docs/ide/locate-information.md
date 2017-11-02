@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/microsoft-help-viewer
+---
 title: "Locate Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -25,5 +27,4 @@ The Help Viewer provides several different ways for you to locate information in
 |Language elements such as methods and events|Search|  
   
 ## See also
-[Full-Text Search Tips](../ide/full-text-search-tips.md)  
 [How to: Find Topics in the Table of Contents](../ide/how-to-find-topics-in-the-table-of-contents.md)

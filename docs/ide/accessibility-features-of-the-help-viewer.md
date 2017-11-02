@@ -1,7 +1,7 @@
 ---
 title: "Accessibility Features of the Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,5 +37,4 @@ You can make the Help Viewer more accessible by changing Internet Explorer optio
   
 ## See also
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)  
-[Customize the Help Viewer](../ide/customize-the-help-viewer.md)  
 [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md)

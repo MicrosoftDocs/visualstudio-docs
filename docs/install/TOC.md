@@ -21,9 +21,9 @@
 ## [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 ## [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 ## [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-## [Help Viewer Administrator Guide](help-viewer-administrator-guide.md)
-### [Command-Line Arguments for the Help Content Manager](command-line-arguments-for-the-help-content-manager.md)
-### [Help Content Manager Overrides](help-content-manager-overrides.md)
+## [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)
+### [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)
+### [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)
 ## Reference
 ### [Visual Studio workload and component IDs](workload-and-component-ids.md)
 ### [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md)
