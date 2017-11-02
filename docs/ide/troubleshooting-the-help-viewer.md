@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/microsoft-help-viewer
+---
 title: "Troubleshooting the Help Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
