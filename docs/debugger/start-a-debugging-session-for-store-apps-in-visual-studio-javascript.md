@@ -1,5 +1,5 @@
 ---
-title: "Start a debugging session for Store Apps in Visual Studio (JavaScript) | Microsoft Docs"
+title: "Start a debugging session for UWP Apps in Visual Studio (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -22,7 +22,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Start a debugging session for Store Apps in Visual Studio (JavaScript)
+# Start a debugging session for UWP Apps in Visual Studio (JavaScript)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  This topic describes how to start a debugging session for UWP apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
@@ -144,7 +144,7 @@ manager: ghogen
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks  
  ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- For security reasons, a UWP app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the Microsoft Store, you should test your app without the exemption.  
+ For security reasons, a UWP app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to Microsoft Store, you should test your app without the exemption.  
   
  To remove the network loopback exemption, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.  
   

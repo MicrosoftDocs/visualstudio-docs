@@ -1,5 +1,5 @@
 ---
-title: "Debug a WebView control (Microsoft Store) | Microsoft Docs"
+title: "Debug a WebView control (UWP) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

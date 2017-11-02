@@ -95,8 +95,8 @@ The Visual Studio simulator for UWP and Windows 8.1 apps is a desktop applicatio
 > [!NOTE]
 >  You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Design and UI intro](/windows/uwp/layout/design-and-ui-intro). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.  
   
-##  <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to the Microsoft Store  
- When you submit an app to the Windows app store, you must include screenshots of the app.  
+##  <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to Microsoft Store  
+ When you submit an app to Microsoft Store, you must include screenshots of the app.  
   
 > [!NOTE]
 >  The screenshot is saved at the current resolution of the simulator. To change the resolution, choose the **Change Resolution** button.  

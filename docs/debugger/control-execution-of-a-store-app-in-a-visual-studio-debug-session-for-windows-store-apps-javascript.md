@@ -55,7 +55,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 ##  <a name="BKMK_Create_the_sample_app"></a> Create the sample app  
  Debugging is about code, so the sample app uses the framework of the UWP app only to create a source file in which you can see how navigating a debug session works and how to examine program state. All of the code that you will invoke is called from the `module` function of the default.js file. No controls are added and no events are handled.  
   
-1.  **Create a blank JavaScript UWP app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Microsoft Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
+1.  **Create a blank JavaScript UWP app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Windows Universal**. In the list of project templates, choose **Blank App (Universal Windows)**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
   
      Note the script files that are loaded into the page.  
   

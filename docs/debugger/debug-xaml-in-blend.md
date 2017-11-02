@@ -51,9 +51,9 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
   
      In the **New Project** dialog box, a list of project types appears on the left side. When you click a project type, the project templates that are associated with it appear on the right side.  
   
-2.  In the list of project types, click **XAML (Microsoft Store)**.  
+2.  In the list of project types, click **Windows Universal**.  
   
-3.  In the list of project templates, click **Blank App**.  
+3.  In the list of project templates, click **Blank App (Universal Windows)**.  
   
 4.  In the **Name** text box, type `DebuggingSample`.  
   
