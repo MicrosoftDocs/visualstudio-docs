@@ -1,5 +1,5 @@
 ---
-title: "Run Store apps from Visual Studio | Microsoft Docs"
+title: "Run UWP apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -19,8 +19,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Run Store apps from Visual Studio
-Store apps run on a broad range of devices, and Visual Studio provides you with a number of ways to run and interact with those apps. The "F5" experience is enhanced to make it easy to debug, profile, and test apps during development.  
+# Run UWP apps from Visual Studio
+UWP apps run on a broad range of devices, and Visual Studio provides you with a number of ways to run and interact with those apps. The "F5" experience is enhanced to make it easy to debug, profile, and test apps during development.  
   
  ![Start debugging and select target](../debugger/media/vsrun_dropdownlist.png "VSRUN_DropDownList")  
   

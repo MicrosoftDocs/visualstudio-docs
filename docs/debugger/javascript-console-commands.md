@@ -55,9 +55,9 @@ manager: ghogen
 |`groupEnd()`|Ends the current group.<br /><br /> Requirements:<br /><br /> Visual Studio 2013|See the example for the `group` command.|  
 |`info(message)`|Sends `message` to the console window. The message is prefaced by an information symbol.|`console.info("info message");`<br /><br /> For more examples, see [Formatting console.log output](#ConsoleLog) later in this topic.|  
 |`log(message)`|Sends `message` to the console window.<br /><br /> If you pass an object, this command sends that object to the console window and displays it in an object visualizer. You can use the visualizer to inspect properties in the console window.|`console.log("logging message");`|  
-|`msIsIndependentlyComposed(element)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
-|`profile(reportName)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
-|`profileEnd()`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
+|`msIsIndependentlyComposed(element)`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
+|`profile(reportName)`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
+|`profileEnd()`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
 |`select(element)`|Selects the specified HTML `element` in the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md).|console.select(element);|  
 |`time (name)`|Starts a timer that's identified by the optional `name` parameter. When used with `console.timeEnd`, calculates the time that elapses between `time` and `timeEnd`, and sends the result (measured in ms) to the console using the `name` string as a prefix. Used to enable instrumentation of app code for measuring performance.|`console.time("app start");  app.start();  console.timeEnd("app start");`|  
 |`timeEnd(name)`|Stops a timer that's identified by the optional `name` parameter. See the `time` console command.|`console.time("app start"); app.start(); console.timeEnd("app start");`|  

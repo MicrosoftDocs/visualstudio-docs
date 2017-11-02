@@ -27,7 +27,7 @@ manager: ghogen
 # Refresh a UWP or Windows 8.1 App
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP and Windows 8.1 apps.  
+ You can make changes to your code while you're debugging, and then refresh a UWP app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP and Windows 8.1 apps.  
   
  Refresh doesn't maintain your app state or reflect the following changes to your app:  
   

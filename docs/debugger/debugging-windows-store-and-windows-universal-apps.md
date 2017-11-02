@@ -30,8 +30,8 @@ To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://
   
 |||  
 |-|-|  
-|[Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)|Run Store apps on a local machine, in an app simulator or emulator, or on a remote device.|  
-|[Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)|Find and fix bugs in your Store apps by using the Visual Studio debugger.|  
+|[Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)|Run UWP apps on a local machine, in an app simulator or emulator, or on a remote device.|  
+|[Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)|Find and fix bugs in your UWP apps by using the Visual Studio debugger.|  
 |[Debug an installed app package](../debugger/debug-installed-app-package.md)|Debug deployed apps, both local and remote.|
 |[Prefetch content for UWP apps](../debugger/prefetch-content-for-windows-store-apps.md)|Analyze the effect of the ContentPrefetcher class on UWP apps.|  
   

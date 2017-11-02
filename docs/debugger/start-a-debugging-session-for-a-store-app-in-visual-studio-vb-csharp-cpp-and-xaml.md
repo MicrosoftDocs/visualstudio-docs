@@ -42,7 +42,7 @@ manager: ghogen
 # Start a debugging session for a UWP app in Visual Studio (VB, C#, C++ and XAML)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- This topic describes how to start a debugging session for Store apps written in XAML and Visual C++, Visual C#, or Visual Basic. Debugging an app involves both configuring the debugging session and choosing the way to start the app.  
+ This topic describes how to start a debugging session for UWP apps written in XAML and Visual C++, Visual C#, or Visual Basic. Debugging an app involves both configuring the debugging session and choosing the way to start the app.  
   
 > [!NOTE]
 >  For apps written in JavaScript and HTML see [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md).  
@@ -152,7 +152,7 @@ manager: ghogen
   
  ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
   
- You can deploy and debug a Windows Phone Store app on a device or on one of the Visual Studio phone emulators. Select the device or emulator from the **Target device** list.  
+ You can deploy and debug a Windows Phone app on a device or on one of the Visual Studio phone emulators. Select the device or emulator from the **Target device** list.  
   
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
  By default, Visual Studio debugs managed code in C# and Visual Basic apps.  

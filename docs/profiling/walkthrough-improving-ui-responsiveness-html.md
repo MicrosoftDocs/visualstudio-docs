@@ -14,10 +14,10 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "performance tools, JavaScript [Store apps]"
-  - "performance, JavaScript [Store apps]"
-  - "performance, HTML [Store apps]"
-  - "performance tools, HTML [Store apps]"
+  - "performance tools, JavaScript [UWP apps]"
+  - "performance, JavaScript [UWP apps]"
+  - "performance, HTML [UWP apps]"
+  - "performance tools, HTML [UWP apps]"
 ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 16
 author: "mikejo5000"

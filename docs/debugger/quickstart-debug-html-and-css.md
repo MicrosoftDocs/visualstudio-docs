@@ -29,7 +29,7 @@ manager: ghogen
 # Debug HTML and CSS in UWP and Windows 8.1 Apps
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova.  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone apps, and for apps created using Visual Studio Tools for Apache Cordova.  
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
   
@@ -266,7 +266,7 @@ manager: ghogen
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The Visual Studio tools for JavaScript, the DOM Explorer, and the JavaScript Console window are supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
+-   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   
