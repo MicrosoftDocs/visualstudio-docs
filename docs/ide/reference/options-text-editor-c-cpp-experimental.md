@@ -46,7 +46,7 @@ For additional text editor features in the Visual Studio Gallery, see the list [
   
 -   **MSDN Help** - Search MSDN for your error messages  
   
- You can either hover over a squiggle to get a light bulb, or use the default keyboard shortcut Ctrl+Dot (Ctrl+.). Note that for the keyboard shortcut, your caret doesn't need to be positioned on the specific error or token; you can simply be on the same line as the error to invoke suggestions for anything on that line.  
+You can either hover over a squiggle to get a light bulb, or use the default keyboard shortcut Ctrl+Dot (Ctrl+.). Note that for the keyboard shortcut, your caret doesn't need to be positioned on the specific error or token; you can simply be on the same line as the error to invoke suggestions for anything on that line.  
   
 ## See Also  
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
