@@ -1,5 +1,5 @@
 ---
-title: "Create and run unit tests for a Store app in Visual Studio | Microsoft Docs"
+title: "Create and run unit tests for a UWP app in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -15,8 +15,8 @@ caps.latest.revision: 26
 ms.author: "douge"
 manager: "douge"
 ---
-# Create and run unit tests for a Store app in Visual Studio
-The Visual Studio 2012 Express for Windows 8 unit test tools are designed to support developers and teams who incorporate unit testing in their software development practices. Unit tests give developers and testers an efficient, maintainable way to look for logic errors in the methods of classes in Visual C#, Visual Basic, and Visual C++ projects.  
+# Create and run unit tests for a UWP app in Visual Studio
+The Visual Studio unit test tools are designed to support developers and teams who incorporate unit testing in their software development practices. Unit tests give developers and testers an efficient, maintainable way to look for logic errors in the methods of classes in Visual C#, Visual Basic, and Visual C++ projects.  
   
 > [!NOTE]
 >  The topics in this section describe the functionality of Visual Studio 2012 Express for Windows 8. Visual Studio Ultimate, VS Premium, and VS Professional provide additional features for unit testing.  

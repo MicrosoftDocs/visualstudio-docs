@@ -33,7 +33,7 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 -   Generate sample XML for global elements.  
   
- The XML Schema Explorer provides a hierarchal view of the schema set through a tree view. The XML Schema Explorer also provides search, filtering, navigation, and sorting. To access the XML Schema Explorer, do one of the following:  
+The XML Schema Explorer provides a hierarchal view of the schema set through a tree view. The XML Schema Explorer also provides search, filtering, navigation, and sorting. To access the XML Schema Explorer, do one of the following:  
   
 -   If you are on the [Start View](../xml-tools/start-view.md), click the **XML Schema Explorer** link.  
   
@@ -54,9 +54,9 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 -   The fourth level contains the global nodes. This can include elements, groups, complex types, simple types, attributes, attribute groups, and `include`, `import`, and `redefine` statements.  
   
- The following is an example of a tree structure:  
+The following is an example of a tree structure:  
   
- ![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif "XMLSchemaExplorer")  
+![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif "XMLSchemaExplorer")  
   
 ## Selection and Activation  
  To highlight and select a node, click once in the Schema Explorer.  
