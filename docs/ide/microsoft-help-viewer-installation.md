@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Help Viewer Installation | Microsoft Docs"
+title: "Install Visual Studio offline help | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
 ms.reviewer: ""
@@ -17,7 +17,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Microsoft Help Viewer Installation
+# Microsoft Help Viewer installation
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.
 
 Help Viewer is an optional installation component of Visual Studio. To install it through Visual Studio Installer, follow these steps:

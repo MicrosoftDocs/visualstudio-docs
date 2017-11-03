@@ -1,5 +1,5 @@
 ---
-title: "How to: Find Topics in the Index | Microsoft Docs"
+title: "Use Visual Studio help viewer index | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.reviewer: ""

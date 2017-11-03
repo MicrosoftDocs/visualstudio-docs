@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Help Viewer | Microsoft Docs"
+title: "Visual Studio offline help documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.reviewer: ""

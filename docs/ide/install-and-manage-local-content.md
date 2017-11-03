@@ -1,5 +1,5 @@
 ---
-title: "Install and Manage Local Content | Microsoft Docs"
+title: "Install local Visual Studio documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

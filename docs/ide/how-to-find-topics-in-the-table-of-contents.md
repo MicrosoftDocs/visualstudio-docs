@@ -1,5 +1,5 @@
 ---
-title: "How to: Find Topics in the Table of Contents | Microsoft Docs"
+title: "Use Visual Studio Help Viewer table of contents | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.reviewer: ""

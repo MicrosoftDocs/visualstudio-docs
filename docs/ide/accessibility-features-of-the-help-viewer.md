@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Features of the Help Viewer | Microsoft Docs"
+title: "Accessibility of Visual Studio Help Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.reviewer: ""
