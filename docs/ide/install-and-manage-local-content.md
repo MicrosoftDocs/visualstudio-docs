@@ -80,7 +80,7 @@ You can save disk space by removing unwanted content from your computer.
 > You must have administrative permissions to remove content.  
   
 > [!NOTE]
-> No content will appear if the Visual Studio IDE is set to a language other than English, you remove localized content, and the **Include English content in all navigation tab and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
+> No content appears if the Visual Studio IDE is set to a language other than English, you remove localized content, and the **Include English content in all navigation tab and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
 #### To remove content  
   
