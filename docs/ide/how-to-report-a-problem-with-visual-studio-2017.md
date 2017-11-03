@@ -16,7 +16,7 @@ ms.technology: "vs-acquisition"
 If you run into a problem with Visual Studio, we want to know about it. Here's how to report a problem so that we can diagnose and fix it.  
 
 # Sign in to Visual Studio
-If you haven't already done so, sign in to Visual Studio before you report a problem. That way, not only can you report a problem that you're experiencing, but you can also vote or comment on it&mdash;and on any other problem that you see posted, too.
+If you haven't already done so, sign in to Visual Studio before you report a problem. That way, you can report a problem that you're experiencing, and also vote or comment on it. You can even vote or comment on any other problem that you see posted, too.
 
 1.	Click **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
 2.	Follow the instructions on-screen to sign in.
@@ -31,10 +31,9 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 
   ![Search and vote for similar problems](../ide/media/search-and-vote.png "Search and vote for similar problems")
 
-
 ## Report a new problem
 ###  <a name="report_new_problem"></a>
-1.	If you don’t find what another report of the same or a similar problem that you can up-vote, click the **Report new problem** button at the bottom of the screen.
+1.	If you don’t find what you're looking for, click the **Report new problem** button at the bottom of the screen.
 2.	Create a descriptive title for the problem that will help us route it to the correct Visual Studio team.
 3.	Give us any additional details, and if possible, provide us with the steps to reproduce the problem.
 
@@ -55,7 +54,7 @@ Trace and heap dump files are very useful in helping us diagnose problems.  We a
   ![Click Start Recording to provide a trace and heap dump file ](../ide/media/record-dialog-box.png "Provide trace and heap dump files")
 
 3.  When the **Steps Recorder** tool appears, perform the steps that reproduce the problem.
-4.  When you are done, click the **Stop Record** button in the floating window.
+4.  When you are done, click the **Stop Record** button.
 5.  Wait a few minutes for Visual Studio to collect and package the information that you recorded.
 
 ## Submit the report  
