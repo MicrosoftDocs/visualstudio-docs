@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::GetPhysicalProcessId"
 ms.assetid: 77da6e10-75af-4308-97dd-c44416ca52d7
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::GetPhysicalProcessId
 Gets the system process identifier.  

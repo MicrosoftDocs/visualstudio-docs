@@ -18,7 +18,7 @@ ms.assetid: f8d33007-302d-4549-9dad-47fb33ea60b7
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # PublicSymbol
 When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a `SymTagPublicSymbol` tag.  

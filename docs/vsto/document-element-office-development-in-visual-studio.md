@@ -19,7 +19,7 @@ ms.assetid: b4525a0e-8a03-4881-a3e2-8cc019029071
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;document&gt; Element (Office Development in Visual Studio)
   The `document` element of the `vstov4` namespace stores customization-specific information for document-level customizations.  

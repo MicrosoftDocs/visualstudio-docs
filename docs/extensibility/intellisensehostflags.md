@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "IntellisenseHostFlags enumeration"
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IntelliSenseHostFlags
 Specifies IntelliSense host flags.  

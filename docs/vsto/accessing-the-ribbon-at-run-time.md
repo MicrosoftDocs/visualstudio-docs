@@ -19,7 +19,7 @@ ms.assetid: 8a7c7c6d-1a18-4d6b-98ee-e483d41f0cd8
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessing the Ribbon at Run Time
   You can write code to show, hide, and modify the Ribbon, and enable users to run the code from controls in a custom task pane, actions pane, or Outlook form region.  

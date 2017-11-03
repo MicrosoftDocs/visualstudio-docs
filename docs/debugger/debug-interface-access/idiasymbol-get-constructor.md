@@ -16,7 +16,7 @@ ms.assetid: 2f2cf1e0-f817-4ca0-b782-3341362c46a9
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_constructor
 Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor.  

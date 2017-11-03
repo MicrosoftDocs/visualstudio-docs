@@ -16,7 +16,7 @@ ms.assetid: 7bd2c906-ee9c-484a-9550-4cddecc8f042
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Generate Code Metrics Data
 You can decide to generate code metrics results for either an entire solution or a selected project.  

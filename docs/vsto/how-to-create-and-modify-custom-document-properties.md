@@ -19,7 +19,7 @@ ms.assetid: 99d9dfaf-891f-4f3b-a580-67362afdaf34
 caps.latest.revision: 47
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create and Modify Custom Document Properties
   The Microsoft Office applications listed above provide built-in properties that are stored with documents. In addition, you can create and modify custom document properties if there is additional information you want to store with the document.  

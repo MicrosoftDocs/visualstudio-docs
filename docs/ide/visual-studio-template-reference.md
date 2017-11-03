@@ -15,7 +15,7 @@ ms.assetid: 5ebdd6c4-5d3e-448c-b47d-f62ec5f44d51
 caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Template Reference
 The following links provide reference information about the different aspects of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and item templates.  

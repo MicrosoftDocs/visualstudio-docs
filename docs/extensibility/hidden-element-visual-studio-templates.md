@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "Hidden element [Visual Studio project template]"
 ms.assetid: f37406b0-52e7-4f2c-aacf-bc8d7a4117b3
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Hidden Element (Visual Studio Templates)
 Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.  

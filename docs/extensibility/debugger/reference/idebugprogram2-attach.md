@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProgram2::Attach"
 ms.assetid: de069fbf-a565-4905-b102-f5658c55aacd
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgram2::Attach
 Attaches to the program.  

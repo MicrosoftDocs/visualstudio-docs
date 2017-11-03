@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: e173fb7d-c5bd-4568-ba0f-aa61913b3244
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - CSharp
   - VB
@@ -399,5 +399,5 @@ Select Case obj
 End Select
 ```
 
-# See Also
+## See Also
 * [Code Styles and Quick Actions](code-styles-and-quick-actions.md)

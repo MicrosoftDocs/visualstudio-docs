@@ -27,7 +27,7 @@ ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Web Browser, Environment, Options Dialog Box
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  
@@ -53,8 +53,8 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
   
 -   **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.  
   
- Internet Explorer Options  
- Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
+Internet Explorer Options  
+Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
   
 > [!NOTE]
 >  Use the Browse With dialog box to replace the Visual Studio internal Web browser, which is a version of Internet Explorer, by using a different, external Web browser.  

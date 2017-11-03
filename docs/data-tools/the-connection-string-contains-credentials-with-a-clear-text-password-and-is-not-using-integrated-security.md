@@ -10,7 +10,7 @@ ms.assetid: 501d85af-92e0-4471-b280-8a59c0688575
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # The connection string contains credentials with a clear text password and is not using integrated security

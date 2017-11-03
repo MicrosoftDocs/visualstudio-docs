@@ -37,7 +37,7 @@ ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio

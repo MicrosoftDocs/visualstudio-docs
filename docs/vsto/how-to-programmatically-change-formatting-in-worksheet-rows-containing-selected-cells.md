@@ -19,7 +19,7 @@ ms.assetid: c55cd488-98d1-46c6-9715-0e9212d178de
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells
   You can change the font of an entire row that contains a selected cell so that the text is bold.  

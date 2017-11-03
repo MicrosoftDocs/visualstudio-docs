@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "TemplateData element [Visual Studio project templates]"
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # TemplateData Element (Visual Studio Templates)
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.  

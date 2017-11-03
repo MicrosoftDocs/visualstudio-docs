@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 1490d6ac-ed56-4d03-95db-c23f23cba70d
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Introduce a local variable in Visual Basic

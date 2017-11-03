@@ -25,7 +25,7 @@ ms.assetid: 6c2d2dc6-4acb-4b68-ba94-a61087e8dff0
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Sandboxed Solution Considerations
   *Sandboxed solutions* are a feature in Microsoft SharePoint 2010 that enables site collection users to upload their own custom code solutions. A common sandboxed solution is users uploading their own Web Parts.  

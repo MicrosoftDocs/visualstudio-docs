@@ -13,7 +13,7 @@ ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug live ASP.NET apps using snappoints and logpoints
 

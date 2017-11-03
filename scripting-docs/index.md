@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Scripting
+title: Scripting | Microsoft Docs
 ---
 # Scripting Technologies
 

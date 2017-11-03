@@ -18,7 +18,7 @@ ms.assetid: 4fe57449-cf45-4745-bcd2-6345f1ed266d
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1014: Mark assemblies with CLSCompliantAttribute
 |||  

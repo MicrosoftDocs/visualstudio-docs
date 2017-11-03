@@ -16,7 +16,7 @@ ms.assetid: 58aa6c23-d0b3-414d-930d-82e676cb7e5f
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: View Managed Code Defects
 In code analysis, errors, warnings, and messages are reported in the Code Analysis window. The Code Analysis window appears automatically when you run code analysis on a project or solution.  

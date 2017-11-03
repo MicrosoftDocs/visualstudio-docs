@@ -1,5 +1,5 @@
 ---
-title: "Signing in to Visual Studio for Mac"
+title: "Signing in to Visual Studio for Mac | Microsoft Docs"
 description: 
 author: asb3993
 ms.author: amburns
@@ -7,7 +7,6 @@ ms.date: 04/14/2017
 ms.topic: article
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---
-
 # Signing in to Visual Studio for Mac
 
 When you launch Visual Studio for Mac for the first time, you are prompted to log in using a Microsoft account. You should use a Microsoft account that is connected to the license that you wish to use. If you do not have a Microsoft account, see [How do I sign up for an account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16/sign-up-for-a-microsoft-account). 

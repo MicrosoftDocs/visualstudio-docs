@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsHiddenCode"
 ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
 Determines if the code at the specified debugger address is hidden.  

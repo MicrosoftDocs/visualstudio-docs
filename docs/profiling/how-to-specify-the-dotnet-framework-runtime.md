@@ -15,7 +15,7 @@ ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Specify the .NET Framework Runtime
 With the release of [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)], applications can be composed of modules that were built by using different versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] run-time. By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profile the first runtime that is loaded by the application. You can specify the run-time to profile when you start an application with the profiler and when you attach the profiler to an already running application.  

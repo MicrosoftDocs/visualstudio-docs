@@ -16,7 +16,7 @@ ms.assetid: 49a159f3-6943-44d3-90a3-0dba51e8a7ec
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_targetRelativeVirtualAddress
 Retrieves the relative virtual address (RVA) of a thunk target.  

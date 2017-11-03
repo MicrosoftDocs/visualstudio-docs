@@ -18,7 +18,7 @@ ms.assetid: 1a29ac7e-1da4-4c7a-87a5-d3d16897fe7c
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Save Visio Documents
   There are several ways to save Microsoft Office Visio documents:  

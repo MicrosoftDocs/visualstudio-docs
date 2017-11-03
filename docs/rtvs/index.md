@@ -1,7 +1,7 @@
 ---
 title: R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 11324501-ceb6-47a2-ae13-e9e992d3603e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Working with R in Visual Studio

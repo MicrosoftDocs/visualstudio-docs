@@ -21,7 +21,7 @@ ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # When Breakpoint Is Hit Dialog Box
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.  

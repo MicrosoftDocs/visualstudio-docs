@@ -12,7 +12,7 @@ ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Suppress Code Analysis Warnings for Generated Code
 Managed code compilers often generate code that is added to a project to facilitate rapid code development. In addition, developers often use third-party tools to help develop applications quickly. These tools also generate code that is added to the project.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugCustomViewer interface"
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCustomViewer
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.  

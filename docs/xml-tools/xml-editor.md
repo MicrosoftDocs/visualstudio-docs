@@ -12,7 +12,7 @@ ms.assetid: 623869f3-040b-4bf4-b353-ddc2229694e4
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # XML Editor
 The XML Editor is based on the [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  
@@ -37,7 +37,7 @@ The XML Editor is based on the [!INCLUDE[msCoName](../xml-tools/includes/msconam
   
 -   Integration with the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). This provides a hierarchal view of XML Schemas.  
   
- The XML Editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML Editor by using the **Open With** option and selecting the XML Editor from the list.  
+The XML Editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML Editor by using the **Open With** option and selecting the XML Editor from the list.  
   
 ## Express Editions  
  The following XML Editor features are not available in the Visual Studio Express Editions:  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugPorts2::Next"
 ms.assetid: 3f43d18c-6bd1-4ddd-95ef-9550abd2ad09
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPorts2::Next
 Returns the next set of elements from the enumeration.  

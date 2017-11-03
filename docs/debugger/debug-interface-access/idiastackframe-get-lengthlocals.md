@@ -16,7 +16,7 @@ ms.assetid: dbc3e544-578a-4f0b-8d20-f21ad4cbb604
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaStackFrame::get_lengthLocals
 Retrieves the number of bytes of local variables pushed on the stack.  

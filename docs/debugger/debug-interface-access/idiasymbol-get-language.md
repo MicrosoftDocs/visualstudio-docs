@@ -16,7 +16,7 @@ ms.assetid: c759ad3c-1c21-4234-869b-86aa3a608a38
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_language
 Retrieves the language of the source.  

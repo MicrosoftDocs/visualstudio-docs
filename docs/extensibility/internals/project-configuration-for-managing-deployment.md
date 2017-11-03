@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], configuration for managing deployment"
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Configuration for Managing Deployment
 Deployment is the act of physically moving the output items from a build process to the expected location for debugging and installation. For example, a Web application might be built on a local machine and then placed on the server.  

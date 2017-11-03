@@ -18,7 +18,7 @@ ms.assetid: d202401a-ea14-4559-b15e-0ea4f5b68789
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2226: Operators should have symmetrical overloads
 |||  

@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file
 title: "Modifying the Isolated Shell By Using the .Vsct File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -12,8 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode, .vsct file"
 ms.assetid: 6d147c2d-10e9-400e-b8ce-5566287b41ba
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modifying the Isolated Shell By Using the .Vsct File
 The UI project for a Visual Studio isolated shell project contains a .vsct file that lets you specify which application groups and individual commands are available in the application. The following is an excerpt from an unmodified .vsct file.  

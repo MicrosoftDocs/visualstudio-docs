@@ -22,7 +22,7 @@ ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 caps.latest.revision: 81
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # What's New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
@@ -51,5 +51,5 @@ The debugger includes these new features:
 For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#debuggingdiag).
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

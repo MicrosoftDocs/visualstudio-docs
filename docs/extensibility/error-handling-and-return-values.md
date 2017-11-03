@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "return values"
 ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error Handling and Return Values
 VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interop assemblies to manage error information.  

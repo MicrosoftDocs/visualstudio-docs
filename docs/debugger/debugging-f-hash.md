@@ -20,7 +20,7 @@ ms.assetid: 20bcd51c-2d06-4281-9a1e-ef2b91d1a779
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging F#
 Debugging F# is similar to debugging any managed language, with a few exceptions:  

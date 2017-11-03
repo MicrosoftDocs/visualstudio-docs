@@ -13,7 +13,7 @@ ms.assetid: c9171e4c-1bba-4581-b18e-cc8a9ad25f0c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 2: Writing and running code
@@ -79,7 +79,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
     ```python 
     for i in range(360):        
-        print(cos(radians(i))
+        print(cos(radians(i)))
     ```
 
 1. Run the program again with Ctrl+F5 or **Debug > Start Without Debugging**. Close the output window when you're done.

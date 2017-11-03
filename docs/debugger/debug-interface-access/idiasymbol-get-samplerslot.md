@@ -14,7 +14,7 @@ ms.assetid: 41c751ba-81be-4bd3-838f-8373fc146157
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_samplerSlot
 Retrieves the sampler slot.  

@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: abf1565b-c7b7-4d45-b3d3-a438a836c70e
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.rename"
 dev_langs: 
