@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/how-to-find-topics-in-the-index
+---
 title: "Index Search Tips | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -11,21 +13,21 @@ ms.topic: "article"
 f1_keywords: 
   - "hv_index"
 helpviewer_keywords: 
-  - "index search tips [Help Viewer 2.0]"
-  - "Help Viewer 2.0, index search tips"
+  - "index search tips [Help Viewer]"
+  - "Help Viewer, index search tips"
 ms.assetid: f9ffa8e9-3ece-419d-a465-f9c2c21fd4ba
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Index Search Tips
+# Index search tips
 You can locate information in the Index by entering keywords. This topic suggests useful ways to search Help using the Index.  
   
-## Index Search Tips  
- Using the index is a straight-forward process; however, understanding how to best enter keywords can make your index searches more productive.  
+## Index search tips  
+Using the index is a straight-forward process; however, understanding how to best enter keywords can make your index searches more productive.  
   
-### General Guidelines  
+### General guidelines  
   
 -   Scroll through the index entries. Not all topics are indexed the same way, and the one that could most help you might be higher or lower in the list than you expected.  
   
@@ -37,8 +39,8 @@ You can locate information in the Index by entering keywords. This topic suggest
   
 -   Use filters with the **Index** tab to decrease the number of results.  
   
-### Syntax Tips  
- If you do not find an entry for the word or phrase you entered, try the following:  
+### Syntax tips  
+If you do not find an entry for the word or phrase you entered, try the following:  
   
 -   Type the first few letters, or root, of the word. By entering a partial string, you can get to topics that have been indexed with keywords that are singular or plural.  
   
@@ -54,8 +56,4 @@ You can locate information in the Index by entering keywords. This topic suggest
   
 -   Enter a synonym of the word or verb you are looking for.  
   
-     For example, if you entered the gerund "building" try "creating" instead.  
-  
-## See Also  
- [Full-Text Search Tips](../ide/full-text-search-tips.md)   
- [Locate Information](../ide/locate-information.md)
+     For example, if you entered the term "building", try "creating" instead.  
