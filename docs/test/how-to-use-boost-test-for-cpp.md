@@ -1,0 +1,64 @@
+---
+title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2017"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-devops-test"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 2e0710a8-8e8a-4f6e-8415-5ab3eb830079
+caps.latest.revision: 14
+ms.author: mblome
+manager: ghogen
+---
+
+# How to use Boost.Test for C++ in Visual Studio
+In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into the Visual Studio IDE as a component of the **Desktop Develoment with C++** workload. To install it on your machine, open the Visual Studio Installer and find **Boost.Test Adapter** under the list of workload components:
+
+![Install Boost Test](media/cpp-boost-component.png "Install Boost.Test for C++")
+
+## Manually create and configure a test project
+**Visual Studio 2017 version 15.5** You have to manually create a Boost.Test project. A project template is planned for a future version of Visual Studio.
+
+
+
+
+1. In **Solution Explorer**, right click on the solution node and choose **Add | New Project**. 
+2. In the left pane, choose **Visual C++ | Test** and then choose **Google Test Project** in the center pane. 
+3. Give the test project a name and click **OK**. 
+
+![New Google Test Project](media/cpp-gtest-new-project.png "Add a new Google Test Project")
+
+## Configure the test project
+In the **Test Project Configuration** dialog that appears, you can choose the project you want to test. When you choose a project, Visual Studio adds a reference to the selected project. If you choose no project, then you need to manually add references to the project(s) you want to test.
+
+ ![Configure Google Test Project](media/cpp-gtest-config.png "Configure Google Test Project")
+
+## Set additional options
+From the main menu, choose **Tools | Options | Test Adapter for Google Test** to set additional options. See the Google Test documentation for more information about these settings.
+
+ ![Google Test Project settings](media/cpp-gtest-settings.png "Google Test Project settings")
+
+## Add include directives
+In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`
+an IntelliSense window will appear and enable you to select the full path to the header file.
+
+![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
+
+## Write and run Tests
+You are now ready to write and run Google Tests. See the [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/Primer.md) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+
+## See Also
+[Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+
+
+  
+
+
+
+
+
+
+

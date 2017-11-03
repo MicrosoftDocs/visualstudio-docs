@@ -561,12 +561,9 @@ template<typename _EXPECTEDEXCEPTION, typename _RETURNTYPE>
 ###  <a name="logger"></a> Logger  
  The Logger class contains static methods to write to the **Output Window**. 
   
-```cpp  
-class Logger  
-```cpp  
-  
 ###  <a name="write_message"></a> Write Message  
 Write a string to the **Output Window**  
+
 ```cpp  
 static void Logger::WriteMessage(const wchar_t* message)  
 ```  
