@@ -94,9 +94,9 @@ The steps in this walkthrough show you how to create a new XML document. The wal
   
 ### To format the XML document  
   
-1.  Select the **Format Document** button from the XML Editor toolbar.  
+- Select the **Format Document** button from the XML Editor toolbar.
   
-     The XML document is reformatted.  
+    The XML document is reformatted.  
   
 ### To save the XML document  
   
@@ -109,7 +109,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 ## hireDate.xsd File  
  The following schema file is used by the walkthrough.  
   
-```  
+```xml
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
      elementFormDefault="qualified" targetNamespace="urn:empl-hire"  
