@@ -41,17 +41,17 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code Editor pro
   
 -   SQL - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet**.  
   
- In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough-creating-a-code-snippet.md).  
+In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough-creating-a-code-snippet.md).  
   
 ## UIElement List  
- Item Name  
- An editable text field that displays the name of the item selected in the **Item List**. To perform an incremental search for the item you want, begin typing its name in this field. Continue adding letters until the desired item is selected in the **Item List**.  
+Item Name  
+An editable text field that displays the name of the item selected in the **Item List**. To perform an incremental search for the item you want, begin typing its name in this field. Continue adding letters until the desired item is selected in the **Item List**.  
   
- Item List  
- A list of code snippets available for insertion, or a list of folders containing code snippets. To insert a snippet or expand a folder, select the item you want and press Enter.  
+Item List  
+A list of code snippets available for insertion, or a list of folders containing code snippets. To insert a snippet or expand a folder, select the item you want and press Enter.  
   
 ## See Also  
- [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)   
- [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
- [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)
+[Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
+[Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)   
+[Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
+[How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

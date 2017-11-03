@@ -53,7 +53,7 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 -   Formatting keyboard commands.  
 
- You can specify which events cause auto-formatting.  
+You can specify which events cause auto-formatting.  
 
 |||  
 |-|-|  

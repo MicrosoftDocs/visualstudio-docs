@@ -54,7 +54,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 -   **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.  
   
 ## Internet Explorer Options  
- Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
+Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
   
 > [!NOTE]
 >  Use the **Browse With** dialog box to replace the Visual Studio internal Web browser with a browser of your choice. You can access the Browse With dialog box from the right-click or context menu of, for example, an HTML file in your project.

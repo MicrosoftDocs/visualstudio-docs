@@ -66,7 +66,7 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 1.  Add a text file to the **HelloWorldVB** folder and name it **HelloWorldVB.pkgdef**. This file is used to add certain keys to the registry. In this case it adds a new key to  
 
-     **HKCU\Software\Microsoft\VisualStudio\14.0\Languages\CodeExpansions\Basic**.  
+     **HKCU\Software\Microsoft\VisualStudio\15.0\Languages\CodeExpansions\Basic**.  
 
 2.  Add the following lines to the file.  
 
