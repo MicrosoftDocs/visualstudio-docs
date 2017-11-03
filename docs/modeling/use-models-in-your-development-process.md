@@ -89,7 +89,7 @@ In Visual Studio, you can use a model to help you understand and change a system
 -   Nontechnical stakeholders usually have no problems understanding UML diagrams, with some guidance from you.  
   
 #### Link Model to Work Items  
- After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model. To learn how to do this, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+ After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model.
   
  You can link any element to work items, but the most useful elements are as follows:  
   
