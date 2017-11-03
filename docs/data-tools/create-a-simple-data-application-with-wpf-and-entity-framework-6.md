@@ -85,7 +85,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
   
 7.  Press **Ctrl + Shift + B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.  
   
- Now we are ready to hook up this model to the XAML page so that we can view, navigate and modify the data.  
+Now we are ready to hook up this model to the XAML page so that we can view, navigate and modify the data.  
   
 ## Databind the model to the XAML page  
  It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
@@ -141,9 +141,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 8.  Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. We'll also create a way to view the other records and do basic CRUD operations.  
   
 ## Adjust the page design and add grids for new customers and orders  
- The default arrangement produced by Visual Studio is not ideal for our application, so we'll make some changes manually in the XAML. We will also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, we need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. We'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, we will add a Delete button to each row in the Orders grid to enable the user to delete an individual order.  
+The default arrangement produced by Visual Studio is not ideal for our application, so we'll make some changes manually in the XAML. We will also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, we need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. We'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, we will add a Delete button to each row in the Orders grid to enable the user to delete an individual order.  
   
- First, add these styles to the Windows.Resources element in MainWindow.xaml:  
+First, add these styles to the Windows.Resources element in MainWindow.xaml:  
   
 ```xaml  
 <Style x:Key="Label" TargetType="{x:Type Label}" BasedOn="{x:Null}">  
@@ -161,7 +161,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 </Style>  
 ```  
   
- Next, replace the entire outer Grid with this markup:  
+Next, replace the entire outer Grid with this markup:  
   
 ```xaml  
 <Grid>  
@@ -420,5 +420,5 @@ Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your
 ## Run the application
 To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.  
   
-## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)
+## See also
+[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)

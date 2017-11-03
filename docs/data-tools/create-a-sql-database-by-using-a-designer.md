@@ -18,7 +18,7 @@ manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Create a database and add tables in Visual Studio
-You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this toipc, we'll explore the following tasks:  
+You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, we'll explore the following tasks:  
   
 -   [Create a project and a local database file](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_CreateNewSQLDB)  
   
