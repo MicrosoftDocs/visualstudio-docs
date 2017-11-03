@@ -13,7 +13,7 @@ manager: ghogen
 ms.technology: "vs-acquisition"
 ---
 # How to report a problem with Visual Studio 2017
-If you experience a problem with Visual Studio, we want to know about it. Here's how to report a problem so that we can diagnose and fix it.  
+If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem so that we can diagnose and fix it.  
 
 # Sign in to Visual Studio
 If you haven't already done so, sign in to Visual Studio before you report a problem. That way, you can report a problem that you're experiencing, and also vote or comment on it. You can even vote or comment on any other problem that you see posted, too.
