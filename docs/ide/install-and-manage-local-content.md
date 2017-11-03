@@ -42,7 +42,7 @@ By default, the Help Viewer installs content by using a Microsoft online service
 1.  On the **Manage Content** tab, choose the **Disk** option button.  
   
     > [!NOTE]
-    >  The **Disk** option won't be available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+    >  The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
 2.  Perform one of the following steps:  
   
@@ -53,13 +53,13 @@ By default, the Help Viewer installs content by using a Microsoft online service
     -   In the list, choose the entry that was used most recently.  
   
 ## Download and install content locally  
-You can view topics without an Internet connection if you download and install content on your local computer.  
+If you download and install content on your local computer, you can view topics when you don't have an internet connection.  
   
 > [!IMPORTANT]
 > To install content, you must log on with an account that has administrative permissions.  
   
 > [!NOTE]
-> If the Visual Studio IDE is set to a language other than English, you can install English content, localized content, or both. However, no content will appear if you install only the English version and the **Include English content in all navigation tabs and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
+> If the Visual Studio IDE is set to a language other than English, you can install English content, localized content, or both. However, no content appears if you install only the English version and the **Include English content in all navigation tabs and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
 #### To download and install content  
   

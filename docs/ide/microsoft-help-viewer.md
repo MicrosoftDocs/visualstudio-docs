@@ -30,7 +30,7 @@ You can install and view content for various products and technologies on your l
 
 -   Find and download sets of content, which are also referred to as books.  
 
--   Browse and search the table of contents to find topics by title.  
+-   Find topics by title by browsing and searching the table of contents.  
 
 -   Look up subjects in the index.  
 
@@ -38,7 +38,7 @@ You can install and view content for various products and technologies on your l
 
 -   View, bookmark, and print topics.
 
-To install Help Viewer, see [Microsoft Help Viewer Installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, after installing the Help Viewer, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference**, **Launch in Help Viewer**.
+To install Help Viewer, see [Microsoft Help Viewer Installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference**, **Launch in Help Viewer**.
 
 ## Help Viewer tour
 You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.
@@ -48,8 +48,8 @@ You can find information in installed content by using the navigation tabs, view
 |Tab|Description|
 |---|-----------|
 |Contents|Displays installed content as a hierarchy (table of contents). You can specify criteria to filter the titles that appear.|
-|Index|Displays an alphabetial list of indexed terms. You can search the index, specify criteria to filter the entries, and require that index entries either contain or start with text that you specify.|
-|Favorites|You can "favorite" topics by choosing the **Add to Favorites** button, and the topics will appear in this tab. The History section displays a list of topics that you've viewed recently.|
+|Index|Displays an alphabetical list of indexed terms. You can search the index, specify criteria to filter the entries, and require that index entries either contain or start with text that you specify.|
+|Favorites|You can "favorite" topics by choosing the **Add to Favorites** button, and the topics appear in this tab. The History section displays a list of topics that you've viewed recently.|
 |Search|Provides a text box where you can search for terms anywhere in the content, including code and topic titles.|
 
 ### Viewing topics
@@ -58,7 +58,7 @@ Each topic appears in its own tab, and you can open multiple topics at the same 
 ### Managing content
 You can install, update, move, and delete content by using the **Manage Content** tab. At the top of the tab, you can use the **Installation source** control to specify whether to install books from a network location or from a disk or URI. The **Local store path** box shows where books are installed on the local computer, and you can move them to a different location by choosing the **Move** button.
 
-The content list shows which books you can install or have already installed, whether an update is available, and how large each book is. You can install or remove one or more books by choosing the appropriate **Add** or **Remove** links and then choosing the **Update** button under the **Pending changes** pane. If updates are available for any books that you've already installed, you can refresh that content by choosing the **Click here to download now** link at the bottom of the window. In addition, all installed books will be refreshed if updates are available when you install additional books.
+The content list shows which books you can install or have already installed, whether an update is available, and how large each book is. You can install or remove one or more books by choosing the appropriate **Add** or **Remove** links and then choosing the **Update** button under the **Pending changes** pane. If updates are available for any books that you've already installed, you can refresh that content by choosing the **Click here to download now** link at the bottom of the window. In addition, all installed books are refreshed if updates are available when you install additional books.
 
 **Note:**  The functionality of the **Manage Content** tab may differ if the Help Viewer administrator deactivates these features, or if no internet access is available.
 

@@ -21,7 +21,7 @@ You can change the default behavior of the Help Viewer and Help-related features
 
 1. Create a .pkgdef file with the first line as `[$RootKey$\Help]`.
 
-2. Add any or all of the registry key values described in the table below on separate lines, e.g. `“UseOnlineHelp”=dword:00000001`.
+2. Add any or all of the registry key values described in the table below on separate lines, for example `“UseOnlineHelp”=dword:00000001`.
 
 3. Copy the file to %ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition\>\Common7\IDE\CommonExtensions.
 

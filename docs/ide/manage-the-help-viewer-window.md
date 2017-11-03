@@ -26,7 +26,7 @@ You can customize the window layout of the Help Viewer. To restore the Help View
 The Help Viewer supports standard docking functionality. By default, all tabs in the Help Viewer are docked, but you can move them, resize them, dock them in other locations, and "float" them so that they appear as independent child windows.
   
 ## Opening a topic in a new tab
-Choose the topic in any navigation tab, and then press the **Ctrl+Enter**.
+Choose the topic in any navigation tab, and then press **Ctrl+Enter**.
   
 ## Minimize a navigation tab
 Create more space for viewing topics by choosing the pin icon for the navigation tabs. When these tabs are minimized, only their labels appear on the closest edge of the window. To restore the tabs, choose the label of any tab, and then choose the pin icon again.

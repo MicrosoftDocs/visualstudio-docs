@@ -42,7 +42,7 @@ The following table includes some basic rules and guidelines for developing sear
 |Syntax|Description|  
 |------------|-----------------|  
 |Case sensitivity|Searches aren't case-sensitive. Develop your search criteria using uppercase or lowercase characters. For example, "OLE" and "ole" return the same results.|  
-|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and", "from", and "with", they will be ignored. For more information, see "Words Ignored in Searches (Stop Words)" later in this topic.|  
+|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and", "from", and "with", they will be ignored. For more information, see [Words ignored in searches](#stopwords) later in this topic.|  
 |Evaluation order|Search queries are evaluated from left to right.|  
   
 ### Search syntax  
@@ -64,7 +64,7 @@ The search algorithm applies certain criteria to help rank search results higher
   
 3.  Content that contains a higher density of the search words is ranked higher than content that has a lower density of the search words.  
   
-### Words ignored in searches (stop words)  
+### <a name="stopwords"> Words ignored in searches (stop words) </a>
 Commonly occurring words or numbers, which are sometimes called stop words, are automatically ignored during a full-text search. For example, if you search for the phrase "pass through", search results will display topics that contain the word "pass" but not "through".  
   
 ## See also
