@@ -35,7 +35,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
 -   Creating tables with TableAdapters in the dataset based on tables in the database.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
@@ -127,8 +127,9 @@ This section explains how to add tables to the dataset.
   
 -   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
-## See Also  
- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Validating Data](validate-data-in-datasets.md)   
- [Saving Data](../data-tools/saving-data.md)
+## See also
+[Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)  
+[Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
+[Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
+[Validating Data](../data-tools/validate-data-in-datasets.md)   
+[Saving Data](../data-tools/saving-data.md)

@@ -111,4 +111,4 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
     SQL Server Express will be the default database engine for your applications.
 
 ## See also
-  
+[Accessing data in Visual Studio](accessing-data-in-visual-studio.md)
