@@ -132,7 +132,7 @@ The LSP does not include specification on how to provide text colorization for l
 
 3. Right-click on the files and select **Properties**. Change the Build action to **Content** and the **Include in VSIX** property to true.
 
-4. Create a *.pkgdef file and add a line similar to this:
+4. Create a .pkgdef file and add a line similar to this:
 
   ```xml
   [$RootKey$\TextMate\Repositories]
@@ -260,7 +260,7 @@ namespace MockLanguageExtension
 }
 ```
 
-In the example above, a content type definition is created for files that end in `.bar` file extension. The content type definition is given the name "bar" and **must** derive from [CodeRemoteContentTypeName](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017).
+In the example above, a content type definition is created for files that end in .bar file extension. The content type definition is given the name "bar" and **must** derive from [CodeRemoteContentTypeName](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017).
 
 After adding a content type definition, you can then define when to load your language client extension in the language client class:
 
@@ -301,14 +301,14 @@ Follow these steps below to add support for settings to your LSP language servic
       }
   }
   ```
-4. Add a pkgdef file to the project (add new text file and rename to pkgdef). The pkgdef file should contain this info:
+4. Add a .pkgdef file to the project (add new text file and change the file extension to .pkgdef). The pkgdef file should contain this info:
 
   ```xml
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
   ```
 
-5. Right click on the *.pkgdef file and select **Properties**. Change the **Build** action to “Content” and the “Include in VSIX” property to true.
+5. Right click on the .pkgdef file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX" property to true.
 
 6. Open up the `source.extension.vsixmanifest` file and add an asset in the **Asset** tab:
 
@@ -321,8 +321,8 @@ Follow these steps below to add support for settings to your LSP language servic
 ### User editing of settings for a workspace
 
 1. User opens a workspace containing files your server owns.
-2. User adds a file in the “.vs” folder called `VSWorkspaceSettings.json`.
-3. User adds a line to the `VSWorkspaceSettings.json` file for a setting the server provides. For example:
+2. User adds a file in the ".vs" folder called "VSWorkspaceSettings.json".
+3. User adds a line to the VSWorkspaceSettings.json file for a setting the server provides. For example:
 
   ```json
   {
@@ -455,4 +455,4 @@ Yes, but not all features will work properly. The ultimate goal for LSP language
 
 **Where do I publish my completed LSP language server VSIX?**
 
-Please refer to the Marketplace instructions [here](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension).
+Please refer to the Marketplace instructions [here](walkthrough-publishing-a-visual-studio-extension.md).
