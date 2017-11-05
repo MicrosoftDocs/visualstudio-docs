@@ -259,8 +259,8 @@ After changes have been made in a dataset, you can transmit the changes to a dat
 >  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See also
-[Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-[Create and Configure TableAdapters](create-and-configure-tableadapters.md)    
+[Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
+[Create and Configure TableAdapters](create-and-configure-tableadapters.md)  
 [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)   
 [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
 [Validating Data](validate-data-in-datasets.md)   

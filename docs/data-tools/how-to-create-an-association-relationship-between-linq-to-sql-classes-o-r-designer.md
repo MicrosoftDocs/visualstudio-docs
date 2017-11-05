@@ -46,7 +46,7 @@ After you create an association, when you select the association in the O/R Desi
   
 ## See also
 [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
-[Walkthrough: Creating LINQ to SQL Classes (O-R Designer)]how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
+[Walkthrough: Creating LINQ to SQL Classes](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
 [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
 [How to: Represent Primary Keys](/dotnet/framework/data/adonet/sql/linq/how-to-represent-primary-keys)

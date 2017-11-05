@@ -421,4 +421,5 @@ Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your
 To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.  
   
 ## See also
-[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)
+[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)  
+[Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)

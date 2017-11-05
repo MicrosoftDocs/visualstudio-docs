@@ -43,5 +43,6 @@ The following list includes some of the more popular database systems that can b
 ### Firebird  
  Firebird is an open-source SQL database system. You can download it from the [Firebird download page](http://firebirdsql.org/en/downloads/). An ADO.NET data provider is available through the NuGet Package Manager.  
   
-## See Also  
- [How to determine the version and edition of SQL Server and its components](http://support.microsoft.com/kb/321185)
+## See also
+[Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
+[How to determine the version and edition of SQL Server and its components](http://support.microsoft.com/kb/321185)

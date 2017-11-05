@@ -79,8 +79,7 @@ The following topics provide information about working with n-tier applications:
 
 [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)  
   
-## See Also  
-<xref:System.Data.Linq.ITable.Attach%2A>   
+## See also
 [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
 [Hierarchical update](../data-tools/hierarchical-update.md)   
 [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   

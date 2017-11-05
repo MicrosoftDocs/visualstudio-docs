@@ -318,7 +318,6 @@ After completing this walkthrough, you can perform the following related tasks:
 ## See also
 [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
 [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   
-[Overview](/dotnet/framework/data/wcf/wcf-data-services-overview)   
-[Entity Framework Overview](/dotnet/framework/data/adonet/ef/overview)   
-[WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
-[Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)
+[WCF overview (.NET Framework)](/dotnet/framework/data/wcf/wcf-data-services-overview)   
+[Entity Framework Overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)  
+[Data Binding Overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)

@@ -224,4 +224,7 @@ To complete the FillOrCancel form logic, follow these steps.
      [!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
 
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
- Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.
+Select the **F5** key to build and test your application after you code each Click event handler, and then after you finish coding.
+
+## See also
+[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
