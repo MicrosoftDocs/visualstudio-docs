@@ -35,16 +35,16 @@ Call Hierarchy window
   
 -   If you expand the **Calls From** node, all members that are called by the selected member are displayed.  
   
- You can then expand each of these subnode members into **Calls To** and **Calls From** nodes. This enables you to navigate into the stack of callers, as shown in the following illustration.  
+You can then expand each of these subnode members into **Calls To** and **Calls From** nodes. This enables you to navigate into the stack of callers, as shown in the following illustration.  
   
- ![Call Hierarchy Multiple Nodes Open](../../ide/media/multiplenodes.png "MultipleNodes")  
+![Call Hierarchy Multiple Nodes Open](../../ide/media/multiplenodes.png "MultipleNodes")  
 Call Hierarchy window  
   
- For members that are defined as either virtual or abstract, an **Overrides method name** node appears. For interface members, an **Implements method name** node appears. These expandable nodes appear at the same level as the **Calls To** and **Calls From** nodes.  
+For members that are defined as either virtual or abstract, an **Overrides method name** node appears. For interface members, an **Implements method name** node appears. These expandable nodes appear at the same level as the **Calls To** and **Calls From** nodes.  
   
- The **Search Scope** box on the toolbar contains choices for **My Solution**, **Current Project**, and **Current Document**.  
+The **Search Scope** box on the toolbar contains choices for **My Solution**, **Current Project**, and **Current Document**.  
   
- When you select a child member in the **Call Hierarchy** tree view pane:  
+When you select a child member in the **Call Hierarchy** tree view pane:  
   
 -   The **Call Hierarchy** details pane displays all lines of code in which that child member is called from the parent member.  
   
