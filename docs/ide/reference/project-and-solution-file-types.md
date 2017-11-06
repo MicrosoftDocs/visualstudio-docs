@@ -50,10 +50,8 @@ manager: ghogen
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses a variety of file formats to store information specific to projects. For more information, see the following Help topics:  
   
  [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)]  
- [File Types Created for Visual C++ Projects](/cpp/ide/file-types-created-for-visual-cpp-projects)  
-  
- [Creating and Managing Visual C++ Projects](/cpp/ide/creating-and-managing-visual-cpp-projects)  
-  
+ [File Types Created for Visual C++ Projects](/cpp/ide/file-types-created-for-visual-cpp-projects)    
+ [Creating and Managing Visual C++ Projects](/cpp/ide/creating-and-managing-visual-cpp-projects)    
  [Unicode](/cpp/mfc/unicode-in-mfc)  
   
 ## See Also  
