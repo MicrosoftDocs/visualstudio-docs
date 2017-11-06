@@ -34,7 +34,7 @@ manager: ghogen
 You can display the Visual Studio code editor in various display modes.  
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, open **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
   
 ## Enabling Full Screen mode  
 You can choose to hide all tool windows and view only document windows by enabling **Full Screen** mode.  

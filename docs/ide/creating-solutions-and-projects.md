@@ -36,7 +36,7 @@ While you can construct a project yourself by adding the necessary files to it, 
 That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).  
 
 > [!NOTE]
-> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, for example to **General** or **Visual C++** settings, open **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
 
 ## To create a project from a project template
 1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu, or choose the **New Project** button on the toolbar.

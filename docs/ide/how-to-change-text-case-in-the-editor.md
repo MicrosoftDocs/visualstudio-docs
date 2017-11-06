@@ -21,7 +21,7 @@ manager: ghogen
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.  
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in this article, depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, open **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The dialog boxes and menu commands you see might differ from those described in this article, depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
   
 ## To switch text to upper case  
   
