@@ -62,7 +62,7 @@ Create the sample database by following these steps:
 
      A query editor window opens.  
 
-6. Copy the [Sales Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs-pr/raw/master/docs/data-tools/samples/sales.sql) to your clipboard.  
+6. Copy the [Sales Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/data-tools/samples/sales.sql) to your clipboard.  
 
 7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
