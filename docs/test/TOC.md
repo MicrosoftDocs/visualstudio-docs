@@ -41,7 +41,7 @@
 #### [How to: use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md)
 #### [How to: use Google C++ Testing Framework in Visual Studio](how-to-use-google-test-for-cpp.md)
 #### [How to: use Boost.Test in Visual Studio](how-to-use-boost-test.md)
-#### [How to: use CTest in Visual Studio](how-to-use-ctest.md)
+#### [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md)
 #### [How to: write unit tests for C/C++ DLLs](how-to-write-unit-tests-for-cpp-dlls.md)
 #### [Walkthrough: Writing Unit tests for C++ DLLs](walkthrough-writing-unit-tests-for-cpp-dlls.md)
 #### [Microsoft Unit Testing Framework for C++ API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)

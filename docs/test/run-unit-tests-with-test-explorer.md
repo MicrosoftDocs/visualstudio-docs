@@ -148,36 +148,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|  
   
  **Traits in the Microsoft Unit Testing Framework for C++**  
-  
- To define a trait, use the `TEST_METHOD_ATTRIBUTE` macro. For example, to define a trait named `TEST_MY_TRAIT`:  
-  
-```cpp  
-#define TEST_MY_TRAIT(traitValue) TEST_METHOD_ATTRIBUTE(L"MyTrait", traitValue)  
-```  
-  
- To use the defined trait in your unit tests:  
-  
-```  
-BEGIN_TEST_METHOD_ATTRIBUTE(Method1)  
-    TEST_OWNER(L"OwnerName")  
-    TEST_PRIORITY(1)  
-    TEST_MY_TRAIT(L"thisTraitValue")  
-END_TEST_METHOD_ATTRIBUTE()  
-  
-TEST_METHOD(Method1)  
-{     
-    Logger::WriteMessage("In Method1");  
-    Assert::AreEqual(0, 0);  
-}  
-```  
-  
-### C++ trait attribute macros  
-  
-|Macro|Description|  
-|-----------|-----------------|  
-|`TEST_METHOD_ATTRIBUTE(attributeName, attributeValue)`|Use the TEST_METHOD_ATTRIBUTE macro to define a trait.|  
-|`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|  
-|`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|  
+  See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
