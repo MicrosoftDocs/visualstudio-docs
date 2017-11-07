@@ -1,5 +1,5 @@
 # Run a TensorFlow model in the cloud
-In this tutorial, we will run a TensorFlow model using the MNIST dataset in a Azure Deep Learning virtual machine. 
+In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in a Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. Start by installing the following:
 
 ## Setup Azure Deep Learning Virtual Machine
 
@@ -46,10 +46,13 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 ## Add Azure Remote VM
 
 In Server Explorer, right click the **Remote Machines** node under the AI Tools node and select "Add…". Users need to provide Remote Machine display name, IP host, SSH port, user name and password/key file. 
---> Screenshot 
+
+![Add a new remote machine](media\tensorflow-vm\add-remote-vm.png)
 
 ## Submit Job to Azure VM
-Right click on MNIST project in **Solution Explorer** and select **Submit Job**
+Right click on MNIST project in **Solution Explorer** and select **Submit Job**.
+
+![Job submission to a remote machine](media\tensorflow-vm\job-submission.png)
 
 In the submission window:
 
@@ -68,9 +71,14 @@ CUDA_VISIBLE_DEVICES="0" python script.py --log_dir=/tmp/output --output_dir=/tm
 5. Default output and log directories are exported bo $LOG_DIR and $OUTPUT_DIR environment variables that user can use directly.
 
 > [!NOTE] 
-> Only the files in project and customized startup bash script will be transmitted to remote machine while submitting. All the files in project will keep the same structure as working directory.
-> Only the customized startup bash script will be auto-encoded to UTF-8 with Linux EOL.
-> The startup command or script will be executed in non-interactive shell mode, under the root of the working directory.
+> - Only the files in project and customized startup bash script will be transmitted to remote machine while submitting. All the files in project will keep the same structure as working directory.
+> - Only the customized startup bash script will be auto-encoded to UTF-8 with Linux EOL.
+> - The startup command or script will be executed in non-interactive shell mode, under the root of the working directory.
 
 
 ## Monitor NVIDIA GPUs on a Remote Machine
+AI Tools provides a graphical representation of GPU information such as GPU spec and usage. Right-click a remote machine node in the left Server Explorer, and then click the "Show Heat Map" context menu.
+
+![Heat Map context menu](media\tensorflow-vm\heat-map-context.png)
+
+![Heat Map tool window](media\tensorflow-vm\heat-map-tool.png)
