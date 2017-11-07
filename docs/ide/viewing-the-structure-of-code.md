@@ -144,7 +144,7 @@ Call Hierarchy window
   
 -   A custom set of components  
   
- Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Roaming\Microsoft\VisualStudio\11.0\ObjBrowEX.dat.  
+ Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat.  
   
  The left pane of the **Object Browser** shows physical containers such as .NET Framework and COM components. You can expand the container nodes to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.  
   

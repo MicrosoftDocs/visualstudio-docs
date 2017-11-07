@@ -33,14 +33,11 @@ This section includes user interface reference, language equivalents, and other 
  [MSBuild](../../msbuild/msbuild.md)
  Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
- [Resources for Troubleshooting IDE Errors](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
- Contains links to resources to help you resolve IDE error messages  
-  
- [Talk to Us](../../ide/talk-to-us.md)  
- Contains information about how to locate customer support for Visual Studio.  
-  
  [Accessibility for People with Disabilities](../../ide/reference/accessibility-for-people-with-disabilities.md)  
  Contains tips about how to change accessibility options.  
+  
+ [Resources for Troubleshooting IDE Errors](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
+ Contains links to resources to help you resolve IDE error messages.  
   
 ## Related Sections  
  [Visual Basic Reference](/dotnet/visual-basic/reference/index)  
