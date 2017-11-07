@@ -15,7 +15,7 @@ ms.technology: "vs-acquisition"
 # How to report a problem with Visual Studio 2017
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem so that we can diagnose and fix it.  
 
-# Sign in to Visual Studio
+## Sign in to Visual Studio
 If you haven't already done so, sign in to Visual Studio before you report a problem. That way, you can report a problem that you're experiencing, and also vote or comment on it. You can even vote or comment on any other problem that you see posted, too.
 
 1.	Click **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
@@ -46,7 +46,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 ## Provide a trace and heap dump (optional)  
 ###  <a name="provide_a_trace_and_heap_dump"></a>  
 
-Trace and heap dump files are very useful in helping us diagnose problems.  We appreciate it very much when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
+Trace and heap dump files are very useful in helping us diagnose problems.  We appreciate it when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
 
 1.  Click the **Record** tab.
 2.  Click **Start Recording**. Give permission to run the tool.
