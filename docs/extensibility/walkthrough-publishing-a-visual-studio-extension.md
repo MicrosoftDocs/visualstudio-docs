@@ -86,35 +86,35 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
 8. In **2: Provide extension details**, some fields are auto-populated from the source.extension.vsixmanifest file from your extension.  More details about each can be found below:
 
-    a. **Internal Name** will be used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name to be "myextension" will result in a URL of "marketplace.visualstudio\.com/items?itemName=myname.myextension" for your extension's detail page.
+    * **Internal Name** will be used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name to be "myextension" will result in a URL of "marketplace.visualstudio\.com/items?itemName=myname.myextension" for your extension's detail page.
     
-    b. **Display Name** of your extension.  This is auto-populated from the source.extension.vsixmanifest file.
+    * **Display Name** of your extension.  This is auto-populated from the source.extension.vsixmanifest file.
    
-    c. **Version** number of the extension you are uploading.  This is auto-populated from the source.extension.vsixmanifest file.
+    * **Version** number of the extension you are uploading.  This is auto-populated from the source.extension.vsixmanifest file.
     
-    d. **VSIX ID** is the unique identifier that Visual Studio uses for your extension.  This is required if you would like to have your extension be auto-updated.  This is auto-populated from the source.extension.vsixmanifest file.
+    * **VSIX ID** is the unique identifier that Visual Studio uses for your extension.  This is required if you would like to have your extension be auto-updated.  This is auto-populated from the source.extension.vsixmanifest file.
     
-    e. **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
+    * **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
     
-    f. **Short description** of what your extension does.  This will be auto-populated from the source.extension.vsixmanifest file.
+    * **Short description** of what your extension does.  This will be auto-populated from the source.extension.vsixmanifest file.
     
-    g. **Overview** is a good place to include screenshots and detailed information about what your extension does.
+    * **Overview** is a good place to include screenshots and detailed information about what your extension does.
     
-    h. **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on.  Your extension will only be installed to those versions.
+    * **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on.  Your extension will only be installed to those versions.
     
-    i. **Supported Visual Studio editions** lets you choose which editions of Visual Studio your extension will work on.  Your extension will only be installed to those editions.
+    * **Supported Visual Studio editions** lets you choose which editions of Visual Studio your extension will work on.  Your extension will only be installed to those editions.
     
-    j. **Type**.  The most common type of extensions are **Tools**.
+    * **Type**.  The most common type of extensions are **Tools**.
     
-    k. **Categories**.  Pick up to three that are a best fit for your extension.
+    * **Categories**.  Pick up to three that are a best fit for your extension.
     
-    l. **Tags** are keywords that help users find your extension. Tags can help increase the search relevance of your extensions in the Marketplace.
+    * **Tags** are keywords that help users find your extension. Tags can help increase the search relevance of your extensions in the Marketplace.
     
-    m. **Pricing Category** is the cost of your extension.
+    * **Pricing Category** is the cost of your extension.
     
-    n. **Source code repository** allows you to share a link to your source code with the community.
+    * **Source code repository** allows you to share a link to your source code with the community.
     
-    o. **Allow Q&A for your extension** will allow users to leave questions on your extension entry page.
+    * **Allow Q&A for your extension** will allow users to leave questions on your extension entry page.
 
 9. Click **Save & Upload**. This will take you back to your publisher manage page.  Your extension has not yet been published.  To publish your extension hover over the entry of your extension and click on **...** and then **Make Public**.  You can view how your extension will look like on Marketplace by selecting **View details**.  For acquisition numbers, click on **Reports**.  To make changes to your extension, click on **Edit*.
 
