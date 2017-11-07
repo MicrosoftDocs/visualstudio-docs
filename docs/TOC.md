@@ -25,6 +25,7 @@
 #### [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 #### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 ### [Build](https://go.microsoft.com/fwlink/?linkid=833077)
+#### [Build with MSBuild](ide/reference/../../msbuild/msbuild.md)
 ### [Debug](https://go.microsoft.com/fwlink/?linkid=833078)
 ### [Test](https://go.microsoft.com/fwlink/?linkid=833079)
 ### [Deploy](https://go.microsoft.com/fwlink/?linkid=834349)
@@ -33,6 +34,7 @@
 ### [Improve Performance](https://go.microsoft.com/fwlink/?linkid=834348)
 ### [Extend](https://go.microsoft.com/fwlink/?linkid=833081)
 ### [Access Data](https://go.microsoft.com/fwlink/?linkid=856607)
+### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
 ## Languages
 ### [Visual C#](https://go.microsoft.com/fwlink/?linkid=833062)
 ### [Visual Basic](https://go.microsoft.com/fwlink/?linkid=833060)
@@ -122,7 +124,7 @@
 ## [DirectX](http://code.msdn.microsoft.com/site/search?query=DirectX&f%5B1%5D.Value=DirectX&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=C%20%20&f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Text=Invalid%20Value&ac=2)
 ## [Office and SharePoint (Office Dev Center)](https://dev.office.com/code-samples)
 ## [Extensibility (GitHub)](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
-# How-to Guides
+# How-to guides
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
 ## [Move Around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
@@ -452,8 +454,6 @@
 ### [Symbol Path Command](ide/reference/symbol-path-command.md)
 ### [Toggle Breakpoint Command](ide/reference/toggle-breakpoint-command.md)
 ### [Watch Command](ide/reference/watch-command.md)
-## [XML Tools in Visual Studio](ide/reference/../../xml-tools/xml-tools-in-visual-studio.md)
-## [MSBuild](ide/reference/../../msbuild/msbuild.md)
 # Resources
 ## [How to Report a Problem with Visual Studio](ide/how-to-report-a-problem-with-visual-studio-2017.md)
 ## [Resources for Troubleshooting IDE Errors](ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
