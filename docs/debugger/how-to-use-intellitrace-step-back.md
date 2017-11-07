@@ -37,9 +37,8 @@ A camera icon will appear next to the events for which snapshots are available.
 
 You can navigate between events using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events in the **Events** tab in the **Diagnostic Tools window**. 
 Stepping backward or forward to an event will automatically activate historical debugging on the selected event.
-![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
-<!--![Stepping Backward and Forward icons](../debugger/media/intellitrace-step-back-icons-description.png "Activate Historical Debugging on an event") -->
 
+![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
 
 This will put Visual Studio in **historical debugging** mode, which sets the debugger's context to the time when the selected event was record. Visual Studio will also move the pointer to the corresponding line of code in the source window. 
 
