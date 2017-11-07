@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::GetPortSupplierName"
 ms.assetid: e4c368ab-640d-4b5b-9f74-810dc9364d8f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPortSupplier2::GetPortSupplierName
 Gets the port supplier name.  

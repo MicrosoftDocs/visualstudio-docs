@@ -20,7 +20,7 @@ ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # ImportGroup Element
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md).  

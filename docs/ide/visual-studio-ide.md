@@ -10,7 +10,7 @@ ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio IDE overview
 The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit nearly any kind of code, and then debug, build, and publish apps for Android, iOS, Windows, the web, and the cloud. There are versions available for Mac and Windows. This topic introduces you to the features of the Visual Studio IDE. We'll walk through some things you can do with Visual Studio and how to install and use it, create a simple project, get pointers on debugging and deploying code, and take a tour of the various tool windows.  
@@ -49,7 +49,7 @@ Visual Studio is now more lightweight than ever! The new modular installer enabl
 
 ![Visual Studio installer](../ide/media/vside_tour_install_dialog.png)
 
-In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times. For example, selecting the new Lightweight Solution Load feature, located on the main menu under **Tools**, **Options**, **Projects and Solutions**, enables larger solutions to load faster.  
+In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).  
 
@@ -125,7 +125,7 @@ Nothing runs perfectly all the time. When you write code, you need to run it and
 For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Feature Tour](../profiling/profiling-feature-tour.md).  
 
 ## Deploy your finished application  
-When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to the Windows Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).  
+When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to Microsoft Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).  
 
 ## Quick tour of the IDE
 To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use:  

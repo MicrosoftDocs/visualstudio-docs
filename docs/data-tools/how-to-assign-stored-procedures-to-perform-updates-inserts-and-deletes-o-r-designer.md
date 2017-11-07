@@ -10,7 +10,7 @@ ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)

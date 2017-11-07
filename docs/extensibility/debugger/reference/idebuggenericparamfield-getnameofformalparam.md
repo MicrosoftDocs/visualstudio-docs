@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "GetNameOfFormalParam"
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
 Retrieves the name of this generic parameter.  

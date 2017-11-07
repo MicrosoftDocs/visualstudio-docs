@@ -20,7 +20,7 @@ ms.assetid: e4845d07-917b-45cb-a569-4ecdd602fbd9
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Add an Application Page to a Workflow
   This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  

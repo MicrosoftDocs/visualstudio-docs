@@ -16,7 +16,7 @@ ms.assetid: 63b67a93-2910-4fff-aa70-6b2eaa08e5c8
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaLoadCallback2::RestrictDBGAccess
 Determines if looking for debug information is allowed from .dbg files.  

@@ -19,7 +19,7 @@ ms.assetid: c772e7a6-a87e-425c-a70e-912664ae9042
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2215: Dispose methods should call base class dispose
 |||  

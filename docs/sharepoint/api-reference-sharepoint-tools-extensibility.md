@@ -17,7 +17,7 @@ ms.assetid: 3a42dacd-0213-4c25-aeba-9b6935ab70db
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # API Reference (SharePoint Tools Extensibility)
   This section contains API reference documentation for extending the SharePoint tools in Visual Studio.  

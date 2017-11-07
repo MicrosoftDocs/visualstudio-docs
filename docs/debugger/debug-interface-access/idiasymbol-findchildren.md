@@ -16,7 +16,7 @@ ms.assetid: 5fe7573a-e48b-428d-9c17-7421b7209246
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::findChildren
 Retrieves the children of the symbol.  

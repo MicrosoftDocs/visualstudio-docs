@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "expression evaluation"
 ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Evaluating Expressions
 Expressions are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows. When an expression is evaluated, it generates a printable string that contains the name and type of variable or argument and its value. This string is displayed in the corresponding IDE window.  

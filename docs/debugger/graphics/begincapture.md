@@ -10,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9edbb52d-ee0b-4cc4-a382-972bcee067d3
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # BeginCapture
 Begins a capture interval that will end with `EndCapture`.  

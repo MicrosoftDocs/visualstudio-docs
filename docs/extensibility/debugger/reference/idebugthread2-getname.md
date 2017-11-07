@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugThread2::GetName"
 ms.assetid: eec54b8f-4a0e-4919-b0f9-81d4bd1e0b6f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugThread2::GetName
 Gets the name of a thread.  

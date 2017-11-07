@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBinder3 interface"
 ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder3
 > [!IMPORTANT]

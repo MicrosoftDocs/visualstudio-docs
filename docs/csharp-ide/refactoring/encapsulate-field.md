@@ -12,7 +12,7 @@ ms.devlang: csharp
 ms.assetid: 39a9ed11-363f-4dda-af3b-0affe6db1d42
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 

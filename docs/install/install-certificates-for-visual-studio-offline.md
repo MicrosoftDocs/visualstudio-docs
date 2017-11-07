@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install certificates needed for Visual Studio offline installation
 

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::Parse method"
 ms.assetid: e6e31b3a-63a7-4293-bcda-267eb78dffb6
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator::Parse
 This method converts an expression string to a parsed expression.  

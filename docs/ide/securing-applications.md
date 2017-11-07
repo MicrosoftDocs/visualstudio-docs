@@ -15,7 +15,7 @@ ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Securing Applications
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  

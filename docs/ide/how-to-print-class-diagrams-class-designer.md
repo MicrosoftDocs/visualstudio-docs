@@ -15,7 +15,7 @@ ms.assetid: 62c87425-3446-41fb-943c-1f86397883c8
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Print Class Diagrams (Class Designer)
 You can print a class diagram using the print feature of Visual Studio.  

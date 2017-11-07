@@ -17,7 +17,7 @@ ms.assetid: c7e78186-ee32-4dc1-b1fb-38310b1aadf7
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # General Reference (Office Development in Visual Studio)
   This section contains technical details about Microsoft Office projects in Visual Studio.  

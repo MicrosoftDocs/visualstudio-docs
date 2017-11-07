@@ -19,7 +19,7 @@ ms.assetid: ff52fb56-1f67-4ae2-a3d1-93038619d4e6
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Complex Data Binding in VSTO add-in Project
   You can bind data to host controls and Windows Forms controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Excel worksheet and bind the controls to data at run time.  

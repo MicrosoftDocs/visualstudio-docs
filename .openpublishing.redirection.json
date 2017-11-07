@@ -1,0 +1,285 @@
+{
+    "redirections": 
+	[
+        {
+            "source_path": "docs/modeling/edit-uml-models-and-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-activity-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-activity-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-activity-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-component-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-component-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-component-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-class-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-types-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-attributes-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-operations-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-associations-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-class-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/generate-code-from-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-sequence-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-sequence-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-sequence-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-use-case-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-use-case-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-a-use-case-to-documents-and-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-use-case-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-packages-and-namespaces.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/customize-your-model-with-profiles-and-stereotypes.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/standard-stereotypes-for-uml-models.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/install-a-uml-profile.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-model-elements-and-work-items.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/manage-models-and-diagrams-under-version-control.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/validate-your-uml-model.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/extend-uml-models-and-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-and-install-a-modeling-extension.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-profile-to-extend-uml.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-custom-modeling-toolbox-item.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-validation-constraints-for-uml-models.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-menu-command-on-a-modeling-diagram.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-gesture-handler-on-a-modeling-diagram.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-work-item-link-handler.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/integrate-uml-models-with-other-models-and-tools.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/generate-files-from-a-uml-model.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/read-a-uml-model-in-program-code.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/export-uml-diagrams-to-image-files.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/programming-with-the-uml-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-the-uml-model.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-relationships-with-the-uml-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/create-elements-and-relationships-in-uml-models.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/display-a-uml-model-on-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-uml-model-updates-by-using-transactions.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/attach-reference-strings-to-uml-model-elements.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/get-uml-model-elements-from-idataobject.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/update-a-uml-model-from-a-background-thread.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-model-element-types.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/run-unit-tests-on-uml-extensions.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/api-reference-for-uml-modeling-extensibility.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        }
+    ]
+}

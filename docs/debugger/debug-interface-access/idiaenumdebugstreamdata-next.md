@@ -16,7 +16,7 @@ ms.assetid: 114171dd-38fd-4bd7-a702-8ff887ffc99b
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumDebugStreamData::Next
 Retrieves a specified number of records in the enumerated sequence.  

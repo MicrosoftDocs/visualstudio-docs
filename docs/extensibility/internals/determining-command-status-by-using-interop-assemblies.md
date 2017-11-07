@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "command handling with interop assemblies, status"
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Determining Command Status By Using Interop Assemblies
 A VSPackage must keep track of the state of the commands it can handle. The environment cannot determine when a command handled within your VSPackage becomes enabled or disabled. It is the responsibility of your VSPackage to inform the environment about command states, for example, the state of general commands such as **Cut**, **Copy**, and **Paste**.  

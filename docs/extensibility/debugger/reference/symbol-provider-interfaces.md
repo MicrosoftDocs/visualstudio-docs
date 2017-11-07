@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "symbol handler, evaluating variables"
 ms.assetid: 4201f10e-c9f7-4b38-bb45-40fe0082d5bf
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Symbol Provider Interfaces
 The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].  

@@ -17,7 +17,7 @@ ms.assetid: 903b9da7-2eea-404c-9a7a-7bc15cb90d6c
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Saving Data in Extensions of the SharePoint Project System
   When you extend the SharePoint project system, you can save string data that persists after a SharePoint project is closed. The data is typically associated with a particular project item or with the project itself.  

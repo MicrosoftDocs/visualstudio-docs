@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetName"
 ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetName
 Gets the name of the stack frame.  

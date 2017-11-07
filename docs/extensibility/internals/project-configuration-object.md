@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "objects, project configuration"
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Project Configuration Object
 The project configuration object manages the display of configuration information to the UI.  

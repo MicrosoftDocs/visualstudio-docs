@@ -18,7 +18,7 @@ ms.assetid: ce1e1241-dcf4-419b-9363-1d5bc4989279
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1011: Consider passing base types as parameters
 |||  

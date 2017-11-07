@@ -18,7 +18,7 @@ ms.assetid: 663f7aa4-8be5-4bd5-be92-4e9444f07077
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2114: Method security should be a superset of type
 |||  

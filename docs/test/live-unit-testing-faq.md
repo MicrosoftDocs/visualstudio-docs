@@ -222,7 +222,9 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn't work well with the Lightweight Solution load feature. It works only after at least one of the test projects is loaded. Until then it won't work because currently Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
+Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then it won't work because currently Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
+
+Note: Lightweight solution load is deprecated as of Visual Studio 2017 update 15.5.
  
 ## Why does Live Unit Testing does not capture coverage from a new process created by a test?
  

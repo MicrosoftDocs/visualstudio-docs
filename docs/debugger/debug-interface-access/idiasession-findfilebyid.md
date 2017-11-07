@@ -16,7 +16,7 @@ ms.assetid: 710efe04-78b5-4f3e-a1d8-f9b069063503
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSession::findFileById
 Retrieves a source file by source file identifier.  

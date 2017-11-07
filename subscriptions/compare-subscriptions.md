@@ -31,7 +31,7 @@ Whether you’re a student, an individual developer, a small team or an enterpri
 ## Subscription Types
 **Standard subscriptions** – Available through resellers on multi-year Microsoft Volume Licensing contracts, and directly through the Microsoft Store online.  They feature perpetual licenses for Visual Studio. 
 
-**Cloud Subscriptions** – With cloud subscriptions, you have access to Visual Studio, Visual Studio Team Services, and other subscriber benefits without a long-term contract.  Subscribe on a monthly or annual basis. Billing is handled through your Microsoft Azure subscription. 
+**Cloud subscriptions** – With cloud subscriptions, you have access to Visual Studio, Visual Studio Team Services, and other subscriber benefits without a long-term contract.  Subscribe on a monthly or annual basis. Billing is handled through your Microsoft Azure subscription. 
 
 **Programs** – In addition to standard and cloud subscriptions, Microsoft offers subscriptions through a variety of special programs.
 
@@ -55,5 +55,7 @@ A Visual Studio subscription license also allows your end users to access the so
 [Download the Visual Studio licensing white paper](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=2b1504e6-0bf1-46da-be0e-85cc792c6b9d)
 
 [Compare subscription options and pricing](https://www.visualstudio.com/pricing).
+
 [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare/).
+
 For MCT Software & Services and MCT Developer Software & Services subscriptions, please refer to the [Microsoft Certified Trainer website](https://www.microsoft.com/learning/en-us/mct-certification.aspx#item-ID0EFAAAAACA) for details on the training use rights that come with your subscription.  

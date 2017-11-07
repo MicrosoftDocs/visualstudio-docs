@@ -1,7 +1,7 @@
 ---
 title: "Managing Python on Azure App Service | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/13/2017
+ms.date: 09/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: e56b5d55-6e6b-48af-af40-5172c768cabc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Managing Python on Azure App Service

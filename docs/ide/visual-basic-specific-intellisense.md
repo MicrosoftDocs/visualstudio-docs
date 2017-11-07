@@ -15,7 +15,7 @@ ms.assetid: 4dec8753-05e5-4f74-b304-5f8c4ed8723b
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Basic-Specific IntelliSense
 The Visual Basic source code editor offers the following IntelliSense features:  

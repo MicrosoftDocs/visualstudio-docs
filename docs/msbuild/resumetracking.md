@@ -19,7 +19,7 @@ ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # ResumeTracking
 Resumes tracking in the current context.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::EnumPrograms"
 ms.assetid: f5b7295d-487d-464f-a4c6-d54175b07705
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess2::EnumPrograms
 Retrieves a list of all the programs contained by this process.  

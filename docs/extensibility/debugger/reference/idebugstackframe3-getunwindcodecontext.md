@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugStackFrame3::GetUnwindCodeContext method"
 ms.assetid: b25f7e7d-2b24-48e4-93b3-829e61d73ebf
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugStackFrame3::GetUnwindCodeContext
 Returns the code context representing a location if a stack unwind operation occurred.  

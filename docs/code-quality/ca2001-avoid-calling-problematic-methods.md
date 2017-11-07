@@ -18,7 +18,7 @@ ms.assetid: 19db8edb-31ce-441c-b0de-a0f2746155b7
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2001: Avoid calling problematic methods
 |||  

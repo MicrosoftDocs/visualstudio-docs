@@ -10,7 +10,7 @@ ms.assetid: 487dafe4-d57c-4be1-9e3a-bb0a8699b2fa
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # The designer cannot be modified while debugging

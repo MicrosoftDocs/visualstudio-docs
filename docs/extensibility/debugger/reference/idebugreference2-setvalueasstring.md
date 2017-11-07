@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugReference2::SetValueAsString"
 ms.assetid: 9a508ced-fd54-44f5-bb42-ec15c80384d7
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugReference2::SetValueAsString
 Sets the value of a reference from a string. Reserved for future use.  

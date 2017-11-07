@@ -1,7 +1,7 @@
 ---
 title: "Compiling and building in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,12 +15,12 @@ ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Compiling and building in Visual Studio
 
-Running a build creates assemblies and executable applications from your source code at any point in your during a development cycle. In general, the build process is very similar across many different project types such as Windows, ASP.NET, mobile apps, and others. The build process is also very similar across programming languages such as C#, Visual Basic, C++, and F#. 
+Running a build creates assemblies and executable applications from your source code at any point during a development cycle. In general, the build process is very similar across many different project types such as Windows, ASP.NET, mobile apps, and others. The build process is also very similar across programming languages such as C#, Visual Basic, C++, and F#. 
 
 By building your code often, you can quickly identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches. You can also quickly detect and correct run-time errors, such as logic errors and semantic errors, by frequently building and running debug versions of the code.  
 

@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
 Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; instead, start the new Visual Studio Installer and make the changes you want.

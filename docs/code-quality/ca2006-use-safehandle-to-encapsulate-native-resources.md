@@ -18,7 +18,7 @@ ms.assetid: a71950bd-bcc1-463d-b1f2-5233bc451456
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2006: Use SafeHandle to encapsulate native resources
 |||  

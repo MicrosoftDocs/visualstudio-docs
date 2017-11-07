@@ -12,7 +12,7 @@ ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
 caps.latest.revision: 25
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Step 6: Add a Subtraction Problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:  

@@ -10,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59131181-1caa-4b7f-be4b-e84709634edf
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # Getting Started with Visual Studio Graphics Diagnostics
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.  

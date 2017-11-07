@@ -23,7 +23,7 @@ ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /UseEnv (devenv.exe)
 Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  

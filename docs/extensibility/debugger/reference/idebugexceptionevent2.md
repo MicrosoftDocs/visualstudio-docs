@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2 interface"
 ms.assetid: 53d32e59-a84b-4710-833e-c5ab08100516
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExceptionEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an exception is thrown in the program currently being executed.  

@@ -16,7 +16,7 @@ ms.assetid: 7471a178-5134-41b2-80a6-51ff96abe916
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSectionContribs::Skip
 Skips a specified number of section contributions in an enumeration sequence.  

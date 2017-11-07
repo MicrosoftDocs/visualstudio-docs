@@ -1,5 +1,5 @@
 ---
-title: Refactoring
+title: Refactoring code in Visual Studio for Mac | Microsoft Docs
 description: Re-organizing code in Visual Studio for Mac is made simple through the use of Source Analysis.
 author: asb3993
 ms.author: amburns
@@ -7,7 +7,6 @@ ms.date: 04/14/2017
 ms.topic: article
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ---
-
 # Refactoring
 
 Refactoring code is a way to rearrange, restructure, and clarify existing code while still ensuring that the overall behavior of the code does not change.

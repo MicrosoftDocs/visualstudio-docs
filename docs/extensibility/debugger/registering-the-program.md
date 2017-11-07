@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], program registration"
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Registering the Program
 After the debug engine has acquired a port, represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, the next step in enabling the program to be debugged is to register it with the port. Once registered, the program is available for debugging by one of the following means:  

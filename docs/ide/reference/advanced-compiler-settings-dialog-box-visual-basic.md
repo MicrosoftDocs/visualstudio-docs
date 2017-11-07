@@ -16,7 +16,7 @@ ms.assetid: 1f81133a-293f-4dba-bc1c-8baafb01d857
 caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Advanced Compiler Settings Dialog Box (Visual Basic)
 Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to specify the project's advanced build-configuration properties. This dialog box applies to Visual Basic projects only.  

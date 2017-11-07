@@ -23,7 +23,7 @@ ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging LINQ
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  

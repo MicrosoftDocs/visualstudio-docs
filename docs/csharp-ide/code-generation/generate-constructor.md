@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: f2280cfa-a9ec-4b56-9d94-c8fd384db980
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Generate a constructor in C# #

@@ -16,7 +16,7 @@ ms.assetid: 4b28d78a-1974-4d8a-8bb7-781bf630f2f4
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_thunkOrdinal
 Retrieves the thunk type of a function.  

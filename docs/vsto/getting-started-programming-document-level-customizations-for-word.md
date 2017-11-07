@@ -18,7 +18,7 @@ ms.assetid: 30593c47-1658-4fca-b9a9-36fbdf73c901
 caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started Programming Document-Level Customizations for Word
   If you are just getting started creating document-level customizations for Microsoft Office Word by using Visual Studio, here is what you need to know.  

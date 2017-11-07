@@ -18,7 +18,7 @@ ms.assetid: 76b463dc-43f0-47a1-845b-fe0a5e14bd80
 caps.latest.revision: 130
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Configure a Computer to Develop Office Solutions
   To configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio, follow the instructions in this topic. You must have administrative privileges on the development computer to perform these steps.  

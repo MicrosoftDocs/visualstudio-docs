@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text manager"
 ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using the Text Manager to Monitor Global Settings
 If you implement a core editor, you must monitor the changes that are made to global settings, because these changes may affect your instance of the editor. You can track the changes by listening to events raised by the text manager. For example, when you specify a global preference for the appearance or behavior of a component in the core editor, such as its document data object, the text manager stores this information and communicates it to all affected clients.  

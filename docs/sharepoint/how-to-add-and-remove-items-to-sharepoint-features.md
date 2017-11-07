@@ -21,7 +21,7 @@ ms.assetid: 5957d04f-f832-40de-af08-3f23fb8e2e14
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add and Remove Items to SharePoint Features
   When you create a SharePoint solution, Visual Studio adds the default SharePoint project items to your Feature. Before deployment, you can add and remove SharePoint project items to modify the SharePoint Feature.  

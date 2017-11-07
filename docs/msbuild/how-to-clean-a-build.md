@@ -17,7 +17,7 @@ ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Clean a Build
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../msbuild/msbuild-task-reference.md).  

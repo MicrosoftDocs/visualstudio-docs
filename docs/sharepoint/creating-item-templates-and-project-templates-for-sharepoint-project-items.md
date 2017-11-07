@@ -22,7 +22,7 @@ ms.assetid: c95b5e35-76c4-4f0a-b645-0467ae683659
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Creating Item Templates and Project Templates for SharePoint Project Items
   When you define a custom SharePoint project item type, you can associate it with an item template or a project template so that other developers can use the project item in Visual Studio. You can also create a wizard for the template.  

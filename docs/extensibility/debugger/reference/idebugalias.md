@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugAlias interface"
 ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugAlias
 > [!IMPORTANT]

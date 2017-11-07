@@ -18,7 +18,7 @@ ms.assetid: 9f0943c0-e802-4e3f-8798-2ab8653ddc80
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1506: Avoid excessive class coupling
 |||  

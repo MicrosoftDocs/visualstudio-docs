@@ -1,7 +1,7 @@
 ---
 title: Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 4ca86a87-e254-4ab7-b3ba-a0ab99c1da93
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Debugging Python and C++ together
@@ -22,7 +22,7 @@ Most regular Python debuggers support debugging of only Python code. In practice
 
 ![Mixed-mode debugging](media/mixed-mode-debugging.png) 
 
-For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s).
+For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s). The video is applicable to both Visual Studio 2015 and 2017.
 
 > [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
 

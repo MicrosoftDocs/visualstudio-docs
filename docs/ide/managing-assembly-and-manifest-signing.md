@@ -17,7 +17,7 @@ ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Managing Assembly and Manifest Signing
 Strong-name signing gives a software component a globally unique identity. Strong names are used to guarantee that the assembly cannot be spoofed by someone else, and to ensure that component dependencies and configuration statements map to the correct component and component version.  

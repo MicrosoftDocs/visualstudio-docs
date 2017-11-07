@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "CATIDs for VSPackages"
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # CATIDs for Objects That Are Typically Used to Extend Projects
 The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in VSLangProj.olb.  

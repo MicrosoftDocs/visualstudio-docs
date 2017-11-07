@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
@@ -136,4 +136,5 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Visual Studio 2017 Administrator Guide](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Install Build Tools into a Container](build-tools-container.md)
 * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

@@ -12,7 +12,7 @@ ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Tutorial 2: Create a Timed Math Quiz
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  

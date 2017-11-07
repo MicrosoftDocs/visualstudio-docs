@@ -19,7 +19,7 @@ ms.assetid: 258f49e8-4b09-477e-a132-8fad685b66f4
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Relocate Instrumented Binaries
 During instrumentation, probes are inserted into the binary to measure application performance. By choosing to relocate the instrumented binary, a copy of the original binary is instrumented and put in the specified location. This option is useful if you do not want the profiler to rename your original binary. If the binary is not relocated, the original version of the binary is overwritten.  
