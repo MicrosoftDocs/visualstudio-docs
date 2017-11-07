@@ -52,8 +52,8 @@ Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunitt
   
 2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 3. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
-4. 
-5. ![C++ Output Window showing test messages](media/cpp-test-output-window.png "Output window")
+ 
+  ![C++ Output Window showing test messages](media/cpp-test-output-window.png "Output window")
 
 ## Define traits to enable grouping
 You can define traits on test methods which enable you to categorize and group tests in **Test Explorer**. To define a trait, use the `TEST_METHOD_ATTRIBUTE` macro. For example, to define a trait named `TEST_MY_TRAIT`:  
