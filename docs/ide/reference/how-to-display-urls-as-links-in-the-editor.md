@@ -16,21 +16,7 @@ ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Display URLs as Links in the Editor
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:  

@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/walkthrough-creating-a-basic-isolated-shell-application
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -14,22 +15,9 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], isolated shell-based application"
 ms.assetid: 8b12e223-aae3-4c23-813d-ede1125f5f69
 caps.latest.revision: 54
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Creating a Basic Isolated Shell Application
 This walkthrough shows how to create an isolated shell solution, customize the Help About tool window, and create a setup program that installs the isolated shell.  

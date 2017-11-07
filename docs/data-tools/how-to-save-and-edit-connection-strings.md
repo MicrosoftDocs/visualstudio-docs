@@ -10,12 +10,7 @@ ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # How to: Save and Edit Connection Strings

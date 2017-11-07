@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::SetLocale method"
 ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator::SetLocale
 This method sets the language to use to create printable results.  

@@ -4,29 +4,14 @@ ms.custom: ""
 ms.date: "05/06/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Command-line parameter examples for Visual Studio 2017 installation
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md),

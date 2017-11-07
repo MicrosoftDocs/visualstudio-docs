@@ -15,22 +15,9 @@ helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger_V7"
 ms.assetid: d2d4b78e-a2dd-4217-97a6-ab648fd2ee2f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 DEPRECATED. DO NOT USE.  

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetNamespacesUsedAtAddress method"
 ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 This method creates an enumerator for namespaces associated with the debug address.  

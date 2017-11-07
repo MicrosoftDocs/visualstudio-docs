@@ -18,21 +18,7 @@ ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CA2237: Mark ISerializable types with SerializableAttribute
 |||  

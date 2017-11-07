@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::IsCustomAttributeDefined"
 ms.assetid: 5c07cc52-6d2d-42df-9d76-9f1f769641db
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 Determines whether a custom attribute exists by name.  

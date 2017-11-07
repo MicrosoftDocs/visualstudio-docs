@@ -14,20 +14,6 @@ caps.latest.revision: 20
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Navigate and update layer models in program code
 This topic describes the elements and relationships in layer models, which you can navigate and update by using program code. For more information about dependency diagrams from the user's point of view, see [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md) and [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).  
@@ -131,7 +117,7 @@ public void ... (...)
   
  ![Each ILayerElement is presented by an IShape.](../modeling/media/layerapi_shapes.png "LayerApi_Shapes")  
   
- <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape> and <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IDiagram> are also used to display UML models. For more information, see [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
+ <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape> and <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IDiagram> are also used to display UML models. 
   
 ## See Also  
  [Add commands and gestures to dependency diagrams](../modeling/add-commands-and-gestures-to-layer-diagrams.md)   

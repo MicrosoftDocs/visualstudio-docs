@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "source control packages, about source control packages"
 ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Determining Whether to Implement a Source Control VSPackage
 This section elaborates the choices of source control plug-ins and source control VSPackages for extending source control solutions and gives broad guidelines about choosing a suitable integration path.  

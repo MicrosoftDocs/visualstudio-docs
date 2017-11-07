@@ -1,5 +1,6 @@
 ---
 redirect_url: /visualstudio/csharp-ide/refactoring-csharp
+---
 title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -16,26 +17,12 @@ ms.assetid: 12114273-7f2f-43d0-abcb-2d4711a3a68d
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Restore C# Refactoring Snippets
 C# refactoring operations rely on code snippets found in the following directory:  
   
- *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  
+ *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
   
  If this Refactoring directory, or any files in this directory are deleted or corrupted, then C# refactoring operations may not work in the IDE. The following procedures can help you restore C# refactoring code snippets.  
   
@@ -59,11 +46,11 @@ C# refactoring operations rely on code snippets found in the following directory
   
 5.  Locate the **Refactoring** folder whose directory path is:  
   
-     *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  
+     *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
   
      The actual path is similar to the following for a default installation:  
   
-     C:\Program Files\Microsoft Visual Studio 14.0\VC#\Snippets\1033\Refactoring.  
+     C:\Program Files\Microsoft Visual Studio 15.0\VC#\Snippets\1033\Refactoring.  
   
 6.  Click **Open** in the **Code Snippets Directory** dialog box, and then click **OK** in the Code Snippets Manager.  
   

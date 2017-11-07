@@ -24,7 +24,7 @@ ms.assetid: 9a5741f1-8260-4964-afa1-c69b68d1cfdf
 caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Calling Code from VBA in a Visual C# Project
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the workbook. The procedure involves three basic steps: add a method to the `Sheet1` host item class, expose the method to VBA code in the workbook, and then call the method from VBA code in the workbook.  

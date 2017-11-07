@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "debug engines"
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Debug Engine
 A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.  

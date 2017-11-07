@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "FIELD_KIND_EX enumeration"
 ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # FIELD_KIND_EX
 Enumerates additional kinds of fields that an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object can contain. This enumeration extends the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) enumeration.  

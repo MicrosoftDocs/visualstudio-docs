@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Skip"
 ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugFrameInfo2::Skip
 Skips over the specified number of elements.  

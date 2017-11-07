@@ -1,7 +1,7 @@
 ---
 title: "Optimize Solution Loading in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 8/31/2017
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +14,7 @@ ms.assetid: 84989983-84bc-4f81-97a8-2131e3a25138
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.performancecenter"
 ms.technology: 

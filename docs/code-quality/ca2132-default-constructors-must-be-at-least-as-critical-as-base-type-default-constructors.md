@@ -14,21 +14,7 @@ ms.assetid: e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CA2132: Default constructors must be at least as critical as base type default constructors
 |||  

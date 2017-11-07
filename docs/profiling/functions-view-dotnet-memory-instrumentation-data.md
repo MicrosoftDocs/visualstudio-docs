@@ -14,21 +14,7 @@ ms.assetid: cd45b379-394b-4b71-828c-92cd89e46ae0
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Functions View - .NET Memory Instrumentation Data
 The Functions view of .NET memory allocation profiling data that was collected by using the instrumentation method lists the functions that allocated memory during the profiling run. A function row reports the size and number of allocations, and the timing data for the function.  

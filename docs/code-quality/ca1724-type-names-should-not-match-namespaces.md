@@ -18,22 +18,7 @@ ms.assetid: 329af3b5-5600-4101-831d-531ab3eb7060
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CA1724: Type Names Should Not Match Namespaces
 |||  

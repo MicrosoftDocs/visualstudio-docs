@@ -10,20 +10,6 @@ ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
 caps.latest.revision: 5
 ms.author: "sdanie"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # State Machine Activity Designers
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.  

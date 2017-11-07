@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::GetInfo"
 ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess2::GetInfo
 Gets a description of the process.  

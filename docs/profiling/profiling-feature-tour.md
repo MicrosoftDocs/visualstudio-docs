@@ -14,22 +14,7 @@ ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Profiling Feature Tour
 
@@ -154,7 +139,7 @@ For more information, see [Network Usage](../profiling/network-usage.md).
 
 ## Analyze Performance (Legacy Tools)
 
-If you need features such as instrumentation that are not currently present in CPU Usage or Memory Usage tools, and you are running desktop or ASP.NET apps, you can use the Performance Explorer for profiling. (Not supported in UWP apps). For more info, see [Performance Explorer](../profiling/performance-explorer.md)
+If you need features such as instrumentation that are not currently present in CPU Usage or Memory Usage tools, and you are running desktop or ASP.NET apps, you can use the Performance Explorer for profiling. (Not supported in UWP apps). For more info, see [Performance Explorer](../profiling/performance-explorer.md).
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 

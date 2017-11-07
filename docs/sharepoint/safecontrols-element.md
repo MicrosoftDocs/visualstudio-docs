@@ -17,7 +17,7 @@ ms.assetid: f5ffdbbe-cf85-4e5a-9d39-3cd4462f2a0e
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # SafeControls Element
   Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.  

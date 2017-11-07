@@ -14,21 +14,7 @@ ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 caps.latest.revision: 28
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Item Functions
 Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.  

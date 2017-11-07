@@ -18,22 +18,7 @@ ms.assetid: 52ae9eff-50f9-4b2f-8039-ca7e49fba88e
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CA1404: Call GetLastError immediately after P/Invoke
 |||  

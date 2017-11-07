@@ -13,22 +13,7 @@ ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Separate datasets and TableAdapters into different projects

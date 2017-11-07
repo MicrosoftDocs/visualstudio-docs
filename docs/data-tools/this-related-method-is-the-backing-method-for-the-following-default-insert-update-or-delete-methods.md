@@ -10,22 +10,7 @@ ms.assetid: 62afa6da-97cf-48b9-8de3-33e4d72a0377
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # This related method is the backing method for the following default insert, update, or delete methods

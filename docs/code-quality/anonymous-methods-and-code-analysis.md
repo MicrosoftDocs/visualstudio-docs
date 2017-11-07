@@ -16,21 +16,7 @@ ms.assetid: bf0a1a9b-b954-4d46-9c0b-cee65330ad00
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Anonymous Methods and Code Analysis
 An *anonymous method* is a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter.  

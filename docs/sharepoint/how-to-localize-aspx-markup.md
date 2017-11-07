@@ -20,7 +20,7 @@ ms.assetid: 9559a1d1-6558-4c24-a51e-c6ee79432778
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Localize ASPX Markup
   [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.  

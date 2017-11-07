@@ -12,22 +12,7 @@ ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017

@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - fire events on losing focus"
 ms.assetid: 64d40695-6917-468a-8037-a253453ac159
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Fire Events When the Editor Loses Focus
 Sometimes it is necessary to know when an editor loses focus on the window frame. For example, you might need to extract code from a code window after the editor is no longer focused on it. The following procedure provides the steps to follow to receive notification of the editor losing focus.  

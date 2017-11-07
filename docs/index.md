@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Visual Studio Documentation
+title: Visual Studio Documentation | Microsoft Docs
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ---
 <div id="main" class="v2">
@@ -707,7 +707,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             </div>
                                             <div class="cardText">
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833063">
-                                                    <h3>Visual C++</h3>
+                                                    <h3>C++</h3>
                                                     <p>A powerful and flexible programming language and development environment for creating applications for Windows, Linux, iOS, and Android.</p>
                                                 </a>
                                             </div>

@@ -13,7 +13,7 @@ ms.assetid: d30fddae-8e2f-4f50-90d3-8ed2cd35c7a6
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Azure SDK for Python

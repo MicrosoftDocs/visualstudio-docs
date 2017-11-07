@@ -16,22 +16,7 @@ ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Edit data in datasets

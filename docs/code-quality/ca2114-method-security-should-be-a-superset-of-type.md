@@ -18,21 +18,7 @@ ms.assetid: 663f7aa4-8be5-4bd5-be92-4e9444f07077
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CA2114: Method security should be a superset of type
 |||  

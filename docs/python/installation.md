@@ -1,7 +1,7 @@
 ---
 title: Installation for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 9/22/2017
+ms.date: 09/22/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: ce3d3656-7ba2-490d-92df-0bb3e3badf92
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Installing Python support in Visual Studio on Windows
@@ -70,6 +70,8 @@ To quickly test Python support after following the installation steps, Open the 
 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
 
+
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567]
 
 ## Visual Studio 2015
 

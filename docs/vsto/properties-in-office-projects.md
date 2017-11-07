@@ -23,7 +23,7 @@ ms.assetid: 1284d6c3-8200-4151-88ce-0b5c7765af25
 caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Properties in Office Projects
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.  

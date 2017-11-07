@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3b4b3583-0b01-4f5d-aacb-3f96d19111d9
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # Mip-map Generation Variant
 Enables mip-maps on textures that are not render targets.  

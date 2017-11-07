@@ -12,22 +12,7 @@ ms.assetid: ff707aca-6bc5-4a2d-834b-bb6511a7b8f6
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Insert images, videos, and audio clips in XAML Designer
 Images, videos, and audio clips add visual appeal to your app.  

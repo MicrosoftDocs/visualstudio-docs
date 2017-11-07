@@ -12,21 +12,7 @@ ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Measuring extension impact in startup
 

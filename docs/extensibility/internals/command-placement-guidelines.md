@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "command sets"
 ms.assetid: 63b3478e-e08a-420b-a0ec-76767e0cb289
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Command Placement Guidelines
 Best practices for positioning commands in the Visual Studio integrated development environment (IDE) vary depending on the size of the command set. Commands are defined and positioned according to the information in .vsct files.  

@@ -10,22 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c64aac80-a411-463f-b7bd-8b7607a52ece
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # What&#39;s New in the Visual Studio 2015 SDK
 The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio 2017.  

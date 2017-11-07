@@ -18,29 +18,14 @@ ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Application Page, Project Designer (Visual Basic)
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  
   
- To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## General Application Settings  
  The following options enable you to configure general settings for an application.  
@@ -73,7 +58,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
  **Application type**  
- Specifies the type of application to build. For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
+ Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
   
  For a web application project, you must specify **Class Library**.  
   

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcessEx2::AddImplicitProgramNodes method"
 ms.assetid: 8b491b00-f9e7-45b3-9115-fe58c3464289
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcessEx2::AddImplicitProgramNodes
 This method adds a program node for each debug engine (DE) specified.  

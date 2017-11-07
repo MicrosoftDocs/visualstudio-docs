@@ -19,7 +19,7 @@ ms.assetid: 2212b7eb-bf94-4398-b9ea-0ab00203203b
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;customHostSpecified&gt; Element (Office Development in Visual Studio)
   The `customHostSpecified` element indicates that this solution is not a stand-alone application. Office solutions contain components that are hosted inside Microsoft Office applications.  

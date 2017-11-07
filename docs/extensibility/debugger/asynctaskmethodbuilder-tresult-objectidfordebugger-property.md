@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "ObjectForDebugger property, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"
 ms.assetid: 060b857f-daf5-43ea-bb51-abf9368e1e91
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  

@@ -26,21 +26,7 @@ ms.assetid: f2085314-a3a8-4caf-a5a4-2af9ad5aad05
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Macros for Reporting
 You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replace the use of `printf` statements for debugging. These macros automatically disappear in your release build when **_DEBUG** is not defined, so there is no need to enclose them in **#ifdef**s.  

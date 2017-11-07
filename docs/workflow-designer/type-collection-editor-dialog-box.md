@@ -13,20 +13,6 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Type Collection Editor Dialog Box
 The **Type Collection Editor** dialog box is used to add known types to the **Send** and **Receive** activities. This dialog is also used to add generic type arguments to the **InvokeMethod** activity. When used for the **Send** and **Receive** activities to add known types, the **Type Collection Editor** dialog box requires the type additions to be unique. If a duplicate type is added and the change is committed by clicking **OK**, an error message is returned. When used for the **InvokeMethod** activity to add generic type arguments, the **Type Collection Editor** dialog box allows the addition of duplicate types.  

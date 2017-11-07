@@ -10,21 +10,7 @@ ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # The property &lt;property name&gt; cannot be deleted

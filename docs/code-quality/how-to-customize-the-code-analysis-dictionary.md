@@ -16,22 +16,7 @@ ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # How to: Customize the Code Analysis Dictionary
 Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.  

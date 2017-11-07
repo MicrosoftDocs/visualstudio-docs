@@ -31,21 +31,6 @@ caps.latest.revision: 243
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Map dependencies across your solutions
 When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.  

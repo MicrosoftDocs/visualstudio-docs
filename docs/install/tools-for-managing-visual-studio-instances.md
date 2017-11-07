@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Tools for detecting and managing Visual Studio instances

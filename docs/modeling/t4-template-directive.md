@@ -11,20 +11,6 @@ caps.latest.revision: 10
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # T4 Template Directive
 A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.  

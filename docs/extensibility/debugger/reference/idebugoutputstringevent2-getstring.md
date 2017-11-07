@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugOutputStringEvent2::GetString"
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugOutputStringEvent2::GetString
 Gets the displayable message.  

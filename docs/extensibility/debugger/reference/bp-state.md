@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "BP_STATE enumeration"
 ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # BP_STATE
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.  

@@ -13,20 +13,6 @@ caps.latest.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Receive Activity Designer
 The **Receive** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Receive> activity. A <xref:System.ServiceModel.Activities.Receive> activity is an activity that receives a message that can be either a built-in type such as <xref:System.ServiceModel.Channels.Message>, <xref:System.IO.Stream> or <xref:System.Xml.Linq.XElement>, or an application-defined data contract, message contract, or XML class that can be serialized.  

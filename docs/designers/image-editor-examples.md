@@ -12,7 +12,7 @@ ms.assetid: 9f887976-25ae-4099-b987-87ea97f98c58
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Image Editor Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.  

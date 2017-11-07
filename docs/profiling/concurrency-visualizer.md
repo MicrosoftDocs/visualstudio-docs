@@ -19,22 +19,7 @@ ms.assetid: ae5879a0-1e1a-455a-ba72-148e57f59289
 caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Concurrency Visualizer
 > [!NOTE]
@@ -66,5 +51,5 @@ translation.priority.mt:
 |[Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|  
   
 ## See Also  
- [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

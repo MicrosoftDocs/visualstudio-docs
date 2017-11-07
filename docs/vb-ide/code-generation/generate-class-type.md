@@ -12,25 +12,11 @@ ms.devlang: "VB"
 ms.assetid: ebc361fe-d9b1-4c7a-ae28-5e71b5775460
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vsl.GenerateFromUsage"
 dev_langs: 
   - VB
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Generate a class or type in Visual Basic

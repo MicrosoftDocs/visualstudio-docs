@@ -12,20 +12,6 @@ helpviewer_keywords:
 ms.assetid: 5b51fb96-94f4-4926-92b9-262156c05b85
 author: "rpetrusha"
 ms.author: "ronpet"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Live Unit Testing with Visual Studio 2017
@@ -49,7 +35,7 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 <tr>
    <td>xUnit.net</td>
    <td> xunit.runner.visualstudio version 2.2.0-beta3-build1187</td>
-   <td>xunit 2.0</td> 
+   <td>xunit 1.9.2</td> 
 </tr>
 <tr>
    <td>NUnit</td>
@@ -58,12 +44,12 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 <tr>
    <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.11</td>
-   <td>MSTest.TestFramework 1.1.11</td>
+   <td>MSTest.TestAdapter 1.1.4-preview</td>
+   <td>MSTest.TestFramework 1.0.5-preview</td>
 </tr>
 </table>
 
-If you have older adapter and test framework references from your existing projects, be sure to remove them. (Make sure you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, if you are using MSTest.) Add the new ones if Live Unit Testing is not working for you. 
+If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4. 
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing. 
 

@@ -11,23 +11,9 @@ ms.topic: "article"
 ms.assetid: ff86d7bd-837b-4664-b0ea-d3ee0c52fe87
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - "VB"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Sync a type to a filename, or a filename to a type in Visual Basic

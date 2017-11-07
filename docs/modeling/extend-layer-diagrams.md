@@ -16,21 +16,6 @@ caps.latest.revision: 39
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Extend dependency diagrams
 You can write code to create and update dependency diagrams, and to validate the structure of your program code against dependency diagrams in Visual Studio. You can add commands that appear in the shortcut (context) menu of the diagrams, customize drag-and-drop gestures, and access the layer model from text templates. You can package these extensions into a Visual Studio Integration Extension (VSIX) and distribute them to other Visual Studio users.  
@@ -76,7 +61,6 @@ You can write code to create and update dependency diagrams, and to validate the
  [Troubleshoot extensions for dependency diagrams](../modeling/troubleshoot-extensions-for-layer-diagrams.md)  
   
 ## See Also  
- [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)   

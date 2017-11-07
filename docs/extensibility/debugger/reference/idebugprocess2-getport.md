@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::GetPort"
 ms.assetid: e39b6e5a-64eb-48cf-a53d-da4fdb968e2d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess2::GetPort
 Gets the port that the process is running on.  

@@ -17,21 +17,7 @@ ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
 caps.latest.revision: 43
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Run Windows Store apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

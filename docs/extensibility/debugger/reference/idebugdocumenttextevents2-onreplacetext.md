@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onReplaceText"
 ms.assetid: cb39f025-66d8-4dc0-bef6-1bdc8e07db92
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugDocumentTextEvents2::onReplaceText
 Notifies the debug package that text has been replaced in the document.  

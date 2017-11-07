@@ -12,21 +12,6 @@ ms.assetid: 1dbf1090-762c-4824-82dd-2d7c2c6f00b6
 caps.latest.revision: 11
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Sample Excel Communicator Interface
 The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator` object in the `ExcelAddIn` project.  

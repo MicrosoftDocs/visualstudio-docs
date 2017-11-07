@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Creating a Python project from existing code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/25/2017
+ms.date: 09/25/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -13,7 +13,7 @@ ms.assetid: 3fd90afb-8d76-4c93-81f2-e10edbed2069
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Quickstart: create a Python project from existing code

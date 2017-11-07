@@ -13,22 +13,7 @@ ms.assetid: 63bc6328-e0df-4655-9ce3-5ff74dbf69a4
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)

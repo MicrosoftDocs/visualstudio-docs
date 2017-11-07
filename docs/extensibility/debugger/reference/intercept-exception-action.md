@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "INTERCEPT_EXCEPTION_ACTION enumeration"
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # INTERCEPT_EXCEPTION_ACTION
 Specifies what actions to take when intercepting exceptions.  

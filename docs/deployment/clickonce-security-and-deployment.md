@@ -22,20 +22,6 @@ caps.latest.revision: 32
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ClickOnce Security and Deployment
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).  

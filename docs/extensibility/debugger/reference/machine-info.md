@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "MACHINE_INFO structure"
 ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MACHINE_INFO
 Describes a particular machine.  

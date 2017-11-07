@@ -14,20 +14,6 @@ ms.assetid: 21FE4D68-9E7F-4BB1-BD69-B0D09A941F09
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Get started with Microsoft IntelliTest
 
