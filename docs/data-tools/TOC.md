@@ -16,9 +16,6 @@
 ### [Work with datasets in n-tier applications](work-with-datasets-in-n-tier-applications.md)
 ## [Database projects and data-tier applications (DAC)](creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md)
 ## [n-Tier data applications overview](n-tier-data-applications-overview.md)
-## O/R Designer (Linq to SQL)
-### [DataContext methods](datacontext-methods-o-r-designer.md)
-### [Data class inheritance](data-class-inheritance-o-r-designer.md)
 # How-to guides
 ## [Create a database](create-a-sql-database-by-using-a-designer.md)
 ## [Add connections](add-new-connections.md)
@@ -98,7 +95,7 @@
 ## [Upgrade .mdf files](upgrade-dot-mdf-files.md)
 ## [Troubleshoot data access errors](additional-resources-for-troubleshooting-data-access-errors.md)
 # Reference
-## [O/R Designer (Linq to SQL)]
+## O/R Designer (Linq to SQL)
 ### [DataContext methods](datacontext-methods-o-r-designer.md)
 ### [Data class inheritance](data-class-inheritance-o-r-designer.md)
 ### [O/R Designer messages](o-r-designer-messages.md)
