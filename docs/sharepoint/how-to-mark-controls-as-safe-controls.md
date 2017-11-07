@@ -21,7 +21,7 @@ ms.assetid: 813727d5-6750-407c-a23e-c38dd611e78c
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Mark Controls as Safe Controls
   For security, SharePoint differentiates between Web controls that are protected against script injection and Web controls that are not. Protected controls, or *safe controls*, can be accessed by untrusted users. You can mark controls as safe in the Safe Control Entries property of a SharePoint project item or in the **Package Designer** when you add an assembly to the package. For more information, see  

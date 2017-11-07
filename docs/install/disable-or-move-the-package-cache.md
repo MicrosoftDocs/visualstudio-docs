@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 2429993A-3F0E-41C5-9562-FEA6AE994440
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 # Disable or move the package cache
 

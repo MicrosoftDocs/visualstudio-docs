@@ -18,7 +18,7 @@ ms.assetid: a6225ae9-94f5-421a-9860-5299002d543d
 caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Save Documents
   There are several ways to save Microsoft Office Word documents. You can save a document without changing the name of the document, or you can save a document with a new name.  

@@ -15,7 +15,7 @@ ms.assetid: 8e1ab784-5f85-4e2b-8ef9-e5d59ca4dbcb
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Options Page, Fonts and Colors Node Properties
 This document describes font and color properties for a tool window that is registered to appear under **Fonts and Colors** in the **Environment** category of the **Options** dialog box. This supports the dynamic nature of groups of colorable items, which can change if VSPackages are installed or uninstalled.  

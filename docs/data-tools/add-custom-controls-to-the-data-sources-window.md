@@ -19,7 +19,7 @@ ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Add custom controls to the Data Sources window

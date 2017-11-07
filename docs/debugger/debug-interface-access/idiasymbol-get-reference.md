@@ -16,7 +16,7 @@ ms.assetid: 6a97cb74-6a14-41fd-8e24-2a42d7a1e529
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_reference
 Retrieves a flag that specifies whether a pointer type is a reference.  

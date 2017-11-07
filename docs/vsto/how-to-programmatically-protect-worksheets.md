@@ -20,7 +20,7 @@ ms.assetid: 50bde1ff-918a-42ca-ba1b-f22139f8717a
 caps.latest.revision: 47
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Protect Worksheets
   The protection feature in Microsoft Office Excel helps prevent users and code from modifying objects in a worksheet. By default, all cells are locked after you turn on protection.  

@@ -14,7 +14,7 @@ ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
 caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Code analysis rule set reference
 When you configure code analysis for managed code projects in [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]you are presented with a list of built-in *rule sets*. You can either use one of the standard rule sets, or you can customize a  rule set to fit your project requirements.  

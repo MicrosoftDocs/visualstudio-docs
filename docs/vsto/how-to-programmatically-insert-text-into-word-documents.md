@@ -21,7 +21,7 @@ ms.assetid: 405d7442-8ba3-4fcc-b17e-7b289ffd3967
 caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Insert Text into Word Documents
   There are three primary ways to insert text into Microsoft Office Word documents:  

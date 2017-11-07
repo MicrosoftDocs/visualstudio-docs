@@ -19,7 +19,7 @@ ms.assetid: 7312afd9-84ba-417f-923e-7a159b53bf70
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2224: Override equals on overloading operator equals
 |||  

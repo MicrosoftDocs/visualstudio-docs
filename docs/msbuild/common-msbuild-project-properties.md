@@ -22,7 +22,7 @@ ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 caps.latest.revision: 36
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Common MSBuild Project Properties
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  

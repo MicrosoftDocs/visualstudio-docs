@@ -19,7 +19,7 @@ ms.assetid: 4be79613-50a0-428e-9816-aadbc098272a
 caps.latest.revision: 70
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Changing Worksheet Formatting Using CheckBox Controls
   This walkthrough shows the basics of using check boxes on a Microsoft Office Excel worksheet to change formatting. You will use Office development tools in Visual Studio to create and add code to your project. To see the result as a completed sample, see the Excel Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  

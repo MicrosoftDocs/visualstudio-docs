@@ -1,7 +1,7 @@
 ---
 title: "Installing the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 10/20/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 3ff60292-1b88-4ee9-b2b2-edd957f1a519
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # How to install R Tools for Visual Studio
@@ -26,7 +26,7 @@ In this topic:
 - [Offline installation](#offline-installation-of-visual-studio-and-rtvs)
 
 > [!Note]
-> After installing R Tools, you may want to configure Visual Studio for an optimized data scientist layout, as described on the [Options](options.md#data-scientist-layout) topic.
+> After installing R Tools, you may want to configure Visual Studio for an optimized data scientist layout, as described on the [Options](options.md) topic.
 
 ## Supported versions of Visual Studio
 

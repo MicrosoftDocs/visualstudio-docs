@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "SccOpenProject function"
 ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccOpenProject Function
 This function opens an existing source control project or creates a new one.  

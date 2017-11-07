@@ -1,7 +1,7 @@
 ---
 title: "Python Cross-Platform Remote Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: aa667357-763f-4ce6-8e47-48f9337658a8
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Remotely Debugging Python Code on Linux
@@ -22,7 +22,7 @@ Visual Studio can launch and debug Python applications locally and remotely on a
 
 When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This hosting requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote computer to allow TCP connections.
 
-For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s).
+For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s), which is applicable to both Visual Studio 2015 and 2017.
 
 > [!VIDEO https://www.youtube.com/embed/y1Qq7BrV6Cc]
 

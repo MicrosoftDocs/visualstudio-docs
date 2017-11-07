@@ -21,7 +21,7 @@ ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Work with datasets in n-tier applications

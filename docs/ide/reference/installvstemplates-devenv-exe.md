@@ -16,7 +16,7 @@ ms.assetid: 1fb466f6-7955-4535-a840-d93eb8aaa492
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /InstallVSTemplates (devenv.exe)
 Registers project or item templates that are located in *\<Visual Studio installation path>*\Common7\IDE\ProjectTemplates\ or *\<Visual Studio installation path>*\Common7\IDE\ItemTemplates\ so that they can be accessed through the **New Project** and **Add New Item** dialog boxes.  

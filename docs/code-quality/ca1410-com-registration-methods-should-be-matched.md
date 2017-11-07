@@ -18,7 +18,7 @@ ms.assetid: f3b2e62d-fd66-4093-9f0c-dba01ad995fd
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1410: COM registration methods should be matched
 |||  

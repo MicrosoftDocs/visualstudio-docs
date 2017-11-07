@@ -16,7 +16,7 @@ ms.assetid: e44ba922-6cda-40c2-9b62-44e5a8628e63
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_notReached
 Retrieves a flag that specifies whether the function or label is never reached.  

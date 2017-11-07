@@ -14,7 +14,7 @@ ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment (IDE).  

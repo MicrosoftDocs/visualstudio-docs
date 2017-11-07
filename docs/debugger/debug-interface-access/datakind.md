@@ -16,7 +16,7 @@ ms.assetid: b64be708-22d6-4360-99e7-8f4e6b196de7
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DataKind
 Indicates the particular scope of a data value.  

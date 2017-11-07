@@ -26,7 +26,7 @@ ms.assetid: ecf62568-8b65-4a41-b8a4-e962ff2dfb71
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Find Which DLL Your Program Crashed In
 > [!NOTE]

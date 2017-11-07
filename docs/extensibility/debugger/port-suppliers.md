@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], port suppliers"
 ms.assetid: a8f3db96-1a13-4e93-9ef6-0861880369e0
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Port Suppliers
 In terms of the debugger architecture, a **port supplier**:  

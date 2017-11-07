@@ -16,7 +16,7 @@ ms.assetid: d3eab1a0-db05-4838-833f-57e93a6ad096
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumDebugStreamData::Reset
 Resets to the beginning of an enumerated sequence.  

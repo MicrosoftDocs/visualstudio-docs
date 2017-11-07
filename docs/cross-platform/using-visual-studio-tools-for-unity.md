@@ -12,7 +12,7 @@ ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 caps.latest.revision: 5
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Using Visual Studio Tools for Unity
 In this section, you'll learn how to use Visual Studio Tools for Unity's integration and productivity features, and how to use the Visual Studio debugger for Unity development.  

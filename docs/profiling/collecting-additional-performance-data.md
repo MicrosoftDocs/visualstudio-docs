@@ -12,7 +12,7 @@ ms.assetid: 8c0ea5c6-74a4-4a23-89ca-8d589364079f
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Collecting Additional Performance Data
 In addition to the data that you collect by using a profiling method, [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] Profiling Tools enable you to record and view additional data.  

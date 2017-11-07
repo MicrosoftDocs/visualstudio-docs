@@ -16,7 +16,7 @@ ms.assetid: 87608b7f-a156-400c-80f5-fc823f843e61
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # /Setup (devenv.exe)
 Forces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.  

@@ -18,7 +18,7 @@ ms.assetid: 066c8675-381f-43cc-956c-d757cc494028
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2222: Do not decrease inherited member visibility
 |||  

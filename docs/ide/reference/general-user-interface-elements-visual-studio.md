@@ -12,7 +12,7 @@ ms.assetid: bc67652d-1001-4979-ba71-d57147d21928
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # General User Interface Elements (Visual Studio)
 This section describes some user interface elements of the integrated development environment (IDE).  

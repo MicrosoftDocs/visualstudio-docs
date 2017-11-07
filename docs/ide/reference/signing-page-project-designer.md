@@ -23,7 +23,7 @@ ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Signing Page, Project Designer
 Use the **Signing** page of the **Project Designer** to sign the application and deployment manifests and also to sign the assembly (strong-name signing).  

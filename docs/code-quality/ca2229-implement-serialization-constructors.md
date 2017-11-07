@@ -18,7 +18,7 @@ ms.assetid: 8e04d5fe-dfad-445a-972e-0648324fac45
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2229: Implement serialization constructors
 |||  

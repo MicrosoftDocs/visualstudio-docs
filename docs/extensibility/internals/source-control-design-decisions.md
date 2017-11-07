@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], design decisions"
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Source Control Design Decisions
 The following design decisions should be considered for projects when implementing source control.  

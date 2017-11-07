@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugModOpt interface"
 ms.assetid: ebd525e3-d140-4071-9d8c-41871de4125e
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugModOpt
 Represents a debug optional modifier.  

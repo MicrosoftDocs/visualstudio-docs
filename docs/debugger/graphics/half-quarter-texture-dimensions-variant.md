@@ -12,7 +12,7 @@ ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Half/Quarter Texture Dimensions Variant
 Reduces the texture dimensions on textures that are not render targets.  

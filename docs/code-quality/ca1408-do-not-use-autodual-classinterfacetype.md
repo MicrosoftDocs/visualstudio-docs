@@ -18,7 +18,7 @@ ms.assetid: 60ca5e02-3c51-42dd-942b-4f950eecfa0f
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1408: Do not use AutoDual ClassInterfaceType
 |||  

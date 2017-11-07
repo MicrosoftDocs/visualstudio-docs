@@ -16,7 +16,7 @@ ms.assetid: 79ca304d-dc1e-4dc9-a2a6-7808df2e588e
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual C# IntelliSense
 Visual C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate Mode](../ide/reference/immediate-window.md) command window.  

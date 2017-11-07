@@ -20,7 +20,7 @@ ms.assetid: aea4c86c-9d6d-47dd-8977-066e21945dab
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Scroll Through Database Records in a Worksheet
   The following procedure shows how to use the designer to display a single field from a database table in a Microsoft Office Excel worksheet, with controls that enable the end user to scroll through all the records.  

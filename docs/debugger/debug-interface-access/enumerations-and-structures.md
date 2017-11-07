@@ -19,7 +19,7 @@ ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Enumerations and Structures
 These are the enumerations and structures used by the DIA SDK.  

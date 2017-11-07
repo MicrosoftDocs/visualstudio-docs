@@ -22,7 +22,7 @@ ms.assetid: 9a370ccc-d358-429c-b285-9b6c0649bc68
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: Unable to Automatically Step Into the Server
 The error reads:  

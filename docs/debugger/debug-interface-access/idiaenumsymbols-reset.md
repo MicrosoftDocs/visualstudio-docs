@@ -16,7 +16,7 @@ ms.assetid: dd3c41a5-ebdf-4a9e-bc84-2fe985be0075
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSymbols::Reset
 Resets an enumeration sequence to the beginning.  

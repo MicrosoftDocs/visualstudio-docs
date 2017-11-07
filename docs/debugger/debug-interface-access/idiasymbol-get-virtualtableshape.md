@@ -16,7 +16,7 @@ ms.assetid: 92360cbd-0761-446e-93f9-04dc8f4b66c6
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_virtualTableShape
 Retrieves the symbol interface of the type of the virtual table for a user-defined type.  

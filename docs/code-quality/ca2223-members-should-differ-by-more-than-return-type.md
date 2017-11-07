@@ -18,7 +18,7 @@ ms.assetid: eb326d9f-50d9-48cb-84be-d41c84a8fe09
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2223: Members should differ by more than return type
 |||  

@@ -19,7 +19,7 @@ ms.assetid: 5707b972-71a6-4cc6-ab99-c7c00ca8628c
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: Web site worker process has been terminated by IIS
 The debugger stopped execution of code on the Web site. This caused Internet Information Services (IIS) to assume that the worker process had stopped responding. Therefore, IIS terminated the worker process.  

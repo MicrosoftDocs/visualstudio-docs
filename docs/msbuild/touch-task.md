@@ -22,7 +22,7 @@ ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
 caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Touch Task
 Sets the access and modification times of files.  

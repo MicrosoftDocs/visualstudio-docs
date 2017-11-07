@@ -1,7 +1,7 @@
 ---
 title: CookieCutter Extension for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 783da5fd-726c-4716-994e-aa04d6b75896
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Using the Cookiecutter Extension

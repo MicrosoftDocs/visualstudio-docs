@@ -18,7 +18,7 @@ ms.assetid: 56e6d1f2-65a4-41f0-aff5-f0cfd96d7185
 caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Updating a Chart in a Document Using Radio Buttons
   This walkthrough demonstrates how to use radio buttons in a document-level customization for Microsoft Office Word to give users the option to select chart styles on the document.  

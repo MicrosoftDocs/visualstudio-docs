@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting VSPackages
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.  

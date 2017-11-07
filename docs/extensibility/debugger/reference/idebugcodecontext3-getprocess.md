@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugCodeContext3::GetProcess"
 ms.assetid: e082e494-2255-4d9d-a5a9-6dadd904bea8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugCodeContext3::GetProcess
 Retrieves a reference to the interface of the debug process.  

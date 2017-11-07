@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "EnableLocationBrowseButton [Visual Studio project templates]"
 ms.assetid: a12d10d8-af49-482a-af77-e084fd07a47d
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # EnableLocationBrowseButton Element (Visual Studio Templates)
 Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved.  

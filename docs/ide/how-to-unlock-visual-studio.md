@@ -1,7 +1,7 @@
 ---
 title: "How to: unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/20/2017
+ms.date: 07/20/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,7 +12,7 @@ ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # How to: unlock Visual Studio

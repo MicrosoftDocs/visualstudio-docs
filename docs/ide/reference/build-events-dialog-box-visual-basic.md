@@ -20,7 +20,7 @@ ms.assetid: 3a81a7c7-39f9-47a8-ba5a-b351227f380e
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Build Events Dialog Box (Visual Basic)
 Use the **Build Events** dialog box to specify build configuration instructions. You can also specify the conditions under which any pre-build or post-build events are run. For more information, see [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md).  

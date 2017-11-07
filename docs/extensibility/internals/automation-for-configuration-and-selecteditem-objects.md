@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], builds"
 ms.assetid: 120377f1-51aa-4445-b2f7-06ab7fc2b47f
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Automation for Configuration and SelectedItem Objects
 You can automate the build and selected item processes in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

@@ -15,7 +15,7 @@ ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
 caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Creating and managing databases and data-tier applications in Visual Studio

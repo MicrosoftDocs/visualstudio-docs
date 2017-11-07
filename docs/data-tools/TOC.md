@@ -63,6 +63,7 @@
 #### [The connection property in the Application Settings file is missing or incorrect](the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md)
 #### [Cannot create an association <association name> - property types do not match](cannot-create-an-association-association-name-property-types-do-not-match.md)
 #### [Warning. Changes have been made to the Configure Behavior dialog box that have not been applied](warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied.md)
+#### [You have selected a database object from an unsupported database provider](you-have-selected-a-database-object-from-an-unsupported-database-provider.md)
 #### [This related method is the backing method for the following default insert, update, or delete methods](this-related-method-is-the-backing-method-for-the-following-default-insert-update-or-delete-methods.md)
 #### [One or more selected items contain a data type that is not supported by the designer](one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer.md)
 #### [Changing the return type of a DataContext method cannot be undone](changing-the-return-type-of-a-datacontext-method-cannot-be-undone.md)

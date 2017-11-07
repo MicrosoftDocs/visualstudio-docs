@@ -22,7 +22,7 @@ ms.assetid: dadf8f2c-f74c-44d7-bec0-a1e956d8d38d
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Hierarchical Organization of Resources for Localization
 In Visual Studio, localized resources (data such as strings and images appropriate to each culture) are stored in separate files and loaded according to the UI culture setting. To understand how localized resources are loaded, it is useful to think of them as organized in a hierarchical manner.  

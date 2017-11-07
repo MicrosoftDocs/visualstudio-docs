@@ -507,6 +507,5 @@ private const string INVALID_REF_FORMAT =
   
 ## See Also  
  [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
- [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md)   
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md)

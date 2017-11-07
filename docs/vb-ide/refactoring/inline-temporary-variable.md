@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: a63d6407-5acb-4d5f-8c0e-ecedddc07177
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Inline a temporary variable in Visual Basic

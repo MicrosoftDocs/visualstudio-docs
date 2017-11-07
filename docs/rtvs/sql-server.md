@@ -1,7 +1,7 @@
 ---
 title: "Integrating SQL Server with R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/30/2017
+ms.date: 06/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 919dfc34-234a-489e-91bf-74a4cefae26c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Working with SQL Server and R

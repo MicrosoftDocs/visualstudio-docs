@@ -16,7 +16,7 @@ ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 

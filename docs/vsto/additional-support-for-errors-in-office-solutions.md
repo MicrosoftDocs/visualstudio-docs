@@ -61,7 +61,7 @@ ms.assetid: dcede68c-f269-46fe-a692-97517b671435
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Additional Support for Errors in Office Solutions
   You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.  

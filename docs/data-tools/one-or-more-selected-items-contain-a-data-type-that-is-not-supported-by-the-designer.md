@@ -10,7 +10,7 @@ ms.assetid: 71dcd4f9-2946-42c5-9ce4-99c819ea2785
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # One or more selected items contain a data type that is not supported by the designer

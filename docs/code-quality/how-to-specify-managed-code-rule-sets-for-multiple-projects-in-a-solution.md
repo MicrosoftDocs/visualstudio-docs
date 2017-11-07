@@ -14,7 +14,7 @@ ms.assetid: 92dc3250-a010-4396-b515-f03a0b30cd2a
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution
 By default, all the managed projects of a solution are assigned the Microsoft Minimum Recommended Rules code analysis *rule set*. You can change the rule sets that are assigned to the projects of a solution in the properties dialog box for the solution.  

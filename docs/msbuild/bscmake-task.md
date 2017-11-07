@@ -24,7 +24,7 @@ ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # BscMake Task
 > [!IMPORTANT]

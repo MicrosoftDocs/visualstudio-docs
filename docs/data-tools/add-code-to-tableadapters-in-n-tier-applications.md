@@ -16,7 +16,7 @@ ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Add code to TableAdapters in n-tier applications

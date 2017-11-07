@@ -1,7 +1,7 @@
 ---
 title: Python Environments in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/25/2017
+ms.date: 07/25/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 8876f8c1-4770-44dc-97d8-bf0035ae8196
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Python environments
@@ -39,9 +39,9 @@ Oftentimes, developers use only a single, global Python environment. Other devel
 - [Managing required packages](#managing-required-packages)
 - [Search paths](#search-paths)
 
-For a video introduction, see [Deep Dive: Python Interpreters](https://youtu.be/KY1GEOo3qy0) (youtube.com, 13m27s).
+For a video introduction, see [Managing Python Environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) (Microsoft Virtual Academy, 2m35s).
 
-> [!VIDEO https://www.youtube.com/embed/KY1GEOo3qy0]
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Managing-Python-Environments-qrDmN4LWE_8305918567]
 
 ## Selecting and installing Python interpreters
 
