@@ -7,52 +7,33 @@
       href: installation.md 
     - name: Quickstarts
       items: 
-        - name: Tensorflow + Machine Learning Gallery
-          href: 
-        - name: CNTK + existing code 
-          href: 
+        - name: Tensorflow + Python
+          href: tensorflow-local.md
     - name: Tutorials 
       items:
-        - name: Prepare your environment
-          href: 
-        - name: Create a new deep learning project
-          href:
-        - name: Training a model locally
-          href:       
-        - name: Train your model on the cloud
-          href:
-        - name: Debugging your model
-          href:
-        - name: Measuring and improving the quality of your model
-          href:
-        - name: Hyperparamter tuning
-          href:
-        - name: Operationalize the model
-          href:
+        - name: TensorFlow + Azure Deep Learning VM                                        
+          href: tensorflow-vm.md
     - name: Concepts 
       items:
         - name: Cloud compute targets
-          href: 
+          href: cloud-targets.md
         - name: Supported Frameworks
-          href:
+          href: supported-frameworks.md
     - name: How To
       items:
         - name: Train your model
           href: 
-        - name: Use Docker
+        - name: Manage projects
           href: 
         - name: Debugging
           href: 
         - name: Working with Azure GPU virtual machines
           href: 
-
     - name: Samples
       href: https://github.com/Microsoft/samples-for-ai
     - name: Reference
       items:
         - name: Configuration Options
-          href: 
-        - name: Machine Learning Templates
           href: 
     
 

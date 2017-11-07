@@ -20,14 +20,14 @@ sections:
 - title: 5-Minute Quickstarts
   items:
   - type: paragraph
-    text: 'Learn how to create learning project with:'
+    text: 'Learn how to run deep learning solution with:'
   - type: list
     style: icon48
     items: 
     - image: 
         src: media/Tensorflow_logo.png
-      text: TensorFlow from Gallery Template
-      href: 
+      text: TensorFlow and Python 
+      href: quickstart-tensorflow.md
 - title: Step-by-Step Tutorials
   items:
   - type: paragraph
@@ -35,14 +35,7 @@ sections:
   - type: list
     style: ordered
     items:
-    - html: <a href="">Prepare your environment</a>
-    - html: <a href="">Create a new deep learning project</a>
-    - html: <a href="">Training a model locally</a>
-    - html: <a href="">Train your model on the cloud</a>
-    - html: <a href="">Debugging your model</a>
-    - html: <a href="">Measuring and improving the quality of your model</a>
-    - html: <a href="">Hyperparamter tuning</a>
-    - html: <a href="">Operationalize the model</a>
+    - html: <a href="">Run a TensorFlow model in the cloud</a>
 - title: Samples
   items:
   - type: list
