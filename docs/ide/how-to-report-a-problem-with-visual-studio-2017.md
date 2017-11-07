@@ -1,7 +1,7 @@
 ---
 title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2017"
+ms.date: "11/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,7 +46,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 ## Provide a trace and heap dump (optional)  
 ###  <a name="provide_a_trace_and_heap_dump"></a>  
 
-Trace and heap dump files are very useful in helping us diagnose problems.  We appreciate it when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
+Trace and heap dump files are useful in helping us diagnose problems. We appreciate it when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
 
 1.  Click the **Record** tab.
 2.  Click **Start Recording**. Give permission to run the tool.
