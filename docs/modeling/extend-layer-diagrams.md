@@ -61,7 +61,6 @@ You can write code to create and update dependency diagrams, and to validate the
  [Troubleshoot extensions for dependency diagrams](../modeling/troubleshoot-extensions-for-layer-diagrams.md)  
   
 ## See Also  
- [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)   
