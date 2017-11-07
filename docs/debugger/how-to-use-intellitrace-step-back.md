@@ -28,7 +28,7 @@ IntelliTrace takes a snapshot of the application's process on each debugger step
 
 A camera icon will appear next to the events for which snapshots are available. 
 
- ![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "DS")
+ ![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "Events tab with snapshots on breakpoints and steps")
 
 > [!NOTE]
 >  For performance reasons, snapshots are not taken when you step very quickly. If no camera icon appears next to the step, try stepping more slowly.
@@ -37,7 +37,7 @@ A camera icon will appear next to the events for which snapshots are available.
 
 You can navigate between events using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events in the **Events** tab in the **Diagnostic Tools window**. 
 Stepping backward or forward to an event will automatically activate historical debugging on the selected event.
-![Stepping Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons.png "Activate Historical Debugging on an event")
+![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
 <!--![Stepping Backward and Forward icons](../debugger/media/intellitrace-step-back-icons-description.png "Activate Historical Debugging on an event") -->
 
 
@@ -78,7 +78,7 @@ The impact on overall stepping performance will depend on your application. The 
 * When using IntelliTrace events and snapshots mode on versions of Windows older than Windows 10 Fall Creators Update (RS3), IntelliTrace will not take snapshots during debug sessions when the debug platform target of the application is set to x86.
 
  * Workaround:
-   * Upgrade Windows to Windows 10 Fall Creators Update (RS3). 
+   * Install or upgrade to Windows 10 Fall Creators Update (RS3). 
    * Alternatively: 
      * Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
      * Build the target application.
