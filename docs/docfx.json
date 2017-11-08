@@ -51,12 +51,12 @@
       "product_feedback_link_text_key2": "suggestionProduct"
     },
     "fileMetadata": {
-      "product_feedback_link_url2": {
+      "product_feedback_link_url3": {
         "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs",
         "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio"
         
       },
-      "product_feedback_link_text_key2": {
+      "product_feedback_link_text_key3": {
         "extensibility/**/*.md": "askAQuestion",
         "install/**/*.md": "askAQuestion"
       }
