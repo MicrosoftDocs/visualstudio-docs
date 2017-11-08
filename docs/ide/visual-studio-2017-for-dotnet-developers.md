@@ -62,7 +62,7 @@ If you have your service running in Azure, use *Snapshot debugging* to diagnose 
 ![Debugging in Visual Studio](../ide/media/VSIDE_Productivity_Debugging.png "VSIDE_Productivity_Debugging")  
 
 ## Version control
-[Documentation: Version control in Visual Studio](../vsts/index.md)
+[Documentation: Version control in Visual Studio](/vsts/)
 
 Use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension to adopt the agile developer workflow.
 
