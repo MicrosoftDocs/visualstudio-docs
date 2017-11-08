@@ -26,16 +26,16 @@ In addition, you can write your own test adapter for whatever framework you woul
 
 **Visual Studio 2017 version 15.5**  
 
-1) **Google Test Adapter** is included as a default component of the **Desktop Development with C++** workload. It has a project template that you can add to a solution via **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test.md).
+1) **Google Test Adapter** is included as a default component of the **Desktop Development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test.md).
 
-2) **Boost.Test** is included as an optional component of the **Desktop Development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test.md). 
+2) **Boost.Test** is included as a default component of the **Desktop Development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test.md). 
 
 3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the **Desktop Development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-in-visual-studio.md).
 
 
 **Visual Studio 2015 and earlier**
   
-You can download the Google Test adapter and Boost.Test Adapter extensions on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest) and [Google Test Adapter](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforGoogleTest). 
+You can download the Google Test adapter and Boost.Test Adapter extensions on the Visual Studio Marketplace at [Test Adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest) and [Test Adapter for Google Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforGoogleTest). 
 
   
 ## Basic test workflow
@@ -47,7 +47,7 @@ You define and run tests inside one or more test projects that are in the same s
 ![C++ Test Projects](media/cpp-new-test-project.png "C++ new test project templates")
 
 ### Create references to other projects in the solution
-To enable your test code to access the functions in the project to be tested, add a reference to the project in your test project. Right- click on the test project node in **Solution Explorer** and choose **Add | Reference**. Then in the dialog choose the project(s) you want to test. 
+To enable your test code to access the functions in the project to be tested, add a reference to the project in your test project. Right-click on the test project node in **Solution Explorer** and choose **Add | Reference**. Then in the dialog choose the project(s) you want to test.
 
 ![Add reference](media/cpp-add-ref-test-project.png "C++ test add a reference to projects to be tested")
 
