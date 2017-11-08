@@ -28,7 +28,7 @@ If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-t
 Take these steps:
 
 1. Make sure you have the same version of source code that was used to build and deploy your app. 
-2. Make sure you are loading the correct symbols for your deployment. The Snapshot Debugger can automatically download and use symbols.
+2. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note tha the Snapshot Debugger will try to automatically download and use symbols for your deployments.
  
 ## Issue: Symbols do not load when I open a Snapshot
 
@@ -89,11 +89,10 @@ Yes, snapshot debugging can work for servers under load. The Snapshot Debugger t
 
 #### How do I uninstall the Snapshot Debugger?
 
-You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it from **Tools / Extension and Updates**. Uninstalling the Snapshot Debugger site extension from your App Service currently must be done manually. You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
-1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net and navigate to the **Debug console**.
-2. Navigate to D:/home/SiteExtensions/Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone and delete the applicationHost.xdt.
-3. Navigate to the **Process explorer** in Kudu and kill all w3wp.exe processes (note that this action restarts your site).
-4. Navigate to the **Debug console** and delete the Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone folder from D:/home/SiteExtensions and D:/home/site/siteextensions.
+You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
+1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure Portal.
+2. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net and navigate to **Site extensions**.
+2. Click the X on the Snapshot Debugger site extension to remove it.
 
 ## Known Issues
 
