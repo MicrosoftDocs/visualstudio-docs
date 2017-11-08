@@ -129,7 +129,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="index-writing-code">
+        <a href="index-writing-code.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../data-tools/index">
+        <a href="../data-tools/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -183,7 +183,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../designers/designing-user-interfaces">
+        <a href="../designers/designing-user-interfaces.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -201,7 +201,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="compiling-and-building-in-visual-studio">
+        <a href="compiling-and-building-in-visual-studio.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -219,7 +219,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../debugger/index">
+        <a href="../debugger/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -237,7 +237,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../test/improve-code-quality">
+        <a href="../test/improve-code-quality.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -255,7 +255,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../profiling/index">
+        <a href="../profiling/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -273,7 +273,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../deployment/deploying-applications-services-and-components">
+        <a href="../deployment/deploying-applications-services-and-components.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -309,7 +309,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../extensibility/index">
+        <a href="../extensibility/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -359,11 +359,11 @@ TODO: how to add workload descriptions?
 <div class="ico48Case halfStack">
 <div class="container intro"><p>Develop apps and games using Visual Studio to reach every device running Windows.</p></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833082"><img width="48" height="48" alt=""
-src=""><span>Universal Windows Platform development</span></a></div>
+src="/media/logos/logo_UWP.svg"><span>Universal Windows Platform development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833083"><img width="48" height="48" alt=""
-src=""><span>.NET Desktop development</span></a></div>
+src="/media/logos/logo_NET.svg"><span>.NET Desktop development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833084"><img width="48" height="48" alt=""
-src=""><span>Windows development with C++</span></a></div>
+src="/media/logos/logo_Cplusplus.svg"><span>Windows development with C++</span></a></div>
 </div>
 <h3>Web & Cloud</h3>
 <div class="ico48Case halfStack">
@@ -373,9 +373,9 @@ src=""><span>Web development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833086"><img width="48" height="48" alt=""
 src=""><span>Azure development and management</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
-src=""><span>Python</span></a></div>
+src="/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834351"><img width="48" height="48" alt=""
-src=""><span>Node.js</span></a></div>
+src="/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833095"><img width="48" height="48" alt=""
 src=""><span>Data storage and processing</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834748"><img width="48" height="48" alt=""
