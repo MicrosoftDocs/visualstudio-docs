@@ -14,7 +14,7 @@ searchScope: []
                 <ul id="products">
                     <li>
                         <a href="#products1"></a>
-                        <ul id="products1" class="cardsC cols cols4">
+                        <ul id="products1" class="cardsC cols cols3">
                             <li>
                                 <a href="/visualstudio/" title="Visual Studio">
                                     <div class="cardSize">
@@ -85,6 +85,25 @@ searchScope: []
                                                 <div class="cardText">
                                                     <h3>Visual Studio for Mac</h3>
                                                     <p>Build apps and games, using the Mac, for the cloud, iOS, Android, macOS, and wearables.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+							<li>
+                                <a href="https://docs.microsoft.com/mobile-center/" title="Visual Studio Mobile Center">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="Visual Studio for Mac" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio Mobile Center</h3>
+                                                    <p>Continuous integration, delivery, and learning for Android, iOS, macOS, and Windows apps. Ship 5-star, higher-quality apps faster and with confidence.</p>
                                                 </div>
                                             </div>
                                         </div>
