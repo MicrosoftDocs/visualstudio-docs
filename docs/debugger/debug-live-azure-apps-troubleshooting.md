@@ -63,25 +63,32 @@ Take these steps:
 
 ## Frequently Asked Questions
 
-#### What is the performance cost of taking a snapshot? 
+#### What is the performance cost of taking a snapshot?
+
 When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app; instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a very small in-memory cost (on the order of hundreds of kilobytes for most apps). 
 
 #### What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
+
 When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the conditions specified creates a snapshot. If you have multiple snappoints, subsequent snapshots come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs send messages from every instance. 
 
 #### How does the Snapshot Debugger load symbols?
+
 The Snapshot Debugger requires that you have the matching symbols for your application either locally or deployed to your Azure App Service (embedded PDBs are currently not supported). The Snapshot Debugger automatically downloads symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service also deploys your app's symbols.
 
 #### Does the Snapshot Debugger work against release builds of my application?
+
 Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, the function is recompiled back to a debug version, making it debuggable. When you stop the Snapshot Debugger, the functions are returned to their release build. 
 
 #### Can logpoints cause side effects in my production application?
+
 No - any log messages you add to your app are evaluated virtually. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
 
 #### Does the Snapshot Debugger work if my server is under load?
+
 Yes, snapshot debugging can work for servers under load. The Snapshot Debugger throttles and does not capture snapshots in situations where there is a low amount of free memory on your server.
 
 #### How do I uninstall the Snapshot Debugger?
+
 You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it from **Tools / Extension and Updates**. Uninstalling the Snapshot Debugger site extension from your App Service currently must be done manually. You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
 1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net and navigate to the **Debug console**.
 2. Navigate to D:/home/SiteExtensions/Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone and delete the applicationHost.xdt.
