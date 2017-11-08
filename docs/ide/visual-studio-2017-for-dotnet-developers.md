@@ -1,0 +1,82 @@
+# Visual Studio 2017 for .NET Developers
+
+## Smart Code Editor
+[https://docs.microsoft.com/en-us/visualstudio/ide/using-intellisense]()
+[https://docs.microsoft.com/en-us/visualstudio/ide/visual-csharp-intellisense]()
+
+Visual Studio has a deep understanding of your code via the Roslyn compiler to provide you with smart editing features like syntax colorization, code completion, spell-checking mistyped variables, unimported type resolution, outlining, structure visualizers, [CodeLens](https://docs.microsoft.com/en-us/visualstudio/ide/find-code-changes-and-other-history-with-codelens), call hierarchy, hover-able quick info, parameter help, as well as tools for refactoring, applying quick actions, and generating code.
+ 
+![Visual Studio's smart code editor](../ide/media/VSIDE_Productivity_SmartCodeEditor.png "VSIDE_Productivity_SmartCodeEditor")  
+
+## Navigate and Search Your Codebase
+[https://docs.microsoft.com/en-us/visualstudio/ide/navigating-code]()
+
+Quickly navigate your .NET code by jumping to any file, type, member, or symbol declaration with the *Go To All* shortcut (**Ctrl+T**). Find all the references of a symbol or literal in your code, including references across .NET languages (**Shift+F12**). And use our targeted navigation commands to help you jump directly to symbol definitions (**F12**) or implementations (**Ctrl+F12**).
+
+![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png "VSIDE_Productivity_Navigation")  
+
+## Live Code Analysis for Code Quality
+[https://docs.microsoft.com/en-us/visualstudio/ide/refactoring-code-generation-quick-actions]()
+
+Visual Studio has live code diagnostics to help you improve your code quality by detecting errors and potentially problematic code. We provide quick-actions (**Ctrl+.**) to resolve detected problems across your document, project, or solution. Enable *full-solution analysis* to find issues across your entire solution even if you don’t have those files open in the editor. 
+
+Additionally, use code suggestions to learn best practices, stub or generate code, refactor code, and adopt new language features with the **Ctrl+.** shortcut.
+
+![Apply quick fixes and refactorings using the lightbulb menu](../ide/media/VSIDE_Productivity_CodeAnalysis.png "VSIDE_Productivity_CodeAnalysis")  
+
+## Unit Testing
+[https://docs.microsoft.com/en-us/visualstudio/test/improve-code-quality]()
+
+Run and debug your unit tests based on the MSTest, NUnit, or XUnit testing frameworks for any application targeting .NET Framework, .NET Standard, or .NET Core. Explore and review your tests in the *Test Explorer* or immediately see how code changes impact your unit tests inside the editor with *Live Unit Testing* (Enterprise SKU only). 
+
+![Live Unit Testing in Visual Studio](../ide/media/VSIDE_Productivity_LiveUnitTesting.png "VSIDE_Productivity_LiveUnitTesting")  
+
+## Code Consistency and Style
+[https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options]()
+[https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference]()
+
+Visual Studio enables coding convention configuration, detects coding style violations, and provides quick-fixes to remedy style issues with the **Ctrl+.** shortcut. Configure and enforce your team’s formatting, naming, and code style conventions across a repository—allowing overriding values at the project and file level—using *EditorConfig*. 
+
+![Configure and enforce coding conventions with EditorConfig](../ide/media/VSIDE_Productivity_CodeStyle.png "VSIDE_Productivity_CodeStyle")  
+
+## Debugging
+[https://docs.microsoft.com/en-us/visualstudio/debugger/index]()
+
+Visual Studio includes a top-notch debugger that allows you to debug your .NET applications targeting the .NET Framework, .NET Standard, and .NET Core. Toggle and set conditional breakpoints (**F9**), step into method calls, evaluate LINQ and lambda expressions, set variable watches, reattach to processes, investigate your call stack, or even make live code edits while debugging with *Edit and Continue*. 
+
+If you have your service running in Azure, use *Snapshot debugging* to diagnose issues on your live, deployed cloud applications in Visual Studio 2017 Enterprise.
+
+![Debugging in Visual Studio](../ide/media/VSIDE_Productivity_Debugging.png "VSIDE_Productivity_Debugging")  
+
+## Version Control
+[https://docs.microsoft.com/en-us/vsts/index#pivot=services&panel=code]()
+
+Use git or TFVC to save and update your code in Visual Studio. Inside the editor, organize local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension to adopt the agile developer workflow.
+
+## Extensibility
+[https://docs.microsoft.com/en-us/visualstudio/extensibility/index]()
+
+Visual Studio has a rich ecosystem of extensions that you can install or create as you need them. Install extensions from the *Extension Gallery* or the *Visual Studio Marketplace*, build your own editor plugin with the *VS SDK*, or create your own live code analyzer or refactoring using the *.NET Compiler Platform SDK*. You can find additional code fixes and suggestions by downloading the [Microsoft Code Analysis](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) extension. 
+
+![The Visual Studio Extension Gallery](../ide/media/VSIDE_Productivity_Extensibility.png "VSIDE_Productivity_Extensibility")  
+
+## Top Editor Commands & Shortcuts
+If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
+- [Emacs](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.Emacsemulation)
+- [IntelliJ](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
+
+| Shortcut (All Profiles) | Command | Description |
+|-|-|-| 
+| **Ctrl+T** | Go To All | Navigate to any file/type/member/symbol declaration |
+| **F12** (also **Ctrl+Click**) | Go To Definition | Navigate to where a symbol is defined |
+| **Ctrl+F12** | Go To Implementation | Navigate from a base type or member to its various implementations |
+| **Shift+F12** | Find All References | See all symbol or literal references |
+| **Ctrl+.** (also **Alt+Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
+| **Ctrl+Q** | Quick Launch | Search all Visual Studio settings |
+| **F5** | Start Debugging | Start debugging your application |
+| **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
+| **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
+| **Ctrl+\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+
+
