@@ -22,21 +22,7 @@ ms.assetid: fbc31a88-62d4-43d2-b739-68ef3fac38f5
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CreateProperty Task
 Populates properties with the values passed in. This allows values to be copied from one property or string to another.  

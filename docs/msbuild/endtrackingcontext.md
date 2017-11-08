@@ -19,21 +19,7 @@ ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
 caps.latest.revision: 3
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # EndTrackingContext
 End the current tracking context.  

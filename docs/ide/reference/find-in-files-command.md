@@ -17,21 +17,7 @@ ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Find in Files Command
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  

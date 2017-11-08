@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugEngineLaunch2::TerminateProcess"
 ms.assetid: f7039e7f-5f57-4222-9ad2-11a66b2da6e0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngineLaunch2::TerminateProcess
 Terminates a process.  

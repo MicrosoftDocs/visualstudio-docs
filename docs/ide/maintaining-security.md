@@ -19,21 +19,7 @@ ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
 caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Maintaining Security
 It is often said that the price of security is constant vigilance. Despite your best dedication to security during the design and development of your application, you should assume that security flaws will arise after deployment. By auditing your application and analyzing event logs, you may discover some previously hidden flaws.  

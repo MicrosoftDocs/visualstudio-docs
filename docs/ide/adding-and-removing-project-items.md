@@ -15,8 +15,7 @@ ms.assetid: 4b6db52f-4352-4313-8f4f-50a451fd12f7
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # Adding and Removing Project Items
 You can add or remove projects and project items by right-clicking on the project or solution node in **Solution Explorer**, and choosing **Add** or **Remove**. Removing a project from a solution, or an item from a project, does not delete it from disk or source control unless you select the option to delete it permanently.  

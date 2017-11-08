@@ -16,22 +16,7 @@ ms.assetid: 9ab441b9-cc72-47fa-83e2-87b3c2b891b4
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Typedef (Debug Interface Access SDK)
 Symbols with `SymTagTypedef` tags introduce names for other types.  

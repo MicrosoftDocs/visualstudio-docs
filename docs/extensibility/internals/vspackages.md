@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "VSPackages"
 ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
 caps.latest.revision: 45
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # VSPackages
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugStackFrame2::EnumProperties"
 ms.assetid: 334bb95e-c7e0-4008-9f06-8c3999e47ee8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugStackFrame2::EnumProperties
 Creates an enumerator for properties associated with the stack frame, such as local variables.  

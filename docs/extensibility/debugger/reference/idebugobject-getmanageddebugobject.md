@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugObject::GetManagedDebugObject method"
 ms.assetid: cb89692e-7657-47ff-846d-311943521951
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugObject::GetManagedDebugObject
 Creates a copy of the managed object in the address space of the debug engine.  

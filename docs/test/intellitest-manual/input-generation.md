@@ -14,20 +14,6 @@ ms.assetid: B938E2D2-7B7C-4D76-B26C-2616F5B4A9F5
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Input generatation using dynamic symbolic execution
 

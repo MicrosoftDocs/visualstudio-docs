@@ -10,21 +10,7 @@ ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
@@ -44,8 +30,7 @@ Cannot create an association \<association name>. The same property is listed mo
   
 -   Click **OK**.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](linq-to-sql-tools-in-visual-studio2.md)   
- [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)   
- [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)  
+[How to: Create an association between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)

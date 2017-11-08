@@ -15,20 +15,6 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Flowchart Activity Designer
 The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. This topic documents the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] experience. The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] workflow activity designer enables developers to author workflows in a natural manner.  

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugCanStopEvent2::CanStop"
 ms.assetid: 7d61adbe-6b3d-41f3-86a1-45d9cc01a7f8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCanStopEvent2::CanStop
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.  

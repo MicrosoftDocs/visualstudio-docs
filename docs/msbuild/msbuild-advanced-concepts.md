@@ -14,21 +14,7 @@ ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
 caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Advanced Concepts
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.  

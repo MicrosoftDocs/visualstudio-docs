@@ -12,21 +12,7 @@ ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 caps.latest.revision: 4
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Visual Studio Tools for Unity
 In this section, you'll learn about Visual Studio Tools for Unity, a free Visual Studio extension that makes Visual Studio a powerful tool for building games with Unity.  

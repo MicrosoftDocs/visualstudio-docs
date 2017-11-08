@@ -21,21 +21,7 @@ ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
 Stepping into a Web application or XML Web service failed because the IIS lockdown tool has been run and URLScan has been installed and activated. This condition blocks IIS from receiving the DEBUG verb.  

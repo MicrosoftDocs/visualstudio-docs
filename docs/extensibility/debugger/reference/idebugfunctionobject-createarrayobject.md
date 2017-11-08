@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreateArrayObject method"
 ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugFunctionObject::CreateArrayObject
 Creates an array object. This array can contain either primitive or object instance values.  

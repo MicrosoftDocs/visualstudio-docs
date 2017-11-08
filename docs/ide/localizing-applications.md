@@ -18,21 +18,7 @@ ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Localizing Applications
 *Localization* is the process of customizing your application for a given culture or locale. Localization consists primarily of translating the user interface.  

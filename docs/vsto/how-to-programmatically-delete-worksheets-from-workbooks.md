@@ -18,7 +18,7 @@ ms.assetid: c5ae99f0-806d-4320-a29c-75ad444fb996
 caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Delete Worksheets from Workbooks
   You can delete any worksheet in a workbook. To delete a worksheet, use the worksheet host item or access the worksheet by using the sheets collection of the workbook.  

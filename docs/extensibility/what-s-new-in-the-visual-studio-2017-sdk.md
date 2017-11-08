@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/09/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,21 +12,7 @@ ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 

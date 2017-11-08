@@ -18,22 +18,7 @@ ms.assetid: 9d1abfc3-d320-41e0-9f6e-60cefe6ffe1b
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CA2101: Specify marshaling for P/Invoke string arguments
 |||  

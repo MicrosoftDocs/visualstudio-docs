@@ -19,7 +19,7 @@ ms.assetid: 58eaa9e0-acba-4a13-a6dd-b7e37a38156e
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Accessing a Form Region at Run Time
   

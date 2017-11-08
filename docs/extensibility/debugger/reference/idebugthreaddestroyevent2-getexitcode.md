@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugThreadDestroyEvent2::GetExitCode"
 ms.assetid: 8bf47a17-f811-4d9b-bcea-7488908830ff
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
 Gets the exit code for a thread.  

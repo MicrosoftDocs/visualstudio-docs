@@ -13,22 +13,7 @@ ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Visual Studio Performance Tips and Tricks
 
@@ -55,7 +40,7 @@ If you have a very large solution with many projects, you may benefit by making 
 
     To enable **Lightweight Solution Load**, choose **Tools > Options > Projects and Solutions > Lightweight Solution Load**.
 
-    Some IDE features are not enabled in this mode. To determine whether this choice may help, see [Shorter solution load time](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/) and [Optimize solution loading](optimize-solution-loading-in-visual-studio.md).
+    Some IDE features are not enabled in this mode. To determine whether this choice may help, see [Shorter solution load time](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/) and [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md).
 
 - **Unload Projects**
 

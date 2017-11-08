@@ -21,21 +21,7 @@ ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
 caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Troubleshooting .NET Framework Targeting Errors
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  

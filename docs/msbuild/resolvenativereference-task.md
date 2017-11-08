@@ -22,21 +22,7 @@ ms.assetid: 56acd101-de77-4eec-92c6-f5c6d2187579
 caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # ResolveNativeReference Task
 Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure which is not intended to be used directly from your code.  

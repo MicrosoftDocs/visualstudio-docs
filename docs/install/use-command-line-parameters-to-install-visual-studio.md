@@ -15,7 +15,7 @@ f1_keywords:
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Use command-line parameters to install Visual Studio 2017
 When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
@@ -81,7 +81,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | **Advanced install options** | **Description** |
 | ----------------------- | --------------- |
 | `--channelId <id>` | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, ignored for other commands if `--installPath` is specified. |
-| `--channelUri <uri>` | **Optional**: The URI of the channel manifest. This can be used for the install command; it is ignored for other commands. |
+| `--channelUri <uri>` | **Optional**: The URI of the channel manifest. If updates are not desired, `--channelUri` can point to a non-existent file. (for example, --channelUri C:\doesntExist.chman) This can be used for the install command; it is ignored for other commands. |
 | `--installChannelUri <uri>` | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it is ignored for other commands. |
 | `--installCatalogUri <uri>` | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it is ignored for other commands. |
 | `--productId <id>` | **Optional** The ID of the product for the instance that will be installed. This is prepopulated in normal installation conditions. |

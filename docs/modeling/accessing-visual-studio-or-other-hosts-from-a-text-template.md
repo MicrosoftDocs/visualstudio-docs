@@ -11,20 +11,6 @@ caps.latest.revision: 5
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Accessing Visual Studio or other Hosts from a Text Template
 In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  

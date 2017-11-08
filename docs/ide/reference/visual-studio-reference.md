@@ -12,22 +12,7 @@ ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Visual Studio Reference
 This section includes user interface reference, language equivalents, and other reference documents.  
@@ -48,14 +33,11 @@ This section includes user interface reference, language equivalents, and other 
  [MSBuild](../../msbuild/msbuild.md)
  Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
- [Resources for Troubleshooting IDE Errors](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
- Contains links to resources to help you resolve IDE error messages  
-  
- [Talk to Us](../../ide/talk-to-us.md)  
- Contains information about how to locate customer support for Visual Studio.  
-  
  [Accessibility for People with Disabilities](../../ide/reference/accessibility-for-people-with-disabilities.md)  
  Contains tips about how to change accessibility options.  
+  
+ [Resources for Troubleshooting IDE Errors](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
+ Contains links to resources to help you resolve IDE error messages.  
   
 ## Related Sections  
  [Visual Basic Reference](/dotnet/visual-basic/reference/index)  

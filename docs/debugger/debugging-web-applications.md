@@ -22,21 +22,7 @@ ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Debugging Web Applications
 This section explains how to debug several types of Web applications.  
@@ -53,5 +39,5 @@ This section explains how to debug several types of Web applications.
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

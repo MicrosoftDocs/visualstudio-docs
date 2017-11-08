@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugThread2::SetNextStatement"
 ms.assetid: 9e2834dd-4ecf-45af-8e6c-f9318ebdac06
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugThread2::SetNextStatement
 Sets the current instruction pointer to the given code context.  

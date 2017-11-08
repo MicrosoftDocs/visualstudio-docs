@@ -22,21 +22,7 @@ ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # GetFrameworkPath Task
 Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  

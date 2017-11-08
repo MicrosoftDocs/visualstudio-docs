@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 08/30/2017
+ms.date: 10/09/2017
 ms.topic: article
 helpviewer_keywords: 
   - "workload ID, Visual Studio"
@@ -15,21 +15,6 @@ ms.service:
 ms.technology: 
   - "vs-ide-install"
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 
 # Visual Studio Test Professional 2017 component directory
@@ -64,7 +49,6 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
-
 
 ## See also
 

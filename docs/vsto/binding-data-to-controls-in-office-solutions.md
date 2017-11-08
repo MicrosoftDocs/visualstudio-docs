@@ -23,7 +23,7 @@ ms.assetid: b6faaed7-df9b-4d78-9863-e515cd5c7ed9
 caps.latest.revision: 70
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Binding Data to Controls in Office Solutions
   You can bind Windows Forms controls and *host controls* on a Microsoft Office Word document or Microsoft Office Excel worksheet to a data source so the controls automatically display the data. You can bind data to controls in both application-level and document-level projects.  

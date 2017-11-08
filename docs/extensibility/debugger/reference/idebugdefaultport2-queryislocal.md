@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugDefaultPort2::QueryIsLocal"
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugDefaultPort2::QueryIsLocal
 This method determines whether this port is on the local machine.  

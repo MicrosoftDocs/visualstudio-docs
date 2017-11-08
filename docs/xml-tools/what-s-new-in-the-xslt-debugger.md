@@ -12,21 +12,7 @@ ms.assetid: 07ddc47e-5941-41f8-bd44-d993c2d054ed
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # What&#39;s New in the XSLT Debugger
 The following features are new in Visual Studio 2010.  

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProgramNodeAttach2::OnAttach"
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgramNodeAttach2::OnAttach
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.  

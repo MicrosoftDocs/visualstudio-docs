@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "03/01/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,21 +12,7 @@ ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
 caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # What's New in MSBuild 15
 MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.com/net/download/core) and can build .NET Core projects on Windows, macOS, and Linux.  

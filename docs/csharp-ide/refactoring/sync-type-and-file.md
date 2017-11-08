@@ -11,23 +11,9 @@ ms.topic: "article"
 ms.assetid: 48172dd7-24a5-4884-8a73-f92497ad6a0d
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 dev_langs: 
   - "CSharp"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Sync a type to a filename, or a filename to a type in C# #

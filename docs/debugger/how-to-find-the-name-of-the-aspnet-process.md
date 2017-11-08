@@ -20,21 +20,7 @@ ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Find the Name of the ASP.NET Process
 To attach to a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, you have to know the name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process:  
@@ -63,7 +49,7 @@ Older ASP applications run inside the IIS process inetinfo.exe when they are run
     > Starting in Visual Studio 2017, you can use the search box to search for the process name.
   
 ## See Also  
- [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+ [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
  [System Requirements](../debugger/aspnet-debugging-system-requirements.md)   
  [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

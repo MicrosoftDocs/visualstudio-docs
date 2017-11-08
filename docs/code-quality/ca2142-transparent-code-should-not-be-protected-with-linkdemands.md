@@ -14,21 +14,7 @@ ms.assetid: 6dc59053-5dd9-4583-bf10-5f339107e59f
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CA2142: Transparent code should not be protected with LinkDemands
 |||  

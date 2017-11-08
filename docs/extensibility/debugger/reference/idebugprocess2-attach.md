@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::Attach"
 ms.assetid: 40d78417-fde2-45c3-96c9-16e06bd9008d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess2::Attach
 Attaches the session debug manager (SDM) to the process.  

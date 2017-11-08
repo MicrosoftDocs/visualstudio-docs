@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProgram2::CanDetach"
 ms.assetid: dcd9ab6c-49e5-447e-aa7c-89f571f4a052
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgram2::CanDetach
 Determines if a debug engine (DE) can detach from the program.  

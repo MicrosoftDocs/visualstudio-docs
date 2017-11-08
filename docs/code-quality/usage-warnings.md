@@ -18,22 +18,7 @@ ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Usage Warnings
 Usage warnings support proper usage of the .NET Framework.  

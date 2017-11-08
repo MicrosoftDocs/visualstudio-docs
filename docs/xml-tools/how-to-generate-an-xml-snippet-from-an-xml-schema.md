@@ -12,21 +12,7 @@ ms.assetid: 2c128d2a-aaa6-4814-aa95-e07056afe338
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Generate an XML Snippet From an XML Schema
 The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.  
@@ -45,9 +31,9 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
   
 -   The cursor must be located immediately to the right of the element name.  
   
- The generated snippet contains all required attributes and elements. If `minOccurs` is greater than one, the required minimum number of instances of that element is included in the snippet, up to a maximum of 100 instances. Any fixed values found in the schema result in fixed values in the snippet. `xsd:any` and `xsd:anyAttribute` elements are ignored and result in no additional snippet constructs.  
+The generated snippet contains all required attributes and elements. If `minOccurs` is greater than one, the required minimum number of instances of that element is included in the snippet, up to a maximum of 100 instances. Any fixed values found in the schema result in fixed values in the snippet. `xsd:any` and `xsd:anyAttribute` elements are ignored and result in no additional snippet constructs.  
   
- Default values are generated and noted as editable values. If the schema specifies a default value, this default value is used. However, if the schema default value is an empty string, the editor generates the default values in the following manner:  
+Default values are generated and noted as editable values. If the schema specifies a default value, this default value is used. However, if the schema default value is an empty string, the editor generates the default values in the following manner:  
   
 -   If the schema type contains any enumeration facets, either directly or indirectly by means of any of members of a union type, the first enumerated value found in the Schema Object Model is used as the default.  
   
@@ -104,7 +90,7 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
 ### Input  
  The following schema file is used by the walkthrough.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8" ?>  
 <xs:schema elementFormDefault="qualified"  
            xmlns:xs="http://www.w3.org/2001/XMLSchema">  
@@ -152,7 +138,7 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
 ### Output  
  Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.  
   
-```  
+```xml
 <Contact>  
   <Name>name</Name>  
   <Title>title</Title>  

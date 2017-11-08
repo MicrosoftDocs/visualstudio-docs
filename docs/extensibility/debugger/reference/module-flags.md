@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "MODULE_FLAGS enumeration"
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MODULE_FLAGS
 Used to describe a module.  

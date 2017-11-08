@@ -1,5 +1,5 @@
 ---
-title: "Uninstalling Visual Studio for Mac"
+title: "Uninstalling Visual Studio for Mac | Microsoft Docs"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
 author: asb3993
 ms.author: amburns
@@ -38,8 +38,8 @@ To run the script, do the following:
 3. Make the script executable and the run it with **sudo**:
 
     ```bash
-    $ chmod +x ./xamarin_uninstall.sh
-    $ sudo ./xamarin_uninstall.sh
+    $ chmod +x ./uninstall-vsmac.sh
+    $ sudo ./uninstall-vsmac.sh
     ```
 4. Finally, delete the uninstall script.
 

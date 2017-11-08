@@ -14,20 +14,6 @@ caps.latest.revision: 3
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Switch&lt;T&gt; Activity Designer
 The <xref:System.Activities.Statements.Switch%601> activity evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  

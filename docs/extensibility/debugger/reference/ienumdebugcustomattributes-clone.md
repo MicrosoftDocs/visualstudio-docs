@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::Clone"
 ms.assetid: e6825000-e195-42b4-b296-bfe1e533d79b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugCustomAttributes::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

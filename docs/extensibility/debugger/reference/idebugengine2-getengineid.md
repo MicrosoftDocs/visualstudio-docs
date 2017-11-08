@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugEngine2::GetEngineID"
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngine2::GetEngineID
 Gets the GUID of the debug engine (DE).  

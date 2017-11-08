@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3::GetStringCharLength"
 ms.assetid: 89a8676b-6da9-4358-91c2-039bf33f99e4
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty3::GetStringCharLength
 Returns the number of characters in the associated property's string.  

@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "interfaces, source control packages"
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.  

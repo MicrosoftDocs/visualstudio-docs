@@ -12,26 +12,12 @@ ms.devlang: VB
 ms.assetid: 64b37bca-92b8-4154-9d65-54073e5740fc
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
 dev_langs: 
   - VB
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Change a method signature in Visual Basic

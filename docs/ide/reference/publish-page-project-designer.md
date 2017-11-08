@@ -21,22 +21,7 @@ ms.assetid: 153527c6-8b95-4003-8e8e-03a489d0a629
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Publish Page, Project Designer
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  

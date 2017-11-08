@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcessEx2::Attach method"
 ms.assetid: f3334ed7-39bf-4d02-a338-36f567b9b287
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcessEx2::Attach
 This method informs the process that a session is now debugging the process.  

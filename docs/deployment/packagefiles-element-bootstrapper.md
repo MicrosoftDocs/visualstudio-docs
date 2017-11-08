@@ -20,20 +20,6 @@ caps.latest.revision: 16
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # &lt;PackageFiles&gt; Element (Bootstrapper)
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.  

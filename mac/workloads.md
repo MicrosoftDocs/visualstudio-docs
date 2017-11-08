@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio for Mac Workloads"
+title: "Visual Studio for Mac Workloads | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 08/03/2017
@@ -25,7 +25,7 @@ For information on using Xamarin in Visual Studio for Mac, refer to the [Xamarin
 
 ## .NET Core applications
 
-For more information on using .NET Core, refer to the [documentation](https://docs.microsoft.com/en-us/dotnet/core/).
+For more information on using .NET Core, refer to the [documentation](https://docs.microsoft.com/dotnet/core/).
 
 ## ASP.NET Core Web Applications
 

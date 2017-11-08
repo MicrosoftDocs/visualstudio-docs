@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Whitelisting URLs in a private network    
 If you are using Visual Studio in a private network that uses a security appliance such as a firewall, Visual Studio might not be able to connect to some network resources. These resources include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:  

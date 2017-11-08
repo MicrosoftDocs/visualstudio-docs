@@ -1,5 +1,5 @@
 ---
-title: Great Migrations Studio  (gmStudio) | Microsoft Docs"
+title: "Great Migrations Studio (gmStudio) | Microsoft Docs"
 description: Great Migrations tool for scalable, custom VB6/ASP/COMM to .NET upgrade solutions
 ms.date: "09/05/2017"
 ms.technology: 

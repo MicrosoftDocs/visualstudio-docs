@@ -19,21 +19,7 @@ ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 caps.latest.revision: 32
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Task Reference
 Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).  

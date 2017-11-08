@@ -1,7 +1,7 @@
 ---
 title: "Welcome to R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: ebaacfba-12a1-45da-9817-c0937ca38acc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Welcome to R Tools for Visual Studio

@@ -3,7 +3,7 @@ layout: LandingPage
 author: "gewarren"
 ms.author: "gewarren"
 ms.topic: landing-page
-title: Visual Studio IDE Documentation
+title: Visual Studio IDE Documentation | Microsoft Docs
 description: Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
 ms.technology: 
   - "vs-ide-general"

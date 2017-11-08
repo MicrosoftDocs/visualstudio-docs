@@ -17,21 +17,7 @@ ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Debugging Applications
 The following sections deal with debugging for specific types of applications. Different application types and different languages require different settings and techniques, and present different issues that need to be debugged.  

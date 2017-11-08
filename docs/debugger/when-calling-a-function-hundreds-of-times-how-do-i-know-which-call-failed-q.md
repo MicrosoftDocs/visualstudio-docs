@@ -31,21 +31,7 @@ ms.assetid: 66cfac86-f5be-4d3a-9329-d44cd74bc586
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # When Calling a Function Hundreds of Times, How Do I know Which Call Failed?
 ## Problem Description  

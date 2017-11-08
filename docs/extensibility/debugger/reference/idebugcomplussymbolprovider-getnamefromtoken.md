@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "GetNameFromToken"
 ms.assetid: 6e8cf468-5fd1-4655-93ed-88828d6068b7
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetNameFromToken
 Returns the name associated with the specified token given its metadata object.  

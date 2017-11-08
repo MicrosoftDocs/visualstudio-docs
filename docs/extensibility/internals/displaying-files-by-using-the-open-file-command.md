@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "persistence, supporting Open File command"
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Displaying Files By Using the Open File Command
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The steps also describe how projects should respond to calls that originate from this command.  

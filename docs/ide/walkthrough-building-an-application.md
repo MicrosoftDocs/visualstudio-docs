@@ -12,7 +12,7 @@ ms.assetid: 4842955d-8959-4e4e-98b8-2358360179b3
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Building an Application
 By completing this walkthrough, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.  

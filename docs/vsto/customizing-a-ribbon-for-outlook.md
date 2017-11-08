@@ -21,7 +21,7 @@ ms.assetid: 11d10e72-806d-4d5e-b080-139bd8633eaa
 caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Customizing a Ribbon for Outlook
   When you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application. Outlook displays the ribbon in the main application user interface (UI) and in windows that open when users perform certain tasks, such as creating e-mail messages. These application windows are named inspectors.  

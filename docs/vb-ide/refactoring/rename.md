@@ -11,25 +11,11 @@ ms.topic: "article"
 ms.assetid: abf1565b-c7b7-4d45-b3d3-a438a836c70e
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.rename"
 dev_langs: 
   - "VB"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 
 # Rename a code symbol in Visual Basic
