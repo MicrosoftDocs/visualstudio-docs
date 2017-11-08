@@ -41,7 +41,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-teamservices.svg" alt="Visual Studio Team Services" />
+                                                        <img data-scaleimage="./images/vs-teamservices.svg" src="./images/vs-teamservices.svg" alt="Visual Studio Team Services" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -98,7 +98,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="Visual Studio for Mac" />
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio for Mac" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
