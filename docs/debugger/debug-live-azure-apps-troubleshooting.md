@@ -28,7 +28,7 @@ If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-t
 Take these steps:
 
 1. Make sure you have the same version of source code that was used to build and deploy your app. 
-2. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note tha the Snapshot Debugger will try to automatically download and use symbols for your deployments.
+2. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note that the Snapshot Debugger will try to automatically download and use symbols for your deployment.
  
 ## Issue: Symbols do not load when I open a Snapshot
 
@@ -103,3 +103,5 @@ You can uninstall the Snapshot Debugger site extension on your App Service with 
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  
+ [Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md)  
+ [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)

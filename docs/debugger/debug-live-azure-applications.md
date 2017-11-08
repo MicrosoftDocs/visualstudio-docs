@@ -134,4 +134,5 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## See Also  
  [Debug Azure apps](../debugger/debug-azure-apps.md)  
- [Troubleshooting, FAQ, and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)
+ [Troubleshooting and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)  
+ [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
