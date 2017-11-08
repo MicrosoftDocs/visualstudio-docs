@@ -129,7 +129,6 @@
 ## [Office and SharePoint (Office Dev Center)](https://dev.office.com/code-samples)
 ## [Extensibility (GitHub)](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 # How-to guides
-
 ## [Develop](ide/index-writing-code.md)
 ### [Move Around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
 ### [Work with Solutions and Projects](ide/solutions-and-projects-in-visual-studio.md)
@@ -296,7 +295,7 @@
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
 ## Visual Studio Template Reference
-### [Template Schema Reference](extensibility/visual-studio-template-schema-reference,md)
+### [Template Schema Reference](extensibility/visual-studio-template-schema-reference.md)
 ### [Template Parameters](ide/template-parameters.md)
 ### [Creating Project and Item Templates](ide/creating-project-and-item-templates.md)
 #### [Create Project Templates](ide/how-to-create-project-templates.md)

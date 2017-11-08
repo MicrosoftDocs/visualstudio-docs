@@ -1,18 +1,17 @@
 ---
+title: Visual Studio Documentation | Microsoft Docs
+description: Learn how Visual Studio helps you develop apps using a variety of programming languages.
 layout: LandingPage
 author: "gewarren"
 ms.author: "gewarren"
 ms.topic: landing-page
-title: Visual Studio IDE Documentation | Microsoft Docs
-description: Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
 ms.technology: 
   - "vs-ide-general"
 ---
-# Visual Studio IDE Documentation
+# Visual Studio Documentation
 
-Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
+Learn how Visual Studio helps you develop apps using a variety of programming languages.
 Tutorials, videos, and other documentation show you ways to create code and apps by using Visual Studio.
-
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -26,25 +25,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Take a tour of Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>    
-    <li>
-        <a href="https://youtu.be/JHc3_gsCmZg?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn more about the IDE</h3>
+                        <h3>Get an overview of Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +33,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/dotnet/welcome">
+        <a href="/visualstudio/ide/quickstart-aspnet-core">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -88,35 +69,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/debugger/index">
+        <a href="/python/getting-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="" />
+                            <img src="/media/logos/logo_python.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about debugging code in Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/visualstudio/profiling/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Improve your code performance</h3>
+                        <h3>Get started using Python</h3>
                     </div>
                 </div>
             </div>
@@ -134,7 +97,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio courses</h3>
+                        <h3>Visual Studio courses on Microsoft Virtual Academy</h3>
                     </div>
                 </div>
             </div>
@@ -152,7 +115,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio videos</h3>
+                        <h3>Visual Studio videos on Channel 9</h3>
                     </div>
                 </div>
             </div>
@@ -182,7 +145,61 @@ Tutorials, videos, and other documentation show you ways to create code and apps
             </div>
         </div>
         </a>
-    </li>    
+    </li>
+    <li>
+        <a href="/vsts/#pivot=services&panel=code">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_git-mark.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Version control: share code with Git and TFVC</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../data-tools/index">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Data: connect to any database or service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../designers/designing-user-interfaces">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Design user interfaces</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
     <li>
         <a href="compiling-and-building-in-visual-studio">
         <div class="cardSize">
@@ -238,6 +255,24 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
+        <a href="../profiling/index">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_code-performance.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Improve performance: optimize code with diagnostic tools</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="../deployment/deploying-applications-services-and-components">
         <div class="cardSize">
             <div class="cardPadding">
@@ -249,24 +284,6 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                     </div>
                     <div class="cardText">
                         <h3>Deploy: share and publish your apps</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/vsts/#pivot=services&panel=code">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Version control: share code with Git and TFVC</h3>
                     </div>
                 </div>
             </div>
@@ -292,24 +309,6 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="../profiling/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Improve performance: optimize code with diagnostic tools</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="../extensibility/index">
         <div class="cardSize">
             <div class="cardPadding">
@@ -327,179 +326,83 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </div>
         </a>
     </li>
-    <li>
-        <a href="../data-tools/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Data: connect to any database or service</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
 </ul>
-
 
 <h2>Languages</h2>
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833062">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_Csharp.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>C#</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>    
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833060">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_vb.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>VB</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833063">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_Cplusplus.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>C++</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833067">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_Fsharp.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>F#</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833064">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_js.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>JavaScript</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833066">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_TS.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>TypeScript</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_Python.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Python</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833070">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_R.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>R</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
-
-
+<!-- Converting to icon48 format, this gets cleaner in YAML -->
+<div class="ico48Case halfStack">
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img width="48" height="48" alt=""
+src="/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img width="48" height="48" alt=""
+src="/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833063"><img width="48" height="48" alt=""
+src="/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
+src="/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img width="48" height="48" alt=""
+src="/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
+src="/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
+src="/media/logos/logo_Python.svg"><span>Python</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833070"><img width="48" height="48" alt=""
+src="/media/logos/logo_R.svg"><span>R</span></a></div>
+</div>
 
 <h2>Workloads</h2>
 
-TBD
+TODO: icons  
+TODO: how to add workload descriptions?
+
+<h3>Windows</h3>
+<div class="ico48Case halfStack">
+<div class="container intro"><p>Develop apps and games using Visual Studio to reach every device running Windows.</p></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833082"><img width="48" height="48" alt=""
+src=""><span>Universal Windows Platform development</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833083"><img width="48" height="48" alt=""
+src=""><span>.NET Desktop development</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833084"><img width="48" height="48" alt=""
+src=""><span>Windows development with C++</span></a></div>
+</div>
+<h3>Web & Cloud</h3>
+<div class="ico48Case halfStack">
+<div class="container intro"><p>Develop modern web apps using Visual Studio and powerful open tools. </p></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833085"><img width="48" height="48" alt=""
+src=""><span>Web development</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833086"><img width="48" height="48" alt=""
+src=""><span>Azure development and management</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
+src=""><span>Python</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834351"><img width="48" height="48" alt=""
+src=""><span>Node.js</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833095"><img width="48" height="48" alt=""
+src=""><span>Data storage and processing</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834748"><img width="48" height="48" alt=""
+src=""><span>Data science and analytical applications</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833075"><img width="48" height="48" alt=""
+src=""><span>Office and SharePoint development</span></a></div>
+</div>
+<h3>Mobile & Gaming</h3>
+<div class="ico48Case halfStack">
+<div class="container intro"><p>Create native or hybrid mobile apps that target Android, iOS, and Windows.</p></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833088"><img width="48" height="48" alt=""
+src=""><span>Mobile development with .NET</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833091"><img width="48" height="48" alt=""
+src=""><span>Game development with Unity</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833089"><img width="48" height="48" alt=""
+src=""><span>Mobile development with JavaScript</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833090"><img width="48" height="48" alt=""
+src=""><span>Mobile development with C++</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834749"><img width="48" height="48" alt=""
+src=""><span>Game development with C++</span></a></div>
+</div>
+<h3>Other Toolsets</h3>
+<div class="ico48Case halfStack">
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834750"><img width="48" height="48" alt=""
+src=""><span>Visual Studio extension development</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833099"><img width="48" height="48" alt=""
+src=""><span>Linux development with C++</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=856606"><img width="48" height="48" alt=""
+src=""><span>.NET Core cross-platform development</span></a></div>
+</div>
