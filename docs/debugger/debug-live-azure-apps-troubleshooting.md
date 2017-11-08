@@ -96,4 +96,4 @@ You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it fr
 * Snapshot debugging does not work on App Services that have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
