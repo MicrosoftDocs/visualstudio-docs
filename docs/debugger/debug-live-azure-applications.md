@@ -133,5 +133,5 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
     If you choose **Send to application log**, when the logpoint is hit, the message will appear anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## See Also  
- [Debug Azure apps](../debugger/debug-azure-apps.md)
+ [Debug Azure apps](../debugger/debug-azure-apps.md)  
  [Troubleshooting, FAQ, and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)
