@@ -1,7 +1,7 @@
 ---
 title: "Create Modern Desktop Applications with Windows Presentation Foundation | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/17/2017
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,7 +12,7 @@ ms.assetid: 8d6c7295-ff64-4681-b01c-5056e8504569
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Create Modern Desktop Applications with Windows Presentation Foundation
 

@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "IDebugGenericFieldInstance::GetTypeArguments"
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
 Retrieves the type parameter arguments for this instance.  

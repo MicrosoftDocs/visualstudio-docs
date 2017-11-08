@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "IsProxy"
 ms.assetid: 06c66b87-db95-4400-ab26-5d33e743a439
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugObject::IsProxy
 Determines if the object is a transparent proxy.  

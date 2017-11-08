@@ -18,7 +18,7 @@ ms.assetid: 21680516-ddb5-446d-90d4-19d94f6ec699
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Analyzing Application Quality by Using Code Analysis Tools
 ## In This Section  

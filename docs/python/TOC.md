@@ -19,7 +19,6 @@
 ### [Web Project Templates](template-web.md)
 ### [Django Web Project Template](template-django.md)
 ### [Azure Cloud Service Template](template-azure-cloud-service.md)
-## [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
 ## [Azure SDK for Python](azure-sdk-for-python.md)
 # How To
 ## [Editing Code](code-editing.md)
@@ -30,7 +29,9 @@
 ### [Using IPython REPL](interactive-repl-ipython.md)
 ## [Debugging](debugging.md)
 ### [Cross-platform Remote Debugging](debugging-cross-platform-remote.md)
-## [Publishing to Azure App Service](publishing-to-azure.md)
+## Working with Azure App Service
+### [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
+### [Publishing to Azure App Service](publishing-to-azure.md)
 ### [Azure Remote Debugging](debugging-azure-remote.md)
 ### [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md)
 ## Interacting with C++
@@ -40,6 +41,5 @@
 ## [Profiling](profiling.md)
 ## [Unit Testing](unit-testing.md)
 ## [Using the Cookiecutter Extension](cookiecutter.md)
-## [Installation for Visual Studio 2015 and earlier](installation.md)
 # Reference
 ## [Options](options.md)

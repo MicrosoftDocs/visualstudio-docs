@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "IDebugDocumentPositionOffset2::GetRange"
 ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugDocumentPositionOffset2::GetRange
 Retrieves the range for the current document position.  

@@ -22,7 +22,7 @@ ms.assetid: b66a7d9e-0a51-4ef5-8754-b2b899f9094c
 caps.latest.revision: 78
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Word Object Model Overview
   When you develop Word solutions in Visual Studio, you interact with the Word object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Word, and are defined in the <xref:Microsoft.Office.Interop.Word> namespace.  

@@ -1,5 +1,5 @@
 ---
-title: "Run unit tests for Store apps in Visual Studio | Microsoft Docs"
+title: "Run unit tests for UWP apps in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -12,22 +12,8 @@ ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
 caps.latest.revision: 12
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
-# Run unit tests for Store apps in Visual Studio
+# Run unit tests for UWP apps in Visual Studio
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  
   
 > [!NOTE]
@@ -60,7 +46,7 @@ This topic describes how to run unit tests by using the Test Explorer in Microso
  [Debugging unit tests](#BKMK_Debugging_unit_tests)  
   
 ##  <a name="BKMK_Unit_test_frameworks_and_test_projects"></a> Unit test frameworks and test projects  
- Visual Studio Express for Windows Store Apps includes the Microsoft unit testing frameworks for managed and for native C++ code. Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can be any combination of the Visual C++ or the Visual C# and Visual Basic unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any .NET Framework language, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.  
+ Visual Studio Express for UWP apps includes the Microsoft unit testing frameworks for managed and for native C++ code. Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can be any combination of the Visual C++ or the Visual C# and Visual Basic unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any .NET Framework language, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.  
   
 ##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> Running tests in Test Explorer  
  When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.  

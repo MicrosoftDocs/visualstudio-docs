@@ -21,21 +21,6 @@ caps.latest.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Debug a ClickOnce Application with Restricted Permissions
 As a developer, you most likely are running your development computer with Full Trust permissions, so you will not see the same security exceptions when debugging a ClickOnce application that the end user may see when running it with restricted permissions.  

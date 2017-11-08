@@ -20,7 +20,7 @@ ms.assetid: 034688d2-eda7-4b4a-bcc2-d0999ff879a4
 caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Remove Protection from Worksheets
   You can programmatically remove protection from a Microsoft Office Excel worksheet.  

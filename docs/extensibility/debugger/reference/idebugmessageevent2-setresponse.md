@@ -15,22 +15,9 @@ helpviewer_keywords:
   - "SetResponse method"
 ms.assetid: 2a5e318d-3225-4abd-83f1-28323baff6c0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugMessageEvent2::SetResponse
 Sets the response, if any, from the message box.  

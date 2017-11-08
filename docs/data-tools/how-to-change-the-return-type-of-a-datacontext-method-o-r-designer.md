@@ -10,22 +10,7 @@ ms.assetid: c5b66bff-6dbb-43c0-bffa-317133ca5b9e
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # How to: Change the return type of a DataContext method (O/R Designer)
@@ -36,7 +21,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-### To change the return type of a DataContext method from the auto-generated type to an entity class  
+## To change the return type of a DataContext method from the auto-generated type to an entity class  
   
 1.  Select the <xref:System.Data.Linq.DataContext> method in the methods pane.  
   
@@ -44,7 +29,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
   
 3.  Save the .dbml file.  
   
-### To change the return type of a DataContext method from an entity class back to the auto-generated type  
+## To change the return type of a DataContext method from an entity class back to the auto-generated type  
   
 1.  Select the <xref:System.Data.Linq.DataContext> method in the methods pane and delete it.  
   
@@ -52,8 +37,8 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
   
 3.  Save the .dbml file.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
- [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
- [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)
+## See also
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
+[LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
+[DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
+[How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)

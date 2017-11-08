@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked"
 ms.assetid: acf54d27-32a6-47e7-aba6-3cc0004edc7f
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 Requests that the firewall not block remote debugging.  

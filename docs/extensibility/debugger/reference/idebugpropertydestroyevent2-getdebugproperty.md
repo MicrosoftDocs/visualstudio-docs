@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPropertyDestroyEvent2::GetDebugProperty"
 ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPropertyDestroyEvent2::GetDebugProperty
 Gets the property to be destroyed.  

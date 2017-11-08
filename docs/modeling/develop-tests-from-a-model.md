@@ -13,20 +13,6 @@ caps.latest.revision: 20
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Develop tests from a model
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.  
@@ -75,7 +61,7 @@ You can use requirements and architectural models to help you organize the tests
   
 2.  Link the requirement work item to one or more use cases in your model.  
   
-     In a use case diagram, right-click a use case and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+     In a use case diagram, right-click a use case and then click **Link to Work Item**. 
   
 3.  Add to the test suite, test cases that verify the use cases.  
   
@@ -163,7 +149,7 @@ Assert (countAfter == countBefore = 1);
   
 2.  Link the requirement work item to one or more elements in your model.  
   
-     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
   
 3.  Add to the test suite, test cases that verify the requirement expressed in the model element.  
   

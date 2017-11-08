@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "go to"
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Navigating Code  
 Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.  
@@ -70,7 +70,7 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go To Line** (**Ctrl + G**): Move to the specified line number in the active document.  
 
-- **Go to All** (**Ctrl + T**): Move to the specified line, type, file, member, or symbol.  
+- **Go to All** (**Ctrl + T** or **Ctrl + ,**): Move to the specified line, type, file, member, or symbol.  
 
 - **Go to File** (**Ctrl + 1**, **Ctrl + F**): Move to the specified file in the solution.  
 

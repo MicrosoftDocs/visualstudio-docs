@@ -22,7 +22,7 @@ ms.assetid: f6391a01-df1a-4a0f-bfbb-a9526c73b2b3
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Creating a Custom Tab by Using Ribbon XML
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.  

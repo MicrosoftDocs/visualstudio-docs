@@ -1,5 +1,5 @@
 ---
-title: "Using Visual Studio for Mac Tools for Unity"
+title: "Using Visual Studio for Mac Tools for Unity | Microsoft Docs"
 author: dantogno
 ms.author: v-davian
 ms.date: 07/17/2017
@@ -105,4 +105,4 @@ To stop debugging:
 
   ![Click Stop in Visual Studio](media/using-vsmac-tools-unity-image7.png)
 
-To learn more about debugging in Visual Studio for Mac, see [Using the debugger](https://docs.microsoft.com/en-us/visualstudio/mac/debugging).
+To learn more about debugging in Visual Studio for Mac, see [Using the debugger](https://docs.microsoft.com/visualstudio/mac/debugging).

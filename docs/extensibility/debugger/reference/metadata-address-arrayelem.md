@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_ARRAYELEM structure"
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # METADATA_ADDRESS_ARRAYELEM
 This structure represents an array element within an array.  
