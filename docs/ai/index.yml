@@ -27,7 +27,7 @@ sections:
     - image: 
         src: media/Tensorflow_logo.png
       text: TensorFlow and Python 
-      href: quickstart-tensorflow.md
+      href: tensorflow-local.md
 - title: Step-by-Step Tutorials
   items:
   - type: paragraph
@@ -35,7 +35,7 @@ sections:
   - type: list
     style: ordered
     items:
-    - html: <a href="">Run a TensorFlow model in the cloud</a>
+    - html: <a href="/visualstudio/ai/tensorflow-vm">Run a TensorFlow model in the cloud</a>
 - title: Samples
   items:
   - type: list

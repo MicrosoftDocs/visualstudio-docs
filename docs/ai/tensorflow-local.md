@@ -54,7 +54,7 @@ C:\>pip.exe install tensorflow-gpu==1.2.1
 ## NumPy 1.13.1 and SciPy 0.19.1 
 
 NumPy is a general-purpose array-processing package designed to efficiently manipulate large multi-dimensional arrays of arbitrary records without sacrificing too much speed for small multi-dimensional arrays.
-SciPy (pronounced "Sigh Pie") is open-source software for mathematics, science, and engineering, depending on NumPy.
+SciPy is open-source library for mathematics, science, and engineering, depending on NumPy.
 
 Because SciPy has no official prebuilt package on Windows, you need to install both [NumPy](https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy) and [SciPy](https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy) from a third party [web site](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
 
@@ -62,8 +62,12 @@ Because SciPy has no official prebuilt package on Windows, you need to install b
 
 1. Launch Visual Studio and select **File > Open > Project/Solution**.
 
-2. Select the folder containing the samples dowloaded earlier.
+2. Select the **Tensorflow Examples** folder from the samples repository dowloaded and open the **TensorflowExamples.sln** file. 
 
-3. Find the MNIST Project in the **Solution Explorer**, right click on the **convolution.py** file and select **Set as Startup File**.
+3. Find the MNIST Project in the **Solution Explorer**, right click and select **Set as StartUp Project**.
 
 4. Click **Start**. 
+
+5. The output will be printed in the console.
+
+![Sample output from console6](media\tensorflow-local\console-output.png)

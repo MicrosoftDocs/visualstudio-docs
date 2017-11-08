@@ -19,7 +19,7 @@
           href: cloud-targets.md
         - name: Supported Frameworks
           href: supported-frameworks.md
-    - name: How To
+    - name: How-To Guides
       items:
         - name: Train your model
           href: 
@@ -33,8 +33,9 @@
       href: https://github.com/Microsoft/samples-for-ai
     - name: Reference
       items:
-        - name: Configuration Options
-          href: 
+        - name: Machine Learning Templates
+          href: ml-templates.md
+
     
 
 

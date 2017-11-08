@@ -1,5 +1,5 @@
 # Run a TensorFlow model in the cloud
-In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in a Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. Start by installing the following:
+In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. Start by installing the following:
 
 ## Setup Azure Deep Learning Virtual Machine
 
@@ -9,6 +9,8 @@ In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http:
 Instuctions for setting up Deep Learning Virtual Machine can be found [here](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm). 
 
 ### Install cuDNN
+Connect into the deep learning virtual machine and install cuDNN.
+
 ```bash
 wget http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz
 tar -xzvf ./cudnn-8.0-linux-x64-v6.0.tgz
@@ -56,29 +58,14 @@ Right click on MNIST project in **Solution Explorer** and select **Submit Job**.
 
 In the submission window:
 
-1. In the list of "Cluster to use", users can select the remote machine (with "rm:" prefix) to submit the job to.
+1. In the list of **Cluster to use**, select the remote machine (with "rm:" prefix) to submit the job to.
 
-2. The "Job name" allows users to enter a name for this job to show it up in the cluster.
+2. Enter a **Job name**. 
 
-3. AI Tools provides a default script to run the project on remote machine. User only need to provide the startup program (e.g. "python"), environment variables (e.g. setting CUDA_VISIBLE_DEVICES="0" to use only one GPU), and arguments (e.g." --log_dir=/tmp/output --output_dir=/tmp/output --input_dir=/tmp/input"). The following command will be executed on your remote machine:
+3. Click **Submit**. 
 
-```text
-CUDA_VISIBLE_DEVICES="0" python script.py --log_dir=/tmp/output --output_dir=/tmp/output --input_dir=/tmp/input
-```
+## Check Status of Job
+To see status and details of jobs: expand the virtual machine you submitted the job to in the **Server Explorer**. Double click on **Jobs**.
 
-4. User can use a customized startup bash script by click "Start bash script" and select the file by "Browse…". This script will be transmitted to the remote machine with UTF-8/Linux EOL format
+![Job browser](media\tensorflow-vm\job-browser.png)
 
-5. Default output and log directories are exported bo $LOG_DIR and $OUTPUT_DIR environment variables that user can use directly.
-
-> [!NOTE] 
-> - Only the files in project and customized startup bash script will be transmitted to remote machine while submitting. All the files in project will keep the same structure as working directory.
-> - Only the customized startup bash script will be auto-encoded to UTF-8 with Linux EOL.
-> - The startup command or script will be executed in non-interactive shell mode, under the root of the working directory.
-
-
-## Monitor NVIDIA GPUs on a Remote Machine
-AI Tools provides a graphical representation of GPU information such as GPU spec and usage. Right-click a remote machine node in the left Server Explorer, and then click the "Show Heat Map" context menu.
-
-![Heat Map context menu](media\tensorflow-vm\heat-map-context.png)
-
-![Heat Map tool window](media\tensorflow-vm\heat-map-tool.png)
