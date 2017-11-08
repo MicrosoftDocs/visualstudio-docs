@@ -108,6 +108,7 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
  ![Open your unity project in Visual Studio.](../cross-platform/media/vstu_configure_open_in_visual_studio.png "vstu_configure_open_in_visual_studio")  
 
 ## Next steps  
+
  To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).  
 
 ## See Also  

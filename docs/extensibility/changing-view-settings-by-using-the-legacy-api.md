@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - changing view settings"
 ms.assetid: 12c9b300-0894-4124-96a1-764326176d77
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -69,7 +69,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 ## External resources  
   
 ### Videos  
- [Channel 9: Unit testing your Windows Store apps built using XAML](http://go.microsoft.com/fwlink/?LinkId=226285)  
+ [Channel 9: Unit testing your UWP apps built using XAML](http://go.microsoft.com/fwlink/?LinkId=226285)  
   
 ### Forums  
  [Visual Studio Unit Testing](http://go.microsoft.com/fwlink/?LinkId=224477)  

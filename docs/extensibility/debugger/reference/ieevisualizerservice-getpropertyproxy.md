@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetPropertyProxy method"
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Refactoring Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

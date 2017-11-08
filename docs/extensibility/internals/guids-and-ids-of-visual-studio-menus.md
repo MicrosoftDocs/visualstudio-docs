@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "menus"
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

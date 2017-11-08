@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "most recently used"
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
 caps.latest.revision: 46
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

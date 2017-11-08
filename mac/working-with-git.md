@@ -1,5 +1,5 @@
 ---
-title: Working with Git
+title: Working with Git | Microsoft Docs
 description: Using Git in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns

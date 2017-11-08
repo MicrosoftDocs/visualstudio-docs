@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IDebugPointerObject3::GetPointerAddress"
 ms.assetid: 4cc5af04-9e70-420d-8230-ef3108df6d51
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "command handling with interop assemblies, status"
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

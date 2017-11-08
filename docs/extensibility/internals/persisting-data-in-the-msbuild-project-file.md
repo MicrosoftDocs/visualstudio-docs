@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "project files, persisting data in"
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

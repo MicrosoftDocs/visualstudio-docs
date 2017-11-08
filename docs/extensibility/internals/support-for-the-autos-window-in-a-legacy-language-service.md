@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Autos window, supporting in language services [managed package framework]"
 ms.assetid: 47d40aae-7a3c-41e1-a949-34989924aefb
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

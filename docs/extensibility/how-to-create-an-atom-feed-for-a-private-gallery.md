@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

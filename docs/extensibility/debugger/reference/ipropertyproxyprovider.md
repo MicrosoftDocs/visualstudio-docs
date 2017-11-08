@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IPropertyProxyProvider interface"
 ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

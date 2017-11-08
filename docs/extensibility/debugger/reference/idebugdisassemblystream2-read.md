@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::Read"
 ms.assetid: 7db5f6bb-73ee-45bc-b187-c1b6aa2dfdd5
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

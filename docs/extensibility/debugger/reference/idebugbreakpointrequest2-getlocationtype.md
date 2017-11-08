@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest2::GetLocationType"
 ms.assetid: b6d14c59-d3aa-48ff-8278-f6b5bba9c2f3
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

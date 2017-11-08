@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "session debug manager, delegating"
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

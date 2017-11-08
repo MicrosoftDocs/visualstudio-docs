@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "VSPackages, user preferences"
 ms.assetid: 5bb6277a-8c9d-48c8-9b4e-1cb3052caded
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

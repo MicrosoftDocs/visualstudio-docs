@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debug engines, ContingentProperties class [.NET Framework]"
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

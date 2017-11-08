@@ -1,5 +1,5 @@
 ---
-title: "Install and Manage Local Content | Microsoft Docs"
+title: "Install local Visual Studio documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -11,38 +11,38 @@ ms.topic: "article"
 f1_keywords: 
   - "hv_manage"
 helpviewer_keywords: 
-  - "changing content installation source [Help Viewer 2.0]"
-  - "updating local content [Help Viewer 2.0]"
-  - "Help Viewer 2.0, content installation source"
-  - "Help Viewer 2.0, updating local content"
-  - "Help Viewer 2.0, changing content installation source"
-  - "installing local content [Help Viewer 2.0]"
-  - "content installation source [Help Viewer 2.0]"
-  - "downloading content [Help Viewer 2.0]"
-  - "removing local content [Help Viewer 2.0]"
-  - "Help Viewer 2.0, removing local content"
-  - "Help Viewer 2.0, installing local content"
-  - "Help Viewer 2.0, downloading content"
+  - "changing content installation source [Help Viewer]"
+  - "updating local content [Help Viewer]"
+  - "Help Viewer, content installation source"
+  - "Help Viewer, updating local content"
+  - "Help Viewer, changing content installation source"
+  - "installing local content [Help Viewer]"
+  - "content installation source [Help Viewer]"
+  - "downloading content [Help Viewer]"
+  - "removing local content [Help Viewer]"
+  - "Help Viewer, removing local content"
+  - "Help Viewer, installing local content"
+  - "Help Viewer, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Install and Manage Local Content
-By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software-development needs.  
+# Install and manage local content
+By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software development needs.  
   
- To manage content on your local computer, you must log on with an account that has administrative permissions. In addition, you might not be able to manage local content if you work in an enterprise environment because system administrators might make those decisions for your organization. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+To manage content on your local computer, you must log on with an account that has administrator permissions. In addition, you might not be able to manage local content if you work in an enterprise environment, because system administrators might make those decisions for your organization. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
 ## Changing the content installation source  
- By default, the Help Viewer installs content by using a Microsoft online service as the source. You generally shouldn't change your content source unless you work in an enterprise environment for which a system administrator has already installed content in another location.  
+By default, the Help Viewer installs content by using a Microsoft online service as the source. You generally shouldn't change your content source unless you work in an enterprise environment for which a system administrator has already installed content in another location.  
   
 #### To change the content installation source  
   
 1.  On the **Manage Content** tab, choose the **Disk** option button.  
   
     > [!NOTE]
-    >  The **Disk** option won't be available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+    >  The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
 2.  Perform one of the following steps:  
   
@@ -53,12 +53,13 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
     -   In the list, choose the entry that was used most recently.  
   
 ## Download and install content locally  
- You can view topics without an Internet connection if you download and install content on your local computer.  
+If you download and install content on your local computer, you can view topics when you don't have an internet connection.  
   
 > [!IMPORTANT]
->  To install content, you must log on with an account that has administrative permissions.  
+> To install content, you must log on with an account that has administrative permissions.  
   
- If the Visual Studio IDE is set to a language other than English, you can install English content, localized content, or both. However, no content will appear if you install only the English version and the **Include English content in all navigation tabs and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
+> [!NOTE]
+> If the Visual Studio IDE is set to a language other than English, you can install English content, localized content, or both. However, no content appears if you install only the English version and the **Include English content in all navigation tabs and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
 #### To download and install content  
   
@@ -73,12 +74,13 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
      The book or books that you specified are installed along with any updates for books that you already have on your computer. Installation times vary, but you can view the progress in the status bar.  
   
 ## Removing local content  
- You can save disk space by removing unwanted content from your computer.  
+You can save disk space by removing unwanted content from your computer.  
   
 > [!IMPORTANT]
->  You must have administrative permissions to remove content.  
+> You must have administrative permissions to remove content.  
   
- No content will appear if the Visual Studio IDE is set to a language other than English, you remove localized content, and the **Include English content in all navigation tab and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
+> [!NOTE]
+> No content appears if the Visual Studio IDE is set to a language other than English, you remove localized content, and the **Include English content in all navigation tab and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
 #### To remove content  
   
@@ -120,5 +122,5 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 3.  Choose the **Close** button when the content has been moved.  
   
-## See Also  
- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+## See also  
+[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

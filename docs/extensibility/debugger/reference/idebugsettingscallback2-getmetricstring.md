@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "GetMetricString"
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

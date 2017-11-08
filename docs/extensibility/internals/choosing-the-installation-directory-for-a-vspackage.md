@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "VSPackages, installation directory"
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Improve Code Quality"
+title: "Improve Code Quality | Microsoft Docs"
 ms.custom: na
 ms.date: "02/17/2017"
 ms.reviewer: na

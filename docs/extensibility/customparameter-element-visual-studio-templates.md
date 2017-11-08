@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "CustomParameters element [Visual Studio project templates]"
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

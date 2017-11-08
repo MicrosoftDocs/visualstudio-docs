@@ -1,7 +1,7 @@
 ---
 title: "Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +21,6 @@ ms.author: "gewarren"
 manager: ghogen
 ---
 # Projects and Solutions, Options Dialog Box
-
 Sets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] behavior related to projects and solutions. To access these options, select **Tools > Options** expand **Projects and Solutions**, and click **General**.
 
 The default paths for project and template folders are set through the **Locations** tab in the same dialog box.
@@ -81,5 +80,5 @@ Specifies the default location that the **New Project** dialog box uses to creat
 Specifies the default location that the **Add New Item** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md). 
 
 ## See Also  
-- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-- - [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)  
+- [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)

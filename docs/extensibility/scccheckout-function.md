@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccCheckout function"
 ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

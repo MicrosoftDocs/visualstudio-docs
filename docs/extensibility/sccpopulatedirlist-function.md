@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccPopulateDirList function"
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

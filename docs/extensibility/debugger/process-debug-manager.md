@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], Machine Debug Manager"
 ms.assetid: d0861e0c-b819-490c-9604-5e6d08ac291a
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

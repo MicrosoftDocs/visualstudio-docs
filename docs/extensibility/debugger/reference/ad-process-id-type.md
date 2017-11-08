@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "AD_PROCESS_ID_TYPE enumeration"
 ms.assetid: 0aab80e9-285a-4697-94ac-c864d42a6aaa
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

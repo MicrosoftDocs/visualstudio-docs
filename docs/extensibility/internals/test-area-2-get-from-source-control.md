@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], getting items from"
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

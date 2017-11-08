@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEEDataStorage::GetSize"
 ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

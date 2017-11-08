@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccCreateSubProject function"
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugAddresses interface"
 ms.assetid: 5f6f6751-e6d8-4c5a-8e81-414b6e5d8cc5
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

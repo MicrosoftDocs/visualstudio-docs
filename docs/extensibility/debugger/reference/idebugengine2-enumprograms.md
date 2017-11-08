@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugEngine2::EnumPrograms"
 ms.assetid: 56bf98eb-beec-4e5f-9ebe-46c922e54c56
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
