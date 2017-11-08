@@ -64,12 +64,12 @@ If you have your service running in Azure, use *Snapshot debugging* to diagnose 
 ![Debugging in Visual Studio](../ide/media/VSIDE_Productivity_Debugging.png "VSIDE_Productivity_Debugging")  
 
 ## Version control
-[](../vsts/index.md)
+[Documentation: Version control in Visual Studio](../vsts/index.md)
 
 Use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension to adopt the agile developer workflow.
 
 ## Extensibility
-[https://docs.microsoft.com/en-us/visualstudio/extensibility/index]()
+[Documentation: Extending Visual Studio](../extensibility/index)
 
 Visual Studio has a rich ecosystem of extensions that you can install or create as you need them. Install extensions from the *Extension Gallery* or the *Visual Studio Marketplace*, build your own editor plugin with the *VS SDK*, or create your own live code analyzer or refactoring using the *.NET Compiler Platform SDK*. You can find additional code fixes and suggestions by downloading the [Microsoft Code Analysis](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) extension. 
 
