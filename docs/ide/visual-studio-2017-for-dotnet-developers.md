@@ -2,7 +2,7 @@
 
 ## Smart Code Editor
 [https://docs.microsoft.com/en-us/visualstudio/ide/using-intellisense]()
-[https://docs.microsoft.com/en-us/visualstudio/ide/visual-csharp-intellisense]()
+<br/>[https://docs.microsoft.com/en-us/visualstudio/ide/visual-csharp-intellisense]()
 
 Visual Studio has a deep understanding of your code via the Roslyn compiler to provide you with smart editing features like syntax colorization, code completion, spell-checking mistyped variables, unimported type resolution, outlining, structure visualizers, [CodeLens](https://docs.microsoft.com/en-us/visualstudio/ide/find-code-changes-and-other-history-with-codelens), call hierarchy, hover-able quick info, parameter help, as well as tools for refactoring, applying quick actions, and generating code.
  
@@ -33,7 +33,7 @@ Run and debug your unit tests based on the MSTest, NUnit, or XUnit testing frame
 
 ## Code Consistency and Style
 [https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options]()
-[https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference]()
+<br/>[https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference]()
 
 Visual Studio enables coding convention configuration, detects coding style violations, and provides quick-fixes to remedy style issues with the **Ctrl+.** shortcut. Configure and enforce your team’s formatting, naming, and code style conventions across a repository—allowing overriding values at the project and file level—using *EditorConfig*. 
 
