@@ -21,7 +21,7 @@ dev_langs:
 
 Visual Studio has a deep understanding of your code via the Roslyn compiler to provide you with smart editing features like syntax colorization, code completion, spell-checking mistyped variables, unimported type resolution, outlining, structure visualizers, [CodeLens](find-code-changes-and-other-history-with-codelens.md), call hierarchy, hover-able quick info, parameter help, as well as tools for refactoring, applying quick actions, and generating code.
  
-![Visual Studio's smart code editor](../ide/media/VSIDE_Productivity_SmartCodeEditor.png "VSIDE_Productivity_SmartCodeEditor")  
+![Visual Studio smart code editor](../ide/media/VSIDE_Productivity_SmartCodeEditor.png "VSIDE_Productivity_SmartCodeEditor")  
 
 ## Navigate and search your codebase
 [Documentation: Navigating code](navigating-code.md)
