@@ -98,7 +98,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio for Mac" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio for Mac" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
