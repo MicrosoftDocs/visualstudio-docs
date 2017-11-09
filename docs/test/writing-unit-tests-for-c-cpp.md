@@ -25,15 +25,15 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
  -  Boost.Test
  -  CTest
 
-In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks).
+In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 **Visual Studio 2017 version 15.5**  
 
-1) **Google Test Adapter** is included as a default component of the **Desktop Development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test.md).
+1) **Google Test Adapter** is included as a default component of the **Desktop Development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
-2) **Boost.Test** is included as a default component of the **Desktop Development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test.md). 
+2) **Boost.Test** is included as a default component of the **Desktop Development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md). 
 
-3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the **Desktop Development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-in-visual-studio.md).
+3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp.md) component which is part of the **Desktop Development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-in-visual-studio.md).
 
 
 **Visual Studio 2015 and earlier**
