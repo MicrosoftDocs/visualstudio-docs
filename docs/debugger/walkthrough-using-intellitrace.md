@@ -76,7 +76,7 @@ You can use IntelliTrace to collect information about specific events or categor
      ![HistoricalDebugging&#45;Update1](../debugger/media/historicaldebugging-update1.png "HistoricalDebugging-Update1")  
   
 8.  If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.  
-  
+
 ## Using IntelliTrace with events and function calls  
  IntelliTrace can record function calls along with events. This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as function names, function entry and exit points, and certain parameter values and return values. See [IntelliTrace Features](../debugger/intellitrace-features.md).
 
