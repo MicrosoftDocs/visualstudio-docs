@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "09/25/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -126,8 +126,7 @@ Another way that you can change the default language is by running the installer
    To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 ## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips.
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 * [Update Visual Studio 2017](update-visual-studio.md)
@@ -137,4 +136,3 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 * [Visual Studio 2017 Administrator Guide](visual-studio-administrator-guide.md)
   * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Install Build Tools into a Container](build-tools-container.md)
-* [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
