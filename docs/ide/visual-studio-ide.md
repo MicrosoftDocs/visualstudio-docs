@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2017"
+ms.date: "11/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,19 +48,19 @@ The web drives our modern world, and Visual Studio can help you write apps for i
 For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
 ### Build cross-platform apps and games  
-You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
 
 Choose the tools you need based on your app requirements and the language you want to use.  
 
-- [Xamarin for Visual Studio](cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices.
+- [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices.
 
-- [Visual Studio Tools for Apache Cordova](cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript.
+- [Visual Studio Tools for Apache Cordova](../cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript.
 
-- [Visual Studio Tools for Unity](cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#.
+- [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#.
 
-- [C++ for Cross-Platform Development](cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++.
+- [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++.
 
-- [Visual Studio Emulator for Android](cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE.
+- [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE.
 
 [Create games using Visual Studio](https://www.visualstudio.com/vs/game-development/) with game development tools such as DirectX, Unity, Unreal, Cocos, and more.
 
@@ -246,7 +246,7 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)  
 
 ## Extend Visual Studio
-If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](extensibility/visual-studio-sdk.md).
+If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
