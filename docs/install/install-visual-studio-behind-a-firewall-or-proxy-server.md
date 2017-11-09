@@ -59,20 +59,19 @@ If it's possible for your environment, consider adding the following domains wit
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
 ## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](https://docs.microsoft.com/en-us/visualstudio/install/troubleshooting-installation-issues) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
-  * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-    * [Command-line parameter examples](command-line-parameter-examples.md)
-    * [Workload and Component ID reference](workload-and-component-ids.md)
-  * [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-    * [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md)
-  * [Automate Visual Studio with a response file](automated-installation-with-response-file.md)
-  * [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
-  * [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
-  * [Disable or move the package cache](disable-or-move-the-package-cache.md)
-  * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-  * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-  * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+  * [Command-line parameter examples](command-line-parameter-examples.md)
+  * [Workload and Component ID reference](workload-and-component-ids.md)
+* [Create a networked-based installation of Visual Studio 2017](create-a-network-installation-of-visual-studio.md)
+  * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+* [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
+* [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
+* [Set defaults for enterprise deployments of Visual Studio 2017](set-defaults-for-enterprise-deployments.md)
+* [Disable or move the package cache](disable-or-move-the-package-cache.md)
+* [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Control updates to Visual Studio 2017 deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
