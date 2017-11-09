@@ -46,15 +46,13 @@ From this view, you can inspect the values in the **Call Stack**, **Locals**, **
 
 So, for example, if you've hit a breakpoint and taken a Step (**F10**), the **Step Backward** button puts Visual Studio in historical mode at the line of code corresponding to the breakpoint. 
 
-![Activating historical mode on an event with a snapshot](../debugger/media/intellitrace-historical-mode-with-snapshot
-.png "Activating historical mode on an event with a snapshot")
+![Activating historical mode on an event with a snapshot](../debugger/media/intellitrace-historical-mode-with-snapshot.png "Activating historical mode on an event with a snapshot")
 
 To return to live execution, choose **Continue (F5)** or click the **Return to Live Debugging** link in the infobar. 
 
 You can also view a snapshot from the **Events** tab. Select an event with a snapshot and click **Activate Historical Debugging**. You can also click on the camera icon to activate historical debugging.
 
-![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging
-.png "Activate Historical Debugging on an event")
+![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
 
 > [!NOTE]
 >  Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
