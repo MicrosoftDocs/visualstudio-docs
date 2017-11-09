@@ -14,4 +14,4 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-Windows Store
+Microsoft Store
