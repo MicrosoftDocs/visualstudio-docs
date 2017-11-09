@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
 author: "timsneath"
-ms.author: "tims"
+ms.author: "tglee"
 manager: ghogen
 ---
 # Install certificates needed for Visual Studio offline installation
@@ -92,7 +92,7 @@ One way to check on the installing system is to follow these steps:
   d. Expand **Certificates (Local Computer)**.<br/>
   e. Expand **Trusted Root Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the necessary root certificates.<br/>
-  
+
    f. Expand **Intermediate Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the required intermediate certificates.<br/>
 
@@ -107,6 +107,9 @@ If the certificates names were not in the **Issued To** columns, they must be in
 ## Install Visual Studio
 
 After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](https://docs.microsoft.com/en-us/visualstudio/install/troubleshooting-installation-issues) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

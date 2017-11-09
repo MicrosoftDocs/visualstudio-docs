@@ -5,16 +5,16 @@ ms.custom: ""
 ms.date: "08/01/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
   - "list of domains, locations, URLs"
-ms.assetid: 
+ms.assetid:
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
@@ -58,6 +58,9 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](https://docs.microsoft.com/en-us/visualstudio/install/troubleshooting-installation-issues) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
+
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
@@ -73,4 +76,3 @@ If it's possible for your environment, consider adding the following domains wit
   * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
   * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
   * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-  * [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
