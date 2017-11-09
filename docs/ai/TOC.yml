@@ -20,19 +20,14 @@
     - name: How-To Guides
       items:
         - name: Train your model
-          href: 
+          href: train-your-model.md
         - name: Manage projects
-          href: 
-        - name: Debugging
-          href: 
-        - name: Working with Azure GPU virtual machines
-          href: 
+          href: manage-projects.md
+        - name: Manage storage
+          href: manage-storage.md
     - name: Samples
       href: https://github.com/Microsoft/samples-for-ai
-    - name: Reference
-      items:
-        - name: Machine Learning Templates
-          href: ml-templates.md
+
 
     
 
