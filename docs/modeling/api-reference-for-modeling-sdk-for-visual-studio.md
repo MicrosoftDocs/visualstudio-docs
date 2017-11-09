@@ -40,5 +40,4 @@ The Visual Studio Visualization and Modeling SDK provides the platform on which 
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Lets you define validation constraints.|  
   
 ## See Also  
- [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)   
  [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)

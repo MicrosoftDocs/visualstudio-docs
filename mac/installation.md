@@ -81,3 +81,11 @@ If your installation fails or any single component of your installation fails, y
 2. Follow the instructions to download and install the components manually:
 
   ![Manual installation dialog](media/installer-image13.png)
+
+## Install Visual Studio for Mac behind a firewall or proxy server
+
+To install Visual Studio for Mac behind a firewall, certain endpoints must be made accessible in order to allow downloads of the required tools and updates for your software.
+
+Configure your network to allow access to the following locations:
+
+* [Visual Studio endpoints](https://docs.microsoft.com/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
