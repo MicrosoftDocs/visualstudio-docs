@@ -50,4 +50,5 @@ You can use the **File**, **Advanced Save Options** dialog box to determine the 
 Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File**, **Save \<file\> As...**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and choose **Save with encoding...**.
 
 ## See also
-[Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+[Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)  
+[How to: Save and Open Files with Encoding](how-to-save-and-open-file-with-encoding.md)
