@@ -21,7 +21,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -39,7 +39,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_NET.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_NET.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +57,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_Cplusplus.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -75,7 +75,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_python.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_python.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -93,7 +93,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_advanced.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_advanced.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -111,7 +111,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_video.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -153,7 +153,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_git-mark.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-blocks.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,7 +171,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_common-data-service.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -243,7 +243,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-quality.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_unit-testing.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -333,21 +333,21 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img width="48" height="48" alt=""
-src="/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img width="48" height="48" alt=""
-src="/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833063"><img width="48" height="48" alt=""
-src="/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
-src="/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img width="48" height="48" alt=""
-src="/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
-src="/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
-src="/media/logos/logo_Python.svg"><span>Python</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833070"><img width="48" height="48" alt=""
-src="/media/logos/logo_R.svg"><span>R</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a></div>
 </div>
 
 <h2>Workloads</h2>
@@ -368,7 +368,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_win32-com.svg"><span>Wind
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833085"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/common/i_web.svg"><span>Web development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833086"><img width="48" height="48" alt=""
-src="../ide/media/Azure_logo_icon.svg"><span>Azure development and management</span></a></div>
+src="../images/logo_azure.svg"><span>Azure development and management</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834351"><img width="48" height="48" alt=""
@@ -386,7 +386,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_sharepoint.svg"><span>Off
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833088"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_xamarin.svg"><span>Mobile development with .NET</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833091"><img width="48" height="48" alt=""
-src=""><span>Game development with Unity</span></a></div>
+src="https://docs.microsoft.com/en-us/common/i_setup.svg"><span>Game development with Unity</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833089"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_cordova.svg"><span>Mobile development with JavaScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833090"><img width="48" height="48" alt=""
@@ -397,7 +397,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_win32-com.svg"><span>Game
 <h3>Other Toolsets</h3>
 <div class="ico48Case halfStack">
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834750"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/common/i_extensions.svg"><span>Visual Studio extension development</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_vs-ide.svg"><span>Visual Studio extension development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833099"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_linux.svg"><span>Linux development with C++</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=856606"><img width="48" height="48" alt=""
