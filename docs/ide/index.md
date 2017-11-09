@@ -153,7 +153,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_git-mark.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-blocks.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,7 +171,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_common-data-service.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -352,14 +352,11 @@ src="/media/logos/logo_R.svg"><span>R</span></a></div>
 
 <h2>Workloads</h2>
 
-TODO: icons  
-TODO: how to add workload descriptions?
-
 <h3>Windows</h3>
 <div class="ico48Case halfStack">
 <div class="container intro"><p>Develop apps and games using Visual Studio to reach every device running Windows.</p></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833082"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_UWP.svg"><span>Universal Windows Platform development</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Windows.svg"><span>Universal Windows Platform development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833083"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_NET.svg"><span>.NET Desktop development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833084"><img width="48" height="48" alt=""
