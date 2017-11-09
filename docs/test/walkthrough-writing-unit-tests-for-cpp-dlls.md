@@ -1,5 +1,5 @@
 ---
-title: "How to: Write Unit tests for C++ DLLs | Microsoft Docs"
+title: "How to: Write unit tests for C++ DLLs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ ms.author: mblome
 manager: ghogen
 ---
 
-# Walkthrough: Writing Unit tests for C++ DLLs
+# How to: Write Unit tests for C++ DLLs
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:  
   
 1.  [Create a Native Test Project](#create_test_project). The test project is located in the same solution as the DLL project.  

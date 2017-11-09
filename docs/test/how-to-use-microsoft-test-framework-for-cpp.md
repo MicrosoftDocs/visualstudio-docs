@@ -1,5 +1,5 @@
 ---
-title: "How to use the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
+title: "How to: use the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ caps.latest.revision: 11
 ms.author: mblome
 manager: ghogen
 ---
-# How to use the Microsoft Unit Testing Framework for C++
+# How to: use the Microsoft Unit Testing Framework for C++
 
 The Microsoft Unit Testing Framework for C++ is included by default in the **Desktop Development with C++** workload. 
 

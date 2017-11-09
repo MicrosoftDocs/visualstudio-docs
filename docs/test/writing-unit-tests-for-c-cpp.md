@@ -1,5 +1,5 @@
 ---
-title: "Writing unit tests for C/C++ | Microsoft Docs"
+title: "Write unit tests for C/C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
@@ -13,16 +13,19 @@ caps.latest.revision: 14
 ms.author: "mblome"
 manager: "ghogen"
 ---
-# Writing unit tests for C/C++
-Unit testing C++ code in Visual Studio is based on **Test Explorer**, just like for other languages. Some features such as Live Unit Testing, Coded UI Tests and IntelliTest are not supported for C++. 
+# Write unit tests for C/C++
+You can write and run your C++ unit tests by using  the **Test Explorer** window, just like for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md). 
 
-Visual Studio includes these C++ test frameworks:
- -  Microsoft Unit Testing Framework for C++ (full integration)
- -  Google Test (full integration)
- -  Boost.Test (partial integration)
- -  CTest  (partial integration)
+> ![NOTE]
+> Some features such as Live Unit Testing, Coded UI Tests and IntelliTest are not supported for C++. 
 
-In addition, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks).
+Visual Studio includes these C++ test frameworks with no additional downloads required:
+ -  Microsoft Unit Testing Framework for C++  
+ -  Google Test
+ -  Boost.Test
+ -  CTest
+
+In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks).
 
 **Visual Studio 2017 version 15.5**  
 
@@ -66,15 +69,14 @@ The .cpp file in your test project has a stub class and method defined for you a
 
 TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework]((microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). **Test Explorer** discovers test methods in other supported frameworks in a similar way.
 
-A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `md_utils` has a public method that that takes a `std::string` and returns a result. We can test that the function works as expected like so:
+A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
 
 ```cpp
-		TEST_METHOD(get_class_name)
+        TEST_METHOD(TestClassInit)
 		{
-			string s = "    title: \"CWnd Class | Microsoft Docs\"";
-			md_utils mdu;
-			auto result = mdu.get_class_name(s);
-			Assert::AreEqual(string("CWnd"), result);
+			std::string name = "Bill";
+			MyClass mc(name);
+			Assert::AreEqual(name, mc.GetName());
 		}
 ```
 In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results. 
@@ -93,11 +95,11 @@ You can add *traits* to test methods to specify test owners, priority and other 
 
 2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
   
-3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window looks something like this:
+3.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window shows which tests passed and which ones failed:
 
 ![Test Explorer after tests are run](media/cpp-test-explorer-passed.png "C++ Test Explorer after running tests")
 
-In the previous example, the get_class_name test method is failing. The message offers details that help to diagnose the cause. You can right-click on the failing test and choose **Debug Selected Tests** to step through the function where the failure occurred. 
+For failed tests, the message offers details that help to diagnose the cause. You can right-click on the failing test and choose **Debug Selected Tests** to step through the function where the failure occurred. 
 
 For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 

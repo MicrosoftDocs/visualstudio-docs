@@ -23,8 +23,9 @@ In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into 
 
  Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost installed, we recommend that you use the Vcpkg package manager. 
 
-1. Follow the instructions at [Vcpkg: a C++ Package Manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it) and then use it to install the Boost libraries.
-2. Run the `vcpkg integrate install` command to configure Visual Studio with the library and include paths to the Boost headers and binaries. 
+1. Follow the instructions at [Vcpkg: a C++ Package Manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it).
+2. Run `vcpkg install boost` to install the Boost libraries.
+3. Run the `vcpkg integrate install` command to configure Visual Studio with the library and include paths to the Boost headers and binaries. 
 
 ## Create a project for your tests
 **Visual Studio 2017 version 15.5** No project or item templates are currently available for Boost.Test. Templates are planned for inclusion in a future version of Visual Studio.
@@ -39,20 +40,21 @@ an IntelliSense window will appear and enable you to select the full path to the
 
 ![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
 
-At a minimum you need to include `unit_test.hpp` and define `BOOST_TEST_MODULE`. The following example is sufficient for the test to be discoverable in **Test Explorer**:
+At a minimum you need to include to include the [single header variant of Boost.Test](http://www.boost.org/doc/libs/1_48_0/libs/test/doc/html/utf/user-guide/usage-variants/single-header-variant.html) with `#include <path>/unit_test.hpp` and define `BOOST_TEST_MODULE`. The following example is sufficient for the test to be discoverable in **Test Explorer**:
 
 ```cpp
 #include "stdafx.h"
 #define BOOST_TEST_MODULE MyTest
 #include <boost/test/included/unit_test.hpp>
-#include "../utils/utils.h" // project being tested
+#include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 
 BOOST_AUTO_TEST_CASE(my_boost_test)
 {
-	md_utils mdu;
-	std::string s("foo");
-	BOOST_CHECK(mdu.get_title(s).length() > 0);
+	std::string name = "Bill";
+	MyClass mc(name);
+	Assert::AreEqual();
+	BOOST_CHECK(name == mc.GetName());
 }
 ```
 
