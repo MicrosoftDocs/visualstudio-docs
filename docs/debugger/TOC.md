@@ -143,7 +143,6 @@
 ## [Walkthrough: Using IntelliTrace](walkthrough-using-intellitrace.md)
 ## [IntelliTrace features](intellitrace-features.md)
 ## [Historical debugging](historical-debugging.md)
-## [View snapshots with IntelliTrace step-back](how-to-use-intellitrace-step-back.md)
 ## [Diagnose problems after deployment](diagnose-problems-after-deployment.md)
 ## [Use the IntelliTrace stand-alone collector](using-the-intellitrace-stand-alone-collector.md)
 ## [Use the Microsoft Monitoring Agent](using-the-microsoft-monitoring-agent.md)
