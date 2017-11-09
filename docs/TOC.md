@@ -1,6 +1,5 @@
-# Overview
+# [Overview](ide/visual-studio-ide.md)
 ## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
-## [Visual Studio IDE Overview](ide/visual-studio-ide.md)
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [.NET Desktop Development](https://go.microsoft.com/fwlink/?linkid=833083)
@@ -169,6 +168,7 @@
 ##### [Preview Changes](ide/preview-changes.md)
 #### [Productivity Tips](ide/productivity-tips-for-visual-studio.md)
 ##### [Tips and Tricks](ide/tips-and-tricks-for-visual-studio.md)
+##### [Tips for .NET Developers](ide/visual-studio-2017-for-dotnet-developers.md)
 ##### [Identifying and Customizing Keyboard Shortcuts](ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 ###### [Default Keyboard Shortcuts for Frequently Used Commands](ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 ###### [Default Keyboard Shortcuts](ide/default-keyboard-shortcuts-in-visual-studio.md)
@@ -211,7 +211,7 @@
 #### [Find code changes and other history with CodeLens](ide/find-code-changes-and-other-history-with-codelens.md)
 ##### [CodeIndex Command](ide/codeindex-command.md)
 #### [Editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
-## [Use Version Control](https://docs.microsoft.com/en-us/vsts/#pivot=services&panel=code)
+## [Version Control](https://docs.microsoft.com/en-us/vsts/#pivot=services&panel=code)
 ## [Access Data](https://go.microsoft.com/fwlink/?linkid=856607)
 ## [Design User Interfaces](designers/designing-user-interfaces.md)
 ## [Compile and Build](ide/compiling-and-building-in-visual-studio.md)
@@ -242,7 +242,7 @@
 ## [Test](test/improve-code-quality.md)
 ## [Profile Code Performance](profiling/profiling-feature-tour.md)
 ## [Deploy](deployment/deploying-applications-services-and-components.md)
-## [Configure DevOps](https://docs.microsoft.com/en-us/vsts)
+## [DevOps](https://docs.microsoft.com/en-us/vsts)
 ## [Extend Visual Studio](https://go.microsoft.com/fwlink/?linkid=833081)
 ## [Analyze and Model Architecture](modeling/analyze-and-model-your-architecture.md)
 ## [Personalize the IDE](ide/personalizing-the-visual-studio-ide.md)
