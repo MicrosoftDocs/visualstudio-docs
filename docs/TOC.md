@@ -1,5 +1,4 @@
 # [Overview](ide/visual-studio-ide.md)
-## [Welcome to Visual Studio 2017!](welcome-to-visual-studio.md)
 ## Workloads
 ### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
 ### [.NET Desktop Development](https://go.microsoft.com/fwlink/?linkid=833083)
