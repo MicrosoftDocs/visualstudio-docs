@@ -21,11 +21,7 @@ manager: ghogen
 > [!Note]
 > Python support is presently available only on Visual Studio for Windows; on Mac and Linux, Python support is available through Visual Studio Code. See [Questions and answers](python-in-visual-studio.md#questions-and-answers).
 
-<<<<<<< HEAD
 1. Download and run the Visual Studio 2017 installer from [visualstudio.com](https://www.visualstudio.com/downloads). Python is supported in all editions.
-=======
-1. Download and run the latest Visual Studio 2017 installer for Windows (Python support is present in release 15.2 and later).
->>>>>>> ad3d8314a34d16e36f6851fd9696938a11ede35e
 
     > [!div class="nextstepaction"]
     > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Install Visual Studio 2017 Community</a>
