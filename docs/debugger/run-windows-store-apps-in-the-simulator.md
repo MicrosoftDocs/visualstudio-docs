@@ -1,5 +1,5 @@
 ---
-title: "Run Windows Store apps in the simulator | Microsoft Docs"
+title: "Run UWP and Windows 8.1 apps in the simulator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -19,12 +19,12 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Run Windows Store apps in the simulator
-The Visual Studio simulator for Windows Store apps is a desktop application that simulates a Windows Store app. You can run applications and simulate common touch and rotation events on your development computer. You can also choose the physical screen size and resolution that you want to emulate and simulate network connection properties.  
+# Run UWP and Windows 8.1 apps in the simulator
+The Visual Studio simulator for UWP and Windows 8.1 apps is a desktop application that simulates a UWP or Windows 8.1 app. You can run applications choose the physical screen size and resolution that you want to emulate. You can also simulate common touch and rotation events and simulate network connection properties.
   
- The simulator provides an environment in which you can design, develop, debug, and test Windows Store apps. However, before you publish your app to the Windows Store, you should test your app on an actual device.  
+ The simulator provides an environment in which you can design, develop, debug, and test UWP apps. However, before you publish your app to the Microsoft Store, you should test your app on an actual device.  
   
- The Visual Studio simulator for Windows Store apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.  
+ The Visual Studio simulator for UWP apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.  
   
  See [Run Windows Phone apps in the emulator](../debugger/run-windows-phone-apps-in-the-emulator.md) for Windows Phone information.  
   
@@ -32,7 +32,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 >  The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation. If you need to do this kind of simulation, you can use the Visual Studio 2013 simulator on Windows 8.1 or earlier operating systems.  
   
 ##  <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target  
- To run your Windows Store app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar.  
+ To run your UWP app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar.  
   
  ![Running in the Simulator](../debugger/media/vsrun_f5_simulator.png "VSRUN_F5_Simulator")  
   
@@ -95,8 +95,8 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 > [!NOTE]
 >  You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Design and UI intro](/windows/uwp/layout/design-and-ui-intro). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.  
   
-##  <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to the Windows Store  
- When you submit an app to the Windows app store, you must include screenshots of the app.  
+##  <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to Microsoft Store  
+ When you submit an app to Microsoft Store, you must include screenshots of the app.  
   
 > [!NOTE]
 >  The screenshot is saved at the current resolution of the simulator. To change the resolution, choose the **Change Resolution** button.  
@@ -142,7 +142,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
  [How to respond to system events with background tasks](http://msdn.microsoft.com/en-us/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
   
- [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
+ [How to trigger suspend, resume, and background events in UWP apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
 ##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  
