@@ -333,21 +333,21 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img width="48" height="48" alt=""
-src="/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img width="48" height="48" alt=""
-src="/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833063"><img width="48" height="48" alt=""
-src="/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
-src="/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img width="48" height="48" alt=""
-src="/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
-src="/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
-src="/media/logos/logo_Python.svg"><span>Python</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833070"><img width="48" height="48" alt=""
-src="/media/logos/logo_R.svg"><span>R</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a></div>
 </div>
 
 <h2>Workloads</h2>
