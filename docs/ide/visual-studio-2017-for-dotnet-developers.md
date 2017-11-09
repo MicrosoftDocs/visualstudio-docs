@@ -57,7 +57,7 @@ Visual Studio enables coding convention configuration, detects coding style viol
 
 Visual Studio includes a top-notch debugger that allows you to debug your .NET applications targeting the .NET Framework, .NET Standard, and .NET Core. Toggle and set conditional breakpoints (**F9**), step into method calls, evaluate LINQ and lambda expressions, set variable watches, reattach to processes, examine your call stack, or even make live code edits while debugging with *Edit and Continue*. 
 
-If you have your service running in Azure, use *Snapshot debugging* to diagnose issues on your live, deployed cloud applications in Visual Studio 2017 Enterprise.
+If your service runs in Azure, use *Snapshot debugging* to diagnose issues on your live, deployed cloud applications in Visual Studio 2017 Enterprise.
 
 ![Debugging in Visual Studio](../ide/media/VSIDE_Productivity_Debugging.png "VSIDE_Productivity_Debugging")  
 
