@@ -22,8 +22,6 @@ The connection property in the Application Settings file is missing or incorrect
   
 -   Click **OK**. The connection information that is contained in the .dbml file is added to application settings.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
- [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
