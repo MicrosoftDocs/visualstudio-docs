@@ -17,8 +17,6 @@
       items:
         - name: Cloud compute targets
           href: cloud-targets.md
-        - name: Supported Frameworks
-          href: supported-frameworks.md
     - name: How-To Guides
       items:
         - name: Train your model

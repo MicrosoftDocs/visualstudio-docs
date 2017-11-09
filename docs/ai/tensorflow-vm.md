@@ -1,7 +1,10 @@
 # Run a TensorFlow model in the cloud
-In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. Start by installing the following:
+In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. 
 
-## Setup Azure Deep Learning Virtual Machine
+## Prerequisites
+Before you begin, ensure you have the following installed and configured:
+
+### Setup Azure Deep Learning Virtual Machine
 
 > [!NOTE] 
 > Set **Location** to US West 2 and **OS type** as Linux.
@@ -36,18 +39,18 @@ export LD_LIBRARY_PATH=/usr/local/cudnn-6.0/cuda/lib64:$LD_LIBRARY_PATH
 export PATH=/anaconda/envs/py35/bin:$PATH
 ``` 
 
-## Download sample code
+### Download sample code
 Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) containing samples for getting started with deep learning across TensorFlow, CNTK, Theano and more. 
 
 ## Open Project 
 
-1. Launch Visual Studio and select **File > Open > Project/Solution**.
+- Launch Visual Studio and select **File > Open > Project/Solution**.
 
-2. Select the folder containing the samples dowloaded earlier.
+- Select the folder containing the samples dowloaded earlier.
 
 ## Add Azure Remote VM
 
-In Server Explorer, right click the **Remote Machines** node under the AI Tools node and select "Add…". Users need to provide Remote Machine display name, IP host, SSH port, user name and password/key file. 
+In Server Explorer, right click the **Remote Machines** node under the AI Tools node and select "Add…". Enter the Remote Machine display name, IP host, SSH port, user name and password/key file. 
 
 ![Add a new remote machine](media\tensorflow-vm\add-remote-vm.png)
 
@@ -58,11 +61,11 @@ Right click on MNIST project in **Solution Explorer** and select **Submit Job**.
 
 In the submission window:
 
-1. In the list of **Cluster to use**, select the remote machine (with "rm:" prefix) to submit the job to.
+- In the list of **Cluster to use**, select the remote machine (with "rm:" prefix) to submit the job to.
 
-2. Enter a **Job name**. 
+- Enter a **Job name**. 
 
-3. Click **Submit**. 
+- Click **Submit**. 
 
 ## Check Status of Job
 To see status and details of jobs: expand the virtual machine you submitted the job to in the **Server Explorer**. Double click on **Jobs**.
