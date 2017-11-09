@@ -1,5 +1,5 @@
 ---
-title: "Deploy Windows Store apps from Visual Studio | Microsoft Docs"
+title: "Deploy UWP apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -19,10 +19,10 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Deploy Windows Store apps from Visual Studio
+# Deploy UWP apps from Visual Studio
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- The Visual Studio deployment functionality builds and registers Windows Store apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
+ The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
   
 -   When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
   
@@ -36,7 +36,7 @@ manager: ghogen
   
 -   Deploying an app that will be debugged when it is started by another app or method.
   
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a Windows Store app  
+##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app  
  Manually deploying an app is a simple process:  
   
 1.  If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).  
@@ -48,15 +48,15 @@ manager: ghogen
 3.  On the **Build** menu, choose **Deploy**  
   
 ##  <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device  
- **Prerequisites**  
+
+**Prerequisites**  
   
- To deploy an app to a remote device:  
+On a Windows 10 remote device, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). On Windows 10 devices running Creator's Update or later, the remote tools are automatically installed when you deploy your app. For more information, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
+
+> [!NOTE]
+> On Windows 8.1 and pre-Creator's Update versions of Windows 10, the Visual Studio Remote Tools must be installed on the remote device, and the remote debugger must be running. On Windows 8.1, you must also install a developer license.
   
--   A developer's license must be installed on the remote device.  
-  
--   The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.  
-  
-     Deployment uses the remote debugger network channel to send the app files to the remote device.  
+Deployment uses the remote debugger network channel to send the app files to the remote device.  
   
 #### To specify a remote device  
   
@@ -64,13 +64,17 @@ manager: ghogen
   
 2.  To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
   
-3.  Then choose the **Debug** node on the property pages window.  
+3.  Then choose the **Debug** node on the property pages window.
+
+4. For **Target device**, select **Remote Machine**.
+
+5. Under **Remote machine**, click **Find**.
   
-4.  You can type the name or IP address of the remote device, or you can choose the device from the **Select Remote Debugger Connection** dialog box.  
+4.  You can type the name or IP address of the remote device, or you can choose the device from the **Remote Connection** dialog box.  
   
      ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
   
-     The **Select Remote Debugger Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
+     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
   
  **Specifying the remote device in a JavaScript or Visual C++ project page**  
   
@@ -108,4 +112,5 @@ manager: ghogen
 -   On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
   
 ## See Also  
+ [Debug an installed app package](../debugger/debug-installed-app-package.md).   
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
