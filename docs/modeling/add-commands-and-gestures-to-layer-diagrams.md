@@ -256,9 +256,7 @@ namespace MyLayerExtensions // change to your preference
   
 -   Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.  
   
- For more information about how to decode other items when they are dragged onto the diagram, see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).  
   
 ## See Also  
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   
  [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
- [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)

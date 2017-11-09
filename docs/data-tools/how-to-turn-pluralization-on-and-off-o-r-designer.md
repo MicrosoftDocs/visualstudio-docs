@@ -27,16 +27,16 @@ By default, when you drag database objects that have names ending in s or ies fr
   
 2.  In the **Options** dialog box, expand **Database Tools**.  
   
-> [!NOTE]
->  Select **Show all settings** if the **Database Tools** node is not visible.  
+    > [!NOTE]
+    >  Select **Show all settings** if the **Database Tools** node is not visible.  
   
-1.  Click **O/R Designer**.  
+3.  Click **O/R Designer**.  
   
-2.  Set **Pluralization of names** to **Enabled** = **False** to set the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] so that it does not change class names.  
+4.  Set **Pluralization of names** to **Enabled** = **False** to set the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] so that it does not change class names.  
   
-3.  Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].  
+5.  Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].  
   
 ## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
- [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
+[LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
+[Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

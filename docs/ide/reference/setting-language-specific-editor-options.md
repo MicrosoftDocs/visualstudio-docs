@@ -18,10 +18,10 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Setting Language-Specific Editor Options
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
+# Setting language-specific editor options
+Visual Studio offers a variety of text editor options that apply to specific programming languages. You can configure options in the **Options** dialog box, which is accessed from the **Tools** menu. You can also configure some editor settings on a project- or codebase-basis by creating an EditorConfig file. See [Create portable, custom editor settings with EditorConfig](../../ide/create-portable-custom-editor-options.md).
   
-## In This Section  
+## Settings available in the Options dialog box  
  [Options, Text Editor, Basic (Visual Basic)](../../ide/reference/options-text-editor-basic-visual-basic.md)  
  Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] code.  
   
@@ -38,20 +38,12 @@ manager: ghogen
  Describes outlining, error identification, and XML documentation comment settings for C# and J#.  
   
  [Options, Text Editor, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md)  
- Describes settings that specify how the IntelliSense completion list behaves when you work in C# and J# code.  
-  
- [Validation, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
- Describes statement completion and error correction settings for cascading style sheets (CSS).  
-  
- [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
- Describes settings for checking HTML syntax based on the schema you select.  
+ Describes settings that specify how the IntelliSense completion list behaves when you work in C# and J# code. 
   
  [Options, Text Editor, XAML, Formatting](../../ide/reference/options-text-editor-xaml-formatting.md)  
  Describes settings for element and attribute arrangement in XAML documents.  
   
-## Related Sections  
- [Customizing the Editor](../../ide/customizing-the-editor.md)  
- Provides links to topics that explain the many aspects of the editor that you can set preferences for.  
-  
- [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)  
- Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).
+## See also  
+[Customizing the Editor](../../ide/customizing-the-editor.md)  
+[Create portable, custom editor settings with EditorConfig](../../ide/create-portable-custom-editor-options.md)  
+[Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md) &mdash; Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).
