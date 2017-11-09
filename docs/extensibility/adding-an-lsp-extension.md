@@ -22,7 +22,7 @@ The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC
 
 ## Language Server Protocol
 
-For more information on the protocol itself, please see documentation [here](https://github.com/Microsoft/language-server-protocol). Visual Studio’s implementation of Language Server Protocol is in preview, and support should be considered experimental. The preview release will be in the form of a VSIX (Language Server Protocol Client Preview [Link Needed]), **but this VSIX can only be installed on the preview channel of Visual Studio**. A later release of Visual Studio will include built-in support for Language Server Protocol, at which time the Preview flag will be dropped. **You should not use this for production purposes at this time.**
+For more information on the protocol itself, please see documentation [here](https://github.com/Microsoft/language-server-protocol). Visual Studio’s implementation of Language Server Protocol is in preview, and support should be considered experimental. The preview release will be in the form of an extension ([Language Server Protocol Client Preview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)), **but this extension can only be installed on the preview channel of Visual Studio**. A later release of Visual Studio will include built-in support for Language Server Protocol, at which time the Preview flag will be dropped. **You should not use this for production purposes at this time.**
 
 For more information on how to create a sample language server or how to integrate an existing language server into Visual Studio Code, please see documentation [here](https://code.visualstudio.com/docs/extensions/example-language-server).
 
@@ -45,7 +45,7 @@ The following LSP features are supported in Visual Studio so far:
 Message | Has Support in Visual Studio
 --- | ---
 initialize | yes
-initialized | yes
+initialized | 
 shutdown | yes
 exit | yes
 $/cancelRequest | yes
@@ -95,7 +95,7 @@ Next create a new blank VSIXProject by navigating to **File** > **New Project** 
 
 ![create vsix project](media/lsp-vsix-project.png)
 
-For the preview release, VS support for the LSP will be in the form of a VSIX (Microsoft.VisualStudio.LanguageServer.Client.Preview). Extension developers who wish to create an extension using LSP language servers must take a dependency on this VSIX. This means that for customers wishing to install a language server extension **must first install the Language Server Protocol Client Preview VSIX.**
+For the preview release, VS support for the LSP will be in the form of a VSIX ([Microsoft.VisualStudio.LanguageServer.Client.Preview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)). Extension developers who wish to create an extension using LSP language servers must take a dependency on this VSIX. This means that for customers wishing to install a language server extension **must first install the Language Server Protocol Client Preview VSIX.**
 
 To define the VSIX dependency, open the VSIX manifest designer for your VSIX (by double clicking the source.extension.vsixmanifest file in your project) and navigate to **Dependencies**:
 
@@ -110,7 +110,7 @@ Create a new dependency like the following:
 * **Identifier**: Microsoft.VisualStudio.LanguageServer.Client.Preview
 * **Version Range**: [1.0,2.0)
 * **How is dependency resolved**: Installed by User
-* **Download URL**: [Link to Marketplace URL](tbd)
+* **Download URL**: [https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)
 
 >Note that the **Download URL** should always be filled in so users installing your extension will know how to install the required dependency.
 
@@ -149,7 +149,7 @@ This adds "Grammars" folder in the package’s install directory as a repository
 
 After creating your VSIX project, add the following NuGet package(s) to your project:
 
-* [Microsoft.VisualStudio.LanguageServer.Client](tbd)
+* [Microsoft.VisualStudio.LanguageServer.Client](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)
 
 You can then create a new class which implements the [ILanguageClient](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017) interface, the main interface needed for language clients connecting to a LSP based language server.
 
@@ -170,8 +170,8 @@ namespace MockLanguageExtension
 
         public IEnumerable<string> FilesToWatch => null;
 
-        public event AsyncEventHandler StartAsync;
-        public event AsyncEventHandler StopAsync;
+        public event AsyncEventHandler<EventArgs> StartAsync;
+        public event AsyncEventHandler<EventArgs> StopAsync;
 
         public async Task<Connection> ActivateAsync(CancellationToken token)
         {
@@ -269,6 +269,7 @@ After adding a content type definition, you can then define when to load your la
     [Export(typeof(ILanguageClient))]
     public class BarLanguageClient : ILanguageClient
     {
+    }
 ```
 
 Note that adding support for LSP language servers does not require you to implement your own project system in Visual Studio. Customers can open a single file or a folder in Visual Studio to start using your language service. In fact, support for LSP language servers is designed to work only in open folder/file scenarios. Some features, such as settings, will not work if a custom project system is implemented.
@@ -399,7 +400,6 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
     {
         return await this.customMessageRpc.InvokeAsync<string>("OnCustomRequest", test);
 }
-}
 ```
 
 ### Middle Layer
@@ -437,7 +437,7 @@ The middle layer feature is still under development and not yet comprehensive.
 
 ## Sample LSP language server extension
 
-To see the source code of a sample extension using the LSP client API in Visual Studio, please see [here](tbd).
+To see the source code of a sample extension using the LSP client API in Visual Studio, please see [here](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/LanguageServerProtocol).
 
 ## FAQ
 
