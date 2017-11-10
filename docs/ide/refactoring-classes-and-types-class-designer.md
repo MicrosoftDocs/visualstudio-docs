@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/refactoring-classes-and-types
+redirect_url: /visualstudio/ide/class-designer/refactoring-classes-and-types
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/creating-and-configuring-type-members
+redirect_url: /visualstudio/ide/class-designer/creating-and-configuring-type-members
 ---

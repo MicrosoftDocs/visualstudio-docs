@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/working-with-class-diagrams
+redirect_url: /visualstudio/ide/class-designer/working-with-class-diagrams
 ---

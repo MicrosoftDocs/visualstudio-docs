@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/how-to-print-class-diagrams
+redirect_url: /visualstudio/ide/class-designer/how-to-print-class-diagrams
 ---

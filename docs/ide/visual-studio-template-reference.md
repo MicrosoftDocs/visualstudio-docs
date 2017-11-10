@@ -1,3 +1,3 @@
 ---
-redirect_url: ../ide/creating-project-and-item-templates.md
+redirect_url: /visualstudio/ide/creating-project-and-item-templates.md
 ---
