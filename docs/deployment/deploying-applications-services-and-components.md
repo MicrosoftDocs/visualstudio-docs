@@ -43,7 +43,7 @@ For a discussion of options to create a setup experience for a Windows app, see 
 | Deployment Scenario | Supporting Content |
 | --- | --- |  
 | **Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](http://msdn.microsoft.com/library/windowsazure/ee460772.aspx) |
-| **Publish a Windows app:** You can easily build, submit, and sell your apps from the Windows Store to customers around the world. |[Publish Windows apps](https://developer.microsoft.com/store/publish-apps) |
+| **Publish a Windows app:** You can easily build, submit, and sell your apps from Microsoft Store to customers around the world. |[Publish Windows apps](https://developer.microsoft.com/store/publish-apps) |
 | **Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment) |
 | **Publish an add-in for Office:** You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
 | **Deploy a WCF or OData service:** Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](https://docs.microsoft.com/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |

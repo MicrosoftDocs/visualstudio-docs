@@ -47,13 +47,13 @@ Use this dialog box to modify the settings for editor formatting, code refactori
   
 -   Invalid [Edit and Continue](../../debugger/edit-and-continue.md) edits are purple.  
   
- Move the pointer over the underlined code segment to see a ToolTip with information about the error.  
+Move the pointer over the underlined code segment to see a ToolTip with information about the error.  
   
- Show live semantic errors  
- Identifies certain compile errors without explicit compilation, for example, declaring and using an unknown type or referencing an unknown property.  
+Show live semantic errors  
+Identifies certain compile errors without explicit compilation, for example, declaring and using an unknown type or referencing an unknown property.  
   
- Highlight references to symbol under cursor  
- When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.  
+Highlight references to symbol under cursor  
+When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.  
   
 ## Refactoring  
  Verify results of refactoring  

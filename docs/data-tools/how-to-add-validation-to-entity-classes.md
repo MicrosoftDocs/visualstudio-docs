@@ -117,7 +117,7 @@ ms.technology: "vs-data-tools"
     }  
     ```  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
- [Validating Data](validate-data-in-datasets.md)
+## See also
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
+[Validating Data](../data-tools/validate-data-in-datasets.md)  
+[LINQ to SQL (.NET Framework)](/dotnet/framework/data/adonet/sql/linq/index)  

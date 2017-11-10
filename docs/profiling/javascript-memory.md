@@ -29,7 +29,7 @@ ms.author: "mikejo"
 manager: ghogen
 ---
 # Analyze JavaScript Memory Usage in UWP Apps
-The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your Store apps built for Windows using JavaScript. Supported apps include apps for Universal Windows Apps.
+The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your UWP apps built for Windows using JavaScript. Supported apps include apps for Universal Windows Apps.
   
  The JavaScript memory analyzer can do these things for you:  
   
@@ -64,13 +64,13 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
  [Tips for identifying memory issues](#Tips)  
   
 ##  <a name="Run"></a> Run the JavaScript memory analyzer  
- You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.  
+ You can use the memory analyzer when you have a working UWP app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.  
   
 #### To run the memory analyzer  
   
 1.  Open Visual Studio.  
   
-2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either a Windows Phone Emulator or, for a Windows Store app, **Local Machine**, **Simulator**, or **Remote Machine**.  
+2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either a Windows Phone Emulator or, for a UWP app, **Local Machine**, **Simulator**, or **Remote Machine**.  
   
      For more info about these options, see [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md).  
   
@@ -84,11 +84,11 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
     -   **Startup Project**. Analyzes the current startup project. If you're running the app on a remote machine, you must choose this option, which is the default.  
   
-    -   **Running App**. Lets you select a Windows Store app from a list of running apps. You can't use this option when you're running your app on a remote machine.  
+    -   **Running App**. Lets you select a UWP app from a list of running apps. You can't use this option when you're running your app on a remote machine.  
   
          Use this option to analyze memory usage of apps that are running on your computer when you don't have access to source code.  
   
-    -   **Installed App**. Lets you select an installed Windows Store app that you want to analyze. You can't use this option when you're running your app on a remote machine.  
+    -   **Installed App**. Lets you select an installed UWP app that you want to analyze. You can't use this option when you're running your app on a remote machine.  
   
          Use this option to analyze the memory usage of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the memory usage of any app outside your own app development.  
   
@@ -386,7 +386,7 @@ if (performance && performance.mark) {
   
 -   Watch the latter part of [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
   
--   Read [Managing memory in Windows Store apps](http://msdn.microsoft.com/magazine/jj651575.aspx).  
+-   Read [Managing memory in UWP apps](http://msdn.microsoft.com/magazine/jj651575.aspx).  
   
 -   Consider temporarily modifying code to isolate problems. For example, you might want to:  
   
