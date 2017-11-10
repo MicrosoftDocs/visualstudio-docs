@@ -150,7 +150,7 @@
 ## [API Reference for IntelliTrace Extensibility](api-reference-for-intellitrace-extensibility.md)
 # [Debug Azure services](debug-azure-apps.md)
 ## [Debug a live Azure app](debug-live-azure-applications.md)
-### [FAQ for snapshot debugging](debug-live-azure-apps-faq.md)
+### [FAQ for snapshot debugging](debug-live-azure-apps-troubleshooting-faq.md)
 ### [Troubleshooting snapshot debugging](debug-live-azure-apps-troubleshooting.md)
 # [Debug applications](debugging-applications.md)
 ## [Debug UWP apps](debugging-windows-store-and-windows-universal-apps.md)
