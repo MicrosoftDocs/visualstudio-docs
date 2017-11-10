@@ -229,7 +229,7 @@
 ##### [CodeIndex Command](ide/codeindex-command.md)
 #### [Editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
 ## [Version Control](https://docs.microsoft.com/en-us/vsts/#pivot=services&panel=code)
-## [Access Data](https://go.microsoft.com/fwlink/?linkid=856607)
+## [Access Data](data-tools/TOC.md)
 ## [Design User Interfaces](designers/designing-user-interfaces.md)
 ## [Compile and Build](ide/compiling-and-building-in-visual-studio.md)
 ### [Walkthrough: Building an Application](ide/walkthrough-building-an-application.md)
