@@ -1,6 +1,8 @@
 # Run a TensorFlow model in the cloud
 In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. 
 
+The MNIST database has a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits.
+
 ## Prerequisites
 Before you begin, ensure you have the following installed and configured:
 
@@ -42,11 +44,11 @@ export PATH=/anaconda/envs/py35/bin:$PATH
 ### Download sample code
 Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) containing samples for getting started with deep learning across TensorFlow, CNTK, Theano and more. 
 
-## Open Project 
+## Open project
 
 - Launch Visual Studio and select **File > Open > Project/Solution**.
 
-- Select the folder containing the samples dowloaded earlier.
+- Select the **Tensorflow Examples** folder from the samples repository dowloaded and open the **TensorflowExamples.sln** file. 
 
 ## Add Azure Remote VM
 
@@ -54,7 +56,7 @@ In Server Explorer, right click the **Remote Machines** node under the AI Tools 
 
 ![Add a new remote machine](media\tensorflow-vm\add-remote-vm.png)
 
-## Submit Job to Azure VM
+## Submit job to Azure VM
 Right click on MNIST project in **Solution Explorer** and select **Submit Job**.
 
 ![Job submission to a remote machine](media\tensorflow-vm\job-submission.png)
@@ -67,8 +69,9 @@ In the submission window:
 
 - Click **Submit**. 
 
-## Check Status of Job
+## Check status of job 
 To see status and details of jobs: expand the virtual machine you submitted the job to in the **Server Explorer**. Double click on **Jobs**.
 
 ![Job browser](media\tensorflow-vm\job-browser.png)
 
+## Clean up resources

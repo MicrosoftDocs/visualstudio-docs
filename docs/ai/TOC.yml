@@ -2,7 +2,9 @@
   href: index.yml
   items:
     - name: Overview
-      href: overview.md
+      items:
+        - name: About AI Tools
+          href: about-ai-tools.md
     - name: Installation
       href: installation.md 
     - name: Quickstarts
@@ -17,7 +19,7 @@
       items:
         - name: Cloud compute targets
           href: cloud-targets.md
-    - name: How-To Guides
+    - name: How-to guides
       items:
         - name: Train your model
           href: train-your-model.md
@@ -26,7 +28,12 @@
         - name: Manage storage
           href: manage-storage.md
     - name: Samples
-      href: https://github.com/Microsoft/samples-for-ai
+      items:
+        - name: GitHub
+          href: https://github.com/Microsoft/samples-for-ai
+        - name: Machine Learning Gallery
+          href: https://gallery.cortanaintelligence.com/projects
+
 
 
     
