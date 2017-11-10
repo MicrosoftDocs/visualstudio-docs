@@ -163,6 +163,7 @@ You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it fr
 * Roslyn IL Optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 * Special variables, ie *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
 * Snapshot debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+* Snapshot debugging API Apps is not yet supported - they will be supported in a future version of VS.
 
 
 ## See Also  
