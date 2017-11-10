@@ -2,7 +2,7 @@
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/06/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:

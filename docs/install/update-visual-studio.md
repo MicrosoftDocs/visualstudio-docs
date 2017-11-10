@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "04/06/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
