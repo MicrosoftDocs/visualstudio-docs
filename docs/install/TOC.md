@@ -7,7 +7,6 @@
 # [Install Help Viewer](../ide/microsoft-help-viewer-installation.md)
 # [Repair Visual Studio](repair-visual-studio.md)
 # [Uninstall Visual Studio](uninstall-visual-studio.md)
-## [Remove Visual Studio](remove-visual-studio.md)
 # [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 ## [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 ## [Command-line parameter examples](command-line-parameter-examples.md)
