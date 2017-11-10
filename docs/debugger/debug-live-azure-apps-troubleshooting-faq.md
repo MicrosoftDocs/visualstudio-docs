@@ -46,11 +46,13 @@ Yes, snapshot debugging can work for servers under load. The Snapshot Debugger t
 #### How do I uninstall the Snapshot Debugger?
 
 You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
-1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure Portal.
-2. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net and navigate to **Site extensions**.
-3. Click the X on the Snapshot Debugger site extension to remove it.
 
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md)  
- [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
+1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure Portal.
+1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net and navigate to **Site extensions**.
+1. Click the X on the Snapshot Debugger site extension to remove it.
+
+## See also
+
+[Debugging in Visual Studio](../debugger/index.md)  
+[Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md)  
+[Troubleshooting and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)
