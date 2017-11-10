@@ -30,7 +30,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
   
  In native code, you can use the **Tasks** window when you work with [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information about tasks in native code, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).  
   
- In JavaScript, you can use the Tasks window when you are working with promise .then code. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.   
+ In JavaScript, you can use the Tasks window when you are working with promise .then code. See [Asynchronous programming in JavaScript (UWP apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.   
   
  You can use the **Tasks** window whenever you break into the debugger. You can access it on the **Debug** menu by clicking **Windows** and then clicking **Tasks**. The following illustration shows the **Tasks** window in its default mode.  
   

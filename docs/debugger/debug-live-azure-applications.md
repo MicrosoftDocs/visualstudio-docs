@@ -94,6 +94,8 @@ Only one snapshot is captured per snappoint by default: after a snapshot is capt
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button. 
 
+**Need help?** See our [Troubleshooting, FAQ, and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) page.
+
 ## Set a conditional snappoint
 
 If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. You can use conditional snappoints to avoid taking a snapshot until the app enters a desired state (such as a state in which a variable has a particular value you're interested in). You can set conditions using expressions, filters, or hit counts.
@@ -130,41 +132,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     If you choose **Send to application log**, when the logpoint is hit, the message will appear anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
-## Frequently Asked Questions
-
-#### What is the performance cost of taking a snapshot? 
-When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app; instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a very small in-memory cost (on the order of hundreds of kilobytes for most apps). 
-
-#### What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
-When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the condtions specified will create a snapshot. If you have multiple snappoints, subsequent snapshots will come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs will send messages from every instance. 
-
-#### How does the Snapshot Debugger load symbols?
-The Snapshot Debugger requires you to have the correct symbols corresponding to your application either locally or deployed to your Azure App Service (embedded PDBs are currently not supported). The Snapshot Debugger will automatically download symbols from your Azure App Service. As of Visual Studio 2017 (version 15.2), deploying to Azure App Service will also deploy your app's symbols.
-
-#### Does the Snapshot Debugger work against release builds of my application?
-Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, we temporarily recompile that function back to a debug version and making it debuggable. When you stop the Snapshot Debugger, the functions are returned to their release build. 
-
-#### Can logpoints cause side effects in my production application?
-No - any log messages you add to your app are evaluated virtually. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints. 
-
-#### Does the Snapshot Debugger work if my server is under load?
-Yes, snapshot debugging can work for servers under load. The Snapshot Debugger will throttle and not capture snapshots in situations where there is a low amount of free memory on your server.
-
-#### How do I uninstall the Snapshot Debugger?
-You can uninstall the Snapshot Debugger from Visual Studio by uninstalling it from **Tools / Extension and Updates**. Uninstalling the Snapshot Debugger site extension from your App Service currently must be done manually. You can uninstall the Snapshot Debuggger site extension on your App Service with the following steps:
-1. Navigate to your App Service's Kudu site (ie yourappservice.**scm**.azurewebsites.net and navigate to the **Debug console**.
-2. Navigate to D:/home/SiteExtensions/Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone and delete the applicationHost.xdt.
-3. Navigate to the **Process explorer** in Kudu and kill all w3wp.exe processes (note that this will restart your site).
-4. Navigate to the **Debug console** and delete the Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone folder from D:/home/SiteExtensions and D:/home/site/siteextensions.
-
-## Known Issues
-
-* Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
-* Roslyn IL Optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
-* Special variables, ie *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
-* Snapshot debugging does not work on App Services which have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
-* Snapshot debugging API Apps is not yet supported - they will be supported in a future version of VS.
-
-
 ## See Also  
- [Debug Azure apps](../debugger/debug-azure-apps.md)
+ [Debug Azure apps](../debugger/debug-azure-apps.md)  
+ [Troubleshooting and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)  
+ [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)

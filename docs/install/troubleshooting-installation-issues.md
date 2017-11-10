@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting installation issues | Microsoft Docs"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
-ms.date: "08/28/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -43,11 +43,10 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 ### Step 4 - Report a problem
 In some situations, such as those related to corrupted files, the problems may have to be looked at on a case-by-case basis:
 
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-the-visual-studio-installation-logs) below for details.
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-the-visual-studio-installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
-![Tab to the Report New Problem button, then follow through the steps](media/problem-report-details.png)
 4. Click **Next** to review your problem report, and then click **Submit**.
 
 ### Step 5 - Run InstallCleanup.exe to remove installation files
@@ -58,7 +57,7 @@ As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to rem
 3. Try to install or update Visual Studio again.
 
 ## Contact Us
-If none of the other steps allow you to successfully install, you can contact us by live chat for  installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 ## How to troubleshoot an offline installer
 Here is a table of known issues and some workarounds when installing from a local layout that might help.
@@ -82,3 +81,12 @@ To collect the logs
 
 > [!NOTE]
 > The tool must be run under the same user account that the failed installation was run under. If you are running the tool from a different user account, set the `–user:<name>` option to specify the user account under which the failed installation was run. Run `Collect.exe -?` from an administrator command prompt for additional options and usage information.
+
+## More support options
+You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+
+Here are a few more options:
+
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio)>  (This requires a [GitHub](https://github.com/) account).
