@@ -49,13 +49,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 1.  In the browser window, choose **Edit profile** and change the settings that you want.  
 
-<<<<<<< HEAD
-1.  Select **Edit profile** and change the settings that you want.  
-
-1.  When you're done, select **Save changes**.  
-=======
 1.  When you're done, choose **Save changes**.  
 
 ## See also  
-[Connected environment](../ide/connected-environment.md)  
->>>>>>> ad3d8314a34d16e36f6851fd9696938a11ede35e
+[Visual Studio IDE Overview](../ide/visual-studio-ide.md)

@@ -1,3 +1,3 @@
 ---
-redirect_url: what-can-you-do-with-visual-studio
+redirect_url: /visualstudio/ide/visual-studio-ide
 ---

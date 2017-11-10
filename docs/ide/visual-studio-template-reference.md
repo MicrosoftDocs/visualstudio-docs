@@ -1,3 +1,3 @@
 ---
-redirect_url: creating-project-and-item-templates
+redirect_url: ../ide/creating-project-and-item-templates.md
 ---

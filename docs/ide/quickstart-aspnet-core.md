@@ -73,8 +73,5 @@ First, you'll create an ASP.NET Core web application project. The project type c
 Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## See also   
-<<<<<<< HEAD
-=======
 [Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)
->>>>>>> ad3d8314a34d16e36f6851fd9696938a11ede35e
 [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)  
