@@ -202,12 +202,11 @@
 ##### [Change Text Case](ide/how-to-change-text-case-in-the-editor.md)
 ##### [Manage Editor Modes](ide/how-to-manage-editor-modes.md)
 ##### [Manage Editor Windows](ide/how-to-manage-editor-windows.md)
-##### [Change Fonts and Colors](ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+##### [Change Fonts and Colors](ide/how-to-change-fonts-and-colors-in-the-editor.md)
 ##### [Manage Word Wrap](ide/reference/how-to-manage-word-wrap-in-the-editor.md)
 ##### [Display Line Numbers](ide/reference/how-to-display-line-numbers-in-the-editor.md)
 ##### [Display URLs as Links](ide/reference/how-to-display-urls-as-links-in-the-editor.md)
 ##### [Setting Language-Specific Editor Options](ide/reference/setting-language-specific-editor-options.md)
-
 #### [Develop code in Visual Studio without projects or solutions](ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 #### [Create portable, custom editor settings with EditorConfig](ide/create-portable-custom-editor-options.md)
 #### [Track Your Code by Customizing the Scrollbar](ide/how-to-track-your-code-by-customizing-the-scrollbar.md)
