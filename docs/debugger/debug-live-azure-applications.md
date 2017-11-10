@@ -38,14 +38,14 @@ Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 E
 3. Open the project you would like to snapshot debug. 
 
     > [!NOTE] 
-    > In order to snapshot debug, you need to open the **same version of source code** that is published to your Azure Azure App Service. 
+    > In order to snapshot debug, you need to open the **same version of source code** that is published to your Azure App Service. 
 
-4. In the Cloud Explorer, right click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
+4. In the Cloud Explorer, right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger** to start the Snapshot Debugger.
 
     ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
 
     > [!NOTE] 
-    > The first time you select **Attach Snapshot Debugger**, you will be prompted to install the Snapshot Debugger on your Azure App Service. This installation requires a restart of your Azure App Service. 
+    > The first time you select **Attach Snapshot Debugger**, you are prompted to install the Snapshot Debugger on your Azure App Service. This installation requires a restart of your Azure App Service. 
 
    Visual Studio is now in snapshot debugging mode.
 
@@ -69,11 +69,11 @@ Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 E
     ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
 
     > [!TIP]
-    > You cannot step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end user session, even if there are multiple users hitting your app.
+    > You cannot step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger ensures that the corresponding snapshots are from the same end-user session, even if there are multiple users hitting your app.
 
 ## Take a snapshot
 
-When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed is executed. This execution can be caused by a real request on your server. To force your snappoint to hit, you can also go to the browser view of your web site and take any actions required that will cause your snappoint to be hit.
+When a snappoint is turned on, it will capture a snapshot whenever the line of code where the snappoint is placed is executed. This execution can be caused by a real request on your server. To force your snappoint to hit, you can also go to the browser view of your web site and take any actions required that cause your snappoint to be hit.
 
 ## Inspect snapshot data
 
@@ -94,7 +94,7 @@ Only one snapshot is captured per snappoint by default: after a snapshot is capt
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button. 
 
-**Need help?** See our [Troubleshooting, FAQ, and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) page.
+**Need help?** See the [Troubleshooting, FAQ, and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) page.
 
 ## Set a conditional snappoint
 
@@ -114,11 +114,11 @@ If it is difficult to recreate a particular state in your app, consider whether 
 
 ## Set a logpoint
 
-In addition to taking a snapshot when a snappoint is hit, you can also configure a snappoint to log a message (that is, create a logpoint). You can set logpoints without having to redploy your app. Logpoints are virtually executed and cause no impact or side effects to your running application.
+In addition to taking a snapshot when a snappoint is hit, you can also configure a snappoint to log a message (that is, create a logpoint). You can set logpoints without having to redeploy your app. Logpoints are virtually executed and cause no impact or side effects to your running application.
 
 #### To create a logpoint
 
-.1. Right-click a snappoint icon (the blue hexagon) and choose **Settings**.
+1. Right-click a snappoint icon (the blue hexagon) and choose **Settings**.
 
 2. In the snappoint settings window, select **Actions**.
 
@@ -130,7 +130,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint-output.png "Logpoint data in the .diagsession window")
 
-    If you choose **Send to application log**, when the logpoint is hit, the message will appear anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
+    If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
 ## See Also  
  [Debug Azure apps](../debugger/debug-azure-apps.md)  
