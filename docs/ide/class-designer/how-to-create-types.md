@@ -21,8 +21,7 @@ ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # How to: Create Types by using Class Designer
 To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  
@@ -92,9 +91,9 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
      When you're done, the custom attributes are applied to the type.  
   
-## See Also  
- [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)  
- [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
- [Creating and Configuring Type Members](creating-and-configuring-type-members.md)   
- [Working with Class Diagrams](working-with-class-diagrams.md)   
- [Designing Classes and Types](designing-classes-and-types.md)
+## See also
+[How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)  
+[How to: Create Associations Between Types](how-to-create-associations-between-types.md)
+[Creating and Configuring Type Members](creating-and-configuring-type-members.md)   
+[Working with Class Diagrams](working-with-class-diagrams.md)   
+[Designing Classes and Types](designing-classes-and-types.md)

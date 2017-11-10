@@ -22,13 +22,12 @@ ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # Working with Visual C++ Code (Class Designer)
 Class Designer displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.  
 
- Class Designer supports the following C++ code elements:  
+Class Designer supports the following C++ code elements:  
 
 -   Class (resembles a managed class shape, except that it can have multiple inheritance relationships)  
 
@@ -50,15 +49,15 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 ## Troubleshooting Type Resolution and Display Issues  
 
 ### Location of Source Files  
- Class Designer does not keep track of the location of source files. Therefore, if you modify your project structure or move source files in your project, Class Designer can lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
+Class Designer does not keep track of the location of source files. Therefore, if you modify your project structure or move source files in your project, Class Designer can lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
 
 ### Update and Performance Issues  
- For Visual C++ projects, it might take 30 to 60 seconds for a change in the source file to appear in the class diagram. This delay might also cause Class Designer to throw the error **No types were found in the selection**. If you receive an error such as this, click **Cancel** in the error message and wait for the code element to appear in Class View. After you do this, Class Designer should be able to display the type.  
+For Visual C++ projects, it might take 30 to 60 seconds for a change in the source file to appear in the class diagram. This delay might also cause Class Designer to throw the error **No types were found in the selection**. If you receive an error such as this, click **Cancel** in the error message and wait for the code element to appear in Class View. After you do this, Class Designer should be able to display the type.  
 
- If a class diagram does not update with changes you have made in the code, you might need to close the diagram and open it again.  
+If a class diagram does not update with changes you have made in the code, you might need to close the diagram and open it again.  
 
 ### Type Resolution Issues  
- Class Designer might not be able to resolve types for the following reasons:  
+Class Designer might not be able to resolve types for the following reasons:  
   
 -   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).  
   
@@ -68,7 +67,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 -   The type is located in a library referenced by an #import directive. A possible workaround is to manually add the generated code (the .tlh file) to an #include directive into the header file.  
 
- The error you are most likely to see for a type resolution issue is **Code could not be found for one or more shapes in class diagram '\<element>'**. This error message does not necessarily indicate that your code is in error. It indicates only that class designer was unable to display your code. Try the following measures.  
+The error you are most likely to see for a type resolution issue is **Code could not be found for one or more shapes in class diagram '\<element>'**. This error message does not necessarily indicate that your code is in error. It indicates only that class designer was unable to display your code. Try the following measures.  
 
 -   Ensure that the type exists. Ensure that you have not unintentionally commented out or deleted the source code.  
 
@@ -79,7 +78,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 -   Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.  
 
 ### Troubleshooting Other Error Messages  
- You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).  
+You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).  
 
 ##  <a name="limitations"></a> Limitations for C++ Code Elements  
 
@@ -103,12 +102,12 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 
 -   Class Designer cannot display types that are void or that derive from a void type.  
 
-## See Also  
- [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)   
- [Working with Class Diagrams](working-with-class-diagrams.md)   
- [Designing Classes and Types](designing-classes-and-types.md)   
- [Additional Information About Class Designer Errors](additional-information-about-errors.md)   
- [Visual C++ Classes in Class Designer](visual-cpp-classes.md)   
- [Visual C++ Structures in Class Designer](visual-cpp-structures.md)   
- [Visual C++ Enumerations in Class Designer](visual-cpp-enumerations.md)   
- [Visual C++ Typedefs in Class Designer](visual-cpp-typedefs.md)
+## See also
+[Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)   
+[Working with Class Diagrams](working-with-class-diagrams.md)   
+[Designing Classes and Types](designing-classes-and-types.md)   
+[Additional Information About Class Designer Errors](additional-information-about-errors.md)   
+[Visual C++ Classes in Class Designer](visual-cpp-classes.md)   
+[Visual C++ Structures in Class Designer](visual-cpp-structures.md)   
+[Visual C++ Enumerations in Class Designer](visual-cpp-enumerations.md)   
+[Visual C++ Typedefs in Class Designer](visual-cpp-typedefs.md)

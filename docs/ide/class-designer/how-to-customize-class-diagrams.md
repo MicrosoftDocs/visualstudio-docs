@@ -17,20 +17,19 @@ ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # How to: Customize Class Diagrams (Class Designer)
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.  
   
- For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.  
+For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.  
   
 > [!NOTE]
 >  Customizing the way that shapes appear on the diagram doesn't change the underlying code for the types represented on the diagram.  
   
- The sections that contain type members, such as the Properties section in a class, are called compartments. You can hide or show individual compartments and type members.  
+The sections that contain type members, such as the Properties section in a class, are called compartments. You can hide or show individual compartments and type members.  
   
- **In this topic**  
+**In this topic**  
   
 -   [Zoom in and out of the class diagram](how-to-customize-class-diagrams.md#ZoomInOut)  
   
@@ -128,7 +127,7 @@ You can change the way that class diagrams display information. You can customiz
  Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.  
   
 ##  <a name="RemoveCodeAndShape"></a> Remove a shape from a class diagram  
- You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.  
+You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.  
   
 1.  On the class diagram, select the type shape you want to remove from the diagram.  
   
@@ -144,8 +143,8 @@ You can change the way that class diagrams display information. You can customiz
   
      The shape is removed from the diagram and its underlying code is deleted from the project.  
   
-## See Also  
- [Working with Class Diagrams](working-with-class-diagrams.md)   
- [How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)   
- [How to: View Existing Types](how-to-view-existing-types.md)   
- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+## See also
+[Working with Class Diagrams](working-with-class-diagrams.md)   
+[How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)   
+[How to: View Existing Types](how-to-view-existing-types.md)   
+[Viewing Types and Relationships](viewing-types-and-relationships.md)

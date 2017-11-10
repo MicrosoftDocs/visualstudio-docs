@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/class-designer/designing-and-viewing-classes-and-types
+---
 title: "Designing Classes and Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -15,8 +17,7 @@ ms.assetid: 381481a2-87f4-475b-a780-18e85c8af350
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # Designing Classes and Types (Class Designer)
 Using **Class Designer**, you can not only visualize classes and types, but design them as well. The following topics describe how to do this.  
