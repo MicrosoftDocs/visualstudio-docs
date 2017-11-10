@@ -25,7 +25,7 @@ When you try to install or update Visual Studio 2017, the operation fails.
 To work around this issue, follow these steps.
 
 ### Step 1 - Check whether this problem is a known issue
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-knownissues).
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes#known-issues).
 
 ### Step 2 - Check with the developer community
 Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community may have documented a solution to your problem.
@@ -72,7 +72,7 @@ Setup logs are needed to troubleshoot most installation issues. When you submit 
 
 If you contact Microsoft Support, you may need to provide these setup logs by using the [Microsoft Visual Studio and .NET Framework Log Collection Tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio 2017, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for Visual Studio Installer, Windows Installer, and System Restore.
 
-To collect the logs
+To collect the logs:
 
 1. [Download the tool](https://aka.ms/vscollect).
 2. Open an administrative command prompt.
@@ -89,4 +89,9 @@ Here are a few more options:
 
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio)>  (This requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This requires a [GitHub](https://github.com/) account).
+
+## See also
+* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+* [Remove Visual Studio 2017](remove-visual-studio.md)
