@@ -24,7 +24,7 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 Enterprise (15.5+)**. 
+Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher. 
 
 > [!NOTE]
 > With some additional configuration, Application Insights can automatically capture snapshots when your app hits an exception. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
