@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/reference/accessibility-features-of-visual-studio
+---
 title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2017"
