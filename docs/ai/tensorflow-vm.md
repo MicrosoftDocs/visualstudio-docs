@@ -50,6 +50,10 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 
 - Select the **Tensorflow Examples** folder from the samples repository dowloaded and open the **TensorflowExamples.sln** file. 
 
+![Open project](media\tensorflow-local\open-project.png)
+
+![Open solution](media\tensorflow-local\open-solution.png)
+
 ## Add Azure Remote VM
 
 In Server Explorer, right click the **Remote Machines** node under the AI Tools node and select "Add…". Enter the Remote Machine display name, IP host, SSH port, user name and password/key file. 
@@ -75,3 +79,9 @@ To see status and details of jobs: expand the virtual machine you submitted the 
 ![Job browser](media\tensorflow-vm\job-browser.png)
 
 ## Clean up resources
+
+Stop the VM if you plan on using it in the near future. If you are finished with this tutorial, run the following command to clean up your resources:
+
+```azure-interactive
+az group delete --name myResourceGroup
+```
