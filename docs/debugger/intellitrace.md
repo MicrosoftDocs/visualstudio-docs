@@ -42,7 +42,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
+|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
 |**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)|  
 |**Collect IntelliTrace data from deployed applications**|-   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|  
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|-   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|  
@@ -52,7 +52,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 |||  
 |-|-|  
 |**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services).|  
-|**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  
+|**Limited support**|-   F# apps on an experimental basis<br />-   UWP apps supported for events only|  
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|  
   
 > [!NOTE]
@@ -103,14 +103,16 @@ You can spend less time debugging your application when you use IntelliTrace to 
 -   **Debugger events**  
   
      IntelliTrace always records events that happen in the Visual Studio debugger. For example, starting your application is a debugger event. Other debugger events are stopping events, which cause your application to break execution. For example, your program hits a breakpoint, hits a tracepoint, or executes a **Step** command.  
-  
-     To help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:  
+
+     By default, to help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:  
   
     -   Values in the **Locals** window. Keep the **Locals** window open to see these values.  
   
     -   Values in the **Autos** window only if the **Autos** window is open  
   
     -   Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.  
+
+    When IntelliTrace Events and Snapshots mode is enabled, IntelliTrace will take a snapshot of the application's process at each debugger **Breakpoint** and **Step** event. This will record values in the **Locals**, **Autos**, and **Watch** windows, regardless of whether the windows are open or not. Values in any pinned data tips will also be collected. 
   
 -   **Exceptions**  
   
