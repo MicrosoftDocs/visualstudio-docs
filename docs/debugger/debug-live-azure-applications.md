@@ -1,6 +1,6 @@
 ---
-title: "Debug live ASP.NET Azure apps | Microsoft Docs"
-ms.date: "07/26/2017"
+title: "Debug live ASP.NET Azure apps - Visual Studio | Microsoft Docs"
+ms.date: "11/13/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
