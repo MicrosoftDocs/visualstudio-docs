@@ -16,23 +16,24 @@ Searchscope: VS Subscription
 Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!
 
 ## Eligibility
-Visual Studio subscriptions include unlimited access to the full Pluralsight catalog of courses for three or six months, depending on which Visual Studio subscription you have.  
+Visual Studio subscriptions include unlimited access to the full Pluralsight catalog of courses for three or six months, depending on which Visual Studio subscription you have.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires.  Pluralsight will guide you through that process when your full catalog subscription expires.  
 
-
-| Subscription                                                     | Benefit                              |
-|------------------------------------------------------------------|--------------------------------------|
-| Visual Studio Enterprise standard & annual cloud subscriptions   | 6-month subscription       |
-| Visual Studio Professional standard & annual cloud subscriptions | 3-month subscription |
-| Visual Studio Test Professional                                  | 3-month subscription|
-| MSDN Platforms                                                   | 3-month subscription|
-| Visual Studio Dev Essentials                                     | 3-month subscription|  
+| Subscription                                                     | Full Catalog Access  | Limited Availability Catalogs |
+|------------------------------------------------------------------|----------------------|-------------------------------|
+| Visual Studio Enterprise standard & annual cloud subscriptions   | 6 month subscription |           12 months           |
+| Visual Studio Professional standard & annual cloud subscriptions | 3 month subscription |           12 months           |
+| Visual Studio Test Professional                                  | 3 month subscription |           12 months           |
+| MSDN Platforms                                                   | 3 month subscription |           12 months           |
+| Visual Studio Dev Essentials                                     | 2 month subscription |         Not available         |1234567
+ 
 
  **IMPORTANT:** When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message: 
  
  "Please note:   If you have previously activated a different Pluralsight offer through your Visual Studio subscription, this code may not enable you to create a new Pluralsight account."
 
-
  Depending on the type of subscription they have, not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers.   
+
+ 
 
 
 ## Activating your subscription
