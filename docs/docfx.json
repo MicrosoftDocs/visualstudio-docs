@@ -9,7 +9,8 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
