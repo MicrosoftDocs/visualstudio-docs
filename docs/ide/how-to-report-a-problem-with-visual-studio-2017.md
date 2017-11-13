@@ -61,9 +61,9 @@ Trace and heap dump files are very useful in helping us diagnose problems.  We a
 ###  <a name="submit_the_report"></a>  
  Click the **Submit** button to send your report, along with any images and trace or dump files. (If the **Submit** button is grayed out, make sure that you have provided a title and description for the report.)  
 
-## Alternate Reporting
+## Alternate reporting
 ###  <a name="alternate_reporting"></a>  
- If you cannot complete the Visual Studio installation, or cannot access the tool described above within Visual Studio, the feedback tool is also accessible from the VS Installer. Click the feedback icon to the left of the window close and follow the above steps.
+ If you cannot complete the Visual Studio installation, or you cannot access the feedback tool within Visual Studio, the feedback tool is also available from the Visual Studio Installer. Click the feedback icon in the upper-right corner of the Visual Studio Installer and then follow the steps outlined in this article.
 
 ## See Also  
  [Talk to Us](../ide/talk-to-us.md)
