@@ -66,6 +66,8 @@ If your service runs in Azure, use *Snapshot debugging* to diagnose issues on yo
 
 Use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension to adopt the agile developer workflow.
 
+![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png "VSIDE_Productivity_SourceControl")
+
 ## Extensibility
 [Documentation: Extending Visual Studio](../extensibility/index.md)
 
@@ -73,10 +75,10 @@ Visual Studio has a rich ecosystem of extensions that you can install or create 
 
 ![The Visual Studio Extension Gallery](../ide/media/VSIDE_Productivity_Extensibility.png "VSIDE_Productivity_Extensibility")  
 
-## Popular extensions & shortcuts
+## <a name="shortcuts"></a>Popular extensions & shortcuts
 If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
 - [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.Emacsemulation)
-- [HotKeys for Visual Studio (IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
+- [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
 | Shortcut (All Profiles) | Command | Description |
