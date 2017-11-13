@@ -24,7 +24,7 @@ To install CUDA
 - Make sure to install the CUDA runtime libraries, and then add CUDA binary path to the %PATH% or $Path environment variable.
 - On Windows, this path is "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" by default.
 
-![install CUDA on Windows](\media\prepare-local-machine\install_cuda_win.png)
+![install CUDA on Windows](media\prepare-local-machine\install_cuda_win.png)
 
 ### cuDNN
 
@@ -52,7 +52,7 @@ Python has been the primary programming language for deep learning applications.
 
 Deep learning frameworks rely on pip for their own installation.
 
-![install Python on Windows](\media\prepare-local-machine\install_python_win.png)
+![install Python on Windows](media\prepare-local-machine\install_python_win.png)
 
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 

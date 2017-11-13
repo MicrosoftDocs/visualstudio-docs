@@ -20,8 +20,8 @@ To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsf
 
 1. **Tools**> **Extensions and Updates** 
 
-![install CUDA on Windows](\media\installation\extensions.png)
+![install CUDA on Windows](media\installation\extensions.png)
 
-1. **Search** in upper right hand corner for "Tools for AI"
+1. **Search** in upper right-hand corner for "Tools for AI"
 2. Select **Visual Studio Tools for AI**
 3. Click **Download**
