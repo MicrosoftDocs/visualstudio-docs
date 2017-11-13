@@ -1,5 +1,5 @@
 ---
-title: "How to: Write Unit tests for C++ DLLs | Microsoft Docs"
+title: "Write Unit tests for C++ DLLs in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
@@ -12,6 +12,9 @@ ms.assetid: 84575412-1de7-4e53-811d-ae035eb21d13
 ms.author: mblome
 manager: ghogen
 ---
+
+# Write Unit tests for C++ DLLs in Visual Studio
+
  There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:  
   
  **The unit tests call only functions that are exported from the DLL:**  
