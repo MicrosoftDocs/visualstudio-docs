@@ -153,7 +153,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-blocks.svg" alt="" />
+                            <img src="../images/logo_git-blk.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -297,7 +297,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="" />
+                            <img src="../images/i_dev-ops.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -366,7 +366,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_win32-com.svg"><span>Wind
 <div class="ico48Case halfStack">
 <div class="container intro"><p>Develop modern web apps using Visual Studio and powerful open tools. </p></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833085"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/common/i_web.svg"><span>Web development</span></a></div>
+src="../images/i_web-color.svg"><span>Web development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833086"><img width="48" height="48" alt=""
 src="../images/logo_azure.svg"><span>Azure development and management</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
@@ -378,7 +378,7 @@ src="../data-tools/media/logo_azure-sql-database.svg"><span>Data storage and pro
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834748"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>Data science and analytical applications</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833075"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_sharepoint.svg"><span>Office and SharePoint development</span></a></div>
+src="../images/logo_office.svg"><span>Office and SharePoint development</span></a></div>
 </div>
 <h3>Mobile & Gaming</h3>
 <div class="ico48Case halfStack">
@@ -386,7 +386,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_sharepoint.svg"><span>Off
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833088"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_xamarin.svg"><span>Mobile development with .NET</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833091"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/common/i_setup.svg"><span>Game development with Unity</span></a></div>
+src="../images/logo_unity.svg"><span>Game development with Unity</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833089"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_cordova.svg"><span>Mobile development with JavaScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833090"><img width="48" height="48" alt=""
@@ -399,7 +399,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_win32-com.svg"><span>Game
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=834750"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_vs-ide.svg"><span>Visual Studio extension development</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833099"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_linux.svg"><span>Linux development with C++</span></a></div>
+src="../images/logo_linux-color.svg"><span>Linux development with C++</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=856606"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_NETcore.svg"><span>.NET Core cross-platform development</span></a></div>
 </div>
