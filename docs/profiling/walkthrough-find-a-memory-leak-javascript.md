@@ -24,7 +24,7 @@ manager: ghogen
 # Walkthrough: Find a memory leak (JavaScript)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- This walkthrough leads you through the process of identifying and fixing a simple memory issue by using the JavaScript memory analyzer. The JavaScript memory analyzer is available in Visual Studio for Windows Store apps built for Windows using JavaScript. In this scenario, you create an app that incorrectly retains DOM elements in memory instead of disposing of elements at the same rate in which they are created.  
+ This walkthrough leads you through the process of identifying and fixing a simple memory issue by using the JavaScript memory analyzer. The JavaScript memory analyzer is available in Visual Studio for UWP apps built for Windows using JavaScript. In this scenario, you create an app that incorrectly retains DOM elements in memory instead of disposing of elements at the same rate in which they are created.  
   
  Although the cause of the memory leak in this app is very specific, the steps shown here demonstrate a workflow that is typically effective in isolating objects that are leaking memory.  
   
@@ -133,7 +133,7 @@ manager: ghogen
 1.  On the **Debug** toolbar, in the **Start Debugging** list, choose the debug target for the updated project: either one of the Windows Phone Emulators or **Simulator**.  
   
     > [!TIP]
-    >  For a Windows Store app, you can also choose **Local Machine** or **Remote Machine** in this list. However, the advantage of using the emulator or the simulator is that you can place it next to Visual Studio and easily switch between the running app and the JavaScript memory analyzer. For more info, see [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md) and [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
+    >  For a UWP app, you can also choose **Local Machine** or **Remote Machine** in this list. 
   
 2.  On the **Debug** menu, choose **Performance Profiler...**.  
   
