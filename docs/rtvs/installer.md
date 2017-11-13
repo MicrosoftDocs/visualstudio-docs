@@ -34,6 +34,6 @@ Thank you for installing R Tools for Visual Studio (RTVS)! Check it out and let 
 
 RTVS supports CRAN R, and Microsoft R distributions, including the version of R that is distributed with SQL Server 2016. The following links provide more information on the different Microsoft R distributions:
 
-* [Microsoft R Open](https://mran.microsoft.com/download/)
-* [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started)
-* [Microsoft R Server](https://www.microsoft.com/server-cloud/products/r-server/)
+- [Microsoft R Open](https://mran.microsoft.com/download/)
+- [Microsoft R Client](/machine-learning-server/r-client/what-is-microsoft-r-client)
+- [Microsoft Machine Learning Server (formerly R Server)](/machine-learning-server/)
