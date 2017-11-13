@@ -4,14 +4,14 @@ description: "Domain policies and other configuration operations for enterprise 
 ms.date: "05/05/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-install"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "gpo"
   - "policy"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
@@ -54,9 +54,11 @@ You can set the following registry values:
 > If you change the `CachePath` registry policy after any installs you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have Full Control and `Everyone` has Read access.
 > Failure to move the existing cache or securing it may cause problems with future installs.
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
+
 ## See also
 
  * [Install Visual Studio](install-visual-studio.md)
  * [Disable or move the package cache](disable-or-move-the-package-cache.md)
  * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
- * [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
