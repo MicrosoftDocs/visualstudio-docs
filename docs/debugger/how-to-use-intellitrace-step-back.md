@@ -17,7 +17,7 @@ manager: "ghogen"
 # View snapshots using IntelliTrace step-back
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
-IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Debugging ASP.NET Core or UWP applications is not currently supported. 
+IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Debugging ASP.NET Core, .NET Core, or UWP applications is not currently supported. 
   
 ## Enable IntelliTrace events and snapshots mode 
 To enable the feature, go to **Tools > Options > IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
@@ -28,10 +28,9 @@ IntelliTrace takes a snapshot of the application's process on each debugger step
 
 A camera icon appears next to the events for which snapshots are available. 
 
- ![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "Events tab with snapshots on breakpoints and steps")
+![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "Events tab with snapshots on breakpoints and steps")
 
-> [!TIP]
->  For performance reasons, snapshots are not taken when you step very quickly. If no camera icon appears next to the step, try stepping more slowly.
+For performance reasons, snapshots are not taken when you step very quickly. If no camera icon appears next to the step, try stepping more slowly.
 
 ## Navigate and view snapshots
 
@@ -54,14 +53,17 @@ You can also view a snapshot from the **Events** tab. Select an event with a sna
 
 ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
 
-> [!NOTE]
->  Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
+Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
 
 ![Overview of IntelliTrace step-back](../debugger/media/intellitrace-step-back-overview.png "Overview of IntelliTrace Step-back")
 
+## Next steps  
+ To learn how to inspect variables in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md)  
+ For an overview of historical debugging, see [Historical debugging](../debugger/historical-debugging.md).  
+
 ## Frequently Asked Questions
 
-#### How is IntelliTrace step-back different from IntelliTrace Events only mode?
+#### How is IntelliTrace step-back different from IntelliTrace events only mode?
 
 IntelliTrace in events only mode does allow you to activate historical debugging on debugger steps and breakpoints. However, IntelliTrace only captures data in the **Locals** and **Autos** windows if the windows are open, and it only captures data that is expanded and in view. In events only mode, you often do not have a complete view of the variables and complex objects. Additionally, expression evaluation and viewing data in the **Watch** window is not supported. 
 
@@ -91,7 +93,3 @@ The impact on overall stepping performance depends on your application. The over
     * Clear all snapshots by ending the debugging session. 
 
 * When saving a file with **Debug > IntelliTrace > Save IntelliTrace session** under events and snapshots mode, the additional data captured from snapshots is not available in the .itrace file. On breakpoint and step events, you see the same information as if you had saved the file in IntelliTrace events only mode. 
-
-## See Also  
- [IntelliTrace](../debugger/intellitrace.md)  
- [Debugger Basics](../debugger/debugger-basics.md)  
