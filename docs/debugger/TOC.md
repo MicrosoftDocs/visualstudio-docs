@@ -137,7 +137,7 @@
 ## [How to: Flag and unflag threads](how-to-flag-and-unflag-threads.md)
 ## [Debug on a high-performance cluster](how-to-debug-on-a-high-performance-cluster.md)
 ## [Tips for debugging threads in native code](tips-for-debugging-threads-in-native-code.md)
-## [How to: Set a thread mame in native code](how-to-set-a-thread-name-in-native-code.md)
+## [How to: Set a thread name in native code](how-to-set-a-thread-name-in-native-code.md)
 ## [How to: Set a thread name in managed code](how-to-set-a-thread-name-in-managed-code.md)
 # [IntelliTrace](intellitrace.md)
 ## [Walkthrough: Using IntelliTrace](walkthrough-using-intellitrace.md)
