@@ -174,7 +174,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_git-blue.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us//media/common/i_code-blocks.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -440,7 +440,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_azure.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_azure.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -458,7 +458,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_office.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_office.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -480,7 +480,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Python</h3>
+                        <h3>Python development</h3>
                     </div>
                 </div>
             </div>
@@ -498,7 +498,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Node.js</h3>
+                        <h3>Node.js development</h3>
                     </div>
                 </div>
             </div>
@@ -561,7 +561,7 @@ Create native or hybrid mobile apps that target Android, iOS, and Windows.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mobile development with .NET</h3>
+                        <h3>Mobile development with .NET<br/>(Xamarin)</h3>
                     </div>
                 </div>
             </div>
@@ -575,7 +575,7 @@ Create native or hybrid mobile apps that target Android, iOS, and Windows.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_unity.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_unity.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -597,7 +597,7 @@ Create native or hybrid mobile apps that target Android, iOS, and Windows.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mobile development with JavaScript</h3>
+                        <h3>Mobile development with JavaScript<br/>(Apache Cordova)</h3>
                     </div>
                 </div>
             </div>
@@ -629,11 +629,11 @@ Create native or hybrid mobile apps that target Android, iOS, and Windows.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_win32-com.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Game development with C++</h3>
+                        <h3>Game development with C++<br/>(Direct X)</h3>
                     </div>
                 </div>
             </div>
@@ -671,7 +671,7 @@ Create native or hybrid mobile apps that target Android, iOS, and Windows.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_linux-color.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_linux-color.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
