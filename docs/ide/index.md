@@ -33,17 +33,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/python/getting-started">
+        <a href="https://channel9.msdn.com/VisualStudio">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_python.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_video.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started using Python</h3>
+                        <h3>Visual Studio videos on Channel 9</h3>
                     </div>
                 </div>
             </div>
@@ -105,17 +105,17 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="https://channel9.msdn.com/VisualStudio">
+        <a href="/python/getting-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_video.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_python.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio videos on Channel 9</h3>
+                        <h3>Get started using Python</h3>
                     </div>
                 </div>
             </div>
