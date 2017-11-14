@@ -1,3 +1,17 @@
+---
+title: Run a TensorFlow model in the cloud
+description: run a tensorflow model in azure deep learning vm
+keywords: ai, visual studio, deep learning virtual machine
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 11/13/2017
+ms.topic: tutorial
+ms.technology: visual studio
+ms.devlang: python
+ms.service: multiple
+---
+
 # Run a TensorFlow model in the cloud
 In this tutorial, we will run a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine. 
 

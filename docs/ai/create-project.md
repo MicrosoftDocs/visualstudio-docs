@@ -1,3 +1,17 @@
+---
+title: Create project in AI Tools for Visual studio
+description: create project using sample from azure machine learning gallery
+keywords: ai, visual studio, azure machine learning
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 11/13/2017
+ms.topic: how to article
+ms.technology: visual studio
+ms.devlang: multiple
+ms.service: multiple
+---
+
 # Exploring project samples
 Visual Studio Tools for AI comes with a Sample Explorer via integration with Azure Machine Learning. The Sample Explorer makes it easy to discover samples and try them with only a few clicks. 
 
@@ -9,7 +23,7 @@ To open the explorer, do as follow:
 2. Enter "ML Sample". 
 3. You get a recommendation for "Machine Learning: Open Azure Machine Learning Samples Explorer", select it and press enter. 
 
-![sample explorer](media\about\gallery.png)
+![sample explorer](media\create-project\gallery.png)
 
 ## Creating a new project from the sample explorer 
 You can browse different samples and get more information about them. Let's browse until finding the "Classifying Iris" sample.

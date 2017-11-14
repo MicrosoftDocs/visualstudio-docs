@@ -43,3 +43,4 @@ sections:
     className: spaced noBullet
     items:
     - html: <a href="https://github.com/Microsoft/samples-for-ai">Samples Repository</a>
+    - html: <a href="https://gallery.cortanaintelligence.com/projects">Machine Learning Gallery</a>
