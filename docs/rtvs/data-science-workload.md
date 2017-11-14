@@ -38,17 +38,16 @@ By default, the workload installs the following options, which you can modify in
 
 - F# language support
 - Python:
-    - Python language support
-    - Python web support
-    - [Anaconda3 64-bit](https://www.continuum.io) (A Python distro that includes extensive data science libraries and a Python interpreter)
-    - Cookiecutter template support
+  - Python language support
+  - Python web support
+  - [Anaconda3 64-bit](https://www.continuum.io) (A Python distro that includes extensive data science libraries and a Python interpreter)
+  - Cookiecutter template support
 - R:
-    - R language support    
-    - [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started) (Microsoft’s fully compatible, community-supported R interpreter with ScaleR libraries for faster computation on single nodes or clusters. You can also use any R from [CRAN](https://cran.r-project.org/).)
-    - Runtime support for R development tools
+  - R language support
+  - [Microsoft R Client](/machine-learning-server/r-client/what-is-microsoft-r-client) (Microsoft’s fully compatible, community-supported R interpreter with ScaleR libraries for faster computation on single nodes or clusters. You can also use any R from [CRAN](https://cran.r-project.org/).)
+  - Runtime support for R development tools
 
-> [!Note]
-> Although F# is included with a number of other workloads and Python has a workload of its own, Data Science and Analytical Applications is the only workload at present that includes R. Independent of the workload, the three R components are also selectable on the **Individual Components** tab in the installer. Select the options **Development activities > R language support**, **Development activities > Microsoft R Client**, and **Compilers, build tools, and runtimes > Runtime support for R development tools**.
+Although F# is included with a number of other workloads and Python has a workload of its own, Data Science and Analytical Applications is the only workload at present that includes R. Independent of the workload, the three R components are also selectable on the **Individual Components** tab in the installer. Select the options **Development activities > R language support**, **Development activities > Microsoft R Client**, and **Compilers, build tools, and runtimes > Runtime support for R development tools**.
 
 ## SQL Server integration
 
@@ -69,7 +68,6 @@ By running your code where your data already lives, you enjoy a number of advant
 To take full advantage of SQL Server integration, you should also install the **Data storage and processing** workload with the **SQL Server Data Tools** option. This option enables SQL IntelliSense, syntax highlighting, and deployment.
 
 ![Data storage and processing workload](media/data-storage-workload.png) &nbsp;&nbsp; &nbsp;&nbsp; ![Data storage and processing workload options](media/data-storage-workload-options.png)
-
 
 For more information:
 
