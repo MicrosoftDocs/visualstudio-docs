@@ -44,6 +44,7 @@ Our research shows that most subscribers are covered by the number of product ke
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue Get Key button for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 
 ![Get Key from Downloads Page](_img/product-keys/download-get-key-cropped.png)
+
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the Get Key or button for the product.
 
@@ -77,6 +78,7 @@ To claim a product key:
 2.	Click on the [Product Keys](https://my.visualstudio.com/productkeys) tab.
 3.	Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.  
 ![Search for Product Key](_img\product-keys\visio-product-key-cropped.png)
+
 In this example, we’ll use the search bar to locate a product key for Visio 2010.
 As you can see, there are several versions of Visio 2010 listed.  One key each has already been claimed for Visio Standard 2010 and Visio Premium 2010, and both have four keys remaining.  The keys that were claimed are both retail keys, and are displayed on the page.  Notice that you can record a brief note about claimed keys in the “Notes” column.  You can use this in conjunction with the date in the “Claimed” column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.  
 
