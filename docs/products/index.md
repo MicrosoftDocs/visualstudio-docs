@@ -93,17 +93,17 @@ searchScope: []
                                 </a>
                             </li>
 							<li>
-                                <a href="https://docs.microsoft.com/mobile-center/" title="Visual Studio Mobile Center">
+                                <a href="https://docs.microsoft.com/mobile-center/" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio for Mac" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio App Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual Studio Mobile Center</h3>
+                                                    <h3>Visual Studio App Center</h3>
                                                     <p>Continuous integration, delivery, and learning for Android, iOS, macOS, and Windows apps. Ship 5-star, higher-quality apps faster and with confidence.</p>
                                                 </div>
                                             </div>
