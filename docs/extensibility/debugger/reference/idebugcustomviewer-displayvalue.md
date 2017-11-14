@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCustomViewer::DisplayValue"
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

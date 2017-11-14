@@ -79,7 +79,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
     ```python 
     for i in range(360):        
-        print(cos(radians(i))
+        print(cos(radians(i)))
     ```
 
 1. Run the program again with Ctrl+F5 or **Debug > Start Without Debugging**. Close the output window when you're done.

@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - add a menu command"
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
 caps.latest.revision: 46
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

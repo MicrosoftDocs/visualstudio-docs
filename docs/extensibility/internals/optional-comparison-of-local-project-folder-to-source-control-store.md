@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, local project folders"
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

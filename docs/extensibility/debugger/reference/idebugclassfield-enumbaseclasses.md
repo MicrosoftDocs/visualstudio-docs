@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugClassField::EnumBaseClasses method"
 ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

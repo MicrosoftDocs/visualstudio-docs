@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "SccGetParentProjectPath function"
 ms.assetid: 62a71579-36b3-48b9-a1c8-04ab100efa08
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

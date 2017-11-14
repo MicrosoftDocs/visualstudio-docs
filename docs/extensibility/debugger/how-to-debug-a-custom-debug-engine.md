@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

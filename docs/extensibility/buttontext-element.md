@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, ButtonText"
 ms.assetid: 56aba884-0356-4894-ae4e-32d3938f6865
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

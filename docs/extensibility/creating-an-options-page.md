@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], creating"
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 caps.latest.revision: 62
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "GETHOSTNAME_TYPE enumeration"
 ms.assetid: 2be92bea-8133-412b-9015-1833baf16e1b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

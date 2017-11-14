@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSPackages, managed package file location"
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

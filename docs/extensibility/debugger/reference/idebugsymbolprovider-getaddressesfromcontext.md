@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromContext method"
 ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

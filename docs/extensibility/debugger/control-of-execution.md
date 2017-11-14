@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], control of execution"
 ms.assetid: 97071846-007e-450f-95a6-f072d0f5e61e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

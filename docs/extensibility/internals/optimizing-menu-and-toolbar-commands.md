@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], commands"
 ms.assetid: 8385f1a6-1e98-4dca-83d2-fcbed7177242
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

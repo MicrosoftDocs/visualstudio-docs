@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode, Start entry point"
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

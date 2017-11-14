@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugFields::Next method"
 ms.assetid: 22c177a2-af81-4234-812b-f9b47be245a2
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

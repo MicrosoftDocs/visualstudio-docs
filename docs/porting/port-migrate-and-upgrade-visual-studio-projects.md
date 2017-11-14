@@ -1,7 +1,7 @@
 ---
 title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/24/2017
+ms.date: 07/24/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "commands [Visual Studio], adding icons"
 ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

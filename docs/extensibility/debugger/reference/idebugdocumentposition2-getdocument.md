@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDocumentPosition2::GetDocument"
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

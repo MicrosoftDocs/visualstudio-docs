@@ -1,7 +1,7 @@
 ---
-title: Python Options in Visual Studio | Microsoft Docs"
+title: "Python Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,6 +14,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools"
   - "VS.ToolsOptionsPages.Python_Tools.General"
   - "VS.ToolsOptionsPages.Python_Tools.Debugging"
+  - "VS.ToolsOptionsPages.Python_Tools.Diagnostics"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: "kraigb"
@@ -33,6 +34,7 @@ The specific options are described in the following sections:
 
 - [General options](#general-options)
 - [Debugging options](#debugging-options)
+- [Diagnostics options](#diagnostics-options)
 - [Interactive Windows options](#interactive-windows-options)
 - [Advanced Python editor options](#advanced-python-editor-options)
 
@@ -64,6 +66,17 @@ The specific options are described in the following sections:
 | Enable debugging of the Python standard library | Off | Makes it possible to step into the standard library source code while debugging, but increases the time it takes for the debugger to start.|
 
 ![Python options dialog, Debugging tab](media/options-debugging.png)
+
+
+## Diagnostics options
+
+| Option | Default | Description |
+| --- | --- | --- |
+| Include analysis logs | On | Includes detailed logs relating to analysis of installed Python environments when saving diagnostics to a file or copying them to the clipboard using the buttons. This option may significantly increase the size of the generated file, but is often required to diagnose IntelliSense issues. |
+| Save diagnostics to file (button) | n/a | Prompts for a filename, then saves the log to a text file. |
+| Copy diagnostics to clipboard (button) | n/a | Places the entirety of the log on the clipboard; this operation may take some time depending on the size of the log. |
+
+![Python options dialog, Diagnostics tab](media/options-diagnostics.png)
 
 ## Interactive Windows options
 

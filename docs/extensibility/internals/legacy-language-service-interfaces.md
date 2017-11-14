@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "language services, objects"
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "best practices, security"
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

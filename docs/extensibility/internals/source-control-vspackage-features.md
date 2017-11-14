@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "source control packages, features"
 ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

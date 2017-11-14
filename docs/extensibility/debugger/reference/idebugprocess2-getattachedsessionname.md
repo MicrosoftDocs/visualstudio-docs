@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProcess2::GetAttachedSessionName"
 ms.assetid: 7e5e116f-2c0c-4bc8-ad3f-e9fd2318a7e4
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "EnableEditOfLocationField (Visual Studio project templates)"
 ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

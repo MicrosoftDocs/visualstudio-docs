@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], persistance"
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

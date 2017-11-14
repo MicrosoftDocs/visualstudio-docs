@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - document locking"
 ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

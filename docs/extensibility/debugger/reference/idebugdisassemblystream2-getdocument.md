@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetDocument"
 ms.assetid: 3d039a44-ebaa-4413-ac18-7cfd92c408bd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

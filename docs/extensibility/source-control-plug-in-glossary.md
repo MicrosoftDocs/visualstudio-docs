@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control plug-ins, glossary"
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

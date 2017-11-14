@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "persistence, saving standard documents"
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

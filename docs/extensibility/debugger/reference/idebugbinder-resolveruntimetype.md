@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBinder::ResolveRuntimeType method"
 ms.assetid: 6456ab3e-1c03-4f3c-91f9-16797ab7f5e7
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
