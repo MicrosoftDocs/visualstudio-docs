@@ -1,5 +1,5 @@
 ---
-title: "Install certificates needed for Visual Studio offline installation | Microsoft Docs"
+title: "Install certificates required for Visual Studio offline installation | Microsoft Docs"
 description: "Describes the steps needed to install certificates for a Visual Studio offline installation"
 ms.date: "08/30/2017"
 ms.reviewer: "tims"
@@ -16,7 +16,7 @@ author: "timsneath"
 ms.author: "tglee"
 manager: ghogen
 ---
-# Install certificates needed for Visual Studio offline installation
+# Install certificates required for Visual Studio offline installation
 
 Visual Studio is primarily designed to be installed on an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 

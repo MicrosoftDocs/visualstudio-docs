@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "04/06/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -21,7 +21,7 @@ manager: ghogen
 We update Visual Studio often to extend its functionality and to fix customer-reported issues. To make sure you have the most [current, optimized release of Visual Studio](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes#release-history), you'll want to update it. Here's how.
 
 >[!IMPORTANT]
->To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio).
+>To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 ## Update by using the Notifications hub
 1. When there are updates, you will see a notification flag in Visual Studio.
