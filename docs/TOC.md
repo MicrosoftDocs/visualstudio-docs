@@ -38,12 +38,16 @@
 ### [Advanced Example for Containers](install/advanced-build-tools-container.md)
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
 # Quickstarts
-## [Create an ASP.NET Core web app](ide/quickstart-aspnet-core.md)
-## Create a .NET Core console app
-## Move around in the IDE
-## Work with Solutions and Projects
-## Personalize the Visual Studio IDE
-## [Finding and Using Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
+## IDE orientation
+## Write code in the editor
+## Personalize the IDE and editor
+## Work with solutions and projects
+## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
+## [C#: create a web app (ASP.NET Core)](ide/quickstart-aspnet-core.md)
+## Visual Basic: create a console app (.NET Core)
+## C++: create a console app
+## Python: create a web app
+## Node.js: create a web app
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
 ## [Getting Started with C++ in Visual Studio](ide/getting-started-with-cpp-in-visual-studio.md)

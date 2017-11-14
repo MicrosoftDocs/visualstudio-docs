@@ -33,42 +33,6 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-aspnet-core">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_NET.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started using .NET languages</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/cpp/">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started using Visual C++</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="/python/getting-started">
         <div class="cardSize">
             <div class="cardPadding">
@@ -98,6 +62,42 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                     </div>
                     <div class="cardText">
                         <h3>Visual Studio courses on Microsoft Virtual Academy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-aspnet-core">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_NET.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started using .NET languages</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/cpp/">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started using Visual C++</h3>
                     </div>
                 </div>
             </div>
@@ -136,14 +136,14 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_vb.svg"><span>Visual Basi
 src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833068"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833070"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833064"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>JavaScript</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 </div>
 
 <h2>Tasks</h2>
@@ -174,7 +174,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_git-blk.svg" alt="" />
+                            <img src="../images/logo_git-blue.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -452,6 +452,24 @@ Develop modern web apps using Visual Studio and powerful open tools.
         </a>
     </li>
     <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833075">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/logo_office.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Office and SharePoint development</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="https://go.microsoft.com/fwlink/?linkid=833068">
         <div class="cardSize">
             <div class="cardPadding">
@@ -488,24 +506,6 @@ Develop modern web apps using Visual Studio and powerful open tools.
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833095">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Data storage and processing</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://go.microsoft.com/fwlink/?linkid=834748">
         <div class="cardSize">
             <div class="cardPadding">
@@ -524,17 +524,17 @@ Develop modern web apps using Visual Studio and powerful open tools.
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833075">
+        <a href="https://go.microsoft.com/fwlink/?linkid=833095">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/logo_office.svg" alt="" />
+                            <img src="../data-tools/media/logo_azure-sql-database.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office and SharePoint development</h3>
+                        <h3>Data storage and processing</h3>
                     </div>
                 </div>
             </div>
