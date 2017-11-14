@@ -366,7 +366,7 @@ Develop apps and games using Visual Studio to reach every device running Windows
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Universal Windows Platform development</h3>
+                        <h3>Universal Windows Platform (UWP) development</h3>
                     </div>
                 </div>
             </div>
@@ -402,7 +402,7 @@ Develop apps and games using Visual Studio to reach every device running Windows
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Windows development with C++</h3>
+                        <h3>Desktop development with C++</h3>
                     </div>
                 </div>
             </div>
@@ -427,7 +427,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Web development</h3>
+                        <h3>ASP.NET and Web development</h3>
                     </div>
                 </div>
             </div>
@@ -444,7 +444,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Azure development and management</h3>
+                        <h3>Azure development</h3>
                     </div>
                 </div>
             </div>
@@ -462,7 +462,7 @@ Develop modern web apps using Visual Studio and powerful open tools.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office and SharePoint development</h3>
+                        <h3>Office/SharePoint development</h3>
                     </div>
                 </div>
             </div>
