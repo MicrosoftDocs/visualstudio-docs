@@ -1,5 +1,5 @@
 ---
-title: Activating DataCamp Benefit
+title: Enhance your data science skills today by activating the DataCamp benefit in your Visual Studio subscription. 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -30,7 +30,7 @@ The duration of your DataCamp benefit depends on your Visual Studio subscription
 
 2. Locate the DataCamp benefit tile in the "Professional Development" category, and click on **Activate**.
 
-![DataCamp Benefit Tile](_img\vs-datacamp\vs-datacamp-tile-2-trimmed.png)
+![DataCamp Benefit Tile](_img\vs-datacamp\vs-datacamp-tile-2.png)
 
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
 
@@ -48,6 +48,7 @@ The duration of your DataCamp benefit depends on your Visual Studio subscription
 5. After you have selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you will see the following options. Choose an option, or click **I am not sure.  Show me all career paths** to create a broader path. 
 
 ![DataCamp Data Science Skillset](_img\vs-datacamp\vs-datacamp-datascience.png)
+
 
 6. Based on the path and options you have selected, you'll see a selection of Career Tracks.  Click on the **Enroll** button for the track of your choice. 
 
