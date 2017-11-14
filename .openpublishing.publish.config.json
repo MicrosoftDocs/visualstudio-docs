@@ -11,7 +11,9 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "LandingData": "Content",
+        "APIConnector": "Content"
       },
       "template_folder": "_themes"
     },

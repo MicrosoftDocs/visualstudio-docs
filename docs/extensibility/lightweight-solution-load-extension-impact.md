@@ -1,4 +1,6 @@
 ---
+redirect_url: "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/
+---
 title: "Lightweight Solution Load (LSL) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
