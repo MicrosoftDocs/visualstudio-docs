@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/visual-cpp-classes
+redirect_url: /visualstudio/ide/class-designer/visual-cpp-classes
 ---

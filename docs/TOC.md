@@ -1,51 +1,5 @@
-
 # [Visual Studio Documentation](ide/index.md)
-# Overview
-## [Visual Studio IDE Overview](ide/visual-studio-ide.md)
-## Workloads
-### [Universal Windows Platform Development](https://go.microsoft.com/fwlink/?linkid=833082)
-### [.NET Desktop Development](https://go.microsoft.com/fwlink/?linkid=833083)
-### [Windows development with C++](https://go.microsoft.com/fwlink/?linkid=833084)
-### [Web development](https://go.microsoft.com/fwlink/?linkid=833085)
-### [Azure development and management](https://go.microsoft.com/fwlink/?linkid=833086)
-### [Python](https://go.microsoft.com/fwlink/?linkid=833068)
-### [Node.js](https://go.microsoft.com/fwlink/?linkid=834351)
-### [Data storage and processing](https://go.microsoft.com/fwlink/?linkid=833095)
-### [Data science and analytical applications](https://go.microsoft.com/fwlink/?linkid=834748)
-### [Office and Sharepoint Development](https://go.microsoft.com/fwlink/?linkid=833075)
-### [Mobile development with .NET](https://go.microsoft.com/fwlink/?linkid=833088)
-### [Game development with Unity](https://go.microsoft.com/fwlink/?linkid=833091)
-### [Mobile development with JavaScript](https://go.microsoft.com/fwlink/?linkid=833089)
-### [Mobile development with C++](https://go.microsoft.com/fwlink/?linkid=833090)
-### [Game development with C++](https://go.microsoft.com/fwlink/?linkid=834749)
-### [Visual Studio extension development](https://go.microsoft.com/fwlink/?linkid=834750)
-### [Linux development with C++](https://go.microsoft.com/fwlink/?linkid=833099)
-### [.NET Core cross-platform development](https://go.microsoft.com/fwlink/?linkid=856606)
-## Tasks
-### [Develop](https://go.microsoft.com/fwlink/?linkid=856608)
-#### [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
-#### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
-#### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
-### [Build](https://go.microsoft.com/fwlink/?linkid=833077)
-#### [MSBuild](msbuild/msbuild.md)
-#### [VSTS and TFS](/vsts/build-release/index)
-### [Debug](https://go.microsoft.com/fwlink/?linkid=833078)
-### [Test](https://go.microsoft.com/fwlink/?linkid=833079)
-### [Deploy](https://go.microsoft.com/fwlink/?linkid=834349)
-### [Version Control](https://docs.microsoft.com/en-us/vsts/#pivot=services&panel=code)
-### [DevOps](https://docs.microsoft.com/en-us/vsts)
-### [Improve Performance](https://go.microsoft.com/fwlink/?linkid=834348)
-### [Extend](https://go.microsoft.com/fwlink/?linkid=833081)
-### [Access Data](https://go.microsoft.com/fwlink/?linkid=856607)
-## Languages
-### [Visual C#](https://go.microsoft.com/fwlink/?linkid=833062)
-### [Visual Basic](https://go.microsoft.com/fwlink/?linkid=833060)
-### [Visual C++](https://go.microsoft.com/fwlink/?linkid=833063)
-### [Visual F#](https://go.microsoft.com/fwlink/?linkid=833067)
-### [JavaScript](https://go.microsoft.com/fwlink/?linkid=833064)
-### [TypeScript](https://go.microsoft.com/fwlink/?linkid=833066)
-### [Python](https://go.microsoft.com/fwlink/?linkid=833068)
-### [R](https://go.microsoft.com/fwlink/?linkid=833070)
+# [Overview](ide/visual-studio-ide.md)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
@@ -60,7 +14,6 @@
 ## [Install Help Viewer](ide/microsoft-help-viewer-installation.md)
 ## [Repair Visual Studio](install/repair-visual-studio.md)
 ## [Uninstall Visual Studio](install/uninstall-visual-studio.md)
-### [Remove Visual Studio](install/remove-visual-studio.md)
 ## [Visual Studio Administrator Guide](install/visual-studio-administrator-guide.md)
 ### [Use command-line parameters to install Visual Studio](install/use-command-line-parameters-to-install-visual-studio.md)
 ### [Command-line parameter examples](install/command-line-parameter-examples.md)
@@ -85,12 +38,16 @@
 ### [Advanced Example for Containers](install/advanced-build-tools-container.md)
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
 # Quickstarts
-## [Create an ASP.NET Core web app](ide/quickstart-aspnet-core.md)
-## Create a .NET Core console app
-## Move around in the IDE
-## Work with Solutions and Projects
-## Personalize the Visual Studio IDE
-## [Finding and Using Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
+## IDE orientation
+## Write code in the editor
+## Personalize the IDE and editor
+## Work with solutions and projects
+## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
+## [C#: create a web app (ASP.NET Core)](ide/quickstart-aspnet-core.md)
+## Visual Basic: create a console app (.NET Core)
+## C++: create a console app
+## Python: create a web app
+## Node.js: create a web app
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
 ## [Getting Started with C++ in Visual Studio](ide/getting-started-with-cpp-in-visual-studio.md)
@@ -223,14 +180,17 @@
 #### [Using the Toolbox](ide/using-the-toolbox.md)
 #### [Viewing the Structure of Code](ide/viewing-the-structure-of-code.md)
 ##### [Class View and Object Browser Icons](ide/class-view-and-object-browser-icons.md)
-##### [Designing and Viewing Classes and Types](ide/class-designer/designing-and-viewing-classes-and-types.md)
+##### [Designing and Viewing Classes and Types](ide/class-designer/TOC.md)
 #### [Setting Bookmarks in Code](ide/setting-bookmarks-in-code.md)
 #### [Using the Task List](ide/using-the-task-list.md)
 #### [Find code changes and other history with CodeLens](ide/find-code-changes-and-other-history-with-codelens.md)
 ##### [CodeIndex Command](ide/codeindex-command.md)
 #### [Editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
+### [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
+### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
+### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
 ## [Version Control](https://docs.microsoft.com/en-us/vsts/#pivot=services&panel=code)
-## [Access Data](https://go.microsoft.com/fwlink/?linkid=856607)
+## [Access Data](data-tools/accessing-data-in-visual-studio.md)
 ## [Design User Interfaces](designers/designing-user-interfaces.md)
 ## [Compile and Build](ide/compiling-and-building-in-visual-studio.md)
 ### [Walkthrough: Building an Application](ide/walkthrough-building-an-application.md)
@@ -250,6 +210,8 @@
 ### [Understanding Build Platforms](ide/understanding-build-platforms.md)
 #### [Configure Projects to Target Platforms](ide/how-to-configure-projects-to-target-platforms.md)
 #### [Configure Projects to Target Multiple Platforms](ide/how-to-configure-projects-to-target-multiple-platforms.md)
+### [MSBuild](msbuild/msbuild.md)
+### [VSTS and TFS](/vsts/build-release/index)
 ### [Specify Build Events (Visual Basic)](ide/how-to-specify-build-events-visual-basic.md)
 ### [Specify Build Events (C#)](ide/how-to-specify-build-events-csharp.md)
 ### [Configuring Warnings in Visual Basic](ide/configuring-warnings-in-visual-basic.md)

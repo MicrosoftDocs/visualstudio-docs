@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/visual-cpp-enumerations
+redirect_url: /visualstudio/ide/class-designer/visual-cpp-enumerations
 ---

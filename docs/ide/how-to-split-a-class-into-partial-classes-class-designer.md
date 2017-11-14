@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/how-to-split-a-class-into-partial-classes
+redirect_url: /visualstudio/ide/class-designer/how-to-split-a-class-into-partial-classes
 ---

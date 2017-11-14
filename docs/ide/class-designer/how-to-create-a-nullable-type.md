@@ -15,26 +15,26 @@ ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create a Nullable Type (Class Designer)
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.  
   
- A *nullable type* is a value type that you extend so that it takes the typical range of values for that type and also a null value. For example, a nullable of `Int32`, also denoted as Nullable\<Int32>, can be assigned any value from -2147483648 to 2147483647, or it can be assigned a null value. A Nullable\<bool> can be assigned the values `True`, `False`, or null (no value at all).  
+A *nullable type* is a value type that you extend so that it takes the typical range of values for that type and also a null value. For example, a nullable of `Int32`, also denoted as Nullable\<Int32>, can be assigned any value from -2147483648 to 2147483647, or it can be assigned a null value. A Nullable\<bool> can be assigned the values `True`, `False`, or null (no value at all).  
   
- Nullable types are instances of the <xref:System.Nullable%601> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:  
+Nullable types are instances of the <xref:System.Nullable%601> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:  
   
 -   `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.  
   
 -   `Value` is of the same type as the underlying type. If `HasValue` is `True`, `Value` contains a meaningful value. If `HasValue` is `False`, accessing `Value` will throw an invalid operation exception.  
   
- By default, when you declare a variable as a nullable type, it has no defined value (`HasValue` is `False`), other than the default value of its underlying value type.  
+By default, when you declare a variable as a nullable type, it has no defined value (`HasValue` is `False`), other than the default value of its underlying value type.  
   
- Class Designer displays a nullable type just as it displays its underlying type.  
+Class Designer displays a nullable type just as it displays its underlying type.  
   
- For more information about nullable types in Visual C#, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index). For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types).  
+For more information about nullable types in Visual C#, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index). For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types).  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ### To add a nullable type by using the Class Designer  
   
@@ -64,9 +64,9 @@ Certain value types do not always have (or need) a defined value. This is common
   
 5.  Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.  
   
-## See Also  
- <xref:System.Nullable%601>   
- [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
- [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
- [How to: Identify a Nullable Type](/dotnet/csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type)   
- [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)
+## See alose
+<xref:System.Nullable%601>   
+[Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
+[Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   
+[How to: Identify a Nullable Type](/dotnet/csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type)   
+[Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)

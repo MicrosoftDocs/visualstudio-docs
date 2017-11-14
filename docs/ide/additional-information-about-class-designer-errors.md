@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/additional-information-about-errors
+redirect_url: /visualstudio/ide/class-designer/additional-information-about-errors
 ---

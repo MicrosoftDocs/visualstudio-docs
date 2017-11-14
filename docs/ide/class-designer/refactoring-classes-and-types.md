@@ -23,8 +23,7 @@ ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # Refactoring Classes and Types (Class Designer)
 When you refactor code, you make it easier to understand, maintain, and more efficient by changing its internal structure and how its objects are designed, not its external behavior. Use Class Designer and the Class Details window to reduce the work that you have to do and the chance of introducing bugs when you refactor Visual C# .NET, Visual Basic .NET, or C++ code in your Visual Studio project.  
@@ -41,7 +40,7 @@ When you refactor code, you make it easier to understand, maintain, and more eff
 |**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Renaming Types and Type Members](refactoring-classes-and-types.md#RenamingTypesAndMembers)<br />-   [Moving Type Members from One Type to Another](refactoring-classes-and-types.md#MovingTypeMembers)<br />-   [How to: Create a Nullable Type](how-to-create-a-nullable-type.md)|  
   
 ###  <a name="RenamingTypesAndMembers"></a> Renaming Types and Type Members  
- In Class Designer, you can rename a type or a member of a type on the class diagram or in the Properties window. In the Class Details window, you can change the name of a member but not a type. Renaming a type or type member propagates to all windows and code locations where the old name appeared.  
+In Class Designer, you can rename a type or a member of a type on the class diagram or in the Properties window. In the Class Details window, you can change the name of a member but not a type. Renaming a type or type member propagates to all windows and code locations where the old name appeared.  
   
 ##### To rename a name in the Class Designer  
   
@@ -75,7 +74,7 @@ When you refactor code, you make it easier to understand, maintain, and more eff
      The new name propagates to all windows and code locations in the current project where the old name appeared.  
   
 ###  <a name="MovingTypeMembers"></a> Moving Type Members from One Type to Another  
- Using **Class Designer**, you can move a type member from one type to another type, if both are visible in the current class diagram.  
+Using **Class Designer**, you can move a type member from one type to another type, if both are visible in the current class diagram.  
   
 ##### To move a type member from one type to another  
   
@@ -85,9 +84,6 @@ When you refactor code, you make it easier to understand, maintain, and more eff
   
      The property is removed from the source type and appears in the destination type.  
   
-## Related Topics  
-  
-|Title|Description|  
-|-----------|-----------------|  
-|[Viewing Types and Relationships](viewing-types-and-relationships.md)||  
-|[Designing Classes and Types](designing-classes-and-types.md)||
+## See also
+[Viewing Types and Relationships](viewing-types-and-relationships.md)  
+[Designing Classes and Types](designing-classes-and-types.md)

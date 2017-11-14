@@ -1,3 +1,3 @@
 ---
-redirect_url: class-designer/viewing-types-and-relationships
+redirect_url: /visualstudio/ide/class-designer/viewing-types-and-relationships
 ---

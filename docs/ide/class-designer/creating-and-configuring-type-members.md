@@ -33,11 +33,10 @@ ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-
+manager: ghogen
 ---
 # Creating and Configuring Type Members (Class Designer)
-You can add these members to types on a class diagram and configure those members in the **Class Details** window:  
+You can add these members to types on a class diagram and configure those members in the **Class Details** window:
   
 |**Type**|**Members it can contain**|  
 |--------------|--------------------------------|  
@@ -60,7 +59,7 @@ You can add these members to types on a class diagram and configure those member
 |**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](creating-and-configuring-type-members.md#CreateMembers)<br />-   [Modifying Type Members](creating-and-configuring-type-members.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](creating-and-configuring-type-members.md#AddMethodParams)|  
   
 ##  <a name="OpenClassDetails"></a> Opening the Class Details Window  
- By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md)). You can also open the Class Details window explicitly, in the following ways.  
+By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md)). You can also open the Class Details window explicitly, in the following ways.  
   
 #### To open the Class Details window  
   
@@ -73,7 +72,7 @@ You can add these members to types on a class diagram and configure those member
 -   Point to **Other Windows** on the View menu and then click **Class Details**.  
   
 ##  <a name="CreateMembers"></a> Creating Members  
- You can create a member using any of the following tools:  
+You can create a member using any of the following tools:  
   
 -   Class Designer  
   
@@ -128,13 +127,13 @@ You can add these members to types on a class diagram and configure those member
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).  
   
 ##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
- Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
+Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
- All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
+All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
   
- All member rows appear under headings that group the members by kind. For example, all properties appear under the heading **Properties**, which, as a node in the grid, can be collapsed or expanded.  
+All member rows appear under headings that group the members by kind. For example, all properties appear under the heading **Properties**, which, as a node in the grid, can be collapsed or expanded.  
   
- Each member row displays the following elements:  
+Each member row displays the following elements:  
   
 -   **Member Icon**  
   
@@ -182,9 +181,9 @@ You can add these members to types on a class diagram and configure those member
     >  If you want to modify only the name of a member, you can do so by using in-place editing.  
   
 ##  <a name="AddMethodParams"></a> Adding Parameters to Methods  
- Add parameters to methods using the Class Details window. Parameters can be configured to be required or optional. Providing a value for the **Optional Default** property of a parameter instructs the designer to generate code as an optional parameter.  
+Add parameters to methods using the Class Details window. Parameters can be configured to be required or optional. Providing a value for the **Optional Default** property of a parameter instructs the designer to generate code as an optional parameter.  
   
- Parameter rows contain the following items:  
+Parameter rows contain the following items:  
   
 -   **Name**  
   
@@ -208,9 +207,9 @@ You can add these members to types on a class diagram and configure those member
   
      The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#HowToAddParameterToMethod).  
   
- **Parameter properties in the Properties window**  
+**Parameter properties in the Properties window**  
   
- The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
+The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
   
 > [!NOTE]
 >  To add a parameter to a delegate, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
@@ -254,11 +253,11 @@ You can add these members to types on a class diagram and configure those member
     >  Optional parameters must be the last parameters in the parameter list.  
   
 ##  <a name="ClassDetailsUsageNotes"></a> Class Details Usage Notes  
- Please note the following tips for using the Class Details window.  
+Please note the following tips for using the Class Details window.  
   
- **Editable and non-editable cells**  
+**Editable and non-editable cells**  
   
- All cells in the Class Details window are editable with a few exceptions:  
+All cells in the Class Details window are editable with a few exceptions:  
   
 -   The entire type is read-only, when, for example, it resides in a referenced assembly. When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
   
@@ -270,7 +269,7 @@ You can add these members to types on a class diagram and configure those member
   
 -   When a type's code is broken (unparsable), Class Details window displays the type's contents as read-only.  
   
- **The Class Details Window and source code**  
+**The Class Details Window and source code**  
   
 -   You can view source code by right-clicking a shape in the Class Details window (or the Class Designer) and then clicking View Code. The source code file opens and scrolls to the selected element.  
   
@@ -278,12 +277,12 @@ You can add these members to types on a class diagram and configure those member
   
 -   When a type's code is broken (unparsable), Class Details window displays the type's contents as read only.  
   
- **Clipboard functionality in the Class Details Window**  
+**Clipboard functionality in the Class Details Window**  
   
  You can copy or cut fields or rows from the Class Details window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, Class Details window assigns a new name (derived from the name of the copied row) to avoid a conflict.  
   
 ##  <a name="ReadOnlyInfo"></a> Display of Read-Only Information  
- Class Designer and the Class Details window can display the types (and members of types) for the following:  
+Class Designer and the Class Details window can display the types (and members of types) for the following:  
   
 -   a project that contains a class diagram  
   
@@ -291,35 +290,32 @@ You can add these members to types on a class diagram and configure those member
   
 -   an assembly referenced from a project that contains a class diagram  
   
- In the latter two cases, the referenced entity (a type or member) is read-only in the class diagram that represents it.  
+In the latter two cases, the referenced entity (a type or member) is read-only in the class diagram that represents it.  
   
- An entire project or portions of it, such as individual files, may be read-only. The most common cases in which a project or one of its files is read-only are when it is under source-code control (and not checked out), it exists in an external assembly, or when the operating system considers the files to be read-only.  
+An entire project or portions of it, such as individual files, may be read-only. The most common cases in which a project or one of its files is read-only are when it is under source-code control (and not checked out), it exists in an external assembly, or when the operating system considers the files to be read-only.  
   
- **Source-Code Control**  
+**Source-Code Control**  
   
- Because a class diagram is saved as a file in a project, you need to check out the project in order to save any changes you make in Class Designer or the Class Details window.  
+Because a class diagram is saved as a file in a project, you need to check out the project in order to save any changes you make in Class Designer or the Class Details window.  
   
- **Read-Only Projects**  
+**Read-Only Projects**  
   
- The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don't save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
+The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don't save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
   
- **Read-Only Types**  
+**Read-Only Types**  
   
- If you try to save a project containing a type whose source-code file is read-only, the **Save of Read-Only File** dialog box appears, which gives you choices to save the file under a new name or new location, or to overwrite the read-only file. If you overwrite the file, the new copy is no longer read-only.  
+If you try to save a project containing a type whose source-code file is read-only, the **Save of Read-Only File** dialog box appears, which gives you choices to save the file under a new name or new location, or to overwrite the read-only file. If you overwrite the file, the new copy is no longer read-only.  
   
- If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".  
+If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".  
   
- A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.  
+A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.  
   
- Indexers are read-write in code and the Class Details window, but the indexer name is read-only.  
+Indexers are read-write in code and the Class Details window, but the indexer name is read-only.  
   
- You cannot edit partial methods by using the Class Designer or the Class Details window; you must use the Code Editor to edit them.  
+You cannot edit partial methods by using the Class Designer or the Class Details window; you must use the Code Editor to edit them.  
   
- You cannot edit native C++ code by using the Class Designer or the Class Details window; you must use the Code Editor to edit native C++ code.  
+You cannot edit native C++ code by using the Class Designer or the Class Details window; you must use the Code Editor to edit native C++ code.  
   
-## Related Topics  
-  
-|Title|Description|  
-|-----------|-----------------|  
-|[Viewing Types and Relationships](viewing-types-and-relationships.md)|You can view your existing types, members, and relationships in a class diagram.|  
-|[Refactoring Classes and Types](refactoring-classes-and-types.md)|By using refactoring, you can easily rename type and type members. You can also move members between classes, split a class into partial classes, and implement interfaces.|
+## See also
+[Viewing Types and Relationships](viewing-types-and-relationships.md)  
+[Refactoring Classes and Types](refactoring-classes-and-types.md)

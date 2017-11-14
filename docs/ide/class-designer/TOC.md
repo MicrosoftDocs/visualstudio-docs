@@ -6,7 +6,7 @@
 ## [Export Class Diagrams As Images](how-to-export-class-diagrams-as-images.md)
 ## [Print Class Diagrams](how-to-print-class-diagrams.md)
 ## [Add Comments to Class Diagrams](how-to-add-comments-to-class-diagrams.md)
-# [Designing Classes and Types](designing-classes-and-types.md)
+# Designing Classes and Types
 ## [Create Types by using Class Designer](how-to-create-types.md)
 ## [Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 ## [Create Associations Between Types](how-to-create-associations-between-types.md)
