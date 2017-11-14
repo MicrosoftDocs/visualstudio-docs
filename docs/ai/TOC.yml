@@ -15,18 +15,12 @@
       items:
         - name: TensorFlow + Azure Deep Learning VM                                        
           href: tensorflow-vm.md
-    - name: Concepts 
-      items:
-        - name: Cloud compute targets
-          href: cloud-targets.md
     - name: How-to guides
       items:
+        - name: Create a new project
+          href: create-project.md
         - name: Train your model
-          href: train-your-model.md
-        - name: Manage projects
-          href: manage-projects.md
-        - name: Manage storage
-          href: manage-storage.md
+          href: train-model.md
     - name: Samples
       items:
         - name: GitHub
