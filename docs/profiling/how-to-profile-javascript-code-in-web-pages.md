@@ -28,7 +28,7 @@ manager: ghogen
 -   Internet Explorer 8 or later.  
   
 > [!WARNING]
->  To profile JavaScript in Windows Store apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
+>  To profile JavaScript in UWP apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
   
  You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.  
   

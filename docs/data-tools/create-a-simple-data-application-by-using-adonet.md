@@ -62,7 +62,7 @@ Create the sample database by following these steps:
 
      A query editor window opens.  
 
-6. Copy the [Sales Transact-SQL script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs-pr/master/docs/data-tools/samples/sales.sql?token=AXuuSv8UtPsvuZ-FlzAlEQ5dWRp5CGhwks5Z29b8wA%3D%3D) to your clipboard.  
+6. Copy the [Sales Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/data-tools/samples/sales.sql) to your clipboard.  
 
 7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
 
@@ -224,4 +224,7 @@ To complete the FillOrCancel form logic, follow these steps.
      [!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]  
 
 ##  <a name="BKMK_testyourapplication"></a> Test your application  
- Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.
+Select the **F5** key to build and test your application after you code each Click event handler, and then after you finish coding.
+
+## See also
+[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
