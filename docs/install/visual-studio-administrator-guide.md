@@ -60,7 +60,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
   * [Command-line parameter examples](command-line-parameter-examples.md)
   * [Workload and Component ID reference](workload-and-component-ids.md)
 * [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-  * [Install certificates needed for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+  * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Automate Visual Studio with a response file](automated-installation-with-response-file.md)
 * [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
 * [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
