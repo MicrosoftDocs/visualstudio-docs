@@ -128,7 +128,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## Next steps
 
-- To learn how to inspect variables while viewing a snapshot, see [Debbuger Feature Tour](../debugger/debugging-feature-tour.md).
-- View the [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)  
+- To learn how to inspect variables while viewing a snapshot, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
+- View the [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
 - View [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)  
 - If you want to view snapshots in Application Insights when your app hits an exception, you can do that. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
