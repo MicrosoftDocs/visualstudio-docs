@@ -16,9 +16,9 @@ ms.service: multiple
 Visual Studio Tools for AI comes with a Sample Explorer via integration with Azure Machine Learning. The Sample Explorer makes it easy to discover samples and try them with only a few clicks. 
 
 > [!TIP]
-> You will need Azure Machine Learning Workbench to be installed. See instructions at [How to install Azure Machine Learning Workbench](https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation)  
+> You need Azure Machine Learning Workbench to be installed. See instructions at [How to install Azure Machine Learning Workbench](https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation)  
 
-To open the explorer, do as follow:   
+To open the explorer, do as follows:   
 1. Open the command palette (View > **Command Palette** or **Ctrl+Shift+P**).
 2. Enter "ML Sample". 
 3. You get a recommendation for "Machine Learning: Open Azure Machine Learning Samples Explorer", select it and press enter. 
@@ -34,7 +34,7 @@ To create a new project based on this sample do the following:
 3. **Enter a folder** to create your project and press enter. 
 4. **Select an existing workspace** and press enter.
 
-The project will then be created.
+The project will be created.
 
 > [!TIP]
-> You will need to be logged-in to access your Azure resource. From the embedded terminal enter "az login" and follow the instruction. 
+> You need to be logged-in to access your Azure resource. From the embedded terminal enter "az login" and follow the instruction. 

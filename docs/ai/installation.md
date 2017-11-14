@@ -23,7 +23,7 @@ Before training deep learning models on your local computer you should make sure
 
 > [!NOTE]
 >
-> Software introduction in the following subsectons is excerpted from their homepages.
+> Software introduction in the following subsections is excerpted from their homepages.
 
 ### NVIDIA GPU driver
 
@@ -64,8 +64,8 @@ Python has been the primary programming language for deep learning applications.
 **64-bit** Python distribution is required, and [Python 3.5.4](https://www.python.org/downloads/release/python-354/) is recommended for the best compatibility.
 
 ### To install Python on Windows
-- We suggest to install the Python launcher for yourself only, and add Python to the %PATH% environment variable.
-- Please ensure to install pip, which is the package management system to install and manage software packages written in Python.
+- We suggest installing the Python launcher for yourself only, and add Python to the %PATH% environment variable.
+- Ensure to install pip, which is the package management system to install and manage software packages written in Python.
 
 Deep learning frameworks rely on pip for their own installation.
 
@@ -114,7 +114,7 @@ pip3.5 install -U numpy scipy
 
 > [!NOTE]
 >
-> The above command will upgrade existing old or unofficial (e.g. third party packages from http://www.lfd.uci.edu/~gohlke/pythonlibs/ for Windows) NumPy and SciPy to the latest official ones.
+> The above command upgrades existing old or unofficial (e.g. third-party packages from http://www.lfd.uci.edu/~gohlke/pythonlibs/ for Windows) NumPy and SciPy to the latest official ones.
 
 ### Microsoft Cognitive Toolkit (CNTK)
 
@@ -129,7 +129,7 @@ To install CNTK Python package, see [how to install CNTK](https://docs.microsoft
 ### TensorFlow
 
 [TensorFlow](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs.
-Please refer to [here](https://www.tensorflow.org/install/) for detailed installation.
+Refer to [here](https://www.tensorflow.org/install/) for detailed installation.
 
 > [!NOTE]
 >
@@ -142,7 +142,7 @@ Building on the original Caffe, Caffe2 is designed with expression, speed, and m
 
 Currently, there's no prebuilt Caffe2 python wheel package available.
 
-Please visit [here](https://caffe2.ai/docs/getting-started.html) to build from source code.
+Visit [here](https://caffe2.ai/docs/getting-started.html) to build from source code.
 
 ### MXNet
 
@@ -161,7 +161,7 @@ To install MXNet, run the following command in a terminal:
 
 ### Keras
 
-[Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of CNTK, TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+[Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of CNTK, TensorFlow, or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
 To install Keras, please run the following command in a terminal:
 ```bash
@@ -196,7 +196,7 @@ To install PyTorch, please run the following command in a terminal:
     ```
     > [!NOTE]
 	>
-    > macOS binaries dont support CUDA, install from source if CUDA is needed
+    > macOS binaries don't support CUDA, install from source if CUDA is needed
 
 - **Linux**
     ```bash

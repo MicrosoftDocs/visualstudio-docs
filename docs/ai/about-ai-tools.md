@@ -28,7 +28,7 @@ Because it's an IDE we've enabled familiar code editor features like syntax high
 ![deep learning ide](media\about\ide.png)
 
 ### Find and share examples via the gallery  
-Visual Studio Tools for AI is integrated with Azure Machine Learning to make it easy to browse through a gallery of sample experiments using CNTK, TensorFlow, MMLSpark and more. This makes it easy to learn and share with others. 
+Visual Studio Tools for AI is integrated with Azure Machine Learning to make it easy to browse through a gallery of sample experiments using CNTK, TensorFlow, MMLSpark, and more. This makes it easy to learn and share with others. 
 
 ### Scale out deep learning model training and/or inferencing to the cloud
 This extension makes it easy to train models on your local computer or you can submit jobs to the cloud by using our integration with Azure Machine Learning. You can submit jobs to different compute targets like Spark clusters, Azure GPU virtual machines and more  
@@ -39,7 +39,7 @@ Visual Studio Tools for AI comes with a Sample Explorer via integration with Azu
 > [!TIP]
 > You will need Azure Machine Learning Workbench to be installed. See instructions at [How to install Azure Machine Learning Workbench](https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation)  
 
-To open the explorer, do as follow:   
+To open the explorer, do the following:   
 1. Open the command palette (View > **Command Palette** or **Ctrl+Shift+P**).
 2. Enter "ML Sample". 
 3. You get a recommendation for "Machine Learning: Open Azure Machine Learning Samples Explorer", select it and press enter. 
