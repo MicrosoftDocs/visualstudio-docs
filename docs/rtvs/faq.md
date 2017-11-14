@@ -22,7 +22,7 @@ manager: ghogen
 
 **Q. Does RTVS work on OS X or Linux?**
 
-A. RTVS is presently built on top of Visual Studio, which is a Windows-only implementation. That said, Microsoft is investigating support on Visual Studio Code and Visual Studio for Mac. Refer to [RTVS issue #1295](https://github.com/Microsoft/RTVS/issues/1295).
+A. RTVS is presently built on top of Visual Studio, which is a Windows-only implementation. Microsoft is investigating support on Visual Studio Code and Visual Studio for Mac. Refer to [RTVS issue #1295](https://github.com/Microsoft/RTVS/issues/1295).
 
 **Q. Does RTVS work with Visual Studio Express editions?**
 
@@ -86,7 +86,7 @@ A. Github maintains a master repository of recommended `.gitignore` files. You c
 
 Q. **What is Remote Services in Visual Studio?**
 
-A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from R Tools Visual Studio. See [Setting up Remote Workspaces](workspaces-remote-setup.md).
+A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Setting up Remote Workspaces](workspaces-remote-setup.md).
 
 Q. **Can RTVS connect to Microsoft R Server?**
 
@@ -94,7 +94,7 @@ A. No, because Microsoft R Server is a different technology and does not provide
 
 Q. **Can RTVS connect to a VM created using the Data Science VM image on Azure?**
 
-A. Yes, from VS 2017 as the Data Science VM image has Remote R Services for VS preinstalled.
+A. Yes; the Data Science VM image comes preinstalled with Remote R Services for Visual Studio.
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 
