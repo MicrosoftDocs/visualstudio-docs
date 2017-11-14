@@ -113,7 +113,7 @@ benefit from unit testing.
 
 * [Get started with Unit Testing](unit-test-your-code.md)
 * [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md)
-* [Writing Unit tests for C/C++](writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)
+* [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
 * [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md)
 
 Visual Studio is also extensible and opens the door for 

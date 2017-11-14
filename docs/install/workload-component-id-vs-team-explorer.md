@@ -1,18 +1,18 @@
 ---
 title: Visual Studio Team Explorer 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
 ms.date: 10/09/2017
 ms.topic: article
-helpviewer_keywords: 
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
+ms.service:
+ms.technology:
   - "vs-ide-install"
 ms.assetid: c6ef9a3b-d13d-49b4-9faa-51fa06b21e1f
 ---
@@ -48,6 +48,9 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 

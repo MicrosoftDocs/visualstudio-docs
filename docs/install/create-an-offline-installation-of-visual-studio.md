@@ -27,7 +27,7 @@ We designed the Visual Studio 2017 installer to work well in a wide variety of n
 - During the installation process, we try three different download technologies (WebClient, BITS and WinInet) to minimize interference with anti-virus and proxy software;
 - The files you'll need to install Visual Studio are distributed on a global delivery network, so we can get them to you from a local server.
 
-We recommend that you try the [Visual Studio web installer](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)&mdash;we think you'll find it a good experience. 
+We recommend that you try the [Visual Studio web installer](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)&mdash;we think you'll find it a good experience.
 
  > [!div class="button"]
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
@@ -37,3 +37,6 @@ If you want to install offline because your internet connection is unavailable o
 
 > [!NOTE]
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).

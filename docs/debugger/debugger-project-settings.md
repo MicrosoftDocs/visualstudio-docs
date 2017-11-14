@@ -51,7 +51,7 @@ Certain project settings also affect debugging. These settings determine such th
  Describes how the debugger uses symbol files and source files to display information for debugging.  
   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)  
- Describes how to debug Windows Store apps. (Windows Dev Center)  
+ Describes how to debug UWP apps. (Windows Dev Center)  
   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
  Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger.  
