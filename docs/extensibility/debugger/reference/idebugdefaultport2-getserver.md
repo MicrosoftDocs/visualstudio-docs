@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDefaultPort2::GetServer"
 ms.assetid: cacb4b74-0f39-471c-af38-54b73f5b2868
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

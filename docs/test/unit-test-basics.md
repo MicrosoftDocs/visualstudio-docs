@@ -186,7 +186,7 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
 -   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+-   [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)  
   
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  

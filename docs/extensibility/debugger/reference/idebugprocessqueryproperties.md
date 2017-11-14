@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugProcessQueryProperties"
 ms.assetid: ce29a248-81a0-42c0-99a7-1606e8c548ec
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

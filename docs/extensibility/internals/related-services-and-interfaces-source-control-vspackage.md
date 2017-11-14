@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "interfaces, source control packages"
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

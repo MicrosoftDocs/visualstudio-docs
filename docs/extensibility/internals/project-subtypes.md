@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "project subtypes [Visual Studio SDK]"
 ms.assetid: d235b47b-cf11-4d47-a63f-e33d9d16105d
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

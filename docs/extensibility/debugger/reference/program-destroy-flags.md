@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "PROGRAM_DESTROY_FLAGS enumeration"
 ms.assetid: be00d4a3-d5b8-4159-b632-64577f534883
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

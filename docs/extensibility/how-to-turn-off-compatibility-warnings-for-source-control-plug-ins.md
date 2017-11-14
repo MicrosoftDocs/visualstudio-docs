@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "compatibility warnings, turning off"
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

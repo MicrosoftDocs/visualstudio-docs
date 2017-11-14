@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "menu items, visibility contexts"
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
 caps.latest.revision: 34
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

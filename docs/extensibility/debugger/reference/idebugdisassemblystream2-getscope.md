@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetScope"
 ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugPorts2::Clone"
 ms.assetid: d5ce77e8-bb99-409a-98fa-20fe5a0de25e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

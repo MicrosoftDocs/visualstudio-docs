@@ -61,7 +61,7 @@ You can use requirements and architectural models to help you organize the tests
   
 2.  Link the requirement work item to one or more use cases in your model.  
   
-     In a use case diagram, right-click a use case and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+     In a use case diagram, right-click a use case and then click **Link to Work Item**. 
   
 3.  Add to the test suite, test cases that verify the use cases.  
   
@@ -149,7 +149,7 @@ Assert (countAfter == countBefore = 1);
   
 2.  Link the requirement work item to one or more elements in your model.  
   
-     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
   
 3.  Add to the test suite, test cases that verify the requirement expressed in the model element.  
   

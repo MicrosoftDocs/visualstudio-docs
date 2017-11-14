@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "AD_PROCESS_ID union"
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

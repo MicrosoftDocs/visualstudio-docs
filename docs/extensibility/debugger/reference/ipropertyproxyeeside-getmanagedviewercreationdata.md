@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::GetManagedViewerCreationData"
 ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

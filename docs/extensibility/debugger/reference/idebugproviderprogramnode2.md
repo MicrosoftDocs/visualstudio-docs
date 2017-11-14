@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProviderProgramNode2"
 ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

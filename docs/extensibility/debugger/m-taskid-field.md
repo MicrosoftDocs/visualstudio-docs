@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "m_taskId field, Task class [.NET Framework debug engines]"
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

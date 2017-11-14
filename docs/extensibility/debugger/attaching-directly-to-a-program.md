@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "debug engines, attaching to programs"
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

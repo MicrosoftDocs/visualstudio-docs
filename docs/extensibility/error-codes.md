@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "errors [Visual Studio SDK]"
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

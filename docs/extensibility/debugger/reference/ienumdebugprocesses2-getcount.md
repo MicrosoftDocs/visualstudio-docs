@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::GetCount"
 ms.assetid: 5dc3e36c-46e5-4556-bf41-1870aa67d2a0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

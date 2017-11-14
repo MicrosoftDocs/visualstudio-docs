@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "reference, Visual Studio SDK"
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

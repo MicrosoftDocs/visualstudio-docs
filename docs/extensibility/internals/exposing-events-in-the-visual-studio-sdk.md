@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "automation [Visual Studio SDK], exposing events"
 ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

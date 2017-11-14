@@ -1,5 +1,5 @@
 ---
-title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer) | Microsoft Docs"
+title: "Use stored procedures to perform update, insert, and delete in Linq to SQL O/R Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -57,10 +57,10 @@ Stored procedures can be added to the O/R Designer and executed as typical <xref
     > [!NOTE]
     >  You can continue to configure the behavior for each class/behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box providing an opportunity to apply any changes will appear.  
   
-     To revert to using the default runtime logic for updates, click the ellipsis next to the Insert, Update, or Delete command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.  
+To revert to using the default runtime logic for updates, click the ellipsis next to the Insert, Update, or Delete command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
- [Insert, Update, and Delete Operations](/dotnet/framework/data/adonet/sql/linq/insert-update-and-delete-operations)
+## See also
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
+[DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)   
+[LINQ to SQL (.NET Framework)](/dotnet/framework/data/adonet/sql/linq/index)   
+[Insert, Update, and Delete operations (.NET Framework)](/dotnet/framework/data/adonet/sql/linq/insert-update-and-delete-operations)

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "source control packages, user interface"
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

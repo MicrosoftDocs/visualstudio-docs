@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Clone"
 ms.assetid: cdd10489-1772-47e3-815f-a6cfd32a3c60
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

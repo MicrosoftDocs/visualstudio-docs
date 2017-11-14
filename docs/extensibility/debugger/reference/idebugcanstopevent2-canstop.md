@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCanStopEvent2::CanStop"
 ms.assetid: 7d61adbe-6b3d-41f3-86a1-45d9cc01a7f8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProcessEx2::Detach method"
 ms.assetid: 66d54c2c-9302-47c8-9975-f30ed988ab29
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

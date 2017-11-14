@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]"
 ms.assetid: 75b8f9d0-b908-40d0-b109-70feaed2ab0c
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

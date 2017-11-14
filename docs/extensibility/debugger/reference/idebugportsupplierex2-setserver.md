@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugPortSupplierEx2::SetServer"
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

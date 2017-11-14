@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - syntax coloring"
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

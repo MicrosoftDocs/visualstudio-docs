@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer method"
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
