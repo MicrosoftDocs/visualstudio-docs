@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "specialized deployment"
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
 caps.latest.revision: 32
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

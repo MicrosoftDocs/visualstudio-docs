@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Strings"
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

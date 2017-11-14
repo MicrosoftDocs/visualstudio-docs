@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "<NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]"
 ms.assetid: 6f9d36f5-ae23-4a92-8132-b11799e2c21a
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

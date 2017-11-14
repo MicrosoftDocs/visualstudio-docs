@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "programs, launching"
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

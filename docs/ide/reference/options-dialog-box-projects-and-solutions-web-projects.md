@@ -1,7 +1,7 @@
 ---
 title: "Options Dialog Box, Projects and Solutions, Web Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,7 +16,6 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-
 # Options Dialog Box, Projects and Solutions, Web Projects
 
 Sets the Web server that Web projects will use for development within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
@@ -35,5 +34,5 @@ Select this option to use IIS Express instead of the Visual Studio Development S
 If this option is set, you will be warned if you try to run your web application when it does not compile  without errors.
 
 ## See Also  
-- [Options Dialog Box,  Projects and Solutions](projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box,  Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-web-projects.md)
+[Options Dialog Box, Projects and Solutions](projects-and-solutions-options-dialog-box.md)  
+[Options Dialog Box, Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-web-projects.md)

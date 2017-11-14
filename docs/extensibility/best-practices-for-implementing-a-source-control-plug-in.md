@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], plug-ins"
 ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

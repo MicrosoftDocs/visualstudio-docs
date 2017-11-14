@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "expression evaluation, displaying locals"
 ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProgram2::EnumThreads"
 ms.assetid: 0f2a8c51-1315-4c96-8aa1-6a937dc2a769
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

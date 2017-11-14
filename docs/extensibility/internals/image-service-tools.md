@@ -8,6 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

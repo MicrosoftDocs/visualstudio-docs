@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "FullClassName element [Visual Studio project template]"
 ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

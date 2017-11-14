@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest3::GetRequestInfo2"
 ms.assetid: 33942e4a-0a0a-49e8-a693-004954f6d38a
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

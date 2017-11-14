@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "new package version"
 ms.assetid: 93f79774-7b79-4dd6-94ad-13698f72c257
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
@@ -49,7 +50,7 @@ You can update a Visual Studio extension on your system by using **Extensions an
   
 4.  Save the solution and build it.  
   
-5.  Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  
+5.  Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs) Web site.  
   
      When a user who has an earlier version of the extension opens **Extensions and Updates**, the new version will appear in the **Updates** list, provided that the tool is set to automatically look for updates.  
   

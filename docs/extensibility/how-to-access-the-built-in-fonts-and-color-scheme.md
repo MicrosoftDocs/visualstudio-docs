@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "colors, accessing built-in schemes"
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

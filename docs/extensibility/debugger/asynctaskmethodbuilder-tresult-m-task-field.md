@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "m_task field, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"
 ms.assetid: 649abf0e-0fec-49d9-93b2-8953521f7ba5
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

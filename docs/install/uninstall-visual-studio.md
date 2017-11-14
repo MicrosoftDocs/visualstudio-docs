@@ -46,9 +46,11 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 2. Find **Microsoft Visual Studio 2017**.  
 3. Click **Uninstall**.  
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
+
 ## See also
 * [Install Visual Studio](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Remove Visual Studio](remove-visual-studio.md)
-* [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

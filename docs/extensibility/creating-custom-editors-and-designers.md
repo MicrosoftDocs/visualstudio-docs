@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom"
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 caps.latest.revision: 31
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

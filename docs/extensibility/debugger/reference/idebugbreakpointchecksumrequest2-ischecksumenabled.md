@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2::IsChecksumEnabled"
 ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "custom tools, defining registry settings"
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::PublishProgram"
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

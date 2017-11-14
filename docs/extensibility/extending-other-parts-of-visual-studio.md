@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "user interfaces"
 ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

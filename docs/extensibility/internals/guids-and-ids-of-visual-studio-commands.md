@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "guid"
 ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

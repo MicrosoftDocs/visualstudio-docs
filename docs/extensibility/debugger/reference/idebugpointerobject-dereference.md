@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPointerObject::Dereference method"
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

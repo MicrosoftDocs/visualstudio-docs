@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - highlight text"
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 caps.latest.revision: 42
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

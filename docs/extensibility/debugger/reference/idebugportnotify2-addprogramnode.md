@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugPortNotify2::AddProgramNode"
 ms.assetid: 34c0e949-1eb9-4108-9cb8-a3eb87fcf190
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], opening standard editors"
 ms.assetid: d5ce10f9-047a-4b74-aa1d-295128898b89
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

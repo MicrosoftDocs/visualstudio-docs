@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio, services"
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
 caps.latest.revision: 49
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

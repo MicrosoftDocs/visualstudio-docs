@@ -1,7 +1,9 @@
 ---
+redirect_url: "/visualstudio/ide/optimize-visual-studio-startup-time/"
+---
 title: "Optimize Solution Loading in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 8/31/2017
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,11 +22,10 @@ f1_keywords:
 ms.technology: 
   - "vs-ide-general"
 ---
-
-# Optimize Solution Loading in Visual Studio
+# Optimize solution loading in Visual Studio
 Many solutions contain a large number of projects, which affects the time taken to load those solutions. However, in team environments, developers typically work on a different subset of those projects and don’t need to load all of the individual projects.
 
-Visual Studio 2017 supports **lightweight solution load**. When lightweight solution load (LSL) mode is enabled, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the commonly used IDE features work under LSL mode, and it provides the ability for you to build, search, and debug on the entire solution. (The main unsupported feature in LSL mode is edit and continue).
+Visual Studio 2017 supports **lightweight solution load**. When lightweight solution load (LSL) mode is enabled, Visual Studio 2017 loads a small subset of projects instead of loading all the projects in a large solution. Most of the commonly used IDE features work under LSL mode, and it provides the ability for you to build, search, and debug on the entire solution. (The main unsupported feature in LSL mode is edit and continue.)  
 
 > [!NOTE]
 > This content applies to Visual Studio 2017 Update 3
@@ -44,7 +45,7 @@ You can right-click the solution name in Solution Explorer, and select **Enable 
 
 ![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
 
-## <a name="global_solution_load_settings"></a>Configure global settings for  lightweight solution load
+## <a name="global_solution_load_settings"></a>Configure global settings for lightweight solution load
 
 You can globally disable or configure LSL for all the solutions by choosing **Tools > Options > Projects and Solutions**.
 
@@ -52,16 +53,13 @@ You can globally disable or configure LSL for all the solutions by choosing **To
 
 ## How does lightweight solution load work behind the scenes?
 
-When you load your solution, Visual Studio remembers which projects you previously opened and loads only those projects. All other projects are visible in Solution Explorer but not loaded. As soon as you expand a project or right click on a project, Visual Studio auto-loads that project. Auto-loading of projects usually takes less than a second but can take longer for some projects.
-However, Visual Studio enables IDE features like search, debug, build, and source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
+When you load your solution, Visual Studio remembers which projects you previously opened and loads only those projects. All other projects are visible in Solution Explorer but not loaded. As soon as you expand a project or right click on a project, Visual Studio auto-loads that project. Auto-loading of projects usually takes less than a second but can take longer for some projects. However, Visual Studio enables IDE features like search, debug, build, and source control that operate across the entire solution. For example, you can search across an entire solution even though only a few projects are loaded in the lightweight mode. 
 
 As you expand more projects, Visual Studio remembers the list of expanded projects. When a solution is reopened, Visual Studio auto-loads projects that you previously expanded.
 
 ## Visual Studio prompts developers likely to see significant performance gains
 
-From Visual Studio telemetry, large solutions with over 30 projects significantly benefit from LSL mode. Consequently, we prompt developers with large solutions to try out LSL mode. The majority of developers who try LSL for the first time end up using it on regular basis. 
-
-We are constantly reviewing Visual Studio usage telemetry to improve heuristics for offering LSL mode to developers who would benefit the most. 
+From Visual Studio telemetry, large solutions with over 30 projects significantly benefit from LSL mode. Consequently, we prompt developers with large solutions to try out LSL mode. The majority of developers who try LSL for the first time end up using it on a regular basis. 
 
 ## Visual Studio makes recommendations to turn on lightweight solution load based on heuristics
 
@@ -69,7 +67,7 @@ By default, Visual Studio turns on LSL for users who are most likely to benefit.
 
 ![Popup window](../ide/media/VSIDE_LSL_Popup.png)
 
-## IDE Features fully supported in Lightweight mode
+## IDE Features fully supported in lightweight mode
 
 |Feature|Supported in Lightweight Mode?|
 |-|-|-|
@@ -90,7 +88,7 @@ By default, Visual Studio turns on LSL for users who are most likely to benefit.
 |Edit and Continue|Not supported|
 |Unit Testing|Requires loading of test projects  followed by a solution build|
 
-## Scenarios in which Lightweight solution loads the appropriate project(s) to complete the operation
+## Scenarios in which lightweight solution loads the appropriate project(s) to complete the operation
 
 If you are not working on a project in the solution, the project is not loaded in lightweight mode. For some features, additional projects are automatically loaded to support the feature scenario. (We intend to minimize this list of scenarios. ) For these scenarios, Visual Studio either loads the project(s) itself, or prompts you to load the project(s) as needed.
 
@@ -128,5 +126,5 @@ There are some scenarios that may not work in LSL mode, and require the loading 
 
 We are excited about innovations to optimize solution load time performance for developers. Since this is a new feature, we are actively looking at customer feedback, and addressing known issues. We look forward to hearing your feedback. You can email Visual Studio solution load optimization team at lslsupport@microsoft.com
 
-## See Also
-[Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
+## See also
+[Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)  

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "expression evaluation, changing values programmatically"
 ms.assetid: 8407d3df-d38a-4328-82d1-98084bef43ec
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -1,4 +1,6 @@
 ---
+redirect_url: "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/
+---
 title: "Lightweight Solution Load (LSL) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
@@ -13,6 +15,7 @@ helpviewer_keywords:
   - "VSPackages, fast solution load"
 ms.assetid: 0a71d91e-dc71-4d6b-bbfe-9e4ecd9e5fd1
 caps.latest.revision: 1
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

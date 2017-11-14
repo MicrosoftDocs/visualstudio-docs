@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "PreloadModules"
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

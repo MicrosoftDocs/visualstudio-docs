@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "top-level menus"
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
 caps.latest.revision: 51
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

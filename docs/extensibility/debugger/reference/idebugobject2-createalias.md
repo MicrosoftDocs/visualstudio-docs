@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugObject2::CreateAlias method"
 ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

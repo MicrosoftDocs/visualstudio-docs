@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

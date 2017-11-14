@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "packages"
 ms.assetid: 8b86d62f-c274-4e91-82e0-38cdb9a423d5
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

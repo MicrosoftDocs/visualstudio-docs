@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugCodeContext2 interface"
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "language services [managed package framework], commenting code"
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

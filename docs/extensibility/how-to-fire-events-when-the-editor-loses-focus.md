@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - fire events on losing focus"
 ms.assetid: 64d40695-6917-468a-8037-a253453ac159
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

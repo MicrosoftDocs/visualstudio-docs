@@ -35,7 +35,7 @@ XML and its related technologies play a large role in the way data is handled in
 -   XML Schema Explorer  
   
 ## XML Schema Designer  
- The XML Schema Designer is integrated with Microsoft Visual Studio 2010 and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
+ The XML Schema Designer is integrated with Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
   
 ## XSLT Debugging  
  Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.  

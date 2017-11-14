@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "IDebugPortSupplierLocale2::SetLocale"
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

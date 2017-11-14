@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::Seek"
 ms.assetid: afec3008-b1e0-4803-ad24-195dbfb6497e
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---

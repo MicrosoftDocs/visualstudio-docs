@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "ProjectItem element [Visual Studio item templates]"
 ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
 ---
