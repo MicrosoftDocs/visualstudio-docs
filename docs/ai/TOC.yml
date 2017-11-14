@@ -3,7 +3,7 @@
   items:
     - name: Overview
       items:
-        - name: About AI Tools
+        - name: About Visual Studio Tools for AI
           href: about-ai-tools.md
     - name: Installation
       href: installation.md 

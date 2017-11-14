@@ -15,7 +15,7 @@ metadata:
   ms.date: 10-25-2017
   ms.author: liwong
 abstract:
-  description: AI Tools for Visual Studio is a cross-platform integrated development environment to build, test, and deploy deep learning solutions. Learn how to use AI Tools with our quickstarts, tutorials, and samples.
+  description: Visual Studio Tools for AI is an integrated development environment to build, test, and deploy deep learning solutions. Learn how to use AI Tools with our quickstarts, tutorials, and samples.
 sections:
 - title: 5-Minute Quickstarts
   items:
@@ -35,7 +35,7 @@ sections:
   - type: list
     style: ordered
     items:
-    - html: <a href="/visualstudio/ai/tensorflow-vm">Run a TensorFlow model in the cloud</a>
+    - html: <a href="/visualstudio/ai/tensorflow-vm">Train a TensorFlow model in the cloud</a>
 - title: Samples
   items:
   - type: list

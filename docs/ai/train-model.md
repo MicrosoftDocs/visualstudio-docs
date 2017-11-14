@@ -1,7 +1,7 @@
 ---
-title: Sumbit a job to train model locally or in cloud
-description: train model locally or in cloud
-keywords: ai, visual studio, train model, cloud, local
+title: Sumbit a job to train model in Azure Batch AI
+description: train model cloud
+keywords: ai, visual studio, train model, cloud
 author: lisawong19
 ms.author: liwong
 manager: routlaw
@@ -12,34 +12,46 @@ ms.devlang: multiple
 ms.service: multiple
 ---
 
-# Submitting a job to train your model locally or in the cloud
-Now that the new project is open in Visual Studio, you can submit a model training job to your different compute targets (local or VM with docker).
+# Train AI models in Azure Batch AI
 
-Visual Studio Tools for AI provides multiple ways to submit a model training job. 
-1. Context Menu (right click) - **Machine Learning: Submit Job**.
-2. From the command palette: "Machine Learning: Submit Job".
-3. Alternatively, you can run the command directly using Azure CLI, Machine Learning Commands, using the embedded terminal.
+Batch AI is a managed service that enables data scientists and AI researchers to train AI and other machine learning models on clusters of Azure virtual machines, including VMs with GPU support. You describe the requirements of your job, where to find the inputs and store the outputs, and Batch AI handles the rest. [Learn more about Azure Batch AI](https://docs.microsoft.com/azure/batch-ai/overview) 
 
-![submit job](media\train-model\submitjobs.png)
+It's integrated with Visual Studio Tools for AI so you can dynamically scale out training models in Azure.  Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to create a new Python project using pre-made recipes in the Azure Machine Learning Sample Gallery.
 
-Open iris_sklearn.py, right click and select **Machine Learning: Submit Job**.
-1. Select your platform: "Azure Machine Learning".
-2. Select your run-configuration: "Docker-Python."
+1. Launch Visual Studio. Open the **Server Explorer** by opening the **AI Tools** menu and choosing **Select Cluster**	
 
-> [!NOTE]
-> If it is the first time your submit a job, you receive a message "No Machine Learning configuration found, creating...". A JSON file is opened, save it (**Ctrl+S**).
+    ![Cluster chooser](media\train-model\select-cluster.png)
 
-Once the job is submitted, the embedded-terminal displays the progress of the runs. 
+	 
+2. Expand **AI Tools**. Any Batch AI resources you have will be auto-detected and appear in the Server Explorer. 
+	
+    ![Sample gallery](media\train-model\batchai.png)
 
-## View recent job performance and details
-Once the jobs are submitted, you can list the jobs from the run history.
-1. Open the command palette (View > **Command Palette** or **Ctrl+Shift+P**).
-2. Enter "**AI List**."
-3. You get a recommendation for "AI: List Jobs", select and press enter.
-4. Select the platform "Azure Machine Learning."
+3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository.
 
-The Job List View opens and displays all the runs and some related information.
+    ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media\train-model\team-explorer.png)
 
-![add data source](media\train-model\runhistory-list.png)
+4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 
-To view the results of a job, click on the **job ID** link to see detailed information. 
+    > [!Tip]
+    > The folder you specify in Team Explorer is the specific folder to receive the cloned files. Unlike the `git clone` command, creating a clone in Team Explorer does not automatically create a subfolder with the name of the repository.
+
+5. When cloning is complete, click **File > Open Solution > Project / Solution**
+	
+	![Sample gallery](media\train-model\open-solution.png)
+
+5. Open **samples-for-ai\TensorFlowExamples\TensorFlowExamples.sln** in the directory you cloned the repository 
+
+	![Sample gallery](media\train-model\tensorflowexamples.png)
+
+5. Set MNIST project as the **Startup Project **
+
+	![Sample gallery](media\train-model\mnist-startup.png)
+
+1. **Right-click **MNIST project, **Submit Job**
+
+	![Sample gallery](media\train-model\submit-job.png)
+
+1. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
+
+	![Sample gallery](media\train-model\submit-batch.png)

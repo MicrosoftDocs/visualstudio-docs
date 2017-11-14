@@ -14,7 +14,7 @@ ms.service: multiple
 
 # Run a TensorFlow model locally 
 
-In this quickstart, we will run a TensorFlow model with the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset locally in AI Tools. 
+In this quickstart, we will train a TensorFlow model with the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset locally in Visual Studio Tools for AI. 
 The MNIST database has a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits. 
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 
 Run the following command in a terminal. 
 ```cmd
-C:\>pip.exe install tensorflow==1.2.1
+C:\>pip.exe install tensorflow
 ```
 
 ### NumPy and SciPy 
@@ -34,7 +34,7 @@ Install [NumPy](https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy) and [SciPy](h
 ### Download sample code
 Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) containing samples for getting started with deep learning across TensorFlow, CNTK, Theano, and more. 
 
-## Load and run model 
+## Open solution and train model
 
 - Launch Visual Studio and select **File > Open > Project/Solution**.
 
@@ -53,4 +53,4 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 ![Sample output from console](media\tensorflow-local\console-output.png)
 
 > [!div class="nextstepaction"]
-> [Run a TensorFlow model in the cloud](tensorflow-vm.md)
+> [Train a TensorFlow model in the cloud](tensorflow-vm.md)

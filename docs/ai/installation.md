@@ -17,7 +17,22 @@ Currently this extension supports the following 64-bit operating systems:
 - Windows
 - macOS
 
-## Preparing your environment
+## Installing Visual Studio Tools for AI
+
+This extension works with [Visual Studio](https://docs.microsoft.com/visualstudio/) 2015, 2017, Community edition or higher. 
+
+To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsforai) or from within Visual Studio 
+
+1. **Tools**> **Extensions and Updates** 
+
+![install CUDA on Windows](media\installation\extensions.png)
+
+1. **Search** in upper right-hand corner for "Tools for AI"
+2. Select **Visual Studio Tools for AI**
+3. Click **Download**
+
+
+## Preparing your local machine
 
 Before training deep learning models on your local computer you should make sure you have the latest applicable prerequisites installed. This includes making sure the latest drivers and libraries for your NVIDIA GPU (if you have one). You should also ensure you have installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch and/or Chainer that you plan to use in your project.
 
@@ -233,16 +248,3 @@ pip3.5 install chainer==3.0.0
 ```
 
 
-## Installing Visual Studio Tools for AI
-
-This extension works with [Visual Studio](https://docs.microsoft.com/visualstudio/) Community edition or higher. 
-
-To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsforai) or from within Visual Studio 
-
-1. **Tools**> **Extensions and Updates** 
-
-![install CUDA on Windows](media\installation\extensions.png)
-
-1. **Search** in upper right-hand corner for "Tools for AI"
-2. Select **Visual Studio Tools for AI**
-3. Click **Download**
