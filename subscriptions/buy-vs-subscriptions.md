@@ -17,7 +17,7 @@ There are three ways to buy Visual Studio subscriptions.
 - Standard subscriptions can be purchased through the Microsoft Store. 
 - Organizations can purchase Volume License subscriptions through resellers.  
 
-## Buying Cloud Subscriptions through the Visual Studio Marketplace
+## Buying Cloud subscriptions through the Visual Studio Marketplace
 You can buy Visual Studio Professional and Visual Studio Enterprise [subscriptions](https://www.visualstudio.com/subscriptions/) 
 from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). 
 Learn about the full benefits for these subscriptions, 
