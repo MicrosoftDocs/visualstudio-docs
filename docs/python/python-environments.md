@@ -18,9 +18,9 @@ manager: ghogen
 
 # Python environments
 
-Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. 
+Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects.
 
-Note: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
+**Note**: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
 
 - [Working with Python in Visual Studio](python-in-visual-studio.md)
 - [Installing Python support in Visual Studio](installation.md)
@@ -47,8 +47,8 @@ For a video introduction, see [Managing Python Environments](https://mva.microso
 
 Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio automatically detects newly installed interpreters and sets up an environment for each. If it does not detect an installed environment, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
 
-| Interpreter | Description | 
-| --- | --- | 
+| Interpreter | Description |
+| --- | --- |
 | [CPython](https://www.python.org/) | The "native" and most commonly-used interpreter, available in 32-bit and 64-bit versions (32-bit recommended). Includes the latest language features, maximum Python package compatibility, full debugging support, and interop with [IPython](http://ipython.org/). See also: [Should I use Python 2 or Python 3?](http://wiki.python.org/moin/Python2orPython3). Note that Visual Studio 2015 and earlier do not support Python 3.6 and can give the error "Unsupported python version 3.6". Use Python 3.5 or earlier instead. |
 | [IronPython](https://github.com/IronLanguages/main) | A .NET implementation of Python, available in 32-bit and 64-bit versions, providing C#/F#/Visual Basic interop, access to .NET APIs, standard Python debugging (but not C++ mixed-mode debugging), and mixed IronPython/C# debugging. IronPython, however, does not support virtual environments. | 
 | [Anaconda](https://www.continuum.io) | An open data science platform powered by Python, and includes the latest version of CPython and most of the difficult-to-install packages. We recommend it if you can't otherwise decide. |
@@ -65,7 +65,7 @@ To open the Python Environments window, do one of the following:
 1. Right-click the **Python Environments** for a project in Solution Explorer and select **View All Python Environments**:
 
     ![View All Environments command in Solution Explorer](media/environments-view-all.png)
-    
+
 In either case, the Python Environments window appears as a sibling tab to Solution Explorer:
 
 ![Python Environments window](media/environments-default-view.png)
@@ -84,7 +84,7 @@ The example above shows that Python 3.4 (32-bit CPython) is installed along with
 
 Visual Studio normally locates an installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)). However, Visual Studio may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
-1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
+1. Select **+ Custom...** in the [Python Environments window](#managing-python-environments-in-visual-studio), which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
     ![Default view for a new custom environment](media/environments-custom-1.png)
 
@@ -177,7 +177,7 @@ Libraries for which data haven't been compiled are marked with a **!**; if an en
 
 ## Global environments
 
-Global (or system-wide) environments are available to all of your projects on a machine. Visual Studio usually detects global environments automatically, and they can be viewed in the Python Environments window. If not, you can add an environment manually as described earlier under [Managing Python environments in Visual Studio](#managing-python-environments-in-visual-studio).
+Global (or system-wide) environments are available to all of your projects on a machine. Visual Studio usually detects global environments automatically, and they can be viewed in the [Python Environments window](#managing-python-environments-in-visual-studio). If not, you can add an environment manually through that same window.
 
 Visual Studio uses the default environment for all new projects for executing, debugging, checking syntax, displaying import and member completions, and any other tasks that require an environment. Changing the default environment affects all projects that have not had a [project-specific environment](#project-specific-environments) added, as described next.
 

@@ -181,12 +181,12 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     };
     ```
 
-1. Add a structure that defines the module as Python sees it:
+1. Add a structure that defines the module as you see it through Python code. (Filenames internal to the C++ project, like module.cpp, are inconsequential.)
 
     ```cpp
     static PyModuleDef superfastcode_module = {
         PyModuleDef_HEAD_INIT,
-        "superfastcode",						// Module name
+        "superfastcode",						// Module name as Python sees it
         "Provides some functions, but faster",  // Module description
         0,
         superfastcode_methods                   // Structure that defines the methods
