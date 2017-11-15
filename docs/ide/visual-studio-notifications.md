@@ -27,5 +27,4 @@ If you choose to always ignore a notification, Visual Studio will stop showing i
 ![Visual Studio notification icon](../ide/media/vs2015_notificationicon.png "vs2015_NotificationIcon")  
   
 ## See also  
-[Connected environment](../ide/connected-environment.md)  
 [Visual Studio IDE](../ide/visual-studio-ide.md)  

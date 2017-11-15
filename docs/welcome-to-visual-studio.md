@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/visual-studio-ide
+---
 title: "Welcome to Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/02/2017"

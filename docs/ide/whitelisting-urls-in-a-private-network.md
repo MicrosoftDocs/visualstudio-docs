@@ -50,6 +50,5 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 >  Privately owned NuGet server URLs may not be included in the list above. You can check the NuGet servers you are using by opening up %APPData%\Nuget\NuGet.Config.  
 
 ## See also  
-[Proxy authorization required error](../ide/reference/proxy-authorization-required.md)  
-[Connected environment](../ide/connected-environment.md)  
+[Correcting proxy authorization errors](../ide/reference/proxy-authorization-required.md)  
 [Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)  
