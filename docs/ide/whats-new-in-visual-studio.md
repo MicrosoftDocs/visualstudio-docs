@@ -173,7 +173,7 @@ For more information, see the [Using the New Exception Helper in Visual Studio](
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-![The New Exception Helper dialog in Visual Studio](../media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
