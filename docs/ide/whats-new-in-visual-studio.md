@@ -212,6 +212,12 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 ![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png "Entitlement editor for Xamarin")
 
+### Visual Studio Tools for Xamarin
+**New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After downloading the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to Tools > Options > Xamarin > Other > Enable Xamarin Live Player.
+
+![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../ide/media/xamarinliveplayer.gif)
+
+
 ### Visual Studio App Center
 **New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
 
