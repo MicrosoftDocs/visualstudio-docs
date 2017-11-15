@@ -10,7 +10,7 @@
 ## [Frequently Asked Questions](faq-2017.md)
 # [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
 # [How to: Roundtrip Extensions for Visual Studio](how-to-roundtrip-VSIXs.md)
-# [Langauge Server Protocol](language-server-protocol.md)
+# [Language Server Protocol](language-server-protocol.md)
 ##[Adding a Language Server Protocol extension](adding-an-lsp-extension.md)
 # [Extending Menus and Commands](extending-menus-and-commands.md)
 ## [Creating an Extension with a Menu Command](creating-an-extension-with-a-menu-command.md)
