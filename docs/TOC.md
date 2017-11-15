@@ -47,7 +47,7 @@
 ## Visual Basic: create a console app
 ## C++: create a console app
 ## Python: create a web app
-## Node.js: create a web app
+## [Node.js: create a web app](ide/quickstart-nodejs.md)
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
 ## [Getting Started with C++ in Visual Studio](ide/getting-started-with-cpp-in-visual-studio.md)
