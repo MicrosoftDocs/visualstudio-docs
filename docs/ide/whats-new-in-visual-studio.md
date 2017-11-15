@@ -212,6 +212,11 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 ![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png "Entitlement editor for Xamarin")
 
+### Visual Studio App Center
+**New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
+
+For more information, see the [Introducing App Center: Build, Test, Distribute and Monitor Apps in the Cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
+
 ## Cross-platform development
 ### Redgate Data Tools
 To extend DevOps capabilities to SQL Server database development, Redgate Data Tools are now available in Visual Studio.
@@ -233,11 +238,6 @@ The .NET Core platform is made of several components, which include the managed 
 And, it now includes Docker support.  
 
 **New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
-
-For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
-
-### Visual Studio App Center
-**New in 15.5** Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
 
 For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
 
