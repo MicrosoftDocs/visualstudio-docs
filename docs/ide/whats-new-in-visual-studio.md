@@ -1,7 +1,7 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/06/2017"
+ms.date: "11/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -20,7 +20,7 @@ ms.author: "tglee"
 manager: ghogen
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the 15.4 release
+#### Updated for the [15.5 Preview 4 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -33,7 +33,7 @@ Here's a high-level recap of the changes we've made since our previous version, 
 * **Games development**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
@@ -52,10 +52,10 @@ Choose the workloads you need, and change them when you need to.
 
 Want to pick your own components instead of using workloads? Select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.  
 
-To learn more about the new installation experience, including step-by-step instructions that walk you through it, see our [Install Visual Studio](../install/install-visual-studio.md) page.
+To learn more about the new installation experience, including step-by-step instructions that walk you through it, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
 ### A focus on accessibility
-**New in 15.3**, we made over 1,700 targeted fixes to improve compatibility between Visual Studio and the assistive technologies that many of our customers use. There are dozens of scenarios that are more compatible with screen readers, high contrast themes, and other assistive technologies than ever before. The debugger, editor and shell have all gotten significant improvements, too.
+**New in 15.3**, we made over 1,700 targeted fixes to improve compatibility between Visual Studio and the assistive technologies that many customers use. There are dozens of scenarios that are more compatible with screen readers, high contrast themes, and other assistive technologies than ever before. The debugger, editor and shell have all gotten significant improvements, too.
 
 For more information, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
@@ -69,9 +69,7 @@ You can stay signed in longer, too. Visual Studio won't ask you to sign in again
 The new Visual Studio Performance Center can help you optimize your IDE start-up time. The Performance Center lists all the extensions and tool windows that might slow down the IDE startup. You can use it to improve startup performance by determining when extensions start, or whether tool windows are open at startup.
 
 ### Decrease solution load time
-Working on solutions that contain large numbers of projects doesn't mean you have to work with all the files or projects at one time. Now you can edit and debug without waiting for Visual Studio to load every project. To try this out with managed projects, turn on the  **Lightweight Solution load** from Tools -> Options -> Projects and Solutions.
-
-  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-lightweight-solution-load.png "Visual Studio 2017 - Options dialog box - Lightweight solution load for all solutions")
+Working on solutions that contain large numbers of projects doesn't mean you have to work with all the files or projects at one time. Now you can edit and debug without waiting for Visual Studio to load every project.
 
 ### Faster on-demand loading of extensions
 Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in Help -> Manage Visual Studio Performance.
@@ -99,21 +97,14 @@ When you use the Roaming Extension Manager, there are three icon types on your l
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed** and is part of your Roaming list, which gives you access to it from any machine.
 
-### Experience live architecture dependency validation and live unit testing
-As you type code in the text editor, Visual Studio notifies you in real time of architectural dependency rule violations by using Dependency Validation diagrams (a.k.a. Layer diagrams).
-
-Errors appear in the Error List and squiggles appear in the text editor showing you the precise location of the violation. You are now less likely to introduce unwanted dependencies.
-
-![Live Architecture Validation](../ide/media/vs2017ide-LiveArchitectureDepedendencyValidation.png "Live Architecture Dependency validation")
-
-#### Live unit testing
+### Experience live unit testing
 In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for both the .NET Framework and .NET Core, and it supports three test frameworks of MSTest, xUnit, and NUnit.
 
-![Live Unit Testing](../ide/media/lut-codewindow.png "An example of our new Live Unit Testing feature in the Enterprise edition of Visual Studio")
+![Live Unit Testing](../ide/media/lut-codewindow.png "An example of the new Live Unit Testing feature in the Enterprise edition of Visual Studio")
 
 For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
-#### Set up a CI/CD pipeline to run automated tests efficiently
+#### Setting up a CI/CD pipeline
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
 For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
@@ -122,8 +113,7 @@ And, for more information about what's new in the [Continuous Delivery Tools for
 
 ### Visual Studio IDE enhancements
 #### Use new refactorings
-**New in 15.3**, we’ve added a handful of new refactorings, to include:
-*	Resolve merge conflict
+**In 15.3**, we added a handful of new refactorings, to include:
 *	Add parameter (from CallSite)
 *	Generate overrides
 *	Add named argument
@@ -159,14 +149,14 @@ We've refreshed the navigation experience to help you get from A to B with great
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
-For more information about our new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
+For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
 ### Visual C++
 You'll see several improvements in Visual Studio, such as distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, and adding and updating functionality in the C++ libraries. We've also improved the performance of the C++ IDE, installation workloads, and more.
 
 As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect").
 
-For complete details, see our [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
+For complete details, see the [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
 ### Debugging and Diagnostics
 #### Run to Click:
@@ -174,18 +164,43 @@ Now, you can more easily skip ahead during debugging without setting a breakpoin
 
 ![Visual Studio 2017 debug - Run To Click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio debug & diagnostics")
 
-#### The New Exception Helper:
+#### The new Exception Helper:
 The new Exception Helper helps you view your exception information at-a-glance. The information is presented in a compact form with instant access to inner exceptions. When you diagnose a NullReferenceException, you can quickly see what was null right inside the Exception Helper.
 
 ![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png "The New Exception Helper dialog")
 
 For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
+#### Snapshots and IntelliTrace step-back:
+**New in 15.5** IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
+
+You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
+
+![The New Exception Helper dialog in Visual Studio](../media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+
+For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+
+### Containerization
+#### Docker Container Tooling
+**New in 15.5**
+* Visual Studio includes tools for Docker containers that now support multi-stage Dockerfiles, which streamline creating optimized container images.
+* By default, Visual Studio will automatically pull, build, and run the necessary container images in the background when you open a project that has Docker support. You can disable this via the **Automatically start containers in background** setting in Visual Studio.
+
 ## Cloud app development with Azure
 ### Azure Functions Tools
 As part of the "Azure development" workload, we've included tools to help you develop Azure functions by using pre-compiled C# class libraries. Now you can build, run, and debug on your local development machine and then publish directly to Azure from Visual Studio.
 
 For more information, see the [Azure Functions Tools for Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs) page.
+
+### Debug live ASP.NET apps using snappoints and logpoints in live Azure applications
+**New in 15.5** The Snapshot Debugger takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+
+Snapshot collection is available for the following web apps running in Azure App Service:
+
+* ASP.NET applications running on .NET Framework 4.6.1 or later.
+* ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+
+For more information, see [Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md).
 
 ## Mobile app development
 ### Xamarin
@@ -209,7 +224,7 @@ Included with Visual Studio 2017 Enterprise:
 Included with all editions of Visual Studio 2017:
 - [Redgate SQL Search](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs) increases your productivity by helping you quickly find SQL fragments and objects across multiple databases.
 
-To learn more, see our [Redgate Data Tools in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/) blog post.
+To learn more, see the [Redgate Data Tools in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/) blog post.
 
 ### .NET Core
 .NET Core is a general purpose, modular, cross-platform, and open source implementation of the .NET Standard and contains many of the same APIs as the .NET Framework.
