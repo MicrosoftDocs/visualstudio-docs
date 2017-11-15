@@ -1,5 +1,5 @@
 ---
-title: AI Tools for Visual Studio
+title: Installing AI Tools for Visual Studio
 description: Installation of AI Tools for Visual Studio
 keywords: ai, visual studio
 author: lisawong19
@@ -13,8 +13,7 @@ ms.service: multiple
 ---
 # Installation
 
-Currently this extension supports the following 64-bit operating systems:
-- Windows
+Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 ## Installing Visual Studio Tools for AI
 
