@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 666276fb-99c2-4dc9-8bac-d74861c203ea
 caps.latest.revision: 12
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
 ---
 # Best Practices and Examples (SAL)

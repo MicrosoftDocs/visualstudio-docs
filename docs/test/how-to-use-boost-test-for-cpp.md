@@ -28,7 +28,7 @@ In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into 
 3. Run the `vcpkg integrate install` command to configure Visual Studio with the library and include paths to the Boost headers and binaries. 
 
 ## Create a project for your tests
-**Visual Studio 2017 version 15.5** No project or item templates are currently available for Boost.Test. Templates are planned for inclusion in a future version of Visual Studio.
+In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are  available for Boost.Test. Therefore, you have to create a console application project to hold your tests. Test templates for Boost.Test are planned for inclusion in a future version of Visual Studio. 
 
 1. In **Solution Explorer**, right click on the solution node and choose **Add | New Project**. 
 2. In the left pane, choose **Windows Desktop** and then choose **Windows Console Application** in the center pane. 

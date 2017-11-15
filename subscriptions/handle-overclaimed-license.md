@@ -18,8 +18,9 @@ Sometimes orders are changed after subscribers have been added, which can result
 ![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
 
 1.	To resolve over-claimed licenses, click the alert text. This will display a filtered list of the subscribers that are assigned to the subscription level and expiration date that is over-claimed. 
+
 2.	Remove subscribers as needed to rectify the over-claimed licenses. 
 
-![Delete Over-claimed Subscriptions](_img\over-claimed\delete-over-claimed.png)
-
 3.	The overview on the left side of the page will update to show that you are once again in compliance, and all over-claimed notifications will disappear. 
+
+![Delete Over-claimed Subscriptions](_img\over-claimed\delete-over-claimed.png)
