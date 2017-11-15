@@ -1,7 +1,7 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/14/2017"
+ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -31,6 +31,7 @@ Here's a high-level recap of the changes we've made since our previous version, 
 * **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 * **Cross-platform development**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
 * **Games development**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
+* **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enable data science reproducibility and auditing.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes).
@@ -102,6 +103,7 @@ In Visual Studio Enterprise 2017, live unit testing gives you live unit test res
 For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
 #### Setting up a CI/CD pipeline
+#### Automated testing
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
 For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
@@ -234,11 +236,25 @@ And, it now includes Docker support.
 
 For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
 
+### Visual Studio App Center
+**New in 15.5** Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
+
+For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
+
 ## Games development
 ### Visual Studio Tools for Unity
 As part of the "Games development for Unity" workload, we've included tools to help you develop cross-platform to create 2D and 3D games and interactive content. Create once and publish to 21 platforms, including all mobile platforms, WebGL, Mac, PC and Linux desktop, web, or consoles by using Visual Studio 2017 and Unity 5.6.
 
 For more information, see the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) page.
+
+## AI development
+### Visual Studio Tools for AI
+**New in 15.5**: Use the productivity features of Visual Studio to accelerate AI innovation today. Use built-in code editor features like syntax highlighting, IntelliSense, and text auto formatting. You can interactively test your deep learning application in your local environment by using step-through debugging on local variables and models.
+
+  ![Deep Learning IDE](../ai/media/about/ide.png)
+
+For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools) page.
+
 
 ## Talk to us  
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.  
