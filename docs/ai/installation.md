@@ -15,7 +15,6 @@ ms.service: multiple
 
 Currently this extension supports the following 64-bit operating systems:
 - Windows
-- macOS
 
 ## Installing Visual Studio Tools for AI
 
