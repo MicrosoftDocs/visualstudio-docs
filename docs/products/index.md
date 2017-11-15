@@ -93,7 +93,7 @@ searchScope: []
                                 </a>
                             </li>
 							<li>
-                                <a href="https://docs.microsoft.com/mobile-center/" title="Visual Studio App Center">
+                                <a href="https://docs.microsoft.com/appcenter" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
