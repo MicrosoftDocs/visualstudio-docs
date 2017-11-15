@@ -18,6 +18,10 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Start Page
 
+The first thing you'll see after you launch Visual Studio is most likely going to be the Start Page. The Start Page is designed as a "hub" to help you find the commands and project files you need faster.
+
+You can also [customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
+
 ## Solution Explorer
 
 ## Menus
