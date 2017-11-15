@@ -217,7 +217,6 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 ![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../ide/media/xamarinliveplayer.gif)
 
-
 ### Visual Studio App Center
 **New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
 
@@ -259,7 +258,7 @@ For more information, see the [Visual Studio Tools for Unity](../cross-platform/
 
   ![Deep Learning IDE](../ai/media/about/ide.png)
 
-For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools) page.
+For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.md) page.
 
 
 ## Talk to us  
