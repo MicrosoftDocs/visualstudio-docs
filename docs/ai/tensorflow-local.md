@@ -1,5 +1,5 @@
 ---
-title: Run a tensorflow model locally
+title: Train a tensorflow model locally
 description: Run a tensorflow model locally in AI Tools for Visual Studio
 keywords: ai, visual studio, tensorflow, local
 author: lisawong19
@@ -12,7 +12,7 @@ ms.devlang: python
 ms.service: multiple
 ---
 
-# Run a TensorFlow model locally 
+# Train a TensorFlow model locally 
 
 In this quickstart, we will train a TensorFlow model with the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset locally in Visual Studio Tools for AI. 
 The MNIST database has a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits. 
