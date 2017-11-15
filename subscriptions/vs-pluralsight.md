@@ -24,7 +24,7 @@ Visual Studio subscriptions include unlimited access to the full Pluralsight cat
 | Visual Studio Professional standard & annual cloud subscriptions | 3 month subscription |           12 months           |
 | Visual Studio Test Professional                                  | 3 month subscription |           12 months           |
 | MSDN Platforms                                                   | 3 month subscription |           12 months           |
-| Visual Studio Dev Essentials                                     | 2 month subscription |         Not available         | 
+| Visual Studio Dev Essentials                                     | 3 month subscription |         Not available         | 
  
 
  **IMPORTANT:** When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message: 
