@@ -26,7 +26,7 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for **Visual Studio 2017 Enterprise version 15.5 or higher. 
+Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher. 
 
 ## Start the Snapshot Debugger
 
@@ -82,9 +82,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
-    The website itself is still live and end users are not impacted.
-
-Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+    The website itself is still live and end users are not impacted.Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
