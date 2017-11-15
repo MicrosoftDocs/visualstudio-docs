@@ -89,6 +89,14 @@ As new rules are added to the C++ Core Guidelines Checker, the number of warning
 
   - **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
 
+    **Visual Studio 2017 version 15.5**:
+  - **Class rules** A few rules that focus on proper use of special methods and virtual specifications. This is a subset of checks recommended for [classes and class hierarchies](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class). 
+ - **Concurrency Rules** A single rule which catches badlyly-declared guard objects. For more information see [guidelines related to concurrency](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-concurrency). 
+ - **Declaration Rules** A couple of rules from the [interfaces guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-interfaces) which focus on how global variables are declared.  
+ - **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions). 
+ - **Shared pointer Rules** As a part of [resource management](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-resource) guidelines enforcement, we added a few rules specific to how shared pointers are passed into functions or used locally.  
+ - **Style Rules** One simple but important check which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++. 
+
 
  You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
 
