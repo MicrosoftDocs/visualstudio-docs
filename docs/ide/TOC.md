@@ -203,7 +203,6 @@
 ## [How to Unlock Visual Studio](how-to-unlock-visual-studio.md)
 ## [Visual Studio Motifications](visual-studio-notifications.md)
 ## [Finding and Using Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
-## [Using the NuGet Package Manager](/nuget/?toc=../ide/toc.json)
 ## [Whitelisting URLs in a Private Network](whitelisting-urls-in-a-private-network.md)
 ## [Proxy Authorization Required Error](../ide/reference/proxy-authorization-required.md)
 # [Improve Code Quality](../test/improve-code-quality.md)

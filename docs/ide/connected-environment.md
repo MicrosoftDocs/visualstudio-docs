@@ -19,7 +19,7 @@ manager: ghogen
 Visual Studio is a connected environment:
 
 - You can [sign in](../ide/signing-in-to-visual-studio.md) to Visual Studio to enable access to all the services associated with your user account, as well as all the accounts that are linked to that account. Your account settings roam with you wherever you use Visual Studio.  
-- Visual Studio [informs you](../ide/visual-studio-notifications.md) when any component of your installation, such as an SDK, had an update available.  
+- Visual Studio [notifies you](../ide/visual-studio-notifications.md) when any component of your installation, such as an SDK, has an update available.  
 - You can download [NuGet](/nuget/) packages to obtain libraries.  
 - You can download Visual Studio [extensions](../ide/finding-and-using-visual-studio-extensions.md).  
 - You can connect to Azure services.  
