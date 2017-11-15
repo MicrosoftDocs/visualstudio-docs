@@ -1,14 +1,13 @@
 ---
 title: Working online in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0adb84eb-b22e-46a6-ad90-216652f3733c
 caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
@@ -23,11 +22,12 @@ Visual Studio is a connected environment:
 - You can download [NuGet](/nuget/) packages to obtain libraries.  
 - You can download Visual Studio [extensions](../ide/finding-and-using-visual-studio-extensions.md).  
 - You can connect to Azure services.  
-- The Start Page is updated with the latest blog posts.  
+- The Start Page is updated with the latest developer news from different websites.  
 - etc.  
 
 The topics in this section pertain to the different ways Visual Studio uses internet resources.
 
 ## See also
+
 [Visual Studio IDE](../ide/visual-studio-ide.md)  
 [Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)
