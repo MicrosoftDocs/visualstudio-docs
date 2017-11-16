@@ -53,7 +53,6 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                            
                             <li>
                                 <a href="https://code.visualstudio.com/docs" title="Visual Studio Code">
                                     <div class="cardSize">
@@ -111,14 +110,15 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-						<div style="margin-left:10px; margin-top:40px;">
-						<p style="font-size:1.12em">Developer tools, cloud services, software, support and training</p>
-					<p style="margin-top:24px;">
-                                <a href="https://aka.ms/vs-subscriptions/">
-                                    <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio Subscription<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 14" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;"><path d="M7.4 7L1 .6l.6-.6 7 7-7 7-.6-.7L7.4 7z" /></svg></button>
+							<li><div style="margin-left:13px; margin-top:40px;">
+							<p style="font-size:18px; text-align:center">Developer tools, cloud services, software, <br/>support and training</p>
+                        <p style="font-size:1.12em"><p style="margin-top:24px; text-align:center;">
+                                <a href="https://aka.ms/vs-subscriptions/" data-linktype="external">
+                                    <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio Subscription<svg xmlns="http://www.w3.org/2000/svg" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;" viewBox="0 0 10 14"><path d="M 7.4 7 L 1 0.6 l 0.6 -0.6 l 7 7 l -7 7 l -0.6 -0.7 L 7.4 7 Z" /></svg></button>
                                 </a>
-                            </p></div>
+                            </p>
+                    </div></li>
+                        </ul>						
                     </li>
                 </ul>
             </li>
