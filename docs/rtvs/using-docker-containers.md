@@ -30,7 +30,7 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 
 ## Creating a container
 
-1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window.
+1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window. (The window informs you if you don't have Docker for Windows installed.)
 
     ![Workspaces window in R Tools for Visual Studio (VS2017)](media/container-workspaces-window.png)
 
