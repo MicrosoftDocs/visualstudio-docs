@@ -13,6 +13,7 @@
 ### [SQL Server Integration](sql-server.md)
 ## [Editing Code](code-editing.md)
 ### [IntelliSense](code-intellisense.md)
+### [Linting](code-linting.md)
 ### [Code Snippets](code-snippets.md)
 ## [Workspaces (Local and Remote)](workspaces.md)
 ### [Setting up Remote Workspaces](workspaces-remote-setup.md)
