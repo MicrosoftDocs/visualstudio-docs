@@ -23,7 +23,7 @@ This section lists C++ Core Guidelines Checker warnings. For information about C
 ## OWNER_POINTER Group
 
 [C26402 DONT_HEAP_ALLOCATE_MOVABLE_RESULT](C26402.md)  
-  Return a scoped object instead of a heap-allocated if it has a move constructor . See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr). 
+  Return a scoped object instead of a heap-allocated if it has a move constructor. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr). 
  	 
 [C26403 RESET_OR_DELETE_OWNER](C26403.md)  
   Reset or explicitly delete an owner\<T> pointer '%variable%'. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
@@ -32,10 +32,10 @@ This section lists C++ Core Guidelines Checker warnings. For information about C
   Do not delete an owner\<T> which may be in invalid state. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
 
 [C26405 DONT_ASSIGN_TO_VALID](C26405.md)  
-  Do not assign to an owner\<T> which may be in valid state]. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
+  Do not assign to an owner\<T> which may be in valid state. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
 
 [C26406 DONT_ASSIGN_RAW_TO_OWNER](C26406.md)  
-  Do not assign a raw pointer to an owner\<T>]. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
+  Do not assign a raw pointer to an owner\<T>. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).  
   
 [C26407 DONT_HEAP_ALLOCATE_UNNECESSARILY](C26407.md)  
   Prefer scoped objects, don't heap-allocate unnecessarily. See [C++ Core Guidelines R.5](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-scoped).  
@@ -58,7 +58,7 @@ Do not assign the result of an allocation or a function call with an owner\<T> r
 Do not delete a raw pointer that is not an owner\<T>. See [C++ Core Guidelines I.11](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Ri-raw). 
 
 [C26402 DONT_HEAP_ALLOCATE_MOVABLE_RESULT](C26402.md)  
-Return a scoped object instead of a heap-allocated if it has a move constructor . See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr). 
+Return a scoped object instead of a heap-allocated if it has a move constructor. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr). 
  
 [C26408 NO_MALLOC_FREE](C26408.md)  
   Avoid malloc() and free(), prefer the nothrow version of new with delete. See [C++ Core Guidelines R.10](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-mallocfree).  
@@ -76,7 +76,7 @@ Return a scoped object instead of a heap-allocated if it has a move constructor 
   The type of expression '%expr%' is already gsl::not_null. Do not test it for nullness. See [C++ Core Guidelines F.23](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#f23-use-a-not_nullt-to-indicate-that-null-is-not-a-valid-value).  
   
 [C26481 NO_POINTER_ARITHMETIC](C26481.md)  
-  Don't use pointer arithmetic. Use span insteadSee [C++ Core Guidelines Bounds.1](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
+  Don't use pointer arithmetic. Use span instead. See [C++ Core Guidelines Bounds.1](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
 
 [C26485 NO_ARRAY_TO_POINTER_DECAY](C26485.md)   
   Expression '%expr%': No array to pointer decay. See [C++ Core Guidelines Bounds.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
@@ -84,7 +84,7 @@ Return a scoped object instead of a heap-allocated if it has a move constructor 
 ## UNIQUE_POINTER Group
   
 [C26410 NO_REF_TO_CONST_UNIQUE_PTR](C26410.md)  
-  The parameter '%parameter%' is a reference to `const` unique pointer, use `const` T* or `const` T& instead. See [C++ Core Guidelines R.32](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-uniqueptrparam).  
+  The parameter '%parameter%' is a reference to `const` unique pointer, use const T* or const T& instead. See [C++ Core Guidelines R.32](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-uniqueptrparam).  
  	 
 [C26411 NO_REF_TO_UNIQUE_PTR](C26411.md)  
   The parameter '%parameter%' is a reference to unique pointer and it is never reassigned or reset, use T* or T& instead. See [C++ Core Guidelines R.33](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-reseat).  
@@ -225,7 +225,7 @@ C26495 MEMBER_UNINIT:
   Don't use pointer arithmetic. Use span instead. See [C++ Core Guidelines Bounds.1](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
   
 C26482 NO_DYNAMIC_ARRAY_INDEXING:  
-  Only index into arrays using constant expressionsSee [C++ Core Guidelines Bounds.2](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
+  Only index into arrays using constant expressions. See [C++ Core Guidelines Bounds.2](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
   
 C26483 STATIC_INDEX_OUT_OF_RANGE:  
   Value %value% is outside the bounds (0, %bound%) of variable '%variable%'. Only index into arrays using constant expressions that are within bounds of the array. See [C++ Core Guidelines Bounds.2](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
@@ -234,4 +234,4 @@ C26483 STATIC_INDEX_OUT_OF_RANGE:
   Expression '%expr%': No array to pointer decay. See [C++ Core Guidelines Bounds.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
   
 ## See Also  
-[Using the C++ Core Guidelines Checker](using-the-cpp-core-guidelines-checker.md)
+[Using the C++ Core Guidelines Checkers](using-the-cpp-core-guidelines-checkers.md)
