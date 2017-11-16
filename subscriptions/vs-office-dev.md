@@ -66,15 +66,13 @@ Subscribers with Visual Studio Enterprise or Visual Studio Enterprise Subscripti
 
 Note:  To sign in to https://portal.office.com, you will need to use your new Office 365 Developer Subscription User ID that you created in Step 7 above.
 
-    ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
-
 2. After clicking **Start Setup**, “Step 1” will ask to connect to an existing domain you already own, or to continue using the tenant setup during redemption process.  In the example below, we’ve opted to continue using our appsbyjane2017.onmicrosoft.com” domain.
 
     ![Office 365 Dev Benefit Admin Center](_img\vs-office-dev\vs-office-dev-admin-cropped.png)
 
-12.	Step 2 allows administrators to add users to the Office 365 account.  Add your desired users, and click **Next**.  
+3.	Step 2 allows administrators to add users to the Office 365 account.  Add your desired users, and click **Next**.  
 
-13.	Step 3 enables you to install your Office apps.  You can choose to install now, or wait until later.  To install Office Professional Plus or Skype for Business, simply click one of the corresponding **Install now** buttons.  Your Office 365 ProPlus subscription includes:
+4.	Step 3 enables you to install your Office apps.  You can choose to install now, or wait until later.  To install Office Professional Plus or Skype for Business, simply click one of the corresponding **Install now** buttons.  Your Office 365 ProPlus subscription includes:
     - Word
     - Excel
     - PowerPoint
@@ -85,13 +83,13 @@ Note:  To sign in to https://portal.office.com, you will need to use your new Of
     - Skype for Business
     - OneDrive for Business
 
-14.	Choose your preferred language and click **Install**. 
+5.	Choose your preferred language and click **Install**. 
 
     ![Office 365 Dev Benefit Install Apps](_img\vs-office-dev\vs-office-dev-install-cropped.png)
 
-15. Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.
+6. Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.
 
-16.	When the User Account Control dialog appears, click **Yes** to allow Office to install on your computer.  
+7.	When the User Account Control dialog appears, click **Yes** to allow Office to install on your computer.  
 
     ![Office 365 Dev Benefit Install](_img\vs-office-dev\vs-office-dev-app-install-cropped.png)
 

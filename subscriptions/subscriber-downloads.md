@@ -16,7 +16,7 @@ As part of your subscriber benefits, you have access to a wide range of software
 You must be signed in to your subscription to access the [Downloads](https://my.visualstudio.com/downloads) tab. 
 
 ## Product Availability
-In general, all commercial and consumer Microsoft products that are relevant for software development projects are made available to Visual Studio subscribers. As a rule, with Visual Studio subscriptions, products remain available for download long into the future—even after the extended product support period has ended—to enable customers to develop and test legacy applications and transition to newer platforms. There are cases where we are unable to provide certain products to subscribers as outlined below, but we make every effort to minimize these occurrences.
+In general, all commercial and consumer Microsoft products that are relevant for software development projects are made available to Visual Studio subscribers. With Visual Studio subscriptions, products typically remain available for download long into the future—even after the extended product support period has ended—to enable customers to develop and test legacy applications and transition to newer platforms. There are cases where we are unable to provide certain products to subscribers as outlined below, but we make every effort to minimize these occurrences.
 
 There are several reasons why particular products may not be available to subscribers:
 
