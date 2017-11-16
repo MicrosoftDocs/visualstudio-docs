@@ -18,15 +18,13 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Start Page
 
-The first thing you'll see after you launch Visual Studio is most likely the Start Page. The Start Page is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the New Project dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news.
+The first thing you'll see after you launch Visual Studio is most likely the Start Page. The Start Page is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the New Project dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news. You can also [customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md) to suit your needs.
 
 ![VS Start Page](media/quickstart-IDE-start-page.png)
 
 If you close the Start Page and want to see it again, you can reopen it from the **File** menu.
 
-![File menu](media/quickstart-IDE-file-menu.png)
-
-You can also [customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
+![File menu](media/quickstart-IDE-file-menu-large.png)
 
 To continue exploring the IDE, let's create a new project.
 
@@ -34,11 +32,7 @@ To continue exploring the IDE, let's create a new project.
 
 1. In the **New Project** dialog box, accept the default project name and choose **OK**.
 
-   The project is created and a file named **Program.cs** or **Program.vb** opens in the **Editor** window.
-
-## Editor window
-
-The Editor shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named **Program.cs** or **Program.vb** opens in the **Editor** window. The Editor shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
 ## Solution Explorer
 
@@ -50,23 +44,27 @@ Solution Explorer shows you a graphical representation of the hierarchy of files
 
 The menu bar along the top of the IDE groups commands into categories such as **Project**, which contains commands related to the project you're working in, and **Tools**, where you can customize the IDE by selecting **Options**, or add features to your installation by selecting **Get Tools and Features...**. Let's open the Error List window by choosing the **View** menu, and then **Error List**.
 
+![Menu bar](media/quickstart-IDE-menu-bar.png)
+
 ## Error List
 
-The Error List shows you errors, warning, and messages regarding the current state of your code. If we had any errors (such as a syntax typo) in our code file, or anywhere in our project, they would be listed here.
+The Error List shows you errors, warning, and messages regarding the current state of your code. If there were any errors (such as a syntax typo) in your file, or anywhere in your project, they would be listed here.
 
 ![Error List](media/quickstart-IDE-error-list.png)
 
 ## Output window
 
-The Output window shows you output messages from Build and Source Control. Let's build our project to see some output logging. From the **Build** menu, choose **Build Solution**. The Output window automatically obtains focus and display a successful build message.
+The Output window shows you output messages from Build and Source Control. Let's build the project to see some output logging. From the **Build** menu, choose **Build Solution**. The Output window automatically obtains focus and display a successful build message.
 
 ![Output Window](media/quickstart-IDE-output.png)
 
 ## Quick Launch
 
-The Quick Launch box is a quick and easy way to do pretty much anything in the IDE. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, let's say we want to increase the build output's verbosity to display additional logging information about what exactly build is doing.
+The Quick Launch box is a quick and easy way to do pretty much anything in the IDE. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, let's say we want to increase the build output's verbosity to display additional logging information about what exactly build is doing:
 
 1. Enter `verbosity` into the **Quick Launch** box, and then choose **Projects and Solutions -> Build and Run** under the **Options** category.
+
+   ![Quick launch box](media/quickstart-IDE-quick-launch.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -82,6 +80,6 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 
 ![Send Feedback menu](media/quickstart-IDE-send-feedback.png)
 
-## See also
+## Next steps
 
-[Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+We've looked at just a few of the features of the Visual Studio IDE to get acquainted with the user interface. The General User Interface Elements section of the VS documentation goes into more depth about windows such as the [Error List](../ide/reference/error-list-window.md), [Output window](../ide/reference/output-window.md), [Properties window](../ide/reference/properties-window.md), and [Options dialog box](../ide/reference/ptions-dialog-box-visual-studio.md). You can also take a more in depth tour of the IDE, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md).
