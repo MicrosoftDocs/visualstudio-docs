@@ -16,7 +16,7 @@
 ### [Code Snippets](code-snippets.md)
 ## [Workspaces (Local and Remote)](workspaces.md)
 ### [Setting up Remote Workspaces](workspaces-remote-setup.md)
-### [Remote R Service for Linux](workspaces-remote-r-service.md)
+### [Remote R Service for Linux](workspaces-remote-r-service-for-linux.md)
 ### [Using Docker containers](using-docker-containers.md)
 ### [R Markdown](rmarkdown.md)
 ## [Interactive REPL](interactive-repl.md)

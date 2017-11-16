@@ -19,7 +19,7 @@ manager: ghogen
 
 # Linting R code in Visual Studio
 
-Linting is a process that analyzes code to reveal potential errors as well as formatting issues and other noise in code files (such as spurious whitespace). Linting also helps encourage certain coding conventions, such as naming identifiers, which is very helpful within teams and other collaborative situations.
+Linting is a process that analyzes code to reveal potential errors as well as formatting issues and other noise in code files (such as spurious whitespace). Linting also helps encourage certain coding conventions, such as how identifiers are named, which is very helpful within teams and other collaborative situations.
 
 R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options. These options are found in **Tool > Options > Text Editor > R > Lint**.
 
@@ -37,7 +37,7 @@ When enabled, linting is applied in the editor while you type. Issues appear as 
 
 ## Naming group
 
-These options flag identifers that use different naming conventions:
+These options flag identifiers that use different naming conventions:
 
 | Option | Default value | Linting effect |
 | --- | --- | --- |
