@@ -146,7 +146,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>JavaScript<
 src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 </div>
 
-<h2>Tasks</h2>
+<h2>Core Development Tasks</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -160,61 +160,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Develop: write and manage code</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/vsts/#pivot=services&panel=code">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//media/common/i_code-blocks.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Version control: share code with Git and TFVC</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../data-tools/index.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_common-data-service.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Data: connect to any database or service</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../designers/designing-user-interfaces.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_digital-art.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Design user interfaces</h3>
+                        <h3><strong>Develop</strong><br/>Write and manage code</h3>
                     </div>
                 </div>
             </div>
@@ -232,7 +178,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Build: compile and build your code</h3>
+                        <h3><strong>Build</strong><br/>Compile and build your code</h3>
                     </div>
                 </div>
             </div>
@@ -250,7 +196,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Debug: investigate and fix problems in your code</h3>
+                        <h3><strong>Debug</strong><br/>Investigate and fix problems in your code</h3>
                     </div>
                 </div>
             </div>
@@ -268,25 +214,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Test: organize your testing processes</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../profiling/index.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-performance.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Improve performance: optimize code with diagnostic tools</h3>
+                        <h3><strong>Test</strong><br/>Organize your testing processes</h3>
                     </div>
                 </div>
             </div>
@@ -304,7 +232,30 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy: share and publish your apps</h3>
+                        <h3><strong>Deploy</strong><br/>Share and publish your apps</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+<h2>Other Development Tasks</h2>
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="../designers/designing-user-interfaces.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_digital-art.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3><strong>Design user interfaces</strong></h3>
                     </div>
                 </div>
             </div>
@@ -322,7 +273,61 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>DevOps: continuously build and release with VSTS</h3>
+                        <h3><strong>DevOps</strong>Continuously build and release with VSTS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/vsts/#pivot=services&panel=code">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us//media/common/i_code-blocks.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3><strong>Version control</strong><br/>Share code with Git and TFVC</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../profiling/index.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_code-performance.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3><strong>Improve performance</strong><br/>Optimize code with diagnostic tools</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../data-tools/index.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_common-data-service.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3><strong>Data</strong><br/>Connect to any database or service</h3>
                     </div>
                 </div>
             </div>
@@ -340,7 +345,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Extend: add your own functionality to Visual Studio</h3>
+                        <h3><strong>Extend</strong><br/>Add your own functionality to Visual Studio</h3>
                     </div>
                 </div>
             </div>
