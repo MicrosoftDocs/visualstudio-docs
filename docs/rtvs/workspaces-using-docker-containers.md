@@ -44,7 +44,7 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 
 ## Connecting to a container
 
-1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](remote-r-service-for-linux.md) for details on how the daemon is configured.)
+1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](workspaces-remote-r-service-for-linux.md) for details on how the daemon is configured.)
 
     ![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspaces-window-running-containers.png)
 
