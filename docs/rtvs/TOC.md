@@ -19,7 +19,7 @@
 ### [Setting up Remote Workspaces](workspaces-remote-setup.md)
 ### [Remote R Service for Linux](workspaces-remote-r-service-for-linux.md)
 ### [Using Docker containers](workspaces-using-docker-containers.md)
-### [R Markdown](rmarkdown.md)
+## [R Markdown](rmarkdown.md)
 ## [Interactive REPL](interactive-repl.md)
 ## [Visualizing Data](visualizing-data.md)
 ## [Variable Explorer](variable-explorer.md)
