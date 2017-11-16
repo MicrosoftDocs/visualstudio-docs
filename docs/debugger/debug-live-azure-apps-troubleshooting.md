@@ -71,5 +71,5 @@ Take these steps:
 ## See also
 
 [Debugging in Visual Studio](../debugger/index.md)  
-[Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md)  
+[Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)  
 [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)  
