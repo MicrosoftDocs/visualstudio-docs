@@ -111,7 +111,7 @@ searchScope: []
                                 </a>
                             </li>
 							<li><div style="margin-left:13px; margin-top:40px;">
-							<p style="font-size:18px;">Developer tools, cloud services, software, <br/>support and training</p>
+							<p style="font-size:18px; text-align:center">Developer tools, cloud services, software, <br/>support and training</p>
                         <p style="font-size:1.12em"><p style="margin-top:24px; text-align:center;">
                                 <a href="https://aka.ms/vs-subscriptions/" data-linktype="external">
                                     <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio Subscription<svg xmlns="http://www.w3.org/2000/svg" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;" viewBox="0 0 10 14"><path d="M 7.4 7 L 1 0.6 l 0.6 -0.6 l 7 7 l -7 7 l -0.6 -0.7 L 7.4 7 Z" /></svg></button>
