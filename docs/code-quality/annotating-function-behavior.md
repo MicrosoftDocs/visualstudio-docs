@@ -22,8 +22,8 @@ f1_keywords:
   - "_Use_decl_annotations_"
 ms.assetid: c0aa268d-6fa3-4ced-a8c6-f7652b152e61
 caps.latest.revision: 11
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
 ---
 # Annotating Function Behavior

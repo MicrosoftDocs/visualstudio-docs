@@ -197,7 +197,7 @@ msbuild /p:EnableCppCoreCheck=true /p:RunCodeAnalysis=true /p:CodeAnalysisRuleSe
 ### Non-MSBuild projects
 If you use a build system that doesn’t rely on MSBuild you can still run the checker, but you’ll need to get familiar with some internals of the Code Analysis engine configuration (which is not guaranteed to be supported in the future).
 
-You will need to set a few environment variables and use proper command line options for the compiler. It is better to work under the “Native Tools Command Prompt” environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
+You will need to set a few environment variables and use proper command line options for the compiler. It is better to work under the "Native Tools Command Prompt" environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
 
 1.	**Environment variables**
   - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.

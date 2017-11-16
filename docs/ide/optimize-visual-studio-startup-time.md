@@ -1,7 +1,7 @@
 ---
 title: "Optimize Visual Studio performance | Microsoft Docs"
 ms.custom: ""
-ms.date: 10/19/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -63,17 +63,8 @@ You can always re-enable the extension for future sessions by using the Extensio
 
     ![Manage Visual Studio Performance - tool windows view](../ide/media/vside_perfdialog_toolwindows.png)
 
-## <a name="speed_up_solution_load"></a>Load large solutions faster in Visual Studio 2017
-
-Visual Studio 2017 introduces a new feature called lightweight solution load that reduces the amount of time and memory required to load large solutions in the IDE. If you have a large solution containing many C#, VB, or C++ projects, you are likely to see a substantial performance benefit if you enable lightweight solution load. For detailed information on how you might benefit by using this feature, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md).
-
-### Enable or disable lightweight solution load
-
-You can right-click the solution name in Solution Explorer, and select **Enable Lightweight Solution Load**. After selecting the option, you need to close and reopen the solution to activate lightweight solution load.
-
-![Solution Explorer](../ide/media/VSIDE_LSL_Solution_Setting.png)
-
-To configure global settings for lightweight solution load, see [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md#global_solution_load_settings).
+> [!NOTE]
+> Versions of Visual Studio prior to version 15.5 had a feature called **lightweight solution load**. This feature is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.  
 
 ## See Also
 [Visual Studio Performance Tips and Tricks](../ide/visual-studio-performance-tips-and-tricks.md)
