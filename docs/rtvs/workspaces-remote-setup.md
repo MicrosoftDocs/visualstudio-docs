@@ -173,7 +173,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Follow the instructions on [Remote R Service for Linux](remote-r-service-for-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
+1. Follow the instructions on [Remote R Service for Linux](workspaces-remote-r-service-for-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
 
 ## Configure R services
 
