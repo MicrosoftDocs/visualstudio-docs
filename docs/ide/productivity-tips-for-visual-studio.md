@@ -8,7 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ccc5e543-7dcf-465c-97dd-e133e869800c
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
@@ -18,27 +17,13 @@ manager: ghogen
 
 By following these tips, you can more quickly and efficiently write, navigate, and debug your code in Visual Studio. For more information about common keyboard shortcuts, see [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md). For a more complete list, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-This topic includes the following sections:
-
-[Accessing Visual Studio Tools](../ide/productivity-tips-for-visual-studio.md#BKMK_Access)
-
-[Writing Code](../ide/productivity-tips-for-visual-studio.md#BKMK_Writing)
-
-[Navigating Within Your Code](../ide/productivity-tips-for-visual-studio.md#BKMK_Navigating)
-
-[Finding Items Faster](../ide/productivity-tips-for-visual-studio.md#BKMK_Finding)
-
-[Debugging Code](../ide/productivity-tips-for-visual-studio.md#BKMK_Debugging)
-
-[Managing Files, Toolbars, and Windows](../ide/productivity-tips-for-visual-studio.md#BKMK_Managing)
-
-##  <a name="BKMK_Access"></a> Accessing Visual Studio Tools
+## Accessing Visual Studio Tools
 
 You can more easily access the Developer Command Prompt or another tool if you pin it to the Start screen or the taskbar.
 
-1. From the Start screen, enter `Visual Studio Tools`, and then choose the Enter key.
+1. From the Start screen, enter `Visual Studio Tools`, and then choose the **Enter** key.
 
-2. In **File Explorer**, open the shortcut menu for the item that you want:
+1. In **File Explorer**, open the shortcut menu for the item that you want:
 
     - Build Notifications
 
@@ -56,9 +41,9 @@ You can more easily access the Developer Command Prompt or another tool if you p
 
     - VS2013 x86 Native Tools Command Prompt
 
-3. Choose **Pin to Start** or **Pin to Taskbar**.
+1. Choose **Pin to Start** or **Pin to Taskbar**.
 
-##  <a name="BKMK_Writing"></a> Writing Code
+## Writing code
 
 Write code more quickly by using the following features.
 
@@ -68,7 +53,7 @@ Write code more quickly by using the following features.
 
 - **Change auto-insertion of IntelliSense options as you enter code**. By switching IntelliSense to suggestion mode, you can specify that IntelliSense options are inserted only if you explicitly choose them.
 
-     To enable suggestion mode, choose the Ctrl + Alt + Spacebar keys, or, on the menu bar, choose **Edit**, **IntelliSense**, **Toggle Completion Mode**.
+     To enable suggestion mode, choose the **Ctrl** + **Alt** + **Spacebar** keys, or, on the menu bar, choose **Edit**, **IntelliSense**, **Toggle Completion Mode**.
 
 - **Use code snippets**. You can use built-in snippets or create your own snippets.
 
@@ -78,23 +63,23 @@ Write code more quickly by using the following features.
 
 - **Show and edit the definition of a code element**. You can quickly show and edit the module in which a code element, such as a member, a variable, or a local, is defined.
 
-     To open a definition in a pop-up window, highlight the element and then choose the **Alt+F12** keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.
+    To open a definition in a pop-up window, highlight the element and then choose the **Alt+F12** keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.
 
-##  <a name="BKMK_Navigating"></a> Navigating Within Your Code
+## Navigating Within Your Code
 
  You can use various techniques to find and move to specific locations in your code more quickly.
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
 
-     To set a bookmark, on the menu bar, choose **Edit**, **Bookmarks**, **Toggle Bookmark**. You can view all of the bookmarks for a solution in the **Bookmarks** window. For more information, see [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md).
+    To set a bookmark, on the menu bar, choose **Edit**, **Bookmarks**, **Toggle Bookmark**. You can view all of the bookmarks for a solution in the **Bookmarks** window. For more information, see [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md).
 
 - **Search for symbol definitions in a file**. You can search within a solution to locate symbol definitions and file names, but search results don't include namespaces or local variables.
 
-     To access this feature, on the menu bar, choose **Edit**, **Navigate To**.
+   To access this feature, on the menu bar, choose **Edit**, **Navigate To**.
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md).
 
-##  <a name="BKMK_Finding"></a> Finding Items Faster
+## Finding Items Faster
 
 You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.
 
@@ -104,15 +89,13 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
 
-     Figure 3: Quick Launch results list for `new project`
-
      ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
 
      **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the Projects and Solutions page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
-##  <a name="BKMK_Debugging"></a> Debugging Code
+## Debugging Code
 
- Debugging can consume a lot of time, but the following tips can help you speed up the process.
+Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
@@ -120,11 +103,11 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-     To use this feature, choose the Ctrl + F10 keys, or open the shortcut menu for the line of code on which you want to break, and then choose **Run To Cursor**.
+     To use this feature, choose the **Ctrl** + **F10** keys, or open the shortcut menu for the line of code on which you want to break, and then choose **Run To Cursor**.
 
--  **Move the execution point during debugging**. You can move the current execution point to a different section of code and then restart debugging from that point. This technique is useful if you want to debug a section of code without having to recreate all of the steps that are required to reach that section. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
+- **Move the execution point during debugging**. You can move the current execution point to a different section of code and then restart debugging from that point. This technique is useful if you want to debug a section of code without having to recreate all of the steps that are required to reach that section. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-     To move the execution point, drag the yellow arrowhead  to a location where you want to set the next statement in the same source file, and then choose the F5 key to continue debugging.
+     To move the execution point, drag the yellow arrowhead  to a location where you want to set the next statement in the same source file, and then choose the **F5** key to continue debugging.
 
 - **Capture value information for variables**. You can add a DataTip to a variable in your code and pin it so that you can access the last known value for the variable after debugging has finished. For more information, see [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
 
@@ -134,7 +117,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
      For more information about additional commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).
 
-##  <a name="BKMK_Managing"></a> Managing Files, Toolbars, and Windows
+## Managing Files, Toolbars, and Windows
 
  At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.
 

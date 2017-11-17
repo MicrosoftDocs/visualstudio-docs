@@ -39,7 +39,7 @@ Visual Studio can help generate portions of source code for you, letting you foc
 
 ## Quick Actions
 
-Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.  These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or pressing **Ctrl + .** when your cursor is on the appropriate line of code.
+Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.  These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
 
 * [Quick Actions](quick-actions.md)
 * [Code Styles and Quick Actions](code-styles-and-quick-actions.md)

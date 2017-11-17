@@ -46,14 +46,16 @@ Choose the **Blue**, **Light** or **Dark** color theme for the IDE.
 
 You can install additional predefined themes, and create custom themes, by downloading and installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme list box.
 
-Apply title casing in menu bar
+**Apply title casing in menu bar**
 
-Menus are in **Title Casing** by default in Visual Studio 2015. Un-check this option to set them to **ALL CAPS**.
+Menus are in **Title Casing** by default. Un-check this option to set them to **ALL CAPS**.
 
 **Automatically adjust visual experience based on client performance**
+
 Specifies whether Visual Studio sets the adjustment to the visual experience automatically or you set the adjustment explicitly. This adjustment may change the display of colors from gradients to flat colors, or it may restrict the use of animations in menus or popup windows.
 
 **Enable rich client experience**
+
 Enables the full visual experience of Visual Studio, including gradients and animations. Clear this option when using Remote Desktop connections or older graphics adapters, because these features may have poor performance in those cases. This option is available only when you clear the **Automatically adjust visual experience based on client** option.
 
 **Use hardware graphics acceleration if available**
@@ -77,12 +79,7 @@ Specifies that when the **Close** button is clicked, only the tool window that h
 **Auto Hide button affects active tool window only**  
 Specifies that when the **Auto Hide** button is clicked, only the tool window that has focus is hidden automatically and not all of the tool windows in the docked set. By default, this option is not selected.
 
-**Manage File Associations**  
-Displays the **Windows Set Program Associations** dialog box, where you can view file extensions for items that are typically associated with Visual Studio and the current default program for opening each type of file. To make Visual Studio the default application for types of files that are not already associated with it, choose the file extension, and then choose **Save**.
-
-This option can be useful if you have two versions of Visual Studio installed on the same computer and you later uninstall one of the versions. After you uninstall, the icons for Visual Studio files no longer appear in File Explorer. In addition, Windows no longer recognizes Visual Studio as the default application for editing these files. This option restores those associations.
-
 ## See also
 
-[Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
+[Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)  
 [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

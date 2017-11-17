@@ -39,7 +39,7 @@ This option enables Visual Studio to cache project data so that when you open th
 
 ## Additional Features in the Visual Studio Marketplace
 
-You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.CQuickFixes), which supports the following:
+You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.CQuickFixes2017), which supports the following:
 
 - **Add missing #include** - Suggests relevant #include's for unknown symbols in your code
 
@@ -47,9 +47,9 @@ You can browse additional text editor features in the [Visual Studio Marketplace
 
 - **Add missing semicolon**
 
-- **MSDN Help** - Search MSDN for your error messages
+- **Online help** - Search online help for your error messages
 
-You can either hover over a squiggle to get a light bulb, or use the default keyboard shortcut Ctrl+Dot (Ctrl+.). Note that for the keyboard shortcut, your caret doesn't need to be positioned on the specific error or token; you can simply be on the same line as the error to invoke suggestions for anything on that line.
+- And more...
 
 ## See also
 
