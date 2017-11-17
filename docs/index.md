@@ -435,7 +435,6 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                 <a href="#workloads">Workloads</a>
                 <ul id="workloads">
                     <li>
-                    <li>
                         <a href="#web">Web &amp; Cloud</a>
                         <ul id="web" class="cardsC">
                             <li>
@@ -579,6 +578,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                             </li>
                         </ul>
                     </li>
+                    <li>
                         <a href="#windows">Windows</a>
                         <ul id="windows" class="cardsC">
                             <li>
