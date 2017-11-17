@@ -28,7 +28,7 @@ If you close the Start Page and want to see it again, you can reopen it from the
 
 To continue exploring the IDE, let's create a new project.
 
-1. In the search box under **New project**, enter `console` to filter the list of project types. Choose either a C# or VB **Console App (.NET Framework)**.
+1. On the **Start Page**, in the search box under **New project**, enter `console` to filter the list of project types. Choose either a C# or VB **Console App (.NET Framework)**.
 
 1. In the **New Project** dialog box, accept the default project name and choose **OK**.
 
@@ -42,9 +42,11 @@ Solution Explorer shows you a graphical representation of the hierarchy of files
 
 ## Menus
 
-The menu bar along the top of the IDE groups commands into categories such as **Project**, which contains commands related to the project you're working in, and **Tools**, where you can customize the IDE by selecting **Options**, or add features to your installation by selecting **Get Tools and Features...**. Let's open the Error List window by choosing the **View** menu, and then **Error List**.
+The menu bar along the top of the IDE groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize the IDE by selecting **Options**, or add features to your installation by selecting **Get Tools and Features...**.
 
 ![Menu bar](media/quickstart-IDE-menu-bar.png)
+
+Let's open the Error List window by choosing the **View** menu, and then **Error List**.
 
 ## Error List
 
@@ -54,7 +56,9 @@ The Error List shows you errors, warning, and messages regarding the current sta
 
 ## Output window
 
-The Output window shows you output messages from Build and Source Control. Let's build the project to see some output logging. From the **Build** menu, choose **Build Solution**. The Output window automatically obtains focus and display a successful build message.
+The Output window shows you output messages from Build and Source Control.
+
+Let's build the project to see some output logging. From the **Build** menu, choose **Build Solution**. The Output window automatically obtains focus and display a successful build message.
 
 ![Output Window](media/quickstart-IDE-output.png)
 
@@ -70,7 +74,7 @@ The Quick Launch box is a quick and easy way to do pretty much anything in the I
 
 1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
 
-1. Now let's build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer**, and choosing **Rebuild** from the context menu.
+1. Now we'll build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer**, and choosing **Rebuild** from the context menu.
 
    This time the Output window shows more verbose logging from the build process, including which files were copied where.
 
