@@ -16,10 +16,10 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 Activate from the **Tools** category on the Benefits page of the [Subscriber Portal](https://my.visualstudio.com/benefits): 
 
-1.	Click on the “Activate” link at the bottom of the benefit tile.   
+1.	Click on the **Activate** link at the bottom of the benefit tile.   
 ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
-2.	Fill in the required information to create your Azure subscription: 
+2.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**: 
 ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
  
