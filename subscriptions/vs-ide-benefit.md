@@ -21,12 +21,12 @@ To download the IDE:
 
 ![Visual Studio Enterprise tile](_img\vs-ide-experience\vs-ide-tile.png)
 
-2.	Click on the “Download” link at the bottom of the benefit tile.  You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** button, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
+2.	Click on the **Download** link at the bottom of the benefit tile.  You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 3.	On the Details tab of the Download Results page:
 - Select your desired architecture (x86, x64)
 - Select your language preference. 
-4.	Click the green download button.
-![Visual Studio Enterprise download details](_img\vs-ide-experience\vs-ide-download-details-cropped.png)
+4.	Click the blue download button.
+![Visual Studio Enterprise download details](_img\vs-ide-experience\vs-ide-download-details.png)
 5.	To install now, click “Run”.
 6.	In the User Account Control dialog, click “Yes”.
 7.  Click **Continue** to accept the license terms.
