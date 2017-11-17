@@ -14,11 +14,11 @@ manager: ghogen
 ---
 # Quickstart: first look at the Visual Studio IDE
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of the most-used menus, windows, and toolbars.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of the some of the windows, menus, and other UI features.
 
 ## Start Page
 
-The first thing you'll see after you launch Visual Studio is most likely the Start Page. The Start Page is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the New Project dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news. You can also [customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md) to suit your needs.
+The first thing you'll see after you launch Visual Studio is most likely the Start Page. The Start Page is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the New Project dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news.
 
 ![VS Start Page](media/quickstart-IDE-start-page.png)
 
