@@ -11,7 +11,7 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Using subscriber downloads in Visual Studio subscriptions
+# Using Subscriber Downloads in Visual Studio Subscriptions
 As part of your subscriber benefits, you have access to a wide range of software downloads.  
 You must be signed in to your subscription to access the [Downloads](https://my.visualstudio.com/downloads) tab. 
 
