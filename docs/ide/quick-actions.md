@@ -25,7 +25,7 @@ You will see a light bulb if there is a red squiggle and Visual Studio has a sug
 
 1. In many cases, light bulbs spontaneously appear when you hover the mouse at the point of an error, or in the left margin of the editor when you move the caret into a line that has an error in it. When you see a red squiggle, you can hover over it to display the light bulb. You can also cause a light bulb to display when you use the mouse or keyboard to go to anywhere in the line where the issue occurs.
 
-1. Press **Ctrl + .** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.
+1. Press **Ctrl** + **.** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.
 
    ![Light bulb with mouse hovering](../ide/media/vs2015_lightbulb_hover.png "VS2017_LightBulb_Hover")
 
