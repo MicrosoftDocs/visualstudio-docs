@@ -201,7 +201,7 @@
 ## [Signing in to Visual Studio](signing-in-to-visual-studio.md)
 ## [Work with Multiple User Accounts](work-with-multiple-user-accounts.md)
 ## [How to Unlock Visual Studio](how-to-unlock-visual-studio.md)
-## [Visual Studio Motifications](visual-studio-notifications.md)
+## [Visual Studio Notifications](visual-studio-notifications.md)
 ## [Finding and Using Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
 ## [Whitelisting URLs in a Private Network](whitelisting-urls-in-a-private-network.md)
 ## [Proxy Authorization Required Error](../ide/reference/proxy-authorization-required.md)

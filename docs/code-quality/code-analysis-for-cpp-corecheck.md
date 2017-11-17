@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio C++ Core Check Reference | Microsoft Docs"
+title: "Visual Studio C++ Core Guidelines Checker Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/15/2017"
 ms.reviewer: ""
@@ -15,7 +15,7 @@ author: mikeblome
 ms.author: mblome
 manager: ghogen
 ---
-# C++ Core Check Reference
+# C++ Core Guidelines Checker Reference
 This section lists C++ Core Guidelines Checker warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
   
 **Note**: Some warnings belong to more than one group, and not all warnings have a reference topic.
