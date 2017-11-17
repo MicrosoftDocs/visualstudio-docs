@@ -17,7 +17,7 @@ dev_langs:
 ---
 # Quick Actions
 
-[Quick Actions](refactoring-code-generation-quick-actions.md#quick-actions) let you easily refactor, generate, or otherwise modify code with a single action.  While there are many Quick Actions that apply specifically to C# or Visual Basic, there are also some that apply to both C# and Visual Basic projects.  These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
+[Quick Actions](refactoring-code-generation-quick-actions.md#quick-actions) let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages. Quick Actions can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or by pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
 
 You will see a light bulb if there is a red squiggle and Visual Studio has a suggestion for how to fix the issue. For instance if you have an error indicated by a red squiggle, a light bulb will appear when fixes are available for that error. For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs will light up based on those rules.
 
@@ -156,7 +156,7 @@ Dim number as Integer = CType(3, Integer)
 Dim number as Integer = 3
 ```
 
-### Replace method with property / Replace property with method
+### Replace method with property, or replace property with method
 
 These Quick Actions will convert a method to a property, or vice versa.  The example below shows the change from a method to a property.  For the opposite case, simply invert the *Before* and *After* sections.
 
@@ -196,7 +196,7 @@ ReadOnly Property MyValue As Integer
 End Property
 ```
 
-### Make Method Synchronous
+### Make method synchronous
 
 When using the `async`/`Async` keyword on a method, it is expected that somewhere inside that method the `await`/`Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async`/`Async` keyword and changing the return type.  Use the **Make method synchronous** option from the Quick Actions menu.
 
@@ -230,7 +230,7 @@ Function MyAsyncMethod() As Integer
 End Function
 ```
 
-### Make Method Asynchronous
+### Make method asynchronous
 
 When using the `await`/`Await` keyword inside of a method, it is expected that the method itself is marked with the `async`/`Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous.  Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
@@ -264,7 +264,7 @@ Async Function MyAsyncMethod() As Task(Of Integer)
 End Function
 ```
 
-### Remove unnecesary usings/Imports
+### Remove unnecessary usings/Imports
 
 The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
 
@@ -301,7 +301,7 @@ Imports System.Diagnostics
 Debug.WriteLine("Hello")
 ```
 
-### Convert to Interpolated String
+### Convert to interpolated string
 
 [Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
@@ -428,4 +428,5 @@ End Select
 
 ## See also
 
-[Code Styles and Quick Actions](code-styles-and-quick-actions.md)
+[Code Styles and Quick Actions](code-styles-and-quick-actions.md)  
+[Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
