@@ -28,7 +28,7 @@ If you close the Start Page and want to see it again, you can reopen it from the
 
 To continue exploring the IDE, let's create a new project.
 
-1. On the **Start Page**, in the search box under **New project**, enter `console` to filter the list of project types. Choose either a C# or VB **Console App (.NET Framework)**.
+1. On the **Start Page**, in the search box under **New project**, enter `console` to filter the list of project types. Choose either a C# or VB **Console App (.NET Framework)**. (Alternatively, if you are a C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all languages.)
 
 1. In the **New Project** dialog box, accept the default project name and choose **OK**.
 
