@@ -12,7 +12,7 @@ ms.assetid: 3db9fa5a-f619-4cb6-86e7-64b364e58e5d
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Debug an XSLT Style Sheet
 The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps include viewing variables, setting breakpoints, and stepping through the code. The style sheet finds all books that cost below the average book price.  
@@ -43,13 +43,13 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 6.  Click the **Debug XSL** button on the XML Editor toolbar.  
   
- This starts the debugging process and opens several new windows that are used by the debugger.  
+This starts the debugging process and opens several new windows that are used by the debugger.  
   
- There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the books.xml file.  
+There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the books.xml file.  
   
- The Locals window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.  
+The Locals window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.  
   
- The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.  
+The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.  
   
 ## Watch Window  
   
@@ -97,7 +97,7 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 ### belowAvg.xsl  
   
-```  
+```xml
 <?xml version='1.0'?>  
 <xsl:stylesheet version="1.0"  
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform">  
@@ -120,7 +120,7 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 ### books.xml  
   
-```  
+```xml
 <?xml version='1.0'?>  
 <!-- This file represents a fragment of a book store inventory database -->  
 <bookstore>  

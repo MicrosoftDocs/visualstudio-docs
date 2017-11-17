@@ -22,7 +22,7 @@ ms.assetid: 34bc7cd1-efd3-4b57-b691-4584eeb6a0e9
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Output Element (MSBuild)
 Stores task output values in items and properties.  

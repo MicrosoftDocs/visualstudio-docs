@@ -15,7 +15,7 @@ ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Implement an Interface (Class Designer)
 In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods. Class Designer generates an interface implementation and displays the relationship between the interface and the class as an inheritance relationship. You can implement an interface by drawing an inheritance line between the interface and the class or by dragging the interface from Class View.  

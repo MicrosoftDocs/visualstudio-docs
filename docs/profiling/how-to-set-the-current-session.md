@@ -20,7 +20,7 @@ ms.assetid: a593e551-18ec-46fd-bfd5-8a045165a334
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set the Current Session
 You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.  

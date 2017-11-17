@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "peek definition"
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Go To Definition and Peek Definition  
 The Go To Definition and Peek Definition features enable you to easily view the definition of a type or member.

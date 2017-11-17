@@ -19,7 +19,7 @@ ms.assetid: af840916-dda4-4e52-b536-802ebcab30ca
 caps.latest.revision: 78
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Securing Office Solutions
   The security model for Office solutions involves several technologies: the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:  

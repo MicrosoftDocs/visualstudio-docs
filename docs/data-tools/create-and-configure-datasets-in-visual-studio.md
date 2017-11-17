@@ -13,7 +13,7 @@ ms.assetid: 58f33b43-24e1-43b1-b08b-b74329960bd6
 caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Create and configure datasets in Visual Studio
@@ -83,3 +83,6 @@ A *dataset* is a set of objects that store data from a database in memory and su
 3.  Add columns to define your data table. Right-click on the table and choose **Add > Column**. Use the **Properties** window to set the data type of the column and a key if necessary.  
   
 4.  Stand-alone tables need to Implement `Fill` logic in stand-alone tables so that you can fill them with data. For information on filling stand-alone data tables, see [Populating a DataSet from a DataAdapter](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter).
+
+## See also
+[Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

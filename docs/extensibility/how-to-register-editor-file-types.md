@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - register file types"
 ms.assetid: 54846779-8290-48de-90ab-81011559d9a5
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Register Editor File Types
 The easiest way to register editor file types is by using the registration attributes provided as a part of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] managed package framework (MPF) classes. If you are implementing your package in native [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], you can also write a registry script that registers your editor and the associated extensions.  

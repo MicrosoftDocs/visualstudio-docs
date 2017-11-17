@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugEngine2::SetLocale"
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEngine2::SetLocale
 Sets the locale of the debug engine (DE).  

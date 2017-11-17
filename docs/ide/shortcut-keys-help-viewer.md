@@ -1,7 +1,7 @@
 ---
 title: "Shortcut Keys (Help Viewer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,13 +9,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "shortcut keys [Help Viewer 2.0]"
-  - "Help Viewer 2.0, shortcut keys"
+  - "shortcut keys [Help Viewer]"
+  - "Help Viewer, shortcut keys"
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Shortcut Keys (Help Viewer)
 You can navigate in the Microsoft Help Viewer by using the shortcut keys in the following table:  
@@ -112,3 +112,6 @@ You can navigate in the Microsoft Help Viewer by using the shortcut keys in the 
 |Up Arrow and Down Arrow|Scroll through the **Pending changes** list.|  
 |Space|Remove an item from the **Pending changes** list.|  
 |Alt + T|Apply all pending changes.|
+
+## See also
+[Accessibility features of the Help Viewer](../ide/accessibility-features-of-the-help-viewer.md)

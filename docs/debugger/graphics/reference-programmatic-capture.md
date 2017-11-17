@@ -12,7 +12,7 @@ ms.assetid: ef60eb8d-1ac2-4e3a-9b4b-f6da0bdd9da8
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Reference (Programmatic Capture)
 Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.  

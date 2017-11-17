@@ -19,7 +19,7 @@ ms.assetid: 76247259-c6f3-44c4-b3f9-d8dac16b5e0d
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DA0029: Unsupported CLR Version
 |||  

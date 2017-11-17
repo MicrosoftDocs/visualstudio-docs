@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: "timsneath"
-ms.author: "tims"
-manager: "ghogen"
+ms.author: "tglee"
+manager: ghogen
 ---
 
 # Tools for detecting and managing Visual Studio instances
@@ -59,3 +59,6 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 
 > [!IMPORTANT]
 > Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then the file remains locked and Visual Studio will not be able to start.)
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).

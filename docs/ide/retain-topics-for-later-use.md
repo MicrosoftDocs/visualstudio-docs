@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/microsoft-help-viewer
+---
 title: "Retain Topics for Later Use | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -11,16 +13,16 @@ ms.topic: "article"
 f1_keywords: 
   - "hv_favorites"
 helpviewer_keywords: 
-  - "Help Viewer 2.0, bookmarking topics"
-  - "Help Viewer 2.0, copying topics"
-  - "Help Viewer 2.0, Favorites tab"
-  - "bookmarking topics [Help Viewer 2.0]"
-  - "Favorites tab [Help Viewer 2.0]"
+  - "Help Viewer, bookmarking topics"
+  - "Help Viewer, copying topics"
+  - "Help Viewer, Favorites tab"
+  - "bookmarking topics [Help Viewer]"
+  - "Favorites tab [Help Viewer]"
 ms.assetid: f0a4c657-001d-4604-a403-d46f15782724
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Retain Topics for Later Use
 When you locate a useful topic, you can access it later by copying it and pasting it into a text file, printing it, or saving it as a favorite. For example, you can retain content for later use by opening the shortcut menu for topics and the choosing the **Copy**, **Print**, **Print Preview**, and **Add to Favorites** options.  

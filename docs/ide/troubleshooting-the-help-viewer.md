@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/microsoft-help-viewer
+---
 title: "Troubleshooting the Help Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -9,13 +11,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "troubleshooting [Help Viewer 2.0]"
-  - "Help Viewer 2.0, troubleshooting"
+  - "troubleshooting [Help Viewer]"
+  - "Help Viewer, troubleshooting"
 ms.assetid: 461a4553-064a-4142-a2d2-058658b9ba12
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting the Help Viewer
 This topic discusses issues that you might encounter with the Help Viewer.  
@@ -38,12 +40,12 @@ This topic discusses issues that you might encounter with the Help Viewer.
   
 5.  Choose the Windows Search role service.  
   
-## Additional Resources  
+## Additional resources  
  You can get more information and provide feedback on the Help Viewer by using the following resources:  
   
 -   To provide feedback, see [Microsoft Connect](http://go.microsoft.com/fwlink/?linkid=243983) on the Microsoft website or send email to [hlpfdbk@microsoft.com](mailto:hlpfdbk@microsoft.com).  
   
--   For more information, see the [Developer Documentation and Help System](http://go.microsoft.com/fwlink/?LinkId=232741) forum and [The Help Guy](http://go.microsoft.com/fwlink/?LinkId=232743) blog.  
+-   For more information, browse the [Developer Documentation and Help System](http://go.microsoft.com/fwlink/?LinkId=232741) forum.  
   
-## See Also  
- [Help Viewer 2.1 Administrator Guide](http://go.microsoft.com/fwlink/?LinkId=243985)
+## See also
+[Help Viewer Administrator Guide](http://go.microsoft.com/fwlink/?LinkId=243985)

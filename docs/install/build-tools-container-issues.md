@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: "140083f1-05bc-4014-949e-fb5802397c7a"
 author: "heaths"
 ms.author: "heaths"
-manager: "ghogen"
+manager: ghogen
 ---
 # Known issues for containers
 
@@ -32,6 +32,9 @@ The following known issues occur when you install Visual Studio Build Tools 2017
 The following known issues might occur when you use a Build Tools container. To see whether issues have been fixed or if there are other known issues, visit https://developercommunity.visualstudio.com.
 
 * IntelliTrace may not work in [some scenarios](https://github.com/Microsoft/vstest/issues/940) within a container.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 

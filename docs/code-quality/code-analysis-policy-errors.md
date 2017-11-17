@@ -16,7 +16,7 @@ ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Code Analysis Policy Errors
 The following errors occur if the code analysis policy is not satisfied at check-in:  

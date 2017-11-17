@@ -16,7 +16,7 @@ ms.assetid: 5f056e0c-e15b-4e00-8f78-aadc8574f7ea
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_types
 Retrieves an array of compiler-specific types for this symbol.  

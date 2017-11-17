@@ -19,7 +19,7 @@ ms.assetid: b754dad3-1f32-464f-8b9f-065e17e0bc22
 caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Toolbox
 The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  

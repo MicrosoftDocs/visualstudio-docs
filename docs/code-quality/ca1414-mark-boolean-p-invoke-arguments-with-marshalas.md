@@ -18,7 +18,7 @@ ms.assetid: c0c84cf5-7701-4897-9114-66fc4b895699
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1414: Mark boolean P/Invoke arguments with MarshalAs
 |||  

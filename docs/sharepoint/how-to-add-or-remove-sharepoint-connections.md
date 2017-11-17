@@ -21,7 +21,7 @@ ms.assetid: 4d551be0-2124-4481-b398-481ded9b5d46
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add or Remove SharePoint Connections
   Server Explorer lets you browse SharePoint sites as well as data connections. However, before you can browse the contents of a SharePoint site you must add it to the **SharePoint Connections** node.  

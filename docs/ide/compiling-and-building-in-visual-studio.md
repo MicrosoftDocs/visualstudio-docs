@@ -1,7 +1,7 @@
 ---
 title: "Compiling and building in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,7 +15,7 @@ ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Compiling and building in Visual Studio

@@ -17,7 +17,7 @@ ms.assetid: 8cef7620-5bc8-4500-8bd0-e9e638bccb24
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Label (Debug Interface Access SDK)
 A location in program code is identified by a `SymTagLabel` symbol.  

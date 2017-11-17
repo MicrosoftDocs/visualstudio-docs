@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "SccInitialize function"
 ms.assetid: 5bc0d28b-2c68-4d43-9e51-541506a8f76e
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # SccInitialize Function
 This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE).  

@@ -20,7 +20,7 @@ ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Alias Command
 Creates a new alias for a complete command, complete command and arguments, or another alias.  

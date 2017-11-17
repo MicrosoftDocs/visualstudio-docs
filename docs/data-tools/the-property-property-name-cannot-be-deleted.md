@@ -10,7 +10,7 @@ ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # The property &lt;property name&gt; cannot be deleted
@@ -28,7 +28,6 @@ The property \<property name> cannot be deleted because it is set as the **Discr
   
 3.  Try to delete the property again.  
   
-## See Also  
- [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)   
- [Data class inheritance (O/R Designer)](../data-tools/data-class-inheritance-o-r-designer.md)   
- [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

@@ -12,7 +12,7 @@ ms.assetid: ff732221-b731-424c-ad5b-82ef5f21dff5
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Utility Nodes
 In the Shader Designer, utility nodes represent common, useful shader calculations that don't fit neatly into the other categories. Some utility nodes perform simple operations such as appending vectors together or choosing results conditionally, and others perform complex operations such as computing lighting contributions according to popular lighting models.  

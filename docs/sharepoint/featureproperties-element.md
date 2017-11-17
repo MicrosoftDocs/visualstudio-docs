@@ -17,7 +17,7 @@ ms.assetid: 89233274-a842-4f40-a81a-5548379f6f39
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # FeatureProperties Element
   Represents a collection of property values that are included with a Feature when it is deployed to SharePoint. After a Feature is deployed, you can access the property values in your code.  

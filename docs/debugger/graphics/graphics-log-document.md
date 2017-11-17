@@ -16,7 +16,7 @@ ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
 caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Graphics Log Document
 The Graphics Log document is the record of graphics events that occurred while your app was running under a graphics diagnostics session. After being recorded, you can examine the log in Visual Studio Graphics Analyzer to diagnose rendering and performance problems.  

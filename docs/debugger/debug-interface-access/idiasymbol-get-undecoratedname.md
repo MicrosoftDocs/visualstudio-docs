@@ -16,7 +16,7 @@ ms.assetid: e49edf25-a51d-4787-bd5b-2bf5af827c8c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_undecoratedName
 Retrieves the undecorated name for a C++ decorated, or linkage, name.  

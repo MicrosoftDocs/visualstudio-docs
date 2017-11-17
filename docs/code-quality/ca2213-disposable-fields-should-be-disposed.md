@@ -18,7 +18,7 @@ ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2213: Disposable fields should be disposed
 |||  

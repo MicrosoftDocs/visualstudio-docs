@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Reset"
 ms.assetid: e149b559-f072-480b-9552-a452b147f3a8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugFrameInfo2::Reset
 Resets the enumeration to the first element.  

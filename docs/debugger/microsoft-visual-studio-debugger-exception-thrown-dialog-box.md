@@ -24,7 +24,7 @@ ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box
 An exception has occurred in your program. This dialog box reports the kind of exception thrown. Your code needs to handle this exception. You can choose between the following options for handling the exception:  

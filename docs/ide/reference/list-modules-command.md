@@ -18,7 +18,7 @@ ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # List Modules Command
 Lists the modules for the current process.  

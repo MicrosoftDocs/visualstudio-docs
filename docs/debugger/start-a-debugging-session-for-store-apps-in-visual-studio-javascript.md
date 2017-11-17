@@ -1,5 +1,5 @@
 ---
-title: "Start a debugging session for Store Apps in Visual Studio (JavaScript) | Microsoft Docs"
+title: "Start a debugging session for UWP Apps in Visual Studio (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -20,12 +20,12 @@ ms.assetid: fb91203f-2cf4-44d3-8ed9-93bc5aaa50b8
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
-# Start a debugging session for Store Apps in Visual Studio (JavaScript)
+# Start a debugging session for UWP Apps in Visual Studio (JavaScript)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- This topic describes how to start a debugging session for Windows Store apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
+ This topic describes how to start a debugging session for UWP apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
   
 > [!NOTE]
 >  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
@@ -68,7 +68,7 @@ manager: "ghogen"
   
 1.  Open the app solution in Visual Studio.  
   
-2.  If the solution contains projects for both Windows Store and Windows Store Phone apps, make sure that the project you want to debug is the start-up project. In Solution Explore, select the project and then choose **Set as StartUp Project** from the context menu.  
+2.  If the solution contains multiple projects, make sure that the project you want to debug is the start-up project. In Solution Explore, select the project and then choose **Set as StartUp Project** from the context menu.  
   
 3.  Press F5.  
   
@@ -96,13 +96,13 @@ manager: "ghogen"
   
  ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- For a Windows Store app, choose one of these options from the **Target device** list:  
+ For a UWP app, choose one of these options from the **Target device** list:  
   
 |||  
 |-|-|  
-|**Local Machine**|Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
-|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
-|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+|**Local Machine**|Debug the app in the current session on your local machine. See [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
+|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
   
  If you choose **Remote Machine**, specify the name or IP address of the remote machine in one of these ways:  
   
@@ -117,7 +117,7 @@ manager: "ghogen"
   
  ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
   
- For a Windows Store Phone app, choose **Device** or one of the emulators from the **Target device** list.  
+ For a Windows Phone app, choose **Device** or one of the emulators from the **Target device** list.  
   
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
  By default, the debugger attaches to the JavaScript code in your app. You can choose to debug the native C++ and managed code of components of your app instead of the JavaScript code. You specify the code to debug in the **Debugger Type** list on the **Debugging** property page of the app project.  
@@ -144,7 +144,7 @@ manager: "ghogen"
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks  
  ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- For security reasons, a Windows Store app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the Windows Store, you should test your app without the exemption.  
+ For security reasons, a UWP app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to Microsoft Store, you should test your app without the exemption.  
   
  To remove the network loopback exemption, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.  
   
@@ -164,12 +164,12 @@ manager: "ghogen"
   
  The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
+ . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ##  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
  When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the Debug Installed App Package dialog box. This procedure is useful when you need to debug an app that was installed from the Windows store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
- The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
+ The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
  To set an installed app to run in debug mode, do this:  
   
@@ -182,9 +182,9 @@ manager: "ghogen"
   
     |||  
     |-|-|  
-    |**Local Machine**|Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
-    |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
-    |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+    |**Local Machine**|Debug the app in the current session on your local machine. See [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
+    |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+    |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
   
 3.  Choose the app from the **Installed App Packages** list.  
   
@@ -257,5 +257,5 @@ manager: "ghogen"
 ## See Also  
  [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
+ [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

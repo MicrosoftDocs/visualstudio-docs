@@ -15,7 +15,7 @@ ms.assetid: abf0a2b5-e4e5-422e-97ef-55a0e35a82df
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
 ms.technology: "vs-data-tools"
 ---
@@ -105,8 +105,8 @@ All data tables should have a primary key. A primary key uniquely identifies a s
   
 -   On the **File** menu, click **Save All**.  
   
-## See Also  
-    
- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Validating Data](validate-data-in-datasets.md)   
- [Saving Data](../data-tools/saving-data.md)   
+## See also
+[Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)  
+[Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
+[Validating Data](../data-tools/validate-data-in-datasets.md)   
+[Saving Data](../data-tools/saving-data.md)   

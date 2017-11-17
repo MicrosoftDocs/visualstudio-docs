@@ -16,7 +16,7 @@ ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # Building Multiple Projects in Parallel with MSBuild
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:  

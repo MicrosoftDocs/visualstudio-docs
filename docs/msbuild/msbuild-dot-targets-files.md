@@ -20,7 +20,7 @@ ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
 caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # MSBuild .Targets Files
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  

@@ -12,7 +12,7 @@ ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
 caps.latest.revision: 12
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  

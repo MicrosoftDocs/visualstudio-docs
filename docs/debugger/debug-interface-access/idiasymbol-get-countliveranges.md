@@ -16,7 +16,7 @@ ms.assetid: 55f79e1a-d4c2-42cd-ab37-d8253b20e34c
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_countLiveRanges
 Retrieves the number of valid address ranges associated with the local symbol.  

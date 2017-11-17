@@ -16,7 +16,7 @@ ms.assetid: 2ecdda93-950e-40d6-b79b-4ae3c55b6cfc
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaInjectedSource::get_crc
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.  

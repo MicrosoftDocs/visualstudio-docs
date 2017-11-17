@@ -16,7 +16,7 @@ ms.assetid: 5d707b76-dbaa-4d88-86c3-6f3672cc6d4c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_timeStamp
 Retrieves the timestamp of the underlying executable file.  

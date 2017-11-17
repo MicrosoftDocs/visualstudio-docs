@@ -25,16 +25,22 @@ ms.assetid: f2582734-8ada-4baa-8a7c-e2ef943ddf7e
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Managing Application Resources (.NET)
 Resource files are files that are part of an application but are not compiled, for example icon files or audio files. Since these files are not part of the compilation process, you can change them without having to recompile your binaries. If you are planning to localize your application, you should use resource files for all the strings and other resources that need to be changed when you localize your application.  
   
- For more information about resources in .NET desktop apps, see [Resources in Desktop Apps](/dotnet/framework/resources/index). For more information about resources in C++ desktop apps, see [Working with Resource Files](/cpp/windows/working-with-resource-files).  
+For more information about resources in .NET desktop apps, see [Resources in Desktop Apps](/dotnet/framework/resources/index). For more information about resources in C++ desktop apps, see [Working with Resource Files](/cpp/windows/working-with-resource-files).  
   
- Windows Store apps use a different resource model from desktop apps. For information about resources in Windows Store apps, see [Defining Application Resources](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx) on the Windows Dev Center website.  
+UWP apps use a different resource model from desktop apps. For information about resources in Windows 8.x apps, see [Defining app resources (HTML)](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx).  
   
 ## Working with Resources  
- In a managed code project, open the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or type ALT + ENTER in the **Solution Explorer** window). Select the **Resources** tab. You can add a .resx file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.  
+In a managed code project, open the project properties window. You can open the properties window by either:
+
+- right-clicking the project node in **Solution Explorer** and selecting **Properties**
+- typing **project properties** in the **Quick Launch** window
+- choosing **Alt + Enter** in the **Solution Explorer** window
+
+Select the **Resources** tab. You can add a .resx file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.  
   
- To find out how to work with resources in C++ projects, see [How to: Create a Resource](/cpp/windows/how-to-create-a-resource).
+To find out how to work with resources in C++ projects, see [How to: Create a Resource](/cpp/windows/how-to-create-a-resource).

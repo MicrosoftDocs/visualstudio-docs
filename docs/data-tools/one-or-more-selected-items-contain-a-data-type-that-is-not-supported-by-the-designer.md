@@ -10,7 +10,7 @@ ms.assetid: 71dcd4f9-2946-42c5-9ce4-99c819ea2785
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # One or more selected items contain a data type that is not supported by the designer
@@ -22,7 +22,6 @@ One or more of the items dragged from **Server Explorer**/**Database Explorer** 
   
 2.  Drag the view from **Server Explorer**/**Database Explorer** onto the designer.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
- [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

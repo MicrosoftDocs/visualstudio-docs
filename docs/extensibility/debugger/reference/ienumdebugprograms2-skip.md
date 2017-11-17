@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2::Skip"
 ms.assetid: b283858b-b375-4760-bfec-ab37de89958d
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IEnumDebugPrograms2::Skip
 Skips over the specified number of elements.  

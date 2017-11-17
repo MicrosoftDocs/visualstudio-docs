@@ -16,7 +16,7 @@ ms.assetid: 371d40f6-ca0e-4d7e-9210-64d3768996c6
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSectionContrib
 Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland.  

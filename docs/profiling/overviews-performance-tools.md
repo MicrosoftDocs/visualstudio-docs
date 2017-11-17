@@ -12,7 +12,7 @@ ms.assetid: b877802d-c736-4047-821a-bd7733fff6de
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Overviews (Performance Tools)
 This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, which you can use to measure the performance characteristics of an application under development.  

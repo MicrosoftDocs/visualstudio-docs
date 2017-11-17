@@ -11,7 +11,9 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "LandingData": "Content",
+        "APIConnector": "Content"
       },
       "template_folder": "_themes"
     },
@@ -96,15 +98,6 @@
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
-    },
-    {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/visualstudio-docs-pr",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
     },
     {
       "path_to_root": "dotnet-xref",

@@ -35,7 +35,7 @@ ms.assetid: 2f86546b-307f-48ea-b01c-5f5a242fce17
 caps.latest.revision: 68
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Office Project Templates Overview
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:  

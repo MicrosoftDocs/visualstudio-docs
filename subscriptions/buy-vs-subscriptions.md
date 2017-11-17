@@ -17,7 +17,7 @@ There are three ways to buy Visual Studio subscriptions.
 - Standard subscriptions can be purchased through the Microsoft Store. 
 - Organizations can purchase Volume License subscriptions through resellers.  
 
-## Buying Cloud Subscriptions through the Visual Studio Marketplace
+## Buying Cloud subscriptions through the Visual Studio Marketplace
 You can buy Visual Studio Professional and Visual Studio Enterprise [subscriptions](https://www.visualstudio.com/subscriptions/) 
 from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). 
 Learn about the full benefits for these subscriptions, 
@@ -28,7 +28,7 @@ Learn about the full benefits for these subscriptions,
 *	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/en-us/pricing/purchase-options/). 
 You can [sign up](https://account.windowsazure.com/Subscriptions) 
 before your first purchase or during your first purchase in the Visual Studio Marketplace.
-Learn [which Azure subscriptions you can use for Visual Studio Marketplace purchases](#billing). 
+Learn which [Azure subscriptions](https://docs.microsoft.com/en-us/vsts/marketplace/marketplace-billing-qa) you can use for Visual Studio Marketplace purchases. 
 
 *	To sign up for your Azure subscription and buy from the Visual Studio Marketplace, 
 you'll need a ["personal" Microsoft account](https://www.microsoft.com/account) 
@@ -103,7 +103,7 @@ go to the Visual Studio subscriptions portal
 
 ### Marketplace and Billing Q&A
 
-Visit the [Marketplace and Billing Q&A](../marketplace-billing-qa.md) to find answers to multiple common questions around the Visual Studio Marketplace and Azure billing. 
+Visit the [Marketplace and Billing Q&A](/vsts/marketplace/marketplace-billing-qa) to find answers to multiple common questions around the Visual Studio Marketplace and Azure billing. 
 
 ## Buying Standard subscriptions through the Microsoft Store
 Visual Studio Standard subscriptions are available through the Microsoft Store.  To purchase or renew a subscription:

@@ -31,7 +31,7 @@ ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Viewing the Structure of Code
 You can examine the objects and members in Visual Studio projects, and the objects and members in .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).  
@@ -144,7 +144,7 @@ Call Hierarchy window
   
 -   A custom set of components  
   
- Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Roaming\Microsoft\VisualStudio\11.0\ObjBrowEX.dat.  
+ Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat.  
   
  The left pane of the **Object Browser** shows physical containers such as .NET Framework and COM components. You can expand the container nodes to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.  
   

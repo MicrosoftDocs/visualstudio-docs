@@ -15,7 +15,7 @@ f1_keywords:
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Use command-line parameters to install Visual Studio 2017
 When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
@@ -127,10 +127,12 @@ Depending on the result of the operation, the `%ERRORLEVEL%` environment variabl
 
 Each operation generates several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files that begin with `dd_bootstrapper`, `dd_client`, and `dd_setup` for the bootstrapper, the installer app, and the setup engine, respectively.
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
+
 ## See also
 
  * [Install Visual Studio 2017](install-visual-studio.md)
  * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
  * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
- * [Troubleshooting Visual Studio 2017 installation and upgrade issues ](troubleshooting-installation-issues.md)

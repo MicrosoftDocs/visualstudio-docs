@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "IDebugArrayObject2::GetBaseIndices"
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugArrayObject2::GetBaseIndices
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.  

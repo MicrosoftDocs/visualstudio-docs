@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio
+---
 title: "Bind Windows Forms controls to data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -15,7 +17,7 @@ ms.assetid: 0163a34a-38cb-40b9-8f38-3058a90caf21
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ms.technology: "vs-data-tools"
 ---
 # Bind Windows Forms controls to data

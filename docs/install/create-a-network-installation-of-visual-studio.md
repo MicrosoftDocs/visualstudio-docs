@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 4CABFD20-962E-482C-8A76-E4012052F701
 author: "timsneath"
 ms.author: "tims"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Create a network installation of Visual Studio 2017
@@ -146,6 +146,9 @@ If you need to create a layout for an older version of Visual Studio 2017, you c
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
 We have other support options available, too. For a list, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for troubleshooting tips. As well, you can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool in the Visual Studio IDE or share a suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579). You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers. You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio) (requires a [GitHub](https://github.com/) account).
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

@@ -20,7 +20,7 @@ ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # FindInList Task
 In a specified list, finds an item that has the matching itemspec.  

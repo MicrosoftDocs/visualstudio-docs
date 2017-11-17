@@ -18,7 +18,7 @@ ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Design Warnings
 Design warnings support adherence to the .NET Framework Design Guidelines.  

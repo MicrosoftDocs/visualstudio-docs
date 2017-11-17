@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "DEBUG_ADDRESS_UNION union"
 ms.assetid: e3d11aab-de0d-4109-b5dc-11e07e64382d
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # DEBUG_ADDRESS_UNION
 Describes different kinds of addresses.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::UnpublishProgramNode"
 ms.assetid: 57c7e6e1-b84e-4e14-ad83-cbbb64e2f526
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProgramPublisher2::UnpublishProgramNode
 Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM).  

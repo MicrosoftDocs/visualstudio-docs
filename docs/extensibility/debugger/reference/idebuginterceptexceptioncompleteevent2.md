@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2"
 ms.assetid: 8ebc256b-5428-4ed6-a505-6aedc8242b8e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugInterceptExceptionCompleteEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the DE has completed the handling of an intercepted event.  

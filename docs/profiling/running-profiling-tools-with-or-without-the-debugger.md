@@ -12,7 +12,7 @@ ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Running Profiling Tools With or Without the Debugger
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
@@ -118,7 +118,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
  ![Specify the url to display in Internet Explorer](../profiling/media/pdhub_choosephoneanalysistarget.png "PDHUB_ChoosePhoneAnalysisTarget")  
   
 ## Remote Debugging  
- Running a diagnostic session on a remote PC or tablet requires that the Visual Studio Remote Tools be installed and running on the remote target. For desktop apps, see [Remote Debugging](../debugger/remote-debugging.md).  For Windows Universal apps, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
+ Running a diagnostic session on a remote PC or tablet requires that the Visual Studio Remote Tools be installed and running on the remote target. For desktop apps, see [Remote Debugging](../debugger/remote-debugging.md).  For Windows Universal apps, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
   
 ## Blog posts and MSDN articles from the Diagnostics development team  
  [MSDN Magazine: Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/en-us/magazine/dn973013.aspx)  

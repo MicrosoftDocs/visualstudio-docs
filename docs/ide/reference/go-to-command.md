@@ -17,7 +17,7 @@ ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Go To Command
 Moves the cursor to the specified line.  

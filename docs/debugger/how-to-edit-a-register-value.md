@@ -23,7 +23,7 @@ ms.assetid: e27b6bd8-e6d4-4f1d-8a86-9f4047bb1167
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Edit a Register Value
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  

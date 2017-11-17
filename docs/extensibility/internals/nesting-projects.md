@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: 12cce037-9840-4761-845e-5abd5fb317b0
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Nesting Projects
 Enterprise application developers who use your VS Package can conveniently group similar types of projects together in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by using *project nesting*. For example, the Enterprise Template project uses nested projects to group projects into categories. Business facade projects, Web UI projects, and so on are grouped together in one category.  

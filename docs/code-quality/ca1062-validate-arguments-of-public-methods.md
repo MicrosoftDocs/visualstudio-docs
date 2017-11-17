@@ -19,7 +19,7 @@ ms.assetid: db1f69ca-68f7-477e-94f3-d135cc5dfcbc
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA1062: Validate arguments of public methods
 |||  

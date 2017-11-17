@@ -1,7 +1,7 @@
 ---
 title: Mixed-Mode Debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,7 @@ ms.assetid: 4ca86a87-e254-4ab7-b3ba-a0ab99c1da93
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Debugging Python and C++ together
