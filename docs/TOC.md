@@ -38,7 +38,7 @@
 ### [Advanced Example for Containers](install/advanced-build-tools-container.md)
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
 # Quickstarts
-## IDE orientation
+## [IDE orientation](ide/quickstart-ide-orientation.md)
 ## Write code in the editor
 ## Personalize the IDE and editor
 ## Work with solutions and projects
