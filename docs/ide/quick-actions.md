@@ -8,8 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.devlang: csharp
-ms.assetid: e173fb7d-c5bd-4568-ba0f-aa61913b3244
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -19,27 +17,30 @@ dev_langs:
 ---
 # Quick Actions
 
-[Quick Actions](refactoring-code-generation-quick-actions.md#quick-actions) let you easily refactor, generate, or otherwise modify code with a single action.  While there are many Quick Actions that apply specifically to C# or Visual Basic, there are also some that apply to both C# and Visual Basic projects.  These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or pressing **Ctrl + .** when your cursor is on the appropriate line of code.
+[Quick Actions](refactoring-code-generation-quick-actions.md#quick-actions) let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages. Quick Actions can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or by pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
 
-You will see a light bulb if there is a red squiggle and Visual Studio has a suggestion for how to fix the issue. For instance if you have an error indicated by a red squiggle, a light bulb will appear when fixes are available for that error. For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs will light up based on those rules.  
+You will see a light bulb if there is a red squiggle and Visual Studio has a suggestion for how to fix the issue. For instance if you have an error indicated by a red squiggle, a light bulb will appear when fixes are available for that error. For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs will light up based on those rules.
 
-### To see a light bulb  
+## To see a light bulb
 
-1. In many cases, light bulbs spontaneously appear when you hover the mouse at the point of an error, or in the left margin of the editor when you move the caret into a line that has an error in it. When you see a red squiggle, you can hover over it to display the light bulb. You can also cause a light bulb to display when you use the mouse or keyboard to go to anywhere in the line where the issue occurs.  
+1. In many cases, light bulbs spontaneously appear when you hover the mouse at the point of an error, or in the left margin of the editor when you move the caret into a line that has an error in it. When you see a red squiggle, you can hover over it to display the light bulb. You can also cause a light bulb to display when you use the mouse or keyboard to go to anywhere in the line where the issue occurs.
 
-2. Press **Ctrl + .** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.  
+1. Press **Ctrl + .** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.
 
-   ![Light bulb with mouse hovering](../ide/media/vs2015_lightbulb_hover.png "VS2017_LightBulb_Hover")  
+   ![Light bulb with mouse hovering](../ide/media/vs2015_lightbulb_hover.png "VS2017_LightBulb_Hover")
 
-### To see potential fixes  
-Either click on the down arrow or the Show potential fixes link to display a list of quick actions that the light bulb can take for you.  
+## To see potential fixes
+
+Either click on the down arrow or the Show potential fixes link to display a list of quick actions that the light bulb can take for you.
 
 ![Light bulb expanded](../ide/media/vs2015_lightbulb_hover_expanded.png "VS2017_LightBulb_hover_expanded")
 
 ## Common Quick Actions
+
 Here are some of the common Quick Actions which are applicable to both C# and Visual Basic code.
 
 ### Add missing cases/default case/both
+
 When creating a `switch` statement in C#, or `Select Case` statement in Visual Basic, you can use a Code Action to automatically add missing case items, a default case statement, or both.  For an empty statement like the following:
 
 ```csharp
@@ -58,6 +59,7 @@ switch(myEnum)
 {
 }
 ```
+
 ```vb
 Enum MyEnum
     Item1
@@ -88,6 +90,7 @@ switch(myEnum)
         break;
 }
 ```
+
 ```vb
 Select Case myEnum
     Case MyEnum.Item1
@@ -100,6 +103,7 @@ End Select
 ```
 
 ### Correct misspelled type
+
 If you accidentally misspell a type in Visual Studio, this Quick Action will automatically correct it for you.  You will see these items in the light bulb menu as **"Change '*misspelled type*' to '*correct type*'**.  For example:
 
 ```csharp
@@ -115,6 +119,7 @@ private void MyMethod()
 {
 }
 ```
+
 ```vb
 ' Before
 Function MyFunction as Intger
@@ -128,6 +133,7 @@ End Function
 ```
 
 ### Remove unnecessary cast
+
 If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item will remove the cast from your code.
 
 ```csharp
@@ -139,6 +145,7 @@ int number = (int)3;
 // after
 int number = 3;
 ```
+
 ```vb
 ' Before
 Dim number as Integer = CType(3, Integer)
@@ -149,7 +156,8 @@ Dim number as Integer = CType(3, Integer)
 Dim number as Integer = 3
 ```
 
-### Replace method with property / Replace property with method
+### Replace method with property, or replace property with method
+
 These Quick Actions will convert a method to a property, or vice versa.  The example below shows the change from a method to a property.  For the opposite case, simply invert the *Before* and *After* sections.
 
 ```csharp
@@ -169,6 +177,7 @@ public int MyValue
     get { return MyValue; }
 }
 ```
+
 ```vb
 Dim MyValue As Integer
 
@@ -187,7 +196,8 @@ ReadOnly Property MyValue As Integer
 End Property
 ```
 
-### Make Method Synchronous
+### Make method synchronous
+
 When using the `async`/`Async` keyword on a method, it is expected that somewhere inside that method the `await`/`Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async`/`Async` keyword and changing the return type.  Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
@@ -205,6 +215,7 @@ int MyAsyncMethod()
     return 3;
 }
 ```
+
 ```vb
 ' Before
 Async Function MyAsyncMethod() As Task(Of Integer)
@@ -219,7 +230,8 @@ Function MyAsyncMethod() As Integer
 End Function
 ```
 
-### Make Method Asynchronous
+### Make method asynchronous
+
 When using the `await`/`Await` keyword inside of a method, it is expected that the method itself is marked with the `async`/`Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous.  Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
 ```csharp
@@ -237,6 +249,7 @@ async Task<int> MyAsyncMethod()
     return await Task.Run(...);
 }
 ```
+
 ```vb
 ' Before
 Function MyAsyncMethod() as Integer
@@ -251,11 +264,13 @@ Async Function MyAsyncMethod() As Task(Of Integer)
 End Function
 ```
 
-### Remove Unnecesary usings/Imports
+### Remove unnecessary usings/Imports
+
 The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
 
 ### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:  
+
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
 
 * Suggest usings/imports for types in reference assemblies
 * Suggest usings/imports for types in NuGet packages
@@ -273,6 +288,7 @@ using System.Diagnostics;
 
 Debug.WriteLine("Hello");
 ```
+
 ```vb
 ' Before
 Debug.WriteLine("Hello")
@@ -285,7 +301,8 @@ Imports System.Diagnostics
 Debug.WriteLine("Hello")
 ```
 
-### Convert to Interpolated String
+### Convert to interpolated string
+
 [Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
 ```csharp
@@ -299,6 +316,7 @@ string s = string.Format("My string with {0} in the middle", num);
 int num = 3;
 string s = $"My string with {num} in the middle";
 ```
+
 ```vb
 ' Before
 Dim num as Integer = 3
@@ -312,26 +330,31 @@ Dim s As String = $"My string with {num} in the middle"
 ```
 
 ### Remove merge conflict markers
+
 These Quick Actions enable you to resolve merge conflicts by "taking a change", which removes the conflicting code and markers. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - resolve merge conflicts](../ide/media/vside-refactoring-merge-conflicts.png)
 
 ### Add null checks for parameters
+
 This Quick Action enables you to add a check in your code to tell whether a parameter is null. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - add null check](../ide/media/vside-refactoring-nullcheck.png)
 
 ### Constructor generator improvements
+
 When you're creating a constructor, this Quick Action enables you to select the properties or fields to generate, or you can generate the constructor from an empty body. You can also use it to add parameters to an existing constructor from the call-site. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - generate constructors](../ide/media/vside-refactoring-constructors.png)
 
 ### Remove unused variables
+
 This Quick Action enables you to remove variables that have been declared but never used in your code. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - unused variables](../ide/media/vside-refactoring-unusedvars.png)
 
 ### Generate overrides
+
 This Quick Action enables you to create an override from a blank line in a class or struct. The **Pick Members** dialog box lets you choose the members to override. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - overrides](../ide/media/vside-refactoring-overrides.png)
@@ -339,6 +362,7 @@ This Quick Action enables you to create an override from a blank line in a class
 ![Refactoring - overrides dialog box](../ide/media/vside-refactoring-overrides-dialog.png)
 
 ### Change base for numeric literals
+
 This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - change base](../ide/media/vside-refactoring-changebase1.png)
@@ -346,18 +370,20 @@ This Quick Action enables you to convert a numeric literal from one base numeric
 ![Refactoring - change base](../ide/media/vside-refactoring-changebase2.png)
 
 ### Insert digit separators into literals
+
 This Quick Action enables you to add separator characters into literal values. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ![Refactoring - change digit separators](../ide/media/vside-refactoring-separators.png)
 
 ### Convert **if** construct to **switch**
+
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
 
 ```csharp
 // Before
 if (obj is string s)
 {
-  Console.WriteLine("obj is a string: " + s);  
+  Console.WriteLine("obj is a string: " + s);
 }
 
 else if (obj is int i && i > 10)
@@ -378,6 +404,7 @@ switch (obj)
     break;
 }
 ```
+
 ```vb
 ' Before
 If TypeOf obj Is String s Then
@@ -399,5 +426,7 @@ Select Case obj
 End Select
 ```
 
-## See Also
-* [Code Styles and Quick Actions](code-styles-and-quick-actions.md)
+## See also
+
+[Code Styles and Quick Actions](code-styles-and-quick-actions.md)  
+[Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
