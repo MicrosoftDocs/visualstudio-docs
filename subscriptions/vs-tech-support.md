@@ -27,7 +27,7 @@ Resolve break-fix issues in non-production environments.  (Note:  Benefit must b
 
 ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
-**NOTE:** To activate your support account in a language other than English, choose your country from [this list](http://support.microsoft.com/activatesupport).   To set up your account in English, please skip to step 7.
+**NOTE:** To activate your support account in a language other than English, choose your country from [this list](http://support.microsoft.com/activatesupport).   
 
 # How to submit an incident
 Once you have your Contract ID and Access ID set up, when you need support you can call the  technical support number for your country, submit a support incident [online](http://support.microsoft.com/oas/), or submit an incident via the Azure portal.  If would prefer to receive support over the phone, you can still submit your incident online, and a Microsoft Support Professional will call you back.
