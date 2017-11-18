@@ -26,7 +26,7 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET applications running on .NET Framework 4.6.1 or later.
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher. 
+Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher and Basic or higher App Service Plans. 
 
 ## Start the Snapshot Debugger
 
