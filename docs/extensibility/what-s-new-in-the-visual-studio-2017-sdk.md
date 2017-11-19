@@ -16,7 +16,7 @@ manager: ghogen
 ---
 # What&#39;s 在 Visual Studio 2017 SDK 中有什麼新功能
 
-The Visual Studio SDK has the following new and updated features for Visual Studio 2017.
+新版的 Visual Studio SDK 在 Visual Studio 2017 的更新下，有以下新增功能：
 
 ## VSIX 提升到 v3 的格式
 
@@ -39,9 +39,9 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
 
 如果您想要了解如何將您的擴充性專案以及相關的項目及其 VSIX 擴充清單更新到 Visual Studio 2017 的格式，, 可參考： [How to: Migrate Extensibility Projects to Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
-## 自訂 Visual Studio 的專案與專案項目
+## 自訂 Visual Studio 的專案檔與專案項目
 
-從 Visual Studio 2017 開始，不會在自動的掃瞄掃描 VSIX 內的自定義樣板與項目. 反而是, 該擴充套件必須提自行提供描述這些樣板安裝的位置，與的樣板清單描述文件(Menifest)。 您可以使用 Visual Studio 2017 來升級您的 VSIX 擴充套件. 如果您要使用 MSI 封裝檔來部署您的擴充套件, 您必須自己手動生成樣板清單描述文件(Menifest)。. 要取得更多資訊, 可參考 [Upgrading Custom Project and Item Templates for Visual Studio 2017](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). 這個樣板相關的描述定義說明文件在 [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
+從 Visual Studio 2017 開始，不會再自動的掃瞄 VSIX 內的自定義樣板與項目. 反而是, 該擴充套件必須提自行提供描述這些樣版安裝的位置，與的樣版清單描述文件(Menifest)。 您可以使用 Visual Studio 2017 來升級您的 VSIX 擴充套件. 如果您要使用 MSI 封裝檔來部署您的擴充套件, 您必須自己手動生成樣版清單描述文件(Menifest)。要取得更多資訊, 可參考 [Upgrading Custom Project and Item Templates for Visual Studio 2017](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). 這個樣版相關的描述定義說明文件在 [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).
 
 ## 更新的擴充套件效能指南
 
