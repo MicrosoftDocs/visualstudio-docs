@@ -15,7 +15,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ---
-# Debug live ASP.NET apps using snappoints and logpoints
+# Debug live ASP.NET Azure apps using the Snapshot Debugger
 
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
