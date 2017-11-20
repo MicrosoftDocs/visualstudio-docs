@@ -17,8 +17,14 @@
           href: tensorflow-vm.md
     - name: How-to guides
       items:
-        - name: Create a new project
+        - name: Create a project from sample gallery
+          href: create-project-gallery.md
+        - name: Create a project from existing code
+          href: create-project-existing.md
+        - name: Create a project from template
           href: create-project.md
+        - name: Create a project from GitHub repository 
+          href: create-project-repo.md
         - name: Train your model
           href: train-model.md
     - name: Samples
