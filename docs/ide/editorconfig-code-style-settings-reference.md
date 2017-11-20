@@ -803,10 +803,10 @@ When this rule is set to **false**, prefer `default(T)` over `default`.
 Code examples:  
 
 ```csharp 
-// csharp_prefer_inferred_tuple_names = true
+// csharp_prefer_simple_default_expression = true
 void DoWork(CancellationToken cancellationToken = default) { ... }
 
-// csharp_prefer_inferred_tuple_names = false
+// csharp_prefer_simple_default_expression = false
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 ```
 
@@ -816,11 +816,11 @@ When this rule is set to **false**, prefer explicit tuple element names.
 
 Code examples:  
 
-```csharp 
-// csharp_prefer_simple_default_expression = true
+```csharp
+// csharp_prefer_inferred_tuple_names = true
 var tuple = (age, name);
 
-// csharp_prefer_simple_default_expression = false
+// csharp_prefer_inferred_tuple_names = false
 var tuple = (age: age, name: name);
 ```
 
