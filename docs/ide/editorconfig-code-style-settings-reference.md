@@ -279,9 +279,13 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:none | Visual Studio 2017 15.5 |
 
 **dotnet\_style\_require\_accessibility_modifiers**  
-When this rule is set to **always**, prefer accessbility modifiers to be declared.  
-When this rule is set to **for\_non\_interface_members**, prefer accessibility modifiers to be declared except for public interface members. This will currently have no difference from **always** and acts as future proofing for if C# adds default interface methods.  
-When this rule is set to **never**, do not prefer accessibility modifiers to be declared.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| always | Prefer accessbility modifiers to be specified |
+| for_non_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
+| never | Do not prefer accessibility modifiers to be specified | 
 
 Code examples:  
 
@@ -571,9 +575,13 @@ The following table shows the rule names, rule IDs, applicable language versions
 | csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |  
 
 **csharp\_style\_expression\_bodied_methods**  
-When this rule is set to **when_possible**, prefer expression-bodied members for methods.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for methods when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for methods.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for methods |
+| when_on_single_line | Prefer expression-bodied members for methods when they will be a single line |
+| never | Prefer block bodies for methods | 
 
 Code examples:  
 
@@ -586,9 +594,13 @@ public int GetAge() { return this.Age; }
 ```  
 
 **csharp\_style\_expression\_bodied_constructors**  
-When this rule is set to **when_possible**, prefer expression-bodied members for constructors.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for constructors when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for constructors.    
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for constructors |
+| when_on_single_line | Prefer expression-bodied members for constructors when they will be a single line |
+| never | Prefer block bodies for constructors |  
 
 Code examples:  
 
@@ -601,9 +613,13 @@ public Customer(int age) { Age = age; }
 ```  
 
 **csharp\_style\_expression\_bodied_operators**  
-When this rule is set to **when_possible**, prefer expression-bodied members for operators.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for operators when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for operators.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for operators |
+| when_on_single_line | Prefer expression-bodied members for operators when they will be a single line |
+| never | Prefer block bodies for operators |  
 
 Code examples:  
 
@@ -618,9 +634,13 @@ public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
 ```  
 
 **csharp\_style\_expression\_bodied_properties**  
-When this rule is set to **when_possible**, prefer expression-bodied members for properties.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for properties when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for properties.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for properties |
+| when_on_single_line | Prefer expression-bodied members for properties when they will be a single line |
+| never | Prefer block bodies for properties |  
 
 Code examples:  
 
@@ -633,9 +653,13 @@ public int Age { get { return _age; }}
 ```  
 
 **csharp\_style\_expression\_bodied_indexers**  
-When this rule is set to **when_possible**, prefer expression-bodied members for indexers.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for indexers when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for indexers.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for indexers |
+| when_on_single_line | Prefer expression-bodied members for indexers when they will be a single line |
+| never | Prefer block bodies for indexers | 
 
 Code examples:  
 
@@ -648,9 +672,13 @@ public T this[int i] { get { return _values[i]; } }
 ```  
 
 **csharp\_style\_expression\_bodied_accessors**  
-When this rule is set to **when_possible**, prefer expression-bodied members for accessors.  
-When this rule is set to **when_on_single_line**, prefer expression-bodied members for accessors when they will be a single line.  
-When this rule is set to **never**, do not prefer expression-bodied members for accessors.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for accessors |
+| when_on_single_line | Prefer expression-bodied members for accessors when they will be a single line |
+| never | Prefer block bodies for accessors | 
 
 Code examples:  
 
