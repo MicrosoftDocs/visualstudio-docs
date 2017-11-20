@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/reference/how-to-change-fonts-and-colors-in-the-editor
+---
 title: "Customizing the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -18,9 +20,11 @@ ms.author: "gewarren"
 manager: ghogen
 ---
 # Customizing the Editor
-You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../ide/reference/text-editor-options-dialog-box.md) or type `Editor` into **QuickLaunch**. You can also change how editor windows are displayed.  
-  
-## In This Section  
+
+You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../ide/reference/text-editor-options-dialog-box.md) or type `Editor` into **Quick Launch**. You can also change how editor windows are displayed.
+
+## In This Section
+
  These topics explain how to adjust the appearance and behavior of the Text and Code editor.  
   
  [How to: Change Text Case in the Editor](../ide/how-to-change-text-case-in-the-editor.md)  
