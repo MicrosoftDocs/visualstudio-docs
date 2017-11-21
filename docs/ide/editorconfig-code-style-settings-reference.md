@@ -784,7 +784,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
 #### <a name="expression_level_csharp">Expression-level preferences</a>
-This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.  
+The style rules in this section concern expression-level preferences, including the use of default expressions, inferred tuple element names, deconstructed variables, inferred anonymous type member names, and local functions over anonymous functions.  
 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
@@ -797,6 +797,8 @@ The following table shows the rule name, rule ID, applicable language versions, 
 | csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
 
 **csharp\_prefer\_simple\_default_expression**  
+This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.  
+
 When this rule is set to **true**, prefer `default` over `default(T)`.  
 When this rule is set to **false**, prefer `default(T)` over `default`.  
 
@@ -831,14 +833,14 @@ When this rule is set to **false**, do not prefer deconstruction in variable dec
 Code examples:  
 
 ```csharp 
-// csharp_style_deconstructed_variable_declaration = true:suggestion = true
+// csharp_style_deconstructed_variable_declaration = true
 var (name, age) = GetPersonTuple();
 Console.WriteLine($"{name} {age}");
 
 (int x, int y) = GetPointTuple();
 Console.WriteLine($"{x} {y}");
 
-// csharp_style_deconstructed_variable_declaration = true:suggestion = false
+// csharp_style_deconstructed_variable_declaration = false
 var person = GetPersonTuple();
 Console.WriteLine($"{person.name} {person.age}");
 
