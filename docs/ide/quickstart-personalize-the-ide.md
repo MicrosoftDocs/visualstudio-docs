@@ -14,7 +14,7 @@ manager: ghogen
 ---
 # Quickstart: personalize the Visual Studio IDE and Editor
 
-In this 5-10 minute walkthrough, we'll customize the Visual Studio color theme and two text colors in the Text Editor.
+In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the Text Editor.
 
 ## Set the color theme
 
