@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPortEx2::GetPortProcessId"
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPortEx2::GetPortProcessId
 Gets the process ID of the port itself.  

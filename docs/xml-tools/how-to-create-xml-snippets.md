@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Create XML Snippets
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.  
@@ -58,7 +44,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 ### SnippetType Element  
  The editor supports two snippet types:  
   
-```  
+```xml
 <SnippetTypes>  
   <SnippetType>SurroundsWith</SnippetType>  
   <SnippetType>Expansion</SnippetType>  
@@ -75,7 +61,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   
  The following is the `Code` element that is created by the boilerplate snippet.  
   
-```  
+```xml
 <Code Language="XML">  
   <![CDATA[<test>  
   <name>$name$</name>  
@@ -93,7 +79,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   
  The above `Code` element inserts the following XML text:  
   
-```  
+```xml
 <test>  
   <name>name</name>  
 </test>  
@@ -104,7 +90,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 ### Literal Element  
  The `Literal` element is used to identify replacement text that can be customized after it is inserted into the file. For example, literal strings, numeric values, and some variable names can be declared as literals. You can define any number of literals in your XML snippet and you can refer to them multiple times from within the snippet. The following is an example of a `Literal` element that defines a $name$ variable whose default value is "name."  
   
-```  
+```xml
 <Literal>  
   <ID>name</ID>  
   <Default>name</Default>  
@@ -113,7 +99,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   
  Literals can also refer to functions. The XML Editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.  
   
-```  
+```xml
 <Literal Editable="false">  
    <ID>prefix</ID>  
    <Function>LookupPrefix("namespaceURI")</Function>  

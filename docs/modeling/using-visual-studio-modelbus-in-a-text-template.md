@@ -11,11 +11,6 @@ caps.latest.revision: 13
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Using Visual Studio ModelBus in a Text Template
 If you write text templates that read a model that contains [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus references, you might want to resolve the references to access the target models. In that case, you have to adapt the text templates and the referenced domain-specific languages (DSLs):  

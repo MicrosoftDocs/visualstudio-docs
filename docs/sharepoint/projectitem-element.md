@@ -2,7 +2,6 @@
 title: "ProjectItem Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "ProjectItem element"
 ms.assetid: df588235-12a1-4798-bc56-ef81843de17f
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # ProjectItem Element
   Represents a SharePoint project item. This is the required root element of the .spdata file.  

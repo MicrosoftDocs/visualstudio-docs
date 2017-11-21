@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "javascript.project.property.expandedsdknode.fileversion"
   - "javascript.project.property.expandedsdknode.uri"
   - "javascript.project.property.expandedsdknode.filename"
@@ -27,23 +27,9 @@ f1_keywords:
   - "javascript.project.property.reference.version"
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # File Properties, JavaScript
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.  
@@ -67,7 +53,7 @@ You can use file properties to indicate what actions the project system should p
 
 -   **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.  
 
- The default value for **Package Action** depends on the extension of the file that you add to the solution.  
+The default value for **Package Action** depends on the extension of the file that you add to the solution.  
 
 ### File Name Property  
  Displays the file name as a read-only value. To rename the file, you must right-click in Solution Explorer and select **Rename**.  
@@ -76,7 +62,7 @@ You can use file properties to indicate what actions the project system should p
  Displays the full path to the file as a read-only value. To change the path of the file, you can drag-and-drop the file in Solution Explorer.  
 
 ## Reference File Properties  
- This section describes properties common to files referenced from a [!INCLUDE[win8_app_js](../../ide/reference/includes/win8_app_js_md.md)]. When you select a reference such as a .winmd file, an SDK reference, a project-to-project reference, or an assembly reference in Solution Explorer, other properties may display in the Properties window, according to the file type.  
+ This section describes properties common to files referenced from a UWP app built using JavaScript. When you select a reference such as a .winmd file, an SDK reference, a project-to-project reference, or an assembly reference in Solution Explorer, other properties may display in the Properties window, according to the file type.  
 
 ### Culture  
  Displays the language associated with the reference.  

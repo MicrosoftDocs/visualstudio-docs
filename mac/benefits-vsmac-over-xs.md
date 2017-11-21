@@ -1,5 +1,5 @@
 ---
-title: "Benefits of Visual Studio for Mac over Xamarin Studio"
+title: "Benefits of Visual Studio for Mac over Xamarin Studio | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -20,7 +20,7 @@ Other features include:
 * Integrated unit testing 
 * Support for F# out-of-the-box 
 
-Benefits listed in this guide that are marked as **Preview** are only available in the [Alpha channel](https://docs.microsoft.com/en-us/visualstudio/mac/update#Changing_the_Updater_channel). 
+Benefits listed in this guide that are marked as **Preview** are only available in the [Alpha channel](https://docs.microsoft.com/visualstudio/mac/update#Changing_the_Updater_channel). 
 
 ## Language Support 
 

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Save Attachments from Outlook E-Mail Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,9 +19,9 @@ helpviewer_keywords:
   - "attachments [Office development in Visual Studio]"
 ms.assetid: 2f05e2bb-ae4f-407c-a6da-a3b1a4c31ab3
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Programmatically Save Attachments from Outlook E-Mail Items
   This example saves e-mail attachments to a specified folder when the mail is received in the inbox.  

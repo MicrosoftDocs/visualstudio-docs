@@ -1,11 +1,10 @@
 ---
 title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -14,7 +13,7 @@ ms.assetid: a2ce82ee-8c73-419a-bbd2-4c3513fd394d
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Azure Cloud Service Projects for Python

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortRequest"
 ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPort2::GetPortRequest
 Gets the description of a port that was previously used to create the port (if available).  

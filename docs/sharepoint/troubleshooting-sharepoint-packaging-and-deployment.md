@@ -1,8 +1,7 @@
-2---
+---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -27,9 +26,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment conflict resolution"
 ms.assetid: eff72675-59e6-4395-bc80-4255da77f523
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Troubleshooting SharePoint Packaging and Deployment
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.  

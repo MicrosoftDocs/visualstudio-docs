@@ -2,7 +2,6 @@
 title: "How AutoSave Impacts Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/20/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: b60bb228-0e72-4f24-88bb-397dfc5d50a7
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # How AutoSave Impacts Office Solutions
 

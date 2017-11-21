@@ -2,7 +2,6 @@
 title: "SafeControl Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "SafeControl element"
 ms.assetid: e7c61749-fc73-412c-be30-4af5ff2a9fd2
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # SafeControl Element
   Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.  

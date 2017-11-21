@@ -2,7 +2,6 @@
 title: "Office Solutions Development Overview (VSTO) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 ms.assetid: 5dfc519f-a851-4661-8d2b-47e0d221e10e
 caps.latest.revision: 69
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Office Solutions Development Overview (VSTO)
   By using Microsoft Office as the front end for solutions, you can take advantage of the familiar Microsoft Office user interfaces and tools such as the word processing features in Word, the data analysis features of Excel, and the e-mail management features of Outlook. You can develop solutions in Visual Studio to customize Office applications and add the specific features you need for your business processes. For example, you can turn Word into a contract generator that assembles contracts out of pre-existing parts that can be made editable or not editable. With Excel, you can create an automated budget worksheet customized for different projects. Your users can also take office solutions offline, which makes complex solutions more practical than they would be if you use a web-based architecture.  

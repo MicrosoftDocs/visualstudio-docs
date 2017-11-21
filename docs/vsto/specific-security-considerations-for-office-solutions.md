@@ -2,7 +2,6 @@
 title: "Specific Security Considerations for Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,9 +21,9 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio], troubleshooting"
 ms.assetid: 6a8b3e12-26c6-4ee2-a37e-d5bc8df9c5d1
 caps.latest.revision: 51
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Specific Security Considerations for Office Solutions
   The security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against possible security threats. This topic explains some of those threats and provides recommendations to help protect against them. It also includes information about how Microsoft Office security settings affect Office solutions.  

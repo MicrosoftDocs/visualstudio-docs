@@ -2,7 +2,6 @@
 title: "&lt;entryPoints&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <entryPoints> element"
 ms.assetid: 991d7cbf-85e5-4307-a470-076b2f74d859
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # &lt;entryPoints&gt; Element (Office Development in Visual Studio)
   The `entryPoints` element of the `vstav3` namespace contains all the `entryPoint` elements associated with an Office solution.  

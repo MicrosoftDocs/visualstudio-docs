@@ -2,7 +2,6 @@
 title: "ProjectItemFolder Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "ProjectItemFolder element"
 ms.assetid: 15b386dd-f523-4425-9fcc-517325681358
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # ProjectItemFolder Element
   Represents a mapped folder.  

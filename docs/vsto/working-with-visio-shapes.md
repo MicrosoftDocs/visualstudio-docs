@@ -2,7 +2,6 @@
 title: "Working with Visio Shapes | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "shapes [Office development in Visual Studio], common tasks with Visio shapes"
 ms.assetid: 53af87f7-b174-49f7-87d0-7dfe4bb9e1e2
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Working with Visio Shapes
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with shapes in Office projects.  

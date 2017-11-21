@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Profiling your Apps with Visual Studio
+title: Profiling your Apps with Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
 ms.technology: vs-ide-debug
 ---
@@ -46,7 +46,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling.md#video">
+        <a href="../profiling/beginners-guide-to-performance-profiling.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

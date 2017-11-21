@@ -2,7 +2,6 @@
 title: "&lt;customizations&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customizations> element"
 ms.assetid: fe1133ef-5fdf-4945-a67b-55a66a4e2109
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # &lt;customizations&gt; Element (Office Development in Visual Studio)
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.  

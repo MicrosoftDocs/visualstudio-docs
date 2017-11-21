@@ -2,7 +2,6 @@
 title: "Registry Entries for VSTO Add-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,9 +19,9 @@ helpviewer_keywords:
   - "registry entries [Office development in Visual Studio]"
 ms.assetid: 319e5bbc-0234-4af0-91ce-54bcfafc173f
 caps.latest.revision: 79
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Registry Entries for VSTO Add-ins
   You must create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio. These registry entries provide information that enables the Microsoft Office application to discover and load the VSTO Add-in.  

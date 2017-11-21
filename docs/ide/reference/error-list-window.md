@@ -17,23 +17,9 @@ helpviewer_keywords:
   - "errors [Visual Studio], Error List window"
 ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Error List Window
 > [!NOTE]
@@ -53,11 +39,11 @@ translation.priority.ht:
   
 -   Search for specific terms and scope the search to just the current project or document.  
   
- To display the **Error List**, click **View / Error List**, or **CTRL+\\+E**.  
+To display the **Error List**, click **View / Error List**, or **CTRL+\\+E**.  
   
- You can choose the **Errors**, **Warnings**, and **Messages** tabs to see different levels of information.  
+You can choose the **Errors**, **Warnings**, and **Messages** tabs to see different levels of information.  
   
- To sort the list, click any column header. To sort again by an additional column, hold down the SHIFT key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.  
+To sort the list, click any column header. To sort again by an additional column, hold down the SHIFT key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, click **Tools / Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
@@ -76,9 +62,9 @@ translation.priority.ht:
   
 3.  **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.  
   
- If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items; for example, the buttons show x of y Errors. If no filter is applied, the title bar says only "Error List".  
+If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items; for example, the buttons show x of y Errors. If no filter is applied, the title bar says only "Error List".  
   
- The list on the right side of the toolbar specifies whether to show errors from the build (errors resulting from a build operation) or from IntelliSense (errors detected before running a build), or from both.  
+The list on the right side of the toolbar specifies whether to show errors from the build (errors resulting from a build operation) or from IntelliSense (errors detected before running a build), or from both.  
   
 ## Search  
  Use the **Search Error List** text box on the right side of the **Error List** toolbar to find specific errors in the error list. You can search on any visible column in the error list, and search results are always sorted based on the column that has sort priority instead of on the query or the filter applied. If you choose the **Esc** key while the focus is in the **Error List**, you can clear the search term and filtered search results. You can also click the **X** on the right side of the text box to clear it.  

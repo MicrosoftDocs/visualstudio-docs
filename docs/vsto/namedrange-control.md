@@ -2,7 +2,6 @@
 title: "NamedRange Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,9 +20,9 @@ helpviewer_keywords:
   - "NamedRange control"
 ms.assetid: 07878c7c-cb5a-4f98-95c4-e828de25dae5
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # NamedRange Control
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> control is a range that has a unique name, exposes events, and can be bound to data. For more information, see [Excel Object Model Overview](../vsto/excel-object-model-overview.md).  

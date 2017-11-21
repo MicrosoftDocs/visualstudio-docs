@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPort2::EnumProcesses"
 ms.assetid: aafb32c5-5790-4807-a448-878a80256438
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPort2::EnumProcesses
 Returns a list of all the processes running on a port.  

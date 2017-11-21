@@ -2,7 +2,6 @@
 title: "How to: Programmatically Close Workbooks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], closing workbooks"
 ms.assetid: 50709caf-2ad8-4843-987c-9a34c8c1e4fe
 caps.latest.revision: 52
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Programmatically Close Workbooks
   You can close the active workbook or you can specify a workbook to close.  

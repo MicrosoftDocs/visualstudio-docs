@@ -14,20 +14,6 @@ caps.latest.revision: 10
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Debugging Workflows with the Workflow Designer
 The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] debugger. The topics in this section describe how to perform traditional debugging procedures as well as debugging XAML and expressions.  

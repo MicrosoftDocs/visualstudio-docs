@@ -2,7 +2,6 @@
 title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "worksheets, using radio buttons"
 ms.assetid: cacc43a3-6d95-4a47-b943-3457d97a16f8
 caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons
   This walkthrough shows the basics of using radio buttons on a Microsoft Office Excel worksheet to give the user a way to quickly switch between options. In this case, the options change the style of a chart.  

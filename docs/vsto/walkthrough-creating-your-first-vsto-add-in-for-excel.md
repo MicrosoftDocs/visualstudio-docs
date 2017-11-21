@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating Your First VSTO Add-in for Excel | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,9 +18,9 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], creating your first project"
 ms.assetid: a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Walkthrough: Creating Your First VSTO Add-in for Excel
   This introductory walkthrough shows you how to create an application-level Add-in for Microsoft Office Excel. The features that you create in this kind of solution are available to the application itself, regardless of which workbooks are open.  

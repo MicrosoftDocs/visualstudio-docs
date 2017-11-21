@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "javascript.project.property.debugging.debuggertype"
   - "javascript.project.property.debugging.requireauthentication"
   - "javascript.project.property.outputpath"
@@ -18,32 +18,18 @@ f1_keywords:
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
 ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Property Pages, JavaScript
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  
 
- To access the project properties, select a project node in **Solution Explorer**. On the **Project** menu, click **Properties**.  
+To access the project properties, select a project node in **Solution Explorer**. On the **Project** menu, click **Properties**.  
 
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
 
- The following pages and options appear in the **Property Pages**.  
+The following pages and options appear in the **Property Pages**.  
 
 ## Configuration and Platform Page  
  Use the following options to select the configuration and platform to display or modify.  
@@ -58,7 +44,7 @@ The **Property Pages**provides access to project settings. You can use the pages
  Use the following options to set general properties of the project.  
 
 > [!NOTE]
->  Some options are only available in Windows Store apps.  
+>  Some options are only available in UWP apps.  
 
  **Output Path**  
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.  
@@ -72,7 +58,7 @@ The **Property Pages**provides access to project settings. You can use the pages
  Use the following options to set properties for debugging behavior in the project.  
 
 > [!NOTE]
->  Some options are only available in Windows Store apps.  
+>  Some options are only available in UWP apps.  
 
  **Debugger to Launch**  
  Specifies the default host for the debugger.  
@@ -83,17 +69,17 @@ The **Property Pages**provides access to project settings. You can use the pages
 
 -   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](http://go.microsoft.com/fwlink/?LinkId=234914).  
 
- **Launch Application**  
- Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.  
+**Launch Application**  
+Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.  
 
- **Debugger Type**  
- Specifies the types of code to debug. Select **Script Only** to debug JavaScript code. Select **Managed Only** to debug code that is managed by the common language runtime. Select **Native Only** to debug C++ code. Select **Native with Script** to debug C++ and JavaScript. Select **Mixed (Managed and Native)** to debug both managed and C++ code.  
+**Debugger Type**  
+Specifies the types of code to debug. Select **Script Only** to debug JavaScript code. Select **Managed Only** to debug code that is managed by the common language runtime. Select **Native Only** to debug C++ code. Select **Native with Script** to debug C++ and JavaScript. Select **Mixed (Managed and Native)** to debug both managed and C++ code.  
 
- **Allow Local Network Loopback**  
- Specifies whether access to the IP loopback address is allowed for app testing. Select **Yes** to allow use of the loopback address if the client app is on the same machine where the server application is running; otherwise, select **No**. This property is available only if the **Debugger to Launch** property is set to **Remote Machine**.  
+**Allow Local Network Loopback**  
+Specifies whether access to the IP loopback address is allowed for app testing. Select **Yes** to allow use of the loopback address if the client app is on the same machine where the server application is running; otherwise, select **No**. This property is available only if the **Debugger to Launch** property is set to **Remote Machine**.  
 
- **Machine Name**  
- Specifies the name of the remote computer to host the debugger. This property is available only if **Debugger to Launch** is set to **Remote Machine**.  
+**Machine Name**  
+Specifies the name of the remote computer to host the debugger. This property is available only if **Debugger to Launch** is set to **Remote Machine**.  
 
- **Require Authentication**  
- Specifies whether the remote computer requires authentication. This property is available only if **Debugger to Launch** is set to **Remote Machine**.
+**Require Authentication**  
+Specifies whether the remote computer requires authentication. This property is available only if **Debugger to Launch** is set to **Remote Machine**.

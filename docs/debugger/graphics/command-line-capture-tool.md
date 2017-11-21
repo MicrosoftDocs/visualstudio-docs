@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # Command-Line Capture Tool
 DXCap.exe is a command-line tool for graphics diagnostics capture and playback. It supports Direct3D 10 through Direct3D 12 across all feature levels.  
@@ -101,7 +87,7 @@ DXCap.exe -info
  Under validation mode, `-showprogress` displays progress information about the validation session. WARP progress is displayed on the left; hardware progress is displayed on the right.  
   
  `-e` `search_string`  
- Enumerates the Windows Store apps that are installed. You can use this information to perform command-line captures with Windows Store apps.  
+ Enumerates the UWP apps that are installed. You can use this information to perform command-line captures with UWP apps.  
   
  `-info`  
  Displays information about the machine and capture DLLs.  
@@ -121,7 +107,7 @@ DXCap.exe -info
  In addition to these modes, dxcap.exe performs two other functions that do not perform capture or playback of graphics information.  
   
  Enumeration function (`-e`)  
- Displays details about the Windows Store apps that are installed on the machine. These details include the package name and appid that identify the executable file in a Windows Store app. To capture graphics information from a windows store app using DXCap.exe, use the package name and appid instead of the executable filename that's used when you capture a desktop app.  
+ Displays details about the UWP apps that are installed on the machine. These details include the package name and appid that identify the executable file in a UWP app. To capture graphics information from a windows store app using DXCap.exe, use the package name and appid instead of the executable filename that's used when you capture a desktop app.  
   
  Info function (`-info)`  
  Displays details about the machine and capture DLLs.  
@@ -152,26 +138,26 @@ DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
 > [!NOTE]
 >  Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `-c` option.  
   
-### Capture graphics information from a Windows Store app.  
- You can capture graphics information from a Windows Store app.  
+### Capture graphics information from a UWP app.  
+ You can capture graphics information from a UWP app.  
   
 ```ms-dos  
 DXCap.exe -c Microsof.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps  
 ```  
   
- Using DXCap.exe to capture from a Windows Store app is similar to using it to capture from a Windows desktop app, but instead identifying a desktop app by its filename, you identify a Windows Store app by its package name and the name or ID of the executable inside that package that you want to capture from. To make it easier to find out how to identify the Windows Store apps that are installed on your machine, use the `-e` option with DXCap.exe to enumerate them:  
+ Using DXCap.exe to capture from a UWP app is similar to using it to capture from a Windows desktop app, but instead identifying a desktop app by its filename, you identify a UWP app by its package name and the name or ID of the executable inside that package that you want to capture from. To make it easier to find out how to identify the UWP apps that are installed on your machine, use the `-e` option with DXCap.exe to enumerate them:  
   
 ```ms-dos  
 DXCap.exe -e  
 ```  
   
- You can provide an optional search string to help find the app that you're looking for. When the search string is provided, DXCap.exe enumerates the Windows Store apps whose package name, app name or app IDs match the search string. The search is case-insensitive.  
+ You can provide an optional search string to help find the app that you're looking for. When the search string is provided, DXCap.exe enumerates the UWP apps whose package name, app name or app IDs match the search string. The search is case-insensitive.  
   
 ```ms-dos  
 DXCap.exe -e map  
 ```  
   
- The command above enumerates Windows Store apps that match "map"; here is the output:  
+ The command above enumerates UWP apps that match "map"; here is the output:  
   
  **Package "Microsoft.BingMaps":**  
  **InstallDirectory : C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe**  

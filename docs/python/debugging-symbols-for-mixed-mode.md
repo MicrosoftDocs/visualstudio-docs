@@ -1,11 +1,10 @@
 ---
 title: "Symbols for Mixed-Mode Python/C++ Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -14,7 +13,7 @@ ms.assetid: be5fdf2f-b55f-488a-9772-58adfe07a7ab
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Installing Debugging Symbols for Python Interpreters

@@ -2,7 +2,6 @@
 title: "Building Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -30,9 +29,9 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], debugging"
 ms.assetid: c4b79ea8-df70-4a72-b76e-26e337d65727
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Building Office Solutions
   In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio).  

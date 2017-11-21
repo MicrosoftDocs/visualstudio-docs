@@ -4,32 +4,17 @@ ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 65
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Get Started Developing with Visual Studio
 Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.  
@@ -38,7 +23,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
      [Do a tutorial](https://docs.asp.net/en/latest/tutorials/your-first-aspnet-application.html) &#124;                               [Browse the docs](https://docs.asp.net/) &#124;                                   [Watch a video](http://www.asp.net/vnext)  
 
--   **[Make cross-platform mobile apps in HTML/Javascript (Apache Cordova)](http://taco.visualstudio.com/en-us/docs/get-started-first-mobile-app/)** :               Apache Cordova is an open-source cross-platform environment that is based on HTML/CSS/Javascript.  Your Javascript code executes in a wrapper that                  targets a specific platform and enables access to all the hardware capabilities of the device. Develop apps for the Apple Store, the Android store, and the Windows Store.  
+-   **[Make cross-platform mobile apps in HTML/Javascript (Apache Cordova)](http://taco.visualstudio.com/en-us/docs/get-started-first-mobile-app/)** :               Apache Cordova is an open-source cross-platform environment that is based on HTML/CSS/Javascript. Your Javascript code executes in a wrapper that targets a specific platform and enables access to all the hardware capabilities of the device. Develop apps for the Apple Store, the Android store, and Microsoft Store.  
 
      [Load a sample](https://github.com/Microsoft/cordova-samples/tree/master/todo-angularjs) &#124;   [Do a tutorial](http://taco.visualstudio.com/en-us/docs/get-started-first-mobile-app/) &#124;                               [Browse the docs](http://taco.visualstudio.com/en-us/docs/get-started-vs-tools-apache-cordova/) &#124;                                [Watch a video](https://channel9.msdn.com/Blogs/Seth-Juarez/Getting-Started-with-Apache-Cordova-in-Visual-Studio)  
 

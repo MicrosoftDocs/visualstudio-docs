@@ -2,7 +2,6 @@
 title: "How to: Scroll Through Database Records in a Worksheet | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,9 +18,9 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], scrolling records"
 ms.assetid: aea4c86c-9d6d-47dd-8977-066e21945dab
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Scroll Through Database Records in a Worksheet
   The following procedure shows how to use the designer to display a single field from a database table in a Microsoft Office Excel worksheet, with controls that enable the end user to scroll through all the records.  

@@ -13,20 +13,6 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Keyboard Shortcuts in the Workflow Designer
 All of the core functionality of the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] can be accessed by keyboard.  

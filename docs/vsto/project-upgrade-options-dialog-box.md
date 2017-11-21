@@ -2,7 +2,6 @@
 title: "Project Upgrade, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,9 +19,9 @@ helpviewer_keywords:
   - "Options dialog box, Project Upgrade page"
 ms.assetid: 35568fe8-cbec-43cc-8cb1-75fe195e1793
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Project Upgrade, Options Dialog Box
   Use the **Project Upgrade** page to specify whether Visual Studio automatically changes VSTO Add-in projects to target the version of Office that is installed on the development computer.  

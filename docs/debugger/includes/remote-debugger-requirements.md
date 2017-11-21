@@ -43,4 +43,4 @@ The remote computer must be running one of the following operating systems:
 -   DirectX 9-capable video card running at 1024 x 768 or higher display resolution  
   
 ### Network configuration  
- The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported.
+ The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.

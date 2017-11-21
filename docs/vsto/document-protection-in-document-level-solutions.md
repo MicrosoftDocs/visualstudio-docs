@@ -2,7 +2,6 @@
 title: "Document Protection in Document-Level Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,9 +19,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], restricted permissions"
 ms.assetid: a25472ad-03f0-4804-9d19-e5ff71340d49
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Document Protection in Document-Level Solutions
   You can use the protection features of Microsoft Office Word and Microsoft Office Excel in document-level projects. These features block unauthorized users from making changes to protected parts of a document.  

@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 465cd132-2e36-435d-920b-50b767c2217c
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Working with XML Data
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  
@@ -49,7 +35,7 @@ XML and its related technologies play a large role in the way data is handled in
 -   XML Schema Explorer  
   
 ## XML Schema Designer  
- The XML Schema Designer is integrated with Microsoft Visual Studio 2010 and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
+ The XML Schema Designer is integrated with Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
   
 ## XSLT Debugging  
  Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.  

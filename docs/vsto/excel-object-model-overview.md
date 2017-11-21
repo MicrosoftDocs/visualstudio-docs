@@ -2,7 +2,6 @@
 title: "Excel Object Model Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,9 +22,9 @@ helpviewer_keywords:
   - "Office object models"
 ms.assetid: e4b2e46b-ea6c-4a88-a416-a7d4f495fc33
 caps.latest.revision: 66
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Excel Object Model Overview
   To develop solutions that use Microsoft Office Excel, you can interact with the objects provided by the Excel object model. This topic introduces the most important objects:  

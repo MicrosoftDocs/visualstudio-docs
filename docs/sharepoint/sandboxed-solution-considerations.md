@@ -2,7 +2,6 @@
 title: "Sandboxed Solution Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,9 +23,9 @@ helpviewer_keywords:
   - "farm solutions [SharePoint development in Visual Studio]"
 ms.assetid: 6c2d2dc6-4acb-4b68-ba94-a61087e8dff0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Sandboxed Solution Considerations
   *Sandboxed solutions* are a feature in Microsoft SharePoint 2010 that enables site collection users to upload their own custom code solutions. A common sandboxed solution is users uploading their own Web Parts.  

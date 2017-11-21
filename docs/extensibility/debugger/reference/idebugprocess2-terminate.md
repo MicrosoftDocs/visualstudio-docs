@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::Terminate"
 ms.assetid: 5e6bf373-0fe9-4321-b04a-473a65f664d9
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess2::Terminate
 Terminates the process.  

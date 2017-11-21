@@ -20,24 +20,9 @@ helpviewer_keywords:
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] build and project settings related to logging, performance, and supporting file types.  
@@ -47,7 +32,6 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
 1.  On the **Tools** menu, click **Options**.  
   
 2.  Select **Projects and Solutions**, and then select **VC++ Project Settings**.  
-  
  
 ## Build Logging  
  **Yes**  
@@ -89,19 +73,13 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
  **Show all files**  
   Configures **Solution Explorer** to show files in the project and files on disk in the project folder.  
 
-
 ## Enable Project Caching
-**Yes**
+**Yes**  
 Enables Visual Studio to cache project data so that when you open the project the next time, it can load that cached data rather than re-computing it from the project files. Using cached data can speed up the project load time significantly.   
 
-**No** 
+**No**  
 Do not use cached project data. Parse the project files each time the project loads.
 
-
-  
-
-  
-#
-## See Also  
+## See also  
  [Building C/C++ Programs](/cpp/build/building-c-cpp-programs)   
  [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)

@@ -15,29 +15,16 @@ ms.assetid: abf0a2b5-e4e5-422e-97ef-55a0e35a82df
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a DataTable in the Dataset Designer
 This walkthrough explains how to create a <xref:System.Data.DataTable> (without a TableAdapter) using the **Dataset Designer**. For information on creating data tables that include TableAdapters, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new Windows Application project  
+-   Creating a new Windows Forms Application project  
   
 -   Adding a new dataset to the application  
   
@@ -47,33 +34,33 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
   
 -   Setting the primary key for the table  
   
-## Creating a New Windows Application  
+## Creating a New Windows Forms Application  
   
-#### To create a new Windows Application project  
+#### To create a new Windows Forms Application project  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Choose a programming language in the **Project Types** pane.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **DataTableWalkthrough**, and then choose **OK**. 
   
-3.  Click **Windows Application** in the **Templates** pane.  
-  
-4.  Name the project `DataTableWalkthrough`, and then click **OK**.  
-  
-     Visual Studio adds the project to **Solution Explorer** and displays **Form1** in the designer.  
+     The **DataTableWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Adding a New Dataset to the Application  
   
 #### To add a new dataset item to the project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1.  On the **Project** menu, select **Add New Item...**.  
   
-     The Add New Item Dialog Box appears.  
+     The Add New Item dialog box appears.  
   
-2.  In the **Templates** box, select **DataSet**.  
+2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.  
   
-3.  Click **Add**.  
+3.  Choose **Add**.  
   
-     Visual Studio will add a file called **DataSet1.xsd** to the project and open it in the **Dataset Designer**.  
+     Visual Studio adds a file called **DataSet1.xsd** to the project and opens it in the **Dataset Designer**.  
   
 ## Adding a New DataTable to the Dataset  
   
@@ -118,8 +105,8 @@ All data tables should have a primary key. A primary key uniquely identifies a s
   
 -   On the **File** menu, click **Save All**.  
   
-## See Also  
-    
- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Validating Data](validate-data-in-datasets.md)   
- [Saving Data](../data-tools/saving-data.md)   
+## See also
+[Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)  
+[Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
+[Validating Data](../data-tools/validate-data-in-datasets.md)   
+[Saving Data](../data-tools/saving-data.md)   

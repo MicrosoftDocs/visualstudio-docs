@@ -5,31 +5,17 @@ ms.date: "03/10/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-    - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.devlang: csharp
 ms.assetid: 25bb9d99-aeff-4053-925d-2177f5e79574
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-f1_keywords:
-	- "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
-	- "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
-translation.priority.ht: 
-    - "cs-cz"
-    - "de-de"
-    - "es-es"
-    - "fr-fr"
-    - "it-it"
-    - "ja-jp"
-    - "ko-kr"
-    - "pl-pl"
-    - "pt-br"
-    - "ru-ru"
-    - "tr-tr"
-    - "zh-cn"
-    - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+f1_keywords: 
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
+  - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
 ---
 
 # Code Styles and Quick Actions
@@ -41,5 +27,5 @@ For each item, you can set the **Preference** and **Severity** using the drop do
 
 Code Style settings for .NET can also be managed with an [EditorConfig](editorconfig-code-style-settings-reference.md) file.  In this case, the settings selected in the Options window will be the fallback settings, with the EditorConfig file taking precedence.  You can use this file to enforce and configure the coding style for your entire repo or team.
 
-# See Also
+## See Also
 * [Quick Actions](quick-actions.md)

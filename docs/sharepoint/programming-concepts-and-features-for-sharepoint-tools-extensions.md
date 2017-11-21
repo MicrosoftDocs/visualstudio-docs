@@ -2,7 +2,6 @@
 title: "Programming Concepts and Features for SharePoint Tools Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 ms.assetid: 5179e544-f678-422e-a532-1e2d55004b60
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Programming Concepts and Features for SharePoint Tools Extensions
   There are several important programming concepts and features that are related to the SharePoint tools in Visual Studio. These concepts and features play an important role in most SharePoint tools extensions.  

@@ -1,11 +1,10 @@
 ---
 title: R Markdown with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/29/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
 ms.devlang: r
 ms.tgt_pltfrm: ""
@@ -14,7 +13,7 @@ ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating R Markdown documents
