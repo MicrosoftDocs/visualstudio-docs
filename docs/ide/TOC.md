@@ -1,6 +1,6 @@
 # [Visual Studio IDE Overview](visual-studio-ide.md)
-# [Quickstart: first look at the Visual Studio IDE](quickstart-ide-orientation.md)
-# [Quickstart: personalizing theme and font colors](quickstart-personalize-the-ide.md)
+# [Quickstart: First Look at the Visual Studio IDE](quickstart-ide-orientation.md)
+# [Quickstart: Personalizing Theme and Text Colors](quickstart-personalize-the-ide.md)
 # [Get Started Developing with Visual Studio](get-started-developing-with-visual-studio.md)
 ## [Getting Started with Visual C# and Visual Basic](getting-started-with-visual-csharp-and-visual-basic.md)
 ### [Quickstart: Create your first ASP.NET Core web app](../ide/quickstart-aspnet-core.md)
