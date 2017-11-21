@@ -39,6 +39,7 @@
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
 # Quickstarts
 ## [IDE orientation](ide/quickstart-ide-orientation.md)
+## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
 ## Write code in the editor
 ## Personalize the IDE and editor
 ## Work with solutions and projects
