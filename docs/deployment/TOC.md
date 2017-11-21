@@ -1,9 +1,9 @@
 # Overview
 ## [Deploying Applications, Services, and Components](deploying-applications-services-and-components.md)
 # Quickstarts
-## Deploy a managed app to a local folder
-## Deploy an ASP.NET Core app to a local folder
-## Deploy a native app to a local folder
+## [Deploy to a local folder](quickstart-deploy-to-local-folder.md)
+## [Deploy to a web site](quickstart-deploy-to-a-web-site.md)
+## [Deploy to Azure](quickstart-deploy-to-azure.md)
 # Tutorials
 ## .NET
 ### [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)
