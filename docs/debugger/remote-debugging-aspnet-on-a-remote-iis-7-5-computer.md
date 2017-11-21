@@ -22,7 +22,7 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET Core, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). You can also deploy and debug on IIS using Azure. For more information, see [Remote debug on Azure](../debugger/remote-debugging-azure.md).
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 10 (For Windows Server 2008 R2, the server steps are different)
+* Windows Server 2012 R2 and IIS 8.5 (For Windows Server 2008 R2, the server steps are different)
 
 ## Requirements
 
