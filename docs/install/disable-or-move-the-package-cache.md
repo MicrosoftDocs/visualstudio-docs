@@ -5,7 +5,7 @@ ms.date: "04/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:

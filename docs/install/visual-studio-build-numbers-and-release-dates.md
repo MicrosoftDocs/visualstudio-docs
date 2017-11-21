@@ -9,8 +9,7 @@ ms.date: 10/18/2017
 ms.topic: article
 helpviewer_keywords:
 ms.technology:
-  - "vs-ide-install"
-  - "vs-ide-sdk"
+  - "vs-acquisition"
 ms.service:
 ---
 

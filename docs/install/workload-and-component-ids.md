@@ -13,8 +13,7 @@ helpviewer_keywords:
   - "install Visual Studio, administrator guide"
 ms.service:
 ms.technology:
-  - "vs-ide-install"
-  - "vs-ide-sdk"
+  - "vs-acquisition"
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ---
 

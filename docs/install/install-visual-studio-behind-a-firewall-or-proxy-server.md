@@ -6,7 +6,7 @@ ms.date: "08/01/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:

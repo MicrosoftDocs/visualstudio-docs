@@ -6,7 +6,7 @@ ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -68,4 +68,3 @@ Here are a few more support options:
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

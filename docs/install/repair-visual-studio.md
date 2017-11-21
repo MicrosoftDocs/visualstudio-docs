@@ -10,7 +10,7 @@ ms.date: 09/28/2017
 ms.topic: "article"
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ---
 
@@ -41,4 +41,3 @@ Here are a few more support options:
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md)
-* [How to Report a Problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

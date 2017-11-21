@@ -5,7 +5,7 @@ ms.date: "08/30/2017"
 ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
- - "vs-ide-install"
+ - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
 ms.assetid: 44DB1998-68CD-4560-870A-EE5B993DCF6E
 author: "timsneath"
-ms.author: "tims"
+ms.author: "tglee"
 manager: ghogen
 ---
 
