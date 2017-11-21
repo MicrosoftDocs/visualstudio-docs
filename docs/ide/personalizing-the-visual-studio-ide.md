@@ -25,8 +25,8 @@ Many personalization options are exposed through the [Environment Options](../id
 
 - Type `environment` in the **Quick Launch** box and choose **Environment --> General** from the results list.
 
-   > !TIP
-   > When the dialog box appears, you can press  **F1** for help on the various settings on that page.
+    > !TIP
+    > When the dialog box appears, you can press  **F1** for help on the various settings on that page.
 
 ## Environment color themes
 
