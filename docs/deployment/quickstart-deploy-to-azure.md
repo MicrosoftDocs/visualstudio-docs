@@ -1,5 +1,5 @@
 ---
-title: "Deploy to Azure App Service - Visual Studio | Microsoft Docs"
+title: "Publish to Azure App Service - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/22/2017"
 ms.reviewer: ""
@@ -16,9 +16,9 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Deploy an ASP.NET, ASP.NET Core, or .NET Core app to Azure App Service using Visual Studio
+# Publish an ASP.NET or ASP.NET Core app to Azure App Service using Visual Studio
 
-You can use the **Publish** dialog box to publish ASP.NET, ASP.NET Core, and .NET Core apps to Azure App Service.
+You can use the **Publish** dialog box to publish ASP.NET and ASP.NET Core apps to Azure App Service.
 
 ## Create a new project 
 

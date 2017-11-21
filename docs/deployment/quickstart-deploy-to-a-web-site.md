@@ -1,5 +1,5 @@
 ---
-title: "Deploy to a website - Visual Studio | Microsoft Docs"
+title: "Publish to a website - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/22/2017"
 ms.reviewer: ""
@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Deploy an ASP.NET app to a web site using Visual Studio
+# Publish an ASP.NET app to a web site using Visual Studio
 
 You can use the **Publish** dialog box to publish ASP.NET apps to a website.
 
@@ -34,7 +34,7 @@ You can use the **Publish** dialog box to publish ASP.NET apps to a website.
 
 1. Choose **Build > Build Solution** to build the project.
 
-## Deploy to a web site
+## Publish to a web site
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 
