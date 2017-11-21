@@ -113,7 +113,7 @@
 ### [Go To Definition and Peek Definition](go-to-and-peek-definition.md)
 ### [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 ### [Find code using Go To commands](go-to.md)
-## [Customizing the Editor]
+## [Customizing the Editor](customizing-the-editor.md) 
 ### [How to: Change Text Case in the Editor](how-to-change-text-case-in-the-editor.md)
 ### [How to: Manage Editor Modes](how-to-manage-editor-modes.md)
 ### [How to: Manage Editor Windows](how-to-manage-editor-windows.md)

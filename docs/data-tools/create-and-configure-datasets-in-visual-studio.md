@@ -9,7 +9,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "typed datasets, creating"
   - "datasets, creating"
-caps.latest.revision: 36
+  - "datasets, configuring"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
