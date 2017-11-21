@@ -1,7 +1,15 @@
-# [Profiling feature tour](profiling-feature-tour.md)
-## [Beginner's guide to performance profiling](beginners-guide-to-performance-profiling.md)
-## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
+
+# [Profiling documentation](index.md)
+# Overview
+## [Profiling feature tour](profiling-feature-tour.md)
+# Quickstarts
+## [Analyze CPU usage (managed)](quickstart-debug-with-managed.md)
+## [Analyze CPU usage (native)](quickstart-debug-with-cplusplus.md)
+# Tutorials
+## [Profile application performance in Visual Studio](beginners-guide-to-performance-profiling.md)
+# Concepts
 ## [Run profiling tools with or without the debugger](running-profiling-tools-with-or-without-the-debugger.md)
+# How-to guides
 ## [Analyze memory usage](memory-usage.md)
 ### [Custom native ETW heap events](custom-native-etw-heap-events.md)
 ### [Memory usage without the debugger](memory-usage-without-debugging2.md)
@@ -366,4 +374,6 @@
 ##### [CvWriteFlag Function](cvwriteflag-function.md)
 ##### [CvWriteMessage Function](cvwritemessage-function.md)
 ### [Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](concurrency-visualizer-command-line-utility-cvcollectioncmd.md)
-## [Analyze energy use in UWP apps](analyze-energy-use-in-store-apps.md)
+## [Analyze energy use in Store apps](analyze-energy-use-in-store-apps.md)
+# Resources
+## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
