@@ -66,7 +66,7 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
    Notice that the line numbers are a turquoise-blue color, and the xml attributes are a light blue color. We are going to change the text color for these items.
 
-   ![XML file font colors](media/quickstart-personlize-xml-file.png)
+   ![XML file font colors](media/quickstart-personalize-xml-file.png)
 
 1. To open the **Options** dialog box, from the menu bar, choose **Tools**, **Options**.
 
@@ -82,7 +82,7 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
    The line numbers are now an olive color, and the XML attributes are a bright, lime green. If you open another file type, such as a C++ or C# code file, you'll see that the line numbers also appear in the olive color.
 
-   ![XML file with new font colors](media/quickstart-personlize-xml-file-new-colors.png)
+   ![XML file with new font colors](media/quickstart-personalize-xml-file-new-colors.png)
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
 

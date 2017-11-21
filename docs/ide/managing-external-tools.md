@@ -44,7 +44,7 @@ You can add an external tool to appear on the **Tools** menu.
 
    * Arguments: `/root, "$(ItemDir)"`
 
-   ![External Tools dialog box](media/external_tools_dialog.png)
+   ![External Tools dialog box](media/external-tools-dialog.png)
 
 The following is a full list of arguments that can be used when defining an external tool:
 
