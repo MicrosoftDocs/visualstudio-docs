@@ -28,6 +28,9 @@ The default color theme for Visual Studio 2017 is called **Blue**. Let's change 
 
    ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
 
+> [!TIP]
+> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme drop-down list.
+
 ## Change text color
 
 Now we'll customize some text colors for the Editor. First, let's open an XML file to see the default colors.
