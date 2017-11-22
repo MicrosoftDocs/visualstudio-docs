@@ -17,14 +17,13 @@ ms.technology:
 ---
 # Naming Conventions for EditorConfig
 
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md).
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the Error List or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
 Naming conventions should be ordered from most-specific to least-specific in the .editorconfig file. The first rule encountered that can be applied is the only rule that is applied.
 
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention. To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
 
 order
-how to see violations - they appear as you type, but if you edit the editorconfig file, you must reload code files
 leaving properties out
 
 ## Symbols
@@ -33,7 +32,7 @@ First, you must identify a group of symbols to apply the naming rule to. This pr
 
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`
 
-Describe the group of symbols by replacing the **<symbolTitle\>** value with a descriptive title, for example `public_symbols`. You'll use the **<symbolTitle\>** value in the three property names that describe which symbols the rule is applied to (kinds of symbol, accessibility levels, and modifiers).
+Give a name to the group of symbols by replacing the **<symbolTitle\>** value with a descriptive title, for example `public_symbols`. You'll use the **<symbolTitle\>** value in the three property names that describe which symbols the rule is applied to (kinds of symbol, accessibility levels, and modifiers).
 
 ### Kinds of symbols
 
@@ -57,7 +56,11 @@ The allowable values are listed below, and you can specify multiple values by se
 
 ### Accessibility levels of symbols
 
-Specify a property name in the format `dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities` to describe the accessibility levels of the symbols you want to apply the naming rule to. You can specify multiple values by separating them with a comma (`,`). The allowable values are listed below:
+To describe the accessibility levels of the symbols you want the naming rule to apply to, specify a property name in the following format:
+
+`dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities = <values>`
+
+The allowable values are listed below, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all accessibility levels)
 - public
@@ -68,7 +71,11 @@ Specify a property name in the format `dotnet_naming_symbols.<symbolTitle>.appli
 
 ### Symbol modifiers
 
-Specify a property name in the format `dotnet_naming_symbols.<symbolTitle>.required_modifiers` to describe the modifiers of the symbols you want to apply the naming rule to. You can specify multiple values by separating them with a comma (`,`). The allowable values are listed below:
+To describe the modifiers of the symbols you want the naming rule to apply to, specify a property name in the following format:
+
+`dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
+
+The allowable values are listed below, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all modifiers)
 - abstract or must_inherit
@@ -79,39 +86,35 @@ Specify a property name in the format `dotnet_naming_symbols.<symbolTitle>.requi
 
 ## Style
 
-Now that we've identified the group of symbols to apply the naming rule to, we must describe the naming style. You can specify that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style.
-
-Give the style a name of your choosing by replacing the <styleTitle\> value in the following property:
+Now that we've identified the group of symbols to apply the naming rule to, we must describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
 
-Replace **<namingRuleTitle\>** in the property name with the title you chose previously.
-
-You'll use the **<styleTitle\>** value you choose in the property names that describe the naming style.
+Give the style a name by replacing the **<styleTitle\>** value with a descriptive title, for example `first_word_upper_case_style`. You'll use the **<styleTitle\>** value in the property names that describe the naming style (prefix, suffix, word separator character, and capitalization).
 
 ### Require a prefix
 
-To specify that symbol names must begin with a certain prefix, use this property:
+To specify that symbol names must begin with certain characters, use this property:
 
-`dotnet_naming_style.<styleTitle>.required_prefix = <characters that must appear at the beginning of the identifier\>`
+`dotnet_naming_style.<styleTitle>.required_prefix = <prefix>`
 
 ### Require a suffix
 
-To specify that symbol names must end with a certain suffix, use this property:
+To specify that symbol names must end with certain characters, use this property:
 
-`dotnet_naming_style.<styleTitle>.required_suffix = <characters that must appear at the end of the identifier\>`
+`dotnet_naming_style.<styleTitle>.required_suffix = <suffix>`
 
 ### Require a certain word separator
 
 To specify that individual words in symbol names must be separated with a certain character, use this property:
 
-`dotnet_naming_style.<styleTitle>.word_separator = <Required character between words in the identifier\>`
+`dotnet_naming_style.<styleTitle>.word_separator = <separator character>`
 
 ### Require a capitalization style
 
 To specify a particular capitalization style for symbol names, use this property:
 
-`dotnet_naming_style.\<styleTitle\>.capitalization`
+`dotnet_naming_style.<styleTitle>.capitalization = <value>`
 
 The allowable values for this property are:
 
@@ -126,48 +129,53 @@ The allowable values for this property are:
 
 ## Severity
 
-We've identified a naming style and the group of symbols we want it applied to. Now we'll specify the degree to which we want the naming style enforced by using the following property:
+To describe the severity of a violation of your naming rule, specify a property in the following format:
 
-`dotnet_naming_rule.<namingRuleTitle>.severity`
+`dotnet_naming_rule.<namingRuleTitle>.severity = <value>`
 
 The following table shows the allowable severity values, and what they mean:
 
 Severity | Effect
 ------------ | -------------
-none or silent | When this style is not being followed, do not show anything to the user; however, code generation features generate new code in this style.
+none or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code will follow this style.
 suggestion | When this style is not being followed, show it to the user as a suggestion, as underlying dots on the first two characters. It has no effect at compile time.
-warning | When this style is not being followed, show a compiler warning.
-error | When this style is not being followed, show a compiler error.
+warning | When this style is not being followed, show a compiler warning in the Error List.
+error | When this style is not being followed, show a compiler error in the Error List.
 
-## Example .editorconfig file with naming conventions
+> [!NOTE]
+> You do not have to build your project in order to see naming rule violations. They appear, either in the Error List or as a suggestion, as code is edited.
 
-Below is an example .editorconfig file that contains two naming conventions. Notice that the "public_symbols" naming convention specifies multiple kinds of symbol to apply the rule to.
+## Example
+
+Below is an example .editorconfig file that contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that the "public_symbols" naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
 ```
-# Public members must be capitalized
+# Public members must be capitalized (public_members_must_be_capitalized)
 [*.{cs,vb}]
-dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
-dotnet_naming_rule.public_members_must_be_capitalized.symbols  = public_symbols
+dotnet_naming_rule.public_members_must_be_capitalized.symbols   = public_symbols
+dotnet_naming_symbols.public_symbols.applicable_kinds           = property,method,field,event,delegate
+dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
+dotnet_naming_symbols.public_symbols.required_modifiers         = readonly
+
 dotnet_naming_rule.public_members_must_be_capitalized.style    = first_word_upper_case_style
-
-dotnet_naming_symbols.public_symbols.applicable_kinds   = property,method,field,event,delegate
-dotnet_naming_symbols.public_symbols.required_modifiers = public
-
 dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_upper
 
-# Asynchronous methods must end in "Async"
-[*.{cs,vb}]
-dotnet_naming_rule.async_methods_end_in_async.symbols  = any_async_methods
-dotnet_naming_rule.async_methods_end_in_async.style    = end_in_async
-dotnet_naming_rule.async_methods_end_in_async.severity = suggestion
-
-dotnet_naming_symbols.any_async_methods.applicable_kinds           = method
-dotnet_naming_symbols.any_async_methods.applicable_accessibilities = *
-dotnet_naming_symbols.any_async_methods.required_modifiers         = async
-
-dotnet_naming_style.end_in_async.required_suffix = Async
-dotnet_naming_style.end_in_async.capitalization  = pascal_case
+dotnet_naming_rule.public_members_must_be_capitalized.severity = suggestion
 ```
+
+The following screenshot shows the effect of this naming convention in the Editor. Two public variables have been named without capitalization of the first letter. One is a `const`, and one is `readonly`. Since the naming rule only applies to *readonly* symbols, only the `readonly` variable shows a naming rule suggestion.
+
+![Naming rule suggestion](media/editorconfig-naming-rule-suggestion.png)
+
+Now let's change the violation severity to `warning`:
+
+```
+dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
+```
+
+If you close and reopen your code file, instead of seeing the suggestion under the name violation, you see a green squiggly, and a warning in the Error List:
+
+![Naming rule warning](media/editorconfig-naming-rule-warning.png)
 
 ## See also
 

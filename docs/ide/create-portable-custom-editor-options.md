@@ -1,5 +1,5 @@
 ---
-title: "Create portable, custom editor settings with EditorConfig | Microsoft Docs"
+title: "Using EditorConfig settings in VisualStudio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/27/2017"
 ms.reviewer: ""
@@ -7,7 +7,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "editor"
+  - "editorconfig [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -93,7 +93,7 @@ Now, when you press the **Tab** key, you get tab characters instead of spaces.
 
 If there is an EditorConfig file anywhere in the directory structure at or above your project's location, Visual Studio will apply the editor settings in that file to your editor. In this case, you may see the following message in the status bar:
 
-**"User preferences for this file type are overridden by this project's coding conventions."**
+   **"User preferences for this file type are overridden by this project's coding conventions."**
 
 This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size, tab size, indent style &mdash; tabs or spaces, or coding conventions such as the use of `var`) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file will override the settings in Options. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools**, **Options**, **Text Editor**. Unchecking the option will turn off EditorConfig support for Visual Studio.
 
@@ -107,56 +107,9 @@ dir .editorconfig /s
 
 You can control the scope of your EditorConfig conventions by setting the ```root=true``` property in the .editorconfig file at the root of your repo or in the directory that your project resides. Visual Studio looks for a file named .editorconfig in the directory of the opened file and in every parent directory. Visual Studio stops searching if the root filepath is reached, or if an .editorconfig file with ```root=true``` is found.
 
-## Support EditorConfig for your language service
-
-In most cases when you implement a Visual Studio language service, no additional work is needed to support EditorConfig universal properties. The core editor automatically discovers and reads the .editorconfig file when users open files, and it sets the appropriate text buffer and view options. However, some language services opt to use an appropriate contextual text view option rather than using global settings, for items such as tabs and spaces when a user edits or formats text. In these cases, the language service must be updated to support EditorConfig files.
-
-Following are the changes needed to update a language service to support EditorConfig files, by replacing a global _language-specific_ option with a _contextual_ option:  
-
-### Indent style
-
-Replace:  
-
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs  
-_or_  
-Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs  
-
-With:  
-
-!textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId)  
-_or_  
-!textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId)  
-
-### Indent size
-
-Replace:  
-
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize  
-_or_  
-Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize  
-
-With:  
-
-textBufferOptions.GetOptionValue(DefaultOptions.IndentSizeOptionId)  
-_or_  
-textView.Options.GetOptionValue(DefaultOptions.IndentSizeOptionId)  
-
-### Tab size
-
-Replace:  
-
-Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize  
-_or_  
-Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize  
-
-With:  
-
-textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId)  
-_or_  
-textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)  
-
 ## See also
 
 [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)  
+[Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)  
 [EditorConfig.org](http://editorconfig.org/)  
 [Writing code in the editor](writing-code-in-the-code-and-text-editor.md)
