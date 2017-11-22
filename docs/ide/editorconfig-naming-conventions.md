@@ -146,11 +146,11 @@ warning | When this style is not being followed, show a compiler warning in the 
 error | When this style is not being followed, show a compiler error in the Error List.
 
 > [!NOTE]
-> You do not have to build your project in order to see naming rule violations. They appear, either in the Error List or as a suggestion, as code is edited.
+> You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the Error List or as a suggestion.
 
 ## Example
 
-Below is an example .editorconfig file that contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that the "public_symbols" naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
+Below is an example .editorconfig file that contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
 ```
 # Public members must be capitalized (public_members_must_be_capitalized)
