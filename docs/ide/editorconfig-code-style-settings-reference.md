@@ -1350,5 +1350,6 @@ csharp_preserve_single_line_blocks = true
 ## See also
 
 [Quick Actions](../ide/quick-actions.md)  
+[.NET naming conventions for EditorConfig](../ide/editorconfig-naming-conventions.md)  
 [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)  
 [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)  
