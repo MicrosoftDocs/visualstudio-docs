@@ -21,14 +21,13 @@ Naming conventions concern the naming of code elements such as classes, properti
 
 Naming conventions should be ordered from most-specific to least-specific in the .editorconfig file. The first rule encountered that can be applied is the only rule that is applied.
 
-For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention. To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
+For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
-order
-leaving properties out
+To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
 
 ## Symbols
 
-First, you must identify a group of symbols to apply the naming rule to. This property has the following format:
+First, identify a group of symbols to apply the naming rule to. This property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`
 
@@ -69,6 +68,8 @@ The allowable values are listed below, and you can specify multiple values by se
 - protected
 - protected\_internal or protected_friend
 
+If you omit this property, your naming rule will apply to all accessibilities.
+
 ### Symbol modifiers
 
 To describe the modifiers of the symbols you want the naming rule to apply to, specify a property name in the following format:
@@ -84,13 +85,15 @@ The allowable values are listed below, and you can specify multiple values by se
 - readonly
 - static or shared
 
+If you omit this property, your naming rule will apply to all modifiers.
+
 ## Style
 
 Now that we've identified the group of symbols to apply the naming rule to, we must describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
 
-Give the style a name by replacing the **<styleTitle\>** value with a descriptive title, for example `first_word_upper_case_style`. You'll use the **<styleTitle\>** value in the property names that describe the naming style (prefix, suffix, word separator character, and capitalization).
+Give the style a name by replacing the **<styleTitle\>** value with a descriptive title, for example `first_word_upper_case_style`. You'll use the **<styleTitle\>** value in the property names that describe the naming style (prefix, suffix, word separator character, and capitalization). Use one or more of these properties to describe your style.
 
 ### Require a prefix
 
