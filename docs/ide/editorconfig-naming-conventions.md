@@ -21,25 +21,27 @@ Naming conventions concern the naming of code elements such as classes, properti
 
 Naming conventions should be ordered from most-specific to least-specific in the .editorconfig file. The first rule encountered that can be applied is the only rule that is applied.
 
-For each naming convention rule, identified by **<namingRuleTitle\>**, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention:
+For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention. To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
 
-`dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`
-`dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
-`dotnet_naming_rule.<namingRuleTitle>.severity = none|suggestion|warning|error`
+order
+how to see violations - they appear as you type, but if you edit the editorconfig file, you must reload code files
+leaving properties out
 
 ## Symbols
 
-First, we must identify a group of symbols to apply the naming rule to. Describe the group of symbols by replacing the **<symbolTitle\>** value in the following property:
+First, you must identify a group of symbols to apply the naming rule to. This property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`
 
-Replace **<namingRuleTitle\>** in the property name with the title you chose previously.
-
-You'll use the **<symbolTitle\>** value you choose in the three property names that describe which symbols the rule is applied to (kinds of symbol, accessibility levels, and modifiers).
+Describe the group of symbols by replacing the **<symbolTitle\>** value with a descriptive title, for example `public_symbols`. You'll use the **<symbolTitle\>** value in the three property names that describe which symbols the rule is applied to (kinds of symbol, accessibility levels, and modifiers).
 
 ### Kinds of symbols
 
-Specify a property name in the format `dotnet_naming_symbols.<symbolTitle>.applicable_kinds` to describe the kind of symbols to apply the naming rule to. You can specify multiple values by separating them with a comma (`,`). The allowable values are listed below:
+To describe the kind of symbols to apply the naming rule to, specify a property in the following format:
+
+`dotnet_naming_symbols.<symbolTitle>.applicable_kinds = <values>`
+
+The allowable values are listed below, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all symbols)
 - class
@@ -139,7 +141,7 @@ error | When this style is not being followed, show a compiler error.
 
 ## Example .editorconfig file with naming conventions
 
-Finally, let's look at an example .editorconfig file that contains two naming conventions. Notice that the "public_symbols" naming convention specifies multiple kinds of symbol to apply the rule to.
+Below is an example .editorconfig file that contains two naming conventions. Notice that the "public_symbols" naming convention specifies multiple kinds of symbol to apply the rule to.
 
 ```
 # Public members must be capitalized
