@@ -42,6 +42,11 @@ This section describes the following options:
 - [Local or remote Docker container (clean build)](#local-or-remote-docker-container-clean-build)
 - [Container running on Azure Container Instances](#container-running-on-azure-container-instances)
 
+In each case, the remote computer must have one of the following R interpreters installed:
+
+- [Microsoft R Open](https://mran.microsoft.com/open/)
+- [CRAN R for Windows](https://cran.r-project.org/bin/linux/ubuntu/)
+
 ### Physical Ubuntu computer
 
 1. Once logged into the computer, download the rtvs-daemon tarball:
@@ -153,7 +158,7 @@ This section describes the following options:
     docker run -p 5444:5444 myrimage rtvsd
     ```
 
-1. To connect to the contains from RTVS, use `https://localhost:5444` as the path, username `ruser1`, and password `foobar`. If the container is running on a remote computer, use `https://remote-host-name:5444` as the path instead. The port can be changed by updating `/etc/rtvs/rtvsd.config.json`.
+1. To connect to the contains from RTVS, use `https://localhost:5444` as the path, username `<<unix>>\ruser1`, and password `foobar`. If the container is running on a remote computer, use `https://remote-host-name:5444` as the path instead. The port can be changed by updating `/etc/rtvs/rtvsd.config.json`.
 
 ### Container running on Azure Container Instances
 

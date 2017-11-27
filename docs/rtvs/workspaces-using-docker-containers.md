@@ -60,6 +60,9 @@ RTVS detects and allows management of containers created using custom-built imag
 FROM microsoft/rtvs:1.3-ub1604-r3.4.2
 RUN useradd --create-home ruser1
 RUN echo "ruser1:foobar" | chpasswd
+
+#Install additional R packages. You may have to install OS dependencies, see package info or error messages during build.
+#RUN Rscript --vanilla -e "install.packages(c('AzureML','wordcloud'), repos = 'http://cran.us.r-project.org');"
 ```
 
 Use the following command to build the image, changing the container name (the `--name` argument) as desired:
