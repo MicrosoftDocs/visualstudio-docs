@@ -41,19 +41,19 @@
 ## [IDE orientation](ide/quickstart-ide-orientation.md)
 ## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
 ## Write code in the editor
-## Personalize the IDE and editor
 ## Work with solutions and projects
 ## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
 ## Visual Basic: create a console app
-## C++: create a console app
+## [C++: create a console app](ide/quickstart-cpp.md)
 ## Python: create a web app
 ## [Node.js: create a web app](ide/quickstart-nodejs.md)
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
-## [Getting Started with C++ in Visual Studio](ide/getting-started-with-cpp-in-visual-studio.md)
+## [Getting Started with C++ in Visual Studio](/cpp/build/vscpp-step-0-installation.md)
 ## Getting Started with Visual C#
 ## Getting Started with Visual Basic
+## Getting Started with Node.js in Visual Studio
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 # Samples
 ## [.NET Core (GitHub)](https://github.com/dotnet/core/tree/master/samples)

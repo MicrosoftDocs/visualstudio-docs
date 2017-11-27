@@ -273,7 +273,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><strong>DevOps</strong>Continuously build and release with VSTS</h3>
+                        <h3><strong>DevOps</strong><br/>Continuously build and release with VSTS</h3>
                     </div>
                 </div>
             </div>
