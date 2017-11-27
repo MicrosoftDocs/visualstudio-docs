@@ -94,7 +94,7 @@ A. No, because Microsoft R Server is a different technology and does not provide
 
 Q. **Can RTVS connect to a VM created using the Data Science VM image on Azure?**
 
-A. Yes; the [Data Science VM - Windows 2016 (or 2012)](https://azure.microsoft.com/services/virtual-machines/data-science-virtual-machines/) image comes preinstalled with Remote R Services for Visual Studio.
+A. Yes; the [Data Science VM - Windows 2016](https://azure.microsoft.com/services/virtual-machines/data-science-virtual-machines/) image comes preinstalled with Remote R Services for Visual Studio.
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 
