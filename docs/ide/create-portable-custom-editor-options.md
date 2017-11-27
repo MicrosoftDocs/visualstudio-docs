@@ -95,7 +95,7 @@ If there is an EditorConfig file anywhere in the directory structure at or above
 
    **"User preferences for this file type are overridden by this project's coding conventions."**
 
-This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size, tab size, indent style &mdash; tabs or spaces, or coding conventions such as the use of `var`) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file will override the settings in Options. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools**, **Options**, **Text Editor**. Unchecking the option will turn off EditorConfig support for Visual Studio.
+This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size and style, tab size, or coding conventions) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file will override the settings in Options. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools**, **Options**, **Text Editor**. Unchecking the option will turn off EditorConfig support for Visual Studio.
 
 ![Tools Options - follow project coding conventions](media/coding_conventions_option.png)
 
