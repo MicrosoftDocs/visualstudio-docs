@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ac3877e6-5349-4c03-9541-3d5be259f1e8
 caps.latest.revision: 5
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
 ---
 # Using Rule Sets to Specify the C++ Rules to Run

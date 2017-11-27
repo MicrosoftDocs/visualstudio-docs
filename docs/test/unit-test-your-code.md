@@ -26,7 +26,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
   
 2.  **Microsoft unit test framework for managed code.** The Microsoft unit test framework for managed code is installed with Visual Studio and provides a framework for testing .NET code.  
   
-3.  **Microsoft unit test framework for C++.** The Microsoft unit test framework for C++ is installed with Visual Studio and provides a framework for testing native code.  
+3.  **Microsoft unit test framework for C++.** The Microsoft unit test framework for C++ is installed with Visual Studio and provides a framework for testing native code.  Google Test, Boost.Test, and CTest frameworks are also included with Visual Studio and third-party adapters are available for additional test frameworks. For more information, see [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md). 
   
 4.  **Code coverage tools.** You can determine the amount of product code that your unit tests exercise from one command in Test Explorer.  
   

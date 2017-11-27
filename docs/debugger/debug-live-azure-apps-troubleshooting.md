@@ -27,8 +27,7 @@ If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-t
 
 Take these steps:
 
-1. Make sure you have the same version of source code that was used to build and deploy your app.
-1. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note that the Snapshot Debugger will try to automatically download and use symbols for your deployment.
+1. Make sure you have the same version of source code that was used to build and deploy your app.isua1. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note that the Snapshot Debugger will try to automatically download and use symbols for your deployment.
 
 ## Issue: Symbols do not load when I open a Snapshot
 
@@ -67,9 +66,10 @@ Take these steps:
 - Roslyn IL optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 - Special variables, such as *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
 - Snapshot debugging does not work on App Services that have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+- Snapshot debugging API Apps is not currently supported.
 
 ## See also
 
 [Debugging in Visual Studio](../debugger/index.md)  
-[Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md)  
-[FAQ for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting-faq.md)
+[Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)  
+[FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)  
