@@ -92,4 +92,6 @@ We've looked at just a few of the features of the Visual Studio IDE to get acqua
 
 - Take a more in depth tour of the IDE, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
 
-- Read about [personalizing](personalizing-the-visual-studio-ide.md) the IDE's user interface
+## See also
+
+[Quickstart: personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)

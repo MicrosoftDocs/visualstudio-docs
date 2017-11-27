@@ -301,7 +301,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 
   
 ```  
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v11.0\TextTemplating\Microsoft.TextTemplating.targets" />  
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />  
 <PropertyGroup>  
    <TransformOnBuild>true</TransformOnBuild>  
    <!-- Other properties can be inserted here -->  
