@@ -792,7 +792,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
 #### <a name="expression_level_csharp">Expression-level preferences</a>
-The style rules in this section concern expression-level preferences, including the use of default expressions, inferred tuple element names, deconstructed variables, inferred anonymous type member names, and local functions over anonymous functions.  
+The style rules in this section concern expression-level preferences, including the use of [default expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), inferred tuple element names, deconstructed variables, inferred anonymous type member names, and local functions over anonymous functions.  
 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
