@@ -34,7 +34,7 @@ You can use the **Publish** dialog box to publish ASP.NET and ASP.NET Core apps 
 
 1. Choose **Build > Build Solution** to build the project.
 
-## Deploy to Azure App Service
+## Publish to Azure App Service
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 
@@ -66,6 +66,5 @@ You can use the **Publish** dialog box to publish ASP.NET and ASP.NET Core apps 
 
 ## Next steps
 
-- [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)
 - [Deploy an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
-- [Deploy ASP.NET to IIS](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
+- [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment)
