@@ -11,8 +11,7 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig
 
@@ -60,13 +59,13 @@ After you've edited your EditorConfig file, you must reload your code files for 
 
 ## Adding and removing EditorConfig files
 
-Adding an EditorConfig file to your project or codebase will not convert the existing styles to the new ones, it will only apply to newly-added lines.
+Adding an EditorConfig file to your project or codebase will not convert existing styles to the new ones. For example, if you have indents in your file that are formatted with tabs, and you add an EditorConfig file that indents with spaces, the indent characters will not get converted to spaces. However, any new lines of code will be formatted according to the EditorConfig file.
 
-If you remove an EditorConfig file from your project or codebase, you must reload the code files for the editor settings to revert back to global settings.
+If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files to revert to the global editor settings for new lines of code.
 
 ## Example
 
-Following is an example that shows the indent state of a C# code snippet before and after adding an .editorconfig file to the project. The **Tabs** setting in the **Options** dialog box for the Visual Studio text editor is set to produce space characters when you press the **Tab** key.
+The following is an example that shows the indent state of a C# code snippet before and after adding an .editorconfig file to the project. The **Tabs** setting in the **Options** dialog box for the Visual Studio text editor is set to produce space characters when you press the **Tab** key.
 
 ![Text Editor tab setting](../ide/media/vside_editorconfig_tabsetting.png)
 
