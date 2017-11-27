@@ -34,7 +34,7 @@ For performance reasons, snapshots are not taken when you step very quickly. If 
 
 ## Navigate and view snapshots
 
-You can navigate between events using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools window**. 
+You can navigate between events using the **Step Backward (Alt + [)** and **Step Forward (Alt + ])** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools window**. 
 Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
 ![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
