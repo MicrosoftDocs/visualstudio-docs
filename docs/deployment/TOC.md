@@ -18,10 +18,10 @@
 ### [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications)
 ## UWP
 ### [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps)
-## Python
-### [Publish to Azure App Service](https://docs.microsoft.com/en-us/visualstudio/python/publishing-to-azure)
 ## Node.js
 ### [Publish to Azure Website using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy)
+## Python
+### [Publish to Azure App Service](https://docs.microsoft.com/en-us/visualstudio/python/publishing-to-azure)
 # How-to guides
 ## [ClickOnce Security and Deployment](clickonce-security-and-deployment.md)
 ### [Choosing a ClickOnce Deployment Strategy](choosing-a-clickonce-deployment-strategy.md)

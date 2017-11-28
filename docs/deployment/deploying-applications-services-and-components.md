@@ -25,13 +25,13 @@ ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "wpickett"
+manager: "ghogen"
 
 ---
 
 # Deployment Overview in Visual Studio
 
-By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment that are not described here.)
+By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
 See the Tutorials for step-by-step instructions.
 
@@ -43,7 +43,7 @@ See the Tutorials for step-by-step instructions.
 
 - **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
 
-### Deploy to Web or network share
+### Publish to Web or deploy to network share
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
 
@@ -57,27 +57,27 @@ See the Tutorials for step-by-step instructions.
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
-### Deploy to Azure
+### Publish to Azure
 
-- **Azure App Service**: You can use the Publish tool to quickly deploy ASP.NET, ASP.NET Core, Python, and .NET Core apps to Azure App Service. Right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and follow the configuration steps.
+- **Azure App Service**: You can use the Publish tool to quickly deploy ASP.NET, ASP.NET Core, Python, and .NET Core apps to Azure App Service. Right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and then follow the configuration steps.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). 
+    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md).
 
-- **ASP.NET Core**: For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment).
+- **ASP.NET Core**: See [Publish an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment).
 
-- Other **Azure services**: See the [Azure services](https://docs.microsoft.com/en-us/azure/#pivot=products) documentation for deployment options.
+- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/en-us/azure/#pivot=products) documentation for different deployment options.
 
-### Deploy to Microsoft Store
+### Publish to Microsoft Store
 
 From Visual Studio, you can create app packages for deployment to Microsoft Store.
 
-- **UWP**: see [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps)
+- **UWP**: You can package your app and deploy it using menu items. For more information, see [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps).
 
     ![Create an app package](../deployment/media/feature-tour-create-app-package.jpg)
 
-- **Windows desktop**: You can deploy to the Microsoft Store using the Desktop Bridge starting in Visual Studio 2017 (15.4). To do this, you first create a Windows Application Packaging Project.
+- **Windows desktop**: You can deploy to the Microsoft Store using the Desktop Bridge starting in Visual Studio 2017 (15.4). To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 
     ![Desktop bridge](../deployment/media/feature-tour-desktop-bridge.png)
 
