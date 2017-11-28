@@ -28,14 +28,17 @@ manager: ghogen
 Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  The following refactoring features are available in Visual Studio for C#:
   
 * [Change Method Signature](refactoring/change-method-signature.md)
+* [Convert Get method to property/property to Get method](refactorings/convert-get-method-to-property.md)
 * [Encapsulate Field](refactoring/encapsulate-field.md)
 * [Extract Interface](refactoring/extract-interface.md)
 * [Extract Method](refactoring/extract-method.md)
 * [Inline Temporary Variable](refactoring/inline-temporary-variable.md)
+* [Move Declaration Near Reference](refactoring/move-declaration-near-reference.md)
 * [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
+* [Remove Unreachable Code](refactoring/remove-unreachable-code.md)
 * [Rename](refactoring/rename.md)
 * [Sync Type and Filename](refactoring/sync-type-and-file.md)
 
+
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- 
