@@ -102,9 +102,9 @@ Select Case myEnum
 End Select
 ```
 
-### Correct misspelled type
+### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type in Visual Studio, this Quick Action will automatically correct it for you.  You will see these items in the light bulb menu as **"Change '*misspelled type*' to '*correct type*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action will automatically correct it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
 
 ```csharp
 // Before
@@ -198,7 +198,7 @@ End Property
 
 ### Make method synchronous
 
-When using the `async`/`Async` keyword on a method, it is expected that somewhere inside that method the `await`/`Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async`/`Async` keyword and changing the return type.  Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -232,7 +232,7 @@ End Function
 
 ### Make method asynchronous
 
-When using the `await`/`Await` keyword inside of a method, it is expected that the method itself is marked with the `async`/`Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous.  Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -331,31 +331,31 @@ Dim s As String = $"My string with {num} in the middle"
 
 ### Remove merge conflict markers
 
-These Quick Actions enable you to resolve merge conflicts by "taking a change", which removes the conflicting code and markers. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+These Quick Actions enable you to resolve merge conflicts by "taking a change", which removes the conflicting code and markers. These Quick Actions are available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - resolve merge conflicts](../ide/media/vside-refactoring-merge-conflicts.png)
 
 ### Add null checks for parameters
 
-This Quick Action enables you to add a check in your code to tell whether a parameter is null. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to add a check in your code to tell whether a parameter is null. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - add null check](../ide/media/vside-refactoring-nullcheck.png)
 
 ### Constructor generator improvements
 
-When you're creating a constructor, this Quick Action enables you to select the properties or fields to generate, or you can generate the constructor from an empty body. You can also use it to add parameters to an existing constructor from the call-site. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+When you're creating a constructor, this Quick Action enables you to select the properties or fields to generate, or you can generate the constructor from an empty body. You can also use it to add parameters to an existing constructor from the call-site. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - generate constructors](../ide/media/vside-refactoring-constructors.png)
 
 ### Remove unused variables
 
-This Quick Action enables you to remove variables that have been declared but never used in your code. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to remove variables that have been declared but never used in your code. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - unused variables](../ide/media/vside-refactoring-unusedvars.png)
 
 ### Generate overrides
 
-This Quick Action enables you to create an override from a blank line in a class or struct. The **Pick Members** dialog box lets you choose the members to override. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to create an override from a blank line in a class or struct. The **Pick Members** dialog box lets you choose the members to override. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - overrides](../ide/media/vside-refactoring-overrides.png)
 
@@ -363,7 +363,7 @@ This Quick Action enables you to create an override from a blank line in a class
 
 ### Change base for numeric literals
 
-This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - change base](../ide/media/vside-refactoring-changebase1.png)
 
@@ -371,13 +371,13 @@ This Quick Action enables you to convert a numeric literal from one base numeric
 
 ### Insert digit separators into literals
 
-This Quick Action enables you to add separator characters into literal values. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to add separator characters into literal values. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ![Refactoring - change digit separators](../ide/media/vside-refactoring-separators.png)
 
 ### Convert **if** construct to **switch**
 
-This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct. (Available only in Visual Studio 2017 (version 15.3 - Preview).)
+This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct. This Quick Action is available in Visual Studio 2017 version 15.3 and later.
 
 ```csharp
 // Before
