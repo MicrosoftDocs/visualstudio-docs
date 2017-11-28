@@ -17,7 +17,7 @@ manager: ghogen
 # Generate a constructor in C# #
 **What:** Lets you immediately generate the code for a new constructor on a class. 
 
-**When:** You introduce a new constructor or want to modify an existing one and want to properly declare it, automatically.  
+**When:** You introduce a new constructor and want to properly declare it automatically, or you modify an existing constructor. 
 
 **Why:** You could declare the constructor before using it, however this feature will generate it, with the proper parameters, automatically. Furthermore, modifying an existing constructor requires updating all the callsites unless you use this feature to update them automatically.
 
@@ -31,7 +31,7 @@ There are several ways to generate a constructor:
 
 ## <a id = "pick"></a> Generate constructor and pick members
 1. Place your cursor in any empty line in a class:
-   ![Cursor in empty lline](media/constructor1_highlight.png)
+   ![Cursor in empty line](media/constructor1_highlight.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -49,7 +49,7 @@ There are several ways to generate a constructor:
    >[!TIP] 
    >You can check the **Add null checks** checkbox to automatically generate null checks for your constructor parameters.
 
-1. The constructor will be created with the selected parameters in the specificed order.
+1. The constructor will be created with the selected parameters in the specified order.
    ![Generate constructor result](media/constructor1_result.png)
 
 ## <a id="selection"></a> Generate constructor from selected fields

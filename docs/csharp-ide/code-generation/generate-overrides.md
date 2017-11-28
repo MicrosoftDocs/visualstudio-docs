@@ -1,5 +1,5 @@
 ---
-title: "Generate Overrides - Code Generation (C#) | Microsoft Docs"
+title: "Generate Equals and GetHashCode Method Overrides - Code Generation (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/27/2017"
 ms.reviewer: ""
@@ -13,12 +13,14 @@ ms.author: "kaseyu"
 manager: ghogen
 ---
 
-# Generate overrides in C# #
+# Generate Equals and GetHashCode method overrides in C# #
 **What:** Lets you generate **Equals** and **GetHashCode** methods.
 
 **When:** Generate these overrides when you have a type that represents a "value" that should be compared by some fields, instead of by object location in memory. 
 
-**Why:** If you are implementing a value type, you should consider overriding the Equals method to gain increased performance over the default implementation of the Equals method on ValueType. If you are implementing reference types, you should consider overriding the Equals method on a reference type if your type looks like a base type, such as Point, String, BigNumber, and so on. Override the GetHashCode method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](dotnet/standard/design-guidelines/equality-operators.md).
+**Why:** If you are implementing a value type, you should consider overriding the Equals method to gain increased performance over the default implementation of the Equals method on ValueType.  
+If you are implementing a reference type, you should consider overriding the Equals method if your type looks like a base type, such as Point, String, BigNumber, and so on.  
+Override the GetHashCode method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](dotnet/standard/design-guidelines/equality-operators.md).  
 
 **How:**
 

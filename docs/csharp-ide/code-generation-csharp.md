@@ -25,7 +25,7 @@ Visual Studio can help generate portions of source code for you, letting you foc
 * [Generate Field/Property/Local](code-generation/generate-field-property-local.md)
 * [Generate Constructor](code-generation/generate-constructor.md)
 * [Generate An Override](code-generation/generate-override.md)
-* [Generate Overrides](code-generation/generate-overrides.md)
+* [Generate Equals and GetHashCode Method Overrides](code-generation/generate-overrides.md)
 * [Generate XML Documentation Comments](code-generation/generate-xml-documentation-comments.md)
 * [Implement Abstract Class](code-generation/implement-abstract-class.md)
 * [Implement Interface](code-generation/implement-interface.md)
