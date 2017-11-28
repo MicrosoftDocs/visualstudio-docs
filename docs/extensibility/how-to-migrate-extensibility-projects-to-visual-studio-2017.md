@@ -191,7 +191,7 @@ Examples:
 
 ## Specifying a Visual Studio 2017 release
 
-If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you must specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](install/visual-studio-build-numbers-and-release-dates.md). Using the release number '15.3' will not work correctly.
+If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you must specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](../install/visual-studio-build-numbers-and-release-dates.md). Using the release number '15.3' will not work correctly.
 
 If your extension requires 15.3 or higher, you would declare the **InstallationTarget Version** as [15.0.26730.3, 16.0):
 
