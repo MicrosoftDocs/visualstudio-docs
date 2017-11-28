@@ -1,5 +1,5 @@
 # Overview
-## [Deployment feature tour](deploying-applications-services-and-components.md)
+## [Deployment overview](deploying-applications-services-and-components.md)
 # Quickstarts
 ## [Deploy to a local folder](quickstart-deploy-to-local-folder.md)
 ## [Deploy to a web site](quickstart-deploy-to-a-web-site.md)

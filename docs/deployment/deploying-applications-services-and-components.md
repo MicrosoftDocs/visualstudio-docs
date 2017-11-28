@@ -1,5 +1,5 @@
 ---
-title: "Deployment Feature Tour - Visual Studio | Microsoft Docs"
+title: "Deployment Overview - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/26/2017
 ms.reviewer: ""
@@ -29,13 +29,13 @@ manager: "wpickett"
 
 ---
 
-# Deployment Feature Tour in Visual Studio
+# Deployment Overview in Visual Studio
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment that are not described here.)
 
 ### Deploy to local folder
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
