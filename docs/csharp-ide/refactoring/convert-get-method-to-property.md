@@ -63,7 +63,7 @@ public int MyValue
 
 **How:**
 
-1. Place your cursor in your Get method name:
+1. Place your cursor in your Get method name.
 
 1. Next, do one of the following:
    * **Keyboard**
