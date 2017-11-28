@@ -33,13 +33,15 @@ manager: "wpickett"
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment that are not described here.)
 
+See the Tutorials for step-by-step instructions.
+
 ### Deploy to local folder
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. | [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
 
 ### Deploy to Web or network share
 
@@ -51,13 +53,13 @@ By deploying an application, service, or component, you distribute it for instal
 
     You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment).
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. | [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
 ### Deploy to Azure
 
-- **Azure App Service**: You can use the Publish tool to quickly deploy ASP.NET, ASP.NET Core, Python, and .NET Core apps to Azure App Service.
+- **Azure App Service**: You can use the Publish tool to quickly deploy ASP.NET, ASP.NET Core, Python, and .NET Core apps to Azure App Service. Right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and follow the configuration steps.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
@@ -93,7 +95,7 @@ You can enable more sophisticated development and testing by deploying your appl
 
 ### DevOps deployment
 
-If you are using Visual Studio Team Services (VSTS), you can enable continuous deployment of your app. For more information, see [Build and Release](https://docs.microsoft.com/en-us/vsts/build-release/index) and [Deploy to Azure](https://docs.microsoft.com/en-us/vsts/deploy-azure/index).
+In a team environment, you can use Visual Studio Team Services (VSTS) to enable continuous deployment of your app. For more information, see [Build and Release](https://docs.microsoft.com/en-us/vsts/build-release/index) and [Deploy to Azure](https://docs.microsoft.com/en-us/vsts/deploy-azure/index).
 
 ### Deployment for other app types
 
