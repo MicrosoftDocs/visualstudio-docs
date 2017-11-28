@@ -12,13 +12,13 @@ author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
 ---
-
 # Generate overrides in C# #
+
 **What:** Lets you generate **Equals** and **GetHashCode** methods.
 
-**When:** Generate these overrides when you have a type that represents a "value" that should be compared by some fields, instead of by object location in memory. 
+**When:** Generate these overrides when you have a type that represents a "value" that should be compared by some fields, instead of by object location in memory.
 
-**Why:** If you are implementing a value type, you should consider overriding the Equals method to gain increased performance over the default implementation of the Equals method on ValueType. If you are implementing reference types, you should consider overriding the Equals method on a reference type if your type looks like a base type, such as Point, String, BigNumber, and so on. Override the GetHashCode method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](dotnet/standard/design-guidelines/equality-operators.md).
+**Why:** If you are implementing a value type, you should consider overriding the Equals method to gain increased performance over the default implementation of the Equals method on ValueType. If you are implementing reference types, you should consider overriding the Equals method on a reference type if your type looks like a base type, such as Point, String, BigNumber, and so on. Override the GetHashCode method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](/dotnet/standard/design-guidelines/equality-operators).
 
 **How:**
 
@@ -39,13 +39,14 @@ manager: ghogen
 
     ![Generate overrides dialog](media/overrides_dialog.png)
 
-    >[!TIP]
-    >You can also choose to generate operators from this dialog by using the checkboxes underneath the members list.
+    > [!TIP]
+    > You can also choose to generate operators from this dialog by using the checkboxes underneath the members list.
 
 1. The Equals and GetHashCode overrides will be generated with automatic default implementations.
 
    ![Generate method result](media/overrides_result.png)
 
-## See Also  
+## See also
+
 [Code Generation (C#)](../code-generation-csharp.md)  
 [Preview Changes](../../ide/preview-changes.md)
