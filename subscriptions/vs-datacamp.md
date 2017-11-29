@@ -36,6 +36,10 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
 
     ![DataCamp Create New Account](_img\vs-datacamp\vs-datacamp-create-account.png)
 
+**NOTE:**  When you begin creating your account, you may receive the following error message:
+"OOPS!  Your promo code is invalid or expired."
+This happens because when your promo code is created, it expires after a few minutes.  If you receive this message, simply return to the [Benefits](https://my.visualstudio.com/benefits) page on and click on the **Activate** link on the DataCamp benefit tile.  
+
 4. Once your account has been created, you can choose a learning path.  Options include:
     - Learning R for Data Science
     - Start Learning Python for Data Science
