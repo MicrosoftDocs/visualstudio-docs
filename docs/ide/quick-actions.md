@@ -43,9 +43,9 @@ Here are some of the common Quick Actions which are applicable to both C# and Vi
 - [Actions that add missing code](#add)
 - [Code transformations](#transform)
 
-## <a id="fix"></a> Actions that fix errors
+### <a id="fix"></a> Actions that fix errors
 
-### Correct misspelled type
+#### Correct misspelled type
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30002 | C# and Visual Basic | Visual Studio 2015 Update 2 |
@@ -78,7 +78,7 @@ Function MyFunction as Integer
 End Function
 ```
 
-### Resolve git merge conflict
+#### Resolve git merge conflict
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 15.3 |
@@ -114,7 +114,7 @@ private void MyMethod()
 }
 ```
 
-### Make method synchronous
+#### Make method synchronous
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
@@ -151,7 +151,7 @@ Function MyAsyncMethod() As Integer
 End Function
 ```
 
-### Make method asynchronous
+#### Make method asynchronous
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
@@ -188,15 +188,17 @@ Async Function MyAsyncMethod() As Task(Of Integer)
 End Function
 ```
 
-## <a id="remove"></a> Actions that remove unnecessary code
+### <a id="remove"></a> Actions that remove unnecessary code
 
-### Remove unnecesary usings/Imports
-The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+#### Remove unnecesary usings/Imports
+
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
 |  C# and Visual Basic | Visual Studio 2015 RTW |
 
-### Remove unnecessary cast
+The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+
+#### Remove unnecessary cast
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0004 | C# and Visual Basic | Visual Studio 2015 RTW |
@@ -222,7 +224,7 @@ Dim number as Integer = CType(3, Integer)
 Dim number as Integer = 3
 ```
 
-### Remove unused variables
+#### Remove unused variables
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 15.3 |
@@ -248,7 +250,7 @@ public MyMethod()
 }
 ```
 
-### Remove type from **default** value expression
+#### Remove type from **default** value expression
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0034 | C# 7.1+ | Visual Studio 2017 15.3 |
@@ -266,9 +268,9 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 ```
 
-## <a id="add"></a> Actions that add missing code
+### <a id="add"></a> Actions that add missing code
 
-### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
+#### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30451 | C# and Visual Basic| Visual Studio 2015 Update 2 |
@@ -304,7 +306,7 @@ Imports System.Diagnostics
 Debug.WriteLine("Hello")
 ```
 
-### Add missing cases/default case/both
+#### Add missing cases/default case/both
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0010 | C# and Visual Basic| Visual Studio 2017 15.3 |
@@ -369,7 +371,7 @@ Select Case myEnum
 End Select
 ```
 
-### Add null checks for parameters
+#### Add null checks for parameters
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 15.3 |
@@ -402,7 +404,7 @@ class MyClass
 }
 ```
 
-### Add argument name
+#### Add argument name
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 15.3 |
@@ -417,7 +419,7 @@ var date = new DateTime(1997, 7, 8);
 var date = new DateTime(year: 1997, month: 7, day: 8);
 ```
 
-### Add braces
+#### Add braces
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0011 | C# | Visual Studio 2017 RTW |
@@ -438,7 +440,7 @@ if (true)
 }
 ```
 
-### Add and order modifiers
+#### Add and order modifiers
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0036 | C# and Visual Basic| Visual Studio 2017 15.5 |
@@ -472,9 +474,9 @@ private static int thisFieldIsPublic;
 
 ```
 
-## <a id="transform"></a> Code transformations
+### <a id="transform"></a> Code transformations
 
-### Convert **if** construct to **switch**
+#### Convert **if** construct to **switch**
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 15.3 |
@@ -528,7 +530,7 @@ Select Case obj
 End Select
 ```
 
-### Convert to interpolated string
+#### Convert to interpolated string
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# 6.0+ and Visual Basic 14+ | Visual Studio 2017 RTW |
@@ -558,7 +560,7 @@ Dim num as Integer = 3
 Dim s As String = $"My string with {num} in the middle"
 ```
 
-### Use object initializers
+#### Use object initializers
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0017 | C# and Visual Basic | Visual Studio 2017 RTW |
@@ -586,7 +588,7 @@ c.Age = 21
 Dim c = New Customer() With {.Age = 21}
 ```
 
-### Use collection initializers
+#### Use collection initializers
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0028 | C# and Visual Basic | Visual Studio 2017 RTW |
@@ -619,7 +621,7 @@ Dim list = New List(Of Integer) From {1, 2, 3}
 
 ```  
 
-### Convert auto property to full property
+#### Convert auto property to full property
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
 | C# and Visual Basic | Visual Studio 2017 15.5 |
@@ -659,7 +661,7 @@ End Property
 
 ```
 
-### Convert block body to expression-bodied member
+#### Convert block body to expression-bodied member
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0021-27 | C# 6.0+ | Visual Studio 2017 RTW |
@@ -711,7 +713,7 @@ class MyClass4
 }
 ```
 
-### Convert anonymous function to local function
+#### Convert anonymous function to local function
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0039 | C# 7.0+ | Visual Studio 2017 15.5 |
@@ -736,7 +738,7 @@ int fibonacci(int n)
 
 ```
 
-### Convert `ReferenceEquals` to `is null`
+#### Convert `ReferenceEquals` to `is null`
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0041 | C# 7.0+ | Visual Studio 2017 15.5 |
@@ -761,7 +763,7 @@ if (value is null)
 }
 ```
 
-### Introduce pattern matching
+#### Introduce pattern matching
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0020 | C# 7.0+ | Visual Studio 2017 RTW |
@@ -803,7 +805,7 @@ if (o is string s)
 }
 ```
 
-### Change base for numeric literals
+#### Change base for numeric literals
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 15.3 |
@@ -829,7 +831,7 @@ Dim countdown As Integer = 2097152
 Dim countdown As Integer = &H200000
 ```
 
-### Insert digit separators into literals
+#### Insert digit separators into literals
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 15.3 |
@@ -855,7 +857,7 @@ Dim countdown As Integer = 1000000
 Dim countdown As Integer = 1_000_000
 ```
 
-### Use explicit tuple names
+#### Use explicit tuple names
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0033 | C# 7.0+ and Visual Basic 15+ | Visual Studio 2017 RTW |
@@ -885,7 +887,7 @@ Dim customer As (name As String, age As Integer) = GetCustomer()
 Dim name = customer.name
 ```
 
-### Use inferred names
+#### Use inferred names
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0037 | C# | Visual Studio 2017 v. 15.5 |
@@ -913,7 +915,7 @@ var tuple = (age, name);
 
 ```
 
-### Deconstruct tuple declaration
+#### Deconstruct tuple declaration
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0042 | C# 7.0+ | Visual Studio 2017 v. 15.5 |
@@ -938,6 +940,6 @@ Console.WriteLine($"{name} {age}");
 Console.WriteLine($"{x} {y}");
 ```
 
-
 ## See Also
-* [Code Styles and Quick Actions](code-styles-and-quick-actions.md)
+* [Code Styles and Quick Actions](code-styles-and-quick-actions.md)  
+* [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)

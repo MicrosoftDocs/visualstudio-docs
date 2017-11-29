@@ -18,16 +18,15 @@ dev_langs:
   - csharp
 ---
 
-These Quick Actions will convert a Get method to a property, or vice versa. 
+# Convert Get method to property / Convert property to Get method
+## Convert Get method to property
+**What:** Lets you convert a Get method into a property (and optionally your Set method), and vice versa.
 
-# Convert Get method to property #
-**What:** Lets you convert a Get method into a property (and optionally your Set method)
-
-**When:** You have a Get method that does not contain any logic 
+**When:** You have a Get method that does not contain any logic.
 
 **How:**
 
-1. Place your cursor in your Get method name:
+1. Place your cursor in your Get method name.
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -57,14 +56,14 @@ public int MyValue
 }
 ```
 
-# Convert property to Get method
+## Convert property to Get method
 **What:** Lets you convert a property to a Get method
 
 **When:** You have a property that involves more than immediately setting and getting a value 
 
 **How:**
 
-1. Place your cursor in your Get method name:
+1. Place your cursor in your Get method name.
 
 1. Next, do one of the following:
    * **Keyboard**
