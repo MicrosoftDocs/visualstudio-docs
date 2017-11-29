@@ -106,7 +106,7 @@ There are several ways to generate a constructor:
      * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
      * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-     ![Generate constructor preview](media/constructor4_preview.png)
+    ![Generate constructor preview](media/constructor4_preview.png)
 
 1. The parameter will be added automatically with its type inferred from its usage.
    
