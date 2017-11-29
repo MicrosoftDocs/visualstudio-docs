@@ -270,7 +270,7 @@ The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `u
 
 ### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
 
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
+Using types located in other projects in your solution will display the Quick Action automatically, however types from reference assemblies and NuGet packages need to be enabled from the **Options** dialog box, on the **Text Editor** > **C#** or **Basic** > **Advanced** page:
 
 * Suggest usings/imports for types in reference assemblies
 * Suggest usings/imports for types in NuGet packages

@@ -48,7 +48,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
 3. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
-   For example, you can find commands for **solutionexplorer**.
+   For example, you can find commands for `solutionexplorer`.
 
 4. In the list, choose the correct command.
 
@@ -64,11 +64,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
 2. Expand the **Environment** folder, and then choose **Keyboard**.
 
-    ![Display keyboard shortcuts in Options dialog box](../ide/media/optionskeyboard.png "OptionsKeyboard")
-
-3. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
-
-    For example, you can find commands for **solutionexplorer**.
+3. Optional: Filter the list of commands by entering all or part of the name of the command, without spaces, in the **Show commands containing** box.
 
 4. In the list, choose the command to which you want to assign a keyboard shortcut.
 
@@ -77,7 +73,7 @@ In the **Use new shortcut in** list, choose the feature area in which you want t
     For example, you can choose **Global** if you want the shortcut to work in all contexts. You can use any shortcut that isn't mapped (as Global) in another editor. Otherwise, the editor overrides the shortcut.
 
     > [!NOTE]
-    > You can't assign the following keys as part of a keyboard shortcut in **Global**: Print Scrn/Sys Rq, Scroll Lock, Pause/Break, Tab, Caps Lock, Insert, Home, End, Page Up, Page Down, the Windows logo key, the Application key, any of the Arrow keys, or Enter; Num Lock, Delete, or Clear on the numeric keypad; or Ctrl+Alt+Delete.  
+    > You can't assign the following keys as part of a keyboard shortcut in **Global**: Print Scrn/Sys Rq, Scroll Lock, Pause/Break, Tab, Caps Lock, Insert, Home, End, Page Up, Page Down, the Windows logo key, the Application key, any of the Arrow keys, or Enter; Num Lock, Delete, or Clear on the numeric keypad; the Ctrl+Alt+Delete key combination.
 
 6. In the **Press shortcut key(s)** box, enter the shortcut that you want to use.
 
@@ -95,7 +91,7 @@ In the **Use new shortcut in** list, choose the feature area in which you want t
 
 ## Sharing custom keyboard shortcuts
 
-You can share your custom keyboard shortcuts by exporting them to a file and then giving the file to others so that they can import the data.  
+You can share your custom keyboard shortcuts by exporting them to a file and then giving the file to others so that they can import the data.
 
 ### To export only keyboard shortcuts
 
@@ -111,7 +107,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 5. In the **What do you want to name your settings file?** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
 
-    By default, your shortcuts are saved in a file in the %USERPROFILE%\Documents\Visual Studio 2013\Settings folder. The name of the file reflects the date when you exported the settings, and the extension is .vssettings.
+    By default, your shortcuts are saved in a file in the %USERPROFILE%\Documents\Visual Studio 2017\Settings folder. The name of the file reflects the date when you exported the settings, and the extension is .vssettings.
 
 ### To import only keyboard shortcuts
 
