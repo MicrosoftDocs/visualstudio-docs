@@ -56,7 +56,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
 
 #### To deploy the app and remote debug
 
@@ -64,7 +64,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
 
-    For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
+    For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 3. In **Server Explorer**, right-click on the App Service instance and choose **Attach Debugger**.
 
@@ -78,7 +78,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 You can create an Azure VM for Windows Server and then install and configure IIS and the other required software components. This takes more time than deploying to an Azure App Service and requires that you follow the remaining steps in this tutorial.
 
-First, follow all the steps described in [Install and run IIS](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role).
+First, follow all the steps described in [Install and run IIS](/azure/virtual-machines/virtual-machines-windows-hero-role).
 
 When you open port 80 in the Network security group, also open port 4022 for the Remote Debugger. That way, you won't have to open it later.
 
@@ -97,7 +97,7 @@ When you download the software, you may get requests to grant permission to load
 
 ### Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](https://docs.microsoft.com/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+1. Install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
@@ -206,7 +206,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues and the app is hosted behind a firewall, you may need to verify that the correct ports are open.
 
-On an Azure VM, you must open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
+On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
 
 Required ports:
 
