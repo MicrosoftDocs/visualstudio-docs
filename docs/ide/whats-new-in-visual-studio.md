@@ -5,7 +5,6 @@ ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-general"
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -20,7 +19,7 @@ ms.author: "tglee"
 manager: ghogen
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the [15.5 Preview 4 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
+#### Updated for the [15.5 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
