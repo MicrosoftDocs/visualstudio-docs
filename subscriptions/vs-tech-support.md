@@ -15,6 +15,8 @@ Searchscope: VS Subscription
 
 Resolve break-fix issues in non-production environments.  (Note:  Benefit must by activated before you can submit a support request.)  Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents.  
 
+**NOTE:**  Not all subscriptions at a given level are eligible to receive support incidents.  Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents.  If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits. 
+
    ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
 
 1.	To begin using your Technical Support benefit, click on **Activate** on the Technical Support tile. 
