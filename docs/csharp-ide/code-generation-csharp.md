@@ -24,7 +24,8 @@ Visual Studio can help generate portions of source code for you, letting you foc
 * [Generate Method](code-generation/generate-method.md)
 * [Generate Field/Property/Local](code-generation/generate-field-property-local.md)
 * [Generate Constructor](code-generation/generate-constructor.md)
-* [Generate Override](code-generation/generate-override.md)
+* [Generate An Override](code-generation/generate-override.md)
+* [Generate Equals and GetHashCode Method Overrides](code-generation/generate-overrides.md)
 * [Generate XML Documentation Comments](code-generation/generate-xml-documentation-comments.md)
 * [Implement Abstract Class](code-generation/implement-abstract-class.md)
 * [Implement Interface](code-generation/implement-interface.md)
@@ -32,4 +33,3 @@ Visual Studio can help generate portions of source code for you, letting you foc
  
 ## See Also  
  [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
- 
