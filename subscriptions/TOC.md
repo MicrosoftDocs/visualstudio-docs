@@ -33,7 +33,7 @@
 ##### [Technical Support](vs-tech-support.md)
 
 ## Administrators
-### [Admin roles and responsibilities](admin-responsibilities.md)
+### [Administrator Overview](admin-responsibilities.md)
 ### [Accessing the Administrator Portal](access-admin-portal.md)
 ### [Using the Administrator Portal](using-admin-portal.md)
 ### [Assign a subscription](assign-license.md)
