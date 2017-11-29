@@ -31,6 +31,7 @@ There are several ways to generate a constructor:
 
 ## <a id = "pick"></a> Generate constructor and pick members
 1. Place your cursor in any empty line in a class:
+
    ![Cursor in empty line](media/constructor1_highlight.png)
 
 1. Next, do one of the following:
@@ -113,6 +114,7 @@ There are several ways to generate a constructor:
 
 ## <a id="create"></a> Create and initialize field/property from a constructor parameter
 1. From an existing constructor, add a parameter:
+
    ![Generate constructor highlight](media/constructor5_highlight.png)
 
 1. Place your cursor inside the newly added parameter.
