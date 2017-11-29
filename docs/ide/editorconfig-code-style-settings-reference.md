@@ -10,7 +10,10 @@ dev_langs:
   - "CSharp"
   - "VB"
 helpviewer_keywords: 
-  - "editor"
+  - "coding conventions [EditorConfig]"
+  - "EditorConfig coding conventions"
+  - "language conventions [EditorConfig]"
+  - "formatting conventions [EditorConfig]"
 ms.assetid: 
 caps.latest.revision: 01
 author: "kuhlenh"
@@ -20,24 +23,27 @@ ms.technology:
   - "vs-ide-general"
 ---
 # .NET coding convention settings for EditorConfig
-You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.  
 
-There are three supported .NET coding convention categories:  
+You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options). You can also look at the [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig) as an example.
+
+There are three supported .NET coding convention categories:
+
 - [Language Conventions](#language-conventions)  
    Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or preferring expression-bodied members.  
 - [Formatting Conventions](#formatting-conventions)  
    Rules regarding the layout and structure of your code in order to make it easier to read. For example, you can specify rules around Allman braces, or preferring spaces in control blocks.  
-- [Naming Conventions](#naming-conventions)  
+- [Naming Conventions](../ide/editorconfig-naming-conventions.md)  
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".  
 
-## Language conventions  
-Rules for language conventions have the following format:  
+## Language conventions
 
-`options_name = false|true : none|suggestion|warning|error`  
+Rules for language conventions have the following format:
 
-For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.  
+`options_name = false|true : none|suggestion|warning|error`
 
-The following table lists the possible severity values and their effects:  
+For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
+
+The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
@@ -88,8 +94,9 @@ The following list shows the allowable language convention rules:
     - [Code block preferences](#code_block)
         - csharp\_prefer_braces
 
-### .NET code style settings  
-The style rules in this section are applicable to both C# and Visual Basic. To see code examples in your preferred programming language, choose it in the drop-down **Language** menu at the top-right corner of your browser window.  
+### .NET code style settings
+
+The style rules in this section are applicable to both C# and Visual Basic. To see code examples in your preferred programming language, choose it in the drop-down **Language** menu at the top-right corner of your browser window.
 
 #### <a name="this_and_me">"This." and "Me." qualifiers</a>
 This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.  
@@ -403,10 +410,11 @@ dotnet_style_collection_initializer = true:suggestion
 dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
-``` 
+```
 
-### C# code style settings  
-The style rules in this section are applicable to C# only.  
+### C# code style settings
+
+The style rules in this section are applicable to C# only.
 
 #### <a name="var">Implicit and explicit types</a>
 The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.  
@@ -775,13 +783,14 @@ csharp_prefer_braces = true:none
 ```
 
 ## Formatting conventions
-Most of the rules for formatting conventions have the following format:  
 
-`rule_name = false|true`  
+Most of the rules for formatting conventions have the following format:
 
-You specify either **true** (prefer this style) or **false** (do not prefer this style). You do not specify a severity. For a few rules, instead of true or false, you specify other values to describe when and where to apply the rule.  
+`rule_name = false|true`
 
-The following list shows the formatting convention rules available in Visual Studio:  
+You specify either **true** (prefer this style) or **false** (do not prefer this style). You do not specify a severity. For a few rules, instead of true or false, you specify other values to describe when and where to apply the rule.
+
+The following list shows the formatting convention rules available in Visual Studio:
 
 - .NET Formatting Settings
     - [Organize Usings](#usings)
@@ -810,7 +819,8 @@ The following list shows the formatting convention rules available in Visual Stu
         - csharp_preserve_single_line_blocks
 
 ### .NET formatting settings
-The formatting rules in this section are applicable to C# and Visual Basic.  
+
+The formatting rules in this section are applicable to C# and Visual Basic.
 
 #### <a name="usings">Organize usings</a>
 This formatting rule concerns the placement of System.* using directives with respect to other using directives.  
@@ -847,8 +857,9 @@ Example .editorconfig file:
 dotnet_sort_system_directives_first = true
 ``` 
 
-### <a name="csharp_formatting">C# formatting settings</a>  
-The formatting rules in this section apply only to C# code.  
+### C# formatting settings
+
+The formatting rules in this section apply only to C# code.
 
 #### <a name="newline">Newline Options</a>  
 These formatting rules concern the use of new lines to format code.  
@@ -1334,70 +1345,11 @@ Example .editorconfig file:
 [*.cs]
 csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
-```
-
-## Naming conventions  
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that asynchronous methods must end in "Async". Naming conventions should be ordered from most-specific to least-specific. The first rule encountered that can be applied is the only rule that is applied.  
-
-For each naming convention rule, identified by **namingRuleTitle**, you must specify the **symbols** it applies to, a naming **style**, and a **severity**:  
-  
-`dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`  
-`dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`  
-`dotnet_naming_rule.<namingRuleTitle>.severity = none|suggestion|warning|error`  
-
-### Symbols
-Identify a group of symbols to apply a naming rule to with this property: `dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>`. Specify which kind of symbols, which modifiers, and which accessibility levels are included in the group using the following properties:  
-
-| Property | Possible Values |
-| ------------- |:-------------:|
-| dotnet\_naming\_symbols.\<symbolTitle\>.applicable\_kinds | *, class, struct, interface, enum, property, method, field, event, namespace, delegate, type_parameter |
-| dotnet\_naming\_symbols.\<symbolTitle\>.applicable_accessibilities | *, public, internal (C#), friend (Visual Basic), private, protected, protected\_internal (C#), protected\_friend (Visual Basic) |
-| dotnet\_naming\_symbols.\<symbolTitle\>.required\_modifiers | abstract (C#), must_inherit (Visual Basic), async, const, readonly, static (C#), shared (Visual Basic) |  
-
-### Style
-Identify the naming style to apply to a group of symbols with this property: `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`.  
-
-Specify the naming style using one or more of the following properties:  
-
-|  Property | Possible Values |
-| ------------- |:-------------:|
-| dotnet_naming_style.\<styleTitle\>.required_prefix | Required characters that must appear at the beginning of the identifier. |  
-| dotnet_naming_style.\<styleTitle\>.required_suffix | Required characters that must appear at the end of the identifier. |  
-| dotnet_naming_style.\<styleTitle\>.word_separator | Required character between words in the identifier. | 
-| dotnet_naming_style.\<styleTitle\>.capitalization | pascal_case, camel_case, first_word_upper, all_upper, all_lower |
-
-> [!NOTE]
-> You must specify a capitalization style as part of your naming style, otherwise your naming style will be ignored.  
-
-#### Severity
-Identify the severity level for a naming rule with this property: `dotnet_naming_rule.<namingRuleTitle>.severity`.  
-
-The following table shows the severity value options:  
-
-Severity | Effect
------------- | -------------
-none or silent | When this style is not being followed, do not show anything to the user; however, code generation features generate new code in this style.  
-suggestion | When this style is not being followed, show it to the user as a suggestion (underlying dots on the first two characters). It has no effect at compile time.  
-warning | When this style is not being followed, show a compiler warning.  
-error | When this style is not being followed, show a compiler error.   
-
-### Example .editorconfig file with naming conventions
-```
-# Dotnet Naming Conventions
-[*.{cs,vb}] 
-dotnet_naming_rule.async_methods_end_in_async.symbols  = any_async_methods
-dotnet_naming_rule.async_methods_end_in_async.style    = end_in_async
-dotnet_naming_rule.async_methods_end_in_async.severity = suggestion
-
-dotnet_naming_symbols.any_async_methods.applicable_kinds           = method
-dotnet_naming_symbols.any_async_methods.applicable_accessibilities = *
-dotnet_naming_symbols.any_async_methods.required_modifiers         = async
-
-dotnet_naming_style.end_in_async.required_suffix = Async
-dotnet_naming_style.end_in_async.capitalization  = pascal_case
 ``` 
 
 ## See also
+
 [Quick Actions](../ide/quick-actions.md)  
-[Create portable custom editor options](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options)  
+[.NET naming conventions for EditorConfig](../ide/editorconfig-naming-conventions.md)  
+[Create portable custom editor options](../ide/create-portable-custom-editor-options.md)  
 [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)  
