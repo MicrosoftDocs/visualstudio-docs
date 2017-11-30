@@ -1,7 +1,7 @@
 ---
 title: Linting R Code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 11/16/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

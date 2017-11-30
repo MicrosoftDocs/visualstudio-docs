@@ -26,3 +26,4 @@
 ## [Debugging](debugging.md)
 # Reference
 ## [Options](options.md)
+## [Frequently-asked questions](faq.md)
