@@ -1,7 +1,7 @@
 ---
 title: Setting up Remote R Service on Linux | Microsoft Docs
 ms.custom: ""
-ms.date: 11/15/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
