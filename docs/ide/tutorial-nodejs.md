@@ -29,9 +29,11 @@ First, you'll create an Node.js web application project.
 
      If you don't see the **Node.js** project templates, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
 
+    Visual Studio creates the new solution and opens your project. The **app.js** project file opens in the editor (left pane). If you are not familiar with Visual Studio projects, see [Quickstart: Use Visual Studio to create your first Node.js app](quickstart-nodejs.md).
+
 ## Add some code
 
-1. In Solution Explorer, open the views folder, then open index.pug.
+1. In Solution Explorer (right pane), open the views folder, then open index.pug.
 
 1. Replace the content with the following markup.
 
@@ -89,11 +91,11 @@ First, you'll create an Node.js web application project.
 
 1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
 
-    ![View syntax error](../ide/media/tutorial-nodejs-syntax-highlighting.png) 
+    ![View syntax error](../ide/media/tutorial-nodejs-syntax-checking.png) 
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
-1. Fix the code by adding the comma (`,`).
+1. Fix the code by adding the comma (`,`) before `"data"`.
 
 ## Set a breakpoint
 
@@ -114,6 +116,8 @@ First, you'll create an Node.js web application project.
 1. Press **Ctrl+F5** to run the application.
 
     The debugger pauses at the breakpoint you set. Now, you can inspect your app state.
+
+1. Hover over `getData` to see its properties in a DataTip
 
     ![Inspect variables](../ide/media/tutorial-nodejs-inspect-variables.png)
 
@@ -137,11 +141,19 @@ First, you'll create an Node.js web application project.
 
 ## Publish to Azure App Service
 
-TBD
+1. In Solution Explorer, right-click the project and choose **Publish**.
+
+   ![Publish to Azure App Service](../ide/media/tutorial-nodejs-publish-to-azure.png)  
+
+1. Choose **Microsoft Azure App Service**.
+
+    In the **App Service** dialog box, you can sign into your Azure account and connect to existing Azure subscriptions.
+
+1. Follow the remaining steps to select a subscription, select or create a resource group, etc., and then publish to Azure.
 
 Congratulations on completing this tutorial!
 
 ## Next steps 
 
+- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)  
 - Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
-- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
