@@ -95,7 +95,7 @@ They won't renew at the end of the month.
 To view Visual Studio subscriptions assigned to you 
 specifically and your subscription benefits, 
 go to the Visual Studio subscriptions portal 
-(https://my.visualstudio.com).
+[https://my.visualstudio.com](https://my.visualstudio.com).
 
    <img alt="Visual Studio subscriptions portal, Subscriptions" src="_img/buy-vs-subscriptions/view-assigned-subscription-list-subscriptions-portal.png" style="border: 1px solid #CCCCCC" />
 
