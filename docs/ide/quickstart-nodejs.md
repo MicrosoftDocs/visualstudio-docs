@@ -16,7 +16,7 @@ manager: ghogen
 dev_langs: 
   - JavaScript
 ---
-# Quickstart: use Visual Studio to create your first Node.js app
+# Quickstart: Use Visual Studio to create your first Node.js app
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
 
 ## Create a project
