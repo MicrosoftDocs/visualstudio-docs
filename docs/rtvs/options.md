@@ -14,7 +14,6 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
 ms.topic: "article"
-ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
