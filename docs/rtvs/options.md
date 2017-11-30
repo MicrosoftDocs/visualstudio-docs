@@ -1,7 +1,7 @@
 ---
 title: "R Tools Options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 11/16/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,7 +14,6 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
 ms.topic: "article"
-ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -48,7 +47,9 @@ These options control the behavior of formatting, IntelliSense, outlining, inden
 
 ![Options dialog for R text editor advanced options](media/options-dialog-advanced-text-editor.png)
 
-Each option is set to either on or off to control the behavior in question. Each option is explained in the help that appears at the bottom of the dialog.
+Each option is set to either on or off to control the behavior in question. For details on what each option affects, look at the help pane at the bottom of the dialog box. Note that you can drag the top of that help pane up to make the pane larger.
+
+![Expanded help pane in the R text editor advanced options dialog](media/options-dialog-advanced-text-editor2.png)
 
 ## R Tools > Advanced options
 

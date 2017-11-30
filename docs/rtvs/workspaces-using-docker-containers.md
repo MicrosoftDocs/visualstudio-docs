@@ -1,7 +1,7 @@
 ---
 title: R Tools for Visual Studio and Docker Containers | Microsoft Docs
 ms.custom: ""
-ms.date: 11/15/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01770143-d1b3-409e-aa63-0419650564d6
 caps.latest.revision: 1
 author: 
   - "kraigb"
@@ -30,27 +29,31 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 
 ## Creating a container
 
-1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window. (The window informs you if you don't have Docker for Windows installed.)
+1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window (**R Tools > Windows > Workspaces**). The window informs you if you don't have Docker for Windows installed and provides a link for the download. Installing Docker may require a computer restart.
 
-    ![Workspaces window in R Tools for Visual Studio (VS2017)](media/container-workspaces-window.png)
+    ![Workspaces window in R Tools for Visual Studio (VS2017) with Containers command](media/container-workspaces-window.png)
 
-1. In the **Containers** window, select **Create** and enter a name for the container, a username, and a password. These credentials are used to create an account on Linux, with which you'll sign in later.
+1. In the **Containers** window, select **Create**:
 
-    ![Containers window in R Tools for Visual Studio (VS2017)](media/containers-window-create-fill.png)
+    ![Create command in the Containers window](media/containers-window-create.png)
 
-1. Select the **Create** button, and RTVS builds the image and starts the container. You can Stop, Remove, or Restart the container from the **Containers** window.
+1. Complete the required information in the dialog and select **Create**. The credentials you enter are also used to create an account on Linux, with which you sign in later.
 
-    ![Containers window in R Tools for Visual Studio (VS2017)](media/containers-window-created.png)
+    ![Entering a container name and credentials when creating a container](media/containers-window-create-fill.png)
+
+1. It may take some time for RTVS to build the image. The **Output** window in Visual Studio shows progress, but may appear to not be doing much during lengthy image downloads; be prepared to be patient. Once the image is built, RTVS starts the container and it appears in the **Container** window. The controls to the right stop, remove, or restart the container.
+
+    ![Containers window showing a completed container](media/containers-window-created.png)
 
 ## Connecting to a container
 
 1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](workspaces-remote-r-service-for-linux.md) for details on how the daemon is configured.)
 
-    ![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspaces-window-running-containers.png)
+    ![Workspaces window showing available containers](media/workspaces-window-running-containers.png)
 
-1. To connect to a container, double-click a listed container, or select it and then select the connect (forward arrow) button.
+1. To connect to a container, double-click the container name or select the forward arrow button to its right. When connected, you see an **R Interactive** window (see [Working with the R Interactive window](interactive-repl.md)):
 
-    ![Workspaces window and REPL window in R Tools for Visual Studio (VS2017)](media/workspaces-window-container-connected.png)
+    ![Workspaces window and REPL window opened for a container](media/workspaces-window-container-connected.png)
 
 ## Using custom-built images
 

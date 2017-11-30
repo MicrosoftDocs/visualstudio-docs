@@ -1,7 +1,7 @@
 ---
 title: R Tools for Visual Studio FAQ | Microsoft Docs
 ms.custom: ""
-ms.date: 11/13/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e656ac64-915a-40bb-8196-93d33250ef98
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"

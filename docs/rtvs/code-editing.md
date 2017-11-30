@@ -1,7 +1,7 @@
 ---
 title: Editing Code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 11/17/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a198ccc3-5506-48e7-b3b2-9399661b80d5
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
