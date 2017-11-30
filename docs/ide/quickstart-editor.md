@@ -15,7 +15,7 @@ dev_langs:
 ---
 # Quickstart: coding in the editor
 
-In this 10 minute introduction to the editor, we'll add some code to a file and look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
+In this 10 minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 ## Create a new code file
 
@@ -49,7 +49,7 @@ The list includes snippets for creating a class, a constructor, `Console.WriteLi
 
 ## Commenting out code
 
-The toolbar provides a number of buttons to make you more productive as you code, for example you can increase or decrease an indent, set a bookmark, or comment out code. In this section we'll comment out some code that we don't want to compile.
+The toolbar provides a number of buttons to make you more productive as you code. For example, you can increase or decrease an indent, set a bookmark, or comment out code. In this section we'll comment out some code that we don't want to compile.
 
 1. Paste the following code into the `Main()` method body.
 
@@ -75,7 +75,7 @@ The toolbar provides a number of buttons to make you more productive as you code
                                 select word;
     ```
 
-1. We are not using the `morewords` variable, so let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar.
+1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar.
 
    ![Comment out button](media/quickstart-comment-out.png)
 
