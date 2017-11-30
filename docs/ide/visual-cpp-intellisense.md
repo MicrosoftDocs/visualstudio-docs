@@ -56,7 +56,7 @@ Squiggles under a program element (variable, keyword, brace, type name, and so o
 
 ![Visual C&#43;&#43; error squiggles](../ide/media/vs2015_cpp_error_quiggles.png "vs2015_cpp_error_quiggles")
 
-### Code olorization and fonts
+### Code colorization and fonts
 
 The default colors and fonts can be changed by using the **Environment, Fonts and Colors** property page. You can change the fonts for many UI windows here, not just the editor. The settings that are specific to C++ begin with "C++"; the other settings are for all languages.
 
@@ -88,7 +88,7 @@ Notice the following:
 
 - Line 12 has purple squiggle on identifier BYE; this identifier is not defined in currently inactive Android.NativeActivity project.
 
-### Stand-alone file IntelliSense
+### IntelliSense for stand-alone files
 
 When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular features by going to **Text Editor, C/C++, Advanced** to turn on or off IntelliSense features. To configure IntelliSense for single files that aren't part of a project, look for **IntelliSense and Browsing for Non-Project Files** in the **Advanced** section. See [Visual C++ Guided Tour](http://msdn.microsoft.com/en-us/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).
 
