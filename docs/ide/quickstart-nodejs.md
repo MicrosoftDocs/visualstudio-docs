@@ -32,11 +32,25 @@ First, you'll create an Node.js web application project.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
+    Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
+
 ## Explore the IDE  
 
-When Visual Studio creates the project, the project opens in **Solution Explorer** in the right pane, and **server.js** opens in the editor.
+1. Take a look at **Solution Explorer** in the right pane.
 
-1. In the editor, choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
+   ![Solution Explorer](../ide/media/quickstart-nodejs-solution-explorer.png)  
+
+  - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a .njsproj file in your project folder.
+
+  - At the top level is a solution, which by default has the same name as your project. A solution, represented by a .sln file on disk, is a container for one or more related projects.
+
+  - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+
+1. If you want to install npm packages or node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
+
+   ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png) 
+
+1. In the **server.js** file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)  
 
@@ -53,17 +67,9 @@ When Visual Studio creates the project, the project opens in **Solution Explorer
     `res.end('Hello World\n' + res.connection.localPort);`
 
 ## Run the application
-1. Press **Ctrl+F5** to run the application. The app opens in a browser.  
+1. Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the application. The app opens in a browser.  
 
 1. In the browser window, you will see "Hello World" plus the local port number.
-
-1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
-
-   ![Open the Node.js Interactive Window](../ide/media/quickstart-nodejs-interactive-window.png)  
-
-    The interactive window supports everything you can do in code including the use of `require()` statements. The code in the following screenshot defines a variable and displays the location of the Node.js interpreter.
-
-   ![Node.js Interactive Window](../ide/media/quickstart-nodejs-interactive-window-example.png)  
 
 1. Close the web browser.  
 

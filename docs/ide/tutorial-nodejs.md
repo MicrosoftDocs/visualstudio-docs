@@ -16,7 +16,7 @@ dev_langs:
   - JavaScript
 ---
 # Getting started with Node.js in Visual Studio
-In this introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+In this tutorial for Node.js development using Visual Studio, you'll create a simple Node.js web application, add some code, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
 
 ## Create a project
 First, you'll create an Node.js web application project.
@@ -28,14 +28,6 @@ First, you'll create an Node.js web application project.
 3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 Application**, then choose **OK**.   
 
      If you don't see the **Node.js** project templates, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
-
-## Explore the IDE
-
-When Visual Studio creates the project, the project opens in **Solution Explorer** in the right pane, and **app.js** opens in the editor.
-
-TBD
-TBD
-TBD
 
 ## Add some code
 
@@ -95,6 +87,14 @@ TBD
 
     ![Use IntelliSense](../ide/media/tutorial-nodejs-intellisense.png) 
 
+1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
+
+    ![View syntax error](../ide/media/tutorial-nodejs-syntax-highlighting.png) 
+
+    The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
+
+1. Fix the code by adding the comma (`,`).
+
 ## Set a breakpoint
 
 1. In index.js, click in the left gutter before the following line of code to set a breakpoint:
@@ -127,11 +127,11 @@ TBD
 
 1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
 
-   ![Open the Node.js Interactive Window](../ide/media/quickstart-nodejs-interactive-window.png)  
+   ![Open the Node.js Interactive Window](../ide/media/tutorial-nodejs-interactive-window.png)  
 
     The interactive window supports everything you can do in code including the use of `require()` statements. The code in the following screenshot defines a variable and displays the location of the Node.js interpreter.
 
-   ![Node.js Interactive Window](../ide/media/quickstart-nodejs-interactive-window-example.png)  
+   ![Node.js Interactive Window](../ide/media/tutorial-nodejs-interactive-window-example.png)  
 
 1. Close the web browser.  
 

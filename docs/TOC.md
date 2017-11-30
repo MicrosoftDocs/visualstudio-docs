@@ -53,7 +53,7 @@
 ## [Getting Started with C++ in Visual Studio](/cpp/build/vscpp-step-0-installation.md)
 ## Getting Started with Visual C#
 ## Getting Started with Visual Basic
-## Getting Started with Node.js in Visual Studio
+## [Getting Started with Node.js in Visual Studio](ide/tutorial-nodejs.md)
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 # Samples
 ## [.NET Core (GitHub)](https://github.com/dotnet/core/tree/master/samples)
