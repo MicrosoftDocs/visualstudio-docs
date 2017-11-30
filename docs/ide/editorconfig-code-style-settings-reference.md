@@ -92,9 +92,7 @@ The following list shows the allowable language convention rules:
         - csharp\_style\_inlined\_variable_declaration
     - [Expression-level preferences](#expression_level_csharp)
         - csharp\_prefer\_simple\_default_expression
-        - csharp\_prefer\_inferred\_tuple_names
         - csharp\_style\_deconstructed\_variable_declaration
-        - csharp\_prefer\_inferred\_anonymous\_type\_member_names
         - csharp\_style\_pattern\_local\_over\_anonymous_function
     - ["Null" checking preferences](#null_checking)
         - csharp\_style\_throw_expression
@@ -792,16 +790,14 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
 #### <a name="expression_level_csharp">Expression-level preferences</a>
-The style rules in this section concern expression-level preferences, including the use of [default expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), inferred tuple element names, deconstructed variables, inferred anonymous type member names, and local functions over anonymous functions.  
+The style rules in this section concern expression-level preferences, including the use of [default expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), deconstructed variables, and local functions over anonymous functions.  
 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
 | csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
-| csharp_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.5 |
 | csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
-| csharp_prefer_inferred_anonymous_type_member_names | IDE0037 | C# | true:suggestion | Visual Studio 2017 v. 15.5 |
 | csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
 
 **csharp\_prefer\_simple\_default_expression**  
@@ -818,20 +814,6 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 // csharp_prefer_simple_default_expression = false
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
-```
-
-**csharp\_prefer\_inferred\_tuple_names**  
-When this rule is set to **true**, prefer inferred tuple element names.  
-When this rule is set to **false**, prefer explicit tuple element names.  
-
-Code examples:  
-
-```csharp
-// csharp_prefer_inferred_tuple_names = true
-var tuple = (age, name);
-
-// csharp_prefer_inferred_tuple_names = false
-var tuple = (age: age, name: name);
 ```
 
 **csharp\_style\_deconstructed\_variable_declaration**  
@@ -854,20 +836,6 @@ Console.WriteLine($"{person.name} {person.age}");
 
 (int x, int y) point = GetPointTuple();
 Console.WriteLine($"{point.x} {point.y}");
-```
-
-**csharp\_prefer\_inferred\_anonymous\_type_member_names**  
-When this rule is set to **true**, prefer inferred anonymous type member names.  
-When this rule is set to **false**, do not prefer anonymous type member names.  
-
-Code examples:  
-
-```csharp 
-// csharp_prefer_inferred_anonymous_type_member_names = true
-var anon = new { age, name };
-
-// csharp_prefer_inferred_anonymous_type_member_names = false
-var anon = new { age = age, name = name };
 ```
 
 **csharp\_style\_pattern\_local\_over\_anonymous_function**  
@@ -897,9 +865,7 @@ Example .editorconfig file:
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
-csharp_prefer_inferred_tuple_names = true:suggestion
 csharp_style_deconstructed_variable_declaration = true:suggestion
-csharp_prefer_inferred_anonymous_type_member_names = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ``` 
 

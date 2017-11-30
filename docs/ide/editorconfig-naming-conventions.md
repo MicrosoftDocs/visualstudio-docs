@@ -51,7 +51,6 @@ The allowable values are listed below, and you can specify multiple values by se
 - field
 - event
 - delegate
-- parameter
 
 ### Accessibility levels of symbols
 
@@ -68,7 +67,8 @@ The allowable values are listed below, and you can specify multiple values by se
 - protected
 - protected\_internal or protected_friend
 
-If you omit this property, your naming rule will apply to all accessibilities.
+> [!NOTE]
+> You must specify an accessibility level as part of your naming convention, otherwise your naming convention might be ignored.
 
 ### Symbol modifiers
 
