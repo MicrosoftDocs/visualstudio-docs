@@ -51,6 +51,7 @@ The allowable values are listed below, and you can specify multiple values by se
 - field
 - event
 - delegate
+- parameter
 
 ### Accessibility levels of symbols
 
