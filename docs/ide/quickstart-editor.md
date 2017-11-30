@@ -87,7 +87,7 @@ We don't want to see the emtpy constructor for `Class1` that was generated, so t
 
 ![Outlining collapse button](media/quickstart-collapse.png)
 
-The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same grey box that now has a plus sign in it. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods.
+The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same grey box that now has a plus sign in it. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
 
 ## Viewing symbol definitions
 
@@ -135,6 +135,8 @@ Nobody gets code right the first time, and one of the things you might want to c
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
 1. Enter the desired name `words`. You'll notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter**, select the **Include comments** checkbox in the **Rename** pop-up box.
+
+   ![Rename dialog box](media/quickstart-rename.png)
 
 1. Press **Enter**.
 
