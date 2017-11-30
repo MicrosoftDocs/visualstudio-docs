@@ -30,7 +30,7 @@ First, you'll create an Node.js web application project.
 
      If you don't see the **Node.js** project templates, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
 
-     ![ASP.NET workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
+     ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
 ## Explore the IDE  
 
@@ -71,5 +71,6 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## Next steps 
 
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)
-- Learn how to use the [Visual Studio debugger](../debugger/debugger-feature-tour.md)
+- Go through the [Tutorial for Node.js](../ide/tutorial-nodejs.md)  
+- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
+- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
