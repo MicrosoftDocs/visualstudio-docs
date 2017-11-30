@@ -25,11 +25,11 @@ We'll start by creating a new file and adding some code to it. Notice that we do
 
 1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
-   A new file opens in the editor with the skeleton of a C## class.
+   A new file opens in the editor with the skeleton of a C# class.
 
 ## Using code snippets
 
-Visual Studio provides useful code snippets that you can use to quickly and easily generate commonly used code blocks. Code snippets are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
+Visual Studio provides useful code snippets that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
 
 1. Place your cursor below the closing brace of the `Class1` constructor and enter the characters `svm`.
 
@@ -53,33 +53,33 @@ The toolbar provides a number of buttons to make you more productive as you code
 
 1. Paste the following code into the `Main()` method body.
 
-```c#
-// _words is a string array that we'll sort alphabetically
-string[] _words = {
-    "the",
-    "quick",
-    "brown",
-    "fox",
-    "jumps"
-};
+    ```csharp
+    // _words is a string array that we'll sort alphabetically
+    string[] _words = {
+        "the",
+        "quick",
+        "brown",
+        "fox",
+        "jumps"
+    }
 
-string[] morewords = {
-    "over",
-    "the",
-    "lazy",
-    "dog"
-};
+    string[] morewords = {
+        "over",
+        "the",
+        "lazy",
+        "dog"
+    };
 
-IEnumerable<string> query = from word in _words
-                            orderby word.Length
-                            select word;
-```
+    IEnumerable<string> query = from word in _words
+                                orderby word.Length
+                                select word;
+    ```
 
 1. We are not using the `morewords` variable, so let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar.
 
    ![Comment out button](media/quickstart-comment-out.png)
 
-   The C# comment characters `\\` are added to the beginning of each selected line to comment out the code.
+   The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
 
 ## Collapsing code blocks
 
@@ -87,21 +87,23 @@ We don't want to see the emtpy constructor for `Class1` that was generated, so t
 
 ![Outlining collapse button](media/quickstart-collapse.png)
 
-To expand the code block again, click the same grey box that now has a plus sign in it. This feature is called **outlining** and is especially useful when you're collapsing long methods.
+The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same grey box that now has a plus sign in it. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods.
 
 ## Viewing symbol definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** from the symbol's definition. An even quicker way that doesn't move your focus away from the file you're working in is to use **Peek Definition**. Let's peek at the definition of `string`.
+The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of `string`.
 
 1. Right-click on any occurence of `string` and choose **Peek Definition** from the content menu &mdash; or, press **Alt** + **F12**.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
+   ![Peek definition window](media/quickstart-peek-definition.png)
+
 1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
 ## Using IntelliSense to complete words
 
-IntelliSense is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window.
+[IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window.
 
 1. Below the `query` variable, start typing the following code:
 
@@ -113,7 +115,7 @@ IntelliSense is an invaluable resource when you're coding. It can show you infor
 
    ![IntelliSense word complete](media/quickstart-intellisense-completion-list.png)
 
-1. Press **Tab** to insert the rest of the word `query` by using IntelliSense's "Complete Word" functionality.
+1. To insert the rest of the word `query` by using IntelliSense's "Complete Word" functionality, press **Tab**.
 
 1. Finish off the code block to look like the code below. You can even practice using code snippets again by entering `cw` and then pressing **Tab** twice to generate the `Console.WriteLine` code.
 
@@ -126,7 +128,7 @@ IntelliSense is an invaluable resource when you're coding. It can show you infor
 
 ## Refactoring a name
 
-Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's refactor-rename functionality by renaming the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-code-generation-quick-actions.md#refactoring) functionality to rename the `_words` variable to `words`.
 
 1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu.
 
@@ -140,7 +142,14 @@ Nobody gets code right the first time, and one of the things you might want to c
 
 ## Next steps
 
-You've completed this quickstart for the Visual Studio editor! Now you might want to try out some of the other quickstarts for the Visual Studio IDE, or check out the links to more information about some of the features we looked at.
+You've completed this quickstart for the Visual Studio editor! Next you might want to try out some of the other quickstarts for the Visual Studio IDE, or check out the links to more information about some of the features we looked at. Otherwise, happy coding!
 
 ## See also
 
+[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
+[Code snippets](../ide/code-snippets.md)  
+[Outlining](../ide/outlining.md)  
+[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
+[Refactoring](../ide/refactoring-code-generation-quick-actions.md#refactoring)  
+[Using IntelliSense](../ide/using-intellisense.md)  
