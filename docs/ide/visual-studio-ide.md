@@ -132,7 +132,7 @@ Nothing runs perfectly all the time. When you write code, you need to run it and
 
 ![Debugging](../ide/media/VSIDE_Tour_Debugging.png)
 
-For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). To learn more about testing, see [Testing Tools](https://www.visualstudio.com/vs/testing-tools/). To learn more about improving the performance of your apps, see [Profiling Feature Tour](../profiling/profiling-feature-tour.md).
+For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). To learn more about testing, see [Testing Tools and Scenarios](../test/developer-testing-scenarios.md). To learn more about improving the performance of your apps, see [Profiling Feature Tour](../profiling/profiling-feature-tour.md).
 
 ## Deploy your finished application
 
@@ -148,7 +148,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 - The [Output](../ide/reference/output-window.md) window is where Visual Studio sends its notifications, such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
-- [Team Explorer](https://www.visualstudio.com/docs/connect/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)]  (https://www.visualstudio.com/docs/tfvc/overview).
+- [Team Explorer](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)]  (/vsts/tfvc/overview).
 
 - [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
 
@@ -194,7 +194,7 @@ Following are some other common productivity features in Visual Studio:
 
 ## Manage your source code and collaborate with others
 
-You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services](https://www.visualstudio.com/en-us/docs/git/gitquickstart-vs2017) to learn more about managing Git repos in Visual Studio using Team Explorer.  Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
+You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
 
 Visual Studio Team Services is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes.
 
@@ -206,7 +206,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-For more information about Visual Studio Team Services, see [Visual Studio Team Services](https://www.visualstudio.com/team-services/). For more information about Team Foundation Server, see [Team Foundation Server](https://www.visualstudio.com/products/tfs-overview-vs).
+For documentation about Visual Studio Team Services and Team Foundation Server, see [Visual Studio Team Services](/vsts/index).
 
 ## Connect to services, databases, and cloud-based resources
 
