@@ -150,7 +150,7 @@ First, you'll create an Node.js web application project.
 
     In the **App Service** dialog box, you can sign into your Azure account and connect to existing Azure subscriptions.
 
-1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure.
+1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure. For more detailed instructions, see [Publish to Azure Website using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
 
 1. The **Output** window shows progress on deploying to Azure.
 
