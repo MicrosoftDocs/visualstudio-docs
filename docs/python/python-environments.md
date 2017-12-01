@@ -240,11 +240,11 @@ If you're sharing a project with others, using a build system, or plan to [publi
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for `requirements.txt`:
 
-- If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, right-click the project and select **Install from requirements.txt**:
+- If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then right-click an environment node and select **Install from requirements.txt**:
 
     ![Install from requirements.txt](media/environments-requirements-txt-install.png)
 
-- When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
+- If you already have all the necessary packages installed in a project, you can right-click an environment in Solution Explorer and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
 
     ![Update requirements.txt options](media/environments-requirements-txt-replace.png)
 

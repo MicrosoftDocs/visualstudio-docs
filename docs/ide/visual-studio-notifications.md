@@ -30,5 +30,4 @@ If you choose to always ignore a notification, Visual Studio will stop showing i
 
 ## See also
 
-[Internet resources used by Visual Studio](../ide/connected-environment.md)  
 [Visual Studio IDE](../ide/visual-studio-ide.md)
