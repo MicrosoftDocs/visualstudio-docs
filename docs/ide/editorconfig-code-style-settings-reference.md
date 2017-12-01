@@ -111,10 +111,10 @@ The following table shows the rule names, applicable programming languages, defa
 
 | Rule Name | Applicable languages | Visual Studio default value | Supported version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_qualification_for_field | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-| dotnet_style_qualification_for_property | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-| dotnet_style_qualification_for_method | C# and Visual Basic | false:none | Visual Studio 2017 RTW |
-| dotnet_style_qualification_for_event | C# and Visual Basic | false:none | Visual Studio 2017 RTW |   
+| dotnet_style_qualification_for_field | C# and Visual Basic | false:none | Visual Studio 2017 |
+| dotnet_style_qualification_for_property | C# and Visual Basic | false:none | Visual Studio 2017 |
+| dotnet_style_qualification_for_method | C# and Visual Basic | false:none | Visual Studio 2017 |
+| dotnet_style_qualification_for_event | C# and Visual Basic | false:none | Visual Studio 2017 |   
 
 **dotnet\_style\_qualification\_for_field**  
 When this rule is set to **true**, prefer fields to be prefaced with `this.` in C# or `Me.` in Visual Basic.  
@@ -218,8 +218,8 @@ The following table shows the rule names, rules IDs, applicable programming lang
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_predefined_type_for_locals_parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none | Visual Studio 2017 RTW |
-| dotnet_style_predefined_type_for_member_access | IDE0013 and IDE0015 | C# and Visual Basic | true:none | Visual Studio 2017 RTW |  
+| dotnet_style_predefined_type_for_locals_parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none | Visual Studio 2017 |
+| dotnet_style_predefined_type_for_member_access | IDE0013 and IDE0015 | C# and Visual Basic | true:none | Visual Studio 2017 |  
 
 **dotnet\_style\_predefined\_type\_for\_locals\_parameters_members**  
 When this rule is set to **true**, prefer the language keyword for local variables, method parameters, and class members, instead of the type name, for types that have a keyword to represent them.  
@@ -279,9 +279,9 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 15.5 |
-| csharp_preferred_modifier_order | IDE0036 | C# | public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:none | Visual Studio 2017 15.5 |
-| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:none | Visual Studio 2017 15.5 |
+| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 version 15.5 |
+| csharp_preferred_modifier_order | IDE0036 | C# | public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:none | Visual Studio 2017 version 15.5 |
+| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:none | Visual Studio 2017 version 15.5 |
 
 **dotnet\_style\_require\_accessibility_modifiers**  
 This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
@@ -360,11 +360,11 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 RTW |
-| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 RTW |
-| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 RTW | 
+| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 |
+| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 | 
 
 **dotnet\_style\_object_initializer**  
 When this rule is set to **true**, prefer objects to be initialized using object initializers when possible.  
@@ -510,9 +510,9 @@ The following table shows the rule names, applicable programming languages, defa
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_var_for_built_in_types | C# | true:none | Visual Studio 2017 RTW |
-| csharp_style_var_when_type_is_apparent | C# | true:none | Visual Studio 2017 RTW |
-| csharp_style_var_elsewhere | C# | true:none | Visual Studio 2017 RTW |
+| csharp_style_var_for_built_in_types | C# | true:none | Visual Studio 2017 |
+| csharp_style_var_when_type_is_apparent | C# | true:none | Visual Studio 2017 |
+| csharp_style_var_elsewhere | C# | true:none | Visual Studio 2017 |
 
 **csharp\_style\_var\_for\_built\_in_types**  
 When this rule is set to **true**, prefer `var` is used to declare variables with built-in system types such as `int`.  
@@ -573,12 +573,12 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | never:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | never:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | never:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |  
+| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | never:none | Visual Studio 2017 version 15.3 |
+| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | never:none | Visual Studio 2017 version 15.3 |
+| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | never:none | Visual Studio 2017 version 15.3 |
+| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |
+| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |
+| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |  
 
 **csharp\_style\_expression\_bodied_methods**  
 This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
@@ -716,8 +716,8 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_pattern_matching_over_is_with_cast_check | IDE0020 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
-| csharp_style_pattern_matching_over_as_with_null_check | IDE0019 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+| csharp_style_pattern_matching_over_is_with_cast_check | IDE0020 | C# 7.0+ | true:suggestion | Visual Studio 2017 |
+| csharp_style_pattern_matching_over_as_with_null_check | IDE0019 | C# 7.0+ | true:suggestion | Visual Studio 2017 |
 
 **csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check**  
 When this rule is set to **true**, prefer pattern matching instead of `is` expressions with type casts.  
@@ -764,7 +764,7 @@ The following table shows the rule name, rule ID, applicable language versions, 
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | -------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_inlined_variable_declaration | IDE0018 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
+| csharp_style_inlined_variable_declaration | IDE0018 | C# 7.0+ | true:suggestion | Visual Studio 2017 |
 
 **csharp\_style\_inlined\_variable_declaration**  
 When this rule is set to **true**, prefer `out` variables to be declared inline in the argument list of a method call when possible.  
@@ -796,9 +796,9 @@ The following table shows the rule name, rule ID, applicable language versions, 
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
-| csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
-| csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
+| csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | Visual Studio 2017 version 15.3 |
+| csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | Visual Studio 2017 version 15.5 |
+| csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | Visual Studio 2017 version 15.5 |
 
 **csharp\_prefer\_simple\_default_expression**  
 This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.  
@@ -876,8 +876,8 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_throw_expression | IDE0016 | C# 7.0+ | true:suggestion | Visual Studio 2017 RTW |
-| csharp_style_conditional_delegate_call | IDE0041 | C# 6.0+ | true:suggestion | Visual Studio 2017 RTW |
+| csharp_style_throw_expression | IDE0016 | C# 7.0+ | true:suggestion | Visual Studio 2017 |
+| csharp_style_conditional_delegate_call | IDE0041 | C# 6.0+ | true:suggestion | Visual Studio 2017 |
 
 **csharp\_style\_throw_expression**  
 When this rule is set to **true**, prefer to use `throw` expressions instead of `throw` statements.  
@@ -924,7 +924,7 @@ The following table shows the rule name, rule ID, applicable language versions, 
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_prefer_braces | IDE0011 | C# | true:none | Visual Studio 2017 v. 15.3 |
+| csharp_prefer_braces | IDE0011 | C# | true:none | Visual Studio 2017 version 15.3 |
 
 **csharp\_prefer\_braces**   
 When this rule is set to **true**, prefer curly braces even for one line of code.  
@@ -995,7 +995,7 @@ The following table shows the rule name, applicable languages, default value, an
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| dotnet_sort_system_directives_first |  C# and Visual Basic | true | Visual Studio 2017 v. 15.3  |
+| dotnet_sort_system_directives_first |  C# and Visual Basic | true | Visual Studio 2017 version 15.3  |
 
 **dotnet\_sort\_system\_directives_first**  
 When this rule is set to **true**, sort System.* using directives alphabetically, and place them before other usings.  
@@ -1034,13 +1034,13 @@ The following table shows the "new line" rule names, applicable languages, defau
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_open_brace |  C# | all | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_before_else |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_before_catch |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_before_finally |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_before_members_in_object_initializers |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_new_line_before_open_brace |  C# | all | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_else |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_catch |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_finally |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_members_in_object_initializers |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 version 15.3  |
 
 **csharp\_new\_line\_before\_open_brace**  
 This rule concerns whether an open brace `{` should be placed on the same line as the preceding code, or on a new line. For this rule, you do not specify **true** or **false**. Instead you specify **all**, **none**, or one or more code elements such as **methods** or **properties**, to define when this rule should be applied. The complete list of allowable values is shown in the following table:  
@@ -1225,9 +1225,9 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_indent_case_contents |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_indent_switch_labels |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_indent_labels |  C# | no_change | Visual Studio 2017 v. 15.3  |
+| csharp_indent_case_contents |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_indent_switch_labels |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_indent_labels |  C# | no_change | Visual Studio 2017 version 15.3  |
 
 **csharp\_indent\_case_contents**  
 When this rule is set to **true**, indent `switch` case contents.  
@@ -1366,11 +1366,11 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_after_cast |  C# | false | Visual Studio 2017 v. 15.3  |
-| csharp_space_after_keywords_in_control_flow_statements |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
-| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
-| csharp_space_between_parentheses |  C# | false | Visual Studio 2017 v. 15.3  |
+| csharp_space_after_cast |  C# | false | Visual Studio 2017 version 15.3  |
+| csharp_space_after_keywords_in_control_flow_statements |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
+| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
+| csharp_space_between_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
 
 **csharp\_space\_after_cast**  
 When this rule is set to **true**, require a space between a cast and the value.  
@@ -1469,8 +1469,8 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_preserve_single_line_statements |  C# | true | Visual Studio 2017 v. 15.3  |
-| csharp_preserve_single_line_blocks |  C# | true | Visual Studio 2017 v. 15.3  |
+| csharp_preserve_single_line_statements |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_preserve_single_line_blocks |  C# | true | Visual Studio 2017 version 15.3  |
 
 **csharp_preserve_single_line_statements**   
 When this rule is set to **true**, leave statements and member declarations on the same line.  
