@@ -8,7 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2175581e-83cb-444c-bb52-cc1fca8ea196
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
@@ -52,7 +51,7 @@ The following table helps you compare the referencing features of an SDK with th
 |The mechanism supports a clean developer machine. (That is, no installation is required, and simple retrieval from source code control will work.)|N|Because you reference an SDK, you must check in your solution and the SDK separately. You can check in the SDK from the two non-registry default locations from which MSBuild iterates SDKs (for details, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)). As an alternative, if a custom location consists of the SDKs, you can specify the following code in the project file:<br /><br /> `<PropertyGroup>    <SDKReferenceDirectoryRoot>C:\MySDKs</SDKReferenceDirectoryRoot>   </PropertyGroup>`<br /><br /> Then check the SDKs into that location.|Y|You can check out the solution, and Visual Studio immediately recognizes and acts on the files.|
 |You can join a large existing community of package authors.|N/A|The community is new.|Y||
 |You can join a large existing community of package consumers.|N/A|The community is new.|Y||
-|You can join an ecosystem of partners (custom galleries, repositories, and so forth).|N/A|The available repositories include Visual Studio Gallery, Microsoft Download Center, and [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|Y||
+|You can join an ecosystem of partners (custom galleries, repositories, and so forth).|N/A|The available repositories include Visual Studio Marketplace, Microsoft Download Center, and [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|Y||
 |The mechanism integrates with continuous-integration build servers for both package creation and consumption.|Y|The SDK must pass the checked-in location (SDKReferenceDirectoryRoot property) on command line to MSBuild.|Y||
 |The mechanism supports both stable and pre-release package versions.|Y|The SDK supports adding references to multiple versions.|Y||
 |The mechanism supports auto-update for installed packages.|Y|If shipped as VSIX or part of Visual Studio automatic updates, SDK provides automatic notifications.|Y||

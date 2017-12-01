@@ -67,7 +67,7 @@ This document describes the pages (or properties collections) that are associate
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  
 |EnableAdminExtensions|Get/Set (Boolean)|Loads per-user extensions when Visual Studio is run under Administrator credentials. Visual Studio must be restarted after this value is changed.|  
-|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Gallery.|  
+|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Marketplace.|  
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|Automatically checks for updates to installed extensions.|  
   
 ## Find and Replace  
