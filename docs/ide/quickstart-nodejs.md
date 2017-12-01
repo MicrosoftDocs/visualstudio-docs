@@ -77,6 +77,6 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## Next steps 
 
-- Go through the [Tutorial for Node.js](../ide/tutorial-nodejs.md)  
+- Go through the [Tutorial for Node.js](../nodejs/tutorial-nodejs.md)  
 - Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
 - Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
