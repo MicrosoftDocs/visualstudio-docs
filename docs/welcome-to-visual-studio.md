@@ -25,6 +25,7 @@ We've got everything you need to create great apps for devices or desktop apps, 
 > [!NOTE]
 >  Click here for release notes for [Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=834799).    
 
+
  Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure to install the optional packages. If you need more features, check out [other editions of Visual Studio](http://www.visualstudio.com).
 
  You can install Visual Studio 2017 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Installing Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223). Jump right in, create a new project, or open a code file, and start writing code. Choose the type of app you want to create. Or you can [take a tour](https://go.microsoft.com/fwlink/?linkid=833058) of the Visual Studio IDE to get more familiar with the tools.
@@ -58,6 +59,8 @@ We've got everything you need to create great apps for devices or desktop apps, 
 When you install Visual Studio, you can optionally install the **Azure Development** workload to get Azure SDK for .NET. These tools enable you to connect to Azure services, as well as letting you create and manage cloud-powered apps and resources directly from the IDE.
 
 - [HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users.
+
+- [Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) to help you detect and diagnose quality issues in your apps and web services.  Application Insights will also help you understand what your users actually do with your app so you can optimize the user experience.
 
 In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
