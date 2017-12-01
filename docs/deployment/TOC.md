@@ -9,6 +9,7 @@
 ### [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)
 ### [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
 ### [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+### [Building ClickOnce Applications from the Command Line](building-clickonce-applications-from-the-command-line.md)
 ## ASP.NET
 ### [Publish an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 ### [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment)

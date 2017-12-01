@@ -56,6 +56,8 @@ You can use the **Publish** dialog box to publish your .NET Core or ASP.NET Core
 
 1. To republish, click **Publish**.
 
+Deploy the published files in any way you like. For example, you can package them in a Zip file, use a simple copy command, or deploy them with any installation package of your choice.
+
 ## Next steps
 
 - [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)

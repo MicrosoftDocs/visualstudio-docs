@@ -37,7 +37,7 @@ See the Tutorials for step-by-step instructions.
 
 ### Deploy to local folder
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**, and then choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
@@ -55,7 +55,7 @@ See the Tutorials for step-by-step instructions.
 
 - **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
 
-- **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](https://docs.microsoft.com/en-us/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
+- **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
 ### Publish to Azure
 
@@ -63,19 +63,19 @@ See the Tutorials for step-by-step instructions.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment).
+    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 
-- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/en-us/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
+- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
 
 From Visual Studio, you can create app packages for deployment to Microsoft Store.
 
-- **UWP**: You can package your app and deploy it using menu items. For more information, see [Package a UWP app by using Visual Studio](https://docs.microsoft.com/en-us/windows/uwp/packaging/packaging-uwp-apps).
+- **UWP**: You can package your app and deploy it using menu items. For more information, see [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps).
 
     ![Create an app package](../deployment/media/feature-tour-create-app-package.jpg)
 
-- **Windows desktop**: You can deploy to the Microsoft Store using the Desktop Bridge starting in Visual Studio 2017 (15.4). To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
+- **Windows desktop**: You can deploy to the Microsoft Store using the Desktop Bridge starting in Visual Studio 2017 (15.4). To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 
     ![Desktop bridge](../deployment/media/feature-tour-desktop-bridge.png)
 
@@ -95,13 +95,13 @@ You can enable more sophisticated development and testing by deploying your appl
 
 ### DevOps deployment
 
-In a team environment, you can use Visual Studio Team Services (VSTS) to enable continuous deployment of your app. For more information, see [Build and Release](https://docs.microsoft.com/en-us/vsts/build-release/index) and [Deploy to Azure](https://docs.microsoft.com/en-us/vsts/deploy-azure/index).
+In a team environment, you can use Visual Studio Team Services (VSTS) to enable continuous deployment of your app. For more information, see [Build and Release](/vsts/build-release/index) and [Deploy to Azure](/vsts/deploy-azure/index).
 
 ### Deployment for other app types
 
 | App type | Deployment Scenario | Link |
 | --- | --- | --- |
 | **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
-| **WCF or OData service**  | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](https://docs.microsoft.com/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
+| **WCF or OData service**  | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
 | **LightSwitch** | LightSwitch is no longer supported in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch Applications](http://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) | 
 
