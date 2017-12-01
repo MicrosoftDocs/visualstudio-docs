@@ -63,6 +63,10 @@ The following list shows the allowable language convention rules:
     - [Language keywords instead of framework type names for type references](#language_keywords)
         - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
         - dotnet\_style\_predefined\_type\_for\_member_access
+    - [Modifier preferences](#normalize_modifiers)
+        - dotnet\_style\_require\_accessibility_modifiers
+        - csharp\_preferred\_modifier_order
+        - visual\_basic\_preferred\_modifier_order
     - [Expression-level preferences](#expression_level)
         - dotnet\_style\_object_initializer
         - dotnet\_style\_collection_initializer
@@ -88,6 +92,8 @@ The following list shows the allowable language convention rules:
         - csharp\_style\_inlined\_variable_declaration
     - [Expression-level preferences](#expression_level_csharp)
         - csharp\_prefer\_simple\_default_expression
+        - csharp\_style\_deconstructed\_variable_declaration
+        - csharp\_style\_pattern\_local\_over\_anonymous_function
     - ["Null" checking preferences](#null_checking)
         - csharp\_style\_throw_expression
         - csharp\_style\_conditional\_delegate_call
@@ -264,6 +270,87 @@ These rules could appear in an .editorconfig file as follows:
 [*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 dotnet_style_predefined_type_for_member_access = true:suggestion
+``` 
+
+#### <a name="normalize_modifiers">Modifier preferences</a>  
+The style rules in this section concern modifier preferences, including requiring accessbility modifiers and specifying the desired modifier sort order.  
+
+The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:  
+
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
+| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 15.5 |
+| csharp_preferred_modifier_order | IDE0036 | C# | public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:none | Visual Studio 2017 15.5 |
+| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:none | Visual Studio 2017 15.5 |
+
+**dotnet\_style\_require\_accessibility_modifiers**  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| always | Prefer accessbility modifiers to be specified |
+| for_non_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
+| never | Do not prefer accessibility modifiers to be specified | 
+
+Code examples:  
+
+```csharp
+// dotnet_style_require_accessibility_modifiers = always
+// dotnet_style_require_accessibility_modifiers = for_non_interface_members
+class MyClass 
+{
+    private const string thisFieldIsConst= "constant";
+}
+
+// dotnet_style_require_accessibility_modifiers = never
+class MyClass 
+{
+    const string thisFieldIsConst= "constant";
+}
+```
+
+**csharp_preferred_modifier_order**  
+When this rule is set to a list of modifiers, prefer the specified ordering.  
+When this rule is omitted from the file, do not prefer a modifier order.
+
+Code examples:  
+
+```csharp
+// csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async
+class MyClass 
+{
+    private static readonly int _daysInYear = 365;
+}
+```
+
+**visual_basic_preferred_modifier_order**  
+When this rule is set to a list of modifiers, prefer the specified ordering.  
+When this rule is omitted from the file, do not prefer a modifier order.
+
+Code examples:  
+
+```vb
+' visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async
+Public Class MyClass
+    Private Shared ReadOnly daysInYear As Int = 365
+End Class
+
+```
+
+These rules could appear in an .editorconfig file as follows:  
+
+```
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
+dotnet_style_require_accessibility_modifiers = always:suggestion
+
+# CSharp code style settings:
+[*.cs]
+csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
+
+# Visual Basic code style settings:
+[*.vb]
+visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
 ``` 
 
 #### <a name="expression_level">Expression-level preferences</a>  
@@ -486,96 +573,126 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:none | Visual Studio 2017 RTW |
-| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:none | Visual Studio 2017 RTW |
-| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:none | Visual Studio 2017 RTW |
-| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | true:none | Visual Studio 2017 RTW |
-| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | true:none | Visual Studio 2017 RTW |
-| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | true:none | Visual Studio 2017 RTW |  
+| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | never:none | Visual Studio 2017 15.3 |
+| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | never:none | Visual Studio 2017 15.3 |
+| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | never:none | Visual Studio 2017 15.3 |
+| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |
+| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |
+| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | when_possible:none | Visual Studio 2017 15.3 |  
 
 **csharp\_style\_expression\_bodied_methods**  
-When this rule is set to **true**, prefer expression-bodied members for methods.  
-When this rule is set to **false**, do not prefer expression-bodied members for methods.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for methods |
+| when_on_single_line | Prefer expression-bodied members for methods when they will be a single line |
+| never | Prefer block bodies for methods | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_methods = true
+// csharp_style_expression_bodied_methods = when_possible
 public int GetAge() => this.Age;
 
-// csharp_style_expression_bodied_methods = false
+// csharp_style_expression_bodied_methods = never
 public int GetAge() { return this.Age; }
 ```  
 
 **csharp\_style\_expression\_bodied_constructors**  
-When this rule is set to **true**, prefer expression-bodied members for constructors.  
-When this rule is set to **false**, do not prefer expression-bodied members for constructors.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for constructors |
+| when_on_single_line | Prefer expression-bodied members for constructors when they will be a single line |
+| never | Prefer block bodies for constructors |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_constructors = true
+// csharp_style_expression_bodied_constructors = when_possible
 public Customer(int age) => Age = age;
 
-// csharp_style_expression_bodied_constructors = false
+// csharp_style_expression_bodied_constructors = never
 public Customer(int age) { Age = age; }
 ```  
 
 **csharp\_style\_expression\_bodied_operators**  
-When this rule is set to **true**, prefer expression-bodied members for operators.  
-When this rule is set to **false**, do not prefer expression-bodied members for operators.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for operators |
+| when_on_single_line | Prefer expression-bodied members for operators when they will be a single line |
+| never | Prefer block bodies for operators |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_operators = true
+// csharp_style_expression_bodied_operators = when_possible
 public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
     => new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);
 
-// csharp_style_expression_bodied_operators = false
+// csharp_style_expression_bodied_operators = never
 public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
 { return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary); }
 ```  
 
 **csharp\_style\_expression\_bodied_properties**  
-When this rule is set to **true**, prefer expression-bodied members for properties.  
-When this rule is set to **false**, do not prefer expression-bodied members for properties.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for properties |
+| when_on_single_line | Prefer expression-bodied members for properties when they will be a single line |
+| never | Prefer block bodies for properties |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_properties = true
+// csharp_style_expression_bodied_properties = when_possible
 public int Age => _age;
 
-// csharp_style_expression_bodied_properties = false
+// csharp_style_expression_bodied_properties = never
 public int Age { get { return _age; }}
 ```  
 
 **csharp\_style\_expression\_bodied_indexers**  
-When this rule is set to **true**, prefer expression-bodied members for indexers.  
-When this rule is set to **false**, do not prefer expression-bodied members for indexers.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for indexers |
+| when_on_single_line | Prefer expression-bodied members for indexers when they will be a single line |
+| never | Prefer block bodies for indexers | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_indexers = true
+// csharp_style_expression_bodied_indexers = when_possible
 public T this[int i] => _value[i];
 
-// csharp_style_expression_bodied_indexers = false
+// csharp_style_expression_bodied_indexers = never
 public T this[int i] { get { return _values[i]; } }
 ```  
 
 **csharp\_style\_expression\_bodied_accessors**  
-When this rule is set to **true**, prefer expression-bodied members for accessors.  
-When this rule is set to **false**, do not prefer expression-bodied members for accessors.  
+This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+
+| Value | Description |
+| ----- |:----------- |
+| when_possible | Prefer expression-bodied members for accessors |
+| when_on_single_line | Prefer expression-bodied members for accessors when they will be a single line |
+| never | Prefer block bodies for accessors | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_accessors = true
+// csharp_style_expression_bodied_accessors = when_possible
 public int Age { get => _age; set => _age = value; }
 
-// csharp_style_expression_bodied_accessors = false
+// csharp_style_expression_bodied_accessors = never
 public int Age { get { return _age; } set { _age = value; } }
 ```  
 
@@ -584,12 +701,12 @@ Example .editorconfig file:
 ```
 # CSharp code style settings:
 [*.cs]
-csharp_style_expression_bodied_methods = false:none
-csharp_style_expression_bodied_constructors = false:none
-csharp_style_expression_bodied_operators = false:none
-csharp_style_expression_bodied_properties = true:none
-csharp_style_expression_bodied_indexers = false:none
-csharp_style_expression_bodied_accessors = false:none
+csharp_style_expression_bodied_methods = never:none
+csharp_style_expression_bodied_constructors = never:none
+csharp_style_expression_bodied_operators = never:none
+csharp_style_expression_bodied_properties = when_possible:suggestion
+csharp_style_expression_bodied_indexers = when_possible:suggestion
+csharp_style_expression_bodied_accessors = when_possible:suggestion
 ```  
 
 #### <a name="pattern_matching">Pattern matching</a>
@@ -659,7 +776,7 @@ Code examples:
 // csharp_style_inlined_variable_declaration = true
 if (int.TryParse(value, out int i) {...}
 
-// csharp_style_inlined_variable_declaration = fale
+// csharp_style_inlined_variable_declaration = false
 int i;
 if (int.TryParse(value, out i) {...}
 ```
@@ -673,15 +790,19 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
 #### <a name="expression_level_csharp">Expression-level preferences</a>
-This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.  
+The style rules in this section concern expression-level preferences, including the use of [default expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), deconstructed variables, and local functions over anonymous functions.  
 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:  
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
 | csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | Visual Studio 2017 v. 15.3 |
+| csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
+| csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | Visual Studio 2017 v. 15.5 |
 
 **csharp\_prefer\_simple\_default_expression**  
+This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.  
+
 When this rule is set to **true**, prefer `default` over `default(T)`.  
 When this rule is set to **false**, prefer `default(T)` over `default`.  
 
@@ -695,12 +816,57 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 ```
 
+**csharp\_style\_deconstructed\_variable_declaration**  
+When this rule is set to **true**, prefer deconstructed variable declaration.  
+When this rule is set to **false**, do not prefer deconstruction in variable declarations.  
+
+Code examples:  
+
+```csharp 
+// csharp_style_deconstructed_variable_declaration = true
+var (name, age) = GetPersonTuple();
+Console.WriteLine($"{name} {age}");
+
+(int x, int y) = GetPointTuple();
+Console.WriteLine($"{x} {y}");
+
+// csharp_style_deconstructed_variable_declaration = false
+var person = GetPersonTuple();
+Console.WriteLine($"{person.name} {person.age}");
+
+(int x, int y) point = GetPointTuple();
+Console.WriteLine($"{point.x} {point.y}");
+```
+
+**csharp\_style\_pattern\_local\_over\_anonymous_function**  
+When this rule is set to **true**, prefer local functions over anonymous functions.  
+When this rule is set to **false**, prefer anonymous functions over local functions.  
+
+Code examples:  
+
+```csharp 
+// csharp_style_pattern_local_over_anonymous_function = true
+int fibonacci(int n)
+{
+    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
+}
+
+// csharp_style_pattern_local_over_anonymous_function = false
+Func<int, int> fibonacci = null;
+fibonacci = (int n) =>
+{
+    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+};
+```
+
 Example .editorconfig file:  
 
 ```
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
+csharp_style_deconstructed_variable_declaration = true:suggestion
+csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ``` 
 
 #### <a name="null_checking">"Null" checking preferences</a>
