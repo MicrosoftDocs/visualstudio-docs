@@ -15,8 +15,8 @@ f1_keywords:
   - "_At_buffer_"
 ms.assetid: 8e4f4f9c-5dfa-4835-87df-ecd1698fc650
 caps.latest.revision: 7
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
 ---
 # Specifying When and Where an Annotation Applies
