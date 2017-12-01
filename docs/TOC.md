@@ -46,7 +46,7 @@
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
 ## Visual Basic: create a console app
 ## [C++: create a console app](ide/quickstart-cpp.md)
-## Python: create a web app
+## [Python: create a web app](ide/quickstart-python.md)
 ## [Node.js: create a web app](ide/quickstart-nodejs.md)
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)

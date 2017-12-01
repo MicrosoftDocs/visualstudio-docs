@@ -30,7 +30,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
     If you don't see the Python project templates, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools > Get Tools and Features...** to open the Visual Studio Installer. Choose the **Python development** workload, then choose **Modify**.
 
-    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
+    ![Python development workload in the Visual Studio installer](../python/media/installation-python-workload.png)
 
 1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
