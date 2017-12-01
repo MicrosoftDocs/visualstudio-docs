@@ -92,6 +92,6 @@ If you are coming from another IDE or coding environment, you may find installin
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
-| **Ctrl+\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+| **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 
 
