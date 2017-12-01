@@ -83,6 +83,7 @@
 #### [How ClickOnce Performs Application Updates](how-clickonce-performs-application-updates.md)
 #### [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)
 #### [How to: Specify an Alternate Location for Deployment Updates](how-to-specify-an-alternate-location-for-deployment-updates.md)
+### [ClickOnce Deployment Samples and Walkthroughs](clickonce-deployment-samples-and-walkthroughs.md)
 ### [Troubleshooting ClickOnce Deployments](troubleshooting-clickonce-deployments.md)
 #### [How to: Set a Custom Log File Location for ClickOnce Deployment Errors](how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors.md)
 #### [How to: Specify Verbose Log Files for ClickOnce Deployments](how-to-specify-verbose-log-files-for-clickonce-deployments.md)
@@ -106,7 +107,6 @@
 #### [<PackageFiles> Element (Bootstrapper)](packagefiles-element-bootstrapper.md)
 #### [<Strings> Element (Bootstrapper)](strings-element-bootstrapper.md)
 #### [<Schedules> Element (Bootstrapper)](schedules-element-bootstrapper.md)
-## [ClickOnce Deployment Samples and Walkthroughs](clickonce-deployment-samples-and-walkthroughs.md)
 # Reference
 ## [ClickOnce Reference](clickonce-reference.md)
 ### [ClickOnce Application Manifest](clickonce-application-manifest.md)

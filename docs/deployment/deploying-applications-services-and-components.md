@@ -47,7 +47,7 @@ See the Tutorials for step-by-step instructions.
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
 
-    Right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and follow the configuration steps.
+    In Solution Explorer, right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and follow the configuration steps.
 
     ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png)
 
@@ -59,15 +59,13 @@ See the Tutorials for step-by-step instructions.
 
 ### Publish to Azure
 
-- **Azure App Service**: You can use the Publish tool to quickly deploy ASP.NET, ASP.NET Core, Python, and .NET Core apps to Azure App Service. Right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and then follow the configuration steps.
+- **ASP.NET, ASP.NET Core, Python, Node.js, and .NET Core** web applications: You can use the Publish tool to quickly deploy apps to Azure App Service or to an Azure Virtual Machine. In Solution Explorer, right-click the project and choose **Publish**. In the Publish dialog box, choose either **Microsoft Azure App Service** or **Microsoft Azure Virtual Machines**, and then follow the configuration steps.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md).
+    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment).
 
-- **ASP.NET Core**: See [Publish an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment).
-
-- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/en-us/azure/#pivot=products) documentation for different deployment options.
+- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/en-us/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
 
@@ -83,11 +81,13 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 ### Create an Installer package (Windows client)
 
-- An MSI-based WiX installer can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). Note that InstallShield Limited Edition is no longer included with Visual Studio; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about availability for Visual Studio 2017.
+- An MSI-based WiX installer can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension).
+
+- [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements) from Flexera Software may be used with Visual Studio 2017 (Community Edition not supported). Note that InstallShield Limited Edition is no longer included with Visual Studio and is not supported in Visual Studio 2017; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about future availability.
+
+- If you want to create a Setup project (vdproj), install the [Visual Studio 2017 Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
 - You can install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper. For more information, see [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md).
-
-- If you want to create a Setup project (vdproj), install the [Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
 ### Deploy to test lab
 
