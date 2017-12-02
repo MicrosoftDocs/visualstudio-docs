@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 10/09/2017
+ms.date: 12/01/2017
 ms.topic: article
 helpviewer_keywords: 
   - "workload ID, Visual Studio"
@@ -40,6 +40,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.0.26606.0 | Required
+Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
 
 ## Unaffiliated components
 
