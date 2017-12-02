@@ -16,9 +16,11 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Publish an ASP.NET app to a web site using Visual Studio
+# Publish a web app or a .NET Core app to a web site using the Visual Studio Publish tool
 
 You can use the **Publish** dialog box to publish ASP.NET apps to a website.
+
+These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual Studio. For Node.js, the steps are supported but the dialog boxes are different.
 
 ## Create a new project 
 

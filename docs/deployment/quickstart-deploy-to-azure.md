@@ -18,7 +18,7 @@ manager: "ghogen"
 ---
 # Publish an ASP.NET or ASP.NET Core app to Azure App Service using Visual Studio
 
-You can use the **Publish** dialog box to publish ASP.NET and ASP.NET Core apps to Azure App Service.
+You can use the **Publish** dialog box to publish ASP.NET, ASP.NET Core, Python, Node.js, and .NET Core apps to Azure App Service.
 
 ## Create a new project 
 
