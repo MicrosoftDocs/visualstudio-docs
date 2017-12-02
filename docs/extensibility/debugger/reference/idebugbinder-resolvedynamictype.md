@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugBinder::ResolveDynamicType method"
 ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBinder::ResolveDynamicType
 This method returns the exact type of a variable.  

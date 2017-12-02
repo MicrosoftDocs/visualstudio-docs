@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "WriteAt method"
 ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugMemoryBytes2::WriteAt
 Writes the specified number of bytes of memory, starting at the specified address.  

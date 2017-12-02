@@ -16,7 +16,7 @@ ms.assetid: 8ce4dd50-ca29-4c72-98d6-582693f7d501
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # marker_series::is_enabled Method
 Determines if any session has enabled the provider.  

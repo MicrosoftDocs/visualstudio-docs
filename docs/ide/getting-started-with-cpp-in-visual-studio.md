@@ -12,7 +12,7 @@ ms.assetid: 99c73344-86ba-4b08-9e15-f6111cc04185
 caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started with C++ in Visual Studio
 By completing this walkthrough, you'll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  

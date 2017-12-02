@@ -16,7 +16,7 @@ ms.assetid: e9c43554-9a85-4d98-9fa4-3b19986e7b62
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 |||  

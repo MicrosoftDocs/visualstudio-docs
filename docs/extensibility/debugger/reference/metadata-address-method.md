@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_METHOD structure"
 ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # METADATA_ADDRESS_METHOD
 This structure represents the address of a method of a class.  

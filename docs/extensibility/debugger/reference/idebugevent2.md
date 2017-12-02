@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugEvent2 interface"
 ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugEvent2
 This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message.  

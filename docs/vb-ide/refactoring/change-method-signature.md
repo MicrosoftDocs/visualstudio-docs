@@ -12,7 +12,7 @@ ms.devlang: VB
 ms.assetid: 64b37bca-92b8-4154-9d65-54073e5740fc
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"

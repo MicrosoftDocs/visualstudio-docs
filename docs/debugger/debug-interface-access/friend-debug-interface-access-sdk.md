@@ -18,7 +18,7 @@ ms.assetid: 5147a170-41ce-4727-8ace-c318e8d11647
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Friend (Debug Interface Access SDK)
 Friend classes and friend functions are identified by `SymTagFriend` symbols. They are children of parent user-defined types (UDTs) and have a [IDiaSymbol::get_classParent](../../debugger/debug-interface-access/idiasymbol-get-classparent.md) property.  

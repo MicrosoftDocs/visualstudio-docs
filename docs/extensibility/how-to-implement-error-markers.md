@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - error markers"
 ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Implement Error Markers
 Error markers (or red wavy underlines) are the most difficult of the text editor customizations to implement. However, the benefits they give to users of your VSPackage can far outweigh the cost to provide them. Error markers subtly mark text that your language parser deems incorrect with a squiggly or wavy red line. This indicator helps programmers by visually displaying incorrect code.  

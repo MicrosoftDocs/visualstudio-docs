@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "Enable method"
 ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::Enable
 Toggles the enabled state of the pending breakpoint.  

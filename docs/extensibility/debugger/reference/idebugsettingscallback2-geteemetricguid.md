@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricGuid"
 ms.assetid: 3d70c19a-595d-44f1-a7b3-a0cf8f15e371
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 Retrieves the unique identifier for a expression evaluator metric given its name.  

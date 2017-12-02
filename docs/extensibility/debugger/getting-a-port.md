@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], ports"
 ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting a Port
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).  

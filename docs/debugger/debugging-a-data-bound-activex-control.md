@@ -21,7 +21,7 @@ ms.assetid: 9f6e1f00-e25b-48a9-8484-7e67a1232461
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debugging a Data-Bound ActiveX Control
 If you are developing an ActiveX control that will be bound to a data source control, you can create your own container application and use that container to debug the ActiveX control.  

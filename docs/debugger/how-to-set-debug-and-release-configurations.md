@@ -35,7 +35,7 @@ ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Set debug and release configurations in Visual Studio
 Visual Studio projects have separate release and debug configurations for your program. As the names imply, you build the debug version for debugging and the release version for the final release distribution.  
@@ -110,7 +110,7 @@ For detailed information on project settings for debug configurations in C#, see
     The symbol file(s) get created in the same folder as the executable or the main output file.
   
 ## See Also  
- [Specify symbol (.pdb) files and source files in the  Visua Studio debugger](../debugger/debugger-settings-and-preparation.md)
+ [Specify symbol (.pdb) files and source files in the  Visua Studio debugger](../debugger/debugger-settings-and-preparation.md)  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   

@@ -15,7 +15,7 @@ ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Set Current Process
 Sets the specified process as the active process in the debugger.  

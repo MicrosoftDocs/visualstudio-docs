@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::SetCondition method"
 ms.assetid: 5d366876-efed-43d0-8ea1-dfdb009cbfac
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugBoundBreakpoint2::SetCondition
 Sets or changes the condition associated with this bound breakpoint.  

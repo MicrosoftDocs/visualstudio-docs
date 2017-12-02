@@ -14,7 +14,7 @@ ms.assetid: a14c4d32-f079-4f3a-956c-a1657cde0f66
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute
 |||  

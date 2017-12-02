@@ -16,7 +16,7 @@ ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  

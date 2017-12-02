@@ -19,7 +19,7 @@ ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Options, Text Editor, File Extension
 This Options dialog allows you to specify how all files with certain file extensions will be handled by the Visual Studio integrated development environment (IDE). For each **Extension** that you enter, you can select an Editing Experience. This allows you to choose the IDE editor or designer in which documents of a certain type will open. To display these options, choose **Options** from the **Tools** menu, expand the **Text Editor** node, and select **File Extension**.  
@@ -42,7 +42,7 @@ This Options dialog allows you to specify how all files with certain file extens
  **Remove**  
  Deletes the selected entry from the Extension List.  
   
- Extension List  
+ **Extension List**  
  Lists all extensions for which an Editing Experience has been specified.  
   
  **Map extensionless files to**  

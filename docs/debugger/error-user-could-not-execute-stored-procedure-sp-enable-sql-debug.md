@@ -19,7 +19,7 @@ ms.assetid: 11957495-c238-4cc5-8937-e4026f5e10e1
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:  

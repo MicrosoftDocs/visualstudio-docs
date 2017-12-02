@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Visual Studio Documentation
+title: Visual Studio Documentation | Microsoft Docs
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ---
 <div id="main" class="v2">

@@ -11,7 +11,7 @@ ms.assetid: 21dcf46e-5d6d-439c-90e3-3d678e50c5a6
 caps.latest.revision: 4
 author: "ghogen"
 ms.author: "ghogen"
-manager: "ghogen"
+manager: ghogen
 ---
 # Visual Studio Tools for Apache Cordova
 Build apps that run on iOS, Android, and Windows devices and share nearly 100% of your code. Build them with your favorite web technologies. Apache Cordova gives you native access to device capabilities like the camera on a phone, and best of all, it's free. Visual Studio adds these extras to make it even easier to build your app:  

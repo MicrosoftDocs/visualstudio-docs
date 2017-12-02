@@ -18,7 +18,7 @@ ms.assetid: 26967aaf-6fbe-438a-b4d3-ac579b5dc0f9
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2227: Collection properties should be read only
 |||  

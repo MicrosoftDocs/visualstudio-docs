@@ -22,7 +22,7 @@ ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Edit and Continue Error Message Dialog Box
 This dialog box appears when you are debugging in a language that supports Edit and Continue, but **Edit and Continue** is not available for the type of code changes you have made. The error message inside the box provides a more detailed explanation. Possible reasons for seeing this dialog box include:  
@@ -58,5 +58,5 @@ This dialog box appears when you are debugging in a language that supports Edit 
  Exit the dialog box and cancel the immediately preceding edit attempt.  
   
 ## See Also  
- [C++ Edit and Continue blog post](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/)
+ [C++ Edit and Continue blog post](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/)  
  [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

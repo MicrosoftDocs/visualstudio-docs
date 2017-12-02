@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "solution user options (.suo) file"
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Solution User Options (.Suo) File
 The solution user options (.suo) file contains per-user solution options. This file should not be checked in to source code control.  

@@ -15,8 +15,9 @@ helpviewer_keywords:
   - "CanBind method"
 ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::CanBind
 Determines whether this pending breakpoint can bind to a code location.  

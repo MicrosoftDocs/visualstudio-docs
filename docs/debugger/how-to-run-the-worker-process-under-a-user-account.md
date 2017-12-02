@@ -23,7 +23,7 @@ ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Run the Worker Process Under a User Account
 To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.  

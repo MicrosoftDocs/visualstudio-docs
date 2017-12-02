@@ -12,8 +12,9 @@ helpviewer_keywords:
   - "IDebugWindowsComputerPort2 interface"
 ms.assetid: 25f327b8-0303-4268-88d1-74df630436aa
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugWindowsComputerPort2
 Allows querying for information about the target computer.  

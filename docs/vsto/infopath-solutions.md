@@ -23,7 +23,7 @@ ms.assetid: 20ac6bee-b17f-4217-9f78-11304a11236a
 caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # InfoPath Solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office InfoPath 2013 and InfoPath 2010. InfoPath is not available in Office 2016.  

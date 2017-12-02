@@ -1,7 +1,7 @@
 ---
 title: "Designing User Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/17/2017
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,7 +12,7 @@ ms.assetid: 880da508-7573-4434-b3a0-d48cf003c0a9
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Designing User Interfaces
 You can create and design the user interface for your application by using a variety of tools in Visual Studio.

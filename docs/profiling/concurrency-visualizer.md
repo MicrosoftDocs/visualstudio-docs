@@ -19,12 +19,13 @@ ms.assetid: ae5879a0-1e1a-455a-ba72-148e57f59289
 caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Concurrency Visualizer
 > [!NOTE]
 >  The Concurrency Visualizer is an optional extension to Visual Studio. Download the Concurrency Visualizer and the Concurrency Visualizer Collection Tools from the following links:  
 >   
+>  -   Download the              [Concurrency Visualizer for Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ConcurrencyVisualizer2017#overview) extension.  
 >  -   Download the              [Concurrency Visualizer for Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/a6c24ce9-beec-4545-9261-293061436ee9) extension.  
 > -   Download the              [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103).  
 >   
@@ -33,7 +34,7 @@ manager: "ghogen"
  You can use the Concurrency Visualizer to see how your multithreaded app performs. The views in the Concurrency Visualizer provide graphical, tabular, and textual data that shows the temporal relationships between the threads in your program and the system as a whole. You can use the Concurrency Visualizer to locate performance bottlenecks, CPU underutilization, thread contention, cross-core thread migration, synchronization delays, DirectX activity, areas of overlapped I/O, and other information. The views provide data that you can act on by linking its graphical output to call stacks and source code.  
 
 > [!NOTE]
->  The Concurrency Visualizer is not yet available for Visual Studio 2017. The Concurrency Visualizer doesn't support Web projects.  
+>  The Concurrency Visualizer doesn't support Web projects.  
   
  The Concurrency Visualizer relies on [Event Tracing for Windows](http://go.microsoft.com/fwlink/?LinkId=234579) functionality.  
   
@@ -51,5 +52,5 @@ manager: "ghogen"
 |[Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|  
   
 ## See Also  
- [Profiling in Visual Studio](../profiling/index.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

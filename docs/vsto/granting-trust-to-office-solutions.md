@@ -20,7 +20,7 @@ ms.assetid: 6c33e614-d367-4556-9e76-0f302ad0f929
 caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Granting Trust to Office Solutions
   Granting trust to Office solutions means modifying the security policy of each target computer to trust the solution assembly, application manifest, deployment manifest, and document. Trust can be granted to the Office solution by either you or the end user.  

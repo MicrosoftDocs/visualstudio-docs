@@ -14,9 +14,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Graphics_Diagnostics.Capture"
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 caps.latest.revision: 41
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # Capturing Graphics Information
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  
@@ -75,7 +75,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 ## Capturing graphics information remotely  
  Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](../includes/winblue_client_2_md.md)] machines and [!INCLUDE[winblue_winrt_2](../includes/winblue_winrt_2_md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
   
- How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../remote-debugging.md).  
+ How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a UWP app, see [Run UWP apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../remote-debugging.md).  
   
  Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md).  
   

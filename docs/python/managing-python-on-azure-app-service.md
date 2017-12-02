@@ -1,7 +1,7 @@
 ---
 title: "Managing Python on Azure App Service | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/13/2017
+ms.date: 09/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e56b5d55-6e6b-48af-af40-5172c768cabc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Managing Python on Azure App Service
@@ -210,5 +209,5 @@ Instead of using the Kudu console through the Azure portal, you can run commands
 
 For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). 
 
-You can also see credentials using the `az webapp deployment list-publishing-profiles` command through the Azure CLI (see [az webapp deployment](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles). A helper library for posting Kudu commands is available on GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
+You can also see credentials using the `az webapp deployment list-publishing-profiles` command through the Azure CLI (see [az webapp deployment](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles)). A helper library for posting Kudu commands is available on [GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
 

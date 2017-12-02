@@ -11,13 +11,12 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
-  - 
+# helpviewer_keywords: 
 ms.assetid: 3faf9312-8ab4-4960-b2e7-8ca9859a3dcf
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # IManagedAddin::Load
   Called when a managed VSTO Add-in is loaded.  

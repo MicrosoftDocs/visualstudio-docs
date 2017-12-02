@@ -17,7 +17,7 @@ ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # List Disassembly Command
 Begins the debug process and allows you to specify how errors are handled.  

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3 interface"
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProperty3
 This interface provides support for:  

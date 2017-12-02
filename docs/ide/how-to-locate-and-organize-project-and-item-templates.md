@@ -19,7 +19,7 @@ ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Locate and Organize Project and Item Templates
 Template files must be placed in a location that Visual Studio recognizes so that the templates will appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates so that the subcategories will also appear in the user interface.  

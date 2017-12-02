@@ -16,7 +16,7 @@ ms.assetid: a77dcafa-ea3f-45da-826d-8f9b4489a03f
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaSymbol::get_upperBound
 Retrieves a symbol representing the upper bound of a FORTRAN array dimension.  

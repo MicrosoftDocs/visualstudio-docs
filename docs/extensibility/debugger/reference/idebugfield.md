@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugField interface"
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField
 This interface represents a field, that is, a description of a symbol or type.  

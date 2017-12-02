@@ -16,7 +16,7 @@ ms.assetid: bfe5fe27-6a84-4392-910f-e325146d7552
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDiaEnumSymbols::Next
 Retrieves a specified number of symbols in the enumeration sequence.  

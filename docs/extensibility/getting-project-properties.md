@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "tool windows, displaying project propeties"
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Project Properties
 This walkthrough shows how to displays project properties in a tool window.  

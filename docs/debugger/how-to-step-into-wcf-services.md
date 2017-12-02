@@ -20,7 +20,7 @@ ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Step into WCF Services
 In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], you can step into a WCF service. If the WCF service is in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution as the client, you can hit breakpoints inside the WCF Service.  

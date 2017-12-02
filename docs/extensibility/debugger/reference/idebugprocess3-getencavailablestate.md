@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess3::GetENCAvailableState"
 ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugProcess3::GetENCAvailableState
 This method gets the current Edit and Continue state of the process. A custom port supplier should always return `E_NOTIMPL`.  

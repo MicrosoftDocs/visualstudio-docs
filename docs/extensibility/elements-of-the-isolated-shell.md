@@ -1,4 +1,5 @@
 ---
+redirect_url: shell/elements-of-the-isolated-shell
 title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -12,8 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode"
 ms.assetid: f8d68c3d-9134-4a8f-b566-485956cd321e
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Elements of the Isolated Shell
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  

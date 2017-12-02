@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugField::GetInfo method"
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugField::GetInfo
 This method gets displayable information about the field.  

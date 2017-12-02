@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "BP_PASSCOUNT structure"
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BP_PASSCOUNT
 Describes the count and conditions upon which a conditional breakpoint is fired.  

@@ -1,5 +1,5 @@
 ---
-title: "Uninstalling Visual Studio for Mac"
+title: "Uninstalling Visual Studio for Mac | Microsoft Docs"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
 author: asb3993
 ms.author: amburns
@@ -62,6 +62,7 @@ rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Developer/Xamarin
+rm -rf "~/Library/Application Support/VisualStudio"
 ```
 
 ## Uninstall Mono SDK (MDK)

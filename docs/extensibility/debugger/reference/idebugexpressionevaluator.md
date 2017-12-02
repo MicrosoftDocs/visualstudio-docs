@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator interface"
 ms.assetid: 0636d8c3-625a-49fa-94b6-516f22b7e1bc
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator
 > [!IMPORTANT]

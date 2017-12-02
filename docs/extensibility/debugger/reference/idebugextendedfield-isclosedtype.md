@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "IDebugExtendedField::IsClosedType"
 ms.assetid: 9136fc57-74ff-4fe4-a6e2-b137cb9d5b08
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # IDebugExtendedField::IsClosedType
 Determines if the field represents a closed type.  

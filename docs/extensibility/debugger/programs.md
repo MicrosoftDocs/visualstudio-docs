@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "programs, debugging"
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # Programs
 In terms of the debugger architecture, a **program**:  

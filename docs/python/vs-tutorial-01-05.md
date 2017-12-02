@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 5 | Microsoft Docs
 ms.custom: ""
-ms.date: 9/26/2017
+ms.date: 09/26/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: 69e51c46-9a10-4d6f-9f74-2d1385beb1ac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 5: Installing packages in your Python environment
@@ -36,6 +35,8 @@ The Python developer community has produced thousands of useful packages that yo
 
   ![Installing matplotlib in the environment](media/environments-add-matplotlib1.png)
 
+1. Consent to elevation if prompted to do so.
+ 
 1. After the package is installed, it appears in the Python Environments window. The **X** to the right of the package uninstalls it. 
 
   ![Completion of installing matplotlib in the environment](media/environments-add-matplotlib2.png)

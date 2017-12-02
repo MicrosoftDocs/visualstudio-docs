@@ -18,7 +18,7 @@ ms.assetid: 7b9b0bee-4e8e-49a4-8c40-52142b49061f
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # CA2219: Do not raise exceptions in exception clauses
 |||  

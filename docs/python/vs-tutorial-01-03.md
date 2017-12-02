@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: 5d6d12e4-f06a-4c3f-8efa-f9fd9711c942
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Step 3: Using the interactive REPL window

@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "BUILT_TYPE structure"
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
 ---
 # BUILT_TYPE
 This structure specifies information about a field type taken from metadata.  

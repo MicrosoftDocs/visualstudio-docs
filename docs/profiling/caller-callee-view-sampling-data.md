@@ -15,7 +15,7 @@ ms.assetid: 28e85ed5-1512-4b59-bb84-138a2abca7dd
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Caller / Callee View - Sampling Data
 The Caller/Callee view displays profiling information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
@@ -27,7 +27,7 @@ The Caller/Callee view displays profiling information for a selected function an
  **Functions that were called by the current function** is displayed in the bottom grid, and it shows profiling information for the callee (child) functions of the selected function when the child function was called by the current function.  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+>  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 |Column|Description|  
 |------------|-----------------|  

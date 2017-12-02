@@ -12,7 +12,7 @@ ms.assetid: 9f73593a-69a7-41b7-a21c-81d3ab0eb8fe
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Instrument a .NET Service and Collect Detailed Timing Data by Using the Profiler Command Line
 This topic describes how to use [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect detailed timing data.  

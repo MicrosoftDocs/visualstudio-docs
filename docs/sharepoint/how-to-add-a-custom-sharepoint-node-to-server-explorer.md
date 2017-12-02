@@ -18,7 +18,7 @@ ms.assetid: b992a192-f926-45e6-9416-85ddfe1061d0
 caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Custom SharePoint Node to Server Explorer
   You can add custom nodes under the **SharePoint Connections** node in **Server Explorer**. This is useful when you want to display additional SharePoint components that are not displayed in **Server Explorer** by default. For more information, see [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).  

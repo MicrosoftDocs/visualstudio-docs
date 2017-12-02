@@ -18,7 +18,7 @@ ms.assetid: bf714a04-ab1e-49ce-99ce-dda1ebb1a17f
 caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Encapsulate Field Refactoring (C#)
 The **Encapsulate Field** refactoring operation enables you to quickly create a property from an existing field, and then seamlessly update your code with references to the new property.  

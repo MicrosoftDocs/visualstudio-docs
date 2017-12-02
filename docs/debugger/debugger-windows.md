@@ -12,7 +12,7 @@ ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Learn about Debugger Windows in Visual Studio
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.  

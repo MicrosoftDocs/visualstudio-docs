@@ -20,7 +20,7 @@ ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Command Window
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
@@ -66,21 +66,9 @@ The **Command** window is used to execute commands or aliases directly in the [!
 ## The Equals (=) Sign  
  The window used to enter the `EvaluateStatement` command determines whether an equals sign (=) is interpreted as a comparison operator or as an assignment operator.  
   
- In the **Command** window, an equals sign (=) is interpreted as a comparison operator. You cannot use assignment operators in the **Command** window. So, for example, if the values of variables `varA` and `varB` are different, then the command  
+ In the **Command** window, an equals sign (=) is interpreted as a comparison operator. You cannot use assignment operators in the **Command** window. So, for example, if the values of variables `varA` and `varB` are different, then the command `>Debug.EvaluateStatement(varA=varB)` will return a value of `False`.  
   
-```  
->Debug.EvaluateStatement(varA=varB)  
-```  
-  
- will return a value of `False`.  
-  
- In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command  
-  
-```  
->Debug.EvaluateStatement(varA=varB)  
-```  
-  
- will assign to variable `varA` the value of variable `varB`.  
+ In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command `>Debug.EvaluateStatement(varA=varB)` will assign to variable `varA` the value of variable `varB`.  
   
 ## Parameters, Switches, and Values  
  Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
@@ -102,11 +90,11 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
     > [!NOTE]
     >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
   
- The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
+The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
   
- Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
+Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
   
- If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
+If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
   
 ## Escape Characters  
  A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,  
@@ -114,7 +102,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ```  
 >Edit.Find ^^t /regex  
 ```  
-  
+
  A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored. The example shown here demonstrates how to search for the pattern "^t".  
   
 ## Use Quotes for Path Names with Spaces  
