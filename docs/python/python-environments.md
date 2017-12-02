@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8876f8c1-4770-44dc-97d8-bf0035ae8196
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
@@ -18,9 +17,9 @@ manager: ghogen
 
 # Python environments
 
-Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. 
+Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects.
 
-Note: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
+**Note**: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
 
 - [Working with Python in Visual Studio](python-in-visual-studio.md)
 - [Installing Python support in Visual Studio](installation.md)
@@ -47,8 +46,8 @@ For a video introduction, see [Managing Python Environments](https://mva.microso
 
 Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio automatically detects newly installed interpreters and sets up an environment for each. If it does not detect an installed environment, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
 
-| Interpreter | Description | 
-| --- | --- | 
+| Interpreter | Description |
+| --- | --- |
 | [CPython](https://www.python.org/) | The "native" and most commonly-used interpreter, available in 32-bit and 64-bit versions (32-bit recommended). Includes the latest language features, maximum Python package compatibility, full debugging support, and interop with [IPython](http://ipython.org/). See also: [Should I use Python 2 or Python 3?](http://wiki.python.org/moin/Python2orPython3). Note that Visual Studio 2015 and earlier do not support Python 3.6 and can give the error "Unsupported python version 3.6". Use Python 3.5 or earlier instead. |
 | [IronPython](https://github.com/IronLanguages/main) | A .NET implementation of Python, available in 32-bit and 64-bit versions, providing C#/F#/Visual Basic interop, access to .NET APIs, standard Python debugging (but not C++ mixed-mode debugging), and mixed IronPython/C# debugging. IronPython, however, does not support virtual environments. | 
 | [Anaconda](https://www.continuum.io) | An open data science platform powered by Python, and includes the latest version of CPython and most of the difficult-to-install packages. We recommend it if you can't otherwise decide. |
@@ -65,7 +64,7 @@ To open the Python Environments window, do one of the following:
 1. Right-click the **Python Environments** for a project in Solution Explorer and select **View All Python Environments**:
 
     ![View All Environments command in Solution Explorer](media/environments-view-all.png)
-    
+
 In either case, the Python Environments window appears as a sibling tab to Solution Explorer:
 
 ![Python Environments window](media/environments-default-view.png)
@@ -84,7 +83,7 @@ The example above shows that Python 3.4 (32-bit CPython) is installed along with
 
 Visual Studio normally locates an installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)). However, Visual Studio may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
 
-1. Select **+ Custom...** in the Environments Window, which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
+1. Select **+ Custom...** in the [Python Environments window](#managing-python-environments-in-visual-studio), which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
     ![Default view for a new custom environment](media/environments-custom-1.png)
 
@@ -127,7 +126,6 @@ Startup scripts contain code that the interactive window loads and runs automati
 
 1. The **Scripts** control in **Tools > Options > Python Tools > Interactive Windows** tab (see [Interactive windows options](options.md#interactive-windows-options)) is intended to specify an additional folder for startup scripts that are loaded and run in all environments. However, this feature doesn't work at present.
 
-
 ### Configure tab
 
 If shown, contains details as described in the table below. If this tab isn't present, it means that Visual Studio is managing all the details automatically.
@@ -164,7 +162,6 @@ Selecting **Always elevate when installing or removing packages** prevents the d
 
 In that same options tab, you can also select **Always run pip as administrator** to suppress the dialog for all environments. See [Options - General tab](options.md#general-options).
 
-
 ### IntelliSense tab
 
 Shows the current status of the IntelliSense completion database:
@@ -177,7 +174,7 @@ Libraries for which data haven't been compiled are marked with a **!**; if an en
 
 ## Global environments
 
-Global (or system-wide) environments are available to all of your projects on a machine. Visual Studio usually detects global environments automatically, and they can be viewed in the Python Environments window. If not, you can add an environment manually as described earlier under [Managing Python environments in Visual Studio](#managing-python-environments-in-visual-studio).
+Global (or system-wide) environments are available to all of your projects on a machine. Visual Studio usually detects global environments automatically, and they can be viewed in the [Python Environments window](#managing-python-environments-in-visual-studio). If not, you can add an environment manually through that same window.
 
 Visual Studio uses the default environment for all new projects for executing, debugging, checking syntax, displaying import and member completions, and any other tasks that require an environment. Changing the default environment affects all projects that have not had a [project-specific environment](#project-specific-environments) added, as described next.
 
@@ -206,7 +203,6 @@ To install new packages, right-click the environment, select **Install Python Pa
 
 > [!Tip]
 > A common situation where pip fails to install a package is when the package includes source code for native components in `*.pyd` files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is `error: Unable to find vcvarsall.bat`. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [http://aka.ms/VCPython27](http://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
-
 
 ## Virtual Environments
 
@@ -240,11 +236,11 @@ If you're sharing a project with others, using a build system, or plan to [publi
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for `requirements.txt`:
 
-- If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, right-click the project and select **Install from requirements.txt**:
+- If you've loaded a project that contains `requirements.txt` and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then right-click an environment node and select **Install from requirements.txt**:
 
     ![Install from requirements.txt](media/environments-requirements-txt-install.png)
 
-- When you have all the necessary packages installed in a project, you can right-click the project in Solution Explorer and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
+- If you already have all the necessary packages installed in a project, you can right-click an environment in Solution Explorer and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
 
     ![Update requirements.txt options](media/environments-requirements-txt-replace.png)
 
