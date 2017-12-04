@@ -55,9 +55,9 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)  
 
-     (If you don't see the Properties window, you can you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
+     (If you don't see the Properties window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
 
-5. In the **Design** section of the of the **Properties** window, change the name from "Button1" to "btnClickThis", and then press **Enter**.
+5. In the **Design** section of the **Properties** window, change the name from "Button1" to "btnClickThis", and then press **Enter**.
 
      ![Add a function to the button on the form](../ide/media/vb-button-control-function.png)
 
@@ -66,7 +66,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. Select the **Label** control from the Toolbox window, and then drag it onto the form and drop it beneath the "Click this" button.
 
-2. In the **Design** section of the of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
+2. In the **Design** section of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
 
 ### Add code to the form
 
@@ -79,7 +79,7 @@ Now that we've added a button control to create an action, let's add a label con
      ![Add code to the form form](../ide/media/vb-add-code-to-the-form.png)
 
 ## Run the application
-1. Click the **Start** to run the application.
+1. Click the **Start** button to run the application.
 
      ![Click Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
 
