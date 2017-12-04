@@ -7,8 +7,6 @@ ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 74e26fd4-e5ca-4611-a816-0a521b4947a0
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -21,7 +19,7 @@ You can either add a code snippet at a particular location in your code (inserti
 
 ## Inserting a code snippet
 
- To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere inside the file, and do one of the following:
+To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere inside the file, and do one of the following:
 
 - Right-click to get the context menu and select **Insert Snippet**
 
@@ -29,7 +27,7 @@ You can either add a code snippet at a particular location in your code (inserti
 
 - Use the hotkeys: **CTRL + K + X**
 
-You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:  
+You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:
 
 ```cpp
 #if 0
@@ -89,7 +87,7 @@ MyClass::~MyClass()
 }
 ```
 
-The classi code snippet also provides the definition of a class named MyClass, but the default constructor and destructor are defined inside the class definition:  
+The **classi** code snippet also provides the definition of a class named MyClass, but the default constructor and destructor are defined inside the class definition:
 
 ```cpp
 class MyClass
@@ -142,28 +140,32 @@ for (int i = length - 1; i >= 0; i--)
 ## The destructor snippet (~)
 
 The destructor snippet (**~**) shows different behavior in different contexts. If you insert this snippet inside a class, it provides a destructor for that class. For example, given the following code:
-  
-```cpp  
-class SomeClass {  
-  
-};  
-```  
-  
- If you insert the destructor snippet, it provides a destructor for SomeClass:  
-  
-```cpp  
-class SomeClass {  
-    ~SomeClass()  
-    {  
-  
-    }  
-};  
-```  
-  
- If you try to insert the destructor snippet outside a class, it provides a destructor with a placeholder name:  
-  
-```cpp  
-~TypeNamePlaceholder()  
-{  
-  
+
+```cpp
+class SomeClass {
+
+};
 ```
+
+If you insert the destructor snippet, it provides a destructor for SomeClass:
+
+```cpp
+class SomeClass {
+    ~SomeClass()
+    {
+
+    }
+};
+```
+
+If you try to insert the destructor snippet outside a class, it provides a destructor with a placeholder name:
+
+```cpp
+~TypeNamePlaceholder()
+{
+
+```
+
+## See also
+
+[Code snippets](../ide/code-snippets.md)
