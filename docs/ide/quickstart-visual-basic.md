@@ -27,14 +27,14 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 2. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **Windows Classic Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then, name the file `HelloWorld`.  
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **Windows Classic Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.  
 
      If you don't see the **Windows Forms App (.NET Framework)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.  
 
      ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)  
 
 ## Create the application
-After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.   
+After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.   
 
 ### Add a button to the form  
 
@@ -64,7 +64,7 @@ After you select your Visual Basic project template and name your file, Visual S
 ### Add a label to the form
 Now that we've added a button control to create an action, let's add a label control to send text to.
 
-1. Select the **Label** control from the Toolbox window, and then drag it onto the form and drop it beneath the "Click this" button.
+1. Select the **Label** control from the Toolbox window, and then drag it onto the form and drop it beneath the **Click this** button.
 
 2. In the **Design** section of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
 
@@ -83,7 +83,7 @@ Now that we've added a button control to create an action, let's add a label con
 
      ![Click Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
 
-   Several things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open, and an Output window will open, too. But outside of the IDE, a Form1 dialog box appears. It will include your "Click this" button and text that says "Label1".
+   Several things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open, and an Output window will open, too. But outside of the IDE, a Form1 dialog box appears. It will include your **Click this** button and text that says "Label1".
 
 2. Click the **Click this** button in the **Form1** dialog box. Notice that the "Label1" text changes to "Hello World!".
 
