@@ -22,26 +22,24 @@ Visual Studio Tools for Unity change log.
 
 ### New Features  
 
--   **Project Generation:**  
+-   **Integration:**  
 
     -   Unity projects are now automatically reloaded in Visual Studio when you add or remove a script from Unity.
-
-    -   Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 -   **Debugger:**  
 
     -   Added an option to use the Mono debugger shared by Xamarin and Visual Studio for Mac to debug the Unity Editor.
 
-    -   Added support for portable symbol files.
+    -   Added support for portable debug symbol files.
 
 ### Bug fixes  
 
--   **Visual Studio:**  
+-   **Integration:**  
 
     -   Fixed setup dependencies issues.
 
     -   Fixed Unity API help menu not showing.
-
+    
 -   **Project Generation:**  
 
     -   Fixed player project generation when working on a UWP game with the IL2CPP/.NET 4.6 backend.
@@ -49,6 +47,8 @@ Visual Studio Tools for Unity change log.
     -   Fixed extra .dll extension wrongly added to the assembly filename.
     
     -   Fixed usage of a specific project API compatibility level instead of the global one.
+    
+    -   Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 ## 3.4.0.2
  Released 2017-09-19
