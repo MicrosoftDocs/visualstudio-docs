@@ -71,9 +71,11 @@ Now that we've added a button control to create an action, let's add a label con
 
 3. In the **Design** section of the of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
 
-## Add code to the form
+### Add code to the form
 
 1. In the **Form1.vb &#91;Design&#93;** window, double-click the **Click this** button.
+
+(Alternatively, you can expand **Form1.vb** in the Solution Explorer window, and then click **Form1**.
 
 2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste  `lblHelloWorld.Text = "Hello World!"`.
 
@@ -86,9 +88,7 @@ Now that we've added a button control to create an action, let's add a label con
 
    A few things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open. And an Output window will open too. But outside of the IDE, a Form1 dialog box appears.
 
-2. Click the **Click this** button in the Form1 dialog box.
-
-    The Label1 text changes to "Hello World!".
+2. Click the **Click this** button in the Form1 dialog box. Notice that the Label1 text changes to "Hello World!".
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
 
