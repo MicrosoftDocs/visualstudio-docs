@@ -302,7 +302,7 @@ class MyClass
     private const string thisFieldIsConst= "constant";
 }
 
-// dotnet_style_require_accessibility_modifiers = false
+// dotnet_style_require_accessibility_modifiers = never
 class MyClass 
 {
     const string thisFieldIsConst= "constant";
