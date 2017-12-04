@@ -19,7 +19,7 @@ ms.author: "tglee"
 manager: ghogen
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the [15.5 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
+#### Updated for the [15.5 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -181,6 +181,8 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
 ### Containerization
+Containers provide you with increased app density and lower deployment cost along with improved productivity and DevOps agility.
+
 #### Docker Container Tooling
 **New in 15.5**
 * Visual Studio includes tools for Docker containers that now support multi-stage Dockerfiles, which streamline creating optimized container images.
@@ -286,7 +288,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
  If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also
-* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/vs2015-vs)
+* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
