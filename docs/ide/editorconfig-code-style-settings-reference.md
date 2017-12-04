@@ -600,7 +600,7 @@ public int GetAge() { return this.Age; }
 ```  
 
 **csharp\_style\_expression\_bodied_constructors**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule does not only accept a **true** or **false** value; instead it accepts a value from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
@@ -619,7 +619,7 @@ public Customer(int age) { Age = age; }
 ```  
 
 **csharp\_style\_expression\_bodied_operators**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule does not only accept a **true** or **false** value; instead it accepts a value from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
@@ -640,7 +640,7 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 ```  
 
 **csharp\_style\_expression\_bodied_properties**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule does not only accept a **true** or **false** value; instead it accepts a value from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
@@ -659,7 +659,7 @@ public int Age { get { return _age; }}
 ```  
 
 **csharp\_style\_expression\_bodied_indexers**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule does not only accept a **true** or **false** value; instead it accepts a value from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
@@ -678,7 +678,7 @@ public T this[int i] { get { return _values[i]; } }
 ```  
 
 **csharp\_style\_expression\_bodied_accessors**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule does not only accept a **true** or **false** value; instead it accepts a value from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
