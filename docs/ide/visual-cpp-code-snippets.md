@@ -108,7 +108,7 @@ private:
 
 ## for vs. forr vs rfor
 
-There are four different **for** snippets that provide different kinds of for loops.
+There are three different **for** snippets that provide different kinds of `for` loops.
 
 The **rfor** snippet provides a [range-based](/cpp/cpp/range-based-for-statement-cpp) for loop (link). This construct is preferred over index-based `for` loops.
 
