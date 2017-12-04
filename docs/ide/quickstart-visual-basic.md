@@ -34,9 +34,7 @@ First, you'll create a Visual Basic application project. The project type comes 
      ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)  
 
 ## Create the application
-After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows interface.  
-
-We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.   
+After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.   
 
 ### Add a button to the form  
 
@@ -44,7 +42,8 @@ We'll create a "Hello World" application by adding controls to the form, and the
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)  
 
-     If you don't see the Toolbox fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.
+     (If you don't see the Toolbox fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
+
 2. Click the **Pin** icon to dock the Toolbox window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)  
@@ -56,7 +55,7 @@ We'll create a "Hello World" application by adding controls to the form, and the
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)  
 
-     If you don't see the Properties window, you can you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.
+     (If you don't see the Properties window, you can you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
 
 5. In the **Design** section of the of the **Properties** window, change the name from "Button1" to "btnClickThis", and then press **Enter**.
 
@@ -67,7 +66,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. Select the **Label** control from the Toolbox window, and then drag it onto the form and drop it beneath the "Click this" button.
 
-3. In the **Design** section of the of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
+2. In the **Design** section of the of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
 
 ### Add code to the form
 
@@ -84,13 +83,11 @@ Now that we've added a button control to create an action, let's add a label con
 
      ![Click Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
 
-   Several things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open, and an Output window will open, too. But outside of the IDE, a Form1 dialog box appears. It will include your "Click this" button and some text that says "Label1".
+   Several things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open, and an Output window will open, too. But outside of the IDE, a Form1 dialog box appears. It will include your "Click this" button and text that says "Label1".
 
 2. Click the **Click this** button in the **Form1** dialog box. Notice that the "Label1" text changes to "Hello World!".
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
-
-     You've done it. You've created a simple Visual Basic app by using Visual Studio.  
 
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
