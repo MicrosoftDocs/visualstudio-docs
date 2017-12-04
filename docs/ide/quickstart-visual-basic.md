@@ -43,6 +43,8 @@ We'll create a "Hello World" application by adding controls to the form, and the
 1. Click **Toolbox** to open the Toolbox fly-out window.
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)  
+
+     If you don't see the Toolbox fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.
 2. Click the **Pin** icon to dock the Toolbox window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)  
@@ -54,7 +56,9 @@ We'll create a "Hello World" application by adding controls to the form, and the
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)  
 
-5. In the **Design** section of the of the **Properties** window, change the name from "Button1" to "ButtonHelloWorld", and then press **Enter**.
+     If you don't see the Properties window, you can you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.
+
+5. In the **Design** section of the of the **Properties** window, change the name from "Button1" to "btnHelloWord", and then press **Enter**.
 
      ![Add a function to the button on the form](../ide/media/vb-button-control-function.png)
 
@@ -92,5 +96,5 @@ Now that we've added a button control, which will create the action we want to h
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## See also   
-* [Build a Visual Basic "Hello World" console app with .NET Core in Visual Studio 2017 ](../dotnet/core/tutorials/vb-with-visual-studio)
+* [Build a Visual Basic "Hello World" console app with .NET Core in Visual Studio 2017 ](https://docs.microsoft.com/dotnet/core/tutorials/vb-with-visual-studio)
 * [Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  
