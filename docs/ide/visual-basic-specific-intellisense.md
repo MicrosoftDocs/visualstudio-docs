@@ -1,5 +1,5 @@
 ---
-title: "Visual Basic Intellisense | Microsoft Docs"
+title: "Visual Basic IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""

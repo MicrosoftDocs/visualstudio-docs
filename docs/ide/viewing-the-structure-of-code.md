@@ -31,7 +31,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Viewing the Structure of Code
+# Viewing the structure of code
 
 You can examine the objects and members in Visual Studio projects, and the objects and members in .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 
@@ -52,7 +52,7 @@ You can add code to your project by selecting the project node and choosing the 
 
 If your project is checked in to source code control, every **Class View** element displays an icon that indicates the source code status of the file. Common source code control commands such as **Check Out**, **Check In**, and **Get Latest Version** are also available on the shortcut menu for the element.
 
-### Class View Toolbar
+### Class View toolbar
 
 The Class View toolbar contains the following commands.
 
@@ -63,7 +63,7 @@ The Class View toolbar contains the following commands.
 |**Forward**|Navigates to the next selected item.|  
 |**View Class Diagram** (managed code projects only)|Becomes available when you select a namespace or type in **Class View**. When a namespace is selected, the class diagram shows all the types in it. When a type is selected, the class diagram shows only that type.|  
 
-### Class View Settings
+### Class View settings
 
 The **Class View Settings** button on the toolbar has the following settings.
 
@@ -79,7 +79,7 @@ The **Class View Settings** button on the toolbar has the following settings.
 |**Show Inherited Members**|Inherited members are displayed.|  
 |**Show Extension Methods**|Extension methods are displayed.|  
 
-### Class View Shortcut Menu
+### Class View shortcut menu
 
 The shortcut menu in **Class View** may contain the following commands, depending on the kind of project selected.
 
@@ -99,7 +99,7 @@ The shortcut menu in **Class View** may contain the following commands, dependin
 |**Go To Reference**|Displays a reference to the type or member in the source code, if available.|  
 |**View Call Hierarchy**|Displays the selected method in the **Call Hierarchy** window.|  
 
-##  <a name="BKMK_CallHierarchy"></a> Call Hierarchy (Visual Basic, C#, C++)
+##  <a name="BKMK_CallHierarchy"></a> Call Hierarchy window (Visual Basic, C#, C++)
 
 The **Call Hierarchy** window shows where a given method (or property or constructor) is called, and lists the methods that are called from that method. You can view multiple levels of the call graph, which shows the caller/callee relationships among the methods in a specified scope.
 
@@ -148,7 +148,7 @@ The **Object Browser** keeps track of the selections you have made, and you can 
 
 You can use the **Object Browser** to add an assembly reference to an open solution by selecting an item (assembly, namespace, type, or member) and choosing the **Add Reference** button on the toolbar.
 
-### Object Browser Settings
+### Object Browser settings
 
 By using the **Object Browser Settings** button on the toolbar, you can specify one of the following views.
 
@@ -166,7 +166,7 @@ By using the **Object Browser Settings** button on the toolbar, you can specify 
 |**Show Inherited Members**|Displays inherited members.|  
 |**Show Extension Methods**|Displays extension methods.|  
 
-### Object Browser Shortcut Menu Commands
+### Object Browser shortcut menu commands
 
 The shortcut menu in the **Object Browser** may contain the following commands, depending on the kind of item selected.
 
@@ -186,7 +186,7 @@ The shortcut menu in the **Object Browser** may contain the following commands, 
 |**Go To Reference**|Displays a reference to the type or member in the source code, if available.|  
 |**View Call Hierarchy**|Displays the selected method in the **Call Hierarchy** window.|  
 
-##  <a name="BKMK_CodeDefinition"></a> Code Definition Window (C#, C++)
+##  <a name="BKMK_CodeDefinition"></a> Code Definition window (C#, C++)
 
 The **Code Definition** window displays the definition of a selected type or member in the active project. The type or member can be selected in the code editor or in a code view window.
 
@@ -213,7 +213,7 @@ The shortcut menu in the **Code Definition** window may contain the following co
 |**Edit Definition**|Moves the insertion point to the definition in the code window.|  
 |**Choose Encoding**|Opens the **Encoding** window so that you can set an encoding for the file.|  
 
-### Document Outline Window
+### Document Outline window
 
 You can use the **Document Outline** window in conjunction with designer views, such as the designer for a XAML page or a Windows Form designer, or with HTML pages. This window displays the elements in a tree view so that you can view the logical structure of the form or page and find controls that are deeply embedded or hidden.
 
