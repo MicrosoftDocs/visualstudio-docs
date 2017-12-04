@@ -279,9 +279,9 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 15.5 |
-| csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | Visual Studio 2017 15.5 |
-| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | Visual Studio 2017 15.5 |
+| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 v. 15.5 |
+| csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | Visual Studio 2017 v. 15.5 |
+| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | Visual Studio 2017 v. 15.5 |
 
 **dotnet\_style\_require\_accessibility_modifiers**  
 This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
@@ -573,12 +573,12 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | true:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | true:none | Visual Studio 2017 15.3 |
-| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | true:none | Visual Studio 2017 15.3 |  
+| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |  
 
 **csharp\_style\_expression\_bodied_methods**  
 This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
