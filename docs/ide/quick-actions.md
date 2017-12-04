@@ -84,7 +84,7 @@ End Function
 
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 15.3 |
+| CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
 These Quick Actions enable you to resolve git merge conflicts by "taking a change", which removes the conflicting code and markers.  
 
@@ -235,7 +235,7 @@ Dim number as Integer = 3
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 15.3 |
+| CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
 This Quick Action enables you to remove variables that have been declared but never used in your code.
 
@@ -262,7 +262,7 @@ public MyMethod()
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| IDE0034 | C# 7.1+ | Visual Studio 2017 15.3 |
+| IDE0034 | C# 7.1+ | Visual Studio 2017 version 15.3 |
 
 This Quick Action removes the value type from a default value expression and uses the [`default` literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
 
@@ -320,7 +320,7 @@ Debug.WriteLine("Hello")
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| IDE0010 | C# and Visual Basic| Visual Studio 2017 15.3 |
+| IDE0010 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
 When creating a `switch` statement in C#, or `Select Case` statement in Visual Basic, you can use a Code Action to automatically add missing case items, a default case statement, or both.
 
@@ -389,7 +389,7 @@ End Select
 
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 15.3 |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
 This Quick Action enables you to add a check in your code to tell whether a parameter is null.
 
@@ -423,7 +423,7 @@ class MyClass
 
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 15.3 |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
 ```csharp
 // Before
@@ -461,8 +461,8 @@ if (true)
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| IDE0036 | C# and Visual Basic| Visual Studio 2017 15.5 |
-| IDE0040 | C# and Visual Basic| Visual Studio 2017 15.5 |
+| IDE0036 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
+| IDE0040 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
 
 These Quick Actions help organize modifiers by enabling you to sort existing and add missing accessibility modifiers.
 
@@ -498,7 +498,7 @@ private static int thisFieldIsPublic;
 
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 15.3 |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct.
 
@@ -650,7 +650,7 @@ Dim list = New List(Of Integer) From {1, 2, 3}
 
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
-| C# and Visual Basic | Visual Studio 2017 15.5 |
+| C# and Visual Basic | Visual Studio 2017 version 15.5 |
 
 This Quick Action enables you to convert an auto property to a full property, and vice versa.
 
@@ -744,7 +744,7 @@ class MyClass4
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| IDE0039 | C# 7.0+ | Visual Studio 2017 15.5 |
+| IDE0039 | C# 7.0+ | Visual Studio 2017 version 15.5 |
 
 This Quick Action converts anonymous functions into local functions.
 
@@ -769,7 +769,7 @@ int fibonacci(int n)
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
-| IDE0041 | C# 7.0+ | Visual Studio 2017 15.5 |
+| IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 |
 
 This Quick Action suggests the use of [pattern matching](/dotnet/csharp/pattern-matching) rather than the ```ReferenceEquals``` coding-pattern, where possible.
 
@@ -839,7 +839,7 @@ if (o is string s)
 
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
-| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 15.3 |
+| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
 
 This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format. 
 
@@ -867,7 +867,7 @@ Dim countdown As Integer = &H200000
 
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
-| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 15.3 |
+| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
 
 This Quick Action enables you to add separator characters into literal values.
 
