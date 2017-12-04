@@ -15,15 +15,18 @@ Searchscope: VS Subscription
 
 Your Windows Developer Account lets you submit free and paid Windows apps to the Windows Store.     
 
-To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account. 
+To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
+
+We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incongnito" window.  In Internet Explorer, create a new "InPRivate" window.
 
 1.	Click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**. 
 
-![Windows Developer Benefit Tile](_img\vs-windows-dev\vs-windows-dev-tile.png)
+    ![Windows Developer Benefit Tile](_img\vs-windows-dev\vs-windows-dev-tile.png)
 
 2.	On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue. 
 
-![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
+    ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
+
 
 3.	Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription. 
 4.	On the next page, select the country or region where you live or where your business is located, and then click **Next**. 
@@ -33,7 +36,8 @@ To use your Windows Developer Account, you’ll need to set up an account or sig
 8.	You may be asked to verify your password.  Enter it and click **Sign in**. 
 9.	On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page will update to show that *no payment is required*.  Click **Next**.
 
-![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
+    ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
+
 
 10.	Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**. 
 11. Click **Go to dashboard** to begin using your Windows Developer Account!
