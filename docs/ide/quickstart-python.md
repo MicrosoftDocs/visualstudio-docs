@@ -98,9 +98,9 @@ For more information about Falcon, see the [Falcon Quickstart](https://falcon.re
 
 1. Right-click `hello.py` in **Solution Explorer** and select **Set as startup file**. The command identifies the code file to launch in Python when running the app.
 
-1. Right-click the "Hello Python" project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Launch URL** property to `https://localhost:8080`. This step ensures that Visual Studio launches a browser with this URL rather than using a random port.
+1. Right-click the "Hello Python" project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `8080`. This step ensures that Visual Studio launches a browser with `localhost:8080` rather than using a random port.
 
-1. Select **File > Save Selected Items** (Ctrl+S) to save the project properties, then select **Debug > Start Without Debugging** (Ctrl+F5) to run the app.
+1. Select **Debug > Start Without Debugging** (Ctrl+F5) to save changes to files and run the app.
 
 1. A command window appears with the message "Starting web app server", then a browser window opens to `localhost:8080` where you see the message, "Hello, Python!" The GET request also appear in the command window. (If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
 
