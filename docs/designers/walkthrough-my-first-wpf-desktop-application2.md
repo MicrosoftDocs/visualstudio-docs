@@ -267,7 +267,7 @@ In this section, you'll create the application infrastructure, which includes th
      ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "WPF_watermark")  
   
     > [!NOTE]
-    >  Alternatively you can create your own image and save it as `watermark.png`.  
+    >  Alternatively you can create your own image and save it as `WPF_watermark.png`.  
   
 2.  In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Existing Item**.  
   
@@ -280,7 +280,7 @@ In this section, you'll create the application infrastructure, which includes th
   
     ```xaml  
     <Grid.Background>  
-        <ImageBrush ImageSource="watermark.png"/>  
+        <ImageBrush ImageSource="WPF_watermark.png"/>  
     </Grid.Background>    
     ```  
   
