@@ -262,7 +262,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 #### To add a background image  
   
-1.  Choose the following image and save it as `watermark.png`.  
+1.  Choose the following image and save it as `WPF_watermark.png`.  
   
      ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "WPF_watermark")  
   
@@ -271,7 +271,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 2.  In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Existing Item**.  
   
-3.  In the **Add Existing Item** dialog, find the **watermark.png** image that you just added, choose it and then choose the **Add** button.  
+3.  In the **Add Existing Item** dialog, find the **WPF_watermark.png** image that you just added, choose it and then choose the **Add** button.  
   
     > [!NOTE]
     >  You may need to expand the **File Types** list and choose **Image Files**.  
@@ -363,7 +363,7 @@ In this section, you'll create the application infrastructure, which includes th
             <Button Grid.Column="1" Grid.Row="3" Margin="0,10,0,0" Width="125"  
     Height="25" HorizontalAlignment="Right">View</Button>  
             <Grid.Background>  
-                <ImageBrush ImageSource="watermark.png"/>  
+                <ImageBrush ImageSource="WPF_watermark.png"/>  
             </Grid.Background>  
         </Grid>  
     </Page>  
@@ -426,7 +426,7 @@ In this section, you'll create the application infrastructure, which includes th
   
     ```xaml  
     <Grid.Background>  
-        <ImageBrush ImageSource="watermark.png" />  
+        <ImageBrush ImageSource="WPF_watermark.png" />  
     </Grid.Background>  
     <Grid.ColumnDefinitions>  
         <ColumnDefinition Width="230" />  
@@ -598,7 +598,7 @@ In this section, you'll create the application infrastructure, which includes th
             <!-- View report button -->  
             <Button Grid.Column="1" Grid.Row="3" Click="Button_Click" Style="{StaticResource buttonStyle}">View</Button>  
             <Grid.Background>  
-                <ImageBrush ImageSource="watermark.png"  />  
+                <ImageBrush ImageSource="WPF_watermark.png"  />  
             </Grid.Background>  
     ```  
   
@@ -608,7 +608,7 @@ In this section, you'll create the application infrastructure, which includes th
   
     ```xaml  
     <Grid.Background>  
-        <ImageBrush ImageSource="watermark.png" />  
+        <ImageBrush ImageSource="WPF_watermark.png" />  
     </Grid.Background>  
     <Grid.ColumnDefinitions>  
         <ColumnDefinition Width="230" />  
