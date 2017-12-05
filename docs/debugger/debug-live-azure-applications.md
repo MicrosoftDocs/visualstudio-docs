@@ -30,7 +30,7 @@ Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Ent
 
 ## Start the Snapshot Debugger
 
-1. Install the [Visual Studio Enterprise 15.5 Preview](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) or later. If you are updating from a previous Visual Studio 2017 preview, run the Visual Studio Installer and check the Snapshot Debugger component in the ASP.NET and web development workload.
+1. Install [Visual Studio 2017 Enterprise 15.5](https://www.visualstudio.com/downloads/) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the ASP.NET and web development workload.
 
 2. Open the project you would like to snapshot debug. 
 
