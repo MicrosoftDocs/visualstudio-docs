@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 919dfc34-234a-489e-91bf-74a4cefae26c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
