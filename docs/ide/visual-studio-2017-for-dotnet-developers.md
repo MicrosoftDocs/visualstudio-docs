@@ -81,6 +81,8 @@ If you are coming from another IDE or coding environment, you may find installin
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
+The following are popular Visual Studio shortcuts. Note that some extensions unbind default Visual Studio keybindings and you must restore the keybindings to use the commands below. To restore your keybindings to Visual Studio's defaults, go to **Tools > Import and Export Settings... > Reset all settings**.
+
 | Shortcut (All Profiles) | Command | Description |
 |-|-|-| 
 | **Ctrl+T** | Go To All | Navigate to any file/type/member/symbol declaration |
@@ -92,6 +94,6 @@ If you are coming from another IDE or coding environment, you may find installin
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
-| **Ctrl+\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+| **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 
 
