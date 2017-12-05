@@ -102,7 +102,7 @@ For more information about Falcon, see the [Falcon Quickstart](https://falcon.re
 
 1. Select **File > Save Selected Items** (Ctrl+S) to save the project properties, then select **Debug > Start Without Debugging** (Ctrl+F5) to run the app.
 
-1. A command window appears with the message "Starting web app server", then a browser window opens to `localhost:8080` where you see the message, "Hello, Python!" You'll also see the GET request appear in the command window. (If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
+1. A command window appears with the message "Starting web app server", then a browser window opens to `localhost:8080` where you see the message, "Hello, Python!" The GET request also appear in the command window. (If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
 
 1. Close the command window to stop the app.
 
