@@ -17,7 +17,7 @@ Searchscope: VS Subscription
 You can edit a subscriber’s information to correct errors or update information. 
 **Please note that editing a subscriber’s email address will cause any existing benefits to be reset.**
 
-To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
+To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **Edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
 
    ![Select Subscriber to Edit](_img\edit-license\select-subscriber.png)
 

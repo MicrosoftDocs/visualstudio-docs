@@ -44,10 +44,10 @@ Your Enterprise subscription includes a six month subscription for MODERNRequire
 9.	Open the “SmartOffice4TFS_Online” subfolder. 
 
 10.	The folder will contain four installer applications, one each for:
-- SmartExcel4TFS_Online
-- SmartOutlook4TFS_Online
-- SmartVisio4TFS_Online
-- SmartWord4TFS_Online
+    - SmartExcel4TFS_Online
+    - SmartOutlook4TFS_Online
+    - SmartVisio4TFS_Online
+    - SmartWord4TFS_Online
 
     ![ModernRequirement Download Options](_img\vs-modernreq\vs-modernreq-downloaded-cropped.png)
 

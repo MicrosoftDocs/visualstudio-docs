@@ -68,7 +68,6 @@ Visual Studio subscriptions include unlimited access to the full Pluralsight cat
 
 **NOTE:**  If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account. 
 
-
 6.  Once your account has been successfully created, the email you receive will contain your username, and ask you to create a password.  Provide your password, enter it again to confirm it, and click **Log in to Pluralsight**.
 
     ![Pluralsight Benefit Welcome Email](_img\vs-pluralsight\vs-pluralsight-welcome-email.png)

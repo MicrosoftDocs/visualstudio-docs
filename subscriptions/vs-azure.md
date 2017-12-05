@@ -20,11 +20,13 @@ Activate from the **Tools** category on the Benefits page of the [Subscriber Por
 ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
 2.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**: 
+
 ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
  
 3.	When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.  
 ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
+    
 
 4.	The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard. 
 5.	Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.

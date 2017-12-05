@@ -24,9 +24,9 @@ If your organization has a different email for receiving emails than the one to 
 
 If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https:/my.visualstudio.com), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. When you’re done, click **Add**.
 
-  ![Enter subscriber information](_img\assign-license-add\add-subscriber-1.png)
+   ![Enter subscriber information](_img\assign-license-add\add-subscriber-1.png)
 
-  ![Enter subscriber information](_img\assign-license-add\add-subscriber-2.png)
+   ![Enter subscriber information](_img\assign-license-add\add-subscriber-2.png)
 
 3.	After adding the subscriber, an Assignment Email will be automatically sent to the new subscriber with further instructions. You can send the Assignment Email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.
 
@@ -39,7 +39,7 @@ If you want this subscriber to have accees to software downloads when they sign 
 
 2. Bulk assign uses a Microsoft Excel template to upload subscribers. In the Upload Multiple Subscribers dialog box, click **Download** to download the template. Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 
-![Upload Multiple Subscribers](_img\assign-license-add\bulk-assign-upload.png)
+    ![Upload Multiple Subscribers](_img\assign-license-add\bulk-assign-upload.png)
 
 3.	In the Excel spreadsheet, fill out the fields with the information for the individuals you want to assign subscriptions to. Reference is an optional field. If you have filled out any part of the template incorrectly, you should see an error message describing the problem. Save the file on your hard drive when done.
 **To help ensure a smooth upload, observe the following best practices:**
@@ -47,7 +47,7 @@ If you want this subscriber to have accees to software downloads when they sign 
     - Remove spaces before and after form fields such as users’ names.
     - Make sure users’ names do not contain extra spaces between two-part first or last names (e.g. two-part first name such as “Maggie May” should not be typed as “Maggie  May” as the system will not trim the extra space)
 
-    ![Bulk Add Template](_img\assign-license-add\bulk-template.png)
+   ![Bulk Add Template](_img\assign-license-add\bulk-template.png)
 
 4.	Return to the Visual Studio Subscriptions Administration portal and in the Upload Multiple Subscribers dialog box, click **Browse**. Navigate to the Excel file you saved and click **OK**. You will see the upload progress on the screen. 
 

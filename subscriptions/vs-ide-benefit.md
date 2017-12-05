@@ -27,15 +27,22 @@ To download the IDE:
     - Select your language preference. 
 4.	Click the blue download button.
     ![Visual Studio Enterprise download details](_img\vs-ide-experience\vs-ide-download-details.png)
-5.	To install now, click “Run”.
-6.	In the User Account Control dialog, click “Yes”.
+5.	To install now, click **Run**.
+6.	In the User Account Control dialog, click **Yes**.
 7.  Click **Continue** to accept the license terms.
 8.  When the installer starts, choose your desired workloads, individual components and language packs by choosing them on the corresponding tabs.  
     ![Customize Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-customize-install-cropped.png)
+
 9.  Click **Install**. 
+
 10. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  
+
     ![Launch Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-launch-cropped.png)
+
 11. Sign in with the account associated with your Visual Studio subscription. 
+
 12. Choose your preferred theme, and click **Start Visual Studio**.
+
 13. The Start Page will display.  You're ready to start using Visual Studio!
+
     ![Start Using Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-start-cropped.png)

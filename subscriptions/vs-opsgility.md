@@ -15,7 +15,7 @@ Searchscope: VS Subscription
 
 Your Enterprise subscription includes one year of access to on-demand training.  It also includes a 15% discount on instructor-led training, plus access to online training, hands on labs, certification paths and more.  
 
-1.	To use your Opsgility benefit, click on the *Get Code* link at the bottom of the benefit tile.   You’ll receive a notification that the coupon code has been successfully retrieved.  Click *Activate* to proceed.
+1.	To use your Opsgility benefit, click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate** to proceed.
 
     ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
 

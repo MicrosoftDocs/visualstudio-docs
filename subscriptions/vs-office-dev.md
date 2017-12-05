@@ -21,7 +21,7 @@ Subscribers with Visual Studio Enterprise standard or Visual Studio Enterprise A
 
 1. Visit [https://my.visualstudio.com](https://my.visualstudio.com) to sign in to the subscriber portal.
 2. Depending on your account, you will either be redirected to your Organization’s sign-in page, or the Microsoft Account sign-in page.   In either case, please enter your username and password, and click **Next**.
-3. Once the sign in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible. 
+3. Once the sign-in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible. 
 4. Click on the **Get Code** link at the bottom of the benefit tile.   When the code has been  retrieved, click **Activate**. 
 
     ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
@@ -51,12 +51,7 @@ Subscribers with Visual Studio Enterprise standard or Visual Studio Enterprise A
 
     ![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
 
-11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.
-
-    Note:  For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.
- 
-
-    ![Office 365 Dev Benefit Payment](_img\vs-office-dev\vs-office-dev-credit-blur-cropped.png)
+11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.    (Note:  For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.)
 
 
 12.	At this point, you have successfully redeemed your Office 365 Developer Subscription benefit.  You’ll see a page confirming your order.  The page will provide a link to the [sign-in page](https://portal.office.com "Office 365 sign-in page").  We recommend bookmarking the page for later use.  You’ll also want to record the user ID shown on the page.  (You will also receive a welcome email at the address you provided when you set up the account.)  Click **Start setup** to continue.  
@@ -104,7 +99,7 @@ In case you didn’t assign the required number of users during the redemption p
 
 1. To increase users after the redemption process has been completed, you will need to visit [https://portal.office.com](https://portal.office.com) and sign in with the “User ID” created during the tenant creation steps.
 
-Note:  If you’re having trouble finding your sign in information, look in your “Order Confirmation” email sent from the “Microsoft Online Service Team” with the subject “Order Confirmation:  Thank you for your purchase”.  Alternatively, you can also search your inbox for “Body:(Office 365 Enterprise E3 Developer MSDN)”.
+    Note:  If you’re having trouble finding your sign in information, look in your “Order Confirmation” email sent from the “Microsoft Online Service Team” with the subject “Order Confirmation:  Thank you for your purchase”.  Alternatively, you can also search your inbox for “Body:(Office 365 Enterprise E3 Developer MSDN)”.
 
 2. After successful sign in, select the **Admin** tile. You will be redirected to the “Admin Center”.
 
