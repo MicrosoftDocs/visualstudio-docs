@@ -1,7 +1,7 @@
 ---
 title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2017"
+ms.date: "12/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "EditorConfig coding conventions"
   - "language conventions [EditorConfig]"
   - "formatting conventions [EditorConfig]"
-ms.assetid: 
-caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ---
 # .NET coding convention settings for EditorConfig
 
