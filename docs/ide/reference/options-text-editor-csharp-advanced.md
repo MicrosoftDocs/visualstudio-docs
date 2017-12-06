@@ -17,7 +17,6 @@ helpviewer_keywords:
   - "XML comments"
   - "XML documentation, generating"
   - "outlining options [C#]"
-  - "outlining options [J#]"
   - "XML documentation, creating"
 ms.assetid: 947f9d9a-b0f3-408d-9866-d82895bcee31
 caps.latest.revision: 22
