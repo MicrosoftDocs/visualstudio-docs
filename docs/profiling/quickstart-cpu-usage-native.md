@@ -13,9 +13,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-  - "CPU Usage"
-  - "Diagnostics Tools"
-ms.assetid: f9835897-1c6e-4c6a-9873-71fe2c14d669
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
