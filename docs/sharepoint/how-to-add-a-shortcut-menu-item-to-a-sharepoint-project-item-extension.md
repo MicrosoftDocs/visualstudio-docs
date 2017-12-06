@@ -2,7 +2,6 @@
 title: "How to: Add a Shortcut Menu Item to a SharePoint Project Item Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: d00513a6-d66d-4fbe-9efa-ef3b08c9a73a
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Shortcut Menu Item to a SharePoint Project Item Extension
   You can add a shortcut menu item to an existing SharePoint project item by using a project item extension. The menu item appears when a user right-clicks the project item in **Solution Explorer**.  

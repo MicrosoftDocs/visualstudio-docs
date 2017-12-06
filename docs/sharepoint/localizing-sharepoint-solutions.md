@@ -2,7 +2,6 @@
 title: "Localizing SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,7 +24,7 @@ ms.assetid: 0d4cfa2b-8b48-45c7-bbee-ece9b0baffaf
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Localizing SharePoint Solutions
   The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](/visualstudio/ide/globalizing-and-localizing-applications). This topic provides an overview on how to localize a SharePoint solution.  

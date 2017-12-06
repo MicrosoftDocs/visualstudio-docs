@@ -2,7 +2,6 @@
 title: "Additional Information for SharePoint Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,7 +23,7 @@ ms.assetid: 83d20a81-fd81-4cbd-8f28-bb6bddeb06de
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Additional Information for SharePoint Errors
   You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the Microsoft Developer Network (MSDN) public forums.  

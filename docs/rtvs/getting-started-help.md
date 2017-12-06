@@ -1,20 +1,18 @@
 ---
 title: "Help Window in the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/29/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: ef9c04d4-0d5e-405a-842e-8d47fa0e8781
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Help in R Tools for Visual Studio

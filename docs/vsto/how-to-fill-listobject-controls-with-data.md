@@ -2,7 +2,6 @@
 title: "How to: Fill ListObject Controls with Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,7 +22,7 @@ ms.assetid: bf692c77-f5cc-456a-9a5c-84ed3067d7eb
 caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Fill ListObject Controls with Data
   You can use data binding as a way to quickly add data to your document. After binding data to a list object, you can disconnect the list object so it displays the data but is no longer bound to the data source.  

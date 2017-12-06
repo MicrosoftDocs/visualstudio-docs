@@ -2,7 +2,6 @@
 title: "BDC Model Design Tools Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,7 +30,7 @@ ms.assetid: dbd7b746-9e93-4ed4-a546-4a6f17a4725f
 caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # BDC Model Design Tools Overview
   You can design a Business Data Connectivity (BDC) model by using the BDC Designer, the **BDC Method Details** window, and the **BDC Explorer**.  

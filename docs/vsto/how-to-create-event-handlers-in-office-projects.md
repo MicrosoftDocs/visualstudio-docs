@@ -2,7 +2,6 @@
 title: "How to: Create Event Handlers in Office Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 2cfd6a45-4c25-4431-b4fc-e0f2c0a72e54
 caps.latest.revision: 31
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Create Event Handlers in Office Projects
   There are several ways to create event handlers in Visual Basic and C#. In design view, you can create the default event handlers for controls by double-clicking the control, or use the events pane of the **Properties** window to create handlers for any event on the control. However, if you are in Code view, you may not want to switch to Design view to create an event handler.  

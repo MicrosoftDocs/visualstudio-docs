@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: JavaScript in Visual Studio
+title: JavaScript in Visual Studio | Microsoft Docs
 ---
 # JavaScript in Visual Studio
 

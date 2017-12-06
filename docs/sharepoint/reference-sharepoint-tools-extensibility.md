@@ -2,7 +2,6 @@
 title: "Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +17,7 @@ ms.assetid: af489a35-3317-465d-9639-21df4f1ca974
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Reference (SharePoint Tools Extensibility)
   This section contains reference documentation for extending the SharePoint tools in Visual Studio.  

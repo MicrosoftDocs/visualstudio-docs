@@ -1,20 +1,18 @@
 ---
 title: Code Snippets with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/29/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 90bf4f87-e276-40cd-bc17-3dfb47ef1870
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Code snippets

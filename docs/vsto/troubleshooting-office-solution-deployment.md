@@ -2,7 +2,6 @@
 title: "Troubleshooting Office Solution Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: 2206aeb6-44b3-4786-ba99-9c7dad5cce7c
 caps.latest.revision: 74
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting Office Solution Deployment
   This topic contains information about how to solve common problems that you might encounter when you deploy Office solutions.  

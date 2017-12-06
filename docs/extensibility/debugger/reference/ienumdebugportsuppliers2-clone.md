@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::Clone"
 ms.assetid: 98b9914d-4f32-44da-b422-68830bce44b4
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugPortSuppliers2::Clone
 Returns a copy of the current enumeration as a separate object.  

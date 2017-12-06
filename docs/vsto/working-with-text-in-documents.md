@@ -2,7 +2,6 @@
 title: "Working with Text in Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 6f9e5a35-8c29-4237-bd44-f3a79e6a5f1c
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Text in Documents
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with text in Office projects.  

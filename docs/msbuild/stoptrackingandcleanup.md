@@ -19,21 +19,7 @@ ms.assetid: 9f8c5994-2dfc-43c3-a5fb-89b2f8990429
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # StopTrackingAndCleanup
 Stops all tracking and frees any memory used by the tracking session.  

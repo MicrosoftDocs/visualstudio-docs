@@ -2,7 +2,6 @@
 title: "The workbook used to create this project contains ActiveX controls that the designer cannot load | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +17,7 @@ ms.assetid: 91e9c6ee-7543-41e3-be0c-6c000cfd32d1
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # The workbook used to create this project contains ActiveX controls that the designer cannot load
   This error appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.  

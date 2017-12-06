@@ -2,7 +2,6 @@
 title: "How to: Programmatically Determine the Current Outlook Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: b4fb5ccd-b297-463e-9208-1fec42482531
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Determine the Current Outlook Item
   This example uses the Explorer.SelectionChange event to display the name of the current folder and some information about the selected item. The code then displays the selected item.  

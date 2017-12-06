@@ -28,23 +28,9 @@ helpviewer_keywords:
   - "printers, customizing"
 ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools / Options**, and then selecting **Environment / Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.  
@@ -87,17 +73,17 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
     > [!NOTE]
     >  Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.  
   
- **Use Defaults**  
- Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.  
+**Use Defaults**  
+Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.  
   
- **Font (bold type indicates fixed-width fonts)**  
- Lists all the fonts installed on your system. When the drop-down menu first appears, the current font for the element selected in the **Show settings for** field is highlighted. Fixed fonts — which are easier to align in the editor — appear in bold.  
+**Font (bold type indicates fixed-width fonts)**  
+Lists all the fonts installed on your system. When the drop-down menu first appears, the current font for the element selected in the **Show settings for** field is highlighted. Fixed fonts — which are easier to align in the editor — appear in bold.  
   
- **Size**  
- Lists available point sizes for the highlighted font. Changing the size of the font affects all **Display items** for the **Show settings for** selection.  
+**Size**  
+Lists available point sizes for the highlighted font. Changing the size of the font affects all **Display items** for the **Show settings for** selection.  
   
- **Display items**  
- Lists the items for which you can modify the foreground and background color.  
+**Display items**  
+Lists the items for which you can modify the foreground and background color.  
   
 > [!NOTE]
 >  **Plain Text** is the default display item. As such, properties assigned to **PlainText** will be overridden by properties assigned to other display items. For example, if you assign the color blue to **PlainText** and the color green to **Identifier**, all identifiers will appear in green. In this example, **Identifier** properties override **PlainText** properties.  

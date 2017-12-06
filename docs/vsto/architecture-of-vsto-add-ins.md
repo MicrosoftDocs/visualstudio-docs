@@ -2,7 +2,6 @@
 title: "Architecture of VSTO Add-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,7 +21,7 @@ ms.assetid: 978f102f-15c6-44e4-84e8-80b161408324
 caps.latest.revision: 70
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Architecture of VSTO Add-ins
   VSTO Add-ins created by using the Office developer tools in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office. This topic describes the following aspects of VSTO Add-ins:  

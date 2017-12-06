@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a Site Column, Content Type, and List for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -27,7 +26,7 @@ ms.assetid: caebacc2-616c-4373-8e21-edc7979338e7
 caps.latest.revision: 54
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Create a Site Column, Content Type, and List for SharePoint
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.  

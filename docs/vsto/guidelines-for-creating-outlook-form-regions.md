@@ -2,7 +2,6 @@
 title: "Guidelines for Creating Outlook Form Regions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: 47ad59d3-5cb7-4d27-a314-9c09937143d7
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Guidelines for Creating Outlook Form Regions
   The following information can help you optimize your form regions and avoid potential problems:  

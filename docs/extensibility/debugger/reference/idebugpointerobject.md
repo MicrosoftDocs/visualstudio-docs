@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPointerObject interface"
 ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPointerObject
 > [!IMPORTANT]

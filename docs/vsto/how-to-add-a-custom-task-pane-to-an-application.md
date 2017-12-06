@@ -2,7 +2,6 @@
 title: "How to: Add a Custom Task Pane to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: 67b4ed5b-d77e-4630-b851-34bb25bdc9b3
 caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Custom Task Pane to an Application
   You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom Task Panes](../vsto/custom-task-panes.md).  

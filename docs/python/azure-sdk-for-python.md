@@ -2,19 +2,17 @@
 title: "Azure SDK for Python | Microsoft Docs"
 ms.custom: ""
 ms.date: "3/7/2017"
-ms.prod: "visual-studio-dev15"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d30fddae-8e2f-4f50-90d3-8ed2cd35c7a6
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Azure SDK for Python

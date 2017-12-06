@@ -2,7 +2,6 @@
 title: "How to: Include Files by Using a Module | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 16ac3c3b-8219-466c-8550-6109357f2f9a
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Include Files by Using a Module
   *Modules* (not to be confused with [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.  

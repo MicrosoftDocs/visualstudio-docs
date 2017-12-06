@@ -2,7 +2,6 @@
 title: "&lt;addin&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: 4abec4c3-8c7c-4b2b-9128-79fa4e863281
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # &lt;addin&gt; Element (Office Development in Visual Studio)
   The `addin` element of the `vstav3` namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio.  

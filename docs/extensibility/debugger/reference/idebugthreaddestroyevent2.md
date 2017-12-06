@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugThreadDestroyEvent2"
 ms.assetid: fca3f603-9432-457b-9ddd-8b0ec17da046
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugThreadDestroyEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread has run to completion.  

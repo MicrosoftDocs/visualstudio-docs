@@ -2,7 +2,6 @@
 title: "How to: Add and Remove Features and Items to a Package by Using the Package Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,7 +21,7 @@ ms.assetid: 7dfa2c5d-3ac7-4573-abac-12a5e16efd1d
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add and Remove Features and Items to a Package by Using the Package Designer
   When you create a SharePoint solution, Visual Studio adds the default SharePoint Features to the package in the solution. Before final deployment, you can add and remove SharePoint project items and Features to modify the SharePoint package.  

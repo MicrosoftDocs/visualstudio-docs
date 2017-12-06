@@ -10,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 346fd3c0-9e92-4ab8-bb3b-1aa9000a2483
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # How to: Use Graphics Diagnostics with an ARM Device
 Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based devices that run Windows RT 8.1 or Windows Phone 8.1. You can capture graphics information from your Direct3D app while it runs on the device, or use the device as the playback machine for previously captured graphics information.  
@@ -56,5 +42,5 @@ Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based dev
 3.  On the menu, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Alt+F5)  
   
 ## See Also  
- [Run Windows Store apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md)   
+ [Run UWP apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md)   
  [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md)

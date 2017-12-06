@@ -2,7 +2,6 @@
 title: "How to: Programmatically Send E-Mail | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 4fa0e1b5-2caf-4a11-8626-df643b23f5f0
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Send E-Mail  
   This example sends an e-mail message to contacts that have the domain name **example.com** in their e-mail addresses.  

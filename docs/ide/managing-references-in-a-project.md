@@ -1,17 +1,17 @@
 ---
 title: "Managing references in a project | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/26/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual C# projects, references"
   - "referencing objects, project references"
   - "external component references"
@@ -24,24 +24,9 @@ helpviewer_keywords:
   - "objects [Visual Studio], referencing"
 ms.assetid: 05d1c51b-44f3-4973-8a11-6c919b08ad62
 caps.latest.revision: 54
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Managing references in a project
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.  
@@ -50,11 +35,11 @@ Before you write code against an external component or connected service, your p
 
  ![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png "vs2015_cpp_add_reference")  
 
- You can make a reference to the following types of components/services:  
-
--   Windows Store app references  
+ You can make a reference to the following types of components and services:    
 
 -   .NET Framework class libraries or assemblies  
+
+-   UWP apps
 
 -   COM components  
 
@@ -62,15 +47,15 @@ Before you write code against an external component or connected service, your p
 
 -   XML Web services  
 
-## Windows Store App References  
+## UWP App References  
 
 ### Project References  
- Universal Windows Platform (UWP) projects that target Windows 10 can create references to other UWP projects in the solution, or to Windows Store projects or binaries that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](https://docs.microsoft.com/en-us/windows/uwp/porting/w8x-to-uwp-root).  
+ Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](https://docs.microsoft.com/en-us/windows/uwp/porting/w8x-to-uwp-root).  
 
- If you choose to retarget [!INCLUDE[win81](../debugger/includes/win81_md.md)] projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
+ If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
 
 ### Extension SDK References  
- Visual Basic, C#, C++ and JavaScript Windows Store projects that target the Universal Windows Platform (UWP) can reference Extension SDKs that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10. Please check the Extension SDK vendor site to find out whether it can be referenced by Windows Store projects that target UWP.  
+ Visual Basic, C#, C++ and JavaScript Universal Windows Platform (UWP) apps can reference Extension SDKs that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10. Please check the Extension SDK vendor site to find out whether it can be referenced by Microsoft Store projects that target UWP.  
 
  If you determine that the Extension SDK being referenced by your app is not supported, then you need to perform the following steps:  
 
@@ -79,7 +64,7 @@ Before you write code against an external component or connected service, your p
 2.  Go to the site of the vendor who owns the unsupported Extension SDK and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.  
 
     > [!NOTE]
-    >  One way to find out whether an Extension SDK has dependencies on other Extension SDKs is to restart Visual Studio, create a new C# Windows Store project, right-click on the project and choose **Add Reference**, go to the **Windows** tab, go to the **Extensions** sub-tab, select the Extension SDK and look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.  
+    >  One way to find out whether an Extension SDK has dependencies on other Extension SDKs is to restart Visual Studio, create a new C# UWP app project, right-click on the project and choose **Add Reference**, go to the **Windows** tab, go to the **Extensions** sub-tab, select the Extension SDK and look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.  
 
     > [!IMPORTANT]
     >  If your project is targeting Windows 10, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0 and is installed with Visual Studio.  
@@ -88,7 +73,7 @@ Before you write code against an external component or connected service, your p
 
 4.  Restart Visual Studio and open your app.  
 
-5.  Right-click on the **References** node in the project that caused the error and choose **Add Reference**  
+5.  Right-click on the **References** node in the project that caused the error and choose **Add Reference**.  
 
 6.  Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs and check the checkboxes for the new Extension SDKs. Click **OK**.  
 

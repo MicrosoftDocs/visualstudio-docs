@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Tab by Using the Ribbon Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,7 +22,7 @@ ms.assetid: 312865e6-950f-46ab-88de-fe7eb8036bfe
 caps.latest.revision: 68
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Creating a Custom Tab by Using the Ribbon Designer
   By using the Ribbon Designer, you can create a custom tab and then add and position controls on it.  

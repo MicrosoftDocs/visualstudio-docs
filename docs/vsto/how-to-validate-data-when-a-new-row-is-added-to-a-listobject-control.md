@@ -2,7 +2,6 @@
 title: "How to: Validate Data When a New Row is Added to a ListObject Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: 107bce92-e5ef-40be-8c05-cd6861d39d75
 caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Validate Data When a New Row is Added to a ListObject Control
   Users can add new rows to a <xref:Microsoft.Office.Tools.Excel.ListObject> control that is bound to data. You can validate the user's data before committing the changes to the data source.  

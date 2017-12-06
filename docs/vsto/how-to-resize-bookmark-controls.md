@@ -2,7 +2,6 @@
 title: "How to: Resize Bookmark Controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: 3de1c774-921a-4113-a54a-e3b8d4a65d53
 caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Resize Bookmark Controls
   You set the size of a <xref:Microsoft.Office.Tools.Word.Bookmark> control when you add it to a Microsoft Office Word document. You can also resize it at a later time.  

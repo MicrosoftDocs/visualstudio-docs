@@ -1,20 +1,18 @@
 ---
 title: "Python Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c9c53f76-d0ef-4095-8b39-b7eb9bb33aba
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Python Projects
@@ -40,14 +38,11 @@ In this topic:
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
-For an introduction to Python projects in Visual Studio, see [Getting Started with Python Tools Part 2: Projects](https://youtu.be/KHPoVpL7zHg?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com, 3m18s).
+For an introduction to Python projects in Visual Studio, see the video [Getting Python Code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=iLAv23LWE_3905918567) (Microsoft Virtual Academy, 2m17s).
 
-> [!VIDEO https://www.youtube.com/embed/KHPoVpL7zHg]
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Getting-Python-Code-iLAv23LWE_3905918567]
 
-Also see the video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
-
-> [!VIDEO https://www.youtube.com/embed/Aq8eqApnugM]
-
+Also see the older video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
 
 ## Adding files, assigning a startup file, and setting environments
 
@@ -85,22 +80,13 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
+
 ### Creating a project from existing files
 
-1. Select the **File > New > Project...** menu, then select the **From Existing Python Code** template.
-1. In the following dialog, set the path to your existing code, a filter for file types, and any search paths that your project requires, then select **Next**:
+> [!Important]
+> The process described here does not move or copy the original source files. If you want to work with a copy, duplicate the folder first.
 
-    ![New Project from Existing Code, step 1](media/projects-from-existing-1.png)
-
-1. Choose an environment for the project and the startup file, then press **Next**. (Note that the dialog shows only files in the root of the folder tree; if the file you want is in a subfolder, leave the startup file blank and set it later in Solution Explorer).
-
-    ![New Project from Existing Code, step 2](media/projects-from-existing-2.png)
-
-1. Select the location to save the project file (this action does not move or copy the original source files, so if you want a copy you should make one before using the template). In this dialog you can also include auto-detection of virtual environments and customize the project for different web frameworks.
-
-    ![New Project from Existing Code, step 3](media/projects-from-existing-3.png)
-
-1.  Select **Finish** and Visual Studio creates the project and open it in Solution Explorer. If you want to move the `.pyproj` file elsewhere, select it in Solution Explorer and choose **File > Save As**. This action updates file references in the project but does not move any code file.
+[!INCLUDE[project-from-existing](includes/project-from-existing.md)]
 
 ## Linked files
 

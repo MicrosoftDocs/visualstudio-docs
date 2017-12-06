@@ -16,20 +16,6 @@ caps.latest.revision: 55
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Dependency Diagrams: Guidelines
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
@@ -124,8 +110,6 @@ Describe your app's architecture at a high level by creating *dependency diagram
  When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.  
   
 -   **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).  
-  
-     If you frequently create similar patterns, create a custom tool. See [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md).  
   
 -   **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.  
   

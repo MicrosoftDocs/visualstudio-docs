@@ -1,20 +1,18 @@
 ---
 title: "Projects in R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/29/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-r"
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 732b73cf-2014-4f98-838e-4141ef9dedac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Creating R projects in Visual Studio

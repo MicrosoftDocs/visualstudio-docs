@@ -2,7 +2,6 @@
 title: "Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: 290f5cb4-e2ee-4ed8-987c-2f013405cee9
 caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5
   Starting in [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], Visual Studio introduced some changes to the design of Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. If you are familiar with Office projects in previous versions of Visual Studio, you should be aware of these changes before you develop Office projects that target those versions of the .NET Framework 4.0 or later. By default, all projects that you create by using Visual Studio 2013 or later target the .NET Framework 4.0 or later.  

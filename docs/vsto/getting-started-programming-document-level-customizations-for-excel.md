@@ -2,7 +2,6 @@
 title: "Getting Started Programming Document-Level Customizations for Excel | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: 8b73cf08-a173-4b49-b20f-2d2456dbe925
 caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Getting Started Programming Document-Level Customizations for Excel
   If you are just getting started creating document-level customizations for Microsoft Office Excel by using Visual Studio, here is what you need to know.  

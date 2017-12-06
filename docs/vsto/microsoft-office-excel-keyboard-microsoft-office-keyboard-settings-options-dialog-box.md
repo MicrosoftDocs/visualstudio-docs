@@ -2,7 +2,6 @@
 title: "Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,7 +21,7 @@ ms.assetid: 2a8b9e70-66fa-4461-8039-b6d8a2fbb963
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
   Microsoft Office Excel and Visual Studio both handle shortcut keys. The same shortcut key combination can stand for different commands in Excel and in Visual Studio. When Excel is open in a document-level project in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Excel receive them when the document has focus by selecting **Dynamic keyboard scheme**.  

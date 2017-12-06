@@ -1,5 +1,5 @@
 ---
-title: "Report a Problem"
+title: "Report a Problem | Microsoft Docs"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
@@ -13,9 +13,11 @@ If you encounter a problem with Visual Studio for Mac, we want to know about it 
 
 ## How to report a problem
 
-To report a problem with Visual Studio for Mac, use the **Report a Problem** link located on the Welcome page:
+To report a problem with Visual Studio for Mac, select **Help > Report a Problem** from the menu bar:
 
 ![report a problem link](media/report-problem-image1.png)
+
+You can also use the **Report a Problem** link located on the Welcome page.
 
 This displays the **Report a Problem** web page. You can use this page to view all existing problems, vote on similar problems, and submit solutions to problems reported by other people:
 

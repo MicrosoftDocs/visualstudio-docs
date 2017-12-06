@@ -1,20 +1,18 @@
 ---
 title: IPython REPL in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/13/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c9bd06b0-2021-4e55-b933-8346476224a8
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Using IPython in the Interactive Window

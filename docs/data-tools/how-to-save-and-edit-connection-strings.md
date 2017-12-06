@@ -10,12 +10,8 @@ ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # How to: Save and Edit Connection Strings
 Connection strings in Visual Studio applications can be saved in the application configuration file (also referred to as application settings), or hard-coded directly in your application. Saving connection strings in the application configuration file simplifies the task of maintaining your application. If the connection string needs to be changed, then you can update it in the application settings file (as opposed to having to change it in the source code and recompile the application).
@@ -58,5 +54,5 @@ You can modify connection information for each TableAdapter in a dataset.
 Storing sensitive information (such as a password) within the connection string can affect the security of your application. Using Windows integrated security is a more secure way to control access to a database.
 For more information, see [Protecting Connection Information](/dotnet/framework/data/adonet/protecting-connection-information).
   
-## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
+## See also
+[Adding connections](../data-tools/add-new-connections.md)

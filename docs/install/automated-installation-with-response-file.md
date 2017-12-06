@@ -5,7 +5,7 @@ ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "installation"
   - "command-line"
 author: "timsneath"
-ms.author: "tims"
-manager: "ghogen"
+ms.author: "tglee"
+manager: ghogen
 ---
 
 # How to define settings in a response file
@@ -31,7 +31,7 @@ Parameters that are specified on the command-line override settings from the res
 
 # Setting a default configuration for Visual Studio
 
-If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout. If you create a partial layout, this response file includes the workloads and languages that were included in the layout.  Running setup from this layout automatically uses this response.json file, which selects the workloads and components included in the layout.  Users can still select or unselect any workloads in the setup UI before installing Visual Studio. 
+If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout. If you create a partial layout, this response file includes the workloads and languages that were included in the layout.  Running setup from this layout automatically uses this response.json file, which selects the workloads and components included in the layout.  Users can still select or unselect any workloads in the setup UI before installing Visual Studio.
 
 Administrators who create a layout can modify the `response.json` file in the layout to control the default settings that their users see when they install Visual Studio from the layout.  For example, if an administrator wants specific workloads and components installed by default, they can configure the `response.json` file to add them.
 
@@ -53,7 +53,7 @@ The base `response.json` file in a layout should look similar to the following e
   "productId": "Microsoft.VisualStudio.Product.Enterprise"
 }
 ```
-When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated. 
+When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated.
 
 ## Example layout response file content
 The following example installs Visual Studio Enterprise with six common workloads and components, and with both English and French UI languages. You can use this example as a template; just change the workloads and components to those that you want to install:
@@ -88,5 +88,15 @@ The following example installs Visual Studio Enterprise with six common workload
     ]
 }
 ```
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+
 ## See also
 * [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

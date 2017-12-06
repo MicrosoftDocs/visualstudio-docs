@@ -2,7 +2,6 @@
 title: "Adding Controls to Office Documents at Run Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,7 +27,7 @@ ms.assetid: 4f43b3eb-f0ec-44e2-9885-6ede327c6913
 caps.latest.revision: 102
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Adding Controls to Office Documents at Run Time
   You can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at run time. You can also remove them at run time. Controls that you add or remove at run time are called *dynamic controls*.  

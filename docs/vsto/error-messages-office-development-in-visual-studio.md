@@ -2,7 +2,6 @@
 title: "Error Messages (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +17,7 @@ ms.assetid: 7f74b826-8770-40d2-939b-4a4f20373f5a
 caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error Messages (Office Development in Visual Studio)
   Each error message topic provides information on possible causes for an error and potential solutions or workarounds to solve the problem.  

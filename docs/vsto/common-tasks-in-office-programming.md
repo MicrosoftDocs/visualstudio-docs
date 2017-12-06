@@ -2,7 +2,6 @@
 title: "Common Tasks in Office Programming | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: 7afc9bad-1d31-486e-beea-91e6d308cd67
 caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Common Tasks in Office Programming
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.  

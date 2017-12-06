@@ -2,7 +2,6 @@
 title: "GetVstoSolutionMetadata Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,7 +15,7 @@ ms.assetid: e8195838-fb9f-42b2-bb76-7ae3753f7751
 caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetVstoSolutionMetadata Function
   This API supports the Office infrastructure and isn't intended to be used directly from your code.  

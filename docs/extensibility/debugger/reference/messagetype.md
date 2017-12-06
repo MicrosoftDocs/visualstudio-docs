@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "MESSAGETYPE enumeration"
 ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MESSAGETYPE
 Specifies the message type and reason.  

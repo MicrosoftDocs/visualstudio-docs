@@ -2,7 +2,6 @@
 title: "Defining Custom SharePoint Project Item Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: be300c24-fd1b-4fc7-a4e9-a5df1d81d3fc
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Defining Custom SharePoint Project Item Types
   Define a new SharePoint project item type when you want to create a new kind of SharePoint project item. For example, Visual Studio does not include SharePoint project items for adding fields or custom actions to a SharePoint site. You can define your own types of SharePoint project items for creating fields, custom actions, or other types of SharePoint components.  

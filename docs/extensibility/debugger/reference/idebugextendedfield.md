@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "IDebugExtendedField interface"
 ms.assetid: b491499c-af57-47da-87d6-34b7398f6591
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExtendedField
 Extends the types of fields that are available to support managed code generics.  

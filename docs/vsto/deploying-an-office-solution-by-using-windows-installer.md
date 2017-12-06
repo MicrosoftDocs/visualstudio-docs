@@ -2,7 +2,6 @@
 title: "Deploying an Office Solution by Using Windows Installer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,7 +23,7 @@ ms.assetid: 260dda48-f9d4-474c-8638-ecf5b2c2729d
 caps.latest.revision: 91
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Deploying an Office Solution by Using Windows Installer
 Learn how to create a Windows Installer for your Office solution by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)].  

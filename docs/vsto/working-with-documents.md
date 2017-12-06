@@ -2,7 +2,6 @@
 title: "Working with Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +19,7 @@ ms.assetid: d21a1be6-fabc-4573-b861-b76cec5814bd
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Documents
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with documents in Office projects.  

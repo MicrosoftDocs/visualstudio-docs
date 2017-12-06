@@ -2,7 +2,6 @@
 title: "Browsing SharePoint Connections Using Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,7 +23,7 @@ ms.assetid: b3b1d97b-e990-414c-8ba5-3fd1b463fbef
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Browsing SharePoint Connections Using Server Explorer
   You can now browse local SharePoint connections in **Server Explorer**. By using this technique, you can navigate through the components of a SharePoint site on your system. SharePoint site components, such as list definitions and content types, appear in a node that's named **SharePoint Connections** in the tree view of **Server Explorer**. To display **Server Explorer**, on the menu bar, choose **View**, **Server Explorer**. In addition to displaying the SharePoint site components, you can remove items, view their properties, or refresh the tree view by using commands on the shortcut menu.  

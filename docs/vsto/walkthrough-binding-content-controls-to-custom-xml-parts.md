@@ -2,7 +2,6 @@
 title: "Walkthrough: Binding Content Controls to Custom XML Parts | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,7 +22,7 @@ ms.assetid: 10d67769-6157-4703-a10c-d33e988f9095
 caps.latest.revision: 51
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Binding Content Controls to Custom XML Parts
   This walkthrough demonstrates how to bind content controls in a document-level customization for Word to XML data that is stored in the document.  

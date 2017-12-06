@@ -1,27 +1,26 @@
 ---
 title: "Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.General"  
-  - "VS.ToolsOptionsPages.Projects.Locations"  
+f1_keywords: 
+  - "VS.ToolsOptionsPages.Projects.General"
+  - "VS.ToolsOptionsPages.Projects.Locations"
 helpviewer_keywords: 
   - "Projects and Solutions Options dialog box"
   - "Options dialog box, Projects and Solutions"
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Projects and Solutions, Options Dialog Box
-
 Sets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] behavior related to projects and solutions. To access these options, select **Tools > Options** expand **Projects and Solutions**, and click **General**.
 
 The default paths for project and template folders are set through the **Locations** tab in the same dialog box.
@@ -29,16 +28,7 @@ The default paths for project and template folders are set through the **Locatio
 > [!NOTE]
 >  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
-## General tab options  
- 
-**Lightweight Solution Load**
-Reduces the amount of time and memory required to load large solutions in the IDE. Large solutions containing many C#, Visual Basic, or C++ projects are likely to see a substantial performance benefit using lightweight solution load.
-
-- **Let Visual Studio choose what's best for my solution**: Lets Visual Studio automatically determine whether to apply Lightweight solution load based on the characteristics of the solution.
-- **Enabled**: Always applies Lightweight solution load when loading solutions.
-- **Disabled**: Never applies Lightweight solution load.
-
-For more information, see [Optimize Visual Studio Startup Time](../optimize-visual-studio-startup-time.md#speed_up_solution_load)
+## General tab options
 
 **Always show Error List if build finishes with errors**  
 Opens the **Error List** window on build completion, only if a project failed to build. Errors that occur during the build process are displayed. When this option is cleared, the errors still occur but the window does not open when the build is complete. This option is enabled by default.  
@@ -81,5 +71,5 @@ Specifies the default location that the **New Project** dialog box uses to creat
 Specifies the default location that the **Add New Item** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md). 
 
 ## See Also  
-- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-- - [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)  
+- [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)

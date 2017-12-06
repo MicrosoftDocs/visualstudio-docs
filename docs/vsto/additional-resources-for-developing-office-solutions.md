@@ -2,7 +2,6 @@
 title: "Additional Resources for Developing Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +17,7 @@ ms.assetid: 002957c3-7793-40a0-834a-fcb9c2b03a6f
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Additional Resources for Developing Office Solutions
   The Microsoft Office developer tools in Visual Studio represent just one of many ways to extend Office applications. Office applications also have some built-in features, such as the Open XML Formats, that are not covered by the Office developer tools in Visual Studio or this documentation.  

@@ -23,27 +23,12 @@ ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # QuickStart: Debug JavaScript using the console
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can use the JavaScript Console window to interact with and debug Store apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+ You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
  The JavaScript Console window allows you to:  
   
@@ -78,7 +63,7 @@ translation.priority.mt:
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
 > [!CAUTION]
->  The sample app here is a Windows Store app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
+>  The sample app here is a UWP app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
   
 #### To debug JavaScript code in the FlipView app  
   
@@ -280,7 +265,7 @@ translation.priority.mt:
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
+-   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   

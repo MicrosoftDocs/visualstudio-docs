@@ -2,7 +2,6 @@
 title: "Deployment Manifests for Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 3fb29743-fb96-4d61-a99a-9b1bbafeee13
 caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Deployment Manifests for Office Solutions
   A deployment manifest is an XML file that describes the deployment settings of an Office solution and identifies the current application version.  

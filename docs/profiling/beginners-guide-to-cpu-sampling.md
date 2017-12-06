@@ -18,21 +18,7 @@ ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Beginners Guide to CPU Sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
@@ -138,6 +124,6 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [Overviews](../profiling/overviews-performance-tools.md)
- [Profiling in Visual Studio](../profiling/index.md)
+ [Overviews](../profiling/overviews-performance-tools.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

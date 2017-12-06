@@ -24,22 +24,7 @@ ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
 caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # ResolveAssemblyReference Task
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  

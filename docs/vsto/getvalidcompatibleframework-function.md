@@ -2,7 +2,6 @@
 title: "GetValidCompatibleFramework Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,7 +15,7 @@ ms.assetid: dfb365c0-5ffc-4290-ab8b-bd347e0f0db9
 caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # GetValidCompatibleFramework Function
   This API supports the Office infrastructure and isn't intended to be used directly from your code.  

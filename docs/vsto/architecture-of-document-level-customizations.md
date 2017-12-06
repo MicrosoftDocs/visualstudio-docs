@@ -2,7 +2,6 @@
 title: "Architecture of Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,7 +24,7 @@ ms.assetid: bafed4d0-5ff6-457b-9974-7c90f6ecb547
 caps.latest.revision: 86
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Architecture of Document-Level Customizations
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:  

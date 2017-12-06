@@ -14,22 +14,7 @@ ms.assetid: 306bd176-0ce9-4a10-89ca-20b043d37d4e
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Call Tree View - Instrumentation Data
 The values for a function in the call tree indicate the time for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the value of the function instances to the total elapsed inclusive time of all functions in the profiling run.  

@@ -2,7 +2,6 @@
 title: "How to: Programmatically Search for a Specific Contact | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +18,7 @@ ms.assetid: ca17ce97-7b07-46e6-a476-34003e9cb9ad
 caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Programmatically Search for a Specific Contact
   This example searches an Outlook contacts folder for a specific contact by first and last name. The example assumes that a contact named **John Evans** exists in the contacts folder.  

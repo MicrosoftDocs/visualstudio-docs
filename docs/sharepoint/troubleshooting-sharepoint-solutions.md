@@ -2,7 +2,6 @@
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,7 +21,7 @@ ms.assetid: d3c8a01c-8fac-40d0-bf9e-476901f1490a
 caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Troubleshooting SharePoint Solutions
   The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).

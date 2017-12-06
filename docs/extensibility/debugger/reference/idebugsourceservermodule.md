@@ -12,22 +12,9 @@ helpviewer_keywords:
   - "IDebugSourceServerModule interface"
 ms.assetid: 38213060-451d-46e6-8b4a-efc123e01a2c
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSourceServerModule
 Represents the source server information that is contained in a PDB file.  

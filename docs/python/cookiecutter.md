@@ -1,27 +1,25 @@
 ---
 title: CookieCutter Extension for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 7/12/2017
-ms.prod: "visual-studio-dev15"
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 783da5fd-726c-4716-994e-aa04d6b75896
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Using the Cookiecutter Extension
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and can be installed separately in earlier versions of Visual Studio.
 
-Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, click the Home button on the Cookiecutter toolbar to detect the newly installed interpreter.
+Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, click the Home button on the Cookiecutter toolbar to detect the newly installed interpreter. (See [Python Environments](python-environments.md) for more about environments in general.)
 
 Once installed, select **View > Cookiecutter Explorer** to open its window:
 

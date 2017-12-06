@@ -2,7 +2,6 @@
 title: "Guidelines for Importing Reusable Workflows | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +20,7 @@ ms.assetid: 851043dd-ecbe-49ab-b5b7-5ea7b699df12
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Guidelines for Importing Reusable Workflows
   To import reusable workflows created in SharePoint Designer, use the Import Reusable SharePoint 2010 Workflow project template in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. This template imports a *declarative* *workflow* ([!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-only) and converts it into a *code workflow*, which is a workflow that you can enhance with either [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] code. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md).  

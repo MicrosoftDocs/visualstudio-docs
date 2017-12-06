@@ -2,7 +2,6 @@
 title: "Walkthrough: Displaying Text in a Text Box in a Document Using a Button | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +17,7 @@ ms.assetid: 04c54ed7-9f00-4068-aaec-1f3200110116
 caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Walkthrough: Displaying Text in a Text Box in a Document Using a Button
   This walkthrough demonstrates how to use buttons and text boxes in a document-level customization for Microsoft Office Word.  

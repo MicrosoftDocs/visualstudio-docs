@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetThread"
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugStackFrame2::GetThread
 Gets the thread associated with a stack frame.  
