@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "C, code analysis"
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 caps.latest.revision: 25
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
 ---
 # Code Analysis for C/C++ Overview

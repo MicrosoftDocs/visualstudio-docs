@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 919dfc34-234a-489e-91bf-74a4cefae26c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -65,7 +64,7 @@ The following video (6m 09s) also provides an overview of these features:
 ### Add a database connection
 
 1. Select **R Tools > Data > Add Database Connection** to bring up the **Connection Properties** dialog. Here you specify the name of the data source (SQL Server in this case), the name of the server, the authentication mode, and the name of the database. Select **Test Connection** to verify your input before closing the dialog.
- 
+
     ![SQL Connection Dialog](media/sql-connection-string-dialog.png)
 
 1. Once you select **OK** with a valid connection, Visual Studio generates a connection string named `dbConnection` in a new `settings.R` file. RTVS automatically sources (runs) this file, so you can immediately use the connection from R scripts:
@@ -75,7 +74,7 @@ The following video (6m 09s) also provides an overview of these features:
 ### Write and test a SQL stored procedure
 
 To add a new SQL Stored Procedure, right-click your project, select **Add > New Item...**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (`StoredProcedure.R` in this example), and select **OK**.
- 
+
 RTVS creates three files for the stored procedure: a `.R` file for your R code, a `.Query.sql` file for the SQL code, and a `.Template.sql` file that combines the two. They latter two appear in Solution Explorer as children of the `.R` file:
 
 ![Solution Explorer expanded view of SQL Stored Procedure with R](media/sql-solution-explorer-expanded.png)

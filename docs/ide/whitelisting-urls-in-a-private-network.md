@@ -13,43 +13,45 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# Whitelisting URLs in a private network    
-If you are using Visual Studio in a private network that uses a security appliance such as a firewall, Visual Studio might not be able to connect to some network resources. These resources include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:  
+# Whitelisting URLs in a private network
 
-  **The underlying connection was closed: An unexpected error occurred on send**  
+If you are using Visual Studio in a private network that uses a security appliance such as a firewall, Visual Studio might not be able to connect to some network resources. These resources include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:
+
+  **The underlying connection was closed: An unexpected error occurred on send**
 
 Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2. To fix the error, enable connections for the following URLs:
 
-- https://management.core.windows.net  
+- https://management.core.windows.net
 
-- https://app.vssps.visualstudio.com  
+- https://app.vssps.visualstudio.com
 
-- https://login.microsoftonline.com  
+- https://login.microsoftonline.com
 
-- https://login.live.com  
+- https://login.live.com
 
-- https://go.microsoft.com  
+- https://go.microsoft.com
 
-- https://graph.windows.net  
+- https://graph.windows.net
 
-- https://app.vsspsext.visualstudio.com  
+- https://app.vsspsext.visualstudio.com
 
-- *.azurewebsites.net (for Azure connections)  
+- *.azurewebsites.net (for Azure connections)
 
-- *.nuget.org (for NuGet connections)  
+- *.nuget.org (for NuGet connections)
 
-- *.visualstudio.com  
+- *.visualstudio.com
 
-- cdn.vsassets.io (hosts content delivery network, or CDN, content)  
+- cdn.vsassets.io (hosts content delivery network, or CDN, content)
 
-- *.gallerycdn.vsassets.io (hosts VSTS extensions)  
+- *.gallerycdn.vsassets.io (hosts VSTS extensions)
 
 - static2.sharepointonline.com (hosts resources that Visual Studio uses in the office fabric UI kit, such as fonts)
 
 > [!NOTE]
->  Privately owned NuGet server URLs may not be included in the list above. You can check the NuGet servers you are using by opening up %APPData%\Nuget\NuGet.Config.  
+> Privately owned NuGet server URLs may not be included in the list above. You can check the NuGet servers you are using by opening up %APPData%\Nuget\NuGet.Config.
 
-## See also  
+## See also
+
 [Proxy authorization required error](../ide/reference/proxy-authorization-required.md)  
-[Connected environment](../ide/connected-environment.md)  
-[Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)  
+[Internet resources used by Visual Studio](../ide/connected-environment.md)  
+[Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)

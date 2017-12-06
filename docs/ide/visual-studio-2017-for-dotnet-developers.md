@@ -66,6 +66,8 @@ If your service runs in Azure, use *Snapshot debugging* to diagnose issues on yo
 
 Use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension to adopt the agile developer workflow.
 
+![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png "VSIDE_Productivity_SourceControl")
+
 ## Extensibility
 [Documentation: Extending Visual Studio](../extensibility/index.md)
 
@@ -76,8 +78,10 @@ Visual Studio has a rich ecosystem of extensions that you can install or create 
 ## Popular extensions & shortcuts
 If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
 - [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.Emacsemulation)
-- [HotKeys for Visual Studio (IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
+- [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys2017-KeyboardShortcuts)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
+
+The following are popular Visual Studio shortcuts. Note that some extensions unbind default Visual Studio keybindings and you must restore the keybindings to use the commands below. To restore your keybindings to Visual Studio's defaults, go to **Tools > Import and Export Settings... > Reset all settings**.
 
 | Shortcut (All Profiles) | Command | Description |
 |-|-|-| 
@@ -90,6 +94,6 @@ If you are coming from another IDE or coding environment, you may find installin
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
-| **Ctrl+\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+| **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 
 

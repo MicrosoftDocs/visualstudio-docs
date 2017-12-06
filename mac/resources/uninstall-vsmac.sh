@@ -11,6 +11,7 @@ rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Developer/Xamarin
+rm -rf "~/Library/Application Support/VisualStudio"
 
 # Uninstall Xamarin.Android
 echo "Uninstalling Xamarin.Android..."
