@@ -4,12 +4,13 @@
   items:
   - name: Visual Studio
     tocHref: /visualstudio/
-    topicHref: /visualstudio/index
+    topicHref: /visualstudio
     items:
-    - name: Version Control
-      tocHref: /visualstudio/version-control/
-      topicHref: /visualstudio/version-control/index
+    - name: Documentation
+      tocHref: /visualstudio/
+      topicHref: /visualstudio/welcome-to-visual-studio
       items:
-      - name: Learn about Git
+      - name: Version Control
         tocHref: /visualstudio/version-control/
-        topicHref: /vsts/git/tutorial/gitworkflow
+        topicHref: /visualstudio/version-control/index
+
