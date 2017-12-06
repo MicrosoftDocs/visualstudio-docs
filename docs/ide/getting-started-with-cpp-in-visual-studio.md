@@ -16,9 +16,9 @@ Follow along in Visual Studio as you read to become familiar with many of the to
 
 ## Prerequisites
 
-You don't need to be familiar with C++ to complete this quickstart, but we do assume you're familiar with some programming concepts. The documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get Started](https://isocpp.org/get-started) page on the ISO C++ website.
+You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some programming and debugging concepts. The documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get Started](https://isocpp.org/get-started) page on the ISO C++ website.
 
-To best follow along, you need a copy of Visual Studio 2017 version 15.3 or later, with the **Desktop development with C++** workload installed. For a fast guide to installation, use the C++ Tutorial [Step 0 - Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
+To follow along, you need a copy of Visual Studio 2017 version 15.3 or later, with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
 
 ## Create a console application
 
