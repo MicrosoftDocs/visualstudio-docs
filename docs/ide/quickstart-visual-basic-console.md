@@ -36,7 +36,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 ## Create the application
 After you select your Visual Basic project template and name your file, Visual Studio creates a simple "Hello World" application for you. It calls the <xref:System.Console.WriteLine(System.String)?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console window.
 
-     ![View the default Hello World code from the template](../ide/media/vb-console-hello-world-code-from-template.png)
+  ![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template-code.png)
 
 If you click the **HelloWorld** button, you can run the program in Debug mode.
 
