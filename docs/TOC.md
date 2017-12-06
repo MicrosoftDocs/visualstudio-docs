@@ -44,7 +44,7 @@
 ## Work with solutions and projects
 ## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
-## Visual Basic: create a console app
+## [Visual Basic: create a console app](ide/quickstart-visual-basic-console.md)
 ## [C++: create a console app](ide/quickstart-cpp.md)
 ## [Python: create a web app](ide/quickstart-python.md)
 ## [Node.js: create a web app](ide/quickstart-nodejs.md)
