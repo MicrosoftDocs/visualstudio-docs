@@ -36,7 +36,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
     ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project.png)
 
-## Install the Bottle library
+## Install the Falcon library
 
 Web apps in Python almost always use one of the many available Python libraries to handle low-level details like routing web requests and shaping responses. The Python development workload in Visual Studio provides [a variety of templates for web apps](../python/template-web.md) built around the Bottle, Flask, and Django libraries.
 
@@ -48,13 +48,13 @@ In this Quickstart, however, you use a different library, [Falcon](https://falco
 
 1. Right-click the environment and select **Install Python Package...**. This command opens the **Python Environments** window on the **Packages** tab. Enter "falcon" in the search field and select **"pip install falcon" from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress.
 
-    ![Installing the Bottle library](media/quickstart-python-03-install-package.png)
+    ![Installing the Falcon library](media/quickstart-python-03-install-package.png)
 
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
-    ![Bottle library installed](media/quickstart-python-04-package-installed.png)
+    ![Falcon library installed](media/quickstart-python-04-package-installed.png)
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. The Python project templates in Visual Studio create a virtual environment automatically. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
+Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
 
 ## Add a code file
 
@@ -98,9 +98,9 @@ For more information about Falcon, see the [Falcon Quickstart](https://falcon.re
 
 1. Right-click `hello.py` in **Solution Explorer** and select **Set as startup file**. The command identifies the code file to launch in Python when running the app.
 
-1. Right-click the "Hello Python" project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Launch URL** property to `https://localhost:8080`. This step ensures that Visual Studio launches a browser with this URL rather than using a random port.
+1. Right-click the "Hello Python" project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `8080`. This step ensures that Visual Studio launches a browser with `localhost:8080` rather than using a random port.
 
-1. Select **File > Save Selected Items** (Ctrl+S) to save the project properties, then select **Debug > Start Without Debugging** (Ctrl+F5) to run the app.
+1. Select **Debug > Start Without Debugging** (Ctrl+F5) to save changes to files and run the app.
 
 1. A command window appears with the message "Starting web app server", then a browser window opens to `localhost:8080` where you see the message, "Hello, Python!" The GET request also appear in the command window. (If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
 

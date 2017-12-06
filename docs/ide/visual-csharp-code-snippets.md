@@ -11,7 +11,6 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "snippets [C#], default snippets"
   - "snippets [C#], Code Snippet Inserter"
-  - "Code Snippet Inserter [J#]"
   - "Code Snippet Inserter [C#]"
   - "Visual C#, default snippets"
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
