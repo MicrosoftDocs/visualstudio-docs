@@ -82,8 +82,8 @@
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
 ## [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
-## Getting Started with Visual C#
-## Getting Started with Visual Basic
+## [Getting Started with Visual C#](ide/tutorial-csharp-aspnet-core.md)
+## [Getting Started with Visual Basic](ide/tutorial-visual-basic-console.md)
 ## [Getting Started with Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 # Samples
