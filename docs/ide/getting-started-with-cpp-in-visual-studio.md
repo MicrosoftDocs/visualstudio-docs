@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with C++ in Visual Studio | Microsoft Docs"
+title: "Get Started with C++ in Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "12/04/2017"
 ms.technology: "vs-acquisition"
@@ -12,15 +12,15 @@ manager: ghogen
 ---
 # Get Started with C++ in Visual Studio
 
-Follow along in Visual Studio as you read to become familiar with many of the tools and dialog boxes that you can use when you develop applications in C++ with Visual Studio. Create a "Hello, World"-style console application while you learn more about working in the integrated development environment (IDE).
+Complete this quickstart to become familiar with many of the tools and dialog boxes that you can use when you develop applications in C++ with Visual Studio. Create a "Hello, World"-style console application while you learn more about working in the integrated development environment (IDE).
 
 ## Prerequisites
 
-You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some programming and debugging concepts. The documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get Started](https://isocpp.org/get-started) page on the ISO C++ website.
+You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some general programming and debugging concepts. The Visual Studio documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get Started](https://isocpp.org/get-started) page on the ISO C++ website.
 
 To follow along, you need a copy of Visual Studio 2017 version 15.3 or later, with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
 
-## Create a console application
+## Create a console app
 
 If it's not running yet, start Visual Studio.
 
@@ -30,21 +30,23 @@ After you open Visual Studio, you can see the three basic parts of the IDE: tool
 
 Visual Studio uses *projects* to organize the code for an app, and *solutions* to organize your projects. A project contains all the options, configurations, and rules used to build your apps. It also manages the relationship between all the project's files and any external files. To create your app, first, you create a new project and solution.
 
-### To create a console app
+### To create a console app project
 
 1. On the menu bar, choose **File > New > Project** to open the **New Project** dialog box.
 
-   ![On the menu bar, choose File, New, Project](../ide/media/get-started-cpp-file-new-project-menu.png "On the menu bar, choose File, New, Project")
+   ![On the menu bar, choose File > New > Project](../ide/media/get-started-cpp-file-new-project-menu.png "On the menu bar, choose File > New > Project")
 
-1. In the **New Project** dialog, select **Installed > Visual C++** if it isn't selected already. Select the **Windows Console Application** template. In the **Name** edit box, enter *HelloApp*. Choose the **OK** button to create your app project and solution.
+1. In the **New Project** dialog, select **Installed > Visual C++** if it isn't selected already. In the center pane, select the **Windows Console Application** template. In the **Name** edit box, enter *HelloApp*.
 
    ![Use the New Project dialog to create your app project](../ide/media/get-started-cpp-new-project-dialog.png "Use the New Project dialog to create your app project")
 
-   Your dialog box may have different choices, depending on what you've installed. If you don't see Visual C++ project templates, you need to run the Visual Studio installer again and install the **Desktop development with C++** workload. You can do this directly from the **New Project** dialog. To launch the installer, choose the **Open Visual Studio Installer** link on the dialog.
+   Your dialog box may have different choices, depending on the Visual Studio workloads and components you've installed. If you don't see Visual C++ project templates, you need to run the Visual Studio installer again and install the **Desktop development with C++** workload. You can do this directly from the **New Project** dialog. To launch the installer, choose the **Open Visual Studio Installer** link on the dialog.
 
-The HelloApp project and solution, with the basic files for a Windows console app, are created and automatically loaded into **Solution Explorer**. The HelloApp.cpp file is opened in the code editor. These items appear in **Solution Explorer**:
+1. Choose the **OK** button to create your app project and solution.
 
-![Files for the solution in Solution Explorer](../ide/media/get-started-cpp-solution-explorer.png "Files for the solution in Solution Explorer")
+   The HelloApp project and solution, with the basic files for a Windows console app, are created and automatically loaded into **Solution Explorer**. The HelloApp.cpp file is opened in the code editor. These items appear in **Solution Explorer**:
+
+   ![Files for the solution in Solution Explorer](../ide/media/get-started-cpp-solution-explorer.png "Files for the solution in Solution Explorer")
 
 ## Add code to the app
 
