@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.remote.overview"
 dev_langs: 
