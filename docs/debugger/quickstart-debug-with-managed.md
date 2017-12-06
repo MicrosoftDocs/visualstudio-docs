@@ -1,7 +1,7 @@
 ---
 title: "Debug with managed code using the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/11/2017"
+ms.date: "12/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,7 +24,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In Visual Studio, choose **File > New Project**.
 
-2. Under **Visual C#** or **Visual Basic**, choose **Windows Classic Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+2. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**.
 
 3. Type a name like **MyDbgApp** and click **OK**.
 
@@ -179,5 +179,5 @@ For more information on using edit-and-continue and on feature limitations, see 
 - To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints).
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

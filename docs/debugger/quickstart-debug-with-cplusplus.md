@@ -1,7 +1,7 @@
 ---
 title: "Debug with C++ using the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/02/2017"
+ms.date: "12/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -131,5 +131,5 @@ For more information on using edit-and-continue and on feature limitations, see 
 - To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints).
 
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
