@@ -22,7 +22,7 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For more information, see [Remote debug on Azure](../debugger/remote-debugging-azure.md).
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 8.5
+* Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
 
 ## Requirements
@@ -31,7 +31,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)** .
+1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)**).
 
     In the **ASP.NET Core** templates section, select **Web Application**.
 
@@ -54,13 +54,13 @@ Depending on your security settings, it may save you time to add the following t
 - download.microsoft.com
 - visualstudio.com
 
-If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers.
+If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
 
 When you download the software, you may get requests to grant permission to load various web site scripts and resources. In most cases, these additional resources are not required to install the software.
 
 ## Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://go.microsoft.com/fwlink/?linkid=844461) bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module.
+1. Install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting) bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
@@ -135,7 +135,6 @@ For information on running the remote debugger as a service, see [Run the remote
 
 5. Check  **Show processes from all users**.
 6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
-    >Note: For an ASP.NET Core app, the previous process name was dnx.exe.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 
@@ -144,6 +143,7 @@ For information on running the remote debugger as a service, see [Run the remote
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
     
     You should see the ASP.NET web page.
+
 9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
@@ -153,7 +153,7 @@ For information on running the remote debugger as a service, see [Run the remote
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
 > [!NOTE]
-> On an Azure VM, you must open ports through the [Network security group](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
+> On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
 
 Required ports:
 

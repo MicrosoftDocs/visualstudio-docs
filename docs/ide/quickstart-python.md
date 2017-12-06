@@ -36,23 +36,25 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
     ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project.png)
 
-## Install the Bottle library
+## Install the Falcon library
 
-Web apps in Python almost always use one of the many available Python libraries, such as Bottle, to handle low-level details like routing web requests and shaping responses. For simplicity, the following steps install Bottle into the default global environment.
+Web apps in Python almost always use one of the many available Python libraries to handle low-level details like routing web requests and shaping responses. The Python development workload in Visual Studio provides [a variety of templates for web apps](../python/template-web.md) built around the Bottle, Flask, and Django libraries.
+
+In this Quickstart, however, you use a different library, [Falcon](https://falconframework.org/), to experience the process of installing a package and creating the web app from scratch. For simplicity, the following steps install Falcon into the default global environment.
 
 1. Expand the **Python Environments** node in the project to see the default environment for the project.
 
     ![Solution explorer showing the default environment](media/quickstart-python-02-default-environment.png)
 
-1. Right-click the environment and select **Install Python Package...**. This command opens the **Python Environments** window. Enter "bottle" in the search field and select **"pip install bottle" from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress.
+1. Right-click the environment and select **Install Python Package...**. This command opens the **Python Environments** window on the **Packages** tab. Enter "falcon" in the search field and select **"pip install falcon" from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress.
 
-    ![Installing the Bottle library](media/quickstart-python-03-install-bottle.png)
+    ![Installing the Falcon library](media/quickstart-python-03-install-package.png)
 
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
-    ![Bottle library installed](media/quickstart-python-04-library-installed.png)
+    ![Falcon library installed](media/quickstart-python-04-package-installed.png)
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
+Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
 
 ## Add a code file
 
@@ -63,42 +65,46 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 1. Copy-paste or enter the following code into `hello.py`:
 
     ```python
-    # Import the necessary modules from Bottle.
-    from bottle import Bottle, run
+    import falcon
+    api = falcon.API()
 
-    # Create the app object to handle requests.
-    app = Bottle()
+    # In Falcon, define a class for each resource; the on_get 
+    # method then handles any GET requests.
 
-    # These Bottle decorators attach routes to the hello function, which
-    # generates the response for those routes.
-    @app.route('/')
-    @app.route('/index')
-    def hello():
-        return "Hello, Python!"
+    class HelloResource:
+        def on_get(self, req, resp):
+            resp.status = falcon.HTTP_200  # 200 is the default
+            resp.body = "Hello, Python!"
 
-    # Start the app on localhost port 8080 (a development port).
-    run(app, host='localhost', port=8080)
+    # Resources are represented by long-lived class instances
+    hello = HelloResource()
+
+    # Instruct Falcon to route / and /hello to the HelloResource
+    api.add_route('/', hello)
+    api.add_route('/hello', hello)
+
+    if __name__ == "__main__":
+        from wsgiref.simple_server import make_server
+
+        # Run the web server on localhost:8080
+        print("Starting web app server")
+        srv = make_server('localhost', 8080, api)
+        srv.serve_forever()
     ```
 
-For more information about Bottle and its routing mechanism, see the [Bottle tutorial](https://bottlepy.org/docs/dev/tutorial.html) (bottlepy.org).
+For more information about Falcon, see the [Falcon Quickstart](https://falcon.readthedocs.io/en/stable/user/quickstart.html) (falcon.readthedocs.io).
 
 ## Run the application
 
 1. Right-click `hello.py` in **Solution Explorer** and select **Set as startup file**. The command identifies the code file to launch in Python when running the app.
 
-1. Select **Debug > Start Without Debugging** (Ctrl+F5) to run the app.
+1. Right-click the "Hello Python" project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `8080`. This step ensures that Visual Studio launches a browser with `localhost:8080` rather than using a random port.
 
-1. A command window appears with the contents shown below, indicating that the Bottle app is running and listening for requests. (If you see only the Python interactive shell in the window, or if a command window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
+1. Select **Debug > Start Without Debugging** (Ctrl+F5) to save changes to files and run the app.
 
-    ```
-    Bottle v0.12.13 server starting up (using WSGIRefServer())...
-    Listening on http://localhost:8080/
-    Hit Ctrl-C to quit.
-    ```
+1. A command window appears with the message "Starting web app server", then a browser window opens to `localhost:8080` where you see the message, "Hello, Python!" The GET request also appear in the command window. (If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set `hello.py` as the startup file in step 1 above.)
 
-1. Open a browser and navigate to `localhost:8080`, which should display "Hello, Python!" Notice that the Bottle app shows the request in the command window.
-
-1. Stop the app by pressing Ctrl+C in the command window.
+1. Close the command window to stop the app.
 
 ## Next steps
 
@@ -107,5 +113,6 @@ Congratulations on completing this quickstart, in which you've learned a little 
 > [!div class="nextstepaction"]
 > [Tutorial: Getting Started with Python in Visual Studio](../python/vs-tutorial-01-01.md).
 
+- Learn about [Python web app templates in Visual Studio](../python/template-web.md)
 - Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)
 - Learn how to use the [Visual Studio debugger](../debugger/debugger-feature-tour.md)

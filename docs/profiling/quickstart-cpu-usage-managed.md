@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU usage data (managed code) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/16/2017"
+ms.date: "12/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,9 +11,6 @@ ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-  - "CPU Usage"
-  - "Diagnostics Tools"
-ms.assetid: 45aeed8f-b529-4fe3-9a45-057fd33b5ae0
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -29,7 +26,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. In Visual Studio, choose **File > New Project**.
 
-2. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**.
+2. Under **Visual C#** or **Visual Basic**, choose **Windows Classic Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
 
 3. Type a name like **MyProfilerApp** and click **OK**.
 
@@ -233,5 +230,5 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## See Also  
 
- [Profiling in Visual Studio](../profiling/index.md)   
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling feature tour](../profiling/profiling-feature-tour.md)

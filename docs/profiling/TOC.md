@@ -3,8 +3,8 @@
 # Overview
 ## [Profiling feature tour](profiling-feature-tour.md)
 # Quickstarts
-## [Analyze CPU usage (managed)](quickstart-debug-with-managed.md)
-## [Analyze CPU usage (native)](quickstart-debug-with-cplusplus.md)
+## [Analyze CPU usage (managed)](quickstart-cpu-usage-managed.md)
+## [Analyze CPU usage (native)](quickstart-cpu-usage-native.md)
 # Tutorials
 ## [Profile application performance in Visual Studio](beginners-guide-to-performance-profiling.md)
 # Concepts

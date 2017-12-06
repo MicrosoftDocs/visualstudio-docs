@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU usage data (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/16/2017"
+ms.date: "12/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +13,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-  - "CPU Usage"
-  - "Diagnostics Tools"
-ms.assetid: f9835897-1c6e-4c6a-9873-71fe2c14d669
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -183,5 +180,5 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## See Also  
 
- [Profiling in Visual Studio](../profiling/index.md)   
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling feature tour](../profiling/profiling-feature-tour.md)

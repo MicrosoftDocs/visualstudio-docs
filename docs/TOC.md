@@ -1,5 +1,36 @@
-# [Visual Studio Documentation](ide/index.md)
 # [Overview](ide/visual-studio-ide.md)
+## Languages
+### [C#](https://go.microsoft.com/fwlink/?linkid=833062)
+### [Visual Basic](https://go.microsoft.com/fwlink/?linkid=833060)
+### [C++](https://go.microsoft.com/fwlink/?linkid=833063)
+### [F#](https://go.microsoft.com/fwlink/?linkid=833067)
+### [Python](https://go.microsoft.com/fwlink/?linkid=833068)
+### [R](https://go.microsoft.com/fwlink/?linkid=833070)
+### [JavaScript](https://go.microsoft.com/fwlink/?linkid=833064)
+### [TypeScript](https://go.microsoft.com/fwlink/?linkid=833066)
+## Workloads
+### Web & Cloud
+#### [Web development](https://go.microsoft.com/fwlink/?linkid=833085)
+#### [Azure development and management](https://go.microsoft.com/fwlink/?linkid=833086)
+#### [Python](https://go.microsoft.com/fwlink/?linkid=833068)
+#### [Node.js](https://go.microsoft.com/fwlink/?linkid=834351)
+#### [Data storage and processing](https://go.microsoft.com/fwlink/?linkid=833095)
+#### [Data science and analytical applications](https://go.microsoft.com/fwlink/?linkid=834748)
+#### [Office/SharePoint development](https://go.microsoft.com/fwlink/?linkid=833075)
+### Windows
+#### [Universal Windows Platform development](https://go.microsoft.com/fwlink/?linkid=833082)
+#### [.NET Desktop development](https://go.microsoft.com/fwlink/?linkid=833083)
+#### [Windows development with C++](https://go.microsoft.com/fwlink/?linkid=833084)
+### Mobile & Gaming
+#### [Mobile development with .NET](https://go.microsoft.com/fwlink/?linkid=833088)
+#### [Game development with Unity](https://go.microsoft.com/fwlink/?linkid=833091)
+#### [Mobile development with JavaScript](https://go.microsoft.com/fwlink/?linkid=833089)
+#### [Mobile development with C++](https://go.microsoft.com/fwlink/?linkid=833090)
+#### [Game development with C++](https://go.microsoft.com/fwlink/?linkid=834749)
+### Other
+#### [Linux development with C++](https://go.microsoft.com/fwlink/?linkid=834750)
+#### [.NET Core development](https://go.microsoft.com/fwlink/?linkid=833099)
+#### [Visual Studio extension development](https://go.microsoft.com/fwlink/?linkid=856606)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
@@ -40,7 +71,7 @@
 # Quickstarts
 ## [IDE orientation](ide/quickstart-ide-orientation.md)
 ## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
-## Write code in the editor
+## [Write code in the editor](ide/quickstart-editor.md)
 ## Work with solutions and projects
 ## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
@@ -50,7 +81,7 @@
 ## [Node.js: create a web app](ide/quickstart-nodejs.md)
 # Tutorials
 ## [Getting Started with Python in Visual Studio](python/getting-started.md)
-## [Getting Started with C++ in Visual Studio](/cpp/build/vscpp-step-0-installation.md)
+## [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
 ## Getting Started with Visual C#
 ## Getting Started with Visual Basic
 ## [Getting Started with Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
