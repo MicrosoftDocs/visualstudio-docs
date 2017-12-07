@@ -13,7 +13,7 @@ Searchscope: VS Subscription
 
 # Activating the Power BI Pro Benefit in Visual Studio Subscriptions
 
-Develop, test, and deploy add-ins for Office and SharePoint.  Includes a one-tenant SharePoint Online Developer Site. 
+Transform your data into rich visuals for you to collect and organize. 
 
 To use Power BI Pro, you’ll need to set up an account or sign in using an existing account. 
 1.	Click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the code was successfully retrieved.  Click **Activate**. 
