@@ -100,7 +100,7 @@ C++ programs that consume REST services can use the [C++ REST SDK](https://githu
 
 C++ programs that work with Microsoft Azure Storage can use the [Microsoft Azure Storage Client](http://www.nuget.org/packages/wastorage).
 
-Data modeling &mdash; Visual Studio does not provide an ORM layer for C++. [ODB](http://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
+Data modeling&mdash;Visual Studio does not provide an ORM layer for C++. [ODB](http://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
 
 To learn more about connecting to databases from C++ apps, see [Visual Studio data tools for C++](../data-tools/visual-studio-data-tools-for-cpp.md). For more information about legacy Visual C++ data-access technologies, see [Data Access](http://msdn.microsoft.com/Library/a9455752-39c4-4457-b14e-197772d3df0b).
 
