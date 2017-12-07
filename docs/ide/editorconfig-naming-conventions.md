@@ -79,7 +79,6 @@ To describe the modifiers of the symbols you want the naming rule to apply to, s
 
 The allowable values are listed below, and you can specify multiple values by separating them with a comma.
 
-- \* (use this value to specify all modifiers)
 - abstract or must_inherit
 - async
 - const
