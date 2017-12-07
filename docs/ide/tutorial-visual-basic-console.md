@@ -31,21 +31,47 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 2. From the top menu bar, choose **File** > **New** > **Project...**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file `Some Name TBD`.  
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *WhatsYourName*.  
 
      If you don't see the **Console App (.NET Core)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.  
 
      ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)  
 
-## Create the application
+## Create a "What's Your Name" application
+We're going to create an app that prompts you for your name and then displays it along with the date and time. Here's how:
+
+1. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the first closing bracket:
+
+   [!code-vb[GettingStarted#1](../../../samples/snippets/core/tutorials/vb-with-visual-studio/helloworld.vb#1)]
+
+   This code replaces the existing <xref:System.Console.WriteLine%2A?displayProperty=nameWithType>, <xref:System.Console.Write%2A?displayProperty=nameWithType>, and <xref:System.Console.ReadKey%2A?displayProperty=nameWithType> statements.
+
+   ![Visual Studio Program file with updated Main method](./media/vb-with-visual-studio/codewindow.png)
+
+   This code displays "What is your name?" in the console window and waits until the user enters a string followed by the Enter key. It stores this string into a variable named `name`. It also retrieves the value of the <xref:System.DateTime.Now?displayProperty=nameWithType> property, which contains the current local time, and assigns it to a variable named `currentDate`. Finally, it uses an [interpolated string](../../csharp/language-reference/keywords/interpolated-strings.md) to display these values in the console window.
+
+1. Compile the program by choosing **Build** > **Build Solution**.
+
+1. Run the program in Debug mode in Visual Studio by selecting the green arrow on the toolbar, pressing F5, or choosing the **Debug** > **Start Debugging** menu item. Respond to the prompt by entering a name and pressing the Enter key.
+
+   ![Console window with modified program output](./media/with-visual-studio/helloworld2.png)
+
+1. Press any key to close the console window.
+
+## Create a My Calculator application
+After you select your Visual Basic project template and name your file, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method to display the literal string "Hello World!" in the console window.
+
+![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template.png)
+
+We're going to replace the literal string "Hello World!" and then add some code to create our calculator app.
 
 ### Add some code
-Let's add some code to pause the program in the console.
 
-1. Add the following code
+
+1. Replace the replace the literal string "Hello World!" with "My calculator".
 
    ```vb
-
+  Console.Writeline("My Calculator")
    ```
    This code prompts the user to press any key, which pauses program until a key is pressed.
 

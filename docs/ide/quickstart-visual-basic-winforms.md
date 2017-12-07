@@ -92,5 +92,5 @@ Now that we've added a button control to create an action, let's add a label con
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## See also   
-* [Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md)
+* [Quickstart: Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md)
 * [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  

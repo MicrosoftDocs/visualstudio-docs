@@ -70,9 +70,8 @@ Let's add some code to pause the application and then ask for user input.
 
    ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents. 
+Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## See also
-* [Enhance the "Hello World" console app in Visual Studio with Visual Basic](https://docs.microsoft.com/en-us/dotnet/core/tutorials/vb-with-visual-studio#enhancing-the-hello-world-application)
 * [Quickstart: Create a "Hello World" Windows Forms app in Visual Studio with Visual Basic](quickstart-visual-basic-winforms.md)
 * [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)

@@ -35,7 +35,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
      If you don't see the **.NET Core** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.  
 
-     ![ASP.NET and web development workload in the Visual Studio Installer](../ide/media/addthis.png)
+     ![ASP.NET and web development workload in the Visual Studio Installer]()
 
 4. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 
