@@ -42,19 +42,19 @@ We're going to create an app that prompts you for your name and then displays it
 
 1. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the first closing bracket:
 
-   [!code-vb[GettingStarted#1](../../../samples/snippets/core/tutorials/vb-with-visual-studio/helloworld.vb#1)]
 
-   This code replaces the existing <xref:System.Console.WriteLine%2A?displayProperty=nameWithType>, <xref:System.Console.Write%2A?displayProperty=nameWithType>, and <xref:System.Console.ReadKey%2A?displayProperty=nameWithType> statements.
 
-   ![Visual Studio Program file with updated Main method](./media/vb-with-visual-studio/codewindow.png)
+   This code replaces the existing "", and "" statements.
 
-   This code displays "What is your name?" in the console window and waits until the user enters a string followed by the Enter key. It stores this string into a variable named `name`. It also retrieves the value of the <xref:System.DateTime.Now?displayProperty=nameWithType> property, which contains the current local time, and assigns it to a variable named `currentDate`. Finally, it uses an [interpolated string](../../csharp/language-reference/keywords/interpolated-strings.md) to display these values in the console window.
+
+
+   This code displays "What is your name?" in the console window and waits until the user enters a string followed by the Enter key. It stores this string into a variable named `name`. It also retrieves the value of the <xref:System.DateTime.Now?displayProperty=nameWithType> property, which contains the current local time, and assigns it to a variable named `currentDate`. Finally, it uses an [interpolated string]() to display these values in the console window.
 
 1. Compile the program by choosing **Build** > **Build Solution**.
 
 1. Run the program in Debug mode in Visual Studio by selecting the green arrow on the toolbar, pressing F5, or choosing the **Debug** > **Start Debugging** menu item. Respond to the prompt by entering a name and pressing the Enter key.
 
-   ![Console window with modified program output](./media/with-visual-studio/helloworld2.png)
+   
 
 1. Press any key to close the console window.
 
