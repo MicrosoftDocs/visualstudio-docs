@@ -49,7 +49,9 @@ The list includes snippets for creating a class, a constructor, `Console.WriteLi
 
 ## Commenting out code
 
-The toolbar provides a number of buttons to make you more productive as you code. For example, you can increase or decrease an indent, set a bookmark, or comment out code. In this section, we'll comment out some code that we don't want to compile.
+The toolbar provides a number of buttons to make you more productive as you code. For example, you can toggle IntelliSense completion mode, increase or decrease an indent, set a bookmark, or comment out code. In this section, we'll comment out some code that we don't want to compile.
+
+![Editor toolbar](media/quickstart-editor-toolbar.png)
 
 1. Paste the following code into the `Main()` method body.
 
@@ -75,7 +77,7 @@ The toolbar provides a number of buttons to make you more productive as you code
                                 select word;
     ```
 
-1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar.
+1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar, or choose **Ctrl**+**K**, **Ctrl**+**C**.
 
    ![Comment out button](media/quickstart-comment-out.png)
 
@@ -83,17 +85,17 @@ The toolbar provides a number of buttons to make you more productive as you code
 
 ## Collapsing code blocks
 
-We don't want to see the empty constructor for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it, in the margin of the first line of the constructor.
+We don't want to see the empty constructor for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it in the margin of the first line of the constructor. Or, if you are a keyboard user, place the cursor anywhere in the constructor code and press **Ctrl**+**M**, **Ctrl**+**M**.
 
 ![Outlining collapse button](media/quickstart-collapse.png)
 
-The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
+The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
 
 ## Viewing symbol definitions
 
 The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of `string`.
 
-1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu &mdash; or, press **Alt** + **F12**.
+1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu &mdash; or, press **Alt**+**F12**.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
@@ -130,7 +132,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-code-generation-quick-actions.md#refactoring) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu.
+1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu, or choose **Ctrl**+**R**, **Ctrl**+**R**.
 
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
@@ -144,7 +146,7 @@ Nobody gets code right the first time, and one of the things you might want to c
 
 ## Next steps
 
-You've completed this quickstart for the Visual Studio editor! Next you might try out some of the other quickstarts for the Visual Studio IDE, or check out the links to more information about some of the features we looked at. Otherwise, happy coding!
+You've completed this quickstart for the Visual Studio editor! Next you might try out some of the other quickstarts for the Visual Studio IDE, look at more ways of [navigating code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
 
 ## See also
 
