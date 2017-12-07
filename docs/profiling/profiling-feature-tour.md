@@ -149,7 +149,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |Performance Tool|Windows desktop|Windows Universal/Store|ASP.NET/ASP.NET Core|  
 |----------------------|---------------------|------------------------------|-------------|  
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes (no for .NET Core/ASP.NET Core)|  
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|  
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|  
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|  

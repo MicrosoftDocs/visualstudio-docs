@@ -21,7 +21,7 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
 To resolve some common issues with Visual Studio Tools for Unity, see the following sections.  
 
 ### Visual Studio crashes
-This can be due to to the Visual Studio MEF cache being corrupted.
+This can be due to the Visual Studio MEF cache being corrupted.
 
 You should remove the following folder to reset the MEF cache (please close Visual Studio before doing this):
 
@@ -58,7 +58,8 @@ If Visual Studio is unable to find a source location for a specific breakpoint y
 ### Unable to attach
 -	Try to temporarily disable your antivirus or create exclusion rules for both VS and Unity.
 -	Try to temporarily disable your firewall or create rules for allowing TCP/UDP networking between VS and Unity.
--	We identified that programs like Team Viewer are interfering with process detection, perhaps you can try to stop temporarily any extra software to see if it change something.
+-	We identified that programs like Team Viewer are interfering with process detection; perhaps you can try to stop temporarily any extra software to see if it changes something.
+-	Do not rename the main Unity executable, as VSTU is only monitoring "Unity.exe" processes.
 
 ### Unable to debug Android players
 We use multicast for player detection (which is the default mechanism used by Unity), but after that we use a regular TCP connection to attach the debugger. The detection phase is the main issue for Android devices.

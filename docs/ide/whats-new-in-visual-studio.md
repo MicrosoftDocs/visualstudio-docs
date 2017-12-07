@@ -123,7 +123,7 @@ Refactoring is the process of improving your code after it has been written. Ref
 *	Convert if-to-switch
 *	Remove unused variable
 
-For more information, see the [Refactoring, Code Generation, and Quick Actions in Visual Studio](refactoring-code-generation-quick-actions.md) page.  
+For more information, see [Quick Actions](../ide/quick-actions.md#common-quick-actions).
 
 #### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.

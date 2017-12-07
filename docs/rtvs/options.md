@@ -43,7 +43,7 @@ To revert to other Visual Studio settings later on, first use the **Tools > Impo
 
 ## Text Editor > R > Advanced options
 
-These options control the behavior of formatting, IntelliSense, outlining, indenting, and syntax checking for R
+These options control the behavior of formatting, IntelliSense, outlining, indenting, and syntax checking for R.
 
 ![Options dialog for R text editor advanced options](media/options-dialog-advanced-text-editor.png)
 
