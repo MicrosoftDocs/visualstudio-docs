@@ -77,7 +77,7 @@ The toolbar provides a number of buttons to make you more productive as you code
                                 select word;
     ```
 
-1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar, or choose **Ctrl**+**K**, **Ctrl**+**C**.
+1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar, or press **Ctrl**+**K**, **Ctrl**+**C**.
 
    ![Comment out button](media/quickstart-comment-out.png)
 
