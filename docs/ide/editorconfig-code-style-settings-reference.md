@@ -1,7 +1,7 @@
 ---
 title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2017"
+ms.date: "12/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "EditorConfig coding conventions"
   - "language conventions [EditorConfig]"
   - "formatting conventions [EditorConfig]"
-ms.assetid: 
-caps.latest.revision: 01
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ---
 # .NET coding convention settings for EditorConfig
 
@@ -279,9 +276,9 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 version 15.5 |
-| csharp_preferred_modifier_order | IDE0036 | C# | public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:none | Visual Studio 2017 version 15.5 |
-| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:none | Visual Studio 2017 version 15.5 |
+| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | Visual Studio 2017 v. 15.5 |
+| csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | Visual Studio 2017 v. 15.5 |
+| visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | Visual Studio 2017 v. 15.5 |
 
 **dotnet\_style\_require\_accessibility_modifiers**  
 This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
@@ -289,7 +286,7 @@ This rule does not accept a **true** or **false** value; instead it accepts a va
 | Value | Description |
 | ----- |:----------- |
 | always | Prefer accessbility modifiers to be specified |
-| for_non_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
+| for\_non\_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
 | never | Do not prefer accessibility modifiers to be specified | 
 
 Code examples:  
@@ -573,126 +570,126 @@ The following table shows the rule names, rule IDs, applicable language versions
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | never:none | Visual Studio 2017 version 15.3 |
-| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | never:none | Visual Studio 2017 version 15.3 |
-| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | never:none | Visual Studio 2017 version 15.3 |
-| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |
-| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |
-| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | when_possible:none | Visual Studio 2017 version 15.3 |  
+| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |
+| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | true:none | Visual Studio 2017 v. 15.3 |  
 
 **csharp\_style\_expression\_bodied_methods**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for methods |
+| true | Prefer expression-bodied members for methods |
 | when_on_single_line | Prefer expression-bodied members for methods when they will be a single line |
-| never | Prefer block bodies for methods | 
+| false | Prefer block bodies for methods | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_methods = when_possible
+// csharp_style_expression_bodied_methods = true
 public int GetAge() => this.Age;
 
-// csharp_style_expression_bodied_methods = never
+// csharp_style_expression_bodied_methods = false
 public int GetAge() { return this.Age; }
 ```  
 
 **csharp\_style\_expression\_bodied_constructors**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:   
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for constructors |
+| true | Prefer expression-bodied members for constructors |
 | when_on_single_line | Prefer expression-bodied members for constructors when they will be a single line |
-| never | Prefer block bodies for constructors |  
+| false | Prefer block bodies for constructors |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_constructors = when_possible
+// csharp_style_expression_bodied_constructors = true
 public Customer(int age) => Age = age;
 
-// csharp_style_expression_bodied_constructors = never
+// csharp_style_expression_bodied_constructors = false
 public Customer(int age) { Age = age; }
 ```  
 
 **csharp\_style\_expression\_bodied_operators**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:    
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for operators |
+| true | Prefer expression-bodied members for operators |
 | when_on_single_line | Prefer expression-bodied members for operators when they will be a single line |
-| never | Prefer block bodies for operators |  
+| false | Prefer block bodies for operators |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_operators = when_possible
-public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
+// csharp_style_expression_bodied_operators = true
+public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
     => new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);
 
-// csharp_style_expression_bodied_operators = never
-public static ComplexNumber operator +(ComplexNumber c1, ComplexNumber c2)
+// csharp_style_expression_bodied_operators = false
+public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 { return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary); }
 ```  
 
 **csharp\_style\_expression\_bodied_properties**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:   
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for properties |
+| true | Prefer expression-bodied members for properties |
 | when_on_single_line | Prefer expression-bodied members for properties when they will be a single line |
-| never | Prefer block bodies for properties |  
+| false | Prefer block bodies for properties |  
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_properties = when_possible
+// csharp_style_expression_bodied_properties = true
 public int Age => _age;
 
-// csharp_style_expression_bodied_properties = never
+// csharp_style_expression_bodied_properties = false
 public int Age { get { return _age; }}
 ```  
 
 **csharp\_style\_expression\_bodied_indexers**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:  
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for indexers |
+| true | Prefer expression-bodied members for indexers |
 | when_on_single_line | Prefer expression-bodied members for indexers when they will be a single line |
-| never | Prefer block bodies for indexers | 
+| false | Prefer block bodies for indexers | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_indexers = when_possible
+// csharp_style_expression_bodied_indexers = true
 public T this[int i] => _value[i];
 
-// csharp_style_expression_bodied_indexers = never
+// csharp_style_expression_bodied_indexers = false
 public T this[int i] { get { return _values[i]; } }
 ```  
 
 **csharp\_style\_expression\_bodied_accessors**  
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:  
+This rule accepts values from the following table:   
 
 | Value | Description |
 | ----- |:----------- |
-| when_possible | Prefer expression-bodied members for accessors |
+| true | Prefer expression-bodied members for accessors |
 | when_on_single_line | Prefer expression-bodied members for accessors when they will be a single line |
-| never | Prefer block bodies for accessors | 
+| false | Prefer block bodies for accessors | 
 
 Code examples:  
 
 ```csharp
-// csharp_style_expression_bodied_accessors = when_possible
+// csharp_style_expression_bodied_accessors = true
 public int Age { get => _age; set => _age = value; }
 
-// csharp_style_expression_bodied_accessors = never
+// csharp_style_expression_bodied_accessors = false
 public int Age { get { return _age; } set { _age = value; } }
 ```  
 
@@ -701,12 +698,12 @@ Example .editorconfig file:
 ```
 # CSharp code style settings:
 [*.cs]
-csharp_style_expression_bodied_methods = never:none
-csharp_style_expression_bodied_constructors = never:none
-csharp_style_expression_bodied_operators = never:none
-csharp_style_expression_bodied_properties = when_possible:suggestion
-csharp_style_expression_bodied_indexers = when_possible:suggestion
-csharp_style_expression_bodied_accessors = when_possible:suggestion
+csharp_style_expression_bodied_methods = false:none
+csharp_style_expression_bodied_constructors = false:none
+csharp_style_expression_bodied_operators = false:none
+csharp_style_expression_bodied_properties = true:suggestion
+csharp_style_expression_bodied_indexers = true:suggestion
+csharp_style_expression_bodied_accessors = true:suggestion
 ```  
 
 #### <a name="pattern_matching">Pattern matching</a>

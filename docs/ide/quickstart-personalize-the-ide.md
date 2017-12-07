@@ -81,6 +81,8 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
    ![Options dialog box, Fonts and Colors category](media/quickstart-personalize-line-number-color.png)
 
+   Some languages have their own specific fonts and colors settings. If you are a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list.
+
 1. Before we exit out of the dialog box, let's also change the color of XML attributes. In the **Display items** list, scroll down to **XML Attribute** and select it. In the **Item foreground** box, choose **Lime**. Choose **OK** to save our selections and close the dialog box.
 
    The line numbers are now an olive color, and the XML attributes are a bright, lime green. If you open another file type, such as a C++ or C# code file, you'll see that the line numbers also appear in the olive color.

@@ -65,7 +65,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
   
 2.  **Open the default.js source file.** In Solution Explorer, open the **js** node and choose `default.js`.  
   
-3.  **Replace the page contents with the sample code.** Delete all contents from the `default.js` file. Follow this link: [Debugger navigation sample code (JavaScript)](../debugger/debugger-navigation-sample-code-javascript.md), and then copy the code listed in the JavaScript section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code into the now empty `default.js`. Choose **Ctrl+ S** to save the file.  
+3.  **Replace the page contents with the sample code.** Delete all contents from the `default.js` file. Follow this link: [Debugger navigation sample code (JavaScript)](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/debugger/samples/debugger-navigation-sample-code-javascript.js), and then copy the code listed in the JavaScript section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code into the now empty `default.js`. Choose **Ctrl+ S** to save the file.  
   
  You can now follow along with the examples in this topic.  
   
