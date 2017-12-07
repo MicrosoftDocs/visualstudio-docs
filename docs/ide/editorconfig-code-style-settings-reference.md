@@ -1049,11 +1049,12 @@ This formatting rule concerns the placement of System.* using directives with re
 
 The following table shows the rule name, applicable languages, default value, and first supported version of Visual Studio:
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| Rule Name | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| dotnet_sort_system_directives_first |  C# and Visual Basic | true | Visual Studio 2017 version 15.3  |
+| dotnet_sort_system_directives_first |  C# and Visual Basic | true | 15.3  |
 
 **dotnet\_sort\_system\_directives_first**
+
 - When this rule is set to **true**, sort System.* using directives alphabetically, and place them before other usings.
 - When this rule is set to **false**, do not place System.* using directives before other using directives.
 
@@ -1089,15 +1090,15 @@ These formatting rules concern the use of new lines to format code.
 
 The following table shows the "new line" rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| Rule Name | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_open_brace |  C# | all | Visual Studio 2017 version 15.3  |
-| csharp_new_line_before_else |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_new_line_before_catch |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_new_line_before_finally |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_new_line_before_members_in_object_initializers |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_new_line_before_members_in_anonymous_types |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_new_line_between_query_expression_clauses |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_new_line_before_open_brace |  C# | all | 15.3  |
+| csharp_new_line_before_else |  C# | true | 15.3  |
+| csharp_new_line_before_catch |  C# | true | 15.3  |
+| csharp_new_line_before_finally |  C# | true | 15.3  |
+| csharp_new_line_before_members_in_object_initializers |  C# | true | 15.3  |
+| csharp_new_line_before_members_in_anonymous_types |  C# | true | 15.3  |
+| csharp_new_line_between_query_expression_clauses |  C# | true | 15.3  |
 
 **csharp\_new\_line\_before\_open_brace**
 
@@ -1130,6 +1131,7 @@ void MyMethod() {
 ```
 
 **csharp\_new\_line\_before_else**
+
 - When this rule is set to **true**, place `else` statements on a new line.
 - When this rule is set to **false**, place `else` statements on the same line.
 
@@ -1153,6 +1155,7 @@ if (...) {
 ```
 
 **csharp\_new\_line\_before_catch**
+
 - When this rule is set to **true**, place `catch` statements on a new line.
 - When this rule is set to **false**, place `catch` statements on the same line.
 
@@ -1176,6 +1179,7 @@ try {
 ```
 
 **csharp\_new\_line\_before_finally**
+
 - When this rule is set to **true**, require `finally` statements to be on a new line after the closing brace.
 - When this rule is set to **false**, require `finally` statements to be on the same line as the closing brace.
 
@@ -1204,6 +1208,7 @@ try {
 ```
 
 **csharp\_new\_line\_before\_members\_in\_object_initializers**
+
 - When this rule is set to **true**, require members of object intializers to be on separate lines.
 - When this rule is set to **false**, require members of object initializers to be on the same line.
 
@@ -1225,6 +1230,7 @@ var z = new B()
 ```
 
 **csharp\_new\_line\_before\_members\_in\_anonymous_types**
+
 - When this rule is set to **true**, require members of anonymous types to be on separate lines.
 - When this rule is set to **false**, require members of anonymous types to be on the same line.
 
@@ -1246,6 +1252,7 @@ var z = new
 ```
 
 **csharp_new_line_between_query_expression_clauses**
+
 - When this rule is set to **true**, require elements of query expression clauses to be on separate lines.
 - When this rule is set to **false**, require elements of query expression clauses to be on the same line.
 
@@ -1282,13 +1289,14 @@ These formatting rules concern the use of indentation to format code.
 
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| Rule Name | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_indent_case_contents |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_indent_switch_labels |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_indent_labels |  C# | no_change | Visual Studio 2017 version 15.3  |
+| csharp_indent_case_contents |  C# | true | 15.3  |
+| csharp_indent_switch_labels |  C# | true | 15.3  |
+| csharp_indent_labels |  C# | no_change | 15.3  |
 
 **csharp\_indent\_case_contents**
+
 - When this rule is set to **true**, indent `switch` case contents.
 - When this rule is set to **false**, do not indent `switch` case contents.
 
@@ -1323,6 +1331,7 @@ switch(c) {
 ```
 
 **csharp\_indent\_switch_labels**
+
 - When this rule is set to **true**, indent `switch` labels.
 - When this rule is set to **false**, do not indent `switch` labels.
 
@@ -1425,13 +1434,13 @@ These formatting rules concern the use of space characters to format code.
 
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| Rule Name | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_after_cast |  C# | false | Visual Studio 2017 version 15.3  |
-| csharp_space_after_keywords_in_control_flow_statements |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
-| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
-| csharp_space_between_parentheses |  C# | false | Visual Studio 2017 version 15.3  |
+| csharp_space_after_cast |  C# | false | 15.3  |
+| csharp_space_after_keywords_in_control_flow_statements |  C# | true | 15.3  |
+| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | 15.3  |
+| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | 15.3  |
+| csharp_space_between_parentheses |  C# | false | 15.3  |
 
 **csharp\_space\_after_cast**
 
@@ -1534,10 +1543,10 @@ These formatting rules concern the use of single lines versus separate lines for
 
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable Languages | Visual Studio Default | Supported Version |
+| Rule Name | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_preserve_single_line_statements |  C# | true | Visual Studio 2017 version 15.3  |
-| csharp_preserve_single_line_blocks |  C# | true | Visual Studio 2017 version 15.3  |
+| csharp_preserve_single_line_statements |  C# | true | 15.3  |
+| csharp_preserve_single_line_blocks |  C# | true | 15.3  |
 
 **csharp_preserve_single_line_statements**
 
