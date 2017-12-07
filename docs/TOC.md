@@ -72,7 +72,6 @@
 ## [IDE orientation](ide/quickstart-ide-orientation.md)
 ## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
 ## [Write code in the editor](ide/quickstart-editor.md)
-## Work with solutions and projects
 ## [Find and use Visual Studio Extensions](ide/finding-and-using-visual-studio-extensions.md)
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
 ## Visual Basic: create a console app
