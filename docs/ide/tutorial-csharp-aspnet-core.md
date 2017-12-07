@@ -15,6 +15,10 @@ manager: ghogen
 dev_langs:
   - CSharp
 ---
+
+>[!IMPORTANT]
+>This tutorial is not yet complete; it's here as a placeholder only.
+
 # Getting started with C# and ASP.NET in Visual Studio
 In this tutorial for C# development for ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 

@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create a console app in Visual Studio with Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2017"
+ms.date: "12/05/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -29,14 +29,14 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
 
- ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/new-project-vb-dotnet-helloworld-console-app.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/new-project-vb-dotnet-helloworld-console-app.png)
 
-     If you don't see the **Console App (.NET Core)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.  
+     If you don't see the **Console App (.NET Core)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-     ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)  
+     ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
 ## Create the application
-After you select your Visual Basic project template and name your file, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](../../dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String_) method to display the literal string "Hello World!" in the console window.
+After you select your Visual Basic project template and name your file, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method to display the literal string "Hello World!" in the console window.
 
 ![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template.png)
 
@@ -49,30 +49,30 @@ When you do this, the console window is visible for only a moment before it clos
 ### Add some code
 Let's add some code to pause the application and then ask for user input.
 
-1. Add the following code immediately after the call to the [Console.WriteLine(System.String)](../../dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String_) method:
+1. Add the following code immediately after the call to the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method:
 
    ```vb
    Console.Write("Press any key to continue...")
    Console.ReadKey(true)
    ```
-  This pauses the program until you press a key.
+   This pauses the program until you press a key.
 
 2. On the menu bar, select **Build** > **Build Solution**.
 
- This compiles your program into an intermediate language (IL) that's converted into binary code by a just-in-time (JIT) compiler.
+   This compiles your program into an intermediate language (IL) that's converted into binary code by a just-in-time (JIT) compiler.
 
 ## Run the application
 1. Click the **HelloWorld** button on the toolbar.
 
-  ![Click the Hello World button to run the program from the toolbar](../ide/media/vb-console-hello-world-button.png)
+   ![Click the Hello World button to run the program from the toolbar](../ide/media/vb-console-hello-world-button.png)
 
 2. Press any key to close the console window.
 
    ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
+Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents. 
 
-## See also   
-* [Enhance the "Hello World" console app with Visual Basic in Visual Studio](https://docs.microsoft.com/en-us/dotnet/core/tutorials/vb-with-visual-studio#enhancing-the-hello-world-application)
-* [Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic](quickstart-visual-basic-winforms.md)
-* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  
+## See also
+* [Enhance the "Hello World" console app in Visual Studio with Visual Basic](https://docs.microsoft.com/en-us/dotnet/core/tutorials/vb-with-visual-studio#enhancing-the-hello-world-application)
+* [Quickstart: Create a "Hello World" Windows Forms app in Visual Studio with Visual Basic](quickstart-visual-basic-winforms.md)
+* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)
