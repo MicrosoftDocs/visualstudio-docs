@@ -15,7 +15,7 @@ ms.technology: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig
 
-Text editor settings in Visual Studio apply to all projects of a given type. So, for example, if you change a C# text editor setting, that setting applies to *all* C# projects in Visual Studio. However, in some cases, you may need to use conventions that differ from your own personal editor preferences. [EditorConfig](http://editorconfig.org/) files enable you to do this by describing common text editor options, such as indent size, on a per-project basis. EditorConfig settings, which are contained in an .editorconfig file that lives alongside the code and project files, take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. No plug-in is required to use this functionality in Visual Studio.
+In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. While you may have personal coding style preferences set in Visual Studio options, you can still abide by varying style guidelines for different codebases, if the codebase includes an .editorconfig file. An example of such a preference is indent style&mdash;tabs or spaces. EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio, so it's a portable component that travels  with your code and can be used elsewhere.
 
 ## Coding consistency
 
