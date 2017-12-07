@@ -55,9 +55,11 @@ Let's add some code to pause the application and then ask for user input.
    Console.Write("Press any key to continue...")
    Console.ReadKey(true)
    ```
-This pauses the program until you press a key.
+  This pauses the program until you press a key.
 
 2. On the menu bar, select **Build** > **Build Solution**.
+
+ This compiles your program into an intermediate language (IL) that's converted into binary code by a just-in-time (JIT) compiler.
 
 ## Run the application
 1. Click the **HelloWorld** button on the toolbar.
@@ -66,11 +68,11 @@ This pauses the program until you press a key.
 
 2. Press any key to close the console window.
 
-   ![Console window showing Hello World and Press any key to continue](../ide/vb-console-hello-world-press-any-key.png)
+   ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## See also   
-* [Enhancing the Hello World console application with Visual Basic in Visual Studio](https://docs.microsoft.com/en-us/dotnet/core/tutorials/vb-with-visual-studio#enhancing-the-hello-world-application)
-* [Quickstart: Create a WinForms app in Visual Basic with Visual Studio](quickstart-visual-basic-winforms.md)
-* [Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  
+* [Enhance the "Hello World" console app with Visual Basic in Visual Studio](https://docs.microsoft.com/en-us/dotnet/core/tutorials/vb-with-visual-studio#enhancing-the-hello-world-application)
+* [Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic](quickstart-visual-basic-winforms.md)
+* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  
