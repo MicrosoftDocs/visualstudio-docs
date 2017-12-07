@@ -27,16 +27,20 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 2. From the top menu bar, choose **File** > **New** > **Project...**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *HelloWorld*.
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/new-project-vb-dotnet-helloworld-console-app.png)
 
-     If you don't see the **Console App (.NET Core)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+     If you don't see the **Console App (.NET Core)** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vb-open-visual-studio-installer.png)
+
+     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
      ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
 ## Create the application
-After you select your Visual Basic project template and name your file, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method to display the literal string "Hello World!" in the console window.
+After you select your Visual Basic project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method to display the literal string "Hello World!" in the console window.
 
 ![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template.png)
 
