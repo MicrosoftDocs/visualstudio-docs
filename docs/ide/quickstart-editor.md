@@ -152,6 +152,7 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 
 [Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
 [Quickstart: personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
+[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Code snippets](../ide/code-snippets.md)  
 [Outlining](../ide/outlining.md)  
 [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  

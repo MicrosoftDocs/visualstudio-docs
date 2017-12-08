@@ -94,4 +94,6 @@ We've looked at just a few of the features of the Visual Studio IDE to get acqua
 
 ## See also
 
-[Quickstart: personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)
+[Quickstart: personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)  
+[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
