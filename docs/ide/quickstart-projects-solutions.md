@@ -18,6 +18,9 @@ In this 10-minute quickstart, we'll explore what it means to create a solution a
 > [!TIP]
 > We'll be constructing a solution and project from scratch in this quickstart, as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you will most likely use the many project templates that Visual Studio offers when you are creating a new project.
 
+> [!NOTE]
+> Solutions and projects are not required to develop apps in Visual Studio. You can also just open a folder that contains code, and start coding, building, and debugging. For example, if you clone a GitHub repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+
 ## Solutions
 
 Solutions are containers used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it will automatically load all the projects it contains.
@@ -107,7 +110,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 1. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose **Unit Test Project (.NET Framework)**. Name the project "QuickTest", and then choose the **OK** button.
 
-   A second project is added to **Solution Explorer**, and a file named **UnitTest1.vb** opens in the editor.
+   A second project is added to **Solution Explorer**, and a file named **UnitTest1.vb** opens in the editor. **.vb** is the file extension that is given to Visual Basic code files.
 
    ![Solution Explorer with two projects](media/quickstart-projects-solution-explorer.png)
 
@@ -139,9 +142,9 @@ We're going to use the new unit test project to test our method in the **QuickDa
    End Class
    ```
 
-   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a "friend assembly" to the **QuickDate** project.
+   You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
-1. Back in the **QuickDate** project, open the **Calendar.cs** file if it's not already open, and add the following using statement and line of code to resolve the error in the test project.
+1. Back in the **QuickDate** project, open the **Calendar.cs** file if it's not already open, and add the following using statement and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
 
    ```csharp
    using System.Runtime.CompilerServices;
@@ -155,7 +158,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Project properties
 
-The line in the C# code file that contains `InternalsVisibleTo` references the assembly name of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
+The line in the C# code file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
 
 1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**.
 
@@ -164,9 +167,6 @@ The line in the C# code file that contains `InternalsVisibleTo` references the a
    ![Project properties](media/quickstart-projects-properties.png)
 
 1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs will be different depending on the type of project.
-
-> [!NOTE]
-> Solutions and projects are not required to develop apps in Visual Studio. You can also just open a folder that contains code, and start coding, building, and debugging. For example, if you clone a GitHub repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Next steps
 
