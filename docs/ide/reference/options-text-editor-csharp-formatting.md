@@ -23,7 +23,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Formatting"
 helpviewer_keywords: 
   - "formatting [C#]"
-  - "formatting [J#]"
   - "Text Editor Options dialog box, formatting"
 ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 caps.latest.revision: 23

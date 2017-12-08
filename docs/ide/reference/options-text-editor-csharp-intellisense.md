@@ -12,7 +12,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Intellisense"
 helpviewer_keywords: 
-  - "IntelliSense [J#], options"
   - "underlines, wavy"
   - "IntelliSense [C#], options"
   - "IntelliSense [C#], wavy underlines"
