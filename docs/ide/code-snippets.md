@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -43,7 +42,7 @@ finally
 }
 ```
 
-You can insert this snippet by clicking **Insert Snippet** in the context menu of the code window, then **Visual C#**, then type `tryf`, then **Tab**, or you can type `tryf` and press **Tab** twice.
+You can insert this snippet by clicking **Insert Snippet** in the context menu of the code window, then **Visual C#**, then type `tryf`, and then press **Tab**, or you can type `tryf` and press **Tab** twice.
 
 An example of a surround-with snippet: in C++ the shortcut `if` can be used either as an insertion snippet or as a surround-with snippet. If you select a line of code (for example `return FALSE;`), and then click **Surround With**, then **if**, the snippet is expanded around the line:
 
@@ -82,10 +81,10 @@ You can add and remove snippet directories with the **Add** and **Remove** butto
 
 ## See also
 
-[Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)   
-[How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)   
-[Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)   
-[Troubleshooting Snippets](../ide/troubleshooting-snippets.md)   
-[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
-[Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)   
+[Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)  
+[How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)  
+[Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)  
+[Troubleshooting Snippets](../ide/troubleshooting-snippets.md)  
+[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
+[Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)  
 [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
