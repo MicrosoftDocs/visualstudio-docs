@@ -38,7 +38,7 @@ For enterprises with offline machines that do not have the latest root certifica
 
 If you are scripting the deployment of Visual Studio in an offline environment to client workstations, you should follow these steps:
 
-1. Copy the [Certificate Manager Tool](https://msdn.microsoft.com/library/e78byta0.aspx) (certmgr.exe) to the installation share (for example, \\server\share\vs2017). Certmgr.exe is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+1. Copy the [Certificate Manager Tool](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool) (certmgr.exe) to the installation share (for example, \\server\share\vs2017). Certmgr.exe is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
 2. Create a batch file with the following commands:
 

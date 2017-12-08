@@ -94,7 +94,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
 |Access Unity documentation|**Ctrl+Alt+M, Ctrl+H**|**Help.UnityAPIReference**|  
 |Attach to Unity debugger (player or editor)|***no default***|**Debug.AttachUnityDebugger**|  
   
- You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identifying and Customizing Keyboard Shortcuts in Visual Studio](https://msdn.microsoft.com/en-us/library/5zwses53.aspx).  
+ You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identifying and Customizing Keyboard Shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
   
 ## Unity Debugging  
  Visual Studio Tools for Unity lets you debug both editor and game scripts for your Unity project using Visual Studio's powerful debugger.  

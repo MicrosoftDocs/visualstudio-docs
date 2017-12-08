@@ -40,7 +40,7 @@ Support for some types change over time, however. A newer version of Visual Stud
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](https://msdn.microsoft.com/library/hh266747.aspx) and make a note in the comments below.
+If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](port-migrate-and-upgrade-visual-studio-projects.md) and make a note in the comments below.
 
 | Type of Project | Support |
 | --- | --- |
