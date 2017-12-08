@@ -53,7 +53,6 @@
 ## [Visual Studio Performance Tips and Tricks](visual-studio-performance-tips-and-tricks.md)
 # [Solutions and Projects in Visual Studio](solutions-and-projects-in-visual-studio.md)
 ## [Creating Solutions and Projects](creating-solutions-and-projects.md)
-## [Adding and Removing Project Items](adding-and-removing-project-items.md)
 ## [Project and Solution File Types](reference/project-and-solution-file-types.md)
 ## [Managing Project and Solution Properties](managing-project-and-solution-properties.md)
 ## [Managing references in a project](managing-references-in-a-project.md)
