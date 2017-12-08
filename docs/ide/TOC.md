@@ -1,6 +1,7 @@
 # [Visual Studio IDE Overview](visual-studio-ide.md)
-# IDE Quickstarts
+# Quickstarts
 ## [First Look at the Visual Studio IDE](quickstart-ide-orientation.md)
+## [Projects and Solutions](quickstart-projects-solutions.md)
 ## [Personalizing Theme and Text Colors](quickstart-personalize-the-ide.md)
 ## [Coding in the Editor](quickstart-editor.md)
 # [Get Started Developing with Visual Studio](get-started-developing-with-visual-studio.md)
