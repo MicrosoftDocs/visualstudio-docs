@@ -1,3 +1,4 @@
+# [Visual Studio Documentation](ide/index.md)
 # [Overview](ide/visual-studio-ide.md)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
