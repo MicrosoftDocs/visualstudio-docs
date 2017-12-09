@@ -1,5 +1,5 @@
 ---
-title: "Introduction to projects and solutions in in Visual Studio | Microsoft Docs"
+title: "Introduction to projects and solutions in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/11/2017"
 ms.reviewer: ""
