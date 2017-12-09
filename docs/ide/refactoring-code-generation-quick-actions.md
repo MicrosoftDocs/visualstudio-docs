@@ -27,11 +27,11 @@ Refactoring is the process of modifying code in order to make it easier to maint
 
 * [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 
-* Refactoring support for F# is provided in [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools), a third-party Visual Studio extension.
+* [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools)&mdash;refactoring support for F# is provided in this third-party Visual Studio extension.
 
 ## Code Generation
 
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  For more information, see the following pages:
+Visual Studio can help generate portions of source code for you, letting you focus on the real work. For more information, see the following pages:
 
 * [Code Generation (C#)](../csharp-ide/code-generation-csharp.md)
 
@@ -39,9 +39,10 @@ Visual Studio can help generate portions of source code for you, letting you foc
 
 ## Quick Actions
 
-Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.  These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
+Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or by pressing **Ctrl** + **.** when your cursor is on the appropriate line of code.
 
 * [Quick Actions](quick-actions.md)
+
 * [Code Styles and Quick Actions](code-styles-and-quick-actions.md)
 
 ## See also

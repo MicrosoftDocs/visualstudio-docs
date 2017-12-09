@@ -105,7 +105,6 @@ We recommend that you begin analyzing your data by examining the list of functio
     In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
     This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete.
-
     **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 3713 out of 3729 ms were spent in the function body, and the remaining 16 ms were spent in external code called by this function).
 
     > [!TIP]
@@ -154,7 +153,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 </div>
   
 ## See Also  
- [[Memory Usage](../profiling/memory-usage.md)  
+ [Memory Usage](../profiling/memory-usage.md)  
  [CPU Usage](../profiling/cpu-usage.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

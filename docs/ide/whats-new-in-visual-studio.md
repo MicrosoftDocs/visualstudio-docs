@@ -19,7 +19,7 @@ ms.author: "tglee"
 manager: ghogen
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the [15.5 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
+#### Updated for the [15.5 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -34,14 +34,14 @@ Here's a high-level recap of the changes we've made since our previous version, 
 * **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enable data science reproducibility and auditing.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
 ## Redefined fundamentals
 ### A new setup experience
 
-[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
+[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
@@ -123,7 +123,7 @@ Refactoring is the process of improving your code after it has been written. Ref
 *	Convert if-to-switch
 *	Remove unused variable
 
-For more information, see the [Refactoring, Code Generation, and Quick Actions in Visual Studio](refactoring-code-generation-quick-actions.md) page.  
+For more information, see [Quick Actions](../ide/quick-actions.md#common-quick-actions).
 
 #### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
@@ -181,6 +181,8 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
 ### Containerization
+Containers provide you with increased app density and lower deployment cost along with improved productivity and DevOps agility.
+
 #### Docker Container Tooling
 **New in 15.5**
 * Visual Studio includes tools for Docker containers that now support multi-stage Dockerfiles, which streamline creating optimized container images.
@@ -210,7 +212,15 @@ The Universal Windows Platform (UWP) is the app platform for Windows 10. You can
 
 Choose your preferred development language&mdash;from C#, Visual Basic, C++, or JavaScript&mdash;to create a Universal Windows Platform app for Windows 10 devices. Visual Studio 2017 provides a UWP app template for each language that lets you create a single project for all devices. When your work is finished, you can produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers on any Windows 10 device.
 
-For more information, see the [Develop apps for the Universal Windows Platform (UWP)](https://docs.microsoft.com/en-us/visualstudio/cross-platform/develop-apps-for-the-universal-windows-platform-uwp) page.
+**New in 15.5**<br/>
+Visual Studio 2017 version 15.5 provides the best support for the Windows 10 Fall Creators Update SDK (10.0.16299.0). The Windows 10 Fall Creators Update also brings many improvements for UWP developers. Here are some of the biggest changes: 
+
+* **Support for .NET Standard 2.0**<br/>
+In addition to streamlined app deployment, the Windows 10 Fall Creators Update is the first release of Windows 10 to provide .NET Standard 2.0 support. Effectively, [.NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/) is a reference implementation of the base class library that any .NET platform can implement. The goal of .NET Standard is to make it as easy as possible for .NET developers to share code across any .NET platform they choose to work on.
+* **The best of both UWP and Win32** <br/>
+We have improved the Windows 10 Platform with the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) to make Windows 10 better for all .NET developers, whether their current focus is on UWP, WPF, Windows Forms, or Xamarin. With the new App Packaging project type in Visual Studio 2017 version 15.5, you can create Windows App Packages for your WPF or Windows Forms projects, just like you can for UWP projects. After you package your app, you get all the Windows 10 app deployment benefits and have the option to distribute via Microsoft Store (for consumer apps) or Microsoft Store for Business and Education. Because packaged apps have access to both the full UWP API surface and the Win32 APIs on desktop, you can now modernize your WPF and Windows Forms applications gradually with UWP APIs and Windows 10 features. Moreover, you can include your Win32 components in your UWP applications that light up on desktop with all Win32 capabilities. 
+
+For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](https://docs.microsoft.com/visualstudio/cross-platform/develop-apps-for-the-universal-windows-platform-uwp) page.
 
 ## Mobile app development
 ### Xamarin
@@ -286,7 +296,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
  If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also
-* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/vs2015-vs)
+* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
