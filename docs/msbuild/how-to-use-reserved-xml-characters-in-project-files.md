@@ -70,5 +70,5 @@ When you author project files, you might need to use reserved XML characters, fo
 ```  
   
 ## See Also  
- [MSBuild Reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+ [MSBuild Reference](../msbuild/msbuild-reference.md)    
+ [MSBuild](../msbuild/msbuild.md)    
