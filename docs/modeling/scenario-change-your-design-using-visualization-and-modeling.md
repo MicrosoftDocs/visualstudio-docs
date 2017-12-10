@@ -249,7 +249,7 @@ Items on dependency diagrams are located in the modeling project, but they are n
   
 -   [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
--   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [Build and release](/vsts/build-release/index)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  
