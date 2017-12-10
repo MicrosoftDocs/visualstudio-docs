@@ -138,7 +138,7 @@ Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md
 [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
 Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 
-[LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d)  
+[LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)  
 Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.
 
 [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)  
