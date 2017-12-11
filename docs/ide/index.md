@@ -224,7 +224,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">
 
-<!-->
+<!--
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img width="48" height="48" alt=""
