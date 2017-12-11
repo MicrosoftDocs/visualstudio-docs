@@ -52,4 +52,4 @@ Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_shor
  [Walkthrough: Creating LINQ to SQL Classes](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
  [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
  [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)   
- [How to: Write LINQ Queries in C#](http://msdn.microsoft.com/Library/45e47fcc-cfa1-4b72-b161-d038ae87bd23)
+ [LINQ in C#](/dotnet/csharp/linq/linq-in-csharp)
