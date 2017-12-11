@@ -80,5 +80,4 @@ csc /r:ThrowNonClsCompliantException.dll CatchNonClsCompliantException.cs
 ## See Also  
  [Exceptions and Exception Handling](/dotnet/csharp/programming-guide/exceptions/exceptions-and-exception-handling)   
  [Ilasm.exe (IL Assembler)](/dotnet/framework/tools/ilasm-exe-il-assembler)   
- [Overriding Security Checks](http://msdn.microsoft.com/en-us/4acdeff5-fc05-41bf-8505-7387cdbfca28)   
- [Language Independence and Language-Independent Components](http://msdn.microsoft.com/Library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
+ [Language Independence and Language-Independent Components](/dotnet/standard/language-independence-and-language-independent-components)
