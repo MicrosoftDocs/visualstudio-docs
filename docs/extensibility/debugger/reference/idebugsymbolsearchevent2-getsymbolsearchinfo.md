@@ -2,7 +2,6 @@
 title: "IDebugSymbolSearchEvent2::GetSymbolSearchInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugSymbolSearchEvent2::GetSymbolSearchInfo"
 ms.assetid: ae9eb72b-f2aa-43b8-87ca-da19d2e78d17
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 Called by an event handler to retrieve results about a symbol load process.  
@@ -45,7 +31,7 @@ HRESULT GetSymbolSearchInfo(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSymbolSearchInfo(  
    IDebugModule3              pModule,   
    ref string                 pbstrDebugMessage,   

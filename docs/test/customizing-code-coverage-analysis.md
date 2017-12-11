@@ -2,7 +2,6 @@
 title: "Customizing Code Coverage Analysis | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 16
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Customizing Code Coverage Analysis
 By default, the Visual Studio Code Coverage tool analyzes all solution assemblies (.exe/.dll) that are loaded during unit tests. We recommend that you retain this default, because it works well most of the time. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
@@ -60,7 +45,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
 3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.  
   
-4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don’t forget that you must run code coverage again: your previous coverage results and code coloring aren’t automatically hidden when you run tests or update your code.  
+4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don't forget that you must run code coverage again: your previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.  
   
 5.  To turn the custom settings off and on, deselect or select the file in the **Test**, **Test Settings** menu.  
   
@@ -150,17 +135,17 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  
   
--   `ModulePath` – Assemblies specified by assembly file path.  
+-   `ModulePath` - Assemblies specified by assembly file path.  
   
--   `CompanyName` – matches assemblies by the Company attribute.  
+-   `CompanyName` - matches assemblies by the Company attribute.  
   
--   `PublicKeyToken` – matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
+-   `PublicKeyToken` - matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
   
--   `Source` – matches elements by the path name of the source file in which they are defined.  
+-   `Source` - matches elements by the path name of the source file in which they are defined.  
   
--   `Attribute` – matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
+-   `Attribute` - matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
   
--   `Function` – matches procedures, functions, or methods by fully qualified name.  
+-   `Function` - matches procedures, functions, or methods by fully qualified name.  
   
  **Matching a function name**  
   
@@ -280,7 +265,7 @@ Included items must then not match any entries in the exclude list to remain inc
             <!-- Match attributes on any code element: -->  
             <Attributes>  
               <Exclude>  
-                <!—Don't forget "Attribute" at the end of the name -->  
+                <!-- Don't forget "Attribute" at the end of the name -->  
                 <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>  
                 <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>  
                 <Attribute>^System\.Runtime\.CompilerServices.CompilerGeneratedAttribute$</Attribute>  

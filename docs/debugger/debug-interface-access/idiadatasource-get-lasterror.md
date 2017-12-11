@@ -2,7 +2,6 @@
 title: "IDiaDataSource::get_lastError | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: cf08850b-8b75-4e8c-90bd-bd0214756f99
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaDataSource::get_lastError
 Retrieves the file name for the last load error.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lastError (  
    BSTR* pRetVal  
 );  
@@ -54,7 +38,7 @@ HRESULT get_lastError (
   
 ## Example  
   
-```cpp#  
+```C++  
 BSTR    fileName;  
 HRESULT errorCode = pSource->get_lastError( &fileName );  
 ```  

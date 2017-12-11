@@ -2,7 +2,6 @@
 title: "SccBackgroundGet Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "SccBackgroundGet function"
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SccBackgroundGet Function
 This function retrieves from source control each of the specified files with no user interaction.  

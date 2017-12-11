@@ -2,7 +2,6 @@
 title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,24 +12,9 @@ dev_langs:
   - "C++"
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "corob-msft"
+ms.author: "corob"
+manager: ghogen
 ---
 # Build an OpenGL ES Application on Android and iOS
 When you install the Visual C++ for Cross-Platform Mobile Development option, you can create Visual Studio solutions and projects for iOS apps and Android apps that share common code. This topic guides you through a solution template that creates both a simple iOS app and an Android Native Activity app. The apps have C++ code in common that uses OpenGL ES to display the same animated rotating cube on each platform. OpenGL ES (OpenGL for Embedded Systems or GLES) is a 2D and 3D graphics API that is supported on many mobile devices.  
@@ -84,7 +68,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
      ![Set the Solution Platform to x86](../cross-platform/media/cppmdd_opengles_solutionplat.png "CPPMDD_OpenGLES_SolutionPlat")  
   
-     Use x86 to target the Android Emulator for Windows. If you are targeting a device, choose the solution platform based on the device processor. If the **Solution Platforms** list isn’t displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
+     Use x86 to target the Android Emulator for Windows. If you are targeting a device, choose the solution platform based on the device processor. If the **Solution Platforms** list isn't displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
 2.  In **Solution Explorer**, open the shortcut menu for MyOpenGLESApp.Android.Packaging project and then choose **Build**.  
   
@@ -102,7 +86,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
 4.  Press F5 to start debugging, or Shift+F5 to start without debugging.  
   
-     Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here’s how the app appears in the Visual Studio emulator for Android.  
+     Visual Studio starts the emulator, which takes several seconds to load and deploy your code. Here's how the app appears in the Visual Studio emulator for Android.  
   
      ![App running in Android Emulator](../cross-platform/media/cppmdd_opengles_andemulator.png "CPPMDD_OpenGLES_AndEmulator")  
   
@@ -129,7 +113,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
      ![Set the Solution Platform to x86](../cross-platform/media/cppmdd_opengles_solutionplat.png "CPPMDD_OpenGLES_SolutionPlat")  
   
-     Use x86 to target the iOS Simulator. If you are targeting an iOS device, choose the solution platform based on the device processor (usually an ARM processor). If the **Solution Platforms** list isn’t displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
+     Use x86 to target the iOS Simulator. If you are targeting an iOS device, choose the solution platform based on the device processor (usually an ARM processor). If the **Solution Platforms** list isn't displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
 3.  In Solution Explorer, open the shortcut menu for the MyOpenGLESApp.iOS.Application project and choose **Build**.  
   

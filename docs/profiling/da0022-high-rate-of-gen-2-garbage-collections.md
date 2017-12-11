@@ -2,7 +2,6 @@
 title: "DA0022: High rate of Gen 2 garbage collections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: f871a547-0e6f-4b11-b2d7-174d30fc2ed8
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # DA0022: High rate of Gen 2 garbage collections
 |||  
@@ -62,6 +46,6 @@ translation.priority.mt:
   
  There are additional .NET CLR Memory columns in the Marks View that can help you identify garbage collection issues. The **% Time in GC** column helps you understand how much memory management overhead is occurring. If your application typically uses a fairly small number of large but persistent objects, then frequent Generation 2 collections should not consume excessive amounts of CPU time. If the application is under memory pressure because more Physical Memory (RAM) is required, related rules that evaluate the **Memory\Pages/sec** column values may also fire.  
   
- To understand the application’s pattern of managed memory usage, profile it again running a.NET Memory allocation profile and select the Object Lifetime profiling option.  
+ To understand the application's pattern of managed memory usage, profile it again running a.NET Memory allocation profile and select the Object Lifetime profiling option.  
   
  For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=148226) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](http://go.microsoft.com/fwlink/?LinkId=177836).

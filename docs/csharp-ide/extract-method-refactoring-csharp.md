@@ -1,16 +1,14 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/extract-method
 title: "Extract Method Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.extractmethod"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -18,24 +16,9 @@ helpviewer_keywords:
   - "Extract Method refactoring operation [C#]"
 ms.assetid: eeba11df-a815-4bec-9c21-8a831891b783
 caps.latest.revision: 29
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Extract Method Refactoring (C#)
 **Extract Method** is a refactoring operation that provides an easy way to create a new method from a code fragment in an existing member.  
@@ -58,7 +41,7 @@ translation.priority.mt:
   
 1.  Create a console application named `ExtractMethod`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```csharp  
     class A  
     {  
         const double PI = 3.141592;  
@@ -82,7 +65,7 @@ translation.priority.mt:
   
 2.  Select the code fragment you want to extract:  
   
-    ```c#  
+    ```csharp  
     double area = PI * radius * radius;  
     ```  
   
@@ -116,7 +99,7 @@ translation.priority.mt:
   
  The following example illustrates this semantic change. If this code is executed, then **11** will be printed to the console. If you use **Extract Method** to extract the region of code that is marked by code comments into its own method and then execute the refactored code, then **10** will be printed to the console.  
   
-```c#  
+```csharp  
 class Program  
 {  
     delegate void D();  
@@ -137,4 +120,4 @@ class Program
  To work around this situation, make the local variables that are used in the anonymous method fields of the class.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

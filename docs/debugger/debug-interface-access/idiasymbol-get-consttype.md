@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_constType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: cb43605e-fa39-4f83-b047-f936a8019d03
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_constType
 Retrieves a flag that specifies whether the user-defined data type is constant.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_constType (   
    BOOL* pRetVal  
 );  

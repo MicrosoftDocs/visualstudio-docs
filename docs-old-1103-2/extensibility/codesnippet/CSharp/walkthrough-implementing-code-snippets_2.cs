@@ -1,1 +1,0 @@
-    internal const string LanguageServiceGuidStr = "00000000-0000-0000-0000-00000000";

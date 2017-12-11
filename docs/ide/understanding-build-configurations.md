@@ -2,7 +2,6 @@
 title: "Understanding Build Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,23 +27,9 @@ helpviewer_keywords:
   - "solutions [Visual Studio], build configuration"
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Understanding Build Configurations
 You can store different configurations of solution and project properties to use in different kinds of builds. To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build**, **Configuration Manager**, or just type **Configuration** in the **Quick Launch** box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.  
@@ -99,5 +84,5 @@ You can store different configurations of solution and project properties to use
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)   
+ [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

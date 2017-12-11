@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/isolated-shell-entry-point-parameters-cpp
 title: "Isolated Shell Entry Point Parameters (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,26 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Shell [Visual Studio], isolated mode%2C Start entry point"
-  - "Visual Studio shell, isolated mode%2C Start entry point"
+  - "Shell [Visual Studio], isolated mode, Start entry point"
+  - "Visual Studio shell, isolated mode, Start entry point"
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Isolated Shell Entry Point Parameters (C++)
 When a Visual Studio shell-based application starts, it calls the Start entry point of the Visual Studio shell. The following settings can be overridden in the call to the Start entry point of the shell. For a description of each setting, see [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  

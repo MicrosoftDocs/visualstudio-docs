@@ -2,7 +2,6 @@
 title: "How Can I Find Out Who Is Passing a Wrong Parameter Value? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.parameters"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [C++], parameters"
@@ -27,21 +25,7 @@ ms.assetid: 1f1ae455-0e25-4e9d-b33f-53908f5bd6ce
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How Can I Find Out Who Is Passing a Wrong Parameter Value?
 ## Problem Description  

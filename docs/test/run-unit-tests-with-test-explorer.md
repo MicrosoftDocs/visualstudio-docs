@@ -2,7 +2,6 @@
 title: "Run unit tests with Test Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,23 +12,8 @@ f1_keywords:
   - "vs.unittesting.testexplorer.overview"
 ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Run unit tests with Test Explorer
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.  
@@ -52,7 +36,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 ##  <a name="BKMK_Unit_test_frameworks_and_test_projects"></a> Unit test frameworks and test projects  
  Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
- Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any language that also targets the .NET Framework, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.  
+ Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for the .NET Framework, the test project can be written in any language that also targets the .NET Framework, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md).
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
@@ -164,36 +148,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|  
   
  **Traits in the Microsoft Unit Testing Framework for C++**  
-  
- To define a trait, use the `TEST_METHOD_ATTRIBUTE` macro. For example, to define a trait named `TEST_MY_TRAIT`:  
-  
-```cpp  
-#define TEST_MY_TRAIT(traitValue) TEST_METHOD_ATTRIBUTE(L"MyTrait", traitValue)  
-```  
-  
- To use the defined trait in your unit tests:  
-  
-```  
-BEGIN_TEST_METHOD_ATTRIBUTE(Method1)  
-    TEST_OWNER(L"OwnerName")  
-    TEST_PRIORITY(1)  
-    TEST_MY_TRAIT(L"thisTraitValue")  
-END_TEST_METHOD_ATTRIBUTE()  
-  
-TEST_METHOD(Method1)  
-{     
-    Logger::WriteMessage("In Method1");  
-    Assert::AreEqual(0, 0);  
-}  
-```  
-  
-### C++ trait attribute macros  
-  
-|Macro|Description|  
-|-----------|-----------------|  
-|`TEST_METHOD_ATTRIBUTE(attributeName, attributeValue)`|Use the TEST_METHOD_ATTRIBUTE macro to define a trait.|  
-|`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|  
-|`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|  
+  See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
@@ -302,7 +257,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 ##  <a name="BKMK_External_resources"></a> External resources  
   
 ###  <a name="BKMK_Guidance"></a> Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   

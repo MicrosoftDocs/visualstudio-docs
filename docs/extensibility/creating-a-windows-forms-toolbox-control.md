@@ -2,7 +2,6 @@
 title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "windows forms"
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating a Windows Forms Toolbox Control
 The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK) lets you create a control that is automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a simple counter control that you can distribute to other users.  
@@ -56,7 +42,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 1.  In **Solution Explorer**, double-click Counter.cs to open it in the designer.  
   
-2.  Remove the “Click Here !” **Button** that is included by default when you add the Windows Forms Toolbox Control item template.  
+2.  Remove the "Click Here !" **Button** that is included by default when you add the Windows Forms Toolbox Control item template.  
   
 3.  From the **Toolbox**, drag a `Label` control and then a `Button` control below it to the design surface.  
   
@@ -79,14 +65,14 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 2.  Above the event handler method, in the control class create an integer to store the counter value and a string to store the display text as shown in the following example.  
   
-    ```c#  
+    ```csharp  
     int currentValue;  
     string displayText;  
     ```  
   
 3.  Create the following public property declarations.  
   
-    ```c#  
+    ```csharp  
     public int Value {  
         get { return currentValue; }   
     }  
@@ -107,7 +93,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 4.  Put the following code in the `Load` event for the control.  
   
-    ```c#  
+    ```csharp  
     private void Counter_Load(object sender, EventArgs e)  
     {  
         currentValue = 0;  
@@ -120,7 +106,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 5.  Create the following public method to increment the counter.  
   
-    ```c#  
+    ```csharp  
     public void Increment()  
     {  
         currentValue++;  
@@ -132,7 +118,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 6.  Add a declaration for the `Incremented` event to the control class.  
   
-    ```c#  
+    ```csharp  
     public event EventHandler Incremented;  
     ```  
   
@@ -140,7 +126,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 7.  Return to design view and double-click the `Reset` button to generate the `btnReset_Click` event handler, and then fill it in as shown in the following example.  
   
-    ```c#  
+    ```csharp  
     private void btnReset_Click(object sender, EventArgs e)  
     {  
         currentValue = 0;  
@@ -153,7 +139,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
      The following example shows the `ProvideToolboxControl` attribute and the adjusted class definition.  
   
-    ```c#  
+    ```csharp  
     [ProvideToolboxControl("General", false)]  
     public partial class Counter : UserControl  
     ```  
@@ -191,7 +177,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
   
 12. On the next line, add the following `if`/`else` block to set the visibility of the `Reset` button.  
   
-    ```c#  
+    ```csharp  
     if (counter1.Value < 5) counter1.ShowReset = false;  
     else counter1.ShowReset = true;  
     ```  
@@ -222,7 +208,7 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
  When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName*.vsix in the \bin\debug\ folder of your project. You can deploy the control by uploading the .vsix file to a network or to a Web site. When a user opens the .vsix file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can find it by browsing in the **Tools / Extension and Updates** dialog.  
   
 ## See Also  
- [Extending the Toolbox](../misc/extending-the-toolbox.md)   
+ [Extending other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
- [Windows Forms Control Development Basics](../Topic/Windows%20Forms%20Control%20Development%20Basics.md)
+ [Windows Forms Control Development Basics](/dotnet/framework/winforms/controls/windows-forms-control-development-basics)

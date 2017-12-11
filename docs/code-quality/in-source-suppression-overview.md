@@ -2,11 +2,10 @@
 title: "In Source Suppression Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,24 +13,9 @@ helpviewer_keywords:
   - "code analysis, source suppression"
 ms.assetid: f1a2dc6a-a9eb-408c-9078-2571e57d207d
 caps.latest.revision: 40
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # In Source Suppression Overview
 In-source suppression is the ability to suppress or ignore Code Analysis violations in managed code by adding the **SuppressMessage** attribute to the code segments that cause the violations. The **SuppressMessage** attribute is a conditional attribute which is included in the IL metadata of your managed code assembly only if the CODE_ANALYSIS compilation symbol is defined at compile time.  
@@ -52,7 +36,7 @@ In-source suppression is the ability to suppress or ignore Code Analysis violati
 <Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>  
 ```  
   
-```c#  
+```csharp  
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]  
   
 ```  
@@ -106,7 +90,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
  [!code-cpp[InSourceSuppression#1](../code-quality/codesnippet/CPP/in-source-suppression-overview_1.cpp)]
  [!code-vb[InSourceSuppression#1](../code-quality/codesnippet/VisualBasic/in-source-suppression-overview_1.vb)]
- [!code-cs[InSourceSuppression#1](../code-quality/codesnippet/CSharp/in-source-suppression-overview_1.cs)]  
+ [!code-csharp[InSourceSuppression#1](../code-quality/codesnippet/CSharp/in-source-suppression-overview_1.cs)]  
   
 ## Generated Code  
  Managed code compilers and some third-party tools generate code to facilitate rapid code development. Compiler-generated code that appears in source files is usually marked with the **GeneratedCodeAttribute** attribute.  

@@ -2,32 +2,17 @@
 title: "Step 9: Review, Comment, and Test Your Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 9: Review, Comment, and Test Your Code
 You next add a comment to your code. A comment is a note that doesn't change the way the program behaves. It makes it easier for someone who is reading your code to understand what it does. Adding comments to your code is a good habit to get into. In Visual C#, two forward slashes (//) mark a line as a comment. In Visual Basic, a single quotation mark (') is used to mark a line as a comment. After you add a comment, you test your program. It's good practice to run and test your code frequently while you're working on your projects, so you can catch and fix any problems early, before the code gets more complicated. This is called *iterative testing*.  
@@ -46,11 +31,11 @@ You next add a comment to your code. A comment is a note that doesn't change the
   
      The following is an example of a statement.  
   
-    ```c#  
+    ```csharp  
     pictureBox1.Load(openFileDialog1.FileName);  
     ```  
   
-    ```vb#  
+    ```vb  
     pictureBox1.Load(openFileDialog1.FileName)  
     ```  
   
@@ -63,7 +48,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
 1.  Add the following comment to your code.  
   
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
-     [!code-cs[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]  
+     [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]  
   
     > [!NOTE]
     >  Your **showButton** button's Click event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the PictureBox.  

@@ -2,7 +2,6 @@
 title: "IEnumDebugFields::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IEnumDebugFields::Next method"
 ms.assetid: 22c177a2-af81-4234-812b-f9b47be245a2
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugFields::Next
 This method returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG         celt,  
    IDebugField** rgelt,  
@@ -45,7 +31,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint          celt,  
    IDebugField[] rgelt,  

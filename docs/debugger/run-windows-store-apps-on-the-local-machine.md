@@ -1,8 +1,7 @@
 ---
-title: "Run Windows Store apps on the local machine | Microsoft Docs"
+title: "Run UWP apps on the local machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,42 +9,20 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: e42a21a8-6423-4caf-b4dc-72b263e76019
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "tr-tr"
+manager: ghogen
 ---
-# Run Windows Store apps on the local machine
+# Run UWP apps on the local machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
- To debug, test, or run performance analysis on a Windows Store app, you can run the app on the same machine that hosts Visual Studio. If the display on the device is touch-enabled, you can exercise the full functionality of the app; otherwise, you will be limited to mouse and keyboard gestures.  
-  
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- You can learn:  
-  
- [How to run on a local machine](#BKMK_How_to_run_on_a_local_machine)  
-  
- [How to switch between a Windows Store app and Visual Studio on a single monitor](#BKMK_How_to_switch_between_a_Windows_Store_app_and_Visual_Studio_on_a_single_monitor)  
+ To debug, test, or run performance analysis on a UWP app, you can run the app on the same machine that hosts Visual Studio. If the display on the device is touch-enabled, you can exercise the full functionality of the app; otherwise, you will be limited to mouse and keyboard gestures.  
   
 ##  <a name="BKMK_How_to_run_on_a_local_machine"></a> How to run on a local machine  
  To run the app on the local machine, select **Local Machine** from the drop-down list next to the Start Debugging button on the debugger **Standard** toolbar.  
@@ -65,8 +42,3 @@ translation.priority.mt:
 -   In C++ and JavaScript projects, expand the **Configuration Properties** node, click **Debugging**, and then select **Local Debugger** from the **Debugger to launch** list.  
   
      ![C&#43;&#43; and JavaScript project properties page](../debugger/media/vsrun_cpp_js_projprop_local.png "VSRUN_CPP_JS_ProjProp_Local")  
-  
-##  <a name="BKMK_How_to_switch_between_a_Windows_Store_app_and_Visual_Studio_on_a_single_monitor"></a> How to switch between a Windows Store app and Visual Studio on a single monitor  
- **To switch from a running instance of a Windows Store app to Visual Studio**  
-  
- When you run a Windows Store app on a local machine and use only a single monitor, you might want to switch back to Visual Studio while leaving the app running. For example, the app might be in a state that cannot be reached by a breakpoint, such as waiting for an event or trapped in a long or endless loop. To return to Visual Studio, press ALT + TAB.

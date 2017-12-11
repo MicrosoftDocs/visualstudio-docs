@@ -2,7 +2,6 @@
 title: "How to: Use the Expression Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,25 +13,11 @@ caps.latest.revision: 13
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Use the Expression Editor
 The Expression Editor is a [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] control that is used in many workflow activities as a means of entering and evaluating these expressions. The Expression Editor provides a full-fledged IDE editing experience including IntelliSense, colorization, ParamInfo, error squiggles, among other features. The compiler validates the expression after it is entered. If the expression is invalid, an error icon is displayed. The editor can also be opened as an **Expression Editor** dialog box.  
   
- Expressions are literal values or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] code bound to arguments or properties. They contain value elements (e.g. variables, constants, literals, properties) that are combined with operations to yield a new value. Expressions are written using VB.NET syntax even if the application is in a program using C#. This means capitalization does not matter, comparison is performed using a single equals (“=”) sign instead of (“==”), the Boolean operators are the words "and" and "or" instead of the symbols "&&" and "&#124;&#124;", and **Nothing** is used instead of **null**. For more information on expressions and operators in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and for some samples, see [Operators and Expressions in Visual Basic](http://go.microsoft.com/fwlink/?LinkId=186818).  
+ Expressions are literal values or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] code bound to arguments or properties. They contain value elements (e.g. variables, constants, literals, properties) that are combined with operations to yield a new value. Expressions are written using VB.NET syntax even if the application is in a program using C#. This means capitalization does not matter, comparison is performed using a single equals ("=") sign instead of ("=="), the Boolean operators are the words "and" and "or" instead of the symbols "&&" and "&#124;&#124;", and **Nothing** is used instead of **null**. For more information on expressions and operators in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and for some samples, see [Operators and Expressions in Visual Basic](http://go.microsoft.com/fwlink/?LinkId=186818).  
   
  The **Expression Editor** behaves as follows:  
   

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_AddCustomXmlPartPowerPointAppLevel">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Trin_AddCustomXmlPartPowerPointAppLevel.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Trin_AddCustomXmlPartPowerPointAppLevel.v11.suo">
+</Property><Property Name="Date" Value="Thursday, October 27, 2011">
+</Property><Property Name="Time" Value="5:42 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartPowerPointAppLevel.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartPowerPointAppLevel.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\Trin_AddCustomXmlPartPowerPointAppLevel.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartPowerPointAppLevel.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\Trin_AddCustomXmlPartPowerPointAppLevel.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\Trin_AddCustomXmlPartPowerPointAppLevel.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\Trin_AddCustomXmlPartPowerPointAppLevel.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\Trin_AddCustomXmlPartPowerPointAppLevel_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_AddCustomXmlPartPowerPointAppLevel\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_AddCustomXmlPartPowerPointAppLevel.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_AddCustomXmlPartPowerPointAppLevel.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_AddCustomXmlPartPowerPointAppLevel" Source="Trin_AddCustomXmlPartPowerPointAppLevel.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

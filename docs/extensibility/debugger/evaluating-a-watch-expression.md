@@ -2,7 +2,6 @@
 title: "Evaluating a Watch Expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "watch expressions"
 ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Evaluating a Watch Expression
 > [!IMPORTANT]
@@ -48,7 +34,7 @@ translation.priority.mt:
 ## Managed Code  
  This is an implementation of the `IDebugParsedExpression::EvaluateSync` in managed code. The helper method `Tokenize` parses the expression into a parse tree. The helper function `EvalToken` converts the token to a value. The helper function `FindTerm` recursively traverses the parse tree, calling `EvalToken` for each node representing a value and applying any operations (addition or subtraction) in the expression.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     public class CParsedExpression : IDebugParsedExpression  

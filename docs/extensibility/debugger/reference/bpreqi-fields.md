@@ -2,7 +2,6 @@
 title: "BPREQI_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "BPREQI_FIELDS enumeration"
 ms.assetid: 679e771e-4a79-484e-af37-f962ef4aa245
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # BPREQI_FIELDS
 Specifies the information to be retrieved about a breakpoint request.  
@@ -57,7 +43,7 @@ enum enum_BPREQI_FIELDS { 
 typedef DWORD BPREQI_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BPREQI_FIELDS {   
    BPREQI_BPLOCATION   = 0x0001,  
    BPREQI_LANGUAGE     = 0x0002,  

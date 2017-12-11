@@ -2,7 +2,6 @@
 title: "Error: User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_accessdenied"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 11957495-c238-4cc5-8937-e4026f5e10e1
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:  

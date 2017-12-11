@@ -2,7 +2,6 @@
 title: "Extending the Editor and Language Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new -"
 ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Extending the Editor and Language Services
 You can add language service features (such as IntelliSense) to your own editor, and extend most features of the Visual Studio code editor.  For a full list of what you can extend, see [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md).  
@@ -63,8 +49,8 @@ You can add language service features (such as IntelliSense) to your own editor,
 |[Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)|Shows how to display light bulbs for code suggestions.|  
 |[Walkthrough: Using a Shell Command with an Editor Extension](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)|Shows how to associate a menu command in a VSPackage with a MEF component.|  
 |[Walkthrough: Using a Shortcut Key with an Editor Extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)|Shows how to associate a menu shortcut in a VSPackage with a MEF component.|  
-|[Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md)|Provides information about the Managed Extensibility Framework (MEF).|  
-|[Windows Presentation Foundation](../Topic/Windows%20Presentation%20Foundation.md)|Provides information about the Windows Presentation Foundation (WPF).|  
+|[Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index)|Provides information about the Managed Extensibility Framework (MEF).|  
+|[Windows Presentation Foundation](/dotnet/framework/wpf/index)|Provides information about the Windows Presentation Foundation (WPF).|  
   
 ## Reference  
  The Visual Studio editor includes the following namespaces.  

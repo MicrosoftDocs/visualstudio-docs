@@ -2,7 +2,6 @@
 title: "IDebugProperty3::GetStringChars | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3::GetStringChars"
 ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty3::GetStringChars
 Retrieves the string associated with this property and stores it in a user-supplied buffer.  
@@ -45,7 +31,7 @@ HRESULT GetStringChars(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetStringChars(  
    uint       buflen,   
    out string rgString,   
@@ -75,9 +61,8 @@ int GetStringChars(
 >  In C++, the returned string does not include a terminating null character. If given, `pceltFetched` will specify the number of characters in the string.  
   
 ## Example  
- <!--FIXME [!CODE [[cpp]]([cpp])]-->  
-  
-```  
+ 
+```cpp  
 CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)  
 {  
     CStringW returnString = L"";  
@@ -94,10 +79,9 @@ CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)
                                         &dwRead);  
         }  
     }  
-    return(returnString);  
-```  
-  
- <!--FIXME [!CODE [}](})]-->  
+    return(returnString);
+}
+```    
   
 ## See Also  
  [GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)   

@@ -2,7 +2,6 @@
 title: "IDebugProperty3::GetCustomViewerCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3::GetCustomViewerCount"
 ms.assetid: dc5bb3e4-dc85-46e4-98fa-c6be8583b985
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty3::GetCustomViewerCount
 Gets the number of custom viewers that might be available for this property.  
@@ -43,7 +29,7 @@ HRESULT GetCustomViewerCount(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCustomViewerCount(  
    out uint pcelt  
 );  
@@ -64,7 +50,7 @@ int GetCustomViewerCount(
 ## Example  
  The following example shows how to implement this method for a **CProperty** object that exposes the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CProperty::GetCustomViewerCount(ULONG* pcelt)  
 {  
     if (pcelt == NULL)  

@@ -2,35 +2,19 @@
 title: "CA2143: Transparent methods should not use security demands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2143"
 ms.assetid: 5d3923d7-cf40-4512-bc5c-0db0e0d6e25a
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2143: Transparent methods should not use security demands
 |||  
@@ -55,7 +39,7 @@ translation.priority.mt:
 ## Example  
  The rule files on the following code because a transparent method makes a declarative security demand.  
   
- [!code-cs[FxCop.Security.CA2143.TransparentMethodsShouldNotDemand#1](../code-quality/codesnippet/CSharp/ca2143-transparent-methods-should-not-use-security-demands_1.cs)]  
+ [!code-csharp[FxCop.Security.CA2143.TransparentMethodsShouldNotDemand#1](../code-quality/codesnippet/CSharp/ca2143-transparent-methods-should-not-use-security-demands_1.cs)]  
   
 ## See Also  
  [CA2142: Transparent code should not be protected with LinkDemands](../code-quality/ca2142-transparent-code-should-not-be-protected-with-linkdemands.md)

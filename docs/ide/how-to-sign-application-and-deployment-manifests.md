@@ -2,7 +2,6 @@
 title: "How to: Sign Application and Deployment Manifests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,23 +19,9 @@ helpviewer_keywords:
   - "assemblies [Visual Studio], signing"
 ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
 caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Sign Application and Deployment Manifests
 If you want to publish an application by using ClickOnce deployment, the application and deployment manifests must be signed with a public/private key pair and signed using Authenticode technology. You can sign the manifests by using a certificate from the Windows certificate store or a key file.  
@@ -45,7 +30,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
   
  Signing the ClickOnce manifests is optional for .exe-based applications. For more information, see the "Generating Unsigned Manifests" section of this document.  
   
- For information about creating key files, see [How to: Create a Public-Private Key Pair](../Topic/How%20to:%20Create%20a%20Public-Private%20Key%20Pair.md).  
+ For information about creating key files, see [How to: Create a Public-Private Key Pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair).  
   
 > [!NOTE]
 >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
@@ -120,7 +105,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
 3.  Publish the application.  
   
 ## See Also  
- [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
- [How to: Create a Public-Private Key Pair](../Topic/How%20to:%20Create%20a%20Public-Private%20Key%20Pair.md)   
+ [Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies)   
+ [How to: Create a Public-Private Key Pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)   
  [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)

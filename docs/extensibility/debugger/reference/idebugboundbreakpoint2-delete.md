@@ -2,7 +2,6 @@
 title: "IDebugBoundBreakpoint2::Delete | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,35 +15,22 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::Delete method"
 ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBoundBreakpoint2::Delete
 Deletes the breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Delete(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int Delete();  
 ```  
   

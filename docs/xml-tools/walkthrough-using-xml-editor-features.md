@@ -2,7 +2,6 @@
 title: "Walkthrough: Using XML Editor Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Walkthrough: Using XML Editor Features
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.  
@@ -109,9 +94,9 @@ The steps in this walkthrough show you how to create a new XML document. The wal
   
 ### To format the XML document  
   
-1.  Select the **Format Document** button from the XML Editor toolbar.  
+- Select the **Format Document** button from the XML Editor toolbar.
   
-     The XML document is reformatted.  
+    The XML document is reformatted.  
   
 ### To save the XML document  
   
@@ -124,7 +109,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 ## hireDate.xsd File  
  The following schema file is used by the walkthrough.  
   
-```  
+```xml
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
      elementFormDefault="qualified" targetNamespace="urn:empl-hire"  

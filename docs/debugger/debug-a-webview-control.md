@@ -1,8 +1,7 @@
 ---
-title: "Debug a WebView control | Microsoft Docs"
+title: "Debug a WebView control (UWP) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,32 +9,17 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Debug a WebView control
+# Debug a WebView control in a UWP App
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  To inspect and debug `WebView` controls in a Windows Runtime app, you can configure Visual Studio to attach the script debugger when you start your app. Starting with Visual Studio 2013 Update 2, you have two ways to interact with `WebView` controls using the debugger:  
@@ -54,7 +38,7 @@ translation.priority.mt:
   
      ![Attach the script debugger](../debugger/media/js_dom_webview_script_debugger.png "JS_DOM_WebView_Script_Debugger")  
   
-4.  (Optional) For non-Express versions of Visual Studio, disable just-in-time (JIT) debugging by choosing **Tools**, **Options**, **Debugging**, **Just-In-Time**, and then disabling JIT debugging for Script.  
+4.  (Optional) For non-Express versions of Visual Studio, disable just-in-time (JIT) debugging by choosing **Tools > Options > Debugging > Just-In-Time**, and then disabling JIT debugging for Script.  
   
     > [!NOTE]
     >  By disabling JIT debugging, you can hide dialog boxes for unhandled exceptions that occur on some webpages. In Visual Studio Express, JIT debugging is always disabled.  

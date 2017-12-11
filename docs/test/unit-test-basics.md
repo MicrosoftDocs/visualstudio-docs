@@ -2,7 +2,6 @@
 title: "Unit Test Basics | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-01-07"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,28 +12,13 @@ f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
 ms.assetid: a80ba9cd-4575-483c-b957-af7ed8dc7e20
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Unit Test Basics
-Check that your code is working as expected by creating and running unit tests. It’s called unit testing because you break down the functionality of your program into discrete testable behaviors that you can test as individual *units*. Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results in Visual Studio. Visual Studio installs the Microsoft unit testing frameworks for managed and native code. Use a *unit testing framework* to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. When you use Visual Studio Enterprise, you can run tests automatically after every build.  
+Check that your code is working as expected by creating and running unit tests. It's called unit testing because you break down the functionality of your program into discrete testable behaviors that you can test as individual *units*. Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results in Visual Studio. Visual Studio installs the Microsoft unit testing frameworks for managed and native code. Use a *unit testing framework* to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. Visual Studio Enterprise can do this automatically with [Live Unit Testing](live-unit-testing-intro.md), which detects tests affected by your code changes and runs them in the background as you type.
   
- Unit testing has the greatest effect on the quality of your code when it’s an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.  
+ Unit testing has the greatest effect on the quality of your code when it's an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.  
   
  You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](http://msdn.microsoft.com/library/dn823749.aspx).  
   
@@ -64,7 +48,7 @@ Check that your code is working as expected by creating and running unit tests. 
 -   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
 ##  <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
- In this topic, we use the development of a fictional application called `MyBank` as an example. You don’t need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
+ In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
   
  ![MyBank Solution](../test/media/ute_mybanksolution.png "UTE_MyBankSolution")  
   
@@ -86,7 +70,7 @@ Check that your code is working as expected by creating and running unit tests. 
   
  We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:  
   
-```c#  
+```csharp  
   
 public void Withdraw(double amount)  
 {  
@@ -102,7 +86,7 @@ public void Withdraw(double amount)
   
 ```  
   
- Now that we have some code, it’s time for testing.  
+ Now that we have some code, it's time for testing.  
   
 ##  <a name="BKMK_Creating_the_unit_test_projects"></a> Create unit test projects and test methods  
  It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements.  
@@ -167,7 +151,7 @@ public void Withdraw(double amount)
   
  To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail. In the `CheckingAccountTests` class, we add the following methods:  
   
-```c#  
+```csharp  
 [TestMethod]  
 public void Withdraw_ValidAmount_ChangesBalance()  
 {  
@@ -202,12 +186,12 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
 -   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+-   [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)  
   
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  
   
-```c#  
+```csharp  
 [TestMethod]  
 [Timeout(2000)]  // Milliseconds  
 public void My_Test()  
@@ -221,7 +205,7 @@ public void My_Test()
   
  To set the timeout to the maximum allowed:  
   
-```c#  
+```csharp  
 [TestMethod]  
 [Timeout(TestTimeout.Infinite)]  // Milliseconds  
 public void My_Test ()  
@@ -281,7 +265,7 @@ public void My_Test ()
   
  Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).  
   
- **Q: If I’m using TDD, how do I generate code from my tests?**  
+ **Q: If I'm using TDD, how do I generate code from my tests?**  
   
  **A:** Use IntelliSense to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the IntelliSense menu under the call. If the call is to a constructor of the new class, choose **Generate new type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate new method** from the IntelliSense menu.  
   
@@ -292,13 +276,13 @@ public void My_Test ()
  **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
   
 > [!NOTE]
->  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
+>  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you're using a different framework, consult the framework documentation for equivalent functionality.  
   
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.  
   
  To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named `AccountsTest.accdb` and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.  
   
-```c#  
+```csharp  
   
 [DataSource(  
     @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\MyBank\TestData\AccountsTest.accdb",   

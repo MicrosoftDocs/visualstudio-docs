@@ -1,8 +1,7 @@
 ---
 title: "Securing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,21 +21,6 @@ caps.latest.revision: 45
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Securing ClickOnce Applications
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.  
@@ -89,14 +73,8 @@ translation.priority.mt:
 >  Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application from the command line.  
   
 ## Deploying Obfuscated Assemblies  
- You might want to obfuscate your application by using Dotfuscator to prevent others from reverse engineering the code. However, assembly obfuscation is not integrated into the Visual Studio IDE or the ClickOnce deployment process. Therefore, you will have to perform the obfuscation outside of the deployment process, perhaps using a post-build step. After you build the project, you would perform the following steps manually, outside of Visual Studio:  
-  
-1.  Perform the obfuscation by using Dotfuscator.  
-  
-2.  Use Mage.exe or MageUI.exe to generate the ClickOnce manifests and sign them. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md).  
-  
-3.  Manually publish (copy) the files to your deployment source location (Web server, UNC share, or CD-ROM).  
-  
+ Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community Edition](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community Edition User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
+
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

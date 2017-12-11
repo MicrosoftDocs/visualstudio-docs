@@ -2,7 +2,6 @@
 title: "NameSearchOptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # NameSearchOptions
 Specifies the search options for symbol and file names.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum NameSearchOptions {   
    nsNone,  
    nsfCaseSensitive     = 0x1,  

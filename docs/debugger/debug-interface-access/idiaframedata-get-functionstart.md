@@ -2,7 +2,6 @@
 title: "IDiaFrameData::get_functionStart | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 49fd24fb-65c2-4812-8303-56a968353e1b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaFrameData::get_functionStart
 Retrieves a flag that indicates whether the block contains the entry point of a function.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_functionStart (   
    BOOL* pRetVal  
 );  

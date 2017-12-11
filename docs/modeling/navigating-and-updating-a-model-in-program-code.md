@@ -2,7 +2,6 @@
 title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 26
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Navigating and Updating a Model in Program Code
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.  
@@ -62,8 +47,6 @@ You can write code to create and delete model elements, set their properties, an
  [Properties of Shapes and Connectors](#shapeProperties)  
   
  [DocView and DocData](#docdata)  
-  
- Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
   
 ##  <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  
@@ -379,12 +362,12 @@ using (Transaction t = targetDiagram.Store.
   
  Every node or link shape belongs to one diagram. A binary link shape connects two node shapes.  
   
- Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent – for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
+ Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent - for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
   
 ###  <a name="views"></a> Navigating between shapes and elements  
  Domain model elements and shape elements are related by the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  
   
-```c#  
+```csharp  
 // using Microsoft.VisualStudio.Modeling;  
 // using Microsoft.VisualStudio.Modeling.Diagrams;  
 // using System.Linq;  

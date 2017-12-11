@@ -2,7 +2,6 @@
 title: "IDiaInjectedSource | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 75192c5c-812d-4675-9dc5-4c2cff3ba503
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaInjectedSource
 Accesses injected source code stored in the DIA data source.  
@@ -65,7 +49,7 @@ IDiaInjectedSource : IUnknown
 ## Example  
  This example displays the data available from the `IDiaInjectedSource` interface. For an alternative approach using the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface, see the example in the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface.  
   
-```cpp#  
+```C++  
 void PrintInjectedSource(IDiaInjectedSource* pSource)  
 {  
     ULONGLONG codeLength      = 0;  

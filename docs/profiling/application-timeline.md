@@ -1,8 +1,7 @@
 ---
-title: "Application Timeline | Microsoft Docs"
-ms.custom: ""
+title: "Analyze Resource Consumption in XAML Apps in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,25 +12,10 @@ ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Application Timeline
-Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the performance of XAML applications by providing a detailed view of the applications’ resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load and Windows resize.  
+# Analyze Resource Consumption and UI Thread Activity (XAML)
+Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the performance of XAML applications by providing a detailed view of the applications' resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load and Windows resize.  
   
  **Application Timeline** is one of the tools you can start with the **Debug / Performance Profiler...** command.  
   
@@ -41,7 +25,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
 1.  Universal Windows apps (on Windows 10)  
   
-2.  Windows Store 8.1  
+2.  Windows 8.1  
   
 3.  Windows Phone 8.1 (Common XAML Platform)  
   
@@ -50,10 +34,10 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 5.  Windows 7  
   
 > [!NOTE]
->  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md)  
+>  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
 ##  <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect Application Timeline data  
- You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md).  
+ You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
 > [!TIP]
 >  If possible, run the app directly on the device. The application performance observed on the simulator or through a remote desktop connection might not be the same as the actual performance on the device. On the other hand, collecting the data by using the Visual Studio Remote Tools does not affect the performance data.  
@@ -132,6 +116,8 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |![Customize Timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See Also  
- [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
- [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
- [Optimizing WPF Application Performance](../Topic/Optimizing%20WPF%20Application%20Performance.md)
+ [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
+ [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
+ [Optimizing WPF Application Performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

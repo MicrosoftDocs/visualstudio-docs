@@ -2,7 +2,6 @@
 title: "What&#39;s New in the Source Control Plug-in API Version 1.3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7dfb2227-6e1d-4028-bce9-f8967456a993
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.3
 The Source Control Plug-in API version 1.3 introduces the following new functions to provide more advanced control.  

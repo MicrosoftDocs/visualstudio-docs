@@ -2,7 +2,6 @@
 title: "How to: View Inheritance Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "types [Visual Studio], derived"
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: View Inheritance Between Types (Class Designer)
 You can find the inheritance relationship, if it exists, between a base type and its derived types on a class diagram in Class Designer. To create an inheritance relationship, if none exist, between two types, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
@@ -54,7 +39,7 @@ You can find the inheritance relationship, if it exists, between a base type and
   
 2.  On the **Class Diagram** menu, choose **Show Derived Classes** or **Show Derived Interfaces**.  
   
-     The type’s derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
+     The type's derived classes or interfaces appear on the diagram. Any hidden inheritance lines now appear between the shapes.  
   
  You can also right-click the type for which you want to see its derived types, and choose **Show Derived Classes** or **Show Derived Interfaces**.  
   

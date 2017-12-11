@@ -2,7 +2,6 @@
 title: "IDiaFrameData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 2f1b4986-341b-4641-89a4-226e261e9d93
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaFrameData
 Exposes the details of a stack frame.  
@@ -76,7 +60,7 @@ IDiaFrameData : IUnknown
 ## Example  
  This example prints out the properties of an `IDiaFrameData` object. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for an example of how the `IDiaFrameData` interface is obtained.  
   
-```cpp#  
+```C++  
 void PrintFrameData(IDiaFrameData* pFrameData){  
     DWORD dwSect;  
     DWORD dwOffset;  

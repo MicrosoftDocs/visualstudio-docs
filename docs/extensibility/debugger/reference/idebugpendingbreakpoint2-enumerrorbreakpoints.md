@@ -2,7 +2,6 @@
 title: "IDebugPendingBreakpoint2::EnumErrorBreakpoints | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,36 +15,23 @@ helpviewer_keywords:
   - "EnumErrorBreakpoints method"
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
 Gets a list of all error breakpoints that resulted from this pending breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumErrorBreakpoints(   
    BP_ERROR_TYPE                 bpErrorType,  
    IEnumDebugErrorBreakpoints2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumErrorBreakpoints(   
    enum_BP_ERROR_TYPE              bpErrorType,  
    out IEnumDebugErrorBreakpoints2 ppEnum  
@@ -65,7 +51,7 @@ int EnumErrorBreakpoints( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::EnumErrorBreakpoints(  
    BP_ERROR_TYPE bpErrorType,  
    IEnumDebugErrorBreakpoints2** ppEnum)    

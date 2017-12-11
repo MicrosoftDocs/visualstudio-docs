@@ -2,7 +2,6 @@
 title: "Configure Firewall for Remote Debugging Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.firewallconfiguration"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 
@@ -25,22 +24,7 @@ ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Configure Firewall for Remote Debugging Dialog Box
 This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a hole in the firewall so the debugger can receive information.  
@@ -60,5 +44,5 @@ This dialog box appears when the Windows Firewall blocks the debugger from recei
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)   
+ [Remote Debugging](../debugger/remote-debugging.md)  
  [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

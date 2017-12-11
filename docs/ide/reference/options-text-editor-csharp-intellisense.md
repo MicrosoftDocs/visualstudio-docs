@@ -2,7 +2,6 @@
 title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +12,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Intellisense"
 helpviewer_keywords: 
-  - "IntelliSense [J#], options"
   - "underlines, wavy"
   - "IntelliSense [C#], options"
   - "IntelliSense [C#], wavy underlines"
@@ -21,29 +19,15 @@ helpviewer_keywords:
   - "Text Editor Options dialog box, IntelliSense"
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Options, Text Editor, C#, IntelliSense
 Use the **IntelliSense** property page to modify settings that affect the behavior of IntelliSense for Visual C#. You can access the **IntelliSense** property page by clicking **Options** on the **Tools** menu, then clicking **C#** in the **Text Editor** folder, and then clicking **IntelliSense.**  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
  The **IntelliSense** property page contains the following properties:  
   
@@ -79,7 +63,7 @@ Use the **IntelliSense** property page to modify settings that affect the behavi
   
 ## IntelliSense Member Selection  
  **Pre-selects most recently used member**  
- When this option is selected, IntelliSense pre-selects the members that you have recently selected in the pop-up List Members box for automatic object name completion, during your current session in the integrated development environment (IDE). The history of most recently used members is cleared between each session in the IDE. For more information, see [IntelliSense for Most Recently Used Members](../../misc/intellisense-for-most-recently-used-members.md).  
+ When this option is selected, IntelliSense pre-selects the members that you have recently selected in the pop-up List Members box for automatic object name completion, during your current session in the integrated development environment (IDE). The history of most recently used members is cleared between each session in the IDE. For more information, see [IntelliSense for Most Recently Used Members](../../ide/visual-csharp-intellisense.md#most-recently-used-members).  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

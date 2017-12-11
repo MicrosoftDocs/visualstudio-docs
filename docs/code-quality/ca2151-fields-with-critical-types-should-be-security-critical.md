@@ -2,32 +2,17 @@
 title: "CA2151: Fields with critical types should be security critical | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 09db9d25-7d58-4725-a252-4a07baadf046
 caps.latest.revision: 4
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2151: Fields with critical types should be security critical
 |||  
@@ -40,7 +25,7 @@ translation.priority.ht:
 ## Cause  
  A security transparent field or a safe critical field is declared. Its type is specified as security critical. For example:  
   
-```c#  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers]  
   
    [SecurityCritical]  
@@ -61,7 +46,7 @@ translation.priority.ht:
 ## How to Fix Violations  
  To fix a violation of this rule, mark the field with the <xref:System.Security.SecurityCriticalAttribute> attribute, or make the type that is referenced by the field eith security transparent or safe critical.  
   
-```c#  
+```csharp  
 // Fix 1: Make the referencing field security critical  
 [assembly: AllowPartiallyTrustedCallers]  
   
@@ -91,6 +76,6 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ### Code  
- [!code-cs[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151-fields-with-critical-types-should-be-security-critical_1.cs)]  
+ [!code-csharp[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151-fields-with-critical-types-should-be-security-critical_1.cs)]  
   
 ### Comments

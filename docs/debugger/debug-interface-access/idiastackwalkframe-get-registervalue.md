@@ -2,7 +2,6 @@
 title: "IDiaStackWalkFrame::get_registerValue | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaStackWalkFrame::get_registerValue
 Retrieves the value of a register.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_registerValue (   
    DWORD      index,  
    ULONGLONG* pRetVal  

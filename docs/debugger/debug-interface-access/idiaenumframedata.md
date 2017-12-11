@@ -2,7 +2,6 @@
 title: "IDiaEnumFrameData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 2ca7fd5a-b2fa-4b3a-9492-0263eafc435b
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaEnumFrameData
 Enumerates the various frame data elements contained in the data source.  
@@ -66,7 +50,7 @@ IDiaEnumFrameData : IUnknown
 ## Example  
  This example shows how to obtain (the `GetEnumFrameData` function) and use (the `ShowFrameData` function) the `IDiaEnumFrameData` interface. See the [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) interface for an example of the `PrintFrameData` function.  
   
-```cpp#  
+```C++  
   
       IDiaEnumFrameData* GetEnumFrameData(IDiaSession *pSession)  
 {  

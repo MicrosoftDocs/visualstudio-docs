@@ -2,7 +2,6 @@
 title: "IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,29 +13,16 @@ helpviewer_keywords:
   - "GetMethodFromAddress"
 ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 Retrieves information about the method at the specified debug address.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMethodFromAddress(  
    IDebugAddress* pAddress,  
    GUID*          pGuid,  
@@ -48,7 +34,7 @@ HRESULT GetMethodFromAddress(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMethodFromAddress(  
    IDebugAddress pAddress,  
    out Guid      pGuid,  

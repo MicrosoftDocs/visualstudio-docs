@@ -2,7 +2,6 @@
 title: "Opening a Dynamic Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "tool windows, dynamic"
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Opening a Dynamic Tool Window
 Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. Tool windows like these are called *dynamic* or *auto-visible*.  
@@ -36,7 +22,7 @@ Tool windows are typically opened from a command on a menu, or an equivalent key
 > [!NOTE]
 >  For a list of predefined UI contexts, see <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT>. For the  
   
- If you want to open a dynamic tool window at startup, and it is possible for the creation to fail, you must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx> interface and test the failure conditions in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx.QueryShowTool%2A> method. In order for the shell to know that you have a dynamic tool window that should be opened at startup, you must add the `SupportsDynamicToolOwner` value (set to 1) to your package registration. This value is not part of the standard <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>, so you must create a custom attribute to add it. For more information about custom attributes, see [Using a Custom Registration Attribute to Register an Extension](../misc/using-a-custom-registration-attribute-to-register-an-extension.md).  
+ If you want to open a dynamic tool window at startup, and it is possible for the creation to fail, you must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx> interface and test the failure conditions in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx.QueryShowTool%2A> method. In order for the shell to know that you have a dynamic tool window that should be opened at startup, you must add the `SupportsDynamicToolOwner` value (set to 1) to your package registration. This value is not part of the standard <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>, so you must create a custom attribute to add it. For more information about custom attributes, see [Using a Custom Registration Attribute to Register an Extension](../extensibility/registering-and-unregistering-vspackages.md#using-a-custom-registration-attribute-to-register-an-extension).  
   
  Use <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> to open a tool window. The tool window is created as needed.  
   

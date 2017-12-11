@@ -2,7 +2,6 @@
 title: "How to: Configure Targets and Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,21 +12,7 @@ ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Configure Targets and Tasks
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.  
@@ -44,7 +29,7 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
   
 -   The `TaskFactory` attribute, if present, sets the task factory that creates and runs the task instance, and takes only the value `TaskHostFactory`. For more information, see the Task Factories section later in this document.  
   
-```  
+```xml  
 <UsingTask TaskName="SimpleTask"   
    Runtime="CLR2"  
    Architecture="x86"  
@@ -53,7 +38,7 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
   
  You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
    <Target Name="MyTarget">  
       <SimpleTask MSBuildRuntime="CLR2" MSBuildArchitecture= "x86"/>  
@@ -68,7 +53,7 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
   
  If parameters are set on the task, MSBuild attempts to find a `UsingTask` that matches these parameters or, at least, is not in conflict with them.  More than one `UsingTask` can specify the target context of the same task.  For example, a task that has different executables for different target environments might resemble this one:  
   
-```  
+```xml  
 <UsingTask TaskName="MyTool"   
    Runtime="CLR2"  
    Architecture="x86"  
@@ -90,7 +75,7 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
 ## Task Factories  
  Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context.  If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.  
   
-```  
+```xml  
 <UsingTask TaskName="MisbehavingTask"   
    TaskFactory="TaskHostFactory"  
    AssemblyFile="$(MSBuildToolsPath)\MyTasks.dll">  
@@ -100,7 +85,7 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
 ## Phantom Task Parameters  
  Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
    <PropertyGroup>  
       <FrameworkVersion>3.0</FrameworkVersion>  

@@ -2,7 +2,6 @@
 title: "Message Enumerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "source control plug-ins, message enumeration"
 ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Message Enumerator
 The following flags are used for the `TEXTOUTPROC` function, which is a callback function that the IDE provides when it calls the [SccOpenProject](../extensibility/sccopenproject-function.md) (see [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) for details on the callback function).  

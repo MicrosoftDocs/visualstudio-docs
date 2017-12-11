@@ -2,7 +2,6 @@
 title: "Schema Cache | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Schema Cache
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  
@@ -90,7 +75,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
 -   LCID  
   
- The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
+The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
   
 ```  
 <Catalog href="file://c:/xcbl/xcblCatalog.xml"/>  
@@ -132,7 +117,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
 1.  Edit the catalog.xml file in the XML editor schema cache directory.  
   
-2.  Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
+2.  Add a new `<Catalog href="..."/>` element that points to the directory of additional schemas.  
   
 3.  Save your changes.  
   

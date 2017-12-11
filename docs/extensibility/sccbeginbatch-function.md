@@ -2,7 +2,6 @@
 title: "SccBeginBatch Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "SccBeginBatch function"
 ms.assetid: 33968183-2e15-4e0d-955b-ca12212d1c25
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SccBeginBatch Function
 This function starts a batch sequence of source control operations. The [SccEndBatch](../extensibility/sccendbatch-function.md) will be called to end the batch. These batches may not be nested.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccBeginBatch(void);  
 ```  
   

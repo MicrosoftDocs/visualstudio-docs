@@ -2,7 +2,6 @@
 title: "Collecting tier interaction data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,22 +19,7 @@ ms.assetid: 47a944c2-3098-497c-8fc7-e1f43d750bbc
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Collecting tier interaction data
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.  
@@ -46,7 +30,7 @@ Tier interaction profiling provides additional information about the execution t
   
  **Windows 8 and Windows Server 2012**  
   
- To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps, you must use the instrumentation method. You cannot collect tier interaction data for Windows Store apps. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md). You can include tier interaction data in all profiling methods on other supported version of Windows.  
+ To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps, you must use the instrumentation method. You cannot collect tier interaction data for UWP apps. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md). You can include tier interaction data in all profiling methods on other supported version of Windows.  
   
  **Performance Wizard**  
   

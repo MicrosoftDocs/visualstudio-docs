@@ -2,7 +2,6 @@
 title: "Symbol Load Information Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.symbols.loadinfo"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 414580a0-175e-4a61-b82e-6755c8f7d208
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Symbol Load Information Dialog Box
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.  

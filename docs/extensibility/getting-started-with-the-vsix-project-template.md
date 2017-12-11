@@ -2,7 +2,6 @@
 title: "Getting Started with the VSIX Project Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "Visual Studio SDK, VSIX project template"
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Getting Started with the VSIX Project Template
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.  
@@ -44,7 +30,7 @@ You can use the VSIX Project template to create an extension or to package an ex
   
     1.  Open the project from which to create a template. This project can be of any project type.  
   
-    2.  On the **File** menu, click **Export Template**. Complete the steps of the wizard.  
+    2.  On the **Project** menu, click **Export Template**. Complete the steps of the wizard.  
   
          A .zip file is created in %USERPROFILE%\My Documents\Visual Studio *\<version>*\My Exported Templates\\.  
   

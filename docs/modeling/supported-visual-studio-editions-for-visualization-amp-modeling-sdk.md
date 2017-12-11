@@ -2,7 +2,6 @@
 title: "Supported Visual Studio Editions for Visualization &amp; Modeling SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 27
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Supported Visual Studio Editions for Visualization &amp; Modeling SDK
 The following are lists of the Visual Studio editions that are supported with [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] in the authoring and deployment environments. For more information on these editions, see the Microsoft [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Developer Center](http://go.microsoft.com/fwlink/?LinkId=75628).  
@@ -40,6 +25,8 @@ The following are lists of the Visual Studio editions that are supported with [!
 |[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |Visual Studio SDK|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
 |Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=186128](http://go.microsoft.com/fwlink/?LinkID=186128)|  
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
   
 ## Deployment Editions  
  [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] supports the following configurations for deploying the domain-specific languages that you build:  

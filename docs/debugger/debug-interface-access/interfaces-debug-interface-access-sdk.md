@@ -2,7 +2,6 @@
 title: "Interfaces (Debug Interface Access SDK) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,22 +17,7 @@ ms.assetid: 62aee7c3-d314-4272-a32b-b2818f32fab8
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Interfaces (Debug Interface Access SDK)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  

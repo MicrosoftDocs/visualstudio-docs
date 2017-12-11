@@ -11,3 +11,7 @@ Namespace SDKSample
         Inherits System.Windows.Controls.UserControl
 
         'NumericUpDown user control implementation
+
+    End Class
+
+End Namespace

@@ -2,7 +2,6 @@
 title: "Creating a Basic Project System, Part 1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "tutorial"
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 caps.latest.revision: 47
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating a Basic Project System, Part 1
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.  
@@ -48,7 +34,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  This walkthrough shows you how to create a project type that has the project file name extension .myproj. This walkthrough borrows from the existing Visual C# project system.  
   
 > [!NOTE]
->  For an end-to-end sample of a complete language project system, see the IronPython Sample Deep Dive in [VSSDK Samples](../misc/vssdk-samples.md).  
+>  For more examples of extension projects, see [VSSDK Samples](http://aka.ms/vs2015sdksamples).  
   
  This walkthrough teaches how to accomplish these tasks:  
   
@@ -95,7 +81,7 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 6.  Replace the existing code with the following lines.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.Text;  
@@ -114,7 +100,7 @@ In Visual Studio, projects are the containers that developers use to organize so
     ```  
   
     > [!IMPORTANT]
-    >  This is not the final form of the Program.cs code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file’s **BuildAction** is **Content**, you should be able to build and run the project as usual.  
+    >  This is not the final form of the Program.cs code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file's **BuildAction** is **Content**, you should be able to build and run the project as usual.  
   
 1.  Save the file.  
   
@@ -280,7 +266,7 @@ In Visual Studio, projects are the containers that developers use to organize so
         ```  
   
         > [!IMPORTANT]
-        >  Don’t forget the backslash at the end of the path.  
+        >  Don't forget the backslash at the end of the path.  
   
     3.  Reload the project.  
   
@@ -315,7 +301,7 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 4.  Implement the abstract property `ProductUserContext`:  
   
-    ```c#  
+    ```csharp  
     public override string ProductUserContext  
         {  
             get { return ""; }  

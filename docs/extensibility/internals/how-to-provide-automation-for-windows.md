@@ -2,7 +2,6 @@
 title: "How to: Provide Automation for Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "tool windows, automation"
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Provide Automation for Windows
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.  
@@ -50,7 +36,7 @@ You can provide automation for document and tool windows. Providing automation i
 ## Automation for Document Windows  
  A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the `T:EnvDTE.Document` object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.  
   
- In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](../../misc/vssdk-samples.md) contributes an RTF document-specific automation object.  
+ In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](http://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

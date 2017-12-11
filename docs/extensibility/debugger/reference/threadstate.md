@@ -2,7 +2,6 @@
 title: "THREADSTATE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "THREADSTATE enumeration"
 ms.assetid: 62efdd7c-25b1-4fd3-9d06-ac1830a418a9
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # THREADSTATE
 Specifies the state of the thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_THREADSTATE {   
    THREADSTATE_RUNNING = 0x0001,  
    THREADSTATE_STOPPED = 0x0002,  
@@ -48,7 +34,7 @@ enum enum_THREADSTATE { 
 typedef DWORD THREADSTATE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_THREADSTATE {   
    THREADSTATE_RUNNING = 0x0001,  
    THREADSTATE_STOPPED = 0x0002,  

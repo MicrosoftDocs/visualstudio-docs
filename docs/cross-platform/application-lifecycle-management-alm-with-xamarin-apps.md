@@ -2,7 +2,6 @@
 title: "Application Lifecycle Management (ALM) with Xamarin apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,29 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 14
-author: "kraigb"
-ms.author: "kraigb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "ghogen"
+ms.author: "ghogen"
+manager: ghogen
 ---
 # Application Lifecycle Management (ALM) with Xamarin apps
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).  
   
- Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app’s complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
+ Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
   
  Visual Studio together with Visual Studio Team Services and Team Foundation Server provide a variety of DevOps capabilities, also referred to as Application Lifecycle Management or ALM. Many of these are wholly applicable to cross-platform projects.  
   
@@ -42,7 +26,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
  The tables below identifies which Visual Studio ALM features you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.  
   
 ## Agile tools  
- Reference link: **[Work](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md)** (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)  
+ Reference link: **[Work](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)  
   
  General Comment: all planning and tracking features are independent of project type and coding languages.  
   
@@ -74,19 +58,19 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
-|[Use Team Foundation Version Control](../Topic/Use%20Team%20Foundation%20Version%20Control.md) or Visual Studio Team Services|Yes||  
-|[Getting started with Git in Team Services](../Topic/Use%20Visual%20Studio%20with%20Git.md)|Yes||  
-|[Code analysis/Improve code quality (references, suggested changes, etc.)](../Topic/Improve%20Code%20Quality.md)|Yes||  
-|[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn’t resolved until run time.|  
+|[Use Team Foundation Version Control](http://msdn.microsoft.com/Library/1d629052-c65d-4c5d-81eb-eaa4413fe285) or Visual Studio Team Services|Yes||  
+|[Getting started with Git in Team Services](http://msdn.microsoft.com/Library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|Yes||  
+|[Improve Code Quality](/visualstudio/test/improve-code-quality)|Yes||  
+|[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|  
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
 ## Build  
- Reference link: **[Build](../Topic/Build%20the%20application.md)**  
+ Reference link: **[Build](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
 |On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Configuring TFS for Xamarin](http://developer.xamarin.com/guides/cross-platform/ci/configuring_tfs/) (Xamarin website)|  
-|On-premises build server linked to Visual Studio Team Services|Yes|See [Build server](../Topic/Deploy%20and%20configure%20a%20build%20server.md) for instructions.|  
+|On-premises build server linked to Visual Studio Team Services|Yes|See [Build server](http://msdn.microsoft.com/Library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
 |Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](https://www.visualstudio.com/en-us/docs/build/apps/mobile/xamarin).|  
 |Build definitions with pre- and post-scripts|Yes||  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
@@ -104,15 +88,15 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin Test Recorder](https://www.xamarin.com/test-cloud/recorder).|  
   
 ## Improve code quality  
- Reference link: **[Improve Code Quality](../Topic/Improve%20Code%20Quality.md)**  
+ Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
 |[Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes||  
-|[Finding Duplicate Code by using Code Clone Detection](../Topic/Finding%20Duplicate%20Code%20by%20using%20Code%20Clone%20Detection.md)|Yes||  
+|[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes||  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes||  
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Xamarin Profiler](http://developer.xamarin.com/guides/cross-platform/deployment,_testing,_and_metrics/) through Xamarin Studio instead. Note that the Xamarin Profiler is currently in preview and does not yet work for Windows targets.|  
-|[Analyze .NET Framework memory issues](../misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|  
+|[Analyze .NET Framework memory issues](https://msdn.microsoft.com/en-us/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|  
   
 ## Release management  
  Reference link: **[Automate deployments with Release Management](https://msdn.microsoft.com/library/vs/alm/release/overview)**  

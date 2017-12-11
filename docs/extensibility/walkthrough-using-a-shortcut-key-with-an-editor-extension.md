@@ -2,7 +2,6 @@
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - link keystrokes to commands"
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
 caps.latest.revision: 32
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Using a Shortcut Key with an Editor Extension
 You can respond to shortcut keys in your editor extension. The following walkthrough shows how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template, and it allows you to add the adornment by using the + character.  
@@ -54,7 +40,7 @@ You can respond to shortcut keys in your editor extension. The following walkthr
   
  In the KeyBindingTest class file, change the class name to PurpleCornerBox. Use the light bulb that appears in the left margin to make the other appropriate changes. Inside the constructor, change the name of the adornment layer from **KeyBindingTest** to **PurpleCornerBox**:  
   
-```c#  
+```csharp  
 this.layer = view.GetAdornmentLayer("PurpleCornerBox");  
 ```  
   
@@ -65,7 +51,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 2.  Add the following using statements.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Runtime.InteropServices;  
     using Microsoft.VisualStudio.OLE.Interop;  
@@ -76,13 +62,13 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 3.  The class named KeyBindingCommandFilter should inherit from <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>.  
   
-    ```c#  
+    ```csharp  
     internal class KeyBindingCommandFilter : IOleCommandTarget  
     ```  
   
 4.  Add private fields for the text view, the next command in the command chain, and a flag to represent whether the command filter has already been added.  
   
-    ```c#  
+    ```csharp  
     private IWpfTextView m_textView;  
     internal IOleCommandTarget m_nextTarget;  
     internal bool m_added;  
@@ -91,7 +77,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 5.  Add a constructor that sets the text view.  
   
-    ```c#  
+    ```csharp  
     public KeyBindingCommandFilter(IWpfTextView textView)  
     {  
         m_textView = textView;  
@@ -110,7 +96,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 7.  Implement the `Exec()` method so that it adds a purple box to the view if a + character is typed.  
   
-    ```c#  
+    ```csharp  
     int IOleCommandTarget.Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)  
     {  
         if (m_adorned == false)  
@@ -137,7 +123,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 1.  In the KeyBindingTestTextViewCreationListener file, add the following using statements:  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.ComponentModel.Composition;  
@@ -152,7 +138,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 2.  In the adornment layer definition, change the name of the AdornmentLayer from **KeyBindingTest** to **PurpleCornerBox**.  
   
-    ```c#  
+    ```csharp  
     [Export(typeof(AdornmentLayerDefinition))]  
     [Name("PurpleCornerBox")]  
     [Order(After = PredefinedAdornmentLayers.Selection, Before = PredefinedAdornmentLayers.Text)]  
@@ -161,7 +147,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 3.  To get the text view adapter, you must import the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>.  
   
-    ```c#  
+    ```csharp  
     [Import(typeof(IVsEditorAdaptersFactoryService))]  
     internal IVsEditorAdaptersFactoryService editorFactory = null;  
   
@@ -169,7 +155,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 4.  Change the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> method so that it adds the `KeyBindingCommandFilter`.  
   
-    ```c#  
+    ```csharp  
     public void TextViewCreated(IWpfTextView textView)  
     {  
         AddCommandFilter(textView, new KeyBindingCommandFilter(textView));  
@@ -178,7 +164,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
 5.  The `AddCommandFilter` handler gets the text view adapter and adds the command filter.  
   
-    ```c#  
+    ```csharp  
     void AddCommandFilter(IWpfTextView textView, KeyBindingCommandFilter commandFilter)  
     {  
         if (commandFilter.m_added == false)  
@@ -201,11 +187,11 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
     ```  
   
 ## Making the Adornment Appear on Every Line  
- The original adornment appeared on every character ‘a’ in a text file. Now that we have changed the code to add the adornment in response to the ‘+’ character, it adds the adornment only on the line where the ‘+’ is typed. We can change the adornment code so that the adornment once more appears on every ‘a’.  
+ The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the '+' character, it adds the adornment only on the line where the '+' is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
   
- In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the ‘a’ character.  
+ In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the 'a' character.  
   
-```c#  
+```csharp  
 private void CreateVisuals(ITextViewLine line)  
 {  
     IWpfTextViewLineCollection textViewLines = this.view.TextViewLines;  
@@ -251,6 +237,6 @@ private void CreateVisuals(ITextViewLine line)
   
 1.  Build the KeyBindingTest solution and run it in the experimental instance.  
   
-2.  Create or open a text file. Type some words containing the character ‘a’, and then type + anywhere in the text view.  
+2.  Create or open a text file. Type some words containing the character 'a', and then type + anywhere in the text view.  
   
-     A purple square should appear on every ‘a’ character in the file.
+     A purple square should appear on every 'a' character in the file.

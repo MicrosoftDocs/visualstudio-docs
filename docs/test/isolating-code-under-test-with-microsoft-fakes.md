@@ -2,7 +2,6 @@
 title: "Isolating Code Under Test with Microsoft Fakes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a03c2e83-a41f-4854-bcf2-fcaa277a819d
 caps.latest.revision: 16
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Isolating Code Under Test with Microsoft Fakes
 Microsoft Fakes help you isolate the code you are testing by replacing other parts of the application with *stubs* or *shims*. These are small pieces of code that are under the control of your tests. By isolating your code for testing, you know that if the test fails, the cause is there and not somewhere else. Stubs and shims also let you test your code even if other parts of your application are not working yet.  
@@ -35,7 +20,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 -   A [stub](#stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you have to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)  
   
--   A [shim](#shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such .NET assemblies.  
+-   A [shim](#shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such as .NET assemblies.  
   
  ![Fakes replace other components](../test/media/fakes-2.png "Fakes-2")  
   
@@ -58,7 +43,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  **Private methods.** Shims can replace calls to private methods if all the types on the method signature are visible. Stubs can only replace visible methods.  
   
- **Interfaces and abstract methods.** Stubs provide implementations of interfaces and abstract methods that can be used in testing. Shims can’t instrument interfaces and abstract methods, because they don’t have method bodies.  
+ **Interfaces and abstract methods.** Stubs provide implementations of interfaces and abstract methods that can be used in testing. Shims can't instrument interfaces and abstract methods, because they don't have method bodies.  
   
  In general, we recommend that you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. Shim types can be used to isolate from third-party components that do not provide a testable API.  
   
@@ -73,13 +58,13 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
      Instead, define an interface that can be implemented by the other component, and which can also be implemented by a stub for test purposes:  
   
-    ```c#  
+    ```csharp  
     public int GetContosoPrice(IStockFeed feed)  
     { return feed.GetSharePrice("COOO"); }  
   
     ```  
   
-    ```vb#  
+    ```vb  
     Public Function GetContosoPrice(feed As IStockFeed) As Integer  
      Return feed.GetSharePrice("COOO")  
     End Function  
@@ -88,7 +73,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 2.  **Add Fakes Assembly**  
   
-    1.  In Solution Explorer, expand the test project’s reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
+    1.  In Solution Explorer, expand the test project's reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
   
     2.  Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.  
   
@@ -96,7 +81,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 3.  In your tests, construct instances of the stub and provide code for its methods:  
   
-    ```c#  
+    ```csharp  
     [TestClass]  
     class TestStockAnalyzer  
     {  
@@ -127,7 +112,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     <TestClass()> _  
     Class TestStockAnalyzer  
   
@@ -161,7 +146,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  Suppose your component contains calls to `DateTime.Now`:  
   
-```c#  
+```csharp  
 // Code under test:  
     public int GetTheCurrentYear()  
     {  
@@ -172,17 +157,17 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  During testing, you would like to shim the `Now` property, because the real version inconveniently returns a different value at every call.  
   
- To use shims, you don’t have to modify the application code or write it a particular way.  
+ To use shims, you don't have to modify the application code or write it a particular way.  
   
 1.  **Add Fakes Assembly**  
   
-     In Solution Explorer, open your unit test project’s references and select the reference to the assembly that contains the method you want to fake. In this example, the `DateTime` class is in **System.dll**.  To see the references in a Visual Basic project, choose **Show All Files**.  
+     In Solution Explorer, open your unit test project's references and select the reference to the assembly that contains the method you want to fake. In this example, the `DateTime` class is in **System.dll**.  To see the references in a Visual Basic project, choose **Show All Files**.  
   
      Choose **Add Fakes Assembly**.  
   
 2.  **Insert a shim in a ShimsContext**  
   
-    ```c#  
+    ```csharp  
     [TestClass]  
     public class TestClass1  
     {   
@@ -215,7 +200,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
     ```  
   
-    ```vb#  
+    ```vb  
     <TestClass()> _  
     Public Class TestClass1  
         <TestMethod()> _  
@@ -241,7 +226,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
     End Class  
     ```  
   
-     Shim class names are made up by prefixing `Fakes.Shim` to the original type name. Parameter names are appended to the method name. (You don’t have to add any assembly reference to System.Fakes.)  
+     Shim class names are made up by prefixing `Fakes.Shim` to the original type name. Parameter names are appended to the method name. (You don't have to add any assembly reference to System.Fakes.)  
   
  The previous example uses a shim for a static method. To use a shim for an instance method, write `AllInstances` between the type name and the method name:  
   
@@ -249,7 +234,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
 System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...  
 ```  
   
- (There is no ‘System.IO.Fakes’ assembly to reference. The namespace is generated by the shim creation process. But you can use ‘using’ or ‘Import’ in the usual way.)  
+ (There is no 'System.IO.Fakes' assembly to reference. The namespace is generated by the shim creation process. But you can use 'using' or 'Import' in the usual way.)  
   
  You can also create shims for specific instances, for constructors, and for properties. For more information, see [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).  
   

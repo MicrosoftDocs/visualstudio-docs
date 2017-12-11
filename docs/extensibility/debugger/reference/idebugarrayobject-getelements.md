@@ -2,7 +2,6 @@
 title: "IDebugArrayObject::GetElements | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetElements method"
 ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugArrayObject::GetElements
 Gets an enumerator of all elements of the array.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetElements(   
    IEnumDebugObjects** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetElements(  
    out IEnumDebugObjects ppEnum  
 );  

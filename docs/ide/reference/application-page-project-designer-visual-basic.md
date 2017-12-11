@@ -2,7 +2,6 @@
 title: "Application Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,31 +16,16 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Application Page, Project Designer (Visual Basic)
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  
   
- To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## General Application Settings  
  The following options enable you to configure general settings for an application.  
@@ -74,14 +58,14 @@ Use the **Application** page of the Project Designer to specify a project's appl
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
  **Application type**  
- Specifies the type of application to build. For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
+ Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
   
  For a web application project, you must specify **Class Library**.  
   
- If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can use the **WinMD File** option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](http://go.microsoft.com/fwlink/?LinkId=231895).  
+ If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can use the **WinMD File** option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).  
   
 > [!NOTE]
->  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
+>  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project's output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
  For more information about the **Application type** property, see [/target (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/target). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType%2A>.  
   

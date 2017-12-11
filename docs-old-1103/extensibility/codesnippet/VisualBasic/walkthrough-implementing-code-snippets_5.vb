@@ -1,2 +1,0 @@
-Imports Microsoft.VisualStudio.Text.Operations
-Imports MSXML

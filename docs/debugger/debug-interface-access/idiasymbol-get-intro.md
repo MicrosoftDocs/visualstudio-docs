@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_intro | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 101afe4a-4c57-45de-87b4-330394c6de10
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_intro
 Retrieves a flag that specifies whether the function is an introducing virtual function.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_intro (   
    BOOL* pRetVal  
 );  
@@ -57,7 +41,7 @@ HRESULT get_intro ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 class A {  
    virtual int f1();  
 }  

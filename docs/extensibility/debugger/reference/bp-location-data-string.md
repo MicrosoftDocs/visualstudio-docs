@@ -2,7 +2,6 @@
 title: "BP_LOCATION_DATA_STRING | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "BP_LOCATION_DATA_STRING structure"
 ms.assetid: 445d6f3f-95b0-47ac-85e2-51b778240687
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # BP_LOCATION_DATA_STRING
 Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_DATA_STRING {   
    IDebugThread2* pThread;  
    BSTR           bstrContext;  

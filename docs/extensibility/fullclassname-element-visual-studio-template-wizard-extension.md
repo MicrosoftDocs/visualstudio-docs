@@ -2,7 +2,6 @@
 title: "FullClassName Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "FullClassName element [Visual Studio project template]"
 ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # FullClassName Element (Visual Studio Template Wizard Extension)
 The fully qualified name of the class that implements the `IWizard` interface.  

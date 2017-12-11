@@ -2,7 +2,6 @@
 title: "CV_CPU_TYPE_e | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: df470a7e-1d04-448e-b920-c731189514fa
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CV_CPU_TYPE_e
 Specifies the target processor.  
@@ -42,7 +26,7 @@ Specifies the target processor.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_CPU_TYPE_e {   
    CV_CFL_8080         = 0x00,  
    CV_CFL_8086         = 0x01,  

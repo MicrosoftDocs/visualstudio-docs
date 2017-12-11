@@ -1,8 +1,7 @@
 ---
-title: "AspNetCompiler Task | Microsoft Docs"
+title: "Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # AspNetCompiler Task
 The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
@@ -68,7 +53,7 @@ The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!I
 ## Example  
  The following code example uses the `AspNetCompiler` task to precompile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="PrecompileWeb">  
         <AspNetCompiler  

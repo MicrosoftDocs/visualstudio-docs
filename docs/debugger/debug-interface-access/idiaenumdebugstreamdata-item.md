@@ -2,7 +2,6 @@
 title: "IDiaEnumDebugStreamData::Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 761e61a5-44a6-4d5d-a98e-c2e9b89d2343
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaEnumDebugStreamData::Item
 Retrieves the specified record.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD  index,  
    DWORD  cbData,  

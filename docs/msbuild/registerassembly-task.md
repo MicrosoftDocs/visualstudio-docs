@@ -2,7 +2,6 @@
 title: "RegisterAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,24 +22,10 @@ ms.assetid: ba5f19ac-6764-4d28-9b79-a86de58f8987
 caps.latest.revision: 16
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # RegisterAssembly Task
-Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration Tool)](../Topic/Regasm.exe%20\(Assembly%20Registration%20Tool\).md).  
+Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration Tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool).  
   
 ## Parameters  
  The following table describes the parameters of the `RegisterAssembly` task.  
@@ -58,7 +43,7 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 ## Example  
  The following example uses the `RegisterAssembly` task to register the assembly specified by the `MyAssemblies` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

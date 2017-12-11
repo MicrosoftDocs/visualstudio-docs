@@ -2,7 +2,6 @@
 title: "SolutionFolder Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,23 +15,9 @@ helpviewer_keywords:
   - "SolutionFolder element [Visual Studio Templates]"
 ms.assetid: 963f0398-fb50-4d8e-879d-d48f8b7c6d80
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # SolutionFolder Element (Visual Studio Templates)
 Groups projects in multi-project templates.  

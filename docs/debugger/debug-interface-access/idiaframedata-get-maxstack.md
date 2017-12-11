@@ -2,7 +2,6 @@
 title: "IDiaFrameData::get_maxStack | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 2585e13c-c0f3-49fe-9a84-08adb0dbeaa4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaFrameData::get_maxStack
 Retrieves the maximum number of bytes pushed on the stack in the frame.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_maxStack (   
    DWORD* pRetVal  
 );  

@@ -2,7 +2,6 @@
 title: "IDebugEngine2::SetLocale | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugEngine2::SetLocale"
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngine2::SetLocale
 Sets the locale of the debug engine (DE).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetLocale(   
    WORD wLangID  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetLocale(   
    ushort wLangID  
 );  

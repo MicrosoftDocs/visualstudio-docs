@@ -2,32 +2,17 @@
 title: "Step 8: Write Code for the Show a Picture Button Event Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 8: Write Code for the Show a Picture Button Event Handler
 In this step, you make the **Show a picture** button work like this:  
@@ -44,7 +29,7 @@ In this step, you make the **Show a picture** button work like this:
   
 1.  Go to Windows Forms Designer and double-click the **Show a picture** button. The IDE immediately goes to the code designer and moves your cursor so it's inside the `showButton_Click()` method that you added previously.  
   
-2.  Type an `i` on the empty line between the two braces { }. (In Visual Basic, type on the empty line between Private Sub… and End Sub.) An **IntelliSense** window opens, as shown in the following picture.  
+2.  Type an `i` on the empty line between the two braces { }. (In Visual Basic, type on the empty line between Private Sub... and End Sub.) An **IntelliSense** window opens, as shown in the following picture.  
   
      ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png "Express_IfIntellisense")  
 IntelliSense with Visual C# code  
@@ -76,7 +61,7 @@ Property icon
          ![Event icon](../ide/media/express_iconevent.png "Express_IconEvent")  
 Event icon  
   
-    4.  Start to type `ShowDialog` (capitalization is unimportant to IntelliSense). The `ShowDialog()` method will show the **Open File** dialog box. After the window has highlighted **ShowDialog**, choose the TAB key. You can also highlight “ShowDialog” and choose the F1 key to get help for it.  
+    4.  Start to type `ShowDialog` (capitalization is unimportant to IntelliSense). The `ShowDialog()` method will show the **Open File** dialog box. After the window has highlighted **ShowDialog**, choose the TAB key. You can also highlight "ShowDialog" and choose the F1 key to get help for it.  
   
          To learn more about the `ShowDialog()` method, see [ShowDialog Method](http://msdn.microsoft.com/library/c7ykbedk.aspx).  
   
@@ -107,7 +92,7 @@ Event icon
   
     9. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method looks like the following. (Choose the **VB** tab to view the Visual Basic version of the code.)  
   
-         [!code-cs[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
+         [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
          [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8-write-code-for-the-show-a-picture-button-event-handler_1.vb)]  
   
 ### To continue or review  

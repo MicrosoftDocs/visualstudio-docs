@@ -2,7 +2,6 @@
 title: "Adding tier interaction data from the command line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,29 +15,14 @@ ms.assetid: 5a35647f-03f2-4555-8eeb-fda7e0080e67
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Adding tier interaction data from the command line
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
   
  **Windows 8 and Windows Server 2012**  
   
- To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps you must use the instrumentation method. Collecting tier interaction data on Windows Store apps is not supported.  
+ To collect tier interaction data on Windows 8 desktop apps and Windows Server 2012 apps you must use the instrumentation method. Collecting tier interaction data on UWP apps is not supported.  
   
  **Visual Studio editions**  
   
@@ -46,7 +30,7 @@ Tier interaction profiling provides additional information about the execution t
   
  **Collecting TIP data on a remote machine**  
   
- To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md) download package.  
+ To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.  
   
  **TIP reports**  
   

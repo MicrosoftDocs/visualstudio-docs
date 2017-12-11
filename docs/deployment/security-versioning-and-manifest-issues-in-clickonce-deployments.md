@@ -2,7 +2,6 @@
 title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,20 +28,6 @@ caps.latest.revision: 21
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments
 There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment not to succeed.  

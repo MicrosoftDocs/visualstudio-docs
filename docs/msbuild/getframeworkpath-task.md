@@ -2,7 +2,6 @@
 title: "GetFrameworkPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # GetFrameworkPath Task
 Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  
@@ -62,7 +47,7 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 ## Example  
  The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="GetPath">  
         <GetFrameworkPath>  

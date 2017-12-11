@@ -2,7 +2,6 @@
 title: "How to: Create an Atom Feed for a Private Gallery | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Create an Atom Feed for a Private Gallery
 You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to **Extensions and Updates** as a private gallery. For more information, see [Private Galleries](../extensibility/private-galleries.md).  
@@ -58,7 +44,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
 - <entry>  
   <id>SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa</id>   
   <title type="text">Highlight all occurrences of selected word</title>   
-  <summary type="text">This extends the editor to highlight ….</summary>   
+  <summary type="text">This extends the editor to highlight ....</summary>   
   <published>2011-04-14T14:24:51-07:00</published>   
   <updated>2011-04-14T14:24:22-07:00</updated>   
 - <author>  
@@ -78,7 +64,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
   </entry>  
 - <entry>  
   <id>Template_Wizard_239.Microsoft.3b38a7e3-5cbc-4389-a92a-d82tyc2ed592</id>   
-  …  
+  ...  
   </entry>  
   </feed>  
   

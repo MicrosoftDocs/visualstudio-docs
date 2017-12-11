@@ -2,7 +2,6 @@
 title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 89ecf99d-66bf-4da0-a840-aa95b0be1702
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
 This error means that the Visual Studio Remote Debugger service is running under a user account that cannot authenticate when it tries to connect to the computer that you are debugging from.  
@@ -59,7 +44,7 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 ### To correct this error  
   
-1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
+1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 2.  Run the remote debugger service under an account that can access the debugger host computer, as shown in the previous table.  
   

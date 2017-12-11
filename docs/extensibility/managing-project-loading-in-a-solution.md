@@ -2,7 +2,6 @@
 title: "Managing Project Loading in a Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "solutions, managing project loading"
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Managing Project Loading in a Solution
 Visual Studio solutions can contain a large number of projects. The default Visual Studio behavior is to load all the projects in a solution at the time the solution is opened, and not to allow the user to access any of the projects until all of them have finished loading. When the process of project loading will last more than two minutes, a progress bar is displayed showing the number of projects loaded and the total number of projects. The user can unload projects while working in a solution with multiple projects, but this procedure has some disadvantages: the unloaded projects are not built as part of a Rebuild Solution command, and IntelliSense descriptions of types and members of closed projects are not displayed.  
@@ -54,7 +40,7 @@ Visual Studio solutions can contain a large number of projects. The default Visu
   
  You must get the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution> service  and set the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> property:  
   
-```c#  
+```csharp  
 IVsSolution pSolution = GetService(typeof(SVsSolution)) as IVsSolution;  
 object objLoadMgr = this;   //the class that implements IVsSolutionManager  
 pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLoadMgr);  
@@ -63,7 +49,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
 #### Implementing IVsSolutionLoadManager  
  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManager.OnBeforeOpenProject%2A> method is called during the process of opening the solution. To implement this method, you use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManagerSupport> service to set the load priority for the type of project you wish to manage. For example, the following code sets C# project types to load in the background:  
   
-```c#  
+```csharp  
 Guid guidCSProjectType = new Guid("{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}");  
 pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority.PLP_BackgroundLoad);  
 ```  
@@ -99,7 +85,7 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
   
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnQueryBackgroundLoadProjectBatch%2A>: This is fired before the loading of a project (or projects). To ensure that other background processes are completed before the projects are loaded, set `pfShouldDelayLoadToNextIdle` to **true**.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: This is fired when a batch of projects is about to be loaded. If `fIsBackgroundIdleBatch` is true, the projects are to be loaded in the background; if `fIsBackgroundIdleBatch` is false, the projects are to be loaded synchronously as a result of a user request, for example if the user expands a pending project in Solution Explorer. You can implement this to do expensive work that otherwise would need to be done in <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterOpenProject%2A>.  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: This is fired when a batch of projects is about to be loaded. If `fIsBackgroundIdleBatch` is true, the projects are to be loaded in the background; if `fIsBackgroundIdleBatch` is false, the projects are to be loaded synchronously as a result of a user request, for example if the user expands a pending project in Solution Explorer. You can implement this to do expensive work that otherwise would need to be done in <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>.  
   
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: This is fired after a batch of projects has been loaded.  
   

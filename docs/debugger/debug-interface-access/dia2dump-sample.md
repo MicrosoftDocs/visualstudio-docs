@@ -2,7 +2,6 @@
 title: "Dia2dump Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,22 +17,7 @@ ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Dia2dump Sample
 The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cpp source file. The compiled executable runs from the command line and displays the contents of an entire program database (.pdb) file.  
@@ -64,4 +48,4 @@ The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cp
   
 ## See Also  
  [Dia2dump.cpp Source File](../../debugger/debug-interface-access/dia2dump-cpp-source-file.md)   
- [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)
+ [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)

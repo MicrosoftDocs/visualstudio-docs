@@ -2,33 +2,17 @@
 title: "Display data in Blend | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Display data in Blend
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that will appear in your app when you run it.  
@@ -59,7 +43,7 @@ You can view sample data in your designer as you customize the layout of your pa
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).  
   
 ##  <a name="Existing"></a> Generate sample data from a class  
- If you’ve already created classes that describe the structure of your data, you can generate sample data from them.  
+ If you've already created classes that describe the structure of your data, you can generate sample data from them.  
   
  To generate sample data from a class, open a XAML document, and then in the **Data** panel, click the **Create sample data**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") button, and then click **Create Sample Data from Class**.  
   

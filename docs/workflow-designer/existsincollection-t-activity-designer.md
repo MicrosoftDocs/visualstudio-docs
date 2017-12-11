@@ -2,7 +2,6 @@
 title: "ExistsInCollection&lt;T&gt; Activity Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ExistsInCollection&lt;T&gt; Activity Designer
 The **ExistsInCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.  

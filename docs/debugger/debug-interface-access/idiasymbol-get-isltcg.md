@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_isLTCG | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 5f7f05b8-6b71-4958-9e1e-e4924ef9c59b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_isLTCG
-Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-interface-access/compiland.md) has been linked with the linker switch [/LTCG (Link-time Code Generation)](/visual-cpp/build/reference/ltcg-link-time-code-generation), which aids in whole program optimization. This switch applies only to managed code.  
+Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-interface-access/compiland.md) has been linked with the linker switch [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation), which aids in whole program optimization. This switch applies only to managed code.  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_iSLTCG(  
    BOOL *pFlag  
 );  

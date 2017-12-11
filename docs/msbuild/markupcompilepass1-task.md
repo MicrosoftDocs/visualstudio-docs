@@ -2,7 +2,6 @@
 title: "MarkupCompilePass1 Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 693d6945-fd6f-4698-8f64-9dfcb71052d3
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MarkupCompilePass1 Task
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-localizable [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] project files to compiled binary format.  
@@ -80,7 +65,7 @@ The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-lo
   
  A [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] file is localizable if it contains elements that use the `x:Uid` attribute:  
   
-```  
+```xml  
 <Page x:Class="WPFMSBuildSample.Page1"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
@@ -92,7 +77,7 @@ The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-lo
   
  A [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] file references a locally-defined type when it declares an [!INCLUDE[TLA#tla_xml](../msbuild/includes/tlasharptla_xml_md.md)] namespace that uses the `clr-namespace` value to refer to a namespace in the current project:  
   
-```  
+```xml  
 <Page x:Class="WPFMSBuildSample.Page1"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
@@ -112,7 +97,7 @@ The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-lo
 ## Example  
  The following example shows how to convert three `Page`[!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to binary format files. `Page1` contains a reference to a type, `Class1`, which is in the root namespace of the project and therefore, is not converted to binary format files in this markup compile pass. Instead, the [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md) is executed and is followed by the [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md).  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass1"   
@@ -136,5 +121,5 @@ The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-lo
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML Browser Applications Overview](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+ [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
+ [WPF XAML Browser Applications Overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

@@ -2,7 +2,6 @@
 title: "How to: Register a Library with the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,9 @@ helpviewer_keywords:
   - "libraries, symbol-browsing tools"
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 caps.latest.revision: 26
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Register a Library with the Object Manager
 Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, enable you to view symbols in your project or in external components. The symbols include namespaces, classes, interfaces, methods, and other language elements. The libraries track these symbols and expose them to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager that populates the tools with the data.  
@@ -53,14 +39,14 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 1.  Create a library.  
   
-    ```vb#  
+    ```vb  
     Private m_CallBrowserLibrary As CallBrowser.Library = Nothing  
     Private m_nLibraryCookie As UInteger = 0  
     ' Create Library.  
     m_CallBrowserLibrary = New CallBrowser.Library()  
     ```  
   
-    ```c#  
+    ```csharp  
     private CallBrowser.Library m_CallBrowserLibrary = null;  
     private uint m_nLibraryCookie = 0;  
     // Create Library.  
@@ -70,7 +56,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 2.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> method.  
   
-    ```vb#  
+    ```vb  
     Private Sub RegisterLibrary()  
         If m_nLibraryCookie <> 0 Then  
             Throw New Exception("Library already registered with Object Manager")  
@@ -93,7 +79,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void RegisterLibrary()  
     {  
         if (m_nLibraryCookie != 0)  
@@ -126,7 +112,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 1.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> method.  
   
-    ```vb#  
+    ```vb  
     Private Sub UnregisterLibrary()  
         If m_nLibraryCookie <> 0 Then  
             ' Obtain a reference to IVsObjectManager2 type object.  
@@ -148,7 +134,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void UnregisterLibrary()  
     {  
         if (m_nLibraryCookie != 0)  

@@ -2,7 +2,6 @@
 title: "How to: Get an Overview of a Schema Set Using the Graph View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Get an Overview of a Schema Set Using the Graph View
 This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to see a high-level view of the nodes in a schema set and the relationships between the nodes.  

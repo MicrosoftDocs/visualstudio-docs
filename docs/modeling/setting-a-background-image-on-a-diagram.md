@@ -2,7 +2,6 @@
 title: "Setting a Background Image on a Diagram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -104,3 +103,5 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and M
  [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

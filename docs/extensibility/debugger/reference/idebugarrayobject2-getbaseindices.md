@@ -2,7 +2,6 @@
 title: "IDebugArrayObject2::GetBaseIndices | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,36 +13,23 @@ helpviewer_keywords:
   - "IDebugArrayObject2::GetBaseIndices"
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugArrayObject2::GetBaseIndices
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBaseIndices (  
    DWORD  dwRank,  
    DWORD* dwIndices  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetBaseIndices (  
    uint       dwRank,  
    out uint[] dwIndices  
@@ -61,7 +47,7 @@ int GetBaseIndices (
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- As an example, this function would return ‘5’ for the array created by the following C# code:  
+ As an example, this function would return '5' for the array created by the following C# code:  
   
 ```  
 int[] lengths = { 12 };  

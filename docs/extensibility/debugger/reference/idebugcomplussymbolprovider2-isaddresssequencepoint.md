@@ -2,7 +2,6 @@
 title: "IDebugComPlusSymbolProvider2::IsAddressSequencePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,35 +13,22 @@ helpviewer_keywords:
   - "IsAddressSequencePoint"
 ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 Determines if the specified debug address is a sequence point.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsAddressSequencePoint(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsAddressSequencePoint(  
    IDebugAddress pAddress  
 );  
@@ -58,7 +44,7 @@ int IsAddressSequencePoint(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::IsAddressSequencePoint(  
     IDebugAddress* pAddress  
 )  

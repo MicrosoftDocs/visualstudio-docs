@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_lowerBoundId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 12ce98e9-a225-4947-88c9-5fda39dd67e4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_lowerBoundId
 Retrieves the symbol identifier of the lower bound of a FORTRAN array dimension.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lowerBoundId (   
    DWORD* pRetVal  
 );  

@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_oemId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: c472830f-c3eb-46ab-9498-cd637763d241
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_oemId
 Retrieves the symbol's original equipment manufacturer (OEM) ID value.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_oemId (   
    DWORD* pRetVal  
 );  

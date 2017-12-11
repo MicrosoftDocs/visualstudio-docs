@@ -2,34 +2,19 @@
 title: "Walkthrough: Binding to data in XAML Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.XamlDesigner.DataBinding"
 ms.assetid: 1a99aeae-c3ef-407d-ba79-b8055489a43d
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Walkthrough: Binding to data in XAML Designer
 In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dependencyproperty.aspx) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) control.  
@@ -44,7 +29,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
   
 4.  Open the MainWindow.xaml.cs (or MainWindow.xaml.vb) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.  
   
-    ```c#  
+    ```csharp  
     public class ShoppingCart : DependencyObject  
     {  
         public int ItemCount  
@@ -111,4 +96,4 @@ In XAML Designer, you can set data binding properties by using the artboard and 
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)   
- [NIB: Add Value Converter dialog box](http://msdn.microsoft.com/en-us/c5f3d110-a541-4b55-8bca-928f77778af8)
+ [Add Value Converter dialog box](https://msdn.microsoft.com/en-us/c5f3d110-a541-4b55-8bca-928f77778af8)

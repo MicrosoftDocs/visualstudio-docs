@@ -2,7 +2,6 @@
 title: "IEEVisualizerService::GetCustomViewerCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerCount method"
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEEVisualizerService::GetCustomViewerCount
 This method gets the number of type visualizers available from this service.  
@@ -43,7 +29,7 @@ HRESULT GetCustomViewerCount(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCustomViewerCount(  
    out uint pcelt  
 );  

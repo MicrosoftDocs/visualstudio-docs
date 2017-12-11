@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_acceleratorPointerTags | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,14 @@ ms.assetid: 30e13cee-e511-49ec-affd-99b0097071b2
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_acceleratorPointerTags
 Returns all accelerator pointer tag values that correspond to a C++ AMP accelerator stub function.  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_acceleratorPointerTags(   
    DWORD          cnt,  
    DWORD*         pcnt,  

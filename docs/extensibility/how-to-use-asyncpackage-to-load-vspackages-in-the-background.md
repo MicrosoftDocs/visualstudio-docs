@@ -8,21 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Use AsyncPackage to Load VSPackages in the Background
 Loading and initializing a VS package can result in disk I/O. If such I/O happens on the UI thread, it can lead to responsiveness issues. To address this, Visual Studio 2015 introduced the  <xref:Microsoft.VisualStudio.Shell.AsyncPackage> class that enables package loading on a background thread.  
@@ -36,21 +23,21 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
      To indicate to Visual Studio that your package is safe for background loading and to opt into this behavior, your <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> should set **AllowsBackgroundLoading** property to true in the attribute constructor.  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]  
   
     ```  
   
      To indicate to Visual Studio that it is safe to instantiate your service on a background thread, you should set the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttributeBase.IsAsyncQueryable%2A> property to true in the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> constructor.  
   
-    ```c#  
+    ```csharp  
     [ProvideService(typeof(SMyTestService), IsAsyncQueryable = true)]  
   
     ```  
   
-3.  If you are loading via UI contexts, then you should specify **PackageAutoLoadFlags.BackgroundLoad** for the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> OR the value (0x2) into the flags written as the value of your package’s auto-load entry.  
+3.  If you are loading via UI contexts, then you should specify **PackageAutoLoadFlags.BackgroundLoad** for the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> OR the value (0x2) into the flags written as the value of your package's auto-load entry.  
   
-    ```c#  
+    ```csharp  
     [ProvideAutoLoad(UIContextGuid, PackageAutoLoadFlags.BackgroundLoad)]  
   
     ```  
@@ -59,17 +46,17 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
      NOTE: To call **base.InitializeAsync()**, you can change your source code to:  
   
-    ```c#  
+    ```csharp  
     await base.InitializeAsync(cancellationToken, progress);  
     ```  
   
-5.  You must take care to NOT make RPCs (Remove Procedure Call) from your asynchronous initialization code (in **InitializeAsync**). These can occur when you call <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> directly or indirectly.  When sync loads are required, the UI thread will block using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory>. The default blocking model disables RPCs. This means that if you attempt to use an RPC from your async tasks, you will deadlock if the UI thread is itself waiting for your package to load. The general alternative is to marshal your code to the UI thread if needed using something like **Joinable Task Factory**'s <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A> or some other mechanism that does not use an RPC.  Do NOT use **ThreadHelper.Generic.Invoke** or generally block the calling thread waiting to get to the UI thread.  
+5.  You must take care to NOT make RPCs (Remote Procedure Call) from your asynchronous initialization code (in **InitializeAsync**). These can occur when you call <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> directly or indirectly.  When sync loads are required, the UI thread will block using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory>. The default blocking model disables RPCs. This means that if you attempt to use an RPC from your async tasks, you will deadlock if the UI thread is itself waiting for your package to load. The general alternative is to marshal your code to the UI thread if needed using something like **Joinable Task Factory**'s <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A> or some other mechanism that does not use an RPC.  Do NOT use **ThreadHelper.Generic.Invoke** or generally block the calling thread waiting to get to the UI thread.  
   
      NOTE: You should avoid using **GetService** or **QueryService** in your **InitializeAsync** method. If you have to use those, you will need to switch to the UI thread first. The alternative is to use <xref:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync%2A> from your **AsyncPackage** (by casting it to <xref:Microsoft.VisualStudio.Shell.Interop.IAsyncServiceProvider>.)  
   
  C#: Create an AsyncPackage :  
   
-```c#  
+```csharp  
 [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]       
 [ProvideService(typeof(SMyTestService), IsAsyncQueryable = true)]   
 public sealed class TestPackage : AsyncPackage   
@@ -102,14 +89,15 @@ public sealed class TestPackage : AsyncPackage
   
  then your package will load synchronously.  
   
- Note that your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work’s completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don’t immediately block on the resulting task object.  
+ Note that your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work's completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don't immediately block on the resulting task object.  
   
  C#: How to query service asynchronously:  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Shell;   
 using Microsoft.VisualStudio.Shell.Interop;   
   
 IAsyncServiceProvider asyncServiceProvider = Package.GetService(typeof(SAsyncServiceProvider)) as IAsyncServiceProvider;   
 IMyTestService testService = await ayncServiceProvider.GetServiceAsync(typeof(SMyTestService)) as IMyTestService;  
 ```
+  

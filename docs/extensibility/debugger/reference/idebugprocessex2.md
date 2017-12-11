@@ -2,7 +2,6 @@
 title: "IDebugProcessEx2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcessEx2 interface"
 ms.assetid: 44e309ba-1d6f-499b-aa7e-9b34858a6d57
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcessEx2
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.  
@@ -52,7 +38,7 @@ IDebugProcessEx2 : IUnknown
   
 ## Notes for Callers  
   
--   The SDM calls [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProcess2` interface to obtain this interface.  
+-   The SDM calls [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProcess2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProcessEx2`.  

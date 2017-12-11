@@ -2,7 +2,6 @@
 title: "A DCOM error occurred trying to contact the remote computer. Access is denied. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.remote.dcom_access_denied"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
 helpviewer_keywords: 
@@ -25,31 +24,16 @@ ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:  
   
--   The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools / Options / Debugging** page  
+-   The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools > Options > Debugging** page  
   
 -   You are debugging managed C++ (C++/CLI) code.  
   
--   In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools / Options / Debugging** page  
+-   In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page  
   
 -   Some third party debugging scenarios  
   

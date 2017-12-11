@@ -2,7 +2,6 @@
 title: "Sequence Activity Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Sequence Activity Designer
 The <xref:System.Activities.Statements.Sequence> activity contains an ordered collection of child activities that it executes in order.  
@@ -35,7 +20,7 @@ The <xref:System.Activities.Statements.Sequence> activity contains an ordered co
  Another way to execute a set of activities in order is to use a <xref:System.Activities.Statements.Flowchart> activity. Consider using the [Flowchart](../workflow-designer/flowchart-activity-designer.md) when you have a simple branching or looping program flow that you want to model diagrammatically.  
   
 ## Using the Sequence Activity Designer  
- To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text “Drop activity here”.  
+ To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text "Drop activity here".  
   
 ### Sequence Activity Properties in the Workflow Designer  
  The following table shows the <xref:System.Activities.Statements.Sequence> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.  

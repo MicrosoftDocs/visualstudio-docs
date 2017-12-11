@@ -2,7 +2,6 @@
 title: "DEBUGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "DBGPROP_INFO_FLAGS enumeration"
 ms.assetid: 1c7fe777-615e-4929-9ed4-970d9fe0eb81
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # DEBUGPROP_INFO_FLAGS
 Specifies what information to retrieve about a debug property object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DEBUGPROP_INFO_FLAGS {   
    DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
    DEBUGPROP_INFO_NAME              = 0x00000002,  
@@ -59,7 +45,7 @@ enum enum_DEBUGPROP_INFO_FLAGS { 
 typedef DWORD DEBUGPROP_INFO_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DEBUGPROP_INFO_FLAGS {   
    DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
    DEBUGPROP_INFO_NAME              = 0x00000002,  

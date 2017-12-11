@@ -2,7 +2,6 @@
 title: "IDebugPropertyField::GetPropertySetter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugPropertyField::GetPropertySetter method"
 ms.assetid: 744d76fd-2bcc-4917-a040-ce4cc714ef61
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPropertyField::GetPropertySetter
 Gets the method that sets the property.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertySetter(   
    IDebugMethodField** ppField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPropertySetter(  
    out IDebugMethodField ppField  
 );  

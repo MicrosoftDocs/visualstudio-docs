@@ -2,7 +2,6 @@
 title: "MODULE_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "MODULE_INFO structure"
 ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MODULE_INFO
 Describes a particular module (DLL, EXE, or assembly).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagMODULE_INFO {   
    MODULE_INFO_FIELDS dwValidFields;  
    BSTR               m_bstrName;  
@@ -54,7 +40,7 @@ typedef struct tagMODULE_INFO { 
 } MODULE_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct MODULE_INFO {   
    public uint     dwValidFields;  
    public string   m_bstrName;  

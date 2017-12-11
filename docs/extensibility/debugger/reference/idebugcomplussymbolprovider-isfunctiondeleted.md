@@ -2,7 +2,6 @@
 title: "IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,35 +12,22 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsFunctionDeleted"
 ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
 Determines that the function at the specified debug address is deleted.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsFunctionDeleted(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsFunctionDeleted(  
    IDebugAddress pAddress  
 );  
@@ -57,7 +43,7 @@ int IsFunctionDeleted(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::IsFunctionDeleted(  
     IDebugAddress* pAddress  
 )  

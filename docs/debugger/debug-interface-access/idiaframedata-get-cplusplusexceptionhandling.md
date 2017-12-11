@@ -2,7 +2,6 @@
 title: "IDiaFrameData::get_cplusplusExceptionHandling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 54ee9cde-ce8e-45f1-809c-6fbad800d850
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaFrameData::get_cplusplusExceptionHandling
 Retrieves a flag that indicates whether C++ exception handling is in effect.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_cplusplusExceptionHandling (   
    BOOL* pRetVal  
 );  

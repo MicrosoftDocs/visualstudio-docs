@@ -2,7 +2,6 @@
 title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaLoadCallback::NotifyOpenPDB
 Called when a candidate .pdb file is opened.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT NotifyOpenPDB (   
    LPCOLESTR pdbPath,  
    HRESULT   resultCode  

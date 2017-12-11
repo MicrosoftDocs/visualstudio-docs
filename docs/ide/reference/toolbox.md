@@ -2,7 +2,6 @@
 title: "Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,23 +17,9 @@ helpviewer_keywords:
   - "Toolbox, moving items"
 ms.assetid: b754dad3-1f32-464f-8b9f-065e17e0bc22
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Toolbox
 The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
@@ -44,7 +29,7 @@ The **Toolbox** displays icons for controls and other items that you can add to 
  The **Toolbox** displays only the items that are appropriate to the type of file you are working in. You can search within the Toolbox to further filter the items that appear. If your project requires a control that is not supported by the Client Profile, you can set your project to target the entire framework by editing the project properties.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Help on Toolbox Tabs  
  The following documents provide more information about specific **Toolbox** tabs.  

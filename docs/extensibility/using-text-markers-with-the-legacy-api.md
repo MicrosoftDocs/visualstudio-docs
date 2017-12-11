@@ -2,7 +2,6 @@
 title: "Using Text Markers with the Legacy API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text markers"
 ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Using Text Markers with the Legacy API
 A text marker is a floating range of text in a buffer that can affect the display and behavior of a region of text. Markers include breakpoints, bookmarks, wavy underlines, and read-only regions. Text markers are basically different from syntax coloring. Syntax coloring is a quick way to communicate the language syntax that is associated with a region of text. Syntax coloring is generally requested when Windows repaints the screen, when speed is important. Syntax coloring changes only the color of text. Text markers can change many other text properties. Text markers can "float" and apply special behavior and coloring.  

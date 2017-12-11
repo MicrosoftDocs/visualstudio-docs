@@ -2,7 +2,6 @@
 title: "IDiaSession::findInlineeLinesByLinenum | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,14 @@ ms.assetid: cf32ae7c-a0c8-4800-bc8f-d64fdd15fb06
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::findInlineeLinesByLinenum
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in the specified source file and line number.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInlineeLinesByVA (   
    IDiaSymbol*           compiland,  
    IDiaSourceFile*       file,  

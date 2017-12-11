@@ -2,7 +2,6 @@
 title: "IDiaSourceFile::get_checksum | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: aad63a7e-4e22-44e4-8a5b-81b5174ced1e
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSourceFile::get_checksum
 Retrieves the checksum bytes.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_checksum (   
    DWORD  cbData,  
    DWORD* pcbData,  

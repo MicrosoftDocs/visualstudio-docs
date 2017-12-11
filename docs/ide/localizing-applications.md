@@ -2,7 +2,6 @@
 title: "Localizing Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Localizing Applications
 *Localization* is the process of customizing your application for a given culture or locale. Localization consists primarily of translating the user interface.  
@@ -55,11 +40,11 @@ translation.priority.ht:
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
   
- [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)  
+ [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  Provides links to pages about creating Windows applications that support multiple cultures.  
   
- [Globalization and Localization](../Topic/ASP.NET%20Globalization%20and%20Localization.md)  
+ [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  
  Provides links to pages about creating Web applications that support multiple cultures.  
   
- [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
+ [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides information on programming for an international audience, such as design issues and terminology.

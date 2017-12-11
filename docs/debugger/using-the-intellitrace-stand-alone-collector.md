@@ -2,7 +2,6 @@
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 caps.latest.revision: 105
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Using the IntelliTrace stand-alone collector
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.  
@@ -91,9 +75,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 ##  <a name="BKMK_Install_the_IntelliTrace_Stand_Alone_Collector"></a> Install the collector  
   
-1.  On your app’s server, create the collector directory, for example: **C:\IntelliTraceCollector**  
+1.  On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**  
   
-2.  Get the collector from the Microsoft Download Center or from the Visual Studio 2103 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::  
+2.  Get the collector from the Microsoft Download Center or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::  
   
     -   **Microsoft Download Center**:  
   
@@ -115,7 +99,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 3.  Expand IntelliTraceCollection.cab:  
   
-    1.  On your app’s server, open a command prompt window as an administrator.  
+    1.  On your app's server, open a command prompt window as an administrator.  
   
     2.  Browse to the collector directory, for example: **C:\IntelliTraceCollector**  
   
@@ -128,7 +112,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 ##  <a name="ConfigurePermissionsRunningCollector"></a> Set up permissions for the collector directory  
   
-1.  On your app’s server, open a command prompt window as an administrator.  
+1.  On your app's server, open a command prompt window as an administrator.  
   
 2.  Use the Windows **icacls** command to give the server administrator full permissions to the collector directory. For example:  
   
@@ -156,7 +140,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 ##  <a name="BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets"></a> Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications  
   
-1.  On your app’s server, make sure that PowerShell is enabled. On most versions of Windows Server, you can add this feature in the **Server Manager** administrative tool.  
+1.  On your app's server, make sure that PowerShell is enabled. On most versions of Windows Server, you can add this feature in the **Server Manager** administrative tool.  
   
      ![Adding PowerShell by using Server Manager](../debugger/media/intellitrace_servermanager_addpowershell.png "INTELLITRACE_ServerManager_AddPowerShell")  
   
@@ -180,10 +164,10 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 ##  <a name="BKMK_Create_and_Configure_a_Log_File_Directory"></a> Set up permissions for the .iTrace file directory  
   
-1.  On your app’s server, create the .iTrace file directory, for example: **C:\IntelliTraceLogFiles**  
+1.  On your app's server, create the .iTrace file directory, for example: **C:\IntelliTraceLogFiles**  
   
     > [!NOTE]
-    >  -   To avoid slowing down your app, choose a location on a local high-speed disk that’s not very active.  
+    >  -   To avoid slowing down your app, choose a location on a local high-speed disk that's not very active.  
     > -   You can put .iTrace files and the collector files in the same place. However, if you have a Web app or SharePoint application, make sure this place is outside the directory that hosts the application.  
   
     > [!IMPORTANT]
@@ -212,9 +196,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
         2.  On the **Security** tab, choose **Edit**, **Add**.  
   
-        3.  Make sure **Built-in security principals** appears in the **Select this object type** box. If it’s not there, choose **Object Types** to add it.  
+        3.  Make sure **Built-in security principals** appears in the **Select this object type** box. If it's not there, choose **Object Types** to add it.  
   
-        4.  Make sure your local computer appears in the **From this location** box. If it’s not there, choose **Locations** to change it.  
+        4.  Make sure your local computer appears in the **From this location** box. If it's not there, choose **Locations** to change it.  
   
         5.  In the **Enter the object names to select** box, add the application pool for the Web app or SharePoint application.  
   
@@ -238,7 +222,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
     |||  
     |-|-|  
     |*ApplicationPool*|The name of the application pool where your application runs|  
-    |*PathToCollectionPlan*|The path to a collection plan, an .xml file that configures settings for the collector.<br /><br /> You can specify a plan that comes with the collector. The following plans work for Web apps and SharePoint applications:<br /><br /> -   collection_plan.ASP.NET.default.xml<br />     Collects only IntelliTrace events and SharePoint events, including exceptions, database calls, and Web server requests.<br />-   collection_plan.ASP.NET.trace.xml<br />     Collects function calls and all the data in collection_plan.ASP.NET.default.xml. This plan is good for detailed analysis, but it might slow down your app more than collection_plan.ASP.NET.default.xml.<br /><br /> To avoid slowing down your app, customize these plans or create your own plan. For security, put any custom plans in the same secure location as the collector files. See [Creating and Customizing IntelliTrace Collection Plans](http://go.microsoft.com/fwlink/?LinkId=227871) and [How do I get the most data without slowing down my app?](#Minimizing) **Note:**  By default, the max size of the .iTrace file is 100 MB. When the .iTrace file reaches this limit, the collector deletes the file’s earliest entries to make space for newer entries. To change this limit, edit the collection plan’s `MaximumLogFileSize` attribute. <br /><br /> *Where can I find localized versions of these collection plans?*<br /><br /> You can find localized plans in the collector's subfolders.|  
+    |*PathToCollectionPlan*|The path to a collection plan, an .xml file that configures settings for the collector.<br /><br /> You can specify a plan that comes with the collector. The following plans work for Web apps and SharePoint applications:<br /><br /> -   collection_plan.ASP.NET.default.xml<br />     Collects only IntelliTrace events and SharePoint events, including exceptions, database calls, and Web server requests.<br />-   collection_plan.ASP.NET.trace.xml<br />     Collects function calls and all the data in collection_plan.ASP.NET.default.xml. This plan is good for detailed analysis, but it might slow down your app more than collection_plan.ASP.NET.default.xml.<br /><br /> To avoid slowing down your app, customize these plans or create your own plan. For security, put any custom plans in the same secure location as the collector files. See [Creating and Customizing IntelliTrace Collection Plans](http://go.microsoft.com/fwlink/?LinkId=227871) and [How do I get the most data without slowing down my app?](#Minimizing) **Note:**  By default, the max size of the .iTrace file is 100 MB. When the .iTrace file reaches this limit, the collector deletes the file's earliest entries to make space for newer entries. To change this limit, edit the collection plan's `MaximumLogFileSize` attribute. <br /><br /> *Where can I find localized versions of these collection plans?*<br /><br /> You can find localized plans in the collector's subfolders.|  
     |*FullPathToITraceFileDirectory*|The full path to the .iTrace file directory. **Security Note:**  Provide the full path, not a relative path.|  
   
      The collector attaches to the application pool and starts collecting data.  
@@ -277,7 +261,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
     |||  
     |-|-|  
     |*FullPathToIntelliTraceCollectorExecutable*|The full path to the collector executable, IntelliTraceSC.exe|  
-    |*PathToCollectionPlan*|The path to a collection plan, an .xml file that configures settings for the collector.<br /><br /> You can specify a plan that comes with the collector. The following plans work for managed apps:<br /><br /> -   collection_plan.ASP.NET.default.xml<br />     Collects IntelliTrace events only, including exceptions, database calls, and Web server requests.<br />-   collection_plan.ASP.NET.trace.xml<br />     Collects function calls and all the data in collection_plan.ASP.NET.default.xml. This plan is good for detailed analysis, but it might slow down your app more than collection_plan.ASP.NET.default.xml.<br /><br /> To avoid slowing down your app, customize these plans or create your own plan. For security, put any custom plans in the same secure location as the collector files. See [Creating and Customizing IntelliTrace Collection Plans](http://go.microsoft.com/fwlink/?LinkId=227871) and [How do I get the most data without slowing down my app?](#Minimizing) **Note:**  By default, the max size of the .iTrace file is 100 MB. When the .iTrace file reaches this limit, the collector deletes the file’s earliest entries to make space for newer entries. To change this limit, edit the collection plan’s `MaximumLogFileSize` attribute. <br /><br /> *Where can I find localized versions of these collection plans?*<br /><br /> You can find localized plans in the collector's subfolders.|  
+    |*PathToCollectionPlan*|The path to a collection plan, an .xml file that configures settings for the collector.<br /><br /> You can specify a plan that comes with the collector. The following plans work for managed apps:<br /><br /> -   collection_plan.ASP.NET.default.xml<br />     Collects IntelliTrace events only, including exceptions, database calls, and Web server requests.<br />-   collection_plan.ASP.NET.trace.xml<br />     Collects function calls and all the data in collection_plan.ASP.NET.default.xml. This plan is good for detailed analysis, but it might slow down your app more than collection_plan.ASP.NET.default.xml.<br /><br /> To avoid slowing down your app, customize these plans or create your own plan. For security, put any custom plans in the same secure location as the collector files. See [Creating and Customizing IntelliTrace Collection Plans](http://go.microsoft.com/fwlink/?LinkId=227871) and [How do I get the most data without slowing down my app?](#Minimizing) **Note:**  By default, the max size of the .iTrace file is 100 MB. When the .iTrace file reaches this limit, the collector deletes the file's earliest entries to make space for newer entries. To change this limit, edit the collection plan's `MaximumLogFileSize` attribute. <br /><br /> *Where can I find localized versions of these collection plans?*<br /><br /> You can find localized plans in the collector's subfolders.|  
     |*FullPathToITraceFileDirectoryAndFileName*|The full path to the .iTrace file directory and the .iTrace file name with the **.itrace** extension. **Security Note:**  Provide the full path, not a relative path.|  
     |*PathToAppExecutableFileAndFileName*|The path and file name of your managed app|  
   
@@ -304,7 +288,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
  Here are some ways to get the most data without slowing down your app:  
   
--   Run the collector only when you think there’s a problem, or when you can reproduce the problem.  
+-   Run the collector only when you think there's a problem, or when you can reproduce the problem.  
   
      Start collection, reproduce the problem, and then stop collection. Open the .iTrace file in Visual Studio Enterprise and examine the data. See [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files).  
   
@@ -395,7 +379,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
   
 -   From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
--   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../Topic/How%20to:%20Collect%20IntelliTrace%20Data%20to%20Help%20Debug%20Difficult%20Issues.md).  
+-   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](http://msdn.microsoft.com/Library/02b6716f-569e-4961-938a-e790a0c74b5c).  
   
 ## Where can I get more information?  
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  

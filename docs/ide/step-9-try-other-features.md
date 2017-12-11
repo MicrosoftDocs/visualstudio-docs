@@ -2,32 +2,17 @@
 title: "Step 9: Try Other Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 9: Try Other Features
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.  
@@ -39,7 +24,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Replace the icons and colors with ones you choose.  
   
     > [!TIP]
-    >  Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) property.  
+    >  Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor.aspx) property.  
   
 -   Add a game timer that tracks how long it takes for the player to win.  
   
@@ -54,7 +39,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Make the game more difficult by making the board bigger.  
   
     > [!TIP]
-    >  You'll need to do more than just add rows and columns to the TableLayoutPanel – you'll also need to consider the number of icons you create.  
+    >  You'll need to do more than just add rows and columns to the TableLayoutPanel - you'll also need to consider the number of icons you create.  
   
 -   Make the game more challenging by hiding the first icon if the player is too slow to respond and doesn't choose the second icon before a certain amount of time.  
   

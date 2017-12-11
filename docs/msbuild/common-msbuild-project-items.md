@@ -2,7 +2,6 @@
 title: "Common MSBuild Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,21 +19,7 @@ ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Common MSBuild Project Items
 In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
@@ -125,7 +110,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Generator|Required string. The name of any file generator that runs on this item.|  
 |LastGenOutput|Required string. The name of the file that was created by any file generator that was run on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
-|Link|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|Link|Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.|  
 |PublishState|Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite|  
 |IsAssembly|Optional boolean. Specifies whether the file is an assembly.|  
 |Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  

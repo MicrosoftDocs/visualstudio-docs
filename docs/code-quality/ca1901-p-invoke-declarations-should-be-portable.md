@@ -2,11 +2,10 @@
 title: "CA1901: P-Invoke declarations should be portable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "PInvokeDeclarationsShouldBePortable"
 ms.assetid: 90361812-55ca-47f7-bce9-b8775d3b8803
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1901: P/Invoke declarations should be portable
 |||  
@@ -63,7 +47,7 @@ translation.priority.mt:
 ## Example  
  The following example demonstrates a violation of this rule.  
   
-```c#  
+```csharp  
 internal class NativeMethods  
 {  
     [DllImport("shell32.dll", CharSet=CharSet.Auto)]  
@@ -74,7 +58,7 @@ internal class NativeMethods
   
  In this example, the `nIconIndex` parameter is declared as an `IntPtr`, which is 4 bytes wide on a 32-bit platform and 8 bytes wide on a 64-bit platform. In the unmanaged declaration that follows, you can see that `nIconIndex` is a 4-byte unsigned integer on all platforms.  
   
-```c#  
+```csharp  
 HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,   
     UINT nIconIndex);  
 ```  
@@ -82,7 +66,7 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 ## Example  
  To fix the violation, change the declaration to the following:  
   
-```c#  
+```csharp  
 internal class NativeMethods{  
     [DllImport("shell32.dll", CharSet=CharSet.Auto)]   
     internal static extern IntPtr ExtractIcon(IntPtr hInst,   

@@ -2,7 +2,6 @@
 title: "Customize code maps by editing the DGML files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,20 +24,6 @@ caps.latest.revision: 93
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Customize code maps by editing the DGML files
 To customize a code map, you can edit a map's Directed Graph Markup Language (.dgml) file. For example, you can edit elements to specify custom styles, assign properties and categories to code elements and links, or link documents or URLs to code elements or to links. For more information about DGML elements, see [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md).  
@@ -573,7 +558,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 -   To describe the changes to a class, you might link the URL of a work code element, document, or another .dgml file to the code element for a class.  
   
--   You might link a layer diagram to a group code element that represents a layer in the software's logical architecture.  
+-   You might link a dependency diagram to a group code element that represents a layer in the software's logical architecture.  
   
 -   To show more information about a component that exposes an interface, you might link a component diagram to the code element for that interface.  
   

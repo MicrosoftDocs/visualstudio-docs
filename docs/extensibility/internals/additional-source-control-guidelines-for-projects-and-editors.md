@@ -2,7 +2,6 @@
 title: "Additional Source Control Guidelines for Projects and Editors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], guidelines for projects and editors"
 ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Additional Source Control Guidelines for Projects and Editors
 There are a number of guidelines that projects and editors should adhere to in order to support source control.  

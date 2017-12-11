@@ -2,7 +2,6 @@
 title: "QUERYCHANGESFUNC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,22 +15,9 @@ helpviewer_keywords:
   - "QUERYCHANGESDATA structure"
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # QUERYCHANGESFUNC
 This is a callback function used by the [SccQueryChanges](../extensibility/sccquerychanges-function.md) operation to enumerate a collection of file names and determine each file's status.  
@@ -40,7 +26,7 @@ This is a callback function used by the [SccQueryChanges](../extensibility/sccqu
   
 ## Signature  
   
-```cpp#  
+```cpp  
 typedef BOOL (*QUERYCHANGESFUNC)(  
    LPVOID pvCallerData,  
    QUERYCHANGESDATA * pChangesData  
@@ -66,7 +52,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 ##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure  
  The structure passed in for each file looks like the following:  
   
-```cpp#  
+```cpp  
 struct QUERYCHANGESDATA_A  
 {  
     DWORD  dwSize;  

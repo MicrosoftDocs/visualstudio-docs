@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7c25ba7-5c9c-455b-9242-701cda56f90c
 caps.latest.revision: 41
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Creating, Editing and Maintaining a Coded UI Test
 In this walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.  
@@ -74,7 +59,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 14. At the top of the MainWindow class, add a delegate. The delegate will be used for the progress bar. To add the delegate, add the following code:  
   
-    ```c#  
+    ```csharp  
     public partial class MainWindow : Window  
     {  
             private delegate void ProgressBarDelegate(System.Windows.DependencyProperty dp, Object value);          
@@ -89,7 +74,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 15. In the button1_Click method, add the following code:  
   
-    ```c#  
+    ```csharp  
     private void button1_Click(object sender, RoutedEventArgs e)  
     {  
         double progress = 0;  
@@ -152,11 +137,11 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 7.  Select the **Record actions, edit UI map or add assertions** option and choose **OK**.  
   
-     The UIMap – Coded UI Test Builder appears, and the Visual Studio window is minimized.  
+     The UIMap - Coded UI Test Builder appears, and the Visual Studio window is minimized.  
   
      For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   
-8.  Choose **Start Recording** on the UIMap – Coded UI Test Builder.  
+8.  Choose **Start Recording** on the UIMap - Coded UI Test Builder.  
   
      ![Start recording](../test/media/cuit_builder_record.png "CUIT_Builder_Record")  
   
@@ -183,7 +168,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 14. In the Method Name type **SimpleAppTest** and choose **Add and Generate**. In a few seconds, the Coded UI test appears and is added to the Solution.  
   
-15. Close the UIMap – Coded UI Test Builder.  
+15. Close the UIMap - Coded UI Test Builder.  
   
      The CodedUITest1.cs file appears in the Code Editor.  
   
@@ -205,7 +190,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 2.  The UIMap.Designer.cs file opens with the point of error highlighted in the code:  
   
-    ```c#  
+    ```csharp  
   
     // Select 'CheckBox' check box  
     uICheckBoxCheckBox.Checked = this.SimpleAppTestParams.UICheckBoxCheckBoxChecked;  
@@ -222,7 +207,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The coded UI test is displayed in the Coded UI Test Editor. You can now view and edit the coded UI test.  
   
-6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won’t be overwritten when the test code is recompiled.  
+6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won't be overwritten when the test code is recompiled.  
   
 7.  Choose the **Move Code** button on the Coded UI Test Editor toolbar.  
   
@@ -241,7 +226,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 11. Add the following using statement to the file:  
   
-    ```c#  
+    ```csharp  
   
     using Microsoft.VisualStudio.TestTools.UITesting.WpfControls;  
   
@@ -249,7 +234,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 12. Add the following `WaitForControlEnabled()` method before the offending line of code identified previously:  
   
-    ```c#  
+    ```csharp  
   
               uICheckBoxCheckBox.WaitForControlEnabled();  
   
@@ -260,7 +245,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 13. In the CodedUITest1.cs file, locate the **CodedUITestMethod** method and either comment out or rename the reference to the original SimpleAppTest() method and then replace it with the new ModifiedSimpleAppTest():  
   
-    ```c#  
+    ```csharp  
     [TestMethod]  
             public void CodedUITestMethod1()  
             {  
@@ -294,7 +279,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The UIMap.cs file opens. The point of error is highlighted in the code:  
   
-    ```c#  
+    ```csharp  
   
     // Click 'Start' button  
     Mouse.Click(uIStartButton, new Point(27, 10));  
@@ -302,17 +287,17 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      Notice that the line of code earlier in this procedure is using `UiStartButton`, which is the UIMap name before it was refactored.  
   
-     To correct the issue, you can add the refactored control to the UIMap by using the Coded UI Test Builder. You can update the test’s code to use the code, as demonstrated in the next procedure.  
+     To correct the issue, you can add the refactored control to the UIMap by using the Coded UI Test Builder. You can update the test's code to use the code, as demonstrated in the next procedure.  
   
 ### Map Refactored Control and Edit and Rerun the Coded UI Test  
   
 1.  In the CodedUITest1.cs file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.  
   
-     The UIMap – Coded UI Test Builder appears.  
+     The UIMap - Coded UI Test Builder appears.  
   
 2.  Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.  
   
-3.  On the UIMap – Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
+3.  On the UIMap - Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
   
      The **Start** button is enclosed in a blue box and the Coded UI Test Builder takes a few seconds to process the data for the selected control and displays the controls properties. Notice that the **AutomationUId** is named **buttonA**.  
   
@@ -322,23 +307,23 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The status at the bottom of the window verifies the action by displaying **Selected control has been added to the UI control map**.  
   
-6.  On the UIMap – Coded UI Test Builder, choose **Generate Code**.  
+6.  On the UIMap - Coded UI Test Builder, choose **Generate Code**.  
   
-     The Coded UI Test Builder – Generate Code appears with a note indicating that no new method is required and that code will only be generated for the changes to the UI control map.  
+     The Coded UI Test Builder - Generate Code appears with a note indicating that no new method is required and that code will only be generated for the changes to the UI control map.  
   
 7.  Choose **Generate**.  
   
 8.  Close SimpleWPFApp.exe.  
   
-9. Close UIMap – Coded UI Test Builder.  
+9. Close UIMap - Coded UI Test Builder.  
   
-     The UIMap – Coded UI Test Builder takes a few seconds to process the UI control map changes.  
+     The UIMap - Coded UI Test Builder takes a few seconds to process the UI control map changes.  
   
 10. In Solution Explorer, open the UIMap.Designer.cs file.  
   
 11. In the UIMap.Designer.cs file, locate the UIStartButton1 property. Notice the `SearchProperties` is set to `"buttonA"`:  
   
-    ```c#  
+    ```csharp  
   
     public WpfButton UIStartButton1  
             {  
@@ -362,7 +347,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 12. In the UIMap.cs file, add a constructor and specify the `SearchProperties` property of the `UIStartButton` property to use the `AutomationID` property with a value of `"buttonA":`  
   
-    ```c#  
+    ```csharp  
   
     public UIMap()  
             {  

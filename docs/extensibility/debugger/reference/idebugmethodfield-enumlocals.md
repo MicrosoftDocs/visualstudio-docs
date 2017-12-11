@@ -2,7 +2,6 @@
 title: "IDebugMethodField::EnumLocals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugMethodField::EnumLocals method"
 ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugMethodField::EnumLocals
 Creates an enumerator for selected local variables of the method.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumLocals(   
    IDebugAddress*     pAddress,  
    IEnumDebugFields** ppLocals  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumLocals(  
    IDebugAddress        pAddress,   
    out IEnumDebugFields ppLocals  
@@ -66,7 +52,7 @@ int EnumLocals(
   
  A method can contain multiple scoping contexts or blocks. For example, the following contrived method contains three scopes, the two inner blocks and the method body itself.  
   
-```c#  
+```csharp  
 public void func(int index)  
 {  
     // Method body scope  

@@ -2,7 +2,6 @@
 title: "COMPUTER_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,29 +12,16 @@ helpviewer_keywords:
   - "COMPUTER_INFO structure"
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # COMPUTER_INFO
 Describes the computer on which the debugger is running.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCOMPUTER_INFO  
 {  
     WORD wProcessorArchitecture;  
@@ -44,7 +30,7 @@ typedef struct tagCOMPUTER_INFO
 } COMPUTER_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct COMPUTER_INFO  
 {  
     public ushort wProcessorArchitecture;  

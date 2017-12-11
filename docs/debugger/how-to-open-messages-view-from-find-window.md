@@ -2,7 +2,6 @@
 title: "How to: Open Messages View from Find Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Open Messages View from Find Window
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.  
@@ -45,7 +30,7 @@ You might find it convenient to use the **Find Window** dialog box to select a t
   
 3.  From the **Windows** tab, drag the **Finder Tool** over the target window. As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window you want to examine (for example, copied from the debugger), you can type it into the **Handle** text box.  
   

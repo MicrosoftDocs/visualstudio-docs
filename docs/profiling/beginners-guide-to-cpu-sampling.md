@@ -1,42 +1,27 @@
 ---
-title: "Beginners Guide to CPU Sampling | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev15"
+title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "performance tools, wizard"
   - "Performance Wizard"
-ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-caps.latest.revision: 45
+ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
+caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Beginners Guide to CPU Sampling
-You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
 
 > [!NOTE]
 >  We recommend you use the [CPU Usage](../profiling/beginners-guide-to-performance-profiling.md) tool in the Diagnostics Tools window instead of the legacy CPU sampling tool, unless you need specialized features such as instrumentation support.
@@ -62,7 +47,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
     > [!IMPORTANT]
     >  If you are not an administrator on the computer that you are using, you should run Visual Studio as an administrator while you are using the profiler. (Right-click the Visual Studio application icon, and then click **Run as administrator**.  
   
-2.  On the **Debug** menu, click **Performance Profiler**.  
+2.  On the **Debug** menu, select **Profiler**, and then select **Performance Profiler**.  
   
 3.  Check the **Performance Wizard** option, and click **Start**.  
   
@@ -134,9 +119,11 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
 4.  After you rerun the session, another data file is added to the **Reports** folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
   
-     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).  
+     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [Overviews](../profiling/overviews-performance-tools.md)
+ [Overviews](../profiling/overviews-performance-tools.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

@@ -2,7 +2,6 @@
 title: "Registering an Expression Evaluator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "expression evaluators, registering"
 ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Registering an Expression Evaluator
 > [!IMPORTANT]
@@ -47,7 +33,7 @@ translation.priority.mt:
 ### Example  
  This function shows how a managed code EE registers and unregisters itself with Visual Studio.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
@@ -139,7 +125,7 @@ namespace EEMC
 ### Example  
  This function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
   
-```cpp#  
+```cpp  
 /*---------------------------------------------------------  
   Registration  
 -----------------------------------------------------------*/  

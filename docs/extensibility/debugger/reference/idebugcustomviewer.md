@@ -2,7 +2,6 @@
 title: "IDebugCustomViewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugCustomViewer interface"
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCustomViewer
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.  
@@ -73,7 +59,7 @@ IDebugCustomViewer : IUknown
 ## Example  
  This example shows how to get the first custom viewer from a property if that property has any custom viewers.  
   
-```cpp#  
+```cpp  
 IDebugCustomViewer *GetFirstCustomViewer(IDebugProperty2 *pProperty)  
 {  
     // This string is typically defined globally.  For this example, it  

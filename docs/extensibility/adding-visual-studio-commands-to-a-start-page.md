@@ -2,7 +2,6 @@
 title: "Adding Visual Studio Commands to a Start Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,27 +13,14 @@ helpviewer_keywords:
   - "vs:VSCommands"
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Adding Visual Studio Commands to a Start Page
 When you create a custom start page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a start page.  
   
- For more information about commands in XAML, see [Commanding Overview](../Topic/Commanding%20Overview.md)  
+ For more information about commands in XAML, see [Commanding Overview](/dotnet/framework/wpf/advanced/commanding-overview)  
   
 ## Adding Commands from the Command Well  
  The start page created in [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md) added the <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.  
@@ -105,7 +91,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ## Adding Commands with the DTE object  
  You can access the DTE object from a Start Page, both in markup and in code.  
   
- In markup, you can access it by using the [Binding Markup Extension](../Topic/Binding%20Markup%20Extension.md) syntax to call the <xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a <xref:System.Windows.Controls.TextBlock> control that binds to the <xref:EnvDTE._DTE.Name%2A> property, and a <xref:System.Windows.Controls.ListBox> control that enumerates the <xref:EnvDTE.Window.Caption%2A> properties of the collection that is returned by the <xref:EnvDTE._DTE.Windows%2A> property.  
+ In markup, you can access it by using the [Binding Markup Extension](/dotnet/framework/wpf/advanced/binding-markup-extension) syntax to call the <xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a <xref:System.Windows.Controls.TextBlock> control that binds to the <xref:EnvDTE._DTE.Name%2A> property, and a <xref:System.Windows.Controls.ListBox> control that enumerates the <xref:EnvDTE.Window.Caption%2A> properties of the collection that is returned by the <xref:EnvDTE._DTE.Windows%2A> property.  
   
 ```xml  
 <TextBlock Text="{Binding Path=DTE.Name}" FontSize="12" HorizontalAlignment="Center"/>  

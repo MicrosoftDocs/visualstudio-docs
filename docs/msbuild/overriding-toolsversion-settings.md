@@ -2,7 +2,6 @@
 title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 24
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Overriding ToolsVersion Settings
 You can change the Toolset for projects and solutions in one of three ways:  
@@ -57,7 +42,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 1.  Create a file that's named `projectA.proj` and that contains the following code:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
     ToolsVersion="12.0">  
   
@@ -75,7 +60,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 2.  Create another file that's named `projectB.proj` and that contains the following code:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
     ToolsVersion="12.0">  
   
@@ -121,7 +106,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 5.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:  
   
-    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn’t exist, it is assumed to be the current version.  
+    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn't exist, it is assumed to be the current version.  
   
     2.  The default tools version in the MSBuild.exe.config file.  
   

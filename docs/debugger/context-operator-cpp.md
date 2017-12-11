@@ -1,8 +1,7 @@
 ---
-title: "Context Operator (C++) | Microsoft Docs"
+title: "Context operator in the debugger (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.operators"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "expressions [C++], native debugger"
@@ -27,24 +26,9 @@ ms.assetid: 73cc9afe-f4a4-474e-bb89-5a33fb5e570c
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Context Operator (C++)
+# Context Operator in the Visual Studio Debugger (C++)
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   
 ##  <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax  
@@ -56,13 +40,13 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
   
      For example, to set a breakpoint at the `SomeFunction` function of EXAMPLE.dll:  
   
-    ```cpp  
+    ```C++  
     {,,EXAMPLE.dll}SomeFunction  
     ```  
   
 2.  *module*!*expression*  
   
-    ```cpp  
+    ```C++  
     EXAMPLE.dll!SomeFunction  
     ```  
   
@@ -70,8 +54,8 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
   
      If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
   
-    ```  
-    {,"a long, long, library name.dll", } g_Var  
+    ```C++  
+    {,,"a long, long, library name.dll"} g_Var  
     ```  
   
 -   *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  

@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_addressTaken | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 0d366188-f5e1-4226-b392-58c09539d097
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_addressTaken
 Retrieves a flag that indicates whether another symbol references this symbol's address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressTaken (   
    BOOL* pRetVal  
 );  
@@ -58,7 +42,7 @@ HRESULT get_addressTaken ( 
 ## Example  
  In the following example, `B` references `A`. Therefore, symbol `A`'s `get_addressTaken` method returns `TRUE`.  
   
-```cpp#  
+```C++  
 int A  = 0;  
 int* B = &A;  
 ```  

@@ -2,7 +2,6 @@
 title: "Anatomy of a Coded UI Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,8 @@ helpviewer_keywords:
   - "coded UI tests"
 ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 23
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Anatomy of a Coded UI Test
 When you create a Coded UI Test in a coded UI test project, several files are added to your solution. In this topic, we will use an example Coded UI Test to explore these files.  
@@ -53,7 +38,7 @@ When you create a Coded UI Test in a coded UI test project, several files are ad
 #### Declarations section  
  This section includes the following declarations for a Windows UI.  
   
-```c#  
+```csharp  
 using System;  
 using System.CodeDom.Compiler;  
 using System.Collections.Generic;  

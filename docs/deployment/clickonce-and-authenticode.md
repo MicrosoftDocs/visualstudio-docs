@@ -2,7 +2,6 @@
 title: "ClickOnce and Authenticode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,21 +23,6 @@ caps.latest.revision: 18
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # ClickOnce and Authenticode
 *Authenticode* is a Microsoft technology that uses industry-standard cryptography to sign application code with digital certificates that verify the authenticity of the application's publisher. By using Authenticode for application deployment, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] reduces the risk of a Trojan horse. A Trojan horse is a virus or other harmful program that a malicious third party misrepresents as a legitimate program coming from an established, trustworthy source. Signing [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments with a digital certificate is an optional step to verify that the assemblies and files are not tampered.  
@@ -56,14 +40,14 @@ translation.priority.mt:
   
 -   Receive one from a group in your organization responsible for creating digital certificates.  
   
--   Generate your own certificate with MakeCert.exe, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
+-   Generate your own certificate by using the New-SelfSignedCertificate PowerShell cmdlet, or by using MakeCert.exe, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
   
 ### How Using Certificate Authorities Helps Users  
- A certificate generated using the MakeCert.exe utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a .snk file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
+ A certificate generated using New-SelfSignedCertificate or the MakeCert.exe utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a .snk file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
   
  By contrast, if you receive a certificate from a CA, such as a certificate vendor, or a department within your enterprise, the certificate offers more security for your users. It not only identifies the publisher of the signed software, but it verifies that identity by checking with the CA that signed it. If the CA is not the root authority, Authenticode will also "chain" back to the root authority to verify that the CA is authorized to issue certificates. For greater security, you should use a certificate issued by a CA whenever possible.  
   
- For more information about generating self-certs, see [Makecert.exe (Certificate Creation Tool)](../Topic/Makecert.exe%20\(Certificate%20Creation%20Tool\).md).  
+ For more information about generating self-certs, see [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate) or [MakeCert](https://msdn.microsoft.com/library/windows/desktop/aa386968.aspx).  
   
 ### Timestamps  
  The certificates used to sign [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications expire after a certain length of time, typically twelve months. In order to remove the need to constantly re-sign applications with new certificates, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports timestamp. When an application is signed with a timestamp, its certificate will continue to be accepted even after expiration, provided the timestamp is valid. This allows [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with expired certificates, but valid timestamps, to download and run. It also allows installed applications with expired certificates to continue to download and install updates.  
@@ -87,4 +71,4 @@ translation.priority.mt:
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

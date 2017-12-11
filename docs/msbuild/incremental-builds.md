@@ -2,7 +2,6 @@
 title: "Incremental Builds | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Incremental Builds
 Incremental builds are builds that are optimized so that targets that have output files that are up-to-date with respect to their corresponding input files are not executed. A target element can have both an `Inputs` attribute, which indicates what items the target expects as input, and an `Outputs` attribute, which indicates what items it produces as output. MSBuild attempts to find a 1-to-1 mapping between the values of these attributes. If a 1-to-1 mapping exists, MSBuild compares the time stamp of every input item to the time stamp of its corresponding output item. Output files that have no 1-to-1 mapping are compared to all input files. An item is considered up-to-date if its output file is the same age or newer than its input file or files.  
@@ -40,7 +25,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  Consider the following target.  
   
-```  
+```xml  
 <Target Name="Backup" Inputs="@(Compile)"   
     Outputs="@(Compile->'$(BackupFolder)%(Identity).bak')">  
     <Copy SourceFiles="@(Compile)" DestinationFiles=  
@@ -63,7 +48,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
   
-```  
+```xml  
 <CreateProperty Value="123">  
     <Output PropertyName="Easy" TaskParameter="Value" />  
 </CreateProperty>  
@@ -71,7 +56,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  This creates the property Easy, which has the value "123" whether or not the target is executed or skipped.  
   
-```  
+```xml  
 <CreateItem Include="a.cs;b.cs">  
     <Output ItemName="Simple" TaskParameter="Include" />  
 </CreateItem>  
@@ -84,7 +69,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
 ## Determining Whether a Target Has Been Run  
  Because of output inference, you have to add a `CreateProperty` task to a target to examine properties and items so that you can determine whether the target has been executed. Add the `CreateProperty` task to the target and give it an `Output` element whose `TaskParameter` is "ValueSetByTask".  
   
-```  
+```xml  
 <CreateProperty Value="true">  
     <Output TaskParameter="ValueSetByTask" PropertyName="CompileRan" />  
 </CreateProperty>  

@@ -2,7 +2,6 @@
 title: "Sharing Classes between DSLs by using a DSL Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -62,3 +61,5 @@ In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization a
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

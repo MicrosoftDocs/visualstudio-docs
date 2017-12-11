@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_liveRangeLength | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_liveRangeLength
 Returns the length of the address range in which the local symbol is valid.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_liveRangeLength (   
    ULONGLONG* length  
 );  

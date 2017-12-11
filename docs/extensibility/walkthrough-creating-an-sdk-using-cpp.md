@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating an SDK using C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 caps.latest.revision: 32
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Creating an SDK using C++
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:  
@@ -70,7 +56,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 ##  <a name="createVSIX"></a> To create the NativeMathVSIX extension project  
   
-1.  In **Solution Explorer**, open the shortcut menu for **Solution ‘NativeMath’**, and then choose **Add**, **New Project**.  
+1.  In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add**, **New Project**.  
   
 2.  In the list of templates, expand **Visual C#**, **Extensibility**, and then select **VSIX Package**. In the **Name** box, specify **NativeMathVSIX**, and then choose the **OK** button.  
   
@@ -80,7 +66,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 5.  Use the following XML to replace the existing XML.  
   
-    <!-- FIXME [!CODE [CreatingAnSDKUsingCpp#6](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingcpp#6)]  -->
+    [!code-xml[CreatingAnSDKUsingCpp#6](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]
 
 6.  In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add**, **New Item**.  
   
@@ -88,7 +74,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 8.  Use this XML to replace the contents of the file:  
   
-     [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]  
+     [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_5.xml)]  
   
 9. In **Solution Explorer**, in the **NativeMathVSIX** project, create this folder structure:  
   
@@ -108,7 +94,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
                 \Neutral  
     ```  
   
-10. In **Solution Explorer**, open the shortcut menu for **Solution ‘NativeMath’**, and then choose **Open Folder in File Explorer**.  
+10. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Open Folder in File Explorer**.  
   
 11. In **File Explorer**, copy \NativeMath\NativeMath.h, and then in **Solution Explorer**, in the **NativeMathVSIX** project, paste it in the \DesignTime\CommonConfiguration\Neutral\Include\ folder.  
   
@@ -122,9 +108,9 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
      Copy DebugNativeMathWRTNativeMathWRT.pri and paste it in the ReferencesCommonConfigurationNeutral folder.  
   
-12. In the \DesignTime\Debug\x86\ folder, create a text file that’s named NativeMathSDK.props, and then paste the following contents in it:  
+12. In the \DesignTime\Debug\x86\ folder, create a text file that's named NativeMathSDK.props, and then paste the following contents in it:  
   
-     <!-- FIXME [!CODE [CreatingAnSDKUsingCpp#7](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingcpp#7)] -->  
+    [!code-xml[CreatingAnSDKUsingCpp#7](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]  
   
 13. On the menu bar, choose **View**, **Other Windows**, **Properties Window** (Keyboard: Choose the F4 key).  
   

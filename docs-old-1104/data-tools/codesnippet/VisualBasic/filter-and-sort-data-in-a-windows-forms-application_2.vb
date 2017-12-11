@@ -1,1 +1,0 @@
-        CustomersBindingSource.Sort = "CompanyName Desc"

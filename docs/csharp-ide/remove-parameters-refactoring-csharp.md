@@ -1,12 +1,12 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/change-method-signature
 title: "Remove Parameters Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -19,24 +19,9 @@ helpviewer_keywords:
   - "Remove Parameters refactoring [C#]"
 ms.assetid: f4fc3265-0ef8-4398-a691-c338178697a6
 caps.latest.revision: 24
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Remove Parameters Refactoring (C#)
 `Remove Parameters` is a refactoring operation that provides an easy way to remove parameters from methods, indexers, or delegates. Remove Parameters changes the declaration; at any locations where the member is called, the parameter is removed to reflect the new declaration.  
@@ -50,7 +35,7 @@ translation.priority.mt:
   
 1.  Create a console application named `RemoveParameters`, and then replace `Program` with the following code.  
   
-    ```c#  
+    ```csharp  
     class A  
     {  
         // Invoke on 'A'.  
@@ -89,17 +74,17 @@ translation.priority.mt:
   
  If a parameter being removed is modified during the call to a method, the removal of the parameter will also remove the modification. For example, if a method call is changed from  
   
-```c#  
+```csharp  
 MyMethod(param1++, param2);  
 ```  
   
  to  
   
-```c#  
+```csharp  
 MyMethod(param2);  
 ```  
   
  by the refactoring operation, `param1` will not be incremented.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

@@ -2,7 +2,6 @@
 title: "How to: Create a State Machine Workflow Library (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,20 +15,6 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create a State Machine Workflow Library (Legacy)
 Follow these steps to create a State Machine Workflow Library project using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
@@ -61,4 +46,4 @@ Follow these steps to create a State Machine Workflow Library project using the 
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
- [State Machine Workflows](../Topic/State%20Machine%20Workflows.md)
+ [State Machine Workflows](/dotnet/framework/windows-workflow-foundation/state-machine-workflows)

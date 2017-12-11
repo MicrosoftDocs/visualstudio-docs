@@ -2,7 +2,6 @@
 title: "IDebugMethodField::GetThis | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugMethodField::GetThis method"
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugMethodField::GetThis
 Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThis(   
    IDebugClassField** ppClass  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetThis(  
    out IDebugClassField ppClass  
 );  

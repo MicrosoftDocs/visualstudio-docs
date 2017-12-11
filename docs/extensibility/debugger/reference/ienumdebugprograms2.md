@@ -2,7 +2,6 @@
 title: "IEnumDebugPrograms2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2"
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugPrograms2
 This interface enumerates the programs running in the current debug session.  
@@ -63,7 +49,7 @@ IEnumDebugPrograms2 : IUnknown
   
 -   Populate the **Modules** window (by calling [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) and then calling [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) on each program).  
   
--   Populate the **Attach to Process** list (by calling `IDebugProcess2::EnumPrograms` and then calling [QueryInterface](/visual-cpp/atl/queryinterface) on each [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to obtain an [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) interface).  
+-   Populate the **Attach to Process** list (by calling `IDebugProcess2::EnumPrograms` and then calling [QueryInterface](/cpp/atl/queryinterface) on each [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to obtain an [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) interface).  
   
 -   Generate a list of DEs that can debug each program in the process (using [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).  
   

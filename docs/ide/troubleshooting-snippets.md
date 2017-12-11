@@ -2,7 +2,6 @@
 title: "Troubleshooting Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "troubleshooting Visual Basic, IntelliSense Code Snippets"
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Troubleshooting Snippets
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.  

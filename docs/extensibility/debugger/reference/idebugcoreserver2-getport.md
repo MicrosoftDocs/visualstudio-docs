@@ -2,7 +2,6 @@
 title: "IDebugCoreServer2::GetPort | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugCoreServer2::GetPort"
 ms.assetid: 3f5ea4a8-6085-4600-980a-9e48f8b5be56
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCoreServer2::GetPort
 Retrieves a specific port.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPort(   
    REFGUID       guidPort,  
    IDebugPort2** ppPort  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPort(   
    ref Guid        guidPort,  
    out IDebugPort2 ppPort  

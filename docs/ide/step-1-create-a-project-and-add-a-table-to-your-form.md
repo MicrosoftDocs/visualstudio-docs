@@ -2,32 +2,17 @@
 title: "Step 1: Create a Project and Add a Table to Your Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 1: Create a Project and Add a Table to Your Form
 The first step in creating a matching game is to create the project and add a table to your form. The table helps align the icons into an orderly 4x4 grid. You also set several properties to enhance the appearance of the game board.  
@@ -36,7 +21,7 @@ The first step in creating a matching game is to create the project and add a ta
   
 1.  On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  If you’re not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.  
+2.  If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.  
   
 3.  In the list of project templates, choose **Windows Forms Application**, name the project **MatchingGame**, and then choose the **OK** button.  
   
@@ -79,7 +64,7 @@ The first step in creating a matching game is to create the project and add a ta
   
     4.  Set the **TextAlign** property to **MiddleCenter** by choosing the drop-down button next to the property, and then choosing the middle button. This ensures the icon appears in the middle of the cell.  
   
-    5.  Choose the **Font** property. An ellipsis (…) button should appear.  
+    5.  Choose the **Font** property. An ellipsis (...) button should appear.  
   
     6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **72**.  
   

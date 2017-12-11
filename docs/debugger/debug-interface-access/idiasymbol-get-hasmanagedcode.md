@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: e40f82f5-88fe-4a9b-b594-3605f42773ec
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_hasManagedCode
 Retrieves a flag indicating whether the module contains managed code.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_hasManagedCode(  
    BOOL *pFlag  
 );  

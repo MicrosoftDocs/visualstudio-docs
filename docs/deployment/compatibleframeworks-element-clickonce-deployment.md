@@ -2,7 +2,6 @@
 title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,26 +19,12 @@ caps.latest.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
 Identifies the versions of the .NET Framework where this application can install and run.  
   
 > [!NOTE]
->  [MageUI.exe](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [MageUI.exe](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md). Instead, you must use [Mage.exe](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md).  
+>  [MageUI.exe](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [MageUI.exe](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client). Instead, you must use [Mage.exe](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).  
   
 ## Syntax  
   

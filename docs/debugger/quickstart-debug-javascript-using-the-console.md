@@ -2,7 +2,6 @@
 title: "QuickStart: Debug JavaScript using the console | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.JavaScriptConsole"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "JavaScript Console"
@@ -24,27 +23,12 @@ ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # QuickStart: Debug JavaScript using the console
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can use the JavaScript Console window to interact with and debug Store apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+ You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
  The JavaScript Console window allows you to:  
   
@@ -79,7 +63,7 @@ translation.priority.mt:
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
 > [!CAUTION]
->  The sample app here is a Windows Store app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
+>  The sample app here is a UWP app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
   
 #### To debug JavaScript code in the FlipView app  
   
@@ -173,7 +157,7 @@ translation.priority.mt:
   
      The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
   
-9. With the `FlipView` app running in the Simulator or the Phone Emulator, type `Data.items` in the console window input prompt (next to the “>>” symbol) and press Enter.  
+9. With the `FlipView` app running in the Simulator or the Phone Emulator, type `Data.items` in the console window input prompt (next to the ">>" symbol) and press Enter.  
   
      A visualizer for the `items` object appears in the console window. This indicates that the `items` object instantiated and is available in the current script context. In the console window, you can click through the nodes of an object to view property values (or use the arrow keys). If you click down into the `items._data` object, as you see in this illustration, you'll find that its image source references are incorrect, as expected. The default images (logo.png) are still present in the object, and there are missing images interspersed with the expected images.  
   
@@ -209,7 +193,7 @@ translation.priority.mt:
   
 13. Choose the green arrow symbol to run the script.  
   
-14. Press Ctrl+Alt+M to switch the console input prompt to single-line mode, and then choose **Clear input** (the red “X”) to delete the code from the input prompt.  
+14. Press Ctrl+Alt+M to switch the console input prompt to single-line mode, and then choose **Clear input** (the red "X") to delete the code from the input prompt.  
   
 15. Type `Data.items.length = 3` at the prompt, and then press Enter. This removes the extraneous elements from the data.  
   
@@ -267,7 +251,7 @@ translation.priority.mt:
   
  Single-line mode provides input history. You can navigate through the input history by using the Up Arrow and Down Arrow keys. Single-line mode clears the input prompt when you run scripts. To run a script in single-line mode, press Enter.  
   
- Multiline mode does not clear the input prompt when you run scripts. When you switch to single-line mode from multiline mode, you can clear the input line by pressing **Clear input** (the red “X”). To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window.  
+ Multiline mode does not clear the input prompt when you run scripts. When you switch to single-line mode from multiline mode, you can clear the input line by pressing **Clear input** (the red "X"). To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window.  
   
 ##  <a name="Switching"></a> Switching the script execution context  
  The JavaScript Console window allows you to interact with a single execution context, which represents a single instance of the web platform host (WWAHost.exe), at a time. In some scenarios, your app may start another instance of the host, such as when you use an `iframe`, a share contract, a web worker, or a `WebView` control. If another instance of the host is running, you can select a different execution context while running the app by selecting the execution context in the **Target** list.  
@@ -281,7 +265,7 @@ translation.priority.mt:
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
+-   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   

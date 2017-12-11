@@ -2,7 +2,6 @@
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,23 +13,9 @@ caps.latest.revision: 3
 author: "mairaw"
 ms.author: "mairaw"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Publish a WPF Application with Visual Styles Enabled
-Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/en-us/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
+Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
   
  To resolve the error and to publish the solution, you must perform the following tasks:  
   
@@ -46,7 +31,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 ##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
   
-1.  Ensure that your project does not have visual styles enabled. First, check your project’s manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
+1.  Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
   
      By default, visual styles are not enabled.  
   
@@ -108,7 +93,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 1.  Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](../Topic/Developer%20Command%20Prompt%20for%20Visual%20Studio.md).  
+     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).  
   
     > [!NOTE]
     >  The remaining steps make the following assumptions about your solution:  
@@ -130,7 +115,7 @@ Visual styles enable the appearance of common controls to change based on the th
 3.  At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
   
     ```  
-    mt –manifest c:\temp\themes.manifest –outputresource:MyWPFApp.exe.deploy  
+    mt -manifest c:\temp\themes.manifest -outputresource:MyWPFApp.exe.deploy  
     ```  
   
 ##  <a name="BKMK_signappdeplyman"></a> Sign the application and deployment manifests  
@@ -151,7 +136,7 @@ Visual styles enable the appearance of common controls to change based on the th
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option (`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`).  
+    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option (`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`).  
   
 3.  At the command prompt, run the following command to add the `.deploy` extension to the name of the file that you renamed in a previous step of this procedure.  
   
@@ -169,12 +154,12 @@ Visual styles enable the appearance of common controls to change based on the th
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option, as in this example:`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`.  
+    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option, as in this example:`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`.  
   
  After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
   
 ## See Also  
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
- [Visual Styles Overview](http://msdn.microsoft.com/en-us/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
- [Enabling Visual Styles](VS|Controls|~\controls\userex\cookbook.htm)   
- [Command Prompts](../Topic/Developer%20Command%20Prompt%20for%20Visual%20Studio.md)
+ [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
+ [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
+ [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)

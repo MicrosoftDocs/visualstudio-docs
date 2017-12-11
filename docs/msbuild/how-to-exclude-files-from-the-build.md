@@ -2,7 +2,6 @@
 title: "How to: Exclude Files from the Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
 caps.latest.revision: 16
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Exclude Files from the Build
 In a project file you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you do not want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.  
@@ -39,7 +24,7 @@ In a project file you can use wildcards to include all the files in one director
 ## Excluding a File or Directory from the Inputs for a Build  
  Item lists are the input files for a build. The items that you want to include are declared either separately or as a group using the `Include` attribute. For example:  
   
-```  
+```xml  
 <CSFile Include="Form1.cs"/>  
 <CSFile Include ="File1.cs;File2.cs"/>  
 <CSFile Include="*.cs"/>  
@@ -52,13 +37,13 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use one of the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
     ```  
   
      - or -  
   
-    ```  
+    ```xml  
     <VBFile Include="*.vb" Exclude="Form2.vb"/>  
     ```  
   
@@ -66,13 +51,13 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use one of the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
     ```  
   
      - or -  
   
-    ```  
+    ```xml  
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>  
     ```  
   
@@ -80,7 +65,7 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use the following `Include` and `Exclude` attributes:  
   
-    ```  
+    ```xml  
     <JPGFile  
         Include="Images\**\*.jpg"  
         Exclude = "Images\**\Version2\*.jpg"/>  
@@ -96,7 +81,7 @@ In a project file you can use wildcards to include all the files in one director
   
 -   Use a `Condition` attribute similar to the following:  
   
-    ```  
+    ```xml  
     <Compile  
         Include="Formula.vb"  
         Condition=" '$(Configuration)' == 'Release' " />  
@@ -105,7 +90,7 @@ In a project file you can use wildcards to include all the files in one director
 ## Example  
  The following code example builds a project with all of the .cs files in the directory except Form2.cs.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
@@ -138,5 +123,5 @@ In a project file you can use wildcards to include all the files in one director
   
 ## See Also  
  [Items](../msbuild/msbuild-items.md)   
- [MSBuild](../msbuild/msbuild1.md)
+ [MSBuild](../msbuild/msbuild.md)
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)

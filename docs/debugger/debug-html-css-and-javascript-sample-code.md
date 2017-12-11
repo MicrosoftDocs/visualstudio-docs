@@ -2,7 +2,6 @@
 title: "Debug HTML, CSS, and JavaScript sample code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,30 +9,15 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 51893967-98c8-4141-ba40-03646f221760
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "tr-tr"
+manager: ghogen
 ---
 # Debug HTML, CSS, and JavaScript sample code
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
@@ -65,7 +49,7 @@ translation.priority.mt:
 }  
 ```  
   
- The following code example shows the complete JavaScript code in default.js. The references to WinJS namespaces for this code are in the template’s default.html file.  
+ The following code example shows the complete JavaScript code in default.js. The references to WinJS namespaces for this code are in the template's default.html file.  
   
 ```javascript  
 (function () {  

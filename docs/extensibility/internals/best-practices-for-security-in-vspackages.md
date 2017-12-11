@@ -2,7 +2,6 @@
 title: "Best Practices for Security in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "best practices, security"
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Best Practices for Security in VSPackages
 To install the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] application is the [VSPackages](../../extensibility/internals/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], which also requires administrative credentials.  
@@ -44,5 +30,5 @@ To install the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] o
  For more information, see Secure Coding Guidelines for the .NET Framework ([http://msdn.microsoft.com/library/d55zzx87.aspx](http://msdn.microsoft.com/library/d55zzx87.aspx)).  
   
 ## See Also  
- [Add-In Security](../Topic/Add-In%20Security.md)   
+ [Add-In Security](http://msdn.microsoft.com/Library/44a5c651-6246-4310-b371-65378917c799)   
  [DDEX Security](http://msdn.microsoft.com/en-us/44a52a70-5c98-450e-993d-4a3b32f69ba8)

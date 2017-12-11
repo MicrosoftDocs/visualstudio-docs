@@ -1,8 +1,7 @@
 ---
-title: "Format Specifiers in C# | Microsoft Docs"
+title: "Format specifiers in the debugger (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,11 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
+  - "CSharp"
   - "VB"
-  - "CSharp"
+  - "FSharp"
   - "C++"
-  - "CSharp"
 helpviewer_keywords: 
   - "expressions [C#], formatting values"
   - "variables [debugger], watch variable symbols"
@@ -31,24 +29,9 @@ ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Format Specifiers in C#
+# Format specifiers in C# in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers. You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. DataTips will reflect the format specifier in the DataTip display.  
   
  To use a format specifier, type the expression followed by a comma. After the comma, add the appropriate specifier.  
@@ -56,7 +39,7 @@ You can change the format in which a value is displayed in the **Watch** window 
 ## Using Format Specifiers  
  If you have the following code:  
   
-```  
+```CSharp  
 {  
 	    int my_var1 = 0x0065;  
 	    int my_var2 = 0x0066;  
@@ -64,7 +47,7 @@ You can change the format in which a value is displayed in the **Watch** window 
 }  
 ```  
   
- Add the `my_var1` variable to the Watch window (while debugging, **Debug / Windows / Watch / Watch 1**) and set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the **Watch** window shows that it contains the value 0x0065. To see this value expressed as a decimal integer instead of a hexadecimal integer, in the Name column, after the variable name, add the decimal format specifier: **, d**. The Value column now displays the decimal value 101  
+ Add the `my_var1` variable to the Watch window (while debugging, **Debug > Windows > Watch > Watch 1**) and set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the **Watch** window shows that it contains the value 0x0065. To see this value expressed as a decimal integer instead of a hexadecimal integer, in the Name column, after the variable name, add the decimal format specifier: **, d**. The Value column now displays the decimal value 101  
   
  ![WatchFormatCSharp](../debugger/media/watchformatcsharp.png "WatchFormatCSharp")  
   
@@ -73,7 +56,7 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 |Specifier|Format|Original Watch Value|Displays|  
 |---------------|------------|--------------------------|--------------|  
-|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off. See [Side Effects and Expressions](../Topic/Side%20Effects%20and%20Expressions.md).|Message “Implicit function evaluation is turned off by the user”|\<value>|  
+|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off.|Message "Implicit function evaluation is turned off by the user"|\<value>|  
 |d|decimal integer|0x0065|101|  
 |dynamic|Displays the specified object using a Dynamic View|Displays all the members of the object, including the Dynamic View|Displays only the Dynamic View|  
 |h|hexadecimal integer|61541|0x0000F065|  
@@ -84,4 +67,4 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 ## See Also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)
+ [Autos and Locals Windows](../debugger/autos-and-locals-windows.md)

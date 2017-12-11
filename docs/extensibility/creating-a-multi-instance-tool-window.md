@@ -2,7 +2,6 @@
 title: "Creating a Multi-Instance Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating a Multi-Instance Tool Window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  
@@ -47,7 +33,7 @@ You can program a tool window so that multiple instances of it can be open simul
   
 1.  Open the **MIToolWindowPackage.cs** file and find the `ProvideToolWindow` attribute. and the `MultiInstances=true` parameter, as shown in the following example.  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
         [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About  
         [ProvideMenuResource("Menus.ctmenu", 1)]  
@@ -67,7 +53,7 @@ You can program a tool window so that multiple instances of it can be open simul
   
 5.  By default, the `ShowToolWindow` method that is created by the tool window item template creates a single-instance tool window. The following example shows how to modify the `ShowToolWindow` method to create multiple instances.  
   
-    ```c#  
+    ```csharp  
     private void ShowToolWindow(object sender, EventArgs e)  
     {  
         for (int i = 0; i < 10; i++)  

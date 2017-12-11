@@ -2,7 +2,6 @@
 title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "Add New Item dialog box, adding items"
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Adding Items to the Add New Item Dialog Boxes
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the AddItemTemplates section contains the path of and name of the directory in which items made available in the **Add New Item** dialog box are put.  

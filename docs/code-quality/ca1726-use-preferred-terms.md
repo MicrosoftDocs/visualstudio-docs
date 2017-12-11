@@ -2,11 +2,10 @@
 title: "CA1726: Use preferred terms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,24 +15,9 @@ helpviewer_keywords:
   - "UsePreferredTerms"
 ms.assetid: 642b2acd-3a33-4d1f-b0a7-67073ae73be2
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1726: Use preferred terms
 |||  
@@ -61,7 +45,7 @@ translation.priority.mt:
 |Dont|DoNot|  
 |Flag or Flags|There is no replacement term. Do not use.|  
 |Hadnt|HadNot|  
-|Hasn’t|HasNot|  
+|Hasn't|HasNot|  
 |Havent|HaveNot|  
 |Indices|Indexes|  
 |Isnt|IsNot|  

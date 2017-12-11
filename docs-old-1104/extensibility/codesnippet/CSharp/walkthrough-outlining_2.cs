@@ -1,1 +1,0 @@
-internal sealed class OutliningTagger : ITagger<IOutliningRegionTag>

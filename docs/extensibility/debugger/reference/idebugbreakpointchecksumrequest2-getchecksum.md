@@ -2,7 +2,6 @@
 title: "IDebugBreakpointChecksumRequest2::GetChecksum | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,36 +12,23 @@ helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2::GetChecksum"
 ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetChecksum(   
    REFGUID        guidAlgorithm,  
    CHECKSUM_DATA *pChecksumData  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetChecksum(   
    ref Guid               guidAlgorithm,  
    out enum_CHECKSUM_DATA pChecksumData  
@@ -62,7 +48,7 @@ public int GetChecksum(
 ## Example  
  The following example shows a function that checks whether the checksum of a document, which is about to be bound, matches one from the UI.  
   
-```cpp#  
+```cpp  
 bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCodeContext *pContext)  
 {  
     bool fRet = false;  

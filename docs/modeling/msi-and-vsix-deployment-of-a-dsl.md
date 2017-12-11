@@ -2,7 +2,6 @@
 title: "MSI and VSIX Deployment of a DSL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,11 +11,6 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # MSI and VSIX Deployment of a DSL
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.  

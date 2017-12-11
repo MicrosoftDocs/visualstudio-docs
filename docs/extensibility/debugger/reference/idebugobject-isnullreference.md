@@ -2,7 +2,6 @@
 title: "IDebugObject::IsNullReference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugObject::IsNullReference method"
 ms.assetid: 6dbfcdb0-954f-4486-8fac-7ea8d003e3a9
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugObject::IsNullReference
 Tests whether this object is a null reference.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsNullReference(   
    BOOL* pfIsNull  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsNullReference(  
    out int pfIsNull  
 );  

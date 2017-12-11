@@ -2,7 +2,6 @@
 title: "Find potential problems using code map analyzers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,21 +17,6 @@ caps.latest.revision: 11
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Find potential problems using code map analyzers
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:  

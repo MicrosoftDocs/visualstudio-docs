@@ -2,31 +2,16 @@
 title: "The objects you are adding to the designer use a different data connection than the designer is currently using | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # The objects you are adding to the designer use a different data connection than the designer is currently using
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?  
@@ -48,7 +33,7 @@ The objects you are adding to the designer use a different data connection than 
   
      The action is canceled. The DataContext.Connection remains set to the existing connection.  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+ 

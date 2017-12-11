@@ -2,7 +2,6 @@
 title: "Creating Project and Item Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,23 +19,9 @@ helpviewer_keywords:
   - "templates [Visual Studio], about templates"
 ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Creating Project and Item Templates
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and item templates provide reusable stubs that give users some basic code and structure that they can use for their own purposes.  

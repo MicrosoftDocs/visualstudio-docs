@@ -1,8 +1,7 @@
 ---
-title: "C-C++ Assertions | Microsoft Docs"
+title: "C/C++ Assertions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [MFC], assertions"
@@ -33,21 +32,7 @@ ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # C/C++ Assertions
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.  
@@ -56,11 +41,11 @@ An assertion statement specifies a condition that you expect to be true at a poi
   
 -   MFC assertions for MFC programs.  
   
--   [ATLASSERT](../Topic/ATLASSERT.md) for programs that use ATL.  
+-   [ATLASSERT](http://msdn.microsoft.com/Library/98e3e0fc-77e2-499b-a6f6-b17a21c6fbd3) for programs that use ATL.  
   
 -   CRT assertions for programs that use the C run-time library.  
   
--   The ANSI [assert function](/visual-cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.  
+-   The ANSI [assert function](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) for other C/C++ programs.  
   
  You can use assertions to catch logic errors, check results of an operation, and Test error conditions that should have been handled.  
   
@@ -105,7 +90,7 @@ ASSERT(nM++ > 0); // Don't do this!
   
 ```  
   
- Because the `ASSERT` expression is not evaluated in the Release version of your program, `nM` will have different values in the Debug and Release versions. To avoid this problem in MFC, you can use the [VERIFY](../Topic/VERIFY.md) macro instead of `ASSERT`.  `VERIFY` evaluates the expression in all versions but does not check the result in the Release version.  
+ Because the `ASSERT` expression is not evaluated in the Release version of your program, `nM` will have different values in the Debug and Release versions. To avoid this problem in MFC, you can use the [VERIFY](http://msdn.microsoft.com/Library/3e1ab4ee-cbc7-4290-a777-c92f42ce7b96) macro instead of `ASSERT`.  `VERIFY` evaluates the expression in all versions but does not check the result in the Release version.  
   
  Be especially careful about using function calls in assertion statements, because evaluating a function can have unexpected side effects.  
   
@@ -119,7 +104,7 @@ VERIFY ( myFnctn(0)==1 ) // safe
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_CRT_assertions"></a> CRT assertions  
- The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/visual-cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.  
+ The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.  
   
 |Macro|Result|  
 |-----------|------------|  
@@ -139,30 +124,30 @@ VERIFY ( myFnctn(0)==1 ) // safe
    } while (0)  
 ```  
   
- If the asserted expression evaluates to FALSE, [_CrtDbgReport](/visual-cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) is called to report the assertion failure (using a message dialog box by default). If you choose **Retry** in the message dialog box, `_CrtDbgReport` returns 1 and `_CrtDbgBreak` calls the debugger through `DebugBreak`.  
+ If the asserted expression evaluates to FALSE, [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) is called to report the assertion failure (using a message dialog box by default). If you choose **Retry** in the message dialog box, `_CrtDbgReport` returns 1 and `_CrtDbgBreak` calls the debugger through `DebugBreak`.  
   
 ### Checking for Heap Corruption  
- The following example uses [_CrtCheckMemory](/visual-cpp/c-runtime-library/reference/crtcheckmemory) to check for corruption of the heap:  
+ The following example uses [_CrtCheckMemory](/cpp/c-runtime-library/reference/crtcheckmemory) to check for corruption of the heap:  
   
 ```  
 _ASSERTE(_CrtCheckMemory());  
 ```  
   
 ### Checking Pointer Validity  
- The following example uses [_CrtIsValidPointer](/visual-cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.  
+ The following example uses [_CrtIsValidPointer](/cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.  
   
 ```  
 _ASSERTE(_CrtIsValidPointer( address, size, TRUE );  
 ```  
   
- The following example uses [_CrtIsValidHeapPointer](/visual-cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.  
+ The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.  
   
 ```  
 _ASSERTE(_CrtIsValidPointer( myData );  
 ```  
   
 ### Checking a Memory Block  
- The following example uses [_CrtIsMemoryBlock](/visual-cpp/c-runtime-library/reference/crtismemoryblock) to verify that a memory block is in the local heap and has a valid block type.  
+ The following example uses [_CrtIsMemoryBlock](/cpp/c-runtime-library/reference/crtismemoryblock) to verify that a memory block is in the local heap and has a valid block type.  
   
 ```  
 _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber));  
@@ -171,11 +156,11 @@ _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_MFC_assertions"></a> MFC assertions  
- MFC defines the [ASSERT](../Topic/ASSERT%20\(MFC\).md) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.  
+ MFC defines the [ASSERT](http://msdn.microsoft.com/Library/1e70902d-d58c-4e7b-9f69-2aeb6cbe476c) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.  
   
  If the argument of the MFC `ASSERT` macro evaluates to zero or false, the macro halts program execution and alerts the user; otherwise, execution continues.  
   
- When an assertion fails, a message dialog box shows the name of the source file and the line number of the assertion. If you choose Retry in the dialog box, a call to [AfxDebugBreak](../Topic/AfxDebugBreak%20\(MFC\).md) causes execution to break to the debugger. At that point, you can examine the call stack and use other debugger facilities to determine why the assertion failed. If you have enabled [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md), and the debugger was not already running, the dialog box can launch the debugger.  
+ When an assertion fails, a message dialog box shows the name of the source file and the line number of the assertion. If you choose Retry in the dialog box, a call to [AfxDebugBreak](http://msdn.microsoft.com/Library/c4cd79b9-9327-4db5-a9d6-c4004a92aa30) causes execution to break to the debugger. At that point, you can examine the call stack and use other debugger facilities to determine why the assertion failed. If you have enabled [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md), and the debugger was not already running, the dialog box can launch the debugger.  
   
  The following example shows how to use `ASSERT` to check the return value of a function:  
   
@@ -184,16 +169,16 @@ int x = SomeFunc(y);
 ASSERT(x >= 0);   //  Assertion fails if x is negative  
 ```  
   
- You can use ASSERT with the [IsKindOf](../Topic/CObject::IsKindOf.md) function to provide type checking of function arguments:  
+ You can use ASSERT with the [IsKindOf](/cpp/mfc/reference/cobject-class.md#CObject__IsKindOf) function to provide type checking of function arguments:  
   
 ```  
 ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );  
 ```  
   
- The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](../Topic/VERIFY.md) macro instead of ASSERT.  
+ The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](http://msdn.microsoft.com/Library/3e1ab4ee-cbc7-4290-a777-c92f42ce7b96) macro instead of ASSERT.  
   
 ###  <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID and CObject::AssertValid  
- The [CObject::AssertValid](../Topic/CObject::AssertValid.md) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
+ The [CObject::AssertValid](/cpp/mfc/reference/cobject-class.md#CObject__AssertValid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
   
  The following example shows how to declare an `AssertValid` function:  
   
@@ -234,7 +219,7 @@ void CPerson::AssertValid() const
   
  If any of your member variables store objects, you can use the `ASSERT_VALID` macro to test their internal validity (if their classes override `AssertValid`).  
   
- For example, consider a class `CMyData`, which stores a [CObList](/visual-cpp/mfc/reference/coblist-class) in one of its member variables. The `CObList` variable, `m_DataList`, stores a collection of `CPerson` objects. An abbreviated declaration of `CMyData` looks like this:  
+ For example, consider a class `CMyData`, which stores a [CObList](/cpp/mfc/reference/coblist-class) in one of its member variables. The `CObList` variable, `m_DataList`, stores a collection of `CPerson` objects. An abbreviated declaration of `CMyData` looks like this:  
   
 ```  
 class CMyData : public CObject  

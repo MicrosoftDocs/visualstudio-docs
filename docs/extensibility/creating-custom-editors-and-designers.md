@@ -2,7 +2,6 @@
 title: "Creating Custom Editors and Designers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom"
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 caps.latest.revision: 31
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating Custom Editors and Designers
 The Visual Studio integrated development environment (IDE) can host different types of editor:  
@@ -70,7 +56,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
 -   Does your editor need to host ActiveX controls?  
   
-     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../misc/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
+     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../extensibility/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
   
 -   Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.  
   

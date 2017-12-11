@@ -2,7 +2,6 @@
 title: "IDebugDocumentChecksum2::GetChecksumAndAlgorithmId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,29 +13,16 @@ helpviewer_keywords:
   - "GetChecksumAndAlgorithmI"
 ms.assetid: 25efef99-0ef3-4332-a752-607605fc6e67
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetChecksumAndAlgorithmId(   
    GUID  *pRetVal,  
    ULONG cMaxBytes,  
@@ -45,7 +31,7 @@ HRESULT GetChecksumAndAlgorithmId(
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetChecksumAndAlgorithmId(   
    out Guid pRetVal,  
    uint     cMaxBytes,  
@@ -73,7 +59,7 @@ public int GetChecksumAndAlgorithmId(
 ## Example  
  The following example uses this method to get the checksum and algorithm for a document.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugCodeContext::GetDocumentChecksumAndAlgorithmId(GUID *pguidAlgorithm, BYTE **ppChecksum, ULONG *pcNumBytes)  
 {  
     HRESULT hRes = E_FAIL;  

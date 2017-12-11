@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\CS.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\CS.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="15:17 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="CS.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="CS.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\CS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CS.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\CS.v11.suo">
+</Event><Event ErrorLevel="3" Project="CS" Source="CS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="CS" Source="CS.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\CS.csproj">
+</Event><Event ErrorLevel="0" Project="CS" Source="Ribbon1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Ribbon1.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="ThisDocument.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\ThisDocument.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="ThisDocument.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\ThisDocument.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CS" Source="CS.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\CS.docx">
+</Event><Event ErrorLevel="0" Project="CS" Source="CS_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\CS_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="CS" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="CS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CS" Source="ThisDocument.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\ThisDocument.resx">
+</Event><Event ErrorLevel="0" Project="CS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CS" Source="Ribbon1.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Word_Document_Menus\CS\Backup\Ribbon1.xml">
+</Event><Event ErrorLevel="0" Project="CS" Source="CS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CS" Source="CS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CS" Source="CS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

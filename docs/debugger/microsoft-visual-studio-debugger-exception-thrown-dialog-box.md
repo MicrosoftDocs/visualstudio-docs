@@ -2,7 +2,6 @@
 title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.exceptions.thrown"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Microsoft Visual Studio Debugger (Exception Thrown) dialog box"
@@ -25,21 +24,7 @@ ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box
 An exception has occurred in your program. This dialog box reports the kind of exception thrown. Your code needs to handle this exception. You can choose between the following options for handling the exception:  
@@ -58,5 +43,5 @@ An exception has occurred in your program. This dialog box reports the kind of e
   
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
- [Best Practices for Exceptions](../Topic/Best%20Practices%20for%20Exceptions.md)   
- [Exception Handling](/visual-cpp/windows/exception-handling-cpp-component-extensions)
+ [Best Practices for Exceptions](/dotnet/standard/exceptions/best-practices-for-exceptions)   
+ [Exception Handling](/cpp/windows/exception-handling-cpp-component-extensions)

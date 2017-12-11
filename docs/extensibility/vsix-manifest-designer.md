@@ -2,7 +2,6 @@
 title: "VSIX Manifest Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,9 @@ helpviewer_keywords:
   - "manifest designer"
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # VSIX Manifest Designer
 Modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.  
@@ -108,13 +94,13 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
   
  **Version Range** is [12.0, 14.0] and uses the following notation:  
   
--   [ – minimum version inclusive  
+-   [ - minimum version inclusive  
   
--   ] – maximum version inclusive  
+-   ] - maximum version inclusive  
   
 -   ( - minimum version exclusive  
   
--   ) – maximum version exclusive  
+-   ) - maximum version exclusive  
   
 -   Single version # - only the specified version  
   

@@ -2,7 +2,6 @@
 title: "Error: Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.callback_dns_failed"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 2d364caf-73af-4186-bf9b-af186331cbe8
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 When trying to do remote debugging, you may get the following error message:  

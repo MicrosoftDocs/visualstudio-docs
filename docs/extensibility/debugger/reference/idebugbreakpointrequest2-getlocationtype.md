@@ -2,7 +2,6 @@
 title: "IDebugBreakpointRequest2::GetLocationType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugBreakpointRequest2::GetLocationType"
 ms.assetid: b6d14c59-d3aa-48ff-8278-f6b5bba9c2f3
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBreakpointRequest2::GetLocationType
 Gets the breakpoint location type of this breakpoint request.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLocationType(   
    BP_LOCATION_TYPE* pBPLocationType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetLocationType(   
    out enum_BP_LOCATION_TYPE pBPLocationType  
 );  

@@ -2,7 +2,6 @@
 title: "IDebugCustomAttributeQuery::GetCustomAttributeByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,29 +13,16 @@ helpviewer_keywords:
   - "GetCustomAttributeByName"
 ms.assetid: 6779727c-d10a-4abe-9acd-d0a1eb0737e7
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
 Retrieves a custom attribute given its name.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCustomAttributeByName(  
    LPCOLESTR pszCustomAttributeName,  
    BYTE*     ppBlob,  
@@ -44,7 +30,7 @@ HRESULT GetCustomAttributeByName(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCustomAttributeByName(  
    string    pszCustomAttributeName,  
    ref int[] ppBlob,  
@@ -68,7 +54,7 @@ int GetCustomAttributeByName(
 ## Example  
  The following example shows how to implement this method for a **CDebugClassFieldSymbol** object that exposes the [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugClassFieldSymbol::GetCustomAttributeByName(  
     LPCOLESTR pszCustomAttributeName,  
     BYTE *pBlob,  

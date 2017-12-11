@@ -2,7 +2,6 @@
 title: "Using saved IntelliTrace data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,22 +19,7 @@ ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 caps.latest.revision: 106
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Using saved IntelliTrace data
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.  
@@ -85,13 +69,14 @@ Go to specific points in your application's execution when you start debugging f
   
 |**Section**|**Contains**|**Collection Source**|  
 |-----------------|------------------|---------------------------|  
-|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
+|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
 |[Exception Data](#ExceptionData)|Exceptions, including the full call stack for each exception|All sources|  
-|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager|  
+|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager|  
 |[System Info](#SystemInfo)|Settings and specifications of the host system|All sources|  
 |[Threads List](#ThreadsList)|Threads that ran during collection|All sources|  
 |[Test Data](#TestData)|Test steps and their results from a test session|Test Manager|  
-|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources|  
+|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources| 
+|[Web Request](#Modules)|Web request data for production IIS web applications and SharePoint 2010 and SharePoint 2013|Microsoft Monitoring Agent and the standalone collector| 
   
  Here's some tips to help you find information in each section:  
   
@@ -219,7 +204,7 @@ Go to specific points in your application's execution when you start debugging f
   
      ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")  
   
- For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../Topic/Walkthrough:%20Debugging%20a%20SharePoint%20Application%20by%20Using%20IntelliTrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
+ For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ###  <a name="ThreadsList"></a> Threads List  
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.  
@@ -285,4 +270,4 @@ Go to specific points in your application's execution when you start debugging f
  [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)  
   
 #### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)

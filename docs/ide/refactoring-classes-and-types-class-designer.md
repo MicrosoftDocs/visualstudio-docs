@@ -2,7 +2,6 @@
 title: "Refactoring Classes and Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,30 +21,15 @@ helpviewer_keywords:
   - "refactoring, classes"
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Refactoring Classes and Types (Class Designer)
 When you refactor code, you make it easier to understand, maintain, and more efficient by changing its internal structure and how its objects are designed, not its external behavior. Use Class Designer and the Class Details window to reduce the work that you have to do and the chance of introducing bugs when you refactor Visual C# .NET, Visual Basic .NET, or C++ code in your Visual Studio project.  
   
 > [!NOTE]
->  The files of a project might be read-only because the project is under source-code control and is not checked out; it is a referenced project; or its files are marked as read-only on disk. When you work in a project in one of these states, you will be presented with various ways to save your work depending on the project’s state. This applies to refactoring code and also to code that you change in another way, such as directly editing it. For more information, see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).  
+>  The files of a project might be read-only because the project is under source-code control and is not checked out; it is a referenced project; or its files are marked as read-only on disk. When you work in a project in one of these states, you will be presented with various ways to save your work depending on the project's state. This applies to refactoring code and also to code that you change in another way, such as directly editing it. For more information, see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).  
   
 ## Common Tasks  
   

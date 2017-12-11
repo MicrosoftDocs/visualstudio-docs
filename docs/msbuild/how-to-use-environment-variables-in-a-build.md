@@ -2,7 +2,6 @@
 title: "How to: Use Environment Variables in a Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 caps.latest.revision: 15
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Use Environment Variables in a Build
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.  
@@ -62,7 +47,7 @@ When you build projects, it is often necessary to set build options using inform
 ## Example  
  The following project file uses environment variables to specify the location of directories.  
   
-```  
+```xml  
 <Project DefaultTargets="FakeBuild">  
     <PropertyGroup>  
         <FinalOutput>$(BIN_PATH)\myassembly.dll</FinalOutput>  
@@ -77,6 +62,6 @@ When you build projects, it is often necessary to set build options using inform
 ```  
   
 ## See Also  
-    [MSBuild ](../msbuild/msbuild1.md)
+    [MSBuild ](../msbuild/msbuild.md)
     [MSBuild Properties](../msbuild/msbuild-properties.md)
  [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)

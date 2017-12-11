@@ -2,7 +2,6 @@
 title: "Extending the Status Bar | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "status bars, overview"
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Extending the Status Bar
 You can use the Visual Studio status bar at the bottom of the IDE to display information.  
@@ -49,7 +35,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  In TestStatusBarCommand.cs, replace the command handler method code (MenuItemCallback) with the following:  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar = (IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  
@@ -85,7 +71,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 4.  Open the **Tools** menu in the experimental instance of Visual Studio. Click the **Invoke TestStatusBarCommand** button.  
   
-     You should see that the text in the status bar now reads **“We just wrote to the status bar.”** and the message box that appears has the same text.  
+     You should see that the text in the status bar now reads **"We just wrote to the status bar."** and the message box that appears has the same text.  
   
 #### Updating the progress bar  
   
@@ -93,7 +79,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  Open the TestStatusBarCommand.cs file and replace the MenuItemCallback method with the following code:  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar = (IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  
@@ -119,7 +105,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 4.  Open the **Tools** menu in the experimental instance of Visual Studio. Click **Invoke TestStatusBarCommand** button.  
   
-     You should see that the text in the status bar now reads **“Writing to the progress bar.”** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.  
+     You should see that the text in the status bar now reads **"Writing to the progress bar."** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.  
   
 #### Displaying an animation  
   
@@ -131,7 +117,7 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
   
 2.  Open the TestStatusBarCommand.cs file and replace the MenuItemCallback method with the following code:  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         IVsStatusbar statusBar =(IVsStatusbar)ServiceProvider.GetService(typeof(SVsStatusbar));  

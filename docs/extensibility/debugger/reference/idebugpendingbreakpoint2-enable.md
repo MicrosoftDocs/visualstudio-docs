@@ -2,7 +2,6 @@
 title: "IDebugPendingBreakpoint2::Enable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,35 +15,22 @@ helpviewer_keywords:
   - "Enable method"
 ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::Enable
 Toggles the enabled state of the pending breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Enable(   
    BOOL fEnable  
 );  
 ```  
   
-```c#  
+```csharp  
 int Enable(   
    int fEnable  
 );  
@@ -65,7 +51,7 @@ int Enable( 
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that exposes the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::Enable(BOOL fEnable)    
 {    
    HRESULT hr;    

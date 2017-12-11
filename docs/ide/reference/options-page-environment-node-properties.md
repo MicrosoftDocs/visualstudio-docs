@@ -2,7 +2,6 @@
 title: "Options Page, Environment Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,23 +13,9 @@ helpviewer_keywords:
   - "Tools Options settings, Environment node properties"
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Options Page, Environment Node Properties
 This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.  
@@ -82,7 +67,7 @@ This document describes the pages (or properties collections) that are associate
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  
 |EnableAdminExtensions|Get/Set (Boolean)|Loads per-user extensions when Visual Studio is run under Administrator credentials. Visual Studio must be restarted after this value is changed.|  
-|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Gallery.|  
+|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Marketplace.|  
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|Automatically checks for updates to installed extensions.|  
   
 ## Find and Replace  
@@ -172,8 +157,8 @@ This document describes the pages (or properties collections) that are associate
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|  
   
 ## See Also  
- [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
- [Determining the Names of Property Items on Options Pages](../Topic/Determining%20the%20Names%20of%20Property%20Items%20on%20Options%20Pages.md)   
+ [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

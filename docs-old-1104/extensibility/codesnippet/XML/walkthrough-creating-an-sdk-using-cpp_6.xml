@@ -1,7 +1,0 @@
-<FileList
-  Identity = "NativeMathSDK, Version=1.0"
-  DisplayName = "Native Math SDK"
-  MinVSVersion = "11.0"
-  AppliesTo = "WindowsAppContainer + (CSharp | VB | VisualC)">
-  <File Reference="NativeMathWRT.winmd" Implementation="NativeMathWRT.dll" />
-</FileList>

@@ -2,33 +2,17 @@
 title: "Filter Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7cae2dc-e9a7-49d4-8be5-58b79868624e
 caps.latest.revision: 12
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Filter Nodes
 In the Shader Designer, filter nodes transform an input—for example, a color or texture sample—into a figurative color value. These figurative color values are commonly used in non-photorealistic rendering or as components in other visual effects.  

@@ -2,7 +2,6 @@
 title: "T4 Parameter Directive | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,20 +11,6 @@ caps.latest.revision: 3
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # T4 Parameter Directive
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
@@ -56,8 +41,8 @@ Line <#= i #>
 ## Passing parameter values to a template  
  If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
   
-```c#  
-// Get a service provider – how you do this depends on the context:  
+```csharp  
+// Get a service provider - how you do this depends on the context:  
 IServiceProvider serviceProvider = dte; // or dslDiagram.Store, for example   
 // Get the text template service:  
 ITextTemplating t4 = serviceProvider.GetService(typeof(STextTemplating)) as ITextTemplating;  
@@ -77,7 +62,7 @@ string result = t4.ProcessTemplate("MyTemplateFile.t4",
   
  The following example passes values by using both methods:  
   
-```c#  
+```csharp  
 ITextTemplating t4 = this.Store.GetService(typeof(STextTemplating)) as ITextTemplating;  
 ITextTemplatingSessionHost host = t4 as ITextTemplatingSessionHost;  
 host.Session = host.CreateSession();  
@@ -102,7 +87,7 @@ string result = t4.ProcessTemplate("",
   
  However, if you want to use `<#@parameter>` in a run-time template, you can pass values to it by using the Session dictionary. As an example, suppose you have created the file as a preprocessed template called `PreTextTemplate1`. You can invoke the template in your program by using the following code.  
   
-```c#  
+```csharp  
 PreTextTemplate1 t = new PreTextTemplate1();  
 t.Session = new Microsoft.VisualStudio.TextTemplating.TextTemplatingSession();  
 t.Session["TimesToRepeat"] = 5;  
@@ -115,4 +100,4 @@ string resultText = t.TransformText();
 ## Obtaining arguments from TextTemplate.exe  
   
 > [!IMPORTANT]
->  The `parameter` directive does not retrieve values set in the `–a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.
+>  The `parameter` directive does not retrieve values set in the `-a` parameter of the `TextTransform.exe` utility. To get those values, set `hostSpecific="true"` in the `template` directive, and use `this.Host.ResolveParameterValue("","","argName")`.

@@ -2,7 +2,6 @@
 title: "IDebugProgramNode2::GetHostName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugProgramNode2::GetHostName"
 ms.assetid: 16aad1ff-ad34-4394-a2e4-5621374a7729
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgramNode2::GetHostName
 Gets the name of the process hosting the program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetHostName (   
    GETHOSTNAME_TYPE dwHostNameType,  
    BSTR*            pbstrHostName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetHostName (   
    enum_GETHOSTNAME_TYPE dwHostNameType,  
    out string            pbstrHostName  
@@ -64,7 +50,7 @@ int GetHostName ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that exposes the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface. This example ignores the `dwHostNameType` parameter and returns only the name of the program as taken from the base name of the module's file path.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetHostName(DWORD dwHostNameType, BSTR* pbstrHostName) {    
    // Check for valid argument.    
    if (pbstrHostName)    

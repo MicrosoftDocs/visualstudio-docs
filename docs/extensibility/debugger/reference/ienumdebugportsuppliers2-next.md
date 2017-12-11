@@ -2,7 +2,6 @@
 title: "IEnumDebugPortSuppliers2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::Next"
 ms.assetid: e2a2d226-e70b-42c2-bf00-a936517940c8
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugPortSuppliers2::Next
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG                 celt,  
    IDebugPortSupplier2** rgelt,  
@@ -45,7 +31,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint                  celt,  
    IDebugPortSupplier2[] rgelt,  

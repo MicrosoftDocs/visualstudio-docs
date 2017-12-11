@@ -2,7 +2,6 @@
 title: "GenerateBootstrapper Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # GenerateBootstrapper Task
 Provides an automated way to detect, download, and install an application and its prerequisites. It serves as a single installer that integrates the separate installers for all the components making up an application.  
@@ -67,7 +52,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the Web location that is hosting the application’s installer.  
+     Specifies the Web location that is hosting the application's installer.  
   
 -   `BootstrapperComponentFiles`  
   
@@ -81,7 +66,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Specifies the products to build into the bootstrapper. The items passed to this parameter should have the following syntax:  
   
-    ```  
+    ```xml  
     <BootstrapperItem  
         Include="ProductCode">  
         <ProductName>  
@@ -168,7 +153,7 @@ Provides an automated way to detect, download, and install an application and it
 ## Example  
  The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed as a prerequisite.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
     <ItemGroup>  

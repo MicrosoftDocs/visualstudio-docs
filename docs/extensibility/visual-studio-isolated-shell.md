@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/visual-studio-isolated-shell
 title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,29 +10,16 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Shell [Visual Studio], shell-based applications%2C isolated mode"
+  - "Shell [Visual Studio], shell-based applications, isolated mode"
   - "Visual Studio shell, isolated mode"
   - "isolated shell-based applications [Visual Studio]"
-  - "Visual Studio shell, shell-based applications%2C isolated mode"
+  - "Visual Studio shell, shell-based applications, isolated mode"
   - "Shell [Visual Studio], isolated mode"
 ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 35
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Visual Studio Isolated Shell
 The Visual Studio isolated shell allows you to create stand-alone applications that can run side-by-side with other versions of Visual Studio. It is used primarily to host specialized tools that can use Visual Studio services but also have a customized appearance and branding. Visual Studio features and menu command groups can be easily turned on and off. Application titles, application icons, and splash screens are fully customizable. For a list of customizable features, see [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md).  
@@ -42,7 +29,7 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
  To create an isolated shell application, start with a Visual Studio Shell Isolated project. This project contains everything that you need to develop and test your own isolated shell application. When you are ready to write the setup program that deploys your application, you must get the isolated shell redistributable package from [Microsoft Visual Studio Shell (Isolated) Redistributable Package](http://go.microsoft.com/fwlink/?LinkId=616022).  
   
 > [!NOTE]
->  Before you can access the isolated shell redistributable package, you will be asked to fill out a brief customer survey.  After filling out the survey, you’ll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
+>  Before you can access the isolated shell redistributable package, you will be asked to fill out a brief customer survey.  After filling out the survey, you'll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
   
 > [!NOTE]
 >  For more information about how to deploy an isolated shell-based application, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  

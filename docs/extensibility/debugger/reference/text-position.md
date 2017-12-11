@@ -2,7 +2,6 @@
 title: "TEXT_POSITION | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "TEXT_POSITION structure"
 ms.assetid: 6dcec574-a852-49fa-8c2e-2e71cbb5e3c6
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # TEXT_POSITION
 Describes the line and column location in the given text.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagTEXT_POSITION {   
    DWORD dwLine;  
    DWORD dwColumn;  
 } TEXT_POSITION;  
 ```  
   
-```c#  
+```csharp  
 public struct TEXT_POSITION {   
    public uint dwLine;  
    public uint dwColumn;  

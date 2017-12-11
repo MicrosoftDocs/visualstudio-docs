@@ -1,0 +1,51 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "scripting-docs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "scripting-docs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+            "breadcrumb_path": "~/_breadcrumb/toc.yml",
+            "ROBOTS": "INDEX,FOLLOW",
+            "author": "",
+            "ms.author": "",
+            "manager": "ghogen",
+            "ms.date": "3/7/2017",
+            "ms.topic": "article",
+            "audience": "developer",
+            "ms.reviewer": "",
+            "searchScope": ["Scripting"],
+            "hideScope": true
+    },
+    "fileMetadata": {},
+    "template": [],
+    "xref": ["msdn.4.5.2.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
+    "dest": "scripting-docs"
+  }
+}

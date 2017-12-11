@@ -2,7 +2,6 @@
 title: "Cores View Legend | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: e160384c-fcfe-49b3-86b7-229adb736c51
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Cores View Legend
 The Cores View legend identifies each thread by color and name. It includes columns that show counts for cross-core context switches, total context switches, and the percent of context switches that cross cores. Rows in the legend are sorted by the number of cross-core context switches, in decreasing order.  
   
  You can select rows in the legend to filter the threads that are displayed in the timeline. Only the selected threads are shown in the timeline. If no rows are selected, all rows are shown in the timeline.  
   
- Cross-core context switches cost more in overhead and performance than switches that remain on the same logical core. During context switches, the processor registers are saved and restored, the operating system kernel code is executed, the translation lookaside buffer entries are reloaded, and the processor pipeline is flushed. Cross-core context switches can be even more expensive than other context switches because the cache data is not valid for this thread on another core. In contrast, if a thread is context-switched onto the core it previously ran on, it’s likely that the useful data is still in the cache. When cross-core context switches have been increased by attempts to manage thread affinity and performance is degraded, consider whether to address this issue. Start by eliminating thread affinity, and then observe the resulting cross-core behavior.  
+ Cross-core context switches cost more in overhead and performance than switches that remain on the same logical core. During context switches, the processor registers are saved and restored, the operating system kernel code is executed, the translation lookaside buffer entries are reloaded, and the processor pipeline is flushed. Cross-core context switches can be even more expensive than other context switches because the cache data is not valid for this thread on another core. In contrast, if a thread is context-switched onto the core it previously ran on, it's likely that the useful data is still in the cache. When cross-core context switches have been increased by attempts to manage thread affinity and performance is degraded, consider whether to address this issue. Start by eliminating thread affinity, and then observe the resulting cross-core behavior.  
   
  The following table describes the legend elements.  
   

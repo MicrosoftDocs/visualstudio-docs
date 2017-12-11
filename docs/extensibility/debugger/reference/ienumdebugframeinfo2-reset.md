@@ -2,7 +2,6 @@
 title: "IEnumDebugFrameInfo2::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Reset"
 ms.assetid: e149b559-f072-480b-9552-a452b147f3a8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugFrameInfo2::Reset
 Resets the enumeration to the first element.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Reset(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int Reset();  
 ```  
   

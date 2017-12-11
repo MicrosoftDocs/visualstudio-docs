@@ -2,7 +2,6 @@
 title: "IDebugProgram2::GetDisassemblyStream | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugProgram2::GetDisassemblyStream"
 ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgram2::GetDisassemblyStream
 Gets the disassembly stream for this program or a part of this program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDisassemblyStream(   
    DISASSEMBLY_STREAM_SCOPE   dwScope,  
    IDebugCodeContext2*        pCodeContext,  
@@ -45,7 +31,7 @@ HRESULT GetDisassemblyStream( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDisassemblyStream(   
    enum_DISASSEMBLY_STREAM_SCOPE  dwScope,  
    IDebugCodeContext2             pCodeContext,  

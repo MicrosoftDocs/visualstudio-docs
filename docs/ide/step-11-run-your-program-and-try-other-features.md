@@ -2,33 +2,17 @@
 title: "Step 11: Run Your Program and Try Other Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 11: Run Your Program and Try Other Features
 Your program is finished and ready to run. You can run your program and set the background color of the PictureBox. To learn more, try to improve the program by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.  
@@ -65,7 +49,7 @@ Color dialog box
   
 ### To continue or review  
   
--   To learn more about programming in Visual Studio, see [Programming Concepts](../Topic/Programming%20Concepts.md).  
+-   To learn more about programming in Visual Studio, see [Programming Concepts](http://msdn.microsoft.com/Library/65c12cca-af4f-4017-886e-2dbc00a189d6).  
   
 -   To learn more about Visual Basic, see [Developing Applications with Visual Basic](/dotnet/visual-basic/developing-apps/index).  
   

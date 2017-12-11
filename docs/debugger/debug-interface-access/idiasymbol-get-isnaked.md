@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_isNaked | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: b16629dc-8e17-476b-9c7b-58e7277c61ed
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_isNaked
-Retrieves a flag that specifies whether the function has the [naked](/visual-cpp/cpp/naked-cpp) attribute (that is, the function has no prolog or epilog code added by the compiler).  
+Retrieves a flag that specifies whether the function has the [naked](/cpp/cpp/naked-cpp) attribute (that is, the function has no prolog or epilog code added by the compiler).  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isNaked(  
    BOOL *pFlag  
 );  
@@ -64,4 +48,4 @@ HRESULT get_isNaked(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Naked Function Calls](/visual-cpp/cpp/naked-function-calls)
+ [Naked Function Calls](/cpp/cpp/naked-function-calls)

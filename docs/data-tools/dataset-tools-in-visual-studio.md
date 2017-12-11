@@ -2,18 +2,12 @@
 title: "Dataset tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.data.DataSet"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "untyped datasets"
   - "datasets [Visual Basic], extended properties"
@@ -53,24 +47,10 @@ helpviewer_keywords:
   - "data adapters, populating datasets"
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 caps.latest.revision: 49
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Dataset tools in Visual Studio
 > [!NOTE]
@@ -78,7 +58,7 @@ translation.priority.mt:
   
  A DataSet object is an in-memory object that is essentially a mini-database. It contains DataTable, DataColumn, and DataRow objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.  
   
- Datasets and related classes are defined in the System.Data namespace in the .NET Framework class library. You can create and modify datasets dynamically in code. For more information about how to do that, see ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. One thing to know: datasets that are made through designers use TableAdapter objects to interact with the database, whereas datasets that are made programmatically use DataAdapter objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](../Topic/DataAdapters%20and%20DataReaders.md).  
+ Datasets and related classes are defined in the System.Data namespace in the .NET Framework class library. You can create and modify datasets dynamically in code. For more information about how to do that, see ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. One thing to know: datasets that are made through designers use TableAdapter objects to interact with the database, whereas datasets that are made programmatically use DataAdapter objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).  
   
  If your application needs to only read data from a database, and not perform updates, adds, or deletes, you can usually get better performance by using a DataReader object to retrieve data into a generic List object or another collection object. If you are displaying the data, you can data-bind the user interface to the collection.  
   
@@ -99,7 +79,7 @@ translation.priority.mt:
   
     -   [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
   
--   Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md).  
+-   Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).  
   
 -   Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   

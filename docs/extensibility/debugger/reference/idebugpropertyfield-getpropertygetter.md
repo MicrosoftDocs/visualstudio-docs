@@ -2,7 +2,6 @@
 title: "IDebugPropertyField::GetPropertyGetter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugPropertyField::GetPropertyGetter method"
 ms.assetid: ab9f861a-42ad-4a82-9ae6-2606176f755a
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPropertyField::GetPropertyGetter
 Gets the method that gets the property.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPropertyGetter(   
    IDebugMethodField** ppField  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetPropertyGetter(  
    out IDebugMethodField ppField  
 );  

@@ -2,7 +2,6 @@
 title: "Getting Started with Language Service and Editor Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Getting Started with Language Service and Editor Extensions
 You can use editor extensions to add language service features such as outlining, brace matching, IntelliSense, and light bulbs to your own programming language or to any content type. You can also customize the appearance and behavior of the Visual Studio editor, for example text coloring, margins, adornments, and other visual elements. You can also define your own type of content, and specify the appearance and behavior of the text views in which your content appears.  
@@ -41,7 +27,7 @@ You can use editor extensions to add language service features such as outlining
  We recommend that you learn about the following concepts and technologies before you write your own editor extensions.  
   
 ## The Windows Presentation Foundation (WPF) and Editor Extensions  
- The Visual Studio editor user interface (UI) is implemented by using the Windows Presentation Foundation (WPF). The WPF provides a rich visual experience and a consistent programming model that separates the visual aspects of the code from the business logic. You can use many WPF elements and features when you create editor extensions. For more information, see [Windows Presentation Foundation](../Topic/Windows%20Presentation%20Foundation.md).  
+ The Visual Studio editor user interface (UI) is implemented by using the Windows Presentation Foundation (WPF). The WPF provides a rich visual experience and a consistent programming model that separates the visual aspects of the code from the business logic. You can use many WPF elements and features when you create editor extensions. For more information, see [Windows Presentation Foundation](/dotnet/framework/wpf/index).  
   
 ## The Managed Extensibility Framework (MEF) and Editor Extensions  
  The Visual Studio editor uses the Managed Extensibility Framework (MEF) to manage its components and extensions. The MEF also lets developers more easily create extensions for a host application like Visual Studio. In this framework, you define an extension according to a MEF contract and export it as a MEF component part. The host application manages the component parts by finding them, registering them, and making sure that they are applied to the correct context.  

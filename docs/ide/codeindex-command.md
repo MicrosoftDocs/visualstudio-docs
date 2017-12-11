@@ -2,7 +2,6 @@
 title: "CodeIndex Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,30 +14,16 @@ helpviewer_keywords:
   - "CodeIndex command [Team Foundation Server]"
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CodeIndex Command
 Use the **CodeIndex** command to manage code indexing on Team Foundation Server. For example, you might want to reset the index to fix CodeLens information, or turn off indexing to investigate server performance issues.  
   
  **Required Permissions**  
   
- To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permission reference for Team Foundation Server](../Topic/Permission%20reference%20for%20Team%20Foundation%20Server.md).  
+ To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](https://www.visualstudio.com/docs/setup-admin/permissions).  
   
 > [!NOTE]
 >  Even if you log on with administrative credentials, you must open an elevated Command Prompt window to run this command. You must also run this command from the application tier for Team Foundation.  
@@ -135,6 +120,8 @@ TFSConfig CodeIndex /temporaryDataSizeLimit:disable /collectionName:"Fabrikam We
 TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"  
 ```  
   
-## See Also  
- [Managing server configuration with TFSConfig](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)   
- [Command-line tools for TFS](http://msdn.microsoft.com/en-us/be8c997a-b97b-4e59-97f5-04db0a601a6c)
+## See also
+
+[Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)  
+[Managing server configuration with TFSConfig](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)  
+[Command-line tools for TFS](http://msdn.microsoft.com/en-us/be8c997a-b97b-4e59-97f5-04db0a601a6c)

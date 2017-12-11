@@ -2,7 +2,6 @@
 title: "CommandName Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandName"
 ms.assetid: a338b767-aa7e-4536-9908-e19a50ab60ac
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CommandName Element
 The `CommandName` element specifies the text that appears in the keyboard category in the **Options** dialog box, and in the **Commands** list in the **Customize** dialog box.  

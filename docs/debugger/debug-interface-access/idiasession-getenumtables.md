@@ -2,7 +2,6 @@
 title: "IDiaSession::getEnumTables | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 66e0fba2-ca63-4e24-a46a-c99c7fb61dd1
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::getEnumTables
 Retrieves an enumerator for all tables contained in the symbol store.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT getEnumTables (   
    IDiaEnumTables** ppEnumTables  
 );  
@@ -55,7 +39,7 @@ HRESULT getEnumTables ( 
 ## Example  
  This example presents a general function that uses the `getEnumTables` method to obtain a specific enumerator object. If the enumerator is found, the function returns a pointer that can be cast to the desired interface; otherwise, the function returns `NULL`.  
   
-```cpp#  
+```C++  
 IUnknown *GetTable(IDiaSession *pSession, REFIID iid)  
 {  
     IUnknown *pUnknown = NULL;  

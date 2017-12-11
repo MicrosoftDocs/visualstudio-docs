@@ -2,7 +2,6 @@
 title: "How to: Build the Same Source Files with Different Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,21 +17,7 @@ ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Build the Same Source Files with Different Options
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], you use properties and conditions to create the different build configurations.  
@@ -46,7 +31,7 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
   
-    ```  
+    ```xml  
     <PropertyGroup Condition="'$(Flavor)'=='DEBUG'">  
         <DebugType>full</DebugType>  
         <Optimize>no</Optimize>  
@@ -57,7 +42,7 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use a `Condition` attribute in a `Property` element similar to the following:  
   
-    ```  
+    ```xml  
     <DebugType Condition="'$(Flavor)'=='DEBUG'">full</DebugType>  
     ```  
   
@@ -113,7 +98,7 @@ msbuild consolehwcs1.proj /p:flavor=debug
 msbuild consolehwcs1.proj /p:flavor=retail  
 ```  
   
-```  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -174,7 +159,7 @@ msbuild consolehwcs1.proj /p:flavor=retail
 msbuild colortest.proj /t:go /property:Color=Green  
 ```  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  
 ToolsVersion="4.0" TreatAsLocalProperty="Color">  
   
@@ -197,7 +182,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```  
   
 ## See Also  
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)

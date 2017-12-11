@@ -2,7 +2,6 @@
 title: "Using emulators to isolate unit tests for Sharepoint 2010 applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b681164c-c87a-4bd7-be48-ed77e1578471
 caps.latest.revision: 15
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Using emulators to isolate unit tests for Sharepoint 2010 applications
 The Microsoft.SharePoint.Emulators package provides a set of libraries that help you to create isolated unit tests for Microsoft SharePoint 2010 applications. Emulators use [shims](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md) from the [Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) isolation framework to create lightweight in-memory objects that mimic the most common objects and methods of the SharePoint API. When a SharePoint method is not emulated, or when you want to change the default behavior of an emulator, you can create Fakes shims to provide the results that you want.  
@@ -118,7 +103,7 @@ public bool ScheduleAppointment(SPWeb web, string listName, string name,
   
  The first test of the functionality in `ScheduleAppointment` method might look like this:  
   
-```c#  
+```csharp  
   
 [TestMethod]  
 public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()  
@@ -167,7 +152,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
   
  To enable emulation in your test methods, wrap the method body in a `using` statement that creates a `SharePointEmulationScope` object. For example:  
   
-```c#  
+```csharp  
   
 [TestMethod]  
 public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()  
@@ -206,7 +191,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
   
  For example, here's how you can modify the previous test to be dual-use:  
   
-```c#  
+```csharp  
   
 // class level field specifies emulation mode  
 private const EmulationMode emulatorMode = EmulationMode.Enabled;  
@@ -251,7 +236,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
   
  Here's an example of the test class that demonstrates how to use preprocessor directives and the `TestInitialize` and `TestCleanup` attributed methods to set the emulation mode.  
   
-```c#  
+```csharp  
 //namespace declarations  
 ...  
   
@@ -328,7 +313,7 @@ namspace MySPAppTests
   
  In our example project, the `GetAppointmentsForToday` method calls the [SPList.GetItems(SPQuery)](http://msdn.microsoft.com/library/ms457534.aspx) SharePoint API method.  
   
-```c#  
+```csharp  
 // method under test  
 public string GetAppointmentsForToday(string listName, SPWeb web)  
 {  
@@ -353,7 +338,7 @@ public string GetAppointmentsForToday(string listName, SPWeb web)
 > [!IMPORTANT]
 >  Test methods that explicitly create Fakes shims throw a `ShimNotSupported` exception when the test is run in the `EmulationMode.Passthrough` context. To avoid this issue, use a variable to set the `EmulationMode` value and wrap any Fakes code in an `if` statement that tests the value.  
   
-```c#  
+```csharp  
 // class level field to set emulation mode  
 private const EmulationMode emulatorMode = EmulationMode.Enabled  
   
@@ -416,7 +401,7 @@ public void GetAppointmentsForTodayReturnsOnlyTodaysAppointments()
 ##  <a name="BKMK_Example"></a> Example  
  Here's a final example that incorporates the SharePoint emulator techniques that are described above:  
   
-```c#  
+```csharp  
 using System;   
 //other namespace declarations  
 ...   

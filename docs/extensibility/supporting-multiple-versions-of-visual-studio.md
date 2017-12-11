@@ -2,7 +2,6 @@
 title: "Supporting Multiple Versions of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "VSPackages, side-by-side compatibility"
 ms.assetid: 0047aa90-1ed4-40d3-8772-622b2719a4b1
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Supporting Multiple Versions of Visual Studio
 The term *side-by-side* means that you can install and maintain multiple versions of a product on the same computer. For VSPackages, that means a user can have several Visual Studio versions installed on the same computer. However, you cannot have side-by-side versions of your VSPackages loaded into a single version of Visual Studio.  
@@ -42,7 +28,7 @@ The term *side-by-side* means that you can install and maintain multiple version
   
 -   Your solution and project file formats must fit your implementation strategy.  
   
-     For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md) and [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
+     For more information, see [Upgrading Custom Projects](../extensibility/internals/upgrading-projects.md#upgrading-custom-projects) and [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
   
 -   Your installer must handle your implementation strategy so that versioned components, and also components shared across all versions, are correctly installed and registered.  
   
@@ -59,5 +45,4 @@ The term *side-by-side* means that you can install and maintain multiple version
  Describes how your VSPackage can register file associations in a side-by-side scenario.  
   
 ## Related Sections  
- [Installing VSPackages](../misc/installing-vspackages.md)  
- Discusses how to build and install VSPackages and how to support users who are running multiple versions of Visual Studio at the same time.
+ [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)  

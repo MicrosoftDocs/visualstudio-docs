@@ -2,7 +2,6 @@
 title: "SetThreadCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,21 +19,7 @@ ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SetThreadCount
 Sets the global thread count, and assigns that count to the current thread.  
@@ -50,7 +35,7 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  The number of threads to use.  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the thread count was updated.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.  
   
 ## Requirements  
  **Header:** FileTracker.h

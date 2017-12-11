@@ -2,7 +2,6 @@
 title: "Adding a Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
 caps.latest.revision: 52
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Adding a Tool Window
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:  
@@ -127,7 +113,7 @@ In this walkthrough you learn how to create a tool window and integrate it into 
   
 3.  Open FirstToolWindowCommand.cs and add the following lines in the class just after the existing fields.  
   
-    ```c#  
+    ```csharp  
     public const string guidFirstToolWindowPackageCmdSet = "00000000-0000-0000-0000-0000";  // get the GUID from the .vsct file  
     public const uint cmdidWindowsMedia =        0x100;   
     public const int cmdidWindowsMediaOpen = 0x132;  
@@ -141,7 +127,7 @@ In this walkthrough you learn how to create a tool window and integrate it into 
   
  In **Solution Explorer**, right-click FirstToolWindowControl.xaml, click **View Code**, and add the following code to the FirstToolWindowControl Class.  
   
-```c#  
+```csharp  
 public System.Windows.Controls.MediaElement MediaPlayer  
 {  
     get { return mediaElement1; }  
@@ -153,7 +139,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 1.  Open FirstToolWindow.cs and add the following `using` statements.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel.Design;  
     using System.Windows.Forms;  
     using Microsoft.VisualStudio.Shell.Interop;   
@@ -161,20 +147,20 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 2.  Inside the FirstToolWindow class, add a public reference to the FirstToolWindowControl control.  
   
-    ```c#  
+    ```csharp  
     public FirstToolWindowControl control;  
     ```  
   
 3.  At the end of the constructor, set this control variable to the newly-created control.  
   
-    ```c#  
+    ```csharp  
     control = new FirstToolWindowControl();   
     base.Content = control;  
     ```  
   
 4.  Instantiate the toolbar inside the constructor.  
   
-    ```c#  
+    ```csharp  
     this.ToolBar = new CommandID(new Guid(FirstToolWindowCommand.guidFirstToolWindowPackageCmdSet),   
         FirstToolWindowCommand.ToolbarID);  
     this.ToolBarLocation = (int)VSTWT_LOCATION.VSTWT_TOP;  
@@ -182,7 +168,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 5.  At this point the FirstToolWindow constructor should look like this:  
   
-    ```c#  
+    ```csharp  
     public FirstToolWindow() : base(null)  
     {  
         this.Caption = "FirstToolWindow";  
@@ -198,13 +184,13 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 6.  Add the menu command to the toolbar. In the FirstToolWindowCommand.cs class, add the following using statement  
   
-    ```c#  
+    ```csharp  
     using System.Windows.Forms;  
     ```  
   
 7.  In the FirstToolWindowCommand class, add the following code at the end of the ShowToolWindow() method. The ButtonHandler command will be implemented in the next section.  
   
-    ```c#  
+    ```csharp  
     // Create the handles for the toolbar command.   
     var mcs = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
     var toolbarbtnCmdID = new CommandID(new Guid(FirstToolWindowCommand.guidFirstToolWindowPackageCmdSet),  
@@ -220,13 +206,13 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 2.  In the FirstToolWindowCommand class, add a private reference to the FirstToolWindow window that gets created in the FindToolWindow() method.  
   
-    ```c#  
+    ```csharp  
     private FirstToolWindow window;  
     ```  
   
 3.  Change the ShowToolWindow() method to set the window you defined above (so that the ButtonHandler command handler can access the window control. Here is the complete ShowToolWindow() method.  
   
-    ```c#  
+    ```csharp  
     private void ShowToolWindow(object sender, EventArgs e)  
     {  
         window = (FirstToolWindow) this.package.FindToolWindow(typeof(FirstToolWindow), 0, true);  
@@ -249,7 +235,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 4.  Add the ButtonHandler method. It creates an OpenFileDialog for the user to specify the media file to play, and then plays the selected file.  
   
-    ```c#  
+    ```csharp  
     private void ButtonHandler(object sender, EventArgs arguments)  
     {  
         OpenFileDialog openFileDialog = new OpenFileDialog();  
@@ -266,7 +252,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 1.  In FirstToolWindowPackage.cs, find the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> attribute on the `FirstToolWindowPackage` class, which passes the FirstToolWindow type to the constructor. To specify a default position, you must add more parameters to the constructor following example.  
   
-    ```c#  
+    ```csharp  
     [ProvideToolWindow(typeof(FirstToolWindow),  
         Style = Microsoft.VisualStudio.Shell.VsDockStyle.Tabbed,  
         Window = "3ae79031-e1bc-11d0-8f78-00a0c9110057")]  

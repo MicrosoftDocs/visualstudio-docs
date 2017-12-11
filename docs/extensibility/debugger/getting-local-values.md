@@ -2,7 +2,6 @@
 title: "Getting Local Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "expression evaluation, getting local values"
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Getting Local Values
 > [!IMPORTANT]
@@ -51,7 +37,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in managed code. It also shows a helper function, `Field.GetType`, that is used to get the field's type. `Field.GetValue` is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md). The helper function `Field.MapModifiersToAttributes` (not shown) simply converts a field's [FIELD_MODIFIERS](../../extensibility/debugger/reference/field-modifiers.md) flags to [DBG_ATTRIB_FLAGS](../../extensibility/debugger/reference/dbg-attrib-flags.md) values.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     public class CFieldProperty : IDebugProperty2  
@@ -191,7 +177,7 @@ namespace EEMC
 ## Unmanaged Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in unmanaged code. It also shows two helper functions, `FieldGetType` and `FieldGetValue` that are used to get the field's type and value, respectively. Note that `VARIANT`s are used for the field's value and type as a `VARIANT` can handle a wide variety of value types. In this implementation, `FieldGetValue` returns an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object that is later converted to a value in a call to `FieldGetPrimitiveValue` (which is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md)).  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CFieldProperty::GetPropertyInfo(   
     in  DEBUGPROP_INFO_FLAGS infoFlags,  
     in  DWORD                radix,  

@@ -2,7 +2,6 @@
 title: "IDebugCustomAttribute::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugCustomAttribute::GetName"
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCustomAttribute::GetName
 Gets the name of the custom attribute.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName(   
    BSTR* bstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetName(  
    out string bstrName  
 );  

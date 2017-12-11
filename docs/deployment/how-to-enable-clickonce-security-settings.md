@@ -2,7 +2,6 @@
 title: "How to: Enable ClickOnce Security Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,20 +21,6 @@ caps.latest.revision: 8
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Enable ClickOnce Security Settings
 Code access security for ClickOnce applications must be enabled in order to publish the application. This is done automatically when you publish an application using the Publish wizard.  
@@ -73,4 +58,4 @@ Code access security for ClickOnce applications must be enabled in order to publ
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
+ 

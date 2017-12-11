@@ -2,7 +2,6 @@
 title: "IDiaSegment::get_relativeVirtualAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: b6a573a1-3671-4c1c-a5c2-2ab8f07fd510
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSegment::get_relativeVirtualAddress
 Retrieves the relative virtual address (RVA) of the beginning of the section.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddress (   
    DWORD* pRetVal  
 );  

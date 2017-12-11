@@ -1,8 +1,7 @@
 ---
-title: "Options, Text Editor, C-C++, Formatting | Microsoft Docs"
+title: "Options, Text Editor, C/C++, Formatting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,23 +17,9 @@ helpviewer_keywords:
   - "Text Editor Options dialog box, formatting"
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Options, Text Editor, C/C++, Formatting
 Lets you change the default behavior of the Code Editor when you are programming in C or C++.  
@@ -42,7 +27,7 @@ Lets you change the default behavior of the Code Editor when you are programming
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then click **Formatting**.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
 ## C/C++ Options  
  **Enable automatic Quick Info ToolTips**  
@@ -77,16 +62,16 @@ Lets you change the default behavior of the Code Editor when you are programming
  When you bring a file into the text editor, you can enable the outlining feature. For more information, see [Outlining](../../ide/outlining.md). When this option is selected, the outlining feature is enabled when you open a file.  
   
  **Automatic outlining of #pragma region blocks**  
- When this option is selected, automatic outlining for [pragma directives](/visual-cpp/preprocessor/pragma-directives-and-the-pragma-keyword) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
+ When this option is selected, automatic outlining for [pragma directives](/cpp/preprocessor/pragma-directives-and-the-pragma-keyword) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
   
  **Automatic outlining of statement blocks**  
  When this option is selected, automatic outlining is enabled for the following statement constructs:  
   
 -   [if-else](/dotnet/csharp/language-reference/keywords/if-else)  
   
--   [switch Statement (C++)](/visual-cpp/cpp/switch-statement-cpp)  
+-   [switch Statement (C++)](/cpp/cpp/switch-statement-cpp)  
   
--   [while Statement (C++)](/visual-cpp/cpp/while-statement-cpp)  
+-   [while Statement (C++)](/cpp/cpp/while-statement-cpp)  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

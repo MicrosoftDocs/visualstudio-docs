@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/installing-an-isolated-shell-application
 title: "Installing an Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "Visual Studio shell, deploying shell-based applications"
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 40
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Installing an Isolated Shell Application
 To install a Shell app you must perform the following steps.  
@@ -364,7 +351,7 @@ CString GetSetupPath()
 ### Running the Application MSI  
  After the Visual Studio Shell installer returns ERROR_SUCCESS, you can run the MSI for your application. Because your Setup program is providing the user interface, start your MSI in quiet mode (**/q**) and with logging (**/L**), as the following example shows.  
   
-```cpp#  
+```cpp  
 TCHAR temp[MAX_PATH];  
 GetTempPath(MAX_PATH, temp);  
   

@@ -2,7 +2,6 @@
 title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # GenerateTemporaryTargetAssembly Task
 The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
@@ -64,7 +49,7 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
 ## Example  
  The following example generates a temporary assembly because `Page1.xaml` contains a reference to a type that is in the same project.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask  
     TaskName="Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly"   
@@ -89,5 +74,5 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML Browser Applications Overview](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+ [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
+ [WPF XAML Browser Applications Overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

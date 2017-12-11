@@ -2,7 +2,6 @@
 title: "Checklist: Creating New Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Checklist: Creating New Project Types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  
@@ -46,7 +32,7 @@ You must complete several tasks to create a new project type. The following chec
   
     -   Project factory, to manage creating new projects and opening existing projects. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
   
-    -   Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
+    -   Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).  
   
     -   Project items management, including adding your project to the **New Project** dialog box. For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   

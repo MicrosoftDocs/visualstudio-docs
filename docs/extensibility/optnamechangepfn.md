@@ -2,7 +2,6 @@
 title: "OPTNAMECHANGEPFN | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "OPTNAMECHANGEPFN callback function"
 ms.assetid: 147303f3-c7f1-438a-81b7-db891ea3d076
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # OPTNAMECHANGEPFN
 This is a callback function specified in a call to the [SccSetOption](../extensibility/sccsetoption-function.md) (using option `SCC_OPT_NAMECHANGEPFN`) and is used to communicate name changes made by the source control plug-in back to the IDE.  
   
 ## Signature  
   
-```cpp#  
+```cpp  
 typedef void (*OPTNAMECHANGEPFN)(  
    LPVOID pvCallerData,  
    LPCSTR pszOldName,  

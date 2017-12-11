@@ -2,7 +2,6 @@
 title: "IDebugBinder3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugBinder3 interface"
 ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBinder3
 > [!IMPORTANT]
@@ -48,7 +34,7 @@ IDebugBinder3 : IDebugBinder
  A debug engine implements this interface to support aliases, custom visualizer services, and access to object type information.  
   
 ## Notes for Callers  
- An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](/visual-cpp/atl/queryinterface).  
+ An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](/cpp/atl/queryinterface).  
   
 ## Methods in Vtable order  
  In addition to the methods provided by the [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface, this interface implements the following:  

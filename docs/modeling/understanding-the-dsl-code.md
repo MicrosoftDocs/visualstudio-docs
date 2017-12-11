@@ -2,7 +2,6 @@
 title: "Understanding the DSL Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 19
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Understanding the DSL Code
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.  
@@ -60,7 +45,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
 -   Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.  
   
--   Set options in the DSL Definition that cause the generated code to provide ‘hooks’ for your own code.  
+-   Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.  
   
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.  
   
@@ -144,7 +129,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 > [!NOTE]
 >  This is not the same as the root class of the model.  
   
- Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md).  
+ Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. 
   
  `DomainModelResx.resx`  
   

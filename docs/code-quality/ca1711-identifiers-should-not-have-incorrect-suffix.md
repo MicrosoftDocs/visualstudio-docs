@@ -2,11 +2,10 @@
 title: "CA1711: Identifiers should not have incorrect suffix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectSuffix"
 ms.assetid: a63359ab-386d-44ae-b381-ee3a983aca29
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1711: Identifiers should not have incorrect suffix
 |||  
@@ -86,5 +71,5 @@ translation.priority.ht:
  [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)  
   
 ## See Also  
- [Attributes](../Topic/Attributes1.md)   
- [NIB: Events and Delegates](http://msdn.microsoft.com/en-us/d98fd58b-fa4f-4598-8378-addf4355a115)
+ [Attributes](/dotnet/standard/design-guidelines/attributes)   
+ [Handling and raising events](/dotnet/standard/events/index)  

@@ -2,7 +2,6 @@
 title: "IDebugStopCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "IDebugStopCompleteEvent2 interface"
 ms.assetid: ff3e89f4-61bb-489d-901c-447260100218
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugStopCompleteEvent2
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.  

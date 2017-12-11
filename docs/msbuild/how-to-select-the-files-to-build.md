@@ -2,7 +2,6 @@
 title: "How to: Select the Files to Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Select the Files to Build
 When you build a project that contains several files, you can list each file separately in the project file, or you can use wildcards to include all the files in one directory or a nested set of directories.  
@@ -47,7 +32,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSFile Include="form1.cs"/>`  
   
-     – or –  
+     - or -  
   
      `<VBFile Include="form1.vb"/>`  
   
@@ -60,7 +45,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
-     – or –  
+     - or -  
   
      `<VBFile Include="form1.vb;form2.vb"/>`  
   
@@ -93,7 +78,7 @@ When you build a project that contains several files, you can list each file sep
   
      `Include="Images\**\*jpgs\*.*"`  
   
-     – or –  
+     - or -  
   
      `Include="Images\**\*jpgs\*"`  
   
@@ -106,7 +91,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSC Sources="@(CSFile)">...</CSC>`  
   
-     – or –  
+     - or -  
   
      `<VBC Sources="@(VBFile)">...</VBC>`  
   
@@ -118,7 +103,7 @@ When you build a project that contains several files, you can list each file sep
 ## Example  
  The following code example shows a project that includes all of the input files separately.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
     <PropertyGroup>  
@@ -152,7 +137,7 @@ When you build a project that contains several files, you can list each file sep
 ## Example  
  The following code example uses a wildcard to include all the .cs files.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

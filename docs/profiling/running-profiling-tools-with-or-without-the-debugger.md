@@ -2,7 +2,6 @@
 title: "Running Profiling Tools With or Without the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +12,7 @@ ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Running Profiling Tools With or Without the Debugger
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
@@ -25,15 +24,15 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
   
 1.  Was the issue found while the application was being developed, or was it found in a released version?  
   
-     If the issue you are dealing with was found during development, you probably don’t need to run the performance tools in a Release build. If it was found in a Release version, you should reproduce the issue with a Release configuration, and then decide whether or not the debugger would help for further investigation.  
+     If the issue you are dealing with was found during development, you probably don't need to run the performance tools in a Release build. If it was found in a Release version, you should reproduce the issue with a Release configuration, and then decide whether or not the debugger would help for further investigation.  
   
 2.  Is the issue caused by CPU-intensive processing?  
   
-     Many problems are due to external performance issues such as file I/O or network responsiveness, so it shouldn’t make much difference whether you run the performance tools with or without the debugger. If your issue is due to CPU-intensive calls, the difference between Release and Debug configurations may be considerable, and you should probably check to see if the issue exists in the Release build before using the debugger-integrated tools  
+     Many problems are due to external performance issues such as file I/O or network responsiveness, so it shouldn't make much difference whether you run the performance tools with or without the debugger. If your issue is due to CPU-intensive calls, the difference between Release and Debug configurations may be considerable, and you should probably check to see if the issue exists in the Release build before using the debugger-integrated tools  
   
 3.  Do you need to measure performance precisely, or is an approximate number acceptable?  
   
-     Debug builds lack certain optimizations that Release builds provide, for example inlining function calls and constants, pruning unused code paths, and storing variables in ways that can’t be used by the debugger. The debugger itself changes performance times because it performs certain operations that are necessary for debugging (for example, intercepting exception and module load events). So performance numbers in the debugger-integrated tools are accurate only to within tens of milliseconds. Performance numbers for Release configurations with the non-debugger tools are much more precise.  
+     Debug builds lack certain optimizations that Release builds provide, for example inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. The debugger itself changes performance times because it performs certain operations that are necessary for debugging (for example, intercepting exception and module load events). Performance numbers in the debugger-integrated tools are less accurate as they do not account for debugger optimizations, but still can be useful when compared with other relative measurements taken while debugging. Performance numbers for Release configurations with the non-debugger tools are much more precise.
   
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
  The following section deals with debugging locally. You can find out about debugging on a device or remote debugging, in later sections.  
@@ -119,7 +118,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
  ![Specify the url to display in Internet Explorer](../profiling/media/pdhub_choosephoneanalysistarget.png "PDHUB_ChoosePhoneAnalysisTarget")  
   
 ## Remote Debugging  
- Running a diagnostic session on a remote PC or tablet requires that the Visual Studio Remote Tools be installed and running on the remote target. For desktop apps, see [Remote Debugging](../debugger/remote-debugging.md).  For Windows Universal apps, see [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
+ Running a diagnostic session on a remote PC or tablet requires that the Visual Studio Remote Tools be installed and running on the remote target. For desktop apps, see [Remote Debugging](../debugger/remote-debugging.md).  For Windows Universal apps, see [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
   
 ## Blog posts and MSDN articles from the Diagnostics development team  
  [MSDN Magazine: Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/en-us/magazine/dn973013.aspx)  

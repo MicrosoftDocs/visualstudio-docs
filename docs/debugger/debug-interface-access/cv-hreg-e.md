@@ -2,7 +2,6 @@
 title: "CV_HREG_e | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 3f0622f7-6790-41d8-8778-227cbbf8a212
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CV_HREG_e
 Specifies a target register.  
@@ -42,7 +26,7 @@ Specifies a target register.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum CV_HREG_e {   
    // Register subset shared by all processor types   
    CV_ALLREG_ERR    = 30000,  

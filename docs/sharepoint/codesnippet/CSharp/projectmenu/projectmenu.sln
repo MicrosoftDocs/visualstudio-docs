@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMenu", "ProjectMenu.csproj", "{8B8A22F8-C49A-4706-8F2B-B72BCC5DE57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{ADAFF0FC-3871-45E7-A596-20B692D1E847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B8A22F8-C49A-4706-8F2B-B72BCC5DE57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8A22F8-C49A-4706-8F2B-B72BCC5DE57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8A22F8-C49A-4706-8F2B-B72BCC5DE57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8A22F8-C49A-4706-8F2B-B72BCC5DE57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAFF0FC-3871-45E7-A596-20B692D1E847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAFF0FC-3871-45E7-A596-20B692D1E847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAFF0FC-3871-45E7-A596-20B692D1E847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAFF0FC-3871-45E7-A596-20B692D1E847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

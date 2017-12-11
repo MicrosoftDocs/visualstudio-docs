@@ -2,7 +2,6 @@
 title: "SccCreateSubProject Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "SccCreateSubProject function"
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SccCreateSubProject Function
 This function creates a subproject with the given name under an existing parent project specified by the `lpParentProjPath` argument.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCreateSubProject(  
    LPVOID pContext,  
    HWND   hWnd,  

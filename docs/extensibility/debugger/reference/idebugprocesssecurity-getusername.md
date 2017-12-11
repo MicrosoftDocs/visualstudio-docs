@@ -2,7 +2,6 @@
 title: "IDebugProcessSecurity::GetUserName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,35 +12,22 @@ helpviewer_keywords:
   - "IDebugProcessSecurity::GetUserName"
 ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcessSecurity::GetUserName
 Gets the user name from the port supplier.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetUserName(  
     BSTR *pbstrUserName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetUserName (  
     string pbstrUserName  
 );  

@@ -2,7 +2,6 @@
 title: "Controlling Color, Line Style, and other Shape Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,23 +11,9 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Controlling Color, Line Style, and other Shape Properties
-Some shape properties such as color can be 'exposed’ – that is, linked to a domain property of the shape. Others have to be controlled directly.  
+Some shape properties such as color can be 'exposed' - that is, linked to a domain property of the shape. Others have to be controlled directly.  
   
 ## Exposing a property  
  Some shape properties such as color can be linked to the value of a domain property.  
@@ -40,7 +25,7 @@ Some shape properties such as color can be 'exposed’ – that is, linked to a 
 ## Dynamically updating an exposed property  
  Typically you want to make the exposed property dependent on another property. For example, you might want a shape to turn red whenever a particular domain property is less than zero. To make this dependency, create a [rule](../modeling/rules-propagate-changes-within-the-model.md). For example:  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  

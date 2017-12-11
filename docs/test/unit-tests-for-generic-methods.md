@@ -2,7 +2,6 @@
 title: "Unit tests for Generic Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,8 @@ helpviewer_keywords:
   - "unit tests, and generics"
 ms.assetid: ffc89814-a7df-44fc-aef5-dd3dfeb28a9b
 caps.latest.revision: 47
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Unit tests for Generic Methods
 You can generate unit tests for generic methods exactly as you do for other methods, as described in [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48). The following sections provide information about and examples of creating unit tests for generic methods.  
@@ -128,7 +113,7 @@ public void SizeOfLinkedListTest()
 ```  
   
 > [!NOTE]
->  Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while Running a Test in an ASP.NET Solution](../Topic/How%20to:%20Debug%20while%20Running%20a%20Test%20in%20an%20ASP.NET%20Solution.md).  
+>  Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while Running a Test in an ASP.NET Solution](http://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).  
   
 ###  <a name="TypeConstraintNotSatisfied"></a> Example 2: Using a Type Constraint  
  This example shows a unit test for a generic method that uses a type constraint that is not satisfied. The first section shows code from the code-under-test project. The type constraint is highlighted.  

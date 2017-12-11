@@ -2,7 +2,6 @@
 title: "IDiaSession::findSymbolByVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 0350df23-9a5d-4e8d-8c26-7f571d8fb1af
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::findSymbolByVA
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByVA (   
    ULONGLONG    va,  
    SymTagEnum   symtag,  
@@ -62,7 +46,7 @@ HRESULT findSymbolByVA ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 pSession->findSymbolByVA( va, SymTagFunction, &pFunc );  
 ```  

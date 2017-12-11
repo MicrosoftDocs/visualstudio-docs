@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.Office.Tools.Outlook.v4.0.Utilities</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.Office.Tools.Outlook.FormRegionBase">
+      <summary>Represents an Outlook form region that is based on a user control.</summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionBase.#ctor(Microsoft.Office.Tools.Outlook.Factory,Microsoft.Office.Interop.Outlook.FormRegion)"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.Base">
+      <summary>Gets the <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionControl" /> object that this <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionBase" /> object extends.</summary>
+      <returns>The object that this <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionBase" /> object extends.</returns>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionBase.Dispose(System.Boolean)">
+      <summary>Releases the resources used by the <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionBase" />.</summary>
+      <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources. </param>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.Factory">
+      <summary>Gets or sets the form region factory that is associated with this <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionBase" />.</summary>
+      <returns>An object that implements the <see cref="T:Microsoft.Office.Tools.Outlook.IFormRegionFactory" /> interface.</returns>
+    </member>
+    <member name="E:Microsoft.Office.Tools.Outlook.FormRegionBase.FormRegionClosed">
+      <summary>Occurs before the form region is closed. </summary>
+    </member>
+    <member name="E:Microsoft.Office.Tools.Outlook.FormRegionBase.FormRegionShowing">
+      <summary>Occurs after an instance of the form region is created but before the form region appears. </summary>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.Manifest">
+      <summary>Gets the <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionManifest" /> that describes how the form region appears in Outlook.</summary>
+      <returns>The <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionManifest" /> that describes how the form region appears in Outlook.</returns>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.Microsoft#Office#Tools#IExtension#ExtensionBase">
+      <returns>Returns <see cref="T:System.Object" />.</returns>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionBase.OnShutdown">
+      <summary>Occurs before the form region is closed. </summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionBase.OnStartup">
+      <summary>Occurs after an instance of the form region is created but before the form region appears. </summary>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.OutlookFormRegion">
+      <summary>Gets or sets the native form region object. </summary>
+      <returns>A <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" /> that represents the form region.</returns>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionBase.OutlookItem">
+      <summary>Gets the Outlook item in which the form region appears. </summary>
+      <returns>An <see cref="T:System.Object" /> that represents the Outlook item in which the form region appears.</returns>
+    </member>
+    <member name="T:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase">
+      <summary>Provides access to <see cref="T:Microsoft.Office.Tools.Outlook.IFormRegion" /> objects in an Outlook add-in project.</summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.#ctor(System.Collections.Generic.IList{Microsoft.Office.Tools.Outlook.IFormRegion})"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.Base">
+      <summary>Gets a <see cref="T:System.Collections.Generic.IList`1" /> of <see cref="T:Microsoft.Office.Tools.Outlook.IFormRegion" /> objects in the <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase" />.</summary>
+      <returns>A <see cref="T:System.Collections.Generic.IList`1" /> of <see cref="T:Microsoft.Office.Tools.Outlook.IFormRegion" /> objects in the <see cref="T:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase" />.</returns>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.Microsoft#Office#Tools#IExtension#ExtensionBase"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#Add(Microsoft.Office.Tools.Outlook.IFormRegion)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#Clear"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#Contains(Microsoft.Office.Tools.Outlook.IFormRegion)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#CopyTo(Microsoft.Office.Tools.Outlook.IFormRegion[],System.Int32)"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#Count"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#IsReadOnly"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#ICollection{T}#Remove(Microsoft.Office.Tools.Outlook.IFormRegion)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#IEnumerable{T}#GetEnumerator"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#IList{T}#IndexOf(Microsoft.Office.Tools.Outlook.IFormRegion)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#IList{T}#Insert(System.Int32,Microsoft.Office.Tools.Outlook.IFormRegion)"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#IList{T}#Item(System.Int32)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.FormRegionCollectionBase.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="T:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase">
+      <summary>Represents an Outlook form region that is based on a user control.</summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.#ctor(Microsoft.Office.Tools.Outlook.Factory,Microsoft.Office.Interop.Outlook.FormRegion)"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Base">
+      <summary>Gets the <see cref="T:Microsoft.Office.Tools.Outlook.ImportedFormRegion" /> object that this <see cref="T:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase" /> object extends.</summary>
+      <returns>The object that this <see cref="T:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase" /> object extends.</returns>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Factory">
+      <summary>Gets or sets the form region factory that is associated with this <see cref="T:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase" />.</summary>
+      <returns>An object that implements the <see cref="T:Microsoft.Office.Tools.Outlook.IFormRegionFactory" /> interface.</returns>
+    </member>
+    <member name="E:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.FormRegionClosed">
+      <summary>Occurs before the form region is closed. </summary>
+    </member>
+    <member name="E:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.FormRegionShowing">
+      <summary>Occurs after an instance of the form region is created but before the form region appears. </summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.GetFormRegionControl(System.String)">
+      <summary>Returns the specified control from the Microsoft.Vbe.Interop.Forms.UserForm of the form region.</summary>
+      <returns>The control that is specified by <paramref name="identifier" />.</returns>
+      <param name="identifier">The name of the control that you would like to locate in theMicrosoft.Vbe.Interop.Forms.UserForm of the form region.</param>
+      <exception cref="T:System.InvalidOperationException">The form region specified by the <see cref="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.OutlookFormRegion" /> property is null.</exception>
+      <exception cref="T:Microsoft.Office.Tools.Outlook.ControlNotFoundException">Identifier does not match a control in the .ofs file.</exception>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.InitializeControls">
+      <summary>Initializes the controls on the form region.</summary>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Microsoft#Office#Tools#IExtension#ExtensionBase"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Microsoft#Office#Tools#Outlook#IFormRegion#OnShutdown"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Microsoft#Office#Tools#Outlook#IFormRegion#OnStartup"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.Microsoft#Office#Tools#Outlook#IImportedFormRegionExtension#InitializeControls"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.OutlookFormRegion">
+      <summary>Gets or sets the native form region object. </summary>
+      <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> that represents the form region.</returns>
+    </member>
+    <member name="P:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.OutlookItem">
+      <summary>Gets the Microsoft Office Outlook item for which the form region appears. </summary>
+      <returns>An <see cref="T:System.Object" /> that represents the Outlook item for which the form region appears.</returns>
+    </member>
+    <member name="T:Microsoft.Office.Tools.Outlook.OutlookAddInBase">
+      <summary>Provides the base class for the ThisAddIn class in Outlook add-ins that you create by using Visual Studio.</summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.OutlookAddInBase.#ctor(Microsoft.Office.Tools.Outlook.Factory,System.IServiceProvider,System.String,System.String)"></member>
+    <member name="P:Microsoft.Office.Tools.Outlook.OutlookAddInBase.Base">
+      <summary>Gets the <see cref="T:Microsoft.Office.Tools.Outlook.OutlookAddIn" /> object that this <see cref="T:Microsoft.Office.Tools.Outlook.OutlookAddInBase" /> object extends.</summary>
+      <returns>The object that this <see cref="T:Microsoft.Office.Tools.Outlook.OutlookAddInBase" /> object extends.</returns>
+    </member>
+    <member name="E:Microsoft.Office.Tools.Outlook.OutlookAddInBase.FormRegionFactoryResolve">
+      <summary>Occurs when the add-in loads, and when a form region name that is specified in the registry does not match the name of any form regions defined in the add-in. </summary>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.OutlookAddInBase.GetFormRegions"></member>
+    <member name="M:Microsoft.Office.Tools.Outlook.OutlookAddInBase.GetFormRegions(Microsoft.Office.Interop.Outlook.Explorer,System.Type)">
+      <returns>To access all Microsoft Office Outlook form regions that appear in a specific Explorer, call the FormRegions property of the Globals class and pass in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object that represents the Explorer.For more information, see Accessing a Form Region at Run Time.</returns>
+    </member>
+    <member name="M:Microsoft.Office.Tools.Outlook.OutlookAddInBase.GetFormRegions(Microsoft.Office.Interop.Outlook.Inspector,System.Type)"></member>
+  </members>
+</doc>

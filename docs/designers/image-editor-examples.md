@@ -2,18 +2,17 @@
 title: "Image Editor Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9f887976-25ae-4099-b987-87ea97f98c58
 caps.latest.revision: 18
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Image Editor Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.  

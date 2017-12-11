@@ -2,7 +2,6 @@
 title: "Bind WPF controls to a dataset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -10,62 +9,44 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "WPF, data binding in Visual Studio"
   - "WPF data binding [Visual Studio], walkthroughs"
   - "WPF Designer, data binding"
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
 caps.latest.revision: 32
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Bind WPF controls to a dataset
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You will also add buttons to browse through products and save changes to product records.  
   
- This walkthrough illustrates the following tasks:  
+This walkthrough illustrates the following tasks:  
   
--   Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
+- Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
+- Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
   
--   Creating buttons that navigate forward and backward through product records.  
+- Creating buttons that navigate forward and backward through product records.  
   
--   Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
+- Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
   
-     [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
- You need the following components to complete this walkthrough:  
+You need the following components to complete this walkthrough:  
   
 -   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
   
 -   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
   
- Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
+Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
--   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
+-   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter](../data-tools/create-and-configure-tableadapters.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
-  
--   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
+-   WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).  
   
 ## Create the project  
  Create a new WPF project. The project will display product records.  
@@ -95,7 +76,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
   
@@ -113,7 +94,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 8.  Click **Finish**.  
   
-     Visual Studio adds a new AdventureWorksLTDataSet.xsd file to the project, and it adds a corresponding **AdventureWorksLTDataSet** item to the **Data Sources** window. The AdventureWorksLTDataSet.xsd file defines a typed dataset named `AdventureWorksLTDataSet` and a TableAdapter named `ProductTableAdapter`. Later in this walkthrough, you will use the `ProductTableAdapter` to fill the dataset with data and save changes back to the database.  
+     Visual Studio adds a new `AdventureWorksLTDataSet.xsd` file to the project, and it adds a corresponding **AdventureWorksLTDataSet** item to the **Data Sources** window. The `AdventureWorksLTDataSet.xsd` file defines a typed dataset named `AdventureWorksLTDataSet` and a TableAdapter named `ProductTableAdapter`. Later in this walkthrough, you will use the `ProductTableAdapter` to fill the dataset with data and save changes back to the database.  
   
 9. Build the project.  
   
@@ -122,13 +103,13 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 #### To load product rows that have photos  
   
-1.  In **Solution Explorer**, double-click the AdventureWorksLTDataSet.xsd file.  
+1.  In **Solution Explorer**, double-click the `AdventureWorksLTDataSet.xsd` file.  
   
      The Dataset designer opens.  
   
-2.  In the designer, right-click the **Fill,GetData()** query and select **Configure**.  
+2.  In the designer, right-click the **Fill, GetData()** query and select **Configure**.  
   
-     The **TableAdapter Configuration**wizard opens.  
+     The **TableAdapter Configuration** wizard opens.  
   
 3.  In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.  
   
@@ -149,7 +130,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:  
   
-    ```  
+    ```xaml  
     <Grid.RowDefinitions>  
         <RowDefinition Height="75" />  
         <RowDefinition Height="625" />  
@@ -161,7 +142,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Build the project.  
   
-## Createdata-bound controls  
+## Create data-bound controls  
  Create controls that display customer records by dragging the `Product` table from the **Data Sources** window to the WPF Designer.  
   
 #### To create data-bound controls  
@@ -189,7 +170,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 5.  From the **Data Sources** window, drag the **Product** node to the grid row under the row that contains the buttons.  
   
-     Visual Studio generates XAML that defines a set of controls that are bound to data in the **Products** table. It also generates code that loads the data. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     Visual Studio generates XAML that defines a set of controls that are bound to data in the **Products** table. It also generates code that loads the data. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md).  
   
 6.  In the designer, click the text box next to the **Product ID** label.  
   
@@ -206,23 +187,23 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  Modify the `Window_Loaded` event handler, so the `ProductViewSource`, `AdventureWorksLTDataSet`, and `AdventureWorksLTDataSetProductTableAdapter` are outside of the method and accessible to the entire form. Declare only these to be global to the form, and assign them within the `Window_Loaded` event handler similar to the following:  
   
-     [!code-cs[Data_WPFDATASET#1](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_1.cs)]
+     [!code-csharp[Data_WPFDATASET#1](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_1.cs)]
      [!code-vb[Data_WPFDATASET#1](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_1.vb)]  
   
 3.  Add the following code to the `backButton_Click` event handler:  
   
-     [!code-cs[Data_WPFDATASET#2](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_2.cs)]
+     [!code-csharp[Data_WPFDATASET#2](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_2.cs)]
      [!code-vb[Data_WPFDATASET#2](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_2.vb)]  
   
 4.  Return to the designer and double-click the **>** button.  
   
 5.  Add the following code to the `nextButton_Click` event handler:  
   
-     [!code-cs[Data_WPFDATASET#3](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_3.cs)]
+     [!code-csharp[Data_WPFDATASET#3](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_3.cs)]
      [!code-vb[Data_WPFDATASET#3](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_3.vb)]  
   
-## Savechanges to product records  
- Add code that enables users to save changes to product records by using the **Save changes** button.  
+## Save changes to product records  
+Add code that enables users to save changes to product records by using the **Save changes** button.  
   
 #### To add the ability to save changes to product records  
   
@@ -232,11 +213,11 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  Add the following code to the `saveButton_Click` event handler:  
   
-     [!code-cs[Data_WPFDATASET#4](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_4.cs)]
+     [!code-csharp[Data_WPFDATASET#4](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-dataset_4.cs)]
      [!code-vb[Data_WPFDATASET#4](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_4.vb)]  
   
     > [!NOTE]
-    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
 ## Test the application  
  Build and run the application. Verify that you can view and update product records.  
@@ -264,11 +245,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md).  
   
--   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md).  
+-   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md).  
   
-## See Also  
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
- [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
- [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
- [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)
+## See also
+[Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
+[Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
+[Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)

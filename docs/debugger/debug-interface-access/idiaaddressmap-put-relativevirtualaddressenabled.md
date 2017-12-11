@@ -2,7 +2,6 @@
 title: "IDiaAddressMap::put_relativeVirtualAddressEnabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 767c078e-8ad7-4940-9e00-cae7704aadee
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaAddressMap::put_relativeVirtualAddressEnabled
 Allows the client to enable or disable the calculation and use of relative virtual addresses (RVA).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_relativeVirtualAddressEnabled (   
    BOOL NewVal  
 );  

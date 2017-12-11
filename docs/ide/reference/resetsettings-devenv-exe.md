@@ -2,7 +2,6 @@
 title: "-ResetSettings (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "/ResetSettings Devenv switch"
 ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # /ResetSettings (devenv.exe)
 Restores [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  
@@ -61,5 +46,5 @@ Devenv.exe /ResetSettings "C:\My Files\MySettings.vssettings"
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

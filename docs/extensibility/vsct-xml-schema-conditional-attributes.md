@@ -2,7 +2,6 @@
 title: "VSCT XML Schema Conditional Attributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "conditional attributes (VSCT XML schema)"
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # VSCT XML Schema Conditional Attributes
 Conditional attributes may be applied to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.  
@@ -38,7 +24,7 @@ Conditional attributes may be applied to all lists and items. Logical operators 
   
  When a Condition attribute is applied to a list, the condition is applied to every child element in the list. If a child element itself contains a Condition attribute, then its condition is combined with the parent expression by an AND operation.  
   
- The values 1, ‘1’ and ‘true’ are evaluated as true, and 0, ‘0’ and ‘false’ are evaluated as false.  
+ The values 1, '1' and 'true' are evaluated as true, and 0, '0' and 'false' are evaluated as false.  
   
 ## Operators  
  The following operators may be used to evaluate conditional expressions.  
@@ -54,30 +40,30 @@ Conditional attributes may be applied to all lists and items. Logical operators 
 ## Examples  
   
 ```  
-<Menu Condition="Defined(DEBUG)" …  
+<Menu Condition="Defined(DEBUG)" ...  
 </Menu>  
   
-<Menu Condition="%(SKU_MODE) = 'Demo'" …  
+<Menu Condition="%(SKU_MODE) = 'Demo'" ...  
 </Menu>  
   
 <Menus Condition="Defined(DEBUG)">  
-    <Menu …  
+    <Menu ...  
     </Menu>  
 </Menus>  
   
 <Menus Condition="Defined(DEMO_SKU)">  
     <Menus Condition="!Defined(DEBUG)">  
-        <Menu …  
+        <Menu ...  
         </Menu>  
     </Menus>  
   
-    <Menu …  
+    <Menu ...  
     </Menu>  
 </Menus>  
   
 <Menus Condition="(Defined(DEMO_SKU) or Defined(SAMPLE_SKU))   
 and !Defined(DEBUG)">  
-    <Menu …  
+    <Menu ...  
     </Menu>  
 </Menus>  
 ```  

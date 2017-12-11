@@ -2,7 +2,6 @@
 title: "Comparing Properties and Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 caps.latest.revision: 16
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Comparing Properties and Items
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
@@ -44,7 +29,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 ### Target Dependency Injection  
  To see how properties can represent multiple values, consider a common usage pattern for adding a target to a list of targets to be built. This list is typically represented by a property value, with the target names separated by semicolons.  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDependsOn>  
         BeforeBuild;  
@@ -56,7 +41,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
  The `BuildDependsOn` property is typically used as the argument of a target `DependsOnTargets` attribute, effectively converting it to an item list. This property can be overridden to add a target or to change the target execution order. For example,  
   
-```  
+```xml  
 <PropertyGroup>  
     <BuildDependsOn>  
         $(BuildDependsOn);  
@@ -72,7 +57,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 ### Conversions between Strings and Item Lists  
  MSBuild performs conversions to and from item types and string values as needed. To see how an item list can become a string value, consider what happens when an item type is used as the value of an MSBuild property:  
   
-```  
+```xml  
 <ItemGroup>  
     <OutputDir Include="KeyFiles\;Certificates\" />  
   </ItemGroup>  
@@ -120,7 +105,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 ### Subtle Effects of the Evaluation Order  
  In the evaluation phase of a build, property evaluation precedes item evaluation. Nevertheless, properties can have values that appear to depend on item values. Consider the following script.  
   
-```  
+```xml  
 <ItemGroup>  
     <KeyFile Include="KeyFile.cs">  
         <Version>1.0.0.3</Version>  
@@ -148,7 +133,7 @@ KeyFileVersion: 1.0.0.3
   
  As a second example, consider what can happen when property and item groups are located within targets:  
   
-```  
+```xml  
 <Target Name="AfterBuild">  
     <PropertyGroup>  
         <KeyFileVersion>@(KeyFile->'%(Version)')</KeyFileVersion>  
@@ -172,7 +157,7 @@ KeyFileVersion:
   
  In this case, reversing the order of the property and item groups restores the original message:  
   
-```  
+```xml  
 <Target Name="AfterBuild">  
     <ItemGroup>  
         <KeyFile Include="KeyFile.cs">  

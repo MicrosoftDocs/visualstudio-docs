@@ -2,7 +2,6 @@
 title: "IEnumDebugFields::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IEnumDebugFields::Clone method"
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugFields::Clone
 This method returns a copy of the current enumeration as a separate object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Clone(  
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int Clone(  
    out IEnumDebugFields ppEnum  
 );  

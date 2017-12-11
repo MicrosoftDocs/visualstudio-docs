@@ -2,7 +2,6 @@
 title: "How to: Open Project-Specific Editors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], opening folders"
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Open Project-Specific Editors
 If an item file being opened by a project is intrinsically bound to the particular editor for that project, the project must open the file by using a project-specific editor. The file cannot be delegated down to the IDE's mechanism for selecting an editor. For example, instead of using a standard bitmap editor, you can use this project-specific editor option to specify a specific bitmap editor that recognizes information in the file that is unique to your project.  

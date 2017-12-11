@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 442f20d9-9d6a-44a1-83fb-c3f8c14b6c97
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_offsetInUdt
 Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_offsetInUdt(   
    DWORD* pRetVal)  
 );  

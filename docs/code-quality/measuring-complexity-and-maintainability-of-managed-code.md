@@ -2,11 +2,10 @@
 title: "Measuring Complexity and Maintainability of Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -21,24 +20,9 @@ helpviewer_keywords:
   - "complexity managed code"
 ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 14
-author: "erickson-doug"
-ms.author: "douge"
-manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Measuring Complexity and Maintainability of Managed Code
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. In recent years, many software measures, known as code metrics, have been developed that can help developers understand where their code needs rework or increased testing.  
@@ -54,12 +38,5 @@ The increased complexity of modern software applications also increases the diff
   
  [Working with Code Metrics Data](../code-quality/working-with-code-metrics-data.md)  
   
- [How to: Copy Code Metrics Results to the Clipboard](http://msdn.microsoft.com/en-us/bce8fa29-e39c-4855-aab9-8346257657c5)  
-  
- [How to: Export Code Metric Results to Excel](http://msdn.microsoft.com/en-us/affc08f3-24e5-446d-9076-bf517663e582)  
-  
- [How to: Create a Work Item Based on a Result](http://msdn.microsoft.com/en-us/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
-  
 ## See Also  
- [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md)   
- [Performing Common Development Tasks](http://msdn.microsoft.com/en-us/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)
+ [Troubleshooting Code Metrics Issues](../code-quality/troubleshooting-code-metrics-issues.md)  

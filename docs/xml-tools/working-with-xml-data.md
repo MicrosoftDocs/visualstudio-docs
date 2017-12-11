@@ -2,7 +2,6 @@
 title: "Working with XML Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 465cd132-2e36-435d-920b-50b767c2217c
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Working with XML Data
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  
@@ -50,7 +35,7 @@ XML and its related technologies play a large role in the way data is handled in
 -   XML Schema Explorer  
   
 ## XML Schema Designer  
- The XML Schema Designer is integrated with Microsoft Visual Studio 2010 and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
+ The XML Schema Designer is integrated with Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
   
 ## XSLT Debugging  
  Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.  
@@ -72,7 +57,7 @@ XML and its related technologies play a large role in the way data is handled in
  [XML Standards Reference](http://msdn.microsoft.com/en-us/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
   
- [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)  
+ [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)  
  Provides an explanation of the design-time tools for creating datasets.  
   
  [XML Web Services in Managed Code](http://msdn.microsoft.com/en-us/c9a7dc25-3e68-4723-bfb7-de4320830196)  

@@ -2,7 +2,6 @@
 title: "Localizing Menu Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,22 +17,9 @@ helpviewer_keywords:
   - "localize vsct"
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Localizing Menu Commands
 You can provide localized text for menu and toolbar commands by creating localized .vsct files and localized .resx files for your VSPackage, and then updating the project files to incorporate the changes.  
@@ -127,7 +113,7 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 2.  Add the following entry.  
   
-    ```c#  
+    ```csharp  
     [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]  
     ```  
   
@@ -168,5 +154,5 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
- [Globalization and Localization](../Topic/Globalizing%20and%20Localizing%20.NET%20Framework%20Applications.md)
+ [MenuCommands Vs. OleMenuCommands](../extensibility/menucommands-vs-olemenucommands.md)   
+ [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

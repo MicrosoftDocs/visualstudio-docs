@@ -1,88 +1,48 @@
 ---
 title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
+description: "Find out how to install Visual Studio offline."
 ms.custom: ""
-ms.date: "2016-09-12"
-ms.prod: "visual-studio-dev14"
+ms.date: "08/30/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-install"
+ms.technology:
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "offline installation"
-  - "offline install"
-  - "ISO"
-ms.assetid: 85d65709-42be-449f-9663-914bf1045089
-caps.latest.revision: 19
+f1_keywords:
+  - "offline installation [Visual Studio]"
+  - "offline install [Visual Studio]"
+  - "layout [Visual Studio]"
+ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Create an Offline Installation of Visual Studio
-You can install Visual Studio when you are not connected to the Internet. However, to perform a "disconnected" installation, you must first create an offline installation layout by using a machine that is connected to the Internet. Here's how to do so.  
-  
-> [!IMPORTANT]
->  If your offline machine is running Windows 7 SP1 or Windows Server 2008 R2, please see the special instructions in the [Troubleshooting an offline installation](#BKMK_tshoot) section  of this topic.  You must follow these instructions *before* you install Visual Studio 2015.  
-  
-##  <a name="BKMK_Offline"></a> Installing by creating an offline installation  
-  
-#### To create an offline installation layout  
-  
-1.  Choose the edition of Visual Studio that you want to install from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page.  
-  
-2.  After you download the installer to a location on your file system, run "\<executable name> /layout".  
-  
-     For example, run: `vs_enterprise.exe /layout D:\VisualStudio2015`  
-  
-     By using the `/layout` switch, you can download almost all the installation packages, not just the ones that apply to the download machine. This approach gives you the files that you need to run this installer anywhere and it might be useful if you want to install components that weren't installed originally.  
-  
-3.  After you run this command, a dialog box will appear that allows you to change the folder where  you want the offline installation layout to reside.   Next, click the **Download** button.  
-  
-     When the package download is successful, you should see a message that says **Setup Successful! All specified components have been acquired successfully.**  
-  
-4.  Locate the folder that you specified earlier. (For example, locate D:\VisualStudio2015.) This folder contains everything you need to copy to a shared location or install media.  
-  
-    > [!CAUTION]
-    >  Currently, the Android SDK does not support an offline installation experience. If you install Android SDK Setup items on a computer that is not connected to the internet, the installation might fail. For more information, see the "Troubleshooting an offline installation" section in this topic.  
-  
-5.  Run the installation from the file location or from the install media.  
-  
-## Updating an offline installation  
- Microsoft has released several Updates for Visual Studio 2015. To update your Visual Studio installation, simply download  the edition you want from the from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page. Next, follow the steps outlined in this topic to create a new offline installation layout and then use it to update your copy of Visual Studio 2015.  
-  
-##  <a name="BKMK_tshoot"></a> Troubleshooting an offline installation  
- When you install offline from your offline install cache, you might see warning messages about not being able to install some components and packages. The following table includes possible solutions for these scenarios.  
-  
-|Component or Package|Solution|  
-|--------------------------|--------------|  
-|Dotfuscator and Analytics Community Edition 5.19.1 (for the Community, Professional, and Enterprise editions of Visual Studio, as installed on **Windows 7 SP1** and **Windows Server 2008 R2**)|If your offline machine is running **Windows 7 SP1** or **Windows Server 2008 R2**, you must perform the following steps before you install Visual Studio 2015:<br /><br /> 1.  Configure a file or web server to download the CTL files.<br /><br /> 2.    Redirect the Microsoft Automatic Update URL for a disconnected environment.<br /><br /> For more information, see the [Configure Trusted Roots and Disallowed Certificates](https://technet.microsoft.com/library/dn265983.aspx) page on the Microsoft TechNet site.|  
-|Android SDK Setup (API Level)|You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio:<br /><br /> -   http://dl.google.com:443<br />-   http://dl-ssl.google.com:443<br />-   https://dl-ssl.google.com/android/repository/*|  
-|Visual Studio Extensibility Item Templates<br /><br /> GitHub Extension for Visual Studio<br /><br /> PowerShell Tools for Visual Studio|If you do not have an internet connection when you install Visual Studio 2015, you can use a special offline feed to generate the offline installation layout. **Note:**  This special feed includes the most recent Updates to Visual Studio 2015. <br /><br /> To create the special offline feed, run the following command: /layout *Drive:*\VisualStudio2015 /overridefeeduri *URL-to-feed-xml*<br /><br /> For example, for an English-language special offline feed of Visual Studio 2015 Enterprise, run:<br /><br /> `vs_enterprise_ENU.exe /layout D:\VisualStudio2015 /overridefeeduri "http://go.microsoft.com/fwlink/?LinkID=785882&clcid0x409"`<br /><br /> For a complete list of URLs that you can use to create a special offline feed in the language of your choice, see the table below.|  
-  
- Use the following URLs to create a language-specific special offline feed, as described in the table above.  
-  
-|Language|URL|  
-|--------------|---------|  
-|Chinese (Simplified)|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x804|  
-|Chinese (Traditional)|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x404|  
-|Czech|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x405|  
-|German|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x407|  
-|English|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x409|  
-|Spanish|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0xC0A|  
-|French|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x40C|  
-|Italian|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x410|  
-|Japanese|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x411|  
-|Korean|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x412|  
-|Polish|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x415|  
-|Portuguese|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x416|  
-|Russian|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x419|  
-|Turkish|http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F|  
-  
-## See Also  
- [Install Visual Studio](../install/install-visual-studio-2015.md)
+# Create an offline installation of Visual Studio 2017
+
+We designed the Visual Studio 2017 installer to work well in a wide variety of network and machine conditions.
+
+- The new workload-based model means you'll need to download far less than with previous versions of Visual Studio: as little as 300 MB for the smallest installation;
+- Compared to a generic "ISO" or zip file, we download only the packages you need for your machine. For example, we don't download 64-bit files if you don't need them;
+- During the installation process, we try three different download technologies (WebClient, BITS and WinInet) to minimize interference with anti-virus and proxy software;
+- The files you'll need to install Visual Studio are distributed on a global delivery network, so we can get them to you from a local server.
+
+We recommend that you try the [Visual Studio web installer](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)&mdash;we think you'll find it a good experience.
+
+ > [!div class="button"]
+ > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
+<br/>
+
+If you want to install offline because your internet connection is unavailable or unreliable, see [Install Visual Studio 2017 on low bandwidth or unreliable network environments](../install/install-vs-inconsistent-quality-network.md). You can use the command line to create a local cache of the files you need to complete an offline install. This process replaces the ISO files available for previous versions.
+
+> [!NOTE]
+> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).

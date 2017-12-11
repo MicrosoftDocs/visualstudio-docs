@@ -2,7 +2,6 @@
 title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  
@@ -52,5 +37,5 @@ msbuild SlnFolders.sln /t:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clea
 ## See Also  
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [ MSBuild](../msbuild/msbuild1.md)  
+ [ MSBuild](../msbuild/msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)

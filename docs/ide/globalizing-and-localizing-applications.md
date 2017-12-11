@@ -2,7 +2,6 @@
 title: "Globalizing and Localizing Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,23 +17,9 @@ helpviewer_keywords:
   - "international applications [Visual Studio]"
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Globalizing and Localizing Applications
 If you plan on distributing your application to an international audience, you'll need to keep several things in mind during the design and development phases. Even if you don't have such plans, a small effort up front can make things considerably easier should your plans change in future versions of your application. Services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] make it easy to develop a single application that can adapt to different locales using managed development with Visual Studio.  
@@ -52,16 +37,16 @@ If you plan on distributing your application to an international audience, you'l
  Provides links to pages about creating applications that support multiple cultures.  
   
 ## Related Sections  
- [Globalizing your app (Windows Store apps using JavaScript and HTML)](http://go.microsoft.com/fwlink/?LinkId=258266)  
- Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app built using JavaScript and HTML.  
+ [Globalizing your app (HTML)](http://go.microsoft.com/fwlink/?LinkId=258266)  
+ Contains how-to topics and guidelines to help you globalize and localize your Windows 8.1 app built using HTML.  
   
- [Globalizing your app (Windows Store apps using C#/VB/C++ and XAML)](http://go.microsoft.com/fwlink/?LinkId=258267)  
- Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app built using XAML and Visual C#, Visual Basic, or Visual C++.  
+ [Globalizing your app (XAML)](http://go.microsoft.com/fwlink/?LinkId=258267)  
+ Contains how-to topics and guidelines to help you globalize and localize your Windows 8.1 app built using XAML.  
   
- [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
+ [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides background information on programming for an international audience.  
   
- [Class Library Overview](../Topic/.NET%20Framework%20Class%20Library%20Overview.md)  
+ [Class Library Overview](/dotnet/standard/class-library-overview)  
  Introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.  
   
  <xref:System.Globalization>  

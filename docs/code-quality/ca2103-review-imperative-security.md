@@ -2,11 +2,10 @@
 title: "CA2103: Review imperative security | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "ReviewImperativeSecurity"
 ms.assetid: d24fde71-bdf6-46c0-8965-9a73dc33c1aa
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2103: Review imperative security
 |||  
@@ -59,5 +43,5 @@ translation.priority.mt:
  It is safe to suppress a warning from this rule if the permission does not rely on changing data. However, it is better to change the imperative demand to its declarative equivalent.  
   
 ## See Also  
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)
+ [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)   
+ [Data and Modeling](/dotnet/framework/data/index)

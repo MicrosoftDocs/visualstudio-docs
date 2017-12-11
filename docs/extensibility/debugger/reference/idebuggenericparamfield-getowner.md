@@ -2,7 +2,6 @@
 title: "IDebugGenericParamField::GetOwner | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,35 +12,22 @@ helpviewer_keywords:
   - "IDebugGenericParamField::GetOwner"
 ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugGenericParamField::GetOwner
 Retrieves the type or method owner of this generic parameter.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetOwner(  
    IDebugField** ppOwner  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetOwner(  
    out IDebugField ppOwner  
 );  
@@ -57,7 +43,7 @@ int GetOwner(
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetOwner(IDebugField** ppOwner)  
 {  
     HRESULT hr = S_OK;  

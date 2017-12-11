@@ -2,7 +2,6 @@
 title: "REFERENCE_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "REFERENCE_TYPE enumeration"
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # REFERENCE_TYPE
 Specifies the reference type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_REFERENCE_TYPE {   
    REF_TYPE_WEAK   = 0x0001,  
    REF_TYPE_STRONG = 0x0002  
@@ -45,7 +31,7 @@ enum enum_REFERENCE_TYPE { 
 typedef DWORD REFERENCE_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_REFERENCE_TYPE {   
    REF_TYPE_WEAK   = 0x0001,  
    REF_TYPE_STRONG = 0x0002  

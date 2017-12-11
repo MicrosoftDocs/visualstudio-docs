@@ -2,7 +2,6 @@
 title: "Build apps with native UI using Xamarin in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,24 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 31
-author: "kraigb"
-ms.author: "kraigb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "ghogen"
+ms.author: "ghogen"
+manager: ghogen
 ---
 # Build apps with native UI using Xamarin in Visual Studio
 Once you've done the steps in [Setup and install](../cross-platform/setup-and-install.md) and [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md), this walkthrough shows you how to build a basic Xamarin app (shown below) with native UI layers. With native UI, shared code resides in a portable class library (PCL) and the individual platform projects contain the UI definitions.  
@@ -72,11 +56,11 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 1.  In Visual Studio, create a new **Blank App (Native Portable)** solution and name it **WeatherApp**. You can find this template most easily by entering **Native Portable** into the search field.  
   
-     If it’s not there, you might have to install Xamarin or enable the Visual Studio 2015 feature, see [Setup and install](../cross-platform/setup-and-install.md).  
+     If it's not there, you might have to install Xamarin or enable the Visual Studio 2015 feature, see [Setup and install](../cross-platform/setup-and-install.md).  
   
-2.  After clicking OK to create the solution, you’ll have a number of individual projects:  
+2.  After clicking OK to create the solution, you'll have a number of individual projects:  
   
-    -   **WeatherApp (Portable)**: the PCL where you’ll write code that is shared across platforms, including common business logic and UI code using with Xamarin.Forms.  
+    -   **WeatherApp (Portable)**: the PCL where you'll write code that is shared across platforms, including common business logic and UI code using with Xamarin.Forms.  
   
     -   **WeatherApp.Droid**: the project that contains the native Android code. This is set as the default startup project.  
   
@@ -86,7 +70,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
      Within each native project you have access to the native designer for the corresponding platform and can implement platform specific screens.  
   
-3.  Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you’ll use to process information retrieved from a weather data service:  
+3.  Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you'll use to process information retrieved from a weather data service:  
   
     -   Right-click **Solution 'WeatherApp'** in Solution explorer and select **Manage NuGet Packages for Solution...**.  
   
@@ -107,17 +91,17 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 5.  Build your solution and verify that there are no build errors.  
   
 ##  <a name="dataservice"></a> Write shared data service code  
- The **WeatherApp (Portable)** project is where you’ll write code for the portable class library (PCL) that’s shared across all platforms. The PCL is automatically included in the app packages built by the iOS, Android, and Windows Phone projects.  
+ The **WeatherApp (Portable)** project is where you'll write code for the portable class library (PCL) that's shared across all platforms. The PCL is automatically included in the app packages built by the iOS, Android, and Windows Phone projects.  
   
  The following steps then add code to the PCL to access and store data from that weather service:  
   
 1.  To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).  
   
-2.  Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.  
+2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.  
   
 3.  Replace the entire contents of **Weather.cs** with the following:  
   
-    ```c#  
+    ```csharp  
     namespace WeatherApp  
     {  
         public class Weather  
@@ -146,11 +130,11 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }  
     ```  
   
-4.  Add another class to the PCL project named **DataService.cs** in which you’ll use to process JSON data from the weather data service.  
+4.  Add another class to the PCL project named **DataService.cs** in which you'll use to process JSON data from the weather data service.  
   
 5.  Replace the entire contents of **DataService.cs** with the following code:  
   
-    ```c#  
+    ```csharp  
     using System.Threading.Tasks;  
     using Newtonsoft.Json;  
     using System.Net.Http;  
@@ -177,11 +161,11 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }  
     ```  
   
-6.  Add a third class to the PCL named **Core** where you’ll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.  
+6.  Add a third class to the PCL named **Core** where you'll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.  
   
 7.  Replace the contents of **Core.cs** with the following:  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Threading.Tasks;  
   
@@ -236,7 +220,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 10. Build the **WeatherApp** PCL project to make sure the code is correct.  
   
 ##  <a name="Android"></a> Design UI for Android  
- Now, we’ll design the user interface, connect it to your shared code, and then run the app.  
+ Now, we'll design the user interface, connect it to your shared code, and then run the app.  
   
 ### Design the look and feel of your app  
   
@@ -269,7 +253,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     |**textStyle**|`bold`|  
   
     > [!TIP]
-    >  Notice that many properties don’t contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.  
+    >  Notice that many properties don't contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.  
     >   
     >  Also, a quick web search often leads to a page on [http://stackoverflow.com/](http://stackoverflow.com/) where others have used the same property.  
   
@@ -483,7 +467,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 1.  Open the **MainActivity.cs** file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using Android.App;  
     using Android.Widget;  
@@ -539,7 +523,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 >  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).  
   
 ##  <a name="Windows"></a> Design UI for Windows Phone  
- Now we’ll design the user interface for Windows Phone, connect it to your shared code, and then run the app.  
+ Now we'll design the user interface for Windows Phone, connect it to your shared code, and then run the app.  
   
 ### Design the look and feel of your app  
  The process of designing native Windows Phone UI in a Xamarin app is no different from any other native Windows Phone app. For this reason, we won't go into the details here of how to use the designer. For that, refer to [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
@@ -608,7 +592,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
   
 4.  Replace that event handler with the following code.  
   
-    ```c#  
+    ```csharp  
     private async void GetWeatherButton_Click(object sender, RoutedEventArgs e)  
     {  
         if (!String.IsNullOrEmpty(zipCodeEntry.Text))  
@@ -647,7 +631,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 ##  <a name="next"></a> Next steps  
  **Add UI for iOS to the solution**  
   
- Extend this sample by adding native UI for iOS. For this you’ll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do, you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.  
+ Extend this sample by adding native UI for iOS. For this you'll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do, you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.  
   
  Also refer to the [Hello, iOS](http://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/hello,iOS_quickstart/) (xamarin.com) walkthrough. Note that on this page, be sure that "Visual Studio" is selected in the upper right corner of pages on xamarin.com so that the correct set of instructions appear.  
   

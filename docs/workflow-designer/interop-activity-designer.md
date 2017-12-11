@@ -2,7 +2,6 @@
 title: "Interop Activity Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Interop Activity Designer
 The **Interop** activity designer is used to create and configure an <xref:System.Activities.Statements.Interop> activity.  
@@ -46,7 +31,7 @@ The **Interop** activity designer is used to create and configure an <xref:Syste
   
  The **Interop** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Interop** activity designer or in the **DisplayName** box of the property grid.  
   
- Click the **Click to browse…** text in the **ActivityType** box, either on the **Interop**  activity designer or in the property grid, to bring up the **Browse and Select a .Net Type** dialog box. Only types for workflow 3.0 or workflow 3.5 activities are shown (that is, only types derived from <xref:System.Workflow.ComponentModel.Activity>). [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this box to specify a type, see the [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md) topic.  
+ Click the **Click to browse...** text in the **ActivityType** box, either on the **Interop**  activity designer or in the property grid, to bring up the **Browse and Select a .Net Type** dialog box. Only types for workflow 3.0 or workflow 3.5 activities are shown (that is, only types derived from <xref:System.Workflow.ComponentModel.Activity>). [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this box to specify a type, see the [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md) topic.  
   
 ### The Interop Properties  
  The following table shows the <xref:System.Activities.Statements.Interop> properties and describes how they are used in the designer. These properties can be edited in property grid or on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.  

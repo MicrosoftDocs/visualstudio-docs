@@ -2,7 +2,6 @@
 title: "How to: Search for a Window in Windows View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: 30306970-b861-4315-acf8-f86a43d4e73b
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Search for a Window in Windows View
 You can search for a specific window in Windows view by using its handle, caption, class, or a combination of its caption and class as search criteria. You can also specify the initial direction of the search. The fields in the dialog box will show the attributes of the selected window in the window tree.  
@@ -49,11 +34,11 @@ You can search for a specific window in Windows view by using its handle, captio
   
 3.  Drag the **Finder Tool** over the target window. As you drag the tool, the **Window Search** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you know the handle of the window you want (for example, from the debugger), you can type it in the **Handle** box.  
   
-     – or –  
+     - or -  
   
      If you know the caption and/or class of the window you want, you can type them in the **Caption** and **Class** text boxes, and clear the **Handle** text box.  
   

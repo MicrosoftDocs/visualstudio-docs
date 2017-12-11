@@ -2,7 +2,6 @@
 title: "Macros for Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.macros"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "macros, CRT reporting macros"
@@ -28,21 +26,7 @@ ms.assetid: f2085314-a3a8-4caf-a5a4-2af9ad5aad05
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Macros for Reporting
 You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replace the use of `printf` statements for debugging. These macros automatically disappear in your release build when **_DEBUG** is not defined, so there is no need to enclose them in **#ifdef**s.  
@@ -50,7 +34,7 @@ You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replac
 |Macro|Description|  
 |-----------|-----------------|  
 |**_RPT0**, **_RPT1**, **_RPT2**, **_RPT3**, **_RPT4**|Outputs a message string and zero to four arguments. For _RPT1 through **_RPT4**, the message string serves as a printf-style formatting string for the arguments.|  
-|**_RPTF0**, **_RPTF1**, **,_RPTF2**, **_RPTF4**|Same as **_RPTn** , but these macros also output the file name and line number where the macro is located.|  
+|**_RPTF0**, **_RPTF1**, **,_RPTF2**, **_RPTF4**|Same as **_RPTn**, but these macros also output the file name and line number where the macro is located.|  
   
  Consider the following example:  
   

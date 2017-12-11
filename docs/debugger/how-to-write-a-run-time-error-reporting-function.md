@@ -2,7 +2,6 @@
 title: "How to: Write a Run-Time Error Reporting Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,14 +9,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "run-time errors, reporting functions"
   - "reporting function"
@@ -25,21 +21,7 @@ ms.assetid: 989bf312-5038-44f3-805f-39a34d18760e
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Write a Run-Time Error Reporting Function
 A custom reporting function for run-time errors must have the same declaration as `_CrtDbgReportW`. It should return a value of 1 to the debugger.  
@@ -78,7 +60,7 @@ int MyErrorFunc(int errorType, const wchar_t *filename,
 ```  
   
 ## Example  
- The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](/visual-cpp/c-runtime-library/reference/rtc-seterrortype).  
+ The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](/cpp/c-runtime-library/reference/rtc-seterrortype).  
   
 ```  
 #include <windows.h>  
@@ -123,7 +105,7 @@ int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
 ```  
   
 ## Example  
- Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](/visual-cpp/c-runtime-library/reference/rtc-seterrorfuncw). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
+ Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](/cpp/c-runtime-library/reference/rtc-seterrorfuncw). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.  
   
 ```  
 #include <rtcapi.h>  

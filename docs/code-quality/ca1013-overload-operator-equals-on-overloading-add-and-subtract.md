@@ -2,11 +2,10 @@
 title: "CA1013: Overload operator equals on overloading add and subtract | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -21,24 +20,9 @@ helpviewer_keywords:
   - "OverloadOperatorEqualsOnOverloadingAddAndSubtract"
 ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1013: Overload operator equals on overloading add and subtract
 |||  
@@ -64,7 +48,7 @@ Else
 End If  
 ```  
   
-```c#  
+```csharp  
 if (Object.ReferenceEquals(left, null))   
     return Object.ReferenceEquals(right, null);  
 return left.Equals(right);  
@@ -79,12 +63,12 @@ return left.Equals(right);
 ## Example  
  The following example defines a type (`BadAddableType`) that violates this rule. This type should implement the equality operator to make any two instances that have the same field values test `true` for equality. The type `GoodAddableType` shows the corrected implementation. Note that this type also implements the inequality operator and overrides <xref:System.Object.Equals%2A> to satisfy other rules. A complete implementation would also implement <xref:System.Object.GetHashCode%2A>.  
   
- [!code-cs[FxCop.Design.AddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013-overload-operator-equals-on-overloading-add-and-subtract_1.cs)]  
+ [!code-csharp[FxCop.Design.AddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013-overload-operator-equals-on-overloading-add-and-subtract_1.cs)]  
   
 ## Example  
  The following example tests for equality by using instances of the types that were previously defined in this topic to illustrate the default and correct behavior for the equality operator.  
   
- [!code-cs[FxCop.Design.TestAddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013-overload-operator-equals-on-overloading-add-and-subtract_2.cs)]  
+ [!code-csharp[FxCop.Design.TestAddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013-overload-operator-equals-on-overloading-add-and-subtract_2.cs)]  
   
  This example produces the following output.  
   
@@ -94,4 +78,4 @@ return left.Equals(right);
 **Bad type:  {2,2} {9,9} are equal? No**  
 **Good type: {3,3} {9,9} are == ?   No**   
 ## See Also  
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)

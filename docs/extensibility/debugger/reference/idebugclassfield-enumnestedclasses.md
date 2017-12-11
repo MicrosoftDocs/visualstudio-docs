@@ -2,7 +2,6 @@
 title: "IDebugClassField::EnumNestedClasses | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugClassField::EnumNestedClasses method"
 ms.assetid: 2ba5ef0c-395e-4006-9e3c-9b06e1d711d0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugClassField::EnumNestedClasses
 Creates an enumerator for the classes nested in this class.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumNestedClasses(   
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumNestedClasses(  
    out IEnumDebugFields ppEnum  
 );  

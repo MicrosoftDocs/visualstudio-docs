@@ -2,7 +2,6 @@
 title: "MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "MaxFrameworkVersion Element (Visual Studio Templates)"
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MaxFrameworkVersion Element (Visual Studio Templates)
 Specifies the maximum version of the .NET Framework that is required by the template. It determines whether the template is displayed in the **Templates** section of the **Add New Project** dialog box, based on the value that is selected in the **Target Framework Version** box of the **Add New Project** dialog box.  

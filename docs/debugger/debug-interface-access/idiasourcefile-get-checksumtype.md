@@ -2,7 +2,6 @@
 title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 4c363e61-a6a9-409a-9cc0-d06eb2bee645
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSourceFile::get_checksumType
 Retrieves the checksum type.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_checksumType (   
    DWORD* pRetVal  
 );  

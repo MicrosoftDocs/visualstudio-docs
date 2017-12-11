@@ -2,7 +2,6 @@
 title: "IDiaSession::findLinesByRVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 06f53b0b-b5b4-42cf-9252-dcee0dbe2d71
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::findLinesByRVA
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByRVA (   
    DWORD                 rva,  
    DWORD                 length,  
@@ -63,7 +47,7 @@ HRESULT findLinesByRVA ( 
 ## Example  
  This example shows a function that obtains all line numbers contained in the specified function using the function's relative virtual address and length.  
   
-```cpp#  
+```C++  
 IDiaEnumLineNumbers* GetLineNumbersByRVA(IDiaSymbol *pFunc, IDiaSession *pSession)  
 {  
     IDiaEnumLineNumbers* pEnum = NULL;  

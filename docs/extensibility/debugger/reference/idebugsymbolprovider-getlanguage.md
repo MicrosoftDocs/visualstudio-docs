@@ -2,7 +2,6 @@
 title: "IDebugSymbolProvider::GetLanguage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetLanguage
 This method gets the language that was used to compile the code at the debug address.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetLanguage(   
    IDebugAddress* pAddress,  
    GUID*          pguidLanguage,  
@@ -45,7 +31,7 @@ HRESULT GetLanguage( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetLanguage(  
    IDebugAddress pAddress,   
    out Guid      pguidLanguage,   

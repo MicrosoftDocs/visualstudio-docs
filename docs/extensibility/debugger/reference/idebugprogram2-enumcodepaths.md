@@ -2,7 +2,6 @@
 title: "IDebugProgram2::EnumCodePaths | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugProgram2::EnumCodePaths"
 ms.assetid: fb100c3c-9c29-4d63-bd1f-a3e531cb395f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgram2::EnumCodePaths
 Retrieves a list of the code paths for a given position in a source file.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCodePaths(   
    LPCOLESTR            pszHint,  
    IDebugCodeContext2*  pStart,  
@@ -48,7 +34,7 @@ HRESULT EnumCodePaths( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumCodePaths(   
    string                 pszHint,  
    IDebugCodeContext2     pStart,  

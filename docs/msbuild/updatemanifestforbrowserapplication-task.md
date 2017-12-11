@@ -2,7 +2,6 @@
 title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # UpdateManifestForBrowserApplication Task
 The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run to add the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../msbuild/includes/tlasharptla_xbap_md.md)] project is built.  
@@ -54,7 +39,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
   
  Then, to configure an application to be hosted from a browser, an additional element, **\<hostInBrowser />** must be added to the application manifest, as show in the following example:  
   
-```  
+```xml  
 <!--MyXBAPApplication.exe.manifest-->  
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly ... >  
@@ -73,7 +58,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 ## Example  
  The following example shows how to ensure that the `<hostInBrowser />` element is included in an application manifest file.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication"  
@@ -91,5 +76,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML Browser Applications Overview](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+ [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
+ [WPF XAML Browser Applications Overview](/dotnet/framework/wpf/app-development/wpf-xaml-browser-applications-overview)

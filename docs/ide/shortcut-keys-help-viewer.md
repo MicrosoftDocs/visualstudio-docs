@@ -1,36 +1,21 @@
 ---
 title: "Shortcut Keys (Help Viewer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/02/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-help-viewer"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "shortcut keys [Help Viewer 2.0]"
-  - "Help Viewer 2.0, shortcut keys"
+  - "shortcut keys [Help Viewer]"
+  - "Help Viewer, shortcut keys"
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Shortcut Keys (Help Viewer)
 You can navigate in the Microsoft Help Viewer by using the shortcut keys in the following table:  
@@ -117,7 +102,7 @@ You can navigate in the Microsoft Help Viewer by using the shortcut keys in the 
 |Alt + D|Change the installation source to disk.|  
 |Alt + O|Change the installation source to online.|  
 |Tab|Change focus to the **Local store path** text box.|  
-|Tab|Change focus to the **Move…** button.|  
+|Tab|Change focus to the **Move...** button.|  
 |Alt + V|Open the **Move Content** dialog box.|  
 |Ctrl + Alt + F|Change focus to the **Filter Documentation** text box.|  
 |Tab|Change focus to the documentation list.|  
@@ -127,3 +112,6 @@ You can navigate in the Microsoft Help Viewer by using the shortcut keys in the 
 |Up Arrow and Down Arrow|Scroll through the **Pending changes** list.|  
 |Space|Remove an item from the **Pending changes** list.|  
 |Alt + T|Apply all pending changes.|
+
+## See also
+[Accessibility features of the Help Viewer](../ide/accessibility-features-of-the-help-viewer.md)

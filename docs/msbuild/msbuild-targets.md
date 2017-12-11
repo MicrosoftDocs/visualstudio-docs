@@ -2,7 +2,6 @@
 title: "MSBuild Targets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
 caps.latest.revision: 26
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Targets
 Targets group tasks together in a particular order and allow the build process to be factored into smaller units. For example, one target may delete all files in the output directory to prepare for the build, while another compiles the inputs for the project and places them in the empty directory. For more information on tasks, see [Tasks](../msbuild/msbuild-tasks.md).  
@@ -37,7 +22,7 @@ Targets group tasks together in a particular order and allow the build process t
 ## Declaring Targets in the Project File  
  Targets are declared in a project file with the [Target](../msbuild/target-element-msbuild.md) element. For example, the following XML creates a target named Construct, which then calls the Csc task with the Compile item type.  
   
-```  
+```xml  
 <Target Name="Construct">  
     <Csc Sources="@(Compile)" />  
 </Target>  
@@ -45,7 +30,7 @@ Targets group tasks together in a particular order and allow the build process t
   
  Like MSBuild properties, targets can be redefined. For example,  
   
-```  
+```xml  
 <Target Name="AfterBuild" >  
     <Message Text="First occurrence" />  
 </Target>  
@@ -76,7 +61,7 @@ Targets group tasks together in a particular order and allow the build process t
 ## Target Batching  
  A target element may have an `Outputs` attribute which specifies metadata in the form %(Metadata). If so, MSBuild runs the target once for each unique metadata value, grouping or "batching" the items that have that metadata value. For example,  
   
-```  
+```xml  
 <ItemGroup>  
     <Reference Include="System.Core">  
       <RequiredTargetFramework>3.5</RequiredTargetFramework>  

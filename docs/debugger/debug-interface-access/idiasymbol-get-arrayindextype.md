@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_arrayIndexType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: cd63b9ec-9694-406c-b37f-bde6bd5fcbf2
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_arrayIndexType
 Retrieves the symbol interface of the array index type of the symbol.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_arrayIndexType (   
    IDiaSymbol** pRetVal  
 );  

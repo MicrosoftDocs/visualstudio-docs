@@ -2,7 +2,6 @@
 title: "AssignCulture Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 8f8314cc-82a6-4f16-a62d-b9f0d1d5e274
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # AssignCulture Task
 This task accepts a list of items that may contain a valid .NET culture identifier string as part of the file name, and produces items that have a metadata named `Culture` containing the corresponding culture identifier. For example, the file name Form1.fr-fr.resx has an embedded culture identifier "fr-fr", so this task will produce an item that has the same filename with the metadata `Culture` equal to `fr-fr`. The task also produces a list of filenames with the culture removed from the filename.  
@@ -59,7 +44,7 @@ This task accepts a list of items that may contain a valid .NET culture identifi
 ## Example  
  The following example executes the `AssignCulture` task with the `ResourceFiles` item collection.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ResourceFiles Include="MyResource1.fr.resx"/>  

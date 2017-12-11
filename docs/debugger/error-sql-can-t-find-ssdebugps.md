@@ -2,7 +2,6 @@
 title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,30 +11,16 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "SQL"
 ms.assetid: 596425c8-14c7-4c05-8823-e1c52f420f5e
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  

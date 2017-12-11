@@ -2,7 +2,6 @@
 title: "Threads View (Parallel Performance) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Threads View (Parallel Performance)
 Threads View is the most detailed and feature-rich view in the Concurrency Visualizer. By using this view, you can identify whether the threads are executing or blocking because of synchronization, I/O, or some other reason.  

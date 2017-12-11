@@ -2,11 +2,10 @@
 title: "CA2231: Overload operator equals on overriding ValueType.Equals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,23 +17,9 @@ helpviewer_keywords:
   - "CA2231"
 ms.assetid: 114c0161-261a-40ad-8b2c-0932d6909d2a
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2231: Overload operator equals on overriding ValueType.Equals
 |||  
@@ -60,7 +45,7 @@ Else
 End If  
 ```  
   
-```c#  
+```csharp  
 if (Object.ReferenceEquals(left, null))   
     return Object.ReferenceEquals(right, null);  
 return left.Equals(right);  
@@ -75,7 +60,7 @@ return left.Equals(right);
 ## Example  
  The following example defines a type that violates this rule.  
   
- [!code-cs[FxCop.Usage.EqualsGetHashCode#1](../code-quality/codesnippet/CSharp/ca2231-overload-operator-equals-on-overriding-valuetype-equals_1.cs)]  
+ [!code-csharp[FxCop.Usage.EqualsGetHashCode#1](../code-quality/codesnippet/CSharp/ca2231-overload-operator-equals-on-overriding-valuetype-equals_1.cs)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)  

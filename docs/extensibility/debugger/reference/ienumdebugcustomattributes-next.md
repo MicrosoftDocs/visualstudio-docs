@@ -2,7 +2,6 @@
 title: "IEnumDebugCustomAttributes::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::Next"
 ms.assetid: e36f856b-2619-42d1-b73e-4f2390fc22bd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugCustomAttributes::Next
 Retrieves a specified number of custom attributes in an enumeration sequence.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next (   
    ULONG      celt,  
    CODE_PATH* rgelt,  
@@ -45,7 +31,7 @@ HRESULT Next ( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint                        celt,   
    out IDebugCustomAttribute[] rgelt,   

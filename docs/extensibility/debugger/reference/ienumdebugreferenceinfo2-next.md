@@ -2,7 +2,6 @@
 title: "IEnumDebugReferenceInfo2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2::Next"
 ms.assetid: 70b31a57-1701-4757-9e7e-63ec60a71b3c
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugReferenceInfo2::Next
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG                   celt,  
    DEBUG_REFERENCE_INFO ** rgelt,  
@@ -45,7 +31,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint                   celt,  
    DEBUG_REFERENCE_INFO[] rgelt,  

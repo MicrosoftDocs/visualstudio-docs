@@ -2,7 +2,6 @@
 title: "IDebugMemoryBytes2::ReadAt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,29 +15,16 @@ helpviewer_keywords:
   - "ReadAt method"
 ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugMemoryBytes2::ReadAt
 Reads a sequence of bytes, starting at a given location.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ReadAt(   
    IDebugMemoryContext2* pStartContext,  
    DWORD                 dwCount,  
@@ -48,7 +34,7 @@ HRESULT ReadAt( 
 );  
 ```  
   
-```c#  
+```csharp  
 int ReadAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

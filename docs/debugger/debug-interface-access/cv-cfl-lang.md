@@ -2,7 +2,6 @@
 title: "CV_CFL_LANG | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CV_CFL_LANG
 Specifies the source code language of the application or linked module.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_CFL_LANG {   
    CV_CFL_C       = 0x00,  
    CV_CFL_CXX     = 0x01,  
@@ -108,7 +92,7 @@ typedef enum CV_CFL_LANG { 
  Application language is Jscript.  
   
  CV_CFL_MSIL  
- Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](/visual-cpp/build/reference/ltcg-link-time-code-generation) switch.  
+ Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation) switch.  
   
  CV_CFL_HLSL  
  Application language is High Level Shader Language.  

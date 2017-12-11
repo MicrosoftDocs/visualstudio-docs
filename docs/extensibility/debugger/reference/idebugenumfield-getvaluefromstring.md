@@ -2,7 +2,6 @@
 title: "IDebugEnumField::GetValueFromString | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugEnumField::GetValueFromString method"
 ms.assetid: 1ef8ac5e-a3e0-4078-b876-7f5615aedcbb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEnumField::GetValueFromString
 This method returns the value associated with the name of an enumeration constant.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetValueFromString(  
    LPCOLESTR  pszValue,  
    ULONGLONG* pvalue  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetValueFromString(  
    string    pszValue,  
    out ulong pValue  

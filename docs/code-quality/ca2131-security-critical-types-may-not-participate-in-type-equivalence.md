@@ -2,34 +2,19 @@
 title: "CA2131: Security critical types may not participate in type equivalence | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2131"
 ms.assetid: 4170f3b1-6086-430d-8fba-837d5538c573
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2131: Security critical types may not participate in type equivalence
 |||  
@@ -54,7 +39,7 @@ translation.priority.ht:
 ## Example  
  The following examples demonstrate an interface, a method, and a field that will cause this rule to fire.  
   
- [!code-cs[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
+ [!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
   
 ## See Also  
- [Security-Transparent Code, Level 2](../Topic/Security-Transparent%20Code,%20Level%202.md)
+ [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)

@@ -2,7 +2,6 @@
 title: "IDiaEnumSymbolsByAddr::symbolByAddr | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 0b6f5a68-8402-4f29-8219-20576fda8166
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaEnumSymbolsByAddr::symbolByAddr
 Positions the enumerator by performing a lookup by image section number and offset.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolByAddr (   
    DWORD**      isect,  
    DWORD**      offsect,  

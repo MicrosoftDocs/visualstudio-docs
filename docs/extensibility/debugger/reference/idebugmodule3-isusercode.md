@@ -2,7 +2,6 @@
 title: "IDebugModule3::IsUserCode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugModule3::IsUserCode"
 ms.assetid: 77022946-bb8b-4114-aa81-614df6e54b13
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugModule3::IsUserCode
 Retrieves information on whether the module represents user code or not.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsUserCode(  
    BOOL* pfUser  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsUserCode(  
    out int pfUser  
 );  

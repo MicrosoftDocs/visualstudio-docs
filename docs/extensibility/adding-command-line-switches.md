@@ -2,7 +2,6 @@
 title: "Adding Command-Line Switches | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,34 +15,21 @@ helpviewer_keywords:
   - "command line, switches"
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Adding Command-Line Switches
 You can add command-line switches that apply to your VSPackage when devenv.exe is executed. Use <xref:Microsoft.VisualStudio.Shell.ProvideAppCommandLineAttribute> to declare the name of the switch and its properties. In this example, the MySwitch switch is added for a subclass of VSPackage named **AddCommandSwitchPackage** with no arguments and with the VSPackage loaded automatically.  
   
-```c#  
+```csharp  
 [ProvideAppCommandLine("MySwitch", typeof(AddCommandSwitchPackage), Arguments = "0", DemandLoad = 1)]  
 ```  
   
  The named parameters are shown in the following table  
   
  Arguments  
- The number of arguments for the switch. Can be “*”, or a list of arguments.  
+ The number of arguments for the switch. Can be "*", or a list of arguments.  
   
  DemandLoad  
  Load the VSPackage automatically if this is set to 1, otherwise set to 0.  
@@ -76,7 +62,7 @@ You can add command-line switches that apply to your VSPackage when devenv.exe i
   
  The following code shows how to find out whether the MySwitch command-line switch was entered by the user:  
   
-```c#  
+```csharp  
 IVsAppCommandLine cmdline = (IVsAppCommandLine)GetService(typeof(SVsAppCommandLine));  
   
 int isPresent = 0;  

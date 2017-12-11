@@ -2,7 +2,6 @@
 title: "How to: Add Standard Text Markers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - standard text markers"
 ms.assetid: a39fca69-0014-474c-933f-51f0e9b9617e
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Add Standard Text Markers
 Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor.  

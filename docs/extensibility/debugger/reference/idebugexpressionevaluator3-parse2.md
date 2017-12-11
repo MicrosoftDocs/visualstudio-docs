@@ -2,7 +2,6 @@
 title: "IDebugExpressionEvaluator3::Parse2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,29 +12,16 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator3::Parse2"
 ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExpressionEvaluator3::Parse2
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Parse2 (  
    LPCOLESTR                upstrExpression,  
    PARSEFLAGS               dwFlags,  
@@ -48,7 +34,7 @@ HRESULT Parse2 (
 );  
 ```  
   
-```c#  
+```csharp  
 HRESULT Parse2 (  
    string                     upstrExpression,  
    enum_PARSEFLAGS            dwFlags,  
@@ -95,7 +81,7 @@ HRESULT Parse2 (
 ## Example  
  The following example shows how to implement this method for a **CEE** object that exposes the [IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEE::Parse2 ( LPCOLESTR in_szExprText,  
   PARSEFLAGS in_FLAGS,  
   UINT in_RADIX,  

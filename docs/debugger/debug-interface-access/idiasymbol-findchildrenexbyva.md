@@ -2,7 +2,6 @@
 title: "IDiaSymbol::findChildrenExByVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 29080009-36e4-4697-acd7-50f2e3e1bf1b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::findChildrenExByVA
 Retrieves the children of the symbol that are valid at a specified virtual address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findChildrenExByVA (   
    enum SymTagEnum   symtag,  
    LPCOLESTR         name,  

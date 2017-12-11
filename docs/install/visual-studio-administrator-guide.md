@@ -1,85 +1,76 @@
 ---
-title: "Visual Studio Administrator Guide | Microsoft Docs"
+title: "Visual Studio administrator guide | Microsoft Docs"
+description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
-ms.date: "2016-10-12"
-ms.prod: "visual-studio-dev14"
+ms.date: "05/15/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-install"
+ms.technology:
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
-caps.latest.revision: 74
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Visual Studio Administrator Guide
-You can deploy Visual Studio on a network as long as each target computer meets the [minimum installation requirements](http://www.microsoft.com/visualstudio/eng/products/2013-editions). You can create a network share by running the installation file with the /layout switch (as described on the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
-  
- Note that installations from a network share “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime you expect to have Visual Studio 2015 clients running in your organization.  
-  
-## Detection and Servicing Keys  
- You can use detection subkeys in the registry to determine whether a Visual Studio product is already installed on a computer. You would use these detection keys in an automated deployment to determine whether it was necessary to proceed with an installation.  See [Detecting System Requirements](../extensibility/internals/detecting-system-requirements.md)[Detecting System Requirements].  
-  
-## Avoiding Reboots  
- You can reduce reboots by making sure that you meet the appropriate Visual Studio prerequisites before you deploy Visual Studio. For the .NET Framework, you might need to reboot computers that are running Windows 8 if you deploy Visual Studio 2015 on them without first installing the .NET Framework 4.6.  
-  
- For Windows and Android device emulation, you might need to reboot computers if you do not already have Windows feature Hyper-V turned on. For Web development, you may need to reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. To learn more about how to automate the detection and installation of Windows features, see [Installing a server role on a server running a Server Core installation of Windows Server 2008 R2](https://technet.microsoft.com/library/ee441260(v=ws.10).aspx).  
-  
-## Error Return Codes  
- The following table lists important error codes. You can use these error codes in your automation to decide if a reboot is required and if the install succeeded. If you receive an error code, consider the troubleshooting steps on the [Install Visual Studio](../install/install-visual-studio-2015.md) page.  
-  
-|Setup Status|Restart not required|Restart required|Description|  
-|------------------|--------------------------|----------------------|-----------------|  
-|Success|0x00000000 [0]|0x00000bc2 [3010]|Successful installation.|  
-|Block|0x80044000 [-2147205120]|0x8004C000 [-2147172352]|If the only block to be reported is “Reboot Pending,” the returned value is the Incomplete-Reboot Required value (0x80048bc7).|  
-|Cancel|0x00000642 [1602]|0x80048642 [-2147187134]|When the Reboot value is returned, the Return Code is 1602.|  
-|Incomplete-Reboot Required|N/A|0x80048bc7 [-2147185721]|Restart is required before installation can continue.|  
-|Failure|0x00000643 [1603]|0x80048643 [-2147187133]|When the Reboot value is returned, the Return Code is 1603.|  
-  
-## Interactive Administrator Installer  
- If you are creating an interactive installer on top of the Visual Studio install, you can view progress from the Visual Studio installer. The Visual Studio 2015 installer is built on the open source Windows Installer XML (WiX) chainer technology, also known as “burn.” The burn technology supports two communication protocols: burn and netfx4. For a brief reference, please see the description of the Protocol attribute in the documentation for the ExePackage element at [wixtoolset.org](http://wixtoolset.org/). A review of the WiX open source implementation of this Protocol attribute may be required for integration.  
-  
-## Controlling What Is Installed  
- If you want to control what your end user can install, there are two options: the administrator file install and the command-line options. Select the administrator file install if your goal is to restrict what your end user can choose from their Visual Studio installer experience. Select the command-line parameters if you want to create an initial configuration but allow your end user to choose their own Visual Studio installer experience.  
-  
- For more information on the administrator file experience, see [How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) and [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md).  For more information on the command-line controls, see the [Use Command-Line Parameters to Install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) page.  
-  
-## Specifying Customer Feedback Settings  
- By default, the Visual Studio installation enables customer feedback. You can configure Visual Studio to disable customer feedback on individual computers by changing the value of the following registry key to string "0":  
-  
- **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**  
-**OptIn**  
-  
- (For example, change it to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM OptIn="0")  
-  
-## Related Topics  
-  
-|Topic|Description|  
-|-----------|-----------------|  
-|[How to: Install a Specific Release of Visual Studio](../install/how-to-install-a-specific-release-of-visual-studio.md)|Describes how to install specific configurations of the current version of  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
-|[How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|Describes how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in unattended mode.|  
-|[How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)|Describes how to apply product keys when deploying to multiple machines.|  
-|[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)|Provides information about  how to manage local Help installations for network environments that either have or do not have internet access.|  
-|[Install Visual Studio](../install/install-visual-studio-2015.md)|Provides instructions and  links to topics that describe how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|
+# Visual Studio 2017 administrator guide
+
+In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
+
+## Deploying Visual Studio 2017 in an enterprise environment
+
+You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+
+1. [Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location.
+
+2. [Select the workloads and components](workload-and-component-ids.md) you want to install.
+
+3. [Create a response file](automated-installation-with-response-file.md) that contains default installation options. Or alternatively, [build an installation script](use-command-line-parameters-to-install-visual-studio.md) that uses command-line parameters to control the installation.
+
+4. Optionally, [apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md) as part of the installation script so that users don't need to activate the software separately.
+
+5. Update the network layout to [control when product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md).
+
+6. Optionally, set registry keys to [control what is cached on client workstations](set-defaults-for-enterprise-deployments.md).
+
+7. Use your deployment technology of choice to execute the script generated in the previous steps on your target developer workstations.
+
+8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+
+> [!IMPORTANT]
+> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+
+## Visual Studio tools
+We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
+
+> [!TIP]
+> In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+
+## See also
+* [Install Visual Studio 2017](install-visual-studio.md)
+* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+  * [Command-line parameter examples](command-line-parameter-examples.md)
+  * [Workload and Component ID reference](workload-and-component-ids.md)
+* [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
+  * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+* [Automate Visual Studio with a response file](automated-installation-with-response-file.md)
+* [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
+* [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
+* [Disable or move the package cache](disable-or-move-the-package-cache.md)
+* [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

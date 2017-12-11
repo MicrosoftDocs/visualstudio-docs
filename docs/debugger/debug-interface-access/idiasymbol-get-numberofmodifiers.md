@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_numberOfModifiers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,14 @@ ms.assetid: 61ff7431-1994-4f7e-a182-1817f16f60a9
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_numberOfModifiers
 Retrieves the number of modifiers that are applied to the original type.  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_numberOfModifiers(   
    DWORD* pRetVal);  
 ```  

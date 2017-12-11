@@ -2,7 +2,6 @@
 title: "IDebugPendingBreakpoint2::GetState | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,35 +15,22 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::GetState method"
 ms.assetid: e88d543f-2e83-4ba7-86ca-f874e39955ff
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::GetState
 Gets the state of the pending breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetState(   
    PENDING_BP_STATE_INFO* pState  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetState(   
    PENDING_BP_STATE_INFO[] pState  
 );  

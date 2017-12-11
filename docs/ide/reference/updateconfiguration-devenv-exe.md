@@ -2,7 +2,6 @@
 title: "-Updateconfiguration (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,14 +14,9 @@ helpviewer_keywords:
   - "updateconfiguration Devenv switch"
 ms.assetid: 9a1084cc-8b68-4ccc-aaea-f95939164338
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # /Updateconfiguration (devenv.exe)
 Notifies [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  
@@ -44,5 +38,5 @@ Devenv.exe /updateconfiguration
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

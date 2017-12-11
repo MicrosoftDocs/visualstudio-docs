@@ -2,7 +2,6 @@
 title: "MACHINE_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "MACHINE_INFO_FIELDS enumeration"
 ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MACHINE_INFO_FIELDS
 Specifies what kind of information to retrieve for a particular machine.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MACHINE_INFO_FIELDS {   
    MCIF_NAME  = 0x00000001,  
    MCIF_FLAGS = 0x00000002,  
@@ -46,7 +32,7 @@ enum enum_MACHINE_INFO_FIELDS { 
 typedef DWORD MACHINE_INFO_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_MACHINE_INFO_FIELDS {   
    MCIF_NAME  = 0x00000001,  
    MCIF_FLAGS = 0x00000002,  

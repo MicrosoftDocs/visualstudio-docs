@@ -2,7 +2,6 @@
 title: "Globalizing Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "Visual C#, international applications"
 ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Globalizing Applications
 Globalization is the process of designing and developing a software product that functions for multiple cultures. This section applies to both Windows Forms and Web Forms pages.  
@@ -41,14 +26,14 @@ Globalization is the process of designing and developing a software product that
  Discusses classes that format dates, time, numbers, currency, and other information according to the culture setting.  
   
 ## Related Sections  
- [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)  
+ [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  Provides links to Help pages about globalization of Windows Forms.  
   
- [Globalization and Localization](../Topic/ASP.NET%20Globalization%20and%20Localization.md)  
+ [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  
  Provides links to Help pages about globalization of Web Forms pages.  
   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the essential concepts about developing software for an international market using Visual Basic or Visual C#.  
   
- [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md)  
+ [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides information on programming for an international audience, such as design issues and terminology.

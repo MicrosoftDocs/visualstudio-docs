@@ -2,7 +2,6 @@
 title: "Using the Assert Classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,23 +15,8 @@ helpviewer_keywords:
   - "unit tests, Assert classes"
 ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Using the Assert Classes
 Use the Assert classes of the UnitTestingFramework namespace to verify specific functionality. A unit test method exercises the code of a method in your development code, but it reports the correctness of the code's behavior only if you include Assert statements.  

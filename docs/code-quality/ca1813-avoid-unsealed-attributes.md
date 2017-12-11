@@ -2,11 +2,10 @@
 title: "CA1813: Avoid unsealed attributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "AvoidUnsealedAttributes"
 ms.assetid: f5e31b4c-9f8b-49e1-a2a8-bb5f1140729a
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1813: Avoid unsealed attributes
 |||  
@@ -58,7 +43,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a custom attribute that satisfies this rule.  
   
- [!code-cs[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/CSharp/ca1813-avoid-unsealed-attributes_1.cs)]
+ [!code-csharp[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/CSharp/ca1813-avoid-unsealed-attributes_1.cs)]
  [!code-vb[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/VisualBasic/ca1813-avoid-unsealed-attributes_1.vb)]  
   
 ## Related Rules  
@@ -67,4 +52,4 @@ translation.priority.ht:
  [CA1018: Mark attributes with AttributeUsageAttribute](../code-quality/ca1018-mark-attributes-with-attributeusageattribute.md)  
   
 ## See Also  
- [Attributes](../Topic/Attributes1.md)
+ [Attributes](/dotnet/standard/design-guidelines/attributes)

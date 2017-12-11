@@ -2,7 +2,6 @@
 title: "IDebugStackFrame3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugStackFrame3 interface"
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugStackFrame3
 This interface extends [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) to handle intercepted exceptions.  
@@ -45,7 +31,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  The debug engine (DE) implements this interface on the same object that implements the [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) interface to support intercepted exceptions.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugStackFrame2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugStackFrame2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md), `IDebugStackFrame3` exposes the following methods.  

@@ -2,7 +2,6 @@
 title: "IDebugThread2::GetThreadProperties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugThread2::GetThreadProperties"
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugThread2::GetThreadProperties
 Gets the properties that describe this thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetThreadProperties (   
    THREADPROPERTY_FIELDS dwFields,  
    THREADPROPERTIES*     ptp  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetThreadProperties (   
    enum_THREADPROPERTY_FIELDS dwFields,  
    THREADPROPERTIES[]         ptp  
@@ -67,7 +53,7 @@ int GetThreadProperties ( 
 ## Example  
  The following example shows how to implement this method for a simple `CProgram` object that implements the [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,  
                                       THREADPROPERTIES *ptp)  
 {  

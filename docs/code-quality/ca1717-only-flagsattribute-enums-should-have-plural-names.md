@@ -2,11 +2,10 @@
 title: "CA1717: Only FlagsAttribute enums should have plural names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "CA1717"
 ms.assetid: a6855d8b-d78a-42c1-834e-61c31f5572ed
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1717: Only FlagsAttribute enums should have plural names
 |||  
@@ -69,4 +53,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.FlagsAttribute?displayProperty=fullName>   
- [Enum Design](../Topic/Enum%20Design.md)
+ [Enum Design](/dotnet/standard/design-guidelines/enum)

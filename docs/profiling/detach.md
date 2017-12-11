@@ -2,7 +2,6 @@
 title: "Detach | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,21 +12,7 @@ ms.assetid: d9d1b52c-7f28-467d-b1e0-512afc4e46c9
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Detach
 The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specifed. Profiling must have been initialized by using the sampling method.  

@@ -2,7 +2,6 @@
 title: "IDiaPropertyStorage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: d3197a38-5973-4e56-873e-4f1b84c3f674
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaPropertyStorage
 Allows you to read the persistent properties of a DIA property set.  
@@ -80,7 +64,7 @@ IDiaPropertyStorage : IUnknown
 ## Example  
  This example shows a function that displays all properties exposed by the `IDiaPropertyStorage` object. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of how the `IDiaPropertyStorage` interface is obtained from the [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) interface.  
   
-```cpp#  
+```C++  
 void PrintPropertyStorage(IDiaPropertyStorage* pPropertyStorage)  
 {  
     IEnumSTATPROPSTG* pEnumProps;  

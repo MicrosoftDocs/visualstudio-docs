@@ -2,7 +2,6 @@
 title: "REFERENCE_COMPARE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "REFERENCE_COMPARE enumeration"
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # REFERENCE_COMPARE
 Specifies the type of comparison for references.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_REFERENCE_COMPARE {   
    REF_COMPARE_EQUAL        = 0x0001,  
    REF_COMPARE_LESS_THAN    = 0x0002,  
@@ -46,7 +32,7 @@ enum enum_REFERENCE_COMPARE { 
 typedef DWORD REFERENCE_COMPARE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_REFERENCE_COMPARE {   
    REF_COMPARE_EQUAL        = 0x0001,  
    REF_COMPARE_LESS_THAN    = 0x0002,  

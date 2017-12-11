@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/package-guids-of-visual-studio-features
 title: "Package GUIDs of Visual Studio Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,25 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio shell, isolated mode%2C package GUIDs"
+  - "Visual Studio shell, isolated mode, package GUIDs"
 ms.assetid: f56f0356-f3ac-48bc-9674-94259e29a4df
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Package GUIDs of Visual Studio Features
 You can use the following GUIDs in the .pkgundef file of your isolated shell application to exclude specific packages from the application.  
@@ -89,7 +76,7 @@ You can use the following GUIDs in the .pkgundef file of your isolated shell app
 |Code Snippets|Visual Studio Code Snippets Package|{0B680757-2C29-4531-80FA-535A5178AA98}|  
 |Managed Language Project Support|Visual Studio Component Enumerator|{588205E0-66e0-11D3-8600-00C04F6123B3}|  
 ||Visual Studio Settings and Project Designers Package|{67909B06-91E9-4F3E-AB50-495046BE9A9A}|  
-|Export Template…|Export Template Package|{F1E4CFCA-4573-4345-8718-7BDE2b1F0BE8}|  
+|Export Template...|Export Template Package|{F1E4CFCA-4573-4345-8718-7BDE2b1F0BE8}|  
   
  Some packages should never be removed because many other features take dependencies on them. For example, the ones listed under "Core IDE" should never be removed.  
   

@@ -2,7 +2,6 @@
 title: "XSD Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,21 +24,7 @@ ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # XSD Task
 Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  

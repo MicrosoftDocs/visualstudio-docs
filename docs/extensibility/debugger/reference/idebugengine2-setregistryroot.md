@@ -2,7 +2,6 @@
 title: "IDebugEngine2::SetRegistryRoot | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugEngine2::SetRegistryRoot"
 ms.assetid: d0d81202-8a4a-4bc3-b297-30a047c5ec60
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngine2::SetRegistryRoot
 Sets the registry root for the debug engine (DE).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetRegistryRoot(   
    LPCOLESTR pszRegistryRoot  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetRegistryRoot(   
    string pszRegistryRoot  
 );  

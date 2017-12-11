@@ -2,7 +2,6 @@
 title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "tutorial"
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating a Basic Project System, Part 2
 The first walkthrough in this series, [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.  
@@ -190,7 +176,7 @@ ZipProjects:
 ## Deploying a Visual Studio Template  
  Visual Studio templates do not contain path information. Therefore, the template .zip file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically **\<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates**.  
   
- To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: **…\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates**.  
+ To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: **...\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates**.  
   
 ## Testing a Visual Studio Template  
  Test your project factory to see whether it creates a project hierarchy by using the Visual Studio template.  

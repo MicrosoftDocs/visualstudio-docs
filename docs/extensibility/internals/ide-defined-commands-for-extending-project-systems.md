@@ -2,7 +2,6 @@
 title: "IDE-Defined Commands for Extending Project Systems | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "project systems, environment-defined commands"
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDE-Defined Commands for Extending Project Systems
 When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.  
@@ -84,5 +70,5 @@ When you want to extend project systems, you can use commands and command groups
   
 ## See Also  
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)   
+ [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)   
  [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)

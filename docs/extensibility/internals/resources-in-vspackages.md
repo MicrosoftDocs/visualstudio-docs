@@ -2,7 +2,6 @@
 title: "Resources in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "VSPackages, managed resources"
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Resources in VSPackages
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.  
@@ -55,7 +41,7 @@ You can embed localized resources in native satellite UI DLLs, managed satellite
   
  You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that managed resources are available.  
   
- [!code-cs[VSSDKResources#1](../../extensibility/internals/codesnippet/CSharp/resources-in-vspackages_1.cs)]
+ [!code-csharp[VSSDKResources#1](../../extensibility/internals/codesnippet/CSharp/resources-in-vspackages_1.cs)]
  [!code-vb[VSSDKResources#1](../../extensibility/internals/codesnippet/VisualBasic/resources-in-vspackages_1.vb)]  
   
  Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString%2A>. If [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.  
@@ -99,7 +85,5 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
  When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.  
   
 ## See Also  
- [Managed VSPackages](../../misc/managed-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
- [Localized Resources in MFC Applications: Satellite DLLs](../Topic/Localized%20Resources%20in%20MFC%20Applications:%20Satellite%20DLLs.md)   
- [Managed VSPackages](../../misc/managed-vspackages.md)
+ [Localized Resources in MFC Applications: Satellite DLLs](/cpp/build/localized-resources-in-mfc-applications-satellite-dlls)   

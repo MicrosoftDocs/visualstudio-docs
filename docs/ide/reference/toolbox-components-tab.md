@@ -2,7 +2,6 @@
 title: "Toolbox, Components Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,23 +12,9 @@ helpviewer_keywords:
   - "Toolbox, Components tab"
 ms.assetid: 332fafab-a763-4244-b388-15d1b5b5cc04
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Toolbox, Components Tab
 Displays components you can add to [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] components that are included with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
@@ -76,13 +61,13 @@ Displays components you can add to [!INCLUDE[vbprvb](../../code-quality/includes
  Creates a <xref:System.ServiceProcess.ServiceController> component instance you can use to manipulate existing services, including starting and stopping services and sending commands to them. For more information, see [Monitoring Windows Services](http://msdn.microsoft.com/en-us/4542ee3f-e052-4cb9-8726-58e9420de222).  
   
  **Timer**  
- Creates a <xref:System.Windows.Forms.Timer> component instance you can use to add time-based functionality to your Windows-based applications. For more information, see [Timer Component](../Topic/Timer%20Component%20\(Windows%20Forms\).md).  
+ Creates a <xref:System.Windows.Forms.Timer> component instance you can use to add time-based functionality to your Windows-based applications. For more information, see [Timer Component](/dotnet/framework/winforms/controls/timer-component-windows-forms).  
   
 > [!NOTE]
 >  There is also a system-based <xref:System.Timers.Timer> that you can add to the **Toolbox** This <xref:System.Timers.Timer> is optimized for server applications, and the Windows Forms <xref:System.Windows.Forms.Timer> is best suited for use on Windows Forms.  
   
 ## See Also  
- [Programming with Components](../Topic/Programming%20with%20Components.md)   
- [Component Programming Walkthroughs](../Topic/Component%20Programming%20Walkthroughs.md)   
+ [Programming with Components](http://msdn.microsoft.com/Library/d4d4fcb4-e0b8-46b3-b679-7ee0026eb9e3)   
+ [Component Programming Walkthroughs](http://msdn.microsoft.com/Library/373cacf7-479e-4b05-991c-5cb18824e913)   
  [Toolbox](../../ide/reference/toolbox.md)   
  [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/en-us/bd07835f-18a8-433e-bccc-7141f65263bb)

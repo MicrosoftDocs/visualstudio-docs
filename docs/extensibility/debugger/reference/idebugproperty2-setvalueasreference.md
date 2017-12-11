@@ -2,7 +2,6 @@
 title: "IDebugProperty2::SetValueAsReference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugProperty2::SetValueAsReference method"
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty2::SetValueAsReference
 Sets the value of this property to the value of the given reference.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsReference(  
    IDebugReference2** rgpArgs,  
    DWORD              dwArgCount,  
@@ -46,7 +32,7 @@ HRESULT SetValueAsReference(
 );  
 ```  
   
-```c#  
+```csharp  
 int SetValueAsReference(  
    IDebugReference2[] rgpArgs,  
    uint               dwArgCount,  

@@ -2,43 +2,31 @@
 title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 caps.latest.revision: 3
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
-The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](../Topic/LINQ%20to%20SQL.md), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md).  
+The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/).  
   
- By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](../Topic/Customizing%20Operations%20By%20Using%20Stored%20Procedures.md).  
+By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).  
   
 > [!NOTE]
->  This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database. For details about how to create these stored procedures, see [Walkthrough: Creating Update Stored Procedures for the Northwind Customers Table](../data-tools/walkthrough-creating-update-stored-procedures-for-the-northwind-customers-table.md).  
+>  This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.  
   
- This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.  
+This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.  
   
- During this walkthrough, you will learn how to perform the following tasks:  
+During this walkthrough, you will learn how to perform the following tasks:  
   
 -   Create a new Windows Forms application and add a [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] file to it.  
   
@@ -55,29 +43,38 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
 ## Prerequisites  
- To complete this walkthrough, you need the following:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   Access to the SQL Server version of the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
--   The **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database. For more information, see [Walkthrough: Creating Update Stored Procedures for the Northwind Customers Table](../data-tools/walkthrough-creating-update-stored-procedures-for-the-northwind-customers-table.md).  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating an Application and Adding LINQ to SQL Classes  
- Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
+Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-#### To create a new Windows Application project that contains LINQ to SQL classes  
+#### To create a new Windows Forms Application project that contains LINQ to SQL classes  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **UpdatingwithSProcsWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **UpdatingWithSProcsWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and C# projects. Therefore, create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
-  
-     The UpdatingwithSProcsWalkthrough project is created and added to **Solution Explorer**.  
+     The **UpdatingWithSProcsWalkthrough** project is created, and added to **Solution Explorer**.  
   
 4.  On the **Project** menu, click **Add New Item**.  
   
@@ -92,7 +89,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 #### To create a Customer entity class and configure a data source with it  
   
-1.  In **Server Explorer**/**Database Explorer**, locate the Customer table in the SQL Server version of the Northwind sample database. For more information, see [How to: Connect to the Northwind Database](../data-tools/how-to-connect-to-the-northwind-database.md).  
+1.  In **Server Explorer**/**Database Explorer**, locate the Customer table in the SQL Server version of the Northwind sample database. 
   
 2.  Drag the **Customers** node from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] surface.  
   
@@ -113,7 +110,6 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
     > [!NOTE]
     >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
-  
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
 ## Creating a DataGridView to Display the Customer Data on a Windows Form  
@@ -132,26 +128,24 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 4.  Add the following code to the form, global to the form, outside any specific method, but inside the Form1 class:  
   
-    ```vb#  
+    ```vb  
     Private NorthwindDataContext1 As New NorthwindDataContext  
     ```  
   
-    ```c#  
+    ```csharp  
     private NorthwindDataContext northwindDataContext1  
-        = new NorthwindDataContext();  
-  
+        = new NorthwindDataContext();    
     ```  
   
 5.  Create an event handler for the `Form_Load` event and add the following code to the handler:  
   
-    ```vb#  
+    ```vb  
     CustomerBindingSource.DataSource = NorthwindDataContext1.Customers  
     ```  
   
-    ```c#  
+    ```csharp  
     customerBindingSource.DataSource  
-        = northwindDataContext1.Customers;  
-  
+        = northwindDataContext1.Customers;    
     ```  
   
 ## Implementing Save Functionality  
@@ -169,11 +163,11 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 5.  Add the following code into the save button event handler:  
   
-    ```vb#  
+    ```vb  
     NorthwindDataContext1.SubmitChanges()  
     ```  
   
-    ```c#  
+    ```csharp  
     northwindDataContext1.SubmitChanges();  
     ```  
   
@@ -258,19 +252,19 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 10. Press F5 and verify that the deleted record was removed from the database.  
   
     > [!NOTE]
-    >  If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10. For more information, see [How to: Manage Local Data Files in Your Project](../data-tools/how-to-manage-local-data-files-in-your-project.md).  
+    >  If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10. 
   
 ## Next Steps  
- Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:  
+Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:  
   
--   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](../Topic/Optimistic%20Concurrency:%20Overview.md).  
+-   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).  
   
--   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).  
+-   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries.md).  
   
-## See Also  
- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [LINQ to SQL Queries](../Topic/LINQ%20to%20SQL%20Queries.md)   
- [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
- [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
- [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)
+## See also
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)     
+[DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)   
+[How to: Assign stored procedures to perform updates, inserts, and deletes](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)  
+[LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)  
+[LINQ to SQL queries](/dotnet/framework/data/adonet/sql/linq/linq-to-sql-queries)  
+ 

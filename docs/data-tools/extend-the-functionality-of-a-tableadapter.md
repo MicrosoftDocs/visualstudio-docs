@@ -2,7 +2,6 @@
 title: "Extend the functionality of a TableAdapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -10,32 +9,16 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Visual Studio], TableAdapters"
   - "data [Visual Studio], extending TableAdapters"
   - "TableAdapters, adding functionality"
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 caps.latest.revision: 11
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Extend the functionality of a TableAdapter
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.  
@@ -51,15 +34,15 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
 #### To create a partial class for a TableAdapter  
   
-1.  Add a new class to your project by going to the **Project** menu and selecting**Add Class**.  
+1.  Add a new class to your project by going to the **Project** menu and selecting **Add Class**.  
   
 2.  Name the class `CustomersTableAdapterExtended`.  
   
-3.  Select**Add**.  
+3.  Select **Add**.  
   
 4.  Replace the code with the correct namespace and partial class name for your project as follows:  
   
-     [!code-cs[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
+     [!code-csharp[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
      [!code-vb[VbRaddataTableAdapters#2](../data-tools/codesnippet/VisualBasic/extend-the-functionality-of-a-tableadapter_1.vb)]  
   
 ## See Also  

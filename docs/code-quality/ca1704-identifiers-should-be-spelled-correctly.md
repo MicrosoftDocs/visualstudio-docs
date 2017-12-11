@@ -2,11 +2,10 @@
 title: "CA1704: Identifiers should be spelled correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "IdentifiersShouldBeSpelledCorrectly"
 ms.assetid: f2c7a44d-1690-44ca-9cd0-681b04b12b2a
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1704: Identifiers should be spelled correctly
 |||  
@@ -69,7 +53,7 @@ translation.priority.mt:
   
 -   Add words that should cause a violation under the Dictionary/Words/Unrecognized path.  
   
--   Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)for more information.  
+-   Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md) for more information.  
   
 -   Add exceptions to the acronym casing rules to the Dictionary/Acronyms/CasingExceptions path.  
   

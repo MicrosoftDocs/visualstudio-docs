@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating and Running Unit Tests for Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,23 +16,8 @@ helpviewer_keywords:
   - "unit tests, authoring"
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 83
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Walkthrough: Creating and Running Unit Tests for Managed Code
 This walkthrough will step you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and the Visual Studio Test Explorer. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and re-run the tests.  
@@ -62,7 +46,7 @@ This walkthrough will step you through creating, running, and customizing a seri
 >  This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
 > [!NOTE]
->  For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](../Topic/Walkthrough:%20using%20the%20command-line%20test%20utility.md).  
+>  For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867).  
   
 ## Prerequisites  
   
@@ -102,7 +86,7 @@ This walkthrough will step you through creating, running, and customizing a seri
   
  In this quick start, we focus on the `Debit` method.The Debit method is called when money is withdrawn an account and contains the following code:  
   
-```c#  
+```csharp  
 // method under test  
 public void Debit(double amount)  
 {  
@@ -149,7 +133,7 @@ public void Debit(double amount)
   
  The BankAccountTests.cs file now contains the following code:  
   
-```c#  
+```csharp  
 // unit test code  
 using System;  
 using Microsoft.VisualStudio.TestTools.UnitTesting;  
@@ -171,7 +155,7 @@ namespace BankTests
   
  We can also add a using statement to the class to let us to call into the project under test without using fully qualified names. At the top of the class file, add:  
   
-```c#  
+```csharp  
 using BankAccountNS;  
 ```  
   
@@ -189,7 +173,7 @@ using BankAccountNS;
   
  By analyzing the method under test, we determine that there are at least three behaviors that need to be checked:  
   
-1.  The method throws an [ArgumentOutOfRangeException](assetId:///ArgumentOutOfRangeException?qualifyHint=False&autoUpgrade=True) if the debit amount is greater than the balance.  
+1.  The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is greater than the balance.  
   
 2.  It also throws `ArgumentOutOfRangeException` if the debit amount is less than zero.  
   
@@ -203,7 +187,7 @@ using BankAccountNS;
   
 2.  Add the following method to that `BankAccountTests` class:  
   
-    ```c#  
+    ```csharp  
     // unit test code  
     [TestMethod]  
     public void Debit_WithValidAmount_UpdatesBalance()  
@@ -257,13 +241,13 @@ using BankAccountNS;
   
  To correct the error, simply replace the line  
   
-```c#  
+```csharp  
 m_balance += amount;  
 ```  
   
  with  
   
-```c#  
+```csharp  
 m_balance -= amount;  
 ```  
   
@@ -286,7 +270,7 @@ m_balance -= amount;
   
  A first attempt at creating a test method to address these issues seems promising:  
   
-```c#  
+```csharp  
 //unit test method  
 [TestMethod]  
 [ExpectedException(typeof(ArgumentOutOfRangeException))]  
@@ -323,7 +307,7 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
   
  Looking at the method under test again, we see both conditional statements use an `ArgumentOutOfRangeException` constructor that takes name of the argument as a parameter:  
   
-```c#  
+```csharp  
 throw new ArgumentOutOfRangeException("amount");  
 ```  
   
@@ -333,7 +317,7 @@ throw new ArgumentOutOfRangeException("amount");
   
  We first define two constants for the error messages at class scope:  
   
-```c#  
+```csharp  
 // class under test  
 public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";  
 public const string DebitAmountLessThanZeroMessage = "Debit amount less than zero";  
@@ -341,7 +325,7 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount less than zer
   
  We then modify the two conditional statements in the `Debit` method:  
   
-```c#  
+```csharp  
 // method under test  
 // ...  
     if (amount > m_balance)  
@@ -368,7 +352,7 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount less than zer
   
  A second attempt at revising `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like:  
   
-```c#  
+```csharp  
 [TestMethod]  
 public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()  
 {  
@@ -404,7 +388,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
   
  But retesting shows that the test now fails if the correct exception is caught. The catch statement resets the exception and the method continues to execute, failing at the new assert. To resolve the new problem, we add a `return` statement after the `StringAssert`. Retesting confirms that we have fixed our problems. Our final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like the following:  
   
-```c#  
+```csharp  
 [TestMethod]  
 public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()  
 {  

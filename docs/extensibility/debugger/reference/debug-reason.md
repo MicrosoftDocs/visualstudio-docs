@@ -2,7 +2,6 @@
 title: "DEBUG_REASON | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "DEBUG_REASON enumeration"
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # DEBUG_REASON
 Specifies why the process was launched for debugging.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DEBUG_REASON {  
    DEBUG_REASON_ERROR         = 0,  
    DEBUG_REASON_USER_LAUNCHED = 1,  
@@ -48,7 +34,7 @@ enum enum_DEBUG_REASON {
 typedef DWORD DEBUG_REASON;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DEBUG_REASON {  
    DEBUG_REASON_ERROR         = 0,  
    DEBUG_REASON_USER_LAUNCHED = 1,  

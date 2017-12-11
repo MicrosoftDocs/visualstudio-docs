@@ -2,7 +2,6 @@
 title: "IDiaSession::findSymbolByRVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 14fb2903-b771-44d6-b0a8-44e0097c58ce
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::findSymbolByRVA
 Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findSymbolByRVA (   
    DWORD        rva,  
    SymTagEnum   symtag,  
@@ -62,7 +46,7 @@ HRESULT findSymbolByRVA ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pFunc;  
 pSession->findSymbolByRVA( rva, SymTagFunction, &pFunc );  
 ```  

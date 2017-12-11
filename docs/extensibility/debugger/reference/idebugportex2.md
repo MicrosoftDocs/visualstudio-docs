@@ -2,7 +2,6 @@
 title: "IDebugPortEx2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPortEx2 interface"
 ms.assetid: 144724d0-38ee-4c9b-87ca-8a504371182b
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPortEx2
 This interface lets the session debug manager (SDM) control the programs and processes running on a port.  
@@ -45,7 +31,7 @@ IDebugPortEx2 : IUnknown
  A custom port supplier implements this interface on the same object that implements [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md).  
   
 ## Notes for Callers  
- The SDM calls [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPort2` interface to obtain this interface.  
+ The SDM calls [QueryInterface](/cpp/atl/queryinterface) on the `IDebugPort2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortEx2`.  

@@ -2,7 +2,6 @@
 title: "Customizing Copy Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -54,7 +53,7 @@ In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-q
   
  Select the diagram before pasting the elements, by overriding `ClipboardCommandSet.ProcessOnPasteCommand()`. Add this code in a custom file in the DslPackage project:  
   
-```c#  
+```csharp  
 namespace Company.MyDsl {  
 using System.Linq;  
 using Microsoft.VisualStudio.Modeling.Diagrams;   
@@ -79,7 +78,7 @@ partial class MyDslClipboardCommandSet
   
  Override `ClipboardCommandSet.ProcessOnPasteCommand()` to create the additional links after calling the base method.  
   
- **Customize the formats in which elements can be copied** to external applications – for example, to add a border to the bitmap form.  
+ **Customize the formats in which elements can be copied** to external applications - for example, to add a border to the bitmap form.  
  Override *MyDsl*`ClipboardCommandSet.ProcessOnMenuCopyCommand()` in the DslPackage project.  
   
  **Customize how elements are copied to the clipboard by the copy command, but not in a drag operation.**  
@@ -90,7 +89,7 @@ partial class MyDslClipboardCommandSet
   
  To achieve this effect, add the shapes and connectors to the copied ElementGroupPrototype. The most convenient method to override is ElementOperations.CreateElementGroupPrototype(). To do this, add the following code to the Dsl project:  
   
-```c#  
+```csharp  
   
 public class MyElementOperations : DesignSurfaceElementOperations  
 {  
@@ -147,7 +146,7 @@ partial class MyDslDiagram // EDIT NAME
   
  To achieve this effect, override `ClipboardCommandSet.ProcessOnMenuPasteCommand()` to use the location-specific version of `ElementOperations.Merge()`. To do this, add the following code in the DslPackage project:  
   
-```c#  
+```csharp  
   
 partial class MyDslClipboardCommandSet // EDIT NAME  
 {  
@@ -230,7 +229,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  The changes that you make will affect both the elements and the image that is copied.  
   
 ## Programming Copy and Paste Behavior  
- Many aspects of a DSL’s behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL’s behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.  
+ Many aspects of a DSL's behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL's behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.  
   
 > [!TIP]
 >  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
@@ -249,7 +248,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
   
  Add this code in a custom code file in the DslPackage project:  
   
-```c#  
+```csharp  
   
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Diagrams;  
@@ -295,7 +294,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
   
  An Element Group Prototype can contain any number of elements and links. Element types can be identified by their GUIDs. The GUID is of the shape that was dragged, not the underlying model element. In following example, `CanMerge()` returns true if a class shape from a UML diagram is dragged onto this diagram.  
   
-```c#  
+```csharp  
 public override bool CanMerge(ModelElement targetShape, System.Windows.Forms.IDataObject data)  
  {  
   // Extract the element prototype from the data.  
@@ -314,7 +313,7 @@ public override bool CanMerge(ModelElement targetShape, System.Windows.Forms.IDa
 ## MergeElementGroupPrototype()  
  This method is called when the user drops an element onto a diagram, a shape, or a connector. It should merge the dragged content into the target element. In this example, the code determines whether it recognizes the combination of target and prototype types; if so, the method converts the dragged elements into a prototype of the elements that should be added to the model. The base method is called to perform the merge, either of the converted or unconverted elements.  
   
-```c#  
+```csharp  
 public override void MergeElementGroupPrototype(ModelElement targetShape, ElementGroupPrototype sourcePrototype)  
 {  
   ElementGroupPrototype prototypeToMerge = sourcePrototype;  
@@ -331,7 +330,7 @@ public override void MergeElementGroupPrototype(ModelElement targetShape, Elemen
   
  This example deals with UML class elements dragged from a UML class diagram. The DSL is not designed to store UML classes directly, but instead, we create a DSL element for each dragged UML class. This would be useful, for example, if the DSL is an instance diagram. The user could drag classes onto the diagram to create instances of those classes.  
   
-```c#  
+```csharp  
   
 private ElementGroupPrototype ConvertDraggedTypeToLocal (MyTargetShape snapshot, ElementGroupPrototype prototype)  
 {  
@@ -374,7 +373,7 @@ private ElementGroupPrototype ConvertDraggedTypeToLocal (MyTargetShape snapshot,
   
  You can override ProcessOnMenuCopyCommand by adding a partial class definition of *MyDsl*`ClipboardCommandSet` in the DslPackage project.  
   
-```c#  
+```csharp  
 using System.Collections.Generic;  
 using System.Drawing;  
 using System.Windows.Forms;  
@@ -386,7 +385,7 @@ partial class MyDslClipboardCommandSet
   /// <summary>  
   /// Override ProcessOnMenuCopyCommand() to copy elements to the  
   /// clipboard in different formats, or to perform additional tasks  
-  /// before or after copying – for example deselect the copied elements.  
+  /// before or after copying - for example deselect the copied elements.  
   /// </summary>  
   protected override void ProcessOnMenuCopyCommand()  
   {  
@@ -439,7 +438,7 @@ protected override void CopyModelElementsIntoElementGroupPrototype(IDataObject d
   
  Each diagram has a singleton instance of ElementOperations. You can supply your own derivative. This file, which can be placed in the DSL project, would behave the same as the code that it overrides:  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  
@@ -563,3 +562,6 @@ namespace Company.MyDsl
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)   
  [Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)
+ 
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+ 

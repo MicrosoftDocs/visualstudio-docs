@@ -1,16 +1,14 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/extract-interface
 title: "Extract Interface Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.extractinterface"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -18,23 +16,9 @@ helpviewer_keywords:
   - "Extract Interface refactoring operation [C#]"
 ms.assetid: 7d0aa225-3b33-4331-9652-5a67cac6f3d0
 caps.latest.revision: 25
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Extract Interface Refactoring (C#)
 Extract Interface is a refactoring operation that provides an easy way to create a new interface with members that originate from an existing class, struct, or interface.  
@@ -47,7 +31,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
 1.  Create a console application named `ExtractInterface`, and then replace `Program` with the following code  
   
-    ```c#  
+    ```csharp  
     // Invoke Extract Interface on ProtoA.  
     // Note:  the extracted interface will be created in a new file.  
     class ProtoA  
@@ -70,7 +54,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
      You see the new file, IProtoA.cs, and the following code:  
   
-    ```c#  
+    ```csharp  
     using System;  
     namespace TopThreeRefactorings  
     {  
@@ -87,4 +71,4 @@ Extract Interface is a refactoring operation that provides an easy way to create
  When you invoke extract interface on a class or on a struct, the bases and interfaces list is modified to include the new interface name. When you invoke extract interface on an interface, the bases and interfaces list is not modified.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)
+ [Refactoring (C#)](refactoring-csharp.md)

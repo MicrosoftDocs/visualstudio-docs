@@ -2,7 +2,6 @@
 title: "ClickOnce Security and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,23 +22,9 @@ caps.latest.revision: 32
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ClickOnce Security and Deployment
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/visual-cpp/ide/clickonce-deployment-for-visual-cpp-applications).  
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).  
   
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment overcomes three major issues in deployment:  
   
@@ -109,8 +94,8 @@ translation.priority.ht:
 |----------|-----------------|  
 |[Security Page, Project Designer](../ide/reference/security-page-project-designer.md)|Signs the application and deployment manifests.|  
 |[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
-|[Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
-|[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
+|[Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
+|[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
 |[GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
 |[GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
 |[SignFile Task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  

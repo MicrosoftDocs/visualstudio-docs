@@ -2,7 +2,6 @@
 title: "Button Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Buttons"
 ms.assetid: 96dccf51-2b00-4700-9d28-924b34c21ecd
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Button Element
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.  
@@ -76,8 +62,18 @@ Defines an element that the user can interact with. Buttons can be of different 
   
 ## Example  
  The following example defines a button in a .vsct file.  
-  
- <!--FIXME [!CODE [MenuText#02](../CodeSnippet/VS_Snippets_VSSDK/menutext#02)]-->  
-  
+
+ ```xml
+<Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
+    <Parent guid="guidMenuTextCmdSet" id="MyMenuGroup" />
+    <Icon guid="guidImages" id="bmpPic1" />
+    <CommandFlag>TextChanges</CommandFlag>
+    <Strings>
+          <CommandName>cmdidMyCommand</CommandName>
+          <ButtonText>My Command name</ButtonText>
+    </Strings>
+</Button>
+ ```
+ 
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

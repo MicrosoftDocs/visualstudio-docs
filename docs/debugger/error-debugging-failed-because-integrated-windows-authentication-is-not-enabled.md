@@ -2,7 +2,6 @@
 title: "Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.webdbg_ntlm_authn_not_enabled"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "aspx"
 helpviewer_keywords: 
@@ -23,21 +22,7 @@ ms.assetid: 6027cd94-74cf-470f-b7ce-6f6b68bc56ba
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
 Authentication of the user who requested debugging was prevented by an authentication error. This can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication is not enabled. To enable it, follow the steps in "To enable integrated Windows authentication."  
@@ -131,4 +116,4 @@ Authentication of the user who requested debugging was prevented by an authentic
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Microsoft Digest Authentication](http://go.microsoft.com/fwlink/?LinkId=77938)   
- [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](../Topic/Running%20Web%20Applications%20on%20Windows%20Vista%20with%20IIS%207.0%20and%20Visual%20Studio.md)
+ [Running Web Applications on Windows Vista with IIS 7.0 and Visual Studio](http://msdn.microsoft.com/Library/262a82ac-dd0e-4096-86c6-fb463e88be66)

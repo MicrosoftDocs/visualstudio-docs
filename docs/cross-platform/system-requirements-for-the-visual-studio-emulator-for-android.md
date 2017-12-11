@@ -2,7 +2,6 @@
 title: "System Requirements for the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,7 @@ ms.assetid: 35e766ad-269f-41e4-ba23-74a556c315f3
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # System Requirements for the Visual Studio Emulator for Android
 Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the virtualization technology for Windows 8 and later versions. To run the emulator, your computer must meet the requirements to run Hyper-V as described in this topic.  
@@ -107,7 +91,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
 -   Automatically configured DNS and gateway settings  
   
-     It’s not possible to configure DNS and gateway settings manually for the emulator.  
+     It's not possible to configure DNS and gateway settings manually for the emulator.  
   
  To troubleshoot networking issues in the emulator, see the following topics:  
   
@@ -116,7 +100,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 ##  <a name="HyperV"></a> Hyper-V requirements  
  Hyper-V requirements in the BIOS  
   
- Your computer’s BIOS must support the following requirements, and they must be enabled:  
+ Your computer's BIOS must support the following requirements, and they must be enabled:  
   
 -   Hardware-assisted virtualization  
   

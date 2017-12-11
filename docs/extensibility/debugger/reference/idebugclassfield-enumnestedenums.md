@@ -2,7 +2,6 @@
 title: "IDebugClassField::EnumNestedEnums | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugClassField::EnumNestedEnums method"
 ms.assetid: 90fd0cef-9145-4de6-91d4-6c881df39d6e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugClassField::EnumNestedEnums
 Creates an enumerator for the nested enumerators of this class.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumNestedEnums(   
    IEnumDebugFields** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumNestedEnums(  
    out IEnumDebugFields ppEnum  
 );  

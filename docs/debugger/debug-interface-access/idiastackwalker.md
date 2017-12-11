@@ -2,7 +2,6 @@
 title: "IDiaStackWalker | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 4a61a22a-9cf8-4ea1-9e6e-b42f96872d40
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaStackWalker
 Provides methods to do a stack walk using information in the .pdb file.  
@@ -60,7 +44,7 @@ IDiaStackWalker: IUnknown
 ## Example  
  This example shows how to obtain the `IDiaStackWalker` interface.  
   
-```cpp#  
+```C++  
   
       IDiaStackWalker* pStackWalker;  
 HRESULT hr = CoCreateInstance(CLSID_DiaStackWalker,  

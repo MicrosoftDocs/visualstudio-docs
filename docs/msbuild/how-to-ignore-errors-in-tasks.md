@@ -2,7 +2,6 @@
 title: "How to: Ignore Errors in Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Ignore Errors in Tasks
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.  
@@ -59,7 +44,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 ## Example  
  The following code example illustrates that the `Build` target still runs and the build is considered a success, even if the `Delete` task fails.  
   
-```  
+```xml  
 <Project DefaultTargets="FakeBuild"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
@@ -76,6 +61,6 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 ```  
   
 ## See Also
-[MSBuild](../msbuild/msbuild1.md)  
+[MSBuild](../msbuild/msbuild.md)  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

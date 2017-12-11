@@ -2,11 +2,10 @@
 title: "CA1701: Resource string compound words should be cased correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "ResourceStringCompoundWordsShouldBeCasedCorrectly"
 ms.assetid: 4ddbe09f-24b8-4c47-9373-a06f4487ca0d
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1701: Resource string compound words should be cased correctly
 |||  
@@ -68,5 +52,5 @@ translation.priority.mt:
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)  
   
 ## See Also  
- [Capitalization Conventions](../Topic/Capitalization%20Conventions.md)   
- [Naming Guidelines](../Topic/Naming%20Guidelines.md)
+ [Capitalization Conventions](/dotnet/standard/design-guidelines/capitalization-conventions)   
+ [Naming Guidelines](/dotnet/standard/design-guidelines/naming-guidelines)

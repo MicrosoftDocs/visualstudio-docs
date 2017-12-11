@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ExcelAddInTutorial">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Ported Projects\Trin_ExcelAddInTutorial\CS\Trin_ExcelAddInTutorial.sln">
+</Property><Property Name="Date" Value="Thursday, October 22, 2009">
+</Property><Property Name="Time" Value="14:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Trin_ExcelAddInTutorial" Source="Trin_ExcelAddInTutorial.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInTutorial" Source="Trin_ExcelAddInTutorial.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInTutorial.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ExcelAddInTutorial.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInTutorial" Source="Trin_ExcelAddInTutorial.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

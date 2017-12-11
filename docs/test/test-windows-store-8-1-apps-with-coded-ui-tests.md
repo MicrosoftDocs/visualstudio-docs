@@ -1,8 +1,7 @@
 ---
-title: "Test Windows Store 8.1 Apps with Coded UI Tests | Microsoft Docs"
+title: "Test Windows UWP Apps with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,30 +10,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
 caps.latest.revision: 23
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
-# Test Windows Store 8.1 Apps with Coded UI Tests
-Use coded UI tests to verify your Windows Store apps.  
+# Test Windows UWP Apps with Coded UI Tests
+
+Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps. 
   
-## Create a simple Windows Store app  
+## Create a simple UWP app  
   
-1.  If you want to run coded UI tests for your XAML-based Windows Store app, you must [set a unique automation property that identifies each control](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
+1.  If you want to run coded UI tests for your XAML-based UWP app, you must [set a unique automation property that identifies each control](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
   
      On the **Tools** menu, point to **Options** and then choose **Text Editor**, then **XAML**, and finally **Miscellaneous**.  
   
@@ -42,17 +27,17 @@ Use coded UI tests to verify your Windows Store apps.
   
      ![XAML Miscellaneous options](../test/media/cuit_windowsstoreapp_b.png "CUIT_WindowsStoreApp_B")  
   
-2.  Create a new project for a blank XAML based Windows Store app using either Visual C# or Visual Basic template.  
+2.  Create a new project for a blank XAML based UWP app using either Visual C# or Visual Basic template.  
   
-     ![Create a Windows Store Blank App &#40;XAML&#41;](../test/media/cuit_windowsstoreapp_newproject_blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
+     ![Create a App &#40;XAML&#41;](../test/media/cuit_windowsstoreapp_newproject_blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
   
 3.  In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
   
-     ![Design the Windows Store app](../test/media/cuit_windowsstoreapp_design.png "CUIT_WindowsStoreApp_Design")  
+     ![Design the UWP app](../test/media/cuit_windowsstoreapp_design.png "CUIT_WindowsStoreApp_Design")  
   
 4.  Double-click the button control and add the following code:  
   
-    ```c#  
+    ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
     {  
         this.textBox.Text = this.button.Name;  
@@ -60,7 +45,7 @@ Use coded UI tests to verify your Windows Store apps.
   
     ```  
   
-    ```vb#  
+    ```vb  
     Public NotInheritable Class MainPage  
         Inherits Page  
   
@@ -70,13 +55,15 @@ Use coded UI tests to verify your Windows Store apps.
     End Class  
     ```  
   
-5.  Press F5 to run your Windows Store app.  
+5.  Press F5 to run your UWP app.  
   
-## Create and run a coded UI test for the Windows Store app  
+## Create and run a coded UI test for the UWP app  
+
+[How do I create coded UI tests for Universal Windows Platform (UWP) apps?](#uwpapps)
   
-1.  Create a new coded UI test project for the Windows Store app.  
+1.  Create a new coded UI test project for the UWP app.  
   
-     ![New coded UI tet project &#40;Windows Store Apps&#41;](../test/media/cuit_windowsstore_newproject.png "CUIT_WindowsStore_NewProject")  
+     ![New coded UI tet project &#40;UWP apps&#41;](../test/media/cuit_windowsstore_newproject.png "CUIT_WindowsStore_NewProject")  
   
 2.  Choose to edit the UI map using the cross-hair tool.  
   
@@ -86,7 +73,7 @@ Use coded UI tests to verify your Windows Store apps.
   
      ![Copy AutomationId to clipboard](../test/media/cuit_windows_store_tileautomationid.png "CUIT_Windows_Store_TileAutomationID")  
   
-4.  In the running Windows Store app, use the cross-hair tool to select the button control and the textbox control. After adding each control, choose the **Add control to UI control map** button in the Coded UI Test Builder toolbar.  
+4.  In the running UWP app, use the cross-hair tool to select the button control and the textbox control. After adding each control, choose the **Add control to UI control map** button in the Coded UI Test Builder toolbar.  
   
      ![Add control to UI map](../test/media/cuit_windowsstoreapp_uimap.png "CUIT_WindowsStoreApp_UIMap")  
   
@@ -123,7 +110,7 @@ Use coded UI tests to verify your Windows Store apps.
   
      **Assert method**  
   
-    ```c#  
+    ```csharp  
     public void AssertMethod1()  
     {  
         #region Variable Declarations  
@@ -135,7 +122,7 @@ Use coded UI tests to verify your Windows Store apps.
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     Public Sub AssertMethod1()  
         Dim uITextBoxEdit As XamlEdit = Me.UIApp2Window.UITextBoxEdit  
   
@@ -146,7 +133,7 @@ Use coded UI tests to verify your Windows Store apps.
   
      **Controls**  
   
-    ```c#  
+    ```csharp  
     #region Properties  
     public XamlButton UIButtonButton  
     {  
@@ -188,7 +175,7 @@ Use coded UI tests to verify your Windows Store apps.
     #endregion  
     ```  
   
-    ```vb#  
+    ```vb  
     #Region "Properties"  
     Public ReadOnly Property UIButtonButton() As XamlButton  
         Get  
@@ -222,39 +209,39 @@ Use coded UI tests to verify your Windows Store apps.
   
 11. In Solution Explorer, open the CodedUITest1.cs or CodedUITest1.vb file. You can now add code to the CodedUTTestMethod1 method for the actions need to run the test using the controls added to the UIMap:  
   
-    1.  Launch the Windows Store app using the automation ID property you copied to the clipboard previously:  
+    1.  Launch the UWP app using the automation ID property you copied to the clipboard previously:  
   
-        ```c#  
+        ```csharp  
         XamlWindow.Launch("8ebca7c4-effe-4c86-9998-068daccee452_cyrqexqw8cc7c!App")  
         ```  
   
-        ```vb#  
+        ```vb  
         XamlWindow myAppWindow = XamlWindow.Launch("7254db3e-20a7-424e-8e05-7c4dabf4f28d_cyrqexqw8cc7c!App");  
         ```  
   
     2.  Add a gesture to tap the button control:  
   
-        ```c#  
+        ```csharp  
         Gesture.Tap(this.UIMap.UIApp1Window. UIButtonButton);  
         ```  
   
-        ```vb#  
+        ```vb  
         Gesture.Tap(Me.UIMap.UIApp2Window. UIButtonButton)  
         ```  
   
     3.  Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
   
-        ```c#  
+        ```csharp  
         this.UIMap.AssertMethod1();  
         ```  
   
-        ```vb#  
+        ```vb  
         Me.UIMap.AssertMethod1()  
         ```  
   
      After adding the code, the CodedUITestMethod1 test method should appear as follows:  
   
-    ```c#  
+    ```csharp  
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  
@@ -270,7 +257,7 @@ Use coded UI tests to verify your Windows Store apps.
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     <CodedUITest(CodedUITestType.WindowsStore)>  
     Public Class CodedUITest1  
   
@@ -294,7 +281,7 @@ Use coded UI tests to verify your Windows Store apps.
   
      ![Run the coded UI test from Test Explorer](../test/media/cuit_windowsstoreapp_runtest.png "CUIT_WindowsStoreApp_RunTest")  
   
-     The Windows Store app launches, the action to tap the button is completed, and the textbox’s Text property is populated and validated using the assert method.  
+     The UWP app launches, the action to tap the button is completed, and the textbox's Text property is populated and validated using the assert method.  
   
      ![Running coded UI test](../test/media/cuit_windowsstoreapp_running.png "CUIT_WindowsStoreApp_Running")  
   
@@ -304,32 +291,33 @@ Use coded UI tests to verify your Windows Store apps.
   
 ## Q & A  
   
--   **Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
+#### Q: Why don't I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
   
-     **A**: The option to record is not supported for Windows Store apps.  
+**A**: The option to record is not supported for UWP apps.  
   
--   **Q: Can I create a coded UI test for my Windows Store apps based on WinJS?**  
+#### Q: Can I create a coded UI test for my UWP apps based on WinJS?**  
+
+**A**: No, only XAML based apps are supported.  
   
-     **A**: No, only XAML based apps are supported.  
+#### Q: Can I create coded UI tests for my UWP apps on a system that is not running Windows 8.1 or Windows 10?**  
   
--   **Q: Can I create coded UI tests for my Windows Store apps on a system that is not running Windows 8.1 or Windows 10?**  
+**A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
+
+<a name="uwpapps"></a>  
+#### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**  
   
-     **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
+**A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
--   **Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**  
+- A UWP app running on local machine will run as a UWP app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
   
-     **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
+- A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
   
-    -   A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
+After you create the project, authoring a test stays the same as before.  
   
-    -   A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
+#### Q: Why can't I modify the code in the UIMap.Designer file?**  
   
-     After you create the project, authoring a test stays the same as before.  
-  
--   **Q: Why can’t I modify the code in the UIMap.Designer file?**  
-  
-     **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
+**A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Set a Unique Automation Property for Windows Store Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)
+ [Set a Unique Automation Property for UWP Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)

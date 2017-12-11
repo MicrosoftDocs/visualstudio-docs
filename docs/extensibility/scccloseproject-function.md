@@ -2,7 +2,6 @@
 title: "SccCloseProject Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "SccCloseProject function"
 ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SccCloseProject Function
 This function closes a project, marking the end of a particular session.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccCloseProject (  
    LPVOID pvContext  
 );  

@@ -2,7 +2,6 @@
 title: "Guidelines for Writing T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,20 +11,6 @@ caps.latest.revision: 9
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Guidelines for Writing T4 Text Templates
 These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. They are not fixed rules.  
@@ -63,7 +48,7 @@ These general guidelines might be helpful if you are generating program code or 
  Move common material into include files or run-time templates  
  To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).  
   
- You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones’ Blog](http://go.microsoft.com/fwlink/?LinkId=208373).  
+ You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).  
   
  Consider moving large blocks of code into a separate assembly.  
  If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  
@@ -139,7 +124,7 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
  Separate data-gathering from text generation  
  Try to avoid mixing computation and text blocks. In each text template, use the first \<# code block #> to set variables and perform complex computations. From the first text block down to the end of the template or the first \<#+ class feature block #>, avoid long expressions, and avoid loops and conditionals unless they contain text blocks. This practice makes the template easier to read and maintain.  
   
- Don’t use `.tt` for include files  
+ Don't use `.tt` for include files  
  Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] recognizes `.tt` files and automatically sets their properties for processing.  
   
  Start each template as a fixed prototype.  
@@ -161,7 +146,7 @@ Team Members:
   
  However, for some kinds of business requirements, it is important to clarify complex sets of relationships and work flows, and diagrams are the best suited medium. An advantage of a diagram is that it is easy to discuss with users and other stakeholders. By generating code from a model at the level of business requirements, you make your code more flexible when the requirements change.  
   
- UML class and activity diagrams can often be adapted for these purposes. You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md) and [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).  
+ You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).  
   
 ## See Also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   

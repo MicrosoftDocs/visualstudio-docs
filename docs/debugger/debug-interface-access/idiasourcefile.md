@@ -2,7 +2,6 @@
 title: "IDiaSourceFile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: 6e9be757-797f-4960-ba62-c14092620bbd
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSourceFile
 Represents a source file.  
@@ -62,7 +46,7 @@ IDiaSourceFile : IUnknown
 ## Example  
  This function displays the names of all source files contributing to the specified table.  
   
-```cpp#  
+```C++  
 void ShowSourceFiles(IDiaTable *pTable)  
 {  
     CComPtr<IDiaEnumSourceFiles> pSourceFiles;  

@@ -2,7 +2,6 @@
 title: "Sample Excel Extension: ExtensionPackage Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e45410a-1819-4d54-ac21-7280152f7e3a
 caps.latest.revision: 9
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Sample Excel Extension: ExtensionPackage Class
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage> class and provides the entry point for a coded UI test that is testing an [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] Worksheet.  

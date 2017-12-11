@@ -2,7 +2,6 @@
 title: "WriteContextTLogs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,28 +19,14 @@ ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # WriteContextTLogs
 Writes logs files for the current context.  
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName);  
 ```  
   
@@ -53,7 +38,7 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
  The root name of the log file name.  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the tracking context was created.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.  
   
 ## Requirements  
  **Header:** FileTracker.h  

@@ -2,11 +2,10 @@
 title: "CA1819: Properties should not return arrays | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "CA1819"
 ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1819: Properties should not return arrays
 |||  
@@ -54,7 +38,7 @@ translation.priority.mt:
  To fix a violation of this rule, either make the property a method or change the property to return a collection.  
   
 ## When to Suppress Warnings  
- Attributes can contain properties that return arrays, but cannot contain properties that return collections. You can suppress a warning that is raised for a property of an attribute that is derived from the [System.Attribute](assetId:///System.Attribute?qualifyHint=False&autoUpgrade=True) class. Otherwise, do not suppress a warning from this rule.  
+ Attributes can contain properties that return arrays, but cannot contain properties that return collections. You can suppress a warning that is raised for a property of an attribute that is derived from the <xref:System.Attribute> class. Otherwise, do not suppress a warning from this rule.  
   
 ## Example Violation  
   
@@ -62,7 +46,7 @@ translation.priority.mt:
  The following example shows a property that violates this rule.  
   
 ### Code  
- [!code-cs[FxCop.Performance.PropertyArrayViolation#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_1.cs)]
+ [!code-csharp[FxCop.Performance.PropertyArrayViolation#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_1.cs)]
  [!code-vb[FxCop.Performance.PropertyArrayViolation#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_1.vb)]  
   
 ### Comments  
@@ -75,17 +59,17 @@ translation.priority.mt:
   
 ### Code  
  [!code-vb[FxCop.Performance.PropertyArrayFixedMethod#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_2.vb)]
- [!code-cs[FxCop.Performance.PropertyArrayFixedMethod#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_2.cs)]  
+ [!code-csharp[FxCop.Performance.PropertyArrayFixedMethod#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_2.cs)]  
   
 ## Return a Collection Example  
   
 ### Description  
  The following example fixes the violation by changing the property to return a  
   
- <xref:System.Collection.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
+ <xref:System.Collections.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>.  
   
 ### Code  
- [!code-cs[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_3.cs)]
+ [!code-csharp[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_3.cs)]
  [!code-vb[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_3.vb)]  
   
 ## Allowing Users to Modify a Property  
@@ -94,15 +78,15 @@ translation.priority.mt:
  You might want to allow the consumer of the class to modify a property. The following example shows a read/write property that violates this rule.  
   
 ### Code  
- [!code-cs[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_4.cs)]
+ [!code-csharp[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_4.cs)]
  [!code-vb[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_4.vb)]  
   
 ### Comments  
- The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection?displayProperty=fullName>.  
+ The following example fixes the violation by changing the property to return a <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>.  
   
 ### Code  
  [!code-vb[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_5.vb)]
- [!code-cs[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_5.cs)]  
+ [!code-csharp[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_5.cs)]  
   
 ## Related Rules  
  [CA1024: Use properties where appropriate](../code-quality/ca1024-use-properties-where-appropriate.md)

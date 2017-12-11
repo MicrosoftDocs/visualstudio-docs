@@ -2,7 +2,6 @@
 title: "IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,29 +13,16 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::ReplaceSymbols"
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 Replaces the current debug symbols with those in the specified data stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ReplaceSymbols(  
    ULONG32  ulAppDomainID,  
    GUID     guidModule,  
@@ -44,7 +30,7 @@ HRESULT ReplaceSymbols(
 );  
 ```  
   
-```c#  
+```csharp  
 int ReplaceSymbols(  
    uint    ulAppDomainID,  
    Guid    guidModule,  
@@ -68,7 +54,7 @@ int ReplaceSymbols(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::ReplaceSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

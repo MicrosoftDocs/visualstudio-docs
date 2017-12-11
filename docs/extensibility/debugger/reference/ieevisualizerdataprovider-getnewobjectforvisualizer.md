@@ -2,7 +2,6 @@
 title: "IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer method"
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.  
@@ -43,7 +29,7 @@ HRESULT GetNewObjectForVisualizer(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetNewObjectForVisualizer(  
    out IDebugObject ppObject  
 );  

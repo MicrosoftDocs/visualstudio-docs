@@ -2,7 +2,6 @@
 title: "Changing the Text of a Menu Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "commands, changing text"
 ms.assetid: 5cb676a0-c6e2-47e5-bd2b-133dc8842e46
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Changing the Text of a Menu Command
 The following steps show how to change the text label of a menu command by using the <xref:System.ComponentModel.Design.IMenuCommandService> service.  
@@ -54,14 +40,14 @@ The following steps show how to change the text label of a menu command by using
   
 3.  In the ChangeMenuText.cs file, create an event handler that will be called before the menu command is displayed.  
   
-    ```c#  
+    ```csharp  
     private void OnBeforeQueryStatus(object sender, EventArgs e)  
     {  
         var myCommand = sender as OleMenuCommand;  
         if (null != myCommand)  
         {  
             myCommand.Text = "New Text";  
-                    }  
+        }  
     }  
     ```  
   
@@ -71,7 +57,7 @@ The following steps show how to change the text label of a menu command by using
   
      Here is what it should look like:  
   
-    ```c#  
+    ```csharp  
     private ChangeMenuText(Package package)  
     {  
         if (package == null)  

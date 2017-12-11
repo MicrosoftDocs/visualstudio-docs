@@ -2,7 +2,6 @@
 title: "How to: Attach and Detach Performance Tools to Running Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,22 +20,7 @@ ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # How to: Attach and Detach Performance Tools to Running Processes
 The profiler can be used to attach to or detach from a running process to make sampling and gathering performance data easier. You can use this method to profile a process when you want to avoid gathering data about application load time, or to monitor the performance of a process after it reaches a specific state.  
@@ -56,11 +40,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To attach to a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
-  
-     \- or -  
-  
-     In **Performance Explorer**, right-click the performance session, and then click **Attach/Detach**.  
+1.  On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Attach**.    
   
      The **Attach Profiler to Process** dialog box appears.  
   
@@ -70,11 +50,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To detach from a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
-  
-     \- or -  
-  
-     In **Performance Explorer**, right-click the performance session, and then click **Attach/Detach**.  
+1.  n the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Detach**. 
   
      The **Attach Profiler to Process** dialog box appears.  
   

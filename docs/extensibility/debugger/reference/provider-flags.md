@@ -2,7 +2,6 @@
 title: "PROVIDER_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "PROVIDER_FLAGS enumeration"
 ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # PROVIDER_FLAGS
 Specifies desired properties to be obtained from a program provider.  
@@ -50,7 +36,7 @@ enum enum_PROVIDER_FLAGS {
 typedef DWORD PROVIDER_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_PROVIDER_FLAGS {  
    PFLAG_NONE                    = 0x00,  
    PFLAG_REMOTE_PORT             = 0x01,  

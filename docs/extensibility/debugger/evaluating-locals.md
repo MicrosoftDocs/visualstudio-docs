@@ -2,7 +2,6 @@
 title: "Evaluating Locals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "expression evaluation, evaluating locals"
 ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Evaluating Locals
 > [!IMPORTANT]
@@ -50,7 +36,7 @@ translation.priority.mt:
 ## Managed Code  
  This is an implementation of a function that retrieves the value of a local in managed code.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     internal class Field  
@@ -92,7 +78,7 @@ namespace EEMC
 ## Unmanaged Code  
  This is an implementation of a function that retrieves the value of a local in unmanaged code. `FieldGetType` is shown in [Getting Local Values](../../extensibility/debugger/getting-local-values.md).  
   
-```cpp#  
+```cpp  
 HRESULT FieldGetPrimitiveValue(  
     in  IDebugBinder* pbinder,  
     in  IDebugField*  pfield,  

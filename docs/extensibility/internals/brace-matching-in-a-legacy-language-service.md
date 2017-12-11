@@ -2,7 +2,6 @@
 title: "Brace Matching in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "language services [managed package framework], brace matching"
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 caps.latest.revision: 27
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Brace Matching in a Legacy Language Service
 Brace matching helps the developer track language elements that need to occur together, such as parentheses and curly braces. When a developer enters a closing brace, the opening brace is highlighted.  
@@ -65,7 +51,7 @@ Brace matching helps the developer track language elements that need to occur to
 ## Setting the Trigger  
  The following example shows how to detect matching parentheses, curly braces and square braces, and setting the trigger for it in the scanner. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method on the <xref:Microsoft.VisualStudio.Package.Source> class detects the trigger and calls the parser to find the matching pair (see the "Finding the Match" section in this topic). This example is for illustrative purposes only. It assumes that your scanner contains a method `GetNextToken` that identifies and returns tokens from a line of text.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   
@@ -100,7 +86,7 @@ namespace TestLanguagePackage
 ## Matching the Braces  
  Here is a simplified example for matching the language elements { }, ( ), and [ ], and adding their spans to the <xref:Microsoft.VisualStudio.Package.AuthoringSink> object. This approach is not a recommended approach to parsing source code; it is for illustrative purposes only.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   

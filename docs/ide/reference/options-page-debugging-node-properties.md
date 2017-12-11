@@ -2,7 +2,6 @@
 title: "Options Page, Debugging Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Options Page, Debugging Node Properties
 The following tables describe the pages (or properties collections) that are associated with the **Debugging** category, `DTE.Properties("Debugging", <Property Page>)` of the **Options** dialog box.  
@@ -92,10 +77,10 @@ The following tables describe the pages (or properties collections) that are ass
 |EnableRPC|Get/Set (Boolean)|Determines whether the debugger can step into COM remote procedure calls.|  
   
 ## See Also  
- [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
- [Determining the Names of Property Items on Options Pages](../Topic/Determining%20the%20Names%20of%20Property%20Items%20on%20Options%20Pages.md)   
+ [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)   
+ [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)   
  [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md)   
- [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)   
+ [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Just-In-Time, Debugging, Options Dialog Box](../../debugger/just-in-time-debugging-options-dialog-box.md)

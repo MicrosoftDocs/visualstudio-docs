@@ -2,7 +2,6 @@
 title: "IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,35 +13,22 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEventFlags2::GetFlags"
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 Retrieves the program destroy flags.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetFlags(  
    PROGRAM_DESTROY_FLAGS* pdwFlags  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetFlags(  
    out enum_PROGRAM_DESTROY_FLAGS pdwFlags  
 );  

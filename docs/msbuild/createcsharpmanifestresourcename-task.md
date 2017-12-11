@@ -2,7 +2,6 @@
 title: "CreateCSharpManifestResourceName Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,21 +20,7 @@ ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CreateCSharpManifestResourceName Task
 Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  

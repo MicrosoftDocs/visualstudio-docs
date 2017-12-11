@@ -2,7 +2,6 @@
 title: "IEnumDebugBoundBreakpoints2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Next"
 ms.assetid: cb3a249f-2282-4bdc-b6d8-a4ee4bfb8365
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IEnumDebugBoundBreakpoints2::Next
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG                    celt,  
    IDebugBoundBreakpoint2** rgelt,  
@@ -45,7 +31,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint                     celt,  
    IDebugBoundBreakpoint2[] rgelt,  

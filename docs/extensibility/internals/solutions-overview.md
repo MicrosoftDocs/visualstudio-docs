@@ -2,7 +2,6 @@
 title: "Solutions Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "solutions, about solutions"
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Solutions Overview
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The solution (.sln) file is text-based and can be placed under source code control and shared between users. The solution user option (.suo) file is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.  
@@ -55,7 +41,7 @@ A solution is a grouping of one or more projects that work together to create an
  Specific information relating to the use of these files can be found in [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md) and [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).  
   
 > [!NOTE]
->  If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can’t change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
+>  If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can't change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   

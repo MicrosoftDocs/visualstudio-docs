@@ -2,7 +2,6 @@
 title: "How to: Manually Create Web Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,23 +15,9 @@ helpviewer_keywords:
   - "project templates [Visual Studio], Web"
 ms.assetid: 731c4027-a152-48c5-bfc4-93490bf1949f
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Manually Create Web Templates
 Creating a Web template is different than creating other kinds of templates. Because Web project templates appear in the **Add New Web Site** dialog box, and Web project items are categorized by programming language, the .vstemplate file must specify the template as a Web template and identify the programming language.  

@@ -2,7 +2,6 @@
 title: "Extending Coded UI Tests and Action Recordings to Support Microsoft Excel | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6b0f72a4-70ca-4e55-b236-2ea1034fd8a7
 caps.latest.revision: 30
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Extending Coded UI Tests and Action Recordings to Support Microsoft Excel
 The testing framework for coded UI tests and action recordings does not support every possible user interface. It might not support the specific UI that you want to test. For example, you cannot immediately create a coded UI test or an action recording for a [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] spreadsheet. However, you can create your own extension to the coded UI test framework that will support your specific UI by taking advantage of the extensibility of the coded UI test framework. The following topic gives an example of how to extend the framework to support the creation of coded UI tests and action recordings for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)]. For more information about the platforms that are supported, see [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).  
@@ -62,7 +47,7 @@ Architecture Overview
 ### Microsoft Excel Add-in: ExcelCodedUIAddinHelper  
  This project includes an add-in that runs in the Excel process. See [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md) for a brief overview of the add-in project.  
   
- For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md).  
+ For more information, see [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/Library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f).  
   
 ### Excel UI communication: ExcelUIcommunicationHelper  
  This project includes the `IExcelUICommunication` interface and the information classes that are used to pass data between the Coded UI Testing Framework and Excel. For more information, see [Sample Excel Communicator Interface](../test/sample-excel-communicator-interface.md).  
@@ -75,7 +60,7 @@ Architecture Overview
   
  "`%CommonProgramFiles(x86)%\Microsoft Shared\VSTT\<version number>\UITestExtensionPackages\*.*`", where version number could be 11.0, 12.0 etc based on your Visual Studio version.  
   
- The `ExcelUICommunicationHelper` DLL and PDB files are copied to `"%ProgramFiles(x86)%\Microsoft Visual Studio <version number>\Common7\IDE\PrivateAssemblies”`.  
+ The `ExcelUICommunicationHelper` DLL and PDB files are copied to `"%ProgramFiles(x86)%\Microsoft Visual Studio <version number>\Common7\IDE\PrivateAssemblies"`.  
   
  You might have to adjust the exact copy paths, but no additional installation is required. On a 64-bit machine, use the 32-bit Visual Studio Enterprise command prompt to run the `CopyDrop.bat` file.  
   

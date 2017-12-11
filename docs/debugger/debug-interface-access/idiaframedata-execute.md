@@ -2,7 +2,6 @@
 title: "IDiaFrameData::execute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 7a6c7d03-1ff1-4059-bd54-5f407eeebc26
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaFrameData::execute
 Performs stack unwinding and returns results in a stack walk frame interface.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT execute (   
    IDiaStackWalkFrame* frame  
 );  

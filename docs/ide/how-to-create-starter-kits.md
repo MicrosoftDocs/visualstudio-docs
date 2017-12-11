@@ -2,7 +2,6 @@
 title: "How to: Create Starter Kits | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,23 +12,9 @@ helpviewer_keywords:
   - "Starter Kits, creating"
 ms.assetid: ed7d1844-7c01-424a-a831-5003efe0f7bc
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Create Starter Kits
 A Starter Kit contains code for a complete application and documentation on how to modify or expand the application. Creating a Starter Kit is fundamentally the same as creating a normal project template, the only difference being that a Starter Kit contains documentation files that are set to open when a project based on the Starter Kit is created.  

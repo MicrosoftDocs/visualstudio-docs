@@ -2,7 +2,6 @@
 title: "IDebugBinder3::FindAlias | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugBinder3::FindAlias method"
 ms.assetid: b8333701-2718-4983-8513-0875fb7cb730
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBinder3::FindAlias
 This method locates an alias, given a name. This will search all aliases in the program.  
@@ -44,7 +30,7 @@ HRESULT FindAlias(
 );  
 ```  
   
-```c#  
+```csharp  
 int FindAlias(  
    string          pcstrName,  
    out IDebugAlias ppAlias  

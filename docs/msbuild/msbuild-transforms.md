@@ -2,7 +2,6 @@
 title: "MSBuild Transforms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Transforms
 A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.  
@@ -67,7 +52,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
   
  In the [Copy Task](../msbuild/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task will be run only for the changed file and all other files will be skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md).  
   
-```  
+```xml  
 <Target Name="CopyOutputs"  
     Inputs="@(BuiltAssemblies)"  
     Outputs="@(BuiltAssemblies -> '$(OutputPath)%(Filename)%(Extension)')">  
@@ -86,7 +71,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
   
 ### Code  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Schema Include="sub1\**\*.xsd"/>  

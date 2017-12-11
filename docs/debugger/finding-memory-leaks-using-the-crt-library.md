@@ -2,7 +2,6 @@
 title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,10 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "breakpoints, on memory allocation"
@@ -35,22 +33,7 @@ ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
 caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Finding Memory Leaks Using the CRT Library
 Memory leaks, defined as the failure to correctly deallocate memory that was previously allocated, are among the most subtle and hard-to-detect bugs in C/C++ applications. A small memory leak might not be noticed at first, but over time, a progressive memory leak can cause symptoms that range from decreased performance to crashing when the application runs out of memory. Worse, a leaking application that uses up all available memory can cause another application to crash, creating confusion as to which application is responsible. Even seemingly harmless memory leaks might be symptomatic of other problems that should be corrected.  
@@ -70,7 +53,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  For the CRT functions to work correctly, the `#include` statements must follow the order shown here.  
   
- Including crtdbg.h maps the `malloc` and the [free](/visual-cpp/c-runtime-library/reference/free) functions to their debug versions, [_malloc_dbg](/visual-cpp/c-runtime-library/reference/malloc-dbg) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+ Including crtdbg.h maps the `malloc` and the [free](/cpp/c-runtime-library/reference/free) functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
   
  The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be less detailed.  
   
@@ -80,7 +63,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
 _CrtDumpMemoryLeaks();  
 ```  
   
- If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
+ If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
   
 ```  
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -95,7 +78,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 ```  
   
 ## Interpreting the Memory-Leak Report  
- If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
+ If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
   
 ```  
 Detected memory leaks!  
@@ -110,7 +93,7 @@ Object dump complete.
 ```  
 Detected memory leaks!  
 Dumping objects ->  
-C:\PROGRAM FILES\VISUAL STUDIO\MyProjects\leaktest\leaktest.cpp(20) : {18}   
+c:\users\username\documents\projects\leaktest\leaktest.cpp(20) : {18}   
 normal block at 0x00780E80, 64 bytes long.  
  Data: <                > CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD CD  
 Object dump complete.  
@@ -134,16 +117,60 @@ Object dump complete.
   
  There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released. That means it is not leaked, by definition. An *ignore block* is memory that you have explicitly marked to exclude it from the memory-leak report.  
   
- These techniques work for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you need to redefine `new` if you want to see the file and line numbers in the memory-leak report. You can do that with a block of code that looks like this:  
+ These techniques work for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the file and line number where the implementation of global `operator new` calls `_malloc_dbg` in the memory-leak report. Because that behavior is not very useful, you can change it to report the line that made the allocation by using a macro that looks like this: 
+ 
+```C++  
+#ifdef _DEBUG
+    #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
+    // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
+    // allocations to be of _CLIENT_BLOCK type
+#else
+    #define DBG_NEW new
+#endif
+```  
   
+Now you can replace the `new` operator by using the `DBG_NEW` macro in your code. In debug builds, this uses an overload of global `operator new` that takes additional parameters for the block type, file, and line number. This overload of `new` calls `_malloc_dbg` to record the extra information. When you use `DBG_NEW`, the memory leak reports show the filename and line number where the leaked objects were allocated. In retail builds, it uses the default `new`. (We do not recommend you create a preprocessor macro named `new`, or any other language keyword.) Here's an example of the technique:  
+  
+```C++  
+// debug_new.cpp
+// compile by using: cl /EHsc /W4 /D_DEBUG /MDd debug_new.cpp
+#define _CRTDBG_MAP_ALLOC
+#include <cstdlib>
+#include <crtdbg.h>
+
+#ifdef _DEBUG
+    #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
+    // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
+    // allocations to be of _CLIENT_BLOCK type
+#else
+    #define DBG_NEW new
+#endif
+
+struct Pod {
+    int x;
+};
+
+void main() {
+    Pod* pPod = DBG_NEW Pod;
+    pPod = DBG_NEW Pod; // Oops, leaked the original pPod!
+    delete pPod;
+
+    _CrtDumpMemoryLeaks();
+}
 ```  
-#ifdef _DEBUG  
-   #ifndef DBG_NEW  
-      #define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )  
-      #define new DBG_NEW  
-   #endif  
-#endif  // _DEBUG  
+  
+When you run this code in the debugger in Visual Studio, the call to `_CrtDumpMemoryLeaks` generates a report in the **Output** window that looks similar to this:  
+  
+```Output  
+Detected memory leaks!
+Dumping objects ->
+c:\users\username\documents\projects\debug_new\debug_new.cpp(20) : {75}
+ normal block at 0x0098B8C8, 4 bytes long.
+ Data: <    > CD CD CD CD 
+Object dump complete.
 ```  
+  
+This tells you that the leaked allocation was on line 20 of debug_new.cpp.  
   
 ## Setting Breakpoints on a Memory Allocation Number  
  The memory allocation number tells you when a leaked memory block was allocated. A block with a memory allocation number of 18, for example, is the 18th block of memory allocated during the run of the application. The CRT report counts all memory-block allocations during the run. This includes allocations by the CRT library and other libraries such as MFC. Therefore, a block with a memory allocation number of 18 may not be the 18th memory block allocated by your code. Typically, it will not be.  
@@ -162,7 +189,7 @@ Object dump complete.
   
 4.  Press **RETURN**.  
   
-     The debugger evaluates the call and places the result in the **Value** column. This value will be –1 if you have not set any breakpoints on memory allocations.  
+     The debugger evaluates the call and places the result in the **Value** column. This value will be -1 if you have not set any breakpoints on memory allocations.  
   
 5.  In the **Value** column, replace the value shown with the allocation number of the memory allocation where you want to break.  
   

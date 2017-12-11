@@ -1,8 +1,8 @@
 ---
+redirect_url: /visualstudio/ide/refactoring-code-generation-quick-actions
 title: "Refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +11,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Refactoring in Visual Studio
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior. Some common *refactorings* include:  
@@ -42,18 +28,19 @@ Refactoring is the process of modifying code in order to make it easier to maint
   
  Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
   
-### Refactoring in C#  
+### Refactoring in C# #
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  
   
 ### Refactoring in Visual Basic  
- [Refactoring and Rename Dialog Box (Visual Basic)](/dotnet/visual-basic/developing-apps/using-ide/refactoring-and-rename-dialog-box)  
+ [Refactoring (Visual Basic)](../vb-ide/refactoring-vb.md)  
   
 ### Refactoring in C++  
- [Writing and refactoring code (C++)](/visual-cpp/ide/writing-and-refactoring-code-cpp)  
+ [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
   
-### Refactoring in F#  
+### Refactoring in F# #
  Refactoring support for F# is provided in [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff), a third-party Visual Studio extension.  
   
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)   
- [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+ [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
+ [Preview Changes](../ide/preview-changes.md)

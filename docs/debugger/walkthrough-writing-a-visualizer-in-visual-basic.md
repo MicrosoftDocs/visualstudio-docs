@@ -2,7 +2,6 @@
 title: "Walkthrough: Writing a Visualizer in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "visualizers, writing"
@@ -21,27 +20,13 @@ ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
  Visualizer code must be placed in a DLL that will be read by the debugger. The first step is to create a class library project for the DLL.  
   

@@ -2,7 +2,6 @@
 title: "GenerateResource Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,24 +22,10 @@ ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
 caps.latest.revision: 15
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # GenerateResource Task
-Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](../Topic/Resgen.exe%20\(Resource%20File%20Generator\).md).  
+Converts between .txt and .resx (XML-based resource format) files and common language runtime binary .resources files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert .txt or .resx files to .resource files. The `GenerateResource` task is functionally similar to [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator).  
   
 ## Parameters  
  The following table describes the parameters of the `GenerateResource` task.  
@@ -53,7 +38,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 |`ExecuteAsTool`|Optional `Boolean` parameter.<br /><br /> If `true`, runs tlbimp.exe and aximp.exe from the appropriate target framework out-of-proc to generate the necessary wrapper assemblies. This parameter allows multi-targeting of `ResolveComReferences`.|  
 |`FilesWritten`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the names of all files written to disk. This includes the cache file, if any. This parameter is useful for implementations of Clean.|  
 |`MinimalRebuildFromTracking`|Optional `Boolean` parameter.<br /><br /> Gets or sets a switch that specifies whether tracked incremental build will be used. If `true`, incremental build is turned on; otherwise, a rebuild will be forced.|  
-|`NeverLockTypeAssemblies`|Optional `Boolean` parameter.<br /><br /> Specifies the name of the generated files, such as .resources files. If you do not specify a name, the name of the matching input file is used and the .resources file that is created is placed in the directory that contains the input file.|  
+|`NeverLockTypeAssemblies`|Optional `Boolean` parameter.<br /><br /> Gets or sets a Boolean value that specifies whether to create a new [AppDomain](https://docs.microsoft.com/dotnet/api/system.appdomain) to evaluate the resources (.resx) files (true) or to create a new [AppDomain](https://docs.microsoft.com/dotnet/api/system.appdomain) only when the resources files reference a user's assembly (false).|  
 |`OutputResources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the name of the generated files, such as .resources files. If you do not specify a name, the name of the matching input file is used and the .resources file that is created is placed in the directory that contains the input file.|  
 |`PublicClass`|Optional `Boolean` parameter.<br /><br /> If `true`, creates a strongly typed resource class as a public class.|  
 |`References`|Optional `String[]` parameter.<br /><br /> References to load types in .resx files from. Resx file data elements may have a .NET type. When the .resx file is read, this must be resolved. Typically, it is resolved successfully by using standard type loading rules. If you provide assemblies in `References`, they take precedence.<br /><br /> This parameter is not required for strongly typed resources.|  
@@ -67,11 +52,11 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 |`StronglyTypedNamespace`|Optional `String` parameter.<br /><br /> Specifies the namespace to use for the generated class source for the strongly typed resource. If this parameter is not specified, any strongly typed resources are in the global namespace.|  
 |`TLogReadFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` read-only parameter.<br /><br /> Gets an array of items that represent the read tracking logs.|  
 |`TLogWriteFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` read-only parameter.<br /><br /> Gets an array of items that represent the write tracking logs.|  
-|`ToolArchitecture`|Optional [String](assetId:///String?qualifyHint=False&autoUpgrade=True) parameter.<br /><br /> Used to determine whether or not Tracker.exe needs to be used to spawn ResGen.exe.<br /><br /> Should be parsable to a member of the <xref:Microsoft.Build.Utilities.ExecutableType> enumeration. If `String.Empty`, uses a heuristic to determine a default architecture. Should be parsable to a member of the Microsoft.Build.Utilities.ExecutableType enumeration.|  
-|`TrackerFrameworkPath`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the path to the appropriate .NET Framework location that contains FileTracker.dll.<br /><br /> If set, the user takes responsibility for making sure that the bitness of the FileTracker.dll that they pass matches the bitness of the ResGen.exe that they intend to use. If not set, the task decides the appropriate location based on the current .NET Framework version.|  
-|`TrackerLogDirectory`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the intermediate directory into which the tracking logs from running this task will be placed.|  
-|`TrackerSdkPath`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the path to the appropriate Windows SDK location that contains Tracker.exe.<br /><br /> If set, the user takes responsibility for making sure that the bitness of the Tracker.exe that they pass matches the bitness of the ResGen.exe that they intend to use. If not set, the task decides the appropriate location based on the current Windows SDK.|  
-|`TrackFileAccess`|Optional [Boolean](assetId:///Boolean?qualifyHint=False&autoUpgrade=True) parameter.<br /><br /> If true, the directory of the input file is used for resolving relative file paths.|  
+|`ToolArchitecture`|Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Used to determine whether or not Tracker.exe needs to be used to spawn ResGen.exe.<br /><br /> Should be parsable to a member of the <xref:Microsoft.Build.Utilities.ExecutableType> enumeration. If `String.Empty`, uses a heuristic to determine a default architecture. Should be parsable to a member of the Microsoft.Build.Utilities.ExecutableType enumeration.|  
+|`TrackerFrameworkPath`|Optional `String` parameter.<br /><br /> Specifies the path to the appropriate .NET Framework location that contains FileTracker.dll.<br /><br /> If set, the user takes responsibility for making sure that the bitness of the FileTracker.dll that they pass matches the bitness of the ResGen.exe that they intend to use. If not set, the task decides the appropriate location based on the current .NET Framework version.|  
+|`TrackerLogDirectory`|Optional `String` parameter.<br /><br /> Specifies the intermediate directory into which the tracking logs from running this task will be placed.|  
+|`TrackerSdkPath`|Optional `String` parameter.<br /><br /> Specifies the path to the appropriate Windows SDK location that contains Tracker.exe.<br /><br /> If set, the user takes responsibility for making sure that the bitness of the Tracker.exe that they pass matches the bitness of the ResGen.exe that they intend to use. If not set, the task decides the appropriate location based on the current Windows SDK.|  
+|`TrackFileAccess`|Optional <xref:System.Boolean> parameter.<br /><br /> If true, the directory of the input file is used for resolving relative file paths.|  
 |`UseSourcePath`|Optional `Boolean` parameter.<br /><br /> If `true`, specifies that the input file's directory is to be used for resolving relative file paths.|  
   
 ## Remarks  
@@ -84,7 +69,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 ## Example  
  The following example uses the `GenerateResource` task to generate .resources files from the files specified by the `Resx` item collection.  
   
-```  
+```xml  
 <GenerateResource  
     Sources="@(Resx)"  
     OutputResources="@(Resx->'$(IntermediateOutputPath)%(Identity).resources')">  
@@ -98,7 +83,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
   
  Assuming that the assembly is named myAssembly, the following code generates an embedded resource named someQualifier.someResource.resources:  
   
-```  
+```xml  
 <ItemGroup>   <EmbeddedResource Include="myResource.resx">       <LogicalName>someQualifier.someResource.resources</LogicalName>   </EmbeddedResource></ItemGroup>  
 ```  
   

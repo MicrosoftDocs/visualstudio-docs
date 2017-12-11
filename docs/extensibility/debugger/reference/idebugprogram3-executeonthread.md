@@ -2,7 +2,6 @@
 title: "IDebugProgram3::ExecuteOnThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,34 +12,21 @@ helpviewer_keywords:
   - "IDebugProgram3::ExecuteOnThread"
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgram3::ExecuteOnThread
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ExecuteOnThread(  
    [in] IDebugThread2* pThread)  
 ```  
   
-```c#  
+```csharp  
 int ExecuteOnThread(  
    IDebugThread2 pThread  
 );  

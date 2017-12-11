@@ -2,32 +2,17 @@
 title: "Step 4: Lay Out Your Form with a TableLayoutPanel Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Step 4: Lay Out Your Form with a TableLayoutPanel Control
 In this step, you add a `TableLayoutPanel` control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  
@@ -68,7 +53,7 @@ Properties window showing TableLayoutPanel control
      ![Properties window with Fill selected](../ide/media/express_docktable.png "Express_DockTable")  
 Properties window with Fill selected  
   
-     *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the Properties window can be undocked – that is, unattached and free-floating within Visual Studio – or it can be docked against **Solution Explorer**.  
+     *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the Properties window can be undocked - that is, unattached and free-floating within Visual Studio - or it can be docked against **Solution Explorer**.  
   
 7.  After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.  
   

@@ -2,7 +2,6 @@
 title: "ResolveComReference Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 caps.latest.revision: 26
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # ResolveComReference Task
 Takes a list of one or more type library names or .tlb files and resolves those type libraries to locations on disk.  
@@ -57,10 +42,10 @@ Takes a list of one or more type library names or .tlb files and resolves those 
 |`ResolvedAssemblyReferences`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the resolved assembly references.|  
 |`ResolvedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the fully qualified files on disk that correspond to the physical locations of the type libraries that were provided as input to this task.|  
 |`ResolvedModules`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.|  
-|`SdkToolsPath`|Optional [String](assetId:///String?qualifyHint=False&autoUpgrade=True) parameter.<br /><br /> If `ExecuteAsTool` is `true`, this parameter must be set to the SDK tools path for the framework version being targeted.|  
-|`StateFile`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the cache file for COM component timestamps. If not present, every run will regenerate all the wrappers.|  
-|`TargetFrameworkVersion`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the project target framework version.<br /><br /> The default is `String.Empty`. which means there is no filtering for a reference based on the target framework.|  
-|`TargetProcessorArchitecture`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the preferred target processor architecture. Passed to the tlbimp.exe /machine flag after translation.<br /><br /> The parameter value should be a member of <xref:Microsoft.Build.Utilities.ProcessorArchitecture>.|  
+|`SdkToolsPath`|Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> If `ExecuteAsTool` is `true`, this parameter must be set to the SDK tools path for the framework version being targeted.|  
+|`StateFile`|Optional `String` parameter.<br /><br /> Specifies the cache file for COM component timestamps. If not present, every run will regenerate all the wrappers.|  
+|`TargetFrameworkVersion`|Optional `String` parameter.<br /><br /> Specifies the project target framework version.<br /><br /> The default is `String.Empty`. which means there is no filtering for a reference based on the target framework.|  
+|`TargetProcessorArchitecture`|Optional `String` parameter.<br /><br /> Specifies the preferred target processor architecture. Passed to the tlbimp.exe /machine flag after translation.<br /><br /> The parameter value should be a member of <xref:Microsoft.Build.Utilities.ProcessorArchitecture>.|  
 |`TypeLibFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library file path to COM references. Items included in this parameter may contain item metadata. For more information, see the section "TypeLibFiles Item Metadata" below.|  
 |`TypeLibNames`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library names to resolve. Items included in this parameter must contain some item metadata. For more information, see the section "TypeLibNames Item Metadata" below.|  
 |`WrapperOutputDirectory`|Optional `String` parameter.<br /><br /> The location on disk where the generated interop assembly is placed. If this item metadata is not specified, the task uses the absolute path of the directory where the project file is located.|  

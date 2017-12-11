@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Custom Text Template Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,20 +14,6 @@ caps.latest.revision: 51
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Creating a Custom Text Template Host
 A *text template**host* provides an environment that enables the *text template transformation engine* to run. The host is responsible for managing the engine's interaction with the file system. The engine or *directive processor* that needs a file or an assembly can request a resource from the host. The host can then search directories and the global assembly cache to locate the requested resource. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).  
@@ -66,7 +51,7 @@ A *text template**host* provides an environment that enables the *text template 
   
 3.  Replace the code in the Program.cs or Module1.vb file with the following code:  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.IO;  
     using System.CodeDom.Compiler;  
@@ -416,7 +401,7 @@ A *text template**host* provides an environment that enables the *text template 
     }  
     ```  
   
-    ```vb#  
+    ```vb  
     Imports System  
     Imports System.IO  
     Imports System.CodeDom.Compiler  
@@ -743,7 +728,7 @@ A *text template**host* provides an environment that enables the *text template 
     > [!NOTE]
     >  The programming language of the text template does not have to match that of the custom host.  
   
-    ```c#  
+    ```csharp  
     Text Template Host Test  
   
     <#@ template debug="true" #>  
@@ -761,7 +746,7 @@ A *text template**host* provides an environment that enables the *text template 
     #>  
     ```  
   
-    ```vb#  
+    ```vb  
     Text Template Host Test  
   
     <#@ template debug="true" language="VB"#>  

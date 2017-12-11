@@ -2,7 +2,6 @@
 title: "IDebugPortSupplier2::EnumPorts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::EnumPorts"
 ms.assetid: 88b57fd2-eba1-44fa-bd34-cf2ad2b1ff87
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPortSupplier2::EnumPorts
 Retrieves a list of all the ports supplied by a port supplier.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPorts(   
    IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumPorts(   
    out IEnumDebugPorts2 ppEnum  
 );  

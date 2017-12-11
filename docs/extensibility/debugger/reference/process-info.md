@@ -2,7 +2,6 @@
 title: "PROCESS_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "PROCESS_INFO structure"
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # PROCESS_INFO
 Contains information about a process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagPROCESS_INFO {   
    PROCESS_INFO_FIELDS Fields;  
    BSTR                bstrFileName;  
@@ -51,7 +37,7 @@ typedef struct tagPROCESS_INFO { 
 } PROCESS_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct PROCESS_INFO {   
    public uint          Fields;  
    public string        bstrFileName;  

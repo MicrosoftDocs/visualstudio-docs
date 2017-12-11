@@ -2,7 +2,6 @@
 title: "Walkthrough: Highlighting Text | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - highlight text"
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 caps.latest.revision: 42
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Highlighting Text
 You can add different visual effects to the editor by creating Managed Extensibility Framework (MEF) component parts. This walkthrough shows how to highlight every occurrence of the current word in a text file. If a word occurs more than one time in a text file, and you position the caret in one occurrence, every occurrence is highlighted.  
@@ -71,7 +57,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 3.  Import the following namespaces.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.ComponentModel.Composition;  
@@ -88,7 +74,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 4.  Create a class that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag> and name it `HighlightWordTag`.  
   
-    ```c#  
+    ```csharp  
     internal class HighlightWordTag : TextMarkerTag  
     {  
   
@@ -101,7 +87,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
     -   <xref:Microsoft.VisualStudio.Text.Classification.UserVisibleAttribute>: this causes the format to appear in the UI  
   
-    ```c#  
+    ```csharp  
   
     [Export(typeof(EditorFormatDefinition))]  
     [Name("MarkerFormatDefinition/HighlightWordFormatDefinition")]  
@@ -114,7 +100,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 6.  In the constructor for HighlightWordFormatDefinition, define its display name and appearance. The Background property defines the fill color, while the Foreground property defines the border color.  
   
-    ```c#  
+    ```csharp  
     public HighlightWordFormatDefinition()  
     {  
                 this.BackgroundColor = Colors.LightBlue;  
@@ -137,7 +123,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 1.  Create a class that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> of type `HighlightWordTag`, and name it `HighlightWordTagger`.  
   
-    ```c#  
+    ```csharp  
     internal class HighlightWordTagger : ITagger<HighlightWordTag>  
     {  
   
@@ -162,7 +148,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
     -   A lock object.  
   
-    ```c#  
+    ```csharp  
     ITextView View { get; set; }  
     ITextBuffer SourceBuffer { get; set; }  
     ITextSearchService TextSearchService { get; set; }  
@@ -176,7 +162,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 3.  Add a constructor that initializes the properties listed earlier and adds <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextCaret.PositionChanged> event handlers.  
   
-    ```c#  
+    ```csharp  
     public HighlightWordTagger(ITextView view, ITextBuffer sourceBuffer, ITextSearchService textSearchService,  
     ITextStructureNavigator textStructureNavigator)  
     {  
@@ -194,7 +180,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 4.  The event handlers both call the `UpdateAtCaretPosition` method.  
   
-    ```c#  
+    ```csharp  
     void ViewLayoutChanged(object sender, TextViewLayoutChangedEventArgs e)  
     {  
         // If a new snapshot wasn't generated, then skip this layout   
@@ -212,12 +198,12 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 5.  You must also add a `TagsChanged` event that will be called by the update method.  
   
-     [!code-cs[VSSDKHighlightWordTest#10](../extensibility/codesnippet/CSharp/walkthrough-highlighting-text_1.cs)]
+     [!code-csharp[VSSDKHighlightWordTest#10](../extensibility/codesnippet/CSharp/walkthrough-highlighting-text_1.cs)]
      [!code-vb[VSSDKHighlightWordTest#10](../extensibility/codesnippet/VisualBasic/walkthrough-highlighting-text_1.vb)]  
   
 6.  The `UpdateAtCaretPosition()` method finds every word in the text buffer that is identical to the word where the cursor is positioned and constructs a list of <xref:Microsoft.VisualStudio.Text.SnapshotSpan> objects that correspond to the occurrences of the word. It then calls `SynchronousUpdate`, which raises the `TagsChanged` event.  
   
-    ```c#  
+    ```csharp  
     void UpdateAtCaretPosition(CaretPosition caretPosition)  
     {  
         SnapshotPoint? point = caretPosition.Point.GetPoint(SourceBuffer, caretPosition.Affinity);  
@@ -323,7 +309,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
      Here the method returns a <xref:Microsoft.VisualStudio.Text.Tagging.TagSpan%601> object that has a "blue" <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, which provides a blue background.  
   
-    ```c#  
+    ```csharp  
     public IEnumerable<ITagSpan<HighlightWordTag>> GetTags(NormalizedSnapshotSpanCollection spans)  
     {  
         if (CurrentWord == null)  
@@ -364,13 +350,13 @@ You can add different visual effects to the editor by creating Managed Extensibi
  To create your tagger, you must implement a <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. This class is a MEF component part, so you must set the correct attributes so that this extension is recognized.  
   
 > [!NOTE]
->  For more information about MEF, see [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).  
+>  For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).  
   
 #### To create a tagger provider  
   
 1.  Create a class named `HighlightWordTaggerProvider` that implements <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>.  
   
-    ```c#  
+    ```csharp  
     [Export(typeof(IViewTaggerProvider))]  
     [ContentType("text")]  
     [TagType(typeof(TextMarkerTag))]  
@@ -380,7 +366,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 2.  You must import two editor services, the <xref:Microsoft.VisualStudio.Text.Operations.ITextSearchService> and the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>, to instantiate the tagger.  
   
-    ```c#  
+    ```csharp  
     [Import]  
     internal ITextSearchService TextSearchService { get; set; }  
   
@@ -391,7 +377,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 3.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger%2A> method to return an instance of `HighlightWordTagger`.  
   
-    ```c#  
+    ```csharp  
     public ITagger<T> CreateTagger<T>(ITextView textView, ITextBuffer buffer) where T : ITag  
     {  
         //provide highlighting only on the top buffer   

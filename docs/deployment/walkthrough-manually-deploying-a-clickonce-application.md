@@ -2,7 +2,6 @@
 title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,20 +25,6 @@ caps.latest.revision: 49
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Manually Deploying a ClickOnce Application
 If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the Mage.exe command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests. This walkthrough describes how to create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using either the command-line version (Mage.exe) or the graphical version (MageUI.exe) of the Manifest Generation and Editing Tool.  
@@ -214,11 +199,11 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 29. Provide your users with the URL, UNC, or physical media required to install your application. If you provide a URL or a UNC, you must give your users the full path the deployment manifest. For example, if AppToDeploy is deployed to http://webserver01/ in the AppToDeploy directory, the full URL path would be http://webserver01/AppToDeploy/AppToDeploy.application.  
   
 ## Next Steps  
- When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the Mage.exe `-New` and `–Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used MageUI.exe, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.  
+ When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the Mage.exe `-New` and `-Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used MageUI.exe, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)   
- [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)   
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)   
+ [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

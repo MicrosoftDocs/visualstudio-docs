@@ -2,7 +2,6 @@
 title: "Assembly Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,22 +15,9 @@ helpviewer_keywords:
   - "<Assembly> element [Visual Studio Template Wizard Extension]"
 ms.assetid: 0c3dc280-1753-4ea2-a13c-d31d13b935b2
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Assembly Element (Visual Studio Template Wizard Extension)
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.  

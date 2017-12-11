@@ -1,17 +1,11 @@
 ---
 title: "Bind Windows Forms controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/03/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Windows Forms], data sources"
   - "Windows Forms, data binding"
@@ -23,68 +17,60 @@ helpviewer_keywords:
   - "data [Windows Forms], displaying"
 ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
 caps.latest.revision: 37
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Bind Windows Forms controls to data in Visual Studio
-You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, you can drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio. This topic describes some of the most common tasks, tools, and classes involved in creating data-bound Windows Forms applications.  
+You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, you can drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio.
   
- ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png "raddata Data Source drag operation")  
+![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png "raddata Data Source drag operation")
+
+Before you drag items, you can set the type of control you want to bind to. Different values appear depending on whether you choose the table itself, or an individual column.  You can also set custom values. For a table, "Details" means that each column is bound to a separate control.  
+
+![Bind data source to DataGridView](../data-tools/media/raddata-bind-data-source-to-datagridview.png "raddata Bind data source to DataGridView")  
   
- For general information about how to create data-bound controls in Visual Studio, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about data binding in Windows Forms, see [Windows Forms Data Binding](../Topic/Windows%20Forms%20Data%20Binding.md).  
+## BindingSource and BindingNavigator Controls
+The <xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of abstraction when binding the controls to data. Controls on the form are bound to the <xref:System.Windows.Forms.BindingSource> component instead of directly to a data source. Second, it can manage a collection of objects. Adding a type to the <xref:System.Windows.Forms.BindingSource> creates a list of that type.  
   
-## In this section  
+For more information about the <xref:System.Windows.Forms.BindingSource> component, see:  
   
--   [Bind Windows Forms controls to data](../data-tools/bind-windows-forms-controls-to-data.md)  
+-   [BindingSource Component](/dotnet/framework/winforms/controls/bindingsource-component)  
   
--   [Commit in-process edits on data-bound controls before saving data](../data-tools/commit-in-process-edits-on-data-bound-controls-before-saving-data.md)  
+-   [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)  
   
--   [Create lookup tables in Windows Forms applications](../data-tools/create-lookup-tables-in-windows-forms-applications.md)  
+-   [BindingSource Component Architecture](/dotnet/framework/winforms/controls/bindingsource-component-architecture)  
   
--   [Create a Windows Form to search data](../data-tools/create-a-windows-form-to-search-data.md)  
+The [BindingNavigator control](/dotnet/framework/winforms/controls/bindingnavigator-control-windows-forms) provides a user interface for navigating through data displayed by a Windows application.
+
+## Bind to data in a DataGridView control  
+For a [DataGridView control](/dotnet/framework/winforms/controls/datagridview-control-overview-windows-forms), the entire table is bound to that single control. When you drag a DataGridView to the form, a tool strip for navigating records (<xref:System.Windows.Forms.BindingNavigator>) also appears. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/create-and-configure-tableadapters.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray. In the following illustration, a TableAdapterManager is also added because the Customers table has a relation to the Orders table. These variables are all declared in the auto-generated code as private members in the form class. The auto-generated code for filling the DataGridView is located in the form_load event handler. The code for saving the data to update the database is located in the Save event handler for the BindingNavigator. You can move or modify this code as needed.  
   
--   [Create a Windows Forms user control that supports simple data binding](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md)  
+![GridView with BindingNavigator](../data-tools/media/raddata-gridview-with-bindingnavigator.png "raddata GridView with BindingNavigator")  
   
--   [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md)  
+You can customize the behavior of the DataGridView and the BindingNavigator by clicking on the smart tag in the upper right corner of each:  
   
--   [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md)  
+![DataGridView and Binding Navigator smart tags](../data-tools/media/raddata-datagridview-and-binding-navigator-smart-tags.png "raddata DataGridView and Binding Navigator smart tags")  
   
--   [Pass data between forms](../data-tools/pass-data-between-forms.md)  
+If the controls your application needs are not available from within the **Data Sources** window, you can add controls. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
-## BindingSource component  
- The <xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of abstraction when binding the controls on your form to data. Controls on the form are bound to the <xref:System.Windows.Forms.BindingSource> component (instead of being bound directly to a data source).  
+You can also drag items from the **Data Sources** window onto controls already on a form to bind the control to data. A control that is already bound to data has its data bindings reset to the item most recently dragged onto it. To be valid drop targets, controls must be capable of displaying the underlying data type of the item dragged onto it from the **Data Sources** window. For example, it's not valid to drag an item that has a data type of <xref:System.DateTime> onto a <xref:System.Windows.Forms.CheckBox>, because the <xref:System.Windows.Forms.CheckBox> is not capable of displaying a date.  
   
- Second, it can manage a collection of objects. Adding a type to the <xref:System.Windows.Forms.BindingSource> creates a list of that type.  
+## Bind to data in individual controls  
+When you bind a data source to "Details," each column in the dataset is bound to a separate control.  
   
- For more information about the <xref:System.Windows.Forms.BindingSource> component, see:  
+![Bind data source to details](../data-tools/media/raddata-bind-data-source-to-details.png "raddata Bind data source to details")  
   
--   [BindingSource Component](../Topic/BindingSource%20Component.md)  
+> [!IMPORTANT]
+> Note that in the previous illustration, you drag from the Orders property of the Customers table, not from the Orders table. By binding to the Customer.Orders property, navigation commands made in the DataGridView are reflected immediately in the details controls. If you dragged from the Orders table, the controls would still be bound to the dataset, but not they would not be synchronized with the DataGridView.  
   
--   [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md)  
+The following illustration shows the default data-bound controls that are added to the form after the Orders property in the Customers table is bound to "Details" in the **Data Sources** window.  
   
--   [BindingSource Component Architecture](../Topic/BindingSource%20Component%20Architecture.md)  
+![Orders table bound to details](../data-tools/media/raddata-orders-table-bound-to-details.png "raddata Orders table bound to details")  
   
-## BindingNavigator control  
- This component provides a user interface for navigating through data displayed by a Windows application. For more information, see [BindingNavigator Control](../Topic/BindingNavigator%20Control%20\(Windows%20Forms\).md).  
+Note also that each control has a smart tag. This tag enables customizations that apply to that control only.
   
-## DataGridView control  
- To display and edit tabular data from many different kinds of data sources, use the <xref:System.Windows.Forms.DataGridView> control. You can bind data to a <xref:System.Windows.Forms.DataGridView> by using the <xref:System.Windows.Forms.DataGridView.DataSource%2A> property. For more information, see [DataGridView Control Overview](../Topic/DataGridView%20Control%20Overview%20\(Windows%20Forms\).md).  
-  
-## See Also  
- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
+## See also
+[Binding controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)  
+[Data binding in Windows Forms (.NET Framework)](/dotnet/framework/winforms/windows-forms-data-binding)

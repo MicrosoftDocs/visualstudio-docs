@@ -2,7 +2,6 @@
 title: "Walkthrough: Using MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 32
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Using MSBuild
 MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:  
@@ -73,7 +58,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 ## Targets and Tasks  
  Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <Project ToolsVersion="12.0" DefaultTargets="Build"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
@@ -86,7 +71,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
 -   A target is a named sequence of tasks. There are two targets at the end of the project file that are currently enclosed in HTML comments: BeforeBuild and AfterBuild.  
   
-    ```  
+    ```xml  
     <Target Name="BeforeBuild">  
     </Target>  
     <Target Name="AfterBuild">  
@@ -97,13 +82,13 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
  The Project node has an optional DefaultTargets attribute that selects the default target to build, in this case Build.  
   
-```  
+```xml  
 <Project ToolsVersion="12.0" DefaultTargets="Build" ...  
 ```  
   
  The Build target is not defined in the project file. Instead, it is imported from the file Microsoft.CSharp.targets by using the [Import](../msbuild/import-element-msbuild.md) element.  
   
-```  
+```xml  
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />  
 ```  
   
@@ -118,7 +103,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
 1.  Add these lines to the project file, just after the Import statement:  
   
-    ```  
+    ```xml  
     <Target Name="HelloWorld">  
     </Target>  
     ```  
@@ -127,7 +112,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
 2.  Add lines to the HelloWorld target, so that the resulting section looks like this:  
   
-    ```  
+    ```xml  
     <Target Name="HelloWorld">  
       <Message Text="Hello"></Message>  <Message Text="World"></Message>  
     </Target>  
@@ -175,7 +160,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 ## Build Properties  
  Build properties are name-value pairs that guide the build. Several build properties are already defined at the top of the project file:  
   
-```  
+```xml  
 <PropertyGroup>  
 ...  
   <ProductVersion>10.0.11107</ProductVersion>  
@@ -188,7 +173,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
  All properties are child elements of PropertyGroup elements. The name of the property is the name of the child element, and the value of the property is the text element of the child element. For example,  
   
-```  
+```xml  
 <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>  
 ```  
   
@@ -196,7 +181,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
  Build properties may be redefined at any time. If  
   
-```  
+```xml  
 <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>  
 ```  
   
@@ -215,7 +200,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the HelloWorld target with this code:  
   
-    ```  
+    ```xml  
     <Target Name="HelloWorld">  
       <Message Text="Configuration is $(Configuration)" />  
       <Message Text="MSBuildToolsPath is $(MSBuildToolsPath)" />  
@@ -243,7 +228,7 @@ $(PropertyName)
 ### Conditional Properties  
  Many properties like Configuration are defined conditionally, that is, the Condition attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true". Note that undefined properties are given the default value of an empty string. For example,  
   
-```  
+```xml  
 <Configuration   Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
 ```  
   
@@ -285,7 +270,7 @@ $(PropertyName)
   
 1.  From the code editor, replace both Message tasks with this line:  
   
-    ```  
+    ```xml  
     <Message Text="%24(Configuration) is %22$(Configuration)%22" />  
     ```  
   
@@ -310,7 +295,7 @@ $(PropertyName)
   
  All items are child elements of ItemGroup elements. The item name is the name of the child element, and the item value is the value of the Include attribute of the child element. The values of items with the same name are collected into item types of that name.  For example,  
   
-```  
+```xml  
 <ItemGroup>  
     <Compile Include="Program.cs" />  
     <Compile Include="Properties\AssemblyInfo.cs" />  
@@ -321,7 +306,7 @@ $(PropertyName)
   
  The following code creates the same item type by declaring both files in one Include attribute, separated by a semicolon.  
   
-```  
+```xml  
 <ItemGroup>  
     <Compile Include="Program.cs;Properties\AssemblyInfo.cs" />  
 </ItemGroup>  
@@ -345,7 +330,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the HelloWorld target task with this code:  
   
-    ```  
+    ```xml  
     <Target Name="HelloWorld">  
       <Message Text="Compile item type contains @(Compile)" />  
     </Target>  
@@ -379,7 +364,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the Message task with this line:  
   
-    ```  
+    ```xml  
     <Message Text="Compile item type contains @(Compile, '%0A%0D')" />  
     ```  
   
@@ -403,13 +388,13 @@ $(PropertyName)
 ### Include, Exclude, and Wildcards  
  You can use the wildcards "*", "\*\*", and "?" with the Include attribute to add items to an item type. For example,  
   
-```  
+```xml  
 <Photos Include="images\*.jpeg" />  
 ```  
   
  adds all files with the file extension ".jpeg" in the images folder to the Photos item type, while  
   
-```  
+```xml  
 <Photos Include="images\**.jpeg" />  
 ```  
   
@@ -417,20 +402,20 @@ $(PropertyName)
   
  Notice that as items are declared they are added to the item type. For example,  
   
-```  
+```xml  
 <Photos Include="images\*.jpeg" />  
 <Photos Include="images\*.gif" />  
 ```  
   
  creates an item type named Photo containing all files in the image folder with a file extension of either ".jpeg" or ".gif". This is equivalent to the following line:  
   
-```  
+```xml  
 <Photos Include="images\*.jpeg;images\*.gif" />  
 ```  
   
  You can exclude an item from an item type with the Exclude attribute. For example,  
   
-```  
+```xml  
 <Compile Include="*.cs" Exclude="*Designer*">  
 ```  
   
@@ -438,7 +423,7 @@ $(PropertyName)
   
  The Exclude attribute only affects the items added by the Include attribute in the item element that contains them both. For example,  
   
-```  
+```xml  
 <Compile Include="*.cs" />  
 <Compile Include="*.res" Exclude="Form1.cs">  
 ```  
@@ -449,13 +434,13 @@ $(PropertyName)
   
 1.  From the code editor, replace the Message task with this line:  
   
-    ```  
-    <Message Text="Compile item type contains @(XFiles)" />  
+    ```xml  
+    <Message Text="XFiles item type contains @(XFiles)" />  
     ```  
   
 2.  Add this item group just after the Import element:  
   
-    ```  
+    ```xml  
     <ItemGroup>  
        <XFiles Include="*.cs;properties/*.resx" Exclude="*Designer*" />  
     </ItemGroup>  
@@ -472,7 +457,7 @@ $(PropertyName)
 5.  Examine the output. You should see this line:  
   
     ```  
-    Compile item type contains Form1.cs;Program.cs;Properties/Resources.resx  
+    XFiles item type contains Form1.cs;Program.cs;Properties/Resources.resx  
     ```  
   
 ## Item Metadata  
@@ -480,7 +465,7 @@ $(PropertyName)
   
  Item metadata is declared in the project file by creating an element with the name of the metadata as a child element of the item. An item can have zero or more metadata values. For example, the following CSFile item has Culture metadata with a value of "Fr":  
   
-```  
+```xml  
 <ItemGroup>  
     <CSFile Include="main.cs">  
         <Culture>Fr</Culture>  
@@ -498,7 +483,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the Message task with this line:  
   
-    ```  
+    ```xml  
     <Message Text="Compile.DependentUpon: %(Compile.DependentUpon)" />  
     ```  
   
@@ -528,7 +513,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the Message task with this line:  
   
-    ```  
+    ```xml  
     <Message Text="Compile Filename: %(Compile.Filename)" />  
     ```  
   
@@ -566,7 +551,7 @@ $(PropertyName)
   
 1.  From the code editor, replace the Message task with this line:  
   
-    ```  
+    ```xml  
     <Message Text="Backup files: @(Compile->'%(filename).bak')" />  
     ```  
   
@@ -590,5 +575,5 @@ $(PropertyName)
  To learn how to create a simple project file one step at a time, try out the [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
   
 ## See Also
-[MSBuild Overview](../msbuild/msbuild1.md)  
+[MSBuild Overview](../msbuild/msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)

@@ -2,7 +2,6 @@
 title: "How to: Use Wizards with Project Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "IWizard interface"
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # How to: Use Wizards with Project Templates
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  
@@ -52,7 +37,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 2.  Add a new VSIX project (**File / New / Project / Visual C# / Extensibility / VSIX Project**) in the same solution as the project template project (in the **Solution Explorer**, select the solution node, right-click, and select **Add / New Project**). Name it **MyProjectWizard.**  
   
-3.  Set the VSIX project as the startup project. In the **Solution Explorer**, select the solution node, right-click, and select **Set as Startup Project**.  
+3.  Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.  
   
 4.  Add the template project as an asset of the VSIX project. In the **Solution Explorer**, under the VSIX project node, find the **source.extension.vsixmanifest** file. Double-click it to open it in the manifest editor.  
   
@@ -77,7 +62,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
     -   **IncludeDebugSymbolsInLocalVSIXDeployment**  
   
-3.  Add the assembly as an asset to the VSIX project. Open the source.extension.vsixmanifest file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyTemplateWizard**.  
+3.  Add the assembly as an asset to the VSIX project. Open the source.extension.vsixmanifest file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyProjectWizard**.  
   
 4.  Add the following references to the VSIX project. (In the **Solution Explorer**, under the VSIX project node select **References**, right-click, and select **Add Reference**.) In the **Add Reference** dialog,  in the **Framework** tab, find the **System.Windows Forms** assembly and select it. Now select the **Extensions** tab. find the **EnvDTE** assembly and select it. Also find the **Microsoft.VisualStudio.TemplateWizardInterface** assembly and select it. Click **OK**.  
   
@@ -85,7 +70,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 6.  Replace the code in the **WizardImplementationClass.cs** file with the following code:  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using Microsoft.VisualStudio.TemplateWizard;  
@@ -168,11 +153,11 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
     -   An <xref:System.Object> array that contains a set of parameters passed to the wizard by Visual Studio.  
   
-     This example adds a parameter value from the user input form to the <xref:System.Collections.Generic.Dictionary%602> parameter. Every instance of the `$custommessage$` parameter in the project will be replaced with the text entered by the user. You must add the following assemblies to your project:  
+     This example adds a parameter value from the user input form to the <xref:System.Collections.Generic.Dictionary%602> parameter. Every instance of the `$custommessage$` parameter in the project will be replaced with the text entered by the user. You must add the following assemblies to your project: **System** and **System.Drawing**.
   
 7.  Now create the **UserInputForm**. In the **WizardImplementation.cs** file, add the following code after the end of the **WizardImplementation** class.  
   
-    ```c#  
+    ```csharp  
     public partial class UserInputForm : Form  
         {  
             private static string customMessage;  
@@ -283,7 +268,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
  Here is the full code file before it has been exported to a template.  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;  

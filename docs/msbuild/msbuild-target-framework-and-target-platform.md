@@ -2,7 +2,6 @@
 title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,24 +12,10 @@ ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Target Framework and Target Platform
-A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family (“x86”). The combination of target framework and target platform is known as the *target context*.  
+A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.  
   
 ## Target Framework and Profile  
  A target framework is the particular version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.  
@@ -57,7 +42,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.0`, `v4.5`, `v4.5.1`, `v4.5.2`, and `v4.6`.  
   
-```  
+```xml  
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>  
 ```  
   
@@ -65,7 +50,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  The target profile is specified in the `TargetFrameworkProfile` property in a project file. You can change the target profile by using the target-framework control in the project property pages in the IDE. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
-```  
+```xml  
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>  
 <TargetFrameworkProfile>Client</TargetFrameworkProfile>  
 ```  
@@ -79,7 +64,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  A *target platform* is the particular platform that your project is built to run on. The target platform is specified in the `Platform` build property in a project file. You can change the target platform by using the project property pages or the **Configuration Manager** in the IDE.  
   
-```  
+```xml  
 <PropertyGroup>  
    <Platform>x86</Platform>  
 </PropertyGroup>  
@@ -88,7 +73,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
  A *target configuration* is a subset of a target platform. For example, the `x86``Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.  
   
-```  
+```xml  
 <PropertyGroup>  
    <Platform>x86</Platform>  
    <Configuration>Debug</Configuration>  

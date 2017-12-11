@@ -2,7 +2,6 @@
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,27 +21,13 @@ ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
 caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Troubleshooting .NET Framework Targeting Errors
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  
   
 ## You Have Referenced a Project or Assembly That Targets a Different Version of the .NET Framework  
- You can create applications that reference projects or assemblies that target different versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. For example, you can create an application that targets the client profile for the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but references an assembly that targets the .NET Framework 2.0. However, if you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you can’t set a reference in that project to a project or assembly that targets the client profile for the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] or the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] itself. To resolve the error, make sure that your application targets a profile or profiles that are compatible with the profile that’s targeted by the projects or assemblies that your application references.  
+ You can create applications that reference projects or assemblies that target different versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. For example, you can create an application that targets the client profile for the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but references an assembly that targets the .NET Framework 2.0. However, if you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you can't set a reference in that project to a project or assembly that targets the client profile for the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] or the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] itself. To resolve the error, make sure that your application targets a profile or profiles that are compatible with the profile that's targeted by the projects or assemblies that your application references.  
   
 ## You Have Re-Targeted a Project to a Different Version of the .NET Framework  
  If you change the target version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for your application, Visual Studio changes some of the references, but you may have to update some references manually. For example, one of the previously mentioned errors might occur if you change an application to target the [!INCLUDE[net_v35SP1_long](../msbuild/includes/net_v35sp1_long_md.md)] and that application has resources or settings that rely on the client profile for the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)].  
@@ -54,13 +39,13 @@ This topic describes MSBuild errors that might occur because of reference issues
 ## You Have Re-Targeted a Project to a Different Version of the .NET Framework and References Do Not Resolve  
  If you retarget a project to a different version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], your references may not resolve properly in some cases. Explicit fully qualified references to assemblies often cause this issue, but you can resolve it by removing the references that do not resolve and then adding them back to the project. As an alternative, you can edit the project file to replace the references. First, you remove references of the following form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />  
 ```  
   
  Then you replace them with the simple form:  
   
-```  
+```xml  
 <Reference Include="System.ServiceModel" />  
 ```  
   
@@ -69,6 +54,6 @@ This topic describes MSBuild errors that might occur because of reference issues
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md)   
+ [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

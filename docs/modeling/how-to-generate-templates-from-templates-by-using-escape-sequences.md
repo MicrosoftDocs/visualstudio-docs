@@ -2,7 +2,6 @@
 title: "How to: Generate Templates from Templates By Using Escape Sequences | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 35
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Generate Templates from Templates By Using Escape Sequences
 You can create a text template that creates another text template as its generated text output. To do this, you must use escape sequences to delineate the text template tags. If you do not use escape sequences, your generated text template will have a pre-defined meaning. For more information about using escape sequences in text templates, see [Using Escape Sequences in Text Templates](../modeling/using-escape-sequences-in-text-templates.md).  
@@ -46,7 +31,7 @@ You can create a text template that creates another text template as its generat
 ## Example  
  The following example uses escape characters to produce a text template from a text template. The `output` directive sets the destination file type to the text template file type (.tt).  
   
-```c#  
+```csharp  
 \<#@ output extension=".tt" \#>  
 \<#@ assembly name="System.Xml.dll" \#>  
 \<#@ import namespace="System.Xml" \#>  

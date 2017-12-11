@@ -2,7 +2,6 @@
 title: "IDiaLineNumber::get_addressSection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: a01c1bae-04b2-4c30-8621-60939a3124c2
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaLineNumber::get_addressSection
 Retrieves the section part of the memory address where a block begins.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_addressSection (   
    DWORD* pRetVal  
 );  
@@ -54,7 +38,7 @@ HRESULT get_addressSection ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 CComPtr< IDiaLineNumber > pLine;  
 DWORD seg;  
 pLine->get_addressSection( &seg );  

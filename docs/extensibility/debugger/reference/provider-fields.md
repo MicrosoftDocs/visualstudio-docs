@@ -2,7 +2,6 @@
 title: "PROVIDER_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "PROVIDER_FIELDS enumeration"
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # PROVIDER_FIELDS
 Specifies properties associated with a program provider.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PROVIDER_FIELDS {  
    PFIELD_PROGRAM_NODES       = 0x01,  
    PFIELD_IS_DEBUGGER_PRESENT = 0x02  
@@ -45,7 +31,7 @@ enum enum_PROVIDER_FIELDS {
 typedef DWORD PROVIDER_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_PROVIDER_FIELDS {  
    PFIELD_PROGRAM_NODES       = 0x01,  
    PFIELD_IS_DEBUGGER_PRESENT = 0x02  

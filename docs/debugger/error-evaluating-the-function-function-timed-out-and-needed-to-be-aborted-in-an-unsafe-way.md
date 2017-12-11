@@ -12,15 +12,15 @@ ms.assetid: 0a9f70ed-21ad-4a10-8535-b9c5885ad8f4
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
 
 Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way. This may have corrupted the target process. 
 
-To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and ToString functions). In most all scenarios, these functions complete quickly and make debugging much easier. However, the debugger doesn’t run the application in a sandbox. As a result, a property getter or ToString method that calls into a native function that hangs can lead to long timeouts that may not be recoverable. If you encounter this error message, this has occurred.
+To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and ToString functions). In most all scenarios, these functions complete quickly and make debugging much easier. However, the debugger doesn't run the application in a sandbox. As a result, a property getter or ToString method that calls into a native function that hangs can lead to long timeouts that may not be recoverable. If you encounter this error message, this has occurred.
  
-One common reason for this problem is that when the debugger evaluates a property, it only allows the thread being inspected to execute. So if the property is waiting on other threads to run inside the debugged application, and if it is waiting in a way that the .NET Runtime isn’t able to interrupt, this problem will happen.
+One common reason for this problem is that when the debugger evaluates a property, it only allows the thread being inspected to execute. So if the property is waiting on other threads to run inside the debugged application, and if it is waiting in a way that the .NET Runtime isn't able to interrupt, this problem will happen.
  
 ## To correct this error
  
@@ -42,7 +42,7 @@ The error message will tell you the name of the function the debugger tried to c
  
 ### Solution #3: Disable all implicit evaluation
  
-If the previous solutions don't fix the issue, go to *Tools* / *Options*, and uncheck the setting *Debugging* / *General* / *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
+If the previous solutions don't fix the issue, go to *Tools* > *Options*, and uncheck the setting *Debugging* > *General* > *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
 
 
 

@@ -2,7 +2,6 @@
 title: "Target Build Order | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,7 @@ ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Target Build Order
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  
@@ -52,7 +36,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  The value of the `InitialTargets` attribute can be a semicolon-delimited, ordered list of targets. The following example specifies that the `Warm` target runs, and then the `Eject` target runs.  
   
-```  
+```xml  
 <Project InitialTargets="Warm;Eject" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
@@ -65,7 +49,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  The value of the `DefaultTargets` attribute can be a semicolon-delimited, ordered list of default targets. The following example specifies that the `Clean` target runs, and then the `Build` target runs.  
   
-```  
+```xml  
 <Project DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
@@ -85,7 +69,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 ## Target Dependencies  
  Targets can describe dependency relationships with each other. The `DependsOnTargets` attribute indicates that a target depends on other targets. For example,  
   
-```  
+```xml  
 <Target Name="Serve" DependsOnTargets="Chop;Cook" />  
 ```  
   
@@ -96,7 +80,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Consider the following script.  
   
-```  
+```xml  
 <Project DefaultTargets="Compile;Link" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Compile">  
         <Message Text="Compiling" />  
@@ -109,7 +93,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  To create an intermediate target `Optimize` that runs after the `Compile` target, but before the `Link` target, add the following target anywhere in the `Project` element.  
   
-```  
+```xml  
 <Target Name="Optimize"   
     AfterTargets="Compile" BeforeTargets="Link">  
     <Message Text="Optimizing" />  

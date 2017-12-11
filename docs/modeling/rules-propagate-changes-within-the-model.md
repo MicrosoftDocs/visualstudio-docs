@@ -2,7 +2,6 @@
 title: "Rules Propagate Changes Within the Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,29 +14,15 @@ caps.latest.revision: 30
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Rules Propagate Changes Within the Model
 You can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK). When a change occurs to any element in the Store, rules are scheduled to be executed, usually when the outermost transaction is committed. There are different types of rules for different kinds of events, such as adding an element, or deleting it. You can attach rules to specific types of elements, shapes, or diagrams. Many built-in features are defined by rules: for example, rules ensure that a diagram is updated when the model changes. You can customize your domain-specific language by adding your own rules.  
   
- Store rules are particularly useful for propagating changes inside the store – that is, changes to model elements, relationships, shapes or connectors, and their domain properties. Rules do not run when the user invokes the Undo or Redo commands. Instead, the transaction manager makes sure that the store contents are restored to the correct state. If you want to propagate changes to resources outside the store, use Store Events. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
+ Store rules are particularly useful for propagating changes inside the store - that is, changes to model elements, relationships, shapes or connectors, and their domain properties. Rules do not run when the user invokes the Undo or Redo commands. Instead, the transaction manager makes sure that the store contents are restored to the correct state. If you want to propagate changes to resources outside the store, use Store Events. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
  For example, suppose that you want to specify that whenever the user (or your code) creates a new element of type ExampleDomainClass, an additional element of another type is created in another part of the model. You could write an AddRule and associate it with ExampleDomainClass. You would write code in the rule to create the additional element.  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  
@@ -60,7 +45,7 @@ namespace ExampleNamespace
     if (store.TransactionManager.CurrentTransaction.IsSerializing)   
        return;  
   
-    // Code here propagates change as required – for example:  
+    // Code here propagates change as required - for example:  
       AnotherDomainClass echo = new AnotherDomainClass(element.Partition);  
       echo.Name = element.Name;  
       echo.Parent = element.Parent;    
@@ -100,7 +85,7 @@ namespace ExampleNamespace
   
     ```  
     [RuleOn(typeof(ExampleElement),   
-         // Usual value – but required, because it is not the default:  
+         // Usual value - but required, because it is not the default:  
          FireTime = TimeToFire.TopLevelCommit)]   
     class MyRule ...  
   

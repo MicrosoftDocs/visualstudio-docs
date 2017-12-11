@@ -2,7 +2,6 @@
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "CONSTRUCTOR_ENUM enumeration"
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CONSTRUCTOR_ENUM
 Selects different types of constructors.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef enum ConstructorMatchOptions {   
    crAll       = 0,  
    crNonStatic = 1,  
@@ -45,7 +31,7 @@ typedef enum ConstructorMatchOptions { 
 } CONSTRUCTOR_ENUM;  
 ```  
   
-```c#  
+```csharp  
 public enum ConstructorMatchOptions {   
    crAll       = 0,  
    crNonStatic = 1,  

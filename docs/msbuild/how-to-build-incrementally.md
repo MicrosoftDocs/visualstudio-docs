@@ -2,7 +2,6 @@
 title: "How to: Build Incrementally | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Build Incrementally
 When you build a large project, it is important that previously built components that are still up-to-date are not rebuilt. If all targets are built every time, each build will take a long time to complete. To enable incremental builds (builds in which only those targets that have not been built before or targets that are out of date, are rebuilt), the [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. However, there must be a one-to-one mapping between inputs and outputs. You can use transforms to enable targets to identify this direct mapping. For more information on transforms, see [Transforms](../msbuild/msbuild-transforms.md).  
@@ -43,7 +28,7 @@ When you build a large project, it is important that previously built components
   
 -   Use the `Inputs` and `Outputs` attributes of the `Target` element. For example:  
   
-    ```  
+    ```xml  
     <Target Name="Build"  
         Inputs="@(CSFile)"  
         Outputs="hello.exe">  
@@ -51,7 +36,7 @@ When you build a large project, it is important that previously built components
   
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the hello.exe file, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will run the target; otherwise it will be skipped:  
   
-```  
+```xml  
 <Target Name="Build"   
     Inputs="@(CSFile)"   
     Outputs="hello.exe">  
@@ -62,7 +47,7 @@ When you build a large project, it is important that previously built components
 </Target>  
 ```  
   
- When inputs and outputs are specified in a target, either each output can map to only one input or there can be no direct mapping between the outputs and inputs. In the previous [Csc Task](../msbuild/csc-task.md), for example, the output, hello.exe, cannot be mapped to any single input – it depends on all of them.  
+ When inputs and outputs are specified in a target, either each output can map to only one input or there can be no direct mapping between the outputs and inputs. In the previous [Csc Task](../msbuild/csc-task.md), for example, the output, hello.exe, cannot be mapped to any single input - it depends on all of them.  
   
 > [!NOTE]
 >  A target in which there is no direct mapping between the inputs and outputs will always build more often than a target in which each output can map to only one input because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] cannot determine which outputs need to be rebuilt if some of the inputs have changed.  
@@ -83,7 +68,7 @@ When you build a large project, it is important that previously built components
 > [!NOTE]
 >  Although the `GenerateContentFiles` target can build incrementally, all outputs from that target always are required as inputs for the `BuildHelp` target. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   

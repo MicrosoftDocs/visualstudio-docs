@@ -2,7 +2,6 @@
 title: "Deploying a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 18
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Deploying a Custom Directive Processor
 To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on any computer, you must register it by one of the methods described in this topic.  
@@ -63,7 +48,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/include
   
 2.  In **source.extension.vsixmanifest**, set the content type and supported editions.  
   
-    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item’s properties:  
+    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item's properties:  
   
          **Content Type** = **VSPackage**  
   
@@ -122,7 +107,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/include
   
 4.  Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:  
   
-     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" … #>`  
+     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" ... #>`  
   
 #### To uninstall or temporarily disable the custom directive processor  
   

@@ -2,7 +2,6 @@
 title: "Modules View - Contention Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: 1a9aa122-2d8f-4a09-b503-92975aa6b648
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Modules View - Contention Data
 The Modules view of contention data displays concurrency data grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The functions of the module in which contention events occurred are listed under the module node.  

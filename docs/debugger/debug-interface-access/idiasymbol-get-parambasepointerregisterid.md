@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 9f5caeb4-5c88-4054-bf8b-50d34bbbf8c5
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_paramBasePointerRegisterId
 Retrieves the ID of the register that holds a base pointer to the parameters. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_paramBasePointerRegisterId (   
    DWORD* pRetVal  
 );  

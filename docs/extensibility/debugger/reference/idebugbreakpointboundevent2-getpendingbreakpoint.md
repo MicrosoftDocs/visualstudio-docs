@@ -2,7 +2,6 @@
 title: "IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2::GetPendingBreakpoint"
 ms.assetid: 6da7ed86-b412-4964-b6a3-0687a66f63fe
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 Gets the pending breakpoint that is being bound.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPendingBreakpoint(   
    IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetPendingBreakpoint(   
    out IDebugPendingBreakpoint2 ppPendingBP  
 );  
@@ -59,7 +45,7 @@ int GetPendingBreakpoint( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointSetDebugEventBase** object that exposes the [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointSetDebugEventBase::GetPendingBreakpoint(  
     IDebugPendingBreakpoint2 **ppPendingBP)  
 {  

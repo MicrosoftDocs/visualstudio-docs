@@ -2,7 +2,6 @@
 title: "Sample Excel Add-In for Coded UI Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,27 +12,13 @@ helpviewer_keywords:
   - "coded UI tests, Excel Add-in sample"
 ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
 caps.latest.revision: 16
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Sample Excel Add-In for Coded UI Testing
 This sample Add-In for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] is designed specifically to support Coded UI Tests of Excel worksheets that are recorded and run in Visual Studio Enterprise. The Add-In is created by using Visual Studio Tools for Office.  
   
- For more information about how to create an Excel Add-In, see [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md) or search MSDN for "Excel Add-In".  
+ For more information about how to create an Excel Add-In, see [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/Library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f) or search MSDN for "Excel Add-In".  
   
  Although the Excel Add-In is not the primary subject of this documentation of the Coded UI Test Extension for Excel, a few comments may be helpful.  
   
@@ -58,5 +43,5 @@ This sample Add-In for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] i
   
 ## See Also  
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
- [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md)   
+ [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/Library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
  [Office and SharePoint Development](/office-dev/office-dev/office-and-sharepoint-development-in-visual-studio)

@@ -2,7 +2,6 @@
 title: "Map dependencies across your solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,21 +31,6 @@ caps.latest.revision: 243
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Map dependencies across your solutions
 When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.  
@@ -62,7 +46,7 @@ When you want to understand dependencies across your code, visualize them by cre
 -   [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
   
 ##  <a name="GetStarted"></a> Get started with code maps  
- **To use code maps you’ll need either**:  
+ **To use code maps you'll need either**:  
   
 -   Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
   
@@ -85,7 +69,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 1.  Open the **Architecture** menu.  
   
-2.  If you just opened the solution and haven’t yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
+2.  If you just opened the solution and haven't yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
   
 3.  If your code hasn't changed since the last time you built it, choose **Generate Code Map for Solution Without Building** to get faster performance when creating the map.  
   
@@ -167,7 +151,7 @@ When you want to understand dependencies across your code, visualize them by cre
      In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).  
   
     > [!TIP]
-    >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
+    >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren't interested in.  
   
 7.  To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.  
   
@@ -175,7 +159,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 8.  To examine items and dependencies represented by an aggregate link, first select the link and then open its shortcut menu. Choose **Show Contributing Links** (or **Show Contributing Links on New Code Map**). This expands the groups at both ends of the link and shows only those items and dependencies that participate in the link.  
   
-9. To focus in on specific parts of the map, you can continue to remove items you aren’t interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.  
+9. To focus in on specific parts of the map, you can continue to remove items you aren't interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.  
   
      ![Drilling down to class and member level](../modeling/media/dependencygraph_expandedselectedgroups_2012.png "DependencyGraph_ExpandedSelectedGroups_2012")  
   
@@ -183,7 +167,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
-11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don’t want to see using the **Filters** pane.  
+11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don't want to see using the **Filters** pane.  
   
      ![Filter the containers to simplify the view](../modeling/media/codemapsexpandnewgroups.png "CodeMapsExpandNewGroups")  
   
@@ -242,7 +226,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      To see members that are in the code but don't appear on the map, click the **Refetch Children** icon ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon") in the top left corner of a group.  
   
-6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show…** option for the type of related items to add to the map. For example:  
+6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show...** option for the type of related items to add to the map. For example:  
   
      For an **assembly**, choose:  
   
@@ -294,7 +278,7 @@ When you want to understand dependencies across your code, visualize them by cre
      ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
   
 ##  <a name="SeeSourceHeader"></a> See dependencies between C and C++ source files and header files  
- If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. See [/FR, /Fr (Create .Sbr File)](/visual-cpp/build/reference/fr-fr-create-dot-sbr-file). Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to `0` or delete the key:  
+ If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to `0` or delete the key:  
   
  **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\NativeProvider : AutoEnableSbr**  
   
@@ -322,11 +306,11 @@ When you want to understand dependencies across your code, visualize them by cre
 |The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|  
 |[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
 |Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md).|  
-|The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.<br /><br /> See [/FIXED (Fixed Base Address)](/visual-cpp/build/reference/fixed-fixed-base-address).|  
-||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.<br /><br /> See [/DEBUG (Generate Debug Info)](/visual-cpp/build/reference/debug-generate-debug-info).|  
+|The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.|  
+||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.|  
 ||Cannot open or find the .pdb file in the expected locations.|Make sure that the .pdb file exists in the expected locations.|  
-||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.<br /><br /> See [/PDBSTRIPPED (Strip Private Symbols)](/visual-cpp/build/reference/pdbstripped-strip-private-symbols).|  
-||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.<br /><br /> See:<br /><br /> -   [General Rules and Limitations](/visual-cpp/cpp/general-rules-and-limitations)<br />-   [Importing Function Calls Using __declspec(dllimport)](/visual-cpp/build/importing-function-calls-using-declspec-dllimport)<br />-   [dllexport, dllimport](/visual-cpp/cpp/dllexport-dllimport)|  
+||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.|  
+||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.|  
   
 ##  <a name="RenderMoreQuickly"></a> Make code maps render more quickly  
  When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:  

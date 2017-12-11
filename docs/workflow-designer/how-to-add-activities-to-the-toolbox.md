@@ -2,7 +2,6 @@
 title: "How to: Add Activities to the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,20 +11,6 @@ caps.latest.revision: 16
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Add Activities to the Toolbox
 Activities can be added to the **Toolbox** in your solution in several different ways. You can add them from within your current project, reference them from a different project, or reference them from a different assembly.  
@@ -45,7 +30,7 @@ Activities can be added to the **Toolbox** in your solution in several different
     >  The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.  
   
     > [!NOTE]
-    >  The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](../Topic/Using%20the%20ModelItem%20Editing%20Context.md) for information on using services within the designer.  
+    >  The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](/dotnet/framework/windows-workflow-foundation/using-the-modelitem-editing-context) for information on using services within the designer.  
   
 ### To add an activity from within a different project  
   
@@ -57,9 +42,9 @@ Activities can be added to the **Toolbox** in your solution in several different
   
 1.  Open a workflow solution.  
   
-2.  From the **Tools** menu, select **Choose Toolbox Items…**.  
+2.  From the **Tools** menu, select **Choose Toolbox Items...**.  
   
-3.  In the **Choose Toolbox Items** dialog box, select the **System.Activities Components** tab then click **Browse…** to navigate to the assembly that contains the custom activity you want to add.  
+3.  In the **Choose Toolbox Items** dialog box, select the **System.Activities Components** tab then click **Browse...** to navigate to the assembly that contains the custom activity you want to add.  
   
 4.  Select the assembly and click **OK**. The custom activity component is added to the list of components and is automatically selected.  
   

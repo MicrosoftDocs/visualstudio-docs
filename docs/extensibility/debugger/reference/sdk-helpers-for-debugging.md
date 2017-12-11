@@ -2,7 +2,6 @@
 title: "SDK Helpers for Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,9 @@ helpviewer_keywords:
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # SDK Helpers for Debugging
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  
@@ -49,7 +35,7 @@ These functions and declarations are global helper functions for implementing de
 ### GetMetric Method  
  Retrieves a metric value from the registry.  
   
-```cpp#  
+```cpp  
 HRESULT GetMetric(  
    LPCWSTR pszMachine,  
    LPCWSTR pszType,  
@@ -72,7 +58,7 @@ HRESULT GetMetric(
 ### SetMetric Method  
  Sets the specified metric value in the registry.  
   
-```cpp#  
+```cpp  
 HRESULT SetMetric(  
          LPCWSTR pszType,  
          REFGUID guidSection,  
@@ -95,7 +81,7 @@ HRESULT SetMetric(
 ### RemoveMetric Method  
  Removes the specified metric from the registry.  
   
-```cpp#  
+```cpp  
 HRESULT RemoveMetric(  
    LPCWSTR pszType,  
    REFGUID guidSection,  
@@ -114,7 +100,7 @@ HRESULT RemoveMetric(
 ### EnumMetricSections Method  
  Enumerates the various metric sections in the registry.  
   
-```cpp#  
+```cpp  
 HRESULT EnumMetricSections(  
    LPCWSTR pszMachine,  
    LPCWSTR pszType,  

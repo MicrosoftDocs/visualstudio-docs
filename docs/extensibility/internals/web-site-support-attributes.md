@@ -2,7 +2,6 @@
 title: "Web Site Support Attributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,27 +12,14 @@ helpviewer_keywords:
   - "web site projects, registration"
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Web Site Support Attributes
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Web site project can be extended to provide support for Web programming languages. The language must register itself with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that project templates can appear in the **New Web Site** dialog box when the language is selected.  
   
- The IronPython Studio sample includes web site support. You can find it with the [VSSDK Samples](../../misc/vssdk-samples.md). It includes the following attribute classes to register IronPython as a codebehind language for new Web projects.  
+ The IronPython Studio sample includes web site support. It includes the following attribute classes to register IronPython as a codebehind language for new Web projects.  
   
 ## WebSiteProjectAttribute  
  This attribute is placed on the language project. It adds the language to the list of Web programming languages in the **Language** list in the **New Web Site** dialog box. For example, the following adds IronPython to the list:  

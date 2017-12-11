@@ -2,7 +2,6 @@
 title: "Sample Excel Extension: PropertyProvider Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 075d9b8d-8658-4fca-8711-08304dbac1c5
 caps.latest.revision: 9
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Sample Excel Extension: PropertyProvider Class
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> class and provides property services for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] elements to record and play back user interface (UI) tests.  

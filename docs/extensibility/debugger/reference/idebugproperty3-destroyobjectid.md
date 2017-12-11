@@ -2,7 +2,6 @@
 title: "IDebugProperty3::DestroyObjectID | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProperty3::DestroyObjectID"
 ms.assetid: bd08f356-cc67-4717-98c9-c3d00cad2040
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty3::DestroyObjectID
 Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties.  
@@ -43,7 +29,7 @@ HRESULT DestroyObjectID(
 );  
 ```  
   
-```c#  
+```csharp  
 int DestroyObjectID();  
 ```  
   

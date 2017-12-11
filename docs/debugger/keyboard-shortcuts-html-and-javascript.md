@@ -2,7 +2,6 @@
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,38 +9,23 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 8d44425a-6584-477d-932e-4e10d5e79511
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Keyboard shortcuts (HTML and JavaScript)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  
+ Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.  
   
 ## General shortcuts  
- These shortcuts work across all tools for Store apps using HTML and JavaScript.  
+ These shortcuts work across all tools for UWP apps using HTML and JavaScript.  
   
 |Action|Shortcut|  
 |------------|--------------|  

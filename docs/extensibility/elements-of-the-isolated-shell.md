@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/elements-of-the-isolated-shell
 title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode"
 ms.assetid: f8d68c3d-9134-4a8f-b566-485956cd321e
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Elements of the Isolated Shell
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  
@@ -79,7 +66,7 @@ You can modify the registry settings, run-time settings, and application entry p
  The substitution strings used in the .pkgdef and .pkgundef files are listed in [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md).  
   
 ## Other Settings  
- If your isolated shell application depends on Microsoft.VisualStudio.GraphModel.dll, you need to add the following binding redirect to your Isolated Shell application’s .config file:  
+ If your isolated shell application depends on Microsoft.VisualStudio.GraphModel.dll, you need to add the following binding redirect to your Isolated Shell application's .config file:  
   
 ```  
 <dependentAssembly>  

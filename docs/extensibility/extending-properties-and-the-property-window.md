@@ -2,7 +2,6 @@
 title: "Extending Properties and the Property Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,9 @@ helpviewer_keywords:
   - "SelectableObjects property"
 ms.assetid: 1e925025-3d21-4cdb-a917-78db7bb78fe9
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Extending Properties and the Property Window
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  

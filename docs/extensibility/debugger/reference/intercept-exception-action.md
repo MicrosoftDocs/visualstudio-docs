@@ -2,7 +2,6 @@
 title: "INTERCEPT_EXCEPTION_ACTION | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "INTERCEPT_EXCEPTION_ACTION enumeration"
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # INTERCEPT_EXCEPTION_ACTION
 Specifies what actions to take when intercepting exceptions.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  
@@ -45,7 +31,7 @@ enum enum_INTERCEPT_EXCEPTION_ACTION
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_INTERCEPT_EXCEPTION_ACTION  
 {  
    IEA_INTERCEPT = 0x0001  

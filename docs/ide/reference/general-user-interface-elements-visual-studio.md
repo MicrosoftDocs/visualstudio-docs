@@ -2,7 +2,6 @@
 title: "General User Interface Elements (Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,23 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc67652d-1001-4979-ba71-d57147d21928
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # General User Interface Elements (Visual Studio)
 This section describes some user interface elements of the integrated development environment (IDE).  
@@ -68,6 +53,9 @@ This section describes some user interface elements of the integrated developmen
   
  [Options, Text Editor, C/C++, Advanced](../../ide/reference/options-text-editor-c-cpp-advanced.md)  
  Allows you to specify advanced options for C or C++ files.  
+
+[Options, Text Editor, C/C++, Advanced](../../ide/reference/options-text-editor-c-cpp-experimental.md)  
+ Allows you to specify experimental options for C or C++ files. These options are here for you to try and provide feedback on. They may be removed from the product at a later date, or incorporated into the product under a different name. 
   
  [Options, Text Editor, C#, Formatting](../../ide/reference/options-text-editor-csharp-formatting.md)  
  Allows you to specify formatting options for C# files.  
@@ -105,14 +93,14 @@ This section describes some user interface elements of the integrated developmen
  [Toolbox, HTML Tab](../../ide/reference/toolbox-html-tab.md)  
  Allows you to add html tags to a design surface.  
   
- [General, CSS, Text Editor, Options Dialog Box](../Topic/General,%20CSS,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [General, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/b33a7617-e69d-4a11-938e-2e218a34a10c)  
  Allows you to specify options for CSS files.  
   
- [Validation, HTML, Text Editor, Options Dialog Box](../Topic/Validation,%20HTML,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
+ [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/Library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
  Allows you to specify options for HTML pages.  
   
 ## Related Sections  
- [Automation and Extensibility Reference](../Topic/Automation%20and%20Extensibility%20Reference.md)  
+ [Automation and Extensibility Reference](http://msdn.microsoft.com/Library/93112562-db21-4188-9383-ed19ad79bddf)  
  Contains language reference topics about the automation model for the IDE. Includes the automation model for debugging.  
   
  [Reference](../../ide/reference/visual-studio-reference.md)  

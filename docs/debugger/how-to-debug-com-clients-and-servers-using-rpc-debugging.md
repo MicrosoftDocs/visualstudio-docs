@@ -2,7 +2,6 @@
 title: "How to: Debug COM Clients and Servers Using RPC Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "RPC (Remote Procedure Call), debugging COM clients and servers"
@@ -30,21 +29,7 @@ ms.assetid: 3e8526c8-43b5-4b87-8e0d-b22c24f0a3ea
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Debug COM Clients and Servers Using RPC Debugging
 You can use remote procedure call (RPC) debugging to debug COM client/server applications. You must enable RPC debugging to use it. With RPC debugging enabled, when you step into the server call from the client, the debugger attaches to the server and lets you debug its code. When the debugger is attached, you can use all debugger features with both the client and server processes.  
@@ -66,5 +51,6 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
     >  RPC stepping into a remote server that runs Microsoft Windows Vista will work only if a native debugger is attached to the remote server. Otherwise, the RPC call will fail without an error message. Otherwise the RPC call will complete, but the step-into the RPC call will not work.  
   
 ## See Also  
- [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)  
+ [Debugging in Visual Studio](../debugger/index.md) 
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

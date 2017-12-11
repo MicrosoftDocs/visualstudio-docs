@@ -2,11 +2,13 @@
 title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 helpviewer_keywords: 
   - "data services in Visual Studio"
   - "WCF Data Services, Visual Studio"
@@ -14,29 +16,15 @@ helpviewer_keywords:
   - "WCF data services in Visual Studio"
 ms.assetid: da66ad1b-a25d-485c-af13-2d18f0422e3d
 caps.latest.revision: 24
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and then access it from a Windows Forms application.  
   
- In this walkthrough you will:  
+In this walkthrough you will:  
   
 -   Create a Web application to host a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].  
   
@@ -51,18 +39,28 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 -   Optionally add filtering capabilities to the application.  
   
 ## Prerequisites  
- You need the following components to complete this walkthrough:  
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
--   The Northwind sample database.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
-     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](../Topic/Downloading%20Sample%20Databases.md).  
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
 ## Creating the Service  
- To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.  
+To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.  
   
- In the first step, you will add a Web project to host the service.  
+In the first step, you will add a Web project to host the service.  
   
- [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 #### To create the Web project  
   
@@ -74,7 +72,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 4.  In the **New ASP.NET Project** dialog box, in the **Select a template** list, choose **Empty**, and then choose the **OK** button.  
   
- In this step, you will create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the Customers table in the Northwind database.  
+In the next step, you will create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the Customers table in the Northwind database.  
   
 #### To create the Entity Data Model  
   
@@ -104,13 +102,13 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 7.  On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.  
   
     > [!NOTE]
-    >  In order to use the latest version of the Entity Framework 6 with WCF Services, you’ll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).  
+    >  In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).  
   
 8.  On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.  
   
      The entity model diagram will be displayed, and a NorthwindModel.edmx file will be added to your project.  
   
- In this step, you will create and test the data service.  
+In the next step, you will create and test the data service.  
   
 #### To create the data service  
   
@@ -125,12 +123,12 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 4.  In the **Code Editor**, locate the first `TODO:` comment and replace the code with the following:  
   
      [!code-vb[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_1.vb)]
-     [!code-cs[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_1.cs)]  
+     [!code-csharp[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_1.cs)]  
   
 5.  Replace the comments in the `InitializeService` event handler with the following code:  
   
      [!code-vb[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_2.vb)]
-     [!code-cs[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_2.cs)]  
+     [!code-csharp[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework_2.cs)]  
   
 6.  On the menu bar, choose **Debug**, **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service is displayed.  
   
@@ -143,7 +141,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 8.  Close the browser window.  
   
- In the next steps, you will create a Windows Forms client application to consume the service.  
+In the next steps, you will create a Windows Forms client application to consume the service.  
   
 ## Creating the Client Application  
  To create the client application, you will add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.  
@@ -162,7 +160,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 5.  On the menu bar, choose **Project**, **Set as StartUp Project**.  
   
- In this step, you will add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the Web project.  
+In the next step, you will add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the Web project.  
   
 #### To add a service reference  
   
@@ -174,7 +172,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 3.  Choose the **OK** button to add the service reference.  
   
- In this step, you will configure a data source to enable data binding to the service.  
+In the next step, you will configure a data source to enable data binding to the service.  
   
 #### To enable data binding to the service  
   
@@ -188,7 +186,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 5.  Select **Customer** check box, and then choose the **Finish** button.  
   
- In this step, you will create the user interface that will display the data from the service.  
+In the next step, you will create the user interface that will display the data from the service.  
   
 #### To create the user interface  
   
@@ -206,7 +204,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
     Imports NorthwindClient.ServiceReference1  
     ```  
   
-    ```c#  
+    ```csharp  
     using NorthwindClient.ServiceReference1;  
     ```  
   
@@ -220,7 +218,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
         End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void Form1_Load(object sender, EventArgs e)  
     {  
     NorthwindEntities proxy = new NorthwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc/"));  
@@ -239,7 +237,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
  You now have a working application that displays a list of customers from the NorthwindCustomers service. If you want to expose additional data through the service, you can modify the [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] to include additional tables from the Northwind database.  
   
- In the next optional step, you will learn how to filter the data that is returned by the service.  
+In the next optional step, you will learn how to filter the data that is returned by the service.  
   
 ## Adding Filtering Capabilities  
  In this step, you will customize the application to filter the data by the customer's city.  
@@ -266,7 +264,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
         End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void Button1_Click(object sender, EventArgs e)  
     {  
     ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));  

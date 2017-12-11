@@ -2,7 +2,6 @@
 title: "IDebugSymbolProvider::GetTypeByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetTypeByName method"
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolProvider::GetTypeByName
 This method maps a symbol name to a symbol type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeByName(   
    LPCOLESTR     pszClassName,  
    NAME_MATCH    nameMatch,  
@@ -45,7 +31,7 @@ HRESULT GetTypeByName( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetTypeByName(  
    string          pszClassName,   
    NAME_MATCH      nameMatch,   

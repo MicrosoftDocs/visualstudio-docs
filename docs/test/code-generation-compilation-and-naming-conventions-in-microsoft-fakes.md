@@ -2,7 +2,6 @@
 title: "Code generation, compilation, and naming conventions in Microsoft Fakes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 16
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 This topic discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.  
@@ -36,15 +21,32 @@ This topic discusses options and issues in Fakes code generation and compilation
 -   Visual Studio Enterprise  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
- [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
--   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs) • [Type filtering](#BKMK_Type_filtering) • [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [Internal types](#BKMK_Internal_types) • [Optimizing build times](#BKMK_Optimizing_build_times) • [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+-   [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
- [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+-   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs)
   
--   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions) • [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions) • [Recursive rules](#BKMK_Recursive_rules)  
+-   [Type filtering](#BKMK_Type_filtering)
   
- [External resources](#BKMK_External_resources)  
+-   [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods)
+  
+-   [Internal types](#BKMK_Internal_types)
+  
+-   [Optimizing build times](#BKMK_Optimizing_build_times)
+  
+-   [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+  
+-   [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+  
+-   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions)
+  
+-   [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions)
+  
+-   [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions)
+  
+-   [Recursive rules](#BKMK_Recursive_rules)  
+  
+-   [External resources](#BKMK_External_resources)  
   
 -   [Guidance](#BKMK_Guidance)  
   
@@ -123,7 +125,7 @@ This topic discusses options and issues in Fakes code generation and compilation
 ###  <a name="BKMK_Internal_types"></a> Internal types  
  The Fakes code generator will generate shim types and stub types for types that are visible to the generated Fakes assembly. To make internal types of a shimmed assembly visible to Fakes and your test assembly, add  <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attributes to the shimmed assembly code that gives visibility to the generated Fakes assembly and to the test assembly. Here's an example:  
   
-```c#  
+```csharp  
 // FileSystem\AssemblyInfo.cs  
 [assembly: InternalsVisibleTo("FileSystem.Fakes")]  
 [assembly: InternalsVisibleTo("FileSystem.Tests")]  
@@ -137,7 +139,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
 -   You must add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how our example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:  
   
-    ```c#  
+    ```csharp  
     // FileSystem\AssemblyInfo.cs  
     [assembly: InternalsVisibleTo("FileSystem.Fakes",  
         PublicKey=<Fakes_assembly_public_key>)]  
@@ -145,11 +147,11 @@ This topic discusses options and issues in Fakes code generation and compilation
         PublicKey=<Test_assembly_public_key>)]  
     ```  
   
- If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](../Topic/Creating%20and%20Using%20Strong-Named%20Assemblies.md).  
+ If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).  
   
  The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.  
   
-```c#  
+```csharp  
 [assembly: InternalsVisibleTo("FileSystem.Fakes, PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")]  
 ```  
   
@@ -165,7 +167,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  You then have to use the public key of the alternate **.snk** file as the second parameter of the InternalVisibleTo attribute for the Fakes assembly in the shimmed assembly code:  
   
-```c#  
+```csharp  
 // FileSystem\AssemblyInfo.cs  
 [assembly: InternalsVisibleTo("FileSystem.Fakes",  
     PublicKey=<Alternate_public_key>)]  
@@ -180,7 +182,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.  
   
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
+1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
   
 2.  Add reference to all the System and third-party assemblies you need Fakes for.  
   
@@ -250,7 +252,7 @@ attribute of the Assembly element in the .fakes:
   
  **Special method names** such as property getter or setters are treated as described in the following table.  
   
-|If method is…|Example|Method name appended|  
+|If method is...|Example|Method name appended|  
 |-------------------|-------------|--------------------------|  
 |A **constructor**|`.ctor`|`Constructor`|  
 |A static **constructor**|`.cctor`|`StaticConstructor`|  
@@ -269,11 +271,11 @@ attribute of the Assembly element in the .fakes:
   
 -   **Parameter type** names are transformed and concatenated.  
   
--   **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
+-   **Return type** is ignored unless there's an overload ambiguity. If this is the case, the return type is appended at the end of the name  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   
-|Given|Appended string is…|  
+|Given|Appended string is...|  
 |-----------|-------------------------|  
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|  
 |An **out parameter**`out T`|`TOut`|  
@@ -281,7 +283,7 @@ attribute of the Assembly element in the .fakes:
 |An **array type**`T[]`|`TArray`|  
 |A **multi-dimensional array** type `T[ , , ]`|`T3`|  
 |A **pointer** type `T*`|`TPtr`|  
-|A **generic type**`T<R1, …>`|`TOfR1`|  
+|A **generic type**`T<R1, ...>`|`TOfR1`|  
 |A **generic type argument**`!i` of type `C<TType>`|`Ti`|  
 |A **generic method argument**`!!i` of method `M<MMethod>`|`Mi`|  
 |A **nested type**`N.T`|`N` is appended, then `T`|  
@@ -296,7 +298,7 @@ attribute of the Assembly element in the .fakes:
 ##  <a name="BKMK_External_resources"></a> External resources  
   
 ###  <a name="BKMK_Guidance"></a> Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## See Also  
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

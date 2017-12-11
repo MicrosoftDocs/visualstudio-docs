@@ -2,7 +2,6 @@
 title: "Mixed mode debugging for IA64 processes is unsupported. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_ia64"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 20bc1e38-049b-4388-87c4-936815d85b46
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Mixed mode debugging for IA64 processes is unsupported.
 Visual Studio does not support mixed-mode debugging of managed and native code in IA64 processes. This means that you cannot step from managed code to native code, or from native code to managed code, while debugging.  
@@ -43,7 +28,7 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
   
 -   Debug your managed and native code in separate debugging sessions.  
   
-     –or–  
+     -or-  
   
      Debug your mixed code as a 32-bit process, as described in the following procedures.  
   

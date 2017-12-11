@@ -1,1 +1,0 @@
-        Dim changedRecords As DataSet = DataSet1.GetChanges()

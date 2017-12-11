@@ -2,7 +2,6 @@
 title: "IDebugProcess3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess3 interface"
 ms.assetid: 7bd6b952-cf34-4e66-b8f6-d472dac3748f
 caps.latest.revision: 24
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess3
 This interface represents a running process and its programs. This interface exists as a replacement to several methods in the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface. It provides control over all programs in the process.  
@@ -50,7 +36,7 @@ IDebugProcess3 : IDebugProcess2
 ## Notes for Callers  
  This interface is called primarily by the session debug manager (SDM) in order to interact with a group of programs identified in this process.  
   
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md), `IDebugProcess3` implements the following methods.  

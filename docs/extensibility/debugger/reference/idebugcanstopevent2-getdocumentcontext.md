@@ -2,7 +2,6 @@
 title: "IDebugCanStopEvent2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugCanStopEvent2::GetDocumentContext"
 ms.assetid: 936a6c4e-30c5-4c7e-9ad5-910cc605a4b5
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCanStopEvent2::GetDocumentContext
 Gets the document context that describes the location of this event.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext (   
    IDebugDocumentContext2** ppDocCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentContext (   
    out IDebugDocumentContext2 ppDocCxt  
 );  

@@ -2,7 +2,6 @@
 title: "Visual Studio Template Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - ".vstemplate files"
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
 caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Visual Studio Template Schema Reference
 This section contains information about XML elements in .vstemplate files, which are files that store metadata for project templates, item templates, and Starter Kits.  
@@ -76,7 +62,7 @@ This section contains information about XML elements in .vstemplate files, which
 |[References](../extensibility/references-element-visual-studio-templates.md)|Reference|--|  
 |[RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md)|--|--|  
 |[RequiredPlatformVersion](../extensibility/requiredplatformversion-element-visual-studio-templates.md)|--|Version|  
-|[SDKReference](72c8b352-0b7a-42b3-ba5d-2a2d1e90c3)|--|Package|  
+|[SDKReference](../extensibility/sdkreference-element-visual-studio-templates.md)|--|Package|  
 |[ShowByDefault](../extensibility/showbydefault-visual-studio-templates.md)|--|--|  
 |[SolutionFolder](../extensibility/solutionfolder-element-visual-studio-templates.md)|ProjectTemplateLink<br /><br /> SolutionFolder|Name|  
 |[SortOrder](../extensibility/sortorder-element-visual-studio-templates.md)|--|--|  

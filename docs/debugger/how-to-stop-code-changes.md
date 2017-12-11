@@ -2,7 +2,6 @@
 title: "How to: Stop Code Changes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,11 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Stop Applying Code Changes command"
@@ -24,21 +21,7 @@ ms.assetid: 9e72a50c-bb0a-4eaa-9ac1-d00930b68d38
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Stop Code Changes
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  
@@ -56,4 +39,4 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)   
- [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)
+ [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)

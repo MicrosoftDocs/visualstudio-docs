@@ -2,7 +2,6 @@
 title: "Application Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 ms.assetid: 0ad4926f-636e-41f8-a5b1-faf9d9b0a254
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Application Properties
 You can set general application properties for Visual Basic, C#, and F# applications, such as application type, startup object, and assembly information, in the **Application** pane of the **Project Designer**.  
@@ -70,7 +55,6 @@ You can set general application properties for Visual Basic, C#, and F# applicat
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
- [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Managing Debugging Properties](http://msdn.microsoft.com/en-us/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   

@@ -2,7 +2,6 @@
 title: "How to: Create Project Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,23 +18,9 @@ helpviewer_keywords:
   - "project templates, creating"
 ms.assetid: a1a6999d-a34c-48a8-b1cf-027eb5c76398
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Create Project Templates
 This procedure enables you to create a template using the **Export Template** wizard, which packages your template in a .zip file. You can also create templates in the VSIX file format for improved deployment by using the Export Template Wizard extension, or with templates included in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)], or you can create templates manually.  
@@ -51,7 +36,7 @@ This procedure enables you to create a template using the **Export Template** wi
   
 3.  As appropriate, edit the code files to indicate where parameter replacement should take place. For more information on parameter replacement, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
-4.  On the **File** menu, click **Export Template**. The **Export Template** wizard opens.  
+4.  On the **Project** menu, click **Export Template**. The **Export Template** wizard opens.  
   
 5.  Click **Project Template**.  
   

@@ -2,7 +2,6 @@
 title: "Error: RPC Requires Authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,29 +11,15 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.rpc_requires_authentication"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 88362b3b-8fbe-431f-96a4-80e2d822bbc7
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Error: RPC Requires Authentication
 The Visual Studio debugger cannot connect to the remote computer. An RPC policy is enabled on the local computer which prevents remote debugging.  
@@ -47,4 +32,4 @@ The Visual Studio debugger cannot connect to the remote computer. An RPC policy 
   
 3.  Restart your computer so the registry change will take effect.  
   
-4.  If the problem persists, contact your domain administrator about the **Computer Configuration->Administrative Templates->System->Remote Procedure Call->Restrictions for Unauthenticated RPC clients** group policy setting.
+4.  If the problem persists, contact your domain administrator about the **Computer Configuration > Administrative Templates > System > Remote Procedure Call > Restrictions for Unauthenticated RPC clients** group policy setting.

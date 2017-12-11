@@ -2,7 +2,6 @@
 title: "How to: Create a Declarative Rule Condition (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,20 +15,6 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create a Declarative Rule Condition (Legacy)
 This topic describes how to declare a rule condition using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
@@ -60,7 +45,7 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
   
 4.  Click the **ConditionName** property.  
   
-5.  Click the **ConditionName** ellipses **[…]** to open the **Select Condition** dialog box.  
+5.  Click the **ConditionName** ellipsis **[...]** to open the **Select Condition** dialog box.  
   
 6.  Click **New Condition** to open the **Rule Condition Editor** dialog box.  
   

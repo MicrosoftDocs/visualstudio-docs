@@ -2,7 +2,6 @@
 title: "IDebugPortSupplier3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugPortSupplier3 interface"
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPortSupplier3
 This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports.  
@@ -45,7 +31,7 @@ IDebugPortSupplier3 : IDebugPortSupplier2
  A custom port supplier implements this interface to support persisting or saving port information to disk. This interface must be implemented on the same object as the [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) interface.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPortSupplier2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on the `IDebugPortSupplier2` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods inherited from the [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) interface, this interface supports the following:  

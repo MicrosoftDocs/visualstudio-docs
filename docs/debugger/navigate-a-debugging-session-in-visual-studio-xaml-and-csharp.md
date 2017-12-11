@@ -2,7 +2,6 @@
 title: "Navigate a debugging session in Visual Studio (Xaml and C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,30 +9,15 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 1da33203-333f-4a05-b4e2-8d407c497233
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
@@ -58,13 +42,13 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 -   [Edit and continue, recover from an exception](#BKMK_EditContinueRecoverExceptions)  
   
 ##  <a name="BKMK_CreateTheApplication"></a> Create the sample app  
- Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine and change program state. All of the code that you will invoke is called from the constructor of the main page; no controls are added and no events are handled.  
+ Debugging is about code, so the sample app uses the framework of the UWP app only to create a source file in which you can see how navigating a debug session works and how to examine and change program state. All of the code that you will invoke is called from the constructor of the main page; no controls are added and no events are handled.  
   
- **Create a default C# Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the New Project dialog box, choose **Visual C#** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Application**. Visual Studio creates a new solution and project and displays the MainPage.xaml designer and XAML code editor.  
+ **Create a default C# UWP app.** Open Visual Studio. On the home page, choose the **New Project** link. On the New Project dialog box, choose **Visual C#** in the **Installed** list and then choose **Windows Universal**. In the list of project templates, choose **Blank App (Universal Windows)**. Visual Studio creates a new solution and project and displays the MainPage.xaml designer and XAML code editor.  
   
  **Open the MainPage.xaml.cs source file.** Right-click anywhere in the XAML editor and choose **View Code**. The MainPage.xaml.cs code-behind file is displayed. Note that only one method, the `MainPage()` constructor, is listed in the file.  
   
- **Replace the MainPage constructor with the sample code.** Delete the MainPage() method. Follow this link: [Debugger navigation sample code (Xaml and C#)](../debugger/debugger-navigation-sample-code-xaml-and-csharp.md), and then copy the code listed in the C# section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code in the `partial class MainPage` block. Choose CTRL + s to save the file.  
+ **Replace the MainPage constructor with the sample code.** Delete the MainPage() method. Follow this link: [Debugger navigation sample code (Xaml and C#)](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/debugger/samples/debugger-navigation-sample-code-xaml-and-csharp.cs), and then copy the code listed in the C# section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code in the `partial class MainPage` block. Choose CTRL + s to save the file.  
   
  You can now follow along with the examples in this topic.  
   
@@ -226,5 +210,5 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
   
 ## See Also  
  [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
+ [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

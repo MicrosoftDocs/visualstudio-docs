@@ -2,7 +2,6 @@
 title: "Item Metadata in Task Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,21 +17,7 @@ ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Item Metadata in Task Batching
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a task one time with each batch. It can be confusing to understand exactly what items are being passed with which batch. This topic covers the following common scenarios that involve batching.  
@@ -52,7 +37,7 @@ translation.priority.ht:
   
  The following example shows how to divide an item list into batches based on item metadata. The `ExampColl` item list is divided into three batches based on the `Number` item metadata. The presence of `%(ExampColl.Number)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] that batching should be performed. The `ExampColl` item list is divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -101,7 +86,7 @@ translation.priority.ht:
   
  The following example shows how to divide multiple item list into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -150,7 +135,7 @@ translation.priority.ht:
   
  The following example shows how to batch each item in an item list one at a time. Because the `Identity` metadata value of every item is unique, the `ExampColl` item list is divided into six batches, each batch containing one item of the item list. The presence of `%(Identity)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] that batching should be performed.  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   
@@ -189,7 +174,7 @@ Identity: "Item6" -- Items in ExampColl: Item6
   
  The following example shows how to divide an item list into batches based on item metadata, and then filter those batches when they are passed into a task. The `ExampColl` item list is divided into three batches based on the `Number` item metadata. The `Condition` attribute of the task specifies that only batches with a `Number` item metadata value of `2` will be passed into the task  
   
-```  
+```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   

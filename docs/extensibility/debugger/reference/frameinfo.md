@@ -2,7 +2,6 @@
 title: "FRAMEINFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "FRAMEINFO structure"
 ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # FRAMEINFO
 Describes a stack frame.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagFRAMEINFO {   
    FRAMEINFO_FLAGS    m_dwValidFields;  
    BSTR               m_bstrFuncName;  
@@ -55,7 +41,7 @@ typedef struct tagFRAMEINFO { 
 } FRAMEINFO;  
 ```  
   
-```c#  
+```csharp  
 public struct FRAMEINFO {   
    public uint              m_dwValidFields;  
    public string            m_bstrFuncName;  

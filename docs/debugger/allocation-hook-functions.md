@@ -2,7 +2,6 @@
 title: "Allocation Hook Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -12,10 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.hooks"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "memory allocation, logging allocation information"
@@ -28,24 +26,10 @@ ms.assetid: 6bfbdb65-8cb1-4c21-8c45-7194a2b77c1e
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Allocation Hook Functions
-An allocation hook function, installed using [_CrtSetAllocHook](/visual-cpp/c-runtime-library/reference/crtsetallochook), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  
+An allocation hook function, installed using [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  
   
 > [!NOTE]
 >  Be aware of the restriction about using C run-time library functions in an allocation hook function, described in [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md).  
@@ -58,7 +42,7 @@ int YourAllocHook(int nAllocType, void *pvData,
         const unsigned char * szFileName, int nLine )  
 ```  
   
- The pointer that you pass to [_CrtSetAllocHook](/visual-cpp/c-runtime-library/reference/crtsetallochook) is of type **_CRT_ALLOC_HOOK**, as defined in CRTDBG.H:  
+ The pointer that you pass to [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook) is of type **_CRT_ALLOC_HOOK**, as defined in CRTDBG.H:  
   
 ```  
 typedef int (__cdecl * _CRT_ALLOC_HOOK)  
@@ -70,4 +54,3 @@ typedef int (__cdecl * _CRT_ALLOC_HOOK)
 ## See Also  
  [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md)   
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
- [crt_dbg2 Sample](http://msdn.microsoft.com/en-us/21e1346a-6a17-4f57-b275-c76813089167)

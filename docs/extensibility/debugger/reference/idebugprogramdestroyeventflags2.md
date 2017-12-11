@@ -2,7 +2,6 @@
 title: "IDebugProgramDestroyEventFlags2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEventFlags2 interface"
 ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgramDestroyEventFlags2
 Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI when you end a debug session.  

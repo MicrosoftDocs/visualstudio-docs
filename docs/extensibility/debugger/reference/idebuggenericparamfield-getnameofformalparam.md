@@ -2,7 +2,6 @@
 title: "IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,35 +13,22 @@ helpviewer_keywords:
   - "GetNameOfFormalParam"
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
 Retrieves the name of this generic parameter.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNameOfFormalParam (  
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetNameOfFormalParam (  
    string pbstrName  
 );  
@@ -58,7 +44,7 @@ int GetNameOfFormalParam (
 ## Example  
  The following example shows how to implement this method for a **CDebugGenericParamFieldType** object that exposes the [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugGenericParamFieldType::GetNameOfFormalParam(BSTR *pbstrName)  
 {  
     HRESULT hr = S_OK;  

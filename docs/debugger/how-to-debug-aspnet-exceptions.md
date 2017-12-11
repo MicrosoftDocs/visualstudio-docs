@@ -2,7 +2,6 @@
 title: "How to: Debug ASP.NET Exceptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], ASP.NET exceptions"
@@ -22,21 +21,7 @@ ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Debug ASP.NET Exceptions
 Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
@@ -59,4 +44,7 @@ Debugging exceptions is an important part of developing a robust [!INCLUDE[vstec
   
 ### To use best practices for ASP.NET exception handling  
   
--   Place `try … catch` blocks around code that can throw exceptions that you can anticipate and know how to handle. For example, if the application is making calls to an XML Web Service or directly to a SQL Server, that code should be in **try … catch** blocks because there are numerous exceptions that can occur.
+-   Place `try ... catch` blocks around code that can throw exceptions that you can anticipate and know how to handle. For example, if the application is making calls to an XML Web Service or directly to a SQL Server, that code should be in **try ... catch** blocks because there are numerous exceptions that can occur.
+
+## See Also
+[Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

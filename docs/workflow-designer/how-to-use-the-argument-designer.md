@@ -2,7 +2,6 @@
 title: "How to: Use the Argument Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,23 +14,9 @@ caps.latest.revision: 16
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Use the Argument Designer
-Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](../test/includes/crabout_md.md)] arguments, see [Variables and Arguments](../Topic/Variables%20and%20Arguments.md).  
+Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).  
   
 ### To create a new argument  
   
@@ -46,4 +31,4 @@ Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/incl
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)   
- [Variables and Arguments](../Topic/Variables%20and%20Arguments.md)
+ [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)

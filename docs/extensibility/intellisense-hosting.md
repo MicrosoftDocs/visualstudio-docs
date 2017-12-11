@@ -2,7 +2,6 @@
 title: "IntelliSense Hosting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - IntelliSense hosting"
 ms.assetid: 20c61f8a-d32d-47e2-9c67-bf721e2cbead
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IntelliSense Hosting
 Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide IntelliSense for code that is not hosted by the Visual Studio text editor.  

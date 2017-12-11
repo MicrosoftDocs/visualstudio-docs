@@ -2,7 +2,6 @@
 title: "Export diagrams as images | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,20 +15,6 @@ caps.latest.revision: 15
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Export diagrams as images
 In Visual Studio, you can save modeling diagrams in read-only formats so that you can share them with stakeholders, users, or project team members who do not use the same version of Visual Studio.  
@@ -43,10 +28,6 @@ In Visual Studio, you can save modeling diagrams in read-only formats so that yo
 2.  Right-click your selection, and then click **Copy**.  
   
 3.  Paste your selection into the application that you want.  
-  
-### To export an image as part of an automated process  
-  
--   See [Export UML diagrams to image files](../modeling/export-uml-diagrams-to-image-files.md).  
   
 ### To save a modeling diagram as an XML Paper Specification (.xps) file  
   

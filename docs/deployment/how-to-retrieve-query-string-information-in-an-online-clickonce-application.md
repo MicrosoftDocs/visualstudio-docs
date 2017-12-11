@@ -2,7 +2,6 @@
 title: "How to: Retrieve Query String Information in an Online ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,21 +20,6 @@ caps.latest.revision: 19
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # How to: Retrieve Query String Information in an Online ClickOnce Application
 The *query string* is the portion of a URL beginning with a question mark (?) that contains arbitrary information in the form *name=value*. Suppose you have a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application named `WindowsApp1` that you host on `servername`, and you want to pass in a value for the variable `username` when the application launches. Your URL might look like the following:  
@@ -63,7 +47,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 1.  Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` statements for System.Web, System.Collections.Specialized, and System.Deployment.Application.  
   
-     [!code-cs[ClickOnceQueryString#1](../deployment/codesnippet/CSharp/how-to-retrieve-query-string-information-in-an-online-clickonce-application_1.cs)]
+     [!code-csharp[ClickOnceQueryString#1](../deployment/codesnippet/CSharp/how-to-retrieve-query-string-information-in-an-online-clickonce-application_1.cs)]
      [!code-vb[ClickOnceQueryString#1](../deployment/codesnippet/VisualBasic/how-to-retrieve-query-string-information-in-an-online-clickonce-application_1.vb)]  
   
 2.  Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.  
@@ -91,7 +75,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  If your application is online only, it will always be activated through a URL. Even in this case, however, your application must be written to function properly if the query string parameters are missing or corrupted.  
   
 ## .NET Framework Security  
- Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script Exploits Overview](../Topic/Script%20Exploits%20Overview.md).  
+ Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script Exploits Overview](http://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)

@@ -2,11 +2,10 @@
 title: "CA1410: COM registration methods should be matched | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,24 +16,9 @@ helpviewer_keywords:
   - "ComRegistrationMethodsShouldBeMatched"
 ms.assetid: f3b2e62d-fd66-4093-9f0c-dba01ad995fd
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA1410: COM registration methods should be matched
 |||  
@@ -59,7 +43,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule. The commented code shows the fix for the violation.  
   
- [!code-cs[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410-com-registration-methods-should-be-matched_1.cs)]
+ [!code-csharp[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410-com-registration-methods-should-be-matched_1.cs)]
  [!code-vb[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/VisualBasic/ca1410-com-registration-methods-should-be-matched_1.vb)]  
   
 ## Related Rules  
@@ -67,5 +51,5 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.Runtime.InteropServices.RegistrationServices?displayProperty=fullName>   
- [Registering Assemblies with COM](../Topic/Registering%20Assemblies%20with%20COM.md)   
- [Regasm.exe (Assembly Registration Tool)](../Topic/Regasm.exe%20\(Assembly%20Registration%20Tool\).md)
+ [Registering Assemblies with COM](/dotnet/framework/interop/registering-assemblies-with-com)   
+ [Regasm.exe (Assembly Registration Tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool)

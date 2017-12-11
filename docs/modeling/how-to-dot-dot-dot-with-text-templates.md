@@ -2,7 +2,6 @@
 title: "How to ... with Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,29 +11,15 @@ caps.latest.revision: 11
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to ... with Text Templates
-Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
+Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.  
   
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.  
   
  For a general introduction to text templates, read [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
-## How to …  
+## How to ...  
   
 ### Generate part of my application code  
  I have a configuration or *model* in a file or a database. One or more parts of my code depend on that model.  
@@ -89,16 +74,10 @@ Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] prov
   
      For more information, see [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md) and [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
--   Consider generating code from a UML model. The code does not have to reflect the UML directly. For example, you do not have to generate a class for each class in the UML model. Instead, you could use the UML class diagram to represent a web site, and generate a web page from each UML class. Choose the diagram type closest to your needs. For example, choose activity diagrams to represent any type of work flow. You can define stereotypes to add information appropriate to your application to each type of element.  
-  
-     Generating from a UML model allows you to draw and edit the model in a diagrammatic form, but without having to design your own diagram type, as you would with a DSL.  
-  
-     For more information, see [Create models for your app](../modeling/create-models-for-your-app.md) and [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md).  
-  
 ### Get data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
  To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:  
   
-```c#  
+```csharp  
 <#@ template hostspecific="true" language="C#" #>  
 <#@ output extension=".txt" #>  
 <#@ assembly name="EnvDTE" #>  
@@ -132,7 +111,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
      The implication of the term "model" is that it represents some aspect of your business more directly than the generated program code or other files. For example, it might represent the plan of a communications network that your generated software will supervise.  
   
 ### What is the benefit of using text templates?  
- Typically, you generate multiple code or other files from one model. The model represents the requirements more directly than the generated code. It omits implementation detail and is written in terms of the requirements, rather than the code. When the requirements change – as they usually do – you can update the model more easily and more reliably than the different parts of the program code.  
+ Typically, you generate multiple code or other files from one model. The model represents the requirements more directly than the generated code. It omits implementation detail and is written in terms of the requirements, rather than the code. When the requirements change - as they usually do - you can update the model more easily and more reliably than the different parts of the program code.  
   
  Code generation is therefore a valuable tool from the perspective of agile development methods.  
   

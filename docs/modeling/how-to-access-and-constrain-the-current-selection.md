@@ -2,7 +2,6 @@
 title: "How to: Access and Constrain the Current Selection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 14
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Access and Constrain the Current Selection
 When you write a command or gesture handler for your domain-specific language, you can determine what element the user right-clicked. You can also prevent some shapes or fields from being selected. For example, you can arrange that when the user clicks an icon decorator, the shape that contains it is selected instead. Constraining the selection in this manner reduces the number of handlers that you have to write. It also makes it easier for the user, who can click anywhere in the shape without having to avoid the decorator.  
@@ -71,7 +56,7 @@ When you write a command or gesture handler for your domain-specific language, y
   
 3.  Add the following properties to the command set class for you domain-specific language to determine what type of window is active.  
   
-    ```c#  
+    ```csharp  
     // using Microsoft.VisualStudio.Modeling.Shell;  
   
     // Returns true if the model designer is the active selection container;  
@@ -119,7 +104,7 @@ When you write a command or gesture handler for your domain-specific language, y
 ### Example  
  The following code file creates a selection rule that expands the selection to include all instances of each of the domain shapes that was initially selected.  
   
-```c#  
+```csharp  
 using System;  
 using System.Collections.Generic;  
 using Microsoft.VisualStudio.Modeling;  

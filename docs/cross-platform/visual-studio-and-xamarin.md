@@ -2,7 +2,6 @@
 title: "Visual Studio and Xamarin | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,29 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790
 caps.latest.revision: 10
-author: "kraigb"
-ms.author: "kraigb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "ghogen"
+ms.author: "ghogen"
+manager: ghogen
 ---
 # Visual Studio and Xamarin
 Xamarin is a mobile app development platform for building native iOS, Android, and Windows apps from a common C#/.NET code base, achieving 75% to nearly 100% code reuse between platforms. Apps written with Xamarin and C# have full access to underlying platform APIs and the ability to build native user interfaces, and compile to platform-specific packages so there is little impact on runtime performance. (Note: Xamarin also supports F#, but this documentation will focus on C# only. Visual Basic is not supported at this time.)  
   
- Better still, developers familiar with C#, .NET, and Visual Studio will enjoy the same the power and productivity when working with Xamarin for mobile apps, including remote debugging on Android, iOS, and Windows devices—without having to learn native coding languages like Objective-C or Java. It’s little surprise, then, that many high performance apps with beautiful user interfaces—such as NASCAR, Aviva, and MixRadio—have been built using Xamarin.  
+ Better still, developers familiar with C#, .NET, and Visual Studio will enjoy the same the power and productivity when working with Xamarin for mobile apps, including remote debugging on Android, iOS, and Windows devices—without having to learn native coding languages like Objective-C or Java. It's little surprise, then, that many high performance apps with beautiful user interfaces—such as NASCAR, Aviva, and MixRadio—have been built using Xamarin.  
   
  This documentation helps you evaluate the full capabilities of **Visual Studio with Xamarin** to build these experiences.  
   

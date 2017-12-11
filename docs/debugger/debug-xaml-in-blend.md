@@ -2,7 +2,6 @@
 title: "Debug XAML in Blend | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,30 +9,15 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "tr-tr"
+manager: ghogen
 ---
 # Debug XAML in Blend
 You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first_md.md)] to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing F12.  
@@ -67,9 +51,9 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
   
      In the **New Project** dialog box, a list of project types appears on the left side. When you click a project type, the project templates that are associated with it appear on the right side.  
   
-2.  In the list of project types, click **XAML (Windows Store)**.  
+2.  In the list of project types, click **Windows Universal**.  
   
-3.  In the list of project templates, click **Blank App**.  
+3.  In the list of project templates, click **Blank App (Universal Windows)**.  
   
 4.  In the **Name** text box, type `DebuggingSample`.  
   
@@ -135,7 +119,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
 ## Debugging in Visual Studio  
  You can open [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] projects in Visual Studio to more easily debug the code in your app. To open a [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)]. You will be prompted to reload the project. Click **Yes to All** to continue working in [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)].  
   
- For more information about debugging your app, see [Debug Windows Store apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).  
+ For more information about debugging your app, see [Debug UWP apps in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=329944).  
   
 ## Getting help  
- If you need more help debugging your [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] app, you can search the [Windows Store app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
+ If you need more help debugging your [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] app, you can search the [UWP app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.

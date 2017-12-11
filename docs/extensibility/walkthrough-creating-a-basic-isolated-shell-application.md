@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/walkthrough-creating-a-basic-isolated-shell-application
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +15,9 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], isolated shell-based application"
 ms.assetid: 8b12e223-aae3-4c23-813d-ede1125f5f69
 caps.latest.revision: 54
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Creating a Basic Isolated Shell Application
 This walkthrough shows how to create an isolated shell solution, customize the Help About tool window, and create a setup program that installs the isolated shell.  
@@ -147,13 +134,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     [assembly: AssemblyProduct("Fabrikam Music Editor")]  
     [assembly: AssemblyCopyright("Copyright © Fabrikam 2015")] [assembly: AssemblyCompany("Fabrikam")]  
     [assembly: AssemblyProduct("Fabrikam Music Editor ")]  
-    [assembly: AssemblyCopyright("Copyright © Fabrikam 2015”)]  
+    [assembly: AssemblyCopyright("Copyright © Fabrikam 2015")]  
     ```  
   
 3.  To add a description of the product, change the `AssemblyDescription` value to **The description of Fabrikam Music editor.**:  
   
     ```  
-    [assembly: AssemblyDescription("The description of Fabrikam Music editor.”)]  
+    [assembly: AssemblyDescription("The description of Fabrikam Music editor.")]  
     ```  
   
 4.  Start debugging and in the isolated shell application, open the **Help / About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  

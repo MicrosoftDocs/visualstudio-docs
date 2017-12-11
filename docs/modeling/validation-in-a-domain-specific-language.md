@@ -2,7 +2,6 @@
 title: "Validation in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,27 +14,13 @@ caps.latest.revision: 33
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Validation in a Domain-Specific Language
 As the author of a domain-specific language (DSL), you can define validation constraints to verify that the model created by the user is meaningful. For example, if your DSL allows users to draw a family tree of people and their ancestors, you could write a constraint that ensures that children have birth dates after their parents.  
   
  You can have the validation constraints execute when the model is saved, when it is opened, and when the user explicitly runs the **Validate** menu command. You can also execute validation under program control. For example, you could execute validation in response to a change in a property value or relationship.  
   
- Validation is particularly important if you are writing text templates or other tools that process your users’ models. Validation ensures that the models fulfill the preconditions assumed by those tools.  
+ Validation is particularly important if you are writing text templates or other tools that process your users' models. Validation ensures that the models fulfill the preconditions assumed by those tools.  
   
 > [!WARNING]
 >  You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
@@ -79,7 +64,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
 3.  Prefix each class with this attribute:  
   
-    ```c#  
+    ```csharp  
     [ValidationState(ValidationState.Enabled)]  
     ```  
   
@@ -89,7 +74,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
      It must be prefixed with one or more `ValidationMethod` attributes:  
   
-    ```c#  
+    ```csharp  
     [ValidationMethod (ValidationCategories.Open | ValidationCategories.Save | ValidationCategories.Menu ) ]  
     ```  
   
@@ -97,7 +82,7 @@ As the author of a domain-specific language (DSL), you can define validation con
   
  For example:  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
   
@@ -193,7 +178,7 @@ public partial class Person
   
  **Passing values in the context cache.** The context parameter has a dictionary into which you can place arbitrary values. The dictionary persists for the life of the validation run. A particular validation method could, for example, keep an error count in the context, and use it to avoid flooding the error window with repeated messages. For example:  
   
-```c#  
+```csharp  
 List<ParentsHaveChildren> erroneousLinks;  
 if (!context.TryGetCacheValue("erroneousLinks", out erroneousLinks))  
 erroneousLinks = new List<ParentsHaveChildren>();  
@@ -211,9 +196,9 @@ if (erroneousLinks.Count < 5) { context.LogError( ... ); }
  For example, if your DSL has classes Person and Town, and a relationship PersonLivesInTown with a relationship **1..\*** at the Town role, then for each Person that has no Town, an error message will appear.  
   
 ## Running Validation from Program Code  
- You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram’s DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  
+ You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram's DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
 using Microsoft.VisualStudio.Modeling.Shell;  
@@ -231,7 +216,7 @@ partial class MyLanguageCommandSet
   
  You can also create a separate validation controller, and manage the errors yourself. For example:  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Validation;  
 using Microsoft.VisualStudio.Modeling.Shell;  
@@ -252,7 +237,7 @@ if (!validator.Validate(store, ValidationCategories.Save))
   
  In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error list.  
   
-```c#  
+```csharp  
 using System;  
 using System.Linq;  
 using Microsoft.VisualStudio.Modeling;  
@@ -320,7 +305,7 @@ namespace Company.FamilyTree
   
  To add a validation method to a particular category, prefix it with an attribute like this:  
   
-```c#  
+```csharp  
 [ValidationMethod(CustomCategory = "PreconditionsForGeneratePartsList")]  
 [ValidationMethod(ValidationCategory.Menu)]   
 private void TestForCircularLinks(ValidationContext context)   
@@ -333,7 +318,7 @@ private void TestForCircularLinks(ValidationContext context)
   
  To invoke a custom validation:  
   
-```c#  
+```csharp  
   
 // Invoke all validation methods in a custom category:   
 validationController.ValidateCustom  

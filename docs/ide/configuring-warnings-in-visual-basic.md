@@ -2,7 +2,6 @@
 title: "Configuring Warnings in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "warnings, configuring"
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Configuring Warnings in Visual Basic
 The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.  
@@ -131,10 +116,9 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
  ID: 42029, 42031  
   
 ## See Also  
- [Exception Assistant Dialog Box](../debugger/exception-assistant-dialog-box.md)   
  [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
  [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
  [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn)   
  [/warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
- [Compiler Warnings That Are Off by Default](/visual-cpp/preprocessor/compiler-warnings-that-are-off-by-default)
+ [Compiler Warnings That Are Off by Default](/cpp/preprocessor/compiler-warnings-that-are-off-by-default)

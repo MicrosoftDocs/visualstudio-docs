@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_isStripped | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: cc2c4a0b-ab9f-4b79-a8ff-a3badb0405d6
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_isStripped
 Retrieves flag indicating whether private symbols were stripped from the symbol file.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_isStripped(  
    BOOL *pFlag  
 );  

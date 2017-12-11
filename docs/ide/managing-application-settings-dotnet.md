@@ -2,7 +2,6 @@
 title: "Managing Application Settings (.NET) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,24 +14,9 @@ helpviewer_keywords:
   - "application settings [Visual Studio]"
 ms.assetid: 35254321-ad14-47d9-b8c6-39ab3203c5d9
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Managing Application Settings (.NET)
 Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences and other information you need at runtime.  
@@ -69,7 +53,7 @@ Application settings enable you to store application information dynamically. Se
 >   
 >  If you take connection string information from an external source, such as a user supplying a user ID and password, you must be careful to ensure that the values that you use to construct your connection string do not contain additional connection string parameters that change the behavior of your connection.  
 >   
->  Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. See [Protecting Connection Information](../Topic/Protecting%20Connection%20Information.md) for more information.  
+>  Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. See [Protecting Connection Information](/dotnet/framework/data/adonet/protecting-connection-information) for more information.  
   
 > [!NOTE]
 >  Because there is no configuration file model for class libraries, application settings do not apply for Class Library projects. The exception is a Visual Studio Tools for Office DLL project, which can have a configuration file.  
@@ -90,20 +74,20 @@ Application settings enable you to store application information dynamically. Se
   
  We strongly recommend that you use the `My.Settings` object and the default .settings file to access settings. This is because you can use the Settings Designer to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] application can access settings directly. In that case you have to access the `MySettings` class and use a custom .settings file in the root of the project. You must also save the user settings before ending the application, as you would do for a C# application; this is described in the following section.  
   
-## Accessing or Changing Application Settings at Run Time in Visual C#  
+## Accessing or Changing Application Settings at Run Time in Visual C# #
  In languages other than [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.  
   
-```c#  
+```csharp  
 Properties.Settings.Default.FirstUserSetting = "abc";  
 ```  
   
  You must also explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the `Closing` event handler of the main form. The following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example shows a call to the `Save` method.  
   
-```c#  
+```csharp  
 Properties.Settings.Default.Save();  
 ```  
   
- For general information about accessing application settings through the `Settings` class, see [Application Settings Overview](../Topic/Application%20Settings%20Overview.md). For information about iterating through the settings, see this [forum post](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).  
+ For general information about accessing application settings through the `Settings` class, see [Application Settings Overview](/dotnet/framework/winforms/advanced/application-settings-overview). For information about iterating through the settings, see this [forum post](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).  
   
 ## See Also  
  [Accessing Application Settings](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)

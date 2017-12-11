@@ -2,7 +2,6 @@
 title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "PENDING_BP_STATE_FLAGS enumeration"
 ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # PENDING_BP_STATE_FLAGS
 Specifies the pending breakpoint state flags.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PENDING_BP_STATE_FLAGS {   
    PBPSF_NONE        = 0x0000,  
    PBPSF_VIRTUALIZED = 0x0001  
@@ -45,7 +31,7 @@ enum enum_PENDING_BP_STATE_FLAGS { 
 typedef DWORD PENDING_BP_STATE_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_PENDING_BP_STATE_FLAGS {   
    PBPSF_NONE        = 0x0000,  
    PBPSF_VIRTUALIZED = 0x0001  

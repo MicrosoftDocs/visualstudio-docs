@@ -2,7 +2,6 @@
 title: "IDiaSectionContrib::get_informational | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 5351e89f-7db1-4f8e-9e57-2dd1c74002e0
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSectionContrib::get_informational
 Retrieves a flag indicating whether a section contains comments or similar information.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_informational(  
    BOOL* pRetVal  
 };  

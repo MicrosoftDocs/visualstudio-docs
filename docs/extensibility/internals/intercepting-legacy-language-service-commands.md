@@ -2,7 +2,6 @@
 title: "Intercepting Legacy Language Service Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "language services, intercepting commands"
 ms.assetid: eea69f03-349c-44bb-bd4f-4925c0dc3e55
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Intercepting Legacy Language Service Commands
 With [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can have the language service intercept commands that the text view would otherwise handle. This is useful for language-specific behavior that the text view does not manage. You can intercept these commands by adding one or more command filters to the text view from your language service.  

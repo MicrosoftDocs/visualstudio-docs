@@ -2,7 +2,6 @@
 title: "IDebugComPlusSymbolProvider::GetTypeFromAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,36 +13,23 @@ helpviewer_keywords:
   - "GetTypeFromAddress"
 ms.assetid: 01f21ff9-e8a5-4e5f-9f7b-1b6de8b1432f
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
 Retrieves to a symbol type given its debug address.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromAddress(  
    IDebugAddress* pAddress,  
    IDebugField**  ppField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetTypeFromAddress(  
    IDebugAddress   pAddress,  
    out IDebugField ppField  
@@ -63,7 +49,7 @@ int GetTypeFromAddress(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetTypeFromAddress(  
     IDebugAddress *pAddress,  
     IDebugField **ppField)  

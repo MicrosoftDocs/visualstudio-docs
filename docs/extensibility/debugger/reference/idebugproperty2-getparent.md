@@ -2,7 +2,6 @@
 title: "IDebugProperty2::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugProperty2::GetParent"
 ms.assetid: 58780469-fe25-4d84-9187-67940ca0767f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProperty2::GetParent
 Gets the parent property of a property.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetParent (   
    IDebugProperty2** ppParent  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetParent (   
    out IDebugProperty2 ppParent  
 );  

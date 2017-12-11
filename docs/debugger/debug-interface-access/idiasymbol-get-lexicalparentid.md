@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_lexicalParentId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 6c0c2874-cc47-4e4f-ad9c-02a18a108d9d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_lexicalParentId
 Retrieves the lexical parent identifier of the symbol.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lexicalParentId (   
    DWORD* pRetVal  
 );  

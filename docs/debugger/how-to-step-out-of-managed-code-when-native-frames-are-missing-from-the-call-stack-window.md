@@ -2,7 +2,6 @@
 title: "How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,15 +9,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Call Stack window, missing native frames"
   - "code, managed code"
@@ -29,27 +25,13 @@ ms.assetid: 97cdd2a8-02a9-4a06-a5b1-c92b1e431979
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
 If your code has native frames that are invisible in the **Call Stack** window, stepping out of managed code can produce unexpected results. As a workaround, you can use a breakpoint instead of **Step Out**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To step out of managed code when native frames are missing from the call stack display  
   

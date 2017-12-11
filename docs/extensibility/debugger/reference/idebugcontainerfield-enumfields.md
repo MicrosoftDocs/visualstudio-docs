@@ -2,7 +2,6 @@
 title: "IDebugContainerField::EnumFields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugContainerField::EnumFields method"
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugContainerField::EnumFields
 Creates an enumerator for the fields of the container.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumFields(   
    FIELD_KIND         dwKindFilter,  
    FIELD_MODIFIERS    dwModifiersFilter,  
@@ -47,7 +33,7 @@ HRESULT EnumFields( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumFields(  
    enum_ FIELD_KIND      dwKindFilter,   
    enum_ FIELD_MODIFIERS dwModifiersFilter,   

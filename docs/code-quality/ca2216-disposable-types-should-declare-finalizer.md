@@ -2,11 +2,10 @@
 title: "CA2216: Disposable types should declare finalizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "DisposableTypesShouldDeclareFinalizer"
 ms.assetid: 0cabcc5e-b526-452b-8c2a-0cbe3b93c0ef
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2216: Disposable types should declare finalizer
 |||  
@@ -64,7 +49,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code-cs[FxCop.Usage.DisposeNoFinalize#1](../code-quality/codesnippet/CSharp/ca2216-disposable-types-should-declare-finalizer_1.cs)]  
+ [!code-csharp[FxCop.Usage.DisposeNoFinalize#1](../code-quality/codesnippet/CSharp/ca2216-disposable-types-should-declare-finalizer_1.cs)]  
   
 ## Related Rules  
  [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115-call-gc-keepalive-when-using-native-resources.md)  
@@ -79,4 +64,4 @@ translation.priority.ht:
  <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>   
  <xref:System.UIntPtr?displayProperty=fullName>   
  <xref:System.Object.Finalize%2A?displayProperty=fullName>   
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)

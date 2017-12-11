@@ -2,7 +2,6 @@
 title: "Creating Project Instances By Using Project Factories | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], project factories"
 ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Creating Project Instances By Using Project Factories
 Project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use a *project factory* to create instances of project objects. A project factory is similar to a standard class factory for cocreatable COM objects. However, project objects are not cocreatable: they can only be created by using a project factory.  

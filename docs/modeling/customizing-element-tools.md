@@ -2,7 +2,6 @@
 title: "Customizing Element Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,20 +11,6 @@ caps.latest.revision: 6
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Customizing Element Tools
 In some DSL Definitions, you represent a single concept as a group of elements. For example, if you create a model in which a component has a fixed set of ports, you always want the ports to be created at the same time as their parent component. Therefore, you have to customize the element creation tool so that it creates a group of elements instead of just one. To achieve this, you can customize how the element creation tool is initialized.  

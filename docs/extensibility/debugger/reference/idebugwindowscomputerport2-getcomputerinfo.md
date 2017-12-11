@@ -2,7 +2,6 @@
 title: "IDebugWindowsComputerPort2::GetComputerInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,35 +13,22 @@ helpviewer_keywords:
   - "IDebugWindowsComputerPort2::GetComputerInfo"
 ms.assetid: 654910b2-c239-44c8-92fc-317680a5672f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugWindowsComputerPort2::GetComputerInfo
 Retrieves information about the computer on which the debugger in running.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetComputerInfo(  
    COMPUTER_INFO * pInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetComputerInfo(  
    out COMPUTER_INFO[] pInfo  
 );  

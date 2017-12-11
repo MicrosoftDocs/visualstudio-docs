@@ -2,11 +2,10 @@
 title: "CA2210: Assemblies should have valid strong names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "CA2210"
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2210: Assemblies should have valid strong names
 |||  
@@ -78,7 +63,7 @@ translation.priority.ht:
   
 -   For the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.  
   
--   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/visual-cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/visual-cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).  
+-   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).  
   
  **To sign your assembly with a strong name in Visual Studio**  
   
@@ -100,7 +85,7 @@ translation.priority.ht:
   
  **To sign your assembly with a strong name outside Visual Studio**  
   
--   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md).  
+-   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).  
   
 ## When to Suppress Warnings  
  Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.  
@@ -108,5 +93,5 @@ translation.priority.ht:
 ## See Also  
  <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>   
  <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>   
- [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md)   
- [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md)
+ [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)   
+ [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool)

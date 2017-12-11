@@ -2,7 +2,6 @@
 title: "MSBuild Best Practices | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,28 +15,14 @@ ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Best Practices
 We recommend the following best practices for writing MSBuild scripts:  
   
 -   Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use  
   
-     `<MyProperty Condition="$(MyProperty)" == ''>`  
+     `<MyProperty Condition="'$(MyProperty)' == ''">`  
   
      `MyDefaultValue`  
   

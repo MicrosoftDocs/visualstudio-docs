@@ -2,7 +2,6 @@
 title: "How to: Use the Same Target in Multiple Project Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: 163734bd-1bfd-4093-a730-7741fc21742d
 caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Use the Same Target in Multiple Project Files
 If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.  
@@ -53,7 +38,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
   
  When the project builds, all properties are evaluated first, followed by items. For example, the following XML defines the imported project file MyCommon.targets:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <Name>MyCommon</Name>  
@@ -67,7 +52,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
   
  The following XML defines MyApp.proj, which imports MyCommon.targets:  
   
-```  
+```xml  
 <Project  
     DefaultTargets="Go"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -97,7 +82,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ## Example  
  The following code example shows the MyCommon.targets file that the second code example imports. The .targets file evaluates properties from the importing project to configure the build.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  
         <Flavor Condition="'$(Flavor)'==''">DEBUG</Flavor>  
@@ -115,7 +100,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ## Example  
  The following code example imports the MyCommon.targets file.  
   
-```  
+```xml  
 <Project DefaultTargets="Build"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <PropertyGroup>  

@@ -2,7 +2,6 @@
 title: "Walkthrough: Identifying Performance Problems | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,22 +17,7 @@ ms.assetid: 36f6f123-0c14-4763-99c3-bd60ecb95b87
 caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Walkthrough: Identifying Performance Problems
 This walkthrough demonstrates how to profile an application to identify performance problems.  
@@ -73,7 +57,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
      You should use a release build to detect performance problems in your application. A release build is recommended for profiling because a debug build has additional information compiled into it that might adversely affect performance and do not illustrate performance issues accurately.  
   
-4.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+4.  On the **Analyze** menu, select **Performance Profiler**, then select **Performance Wizard**, and then select **Start**.  
   
      The Performance Wizard appears.  
   
@@ -173,4 +157,4 @@ This walkthrough demonstrates how to profile an application to identify performa
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [/Z7, /Zi, /ZI (Debug Information Format)](/visual-cpp/build/reference/z7-zi-zi-debug-information-format)
+ [/Z7, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format)

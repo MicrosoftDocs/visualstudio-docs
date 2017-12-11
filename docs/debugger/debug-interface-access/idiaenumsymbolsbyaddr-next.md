@@ -2,7 +2,6 @@
 title: "IDiaEnumSymbolsByAddr::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: a1320587-7ce7-401f-9548-2f8bcece5cc3
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaEnumSymbolsByAddr::Next
 Retrieves the next symbols in order by address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Next (   
    ULONG        celt,   
    IDiaSymbol** rgelt,  

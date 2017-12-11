@@ -2,7 +2,6 @@
 title: "OBJECT_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "OBJECT_TYPE enumeration"
 ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # OBJECT_TYPE
 Specifies the type of an object from the expression evaluator.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_OBJECT_TYPE {   
    OBJECT_TYPE_BOOLEAN = 0x0,  
    OBJECT_TYPE_CHAR    = 0x1,  
@@ -58,7 +44,7 @@ enum enum_OBJECT_TYPE { 
 typedef DWORD OBJECT_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_OBJECT_TYPE {   
    OBJECT_TYPE_BOOLEAN = 0x0,  
    OBJECT_TYPE_CHAR    = 0x1,  

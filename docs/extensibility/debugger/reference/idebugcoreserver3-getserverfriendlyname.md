@@ -2,7 +2,6 @@
 title: "IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugCoreServer3::GetServerFriendlyName"
 ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCoreServer3::GetServerFriendlyName
 Retrieves a friendly name for the server.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetServerFriendlyName(  
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetServerFriendlyName(  
    out string pbstrName  
 );  

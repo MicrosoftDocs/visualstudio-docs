@@ -2,7 +2,6 @@
 title: "AssignTargetPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,21 +17,7 @@ ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # AssignTargetPath Task
 This task accepts a list files and adds `<TargetPath>` attributes if they are not already specified.  
@@ -52,7 +37,7 @@ This task accepts a list files and adds `<TargetPath>` attributes if they are no
 ## Example  
  The following example executes the `AssignTargetPath` task to configure a project.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="MyProject">  
         <AssignTargetPath  

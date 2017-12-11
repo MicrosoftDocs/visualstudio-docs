@@ -2,7 +2,6 @@
 title: "Analyzing Coded UI Tests Using Coded UI Test Logs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e795873-1d4b-4a13-a52a-a411d87fb759
 caps.latest.revision: 13
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 Coded UI test logs filter and record important information about your coded UI test runs.  
@@ -76,7 +61,7 @@ Coded UI test logs filter and record important information about your coded UI t
     -   <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;  
   
 ### Step 2: Run your coded UI test and view the log  
- When you run a coded UI test with the modifications to the **QTAgent32.exe.config** file in place, you will see there is an output link in the Test Explorer results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to “verbose.”  
+ When you run a coded UI test with the modifications to the **QTAgent32.exe.config** file in place, you will see there is an output link in the Test Explorer results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to "verbose."  
   
 1.  On the **TEST** menu, choose **Windows** and then select **Test Explorer**.  
   
@@ -120,4 +105,4 @@ Coded UI test logs filter and record important information about your coded UI t
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [How to: Run Tests from Microsoft Visual Studio](../Topic/How%20to:%20Run%20Tests%20from%20Microsoft%20Visual%20Studio.md)
+ [How to: Run Tests from Microsoft Visual Studio](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

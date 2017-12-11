@@ -2,7 +2,6 @@
 title: "IDebugMessageEvent2::SetResponse | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,35 +15,22 @@ helpviewer_keywords:
   - "SetResponse method"
 ms.assetid: 2a5e318d-3225-4abd-83f1-28323baff6c0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugMessageEvent2::SetResponse
 Sets the response, if any, from the message box.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetResponse(   
    DWORD dwResponse  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetResponse(   
    uint dwResponse  
 );  
@@ -52,11 +38,11 @@ int SetResponse( 
   
 #### Parameters  
  `dwResponse`  
- [in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](../Topic/AfxMessageBox.md) function for details.  
+ [in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](http://msdn.microsoft.com/Library/d66d0328-cdcc-48f6-96a4-badf089099c8) function for details.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## See Also  
  [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)   
- [AfxMessageBox](../Topic/AfxMessageBox.md)
+ [AfxMessageBox](http://msdn.microsoft.com/Library/d66d0328-cdcc-48f6-96a4-badf089099c8)

@@ -2,7 +2,6 @@
 title: "Implementing Command Handling for Nested Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "nested projects, implementing command handling"
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Implementing Command Handling for Nested Projects
 The IDE can pass commands that are passed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.  

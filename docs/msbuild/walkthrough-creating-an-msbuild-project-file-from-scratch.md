@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,26 +14,12 @@ ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Walkthrough: Creating an MSBuild Project File from Scratch
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.  
   
- For information about creating a project file for a C++ project, see [MSBuild (Visual C++)](/visual-cpp/build/msbuild-visual-cpp).  
+ For information about creating a project file for a C++ project, see [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp).  
   
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:  
   
@@ -73,7 +58,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 4.  Start Notepad or another text editor, and then type the following code.  
   
-    ```  
+    ```csharp
     using System;  
   
     class HelloWorld  
@@ -116,14 +101,14 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 1.  In the text editor, replace the existing text by using these two lines:  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     </Project>  
     ```  
   
 2.  Insert this `ItemGroup` node as a child element of the `Project` node:  
   
-    ```  
+    ```xml  
     <ItemGroup>  
       <Compile Include="helloworld.cs" />  
     </ItemGroup>  
@@ -133,14 +118,14 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 3.  Add a `Target` node as a child element of the `Project` node. Name the node `Build`.  
   
-    ```  
+    ```xml  
     <Target Name="Build">  
     </Target>  
     ```  
   
 4.  Insert this task element as a child element of the `Target` node:  
   
-    ```  
+    ```xml  
     <Csc Sources="@(Compile)"/>  
     ```  
   
@@ -148,7 +133,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your minimal project file should resemble the following code:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <ItemGroup>  
     <Compile Include="helloworld.cs" />  
@@ -210,7 +195,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 2.  In the project file, insert this `PropertyGroup` element just after the opening `Project` element:  
   
-    ```  
+    ```xml  
     <PropertyGroup>  
       <AssemblyName>MSBuildSample</AssemblyName>  
       <OutputPath>Bin\</OutputPath>  
@@ -219,7 +204,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 3.  Add this task to the Build target, just before the `Csc` task:  
   
-    ```  
+    ```xml  
     <MakeDir Directories="$(OutputPath)"      Condition="!Exists('$(OutputPath)')" />  
     ```  
   
@@ -227,7 +212,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 4.  Add this `OutputAssembly` attribute to the `Csc` task:  
   
-    ```  
+    ```xml  
     <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
     ```  
   
@@ -237,7 +222,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your project file should now resemble the following code:  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <AssemblyName>MSBuildSample</AssemblyName>  
@@ -294,7 +279,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 1.  In the project file, add these two targets just after the Build target:  
   
-    ```  
+    ```xml  
     <Target Name="Clean" >  
       <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
     </Target>  
@@ -305,7 +290,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 2.  Add this `DefaultTargets` attribute to the opening `Project` element:  
   
-    ```  
+    ```xml  
     <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     ```  
   
@@ -313,7 +298,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  Your project file should now resemble the following code:  
   
-```  
+```xml  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <AssemblyName>MSBuildSample</AssemblyName>  
@@ -387,7 +372,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
      The resulting Build target should resemble the following code:  
   
-    ```  
+    ```xml  
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">  
       <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
       <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
@@ -417,7 +402,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 ### Code  
   
-```c#  
+```xml
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
@@ -457,7 +442,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 ### Code  
   
-```vb#  
+```xml  
 <Project DefaultTargets = "Compile"  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
   
@@ -492,5 +477,5 @@ Programming languages that target the .NET Framework use MSBuild project files t
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
 ## See Also  
-[MSBuild Overview](../msbuild/msbuild1.md)  
+[MSBuild Overview](../msbuild/msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)

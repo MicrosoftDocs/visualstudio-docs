@@ -2,7 +2,6 @@
 title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,20 +15,6 @@ caps.latest.revision: 22
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 This walkthrough shows how to add a tracking property to a domain model.  
@@ -180,7 +165,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the HelperClasses.cs file.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Collections;  
     using System.Diagnostics;  
@@ -265,7 +250,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the TypeDescriptor.cs file.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.ComponentModel;  
     using Microsoft.VisualStudio.Modeling;  
@@ -328,7 +313,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the Package.cs file.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel;  
   
     namespace CompanyName.ProductName.TrackingPropertyDSL  
@@ -365,7 +350,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the ExampleModel.cs file.  
   
-    ```c#  
+    ```csharp  
     using System.Linq;  
   
     namespace CompanyName.ProductName.TrackingPropertyDSL  
@@ -440,7 +425,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the NamespaceTrackingProperty.cs file.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using Microsoft.VisualStudio.Modeling;  
   
@@ -606,7 +591,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  Add the following code to the Serialization.cs file.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Diagnostics;  
     using Microsoft.VisualStudio.Modeling;  
@@ -773,4 +758,3 @@ This walkthrough shows how to add a tracking property to a domain model.
  <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)   
- [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)

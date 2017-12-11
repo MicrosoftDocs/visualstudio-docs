@@ -2,7 +2,6 @@
 title: "IDiaEnumSegments::Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: ee44dd55-39a0-4b7b-97ff-2e1226eeb2bd
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaEnumSegments::Item
 Retrieves a segment by means of an index.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD         index,  
    IDiaSegment** segment  

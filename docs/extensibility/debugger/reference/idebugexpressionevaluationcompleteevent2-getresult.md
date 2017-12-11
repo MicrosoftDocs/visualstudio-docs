@@ -2,7 +2,6 @@
 title: "IDebugExpressionEvaluationCompleteEvent2::GetResult | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluationCompleteEvent2::GetResult"
 ms.assetid: d9ad3e22-b6b2-421e-9a43-6bb8c70d12a9
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
 Gets the result of expression evaluation.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResult(   
    IDebugProperty2** ppResult  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetResult(   
    out IDebugProperty2 ppResult  
 );  

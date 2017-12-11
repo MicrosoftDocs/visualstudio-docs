@@ -2,7 +2,6 @@
 title: "IDebugCodeContext2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugCodeContext2::GetDocumentContext"
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCodeContext2::GetDocumentContext
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocumentContext(   
    IDebugDocumentContext2** ppSrcCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocumentContext(   
    out IDebugDocumentContext2 ppSrcCxt  
 );  

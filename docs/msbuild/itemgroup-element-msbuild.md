@@ -2,7 +2,6 @@
 title: "ItemGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,22 +22,7 @@ ms.assetid: aac894e3-a9f1-4bbc-a796-6ef07001f35b
 caps.latest.revision: 24
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # ItemGroup Element (MSBuild)
 Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
@@ -48,7 +32,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
   
 ## Syntax  
   
-```  
+```xml  
 <ItemGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
@@ -82,7 +66,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 ## Example  
  The following code example shows the user-defined item collections `Res` and `CodeFiles` declared inside of an `ItemGroup` element. Each of the items in the `Res` item collection contains a user-defined child [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) element.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Res Include = "Strings.fr.resources" >  

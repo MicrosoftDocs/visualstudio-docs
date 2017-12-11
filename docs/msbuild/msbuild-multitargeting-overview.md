@@ -2,7 +2,6 @@
 title: "MSBuild Multitargeting Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,27 +12,13 @@ ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Multitargeting Overview
 By using MSBuild, you can compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you can compile an application to run on the .NET Framework 2.0 on a 32-bit platform, and compile the same application to run on the .NET Framework 4.5 on a 64-bit platform.  
   
 > [!IMPORTANT]
->  Despite the name “multitargeting”, a project can target only one framework and only one platform at a time.  
+>  Despite the name "multitargeting", a project can target only one framework and only one platform at a time.  
   
  These are some of the features of MSBuild targeting:  
   

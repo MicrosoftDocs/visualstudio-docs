@@ -2,7 +2,6 @@
 title: "How to: Target a Version of the .NET Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,29 +13,15 @@ helpviewer_keywords:
   - "versions [Visual Studio], targeting .NET Framework version"
 ms.assetid: dea62d25-3d1b-492e-a6cc-b5154489800a
 caps.latest.revision: 50
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Target a Version of the .NET Framework
 This document describes how to target a version of the .NET Framework when you create a project and how to change the targeted version in an existing Visual Basic, Visual C#, or Visual F# project.  
   
 > [!IMPORTANT]
->  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md).  
+>  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).  
   
  **In this topic**  
   
@@ -73,14 +58,14 @@ This document describes how to target a version of the .NET Framework when you c
      ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")  
   
     > [!IMPORTANT]
-    >  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md).  
+    >  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).  
   
 2.  In the left column of the properties window, choose the **Application** tab.  
   
      ![Visual Studio App Properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
   
     > [!NOTE]
-    >  After you create a Windows Store app, you can't change the targeted version of either Windows or the .NET Framework.  
+    >  After you create a UWP app, you can't change the targeted version of either Windows or the .NET Framework.  
   
 3.  In the **Target Framework** list, choose the version that you want.  
   
@@ -93,9 +78,9 @@ This document describes how to target a version of the .NET Framework when you c
   
 ## See Also  
  [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)   
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)   
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/Library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)   
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
- [Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)   
- [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)
+ [Configuring Projects](http://msdn.microsoft.com/Library/a1489abb-6294-4f8f-b71f-2cb126393526)   
+ [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

@@ -2,7 +2,6 @@
 title: "IDebugFunctionObject::Evaluate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugFunctionObject::Evaluate method"
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugFunctionObject::Evaluate
 Calls the function and returns the resulting value as an object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Evaluate(   
    IDebugObject** ppParams,  
    DWORD          dwParams,  
@@ -46,7 +32,7 @@ HRESULT Evaluate( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Evaluate(  
    IDebugObject[]   ppParams,   
    IntPtr           dwParams,   

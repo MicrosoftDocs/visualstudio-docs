@@ -2,7 +2,6 @@
 title: "IDebugExpression2::EvaluateSync | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugExpression2::EvaluateSync"
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExpression2::EvaluateSync
 This method evaluates the expression synchronously.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EvaluateSync(   
    EVALFLAGS             dwFlags,  
    DWORD                 dwTimeout,  
@@ -46,7 +32,7 @@ HRESULT EvaluateSync( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EvaluateSync(  
    enum_EVALFLAGS       dwFlags,   
    uint                 dwTimeout,   
@@ -82,7 +68,7 @@ int EvaluateSync(
 ## Example  
  The following example shows how to implement this method for a simple `CExpression` object that implements the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CExpression::EvaluateSync(EVALFLAGS dwFlags,  
                                   DWORD dwTimeout,  
                                   IDebugEventCallback2* pExprCallback,  

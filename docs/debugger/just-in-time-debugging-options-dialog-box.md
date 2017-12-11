@@ -2,7 +2,6 @@
 title: "Just-In-Time, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,14 +12,11 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.JIT"
   - "vs.debug.options.JIT"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Just-In-Time debugging, setting options"
   - "Options dialog box, debugging"
@@ -28,21 +24,7 @@ ms.assetid: 7f11b2e3-3fb5-449d-b07c-6ecf1d6a487d
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Just-In-Time, Debugging, Options Dialog Box
 To access the **Just-In-Time** page, go to the **Tools** menu and click **Options**. In the **Options** dialog box, expand the **Debugging** node and select **Just-In-Time**. This page allows you to enable Just-In-Time debugging for managed code, native code, and script. For more information, see [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md).  

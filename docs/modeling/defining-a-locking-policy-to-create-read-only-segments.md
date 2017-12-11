@@ -2,7 +2,6 @@
 title: "Defining a Locking Policy to Create Read-Only Segments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,11 +11,6 @@ caps.latest.revision: 12
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
 ---
 # Defining a Locking Policy to Create Read-Only Segments
 The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
@@ -27,6 +21,8 @@ The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
 >  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
   
  More information and samples are available at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
   
 ## Setting and Getting Locks  
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:  

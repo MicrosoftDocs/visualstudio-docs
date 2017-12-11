@@ -2,7 +2,6 @@
 title: "IDebugBreakpointResolution2::GetBreakpointType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugBreakpointResolution2::GetBreakpointType"
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 Gets the type of the breakpoint represented by this resolution.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpointType(   
    BP_TYPE* pBPType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetBreakpointType(   
    out enum_ BP_TYPE pBPType  
 );  

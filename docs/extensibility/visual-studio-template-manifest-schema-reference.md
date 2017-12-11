@@ -8,22 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Visual Studio Template Manifest Schema Reference
 This schema describes the format of the Visual Studio template manifest (.vstman) files generated for Visual Studio project or item templates, and describes the location and other relevant information about the template.  
@@ -31,7 +18,7 @@ This schema describes the format of the Visual Studio template manifest (.vstman
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.  
   
 > [!IMPORTANT]
->  This manifest is available starting in Visual Studio "15" Preview 2.  
+>  This manifest is available starting in Visual Studio 2017.  
   
 ## VSTemplateManifest Element  
  The root element of the manifest.  

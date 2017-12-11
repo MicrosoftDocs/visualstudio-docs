@@ -2,7 +2,6 @@
 title: "IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,36 +14,23 @@ helpviewer_keywords:
   - "IDebugEngine2::CreatePendingBreakpoint"
 ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 Creates a pending breakpoint in the debug engine (DE).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePendingBreakpoint(   
    IDebugBreakpointRequest2*  pBPRequest,  
    IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
-```c#  
+```csharp  
 int CreatePendingBreakpoint(   
    IDebugBreakpointRequest2     pBPRequest,  
    out IDebugPendingBreakpoint2 ppPendingBP  

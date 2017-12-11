@@ -2,7 +2,6 @@
 title: "IDebugCustomViewer::DisplayValue | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "IDebugCustomViewer::DisplayValue"
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugCustomViewer::DisplayValue
 This method is called to display the specified value.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisplayValue(  
    HWND             hwnd,  
    DWORD            dwID,  
@@ -46,7 +32,7 @@ HRESULT DisplayValue(
 );  
 ```  
   
-```c#  
+```csharp  
 int DisplayValue(  
    IntPtr          hwnd,   
    uint            dwID,   

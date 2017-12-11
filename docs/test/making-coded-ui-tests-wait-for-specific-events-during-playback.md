@@ -2,7 +2,6 @@
 title: "Making Coded UI Tests Wait For Specific Events During Playback | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,22 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41981ad6-673e-492e-b739-9863b14157b1
 caps.latest.revision: 24
-ms.author: "mlearned"
+ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Making Coded UI Tests Wait For Specific Events During Playback
 In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, use the appropriate UITestControl.WaitForControlXXX() method, as described in the following table. For an example of a coded UI test that waits for a control to be enabled using the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.WaitForControlEnabled%2A> method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).  
@@ -36,7 +21,7 @@ In a coded UI test playback, you can instruct the test to wait for certain event
  Visual Studio Enterprise  
   
 > [!TIP]
->  You can also add delays before actions using the Coded UI Test Editor. For more information, see [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](../Topic/How%20to:%20Insert%20a%20Delay%20Before%20a%20UI%20Action%20Using%20the%20Coded%20UI%20Test%20Editor.md).  
+>  You can also add delays before actions using the Coded UI Test Editor. For more information, see [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](http://msdn.microsoft.com/Library/509f8ef7-e105-4049-b11b-d64549e055b0).  
   
  **UITestControl.WaitForControlXXX() Methods**  
   
@@ -68,7 +53,7 @@ In a coded UI test playback, you can instruct the test to wait for certain event
   
  Waits for the specified predicate returns to be `true`. This can be used for complex wait operation (like OR conditions) on a given control. For example, you can wait until the status text is **Succeeded** or **Failed** as shown in the following code:  
   
-```c#  
+```csharp  
   
 // Define the method to evaluate the condition   
 private static bool IsStatusDone(UITestControl control)   
@@ -86,7 +71,7 @@ statusText.WaitForControlCondition(IsStatusDone);
   
  All the previous methods are instance methods of UITestControl. This method is a static method. This method also waits for the specified predicate to be `true` but it can be used for complex wait operation (like OR conditions) on multiple controls. For example, you can wait until the status text is **Succeeded** or until an error message appears, as shown in the following code:  
   
-```c#  
+```csharp  
   
 // Define the method to evaluate the condition   
 private static bool IsStatusDoneOrError(UITestControl[] controls)   
@@ -120,7 +105,7 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
   
  **Guidance**  
   
- For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
@@ -128,4 +113,4 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
- [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](../Topic/How%20to:%20Insert%20a%20Delay%20Before%20a%20UI%20Action%20Using%20the%20Coded%20UI%20Test%20Editor.md)
+ [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](http://msdn.microsoft.com/Library/509f8ef7-e105-4049-b11b-d64549e055b0)

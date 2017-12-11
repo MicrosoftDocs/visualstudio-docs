@@ -2,7 +2,6 @@
 title: "Editor and Language Service Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK]"
 ms.assetid: 5653bac9-724f-4948-a820-68ce6aa96365
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Editor and Language Service Extensions
 You can extend most features of the Visual Studio code editor. The editor is based on the Windows Presentation Foundation (WPF) and is written in managed code. Although this design differs from the designs in earlier versions of Visual Studio, it provides most of the same features. To extend the editor, use the Managed Extensibility Framework (MEF).  
@@ -44,5 +30,5 @@ You can extend most features of the Visual Studio code editor. The editor is bas
 |[Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)|Links to documents that explain how to access the core editor from existing code.|  
 |[Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)|Links to documents that explain how to create custom editors.|  
 |[Legacy Language Service Extensibility](../extensibility/internals/legacy-language-service-extensibility.md)|Links to documents that describe how to integrate programming languages into Visual Studio.|  
-|[Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md)|Introduces the Managed Extensibility Framework (MEF).|  
-|[Windows Presentation Foundation](../Topic/Windows%20Presentation%20Foundation.md)|Introduces the Windows Presentation Foundation (WPF).|
+|[Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index)|Introduces the Managed Extensibility Framework (MEF).|  
+|[Windows Presentation Foundation](/dotnet/framework/wpf/index)|Introduces the Windows Presentation Foundation (WPF).|

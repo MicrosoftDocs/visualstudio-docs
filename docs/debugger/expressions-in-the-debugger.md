@@ -1,23 +1,15 @@
 ---
-title: "Expressions in the Debugger | Microsoft Docs"
+title: "Expressions in the debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "02/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 f1_keywords: 
   - "vs.debug.expressions"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "JScript"
-  - "VBScript"
 helpviewer_keywords: 
   - "expressions [debugger]"
   - "debugging [Visual Studio], expressions"
@@ -31,25 +23,10 @@ ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Expressions in the Debugger
-The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
+# Expressions in the Visual Studio debugger
+The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
   
  The following sections give details about  expressions in different languages.  
   
@@ -64,19 +41,19 @@ The Visual Studio debugger includes expression evaluators that work when you ent
 #### Constructors, destructors, and conversions  
  You cannot call a constructor or destructor for an object, either explicitly or implicitly. For example, the following expression explicitly calls a constructor and results in an error message:  
   
-```cpp  
+```C++  
 my_date( 2, 3, 1985 )  
 ```  
   
  You cannot call a conversion function if the destination of the conversion is a class. Such a conversion involves the construction of an object. For example, if `myFraction` is an instance of `CFraction`, which defines the conversion function operator `FixedPoint`, the following expression results in an error:  
   
-```cpp  
+```C++  
 (FixedPoint)myFraction  
 ```  
   
  You cannot call the new or delete operators. For example, the following expression is not supported:  
   
-```cpp  
+```C++  
 new Date(2,3,1985)  
 ```  
   
@@ -89,7 +66,7 @@ new Date(2,3,1985)
 ### Anonymous namespaces  
  Anonymous namespaces are not supported. If you have the following code, you cannot add `test` to the watch window:  
   
-```cpp  
+```C++  
 namespace mars   
 {   
     namespace  
@@ -117,7 +94,7 @@ int main()
   
 -   Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
   
- Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
+ Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, "asd")` is much easier to write in a breakpoint condition than `str[0] == 'a' && str[1] == 's' && str[2] == 'd'`. )  
   
 |Area|Intrinsic functions|  
 |----------|-------------------------|  
@@ -143,7 +120,7 @@ int main()
 ## C# - Unsupported Expressions  
   
 ### Dynamic Objects  
- You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](../Topic/IDynamicMetaObjectProvider%20Interface.md) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
+ You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
   
  The following features of dynamic objects are not supported:  
   
@@ -167,7 +144,7 @@ int main()
 ## Visual Basic - Unsupported Expressions  
   
 ### Dynamic Objects  
- You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](../Topic/IDynamicMetaObjectProvider%20Interface.md) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
+ You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
   
  The following features of dynamic objects are not supported:  
   

@@ -2,7 +2,6 @@
 title: "IDebugPendingBreakpoint2::Delete | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,35 +15,22 @@ helpviewer_keywords:
   - "Delete method"
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugPendingBreakpoint2::Delete
 Deletes this pending breakpoint and all breakpoints bound from it.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Delete(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int Delete();  
 ```  
   
@@ -54,7 +40,7 @@ int Delete();
 ## Example  
  The following example shows how to implement this method for a simple `CPendingBreakpoint` object that implements the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CPendingBreakpoint::Delete(void)    
 {    
    HRESULT hr;    

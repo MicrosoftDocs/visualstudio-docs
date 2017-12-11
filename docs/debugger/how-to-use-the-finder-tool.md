@@ -2,7 +2,6 @@
 title: "How to: Use the Finder Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,21 +14,7 @@ ms.assetid: 5841926b-08c3-4e43-88bd-4223d04f9aef
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Use the Finder Tool
 You can use the Finder Tool in the **Find Window** dialog box to display window properties or messages. The Finder Tool can also locate disabled child windows, and discern which window to highlight if disabled child windows overlap.  
@@ -51,7 +36,7 @@ Finder Tool in the Find Window dialog box
   
      As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window you want to examine (for example, copied from the debugger), type it into the **Handle** text box.  
   

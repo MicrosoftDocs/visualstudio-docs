@@ -2,11 +2,10 @@
 title: "Specifying When and Where an Annotation Applies | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,27 +15,12 @@ f1_keywords:
   - "_At_buffer_"
 ms.assetid: 8e4f4f9c-5dfa-4835-87df-ecd1698fc650
 caps.latest.revision: 7
-author: "corob-msft"
-ms.author: "corob"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: mikeblome
+ms.author: mblome
+manager: ghogen
 ---
 # Specifying When and Where an Annotation Applies
-When an annotation is conditional, it may require other annotations to specify that to the analyzer.  For example, if a function has a variable that can be either synchronous or asynchronous, the function behaves as follows: In the synchronous case it always eventually succeeds, but in the asynchronous case it reports an error if it can’t succeed immediately. When the function is called synchronously, checking the result value provides no value to the code analyzer because it would not have returned.  However, when the function is called asynchronously and the function result is not checked, a serious error could occur. This example illustrates a situation in which you could use the `_When_` annotation—described later in this article—to enable checking.  
+When an annotation is conditional, it may require other annotations to specify that to the analyzer.  For example, if a function has a variable that can be either synchronous or asynchronous, the function behaves as follows: In the synchronous case it always eventually succeeds, but in the asynchronous case it reports an error if it can't succeed immediately. When the function is called synchronously, checking the result value provides no value to the code analyzer because it would not have returned.  However, when the function is called asynchronously and the function result is not checked, a serious error could occur. This example illustrates a situation in which you could use the `_When_` annotation—described later in this article—to enable checking.  
   
 ## Structural Annotations  
  To control when and where annotations apply, use the following structural annotations.  

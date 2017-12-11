@@ -2,7 +2,6 @@
 title: "Message Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,21 +22,7 @@ ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
 caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Message Task
 Logs a message during a build.  
@@ -62,7 +47,7 @@ Logs a message during a build.
 ## Example  
  The following code example logs messages to all registered loggers.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="DisplayMessages">  
         <Message Text="Project File Name = $(MSBuildProjectFile)" />  

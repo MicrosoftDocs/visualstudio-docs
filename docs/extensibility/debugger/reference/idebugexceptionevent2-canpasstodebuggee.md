@@ -2,7 +2,6 @@
 title: "IDebugExceptionEvent2::CanPassToDebuggee | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,35 +14,22 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2::CanPassToDebuggee"
 ms.assetid: ae4bbe0a-fbe1-49be-a310-ea64279a434b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanPassToDebuggee(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int CanPassToDebuggee();  
 ```  
   

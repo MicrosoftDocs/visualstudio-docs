@@ -2,7 +2,6 @@
 title: "Troubleshooting VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Troubleshooting VSPackages
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.  
@@ -128,7 +114,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
     2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
   
-         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](../Topic/Fuslogvw.exe%20\(Assembly%20Binding%20Log%20Viewer\).md) to display the details of failed assembly loads.  
+         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer) to display the details of failed assembly loads.  
   
 2.  For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CLSID registry node:  
   

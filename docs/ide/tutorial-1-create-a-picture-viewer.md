@@ -2,32 +2,17 @@
 title: "Tutorial 1: Create a Picture Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
 ---
 # Tutorial 1: Create a Picture Viewer
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:  
@@ -58,9 +43,9 @@ Picture that you create in this tutorial
 > [!NOTE]
 >  These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio. Visual C# and Visual Basic are both covered in this tutorial, so focus on information specific to the programming language that you're using.  
 >   
->  To see code for Visual Basic, choose the **VB** tab at the top of code blocks, and to see code for Visual C#, choose the **C#** tab. If you're interested in learning about Visual C++, see [Getting Started](../misc/getting-started-with-visual-cpp-in-visual-studio-2015.md) and [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).  
+>  To see code for Visual Basic, choose the **VB** tab at the top of code blocks, and to see code for Visual C#, choose the **C#** tab. If you're interested in learning about Visual C++, see [Getting Started](../ide/getting-started-with-cpp-in-visual-studio.md) and [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).  
 >   
->  If you're interested in learning how to write Visual C# or Visual Basic apps for the Windows Store, see [Create your first Windows Store app using C# or Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh974581.aspx). For information about creating JavaScript apps for the Windows Store, see [Create your first Windows Store app using JavaScript](http://msdn.microsoft.com/library/windows/apps/br211385.aspx).  
+>  If you're interested in learning how to write Visual C# or Visual Basic UWP apps, see [Build UWP apps](https://developer.microsoft.com/windows/apps).
   
 ## Related Topics  
   

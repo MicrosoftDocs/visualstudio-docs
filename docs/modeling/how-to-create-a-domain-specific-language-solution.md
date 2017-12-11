@@ -2,7 +2,6 @@
 title: "How to: Create a Domain-Specific Language Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,7 +28,11 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
 |-|-|  
 |[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|  
-|Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|  
+|Visual Studio Visualization and Modeling SDK||  
+
+
+[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+
   
 ## Creating a Domain-Specific Language Solution  
   

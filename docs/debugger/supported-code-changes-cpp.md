@@ -2,7 +2,6 @@
 title: "Supported Code Changes (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue, limitations"
@@ -28,22 +27,7 @@ ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Supported Code Changes (C++)
 Edit and Continue for Visual C++ handles most types of code changes. However, some changes cannot be applied during program execution. To apply these changes, you must stop execution and build a fresh version of the code.  
@@ -82,9 +66,9 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 ##  <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios  
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:  
   
--   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/visual-cpp/build/reference/zo-enhance-optimized-debugging)  
+-   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)  
   
--   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging Windows Store apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
+-   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging UWP apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in UWP C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
   
 -   Debugging on Windows 98.  
   
@@ -152,7 +136,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 3.  Clear the **Allow Precompiling** check box.  
   
 ##  <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations  
- Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/visual-cpp/windows/idl-attributes).  
+ Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).  
   
 ## See Also  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)

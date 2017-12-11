@@ -2,7 +2,6 @@
 title: "Messages View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,21 +16,7 @@ ms.assetid: 14c2a786-c23a-4b2d-acad-8c32a856c70d
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Messages View
 Each window has an associated message stream. A Messages view window displays this message stream. The window handle, message code, and message are shown. You can create a Messages view for a thread or process as well. This allows you to view messages sent to all windows owned by a specific process or thread, which is particularly useful for capturing window initialization messages.  
@@ -65,7 +50,7 @@ Spy++ Messages View
  [Controlling Messages View](../debugger/how-to-control-messages-view.md)  
  Explains how to manage Messages view.  
   
- [Opening Messages View from Find Window](_asug_choosing_message_options)  
+ [Opening Messages View from Find Window](../debugger/how-to-open-messages-view-from-find-window.md)  
  Explains how to open Messages view from the Find Window dialog box.  
   
  [Searching for a Message in Messages View](../debugger/how-to-search-for-a-message-in-messages-view.md)  

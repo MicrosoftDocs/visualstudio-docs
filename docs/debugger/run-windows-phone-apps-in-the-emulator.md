@@ -1,8 +1,7 @@
 ---
-title: "Run Windows Phone apps in the emulator | Microsoft Docs"
+title: "Run Windows Phone 8.1 apps in the emulator | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "07/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,40 +9,27 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: c7590788-beb3-403c-a7dd-18472a9e585e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
-# Run Windows Phone apps in the emulator
+# Run Windows Phone 8.1 apps in the emulator
 The Windows Phone emulator provides a virtualized environment in which you can debug and test Windows Phone apps on your computer without a physical device. You can simulate common touch and rotation events and choose the physical screen size and resolution that you want to emulate. You can also test many commonly used features, such as location, networking, notifications, sensors, the accelerometer, and the optional SD card.  
+
+For information on running Windows 10 Mobile in the emulator, see [Test with the Microsoft Emulator](/windows/uwp/debug-test-perf/test-with-the-emulator).
   
- For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
+For more info about the features that you can test in the Windows Phone 8.1 emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
   
- Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
+Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
   
 ##  <a name="BKMK_run"></a> Run a Windows Phone app in the emulator  
- While you’re developing a Windows Phone app, you can use Windows Phone Emulator to deploy and test your app quickly. We recommend that you test your app on an actual Windows Phone device, however, before you publish your app in the Windows Phone Store. This lets you experience your app as users will experience it.  
+ While you're developing a Windows Phone app, you can use Windows Phone Emulator to deploy and test your app quickly. We recommend that you test your app on an actual Windows Phone device, however, before you publish your app in the Windows Phone Store. This lets you experience your app as users will experience it.  
   
  When you run a Windows Phone app for the first time in Windows Phone Emulator, the following events occur:  
   
@@ -60,7 +46,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
  If the selected emulator is already running, your app is deployed and started in the running emulator. Only one instance of each emulator can run at a time.  
   
 > [!TIP]
->  When you’re testing your app on the emulator, leave the emulator open between debugging sessions so you can run your app again quickly.  
+>  When you're testing your app on the emulator, leave the emulator open between debugging sessions so you can run your app again quickly.  
   
 ###  <a name="BKMK_vs"></a> Run an app from Visual Studio  
   
@@ -86,7 +72,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
     -   In Visual Studio, on the **Debug** menu, click **Stop Debugging**, or press Shift+F5.  
   
-    -   In the emulator, press the **Back** button to exit the app. If the active page of the app was not the app’s start page, you may have to press the **Back** button more than once.  
+    -   In the emulator, press the **Back** button to exit the app. If the active page of the app was not the app's start page, you may have to press the **Back** button more than once.  
   
      The app exits and the Start screen opens. This ends the current debugging session.  
   
@@ -115,7 +101,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
 ###  <a name="BKMK_depltool"></a> Run an app with the Application Deployment tool  
  You can also use the Windows Phone Application Deployment tool (**AppDeploy.exe**) to run your app in the emulator. This tool is a stand-alone app that is installed when you install the Windows Phone development tools.  
   
- For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](../Topic/Deploy%20Windows%20Phone%208.1%20apps%20with%20the%20Application%20Deployment%20tool.md).  
+ For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](http://msdn.microsoft.com/Library/23700f82-1399-44d9-bc0c-714be4a48ee6).  
   
 ##  <a name="BKMK_toolbar"></a> Configure the Windows Phone emulator with the emulator toolbar  
  This table shows the configuration buttons available on the emulator toolbar.  
@@ -152,9 +138,9 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
  Special characters on the keyboard of a localized version of a Windows development computer are not supported by the emulator. To enter special characters that are present on a localized keyboard, use the Software Input Panel (SIP) instead.  
   
- To use your computer’s keyboard in the emulator, press the PAGE UP key or the PAUSE/BREAK key (Windows 8/8.1 emulator) or F4 (Windows 10 emulator).  
+ To use your computer's keyboard in the emulator, press the PAGE UP key or the PAUSE/BREAK key (Windows 8/8.1 emulator) or F4 (Windows 10 emulator).  
   
- To stop using your computer’s keyboard in the emulator, press the PAGE DOWN key or the PAUSE/BREAK key (Windows 8/8.1 emulator) or F4 (Windows 10 emulator).  
+ To stop using your computer's keyboard in the emulator, press the PAGE DOWN key or the PAUSE/BREAK key (Windows 8/8.1 emulator) or F4 (Windows 10 emulator).  
   
  The following table lists the keys on a hardware keyboard that you can use to emulate the buttons and other controls on a Windows Phone.  
   
@@ -163,7 +149,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
 |F1|BACK|Long presses work as expected.|  
 |F2|START|Long presses work as expected.|  
 |F3|SEARCH||  
-|F4|In the Windows 10 emulator, toggles between using the local computer’s keyboard and not using the local computer’s keyboard.|Not applicable in the Windows 8/8.1 emulator.|  
+|F4|In the Windows 10 emulator, toggles between using the local computer's keyboard and not using the local computer's keyboard.|Not applicable in the Windows 8/8.1 emulator.|  
 |F5|Not applicable.||  
 |F6|CAMERA HALF|A dedicated camera button that is pressed halfway.|  
 |F7|CAMERA FULL|A dedicated camera button.|  

@@ -2,7 +2,6 @@
 title: "IDiaSymbol::get_container | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: 24e832eb-80b3-484c-a41b-11477ec9de99
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSymbol::get_container
 This function retrieves a pointer to a symbol representing the parent/container of this symbol.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_container(  
    IDiaSymbol **pRetVal  
 );  

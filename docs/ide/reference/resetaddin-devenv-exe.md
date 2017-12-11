@@ -2,7 +2,6 @@
 title: "-ResetAddin (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,23 +14,9 @@ helpviewer_keywords:
   - "reset addin"
 ms.assetid: 9e339c8d-d768-4d86-8f45-2f479fc8255b
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # /ResetAddin (devenv.exe)
 Removes commands and command UI associated with the specified Add-in.  
@@ -57,5 +42,5 @@ Devenv.exe /ResetAddin MyAddin.Connect.MyAddin
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

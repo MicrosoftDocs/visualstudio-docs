@@ -2,7 +2,6 @@
 title: "Supplying Undo Support to Designers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "designers [Visual Studio SDK], undo support"
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Supplying Undo Support to Designers
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  
@@ -41,7 +27,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and the <xref:System.ComponentModel.Design.IComponentChangeService> classes.  
   
- For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md).  
+ For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
   
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides a default undo infrastructure by:  
   
@@ -56,7 +42,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
   
-     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](../Topic/Dynamic%20Source%20Code%20Generation%20and%20Compilation.md)  
+     For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation)  
   
 ## When to Use Explicit Designer Undo Support  
  Designers must supply their own undo management if they use a graphical user interface, referred to as a view adapter, other than the one supplied by <xref:System.Windows.Forms.Control>.  
@@ -116,4 +102,4 @@ Designers, like editors, typically need to support undo operations so that users
 ## See Also  
  <xref:System.ComponentModel.Design.UndoEngine>   
  <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>   
- [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md)
+ [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

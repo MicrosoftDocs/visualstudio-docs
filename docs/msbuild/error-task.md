@@ -2,7 +2,6 @@
 title: "Error Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,22 +22,7 @@ ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Error Task
 Stops a build and logs an error based on an evaluated conditional statement.  
@@ -63,7 +47,7 @@ Stops a build and logs an error based on an evaluated conditional statement.
 ## Example  
  The following code example verifies that all required properties are set. If they are not set, the project raises an error event, and logs the value of the `Text` parameter of the `Error` task.  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="ValidateCommandLine">  
         <Error  

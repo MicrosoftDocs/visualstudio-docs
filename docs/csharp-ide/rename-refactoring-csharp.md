@@ -1,16 +1,14 @@
 ---
+redirect_url: /visualstudio/csharp-ide/refactoring/rename
 title: "Rename Refactoring (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.csharp.refactoring.rename"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -18,24 +16,9 @@ helpviewer_keywords:
   - "Rename refactoring [C#]"
 ms.assetid: 268942fc-b142-4dfa-8d90-bedd548c2e4f
 caps.latest.revision: 45
-author: "BillWagner"
-ms.author: "wiwagn"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Rename Refactoring (C#)
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  
@@ -47,7 +30,7 @@ translation.priority.mt:
   
 |Feature|Behavior of Refactoring in the IDE|  
 |-------------|----------------------------------------|  
-|Code Editor|In the Code Editor, rename refactoring is available when you position the cursor on certain types of code symbols. When the cursor is in this position, you can invoke the **Rename** command by typing the keyboard shortcut (CTRL + R, CTRL + R), or by selecting the **Rename** command from a smart tag, shortcut menu, or the **Refactor** menu.|  
+|Code Editor|In the Code Editor, rename refactoring is available when you position the cursor on certain types of code symbols. When the cursor is in this position, you can invoke the **Rename** command by typing the keyboard shortcut (Ctrl + R, Ctrl + R), or by selecting the **Rename** command from Quick Actions, the shortcut menu, or the **Refactor** menu.|  
 |Class View|When you select an identifier in Class View, rename refactoring is available from the shortcut menu and **Refactor** menu.|  
 |Object Browser|When you select an identifier in Object Browser, rename refactoring is only available from the **Refactor** menu.|  
 |Property Grid of the Windows Forms Designer|In the **Property Grid** of the Windows Forms Designer, changing the name of a control will initiate a rename operation for that control. The **Rename** dialog box will not appear.|  
@@ -69,7 +52,7 @@ translation.priority.mt:
   
 1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```csharp  
     class ProtoClassA  
     {  
         // Invoke on 'MethodB'.  
@@ -102,11 +85,11 @@ translation.priority.mt:
   
 7.  In the **Preview Changes** dialog box, click **Apply**.  
   
-#### To rename an identifier using smart tags  
+#### To rename an identifier using Quick Actions  
   
 1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
-    ```c#  
+    ```csharp  
     class ProtoClassA  
     {  
         // Invoke on 'MethodB'.  
@@ -125,22 +108,18 @@ translation.priority.mt:
     }  
     ```  
   
-2.  In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
+2.  In the declaration for `MethodB`, type or backspace over the method identifier. A Quick Actions light bulb will appear in the margin.  
   
     > [!NOTE]
-    >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
+    >  You can only invoke rename refactoring using Quick Actions at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
-  
-     -or-  
-  
-     Move the mouse pointer over the smart tag prompt to display the smart tag. Then move the mouse pointer over the smart tag and click the DOWN ARROW to display the smart tag menu.  
-  
-4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
+3.  Type the keyboard shortcut **Shift+Alt+F10** to display the Quick Actions menu.  
   
      -or-  
   
-     Select the **Rename with preview** menu item to invoke rename refactoring with a preview of the changes to your code. The **Preview Changes** dialog box will appear.  
+     Click the black triangle next to the light bulb to display the Quick Actions menu.  
+  
+4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
   
 ## Remarks  
   
@@ -149,7 +128,7 @@ translation.priority.mt:
   
  The following code example contains members with implements/overrides relationships.  
   
- [!code-cs[CsUsingCsIDERefactor#1](../csharp-ide/codesnippet/CSharp/rename-refactoring-csharp_1.cs)]  
+ [!code-csharp[CsUsingCsIDERefactor#1](../csharp-ide/codesnippet/CSharp/rename-refactoring-csharp_1.cs)]  
   
  In the previous example, renaming `C.Method()` also renames `Ibase.Method()` because `C.Method()` implements `Ibase.Method()`. Next, the refactor engine recursively sees that `Ibase.Method()` is implemented by `Derived.Method()` and renames `Derived.Method()`. The refactor engine does not rename `Base.Method()`, because `Derived.Method()` does not override `Base.Method()`. The refactoring engine stops here unless you have **Rename overloads** checked in the **Rename** dialog box.  
   
@@ -161,14 +140,14 @@ translation.priority.mt:
 ## Renaming Properties of Anonymous Types  
  When you rename a property in anonymous types, the rename operation will propagate to properties in other anonymous types that have the same properties. The following examples illustrate this behavior.  
   
-```c#  
+```csharp  
 var a = new { ID = 1};  
 var b = new { ID = 2};  
 ```  
   
  In the preceding code, renaming `ID` will change `ID` in both statements because they have the same underlying anonymous type.  
   
-```c#  
+```csharp  
 var companyIDs =  
     from c in companylist  
     select new { ID = c.ID, Name = c.Name};  
@@ -181,5 +160,5 @@ var orderIDs =
  In the preceding code, renaming `ID` will only rename one instance of `ID` because `companyIDs` and `orderIDs` do not have the same properties.  
   
 ## See Also  
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)   
+ [Refactoring (C#)](refactoring-csharp.md)   
  [Anonymous Types](/dotnet/csharp/programming-guide/classes-and-structs/anonymous-types)

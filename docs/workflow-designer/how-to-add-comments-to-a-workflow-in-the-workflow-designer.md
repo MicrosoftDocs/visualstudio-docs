@@ -2,7 +2,6 @@
 title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
 caps.latest.revision: 7
 ms.author: "sdanie"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] allows the developer to add annotations to the following types of item in the designer:  
@@ -65,7 +50,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
      ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")  
   
-3.  To display the annotation outside the activity’s designer, hover over the annotation area in the activity’s designer and click the **Unpin** icon  
+3.  To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon  
   
      ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")  
   

@@ -2,7 +2,6 @@
 title: "DBG_ATTRIB_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,29 +14,16 @@ helpviewer_keywords:
   - "DBGPROP_ATTRIB_FLAGS enumerations"
 ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # DBG_ATTRIB_FLAGS
 Describes various attributes for an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) or an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) interface. Member of the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 #define DBG_ATTRIB_NONE                 0x0000000000000000,  
 #define DBG_ATTRIB_ALL                  0x00000000ffffffff,  
   
@@ -107,7 +93,7 @@ Describes various attributes for an [IDebugProperty2](../../../extensibility/deb
 typedef UINT64 DBG_ATTRIB_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public const int DBG_ATTRIB_NONE                 = 0x0000000000000000,  
 public const int DBG_ATTRIB_ALL                  = 0x00000000ffffffff,  
   
@@ -300,7 +286,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
  Indicates that this object is an inner class.  
   
  DBG_ATTRIB_MOSTDERIVED  
- Indicates that this object is ‘*most-derived*’. The term "*most-derived*" means the actual type of the object, and not the type of its reference.  
+ Indicates that this object is '*most-derived*'. The term "*most-derived*" means the actual type of the object, and not the type of its reference.  
   
  DBG_ATTRIB_CHILD_ALL  
  Indicates a mask of `DBG_ATTRIB_DATA` through `DBG_ATTRIB_MOSTDERIVED`.  

@@ -2,7 +2,6 @@
 title: "Import and Export Settings Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,23 +15,9 @@ helpviewer_keywords:
   - "Import and Export Settings command"
 ms.assetid: 94a06468-a44d-403d-a931-77bbc9d06e56
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Import and Export Settings Command
 Imports, exports, or resets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] settings.  
@@ -64,5 +49,5 @@ Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

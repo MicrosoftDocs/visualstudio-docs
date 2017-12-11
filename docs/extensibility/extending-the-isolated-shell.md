@@ -1,8 +1,8 @@
 ---
+redirect_url: shell/extending-the-isolated-shell
 title: "Extending the Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell, isolated mode"
 ms.assetid: 9a641d8f-211e-4486-a1b1-4a89fafe7ee8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Extending the Isolated Shell
 You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed Extensibility Framework (MEF) component part, or a generic VSIX project to your isolated shell application.  

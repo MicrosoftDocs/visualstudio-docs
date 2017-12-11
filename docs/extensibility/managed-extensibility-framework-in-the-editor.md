@@ -2,7 +2,6 @@
 title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Managed Extensibility Framework in the Editor
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.  
@@ -38,7 +24,7 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
   
  The MEF is contained in the .NET Framework version 4 System.ComponentModel.Composition.dll assembly.  
   
- For more information about MEF, see [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md).  
+ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).  
   
 ### Component Parts and Composition Containers  
  A component part is a class or a member of a class that can do one (or both) of the following:  

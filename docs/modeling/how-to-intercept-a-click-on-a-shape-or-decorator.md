@@ -2,7 +2,6 @@
 title: "How to: Intercept a Click on a Shape or Decorator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -144,7 +143,7 @@ public partial class MyShape // change
   
 -   The change of role order fires a rule that updates the display. This behavior is already defined, and no additional code is required.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Modeling;  
 using Microsoft.VisualStudio.Modeling.Design;  
 using Microsoft.VisualStudio.Modeling.Diagrams;  

@@ -2,7 +2,6 @@
 title: "Securing Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,21 +15,7 @@ ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Securing Applications
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  
@@ -38,10 +23,10 @@ While most applications possess common security challenges, each application dom
 ## General Security Considerations  
  Each language has its own security considerations and challenges.  
   
- [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
+ [Security Best Practices](/cpp/top/security-best-practices-for-cpp)  
  Provides information on security features and practices available when working in Visual C++.  
   
- [NOT IN BUILD: Security and Programming (C# and Visual Basic)](http://msdn.microsoft.com/en-us/227e2863-cf09-4c28-9611-bcd82be5e994)  
+ [Security and Programming (C# and Visual Basic)](https://msdn.microsoft.com/en-us/library/ms233782(v=vs.100).aspx)  
  Provides information about the top three security concerns for Visual Basic and C# developers: privileges, Web applications, and Visual Studio setup.  
   
 ## Securing Mobile Applications  
@@ -59,10 +44,10 @@ While most applications possess common security challenges, each application dom
 ## Securing Web Applications  
  A poorly written Web page can compromise the integrity and security of an entire server and potentially an entire network. Therefore, you must review security considerations in planning your Web application.  
   
- [ASP.NET Security Architecture](../Topic/ASP.NET%20Security%20Architecture.md)  
+ [ASP.NET Security Architecture](http://msdn.microsoft.com/Library/c34d6f4f-f64d-4697-bd32-02dd2ddf726f)  
  Provides an overview of ASP.NET infrastructure and subsystem relationships, as related to security.  
   
- [ASP.NET Web Application Security](../Topic/ASP.NET%20Web%20Application%20Security.md)  
+ [ASP.NET Web Application Security](http://msdn.microsoft.com/Library/658d0430-1644-4744-b52d-08b0d6fcacb8)  
  Details how to address authorization and authentication issues in ASP.NET.  
   
  [Security Considerations for JScript](http://msdn.microsoft.com/en-us/8572efc9-071a-472d-a1a4-f0a3b42644c1)  
@@ -74,7 +59,7 @@ While most applications possess common security challenges, each application dom
 ## Securing Desktop Applications  
  Designing security for desktop applications is an essential step in application development.  
   
- [Windows Forms Security](../Topic/Windows%20Forms%20Security.md)  
+ [Windows Forms Security](/dotnet/framework/winforms/windows-forms-security)  
  Provides an overview of the Windows Forms security implementation.  
   
 ## See Also  

@@ -2,7 +2,6 @@
 title: "How to: Suppress Compiler Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,29 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 31827b17-f933-413d-b28a-b19f903b64ca
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Suppress Compiler Warnings
-You can declutter a build log by specifying one or more kinds of compiler warnings that you don’t want it to contain. For example, you might use this technique to review some but not all of the information that’s generated automatically when you set the build-log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
+You can declutter a build log by specifying one or more kinds of compiler warnings that you don't want it to contain. For example, you might use this technique to review some but not all of the information that's generated automatically when you set the build-log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
-### To suppress specific warnings for Visual C# or F#  
+### To suppress specific warnings for Visual C# or F# #
   
 1.  In **Solution Explorer**, choose the project in which you want to suppress warnings.  
   
@@ -72,7 +56,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
      The project file is opened in the code editor.  
   
-4.  Locate the `<NoWarn></NoWarn>` element in the build configuration with which you’re building.  
+4.  Locate the `<NoWarn></NoWarn>` element in the build configuration with which you're building.  
   
      The following example shows the `<NoWarn></NoWarn>` element in bold text for the Debug build configuration on an x86 platform:  
   

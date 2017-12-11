@@ -2,7 +2,6 @@
 title: "MSBuild Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,21 +19,7 @@ ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
 caps.latest.revision: 22
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Reference
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reference information.  
@@ -83,7 +68,7 @@ translation.priority.ht:
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## Related Sections  
- [MSBuild Overview  ](https://www.microsoftonedoc.com/#/organizations/e6f6a65cf14f462597b64ac058dbe1d0/projects/3fedad16-eaf1-41a6-8f96-0c1949c68f32/containers/a3daf831-1c5f-4bbe-964d-503870caf874/tocpaths/d920ff78-3d00-482b-80a5-743ae3c8ab10/locales/en-US)
+ [MSBuild Overview  ](../msbuild/msbuild.md)
  Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain how to use it to build projects.  
   
  <xref:Microsoft.Build.Conversion>  

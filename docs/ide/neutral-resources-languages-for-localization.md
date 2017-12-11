@@ -2,7 +2,6 @@
 title: "Neutral Resources Languages for Localization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,36 +17,22 @@ helpviewer_keywords:
   - "neutral resources"
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # Neutral Resources Languages for Localization
 The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies the culture of the resources included in the main assembly. This attribute is used as a performance enhancement, so that the <xref:System.Resources.ResourceManager> object does not search for resources that are included in the main assembly.  
   
  The following code shows how to set the neutral resources language. The code can be placed in either a build script or in the AssemblyInfo.vb or AssemblyInfo.cs file.  
   
-```vb#  
+```vb  
 ' Set neutral resources language for assembly.  
 <Assembly: NeutralResourcesLanguageAttribute("en")>  
   
 ```  
   
-```c#  
+```csharp  
 // Set neutral resources language for assembly.  
 [assembly: NeutralResourcesLanguageAttribute("en")]  
 ```  

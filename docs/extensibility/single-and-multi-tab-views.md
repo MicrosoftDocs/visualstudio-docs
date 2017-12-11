@@ -2,7 +2,6 @@
 title: "Single and Multi-tab Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,22 +12,9 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - single and multi-tab views"
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Single and Multi-tab Views
 An editor can create different types of views. One example is a code editor window, another is a forms designer.  
@@ -70,7 +56,7 @@ An editor can create different types of views. One example is a code editor wind
 ## Example  
  This snippet illustrates how the <xref:Microsoft.VisualStudio.Shell.Interop.LogicalViewID.TextView> object is used to access a view that implements `IVsCodeWindow`. In this case, the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShellOpenDocument> service is used to call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenDocumentViaProject%2A> and request `LOGVIEWID_TextView`, which obtains a pointer to a window frame. A pointer to the document view object is obtained by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> and specifying a value of `VSFPROPID_DocView`. From the document view object, `QueryInterface` is called for `IVsCodeWindow`. The expectation in this case is that a text editor is returned, and so the document view object returned in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method is a code window.  
   
-```cpp#  
+```cpp  
 HRESULT CFindTool::GotoFileLocation(const WCHAR * szFile, long iLine, long iStart, long iLen)  
 {  
   HRESULT hr;  

@@ -2,7 +2,6 @@
 title: "How to: Use the WPF Tree Visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "WPF, debugging"
@@ -21,24 +20,10 @@ ms.assetid: 2a1bf1cd-90f9-4d06-9fb4-1bfc925afef3
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # How to: Use the WPF Tree Visualizer
-You can use the WPF Tree visualizer to explore the visual tree of a WPF object, and to view the WPF dependency properties for the objects that are contained in that tree. For more information about visual trees, see [Trees in WPF](../Topic/Trees%20in%20WPF.md). For more information about dependency properties, see [Dependency Properties Overview](../Topic/Dependency%20Properties%20Overview.md).  
+You can use the WPF Tree visualizer to explore the visual tree of a WPF object, and to view the WPF dependency properties for the objects that are contained in that tree. For more information about visual trees, see [Trees in WPF](/dotnet/framework/wpf/advanced/trees-in-wpf). For more information about dependency properties, see [Dependency Properties Overview](/dotnet/framework/wpf/advanced/dependency-properties-overview).  
   
  When you open the WPF Tree visualizer, you will see two panes: the **Visual Tree** on the left and the **Properties of** *Name***:***Type* pane on the right. Select any object in the **Visual Tree** pane, and the **Properties of** *Name***:***Type* pane is automatically updated to show the properties for that object.  
   
@@ -75,7 +60,6 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
 -   Click the **Close** icon in the upper-right corner of the dialog box.  
   
 ## See Also  
- [How to: Use a Visualizer](../misc/how-to-use-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [Trees in WPF](../Topic/Trees%20in%20WPF.md)   
- [Dependency Properties Overview](../Topic/Dependency%20Properties%20Overview.md)
+ [Trees in WPF](/dotnet/framework/wpf/advanced/trees-in-wpf)   
+ [Dependency Properties Overview](/dotnet/framework/wpf/advanced/dependency-properties-overview)

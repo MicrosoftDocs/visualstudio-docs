@@ -2,7 +2,6 @@
 title: "IDiaStackFrame::get_base | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,29 +16,14 @@ ms.assetid: f27477d7-26fe-4c1c-a08a-c52cb20c8293
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaStackFrame::get_base
 Retrieves the base address of the frame.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_base (   
    ULONGLONG* pRetVal  
 );  

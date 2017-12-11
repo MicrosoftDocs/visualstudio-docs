@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <contextMenus>
+    <contextMenu idMso="ContextMenuText">
+      <button id="BoldButton" label="Bold" onAction="ButtonClick" getVisible="GetVisible" />
+      <button id="ItalicButton" label="Italic" onAction="ButtonClick" getVisible="GetVisible"/>
+    </contextMenu>
+  </contextMenus>
+</customUI>

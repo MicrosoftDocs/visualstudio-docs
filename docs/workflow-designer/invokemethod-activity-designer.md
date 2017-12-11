@@ -2,7 +2,6 @@
 title: "InvokeMethod Activity Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # InvokeMethod Activity Designer
 **InvokeMethod** designer is used to create and configure an <xref:System.Activities.Statements.InvokeMethod> activity.  
@@ -47,7 +32,7 @@ translation.priority.ht:
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.InvokeMethod> activity. The default value is InvokeMethod.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|  
 |<xref:System.Activities.Statements.InvokeMethod.MethodName%2A>|True|The name of the method to be called when the activity executes. The called method must be declared as **public**. This property can be edited on designer surface. This is a mandatory property.|  
-|<xref:System.Activities.Statements.InvokeMethod.Parameters%2A>|False|The parameter collection of the called method. The parameters must be added to the collection in the same order that they appear in the method signature. In the property grid, click the ellipses button in the **Parameters** field, it displays the **Parameters** dialog to let you set this property. Click the **Create Argument** button to add the parameters.|  
+|<xref:System.Activities.Statements.InvokeMethod.Parameters%2A>|False|The parameter collection of the called method. The parameters must be added to the collection in the same order that they appear in the method signature. In the property grid, click the ellipsis button in the **Parameters** field, it displays the **Parameters** dialog to let you set this property. Click the **Create Argument** button to add the parameters.|  
 |<xref:System.Activities.Statements.InvokeMethod.Result%2A>|False|The return value of the method call.|  
 |<xref:System.Activities.Statements.InvokeMethod.RunAsynchronously%2A>|True|Specifies whether the method is called asynchronously. The default value is **False**.|  
 |<xref:System.Activities.Statements.InvokeMethod.TargetObject%2A>|False|The object that contains the method to call. This property can be edited on designer surface.<br /><br /> Either the <xref:System.Activities.Statements.InvokeMethod.TargetObject%2A> or the <xref:System.Activities.Statements.InvokeMethod.TargetType%2A> is required to be set.|  

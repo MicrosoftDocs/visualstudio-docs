@@ -2,7 +2,6 @@
 title: "IDebugEngineProgram2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "IDebugEngineProgram2 interface"
 ms.assetid: 151003a9-2e4d-4acf-9f4d-365dfa6b9596
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugEngineProgram2
 This interface provides multi-threaded debugging support.  
@@ -45,7 +31,7 @@ IDebugEngineProgram2 : IUnknown
  A debug engine implements this interface to support simultaneous debugging of multiple threads. This interface is implemented on the same object that implements the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface.  
   
 ## Notes for Callers  
- Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from an `IDebugProgram2` interface.  
+ Use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from an `IDebugProgram2` interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugEngineProgram2`.  

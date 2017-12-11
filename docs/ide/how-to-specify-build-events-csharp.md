@@ -2,7 +2,6 @@
 title: "How to: Specify Build Events (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "builds [Visual Studio], events"
 ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # How to: Specify Build Events (C#)
 Use build events to specify commands that run before the build starts or after the build finishes. Build events are executed only if the build successfully reaches those points in the build process.  
@@ -65,7 +50,7 @@ Use build events to specify commands that run before the build starts or after t
 6.  In the **Run the post-build event** box, specify under what conditions to run the post-build event.  
   
     > [!NOTE]
-    >  To add lengthy syntax, or to select any build macros from the [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the Ellipsis button (**…**) to display an edit box.  
+    >  To add lengthy syntax, or to select any build macros from the [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the Ellipsis button (**...**) to display an edit box.  
   
      The build event syntax can include any command that is valid at a command prompt or in a .bat file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.  
   
@@ -158,7 +143,7 @@ Use build events to specify commands that run before the build starts or after t
   
 1.  Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows**, and then click the **Windows Forms Application** template. Name the project `CSWinApp`.  
+2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Classic Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.  
   
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   

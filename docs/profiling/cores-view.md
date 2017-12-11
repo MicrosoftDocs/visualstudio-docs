@@ -2,7 +2,6 @@
 title: "Cores View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,22 +16,7 @@ ms.assetid: e47af672-9785-4899-bd45-4d9dda3c396f
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Cores View
 The Cores View shows how thread execution was mapped to the logical processor cores. If you're writing server applications, this view can help you optimize cache performance by using thread affinity or thread pool management. It can also help you examine cases where the use of thread affinity may have worsened the problem of cross-core migration. The Cores View has two parts, a graph and a legend.  

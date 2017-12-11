@@ -2,7 +2,6 @@
 title: "About File Name Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,22 +13,9 @@ helpviewer_keywords:
   - "file name extensions"
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # About File Name Extensions
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on a computer.  

@@ -2,7 +2,6 @@
 title: "m_parent Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,25 +12,12 @@ helpviewer_keywords:
   - "m_parent field, Task class [.NET Framework debug engines]"
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # m_parent Field
-The backing field for the <xref:System.Threading.Tasks.Task.Parent%2A?displayProperty=fullName> property.  
+The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> `Parent` property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   

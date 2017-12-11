@@ -2,11 +2,10 @@
 title: "CA2243: Attribute string literals should parse correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +16,9 @@ helpviewer_keywords:
   - "CA2243"
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 ---
 # CA2243: Attribute string literals should parse correctly
 |||  
@@ -62,15 +47,15 @@ translation.priority.ht:
 ## Example  
  The following example shows code for the AssemblyFileVersionAttribute that violates this rule.  
   
- [!code-cs[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243-attribute-string-literals-should-parse-correctly_1.cs)]  
+ [!code-csharp[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243-attribute-string-literals-should-parse-correctly_1.cs)]  
   
  The rule is triggered by the following:  
   
--   Parameters that contain ‘version’ and cannot be parsed to System.Version.  
+-   Parameters that contain 'version' and cannot be parsed to System.Version.  
   
--   Parameters that contain ‘guid’ and cannot be parsed to System.Guid.  
+-   Parameters that contain 'guid' and cannot be parsed to System.Guid.  
   
--   Parameters that contain ‘uri’, 'urn', or ‘url’ and cannot be parsed to System.Uri.  
+-   Parameters that contain 'uri', 'urn', or 'url' and cannot be parsed to System.Uri.  
   
 ## See Also  
  [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

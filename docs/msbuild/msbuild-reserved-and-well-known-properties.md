@@ -2,7 +2,6 @@
 title: "MSBuild Reserved and Well-Known Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,21 +19,7 @@ ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
 caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # MSBuild Reserved and Well-Known Properties
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
@@ -60,6 +45,7 @@ translation.priority.ht:
 |`MSBuildProjectFile`|The complete file name of the project file, including the file name extension; for example, MyApp.proj.|Reserved|  
 |`MSBuildProjectFullPath`|The absolute path and complete file name of the project file, including the file name extension; for example, C:\MyCompany\MyProduct\MyApp.proj.|Reserved|  
 |`MSBuildProjectName`|The file name of the project file without the file name extension; for example, MyApp.|Reserved|  
+|`MSBuildRuntimeType`|The type of the runtime that is currently executing. Introduced in MSBuild 15. Value may be undefined (prior to MSBuild 15), `Full` indicating that MSBuild is running on the desktop .NET Framework, `Core` indicating that MSBuild is running on .NET Core, or `Mono` indicating that MSBuild is running on Mono.|Reserved|  
 |`MSBuildStartupDirectory`|The absolute path of the folder where [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is called. By using this property, you can build everything below a specific point in a project tree without creating dirs.proj files in every directory. Instead, you have just one project—for example, c:\traversal.proj, as shown here:<br /><br /> `<Project ...>     <ItemGroup>         <ProjectFiles              Include="$            (MSBuildStartupDirectory)            **\*.csproj"/>     </ItemGroup>     <Target Name="build">         <MSBuild             Projects="@(ProjectFiles)"/>     </Target> </Project>`<br /><br /> To build at any point in the tree, type:<br /><br /> `msbuild c:\traversal.proj`<br /><br /> Do not include the final backslash on this property.|Reserved|  
 |`MSBuildThisFile`|The file name and file extension portion of `MSBuildThisFileFullPath`.|Reserved|  
 |`MSBuildThisFileDirectory`|The directory portion of `MSBuildThisFileFullPath`.<br /><br /> Include the final backslash in the path.|Reserved|  

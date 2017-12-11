@@ -2,7 +2,6 @@
 title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,6 @@ caps.latest.revision: 29
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Creating Custom T4 Text Template Directive Processors
 The *text template transformation process* takes a *text template* file as the input and produces a text file as the output. The *text template transformation engine* controls the process, and the engine interacts with a text template transformation host and one or more text template *directive processors* to complete the process. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).  
@@ -43,7 +28,7 @@ The *text template transformation process* takes a *text template* file as the i
 ## Custom Directives  
  A custom directive looks like this:  
   
- `<#@ MyDirective Processor="MyDirectiveProcessor" parameter1="value1" … #>`  
+ `<#@ MyDirective Processor="MyDirectiveProcessor" parameter1="value1" ... #>`  
   
  You can use a custom directive processor when you want to access external data or resources from a text template.  
   

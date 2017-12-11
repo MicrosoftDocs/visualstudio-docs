@@ -2,7 +2,6 @@
 title: "Wizard (.Vsz) File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,22 +14,9 @@ helpviewer_keywords:
   - "wizards, files"
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Wizard (.Vsz) File
 The integrated development environment (IDE) uses .vsz files to start wizards. These .vsz files contain information that the IDE uses to determine which wizard to call and what information to pass to the wizard.  
@@ -54,7 +40,7 @@ Param="WIZARDUI = FALSE"
 |Wizard|This field contains the OLE ProgID of the wizard, or alternatively a GUID string representation of the CLSID of the wizard that is cocreated by the IDE.|  
 |Param|These parts are optional. You can add as many as needed.|  
   
- The parameters enable the .vsz file to pass additional custom parameters to the wizard. Each value is passed as a string element in an array of variants to the wizard. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md). For information about how to use a .vsz file in the development of custom wizards, see [.Vsz File (Project Control)](/visual-cpp/ide/dot-vsz-file-project-control)  
+ The parameters enable the .vsz file to pass additional custom parameters to the wizard. Each value is passed as a string element in an array of variants to the wizard. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md). For information about how to use a .vsz file in the development of custom wizards, see [.Vsz File (Project Control)](/cpp/ide/dot-vsz-file-project-control)  
   
  To add a default locale ID to your .vsz file, specify `FALLBACK_LCID`=xxxx, where xxxx is the locale ID, for example, 1033 for English. When `FALLBACK_LCID` parameter is defined, the wizard uses the supplied fallback locale ID if the current ID is not found.  
   

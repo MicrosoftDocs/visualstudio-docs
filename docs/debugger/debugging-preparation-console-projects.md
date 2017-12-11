@@ -2,7 +2,6 @@
 title: "Debugging Preparation: Console Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,9 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], console applications"
@@ -22,21 +21,7 @@ ms.assetid: 9641f1d9-2d5a-48b1-8731-6525e8f67892
 caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Debugging Preparation: Console Projects
 Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations. For more information, see [Windows Forms Applications](../debugger/debugging-preparation-windows-forms-applications.md), and [Debugging Preparation: Windows Forms Applications (.NET)](http://msdn.microsoft.com/en-us/a8bc54de-41a3-464d-9a12-db9bdcbc1ad5). Because of the similarity of all console applications, this topic covers the following project types:  
@@ -53,12 +38,12 @@ Preparing to debug a Console project is similar to preparing to debug a Windows 
   
  Like all project properties, these arguments persist between debug sessions and between  Visual Studio sessions. Therefore, if the console application is one that you have debugged previously, remember that there might be arguments from previous sessions entered in the **\<Project> Property Pages** dialog box.  
   
- A console application uses the **Console** window to accept input and to display output messages. To write to the **Console** window, your application must use the **Console** object instead of the Debug object. To write to the **Visual Studio Output** window, use the Debug object, as usual. Be sure that you know where your application is writing or you might be looking for messages in the wrong place. For more information, see [Console Class](https://msdn.microsoft.com/en-us/library/system.console.aspx), [Debug Class](https://msdn.microsoft.com/en-us/library/system.diagnostics.debug.aspx), and [Output Window](../ide/reference/output-window.md).  
+ A console application uses the **Console** window to accept input and to display output messages. To write to the **Console** window, your application must use the **Console** object instead of the Debug object. To write to the **Visual Studio Output** window, use the Debug object, as usual. Be sure that you know where your application is writing or you might be looking for messages in the wrong place. For more information, see [Console Class](/dotnet/api/system.console), [Debug Class](/dotnet/api/system.diagnostics.debug), and [Output Window](../ide/reference/output-window.md).  
   
 ## Starting the application  
  When some console applications start, they run to completion and then exit. This behavior might not give you enough time to break execution and debug. To be able to debug an application, use one of the following procedures to start the application:  
   
--   Your application starts executing and runs untils it reaches the breakpoint.  
+-   Your application starts executing and runs until it reaches the breakpoint.  
   
 -   Your application starts and immediately breaks at the first line of source code.  
   
