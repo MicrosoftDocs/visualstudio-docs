@@ -243,5 +243,5 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>Node.js</sp
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="rtvs/getting-started-with-r"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a></div>
-<div class="ico48Link"><a href="../debugger/index"><img width="48" height="48" alt=""
+<div class="ico48Link"><a href="ide/getting-started-with-debugging-in-visual-studio"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/common/i_debug.svg"><span>Debugging</span></a></div>
