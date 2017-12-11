@@ -238,7 +238,7 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript<
 <div class="ico48Link"><a href="https://docs.microsoft.com/cpp/build/vscpp-step-0-installation"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
 <div class="ico48Link"><a href="https://docs.microsoft.com/en-us/media/logos/logo_nodejs.svg"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_js.svg"><span>Node.js</span></a></div>
+src="https://docs.microsoft.com/en-us/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
 <div class="ico48Link"><a href="/python/vs-tutorial-01-01"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="rtvs/getting-started-with-r"><img width="48" height="48" alt=""
