@@ -75,7 +75,7 @@ The Visual Studio SDK includes project templates that create a custom project te
   
 4.  Build the solution, and press F5. The experimental instance appears.  
   
-5.  For a project template project, you should see your project template listed in the **New Project** dialog (**File / New / Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the Add New Item dialog (in the **Solution Explorer**, select the project node and click **Add / New Item**).  
+5.  For a project template project, you should see your project template listed in the **New Project** dialog (**File > New > Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the Add New Item dialog (in the **Solution Explorer**, select the project node and click **Add / New Item**).  
   
 ## See Also  
  [Visual Studio Template Reference](../ide/visual-studio-template-reference.md)

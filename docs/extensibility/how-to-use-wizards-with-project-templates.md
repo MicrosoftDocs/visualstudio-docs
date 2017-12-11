@@ -30,12 +30,12 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
 ## Creating a Project Template Project with a VSIX Project  
  You start creating a custom template with the project template project., which is part of the Visual Studio SDK. In this procedure we will use a C# project template project, but there is also a Visual Basic project template project. Then you add a VSIX project to the solution that contains the project template project.  
   
-1.  Create a C# project template project (in Visual Studio, **File / New / Project / Visual C# / Extensibility / C# Project Template**). Name it **MyProjectTemplate**.  
+1.  Create a C# project template project (in Visual Studio, **File > New > Project > Visual C# > Extensibility > C# Project Template**). Name it **MyProjectTemplate**.  
   
     > [!NOTE]
     >  You may be asked to install the Visual Studio SDK. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-2.  Add a new VSIX project (**File / New / Project / Visual C# / Extensibility / VSIX Project**) in the same solution as the project template project (in the **Solution Explorer**, select the solution node, right-click, and select **Add / New Project**). Name it **MyProjectWizard.**  
+2.  Add a new VSIX project (**File > New > Project > Visual C# > Extensibility > VSIX Project**) in the same solution as the project template project (in the **Solution Explorer**, select the solution node, right-click, and select **Add > New Project**). Name it **MyProjectWizard.**  
   
 3.  Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.  
   
@@ -47,14 +47,14 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 7.  Build the solution and start debugging. A second instance of Visual Studio appears. (This may take a few minutes.)  
   
-8.  In the second instance of Visual Studio, try to create a new project with your new template. (**File / New / Project / Visual C# / MyProject Template**). The new project should appear with a class named **Class1**. You have now created a custom project template! Stop debugging now.  
+8.  In the second instance of Visual Studio, try to create a new project with your new template. (**File > New > Project > Visual C# > MyProject Template**). The new project should appear with a class named **Class1**. You have now created a custom project template! Stop debugging now.  
   
 ## Creating a Custom Template Wizard  
  This topic shows how to create a custom wizard that opens a Windows Form before the project is created. The form allows users to add a custom parameter value that is added to the source code during project creation.  
   
 1.  Set up the VSIX project to allow it to create an assembly.  
   
-2.  In the **Solution Explorer**, select the VSIX project node. Below the Solution Explorer, you should see the **Properties** window. If you do not, select **View / Properties Window**, or press **F4**. In the Properties window, select the following fields to `true`:  
+2.  In the **Solution Explorer**, select the VSIX project node. Below the Solution Explorer, you should see the **Properties** window. If you do not, select **View > Properties Window**, or press **F4**. In the Properties window, select the following fields to `true`:  
   
     -   **IncludeAssemblyInVSIXContainer**  
   
@@ -291,7 +291,7 @@ namespace $safeprojectname$
   
 1.  Rebuild the solution and start debugging. A second instance of Visual Studio should appear.  
   
-2.  Create a new MyProjectTemplate project. (**File / New / Project / Visual C# / MyProjectTemplate**)  
+2.  Create a new MyProjectTemplate project. (**File > New > Project > Visual C# > MyProjectTemplate**)  
   
 3.  In the **New Project** dialog box, locate your template, type a name, and click **OK**.  
   
