@@ -39,17 +39,18 @@
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
 # Quickstarts
 ## [IDE orientation](ide/quickstart-ide-orientation.md)
-## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
 ## [Write code in the editor](ide/quickstart-editor.md)
+## [Personalize theme and text colors](ide/quickstart-personalize-the-ide.md)
 ## [C#: create a web app](ide/quickstart-aspnet-core.md)
 ## [Visual Basic: create a console app](ide/quickstart-visual-basic-console.md)
 ## [C++: create a console app](ide/quickstart-cpp.md)
 ## [Python: create a web app](ide/quickstart-python.md)
 ## [Node.js: create a web app](ide/quickstart-nodejs.md)
 # Tutorials
-## [Getting Started with Python in Visual Studio](python/getting-started.md)
 ## [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
 ## [Getting Started with Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
+## [Getting Started with Python in Visual Studio](/python/vs-tutorial-01-01.md)
+## [Getting Started with R in Visual Studio](/r/gettig-started-with-r.md)
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 # Samples
 ## [.NET Core (GitHub)](https://github.com/dotnet/core/tree/master/samples)
