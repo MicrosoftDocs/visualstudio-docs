@@ -30,6 +30,20 @@ manager: ghogen
 
 You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references mscorlib.dll. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
+## Reference Manager dialog box
+
+The **Reference Manager** dialog box shows different categories on the left side, depending on the project type:
+
+- [Assemblies](#assemblies), with the Framework and Extensions subgroups.
+
+- [COM](#com), lists all COM components that are available for referencing.
+
+- [Solution](#solution), with the Projects subgroup.
+
+- [Windows](#windows), with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
+
+- [Browse](#browse), with the Recent subgroup.
+
 ## Adding and removing a reference
 
 ### To add a reference
@@ -38,17 +52,9 @@ You can use the **Reference Manager** dialog box to add and manage references to
 
 2. Specify the references to add, and then choose the **OK** button.
 
-**Reference Manager** opens and lists the available references by group. The project type determines which of the following groups appear:
+   **Reference Manager** opens and lists the available references by group.
 
-- Assemblies, with the Framework and Extensions subgroups.
-
-- Solution, with the Projects subgroup.
-
-- Windows, with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
-
-- Browse, with the Recent subgroup.
-
-## Assemblies tab
+## <a id="assemblies" />Assemblies tab
 
 The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Managing references in a project](../ide/managing-references-in-a-project.md).
 
@@ -62,9 +68,7 @@ The Assemblies tab consists of two sub-tabs:
 
 1. **Framework** lists all assemblies that constitute the targeted Framework.
 
-    - Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.
-
-    - Projects for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won't enumerate any of the assemblies from the Framework and instead display the following message: "All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework." For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.
+    Projects for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won't enumerate any of the assemblies from the Framework and instead display the following message: "All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework." For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.
 
 2. **Extensions** lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.
 
@@ -129,13 +133,13 @@ Some components in the list may not be shown, depending on the [!INCLUDE[dnprdns
 
     Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.
 
-## COM tab
+## <a id="com" />COM tab
 
 The COM tab lists all COM components that are available for referencing. If you want to add a reference to a registered COM DLL that contains an internal manifest, unregister the DLL first. Otherwise, Visual Studio adds the assembly reference as an ActiveX Control instead of as a native DLL.
 
 If a project type doesn't support COM, the tab won't appear in the **Reference Manager** dialog box.
 
-## Solution tab
+## <a id="solution" />Solution tab
 
 The Solution tab lists all compatible projects within the current solution, in the Projects sub-tab.
 
@@ -147,7 +151,7 @@ A file reference is created instead of a project reference if one project target
 
 A project that targets [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] can't add a project reference to a project that targets the .NET Framework, and vice versa.
 
-## Windows tab
+## <a id="windows" />Windows tab
 
 The Windows tab lists all SDKs that are specific to platforms on which Windows operating systems run.
 
@@ -186,7 +190,7 @@ An SDK is a collection of files that Visual Studio treats as a single component.
 
 If a project type doesn't support **Extensions**, the tab doesn't appear in the **Reference Manager** dialog box.
 
-## Browse button
+## <a id="browse" />Browse button
 
 You can use the **Browse** button to browse for a component in the file system.
 

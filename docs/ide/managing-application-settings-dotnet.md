@@ -41,6 +41,7 @@ You can change the type of a setting by using the **Scope** property.
 The project system stores application settings in two XML files:
 
 - an app.config file, which is created at design time when you create the first application setting
+
 - a user.config file, which is created at run time when the user who runs the application changes the value of any user setting.
 
 Notice that changes in user settings are not written to disk unless the application specifically calls a method to do this.
