@@ -469,7 +469,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1 cardScaleImage">
-                                                        <img data-scaleimage="./images/vs_web-2.svg" src="./images/vs_web-2.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs_web-8.svg" src="./images/vs_web-8.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
