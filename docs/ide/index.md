@@ -235,9 +235,9 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_Fsharp.svg"><span>F#</spa
 src="https://docs.microsoft.com/en-us/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
 -->
 
-<div class="ico48Link"><a href="https://docs.microsoft.com/cpp/build/vscpp-step-0-installation"><img width="48" height="48" alt=""
+<div class="ico48Link"><a href="/cpp/build/vscpp-step-0-installation"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
-<div class="ico48Link"><a href="https://docs.microsoft.com/en-us/media/logos/logo_nodejs.svg"><img width="48" height="48" alt=""
+<div class="ico48Link"><a href="/visualstudio/nodejs/tutorial-nodejs"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/python/vs-tutorial-01-01"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
