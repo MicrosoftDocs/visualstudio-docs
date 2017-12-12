@@ -1,6 +1,6 @@
 - name: Docs
-  tocHref: /visualstudio/
-  topicHref: /visualstudio
+  tocHref: /
+  topicHref: /
   items:
   - name: Visual Studio
     tocHref: /visualstudio/
