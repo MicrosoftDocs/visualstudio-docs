@@ -99,110 +99,57 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
 
- ![](../ide/media/name.png)
+ ![Configuration files in the Solutioni Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
 ## Run and debug the application
 
-1. In **Solution Explorer**, right-click the **MyCoreApp** project node and select **Options**.
+1. Press **F5** to build and run the application. Alternatively, you can select **Debug > Start Debugging**.
+
+1. Visual Studio will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
 
  ![](../ide/media/name.png)
 
-2. The **Project Options** dialog includes everything you need to adjust how the application is built and run. Select the **Run > Configurations > Default** node from the left panel.
-
-3. Check **Run on external console** and uncheck **Pause console output**. Ordinarily the self-hosted application would not have its console visible, but would instead log its results to the **Output** pad. For the purposes of this lab we'll show it in a separate window as well, although you don't need to do that during normal development.
-
-4. Click **OK**.
+1. The second is a typical browser window to test the site. As far as the browser knows, this application could be hosted anywhere. Click **About** to navigate to that page.
 
  ![](../ide/media/name.png)
 
-5. Press **F5** to build and run the application. Alternatively, you can select **Debug > Start Debugging**.
-
-6. Visual Studio will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
+1. Among other things, the about page renders some text set in the controller.
 
  ![](../ide/media/name.png)
 
-7. The second is a typical browser window to test the site. As far as the browser knows, this application could be hosted anywhere. Click **About** to navigate to that page.
+1. Keep both windows open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
 
  ![](../ide/media/name.png)
 
-8. Among other things, the about page renders some text set in the controller.
+1. Set a breakpoint in the first line of the **About** method. You can do this by clicking in the margin or setting the cursor on the line and pressing **F9**. This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
 
  ![](../ide/media/name.png)
 
-9. Keep both windows open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
+1. Return to the browser and refresh the about page. This will trigger the breakpoint in Visual Studio.
+
+1. Mouse over the **ViewData** member to view its data. You can also expand its child members to see nested data.
 
  ![](../ide/media/name.png)
 
-10. Set a breakpoint in the first line of the **About** method. You can do this by clicking in the margin or setting the cursor on the line and pressing **F9**. This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
+1. Remove the application breakpoint using the same method you used to add it.
+
+1. Open **Views/Home/About.cshtml**.
+
+1. Change the text **"additional"** to **"changed"** and save the file.
 
  ![](../ide/media/name.png)
 
-11. Return to the browser and refresh the about page. This will trigger the breakpoint in Visual Studio.
-
-12. Mouse over the **ViewData** member to view its data. You can also expand its child members to see nested data.
+1. Press the **Continue** button to continue execution.
 
  ![](../ide/media/name.png)
 
-13. Remove the application breakpoint using the same method you used to add it.
-
-14. Open **Views/Home/About.cshtml**.
-
-15. Change the text **"additional"** to **"changed"** and save the file.
+1. Return to the browser window to see the updated text. Note that this change could be done at any time and didn't necessarily require a debugger breakpoint. Refresh the browser if you don't see the change reflected immediately.
 
  ![](../ide/media/name.png)
 
-16. Press the **Continue** button to continue execution.
+1. Close the test browser window and application console. This will stop debugging as well.
 
- ![](../ide/media/name.png)
 
-17. Return to the browser window to see the updated text. Note that this change could be done at any time and didn't necessarily require a debugger breakpoint. Refresh the browser if you don't see the change reflected immediately.
-
- ![](../ide/media/name.png)
-
-18. Close the test browser window and application console. This will stop debugging as well.
-
-### Review application startup configuration
-
-1. From **Solution Explorer**, open **Startup.cs**. You may notice some red squiggles initially as NuGet packages are being restored in the background and the Roslyn compiler is building a complete picture of the project dependencies.
-
- ![](../ide/media/name.png)
-
-1. Locate the **Startup** method. This section defines the initial configuration for the application and is very densely packed. Let's break it down.
-
- ![](../ide/media/name.png)
-
-1. The method starts off by initializing a **ConfigurationBuilder** and setting its base path.
-
- ![](../ide/media/name.png)
-
-1. Next, it loads a required **appsettings.json** file.
-
- ![](../ide/media/name.png)
-
-1. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](/aspnet/core/fundamentals/configuration).
-
- ![](../ide/media/name.png)
-
-1. Finally, the environment variables are added to the configuration builder and the configuration is built and set for usage.
-
- ![](../ide/media/name.png)
-
-### Add application middleware
-
-1. Locate the **Configure** method in the **Startup** class. This is where all the middleware is configured so that it can be inserted into the HTTP pipeline and used to process every request to the server. Note that while this method is called only once, the contents of the methods (such as **UseStaticFiles**) may be executed on every request.
-
- ![](../ide/media/name.png)
-
-1. You can also add additional middleware to be executed as part of the pipeline. Add the code below after **app.UseStaticFiles** to automatically add an **X-Test** header to every outgoing response. Note that IntelliSense will help complete the code as you type.
-
-       ```csharp
-       app.Use(async (context, next) =>
-       {
-           context.Response.Headers.Add("X-Test", new[] { "Test value" });
-           await next();
-       });
-       ```
-1. Press **F5** to build and run the project.
 
 Congratulations on completing this tutorial!
 
