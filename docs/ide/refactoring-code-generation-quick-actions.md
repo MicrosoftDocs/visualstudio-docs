@@ -27,7 +27,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
 
 * [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 
-* [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools) &mdash; refactoring support for F# is provided in this third-party Visual Studio extension.
+* [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools)&mdash;refactoring support for F# is provided in this third-party Visual Studio extension.
 
 ## Code Generation
 

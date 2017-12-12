@@ -1,31 +1,4 @@
----
-title: "Debugger navigation sample code (JavaScript) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-ms.assetid: 4e2d1346-91d6-4935-9e70-130e369a4cb7
-caps.latest.revision: 3
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
----
-# Debugger navigation sample code (JavaScript)
-The code in this topic is the sample file for the [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md) topic.  
-  
-## default.js sample code  
-  
-```javascript  
-// For an introduction to the Blank template, see the following documentation:  
+ // For an introduction to the Blank template, see the following documentation:  
 // http://go.microsoft.com/fwlink/?LinkId=232509  
 (function () {  
     "use strict";  
@@ -165,6 +138,4 @@ The code in this topic is the sample file for the [Control execution in a debug 
          return a;  
      }  
   
- })();  
-  
-```
+ })();
