@@ -1,5 +1,5 @@
 ---
-title: Code Snippets with R Tools for Visual Studio | Microsoft Docs
+title: Code snippets with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""

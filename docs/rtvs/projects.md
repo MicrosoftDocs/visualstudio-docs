@@ -105,7 +105,6 @@ RTVS includes a number of templates for specific file types. You access template
 | SQL Query | And empty `.sql` file. See [SQL Server integration](sql-server.md). |
 | Stored Procedure with R | An R file with child SQL Query and child stored procedure template file. See [SQL Server integration](sql-server.md). |
 
-
 ## Use multiple project types in Visual Studio
 
 Visual Studio Solutions provide a convenient place to gather and manage related projects in one logical place. Solutions help keep your code organized and facilitates collaboration within teams.

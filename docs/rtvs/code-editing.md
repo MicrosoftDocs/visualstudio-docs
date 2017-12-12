@@ -1,5 +1,5 @@
 ---
-title: Editing Code with the R Tools for Visual Studio | Microsoft Docs
+title: Editing code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -32,8 +32,7 @@ In this topic:
 
 Also see the topics on [IntelliSense](code-intellisense.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
 
-
-## Syntax highlighting 
+## Syntax highlighting
 
 In addition to coloring different parts of your code, such as strings, comments, and keywords, RTVS also highlights and enables links in comments:
 
@@ -66,7 +65,7 @@ Collapsible code regions let you temporarily hide part of code in the editor. Vi
 To create a region of your own, surround the desired code with comments that end with `---`. The small +/- controls to the left of the code lets you then expand and collapse regions:
 
 ![Creating a collapsible region with comments](media/editing-collapsible-regions.gif)
- 
+
 By default, Visual Studio inserts spaces when you press the Tab key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages.md).
 
 ## Code navigation
@@ -104,9 +103,9 @@ f <- function(a) { return(a + 1) }
 To reformat the entire code file, select **Edit > Advanced > Format Document** (Ctrl+E,D).
 
 Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit > Undo** or pressing Ctrl+Z once reverses the formatting; a second Undo reverses the paste itself.
- 
+
 Formatting options (including turning off formatting) are set through **Tools > Options** on the **Text Editor > R > Advanced** tab. You can go directly to this page using either the **R Tools > Editor options...** command or by right-clicking in the editor and selecting **Formatting options...**. See the [editor options](#editor-options) section for details.
- 
+
 ## Inserting Roxygen comments
 
 RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
