@@ -21,7 +21,7 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 
 1. Launch Visual Studio.
 
-1. Select **File > New > Project** (Ctrl+Shift+N). In the **New Project** dialog, search for "Python", and select the template you want. Note that selecting a template displays a short description of what the template provides. (Also see [Python Projects](python-projects.md#project-templates).)
+1. Select **File > New > Project** (Ctrl+Shift+N). In the **New Project** dialog, search for "Python", and select the template you want. Note that selecting a template displays a short description of what the template provides. (Also see [Python projects](python-projects.md#project-templates).)
 
     ![VS2017 New Project dialog with Python template](media/projects-new-project-dialog2.png)
 
@@ -78,12 +78,12 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 
 1. Run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** on the menu. The results are displayed in a console window.
 
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
 
-## See Also
+## See also
 
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).

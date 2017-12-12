@@ -67,12 +67,12 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), y
 > [!Important]
 > In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a  repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. These steps are described in [Tutorial Step 6 - Working with Git](vs-tutorial-01-06.md).
 
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
 
-## See Also
+## See also
 
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).

@@ -36,12 +36,12 @@ manager: ghogen
 
     ![Testing Python through the interactive window](media/installation-interactive-test.png)
 
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Step 1: Create a Python project](vs-tutorial-01-01.md)
 
-## See Also
+## See also
 
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).

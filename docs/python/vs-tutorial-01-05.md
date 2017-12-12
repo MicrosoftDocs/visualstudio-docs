@@ -45,28 +45,28 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. Create a new project with **File > New > Project**, selecting the "Python Application" template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically:
 
-    ```python  
+    ```python
     import numpy as np     # installed with matplotlib
     import matplotlib.pyplot as plt
     from math import radians
 
-    def main():  
+    def main():
         x = np.arange(0, radians(1800), radians(12))
         plt.plot(x, np.cos(x), 'b')
         plt.show()
-                    
+
     main()
-    ```  
+    ```
 
 1. Run the program with (F5) or without the debugger (Ctrl+F5) to see the output:
 
   ![Output of matplotlib example](media/environments-add-matplotlib3.png)
 
-
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Working with Git](vs-tutorial-01-06.md)
 
 ### Going deeper
+
 - [Python environments](python-environments.md)

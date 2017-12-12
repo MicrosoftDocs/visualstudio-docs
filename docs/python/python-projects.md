@@ -1,5 +1,5 @@
 ---
-title: "Python Projects in Visual Studio | Microsoft Docs"
+title: "Python projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -15,7 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ---
 
-# Python Projects
+# Python projects
 
 Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. To help manage this complexity, you can create Visual Studio projects for Python applications. A Python project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
 
@@ -53,7 +53,7 @@ Each Python project has one assigned start-up file, shown in boldface in Solutio
 > [!Tip]
 > If you remove the selected startup file from a project and don't select a new one, attempting to run your project results in a Python output window appearing but then and disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more details, see [Python Environments](python-environments.md#project-specific-environments).
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more details, see [Python environments](python-environments.md#project-specific-environments).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -68,16 +68,16 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 
 | Template | Description | 
 | --- | --- |
-| [From Existing Python Code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
+| [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
-| [Azure Cloud Service](template-azure-cloud-service.md) | A project for an Azure Cloud Service written in Python. |
-| [Web Projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
+| [Azure cloud service](template-azure-cloud-service.md) | A project for an Azure cloud service written in Python. |
+| [Web projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
 | IronPython WPF Application | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code that initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
-| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ Extension for Python](cpp-and-python.md). |
+| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ extension for Python](cpp-and-python.md). |
 
 <a name="create-project-from-existing-files"</a>
 
@@ -141,6 +141,6 @@ Because references in IronPython are not available until a call to `clr.AddRefer
 
 ### WebPI projects
 
-You can add references to WebPI product entries for deployment to Microsoft Azure Cloud Service where you can install additional components via the WebPI feed. By default, the feed displayed is Python-specific and includes Django, CPython, and other core components. You can also select your own feed as shown below. When publishing to Microsoft Azure, a setup task installs all of the referenced products.
+You can add references to WebPI product entries for deployment to Microsoft Azure Cloud Services where you can install additional components via the WebPI feed. By default, the feed displayed is Python-specific and includes Django, CPython, and other core components. You can also select your own feed as shown below. When publishing to Microsoft Azure, a setup task installs all of the referenced products.
 
 ![WebPI References](media/projects-webPI-components.png)

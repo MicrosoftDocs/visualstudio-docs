@@ -1,5 +1,5 @@
 ---
-title: "Formatting Python Code in Visual Studio | Microsoft Docs"
+title: "Formatting Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
