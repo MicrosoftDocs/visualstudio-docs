@@ -17,7 +17,6 @@ helpviewer_keywords:
   - "debugging Windows applications"
   - "Windows applications, debugging"
   - "debugging [Visual Studio], Windows applications"
-  - "debugging [J#], Windows applications"
   - "debugging [C#], Windows applications"
   - "debugging [Visual Basic], Windows applications"
 ms.assetid: 7092ee7f-8378-4def-aef8-1695bd97cf14
