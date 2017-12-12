@@ -89,7 +89,7 @@ This topic directs you to overview material that helps you understand developing
   
 2.  **Apple's iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   
-3.  **Microsoft's Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
+3.  **Microsoft's Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](../debugger/run-windows-phone-apps-in-the-emulator.md).  
   
 ##  <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  
