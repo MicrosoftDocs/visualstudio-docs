@@ -1,7 +1,7 @@
 ---
 title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/08/2017"
+ms.date: "12/06/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

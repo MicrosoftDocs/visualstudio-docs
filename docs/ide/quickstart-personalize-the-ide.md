@@ -75,11 +75,13 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
 1. Under **Environment**, choose the **Fonts and Colors** category.
 
-   Notice that the text under **Show settings for** says **Text Editor** &mdash; this is what we want. You might expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
+   Notice that the text under **Show settings for** says **Text Editor**&mdash;this is what we want. You might expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
 
 1. To change the color of the line numbers text, in the **Display items** list, choose **Line Number**. In the **Item foreground** box, choose **Olive**.
 
    ![Options dialog box, Fonts and Colors category](media/quickstart-personalize-line-number-color.png)
+
+   Some languages have their own specific fonts and colors settings. If you are a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list.
 
 1. Before we exit out of the dialog box, let's also change the color of XML attributes. In the **Display items** list, scroll down to **XML Attribute** and select it. In the **Item foreground** box, choose **Lime**. Choose **OK** to save our selections and close the dialog box.
 
@@ -92,6 +94,8 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 ## See also
 
 [Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)  
 [Customizing the Editor](../ide/customizing-the-editor.md)  
 [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
