@@ -42,11 +42,11 @@
 ## [Projects and Solutions](ide/quickstart-projects-solutions.md)
 ## [Write Code in the Editor](ide/quickstart-editor.md)
 ## [Personalize Theme and Text Colors](ide/quickstart-personalize-the-ide.md)
-## [C#: Create a Web App](ide/quickstart-aspnet-core.md)
-## [Visual Basic: Create a Console App](ide/quickstart-visual-basic-console.md)
 ## [C++: Create a Console App](ide/quickstart-cpp.md)
 ## [Python: Create a Web App](ide/quickstart-python.md)
 ## [Node.js: Create a Web App](ide/quickstart-nodejs.md)
+## [C#: Create a Web App](ide/quickstart-aspnet-core.md)
+## [Visual Basic: Create a Console App](ide/quickstart-visual-basic-console.md)
 # Tutorials
 ## [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
 ## [Getting Started with Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
