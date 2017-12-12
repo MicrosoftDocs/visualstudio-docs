@@ -92,6 +92,24 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
+        <a href="/visualstudio/ide/quickstart-projects-solutions">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_form.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about projects and solutions</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="/visualstudio/ide/quickstart-editor">
         <div class="cardSize">
             <div class="cardPadding">
