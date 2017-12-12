@@ -209,6 +209,7 @@
 ## [Debug...](debugger/debugger-feature-tour.md)
 ## [Test...](test/improve-code-quality.md)
 ## [Measure performance...](profiling/profiling-feature-tour.md)
+## [Analyze code quality...](code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
 ## [Deploy...](deployment/deploying-applications-services-and-components.md)
 ## [Extend Visual Studio...](extensibility/visual-studio-sdk.md)
 ## [Analyze and Model Architecture...](modeling/analyze-and-model-your-architecture.md)
