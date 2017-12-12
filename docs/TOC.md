@@ -220,7 +220,7 @@
 ### [Walkthrough: Creating a Multiple-Computer Build Environment](ide/walkthrough-creating-a-multiple-computer-build-environment.md)
 ## [Debug...](debugger/debugger-feature-tour.md)
 ## [Test...](test/improve-code-quality.md)
-## [Measure Performance...](profiling/profiling-feature-tour.md)
+## [Measure performance...](profiling/profiling-feature-tour.md)
 ## [Deploy...](deployment/deploying-applications-services-and-components.md)
 ## [Extend Visual Studio...](extensibility/visual-studio-sdk.md)
 ## [Analyze and Model Architecture...](modeling/analyze-and-model-your-architecture.md)
