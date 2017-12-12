@@ -98,7 +98,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_form.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_categorize.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
