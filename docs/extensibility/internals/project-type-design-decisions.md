@@ -57,7 +57,6 @@ Before you create a new project type, you must make several design decisions reg
   
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
- [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)   
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)   
  [Project Persistence](../../extensibility/internals/project-persistence.md)   
  [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)   
