@@ -65,6 +65,9 @@ See the Tutorials for step-by-step instructions.
 
     For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 
+    > [!NOTE]
+    > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+
 - Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
