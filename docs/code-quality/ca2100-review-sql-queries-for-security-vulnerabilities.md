@@ -49,8 +49,6 @@ manager: ghogen
   
 -   <xref:System.Data.OracleClient.OracleCommand?displayProperty=fullName> and <xref:System.Data.OracleClient.OracleDataAdapter?displayProperty=fullName>  
   
--   [System.Data.SqlServerCe.SqlCeCommand](https://msdn.microsoft.com/library/system.data.sqlserverce.sqlcecommand.aspx) and  [System.Data.SqlServerCe.SqlCeDataAdapter](https://msdn.microsoft.com/library/system.data.sqlserverce.sqlcedataadapter.aspx)  
-  
 -   <xref:System.Data.SqlClient.SqlCommand?displayProperty=fullName> and <xref:System.Data.SqlClient.SqlDataAdapter?displayProperty=fullName>  
   
  Notice that this rule is violated when the ToString method of a type is used explicitly or implicitly to construct the query string. The following is an example.  

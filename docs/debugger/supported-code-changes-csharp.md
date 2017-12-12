@@ -95,8 +95,6 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone a
   
 -   Debugging a Dr. Watson dump.  
   
--   Editing code after an unhandled exception, when the "**Unwind the call stack on unhandled exceptions**" option is not selected.  
-  
 -   Debugging an embedded runtime application.  
   
 -   Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.  

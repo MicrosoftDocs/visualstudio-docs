@@ -46,4 +46,4 @@ N-tier support in typed datasets enables iterative development of the applicatio
 [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)  
 [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
 [Create and Configure TableAdapters](../data-tools/create-and-configure-tableadapters.md)  
-[N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/Library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
+[N-Tier and Remote Applications with LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/n-tier-and-remote-applications-with-linq-to-sql)
