@@ -48,11 +48,11 @@
 ## [C#: Create a Web App](ide/quickstart-aspnet-core.md)
 ## [Visual Basic: Create a Console App](ide/quickstart-visual-basic-console.md)
 # Tutorials
-## [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
-## [Getting Started with Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
-## [Getting Started with Python in Visual Studio](/python/vs-tutorial-01-01.md)
-## [Getting Started with R in Visual Studio](/r/gettig-started-with-r.md)
-## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
+## [C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
+## [Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
+## [Python in Visual Studio](/python/vs-tutorial-01-01.md)
+## [R in Visual Studio](/r/gettig-started-with-r.md)
+## [Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
 # How-to guides
 ## [Develop](ide/index-writing-code.md)
 ### [Move Around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
