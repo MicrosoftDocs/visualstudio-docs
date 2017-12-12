@@ -18,7 +18,7 @@ dev_langs:
 
 
 # Getting started with Visual Basic in Visual Studio
-In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps, and explore some features of the Visual Studio [integrated development environment (IDE)](ide/visual-studio-ide.md) while you do so.
+In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps, and explore some features of the Visual Studio [integrated development environment (IDE)](visual-studio-ide.md) while you do so.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
@@ -27,14 +27,14 @@ Here's a quick FAQ to introduce you to some key concepts.
 ### What is Visual Basic?
 Visual Basic is a type-safe programming language that's designed to be easy to learn. It is derived from BASIC, which means "Beginner's All-purpose Symbolic Instruction Code".
 ### What is Visual Studio?
-Visual Studio is an integrated development suite of productivity tools for developers. You can think of it as a program that you use to create programs and applications.  
+Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.  
 ### What is a console app?
 A console app takes input and displays output in a command-line window, a.k.a. a console.
 ### What is .NET Core?
 .NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
 
 ## Start developing
-Ready to develop? Let's get started!
+Ready to start developing? Let's go!
 
 ### Create a project
 First, we'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
@@ -53,7 +53,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 ##### Option 1: Use the New Project dialog box
 1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-  ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vb-open-visual-studio-installer-hello-world.png)
+  ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
 2. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
