@@ -1,30 +1,3 @@
----
-title: "Debugger navigation sample code (Xaml and C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-ms.assetid: 8f4266bc-4597-43ab-b620-8b08ea988a8e
-caps.latest.revision: 3
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
----
-# Debugger navigation sample code (Xaml and C#)
-The code in this topic is the sample file for the [Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md) topic.  
-  
-## Sample Code  
-  
-```CSharp  
 public MainPage()  
 {  
     InitializeComponent();  
@@ -93,6 +66,4 @@ void Example4()
     methodTrack = "->Example4";  
 }  
   
-string methodTrack = String.Empty;  
-  
-```
+string methodTrack = String.Empty;
