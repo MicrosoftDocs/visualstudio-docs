@@ -25,7 +25,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Learn how to install and set up Visual Studio.</h3>
+                            <h3>Learn how to install and set up Visual Studio</h3>
                         </div>
                     </div>
                 </div>
