@@ -1,19 +1,7 @@
 ---
-title: "Unit testing existing C++ applications with Test Explorer | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
-caps.latest.revision: 11
-ms.author: "douge"
-manager: "douge"
+redirect_url: /visualstudio/test/how-to-use-microsoft-test-framework-for-cpp
 ---
-# Unit testing existing C++ applications with Test Explorer
+# How to use the Microsoft Unit Testing Framework for C++
 We recommend that, before you change an existing application, you make sure that it has a good coverage with unit tests. This gives you confidence that your changes have not introduced bugs. If the application does not already have unit tests, you can add them by using the techniques demonstrated in this topic. This topic describes how to add unit tests for existing Visual C++ code, starting with deciding how to test your code, and then creating, writing, and finally, running the tests.  
   
 ## Deciding how to test your code  
@@ -25,7 +13,7 @@ We recommend that, before you change an existing application, you make sure that
   
  There are several ways to test product code, depending on whether it exposes the interfaces that you want to test. Choose one of the following ways:  
   
- **The unit tests will use only functions that are exported from the code under test:**  
+ **The unit tests can call only functions that are exported from the code under test:**  
  Add a separate test project. In the test project, add a reference to the project under test.  
   
  Go to the procedure [To reference exported functions from the test project](#projectRef).  
@@ -42,7 +30,7 @@ We recommend that, before you change an existing application, you make sure that
   
  Go to the procedure [To change the code under test to a static library](#staticLink).  
   
- **The unit tests must use private functions and data, and the code must be built as a dynamic link library (DLL):**  
+ **The unit tests must use private member functions and data, and the code must be built as a dynamic link library (DLL):**  
  Add unit tests in the same project as the product code.  
   
  Go to the procedure [To add unit tests in the same project](#sameProject).  
@@ -61,9 +49,9 @@ We recommend that, before you change an existing application, you make sure that
   
  Continue with the procedure [To link the tests to the object or library files](#objectRef).  
   
-###  <a name="projectRef"></a> To reference exported functions from the test project  
+###  <a name="projectRef"></a> To reference exported DLL functions from the test project  
   
--   If a project under test exports the functions that you want to test, then you can add a reference to the code project from the test project.  
+-   If a project under test is a DLL that exports the functions that you want to test, then you can add a reference to the code project from the test project.  
   
     1.  Create a C++ test project.  
   
@@ -158,8 +146,11 @@ We recommend that, before you change an existing application, you make sure that
   
 ## Run the tests  
   
-1.  On the **View** menu, choose **Other Windows**, **Test Explorer**.  
+1.  On the **Test** menu, choose **Windows**, **Test Explorer**.  
+2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
   
-2.  In Test Explorer, choose **Run All**.  
+2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
   
- For more information, see [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md).
+## See Also
+[Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+

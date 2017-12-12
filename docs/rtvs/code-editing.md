@@ -1,7 +1,7 @@
 ---
 title: Editing code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a198ccc3-5506-48e7-b3b2-9399661b80d5
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
@@ -17,7 +16,7 @@ manager: ghogen
 ---
 
 # Editing R code in Visual Studio
- 
+
 R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R. while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
 
 In this topic:
@@ -30,7 +29,7 @@ In this topic:
 - [Inserting Roxygen comments](#inserting-roxygen-comments)
 - [Editor options](#editor-options)
 
-Also see the topics on [IntelliSense](code-intellisense.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
+Also see the topics on [IntelliSense](code-intellisense.md), [linting](code-linting.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
 
 ## Syntax highlighting
 
@@ -140,5 +139,5 @@ Options on the **R > Advanced** tab are specific to RTVS:
 | | Completion list on Tab key | Off | Invokes completion list by typing one or more characters and pressing Tab. |
 | | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
 | Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 
-| Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. | 
+| Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. |
 | Syntax check | Show syntax errors | On | Enables automatic syntax checking of code. |

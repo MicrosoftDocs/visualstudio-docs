@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><style>.icon-canvas-transparent{opacity:0;fill:#f6f6f6}.brand-vside{fill:#865fc5}</style><path class="icon-canvas-transparent" d="M40 40H0V0h40v40z" id="canvas"/><path class="brand-vside" d="M30.001 0v34.355L.003 29.899 30.001 40 40 35.84V4.16L30.001 0zm-19.69 19.244l9.187 9.089 5.5-2.34V8.173l-5.5-2.34-9.187 9.09-5.532-4.17-2.279.763v11.135l2.279.763 5.532-4.17zm9.187-6.925v9.53l-6.321-4.765 6.321-4.765zM4.779 13.771l3.348 3.312-3.348 3.313v-6.625z" id="iconBg"/></svg>
+<svg id="ICONS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #865fc5;
+      }
+    </style>
+  </defs>
+  <title>vs-ide</title>
+  <rect class="cls-1" x="147.2" y="17.2" width="105.6" height="105.6"/>
+  <path class="cls-2" d="M226.4,17.2h0v90.7L147.2,96.13,226.4,122.8l26.4-11V28.18Zm-52,50.8,24.25,24,14.52-6.18v-47L198.67,32.6l-24.25,24-14.6-11-6,2V77l6,2Zm23.93-18.21V74.95L181.66,62.37ZM160.4,53.5l8.84,8.74L160.4,71Z"/>
+</svg>

@@ -1,11 +1,11 @@
 ---
 title: "Troubleshooting installation issues | Microsoft Docs"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
-ms.date: "11/08/2017"
+ms.date: "11/21/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
 author: "timsneath"
-ms.author: "tims"
+ms.author: "tglee"
 manager: ghogen
 ---
 # Troubleshooting Visual Studio 2017 installation and upgrade issues
@@ -33,7 +33,8 @@ Search on your error message with the [Visual Studio Developer Community](https:
 ### Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems
 The Visual Studio Installer bootstrapper is a minimal light-weight executable that installs the rest of the Visual Studio Installer. Deleting Visual Studio Installer files and then rerunning the bootstrapper might solve some update failures.
 
-**Note:** Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
+>[!NOTE]
+Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
 
 1. Close the Visual Studio Installer.
 2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
@@ -53,7 +54,7 @@ In some situations, such as those related to corrupted files, the problems may h
 As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
 1. Follow the instructions in [Remove Visual Studio](remove-visual-studio.md).
-2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3--delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
+2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3---delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 
 ### Step 6 - Contact us (optional)
@@ -84,10 +85,10 @@ To collect the logs:
 
 ## More support options
 
-You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more options:
-
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This requires a [GitHub](https://github.com/) account).

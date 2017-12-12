@@ -48,5 +48,4 @@ manager: ghogen
   
 ## See Also  
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>   
- [Introducing the Class Interface](http://msdn.microsoft.com/en-us/733c0dd2-12e5-46e6-8de1-39d5b25df024)   
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)
