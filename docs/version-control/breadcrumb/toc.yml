@@ -1,12 +1,8 @@
-- name: Visual Studio
+- name: Documentation
   tocHref: /visualstudio/
-  topicHref: /visualstudio
+  topicHref: /visualstudio/welcome-to-visual-studio
   items:
-  - name: Documentation
-    tocHref: /visualstudio/
-    topicHref: /visualstudio/welcome-to-visual-studio
-    items:
-    - name: Version Control
-      tocHref: /visualstudio/version-control/
-      topicHref: /visualstudio/version-control/index
+  - name: Version Control
+    tocHref: /visualstudio/version-control/
+    topicHref: /visualstudio/version-control/index
 
