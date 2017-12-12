@@ -53,18 +53,6 @@
 ## [Getting Started with Python in Visual Studio](/python/vs-tutorial-01-01.md)
 ## [Getting Started with R in Visual Studio](/r/gettig-started-with-r.md)
 ## [Getting Started with Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
-# Samples
-## [.NET Core (GitHub)](https://github.com/dotnet/core/tree/master/samples)
-## [.NET Framework](http://msdn.microsoft.com/177055f8-4a1f-43e7-aee6-995c196079b1)
-## [Windows (Windows Dev Center)](https://developer.microsoft.com/windows/samples)
-## [C++](https://docs.microsoft.com/cpp/visual-cpp-samples)
-## [C#](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=C%23&f%5B0%5D.Text=C%23)
-## [Visual Basic](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=VB&f%5B0%5D.Text=VB.NET)
-## [F#](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=F%23&f%5B0%5D.Text=F%23)
-## [JavaScript](http://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Value=JavaScript)
-## [DirectX](http://code.msdn.microsoft.com/site/search?query=DirectX&f%5B1%5D.Value=DirectX&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=C%20%20&f%5B0%5D.Type=ProgrammingLanguage&f%5B0%5D.Text=Invalid%20Value&ac=2)
-## [Office and SharePoint (Office Dev Center)](https://dev.office.com/code-samples)
-## [Extensibility (GitHub)](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 # How-to guides
 ## [Develop](ide/index-writing-code.md)
 ### [Move Around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
