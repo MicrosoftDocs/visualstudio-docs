@@ -51,4 +51,4 @@ manager: ghogen
   
 ## See Also  
  <xref:System.CLSCompliantAttribute?displayProperty=fullName>   
- [Language Independence and Language-Independent Components](http://msdn.microsoft.com/Library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
+ [Language Independence and Language-Independent Components](/dotnet/standard/language-independence-and-language-independent-components)

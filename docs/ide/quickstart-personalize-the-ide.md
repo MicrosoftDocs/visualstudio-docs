@@ -75,7 +75,7 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
 1. Under **Environment**, choose the **Fonts and Colors** category.
 
-   Notice that the text under **Show settings for** says **Text Editor** &mdash; this is what we want. You might expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
+   Notice that the text under **Show settings for** says **Text Editor**&mdash;this is what we want. You might expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
 
 1. To change the color of the line numbers text, in the **Display items** list, choose **Line Number**. In the **Item foreground** box, choose **Olive**.
 
