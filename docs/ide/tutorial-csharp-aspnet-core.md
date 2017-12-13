@@ -66,7 +66,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 2. Select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 
-   ![New ASP.NET Core Web Application dialogbox](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
+   ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
 
 ### Take a tour of your solution
 
@@ -78,7 +78,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
       ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
-3. The **HomeController** class&mdash;by convention&mdash;handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like http://site.com/Home) and other methods handle requests to their named path based on convention, such as **About()** handling requests to **http://site.com/Home/About**. Of course, this is all configurable. One special item of note is that the **HomeController** is the default controller in a new project, so requests to the root of the site (**http://site.com**) would go through **Index()** of the **HomeController** just like requests to **http://site.com/Home** or **http://site.com/Home/Index**.
+3. The **HomeController** class&mdash;by convention&mdash;handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory&mdash;for example, http://site.com/Home). Other methods handle requests to their named path, based on convention (for example, **About()** would handle requests to **http://site.com/Home/About**). You can configure this as you want. An item of note: The **HomeController** is the default controller in a new project, so requests to the root of the site&mdash;for example, http://site.com&mdash;would go through **Index()** of the **HomeController**, just like requests to **http://site.com/Home** or **http://site.com/Home/Index** do.
 
   ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
 
@@ -93,7 +93,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
  >[!NOTE]
  > To learn more about this, see the [Getting started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
-6. The solution also contains a **wwwroot** folder that will be the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
+6. The solution also contains a **wwwroot** folder that is the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
 
  ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
 
@@ -143,5 +143,8 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 Congratulations on completing this tutorial!
 
-## See also   
-[Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+## See also
+* [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
+* [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+
+
