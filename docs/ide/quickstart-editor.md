@@ -95,7 +95,7 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of `string`.
 
-1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu &mdash; or, press **Alt**+**F12**.
+1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu&mdash;or, press **Alt**+**F12**.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
@@ -152,6 +152,7 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 
 [Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
 [Quickstart: personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
+[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Code snippets](../ide/code-snippets.md)  
 [Outlining](../ide/outlining.md)  
 [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
