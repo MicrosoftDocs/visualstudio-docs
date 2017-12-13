@@ -3,11 +3,11 @@
   topicHref: /
   items:
   - name: Visual Studio
-    tocHref: /visualstudio/
+    tocHref: /visualstudio/version-control/
     topicHref: /visualstudio
     items:
     - name: Documentation
-      tocHref: /visualstudio/
+      tocHref: /visualstudio/version-control/
       topicHref: /visualstudio/welcome-to-visual-studio
       items:
       - name: Version Control
