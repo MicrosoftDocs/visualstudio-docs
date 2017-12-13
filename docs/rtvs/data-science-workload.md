@@ -1,5 +1,5 @@
 ---
-title: Data Science and Analytical Applications Workload in Visual Studio | Microsoft Docs
+title: Data Science and Analytical Applications workload in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 09/05/2017
 ms.reviewer: ""
