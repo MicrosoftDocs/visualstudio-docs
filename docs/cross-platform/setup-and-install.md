@@ -45,7 +45,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
 ##  <a name="windows"></a> Windows setup (Visual Studio and Xamarin)  
   
 > [!TIP]
->  These instructions apply to Visual Studio 2017. For Visual Studio 2015 see [MSDN](https://msdn.microsoft.com/en-us/library/mt613162.aspx). To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
+>  These instructions apply to Visual Studio 2017. For Visual Studio 2015 see [MSDN](setup-and-install.md). To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
   
 1.  [Download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days after which you'll need to purchase a license.  
   
