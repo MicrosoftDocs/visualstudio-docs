@@ -56,7 +56,7 @@
 ## [C++ in Visual Studio](https://docs.microsoft.com/cpp/build/vscpp-step-0-installation)
 ## [Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
 ## [Python in Visual Studio](python/vs-tutorial-01-01.md)
-## [R in Visual Studio](rtvs/gettig-started-with-r.md)
+## [R in Visual Studio](rtvs/getting-started-with-r.md)
 ## [C# in Visual Studio](ide/tutorial-csharp-aspnet-core.md)
 ## [Visual Basic in Visual Studio](ide/tutorial-visual-basic-console.md)
 ## [Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
