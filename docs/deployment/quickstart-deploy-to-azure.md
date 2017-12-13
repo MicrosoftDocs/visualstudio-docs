@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
@@ -26,7 +26,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 1. In Visual Studio, choose **File > New Project**.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application (.NET Core)**, and then click **OK**.
+1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
 1. Choose **MVC**, make sure that **No Authentication** is selected, and then click **OK**.
 

@@ -63,6 +63,8 @@ See the Tutorials for step-by-step instructions.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
+    To publish to an Azure Virtual Machine, scroll right and select **Microsoft Azure Virtual Machines**.
+
     For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 
     > [!NOTE]
