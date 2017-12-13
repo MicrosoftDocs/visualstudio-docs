@@ -12,21 +12,7 @@ ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Step 3: Set Your Form Properties
 Next, you use the **Properties** window to change the way your form looks.  

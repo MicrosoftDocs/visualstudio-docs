@@ -18,21 +18,7 @@ ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage
 |||  
@@ -84,7 +70,6 @@ translation.priority.ht:
 ## See Also  
  <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>   
  [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)   
- [Security Optimizations](http://msdn.microsoft.com/en-us/cf255069-d85d-4de3-914a-e4625215a7c0)   
  [Data and Modeling](/dotnet/framework/data/index)  
  [Link Demands](/dotnet/framework/misc/link-demands)  
   

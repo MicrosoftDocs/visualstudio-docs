@@ -1,7 +1,7 @@
 ---
 title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 9/27/2017
+ms.date: 09/27/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 85031f91-3a65-463b-a678-1e69f1b843e6
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Publishing to Azure App Service
@@ -37,7 +36,7 @@ In this topic:
 
 For this walkthrough you'll need a web app project based on the Bottle, Flask, or Django frameworks. If you don't yet have a project and would like to try the publishing process, create a simple test project as follows:
 
-1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**.    
+1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**. (The Bottle template is included with the Python development workload; see [Installation](installation.md).)
 
 1. Follow the prompts to install external packages, selecting **Install into a virtual environment** and your preferred base interpreter for the virtual environment. You typically match this choice with the version of Python installed on App Service.
 
@@ -107,11 +106,11 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
         <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
         ```
 
-    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskExample", the entry would appear as follows:
+    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifer by looking at the `from <project_name> import app` statement in the `runserver.py`. For example, if the project is named "FlaskAzurePublishExample", the entry would appear as follows:
 
         ```xml
         <!-- Flask apps only: change the project name to match your app -->
-        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.App"/>
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
     - **Django**: Two changes are needed to `web.config` for Django apps. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the `wsgi.py` file):
@@ -154,17 +153,25 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. When the browser opens, you may see the message, "The page cannot be displayed because an internal server error has occurred." This message indicates that your Python environment on the server is not fully configured, in which case do the following steps:
 
-    a. Refer again to [Managing Python on Azure App Service](managing-python-on-azure-app-service.md), making sure that you have an appropriate Python extension installed...
+    a. Refer again to [Managing Python on Azure App Service](managing-python-on-azure-app-service.md), making sure that you have an appropriate Python site extension installed.
      
-    b. Double-check the path to the Python interpreter in your `web.config` file.     
+    b. Double-check the path to the Python interpreter in your `web.config` file. The path must exactly match the install location of your chosen site extension.    
  
-    c. Use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file: navigate to your Python folder, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
+    c. Use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file: navigate to the same Python folder that's used in `web.config`, such as `/home/python361x64`, and run the following command as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
 
     ```
     python -m pip install --upgrade -r /home/site/wwwroot/requirements.txt
     ```          
 
-    d. You may need to restart the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
+    If you see permission errors when running this command, double-check that you're running the command in your site extension folder and *not* in the folder of one of App Service's default Python installations. Because you can't modify those default environments, attempting to install packages will certainly fail.
+
+    d. For detailed error output, add the following line to `web.config` within the `<system.webServer>` node, which provides more detailed error output:
+
+    ```xml
+    <httpErrors errorMode="Detailed"></httpErrors>
+    ```
+
+    e. Try restarting the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
 
     > [!Tip] 
     > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file. 
@@ -211,6 +218,8 @@ Eventually you may want to maintain your own `web.config` file and use `requirem
 
 ## Remote debugging on Azure App Service
 
-To enable remote debugging with either Visual Studio 2017 or 2015, right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. This template adds a debugging `web.debug.config` file to your project along with a `ptvsd` folder containing debugging tools.
+When you publish a Debug configuration from Visual Studio 2015, the process automatically creates a `web.debug.config` file and adds a `ptvsd` folder containing the necessary debugging tools.
 
-Once you publish the app again, you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).
+With Visual Studio 2017, you instead add these components directly to the project. Right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. A debugging `web.debug.config` file and the `ptvsd` tool folder appear in your project.
+
+Once these files are deployed to the server (automatically with Visual Studio 2015; on your next publish with Visual Studio 2017), you can follow the instructions for [Azure Remote Debugging](https://docs.microsoft.com/visualstudio/python/debugging-azure-remote).

@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Scripting
+title: Scripting | Microsoft Docs
 ---
 # Scripting Technologies
 
@@ -14,7 +14,7 @@ This page provides links to JavaScript, TypeScript, and other ECMAScript-based t
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_TS.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -32,7 +32,7 @@ This page provides links to JavaScript, TypeScript, and other ECMAScript-based t
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_JS.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ This page provides links to JavaScript, TypeScript, and other ECMAScript-based t
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_JS.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ This page provides links to JavaScript, TypeScript, and other ECMAScript-based t
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/common/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ This page provides links to JavaScript, TypeScript, and other ECMAScript-based t
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/common/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">

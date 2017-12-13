@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: JavaScript in Visual Studio
+title: JavaScript in Visual Studio | Microsoft Docs
 ---
 # JavaScript in Visual Studio
 
@@ -14,7 +14,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_JS.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -32,7 +32,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_cordova.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,13 +44,13 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </a>
     </li>
     <li>
-        <a href="https://www.visualstudio.com/vs/node-js/">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-nodejs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_nodejs.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,13 +62,13 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-js-universal">
+        <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-js-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/logos/logo_windows.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/logos/logo_TS.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/logos/logo_nodejs.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -122,7 +122,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/logos/logo_net.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -140,7 +140,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/common/i_learn-about.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">

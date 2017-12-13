@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject
 Updates the object's data with the given data object and returns a new data object representing the object's new data.  

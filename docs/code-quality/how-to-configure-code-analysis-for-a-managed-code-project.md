@@ -17,22 +17,7 @@ ms.assetid: 618f6ff3-db0e-46cb-b08d-dfa35e62c9e7
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # How to: Configure Code Analysis for a Managed Code Project
 In [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)] and [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)], you can choose from a list of code analysis *rule sets* to apply to a managed code project. The default rule set is the Microsoft Minimum Recommended Rules. You can apply another rule set to a project or to all projects in a solution.  

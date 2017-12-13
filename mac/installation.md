@@ -1,5 +1,5 @@
 ---
-title: "Install Visual Studio for Mac"
+title: "Install Visual Studio for Mac | Microsoft Docs"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: asb3993
 ms.author: amburns
@@ -18,7 +18,7 @@ To start developing native, cross-platform apps when you download Visual Studio 
 For working with iOS in Visual Studio you need the following pieces:
 
 * a Mac with macOS Sierra 10.12 or above
-* Xcode 8.3
+* Xcode 8.3 or above. The latest stable version is usually recommended.
 * An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Install
@@ -81,3 +81,11 @@ If your installation fails or any single component of your installation fails, y
 2. Follow the instructions to download and install the components manually:
 
   ![Manual installation dialog](media/installer-image13.png)
+
+## Install Visual Studio for Mac behind a firewall or proxy server
+
+To install Visual Studio for Mac behind a firewall, certain endpoints must be made accessible in order to allow downloads of the required tools and updates for your software.
+
+Configure your network to allow access to the following locations:
+
+* [Visual Studio endpoints](https://docs.microsoft.com/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)

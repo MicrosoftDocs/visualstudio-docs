@@ -21,7 +21,7 @@ ms.assetid: 1379b5cb-5093-46a3-80f0-b7b3c66b1df3
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # Working with Folders
   The <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> class contains the methods and properties you use to access, create, and customize folders.  

@@ -1,7 +1,7 @@
 ---
 title: IntelliSense for R Code Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 6/29/2017
+ms.date: 06/29/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d96e3677-e5ec-4e11-82a8-d914a93b1aa9
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # IntelliSense

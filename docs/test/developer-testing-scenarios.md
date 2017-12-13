@@ -14,20 +14,6 @@ ms.assetid: 9DE41406-8D39-427E-99D9-987E99103B73
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Developer testing tools, scenarios, and capabilities
 
@@ -75,7 +61,7 @@ Coded UI tests provide a way to create fully
 automated tests to validate the functionality and 
 behavior of your application’s user interface.
 They can automate UI testing across a variety 
-of technologies, including XAML-based Windows Store 
+of technologies, including XAML-based UWP 
 apps, browser apps, and SharePoint apps.
 
 Whether you choose best of breed Coded 
@@ -87,7 +73,7 @@ need.
 
 * [Use UI Automation To Test Your Code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-* [Test Windows Store Apps with Coded UI Tests](test-windows-store-8-1-apps-with-coded-ui-tests.md)
+* [Test UWP apps with Coded UI Tests](test-windows-store-8-1-apps-with-coded-ui-tests.md)
 * [Test Windows Phone Apps with Coded UI Tests](test-windows-phone-8-1-apps-with-coded-ui-tests.md)
 * [Test SharePoint Applications with Coded UI Tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
 * [Introduction to Coded UI Tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
@@ -127,7 +113,7 @@ benefit from unit testing.
 
 * [Get started with Unit Testing](unit-test-your-code.md)
 * [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md)
-* [Writing Unit tests for C/C++](writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)
+* [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
 * [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md)
 
 Visual Studio is also extensible and opens the door for 

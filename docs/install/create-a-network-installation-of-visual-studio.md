@@ -1,11 +1,11 @@
 ---
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "Describes how to create a network install point for deploying Visual Studio within an enterprise"
-ms.date: "08/30/2017"
+ms.date: "10/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
 ms.assetid: 4CABFD20-962E-482C-8A76-E4012052F701
 author: "timsneath"
-ms.author: "tims"
-manager: "ghogen"
+ms.author: "tglee"
+manager: ghogen
 ---
 
 # Create a network installation of Visual Studio 2017
@@ -40,9 +40,13 @@ Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/r
 
 ## Create an offline installation folder
 
-You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples:
+You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
-(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10).
+   > [!IMPORTANT]
+   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
+
+   > [!TIP]
+   > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
 
 - For Visual Studio Enterprise, run:
 
@@ -55,9 +59,6 @@ You must have an internet connection to complete this step. To create an offline
 - For Visual Studio Community, run:
 
   ```vs_community.exe --layout c:\vs2017offline```
-
-> [!IMPORTANT]
-> A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
 
 ## Modify the response.json file
 
@@ -145,6 +146,15 @@ If you need to create a layout for an older version of Visual Studio 2017, you c
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
 We have other support options available, too. For a list, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

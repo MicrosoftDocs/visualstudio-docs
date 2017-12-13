@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetMetaDataImport"
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
 Retrieves the metadata import information.  

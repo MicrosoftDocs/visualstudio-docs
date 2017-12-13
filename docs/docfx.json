@@ -9,7 +9,8 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
@@ -46,17 +47,19 @@
       "searchScope": ["VS IDE"],
       "featureFlags": ["productfeedback"],
       "product_feedback_link_url1": "https://developercommunity.visualstudio.com/",
-      "product_feedback_link_text_key1": "feedbackProduct"
+      "product_feedback_link_text_key1": "reportAProductIssue",
+      "product_feedback_link_url2": "https://visualstudio.uservoice.com",
+      "product_feedback_link_text_key2": "suggestionProduct"
     },
     "fileMetadata": {
-      "product_feedback_link_url2": {
-        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs"
+      "product_feedback_link_url3": {
+        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs",
+        "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio"
+        
       },
-      "product_feedback_link_text_key2": {
-        "extensibility/**/*.md": "getHelp"
-      },
-      "product_feedback_link_text_key1": {
-        "extensibility/**/*.md": "feedbackProduct"
+      "product_feedback_link_text_key3": {
+        "extensibility/**/*.md": "askQuestion",
+        "install/**/*.md": "askQuestion"
       }
     },
     "template": [],

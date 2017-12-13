@@ -17,21 +17,7 @@ ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Debugging Applications
 The following sections deal with debugging for specific types of applications. Different application types and different languages require different settings and techniques, and present different issues that need to be debugged.  
@@ -40,7 +26,7 @@ The following sections deal with debugging for specific types of applications. D
   
 |||  
 |-|-|  
-|[Debug Windows Store and Universal Windows Apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug Windows Store apps and Universal Windows Apps.|  
+|[Debug UWP and Windows 8.1 Apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug UWP apps.|  
 |[Debug managed code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, and F3).|  
 |[Debug native code](../debugger/debugging-native-code.md)|Describes how to debug different kind of native C++ applications.|  
 |[Debug GPU code](../debugger/debugging-gpu-code.md)|Describes how to debug C++ code that runs on the graphical processing unit (GPU).|  

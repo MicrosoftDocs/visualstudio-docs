@@ -1,34 +1,23 @@
 ---
+redirect_url: /visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/
+---
 title: "Lightweight Solution Load (LSL) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "VSPackages, lightweight solution load"
   - "VSPackages, fast solution load"
 ms.assetid: 0a71d91e-dc71-4d6b-bbfe-9e4ecd9e5fd1
 caps.latest.revision: 1
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Lightweight Solution Load (LSL)
 
@@ -36,7 +25,7 @@ translation.priority.mt:
 
 Lightweight Solution Load is a new feature in VS 2017 which will significantly reduce Solution load time, enabling you to be more productive quickly. When LSL is enabled, Visual Studio will not fully load projects until you start working with them.
 
-LSL can effect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
+LSL can affect Visual Studio extensions. Extensions whose features depend on a project to be loaded may not work or work incorrectly without following the guidance detailed in this document.
 
 For further background on LSL, use the following links:
 

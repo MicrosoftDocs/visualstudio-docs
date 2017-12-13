@@ -12,22 +12,7 @@ ms.assetid: 418cc9cb-68ad-47e9-a6c8-a48b9c35db45
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # CA2153: Avoid Handling Corrupted State Exceptions
 |||  
@@ -41,7 +26,7 @@ translation.priority.mt:
  [Corrupted State Exceptions (CSE)](https://msdn.microsoft.com/en-us/magazine/dd419661.aspx) indicate that memory corruption exists in your process. Catching these rather than allowing the process to crash can lead to security vulnerabilities if an attacker can place an exploit into the corrupted memory region.  
   
 ## Rule Description  
- CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the proper `HandleProcessCorruptedStateExceptions` attribute. By default, the [Common Language Runtime (CLR)](https://msdn.microsoft.com/en-us/library/8bs2ecf4.aspx) will not invoke catch handlers for CSEs.  
+ CSE indicates that the state of a process has been corrupted and not caught by the system. In the corrupted state scenario, a general handler only catches the exception if you mark your method with the proper `HandleProcessCorruptedStateExceptions` attribute. By default, the [Common Language Runtime (CLR)](/dotnet/standard/clr) will not invoke catch handlers for CSEs.  
   
  Allowing the process to crash without catching these kinds of exceptions is the safest option, as even logging code can allow attackers to exploit memory corruption bugs.  
   

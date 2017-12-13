@@ -26,28 +26,13 @@ ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Building and Cleaning Projects and Solutions in Visual Studio
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
   
 > [!NOTE]
->  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
+> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
   
 ### To build, rebuild, or clean an entire solution  
   
@@ -90,7 +75,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
     -   On the menu bar, choose **Build**, **Build Solution** (CTRL+SHIFT+B).  
   
-     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.  
+    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.  
   
 ### To build only the selected Visual C++ project  
   
@@ -104,13 +89,13 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
     -   **Link Only** *ProjectName*  
   
-     These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
+    These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
   
 ### To compile multiple C++ project items  
   
 1.  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
   
-     If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
+    If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
   
 ### To stop a build  
   
@@ -120,12 +105,12 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
     -   Choose the Ctrl + Break keys.  
   
-## See Also  
- [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)   
- [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
- [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
- [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)   
- [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
- [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
+## See also
+[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)   
+[Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
+[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
+[Understanding Build Configurations](../ide/understanding-build-configurations.md)   
+[Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
+[C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)   
+[Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
+[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

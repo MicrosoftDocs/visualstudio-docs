@@ -2,7 +2,7 @@
 layout: LandingPage
 author: gewarren
 ms.author: gewarren
-title: Use data tools in Visual Studio to develop data solutions
+title: Use data tools in Visual Studio to develop data solutions | Microsoft Docs
 description: Learn about tools for data solutions in Visual Studio.
 ms.technology: "vs-data-tools"
 ---
@@ -30,7 +30,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/library/hh272686(v=vs.103).aspx">
+        <a href="/sql/ssdt/download-sql-server-data-tools-ssdt">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -16,21 +16,7 @@ ms.assetid: c55bda01-d7de-4823-8f9a-1bcc37dbb74a
 caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # Call Hierarchy
 Call Hierarchy enables you to navigate through your code by displaying all calls to and from a selected method, property, or constructor. This enables you to better understand how code flows and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code, which enables you to explore all possible execution paths.  
@@ -49,16 +35,16 @@ Call Hierarchy window
   
 -   If you expand the **Calls From** node, all members that are called by the selected member are displayed.  
   
- You can then expand each of these subnode members into **Calls To** and **Calls From** nodes. This enables you to navigate into the stack of callers, as shown in the following illustration.  
+You can then expand each of these subnode members into **Calls To** and **Calls From** nodes. This enables you to navigate into the stack of callers, as shown in the following illustration.  
   
- ![Call Hierarchy Multiple Nodes Open](../../ide/media/multiplenodes.png "MultipleNodes")  
+![Call Hierarchy Multiple Nodes Open](../../ide/media/multiplenodes.png "MultipleNodes")  
 Call Hierarchy window  
   
- For members that are defined as either virtual or abstract, an **Overrides method name** node appears. For interface members, an **Implements method name** node appears. These expandable nodes appear at the same level as the **Calls To** and **Calls From** nodes.  
+For members that are defined as either virtual or abstract, an **Overrides method name** node appears. For interface members, an **Implements method name** node appears. These expandable nodes appear at the same level as the **Calls To** and **Calls From** nodes.  
   
- The **Search Scope** box on the toolbar contains choices for **My Solution**, **Current Project**, and **Current Document**.  
+The **Search Scope** box on the toolbar contains choices for **My Solution**, **Current Project**, and **Current Document**.  
   
- When you select a child member in the **Call Hierarchy** tree view pane:  
+When you select a child member in the **Call Hierarchy** tree view pane:  
   
 -   The **Call Hierarchy** details pane displays all lines of code in which that child member is called from the parent member.  
   

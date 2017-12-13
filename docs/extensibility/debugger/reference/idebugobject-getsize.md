@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugObject::GetSize method"
 ms.assetid: 89af423b-36eb-479d-b2de-2693455eca15
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugObject::GetSize
 Gets the size of the object in bytes.  

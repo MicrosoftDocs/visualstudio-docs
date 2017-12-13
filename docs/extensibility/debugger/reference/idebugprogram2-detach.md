@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProgram2::Detach"
 ms.assetid: 5e8d88b0-a8d4-4746-88c0-ad332ee73f33
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProgram2::Detach
 Detaches a debug engine from the program.  

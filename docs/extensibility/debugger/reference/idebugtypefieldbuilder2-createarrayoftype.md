@@ -13,22 +13,9 @@ helpviewer_keywords:
   - "CreateArrayOfType"
 ms.assetid: 85166ac9-0bff-49a0-b2fd-ca7f7a8eae4b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 Creates an array of the specified type and size.  

@@ -15,29 +15,14 @@ ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Options, Text Editor, JavaScript, IntelliSense
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
- The **IntelliSense** page contains the following sections:  
+The **IntelliSense** page contains the following sections:  
   
 ## Validation  
  You can use these options to set preferences for how the JavaScript editor validates syntax in your document.  
@@ -81,14 +66,14 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
 -   Generic, for other JavaScript project types.  
   
- **Included files**  
- This option specifies the order in which files are loaded into the context of the language service. You can configure the order by using the **Remove**, **Move Up**, and **Move Down** buttons. For IntelliSense to work correctly, a file that is dependent on another must be loaded after the other file.  
+**Included files**  
+This option specifies the order in which files are loaded into the context of the language service. You can configure the order by using the **Remove**, **Move Up**, and **Move Down** buttons. For IntelliSense to work correctly, a file that is dependent on another must be loaded after the other file.  
   
 > [!CAUTION]
 >  If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.  
   
- **Add a reference to the group**  
- This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.  
+**Add a reference to the group**  
+This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.  
   
 ## See Also  
- [JavaScript IntelliSense](../../ide/javascript-intellisense.md)
+[JavaScript IntelliSense](../../ide/javascript-intellisense.md)

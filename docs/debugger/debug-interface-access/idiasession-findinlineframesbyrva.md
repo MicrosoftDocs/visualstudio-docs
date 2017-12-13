@@ -14,22 +14,7 @@ ms.assetid: ddb3ff0e-cb3d-4fa0-af56-f064b218b264
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # IDiaSession::findInlineFramesByRVA
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA).  

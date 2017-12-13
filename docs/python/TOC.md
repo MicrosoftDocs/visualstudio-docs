@@ -41,6 +41,5 @@
 ## [Profiling](profiling.md)
 ## [Unit Testing](unit-testing.md)
 ## [Using the Cookiecutter Extension](cookiecutter.md)
-## [Installation for Visual Studio 2015 and earlier](installation.md)
 # Reference
 ## [Options](options.md)

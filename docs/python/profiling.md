@@ -1,7 +1,7 @@
 ---
 title: "Measuring the performance of Python Code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 07/13/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2723d4d0-89c8-4279-bfc2-27c0834a997e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Profiling Python Code
@@ -28,11 +27,10 @@ When you select **OK**, the profiler runs and opens a performance report through
 
 ![Profiling performance report](media/profiling-results.png)
 
-For an overview, see the following
+For a demonstration, see the video [Profiling Python](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567) (Microsoft Virtual Academy, 3m00s).
 
-For a walkthrough demonstration, see the [Profiling with Python Tools for Visual Studio](http://www.youtube.com/watch?v=K-KqkFkp55k) video (8m52s).
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Testing-Python-hb46k6LWE_405918567]
 
-> [!VIDEO https://www.youtube.com/embed/K-KqkFkp55k]
 
 ## Profiling for IronPython
 

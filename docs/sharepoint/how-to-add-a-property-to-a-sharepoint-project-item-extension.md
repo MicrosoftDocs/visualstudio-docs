@@ -19,7 +19,7 @@ ms.assetid: 4fd97ef2-86e7-4d92-8e34-5b0ec3cc43a0
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 ---
 # How to: Add a Property to a SharePoint Project Item Extension
   You can use a project item extension to add a property to any SharePoint project item that is already installed in Visual Studio. The property appears in the **Properties** window when the project item is selected in **Solution Explorer**.  

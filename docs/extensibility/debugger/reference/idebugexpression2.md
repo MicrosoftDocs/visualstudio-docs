@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugExpression2 interface"
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugExpression2
 This interface represents a parsed expression ready for binding and evaluating.  

@@ -14,22 +14,9 @@ helpviewer_keywords:
   - "IDebugProcess2::EnumThreads"
 ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugProcess2::EnumThreads
 Retrieves a list of all the threads running in the process.  

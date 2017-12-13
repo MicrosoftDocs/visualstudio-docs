@@ -10,24 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4cd4fc0b-974a-4e61-9ea8-0aaa1a0c52ea
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
 ---
 # UnInit
 Finalizes the graphics log file, closes it, and frees resources that were used while the app was actively recording graphics information.  

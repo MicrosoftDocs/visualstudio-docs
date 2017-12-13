@@ -1,7 +1,7 @@
 ---
 title: "Workspaces in R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/30/2017
+ms.date: 06/30/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,10 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d610279c-d6c3-4084-939a-bf042f64d4dd
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
 ---
 
 # Controlling where R code runs with workspaces
@@ -31,6 +30,7 @@ In this topic:
 - [Saving and resetting a workspace](#saving-and-resetting-a-workspace)
 - [Local workspaces](#local-workspaces)
 - [Remote workspaces](#remote-workspaces)
+- [Remote workspace logon](#remote-workspace-logon)
 - [Switching between workspaces](#switching-between-workspaces)
 - [Directories on local and remote computers](#directories-on-local-and-remote-computers)
 - [Copying project files to remote workspaces](#copying-project-files-to-remote-workspaces)
@@ -69,6 +69,17 @@ Visual Studio doesn't automatically detect remote workspaces, so you must add th
 > [!Note]
 > Remote workspaces are effectively in preview. We are working on a better implementation of the file sync problem for a future release and welcome your ideas and feedback.
 
+## Remote Workspace Logon
+
+You must use a username and password to logon to the remote workspace.
+
+### Logon to Windows workspace
+
+If your remote machine is setup to use your domain account, you can use the domain logon to access a remote workspace. If it is not, then you have to use `machine-name\username` format to logon using a machine account on the remote machine.
+
+### Logon to Linux workspace
+
+To logon to a linux account use `<<unix>>\username` format. For example, if you have an account by the name `ruser`, then you should type in the username as `<<unix>>\ruser`.
 
 ## Switching between workspaces
 

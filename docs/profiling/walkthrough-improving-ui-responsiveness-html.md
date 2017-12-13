@@ -14,33 +14,18 @@ dev_langs:
   - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "performance tools, JavaScript [Store apps]"
-  - "performance, JavaScript [Store apps]"
-  - "performance, HTML [Store apps]"
-  - "performance tools, HTML [Store apps]"
+  - "performance tools, JavaScript [UWP apps]"
+  - "performance, JavaScript [UWP apps]"
+  - "performance, HTML [UWP apps]"
+  - "performance tools, HTML [UWP apps]"
 ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
 ---
 # Walkthrough: Improving UI responsiveness (HTML)
-This walkthrough leads you through the process of identifying and fixing a performance issue by using the [HTML UI responsiveness profiler](../profiling/html-ui-responsiveness.md). The profiler is available in Visual Studio for Windows Universal and Windows Store apps  using JavaScript. In this scenario, you create a performance test app that updates DOM elements too frequently, and you use the profiler to identify and fix this problem.  
+This walkthrough leads you through the process of identifying and fixing a performance issue by using the [HTML UI responsiveness profiler](../profiling/html-ui-responsiveness.md). The profiler is available in Visual Studio for UWP apps using JavaScript. In this scenario, you create a performance test app that updates DOM elements too frequently, and you use the profiler to identify and fix this problem.  
   
 ### Creating and running the performance test app  
   

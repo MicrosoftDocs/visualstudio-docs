@@ -15,22 +15,9 @@ helpviewer_keywords:
   - "IDebugActivateDocumentEvent2::GetDocumentContext method"
 ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
 Gets the document context that describes the position in the document that is to be made active by the debug package.  
