@@ -29,11 +29,11 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 -   **[Make cross-platform mobile apps in C# or Visual Basic (Xamarin)](../cross-platform/visual-studio-and-xamarin.md)** : Get started using Visual Studio and Tools for Xamarin to create mobile apps that run on Android, iOS, and the Universal Windows Platform from a shared code base.  
 
-     Load a sample: [Tasky Portable](http://developer.xamarin.com/samples/mobile/TaskyPortable/) (native UI) or  [Xamarin Forms Todo sample](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) (Xamarin.Forms shared UI) &#124;   [Do a tutorial](https://msdn.microsoft.com/library/dn879698.aspx) &#124;                             [Browse the docs](https://msdn.microsoft.com/en-us/library/mt299001.aspx) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/Cross-Platform-Development-with-Xamarin--Visual-Studio/01)  
+     Load a sample: [Tasky Portable](http://developer.xamarin.com/samples/mobile/TaskyPortable/) (native UI) or  [Xamarin Forms Todo sample](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) (Xamarin.Forms shared UI) &#124;   [Do a tutorial](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md) &#124;                             [Browse the docs](../cross-platform/visual-studio-and-xamarin.md) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/Cross-Platform-Development-with-Xamarin--Visual-Studio/01)  
 
 -   **[Make native cross-platform apps and libraries in C++](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)** Go here to get started creating C++ apps and libraries that run on Android, iOS, and the Universal Windows Platform.  
 
-     [Load a sample](https://code.msdn.microsoft.com/MoreTeaPots-Android-a9bd8549) &#124;   [Do a tutorial](https://msdn.microsoft.com/en-us/library/dn707595.aspx) &#124;                             [Browse the docs](https://msdn.microsoft.com/en-us/library/dn707591.aspx) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/ConnectOn-Demand/239)  
+     [Load a sample](https://code.msdn.microsoft.com/MoreTeaPots-Android-a9bd8549) &#124;   [Do a tutorial](../cross-platform/create-an-android-native-activity-app.md) &#124;                             [Browse the docs](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md) &#124;                                  [Watch a video](https://channel9.msdn.com/Series/ConnectOn-Demand/239)  
 
 -   **[Make games with DirectX](https://msdn.microsoft.com/en-us/library/windows/desktop/ee663274.aspx)** : Get started creating Universal Windows Platform games using DirectX.  
 
@@ -41,7 +41,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 -   **[Make games with Unity](../cross-platform/visual-studio-tools-for-unity.md)** : Get started creating cross-platform games using Unity framework.  
 
-     [Load a sample](http://unity3d.com/learn/resources/downloads) &#124;                     [Do a tutorial](http://unity3d.com/learn/tutorials/projects/roll-ball-tutorial) &#124;                               [Browse the docs](https://msdn.microsoft.com/en-us/library/dn940019.aspx) &#124;     [Watch a video](https://www.youtube.com/playlist?list=PLReL099Y5nRfseAg0k1SJOlpqdcsDs8Em)  
+     [Load a sample](http://unity3d.com/learn/resources/downloads) &#124;                     [Do a tutorial](http://unity3d.com/learn/tutorials/projects/roll-ball-tutorial) &#124;                               [Browse the docs](../cross-platform/visual-studio-tools-for-unity.md) &#124;     [Watch a video](https://www.youtube.com/playlist?list=PLReL099Y5nRfseAg0k1SJOlpqdcsDs8Em)  
 
 -   **[Make Universal Windows Platform apps](https://dev.windows.com/en-us/windows-apps)** : Get started creating apps that run on the Universal Windows Platform (XBox, PCs, tablets, Windows Phone, Surface Hub, and Internet of Things).  
 
@@ -49,7 +49,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 -   **[Make desktop applications](https://dev.windows.com/en-us/desktop)** : Go here to get started creating traditional desktop applications that run on Windows PCs.  
 
-     [Load a sample](https://github.com/microsoft/windows-classic-samples) &#124;                     [Do a tutorial](https://msdn.microsoft.com/en-us/library/dd492171.aspx) &#124;                               [Browse the docs](https://dev.windows.com/en-us/desktop)  
+     [Load a sample](https://github.com/microsoft/windows-classic-samples) &#124;                     [Do a tutorial](getting-started-with-visual-csharp-and-visual-basic.md) &#124;                               [Browse the docs](https://dev.windows.com/en-us/desktop)  
 
 -   **[Make Office applications](https://msdn.microsoft.com/en-us/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and Powerpoint with Office 365 services.  
 

@@ -1,11 +1,10 @@
 ---
-title: "Visual Studio refactoring features (Visual Basic) | Microsoft Docs"
+title: "Refactoring features for Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -14,20 +13,19 @@ f1_keywords:
   - "vs.vb.refactoring.buildwarning"
   - "VS.PreviewChanges"
 dev_langs: 
-  - "visual-basic"
+  - "VB"
 helpviewer_keywords: 
   - "refactoring [VB]"
-ms.assetid: 7312ea3f-7045-41e8-a699-7b580508d074
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
+# Refactoring in Visual Basic
 
-# Refactoring
-Refactoring is the process of improving your code after it has been written by changing the internal structure of the code without changing the external behavior of the code.  
-  
-Visual Basic provides the following refactoring features:  
-  
+Refactoring is the process of changing the internal structure of code without changing its behavior. Refactoring is often used to make code more readable, maintainable, and reliable.
+
+Visual Basic provides the following refactoring features:
+
 * [Change Method Signature](refactoring/change-method-signature.md)
 * [Encapsulate Field](refactoring/encapsulate-field.md)
 * [Extract Interface](refactoring/extract-interface.md)
@@ -37,3 +35,8 @@ Visual Basic provides the following refactoring features:
 * [Move Type to Matching File](refactoring/move-type-to-matching-file.md)
 * [Rename](refactoring/rename.md)
 * [Sync Type and  Filename](refactoring/sync-type-and-file.md)
+
+## See also
+
+[Refactoring, Code Generation and Quick Actions in Visual Studio](../ide/refactoring-code-generation-quick-actions.md)  
+[Refactoring in C#](../csharp-ide/refactoring-csharp.md)
