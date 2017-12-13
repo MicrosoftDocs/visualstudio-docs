@@ -48,7 +48,7 @@
 ### [Unit testing Visual C# code in UWP apps](unit-testing-visual-csharp-code-in-a-store-app.md)
 ### [Run unit tests for UWP apps](run-unit-tests-for-store-apps-in-visual-studio.md)
 ## [Using Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-## [Customizing Code Coverage Analysis](customizing-code-coverage-analysis.md)
+### [Customizing Code Coverage Analysis](customizing-code-coverage-analysis.md)
 ### [Analyzing Code Coverage in Build Verification Tests](analyzing-code-coverage-in-build-verification-tests.md)
 ### [Troubleshooting Code Coverage](troubleshooting-code-coverage.md)
 ## [Using emulators to isolate unit tests for Sharepoint 2010 applications](using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md)
