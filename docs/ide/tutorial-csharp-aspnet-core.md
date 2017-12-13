@@ -99,37 +99,33 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
 
- ![Configuration files in the Solutioni Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
+ ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
-## Run and debug the application
+### Run and debug the application
 
-1. Press **F5** to build and run the application. Alternatively, you can select **Debug > Start Debugging**.
+1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, you can press **F5**, or you can choose **Debug > Start Debugging** from the menu bar.)
 
-1. Visual Studio will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
+  ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
- ![](../ide/media/name.png)
+1. Visual Studio launches a browser window. Select **About**.
 
-1. The second is a typical browser window to test the site. As far as the browser knows, this application could be hosted anywhere. Click **About** to navigate to that page.
+ ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
- ![](../ide/media/name.png)
+ Among other things, the about page renders some text set in the HomeController.cs file.
 
-1. Among other things, the about page renders some text set in the controller.
+1. Keep the browser window open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
 
- ![](../ide/media/name.png)
-
-1. Keep both windows open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
-
- ![](../ide/media/name.png)
+ ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
 1. Set a breakpoint in the first line of the **About** method. You can do this by clicking in the margin or setting the cursor on the line and pressing **F9**. This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
 
- ![](../ide/media/name.png)
+ ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
 
-1. Return to the browser and refresh the about page. This will trigger the breakpoint in Visual Studio.
+1. Return to the browser and refresh the About page. This will trigger the breakpoint in Visual Studio.
 
-1. Mouse over the **ViewData** member to view its data. You can also expand its child members to see nested data.
+1. In Visual Studio, mouse over the **ViewData** member to view its data.
 
- ![](../ide/media/name.png)
+ ![View the ViewData member of the About method to see more info](../ide/media/csharp-aspnet-home-controller-view-breakpoint-info.png)
 
 1. Remove the application breakpoint using the same method you used to add it.
 
@@ -137,19 +133,13 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Change the text **"additional"** to **"changed"** and save the file.
 
- ![](../ide/media/name.png)
+ ![Change the text that reads "additional" to text that reads "changed"](../ide/media/csharp-aspnet-about-cshtml-code-change.png)
 
-1. Press the **Continue** button to continue execution.
+1. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text you changed.)
 
- ![](../ide/media/name.png)
+  ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
 
-1. Return to the browser window to see the updated text. Note that this change could be done at any time and didn't necessarily require a debugger breakpoint. Refresh the browser if you don't see the change reflected immediately.
-
- ![](../ide/media/name.png)
-
-1. Close the test browser window and application console. This will stop debugging as well.
-
-
+1. Press **F5** to stop debugging.
 
 Congratulations on completing this tutorial!
 
