@@ -19,9 +19,9 @@ If you want to obtain a service without blocking the UI thread, you should creat
   
 ## Implementing an Asynchronous Service  
   
-1.  Create a VSIX project (**File / New / Project / Visual C# / Extensiblity / VSIX Project**). Name the project **TestAsync**.  
+1.  Create a VSIX project (**File > New > Project > Visual C# > Extensiblity > VSIX Project**). Name the project **TestAsync**.  
   
-2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add / New item / Visual C# Items / Extensibility / Visual Studio Package**. Name this file **TestAsyncPackage.cs**.  
+2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**. Name this file **TestAsyncPackage.cs**.  
   
 3.  In TestAsyncPackage.cs, change the package to inherit from AsyncPackage rather than Package:  
   
