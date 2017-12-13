@@ -85,7 +85,7 @@ The allowable values are listed below, and you can specify multiple values by se
 - readonly
 - static or shared
 
-If you omit this property, your naming rule will apply to all modifiers.
+`required_modifiers` is an optional property. If you omit this property, your naming rule will apply to all modifiers.
 
 ## Style
 
