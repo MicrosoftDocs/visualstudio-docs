@@ -71,7 +71,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 ### About your solution
 This solution follows the Model-View-Controller (MVC) architectural pattern that separates an app into three main components:
 
-* **Models** includes classes that represent the data of the app. The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
+* **Models** include classes that represent the data of the app. The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
 * **Views** are the components that display the app's user interface (UI). Generally, this UI displays the model data.
 * **Controllers** include classes that handle browser requests. They retrieve model data and call view templates that return a response. In an MVC app, the view displays only the information; the controller handles and responds to user input and interaction.
 
@@ -119,6 +119,8 @@ The MVC pattern helps you create apps that are easier to test and update than tr
  ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
  Among other things, the about page renders some text set in the HomeController.cs file.
+
+   ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
 1. Keep the browser window open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
 
