@@ -1,18 +1,15 @@
 ---
-title: "Improve Code Quality | Microsoft Docs"
+title: "Unit testing in Visual Studio | Microsoft Docs"
 ms.custom: na
 ms.date: "02/17/2017"
 ms.reviewer: na
 ms.suite: na
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: na
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "team-based development"
-ms.assetid: 73baa961-c21f-43fe-bb92-3f59ae9b5945
-caps.latest.revision: 39
 ms.author: "douge"
 manager: "douge"
 ---
