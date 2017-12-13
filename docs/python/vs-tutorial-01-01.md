@@ -41,11 +41,11 @@ In this tutorial you begin with a simple project containing a single, empty code
 
 1. In Visual Studio, select **File > New > Project** (Ctrl+Shift+N), which brings up the **New Project** dialog. Here you browse templates across different languages, then select one for your project and specify where Visual Studio places files.
 
-1. To view Python templates, select **Templates > Other Languages > Python** on the left, or searching for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
+1. To view Python templates, select **Installed > Python** on the left, or searching for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
 
     ![New project dialog with Python projects shown](media/vs-getting-started-python-01-new-project.png)
 
-1. Notice how Python support in Visual Studio includes a number of project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project. 
+    Notice how Python support in Visual Studio includes a number of project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project.
 
 1. Select the **Python Application** template, specify a name for the project, and select **OK**. 
 
