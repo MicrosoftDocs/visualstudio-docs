@@ -8,8 +8,8 @@ ms.technology: vs-devops-test
 ms.tgt_pltfrm: na
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Studio ALM"
-  - "team-based development"
+  - "testing tools [Visual Studio]"
+  - "unit tests [Visual Studio]"
 ms.author: "douge"
 manager: "douge"
 ---
@@ -18,7 +18,7 @@ manager: "douge"
 Visual Studio testing tools can help you and your team to develop and sustain high standards of code excellence.
 
 > [!NOTE]
-> Testing tools are only available in Visual Studio Enterprise edition.
+> Unit testing is availble in all editions of Visual Studio. Other testing tools, such as live unit testing, IntelliTest, and Coded UI tests are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio 2017 IDEs](https://www.visualstudio.com/vs/compare/).
 
 ## In this section
 
@@ -33,8 +33,8 @@ Visual Studio testing tools can help you and your team to develop and sustain hi
 
 ## Related scenarios
 
-* [Analyzing application quality with code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
-* [DevOps overview for Team Services and TFS](/vsts/user-guide/devops-alm-overview)
 * [Exploratory & Manual Testing](/vsts/manual-test/)
 * [Load Testing](/vsts/load-test/index)
 * [Continuous Testing](/vsts/build-release/test/index)
+* [DevOps overview for Team Services and TFS](/vsts/user-guide/devops-alm-overview)
+* [Analyzing application quality with code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
