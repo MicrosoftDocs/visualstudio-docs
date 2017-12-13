@@ -13,7 +13,7 @@ helpviewer_keywords:
 dev_langs:
  - "CSharp"
  - "VB"
- - "C++"
+ - "CPP"
 ms.author: "douge"
 manager: "douge"
 ---
