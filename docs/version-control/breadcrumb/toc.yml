@@ -13,8 +13,3 @@
       - name: Version Control
         tocHref: /visualstudio/version-control/
         topicHref: /visualstudio/version-control/index
-        items:
-        - name: Learn about version control and Git
-          tocHref: /visualstudio/version-control/
-          topicHref: /vsts/git/tutorial/gitworkflow
-
