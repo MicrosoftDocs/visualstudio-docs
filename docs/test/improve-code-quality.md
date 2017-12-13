@@ -22,15 +22,14 @@ Visual Studio testing tools can help you and your team to develop and sustain hi
 
 ## In this section
 
-|||
-|-|-|
-|[Unit Test Your Code](../test/unit-test-your-code.md)|Test Explorer makes it easy to integrate unit tests in your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.|
-|[IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)|IntelliTest automatically generates unit tests and test data for your managed code.|
-|[Code Coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|Code coverage determines what proportion of your project's code is actually being tested by coded tests such as unit tests.|
-|[Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|Microsoft Fakes help you isolate the code you are testing by replacing other parts of the application with stubs or shims.|
-|[Live Unit Testing](../test/live-unit-testing.md)|Live Unit Testing automatically runs unit tests in the background and graphically displays code coverage and test results in the Visual Studio code editor.|
-|[UI Automation](../test/use-ui-automation-to-test-your-code.md)|Use Coded UI tests to drive your application through its user interface.|
-|[Lab Management](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md)|A lab environment is a collection of virtual and physical machines that you can use to develop and test applications.|
+-|-
+[Unit Test Your Code](../test/unit-test-your-code.md)|Test Explorer makes it easy to integrate unit tests in your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.
+[IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)|IntelliTest automatically generates unit tests and test data for your managed code.
+[Code Coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|Code coverage determines what proportion of your project's code is actually being tested by coded tests such as unit tests.
+[Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|Microsoft Fakes help you isolate the code you are testing by replacing other parts of the application with stubs or shims.
+[Live Unit Testing](../test/live-unit-testing.md)|Live Unit Testing automatically runs unit tests in the background and graphically displays code coverage and test results in the Visual Studio code editor.
+[UI Automation](../test/use-ui-automation-to-test-your-code.md)|Use Coded UI tests to drive your application through its user interface.
+[Lab Management](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md)|A lab environment is a collection of virtual and physical machines that you can use to develop and test applications.
 
 ## Related scenarios
 
