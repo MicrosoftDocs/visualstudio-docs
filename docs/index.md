@@ -553,7 +553,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li>
-                                <a href="/vsts/#pivot=services&panel=code">
+                                <a href="/visualstudio/version-control/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
