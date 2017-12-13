@@ -4,7 +4,8 @@
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
-## Installing offline
+### [Extend a trial version or update a license](ide/how-to-unlock-visual-studio.md)
+## Install offline
 ### [Create an offline installation of Visual Studio](install/create-an-offline-installation-of-visual-studio.md)
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
 ### [Install on low-bandwidth or unreliable network environments](install/install-vs-inconsistent-quality-network.md)
@@ -15,16 +16,16 @@
 ## [Repair Visual Studio](install/repair-visual-studio.md)
 ## [Uninstall Visual Studio](install/uninstall-visual-studio.md)
 ## [Visual Studio Administrator Guide](install/visual-studio-administrator-guide.md)
-### Using the command-line
+### Use the command-line
 #### [Use command-line parameters to install Visual Studio](install/use-command-line-parameters-to-install-visual-studio.md)
 #### [Command-line parameter examples](install/command-line-parameter-examples.md)
-### Installing on a network
+### Install on a network
 #### [Create a network-based installation of Visual Studio](install/create-a-network-installation-of-visual-studio.md)
 #### [Update a network-based installation of Visual Studio](install/update-a-network-installation-of-visual-studio.md)
 #### [Installing Visual Studio behind a firewall or proxy server](install/install-visual-studio-behind-a-firewall-or-proxy-server.md)
 #### [Correcting proxy authorization errors](ide/reference/proxy-authorization-required.md)
 #### [Whitelisting URLs in a private network](ide/whitelisting-urls-in-a-private-network.md)
-### Deploying in an enterprise
+### Deploy in an enterprise
 #### [Automate Visual Studio installation with a response file](install/automated-installation-with-response-file.md)
 #### [Automatically apply product keys when deploying Visual Studio](install/automatically-apply-product-keys-when-deploying-visual-studio.md)
 #### [Set defaults for enterprise deployments of Visual Studio](install/set-defaults-for-enterprise-deployments.md)
