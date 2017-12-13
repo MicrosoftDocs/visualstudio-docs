@@ -36,4 +36,5 @@ Refactoring is the process of improving your code after it has been written. Ref
 
 ## See also
 
-[Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)  
+[Refactoring, Code Generation and Quick Actions in Visual Studio](../ide/refactoring-code-generation-quick-actions.md)  
+[Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)
