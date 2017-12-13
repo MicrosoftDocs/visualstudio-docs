@@ -108,7 +108,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
-### Run and debug the application
+## Run and debug the application
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, you can press **F5**, or you can choose **Debug > Start Debugging** from the menu bar.)
 
