@@ -68,23 +68,30 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
 
-### Take a tour of your solution
+### About your solution
+This solution follows the Model-View-Controller (MVC) architectural pattern that separates an app into three main components:
 
+* **Models** includes classes that represent the data of the app. The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
+* **Views** are the components that display the app's user interface (UI). Generally, this UI displays the model data.
+* **Controllers** include classes that handle browser requests. They retrieve model data and call view templates that return a response. In an MVC app, the view displays only the information; the controller handles and responds to user input and interaction.
+
+The MVC pattern helps you create apps that are easier to test and update than traditional monolithic apps.
+
+### Tour your solution
 1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Expand the project node to expose its contents.
 
     ![ASP.NET Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-mycoreapp.png)
 
-2. This project follows the model-view-controller (MVC) paradigm to provide a clear division of responsibilities between data (models), presentation (views), and functionality (controllers). Open the **HomeController.cs** file from the **Controllers** folder.
+1. Open the **HomeController.cs** file from the **Controllers** folder.
 
       ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
-3. The **HomeController** class&mdash;by convention&mdash;handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory&mdash;for example, http://site.com/Home). Other methods handle requests to their named path, based on convention (for example, **About()** would handle requests to **http://site.com/Home/About**). You can configure this as you want. An item of note: The **HomeController** is the default controller in a new project, so requests to the root of the site&mdash;for example, http://site.com&mdash;would go through **Index()** of the **HomeController**, just like requests to **http://site.com/Home** or **http://site.com/Home/Index** do.
-
+2. View the **HomeController.cs**
   ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
 
 4. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views. For example, the view CSHTML file (an extension of HTML) for the **/Home/About** path would be at **Views/Home/About.cshtml**. Open that file.
 
- ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
+  ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
 5. This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
 
@@ -117,7 +124,9 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
  ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
-1. Set a breakpoint in the first line of the **About** method. You can do this by clicking in the margin or setting the cursor on the line and pressing **F9**. This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
+1. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
+
+  This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
 
  ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
 
@@ -146,5 +155,3 @@ Congratulations on completing this tutorial!
 ## See also
 * [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 * [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
-
-
