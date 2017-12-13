@@ -106,7 +106,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 2.  Implement the callback method, which should create and return the service, or null if it cannot be created.  
   
-    ```  
+    ```csharp  
     private object CreateService(IServiceContainer container, Type serviceType)  
     {  
         if (typeof(SMyService) == serviceType)  
