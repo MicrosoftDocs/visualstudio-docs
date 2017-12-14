@@ -5,7 +5,7 @@
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
 ### [Extend a trial version or update a license](ide/how-to-unlock-visual-studio.md)
-### [Compare Visual Studio subscription options](/subscriptions/compare-subscriptions.md)  
+### [Compare Visual Studio subscription options...](/subscriptions/compare-subscriptions)
 ## Install offline
 ### [Create an offline installation of Visual Studio](install/create-an-offline-installation-of-visual-studio.md)
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
@@ -32,6 +32,7 @@
 #### [Set defaults for enterprise deployments of Visual Studio](install/set-defaults-for-enterprise-deployments.md)
 #### [Disable or move the package cache](install/disable-or-move-the-package-cache.md)
 #### [Control updates to Visual Studio deployments](install/controlling-updates-to-visual-studio-deployments.md)
+### Manage installations
 #### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
 ### [Help Viewer Administrator Guide](ide/help-viewer-administrator-guide.md)
 #### [Command-Line Arguments for the Help Content Manager](ide/command-line-arguments-for-the-help-content-manager.md)
@@ -206,8 +207,8 @@
 ### [Understanding Build Platforms](ide/understanding-build-platforms.md)
 #### [Configure Projects to Target Platforms](ide/how-to-configure-projects-to-target-platforms.md)
 #### [Configure Projects to Target Multiple Platforms](ide/how-to-configure-projects-to-target-multiple-platforms.md)
-### [MSBuild](msbuild/msbuild.md)
-### [VSTS and TFS](/vsts/build-release/index)
+### [MSBuild...](msbuild/msbuild.md)
+### [VSTS and TFS...](/vsts/build-release/index)
 ### [Specify Build Events (Visual Basic)](ide/how-to-specify-build-events-visual-basic.md)
 ### [Specify Build Events (C#)](ide/how-to-specify-build-events-csharp.md)
 ### [Configuring Warnings in Visual Basic](ide/configuring-warnings-in-visual-basic.md)
@@ -257,7 +258,7 @@
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
 ## Visual Studio Template Reference
-### [Template Schema Reference](extensibility/visual-studio-template-schema-reference.md)
+### [Template Schema Reference...](extensibility/visual-studio-template-schema-reference.md)
 ### [Template Parameters](ide/template-parameters.md)
 ### [Creating Project and Item Templates](ide/creating-project-and-item-templates.md)
 #### [Create Project Templates](ide/how-to-create-project-templates.md)
