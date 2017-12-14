@@ -135,7 +135,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Result of stepping into the Update method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
-    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger. We will do that in the [second half of the tutorial](../debugger/tutorial-inspect-data-and-exceptions.md).
+    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger. We will do that in the next sections of this tutorial.
 
     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
