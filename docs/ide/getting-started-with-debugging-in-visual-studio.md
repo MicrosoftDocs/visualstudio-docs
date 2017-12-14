@@ -94,11 +94,11 @@ The easiest way to build your project is to press F7, but you can also start the
 ### Set Simple Breakpoints  
  Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You do NOT need to rebuild a project after setting and removing breakpoints.  
 
- Set a breakpoint by clicking in the far margin of the line where you want the break to occur, or select the line of code and press F9. When you run your code, it will stop before the instructions for this line of code are executed.  
+ Set a breakpoint by clicking in the far margin of the line where you want the break to occur, or select the line of code and press F9. When you run your code, it will pause (or *break*) before the instructions for this line of code are executed.  
 
  ![Visual Studio breakpoint](../ide/media/vs_ide_gs_debug_breakpoint1.png "Vs_ide_gs_debug_breakpoint1")  
 
- When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing **F11**. You can also "step over" the line of code by pressing F10. For more details on code stepping, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).  
+ When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called *stepping into* the code. If the marked code is a method call, you can step into it by pressing **F11**. You can also "step over" the line of code by pressing **F10**. For more details on code stepping, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md). 
 
  Common uses for breakpoints include:  
 
@@ -117,9 +117,9 @@ The easiest way to build your project is to press F7, but you can also start the
 
  ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG "vs_ide_gs_debug_inspect_value")  
 
- Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
+ Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger. 
 
- Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Use them to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
+ Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Later in your testing, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
 ### Perform Static Code Analysis  
  "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you've cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, as well as learn a few code style techniques.  
