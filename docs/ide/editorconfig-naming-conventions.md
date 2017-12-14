@@ -39,7 +39,7 @@ To describe the kind of symbols to apply the naming rule to, specify a property 
 
 `dotnet_naming_symbols.<symbolTitle>.applicable_kinds = <values>`
 
-The allowable values are listed below, and you can specify multiple values by separating them with a comma.
+The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all symbols)
 - class
@@ -59,7 +59,7 @@ To describe the accessibility levels of the symbols you want the naming rule to 
 
 `dotnet_naming_symbols.<symbolTitle>.applicable_accessibilities = <values>`
 
-The allowable values are listed below, and you can specify multiple values by separating them with a comma.
+The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all accessibility levels)
 - public
@@ -77,16 +77,15 @@ To describe the modifiers of the symbols you want the naming rule to apply to, s
 
 `dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
 
-The allowable values are listed below, and you can specify multiple values by separating them with a comma.
+The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
-- \* (use this value to specify all modifiers)
 - abstract or must_inherit
 - async
 - const
 - readonly
 - static or shared
 
-If you omit this property, your naming rule will apply to all modifiers.
+`required_modifiers` is an optional property. If you omit this property, your naming rule will apply to all modifiers.
 
 ## Style
 
@@ -141,7 +140,7 @@ The following table shows the allowable severity values, and what they mean:
 
 Severity | Effect
 ------------ | -------------
-none or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code will follow this style.
+none or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code follows this style.
 suggestion | When this style is not being followed, show it to the user as a suggestion, as underlying dots on the first two characters. It has no effect at compile time.
 warning | When this style is not being followed, show a compiler warning in the Error List.
 error | When this style is not being followed, show a compiler error in the Error List.
@@ -151,7 +150,7 @@ error | When this style is not being followed, show a compiler error in the Erro
 
 ## Example
 
-Below is an example .editorconfig file that contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
+The following .editorconfig file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
 ```
 # Public members must be capitalized (public_members_must_be_capitalized)
