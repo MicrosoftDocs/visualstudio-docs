@@ -5,7 +5,7 @@
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
 ### [Extend a trial version or update a license](ide/how-to-unlock-visual-studio.md)
-### [Compare Visual Studio subscription options](/subscriptions/compare-subscriptions.md)  
+### [Compare Visual Studio subscription options](subscriptions/compare-subscriptions.md)  
 ## Install offline
 ### [Create an offline installation of Visual Studio](install/create-an-offline-installation-of-visual-studio.md)
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
@@ -32,6 +32,7 @@
 #### [Set defaults for enterprise deployments of Visual Studio](install/set-defaults-for-enterprise-deployments.md)
 #### [Disable or move the package cache](install/disable-or-move-the-package-cache.md)
 #### [Control updates to Visual Studio deployments](install/controlling-updates-to-visual-studio-deployments.md)
+### Manage installations
 #### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
 ### [Help Viewer Administrator Guide](ide/help-viewer-administrator-guide.md)
 #### [Command-Line Arguments for the Help Content Manager](ide/command-line-arguments-for-the-help-content-manager.md)

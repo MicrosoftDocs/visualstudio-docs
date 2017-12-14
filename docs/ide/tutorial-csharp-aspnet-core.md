@@ -114,6 +114,9 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
   ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
+  > [!NOTE]
+  > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+
 1. Visual Studio launches a browser window. Select **About**.
 
  ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
@@ -141,6 +144,8 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 1. Remove the application breakpoint using the same method you used to add it.
 
 1. Open **Views/Home/About.cshtml**.
+
+ ![Select About.cshtml in the Solution Explorer](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
 1. Change the text **"additional"** to **"changed"** and save the file.
 
