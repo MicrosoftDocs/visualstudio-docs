@@ -1,5 +1,5 @@
 ---
-title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
+title: "Python interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""

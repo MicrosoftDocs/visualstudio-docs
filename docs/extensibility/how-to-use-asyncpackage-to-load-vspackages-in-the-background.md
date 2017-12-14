@@ -15,7 +15,7 @@ ms.author: "gregvanl"
 Loading and initializing a VS package can result in disk I/O. If such I/O happens on the UI thread, it can lead to responsiveness issues. To address this, Visual Studio 2015 introduced the  <xref:Microsoft.VisualStudio.Shell.AsyncPackage> class that enables package loading on a background thread.  
   
 ## Creating an AsyncPackage  
- You can start by creating a VSIX project (**File / New / Project / Visual C# / Extensibility / VSIX Project**) and adding a VSPackage to the project (right click on the project and **Add/New Item/C# item/Extensibility/Visual Studio Package**). You can then create your services and add those services to your package.  
+ You can start by creating a VSIX project (**File > New > Project > Visual C# > Extensibility > VSIX Project**) and adding a VSPackage to the project (right click on the project and **Add/New Item/C# item/Extensibility/Visual Studio Package**). You can then create your services and add those services to your package.  
   
 1.  Derive the package from <xref:Microsoft.VisualStudio.Shell.AsyncPackage>.  
   
