@@ -14,7 +14,7 @@ ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug with C++ using the Visual Studio debugger
 

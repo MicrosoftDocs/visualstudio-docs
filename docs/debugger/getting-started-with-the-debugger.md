@@ -14,7 +14,7 @@ ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Learn to debug using Visual Studio
 
@@ -286,6 +286,7 @@ To learn more about the features of the debugger, see [Debugger Tips and Tricks]
 <iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+## See also
+
+[Debugging in Visual Studio](../debugger/index.md)  
+[Debugger Feature Tour](../debugger/debugger-feature-tour.md)
