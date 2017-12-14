@@ -14,7 +14,7 @@ ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
 ---
 # Debug with managed code using the Visual Studio debugger
 
