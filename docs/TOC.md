@@ -271,7 +271,7 @@
 #### [Customizing Project and Item Templates](ide/customizing-project-and-item-templates.md)
 ##### [Update Existing Templates](ide/how-to-update-existing-templates.md)
 ##### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
-##### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
+#### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
 ## General User Interface Elements
 ### [Call Hierarchy](ide/reference/call-hierarchy.md)
 ### [Choose Toolbox Items, WPF Components](ide/reference/choose-toolbox-items-wpf-components.md)
