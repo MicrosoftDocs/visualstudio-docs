@@ -1,5 +1,5 @@
 ---
-title: "R Tools Options in Visual Studio | Microsoft Docs"
+title: "R Tools options in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -21,6 +21,10 @@ manager: ghogen
 ---
 
 # R Tools for Visual Studio options
+
+Settings are accessed through the **R Tools > Options** menu, or through **Tools > Options** and scrolling to **R Tools**:
+
+  ![Options dialog for R Tools](media/options-dialog.png)
 
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 

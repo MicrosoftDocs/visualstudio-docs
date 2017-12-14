@@ -41,10 +41,9 @@ This topic describes creating a local Git repository for an existing project. Fo
 
 1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select **Sync** to push your local commits.
 
-## Going Deeper
+## Going deeper
 
 For a more extensive tutorial on working with Git, see [Share your code with Visual Studio 2017 and VSTS Git](https://docs.microsoft.com/vsts/git/share-your-code-in-git-vs-2017)
-
 
 ## Tutorial review
 
@@ -59,7 +58,7 @@ Congratulations on completing this tutorial on Python in Visual Studio. In this 
 
 From here, explore the Concepts and How-to Guides, including the following:
 
-- [Creating a C++ Extension for Python](cpp-and-python.md)
+- [Creating a C++ extension for Python](cpp-and-python.md)
 - [Publishing to Azure App Service](publishing-to-azure.md)
 - [Profiling](profiling.md)
-- [Unit Testing](unit-testing.md)
+- [Unit testing](unit-testing.md)

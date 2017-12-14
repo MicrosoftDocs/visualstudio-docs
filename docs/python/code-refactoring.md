@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Python Code in Visual Studio | Microsoft Docs"
+title: "Refactoring Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -25,6 +25,7 @@ Visual Studio provides several commands for automatically transforming and clean
 - [Remove unused imports](#remove-imports) removes unused imports
 
 <a name="rename-variable"</a>
+
 ## Rename
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit > Refactor > Rename...** menu command (F2).
