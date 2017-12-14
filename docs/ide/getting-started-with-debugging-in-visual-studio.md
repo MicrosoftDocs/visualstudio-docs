@@ -14,13 +14,13 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
 ---
-# Getting Started with Debugging in Visual Studio
+# Get Started with Debugging in Visual Studio
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this topic, find out how to start using the most basic set of debugging UI features.  
 
 ## My code doesn't work. Help me, Visual Studio!  
  So you've figured out the editor and you've created some code. Now, you want to start debugging that code. In Visual Studio, as with most IDEs, there are two phases to debugging: building the code to catch and resolve project and compiler errors; and running that code in the environment to catch and resolve run-time and dynamic errors.  
 
-### Building your Code  
+### Build your Code  
  There are two basic types of build configuration: **Debug** and **Release**. The first configuration produces a slower, larger executable that allows for a richer interactive run-time debugging experience, but should never be shipped. The second builds a faster, more optimized executable that's appropriate to ship (at least from the perspective of the compiler). The default build configuration is **Debug**.
 
 The easiest way to build your project is to press F7, but you can also start the build by selecting **Build > Build Solution** from the main menu.  
@@ -35,7 +35,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  ![Visual Studio successful build output](../ide/media/vs_ide_gs_debug_success_build.PNG "vs_ide_gs_debug_success_build")  
 
-### Reviewing the Error List  
+### Review the Error List  
  Unless you've made no modifications to code you've previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such a simple syntax error or incorrect variable name, and sometimes they are difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and click the **Error List** tab. This takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.  
 
  ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG "Vs_ide_gs_debug_bad_build_error_list")  
@@ -56,7 +56,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  ![Visual Studio Debug errors window](../ide/media/vs_ide_gs_debug_error_list.PNG "Vs_ide_gs_debug_error_list")  
 
-### Reviewing Errors in Detail  
+### Review Errors in Detail  
  Many errors may make no sense to you, phrased as they are in the terms of the compiler. In those cases, you will need additional information. From the **Error List** window, you can do an automatic Bing search for more information on the error (or warning) by right-clicking on the corresponding entry line and selecting **Show Error Help** from the context menu.  
 
  ![Visual Studio error list Bing search](../ide/media/vs_ide_gs_debug_error_list_error_help.png "Vs_ide_gs_debug_error_list_error_help")  
@@ -65,7 +65,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  Alternatively, you can click on the hyperlinked error code value in the **Code** column of the **Error List**. This will launch a Bing search for just the error code.  
 
-### Using Light Bulbs to Fix or Refactor Code  
+### Use Light Bulbs to Fix or Refactor Code  
  Light Bulbs are a new feature for Visual Studio that let you refactor code inline. They are an easy way to fix common warnings quickly and effectively. To access them, right-click on a warning squiggle (or press Ctrl+. while hovering over the squiggle), and then select **Quick Actions**.  
 
  ![Visual Studio Light Bulb quick options](../ide/media/vs_ide_gs_debug_light_bulb1.png "Vs_ide_gs_debug_light_bulb1")  
@@ -82,24 +82,16 @@ The easiest way to build your project is to press F7, but you can also start the
 
  For more information on Light Bulbs, read [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).  
 
-### Debugging Your Running Code  
- Now that you've successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug->Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Modules/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
+### Debug Your Running Code  
+ Now that you've successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug > Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Modules/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
 
  ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.PNG "Vs_ide_gs_debug_autos_and_call_stack")  
-
- Try various actions with your app and observe the changes. If something appears abnormal, pause the app by pressing Ctrl+Alt+Break (or click on the **Pause** button).  
-
- ![Visual Studio Break All button](../ide/media/vs_ide_gs_debug_break_all_button.png "vs_ide_gs_debug_break_all_button")  
-
- Press F5 to continue running the app (or click the **Continue** button).  
-
- ![Visual Studio Debug Continue button](../ide/media/vs_ide_gs_debug_continue_button.png "Vs_ide_gs_debug_continue_button")  
 
  You can stop your app by pressing Shift+F5 or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).  
 
  If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.  
 
-### Setting Simple Breakpoints  
+### Set Simple Breakpoints  
  Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You do NOT need to rebuild a project after setting and removing breakpoints.  
 
  Set a breakpoint by clicking in the far margin of the line where you want the break to occur, or select the line of code and press F9. When you run your code, it will stop before the instructions for this line of code are executed.  
@@ -120,7 +112,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md)  
 
-### Inspecting Your Code at Run-time  
+### Inspect Your Code at Run-time  
  When your running code hits a breakpoint and halts, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?  
 
  ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG "vs_ide_gs_debug_inspect_value")  
@@ -129,10 +121,10 @@ The easiest way to build your project is to press F7, but you can also start the
 
  Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Use them to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
-### Performing Static Code Analysis  
+### Perform Static Code Analysis  
  "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you've cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, as well as learn a few code style techniques.  
 
- Press Alt+F11 (or select **Analyze->Run Code Analysis on Solution** from the top menu) to start static code analysis. This may take some time if you have a lot of code.  
+ Press Alt+F11 (or select **Analyze > Run Code Analysis on Solution** from the top menu) to start static code analysis. This may take some time if you have a lot of code.  
 
  ![Visual Studio Code Analysis menu item](../ide/media/vs_ide_gs_debug_run_code_analysis.png "Vs_ide_gs_debug_run_code_analysis")  
 
@@ -144,7 +136,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  ![Visual Studio Code Analysis Warning hover](../ide/media/vs_ide_gs_debug_code_analysis_warning_hover.png "vs_ide_gs_debug_code_analysis_warning_hover")  
 
-### Running Unit Tests  
+### Run Unit Tests  
  Unit tests are programs that exercise code paths in your app or service. Visual Studio installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. When you use Visual Studio Enterprise edition, you can run tests automatically after every build.  
 
  To get started, read [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).  
