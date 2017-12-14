@@ -170,7 +170,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                 </a>
                             </li>
                             <li>
-                                <a href="/vsts/#pivot=services&panel=code">
+                                <a href="https://go.microsoft.com/fwlink/?linkid=865130">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

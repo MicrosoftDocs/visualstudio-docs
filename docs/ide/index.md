@@ -25,7 +25,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Learn how to install and set up Visual Studio.</h3>
+                            <h3>Learn how to install and set up Visual Studio</h3>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-aspnet-code">
+        <a href="/visualstudio/ide/quickstart-aspnet-core">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -243,10 +243,6 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 <div class="ico48Case halfStack">
 
 <!--
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833062"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833060"><img width="48" height="48" alt=""
-src="https://docs.microsoft.com/en-us/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
 <div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
@@ -261,5 +257,9 @@ src="https://docs.microsoft.com/en-us/media/logos/logo_nodejs.svg"><span>Node.js
 src="https://docs.microsoft.com/en-us/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/rtvs/getting-started-with-r"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/logos/logo_R.svg"><span>R</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/ide/tutorial-csharp-aspnet-core"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/en-us/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/ide/tutorial-visual-basic-console"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/en-us/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/ide/getting-started-with-debugging-in-visual-studio"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/en-us/media/common/i_debug.svg"><span>Debugging</span></a></div>

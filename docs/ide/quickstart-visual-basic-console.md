@@ -1,7 +1,7 @@
 ---
-title: "Quickstart: Create a console app in Visual Studio with Visual Basic | Microsoft Docs"
+title: "Quickstart: Create your first console app in Visual Studio with Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2017"
+ms.date: "12/10/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -15,10 +15,10 @@ manager: ghogen
 dev_langs:
   - vb
 ---
-# Quickstart: Create a console app in Visual Studio with Visual Basic
+# Quickstart: Create your first console app in Visual Studio with Visual Basic
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that runs on the console.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
@@ -29,11 +29,11 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *HelloWorld*.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/new-project-vb-dotnet-helloworld-console-app.png)
+   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-vb-dotnetcore-helloworld-console-app.png)
 
      If you don't see the **Console App (.NET Core)** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vb-open-visual-studio-installer.png)
+   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vb-open-visual-studio-installer-hello-world.png)
 
      The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
@@ -77,5 +77,6 @@ Let's add some code to pause the application and then ask for user input.
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## See also
-* [Quickstart: Create a "Hello World" Windows Forms app in Visual Studio with Visual Basic](quickstart-visual-basic-winforms.md)
-* [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)
+* [Quickstart: Create a "Hello World" Windows Forms app in Visual Basic with Visual Studio](quickstart-visual-basic-winforms.md)
+* [Tutorial: Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
+* [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)
