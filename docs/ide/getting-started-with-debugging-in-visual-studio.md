@@ -83,13 +83,13 @@ The easiest way to build your project is to press F7, but you can also start the
  For more information on Light Bulbs, read [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).  
 
 ### Debug Your Running Code  
- Now that you've successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug > Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Modules/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
+ Now that you've successfully built your code and performed a little clean up, run it by pressing F5 or selecting **Debug > Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
 
  ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.PNG "Vs_ide_gs_debug_autos_and_call_stack")  
 
- You can stop your app by pressing Shift+F5 or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).  
+ You can stop your app by pressing **Shift+F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).  
 
- If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.  
+ If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.  
 
 ### Set Simple Breakpoints  
  Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You do NOT need to rebuild a project after setting and removing breakpoints.  
@@ -98,7 +98,7 @@ The easiest way to build your project is to press F7, but you can also start the
 
  ![Visual Studio breakpoint](../ide/media/vs_ide_gs_debug_breakpoint1.png "Vs_ide_gs_debug_breakpoint1")  
 
- When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing F11. You can also "step over" the line of code by pressing F10. For more details on code stepping, read [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).  
+ When the code breaks, the marked line of code has not executed yet. At this point, you may want to execute the instructions for the line of code marked by the breakpoint and inspect the changed values. This is called "stepping into" the code. If the marked code is a method call, you can step into it by pressing **F11**. You can also "step over" the line of code by pressing F10. For more details on code stepping, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).  
 
  Common uses for breakpoints include:  
 
@@ -110,14 +110,14 @@ The easiest way to build your project is to press F7, but you can also start the
 
 4.  If you are writing C or C++ code, use breakpoints to stop the code so you can inspect address values (look for NULL) and reference counts when debugging for memory-related failures.  
 
- For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md)  
+ For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md).  
 
 ### Inspect Your Code at Run-time  
  When your running code hits a breakpoint and halts, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?  
 
  ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG "vs_ide_gs_debug_inspect_value")  
 
- Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code. Move breakpoints up or add conditions to the existing breakpoints to narrow your search further.  
+ Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
 
  Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Use them to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
@@ -145,3 +145,4 @@ The easiest way to build your project is to press F7, but you can also start the
 
 ## See Also  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
+ [Learn more about using the debugger](../debugger/getting-started-with-the-debugger.md)
