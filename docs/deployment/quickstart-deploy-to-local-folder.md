@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, local folder"
 ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9

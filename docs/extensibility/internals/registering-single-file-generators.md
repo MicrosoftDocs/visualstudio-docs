@@ -64,11 +64,6 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes
     @="Microsoft C# Code Generator for XSD"  
     "CLSID"="{E76D53CC-3D4F-40a2-BD4D-4F3419755476}"  
     "GeneratesDesignTimeSource"=dword:00000001  
-  
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\Generators\{e6fdf8b0-f3d1-11d4-8576-0002a516ece8}\MSDataSetGenerator]  
-    @="Microsoft J# Code Generator for XSD"  
-    "CLSID"="{E76D53CC-3D4F-40a2-BD4D-4F3419755476}"  
-    "GeneratesDesignTimeSource"=dword:00000001  
     ```  
   
 ## See Also  

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
@@ -20,11 +20,13 @@ manager: "ghogen"
 
 You can use the **Publish** dialog box to publish ASP.NET, ASP.NET Core, Python, Node.js, and .NET Core apps to Azure App Service.
 
+If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+
 ## Create a new project 
 
 1. In Visual Studio, choose **File > New Project**.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application (.NET Core)**, and then click **OK**.
+1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
 1. Choose **MVC**, make sure that **No Authentication** is selected, and then click **OK**.
 
@@ -50,7 +52,7 @@ You can use the **Publish** dialog box to publish ASP.NET, ASP.NET Core, Python,
 
     ![Create App Service](../deployment/media/quickstart-publish-settings-app-service.png "Create Azure App Service")
     
-1. If you are not signed into Visual Studio, sign in and the default app service settings populate the fields.
+1. If you are not signed into Visual Studio, sign in, and then the default app service settings populate the fields.
 
     The profile publish settings dialog box opens.
 

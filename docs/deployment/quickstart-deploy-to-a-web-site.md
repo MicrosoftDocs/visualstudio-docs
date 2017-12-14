@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895

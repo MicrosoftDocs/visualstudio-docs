@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
@@ -25,6 +25,8 @@ The Visual Studio debugger provides many powerful features to help you debug you
 1. In Visual Studio, choose **File > New Project**.
 
 2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
+
+    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
 3. Type a name like **MyDbgApp** and click **OK**.
 

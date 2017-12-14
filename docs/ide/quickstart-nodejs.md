@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "quickstart"
 ms.devlang: javascript
 ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
 author: "mikejo5000"
@@ -28,7 +28,7 @@ First, you'll create an Node.js web application project.
 
 3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
 
-     If you don't see the **Node.js** project templates, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
+     If you don't see the **Blank Node.js Web application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "quickstart"
 f1_keywords: 
   - ""
 helpviewer_keywords: 

@@ -1,5 +1,5 @@
 ---
-title: Python Environments in Visual Studio | Microsoft Docs
+title: Python environments in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 07/25/2017
 ms.reviewer: ""

@@ -146,7 +146,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-aspnet-code">
+        <a href="/visualstudio/ide/quickstart-aspnet-core">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
