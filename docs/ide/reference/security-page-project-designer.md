@@ -11,15 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vb.ProjectPropertiesSecurity"
   - "vb.XBAPProjectPropertiesSecurity"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Project Designer, Security page"
   - "Security page in Project Designer"
-ms.assetid: 641d9cd3-fa07-498a-8568-3c169bb4d3d5
-caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
