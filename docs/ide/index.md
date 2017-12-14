@@ -237,7 +237,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
-<h2>Go deeper with longer tutorials</h2>
+<h2>Go deeper with tutorials</h2>
 
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">
