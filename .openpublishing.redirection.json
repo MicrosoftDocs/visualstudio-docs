@@ -285,6 +285,11 @@
             "source_path": "docs/modeling/api-reference-for-uml-modeling-extensibility.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-cpp.md",
+            "redirect_url": "/visualstudio/ide/getting-started-with-cpp-in-visual-studio",
+            "redirect_document_id": false
         }
     ]
 }

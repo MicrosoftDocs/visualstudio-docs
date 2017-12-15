@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2017"
+ms.date: "11/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,19 +30,41 @@ You can leverage the power of the cloud for your mobile apps by creating Azure a
 
 ### Create cloud apps for Azure
 
-Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. Leverage Azure services for your apps using Connected Services. To get Azure Tools for .NET, select the **Azure development** workload when you install Visual Studio. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
+Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. To get Azure Tools for .NET, select the **Azure development** workload when you install Visual Studio. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
+
+You can leverage Azure services for your apps using Connected Services such as:
+
+- [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)
+
+- [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)
+
+[HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users. In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these GitHub samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
+
+[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights will also help you understand what your users actually do with your app so you can optimize the user experience.
 
 ### Create apps for the web
 
-The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
+The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
-### Write code in a world class editing environment
+For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
-Visual Studio helps you write code quickly and easily through features such as syntax colorization, statement completion, IntelliSense (pop-up descriptions of the selected code element), code outlining, setting breakpoints for debugging, and much more.
+### Build cross-platform apps and games
 
-![JavaScript code example](../ide/media/vside_tour_javascript_example.gif)
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
 
-To learn more, see [Writing Code in the Code and Text Editor](https://docs.microsoft.com/visualstudio/ide/writing-code-in-the-code-and-text-editor).
+Choose the tools you need based on your app requirements and the language you want to use:
+
+- [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices.
+
+- [Visual Studio Tools for Apache Cordova](../cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript.
+
+- [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#.
+
+- [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++.
+
+- [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE.
+
+[Create games using Visual Studio](https://www.visualstudio.com/vs/game-development/) with game development tools such as DirectX, Unity, Unreal, Cocos, and more.
 
 Visual Studio can do help you do many more things. For a more complete list, see [Visual Studio IDE](https://www.visualstudio.com/vs/).
 
@@ -206,7 +228,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-For documentation about Visual Studio Team Services and Team Foundation Server, see [Visual Studio Team Services](/vsts/index).
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Continuous integration on any platform](https://www.visualstudio.com/en-us/docs/build/overview) for more information.
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -229,8 +251,13 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
 
 ## Extend Visual Studio
+If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. Visual Studio provides tools, controls, and templates from Microsoft, our partners, and the community. To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
+You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+
+Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers as well as our development community.
+
+To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
 ## Learn more and find out what's new
 
