@@ -966,7 +966,7 @@ Example .editorconfig file:
 ```
 # CSharp code style settings:
 [*.cs]
-csharp_style_throw_expression = true:suggestions:
+csharp_style_throw_expression = true:suggestion
 csharp_style_conditional_delegate_call = false:suggestion
 ```
 
