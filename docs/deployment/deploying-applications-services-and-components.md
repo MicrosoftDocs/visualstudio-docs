@@ -47,7 +47,7 @@ See the Tutorials for step-by-step instructions.
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
 
-    In Solution Explorer, right-click the project and choose **Publish**. In the Publish dialog box, choose the option you want and follow the configuration steps.
+    In Solution Explorer, right-click the project and choose **Publish**. In the Publish tool, choose the option you want and follow the configuration steps.
 
     ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png)
 

@@ -18,9 +18,9 @@ manager: "ghogen"
 ---
 # Deploy a web app or .NET Core app to a local folder using the Visual Studio Publish tool
 
-You can use the **Publish** dialog box to publish your app to a local folder. 
+You can use the **Publish** tool to publish your app to a local folder. 
 
-These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual Studio. For Node.js, the steps are supported but the dialog boxes are different.
+These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual Studio. For Node.js, the steps are supported but the user interface is different.
 
 ## Create a new project 
 
