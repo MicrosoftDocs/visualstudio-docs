@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 07/20/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -68,5 +68,5 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
 
 ## See also
 
-[Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)  
-[Internet resources used by Visual Studio](../ide/connected-environment.md)
+* [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
+* [Compare Visual Studio subscription options](/subscriptions/compare-subscriptions.md)  
