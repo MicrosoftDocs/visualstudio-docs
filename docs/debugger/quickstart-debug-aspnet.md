@@ -130,7 +130,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 ## Next steps
 
 - To learn more about the debugger, see [Start the debugger and navigate code](../debugger/getting-started-with-the-debugger.md).
-- To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints).
+- To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  

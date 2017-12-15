@@ -276,10 +276,6 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
 
-## Next steps
-
-- Continue this tutorial in the next topic, [Inspect variables and exceptions](../debugger/tutorial-inspect-data-and-exceptions.md).
-
 ## <a name="video"></a> Watch a video on debugging
 
 <div style="padding-top: 56.25%; position: relative; width: 100%;">
