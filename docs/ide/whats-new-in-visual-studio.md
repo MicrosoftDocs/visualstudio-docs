@@ -298,6 +298,6 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 ## See Also
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
+* [What's New in C#](/dotnet/csharp/whats-new/)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
