@@ -5,10 +5,11 @@ ms.date: "12/04/2017"
 ms.technology: "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: 99c73344-86ba-4b08-9e15-f6111cc04185
 author: "corob-msft"
 ms.author: "tglee"
 manager: ghogen
+dev_langs:
+ - "CPP"
 ---
 # Get Started with C++ in Visual Studio
 
