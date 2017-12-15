@@ -5,7 +5,6 @@
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
 ### [Work with multiple user accounts](ide/work-with-multiple-user-accounts.md)
 ### [Extend a trial version or update a license](ide/how-to-unlock-visual-studio.md)
-### [Compare Visual Studio subscription options...](/subscriptions/compare-subscriptions)
 ## Install offline
 ### [Create an offline installation of Visual Studio](install/create-an-offline-installation-of-visual-studio.md)
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
