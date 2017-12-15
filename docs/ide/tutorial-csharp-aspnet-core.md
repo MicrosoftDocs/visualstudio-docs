@@ -44,25 +44,25 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
    ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-aspnet-mycoreapp.png)
 
-#### Add a workgroup (optional)
-If you don't see the **ASP.NET Core Web Application** project template, you can get it by adding the **ASP.NET Core and web development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
+#### Add a workload (optional)
+If you don't see the **ASP.NET Core Web Application** project template, you can get it by adding the **ASP.NET and web development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
 
 ##### Option 1: Use the New Project dialog box
 1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
-2. The Visual Studio Installer launches. Choose the **ASP.NET Core and web development** workload, and then choose **Modify**.
+2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/asp-dot-net-web-dev-workload.png)
 
 ##### Option 2: Use the Tools menu bar
 1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**.
 
-2. The Visual Studio Installer launches. Choose the **ASP.NET Core and web development** workload, and then choose **Modify**.   
+2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.   
 
 #### Add a project template
-1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller** project template.  
+1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.  
 
 2. Select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 
@@ -87,15 +87,16 @@ The MVC pattern helps you create apps that are easier to test and update than tr
       ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
 2. View the **HomeController.cs**
+
   ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
 
-4. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views. For example, the view CSHTML file (an extension of HTML) for the **/Home/About** path would be at **Views/Home/About.cshtml**. Open that file.
+4. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views). For example, the view CSHTML file (an extension of HTML) for the **/Home/About** path would be at **Views/Home/About.cshtml**. Open that file.
 
   ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
 5. This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
 
- ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
+  ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-about-cshtml-code.png)
 
  >[!NOTE]
  > To learn more about this, see the [Getting started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
@@ -121,7 +122,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
- Among other things, the about page renders some text set in the HomeController.cs file.
+ Among other things, the About page in the browser renders the text that is set in the HomeController.cs file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
@@ -155,7 +156,10 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
   ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
 
-1. Press **F5** to stop debugging.
+1. Press **Shift**+**F5** to stop debugging. Alternatively, choose **Debug** > **Stop Debugging** from the menu bar, or choose the **Stop Debugging** button from the toolbar.
+
+ ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
+
 
 Congratulations on completing this tutorial!
 
