@@ -34,8 +34,8 @@ Visual Studio testing tools can help you and your team to develop and sustain hi
 
 ## Related scenarios
 
-* [Exploratory & Manual Testing](/vsts/manual-test/)
-* [Load Testing](/vsts/load-test/index)
-* [Continuous Testing](/vsts/build-release/test/index)
-* [DevOps overview for Team Services and TFS](/vsts/user-guide/devops-alm-overview)
-* [Analyzing application quality with code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
+* [Exploratory & Manual Testing (VSTS)](/vsts/manual-test/)
+* [Load Testing (VSTS)](/vsts/load-test/index)
+* [Continuous Testing (VSTS)](/vsts/build-release/test/index)
+* [DevOps overview for Team Services and TFS (VSTS)](/vsts/user-guide/devops-alm-overview)
+* [Code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)

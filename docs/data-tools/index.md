@@ -115,7 +115,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><Accessing data in Visual Studio</p>
+                        <p><Accessing data in Visual Studio></p>
                     </div>
                 </div>
             </div>
