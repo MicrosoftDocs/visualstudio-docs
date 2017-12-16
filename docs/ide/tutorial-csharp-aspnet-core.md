@@ -166,6 +166,6 @@ Congratulations on completing this tutorial!
 ## See also
 * [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 * [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
-* [What's New in C#](/dotnet/csharp/whats-new/)
+* [What's New in C#](/dotnet/csharp/whats-new)
 * [C# Language Reference](/dotnet/csharp/language-reference/index)
 * [C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169) video course
