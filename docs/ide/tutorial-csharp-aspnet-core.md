@@ -17,7 +17,7 @@ dev_langs:
 ---
 
 # Getting started with C# and ASP.NET in Visual Studio
-In this tutorial for C# development for ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
+In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
@@ -111,7 +111,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 ## Run and debug the application
 
-1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, you can press **F5**, or you can choose **Debug > Start Debugging** from the menu bar.)
+1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
   ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
@@ -152,11 +152,11 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  ![Change the text that reads "additional" to text that reads "changed"](../ide/media/csharp-aspnet-about-cshtml-code-change.png)
 
-1. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text you changed.)
+1. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text that you changed.)
 
   ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
 
-1. Press **Shift**+**F5** to stop debugging. Alternatively, choose **Debug** > **Stop Debugging** from the menu bar, or choose the **Stop Debugging** button from the toolbar.
+1. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
 
  ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
@@ -166,3 +166,6 @@ Congratulations on completing this tutorial!
 ## See also
 * [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 * [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+* [What's New in C#](/dotnet/csharp/whats-new)
+* [C# Language Reference](/dotnet/csharp/language-reference/index)
+* [C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169) video course
