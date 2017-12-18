@@ -126,7 +126,7 @@ for common bug fixes or refactoring.
 
 ![Third party test integration](media/devtest-thirdparty.png)
 
-## Also see
+## See also
 
 * [Get started with unit testing](getting-started-with-unit-testing.md)
 * [Speeding up Unit Test Execution in Team Foundation Server](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/30/speeding-up-test-execution-in-tfs.aspx)

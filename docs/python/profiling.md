@@ -15,7 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ---
 
-# Profiling Python Code
+# Profiling Python code
 
 Visual Studio supports profiling a Python application when using CPython-based interpreters.
 

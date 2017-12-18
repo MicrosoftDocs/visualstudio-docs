@@ -1,5 +1,5 @@
 ---
-title: "Azure Cloud Service Project Template for Python | Microsoft Docs"
+title: "Azure cloud service project template for Python | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -15,17 +15,17 @@ ms.author: "kraigb"
 manager: ghogen
 ---
 
-# Azure Cloud Service Projects for Python
+# Azure cloud service projects for Python
 
 Visual Studio provides templates to help you get started creating Azure Cloud Services using Python.
 
-A [Cloud Service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web Project Template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with `pip install`&nbsp;[`azure`](http://pypi.org/project/azure).
+A [cloud service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with `pip install`&nbsp;[`azure`](http://pypi.org/project/azure).
 
 This topic contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](http://go.microsoft.com/fwlink/?linkid=254360).
 
 ## Create a project
 
-1. Install the [Azure .NET SDK for Visual Studio](https://www.visualstudio.com/vs/azure-tools/), which is required to use the Cloud Service template.
+1. Install the [Azure .NET SDK for Visual Studio](https://www.visualstudio.com/vs/azure-tools/), which is required to use the cloud service template.
 1. In Visual Studio, select **File > New > Project...**, then search for "Azure Python" and select **Azure Cloud Service** from the list:
 
     ![Azure Cloud Project template for Python](media/template-azure-cloud-project.png)
@@ -43,7 +43,6 @@ This topic contains details about the project template and other support in Visu
     ![Worker Role Support Files](media/template-azure-cloud-service-worker-role-support-files.png)
 
     To add these configuration scripts to a new project, right-click the project, select **Add > New Item...**, and select either **Web Role Support Files** or **Worker Role Support Files**.
-   
 
 ## Configuring role deployment
 
@@ -63,12 +62,11 @@ Additional configuration can be accomplished as follows:
 
 ## Testing role deployment
 
-While writing your roles, you can test your cloud project locally using the Cloud Service Emulator. The emulator is included with the Azure SDK Tools and is a limited version of the environment used when your Cloud Service is published to Azure.
+While writing your roles, you can test your cloud project locally using the Cloud Service Emulator. The emulator is included with the Azure SDK Tools and is a limited version of the environment used when your cloud service is published to Azure.
 
 To start the emulator, first ensure your cloud project is the startup project in your solution by right-clicking and selecting **Set as startup project**. Then select **Debug > Start Debugging** (F5) or **Debug > Start without Debugging** (Ctrl+F5).
 
 Note that due to limitations in the emulator it is not possible to debug your Python code. We thus recommend you debug roles by running them independently, and then use the emulator for integration testing before publishing.
-
 
 ## Deploying a role
 
@@ -80,12 +78,11 @@ As each virtual machine activates, it executes the `ConfigureCloudService.ps1` s
 
 Finally, worker roles execute `LaunchWorker.ps1`, which starts running your Python script; web roles initialize IIS and begin handling web requests.
 
-
 ## Dependencies
 
-For Cloud Service, the `ConfigureCloudService.ps1` script uses `pip` to install a set of Python dependencies. Dependencies should be specified in a file named `requirements.txt` (customizable by modifying `ConfigureCloudService.ps1`). The file is executed with `pip install -r requirements.txt` as part of initialization.
+For Cloud Services, the `ConfigureCloudService.ps1` script uses `pip` to install a set of Python dependencies. Dependencies should be specified in a file named `requirements.txt` (customizable by modifying `ConfigureCloudService.ps1`). The file is executed with `pip install -r requirements.txt` as part of initialization.
 
-Note that Cloud Service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
+Note that cloud service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
 pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages) for details on managing `requirements.txt` files.
 
@@ -94,12 +91,13 @@ pip and its dependencies, as well as the packages in `requirements.txt`, are dow
 If your web or worker role does not behave correctly after deployment, check the following:
 
 - Your Python project includes a bin\ folder with (at least):
+
     - `ConfigureCloudService.ps1`
     - `LaunchWorker.ps1` (for worker roles)
     - `ps.cmd`
 
 - Your Python project includes a `requirements.txt` file listing all dependencies (or alternately, a collection of wheel files).
-- Enable Remote Desktop on your Cloud Service and investigate the log files.
+- Enable Remote Desktop on your cloud service and investigate the log files.
 - Logs for `ConfigureCloudService.ps1` and `LaunchWorker.ps1` are stored in `C:\Resources\Directory\%RoleId%.DiagnosticStore\LogFiles` folder on the remote machine.
 - Web roles may write additional logs to a path configured in `web.config`, namely the path in the `WSGI_LOG` appSetting. Most regular IIS or FastCGI logging also works.
 - Currently, the `LaunchWorker.ps1.log` file is the only way to view output or errors displayed by your Python worker role.

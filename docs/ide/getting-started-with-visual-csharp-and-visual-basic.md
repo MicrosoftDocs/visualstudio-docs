@@ -1,4 +1,6 @@
 ---
+redirect_url: /visualstudio/ide/quickstart-visual-basic-console
+---
 title: "Getting Started with Visual C# and Visual Basic using Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -14,8 +16,6 @@ helpviewer_keywords:
   - "VB tutorial"
   - "learn C#"
   - "learn Visual Basic"
-ms.assetid: d57bb19f-58d6-48cc-96cb-ab1c540a25d0
-caps.latest.revision: 13
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

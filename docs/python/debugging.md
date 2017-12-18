@@ -15,7 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ---
 
-# Debugging Your Python Code
+# Debugging your Python code
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more. 
 
@@ -39,9 +39,9 @@ Also see the following scenario-specific debugging topics:
 <a name="debugging-without-a-project"></a>
 
 > [!Tip]
-> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python Environments](python-environments.md)) and no arguments. But from then on, you have full debugging support.
+> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python environments](python-environments.md)) and no arguments. But from then on, you have full debugging support.
 >
-> To control the environment and arguments, create a project for the code, which is easily done with the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files) project template.
+> To control the environment and arguments, create a project for the code, which is easily done with the [From existing Python code](python-projects.md#creating-a-project-from-existing-files) project template.
 
 <a name="debugging-with-a-project"></a>
 
@@ -52,7 +52,7 @@ The basic debugging workflow involves settings breakpoints, stepping through cod
 A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). If for some reason you don't have a startup file set, however, a Python output window briefly appears and disappears. In this case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
-> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Python Environments](python-environments.md).
+> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Python environments](python-environments.md).
 
 ### Breakpoints
 

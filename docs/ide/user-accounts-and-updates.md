@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/ide/connected-environment
+redirect_url: /visualstudio/install/update-visual-studio
 ---

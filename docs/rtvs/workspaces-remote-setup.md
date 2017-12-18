@@ -1,5 +1,5 @@
 ---
-title: "Remote Workspaces with R Tools for Visual Studio | Microsoft Docs"
+title: "Remote workspaces with R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -102,8 +102,8 @@ The `rtvs-daemon` package will install a self-signed certificate by default as a
 For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
 To issue a self signed certificate yourself:
-1. SSH or login to your linux machine.
 
+1. SSH or login to your linux machine.
 1. Install `ssl-cert` package:
     ```sh
     sudo apt-get install ssl-cert
