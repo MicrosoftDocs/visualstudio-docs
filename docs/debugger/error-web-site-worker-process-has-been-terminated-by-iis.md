@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.web_server_process_terminated"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 5707b972-71a6-4cc6-ab99-c7c00ca8628c
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlde_accessdenied"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 11957495-c238-4cc5-8937-e4026f5e10e1
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_ia64"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: b60e9660-02da-4dea-9e6d-8cb64e996bdf
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"

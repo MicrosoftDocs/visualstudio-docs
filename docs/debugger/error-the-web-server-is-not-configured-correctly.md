@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.projnotconfigured"
 dev_langs: 
@@ -17,7 +17,6 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-ms.assetid: 875ba87f-c372-4126-8fe3-e33931cf26c0
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
