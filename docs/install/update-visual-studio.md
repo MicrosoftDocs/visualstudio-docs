@@ -40,6 +40,20 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 
   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
+### More about Visual Studio notifications
+
+Not only does Visual Studio notify you when an update is available for Visual Studio itself or for any of the components, but it also notifies you of certain kinds of events that occur in the Visual Studio environment:
+
+* When the notification flag is red, it means that there is a problem with your license.
+* When it's yellow, there is a Visual Studio product update available for you to install.
+* When it is "normal" or black, you'll see messages that are informational or optional, such as crashes for which you might want to find a workaround.
+
+You can click on the icon to open the **Notifications** hub and choose which ones to act on. You can choose to do a one-time dismiss on a notification, or to always ignore a notification by hovering over it.
+
+If you choose to always ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, click the **Settings** button in the Notifications hub.
+
+  ![Click the Settings button in the Notifications hub](media/vs-notifications-hub-settings-button.png "Click the Settings button in the Notifications hub")
+
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
  >[!NOTE]
@@ -60,10 +74,10 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
+* [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
