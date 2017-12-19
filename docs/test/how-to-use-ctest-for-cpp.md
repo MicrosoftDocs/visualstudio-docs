@@ -12,6 +12,8 @@ ms.assetid: a8b30934-5f38-4a18-8819-263e0733cdbe
 caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # How to use CTest for C++ in Visual Studio

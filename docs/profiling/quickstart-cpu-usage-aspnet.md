@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+ms.workload: 
+  - "multiple"
 ---
 # Analyze CPU usage data in Visual Studio (ASP.NET)
 

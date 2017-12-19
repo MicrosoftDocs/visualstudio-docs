@@ -13,6 +13,8 @@ caps.latest.revision: 64
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Cross-Platform Mobile Development in Visual Studio
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.

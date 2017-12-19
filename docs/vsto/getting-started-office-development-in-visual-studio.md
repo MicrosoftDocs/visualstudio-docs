@@ -18,6 +18,8 @@ caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Getting Started (Office Development in Visual Studio)
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.  

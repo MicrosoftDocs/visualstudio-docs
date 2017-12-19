@@ -20,6 +20,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Feature to SharePoint Solutions
   When you create a SharePoint solution, one Feature and one Package are added to the solution. You can add more Feature items to organize different types of SharePoint files.  

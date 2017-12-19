@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create and Edit an XSD Schema File
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.  

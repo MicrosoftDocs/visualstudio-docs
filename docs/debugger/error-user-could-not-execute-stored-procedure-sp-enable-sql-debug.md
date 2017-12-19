@@ -19,6 +19,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:  

@@ -17,6 +17,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Default Keyboard Shortcuts in Visual Studio
 For more information about keyboard accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the Keyboard Exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).

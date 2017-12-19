@@ -7,12 +7,14 @@ ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
 ms.tgt_pltfrm: ""
-dev.langs:
- - "VB"
- - "CSharp"
+dev.langs: 
+  - "VB"
+  - "CSharp"
 ms.topic: "article"
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Isolating Code Under Test with Microsoft Fakes
 

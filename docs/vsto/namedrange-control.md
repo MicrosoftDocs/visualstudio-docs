@@ -23,6 +23,8 @@ caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # NamedRange Control
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> control is a range that has a unique name, exposes events, and can be bound to data. For more information, see [Excel Object Model Overview](../vsto/excel-object-model-overview.md).  

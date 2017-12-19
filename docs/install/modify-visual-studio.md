@@ -5,11 +5,11 @@ ms.custom: "H1Hack27Feb2017"
 ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "modify Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
@@ -18,6 +18,8 @@ ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
 Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; instead, start the new Visual Studio Installer and make the changes you want.

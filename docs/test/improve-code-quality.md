@@ -12,6 +12,8 @@ helpviewer_keywords:
   - "unit tests [Visual Studio]"
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Testing tools in Visual Studio
 

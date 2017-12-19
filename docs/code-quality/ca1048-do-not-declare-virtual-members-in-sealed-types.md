@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1048: Do not declare virtual members in sealed types
 |||  

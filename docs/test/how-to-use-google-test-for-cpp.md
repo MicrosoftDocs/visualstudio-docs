@@ -12,6 +12,8 @@ ms.assetid: a4868fae-fd6d-4b98-a85f-f23b0dd2fca5
 caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # How to use Google Test for C++ in Visual Studio

@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_REQUEST_INFO2
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.  

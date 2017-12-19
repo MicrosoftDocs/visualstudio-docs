@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2153: Avoid Handling Corrupted State Exceptions
 |||  

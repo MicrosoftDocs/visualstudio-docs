@@ -21,6 +21,8 @@ caps.latest.revision: 52
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add New Worksheets to Workbooks
   You can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.  

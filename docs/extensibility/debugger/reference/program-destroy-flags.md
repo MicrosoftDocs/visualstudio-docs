@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PROGRAM_DESTROY_FLAGS
 Enumerates the valid values of the program destroy flags.  

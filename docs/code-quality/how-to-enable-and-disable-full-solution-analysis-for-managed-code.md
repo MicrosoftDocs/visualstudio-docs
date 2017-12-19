@@ -15,6 +15,8 @@ ms.author: "gewarren"
 manager: ghogen
 ms.technology: 
   - "vs-ide-code-analysis"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Enable and Disable Full Solution Analysis for Managed Code
 > [!NOTE]

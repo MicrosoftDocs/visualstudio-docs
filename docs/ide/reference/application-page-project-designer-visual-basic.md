@@ -19,6 +19,8 @@ caps.latest.revision: 64
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Application Page, Project Designer (Visual Basic)
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  

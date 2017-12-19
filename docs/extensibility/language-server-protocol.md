@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/14/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
+ms.workload: 
+  - "vssdk"
 ---
 # Language Server Protocol
 

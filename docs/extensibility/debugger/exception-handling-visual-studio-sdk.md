@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Exception Handling (Visual Studio SDK)
 The following describes the process that occurs when exceptions are thrown.  

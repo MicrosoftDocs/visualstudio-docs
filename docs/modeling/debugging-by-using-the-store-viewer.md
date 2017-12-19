@@ -14,6 +14,8 @@ caps.latest.revision: 17
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Debugging by Using the Store Viewer
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.  

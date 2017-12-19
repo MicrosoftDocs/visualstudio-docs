@@ -19,6 +19,8 @@ f1_keywords:
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Options for Python in Visual Studio

@@ -23,6 +23,8 @@ caps.latest.revision: 82
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Validate code with dependency diagrams
 

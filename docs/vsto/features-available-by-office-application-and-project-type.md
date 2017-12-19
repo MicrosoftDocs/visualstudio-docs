@@ -25,6 +25,8 @@ caps.latest.revision: 53
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Features Available by Office Application and Project Type
   Visual Studio has several types of project templates that support different business scenarios for Microsoft Office applications, including the following types:  

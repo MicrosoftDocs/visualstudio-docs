@@ -19,6 +19,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Specify Additional Instrumentation Options
 You can instrument binaries from the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] integrated development environment (IDE) or by using command line tools. If you instrument a binary from within the IDE, you can control the volume of data that is collected during instrumentation by specifying additional instrumentation options to the [VSInstr](../profiling/vsinstr.md) tool. These options are available at the session or the target level. For example, to include or exclude specific functions during the instrumentation process, use the additional instrumentation option at the target level.  

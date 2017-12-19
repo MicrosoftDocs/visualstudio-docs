@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Log Command Window Output Command
 Copies all input and output from the **Command** window into a file.  

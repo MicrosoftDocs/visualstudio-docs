@@ -17,6 +17,8 @@ caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio Template Schema Reference
 This section contains information about XML elements in .vstemplate files, which are files that store metadata for project templates, item templates, and Starter Kits.  

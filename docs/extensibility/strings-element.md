@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Strings Element
 The Strings element must contain at least a **ButtonText** child element. All other child elements are optional. Invalid XML characters such as '&' and '<' must be coded as entities ('&amp;' and '&lt;' and so on).  

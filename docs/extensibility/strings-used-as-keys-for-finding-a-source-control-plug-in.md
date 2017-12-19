@@ -15,6 +15,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 The following strings are the keys for accessing the registry to find information about the source control plug-in.  

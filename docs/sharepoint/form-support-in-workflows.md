@@ -19,6 +19,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Form Support in Workflows
   Four types of forms can be used in a workflow: association, initiation, task, and modification. These form types can be based on either an ASPX form or an InfoPath form. The level of support that [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides for a particular form depends on several factors, which are described in the following tables. For more information about workflow form types, see [Workflow Forms Overview](http://go.microsoft.com/fwlink/?LinkId=185228) on the MSDN Web site.  

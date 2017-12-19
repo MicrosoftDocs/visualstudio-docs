@@ -26,6 +26,8 @@ caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Workbook Host Item
   The <xref:Microsoft.Office.Tools.Excel.Workbook> host item is a type that extends the <xref:Microsoft.Office.Interop.Excel.Workbook> type from the primary interop assembly for Excel. The <xref:Microsoft.Office.Tools.Excel.Workbook> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Excel.Workbook> object, but it also provides additional features.  

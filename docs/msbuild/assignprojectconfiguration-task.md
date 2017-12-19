@@ -18,6 +18,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # AssignProjectConfiguration Task
 This task accepts a list configuration strings and assigns them to specified projects.  

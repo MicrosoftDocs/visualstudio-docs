@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.rename"
 dev_langs: 
   - "CSharp"
+ms.workload: 
+  - "multiple"
 ---
 
 # Rename a code symbol in C# #

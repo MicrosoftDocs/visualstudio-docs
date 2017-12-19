@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working with 3-D Models
 You can use the Model Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create 3-D models. You can use the models in your DirectX-based game or app.  

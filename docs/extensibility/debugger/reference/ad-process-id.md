@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AD_PROCESS_ID
 Specifies the process ID, which may be either a system ID or a GUID.  

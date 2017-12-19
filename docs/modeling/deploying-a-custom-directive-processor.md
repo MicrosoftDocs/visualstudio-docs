@@ -13,6 +13,8 @@ caps.latest.revision: 18
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Deploying a Custom Directive Processor
 To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on any computer, you must register it by one of the methods described in this topic.  

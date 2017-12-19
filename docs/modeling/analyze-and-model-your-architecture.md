@@ -36,6 +36,8 @@ caps.latest.revision: 127
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Analyze and model your architecture
 Make sure your app meets architectural requirements by using

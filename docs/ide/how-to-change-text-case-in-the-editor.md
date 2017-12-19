@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: change text case in the Editor
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.  

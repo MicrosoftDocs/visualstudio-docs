@@ -18,6 +18,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Deploy UWP apps from Visual Studio
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

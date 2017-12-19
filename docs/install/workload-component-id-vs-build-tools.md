@@ -1,20 +1,22 @@
 ---
 title: Visual Studio Build Tools 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
 ms.date: 12/01/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-acquisition"
 ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
+ms.workload: 
+  - "multiple"
 ---
 
 # Visual Studio Build Tools 2017 component directory

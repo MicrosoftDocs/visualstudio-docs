@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute
 |||  

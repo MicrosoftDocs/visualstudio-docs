@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: vs-ide-general
+ms.workload: 
+  - "multiple"
 ---
 # Create portable, custom editor settings with EditorConfig
 

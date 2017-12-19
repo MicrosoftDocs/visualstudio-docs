@@ -21,6 +21,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Perform Actions When an E-Mail Message Is Received
   This example performs custom actions when the user receives an e-mail message.  

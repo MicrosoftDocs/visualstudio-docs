@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Memory Usage without the Debugger
 You can use the **Memory Usage** tool without debugging to do the following  

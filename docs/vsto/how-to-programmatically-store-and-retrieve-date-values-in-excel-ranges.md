@@ -25,6 +25,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Store and Retrieve Date Values in Excel Ranges
   You can store and retrieve values in a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.  

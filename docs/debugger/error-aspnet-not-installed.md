@@ -24,6 +24,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: ASP.NET Not Installed
 This error occurs when [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is not installed correctly on the computer that you are trying to debug. This might mean that [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] was never installed or that [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] was installed first and IIS was installed later.  

@@ -18,6 +18,8 @@ caps.latest.revision: 97
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Configuring a Computer to Develop Office Solutions
   To create VSTO Add-ins and customizations for Microsoft Office, install a supported version of Visual Studio, the .NET Framework, and Microsoft Office.  

@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use Linked Undo Management
 Linked undo allows the user to simultaneously undo the same edits in multiple files. For example, simultaneous text changes across multiple program files, such as a header file and a Visual C++ file, is a linked undo transaction. Linked undo capability is built into the environment's implementation of the undo manager, and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager> lets you manipulate this capability. Linked undo is implemented by a parent undo unit that can link separate undo stacks together to be treated as a single undo unit. The procedure for using linked undo is detailed in the following section.  

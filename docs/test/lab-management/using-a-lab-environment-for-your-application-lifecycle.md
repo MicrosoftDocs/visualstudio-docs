@@ -14,6 +14,8 @@ ms.assetid: b435eb39-dc7c-46fa-a91b-6e6dd614f01c
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Use a lab environment for your devops
 

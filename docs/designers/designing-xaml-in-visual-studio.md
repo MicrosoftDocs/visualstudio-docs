@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Designing XAML in Visual Studio
 

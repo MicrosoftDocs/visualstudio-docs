@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 

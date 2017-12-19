@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2205: Use managed equivalents of Win32 API
 |||  

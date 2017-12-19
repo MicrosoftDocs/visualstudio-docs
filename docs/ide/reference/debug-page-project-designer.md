@@ -18,6 +18,8 @@ caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug Page, Project Designer
 > [!WARNING]

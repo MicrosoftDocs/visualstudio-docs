@@ -11,6 +11,8 @@ dev_langs:
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+ms.workload: 
+  - "ronpet"
 ---
 
 # Visual Basic 6.0 offers from partners

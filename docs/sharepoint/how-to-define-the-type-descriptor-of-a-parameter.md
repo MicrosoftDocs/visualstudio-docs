@@ -23,6 +23,8 @@ caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Define the Type Descriptor of a Parameter
   A type descriptor contains properties that describe the data type of a parameter. A type descriptor can define a field, an entity, or a collection of entities. For more information, see [TypeDescriptor](http://msdn.microsoft.com/library/ms543392%28v=office.12%29.aspx).  

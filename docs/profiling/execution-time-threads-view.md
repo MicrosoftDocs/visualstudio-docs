@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Execution Time (Threads View)
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.  

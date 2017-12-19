@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TASK_STATE_WAITING_ON_CHILDREN Field
 The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete.  

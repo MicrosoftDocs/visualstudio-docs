@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Initialize Correlation Dialog Box
 The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../test/includes/crdefault_md.md)] the [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) topic.  

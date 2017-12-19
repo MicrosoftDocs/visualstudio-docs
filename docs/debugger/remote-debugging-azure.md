@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017

@@ -20,6 +20,8 @@ caps.latest.revision: 5
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Schedules&gt; Element (Bootstrapper)
 The `Schedules` element contains `Schedule` elements, which define specific times at which commands defined by the `Command` element should be run.  

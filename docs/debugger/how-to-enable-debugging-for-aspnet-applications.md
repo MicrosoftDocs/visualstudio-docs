@@ -22,6 +22,8 @@ caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug ASP.NET Applications in Visual Studio
 

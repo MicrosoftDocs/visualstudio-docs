@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Property User Interface
 A project subtype can use the items in the project **Property Pages** dialog box as they are supplied by the base project, hide or make read-only controls and whole pages as supplied, or add project subtype-specific pages to the **Property Pages** dialog box.  

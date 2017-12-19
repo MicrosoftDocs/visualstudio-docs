@@ -12,6 +12,8 @@ ms.assetid: 40f58c34-c50f-4297-91b2-2e243380dcc9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Move a type to a matching file in C# #

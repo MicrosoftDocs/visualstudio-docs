@@ -13,6 +13,8 @@ ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
 caps.latest.revision: 5
 ms.author: "sdanie"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # StateMachine Activity Designer
 The <xref:System.Activities.Statements.StateMachine> activity contains a collection of states and models workflows using the familiar state machine paradigm.  

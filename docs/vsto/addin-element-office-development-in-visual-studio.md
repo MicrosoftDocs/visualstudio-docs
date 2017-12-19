@@ -20,6 +20,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;addin&gt; Element (Office Development in Visual Studio)
   The `addin` element of the `vstav3` namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio.  

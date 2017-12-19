@@ -24,6 +24,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Publish Wizard (Office Development in Visual Studio)
   Use the **Publish Wizard** to copy solution files to a specified location, create the manifest files, and create a Setup program.  

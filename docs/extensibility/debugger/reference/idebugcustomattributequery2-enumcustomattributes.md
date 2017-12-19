@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 Gets an enumerator for all custom attributes attached to this field.  

@@ -28,6 +28,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Get Back to the Function that Called MFC If Halted
 > [!NOTE]

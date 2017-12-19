@@ -13,6 +13,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Creating Custom Code Analysis Rule Sets
 You apply code analysis rules to a managed code project by specifying a rule set that contains one or more rules. The Microsoft standard rule sets provide groups of rules that are organized by function and depth. For example, the Microsoft Basic Design Guidelines Rules and the Microsoft Extended Design Guidelines Rules contain rules that focus on usability and maintainability issues, with added emphasis on naming rules in the Extended rule set.  

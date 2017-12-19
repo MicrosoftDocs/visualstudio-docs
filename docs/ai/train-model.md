@@ -10,6 +10,8 @@ ms.topic: how-to article
 ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 # Train AI models in Azure Batch AI

@@ -19,6 +19,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options, Text Editor, C/C++, Advanced
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  

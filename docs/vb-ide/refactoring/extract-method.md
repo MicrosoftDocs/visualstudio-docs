@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.extractmethod"
 dev_langs: 
   - "VB"
+ms.workload: 
+  - "multiple"
 ---
 
 # Extract a method in Visual Basic

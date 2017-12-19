@@ -19,6 +19,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Workbooks
   The <xref:Microsoft.Office.Tools.Excel.Workbook> and <xref:Microsoft.Office.Interop.Excel.Workbooks> class contains the methods and properties you use to perform tasks with workbooks.  

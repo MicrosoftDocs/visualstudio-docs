@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_undecoratedNameEx
 Retrieves part or all of an undecorated name for a C++ decorated (linkage) name.  

@@ -15,6 +15,8 @@ caps.latest.revision: 37
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Validate your system during development
 Visual Studio can help keep your software consistent with the users' requirements and with the architecture of your system.  

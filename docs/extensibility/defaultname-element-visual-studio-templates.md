@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DefaultName Element (Visual Studio Templates)
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.  

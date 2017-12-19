@@ -12,6 +12,8 @@ helpviewer_keywords:
 ms.assetid: ffc5ba4d-44d7-4ef7-a3f6-38a8738bf127
 author: "paulyuk"
 ms.author: "paulyuk"
+ms.workload: 
+  - "paulyuk"
 ---
 # Support Statement for Visual Basic 6.0 on Windows
 

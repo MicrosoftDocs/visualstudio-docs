@@ -18,6 +18,8 @@ caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Debugging Extensions for the SharePoint Tools in Visual Studio
   You can debug SharePoint tools extensions in the experimental instance or the regular instance of Visual Studio. If you need to troubleshoot the behavior of an extension, you can also modify registry values to display additional error information and to configure how Visual Studio executes SharePoint commands.  

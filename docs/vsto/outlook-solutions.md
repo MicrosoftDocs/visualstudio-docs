@@ -24,6 +24,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Outlook Solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office Outlook. You can use VSTO Add-ins to automate Outlook, extend Outlook features, or customize the Outlook user interface (UI). For more information about VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  

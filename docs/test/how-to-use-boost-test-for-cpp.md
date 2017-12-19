@@ -12,6 +12,8 @@ ms.assetid: 2e0710a8-8e8a-4f6e-8415-5ab3eb830079
 caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # How to use Boost.Test for C++ in Visual Studio

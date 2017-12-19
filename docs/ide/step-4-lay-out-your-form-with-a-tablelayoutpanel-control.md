@@ -13,6 +13,8 @@ caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 4: Lay Out Your Form with a TableLayoutPanel Control
 In this step, you add a `TableLayoutPanel` control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  

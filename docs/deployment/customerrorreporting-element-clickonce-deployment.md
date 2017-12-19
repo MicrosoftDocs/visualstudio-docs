@@ -19,6 +19,8 @@ caps.latest.revision: 6
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;customErrorReporting&gt; Element (ClickOnce Deployment)
 Specifies a URI to show when an error occurs.  

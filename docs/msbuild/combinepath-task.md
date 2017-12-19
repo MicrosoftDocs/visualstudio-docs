@@ -21,6 +21,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CombinePath Task
 Combines the specified paths into a single path.  

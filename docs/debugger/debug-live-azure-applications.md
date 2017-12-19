@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger
 

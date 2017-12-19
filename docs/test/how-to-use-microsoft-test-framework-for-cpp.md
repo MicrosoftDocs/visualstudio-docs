@@ -12,6 +12,8 @@ ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 11
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio 
 

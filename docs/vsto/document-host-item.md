@@ -24,6 +24,8 @@ caps.latest.revision: 47
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Document Host Item
   The <xref:Microsoft.Office.Tools.Word.Document> host item is a type that extends the <xref:Microsoft.Office.Interop.Word.Document> type from the primary interop assembly for Word. The <xref:Microsoft.Office.Tools.Word.Document> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Word.Document> object, but it also exposes additional events and acts as a container for host controls and Windows Forms controls.  

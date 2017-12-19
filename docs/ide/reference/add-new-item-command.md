@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Add New Item Command
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  

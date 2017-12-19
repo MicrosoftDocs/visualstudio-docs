@@ -10,6 +10,8 @@ helpviewer_keywords:
   - "Live Unit Testing What's New"
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "ronpet"
 ---
 # What's New in Live Unit Testing
 

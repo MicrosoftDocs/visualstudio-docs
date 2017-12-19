@@ -13,6 +13,8 @@ caps.latest.revision: 22
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 1: Create a Windows Forms Application Project
 When you create a picture viewer, the first step is to create a Windows Forms Application project.  

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /ResetSettings (devenv.exe)
 Restores [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  

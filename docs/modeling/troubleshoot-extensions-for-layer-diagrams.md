@@ -14,6 +14,8 @@ caps.latest.revision: 25
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshoot extensions for dependency diagrams
 This topic addresses some problems that you might encounter when you create layer model extensions.  

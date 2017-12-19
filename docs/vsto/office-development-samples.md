@@ -18,6 +18,8 @@ caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office Development Samples
   Visual Studio includes sample applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions. The code in these samples illustrates the syntax, structure, and techniques used to build Office solutions.  

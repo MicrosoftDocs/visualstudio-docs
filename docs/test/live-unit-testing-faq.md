@@ -12,6 +12,8 @@ helpviewer_keywords:
 ms.assetid: 61baf3bb-646f-4c5a-b7c0-a6bdff68f21c
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "ronpet"
 ---
 # Live Unit Testing Frequently Asked Questions
 

@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CommandPlacements Element
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  

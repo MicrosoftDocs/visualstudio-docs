@@ -14,6 +14,8 @@ ms.assetid: F725B4A3-F79E-4F05-945F-847756CD69B9
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Warnings and errors
 

@@ -15,6 +15,8 @@ ms.author: "mikejo"
 manager: ghogen
 dev_langs: 
   - C++
+ms.workload: 
+  - "multiple"
 ---
 
 # Custom Native ETW Heap Events

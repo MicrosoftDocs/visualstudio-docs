@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalker
 Provides methods to do a stack walk using information in the .pdb file.  

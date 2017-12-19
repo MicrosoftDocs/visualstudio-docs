@@ -17,6 +17,8 @@ f1_keywords:
   - "vsl.GenerateFromUsage"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "multiple"
 ---
 
 # Generate a class or type in C# #

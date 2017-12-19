@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: vs-data-tools
+ms.workload: 
+  - "data-storage"
 ---
 # Visual Studio data tools for C++
 

@@ -16,6 +16,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Implement Nested Projects
 When you create a nested project type there are a several additional steps that must be implemented. A parent project takes on some of the same responsibilities that the solution has for its nested (child) projects. The parent project is a container of projects similar to a solution. In particular, there are several events that must be raised by the solution and by the parent projects to build the hierarchy of nested projects. These events are described in the following process for creating nested projects.  

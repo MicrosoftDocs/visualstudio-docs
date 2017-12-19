@@ -17,6 +17,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Access the Built-in Fonts and Color Scheme
 The Visual Studio integrated development environment (IDE) has a scheme of fonts and colors that is associated with the editor window. You can access this scheme through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.  

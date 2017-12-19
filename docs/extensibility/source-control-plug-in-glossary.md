@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Source Control Plug-in Glossary
 The following helpful terms and definitions pertain to the Source Control Plug-in SDK documentation.  

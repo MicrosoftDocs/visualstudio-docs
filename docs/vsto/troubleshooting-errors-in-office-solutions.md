@@ -26,6 +26,8 @@ caps.latest.revision: 69
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Errors in Office Solutions
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:  

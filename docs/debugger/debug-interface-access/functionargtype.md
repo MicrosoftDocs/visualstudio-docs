@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FunctionArgType
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.  

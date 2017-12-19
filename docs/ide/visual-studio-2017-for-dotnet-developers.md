@@ -10,6 +10,8 @@ ms.date: "11/08/2017"
 ms.topic: "article"
 helpviewer_keywords: 
   - "editor"
+ms.workload: 
+  - "kaseyu"
 ---
 # Visual Studio 2017 for .NET Developers
 

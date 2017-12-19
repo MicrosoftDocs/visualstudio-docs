@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Workflow Windows (Legacy)
 The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)]. The legacy designer is a visual designer that you can use to create a workflow. You can drag activities from the **Toolbox** to the design surface and then configure them there. As a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor window, it occupies the main window area used by other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor windows. The name of the workflow is displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window title bar.  

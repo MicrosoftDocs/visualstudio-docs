@@ -21,6 +21,8 @@ caps.latest.revision: 61
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Scenario: Change your design using visualization and modeling
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio.

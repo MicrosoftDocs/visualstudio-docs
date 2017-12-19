@@ -8,8 +8,10 @@ ms.topic: "get-started-article"
 author: "corob-msft"
 ms.author: "tglee"
 manager: ghogen
-dev_langs:
- - "CPP"
+dev_langs: 
+  - "CPP"
+ms.workload: 
+  - "multiple"
 ---
 # Get Started with C++ in Visual Studio
 

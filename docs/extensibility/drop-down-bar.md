@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Drop-down Bar
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  

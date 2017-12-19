@@ -12,6 +12,8 @@ ms.assetid: d2025bd2-5984-4486-a61c-0a0933a735ea
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Generate XML documentation comments in C# #

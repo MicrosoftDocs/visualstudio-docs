@@ -12,6 +12,8 @@ ms.assetid: bebff2ad-25b6-4adc-8762-60d23bdd639a
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Implement an interface in C# #

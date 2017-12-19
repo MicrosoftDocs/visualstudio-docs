@@ -19,6 +19,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Extract Method Refactoring (C#)
 **Extract Method** is a refactoring operation that provides an easy way to create a new method from a code fragment in an existing member.  

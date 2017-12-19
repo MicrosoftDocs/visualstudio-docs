@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # IManagedAddin Interface
   Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins. This interface was added in the 2007 Microsoft Office system.  

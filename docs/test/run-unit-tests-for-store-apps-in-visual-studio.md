@@ -12,6 +12,8 @@ ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
 caps.latest.revision: 12
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Run unit tests for UWP apps in Visual Studio
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  

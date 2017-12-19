@@ -20,6 +20,8 @@ caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Restore Selections After Searches
   If you find and replace text in a document, you might want to restore the user's original selection after the search is completed.  

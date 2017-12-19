@@ -12,6 +12,8 @@ ms.assetid: f2280cfa-a9ec-4b56-9d94-c8fd384db980
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
+ms.workload: 
+  - "kaseyu"
 ---
 
 # Generate a constructor in C# #

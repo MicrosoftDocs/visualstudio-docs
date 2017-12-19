@@ -23,6 +23,8 @@ caps.latest.revision: 4
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Strings&gt; Element (Bootstrapper)
 Defines localized strings for product names, package names, and installation error messages.  

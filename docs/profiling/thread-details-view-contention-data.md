@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Thread Details View - Contention Data
 The Thread Details view presents a timeline graph of the blocking events in the selected thread of a profiling run that were caused by contentions over resources. A blocking event occurs when the thread is forced to suspend execution because another thread has locked access to a resource.  

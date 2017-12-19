@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # GetValidCompatibleFramework Function
   This API supports the Office infrastructure and isn't intended to be used directly from your code.  

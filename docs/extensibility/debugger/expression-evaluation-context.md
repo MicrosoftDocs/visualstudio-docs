@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Expression Evaluation Context
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, an **expression evaluation context**:  

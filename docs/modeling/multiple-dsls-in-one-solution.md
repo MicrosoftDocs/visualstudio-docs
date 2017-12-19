@@ -11,6 +11,8 @@ caps.latest.revision: 3
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Multiple DSLs in One Solution
 You can package several DSLs as part of a single solution so that they are installed together.  

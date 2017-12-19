@@ -14,6 +14,8 @@ ms.author: "mikejo"
 manager: ghogen
 dev_langs: 
   - JavaScript
+ms.workload: 
+  - "nodejs"
 ---
 # Getting started with Node.js in Visual Studio
 In this tutorial for Node.js development using Visual Studio, you'll create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  

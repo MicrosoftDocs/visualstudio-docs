@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaDataSource::loadDataFromPdb
 Opens and prepares a program database (.pdb) file as a debug data source.  

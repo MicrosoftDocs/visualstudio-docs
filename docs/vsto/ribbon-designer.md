@@ -32,6 +32,8 @@ caps.latest.revision: 79
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Ribbon Designer
   The Ribbon Designer is a visual design canvas. Use the Ribbon Designer to add custom tabs, groups, and controls to the Ribbon of a Microsoft Office application.  

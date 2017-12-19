@@ -14,6 +14,8 @@ ms.author: "kraigb"
 manager: ghogen
 dev_langs: 
   - python
+ms.workload: 
+  - "multiple"
 ---
 
 # Quickstart: use Visual Studio to create your first Python web app

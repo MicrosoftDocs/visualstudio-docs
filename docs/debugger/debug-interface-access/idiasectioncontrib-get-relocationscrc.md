@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_relocationsCrc
 Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.  

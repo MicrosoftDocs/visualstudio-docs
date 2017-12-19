@@ -14,6 +14,8 @@ ms.assetid: 1EE26913-E498-492E-BB90-BB0D6E8A097C
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Static helper classes
 

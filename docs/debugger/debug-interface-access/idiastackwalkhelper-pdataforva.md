@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::pdataForVA
 Returns the PDATA data block associated with the virtual address.  

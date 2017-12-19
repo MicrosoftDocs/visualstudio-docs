@@ -22,6 +22,8 @@ caps.latest.revision: 31
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Publish Page, Project Designer (Office Development in Visual Studio)
   The **Publish** page of the **Project Designer** is used to configure properties for deployment.  

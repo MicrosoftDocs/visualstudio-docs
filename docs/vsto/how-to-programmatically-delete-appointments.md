@@ -20,6 +20,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Delete Appointments
   This example deletes one instance of a recurring appointment. The example assumes that an instance of a recurring appointment occurs on June 28, 2006, at 08:00.  

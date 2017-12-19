@@ -16,6 +16,8 @@ f1_keywords:
   - "vs.csharp.refactoring.convertmethodtoproperty"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "kaseyu"
 ---
 
 # Convert Get method to property / Convert property to Get method
