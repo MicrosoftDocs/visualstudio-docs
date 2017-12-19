@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -20,7 +20,6 @@ helpviewer_keywords:
   - "Remote Debugging Monitor"
   - "remote debugging, Remote Debugging Monitor"
   - "msvsmon.exe"
-ms.assetid: e5b18734-2daf-4c58-b5de-24ae1295703e
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"

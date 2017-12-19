@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.iis_not_responding"
 dev_langs: 
@@ -17,7 +17,6 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-ms.assetid: 6060e94e-71dc-49f2-bb59-2584216eadbf
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.server_machine_no_default"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 86db9931-50e3-4095-b161-802ed8ef39c9
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"

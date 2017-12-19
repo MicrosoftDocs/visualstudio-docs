@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.http_not_supported"
 dev_langs: 
@@ -20,7 +20,6 @@ helpviewer_keywords:
   - "debugger, Web application errors"
   - "error messages, ASP.NET"
   - "ASP.NET, installation error messages"
-ms.assetid: 6286dd3d-3e2b-4edd-959d-81e0ed45500b
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"

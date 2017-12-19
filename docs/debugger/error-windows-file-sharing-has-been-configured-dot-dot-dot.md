@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.remote_credentials_prohibited"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: c45a1b74-61ec-4c64-9e2c-13051a4f50a5
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
