@@ -15,7 +15,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "aspnet"
+  - "azure"
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger
 

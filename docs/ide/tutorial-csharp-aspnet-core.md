@@ -15,7 +15,8 @@ manager: ghogen
 dev_langs: 
   - CSharp
 ms.workload: 
-  - "multiple"
+  - "aspnet"
+  - "dotnetcore"
 ---
 
 # Getting started with C# and ASP.NET in Visual Studio

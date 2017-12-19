@@ -23,7 +23,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "aspnet"
 ---
 # Debug ASP.NET Applications in Visual Studio
 

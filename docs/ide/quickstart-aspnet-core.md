@@ -13,7 +13,8 @@ manager: ghogen
 dev_langs: 
   - CSharp
 ms.workload: 
-  - "multiple"
+  - "aspnet"
+  - "dotnetcore"
 ---
 # Quickstart: use Visual Studio to create your first ASP.NET Core web app
 

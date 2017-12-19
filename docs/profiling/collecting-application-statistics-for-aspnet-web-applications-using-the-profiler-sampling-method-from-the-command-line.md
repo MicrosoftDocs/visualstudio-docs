@@ -17,7 +17,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "aspnet"
 ---
 # Collect statistics for ASP.NET web apps
 
