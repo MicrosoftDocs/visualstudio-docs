@@ -16,7 +16,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute
 |||  

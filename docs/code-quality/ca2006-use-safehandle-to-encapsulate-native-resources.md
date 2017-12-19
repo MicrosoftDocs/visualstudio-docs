@@ -20,7 +20,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # CA2006: Use SafeHandle to encapsulate native resources
 |||  

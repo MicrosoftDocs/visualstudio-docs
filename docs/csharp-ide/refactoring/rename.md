@@ -18,7 +18,7 @@ f1_keywords:
 dev_langs: 
   - "CSharp"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 
 # Rename a code symbol in C# #

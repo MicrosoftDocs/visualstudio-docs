@@ -14,7 +14,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Collect .NET Framework Memory Data by using the Profiler Command Line
 

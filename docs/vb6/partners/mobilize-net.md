@@ -12,7 +12,7 @@ author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
 ms.workload: 
-  - "ronpet"
+  - "dotnet"
 ---
 
 # Mobilize.Net's Visual Basic Upgrade Companion (VBUC)

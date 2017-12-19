@@ -23,7 +23,7 @@ author: "kempb"
 ms.author: "kempb"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Troubleshooting .NET Framework Targeting Errors
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  

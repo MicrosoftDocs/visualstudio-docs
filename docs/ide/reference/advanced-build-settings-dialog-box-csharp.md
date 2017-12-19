@@ -18,7 +18,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Advanced Build Settings Dialog Box (C#)
 

@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Functions View - .NET Memory Sampling Data
 The Functions view of .NET memory allocation profiling data that was collected by using the sampling method lists the functions that allocated memory during the profiling run and reports the size and number of allocations.  

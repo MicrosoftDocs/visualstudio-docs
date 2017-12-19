@@ -16,7 +16,7 @@ manager: ghogen
 dev_langs: 
   - csharp
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 
 # Move declaration near reference in C# #

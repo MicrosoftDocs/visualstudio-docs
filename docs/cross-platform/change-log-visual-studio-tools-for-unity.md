@@ -14,7 +14,7 @@ author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
 ms.workload: 
-  - "crdun"
+  - "unity"
 ---
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  

@@ -17,7 +17,7 @@ manager: ghogen
 ms.technology: 
   - "vs-ide-general"
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Experimental
 

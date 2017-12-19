@@ -17,7 +17,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Collecting .NET Memory Allocation and Lifetime Data
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.  

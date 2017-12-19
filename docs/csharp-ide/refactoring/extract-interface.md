@@ -18,7 +18,7 @@ f1_keywords:
 dev_langs: 
   - csharp
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 
 # Extract an interface in C# #

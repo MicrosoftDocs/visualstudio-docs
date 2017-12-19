@@ -13,7 +13,7 @@ caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 
 # How to use Google Test for C++ in Visual Studio

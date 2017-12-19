@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Analyze CPU usage data in Visual Studio (Managed Code)
 

@@ -25,7 +25,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Edit and Continue Dialog Box (C++)
 Edit and Continue could not apply the changes you made to your native code. This may be a temporary condition. Sometimes Edit and Continue cannot apply native code changes immediately, but can apply them later during the debugging session (for example, after completion of the current call to the procedure now executing). For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  

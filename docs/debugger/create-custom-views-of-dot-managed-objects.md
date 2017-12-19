@@ -29,7 +29,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Create custom views of managed objects
 You can customize the way Visual Studio displays data types in debugger variable windows.  

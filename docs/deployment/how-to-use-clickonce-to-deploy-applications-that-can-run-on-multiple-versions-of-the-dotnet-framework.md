@@ -22,7 +22,7 @@ author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # How to: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.  

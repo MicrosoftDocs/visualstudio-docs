@@ -14,6 +14,7 @@ manager: ghogen
 ms.technology: vs-data-tools
 ms.workload: 
   - "data-storage"
+  - "cplusplus"
 ---
 # Visual Studio data tools for C++
 

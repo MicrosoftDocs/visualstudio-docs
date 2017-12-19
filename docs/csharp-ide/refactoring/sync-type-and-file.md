@@ -15,7 +15,7 @@ manager: ghogen
 dev_langs: 
   - "CSharp"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 
 # Sync a type to a filename, or a filename to a type in C# #

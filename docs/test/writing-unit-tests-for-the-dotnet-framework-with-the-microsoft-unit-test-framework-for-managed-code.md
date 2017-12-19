@@ -13,7 +13,7 @@ caps.latest.revision: 5
 ms.author: "douge"
 manager: "douge"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
 ## In this section  

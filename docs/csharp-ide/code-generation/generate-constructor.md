@@ -13,7 +13,7 @@ author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 
 # Generate a constructor in C# #

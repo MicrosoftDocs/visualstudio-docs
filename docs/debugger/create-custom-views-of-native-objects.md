@@ -18,7 +18,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Create custom views of native objects in the Visual Studio debugger
 The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch** window, **Locals** window, and in **DataTips**.

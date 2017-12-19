@@ -12,7 +12,7 @@ author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
 ms.workload: 
-  - "ronpet"
+  - "dotnet"
 ---
 
 # Visual Basic 6.0 offers from partners

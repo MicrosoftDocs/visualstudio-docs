@@ -16,7 +16,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # CA2149: Transparent methods must not call into native code
 |||  

@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # C++ Library Reference
 This section contains reference information for the Concurrency Visualizer SDK.  

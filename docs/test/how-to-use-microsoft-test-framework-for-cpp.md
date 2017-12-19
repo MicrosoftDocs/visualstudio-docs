@@ -13,7 +13,7 @@ caps.latest.revision: 11
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio 
 

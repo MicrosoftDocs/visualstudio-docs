@@ -15,7 +15,7 @@ author: mikeblome
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # C++ Core Guidelines Checker Reference
 This section lists C++ Core Guidelines Checker warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  

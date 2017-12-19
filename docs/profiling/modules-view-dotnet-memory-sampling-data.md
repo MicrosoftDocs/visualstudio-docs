@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Modules View - .NET Memory Sampling Data
 The Modules view of .NET memory allocation data that is collected by using the sampling method groups the memory data by the modules that were executed in the profiling run. Each module is the root of a hierarchical tree. The functions of the module are listed underneath the module node.  

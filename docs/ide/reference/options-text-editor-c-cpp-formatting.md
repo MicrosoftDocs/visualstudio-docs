@@ -21,7 +21,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Formatting
 Lets you change the default behavior of the Code Editor when you are programming in C or C++.  

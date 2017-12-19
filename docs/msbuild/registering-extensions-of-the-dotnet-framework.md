@@ -18,7 +18,7 @@ author: "kempb"
 ms.author: "kempb"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Registering Extensions of the .NET Framework
 You can develop an assembly that extends a specific version of the .NET Framework. To enable the assembly to appear in the Visual Studio **Add References** dialog box, you must add the folder that contains it to the system registry.  

@@ -20,7 +20,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # CA2115: Call GC.KeepAlive when using native resources
 |||  

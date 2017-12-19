@@ -14,7 +14,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Designing XAML in Visual Studio
 

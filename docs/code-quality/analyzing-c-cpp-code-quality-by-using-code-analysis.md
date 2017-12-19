@@ -22,7 +22,7 @@ author: mikeblome
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Analyzing C/C++ Code Quality by Using Code Analysis
 You can improve your C/C++ code by using the code analysis in Visual Studio to find and fix code defects.  

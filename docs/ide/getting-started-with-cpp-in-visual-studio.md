@@ -11,7 +11,7 @@ manager: ghogen
 dev_langs: 
   - "CPP"
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Get Started with C++ in Visual Studio
 

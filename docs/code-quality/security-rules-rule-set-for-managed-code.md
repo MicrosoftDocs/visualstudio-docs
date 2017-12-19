@@ -14,7 +14,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Security Rules rule set for managed code
 You should include the Microsoft Security Rules rule set to maximize the number of potential security issues that are reported.  

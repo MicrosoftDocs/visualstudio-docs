@@ -19,7 +19,7 @@ author: mikeblome
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects
 This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code.  

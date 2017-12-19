@@ -20,7 +20,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # CA1049: Types that own native resources should be disposable
 |||  

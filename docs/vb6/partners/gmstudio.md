@@ -12,7 +12,7 @@ author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
 ms.workload: 
-  - "ronpet"
+  - "dotnet"
 ---
 
 # Great Migrations Studio (gmStudio)

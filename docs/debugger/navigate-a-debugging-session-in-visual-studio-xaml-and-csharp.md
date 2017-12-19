@@ -19,7 +19,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  

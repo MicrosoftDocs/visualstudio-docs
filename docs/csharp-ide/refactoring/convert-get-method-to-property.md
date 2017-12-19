@@ -17,7 +17,7 @@ f1_keywords:
 dev_langs: 
   - csharp
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 
 # Convert Get method to property / Convert property to Get method

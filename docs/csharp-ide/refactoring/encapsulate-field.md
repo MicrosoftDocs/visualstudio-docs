@@ -18,7 +18,7 @@ f1_keywords:
 dev_langs: 
   - csharp
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 
 # Encapsulate a field in C# #

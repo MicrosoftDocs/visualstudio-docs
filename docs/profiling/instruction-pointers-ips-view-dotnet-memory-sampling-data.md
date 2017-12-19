@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Instruction Pointers (IPs) View - .NET Memory Sampling Data
 The IPs view for .NET memory allocation profiling data that was collected by using the sampling method lists the assembly instructions that allocated memory during the profiling run. Columns of the view also list the size and number of allocations.  

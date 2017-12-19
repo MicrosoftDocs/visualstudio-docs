@@ -20,7 +20,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Application Page, Project Designer (C#)
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  

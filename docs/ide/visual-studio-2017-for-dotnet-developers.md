@@ -11,7 +11,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "editor"
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 # Visual Studio 2017 for .NET Developers
 

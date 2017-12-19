@@ -12,7 +12,7 @@ author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 # Generate Equals and GetHashCode method overrides in C# #
 

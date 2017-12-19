@@ -13,7 +13,7 @@ ms.assetid: 5b51fb96-94f4-4926-92b9-262156c05b85
 author: "rpetrusha"
 ms.author: "ronpet"
 ms.workload: 
-  - "ronpet"
+  - "dotnet"
 ---
 
 # Live Unit Testing with Visual Studio 2017

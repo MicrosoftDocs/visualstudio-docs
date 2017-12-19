@@ -18,7 +18,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # IDiaSymbol::get_managed
 Retrieves a flag that specifies whether the symbol refers to managed code.  

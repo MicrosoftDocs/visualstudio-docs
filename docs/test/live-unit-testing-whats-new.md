@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: "rpetrusha"
 ms.author: "ronpet"
 ms.workload: 
-  - "ronpet"
+  - "dotnet"
 ---
 # What's New in Live Unit Testing
 

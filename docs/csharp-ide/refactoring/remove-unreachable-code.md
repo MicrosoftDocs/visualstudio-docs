@@ -15,7 +15,7 @@ manager: ghogen
 dev_langs: 
   - csharp
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
 ---
 
 # Remove unreachable code in C# #

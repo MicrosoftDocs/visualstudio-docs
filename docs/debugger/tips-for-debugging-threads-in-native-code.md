@@ -22,7 +22,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 # Tips for Debugging Threads in Native Code
 Here are some tips you can use when debugging threads in native code:  

@@ -16,7 +16,7 @@ manager: ghogen
 dev_langs: 
   - C++
 ms.workload: 
-  - "multiple"
+  - "cplusplus"
 ---
 
 # Custom Native ETW Heap Events
