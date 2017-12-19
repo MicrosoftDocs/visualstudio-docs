@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.webdbg_ntlm_authn_not_enabled"
 dev_langs: 
@@ -18,7 +18,6 @@ dev_langs:
   - "aspx"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-ms.assetid: 6027cd94-74cf-470f-b7ce-6f6b68bc56ba
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"

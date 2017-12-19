@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs: 
@@ -17,7 +17,6 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "kernel debugger"
-ms.assetid: 630a7abd-3303-4aaa-888a-6de3de14bc01
 caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"

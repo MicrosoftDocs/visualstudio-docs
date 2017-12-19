@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlle_dcom_accessdenied"
 dev_langs: 
@@ -16,7 +16,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-ms.assetid: a922754e-6deb-43c6-935d-cc6dcc2a74d4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"

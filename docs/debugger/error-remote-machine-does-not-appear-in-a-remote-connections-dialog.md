@@ -7,13 +7,12 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 5fd98a5b-2cf3-4438-8b0f-6f1a742a62ce
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"

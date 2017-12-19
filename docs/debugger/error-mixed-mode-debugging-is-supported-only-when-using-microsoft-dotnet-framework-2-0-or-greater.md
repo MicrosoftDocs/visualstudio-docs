@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_to_old"
 dev_langs: 
@@ -15,7 +15,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: e67fbf78-f037-4be4-a65f-ff72230b03e1
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
