@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.dcom_disabled"
 dev_langs: 
@@ -17,7 +17,6 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "DCOM, unable to connect error"
-ms.assetid: b584b5db-ef52-45ed-8561-1314da3cc5b8
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"

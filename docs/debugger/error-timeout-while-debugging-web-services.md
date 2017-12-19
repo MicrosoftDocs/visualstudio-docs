@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -16,7 +16,6 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, Web application errors"
   - "XML Web services, timeout while debugging"
-ms.assetid: 4b7df112-788a-4429-9a0c-4c6dac4fb609
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
