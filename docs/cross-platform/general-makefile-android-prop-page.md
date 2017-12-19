@@ -18,7 +18,7 @@ f1_keywords:
   - VC.Project.VCConfiguration.BuildLogFile
   - VC.Project.VCConfiguration.ConfigurationType
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # General Project Properties (Android C++ Makefile)

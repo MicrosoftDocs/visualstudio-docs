@@ -21,7 +21,7 @@ f1_keywords:
   - VC.Project.VCNMakeTool.IncludeSearchPath
   - VC.Project.VCNMakeTool.ForcedIncludes
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # NMake Properties (Android C++) 

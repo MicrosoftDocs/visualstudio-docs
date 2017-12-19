@@ -46,7 +46,7 @@ f1_keywords:
   - VC.Project.VCClangCompilerTool.MultiProcessorCompilation
   - vc.project.AdditionalOptionsPage
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # Clang Project Properties (Android C++)

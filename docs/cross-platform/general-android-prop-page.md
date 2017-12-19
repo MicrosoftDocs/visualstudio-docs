@@ -25,7 +25,7 @@ f1_keywords:
   - VC.Project.VCConfiguration.UseOfSTL
   - VC.Project.VCConfiguration.ThumbMode
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # General Project Properties (Android C++)

@@ -13,7 +13,7 @@ author: "corob"
 ms.author: "mblome"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # C++ Cross Platform Property Page Reference

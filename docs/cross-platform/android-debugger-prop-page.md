@@ -18,7 +18,7 @@ f1_keywords:
   - VC.Project.AndroidDebugger.PackagePath
   - VC.Project.AndroidDebugger.LaunchActivity
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # Android Debugger Properties

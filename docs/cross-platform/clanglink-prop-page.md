@@ -35,7 +35,7 @@ f1_keywords:
   - VC.Project.VCLinkerTool.AdditionalDependencies
   - VC.Project.VCLinkerTool.LibraryDependencies
 ms.workload: 
-  - "multiple"
+  - "xplat-cplusplus"
 ---
 
 # Clang Linker Properties (Android C++)
