@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "11/08/2017"
+ms.date: "12/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -12,7 +12,6 @@ helpviewer_keywords:
   - "update Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
-ms.assetid: db005b65-d233-4471-b337-551fb3fa2464
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
@@ -42,17 +41,17 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 
 ### More about Visual Studio notifications
 
-Not only does Visual Studio notify you when an update is available for Visual Studio itself or for any of the components, but it also notifies you of certain kinds of events that occur in the Visual Studio environment:
+Visual Studio notifies you when an update is available for Visual Studio itself or for any components, and when certain events occur in the Visual Studio environment:
 
+* When the notification flag is yellow, there is a Visual Studio product update available for you to install.
 * When the notification flag is red, it means that there is a problem with your license.
-* When it's yellow, there is a Visual Studio product update available for you to install.
-* When it is "normal" or black, you'll see messages that are informational or optional, such as crashes for which you might want to find a workaround.
+* When the notification flag is black, you'll see messages that are informational or optional, such as crashes for which you might want to find a workaround.
 
-You can click on the icon to open the **Notifications** hub and choose which ones to act on. You can choose to do a one-time dismiss on a notification, or to always ignore a notification by hovering over it.
+Click the notifications flag to open the **Notifications** hub and choose which ones to act on. Or, choose to ignore or dismiss a notification.
 
-If you choose to always ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, click the **Settings** button in the Notifications hub.
+If you choose to ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, click the **Settings** button in the Notifications hub.
 
-  ![Click the Settings button in the Notifications hub](media/vs-notifications-hub-settings-button.png "Click the Settings button in the Notifications hub")
+   ![Click the Settings button in the Notifications hub](media/vs-notifications-hub-settings-button.png "Click the Settings button in the Notifications hub")
 
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
