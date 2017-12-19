@@ -21,7 +21,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Code Analysis for Managed Code Warnings
 The Managed Code Analysis tool provides warnings that indicate rule violations in managed code libraries. The warnings are organized into rule areas such as design, localization, performance, and security. Each warning signifies a violation of a Managed Code Analysis rule. This section provides in-depth discussions and examples for each Managed Code Analysis warning.  

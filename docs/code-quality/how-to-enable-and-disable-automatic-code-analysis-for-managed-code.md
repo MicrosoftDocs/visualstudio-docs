@@ -14,7 +14,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # How to: Enable and Disable Automatic Code Analysis for Managed Code
 You can configure Code Analysis to run before each build of a managed code project. You can set different Code Analysis properties for each [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] configuration.  

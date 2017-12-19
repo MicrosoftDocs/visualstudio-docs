@@ -264,7 +264,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Code Analysis Warnings for Managed Code by CheckId
 The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.  

@@ -22,7 +22,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # Managed Debugging: Recommended Property Settings
 Certain properties should be set the same way for all managed debugging scenarios.  

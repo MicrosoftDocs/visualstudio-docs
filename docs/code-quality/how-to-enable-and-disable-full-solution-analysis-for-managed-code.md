@@ -16,7 +16,7 @@ manager: ghogen
 ms.technology: 
   - "vs-ide-code-analysis"
 ms.workload: 
-  - "multiple"
+  - "dotnet"
 ---
 # How to: Enable and Disable Full Solution Analysis for Managed Code
 > [!NOTE]
