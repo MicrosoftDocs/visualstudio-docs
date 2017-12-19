@@ -15,7 +15,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "azure"
 ---
 # Debug Azure services in Visual Studio
 

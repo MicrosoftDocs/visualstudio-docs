@@ -25,7 +25,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Analyze HTML UI responsiveness in Universal Windows Apps
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for  Universal Windows Apps.  

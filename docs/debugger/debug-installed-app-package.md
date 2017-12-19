@@ -25,7 +25,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Debug an installed app package in Visual Studio (UWP)
 

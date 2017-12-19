@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "azure"
 ---
 
 # Azure cloud service projects for Python

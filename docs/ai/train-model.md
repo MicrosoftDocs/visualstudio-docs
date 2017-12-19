@@ -11,7 +11,7 @@ ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
 ms.workload: 
-  - "multiple"
+  - "azure"
 ---
 
 # Train AI models in Azure Batch AI

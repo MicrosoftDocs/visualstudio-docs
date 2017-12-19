@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "azure"
 ---
 
 # Managing Python on Azure App Service

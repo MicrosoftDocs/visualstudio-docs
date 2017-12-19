@@ -13,7 +13,7 @@ caps.latest.revision: 13
 ms.author: mblome
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # How to test a Visual C++ DLL for UWP apps 
 This topic describes one way to create unit tests for a C++ DLL for Universal Windows Platform (UWP) apps with the Microsoft Test Framework for C++. The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a UWP app that shows a user the fun things that can be done with math.  

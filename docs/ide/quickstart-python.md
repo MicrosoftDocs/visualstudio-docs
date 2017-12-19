@@ -15,7 +15,7 @@ manager: ghogen
 dev_langs: 
   - python
 ms.workload: 
-  - "multiple"
+  - "python"
 ---
 
 # Quickstart: use Visual Studio to create your first Python web app

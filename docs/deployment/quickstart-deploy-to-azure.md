@@ -16,7 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ms.workload: 
-  - "multiple"
+  - "azure"
 ---
 # Publish an ASP.NET or ASP.NET Core app to Azure App Service using Visual Studio
 

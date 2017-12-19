@@ -18,7 +18,7 @@ dev_langs:
   - csharp
   - vb
 ms.workload: 
-  - "multiple"
+  - "azure"
 ---
 # Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service
 You can use Windows Presentation Foundation (WPF) to quickly create a modern desktop application that uses an Azure Mobile Service to store and provide data.  

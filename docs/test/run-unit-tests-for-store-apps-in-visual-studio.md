@@ -13,7 +13,7 @@ caps.latest.revision: 12
 ms.author: "douge"
 manager: "douge"
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Run unit tests for UWP apps in Visual Studio
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  

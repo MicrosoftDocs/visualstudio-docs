@@ -19,7 +19,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Run UWP apps on a remote machine
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

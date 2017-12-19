@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "azure"
 ---
 
 # Remote debugging rroubleshooter for Python and Azure

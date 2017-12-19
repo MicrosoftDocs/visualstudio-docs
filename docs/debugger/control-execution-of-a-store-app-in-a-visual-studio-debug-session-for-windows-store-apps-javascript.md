@@ -19,7 +19,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Control execution of a UWP app in a Visual Studio debug session (JavaScript)
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  

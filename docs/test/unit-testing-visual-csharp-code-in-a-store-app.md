@@ -13,7 +13,7 @@ caps.latest.revision: 19
 ms.author: "douge"
 manager: "douge"
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Unit testing Visual C# code in a UWP app
 This topic describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.  

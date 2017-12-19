@@ -13,7 +13,8 @@ author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
 ms.workload: 
-  - "v-davian"
+  - "azure"
+  - "unity"
 ---
 
 # Create data model classes

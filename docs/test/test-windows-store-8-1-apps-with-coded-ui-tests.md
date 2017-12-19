@@ -13,7 +13,7 @@ caps.latest.revision: 23
 ms.author: "douge"
 manager: "douge"
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Test Windows UWP Apps with Coded UI Tests
 

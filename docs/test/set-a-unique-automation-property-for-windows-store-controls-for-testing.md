@@ -13,7 +13,7 @@ caps.latest.revision: 10
 ms.author: "douge"
 manager: "douge"
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
 # Set a Unique Automation Property for UWP Controls for Testing
 If you want to run coded UI tests for your XAML-based UWP application, you must have a unique automation property that identifies each control.  
