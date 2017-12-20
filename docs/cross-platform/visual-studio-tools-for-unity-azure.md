@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Unity Azure | Microsoft Docs"
+title: "Programming with Visual Studio Tools for Unity and Azure | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/18/2017"
 ms.reviewer: "crdun"
@@ -14,7 +14,7 @@ ms.author: "v-davian"
 manager: "crdun"
 ---
 
-# Using Azure with Unity
+# Programming with Unity and Azure
 
 Azure provides a scalable solution to storing telemetry and other game data in the cloud. With the release of Unity 2017, Unity's experimental support for .NET 4.6 makes Azure integration simpler than ever by allowing use of Azure .NET SDKs.
 
@@ -25,13 +25,13 @@ Azure provides a scalable solution to storing telemetry and other game data in t
 
 Visit [The Sandbox](/sandbox/) to try the following experimental Azure SDKs with Unity:
 
-* [Azure Storage SDK for Unity](/sandbox/gamedev/unity/azure-storage-unity/)
-* [Azure Event Hubs SDK for Unity](/sandbox/gamedev/unity/azure-event-hubs-unity)
-* [Azure Mobile Apps SDK for Unity](/sandbox/gamedev/unity/azure-mobile-apps-unity)
+* [Azure Storage SDK for Unity](https://aka.ms/azstoragegamedev)
+* [Azure Event Hubs SDK for Unity](https://aka.ms/azeventhubsgamedev)
+* [Azure Mobile Apps SDK for Unity](https://aka.ms/azmobileappsgamedev)
 
 ## Azure SDK Sample
 
-There is also a [simple sample game](/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer)
-using the Azure Easy Tables SDK and Unity. The game uses Azure Easy Tables data storage to track the high score leaderboard and store in-game telemetry, and is available for [download from GitHub](https://github.com/BrianPeek/AzureSamples-Unity).
+There is also a [simple sample game](https://aka.ms/azmobileappsracer)
+using the Azure Easy Tables SDK and Unity. The game uses Azure Easy Tables data storage to track the high score leaderboard and store in-game telemetry, and is available for [download from GitHub](https://aka.ms/azsamples-unity).
 
 ![Sample game screenshot](media/vstu_azure-test-sample-game-image2.png)
