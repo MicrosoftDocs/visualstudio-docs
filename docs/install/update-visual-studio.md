@@ -25,17 +25,17 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 ## Update by using the Notifications hub
 1. When there are updates, you will see a notification flag in Visual Studio.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The Notification flag in Visual Studio")
+  ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The update Notification flag in Visual Studio")
 
-  Click or tap the notification flag to open the **Notifications** hub.
+  Choose the notification flag to open the **Notifications** hub.
 
   ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
 
-2. Click or tap **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
+2. Choose **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
 
-3. In the **Extensions and Updates** dialog box, click or tap the **Update** button.
+3. In the **Extensions and Updates** dialog box, choose the **Update** button.
 
   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
@@ -47,7 +47,9 @@ Visual Studio notifies you when an update is available for Visual Studio itself 
 * When the notification flag is red, it means that there is a problem with your license.
 * When the notification flag is black, you'll see messages that are informational or optional, such as crashes for which you might want to find a workaround.
 
-Click the notifications flag to open the **Notifications** hub and choose which ones to act on. Or, choose to ignore or dismiss a notification.
+Click the notifications flag to open the **Notifications** hub and choose which notifications you want to act on. Or, choose to ignore or dismiss a notification.
+
+ ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag-optional.png "The message Notification flag in Visual Studio")
 
 If you choose to ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, click the **Settings** button in the Notifications hub.
 
@@ -62,7 +64,7 @@ If you choose to ignore a notification, Visual Studio will stop showing it. If y
 
 3.	If an update is available, you'll see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
-  Click or tap the **Update** button to install the updates.
+  Choose the **Update** button to install the updates.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
