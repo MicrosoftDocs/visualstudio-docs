@@ -15,6 +15,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Contributing to the Add New Item Dialog Box
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the `Projects` registry subkey.  

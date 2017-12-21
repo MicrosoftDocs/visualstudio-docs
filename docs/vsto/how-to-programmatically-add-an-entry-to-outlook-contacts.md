@@ -18,6 +18,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add an Entry to Outlook Contacts
   This example creates a new contact and enters data into the new contact.  

@@ -23,6 +23,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Define a Method Instance
   You must define at least one method instance for every method in your model.  

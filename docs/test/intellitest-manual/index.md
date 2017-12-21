@@ -14,6 +14,8 @@ ms.assetid: C5FA1C59-BB82-43B6-BF96-D0D85E033DAE
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # IntelliTest Reference Manual
 

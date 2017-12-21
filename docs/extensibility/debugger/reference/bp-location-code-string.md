@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_STRING
 Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE).  

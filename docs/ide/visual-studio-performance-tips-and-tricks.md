@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Performance Tips and Tricks
 

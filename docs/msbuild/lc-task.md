@@ -23,6 +23,8 @@ caps.latest.revision: 15
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # LC Task
 Wraps LC.exe, which generates a .license file from a .licx file. For more information on LC.exe, see [Lc.exe (License Compiler)](/dotnet/framework/tools/lc-exe-license-compiler).  

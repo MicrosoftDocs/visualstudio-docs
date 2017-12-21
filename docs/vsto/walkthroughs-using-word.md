@@ -19,6 +19,8 @@ caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthroughs Using Word
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Word and customize the user interface (UI).  

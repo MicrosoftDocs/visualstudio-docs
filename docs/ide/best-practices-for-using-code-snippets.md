@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Best Practices for Using Code Snippets
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  

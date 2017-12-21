@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Portability Warnings
 Portability warnings support portability across different operating systems.  

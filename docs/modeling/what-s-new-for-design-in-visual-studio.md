@@ -17,6 +17,8 @@ caps.latest.revision: 32
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # What&#39;s new for design in Visual Studio
 

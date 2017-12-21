@@ -14,6 +14,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 robots: noindex,nofollow
+ms.workload: 
+  - "multiple"
 ---
 # Analyze CPU Usage in a Universal Windows App (UWP)
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  

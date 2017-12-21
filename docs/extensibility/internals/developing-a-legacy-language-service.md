@@ -21,6 +21,8 @@ caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Developing a Legacy Language Service
 This section links to topics that help you create a legacy language service.  

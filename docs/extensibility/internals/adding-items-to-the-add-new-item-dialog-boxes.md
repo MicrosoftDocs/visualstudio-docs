@@ -15,6 +15,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding Items to the Add New Item Dialog Boxes
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the AddItemTemplates section contains the path of and name of the directory in which items made available in the **Add New Item** dialog box are put.  

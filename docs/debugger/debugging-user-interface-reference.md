@@ -23,6 +23,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging User Interface Reference
 You may encounter the following dialog boxes as you debug your application.  

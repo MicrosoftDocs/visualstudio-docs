@@ -16,6 +16,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line
 This section describes the procedures and options for collecting performance statistics for a client (stand-alone) application by using the sampling method from the command line.  

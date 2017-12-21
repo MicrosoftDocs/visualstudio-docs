@@ -14,6 +14,8 @@ ms.assetid: EBAA2E04-A97A-4047-B739-8DBA7F2D5074
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Install and configure test agents
 

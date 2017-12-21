@@ -18,6 +18,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1726: Use preferred terms
 |||  

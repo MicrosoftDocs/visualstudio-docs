@@ -25,6 +25,8 @@ caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveAssemblyReference Task
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  

@@ -21,6 +21,8 @@ caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSPerfMon
 You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by VSPerfCmd.exe. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:  

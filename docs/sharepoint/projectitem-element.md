@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ProjectItem Element
   Represents a SharePoint project item. This is the required root element of the .spdata file.  

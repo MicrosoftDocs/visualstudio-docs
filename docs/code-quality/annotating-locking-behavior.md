@@ -37,6 +37,8 @@ caps.latest.revision: 9
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Annotating Locking Behavior
 To avoid concurrency bugs in your multithreaded program, always follow an appropriate locking discipline and use SAL annotations.  

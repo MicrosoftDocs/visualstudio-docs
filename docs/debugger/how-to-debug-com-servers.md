@@ -27,6 +27,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Debug COM Servers
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  

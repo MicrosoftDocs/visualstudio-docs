@@ -15,6 +15,8 @@ caps.latest.revision: 38
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Adding Features to a Custom Editor
 After you create a custom editor, you can add more features to it.  

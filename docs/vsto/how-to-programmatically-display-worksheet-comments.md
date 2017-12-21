@@ -19,6 +19,8 @@ caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Display Worksheet Comments
   You can programmatically show and hide comments in Microsoft Office Excel worksheets.  

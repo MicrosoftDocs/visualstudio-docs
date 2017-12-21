@@ -11,6 +11,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Image Service Tools
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.  

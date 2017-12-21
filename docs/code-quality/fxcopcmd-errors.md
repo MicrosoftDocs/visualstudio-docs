@@ -15,6 +15,8 @@ caps.latest.revision: 12
 ms.author: "gewarren"
 author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FxCopCmd Errors
 FxCopCmd does not consider all errors to be fatal. If FxCopCmd has sufficient information to perform a partial analysis, it performs the analysis and reports errors that occurred. The error code, which is a 32-bit integer, contains a bitwise combination of numeric values that correspond to errors.  

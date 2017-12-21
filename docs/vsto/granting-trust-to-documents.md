@@ -21,6 +21,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Granting Trust to Documents
   A document-level project has the same security requirements as application-level projects: signing the manifests with a certificate or clicking the trust prompt. In addition, the document or workbook must be located in a directory that is designated as a trusted location.  

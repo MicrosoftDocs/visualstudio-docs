@@ -12,6 +12,8 @@ ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 11
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Code Coverage
 The code coverage analysis tool in Visual Studio collects data for native and managed assemblies (.dll or .exe files). However, in some cases, the Code Coverage Results window displays an error similar to "Empty results generated: ...." There are several possible reasons why this might happen. This topic is intended to help resolve those issues.  

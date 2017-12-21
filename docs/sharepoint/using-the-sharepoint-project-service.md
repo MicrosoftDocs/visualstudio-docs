@@ -19,6 +19,8 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Using the SharePoint Project Service
   The SharePoint project system includes a project service that you can use to perform tasks related to the project system. The project service is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object.  

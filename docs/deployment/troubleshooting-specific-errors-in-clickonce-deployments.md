@@ -24,6 +24,8 @@ caps.latest.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Specific Errors in ClickOnce Deployments
 This topic lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, and provides steps to resolve each problem.  

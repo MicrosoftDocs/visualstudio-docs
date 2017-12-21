@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccInitialize Function
 This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE).  

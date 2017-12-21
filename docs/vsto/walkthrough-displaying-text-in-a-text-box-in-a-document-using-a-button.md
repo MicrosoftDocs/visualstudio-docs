@@ -18,6 +18,8 @@ caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Displaying Text in a Text Box in a Document Using a Button
   This walkthrough demonstrates how to use buttons and text boxes in a document-level customization for Microsoft Office Word.  

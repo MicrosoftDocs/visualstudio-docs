@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # span::span Constructor
 Initializes a new instance of the `span` class.  

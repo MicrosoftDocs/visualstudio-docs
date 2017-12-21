@@ -23,6 +23,8 @@ caps.latest.revision: 16
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Delete Task
 Deletes the specified files.  

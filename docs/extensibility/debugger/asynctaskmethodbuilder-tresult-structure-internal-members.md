@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> reference topic.  

@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Just My Code (Threads View)
 If you select this option, you will filter the call stack to show only your code plus one level of called functions.  

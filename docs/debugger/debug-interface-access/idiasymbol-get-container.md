@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_container
 This function retrieves a pointer to a symbol representing the parent/container of this symbol.  

@@ -16,6 +16,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use Built-In Colorable Items
 Before you use the built-in colorable items, you must first signal to the integrated development environment (IDE) that you are not providing your own custom colorable items, which in this case would be <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> objects. You do this by setting a registry entry for the language service.  

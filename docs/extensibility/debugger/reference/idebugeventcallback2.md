@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEventCallback2
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).  

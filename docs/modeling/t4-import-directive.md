@@ -11,6 +11,8 @@ caps.latest.revision: 3
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # T4 Import Directive
 In the code blocks of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)].  

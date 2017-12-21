@@ -15,6 +15,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Specifying File Handlers for File Name Extensions
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.  

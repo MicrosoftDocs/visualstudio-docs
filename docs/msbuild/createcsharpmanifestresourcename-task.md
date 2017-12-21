@@ -21,6 +21,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateCSharpManifestResourceName Task
 Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  

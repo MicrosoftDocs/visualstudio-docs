@@ -16,6 +16,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 1: Add To/Open From Source Control
 This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.  

@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Notifications and Progress for Visual Studio
 ##  <a name="BKMK_NotificationSystems"></a> Notification systems  

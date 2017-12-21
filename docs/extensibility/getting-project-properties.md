@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Project Properties
 This walkthrough shows how to displays project properties in a tool window.  

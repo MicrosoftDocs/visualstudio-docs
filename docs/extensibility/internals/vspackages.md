@@ -15,6 +15,8 @@ caps.latest.revision: 45
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSPackages
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  

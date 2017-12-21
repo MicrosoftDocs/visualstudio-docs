@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SetNotificationForWaitCompletion Method
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  

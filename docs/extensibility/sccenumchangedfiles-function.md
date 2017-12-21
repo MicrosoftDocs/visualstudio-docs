@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccEnumChangedFiles Function
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.  

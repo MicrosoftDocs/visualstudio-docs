@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Zoom Control (Utilization View)
 The zoom control helps you zoom in on the CPU utilization chart in order to focus on areas of particular interest. This control zooms in on the center of the view. Therefore, you should center the area of interest before you zoom in.  

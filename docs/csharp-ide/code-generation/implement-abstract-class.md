@@ -12,6 +12,8 @@ ms.assetid: 96cfed7f-f090-4369-8a85-2dcd4c7cf12b
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 
 # Implement an abstract class in C# #

@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Accessing Text Layers by Using the Legacy API
 A text layer typically encapsulates some aspect of text layout. For example, a "function-at-a-time" layer hides text before and after a function containing the caret (text insertion point).  

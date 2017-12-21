@@ -25,6 +25,8 @@ caps.latest.revision: 86
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Architecture of Document-Level Customizations
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:  

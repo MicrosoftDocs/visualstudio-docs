@@ -25,6 +25,8 @@ caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Customize a SharePoint Solution Package
   You can use the Package Designer to create and customize a package (.wsp). For example, you can add SharePoint project items and Features, specify if the Web server is reset when the solution is deployed, and set the deployment server type.  

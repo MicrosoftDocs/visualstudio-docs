@@ -23,6 +23,8 @@ caps.latest.revision: 18
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # ClickOnce and Authenticode
 *Authenticode* is a Microsoft technology that uses industry-standard cryptography to sign application code with digital certificates that verify the authenticity of the application's publisher. By using Authenticode for application deployment, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] reduces the risk of a Trojan horse. A Trojan horse is a virus or other harmful program that a malicious third party misrepresents as a legitimate program coming from an established, trustworthy source. Signing [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments with a digital certificate is an optional step to verify that the assemblies and files are not tampered.  

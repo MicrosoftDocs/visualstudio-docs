@@ -24,6 +24,8 @@ caps.latest.revision: 51
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Application Deployment Prerequisites
 To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  

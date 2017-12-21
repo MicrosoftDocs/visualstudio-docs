@@ -11,6 +11,8 @@ caps.latest.revision: 6
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # API Reference for T4 Text Templates
 The Text Templating API lets you invoke and customize the transformation of [text templates](../modeling/code-generation-and-t4-text-templates.md).  

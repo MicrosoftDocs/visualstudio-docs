@@ -13,6 +13,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using Profiling Methods to Collect Performance Data from the Command Line
 Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling, the profiling method that you want to use, and whether the target application is written in native or [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] code.  

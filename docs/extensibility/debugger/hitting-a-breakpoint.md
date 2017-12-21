@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Hitting a Breakpoint
 The following describes the process when the debug engine (DE) hits a breakpoint while running or stepping:  

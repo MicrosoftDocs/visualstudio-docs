@@ -22,6 +22,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Add Feature Event Receivers
   Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:  

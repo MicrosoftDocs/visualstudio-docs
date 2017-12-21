@@ -19,6 +19,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1060: Move P/Invokes to NativeMethods class
 |||  

@@ -16,6 +16,8 @@ caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Install a Source Control Plug-in
 Creating a source-control plug-in involves three steps:  

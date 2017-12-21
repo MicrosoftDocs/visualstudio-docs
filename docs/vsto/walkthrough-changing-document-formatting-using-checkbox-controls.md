@@ -22,6 +22,8 @@ caps.latest.revision: 70
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Changing Document Formatting Using CheckBox Controls
   This walkthrough demonstrates how to use Windows Forms controls in a document-level customization for Microsoft Office Word to change text formatting.  

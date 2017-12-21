@@ -11,6 +11,8 @@ ms.topic: "article"
 ms.assetid: 84575412-1de7-4e53-811d-ae035eb21d13
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 
 # How to: Write Unit tests for C++ DLLs

@@ -19,6 +19,8 @@ caps.latest.revision: 61
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Install Office Primary Interop Assemblies
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.  

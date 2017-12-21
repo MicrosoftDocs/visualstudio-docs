@@ -5,11 +5,11 @@ ms.custom: ""
 ms.date: "05/15/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
@@ -17,6 +17,8 @@ ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio 2017 administrator guide
 

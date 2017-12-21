@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # RequiredFrameworkVersion Element (Visual Studio Templates)
 Specifies the minimum .NET Framework version that is required by the template.Schema Hierarchy.  

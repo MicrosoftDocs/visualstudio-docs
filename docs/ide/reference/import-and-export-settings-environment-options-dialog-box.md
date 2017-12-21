@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Import and Export Settings, Environment, Options Dialog Box
 Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  

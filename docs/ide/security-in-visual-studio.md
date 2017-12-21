@@ -16,6 +16,8 @@ caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security in Visual Studio
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User Permissions](../ide/user-permissions-and-visual-studio.md).  

@@ -21,6 +21,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Mail Items
   The <xref:Microsoft.Office.Interop.Outlook.MailItem> class contains the methods and properties you use to perform tasks with e-mail messages.  

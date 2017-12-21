@@ -14,6 +14,8 @@ ms.author: "gewarren"
 manager: ghogen
 f1_keywords: 
   - "vs.codefix.previewchanges"
+ms.workload: 
+  - "multiple"
 ---
 
 # Preview Changes

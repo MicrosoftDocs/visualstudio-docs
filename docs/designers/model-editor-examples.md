@@ -13,6 +13,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Model Editor Examples
 The articles in this section of the documentation contain examples that demonstrate how you can use the Model Editor.  

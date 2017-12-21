@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 Attempts to determine why an auto-attach failed.  

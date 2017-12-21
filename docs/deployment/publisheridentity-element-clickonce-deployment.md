@@ -21,6 +21,8 @@ caps.latest.revision: 11
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;publisherIdentity&gt; Element (ClickOnce Deployment)
 Contains information about the publisher that signed this deployment manifest.  

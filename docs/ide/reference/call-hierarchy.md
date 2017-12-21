@@ -17,6 +17,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Call Hierarchy
 Call Hierarchy enables you to navigate through your code by displaying all calls to and from a selected method, property, or constructor. This enables you to better understand how code flows and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code, which enables you to explore all possible execution paths.  

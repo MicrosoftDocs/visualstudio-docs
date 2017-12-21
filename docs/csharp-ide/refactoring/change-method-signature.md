@@ -18,6 +18,8 @@ f1_keywords:
   - "vs.csharp.refactoring.reorder"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "dotnet"
 ---
 
 # Change a method signature in C# #

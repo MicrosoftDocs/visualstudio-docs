@@ -5,13 +5,13 @@ ms.custom: ""
 ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-f1_keywords:
+f1_keywords: 
   - "vs.about"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "install Visual Studio"
   - "dev15"
   - "set up Visual Studio"
@@ -21,6 +21,8 @@ ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.

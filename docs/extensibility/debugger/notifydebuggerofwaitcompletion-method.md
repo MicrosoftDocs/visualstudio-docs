@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # NotifyDebuggerOfWaitCompletion Method
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.  

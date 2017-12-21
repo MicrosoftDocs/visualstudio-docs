@@ -18,6 +18,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # User Permissions and Visual Studio
 For reasons of security you should run Visual Studio as a normal user whenever possible.  

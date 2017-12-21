@@ -16,6 +16,8 @@ caps.latest.revision: 52
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Tool Window
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:  

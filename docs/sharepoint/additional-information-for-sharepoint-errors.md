@@ -24,6 +24,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Additional Information for SharePoint Errors
   You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the Microsoft Developer Network (MSDN) public forums.  

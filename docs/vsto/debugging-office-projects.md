@@ -23,6 +23,8 @@ caps.latest.revision: 52
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Debugging Office Projects
   You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debugging in Visual Studio](/visualstudio/debugger/debugging-in-visual-studio).  

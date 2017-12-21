@@ -18,6 +18,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Access Outlook Contacts
   This example finds all contacts whose last names contain a specified search string.  

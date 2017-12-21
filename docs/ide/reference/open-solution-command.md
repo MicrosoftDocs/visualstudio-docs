@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Open Solution Command
 Opens an existing solution, closing any other open solutions.  

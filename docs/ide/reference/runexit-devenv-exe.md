@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Runexit (devenv.exe)
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).  

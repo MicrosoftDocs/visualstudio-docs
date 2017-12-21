@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::GetPendingBreakpoint
 Gets the pending breakpoint from which the specified bound breakpoint was created.  

@@ -14,6 +14,8 @@ ms.assetid: F34B0D19-B430-4C01-B402-62A861007E71
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Use Build and Release Management instead of Lab Management for automated testing
 

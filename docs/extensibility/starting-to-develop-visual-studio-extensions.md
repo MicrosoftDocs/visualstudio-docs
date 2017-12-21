@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Starting to Develop Visual Studio Extensions
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  

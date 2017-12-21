@@ -12,6 +12,8 @@ ms.assetid:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Whitelisting URLs in a private network
 

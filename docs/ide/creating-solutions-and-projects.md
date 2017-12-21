@@ -7,18 +7,20 @@ ms.suite: ""
 ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "solutions [Visual Studio], deleting"
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create solutions and projects
 

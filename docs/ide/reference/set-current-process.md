@@ -16,6 +16,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Set Current Process
 Sets the specified process as the active process in the debugger.  

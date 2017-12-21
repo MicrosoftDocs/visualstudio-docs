@@ -16,6 +16,8 @@ f1_keywords:
   - "vs.csharp.refactoring.rename"
 dev_langs: 
   - "VB"
+ms.workload: 
+  - "multiple"
 ---
 
 # Rename a code symbol in Visual Basic

@@ -18,6 +18,8 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Reference (SharePoint Tools Extensibility)
   This section contains reference documentation for extending the SharePoint tools in Visual Studio.  

@@ -19,6 +19,8 @@ caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Attach Managed Code Extensions to Documents
   You can attach a customization assembly to an existing Microsoft Office Word document or Microsoft Office Excel workbook. The document or workbook can be in any file format that is supported by the Microsoft Office projects and development tools in Visual Studio. For more information, see [Architecture of Document-Level Customizations](../vsto/architecture-of-document-level-customizations.md).  

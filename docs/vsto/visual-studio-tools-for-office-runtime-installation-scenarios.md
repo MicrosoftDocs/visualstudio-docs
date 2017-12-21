@@ -18,6 +18,8 @@ caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visual Studio Tools for Office Runtime Installation Scenarios
   You can install the Visual Studio 2010 Tools for Office Runtime in three ways:  

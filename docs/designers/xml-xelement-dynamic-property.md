@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Xml (XElement Dynamic Property)
 Gets the unformatted XML content of the element.  

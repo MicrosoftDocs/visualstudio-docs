@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
@@ -12,8 +12,10 @@ ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs:
+dev_langs: 
   - vb
+ms.workload: 
+  - "multiple"
 ---
 # Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).

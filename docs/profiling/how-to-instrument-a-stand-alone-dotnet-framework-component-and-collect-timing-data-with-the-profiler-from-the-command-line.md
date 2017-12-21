@@ -13,6 +13,8 @@ caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Instrument a Stand-Alone .NET Framework Component and Collect Timing Data with the Profiler from the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component such as an .exe or .dll file, and to collect detailed timing data.  

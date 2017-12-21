@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Retrieve the SharePoint Project Service
   You can access the SharePoint project service in the following types of solutions:  

@@ -23,6 +23,8 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Project Solutions
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] provides project templates you can use to create VSTO Add-ins for Microsoft Office Project. You can use VSTO Add-ins to automate Project, extend Project features, or customize the Project user interface (UI).  

@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Help Content Manager Overrides
 You can change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.

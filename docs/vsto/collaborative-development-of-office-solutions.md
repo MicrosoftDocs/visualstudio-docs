@@ -21,6 +21,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Collaborative Development of Office Solutions
   Multiple developers can work on an Office project in the same way that they collaborate on other Visual Studio projects. Visual Studio correctly locates the Microsoft Office installation on each computer, even if Office is installed in different locations. However, there are some important considerations to be aware of.  

@@ -16,6 +16,8 @@ caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Getting Started with Performance Tools
 This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  

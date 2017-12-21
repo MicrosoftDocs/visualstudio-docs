@@ -22,6 +22,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Save Attachments from Outlook E-Mail Items
   This example saves e-mail attachments to a specified folder when the mail is received in the inbox.  

@@ -19,6 +19,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Guidelines for Creating Outlook Form Regions
   The following information can help you optimize your form regions and avoid potential problems:  

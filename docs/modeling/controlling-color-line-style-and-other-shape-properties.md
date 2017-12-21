@@ -11,6 +11,8 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Controlling Color, Line Style, and other Shape Properties
 Some shape properties such as color can be 'exposed' - that is, linked to a domain property of the shape. Others have to be controlled directly.  

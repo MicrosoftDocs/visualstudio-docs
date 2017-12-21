@@ -19,6 +19,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Signing VSIX Packages
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.  

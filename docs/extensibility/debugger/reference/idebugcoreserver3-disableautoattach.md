@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3::DisableAutoAttach
 Disables automatic attaching for all debug engines associated with this server.  

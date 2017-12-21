@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: vs-ide-general
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio unrecoverable process error
 

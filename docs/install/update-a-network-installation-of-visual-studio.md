@@ -4,17 +4,19 @@ description: "Learn how to update a network-based Visual Studio installation by 
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 1AF69C0E-0AC9-451B-845D-AE4EDBCEA65C
 author: "timsneath"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Update a network-based installation of Visual Studio
 

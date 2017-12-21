@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Suppress Compiler Warnings
 You can declutter a build log by specifying one or more kinds of compiler warnings that you don't want it to contain. For example, you might use this technique to review some but not all of the information that's generated automatically when you set the build-log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  

@@ -20,6 +20,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Items to a SharePoint Project
   SharePoint solutions contain one or more projects, each of which contains multiple SharePoint project items. After you open or create a SharePoint solution, you can add either new or existing items to these projects. For example, new workflow projects come with a default form that's named default.aspx, but you can replace that form with a new or different form, or add another ASPX form.  

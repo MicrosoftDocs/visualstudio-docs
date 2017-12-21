@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2141:Transparent methods must not satisfy LinkDemands
 |||  

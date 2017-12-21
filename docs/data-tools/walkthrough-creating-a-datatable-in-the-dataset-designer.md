@@ -15,6 +15,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Walkthrough: Creating a DataTable in the Dataset Designer
 

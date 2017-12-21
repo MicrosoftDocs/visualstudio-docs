@@ -18,6 +18,8 @@ author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
 ms.technology: vs-ide-general
+ms.workload: 
+  - "kaseyu"
 ---
 # .NET coding convention settings for EditorConfig
 

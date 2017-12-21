@@ -23,6 +23,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating Pages for SharePoint
   You can create application pages, site pages, master pages and page layouts for a SharePoint site.  

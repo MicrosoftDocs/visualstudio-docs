@@ -21,6 +21,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Include Files by Using a Module
   *Modules* (not to be confused with [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.  

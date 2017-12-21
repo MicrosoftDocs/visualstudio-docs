@@ -20,6 +20,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Search for an E-Mail Address in Contacts
   This example searches a contact folder for contacts that have the domain name **example.com** in their e-mail addresses.  

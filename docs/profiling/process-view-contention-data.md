@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Process View - Contention Data
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  

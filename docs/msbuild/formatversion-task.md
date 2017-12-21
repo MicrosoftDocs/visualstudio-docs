@@ -18,6 +18,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FormatVersion Task
 Appends the revision number to the version number.  

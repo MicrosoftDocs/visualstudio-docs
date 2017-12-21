@@ -23,6 +23,8 @@ caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Import Element (MSBuild)
 Imports the contents of one project file into another project file.  

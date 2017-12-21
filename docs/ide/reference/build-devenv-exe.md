@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Build (devenv.exe)
 Builds a solution using a specified solution configuration file.  

@@ -26,6 +26,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging Errors and Warning Dialog Boxes
 Below are the errors and warning dialog boxes you may encounter while debugging your application.  

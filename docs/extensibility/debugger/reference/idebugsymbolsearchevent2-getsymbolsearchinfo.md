@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 Called by an event handler to retrieve results about a symbol load process.  

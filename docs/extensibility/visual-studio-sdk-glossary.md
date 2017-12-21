@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio SDK Glossary
 This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] documentation.  

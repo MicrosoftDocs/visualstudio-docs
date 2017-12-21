@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # PointerType
 Each pointer is identified by a `SymTagPointerType` symbol.  

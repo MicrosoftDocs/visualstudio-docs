@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create an XML Document Based on an XSD Schema
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.  

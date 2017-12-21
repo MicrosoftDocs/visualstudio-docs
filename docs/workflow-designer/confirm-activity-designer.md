@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Confirm Activity Designer
 The **Confirm** activity designer is used to create and configure a <xref:System.Activities.Statements.Confirm> activity.  

@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working with Shaders
 You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  

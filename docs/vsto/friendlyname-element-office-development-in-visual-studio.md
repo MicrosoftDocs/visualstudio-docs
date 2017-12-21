@@ -18,6 +18,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;friendlyName&gt; Element (Office Development in Visual Studio)
   The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.  

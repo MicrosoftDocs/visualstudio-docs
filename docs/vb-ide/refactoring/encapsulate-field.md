@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
   - VB
+ms.workload: 
+  - "multiple"
 ---
 
 # Encapsulate a field in Visual Basic
