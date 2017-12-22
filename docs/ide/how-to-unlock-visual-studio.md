@@ -71,4 +71,4 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
 ## See also
 
 * [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
-* [Compare Visual Studio subscription options](../subscriptions/compare-subscriptions.md)  
+* [Compare Visual Studio subscription options](./subscriptions/compare-subscriptions.md)  
