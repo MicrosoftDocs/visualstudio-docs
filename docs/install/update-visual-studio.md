@@ -41,19 +41,19 @@ We update Visual Studio often to extend its functionality and to fix customer-re
 
 ### More about Visual Studio notifications
 
-Visual Studio notifies you when an update is available for Visual Studio itself or for any components, and when certain events occur in the Visual Studio environment:
+Visual Studio notifies you when an update is available for Visual Studio itself or for any components, and also when certain events occur in the Visual Studio environment.
 
 * When the notification flag is yellow, there is a Visual Studio product update available for you to install.
-* When the notification flag is red, it means that there is a problem with your license.
-* When the notification flag is black, you'll see messages that are informational or optional, such as crashes for which you might want to find a workaround.
+* When the notification flag is red, there is a problem with your license.
+* When the notification flag is black, there are optional or informational messages to review.
 
-Click the notifications flag to open the **Notifications** hub and choose which notifications you want to act on. Or, choose to ignore or dismiss a notification.
+Choose the notifications flag to open the **Notifications** hub and then choose the notifications that you want to act on. Or, choose to ignore or dismiss a notification.
 
- ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag-optional.png "The message Notification flag in Visual Studio")
+ ![View an optional or informational message in the Notification hub](media/notification-flag-optional.png "The optional or informational message Notification flag in Visual Studio")
 
 If you choose to ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, click the **Settings** button in the Notifications hub.
 
-   ![Click the Settings button in the Notifications hub](media/vs-notifications-hub-settings-button.png "Click the Settings button in the Notifications hub")
+   ![Choose the Settings button in the Notifications hub to view Notification options](media/vs-notifications-hub-settings-button.png "Choose the Settings button in the Notifications hub to view notification options")
 
 ## Update by using the Visual Studio Installer
 1.	Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.

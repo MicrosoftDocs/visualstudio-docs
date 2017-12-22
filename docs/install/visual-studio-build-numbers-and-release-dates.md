@@ -18,6 +18,22 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.5.2 | Release | 12/14/2017 | 15.5.27130.2010 |
+| 15.6.0 Preview 1.1 | Preview | 12/14/2017 | 15.6.27205.2004 |
+| 15.5.1 | Release | 12/7/2017 | 15.5.27130.2003 |
+| 15.6.0 Preview 1.0 | Preview | 12/7/2017 | 15.6.27205.0 |
+| 15.0.7 | Release | 12/6/2017 | 15.0.26228.18 |
+| 15.5.0 | Release | 12/4/2017 | 15.5.27130.0 |
+| 15.5.0 Preview 5.0 | Preview | 11/30/2017 | 15.5.27128.1 |
+| 15.4.5 | Release | 11/27/2017 | 15.4.27004.2010 |
+| 15.5.0 Preview 4.0 | Preview | 11/14/2017 | 15.5.27110.0 |
+| 15.4.4 | Release | 11/14/2017 | 15.4.27004.2009 |
+| 15.0.6 | Release | 11/14/2017 | 15.0.26228.17 |
+| 15.4.3 | Release | 11/8/2017 | 15.4.27004.2008 |
+| 15.5.0 Preview 3.0 | Preview | 11/6/2017 | 15.5.27102.0 |
+| 15.4.2 | Release | 10/31/2017 | 15.4.27004.2006 |
+| 15.5.0 Preview 2.0 | Preview | 10/23/2017 | 15.5.27019.1 |
+| 15.4.1 | Release | 10/19/2017 | 15.4.27004.2005 |
 | 15.5 Preview 1 | Preview | 10/11/2017 | 15.0.27009.1 |
 | 15.4 | Release | 10/9/2017 | 15.0.27004.20002 |
 | 15.4 Preview 6 | Preview | 10/9/2017| 15.0.27004.20002 |
@@ -34,7 +50,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.3.1 | Release | 8/18/2017 | 15.0.26730.08 |
 | 15.3.1 Preview 1 | Preview | 8/18/2017 | 15.0.26730.08 |
 | 15.3.1  | Release | 8/18/2017 | 15.0.26730.08 |
-| 15.4 Preview 1 | Preview | 8/22/2017 | n/a |
+| 15.4 Preview 1 | Preview | 8/24/2017 | 15.4.26823.1 |
 | 15.3 | Release | 8/14/2017 | 15.0.26730.3 |
 | 15.3 Preview 7.1 | Preview | 8/11/2017 | 15.0.26730.3 |
 | 15.3 Preview 7 | Preview | 8/1/2017 | 15.0.26730.0 |
@@ -76,7 +92,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See Also
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
