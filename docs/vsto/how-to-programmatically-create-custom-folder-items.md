@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create Custom Folder Items
   This example creates a new folder in Microsoft Office Outlook. The name of the user who is logged on is used for the folder name.  

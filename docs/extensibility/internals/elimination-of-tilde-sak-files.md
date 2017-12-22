@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Elimination of ~SAK Files
 In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the MSSCCPRJ file and shared checkouts.  

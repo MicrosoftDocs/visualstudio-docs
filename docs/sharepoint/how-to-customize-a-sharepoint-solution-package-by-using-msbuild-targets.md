@@ -20,6 +20,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Customize a SharePoint Solution Package by Using MSBuild Targets
   By using MSBuild targets at a command prompt, you can customize how Visual Studio creates SharePoint package files (.wsp). For example, you can customize the MSBuild properties to change the packaging intermediate directory and the MSBuild item groups that specify the enumerated files.  

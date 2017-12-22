@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2137: Transparent methods must contain only verifiable IL
 |||  

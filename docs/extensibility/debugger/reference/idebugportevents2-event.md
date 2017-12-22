@@ -17,6 +17,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortEvents2::Event
 This method sends events that signify the creation and destruction of processes and programs on a port.  

@@ -18,6 +18,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # IManagedAddin::Unload
   Called just before a managed VSTO Add-in is unloaded.  

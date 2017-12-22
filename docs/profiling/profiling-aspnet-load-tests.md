@@ -13,6 +13,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "aspnet"
 ---
 # Profiling ASP.NET Load Tests
 You can collect profiling data from automated [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:  

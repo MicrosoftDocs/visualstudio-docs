@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XElement Class Dynamic Properties
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  

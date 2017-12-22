@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.extractinterface"
 dev_langs: 
   - VB
+ms.workload: 
+  - "multiple"
 ---
 
 # Extract an interface in Visual Basic

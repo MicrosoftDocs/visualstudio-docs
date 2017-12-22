@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Editor
 The XML Editor is based on the [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  

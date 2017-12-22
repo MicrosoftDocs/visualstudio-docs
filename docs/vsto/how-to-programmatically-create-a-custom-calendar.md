@@ -20,6 +20,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create a Custom Calendar
   This example creates a new Calendar folder named **PersonalCalendar**, and then creates a new Appointment item and adds it to the Calendar folder. The code then displays the Calendar folder.  

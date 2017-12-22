@@ -21,6 +21,8 @@ caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Set Search Options in Word
   There are two ways to set search options for selections in Microsoft Office Word documents:  

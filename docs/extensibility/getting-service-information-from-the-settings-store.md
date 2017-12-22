@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Service Information from the Settings Store
 You can use the settings store to find all available services or to determine whether a particular service is installed. You must know the type of the service class.  

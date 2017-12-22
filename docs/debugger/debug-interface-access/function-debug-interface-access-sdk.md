@@ -17,6 +17,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Function (Debug Interface Access SDK)
 Each function is identified by a `SymTagFunction` symbol.  

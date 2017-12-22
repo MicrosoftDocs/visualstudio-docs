@@ -20,6 +20,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Architecture of Office Solutions in Visual Studio
   The topics in this section provide information about how solutions created by using the Office developer tools in Visual Studio work.  

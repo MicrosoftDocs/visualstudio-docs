@@ -23,6 +23,8 @@ caps.latest.revision: 34
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Target Element (MSBuild)
 Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to execute sequentially.  

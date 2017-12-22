@@ -21,6 +21,8 @@ author: "kempb"
 ms.author: "kempb"
 manager: ghogen
 redirect_url: https://social.msdn.microsoft.com/Forums/vstudio/home?forum=msbuild
+ms.workload: 
+  - "multiple"
 ---
 # Additional Resources for MSBuild
 The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  

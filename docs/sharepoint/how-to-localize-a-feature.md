@@ -21,6 +21,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Localize a Feature
   By default, feature titles and descriptions use hard-coded string values. To localize the feature title and description, replace the strings with expressions that reference localized resources.  

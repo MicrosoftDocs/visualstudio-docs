@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Add Standard Text Markers
 Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor.  

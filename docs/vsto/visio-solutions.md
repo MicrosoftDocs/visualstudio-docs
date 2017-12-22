@@ -23,6 +23,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visio Solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office Visio. You can use VSTO Add-ins to automate Visio, extend Visio features, or customize the Visio user interface (UI).  

@@ -23,6 +23,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
 ## Problem Description  

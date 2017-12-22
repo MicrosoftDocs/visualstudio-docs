@@ -19,6 +19,8 @@ caps.latest.revision: 55
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Close Documents
   You can close the active document or you can specify a document to close.  

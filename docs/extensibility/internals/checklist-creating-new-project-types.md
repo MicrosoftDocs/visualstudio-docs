@@ -16,6 +16,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Checklist: Creating New Project Types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  

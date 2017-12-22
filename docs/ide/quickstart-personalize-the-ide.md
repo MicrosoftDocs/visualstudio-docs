@@ -4,13 +4,15 @@ ms.custom: ""
 ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
- - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Quickstart: personalize the Visual Studio IDE and Editor
 

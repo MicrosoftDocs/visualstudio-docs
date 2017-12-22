@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugErrorBreakpoint2::GetBreakpointResolution
 Gets the breakpoint error resolution that describes the error.  

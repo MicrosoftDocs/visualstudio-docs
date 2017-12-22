@@ -20,6 +20,8 @@ caps.latest.revision: 74
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Office Solution Deployment
   This topic contains information about how to solve common problems that you might encounter when you deploy Office solutions.  

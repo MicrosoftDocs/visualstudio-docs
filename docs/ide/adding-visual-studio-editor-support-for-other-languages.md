@@ -21,6 +21,8 @@ ms.author: "gewarren"
 manager: ghogen
 ms.technology: 
   - "vs-ide-general"
+ms.workload: 
+  - "multiple"
 ---
 # Adding Visual Studio editor support for other languages
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  

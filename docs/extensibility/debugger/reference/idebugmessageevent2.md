@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMessageEvent2
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.  

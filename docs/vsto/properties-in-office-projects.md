@@ -24,6 +24,8 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Properties in Office Projects
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.  

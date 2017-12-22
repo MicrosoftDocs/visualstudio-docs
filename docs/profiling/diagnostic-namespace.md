@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # diagnostic Namespace
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.  

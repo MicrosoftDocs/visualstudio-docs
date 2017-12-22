@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Menus and Commands for Visual Studio
 ## Command usage  

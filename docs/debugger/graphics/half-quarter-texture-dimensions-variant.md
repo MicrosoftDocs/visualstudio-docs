@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Half/Quarter Texture Dimensions Variant
 Reduces the texture dimensions on textures that are not render targets.  

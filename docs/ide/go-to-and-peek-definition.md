@@ -8,7 +8,7 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "code editor, go to definition"
   - "code editor, peek definition"
   - "go to definition"
@@ -16,6 +16,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Go To Definition and Peek Definition  
 The Go To Definition and Peek Definition features enable you to easily view the definition of a type or member.

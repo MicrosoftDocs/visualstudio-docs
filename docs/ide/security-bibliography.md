@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security Bibliography
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  

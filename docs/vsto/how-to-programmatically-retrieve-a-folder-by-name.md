@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Retrieve a Folder by Name
   This example gets a reference to a named custom folder and then displays the contents of the folder.  

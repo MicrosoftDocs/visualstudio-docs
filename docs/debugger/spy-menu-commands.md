@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Spy Menu Commands
 The **Spy** menu provides commands to work with Spy++ Windows and views.  

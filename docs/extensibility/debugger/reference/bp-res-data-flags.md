@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RES_DATA_FLAGS
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  

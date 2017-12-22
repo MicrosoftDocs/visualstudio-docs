@@ -26,6 +26,8 @@ caps.latest.revision: 46
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # General, Debugging, Options Dialog Box
 The **Tools > Options > Debugging > General** page lets you set the following options:  

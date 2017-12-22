@@ -23,6 +23,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MarkupCompilePass1 Task
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-localizable [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] project files to compiled binary format.  

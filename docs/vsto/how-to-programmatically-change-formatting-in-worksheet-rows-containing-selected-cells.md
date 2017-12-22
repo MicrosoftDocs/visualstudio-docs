@@ -20,6 +20,8 @@ caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells
   You can change the font of an entire row that contains a selected cell so that the text is bold.  

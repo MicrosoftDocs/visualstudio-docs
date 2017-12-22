@@ -15,6 +15,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Enumerators
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.  

@@ -16,6 +16,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Configuring and Using a Custom Rule Set
 This walkthrough shows how to use code analysis tools that have been configured to use a customized *rule set* on a class library. You can select a rule set that relates to the project type that you specified for your solution, or you can select alternative rule sets to fulfill a specific need such as scanning legacy code for issues that can be fixed in a nonbreaking way. In either case, the rule sets can also be customized to fine tune them to your project requirements.  

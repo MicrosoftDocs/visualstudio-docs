@@ -15,6 +15,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Quality Tools
 If you experience issues when you run Visual Studio quality tools, the topics in this section can help you diagnose and correct the problem.  

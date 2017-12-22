@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Product&gt; Element (Bootstrapper)
 The `Product` element is the top-level XML element inside of a product file.  

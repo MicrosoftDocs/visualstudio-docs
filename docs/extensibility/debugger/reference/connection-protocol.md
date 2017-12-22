@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONNECTION_PROTOCOL
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).  

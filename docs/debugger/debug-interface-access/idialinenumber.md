@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber
 Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.  

@@ -23,6 +23,8 @@ caps.latest.revision: 26
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Csc Task
 Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.dll files), or code modules (.netmodule files). For more information about CSC.exe, see [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index).  

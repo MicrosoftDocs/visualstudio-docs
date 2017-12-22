@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # WriteLine Activity Designer
 The **WriteLine** activity designer is used to create and configure a <xref:System.Activities.Statements.WriteLine> activity.  

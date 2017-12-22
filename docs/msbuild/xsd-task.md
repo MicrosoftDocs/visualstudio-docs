@@ -25,6 +25,8 @@ caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XSD Task
 Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  

@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Worksheets
   The <xref:Microsoft.Office.Tools.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Worksheet> classes contain the methods and properties you use to perform tasks with worksheets.  

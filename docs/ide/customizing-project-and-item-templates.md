@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing Project and Item Templates
 After project and item templates have been created, you still have the ability to further customize them to meet your needs.  

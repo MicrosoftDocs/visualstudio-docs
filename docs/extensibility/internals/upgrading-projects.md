@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Upgrading Projects
 Changes to the project model from one version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.  

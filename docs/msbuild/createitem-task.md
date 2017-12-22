@@ -23,6 +23,8 @@ caps.latest.revision: 15
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateItem Task
 Populates item collections with the input items. This allows items to be copied from one list to another.  

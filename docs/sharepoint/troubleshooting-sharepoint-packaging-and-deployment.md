@@ -29,6 +29,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting SharePoint Packaging and Deployment
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.  

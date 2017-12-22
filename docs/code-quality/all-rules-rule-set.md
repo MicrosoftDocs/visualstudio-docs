@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # All Rules rule set
 The All Rules rule set contains all of the rules for both native and managed code. The rule set includes all the rules that are described  in the following topics:  

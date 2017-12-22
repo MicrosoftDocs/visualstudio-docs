@@ -15,6 +15,8 @@ ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 30
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Sample Project for Creating Unit Tests
 This sample code is provided for use in the following walkthroughs:  

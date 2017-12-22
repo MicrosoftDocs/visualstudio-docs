@@ -21,6 +21,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FormatUrl Task
 Converts a URL to a correct URL format.  

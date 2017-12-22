@@ -16,6 +16,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Element (XElement Dynamic Property)
 Gets an indexer used to retrieve the child element instance that corresponds to the specified expanded name.  

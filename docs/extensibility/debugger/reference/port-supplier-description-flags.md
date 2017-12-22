@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 Defines the metadata that can be retrieved about a port supplier.  

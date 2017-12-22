@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # More Debugging Features
 This section contains additional features that you can use with the Visual Studio debugger.  

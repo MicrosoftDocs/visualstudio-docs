@@ -18,6 +18,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ProjectItem Element (Visual Studio Project Templates)
 Specifies a file that is included in the project template.  

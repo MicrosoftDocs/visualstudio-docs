@@ -13,6 +13,8 @@ caps.latest.revision: 21
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.  

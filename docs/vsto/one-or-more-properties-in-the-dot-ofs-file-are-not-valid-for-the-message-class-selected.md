@@ -18,6 +18,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # One or more properties in the .ofs file are not valid for the message class selected
   This error appears when you import a form region that is designed in Outlook, but one or more fields on the form region are not compatible with the message classes that you select on the final page of the **New Form Region** wizard.  

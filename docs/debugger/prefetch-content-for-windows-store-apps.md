@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Debug UWP apps using prefetched content in Visual Studio
 ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  

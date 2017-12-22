@@ -18,6 +18,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Extending SharePoint Packaging and Deployment
   You can extend the packaging and deployment process for SharePoint projects.

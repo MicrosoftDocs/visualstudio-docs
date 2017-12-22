@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessSecurity
 `IDebugProcessSecurity` is implemented by a port supplier to warn the user that attaching to the process is unsafe.  

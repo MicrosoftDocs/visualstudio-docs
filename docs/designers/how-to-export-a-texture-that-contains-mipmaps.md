@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Export a Texture that Contains Mipmaps
 The Image Content Pipeline can generate mipmaps from a source image as part of your project's build phase. When you do not need to specify the image content of each MIP level manually—as you might do to achieve certain effects—generating mipmaps at build time ensures that mipmap contents never become out-of-sync and eliminates the performance cost of generating mipmaps at run time.  

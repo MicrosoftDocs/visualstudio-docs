@@ -23,6 +23,8 @@ caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Touch Task
 Sets the access and modification times of files.  

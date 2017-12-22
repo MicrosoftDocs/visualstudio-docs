@@ -18,6 +18,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 You can use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the **Class Details** window.

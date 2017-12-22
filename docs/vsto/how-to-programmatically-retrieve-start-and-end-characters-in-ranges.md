@@ -21,6 +21,8 @@ caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Retrieve Start and End Characters in Ranges
   This example demonstrates how you can retrieve the character positions of the start and end positions of a range.  

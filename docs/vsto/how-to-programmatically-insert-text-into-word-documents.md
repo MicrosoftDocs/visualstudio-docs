@@ -22,6 +22,8 @@ caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Insert Text into Word Documents
   There are three primary ways to insert text into Microsoft Office Word documents:  

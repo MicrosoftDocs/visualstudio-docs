@@ -11,6 +11,8 @@ caps.latest.revision: 7
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Writing User Commands and Actions
 You can customize a domain-specific language by adding commands to the diagram, and by responding to gestures such as drag-and-drop, click, and double-click events.  

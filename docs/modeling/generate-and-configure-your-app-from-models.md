@@ -11,6 +11,8 @@ caps.latest.revision: 7
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Generate and configure your app from models
 You can generate or configure parts of your application from a model.

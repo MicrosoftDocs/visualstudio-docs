@@ -29,6 +29,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Project Item Schema Reference
   Visual Studio uses the SharePoint project item schema to validate the contents of .spdata files. An .spdata file specifies the contents and behavior of a SharePoint project item. For more information about the contents of SharePoint project items, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  

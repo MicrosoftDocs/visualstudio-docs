@@ -19,6 +19,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: View Existing Types (Class Designer)
 To see an existing type and its members, add its shape to a class diagram.  

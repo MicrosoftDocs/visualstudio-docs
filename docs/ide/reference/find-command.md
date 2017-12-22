@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Find Command
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  

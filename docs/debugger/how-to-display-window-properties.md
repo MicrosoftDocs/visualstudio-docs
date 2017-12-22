@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Display Window Properties
 To find out more about a window listed in [Windows View](../debugger/windows-view.md), use the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md).  

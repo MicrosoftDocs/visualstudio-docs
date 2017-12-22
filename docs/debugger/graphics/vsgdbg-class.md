@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VsgDbg Class
 Represents an interface for programmatic control of the in-app component of graphics diagnostics.  

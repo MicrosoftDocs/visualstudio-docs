@@ -11,6 +11,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Color Theming Tools
 The VS SDK provides several tools to help you create and manage color themes.  

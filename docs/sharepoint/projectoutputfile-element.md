@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ProjectOutputFile Element
   Represents the output of a separate project to include with the project item when it is deployed to SharePoint.  

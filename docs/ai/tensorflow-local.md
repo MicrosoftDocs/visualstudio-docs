@@ -10,6 +10,8 @@ ms.topic: quickstart
 ms.technology: visual studio
 ms.devlang: python
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 # Train a TensorFlow model locally 

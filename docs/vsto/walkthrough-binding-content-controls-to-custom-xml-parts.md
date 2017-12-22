@@ -23,6 +23,8 @@ caps.latest.revision: 51
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Binding Content Controls to Custom XML Parts
   This walkthrough demonstrates how to bind content controls in a document-level customization for Word to XML data that is stored in the document.  
