@@ -22,6 +22,8 @@ caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create Types by using Class Designer
 To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  

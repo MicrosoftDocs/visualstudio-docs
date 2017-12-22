@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AppliesTo Element (Visual Studio Templates)
 Specifies an optional expression to match one or more capabilities. (see <xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5>. In this way, the template can be shared by multiple project types that have common applicable capabilities.  

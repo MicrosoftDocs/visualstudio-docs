@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugAddresses::Clone
 This method returns a copy of the current enumeration as a separate object.  

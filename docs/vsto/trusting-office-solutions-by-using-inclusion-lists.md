@@ -21,6 +21,8 @@ caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Trusting Office Solutions by Using Inclusion Lists
   Inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher. Inclusion lists are user-specific, and they can be used for document-level customizations and VSTO Add-ins.  

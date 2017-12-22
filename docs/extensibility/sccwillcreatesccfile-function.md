@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccWillCreateSccFile Function
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.  

@@ -15,6 +15,8 @@ ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
 caps.latest.revision: 22
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Testing a Large Application with Multiple UI Maps
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI maps.  

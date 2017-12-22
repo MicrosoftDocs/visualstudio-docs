@@ -28,6 +28,8 @@ caps.latest.revision: 36
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View DLLs and Executables using the Modules Window in the Visual Studio Debugger
  

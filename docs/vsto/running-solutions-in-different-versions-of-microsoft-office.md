@@ -22,6 +22,8 @@ caps.latest.revision: 61
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Running Solutions in Different Versions of Microsoft Office
     

@@ -32,6 +32,8 @@ caps.latest.revision: 39
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Building Office Solutions
   In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio).  

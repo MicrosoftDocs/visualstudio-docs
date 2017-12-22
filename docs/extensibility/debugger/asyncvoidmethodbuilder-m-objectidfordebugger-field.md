@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AsyncVoidMethodBuilder.m_objectIdForDebugger Field
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  

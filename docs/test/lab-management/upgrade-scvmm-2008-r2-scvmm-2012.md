@@ -14,6 +14,8 @@ ms.assetid: 5be92444-c701-43c7-8b2a-77df8e02bc27
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Upgrade SCVMM 2008 R2 to SCVMM 2012
 

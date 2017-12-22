@@ -23,6 +23,8 @@ caps.latest.revision: 68
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Custom Tab by Using the Ribbon Designer
   By using the Ribbon Designer, you can create a custom tab and then add and position controls on it.  

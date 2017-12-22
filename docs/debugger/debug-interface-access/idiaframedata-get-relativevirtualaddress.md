@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_relativeVirtualAddress
 Retrieves the relative virtual address (RVA) of the code for the frame.  

@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaReadExeAtOffsetCallback
 Enables a client application to supply bytes of an executable file as  specified by file position.  

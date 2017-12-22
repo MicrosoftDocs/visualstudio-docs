@@ -19,6 +19,8 @@ caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Populate Word Tables with Document Properties
   The following example creates a Microsoft Office Word table at the top of the document and populates it with the properties of the host document.  

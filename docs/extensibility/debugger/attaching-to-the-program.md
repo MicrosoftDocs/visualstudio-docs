@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Attaching to the Program
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.  

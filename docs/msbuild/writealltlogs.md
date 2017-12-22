@@ -20,6 +20,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WriteAllTLogs
 Writes tracking logs for all threads and contexts.  

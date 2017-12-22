@@ -24,6 +24,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Open Office Solutions without Running Code
   A Microsoft Office solution created with managed code extensions runs even if the Security setting in the end user's Office application is set to High. This is because .NET assembly code security is managed by the Microsoft .NET Framework, not by Microsoft Office.  

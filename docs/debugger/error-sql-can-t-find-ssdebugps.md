@@ -20,6 +20,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  

@@ -26,6 +26,8 @@ caps.latest.revision: 91
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Browse and rearrange code maps
 Rearrange items on code maps to make them easier to read and improve their performance.  

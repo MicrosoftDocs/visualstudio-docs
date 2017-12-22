@@ -17,6 +17,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Name Element (Visual Studio Templates)
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.  

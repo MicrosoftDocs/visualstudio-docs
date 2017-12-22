@@ -22,6 +22,8 @@ caps.latest.revision: 79
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Registry Entries for VSTO Add-ins
   You must create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio. These registry entries provide information that enables the Microsoft Office application to discover and load the VSTO Add-in.  

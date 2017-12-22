@@ -12,11 +12,13 @@ ms.assetid: f76d717c-56ed-4373-8cf9-9bd1a053a4cd
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory
   - VC.Project.VCConfiguration.BuildLogFile
   - VC.Project.VCConfiguration.ConfigurationType
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # General Project Properties (Android C++ Makefile)

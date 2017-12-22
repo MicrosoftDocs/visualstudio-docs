@@ -12,6 +12,8 @@ ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 caps.latest.revision: 10
 ms.author: "v-brickg"
 manager: ghogen
+ms.workload: 
+  - "v-brickg"
 ---
 # Visual Language Dictionary for Visual Studio
 Visual Studio uses a common visual language to illustrate the concepts that are the building blocks of its iconography and other imagery. When designing new icons, use this dictionary to identify the concepts that you want to convey in your own image.  

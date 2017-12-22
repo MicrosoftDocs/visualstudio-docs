@@ -34,6 +34,8 @@ caps.latest.revision: 39
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Create a visual map of the call stack while debugging in Visual Studio Enterprise
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.

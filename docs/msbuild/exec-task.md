@@ -23,6 +23,8 @@ caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Exec Task
 Runs the specified program or command by using the specified arguments.  

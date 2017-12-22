@@ -34,6 +34,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Creating and Configuring Type Members (Class Designer)
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:

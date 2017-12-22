@@ -16,6 +16,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 Requests that the firewall not block remote debugging.  

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
@@ -12,8 +12,10 @@ ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs:
+dev_langs: 
   - vb
+ms.workload: 
+  - "multiple"
 ---
 
 

@@ -20,6 +20,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Development Walkthroughs
   The following walkthroughs demonstrate how to develop and deploy SharePoint solutions by using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findSymbolByVA
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.  

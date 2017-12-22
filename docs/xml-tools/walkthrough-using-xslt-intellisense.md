@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Using XSLT IntelliSense
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.  

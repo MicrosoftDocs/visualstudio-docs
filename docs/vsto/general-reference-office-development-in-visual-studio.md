@@ -18,6 +18,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # General Reference (Office Development in Visual Studio)
   This section contains technical details about Microsoft Office projects in Visual Studio.  

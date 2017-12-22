@@ -13,6 +13,8 @@ caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Installing Python support in Visual Studio on Windows

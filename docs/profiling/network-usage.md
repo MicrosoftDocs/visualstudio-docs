@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze Network Usage in UWP Apps
 The Visual Studio **Network** diagnostics tool collects data about network operations performed using the [Windows.Web.Http API](/uwp/api/windows.web.http). Analyzing the data can help you resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance.  

@@ -21,6 +21,8 @@ caps.latest.revision: 53
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Update a Data Source with Data from a Host Control
   You can bind a host control to a data source and update the data source with the changes that are made to the data in the control. There are two main steps in this process:  

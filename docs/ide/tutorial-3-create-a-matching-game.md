@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Tutorial 3: Create a Matching Game
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:  

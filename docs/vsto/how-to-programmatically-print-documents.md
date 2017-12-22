@@ -19,6 +19,8 @@ caps.latest.revision: 53
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Print Documents
   You can print an entire Microsoft Office Word document, or part of a document, to your default printer.  

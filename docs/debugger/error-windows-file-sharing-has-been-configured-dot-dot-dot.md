@@ -19,6 +19,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Windows file sharing has been configured...
 Windows file sharing has been configured so that you will connect to the remote computer using a different user name. This is incompatible with remote debugging  

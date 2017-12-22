@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEnumField::GetStringFromValue
 This method obtains the name of the enumeration constant given its value.  

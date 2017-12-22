@@ -25,6 +25,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add an Existing BDC Model File to a SharePoint Project
   You can customize, package, and redeploy a Business Data Connectivity (BDC) model by using Visual Studio to add the model file (.bdcm) to any SharePoint farm project. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  

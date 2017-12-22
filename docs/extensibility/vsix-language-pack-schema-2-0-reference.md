@@ -18,6 +18,8 @@ caps.latest.revision: 8
 ms.author: "dagriffe"
 author: "dgriffen"
 manager: "ghogen"
+ms.workload: 
+  - "dagriffe"
 ---
 # VSIX Language Pack Schema 2.0 Reference
 

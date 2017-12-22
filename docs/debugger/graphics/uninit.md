@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # UnInit
 Finalizes the graphics log file, closes it, and frees resources that were used while the app was actively recording graphics information.  

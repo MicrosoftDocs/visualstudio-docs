@@ -4,17 +4,19 @@ description: "Describes how the Visual Studio installer works in unreliable netw
 ms.date: "08/30/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology:
- - "vs-acquisition"
+ms.technology: 
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 44DB1998-68CD-4560-870A-EE5B993DCF6E
 author: "timsneath"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Install Visual Studio 2017 on low bandwidth or unreliable network environments

@@ -25,6 +25,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View strings in a string visualizer in Visual Studio
 While you are debugging, you can open a string visualizer to view strings that are too long to view in a data tip or debugger window. In many scenarios, the visualizer can help you to identify malformed strings.

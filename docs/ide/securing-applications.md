@@ -16,6 +16,8 @@ caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Securing Applications
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  

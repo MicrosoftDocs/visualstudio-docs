@@ -4,11 +4,11 @@ description: "Learn how to create a JSON response file that helps you automate y
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "response file"
   - "automate"
   - "installation"
@@ -16,6 +16,8 @@ helpviewer_keywords:
 author: "timsneath"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # How to define settings in a response file

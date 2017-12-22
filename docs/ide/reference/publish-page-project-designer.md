@@ -16,6 +16,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Publish Page, Project Designer
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  

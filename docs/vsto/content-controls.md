@@ -44,6 +44,8 @@ caps.latest.revision: 65
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Content Controls
   Content controls provide a way for you to design documents and templates that have these features:  

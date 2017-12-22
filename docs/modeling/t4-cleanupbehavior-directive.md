@@ -11,6 +11,8 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # T4 CleanUpBehavior directive
 To delete the appDomain after processing a text template, include the following line:  

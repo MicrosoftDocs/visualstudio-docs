@@ -23,6 +23,8 @@ caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ConvertToAbsolutePath Task
 Converts a relative path, or reference, into an absolute path.  

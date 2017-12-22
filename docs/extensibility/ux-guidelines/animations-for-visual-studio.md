@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Animations for Visual Studio
 ## Animation fundamentals  

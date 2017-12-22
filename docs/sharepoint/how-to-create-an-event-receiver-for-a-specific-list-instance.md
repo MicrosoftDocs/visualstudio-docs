@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create an Event Receiver for a Specific List Instance
   A list instance event receiver responds to events that occur in any instance of a list definition. Although the event receiver template does not enable the targeting of a specific list instance, you can modify an event receiver that is scoped to a list definition to respond to events in a specific list instance.  

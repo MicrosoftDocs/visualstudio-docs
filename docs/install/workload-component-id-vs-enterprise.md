@@ -1,20 +1,22 @@
 ---
 title: Visual Studio Enterprise 2017 workload and component IDs | Microsoft Docs
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
 ms.date: 12/01/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-acquisition"
 ms.assetid: be73e3af-d87b-4d14-bd08-2e4bda074fb3
+ms.workload: 
+  - "multiple"
 ---
 
 # Visual Studio Enterprise 2017 component directory

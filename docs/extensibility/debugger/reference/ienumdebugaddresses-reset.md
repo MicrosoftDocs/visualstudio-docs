@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugAddresses::Reset
 This method resets the enumeration to the first element.  

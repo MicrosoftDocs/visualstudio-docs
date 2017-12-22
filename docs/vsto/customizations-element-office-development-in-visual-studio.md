@@ -20,6 +20,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;customizations&gt; Element (Office Development in Visual Studio)
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.  

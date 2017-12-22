@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/18/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,6 +12,8 @@ ms.assetid: "d5c038e2-e70d-411e-950c-8a54917b578a"
 author: "heaths"
 ms.author: "heaths"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Install Build Tools into a Container
 

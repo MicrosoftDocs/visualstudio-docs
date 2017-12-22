@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.  

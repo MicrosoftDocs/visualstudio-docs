@@ -5,11 +5,11 @@ ms.custom: ""
 ms.date: "08/30/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "offline installation [Visual Studio]"
   - "offline install [Visual Studio]"
   - "layout [Visual Studio]"
@@ -17,6 +17,8 @@ ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create an offline installation of Visual Studio 2017
 

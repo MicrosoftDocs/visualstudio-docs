@@ -17,6 +17,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramNodeAttach2
 Allows a program node to be notified of an attempt to attach to the associated program.  

@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # EnableEditOfLocationField Element (Visual Studio Templates)
 Specifies if the user can edit the location field.  

@@ -10,6 +10,8 @@ ms.topic: article
 ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 # Visual Studio Tools for AI

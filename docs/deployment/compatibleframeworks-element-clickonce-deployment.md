@@ -19,6 +19,8 @@ caps.latest.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
 Identifies the versions of the .NET Framework where this application can install and run.  

@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.  

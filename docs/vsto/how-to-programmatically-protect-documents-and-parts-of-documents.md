@@ -20,6 +20,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Protect Documents and Parts of Documents
   You can add protection to Microsoft Office Word documents to prevent users from making any edits to the document.  

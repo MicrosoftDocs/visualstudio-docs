@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Colors and Styling for Visual Studio
 ## Using color in Visual Studio  

@@ -21,6 +21,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Send E-Mail  
   This example sends an e-mail message to contacts that have the domain name **example.com** in their e-mail addresses.  

@@ -17,6 +17,8 @@ ms.author:
   - "kraigb"
   - "karthiknadig"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Using Docker containers with R Tools for Visual Studio

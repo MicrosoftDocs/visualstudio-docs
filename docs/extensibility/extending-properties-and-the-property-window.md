@@ -19,6 +19,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending Properties and the Property Window
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  

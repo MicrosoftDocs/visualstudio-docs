@@ -23,6 +23,8 @@ caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Warning Task
 Logs a warning during a build based on an evaluated conditional statement.  

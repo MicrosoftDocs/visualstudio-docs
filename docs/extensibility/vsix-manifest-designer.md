@@ -19,6 +19,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSIX Manifest Designer
 Modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.  

@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BPRESI_FIELDS
 Specifies the information  to be retrieved about the successful resolution of a breakpoint.  

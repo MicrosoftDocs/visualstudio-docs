@@ -18,6 +18,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug Universal Windows Apps (UWP)
 The Visual Studio debugger provides complete support for debugging UWP apps.  

@@ -20,6 +20,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to access the SQL Server debugging interface
 This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled.  

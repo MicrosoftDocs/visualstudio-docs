@@ -19,6 +19,8 @@ caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Getting Started Programming Document-Level Customizations for Word
   If you are just getting started creating document-level customizations for Microsoft Office Word by using Visual Studio, here is what you need to know.  

@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using Memory Efficiently When You Build Large Projects
 Large projects often contain many sub-projects and other dependencies, and these may consume lots of system memory at build time. When available system memory is decreased, system performance may also be decreased. Older versions of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects remained in memory or, in version 3.5 the projects were removed, but it retained build results in a cache for later retrieval.  

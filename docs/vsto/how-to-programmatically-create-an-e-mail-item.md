@@ -20,6 +20,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create an E-Mail Item
   This example creates an e-mail message in Microsoft Office Outlook.  

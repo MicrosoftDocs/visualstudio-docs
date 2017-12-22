@@ -23,6 +23,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Differences Between Sandboxed and Farm Solutions
   When you compile a SharePoint solution, it deploys to the SharePoint server and a debugger attaches to debug it. The process used to debug the solution depends on the setting of the Sandboxed Solution property: sandboxed solution or farm solution.  

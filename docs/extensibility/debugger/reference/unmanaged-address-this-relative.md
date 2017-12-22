@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # UNMANAGED_ADDRESS_THIS_RELATIVE
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).  

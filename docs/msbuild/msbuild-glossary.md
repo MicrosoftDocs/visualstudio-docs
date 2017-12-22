@@ -13,6 +13,8 @@ caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Glossary
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  

@@ -37,6 +37,8 @@ caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Manage exceptions with the debugger in Visual Studio
 

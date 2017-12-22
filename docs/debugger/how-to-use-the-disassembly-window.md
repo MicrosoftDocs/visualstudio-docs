@@ -26,6 +26,8 @@ caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View Disassembly Code in the Visual Studio Debugger
 This feature is available only if address-level debugging is enabled the **Options** dialog box, **Debugging** node. It is not available for Script or SQL debugging.  

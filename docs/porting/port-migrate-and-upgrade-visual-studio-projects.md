@@ -22,6 +22,8 @@ ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Port, Migrate, and Upgrade Visual Studio Projects

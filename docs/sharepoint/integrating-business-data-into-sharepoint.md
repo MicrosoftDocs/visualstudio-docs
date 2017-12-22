@@ -27,6 +27,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Integrating Business Data into SharePoint
   You can integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[TLA#tla_sqlsvr](../sharepoint/includes/tlasharptla-sqlsvr-md.md)], Siebel, and SAP, or a Web service. Users can view, add, update, or delete business data by using external lists or Business Data Web Parts in SharePoint.  Users can also access this data offline in a Microsoft Office application such as Microsoft Outlook. For more information, see [Where Can You Show External Data](http://go.microsoft.com/fwlink/?LinkId=169295).  

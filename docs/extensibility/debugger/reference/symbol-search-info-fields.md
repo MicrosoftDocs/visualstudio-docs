@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
 Specifies the kind of symbol information to retrieve.  

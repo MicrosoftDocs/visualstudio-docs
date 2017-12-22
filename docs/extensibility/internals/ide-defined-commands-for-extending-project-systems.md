@@ -16,6 +16,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDE-Defined Commands for Extending Project Systems
 When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.  
