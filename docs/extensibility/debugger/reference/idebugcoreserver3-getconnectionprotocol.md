@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3::GetConnectionProtocol
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  

@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 This walkthrough shows how to add a tracking property to a domain model.  

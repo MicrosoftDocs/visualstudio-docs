@@ -22,6 +22,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Password Protection on Office Documents
   It is possible to set a password on your Microsoft Office Word documents and Microsoft Office Excel workbooks so that they cannot be opened by someone who does not know the password. This option is called **Password on Open**.  

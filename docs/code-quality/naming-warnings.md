@@ -19,6 +19,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Naming Warnings
 Naming warnings support adherence to the naming conventions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] Design Guidelines.  

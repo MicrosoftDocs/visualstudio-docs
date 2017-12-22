@@ -10,6 +10,8 @@ ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Quickstart: projects and solutions
 

@@ -17,6 +17,8 @@ ms.author:
   - "kraigb"
   - "karthiknadig"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Remote R Service for Linux

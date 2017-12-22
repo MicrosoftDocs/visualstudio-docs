@@ -19,6 +19,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Replace In Files Command
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.  

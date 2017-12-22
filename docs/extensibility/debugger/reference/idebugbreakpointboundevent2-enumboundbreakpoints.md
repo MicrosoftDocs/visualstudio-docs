@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 Creates an enumerator of breakpoints that were bound on this event.  

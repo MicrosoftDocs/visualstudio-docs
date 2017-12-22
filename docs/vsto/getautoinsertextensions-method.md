@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # GetAutoInsertExtensions Method
   Gets information about the apps for Office that are to be automatically inserted during debugging.  

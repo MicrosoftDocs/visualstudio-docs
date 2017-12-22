@@ -32,6 +32,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Providing Packaging and Deployment Information in Project Items
   All SharePoint project items in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:  

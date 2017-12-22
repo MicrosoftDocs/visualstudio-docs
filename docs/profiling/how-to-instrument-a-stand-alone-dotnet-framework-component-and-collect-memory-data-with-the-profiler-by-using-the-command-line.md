@@ -13,6 +13,8 @@ caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component of a stand-alone application such as an .exe or .dll file and collect memory information by using the profiler.  

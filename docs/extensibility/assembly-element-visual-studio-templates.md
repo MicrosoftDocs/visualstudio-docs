@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Assembly Element (Visual Studio Templates)
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.  

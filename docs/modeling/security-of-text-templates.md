@@ -13,6 +13,8 @@ caps.latest.revision: 23
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Security of Text Templates
 Text templates have the following security concerns:  

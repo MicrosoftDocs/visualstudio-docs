@@ -21,6 +21,8 @@ caps.latest.revision: 20
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  

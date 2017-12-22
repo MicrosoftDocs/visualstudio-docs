@@ -19,6 +19,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyzing Application Quality by Using Code Analysis Tools
 ## In This Section  

@@ -30,6 +30,8 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MFC Debugging Techniques
 If you are debugging an MFC program, these debugging techniques may be useful.  

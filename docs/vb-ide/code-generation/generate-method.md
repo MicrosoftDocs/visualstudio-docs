@@ -12,6 +12,8 @@ ms.assetid: 683790b4-b68b-42d7-8dc4-a68eca05aa01
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Generate a method in Visual Basic

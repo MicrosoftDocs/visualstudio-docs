@@ -25,6 +25,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Text Editor Options Dialog Box
 The editor options in the **Options** dialog box provide ways to customize the appearance and behavior of the editor.  

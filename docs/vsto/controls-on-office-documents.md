@@ -22,6 +22,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Controls on Office Documents
   You can use the Office development tools in Visual Studio to add Windows Forms controls and *host controls* to Word documents and Excel worksheets. Host controls are objects that extend various user interface (UI) objects in the Word and Excel object models.  

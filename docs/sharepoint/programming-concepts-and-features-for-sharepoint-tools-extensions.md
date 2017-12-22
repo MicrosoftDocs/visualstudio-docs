@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Programming Concepts and Features for SharePoint Tools Extensions
   There are several important programming concepts and features that are related to the SharePoint tools in Visual Studio. These concepts and features play an important role in most SharePoint tools extensions.  

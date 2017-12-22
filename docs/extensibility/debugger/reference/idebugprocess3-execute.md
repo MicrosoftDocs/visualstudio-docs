@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::Execute
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.  

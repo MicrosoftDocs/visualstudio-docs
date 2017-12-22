@@ -10,6 +10,8 @@ helpviewer_keywords:
   - "Live Unit Testing"
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # Introducing Live Unit Testing
 

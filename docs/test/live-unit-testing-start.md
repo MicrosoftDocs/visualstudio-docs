@@ -12,6 +12,8 @@ helpviewer_keywords:
   - "Live Unit Testing"
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # Get started with Live Unit Testing in Visual Studio
 

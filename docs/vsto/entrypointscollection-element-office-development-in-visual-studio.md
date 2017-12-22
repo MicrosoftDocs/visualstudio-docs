@@ -20,6 +20,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;entryPointsCollection&gt; Element (Office Development in Visual Studio)
   The `entryPointsCollection` element of the `vstav3` namespace contains all the `entryPoints` elements associated with Office solutions.  

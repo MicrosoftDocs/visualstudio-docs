@@ -12,6 +12,8 @@ ms.assetid: 075d9b8d-8658-4fca-8711-08304dbac1c5
 caps.latest.revision: 9
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Sample Excel Extension: PropertyProvider Class
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> class and provides property services for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] elements to record and play back user interface (UI) tests.  

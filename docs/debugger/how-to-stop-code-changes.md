@@ -22,6 +22,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Stop Code Changes
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  

@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "dotnet"
 ---
 
 # Encapsulate a field in C# #

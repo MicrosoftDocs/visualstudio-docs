@@ -24,6 +24,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Calendar Items
   The <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> class contains the methods and properties you use to perform tasks with calendar items.  

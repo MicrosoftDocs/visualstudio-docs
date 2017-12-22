@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Development Samples
   You can use Visual Studio to download and install samples of SharePoint applications from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=254185).  

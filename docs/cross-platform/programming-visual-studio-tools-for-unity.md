@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
+ms.workload: 
+  - "unity"
 ---
 # Programming Visual Studio Tools for Unity
 In this section, you'll find examples for using the Visual Studio Tools for Unity API.  

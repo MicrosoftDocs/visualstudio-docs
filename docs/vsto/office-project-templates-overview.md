@@ -36,6 +36,8 @@ caps.latest.revision: 68
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office Project Templates Overview
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:  

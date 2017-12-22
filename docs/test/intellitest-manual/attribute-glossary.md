@@ -14,6 +14,8 @@ ms.assetid: 557C7869-48BE-4B82-9563-1FF356ABACDB
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Attribute glossary
 

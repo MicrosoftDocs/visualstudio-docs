@@ -23,6 +23,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GetAssemblyIdentity Task
 Retrieves the assembly identities from the specified files and outputs the identity information.  

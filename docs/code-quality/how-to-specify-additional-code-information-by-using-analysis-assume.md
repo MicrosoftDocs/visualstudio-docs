@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Specify Additional Code Information by Using __analysis_assume
 You can provide hints to the code analysis tool for C/C++ code that will help the analysis process and reduce warnings. To provide additional information, use the following function:  

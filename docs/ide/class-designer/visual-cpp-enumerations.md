@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Visual C++ Enumerations in Class Designer
 Class Designer supports C++ `enum` and scoped `enum class` types. Following is an example:  

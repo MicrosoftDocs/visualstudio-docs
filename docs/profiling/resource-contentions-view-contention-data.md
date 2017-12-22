@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Resource Contentions View - Contention Data
 The Resource Contention view lists contention data for the resources that were the source of contention events. A contention event occurs when a function in a thread is forced to wait for access to the resource because a function in another thread has acquired exclusive access to the resource. Each resource is the root node of a call tree that displays the function execution paths that resulted in the contention events.  

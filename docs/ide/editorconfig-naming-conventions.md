@@ -6,14 +6,16 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
- - "naming conventions [EditorConfig]"
- - "EditorConfig naming conventions"
+helpviewer_keywords: 
+  - "naming conventions [EditorConfig]"
+  - "EditorConfig naming conventions"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
+ms.workload: 
+  - "multiple"
 ---
 # Naming Conventions for EditorConfig
 

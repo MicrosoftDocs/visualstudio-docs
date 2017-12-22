@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Activity Views (Legacy)
 Many of the activities provided by [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)], from which workflows are composed, have several design views available in the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. When you drag an activity designer from the **Toolbox** onto the design surface, and thereafter whenever you select the activity, you can switch between the different design views by using either the **Workflow** menu or by right-clicking the selected activity. Also, when you move the pointer over the name of a selected activity, a drop-down set of tabs appears that you can use to switch between the different views.  

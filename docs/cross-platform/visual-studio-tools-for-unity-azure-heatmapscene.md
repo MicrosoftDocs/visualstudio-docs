@@ -12,6 +12,9 @@ ms.assetid: E11DA08B-7341-4743-A817-0CAD59844305
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 

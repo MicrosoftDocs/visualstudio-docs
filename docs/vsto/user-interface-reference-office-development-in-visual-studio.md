@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # User Interface Reference (Office Development in Visual Studio)
   The following user interface elements are part of Office projects in Visual Studio.  

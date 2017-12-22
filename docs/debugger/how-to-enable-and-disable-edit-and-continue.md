@@ -29,6 +29,9 @@ caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
+  - "cplusplus"
 ---
 # How to: Enable and Disable Edit and Continue (C#, VB, C++)
 You can disable or enable Edit and Continue in the **Options** dialog box at design time. You cannot change this setting while you are debugging.  

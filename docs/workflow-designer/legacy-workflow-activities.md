@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Legacy Workflow Activities
 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] includes a default set of activities that provide functionality for control flow, conditions, event handling, state management, and communicating with applications and services. When designing workflows, you can use the system-provided activities that are provided by the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)], or you can create your own custom activities.  

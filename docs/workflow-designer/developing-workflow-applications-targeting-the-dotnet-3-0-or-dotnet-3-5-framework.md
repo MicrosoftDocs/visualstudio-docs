@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "dotnet"
 ---
 # Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework
 [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] provides the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] for creating [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)]. The designer uses the familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface for the graphical construction and debugging of workflow applications.  

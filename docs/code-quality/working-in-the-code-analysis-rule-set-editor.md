@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working in the Code Analysis Rule Set Editor
 The Code Analysis rule set editor enables you to specify the rules that are included in a custom rule set and to specify the action. You can also specify the action to take when code analysis encounters a violation of the rule.  

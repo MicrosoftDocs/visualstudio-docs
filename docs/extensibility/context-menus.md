@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Context Menus
 Context menus are displayed when a user right-clicks in an active region of the client area and clear when the right mouse button is released.  

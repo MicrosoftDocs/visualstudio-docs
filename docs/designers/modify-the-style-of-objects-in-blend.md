@@ -13,6 +13,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Modify the style of objects in Blend
 The easiest way to customize an object is to set properties in the **Properties** pane.  

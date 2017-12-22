@@ -18,6 +18,8 @@ caps.latest.revision: 81
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # T4 Text Template Directives
 Directives provide instructions to the text template transformation engine.  

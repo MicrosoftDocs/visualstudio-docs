@@ -15,6 +15,8 @@ caps.latest.revision: 25
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Diagrams
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.  

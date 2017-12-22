@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThreadCreateEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread is created in a program being debugged.  

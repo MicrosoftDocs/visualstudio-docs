@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use Breakpoints with XSLT
 You can set breakpoints in an XSLT style sheet or in the XML source document. If you set a breakpoint on a tag, when execution starts the breakpoint will move to the next statement that has source line information.  

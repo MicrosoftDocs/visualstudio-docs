@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentTextEvents2::onUpdateDocumentAttributes
 Notifies receiver of the event that the document attributes have been updated.  

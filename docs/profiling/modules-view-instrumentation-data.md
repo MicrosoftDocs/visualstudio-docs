@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Modules View - Instrumentation Data
 The Modules view displays performance data that is grouped by the modules that were in the profiling data. The functions of the module are listed below the module node.  

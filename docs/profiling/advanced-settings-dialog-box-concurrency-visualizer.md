@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Advanced Settings Dialog Box (Concurrency Visualizer)
 By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you can control how traces are collected.  The dialog box has tabs for symbols, Just My Code, buffering, filtering, CLR events, markers, providers, and files.  

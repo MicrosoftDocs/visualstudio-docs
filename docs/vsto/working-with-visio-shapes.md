@@ -19,6 +19,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Visio Shapes
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with shapes in Office projects.  

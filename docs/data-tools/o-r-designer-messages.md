@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # O/R Designer Messages
 This topic lists the messages that you can encounter when you work with the O/R Designer.  

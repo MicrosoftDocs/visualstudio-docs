@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;fileAssociation&gt; Element (ClickOnce Application)
 Identifies a file extension to be associated with the application.  

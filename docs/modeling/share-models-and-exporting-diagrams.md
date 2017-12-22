@@ -14,6 +14,8 @@ caps.latest.revision: 14
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Share models and exporting diagrams
 In Visual Studio, you can share models and diagrams with colleagues in several ways.  

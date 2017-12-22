@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Searching the Schema Set
 The XML Schema Explorer enables you to search the schema set in the following ways:  

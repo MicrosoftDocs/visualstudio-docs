@@ -23,6 +23,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Suppress Warnings By Using the SuppressMessage Attribute
 It is often useful to indicate that the warning is nonapplicable to let team members know that the code was reviewed and it was determined that the warning should be suppressed. In Source Suppression (ISS) lets a developer to put the attribute that suppresses a warning close to the location that generated the warning. You can add the ISS attribute directly to the source file or you can use the shortcut menu in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  

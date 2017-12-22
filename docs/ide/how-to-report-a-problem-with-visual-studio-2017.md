@@ -11,6 +11,8 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
 ms.technology: "vs-acquisition"
+ms.workload: 
+  - "multiple"
 ---
 # How to report a problem with Visual Studio 2017
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem so that we can diagnose and fix it.  

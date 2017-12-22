@@ -19,6 +19,8 @@ caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Save Visio Documents
   There are several ways to save Microsoft Office Visio documents:  

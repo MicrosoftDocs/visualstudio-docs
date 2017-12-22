@@ -17,6 +17,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Advanced Security Settings Dialog Box
 This dialog box allows you to specify security settings related to debugging in zone.  

@@ -19,6 +19,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Custom Actions in Outlook Form Regions
   Actions display buttons that enable users to respond to a Microsoft Office Outlook item. For example, to respond to a mail item, users click the **Reply**, **Reply to All**, or **Forward** action buttons. Each of these actions creates a new mail item and populates the item's fields by using information from the original item.  

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCanStopEvent2::CanStop
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.  

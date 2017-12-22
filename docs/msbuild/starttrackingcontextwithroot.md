@@ -20,6 +20,8 @@ caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StartTrackingContextWithRoot
 Starts a tracking context using a response file specifying a root marker.  

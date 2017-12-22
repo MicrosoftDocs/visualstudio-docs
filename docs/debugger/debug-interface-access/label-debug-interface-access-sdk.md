@@ -18,6 +18,8 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Label (Debug Interface Access SDK)
 A location in program code is identified by a `SymTagLabel` symbol.  

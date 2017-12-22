@@ -20,6 +20,8 @@ caps.latest.revision: 55
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Overview of the Programming Model of SharePoint Tools Extensions
   When you create an extension for the SharePoint tools in Visual Studio, you begin by implementing one or more extensibility interfaces that are exposed by the SharePoint tools. In most cases, you will also use other types provided by the SharePoint tools to implement features in your extension. In some scenarios you might also use types in other object models provided by Visual Studio and SharePoint. You must understand the purpose of each of these object models and know how to use them with each other to create extensions for the SharePoint tools.  

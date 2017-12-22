@@ -19,6 +19,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Code Snippet Picker
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.  

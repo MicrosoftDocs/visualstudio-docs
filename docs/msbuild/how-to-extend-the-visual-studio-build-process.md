@@ -18,6 +18,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Extend the Visual Studio Build Process
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process:  

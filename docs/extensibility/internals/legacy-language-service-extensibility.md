@@ -16,6 +16,8 @@ caps.latest.revision: 42
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Extensibility
 A language service provides language-specific support for editing source code in the IDE.  

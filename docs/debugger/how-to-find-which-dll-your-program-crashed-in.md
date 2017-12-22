@@ -27,6 +27,8 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Find Which DLL Your Program Crashed In
 > [!NOTE]

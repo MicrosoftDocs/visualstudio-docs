@@ -19,6 +19,8 @@ caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Using Fonts and Colors
 The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides support for using fonts and colors to display text.  

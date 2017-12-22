@@ -10,13 +10,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "natvis"
-dev_langs:
+dev_langs: 
   - "C++"
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Create custom views of native objects in the Visual Studio debugger
 The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch** window, **Locals** window, and in **DataTips**.

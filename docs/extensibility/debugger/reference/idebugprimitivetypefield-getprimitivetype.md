@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.  

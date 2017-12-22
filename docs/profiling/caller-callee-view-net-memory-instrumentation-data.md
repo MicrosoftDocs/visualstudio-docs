@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Caller/Callee View - NET Memory Instrumentation Data
 The Caller/Callee view of .NET memory profiling data that was collected by using the instrumentation method displays allocation and timing data for a selected function and the parent and child functions of that selected function. The Caller/Callee view contains three grids.  

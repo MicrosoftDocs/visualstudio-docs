@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Files Element
   Specifies the files to deploy with the SharePoint project item, such as Feature element files and the output of dependent non-SharePoint projects.  

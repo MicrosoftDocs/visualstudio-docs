@@ -13,6 +13,9 @@ caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "azure"
 ---
 
 # Azure cloud service projects for Python

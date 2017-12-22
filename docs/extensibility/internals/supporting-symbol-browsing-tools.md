@@ -23,6 +23,8 @@ caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Supporting Symbol-Browsing Tools
 **Object Browser**, **Class View**, **Call Browser** and **Find Symbol Results** tools provide symbol browsing capabilities in Visual Studio. These tools display hierarchical tree views of symbols and show the relationships between the symbols in the tree. The symbols may represent namespaces, objects, classes, class members, and other language elements contained in various components. The components include Visual Studio projects, external [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] components and type (.tlb) libraries. For more information, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).  

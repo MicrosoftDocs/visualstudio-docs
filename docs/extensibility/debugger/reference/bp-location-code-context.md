@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_CONTEXT
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.  

@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Create Custom Text Markers
 If you want to create a custom text marker to emphasize or organize code, you must take the following steps:  

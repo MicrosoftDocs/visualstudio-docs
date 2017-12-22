@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+ms.workload: 
+  - "multiple"
 ---
 # Publish a web app or a .NET Core app to a web site using the Visual Studio Publish tool
 

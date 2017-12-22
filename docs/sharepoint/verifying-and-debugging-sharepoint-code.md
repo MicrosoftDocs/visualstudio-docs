@@ -21,6 +21,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Verifying and Debugging SharePoint Code
   By using IntelliTrace and unit testing, you can more easily debug your SharePoint solutions and ensure that each method in them works correctly. You can use these features for SharePoint projects in [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] by following the same procedures as for other types of projects.  

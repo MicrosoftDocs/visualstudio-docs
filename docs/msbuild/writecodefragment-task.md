@@ -21,6 +21,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WriteCodeFragment Task
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.  

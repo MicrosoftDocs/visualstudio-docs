@@ -20,6 +20,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # MSBuild Properties Supported by SharePoint
   Any [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] property defined in the Microsoft.VisualStudio.SharePoint.targets file, project file, or project user file can be used in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. In addition to the common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties supplied by the project, SharePoint defines additional properties that are specific to SharePoint projects.  

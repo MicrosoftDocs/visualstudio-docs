@@ -21,6 +21,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Building and Debugging SharePoint Solutions
   In general, building and debugging SharePoint solutions is the same as building and debugging other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The topics in this section explain the differences that do exist.  

@@ -12,6 +12,8 @@ ms.assetid: 7e795873-1d4b-4a13-a52a-a411d87fb759
 caps.latest.revision: 13
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 Coded UI test logs filter and record important information about your coded UI test runs.  

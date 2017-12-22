@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Search Tools for Spy++ Views
 Use these dialog boxes to specify what data a Spy++ Views window will display:  

@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Extensions and Updates, Environment, Options Dialog Box
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.  
