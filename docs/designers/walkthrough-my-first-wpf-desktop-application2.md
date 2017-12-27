@@ -266,7 +266,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 1.  Choose the following image and save it as `watermark.png`.  
   
-     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "WPF_watermark")  
+     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "watermark")  
   
     > [!NOTE]
     >  Alternatively you can create your own image and save it as `watermark.png`.  
