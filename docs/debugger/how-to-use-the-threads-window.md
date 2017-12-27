@@ -55,7 +55,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
     ```VB  
     Thread.Sleep(3000)   
-    Console.WriteLine(  
+    Console.WriteLine()
     ```  
   
     ```CSharp  
