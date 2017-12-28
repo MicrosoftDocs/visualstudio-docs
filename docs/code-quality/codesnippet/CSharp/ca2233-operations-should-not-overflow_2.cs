@@ -7,7 +7,7 @@ namespace Samples
         public static int Decrement(int input)        
         {            
             if (input == int.MinValue)                
-                throw new ArgumentOutOfRangeException("input", "input must be greater than Int32.MinValue");
+                throw new ArgumentOutOfRangeException(nameof(input), "input must be greater than Int32.MinValue");
                              
             input--;             
             return input;        
