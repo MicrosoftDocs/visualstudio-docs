@@ -16,13 +16,21 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# How to: Create multi-project templates
+# How to: Create Multi-Project Templates
 
-Multi-project templates act as containers for two or more projects. When a project is created from a multi-project template, every project in the template is added to the solution.
+Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.
+
+A multi-project template contains two or more project templates, and a root template of type `ProjectGroup`.
+
+Multi-project templates behave differently than single project templates. They have the following unique characteristics:
+
+- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element to specify a name for each project.
+
+- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element.
 
 A multi-project template must include the following items, compressed into a .zip file:
 
-- A root .vstemplate file for the entire multi-project template. This root .vstemplate file contains the metadata that the **New Project** dialog box displays, and specifies where to find the .vstemplate files for the projects in this template. This file must be located at the root of the .zip file.
+- A root .vstemplate file for the entire multi-project template. This root .vstemplate file contains metadata that the **New Project** dialog box displays, and specifies where to find the .vstemplate files for the projects in the template. This file must be located at the root of the .zip file.
 
 - One or more folders that contain the files that are required for a complete project template. This includes all code files for the project, and also a .vstemplate file for the project.
 
@@ -66,21 +74,34 @@ The root .vstemplate file for a multi-project template differs from a single-pro
     </TemplateContent>
     ```
 
-Multi-project templates also behave differently than normal templates. Multi-project templates have the following unique characteristics:
+## To create a multi-project template from an existing solution
 
-- Individual projects in a multi-project template cannot be assigned names by the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element to specify the name for each project. For more information, see the first example in the section that follows.
+1. Create a solution and add two or more projects.
 
-- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category by using the `ProjectType` element.
+    > [!NOTE]
+    > Use only valid identifier characters when naming a project that will be the source for a template. Otherwise, compilation errors can occur in projects that are created from the template. For more information about valid identifier characters, see [Declared element names (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names) or [Identifiers (C++)](/cpp/cpp/identifiers-cpp). Alternatively, you can use [template parameters](../ide/template-parameters.md) to use "safe" names for classes and namespaces.
 
-## To create a multi-project template
+1. Edit the projects until they are ready to be exported as a template. For example, you might want to edit code files to indicate where parameter replacement should take place. See [How to: Substitute parameters in a template](../ide/how-to-substitute-parameters-in-a-template.md).
 
-1. Create the projects to include in the multi-project template.
+1. On the **Project** menu, choose **Export Template...**.
 
-1. Create .vstemplate files for every project. For more information, see [How to: Create Project Templates](../ide/how-to-create-project-templates.md).
+   The **Export Template Wizard** opens.
 
-1. Create a root .vstemplate file that csontain the metadata for the multi-project template. For more information, see the example that follows.
+1. Choose **Project Template**.
 
-1. Select the files and folders to include in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**.
+1. Select the projects you want to export to a template, then choose **Next**.
+
+1. Select an icon and a preview image for your template. These will appear in the **New Project** dialog box.
+
+1. Enter a template name and description, then choose **Finish**.
+
+   Your project is exported into a .zip file and placed in the specified output location, and, if selected, imported into Visual Studio.
+
+1. Extract the .vstemplate file from the generated zip file into the same directory as the project file that was used to export the template.
+
+1. Create a root .vstemplate file that contains the metadata for the multi-project template. For more information, see the example that follows.
+
+1. Select the files and folders to include in your template, right-click the selection, choose **Send To** and then **Compressed (zipped) Folder**.
 
    The files and folders are compressed into a .zip file.
 
@@ -153,9 +174,8 @@ This example uses the `SolutionFolder` element to divide the projects into two g
 
 ## See also
 
-[Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
-[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
-[How to: Create Project Templates](../ide/how-to-create-project-templates.md)  
-[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
-[SolutionFolder Element (Visual Studio Templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)  
-[ProjectTemplateLink Element (Visual Studio Templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)
+[Creating project and item templates](../ide/creating-project-and-item-templates.md)  
+[How to: Create project templates](../ide/how-to-create-project-templates.md)  
+[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)  
+[SolutionFolder element (Visual Studio templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)  
+[ProjectTemplateLink element (Visual Studio templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)

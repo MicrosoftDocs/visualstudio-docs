@@ -257,8 +257,8 @@
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
 ## Visual Studio Template Reference
-### [Template Schema Reference...](extensibility/visual-studio-template-schema-reference.md)
 ### [Template Parameters](ide/template-parameters.md)
+### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md)
 ### [Creating Project and Item Templates](ide/creating-project-and-item-templates.md)
 #### [Create Project Templates](ide/how-to-create-project-templates.md)
 #### [Create Multi-Project Templates](ide/how-to-create-multi-project-templates.md)
