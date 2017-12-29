@@ -333,7 +333,7 @@ Follow these steps below to add support for settings to your LSP language servic
   }
   ```
 ### Enabling diagnostics tracing
-Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful to debug issues.  To enable diagnostic tracing, please do the following:
+Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, please do the following:
 
 1. Open or create the workspace settings file "VSWorkspaceSettings.json" (see above).
 2. Add the following line in the settings json file:
@@ -346,7 +346,7 @@ Diagnostics tracing can be enabled to output all messages between the client and
 
 There are 3 possible values for trace verbosity:
 * "Off": tracing turned off completely
-* "Message": tracing turned on but only method name and response ID are traced.
+* "Messages": tracing turned on but only method name and response ID are traced.
 * "Verbose": tracing turned on; the entire rpc message is traced.
 
 When tracing is turned on, the content will be written to a file in "%temp%\VisualStudio\LSP" directory.  It will following the naming format [LanguageClientName]-[Datetime Stamp].log.  Currently, tracing can only be enabled for open folder scenario.  Opening a single file to activate a language server does not have diagnostics tracing support. 
