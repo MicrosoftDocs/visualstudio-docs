@@ -40,10 +40,8 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
 2.  Add the text of the annotation in the space provided.  
   
-3.  The item will show an annotation icon. Hovering over the annotation icon will display the text of the annotation.  
-  
-     ![Sequence activity showing annotation](../debugger/debug-interface-access/annotation.md "Annotation")  
-  
+3.  The item will show an annotation icon. Hovering over the annotation icon will display the text of the annotation.
+
 ### Displaying an annotation in an activity's designer  
   
 1.  With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.  
