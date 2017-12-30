@@ -1,7 +1,7 @@
 ---
 title: "Add name parameters to templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

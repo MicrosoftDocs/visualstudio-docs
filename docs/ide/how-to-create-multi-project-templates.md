@@ -1,7 +1,7 @@
 ---
 title: "Create multi-project templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,7 +16,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# How to: Create Multi-Project Templates
+# How to: Create multi-project templates
 
 Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.
 
@@ -32,7 +32,7 @@ A multi-project template must include the following items, compressed into a .zi
 
 - A root .vstemplate file for the entire multi-project template. This root .vstemplate file contains metadata that the **New Project** dialog box displays, and specifies where to find the .vstemplate files for the projects in the template. This file must be located at the root of the .zip file.
 
-- One or more folders that contain the files that are required for a complete project template. This includes all code files for the project, and also a .vstemplate file for the project.
+- Two or more folders that contain the files that are required for a complete project template. This includes all code files for the project, and also a .vstemplate file for the project.
 
 For example, a multi-project template .zip file that has two projects could have the following files and directories:
 
@@ -54,14 +54,14 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 - The `Type` attribute of the `VSTemplate` element contains the value `ProjectGroup`. For example:
 
-    ```
+    ```xml
     <VSTemplate Version="2.0.0" Type="ProjectGroup"
         xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     ```
 
 - The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the .vstemplate files of the included projects. For example:
 
-    ```
+    ```xml
     <TemplateContent>
         <ProjectCollection>
             <ProjectTemplateLink>
@@ -78,30 +78,28 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 1. Create a solution and add two or more projects.
 
-    > [!NOTE]
-    > Use only valid identifier characters when naming a project that will be the source for a template. Otherwise, compilation errors can occur in projects that are created from the template. For more information about valid identifier characters, see [Declared element names (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names) or [Identifiers (C++)](/cpp/cpp/identifiers-cpp). Alternatively, you can use [template parameters](../ide/template-parameters.md) to use "safe" names for classes and namespaces.
-
-1. Edit the projects until they are ready to be exported as a template. For example, you might want to edit code files to indicate where parameter replacement should take place. See [How to: Substitute parameters in a template](../ide/how-to-substitute-parameters-in-a-template.md).
+1. Customize the projects until they are ready to be exported to a template.
 
 1. On the **Project** menu, choose **Export Template...**.
 
    The **Export Template Wizard** opens.
 
-1. Choose **Project Template**.
+1. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
 
-1. Select the projects you want to export to a template, then choose **Next**.
+1. On the **Select Template Options** page, enter a name, description, icon, and preview image for your template. These will appear in the **New Project** dialog box. Choose **Finish**.
 
-1. Select an icon and a preview image for your template. These will appear in the **New Project** dialog box.
+   The project is exported into a .zip file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-1. Enter a template name and description, then choose **Finish**.
+> [!NOTE]
+> Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
 
-   Your project is exported into a .zip file and placed in the specified output location, and, if selected, imported into Visual Studio.
+1. Create a directory for your template.
 
-1. Extract the .vstemplate file from the generated zip file into the same directory as the project file that was used to export the template.
+1. Extract the contents of each .zip file you created into a subdirectory of the directory you just created.
 
-1. Create a root .vstemplate file that contains the metadata for the multi-project template. For more information, see the example that follows.
+1. In the base directory, create a .vstemplate file that contains the metadata for the multi-project template. See the example that follows for the structure of this file. Be sure to specify the relative path to each project's .vstemplate file in the subdirectories.
 
-1. Select the files and folders to include in your template, right-click the selection, choose **Send To** and then **Compressed (zipped) Folder**.
+1. Select the base directory, and from the right-click or context menu choose **Send to** > **Compressed (zipped) folder**.
 
    The files and folders are compressed into a .zip file.
 
@@ -114,7 +112,7 @@ This example shows a basic multi-project root .vstemplate file. In this example,
 > [!TIP]
 > If the `ProjectName` attribute is not specified, the name of the .vstemplate file is used as the project name.
 
-```
+```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
@@ -140,7 +138,7 @@ This example shows a basic multi-project root .vstemplate file. In this example,
 
 This example uses the `SolutionFolder` element to divide the projects into two groups, `Math Classes` and `Graphics Classes`. The template contains four projects, two of which are placed in each solution folder.
 
-```
+```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>

@@ -1,7 +1,7 @@
 ---
 title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/02/2017"
+ms.date: "12/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -80,7 +80,7 @@ You can organize installed templates by creating subdirectories in the programmi
 
 1. Open a command prompt: on the **Start** menu, choose **Windows System** > **Command Prompt**.
 
-1. At the command prompt, locate the directory that contains devenv.exe, and type **devenv /installvstemplates**.
+1. At the command prompt, locate the directory that contains devenv.exe, and type `devenv /installvstemplates`.
 
 1. Open Visual Studio, and on the **File** menu, choose **New** > **Project**.
 
@@ -164,7 +164,7 @@ You can enable templates in subcategories to be displayed in their parent catego
 
 1. Save and close the .vstemplate file.
 
-1. Select the files in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**.
+1. Select the files in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**.
 
    The files are compressed into a .zip file.
 

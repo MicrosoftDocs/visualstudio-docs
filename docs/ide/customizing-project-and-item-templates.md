@@ -1,7 +1,7 @@
 ---
 title: "Customizing project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "customizing Visual Studio templates"
+  - "customizing templates [Visual Studio]"
   - "Visual Studio templates, customizing"
 author: "gewarren"
 ms.author: "gewarren"

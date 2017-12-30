@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio template parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/29/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
@@ -116,4 +116,5 @@ In the .vstemplate file for the project template, include the following XML when
 
 ## See also
 
-[Customizing templates](../ide/customizing-project-and-item-templates.md)
+[Customizing templates](../ide/customizing-project-and-item-templates.md)  
+[How to: Create project templates](../ide/how-to-create-project-templates.md)
