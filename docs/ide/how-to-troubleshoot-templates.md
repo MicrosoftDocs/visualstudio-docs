@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Visual Studio template loading | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,7 +45,7 @@ If the .vstemplate file in a template does not adhere to the Visual Studio templ
 
 1. Delete the extracted template files and the old template .zip file.
 
-## Monitor the Event Log
+## Monitor the event log
 
 Visual Studio logs errors it encounters when processing template .zip files. If a template does not appear in the **New Project** dialog box as expected, you can use **Event Viewer** to troubleshoot the issue.
 
@@ -59,8 +59,13 @@ Visual Studio logs errors it encounters when processing template .zip files. If 
 
 1. Double-click on a template event to view the error.
 
+## Enable diagnostic logging
+
+You can enable diagnostic logging for template discovery by following the steps in [Troubleshooting template discovery (Extensibility)](../extensibility/troubleshooting-template-discovery.md).
+
 ## See also
 
-[Customizing Templates](../ide/customizing-project-and-item-templates.md)  
-[Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
-[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+[Troubleshooting template discovery (Extensibility)](../extensibility/troubleshooting-template-discovery.md)  
+[Customizing templates](../ide/customizing-project-and-item-templates.md)  
+[Creating project and item templates](../ide/creating-project-and-item-templates.md)  
+[Template schema reference](../extensibility/visual-studio-template-schema-reference.md)

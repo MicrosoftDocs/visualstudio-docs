@@ -1,7 +1,7 @@
 ---
 title: "Customizing project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

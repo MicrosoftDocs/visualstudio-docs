@@ -17,13 +17,13 @@ ms.workload:
   - "vssdk"
 ---
 # Creating Custom Project and Item Templates
-The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the zip file to the location you  
+The Visual Studio SDK includes project templates that create a custom project template and a custom item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the generated zip file to the location you  
   
- The template creation templates let you include templates in larger extensions. This lets you implement version control on the source files and build a group of template projects into one VSIX package.  
+The template creation templates let you include templates in larger extensions. This lets you implement version control on the source files and build a group of template projects into one VSIX package.  
   
- For basic template creation scenarios, you should use the **Export Template** wizard, which outputs to a compressed file. For more information about basic template creation, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).  
+For basic template creation scenarios, you should use the **Export Template** wizard, which outputs to a compressed file. For more information about basic template creation, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).  
   
- Starting in Visual Studio 2017, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use Visual Studio 2017 to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio 2017](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).  
+Starting in Visual Studio 2017, scanning for custom project and item templates will no longer be performed. Instead, the extension must provide template manifest files that describe the install location of these templates. You can use Visual Studio 2017 to update your VSIX extensions. If you deploy your extension using an MSI, you must generate the template manifest files by hand. For more information, see [Upgrading Custom Project and Item Templates for Visual Studio 2017](../extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017.md). The template manifest schema is documented in [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md).  
   
 ## Creating a Project Template  
   

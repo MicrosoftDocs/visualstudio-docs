@@ -1,7 +1,7 @@
 ---
 title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,9 +31,9 @@ By default, Visual Studio searches two locations for project and item templates.
 
 By default, templates installed with Visual Studio are located in:
 
-- \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\\*Language*\\*Locale*\
+- \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\\*Programming Language*\\*Locale*
 
-- \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Language*\\*Locale\\*
+- \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Programming Language*\\*Locale*
 
 For example, the following directory contains the Visual Basic item templates for English (1033):
 
@@ -43,13 +43,13 @@ C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\10
 
 By default, custom templates are located in:
 
-- \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates\\*Language*\
+- %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates
 
-- \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates\\*Language*\
+- %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates
 
 For example, the following directory contains custom c# project templates:
 
-C:\Users\UserName\Documents\Visual Studio *Version*\Templates\ProjectTemplates\Visual C#\
+C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 
 Custom templates do not include a subdirectory for localized templates.
 
@@ -78,9 +78,9 @@ You can organize installed templates by creating subdirectories in the programmi
 
 1. Close all instances of Visual Studio.
 
-1. Open a command prompt: on the **Start** menu, choose **Windows System** > **Command Prompt**.
+1. Open a developer command prompt: on the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
-1. At the command prompt, locate the directory that contains devenv.exe, and type `devenv /installvstemplates`.
+1. Run the following command: `devenv /installvstemplates`
 
 1. Open Visual Studio, and on the **File** menu, choose **New** > **Project**.
 
@@ -98,9 +98,9 @@ You can also group a subset of the project item templates into a custom folder.
 
 1. Close all instances of Visual Studio.
 
-1. Open a command prompt: on the **Start** menu, choose **Windows System** > **Command Prompt**.
+1. Open a developer command prompt: on the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
-1. At the command prompt, locate the directory that contains devenv.exe, and type **devenv /setup**.
+1. Run the following command: `devenv /setup`
 
 1. Open Visual Studio and create a new project or open an existing project.
 
@@ -116,7 +116,7 @@ Custom templates can be organized into their own categories by adding new folder
 
 1. Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for C# templates, create the following directory:
 
-    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates\CSharp\HelloWorld\
+    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates\Visual C#\HelloWorld\
 
 1. Place all the templates for this category in the new folder.
 
@@ -130,7 +130,7 @@ You can also group a subset of the custom item templates into a custom folder.
 
 1. Create a folder in the language folder in the custom item template directory. For example, to create a HelloWorld category for C# templates, create the following directory:
 
-    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates\CSharp\HelloWorld\
+    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates\Visual C#\HelloWorld\
 
 1. Place all the templates for this category in the new folder.
 

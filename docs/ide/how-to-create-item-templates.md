@@ -1,7 +1,7 @@
 ---
 title: "Create item templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,7 +37,7 @@ This topic shows you how to create an item template by using the **Export Templa
 
 1. Enter the icon file name, preview image, template name, and template description, and then choose **Finish**.
 
-     The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is %USERPROFILE%\Documents\Visual Studio <version>\My Exported Templates.
+    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is %USERPROFILE%\Documents\Visual Studio <version>\My Exported Templates.
 
 ### To enable the item template to be used in a Universal Windows App project
 
@@ -119,7 +119,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. In Windows Explorer, select the files you want to include in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a .zip file.
 
-1. Copy the .zip file and paste it in the user item template location. In Visual Studio 2017, the default directory is %USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates\\. For more information, see [How to: Locate and Organize Project and Item Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+1. Copy the .zip file and paste it in the user item template location. In Visual Studio 2017, the default directory is %USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Project and Item Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ## See also
 

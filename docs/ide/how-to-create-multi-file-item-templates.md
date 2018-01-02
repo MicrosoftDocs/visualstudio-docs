@@ -1,7 +1,7 @@
 ---
 title: "Multi-file item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +50,9 @@ Multi-file item templates require parameters to ensure the correct file name ext
 
 1. Select the files to be included in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a .zip file.
 
-1. Put the .zip file in the user item template location. By default, the directory is \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+1. Put the .zip file in the user item template location. By default, the directory is %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+
+1. Open the **Add New Item** dialog box and verify that your multi-item template appears in it.
 
 ## Example
 

@@ -1,7 +1,7 @@
 ---
 title: "Update existing project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,7 +17,7 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# How to: update existing templates
+# How to: Update existing templates
 
 After you create a template and compress the files into a .zip file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.
 
@@ -35,7 +35,7 @@ Visual Studio provides an **Export Template Wizard** that can be used to update 
 
     The **Export Template Wizard** opens.
 
-1. Follow the prompts in the wizard to export the template as a .zip file, then place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
+1. Follow the prompts in the wizard to export the template as a .zip file. If you did not select the option **Automatically import the template into Visual Studio**, place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
 
 1. Delete the old template .zip file.
 

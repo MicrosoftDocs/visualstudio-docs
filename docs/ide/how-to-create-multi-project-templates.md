@@ -1,7 +1,7 @@
 ---
 title: "Create multi-project templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -93,17 +93,19 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 > [!NOTE]
 > Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
 
-1. Create a directory for your template.
+1. Create a directory for your template, with a subdirectory for each project.
 
-1. Extract the contents of each .zip file you created into a subdirectory of the directory you just created.
+1. Extract the contents of each .zip file you created into the corresponding subdirectory that you just created.
 
-1. In the base directory, create a .vstemplate file that contains the metadata for the multi-project template. See the example that follows for the structure of this file. Be sure to specify the relative path to each project's .vstemplate file in the subdirectories.
+1. In the base directory, create a .vstemplate file that contains the metadata for the multi-project template. See the example that follows for the structure of this file. Be sure to specify the relative path to each project's .vstemplate file.
 
 1. Select the base directory, and from the right-click or context menu choose **Send to** > **Compressed (zipped) folder**.
 
    The files and folders are compressed into a .zip file.
 
-1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates\\.
+1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
+
+1. In Visual Studio, open the **New Project** dialog box and verify that your template appears.
 
 ## Two-project example
 
