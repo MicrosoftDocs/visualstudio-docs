@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Process properties for Windows NT"
 ms.assetid: daf41a06-8a55-48f6-95f5-49a8416bd308

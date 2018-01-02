@@ -8,7 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bbb58d6c-3362-4ca3-8e87-64b2d4415bf6
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -16,12 +15,8 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Analyze Memory Usage
-Find memory leaks and inefficient memory while you're debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
-  
--   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
-  
--   You can also compare (diff) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
+# Profile Memory Usage in Visual Studio
+Find memory leaks and inefficient memory while you're debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap to help understand the memory usage impact of object types. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
   
  The following graphic shows the **Diagnostic Tools** window (available in Visual Studio 2015 Update 1 and later versions):  
   

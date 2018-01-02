@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Process Search"
 ms.assetid: 518e8153-eec2-4db9-a6f7-416ec11d8e09

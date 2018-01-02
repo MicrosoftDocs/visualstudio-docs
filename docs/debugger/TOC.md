@@ -7,6 +7,8 @@
 ## [Debug an ASP.NET app](quickstart-debug-aspnet.md)
 # Tutorials
 ## [Learn to debug using Visual Studio](getting-started-with-the-debugger.md)
+## [Debug a live Azure app](debug-live-azure-applications.md)
+## [Debug ASP.NET on IIS or IIS Express](how-to-enable-debugging-for-aspnet-applications.md)
 ## [Remote debug a C# project](remote-debugging-csharp.md)
 ## [Remote debug a C++ project](remote-debugging-cpp.md)
 ## [Remote debug ASP.NET Core on an IIS computer](remote-debugging-aspnet-on-a-remote-iis-computer.md)
@@ -61,7 +63,6 @@
 ### [Debug using the Just-In-Time Debugger](debug-using-the-just-in-time-debugger.md)
 #### [How to: Respond to the Just-In-Time Debugger](just-in-time-debugging-in-visual-studio.md)
 ## Configure debugging
-### [Debug user code](just-my-code.md)
 ### [Manage exceptions with the debugger](managing-exceptions-with-the-debugger.md)
 #### [Continue execution after an exception](continuing-execution-after-an-exception.md)
 #### [How to: Examine system code after an exception](how-to-examine-system-code-after-an-exception.md)
@@ -70,6 +71,7 @@
 ##### [How to: Write a run-time error reporting function](how-to-write-a-run-time-error-reporting-function.md)
 ##### [Use run-time checks without the C Run-Time Library](using-run-time-checks-without-the-c-run-time-library.md)
 ### [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+### [Debug user code](just-my-code.md)
 ### [Debugger settings and preparation](debugger-settings-and-preparation.md)
 #### [Debugger project settings](debugger-project-settings.md)
 ##### [How to: Specify debugger settings](how-to-specify-debugger-settings.md)
@@ -142,7 +144,7 @@
 ### [How to: Flag and unflag threads](how-to-flag-and-unflag-threads.md)
 ### [Debug on a high-performance cluster](how-to-debug-on-a-high-performance-cluster.md)
 ### [Tips for debugging threads in native code](tips-for-debugging-threads-in-native-code.md)
-### [How to: Set a thread mame in native code](how-to-set-a-thread-name-in-native-code.md)
+### [How to: Set a thread name in native code](how-to-set-a-thread-name-in-native-code.md)
 ### [How to: Set a thread name in managed code](how-to-set-a-thread-name-in-managed-code.md)
 ## [IntelliTrace](intellitrace.md)
 ### [Walkthrough: Using IntelliTrace](walkthrough-using-intellitrace.md)

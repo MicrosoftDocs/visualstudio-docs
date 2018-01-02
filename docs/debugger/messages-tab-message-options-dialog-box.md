@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "message options, Messages"
 ms.assetid: fb9fa211-e82c-40a5-9e4b-ba8de07313c0
