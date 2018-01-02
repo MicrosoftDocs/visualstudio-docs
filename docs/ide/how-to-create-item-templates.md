@@ -41,9 +41,9 @@ This topic shows you how to create an item template by using the **Export Templa
 
 ### To enable the item template to be used in a Universal Windows App project
 
-The wizard does a lot of the work to create a basic template, but in many cases you need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a Universal Windows App project, you'll have to perform a few extra steps.
+The wizard does much of the work to create a basic template, but in many cases you need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a Universal Windows App project, you have to perform a few extra steps.
 
-1. Follow the steps in the procedure above to export an item template.
+1. Follow the steps in the previous section to export an item template.
 
 1. Extract the .zip file that was created, and open the .vstemplate file in Visual Studio.
 
@@ -63,9 +63,9 @@ The wizard does a lot of the work to create a basic template, but in many cases 
 
 You can now add an item based on this template to a Universal Windows project from the **Add New Item** dialog box.
 
-### To enable templates for specific project sub-types
+### To enable templates for specific project subtypes
 
-You can specify that your template should only appear for only certain project sub-types, such as Windows, Office, Database, or Web.
+You can specify that your template should only appear for only certain project subtypes, such as Windows, Office, Database, or Web.
 
 1. Locate the ProjectType element in the .vstemplate file for the item template.
 

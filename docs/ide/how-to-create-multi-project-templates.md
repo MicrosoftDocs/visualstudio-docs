@@ -18,7 +18,7 @@ manager: ghogen
 ---
 # How to: Create multi-project templates
 
-Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.
+Multi-project templates act as containers for two or more projects. When you create a project that is based on a multi-project template from the **New Project** dialog box, every project in the template is added to the solution.
 
 A multi-project template contains two or more project templates, and a root template of type `ProjectGroup`.
 
@@ -86,9 +86,9 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 1. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
 
-1. On the **Select Template Options** page, enter a name, description, icon, and preview image for your template. These will appear in the **New Project** dialog box. Choose **Finish**.
+1. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. Choose **Finish**.
 
-   The project is exported into a .zip file and placed in the specified output location, and, if selected, imported into Visual Studio.
+   The project is exported into a .zip file and placed in the specified output location.
 
 > [!NOTE]
 > Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
@@ -97,7 +97,7 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 1. Extract the contents of each .zip file you created into the corresponding subdirectory that you just created.
 
-1. In the base directory, create a .vstemplate file that contains the metadata for the multi-project template. See the example that follows for the structure of this file. Be sure to specify the relative path to each project's .vstemplate file.
+1. In the base directory, create an XML file with a **.vstemplate** file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's .vstemplate file.
 
 1. Select the base directory, and from the right-click or context menu choose **Send to** > **Compressed (zipped) folder**.
 

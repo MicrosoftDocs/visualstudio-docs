@@ -9,8 +9,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "devenv, /InstallVSTemplates switch"
-  - "/InstallVSTemplates devenv switch"
+  - "Devenv, /InstallVSTemplates switch"
+  - "/InstallVSTemplates Devenv switch"
   - "InstallVSTemplates switch"
 author: "gewarren"
 ms.author: "gewarren"

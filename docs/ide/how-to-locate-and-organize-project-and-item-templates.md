@@ -78,7 +78,7 @@ You can organize installed templates by creating subdirectories in the programmi
 
 1. Close all instances of Visual Studio.
 
-1. Open a developer command prompt: on the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
+1. Open a developer command prompt: On the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
 1. Run the following command: `devenv /installvstemplates`
 
@@ -98,7 +98,7 @@ You can also group a subset of the project item templates into a custom folder.
 
 1. Close all instances of Visual Studio.
 
-1. Open a developer command prompt: on the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
+1. Open a developer command prompt: On the **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
 1. Run the following command: `devenv /setup`
 

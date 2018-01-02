@@ -57,7 +57,7 @@ Visual Studio logs errors it encounters when processing template .zip files. If 
 
 1. Look for events with a **Source** value of `Visual Studio - VsTemplate`.
 
-1. Double-click on a template event to view the error.
+1. To view an error, double-click on a template event.
 
 ## Enable diagnostic logging
 

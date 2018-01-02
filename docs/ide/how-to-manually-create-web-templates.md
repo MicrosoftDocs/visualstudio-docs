@@ -32,7 +32,7 @@ Creating a Web template is different than creating other kinds of templates. Bec
 
 1. Create an XML file and save it with a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in Visual Studio.
 
-1. Edit the .vstemplate XML file to provide project template metadata. For more information, see the example in the following section.
+1. Edit the .vstemplate XML file to provide project template metadata. For more information, see the [example that follows](#example).
 
 1. Locate the `ProjectType` element in the .vstemplate file, and set the text value to `Web`.
 
@@ -59,7 +59,7 @@ Creating a Web template is different than creating other kinds of templates. Bec
 
 ## Example
 
-The following example shows a basic .vstemplate file for a Web project template.
+The following example shows a basic .vstemplate file for a Web project template:
 
 ```xml
 <VSTemplate Version="2.0.0" Type="Project"
