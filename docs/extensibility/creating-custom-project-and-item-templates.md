@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating Custom Project and Item Templates
 The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the zip file to the location you  

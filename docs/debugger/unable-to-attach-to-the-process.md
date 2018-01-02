@@ -20,6 +20,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Unable to Attach to the Process
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  

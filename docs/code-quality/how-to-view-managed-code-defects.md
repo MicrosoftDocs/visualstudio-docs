@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: View Managed Code Defects
 In code analysis, errors, warnings, and messages are reported in the Code Analysis window. The Code Analysis window appears automatically when you run code analysis on a project or solution.  

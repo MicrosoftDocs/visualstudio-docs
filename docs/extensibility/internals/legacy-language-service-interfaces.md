@@ -16,6 +16,8 @@ caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Interfaces
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.  

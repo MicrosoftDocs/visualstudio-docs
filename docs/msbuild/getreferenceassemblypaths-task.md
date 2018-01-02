@@ -18,6 +18,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GetReferenceAssemblyPaths Task
 Returns the reference assembly paths of the various frameworks.  

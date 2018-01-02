@@ -14,6 +14,8 @@ ms.assetid: 45777037-9E16-4ABF-BD26-5AF4E740D4E6
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Settings waterfall
 

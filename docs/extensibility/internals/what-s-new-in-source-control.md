@@ -16,6 +16,8 @@ caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # What&#39;s New in Source Control
 In [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  

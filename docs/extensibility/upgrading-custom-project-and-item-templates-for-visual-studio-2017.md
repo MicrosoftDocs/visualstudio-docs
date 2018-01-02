@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 
 # Upgrading Custom Project and Item Templates for Visual Studio 2017

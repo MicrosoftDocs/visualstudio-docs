@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaDataSource::loadDataFromIStream
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.  

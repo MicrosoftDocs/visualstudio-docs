@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
 dev_langs: 
@@ -16,11 +16,12 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-ms.assetid: 596425c8-14c7-4c05-8823-e1c52f420f5e
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  

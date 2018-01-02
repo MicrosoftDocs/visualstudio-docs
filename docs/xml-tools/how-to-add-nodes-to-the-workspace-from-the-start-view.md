@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Add Nodes to the Workspace from the Start View
 This topic describes how to add global nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md) from the [Start View](../xml-tools/start-view.md).  

@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Debugger Concepts
 To build on the Visual Studio debug package, you need to be familiar with the architectural concepts used in designing the package.  

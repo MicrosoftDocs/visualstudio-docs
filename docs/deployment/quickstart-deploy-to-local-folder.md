@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+ms.workload: 
+  - "multiple"
 ---
 # Deploy a web app or .NET Core app to a local folder using the Visual Studio Publish tool
 

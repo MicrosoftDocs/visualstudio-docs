@@ -19,6 +19,8 @@ caps.latest.revision: 52
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Close Workbooks
   You can close the active workbook or you can specify a workbook to close.  

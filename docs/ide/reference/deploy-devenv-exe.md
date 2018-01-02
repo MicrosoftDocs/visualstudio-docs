@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Deploy (devenv.exe)
 Deploys a solution after a build or rebuild. Applies to managed code projects only.  

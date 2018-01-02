@@ -146,7 +146,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Analyze Energy Use (Store Apps)</h3>
+                        <h3>Analyze Energy Use (UWP Apps)</h3>
                     </div>
                 </div>
             </div>

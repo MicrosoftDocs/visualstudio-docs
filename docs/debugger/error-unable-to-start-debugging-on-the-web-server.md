@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -27,11 +27,12 @@ helpviewer_keywords:
   - "errors [debugger], unable to start debugging"
   - "debugging ASP.NET Web applications, unable to start debugging error"
   - "remote debugging, errors"
-ms.assetid: f62e378a-3a99-4f78-9d97-8bb63a4da181
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to Start Debugging on the Web Server
 

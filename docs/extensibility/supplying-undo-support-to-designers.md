@@ -15,6 +15,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Supplying Undo Support to Designers
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  

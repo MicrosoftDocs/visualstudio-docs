@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaReadExeAtRVACallback
 Enables a client application to supply bytes of an executable file as specified by a relative virtual address.  

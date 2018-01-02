@@ -23,6 +23,8 @@ caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Output Element (MSBuild)
 Stores task output values in items and properties.  

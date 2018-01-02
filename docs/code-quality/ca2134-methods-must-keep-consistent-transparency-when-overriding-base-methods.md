@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2134: Methods must keep consistent transparency when overriding base methods
 |||  

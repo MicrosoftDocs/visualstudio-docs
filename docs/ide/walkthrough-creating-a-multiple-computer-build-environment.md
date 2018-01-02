@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Multiple-Computer Build Environment
 

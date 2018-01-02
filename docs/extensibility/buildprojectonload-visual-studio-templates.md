@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BuildProjectOnLoad (Visual Studio Templates)
 Specifies whether to build the project immediately after it's created.  

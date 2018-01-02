@@ -21,6 +21,8 @@ caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug 64-Bit Applications
 You can debug a 64-bit application that is running on the local computer or on a remote computer.  

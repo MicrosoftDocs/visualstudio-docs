@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # UsedCommands Element
 The UsedCommands element groups UsedCommand elements and other UsedCommands groupings.  

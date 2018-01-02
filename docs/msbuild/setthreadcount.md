@@ -20,6 +20,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SetThreadCount
 Sets the global thread count, and assigns that count to the current thread.  

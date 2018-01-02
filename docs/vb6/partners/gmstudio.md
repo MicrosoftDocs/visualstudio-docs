@@ -11,6 +11,8 @@ dev_langs:
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 
 # Great Migrations Studio (gmStudio)

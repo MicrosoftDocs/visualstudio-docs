@@ -9,14 +9,16 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - ""  
+  - ""
 helpviewer_keywords: 
-  - ""  
+  - ""
 ms.assetid: 810a6648-fece-4b43-9eb6-948d28ed2158
 caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Development best practices for COM, VSTO, and VBA  add-ins in Office
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:

@@ -26,6 +26,8 @@ caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Copy Task
 Copies files to a new location in the file system.  

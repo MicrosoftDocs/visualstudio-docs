@@ -12,6 +12,8 @@ ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 6
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
 The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Use the classes and members in the Microsoft.VisualStudio.TestPlatform.UnitTestFramework> namespace when you are coding unit tests. You can use them when you have written the unit test from scratch or are refining a unit test that was generated from code you are testing.  

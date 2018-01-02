@@ -4,19 +4,21 @@ ms.custom: ""
 ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.StartPage.WhatsNew"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What&#39;s New in Visual Studio 2017
 #### Updated for the [15.5 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
@@ -298,6 +300,6 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 ## See Also
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
+* [What's New in C#](/dotnet/csharp/whats-new)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)

@@ -20,6 +20,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Documents
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with documents in Office projects.  

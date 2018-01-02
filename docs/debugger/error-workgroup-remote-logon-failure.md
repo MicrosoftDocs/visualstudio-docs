@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"
 dev_langs: 
@@ -19,11 +19,12 @@ dev_langs:
 helpviewer_keywords: 
   - "logon failure, remote debugging"
   - "remote debugging, logon failure"
-ms.assetid: 7be2c5bb-40fe-48d6-8cfc-c231fbd3d64e
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Workgroup Remote Logon Failure
 This error reads:  

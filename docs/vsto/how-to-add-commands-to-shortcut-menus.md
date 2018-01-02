@@ -19,6 +19,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Commands to Shortcut Menus
   This topic demonstrates how to add commands to a shortcut menu in an Office application by using an VSTO Add-in.  

@@ -20,6 +20,8 @@ caps.latest.revision: 51
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Apply Styles to Ranges in Workbooks
   You can apply named styles to regions in workbooks. Excel supplies a number of predefined styles.  

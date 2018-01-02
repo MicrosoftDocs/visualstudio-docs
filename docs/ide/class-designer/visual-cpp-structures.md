@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Visual C++ Structures in Class Designer
 Class Designer supports C++ structures, which are declared with the keyword `struct`. Following is an example:  

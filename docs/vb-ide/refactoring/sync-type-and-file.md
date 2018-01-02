@@ -14,6 +14,8 @@ ms.author: "gewarren"
 manager: ghogen
 dev_langs: 
   - "VB"
+ms.workload: 
+  - "multiple"
 ---
 
 # Sync a type to a filename, or a filename to a type in Visual Basic

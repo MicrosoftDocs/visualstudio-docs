@@ -21,6 +21,8 @@ caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Calling into the SharePoint Object Models
   When you create extensions for the SharePoint tools in Visual Studio, you might have to call SharePoint APIs to perform certain tasks. For example, if you create a custom deployment step for SharePoint projects, you might have to call SharePoint APIs to perform some of the tasks to deploy solutions.  

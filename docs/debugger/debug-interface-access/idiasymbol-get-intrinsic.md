@@ -17,6 +17,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_intrinsic
 Retrieves a flag that specifies whether a class is an intrinsic type.  

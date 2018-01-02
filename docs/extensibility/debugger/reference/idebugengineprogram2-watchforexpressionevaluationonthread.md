@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.  

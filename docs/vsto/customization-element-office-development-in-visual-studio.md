@@ -18,6 +18,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;customization&gt; Element (Office Development in Visual Studio)
   The `customization` element of the `vstov4` namespace describes a specific Office solution. The child elements are different for document-level customizations and VSTO Add-ins.  

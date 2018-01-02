@@ -21,6 +21,8 @@ caps.latest.revision: 40
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Requirements for Developing SharePoint Solutions
   You must install the following prerequisites on the system before you can use the SharePoint solution development tools included in Visual Studio:  

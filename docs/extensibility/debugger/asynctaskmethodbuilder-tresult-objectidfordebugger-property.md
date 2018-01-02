@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  

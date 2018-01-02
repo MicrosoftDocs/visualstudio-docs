@@ -31,6 +31,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging Web Applications: Errors and Troubleshooting
 You may encounter the following errors when attempting to debug Web applications.  

@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Summary View - Resource Contention View
 The Summary view displays information about the events in your application in which a thread or process was suspended while it waited for access to a resource.  

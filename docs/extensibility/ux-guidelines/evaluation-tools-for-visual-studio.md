@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Evaluation Tools for Visual Studio
 ## Craftsmanship checklist for Visual Studio  

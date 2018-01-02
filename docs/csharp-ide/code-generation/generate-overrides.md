@@ -11,6 +11,8 @@ ms.topic: "article"
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Generate Equals and GetHashCode method overrides in C# #
 

@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create Starter Kits
 A Starter Kit contains code for a complete application and documentation on how to modify or expand the application. Creating a Starter Kit is fundamentally the same as creating a normal project template, the only difference being that a Starter Kit contains documentation files that are set to open when a project based on the Starter Kit is created.  

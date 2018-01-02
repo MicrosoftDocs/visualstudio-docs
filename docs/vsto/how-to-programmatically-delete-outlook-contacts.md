@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Delete Outlook Contacts
   This example deletes a contact. The example assumes that a contact named "Armando Pinto" exists in the **Contacts** folder.  

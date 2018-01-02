@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Configure Workflow Project Properties (Legacy)
 Follow these steps to view or modify properties that are associated with workflow projects.  

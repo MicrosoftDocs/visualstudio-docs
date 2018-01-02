@@ -20,6 +20,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Debug .NET Framework Source
 The most recent version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides new features for [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] source.  

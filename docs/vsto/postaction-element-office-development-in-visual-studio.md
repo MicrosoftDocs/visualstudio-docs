@@ -20,6 +20,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;postAction&gt; Element (Office Development in Visual Studio)
   The `postAction` element of the `vstav3` namespace contains the `entrypoint` elements and all `postActionData` elements that are associated with post-deployment actions, which run after Office solutions are installed.  

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
@@ -12,8 +12,10 @@ ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs:
+dev_langs: 
   - vb
+ms.workload: 
+  - "multiple"
 ---
 
 
@@ -31,7 +33,7 @@ Visual Studio is an integrated development suite of productivity tools for devel
 ### What is a console app?
 A console app takes input and displays output in a command-line window, a.k.a. a console.
 ### What is .NET Core?
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
+.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
 
 ## Start developing
 Ready to start developing? Let's go!
@@ -69,7 +71,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 1. If it is not already open, then open your *WhatIsYourName* project.
 
-2. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the first closing bracket:
+2. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
 
      ```vb
      Console.WriteLine(vbCrLf + "What is your name? ")

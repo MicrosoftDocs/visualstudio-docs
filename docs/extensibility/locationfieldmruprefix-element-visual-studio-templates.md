@@ -18,6 +18,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # LocationFieldMRUPrefix Element (Visual Studio Templates)
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.  

@@ -20,6 +20,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;document&gt; Element (Office Development in Visual Studio)
   The `document` element of the `vstov4` namespace stores customization-specific information for document-level customizations.  

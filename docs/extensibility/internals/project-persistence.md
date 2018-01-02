@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Persistence
 Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.  

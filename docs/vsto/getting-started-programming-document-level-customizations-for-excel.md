@@ -19,6 +19,8 @@ caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Getting Started Programming Document-Level Customizations for Excel
   If you are just getting started creating document-level customizations for Microsoft Office Excel by using Visual Studio, here is what you need to know.  

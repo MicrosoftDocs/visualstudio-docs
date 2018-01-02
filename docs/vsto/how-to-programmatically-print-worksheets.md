@@ -20,6 +20,8 @@ caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Print Worksheets
   You can print any worksheet in a workbook.  

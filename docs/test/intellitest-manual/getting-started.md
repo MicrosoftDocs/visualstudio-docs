@@ -14,6 +14,8 @@ ms.assetid: 21FE4D68-9E7F-4BB1-BD69-B0D09A941F09
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Get started with Microsoft IntelliTest
 

@@ -62,6 +62,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Additional Support for Errors in Office Solutions
   You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.  

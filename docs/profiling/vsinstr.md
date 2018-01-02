@@ -22,6 +22,8 @@ caps.latest.revision: 44
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSInstr
 VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:  

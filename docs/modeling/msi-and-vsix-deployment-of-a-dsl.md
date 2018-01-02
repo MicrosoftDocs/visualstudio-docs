@@ -11,6 +11,8 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # MSI and VSIX Deployment of a DSL
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.  

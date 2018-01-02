@@ -15,6 +15,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Prerequisites Dialog Box
 This dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.  

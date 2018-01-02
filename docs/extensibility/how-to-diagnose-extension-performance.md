@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: ghogen
+ms.workload: 
+  - "bertaygu"
 ---
 # Measuring extension impact in startup
 

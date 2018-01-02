@@ -20,6 +20,8 @@ caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create a Meeting Request
   This example creates a meeting request in Microsoft Office Outlook and sends the request to a required attendee.  

@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SetWefProcessId Method
   Provides the process identifier that will run Web Extensions Framework (WEF) content.  

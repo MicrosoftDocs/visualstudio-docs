@@ -18,6 +18,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;appAddin&gt; Element (Office Development in Visual Studio)
   The `appAddin` element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.  

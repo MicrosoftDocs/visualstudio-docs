@@ -24,6 +24,8 @@ caps.latest.revision: 61
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time
   You can use a VSTO Add-in to customize Word documents and Excel workbooks in the following ways:  

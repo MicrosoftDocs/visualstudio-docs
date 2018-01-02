@@ -13,6 +13,8 @@ caps.latest.revision: 24
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Domain Property Value Change Handlers
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  

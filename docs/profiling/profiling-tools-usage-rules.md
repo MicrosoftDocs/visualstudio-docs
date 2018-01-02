@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Profiling Tools Usage Rules
 Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.  

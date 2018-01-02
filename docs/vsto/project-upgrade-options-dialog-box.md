@@ -22,6 +22,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Project Upgrade, Options Dialog Box
   Use the **Project Upgrade** page to specify whether Visual Studio automatically changes VSTO Add-in projects to target the version of Office that is installed on the development computer.  

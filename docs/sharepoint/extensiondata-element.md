@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ExtensionData Element
   Represents a collection of custom data items that are associated with the SharePoint project item.  

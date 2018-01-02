@@ -16,6 +16,8 @@ ms.author: "gewarren"
 manager: ghogen
 ms.technology: 
   - "vs-ide-general"
+ms.workload: 
+  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Experimental
 

@@ -20,6 +20,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;update&gt; Element (Office Development in Visual Studio)
   The `update` element specifies the interval at which the solution will check for updates.  

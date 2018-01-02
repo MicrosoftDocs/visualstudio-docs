@@ -21,6 +21,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FindAppConfigFile Task
 Finds the app.config file, if any, in the provided lists.  

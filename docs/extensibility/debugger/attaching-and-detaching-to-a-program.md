@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Attaching and Detaching to a Program
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.  

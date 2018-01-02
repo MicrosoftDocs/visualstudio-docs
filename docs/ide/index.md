@@ -7,6 +7,8 @@ ms.author: "gewarren"
 ms.topic: landing-page
 ms.technology: 
   - "vs-ide-general"
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Documentation
 

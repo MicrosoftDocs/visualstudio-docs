@@ -15,6 +15,8 @@ caps.latest.revision: 21
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Port Shapes
 You can use port shapes to represent domain classes in the generated designer.  

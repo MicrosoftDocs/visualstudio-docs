@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # NameSearchOptions
 Specifies the search options for symbol and file names.  

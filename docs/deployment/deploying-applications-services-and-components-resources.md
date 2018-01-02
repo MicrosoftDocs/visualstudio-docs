@@ -26,7 +26,8 @@ caps.latest.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-
+ms.workload: 
+  - "multiple"
 ---
 
 # Deploying Applications, Services, and Components

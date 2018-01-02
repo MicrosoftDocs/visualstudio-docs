@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findLinesByLinenum
 Determines the line numbers of the compiland that the specified line number in a source file lies within or near.  

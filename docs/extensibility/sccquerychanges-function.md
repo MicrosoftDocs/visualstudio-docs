@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccQueryChanges Function
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.  

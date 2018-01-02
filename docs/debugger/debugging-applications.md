@@ -18,6 +18,8 @@ caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging Applications
 The following sections deal with debugging for specific types of applications. Different application types and different languages require different settings and techniques, and present different issues that need to be debugged.  

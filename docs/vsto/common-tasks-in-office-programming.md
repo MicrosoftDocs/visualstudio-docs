@@ -20,6 +20,8 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Common Tasks in Office Programming
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.  

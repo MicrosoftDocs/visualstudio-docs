@@ -28,6 +28,8 @@ caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Project and Project Item Templates
   The following sections describe the available SharePoint project and project item templates and how they are used. 

@@ -18,6 +18,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryContext2::Compare
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.  

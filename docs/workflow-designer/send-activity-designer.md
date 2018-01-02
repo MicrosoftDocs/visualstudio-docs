@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Send Activity Designer
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.  

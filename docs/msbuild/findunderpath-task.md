@@ -23,6 +23,8 @@ caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FindUnderPath Task
 Determines which items in the specified item collection have paths that are in or below the specified folder.  

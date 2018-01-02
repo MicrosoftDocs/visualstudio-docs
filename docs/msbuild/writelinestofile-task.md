@@ -23,6 +23,8 @@ caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WriteLinesToFile Task
 Writes the paths of the specified items to the specified text file.  

@@ -14,6 +14,8 @@ ms.assetid: 5D625021-BA96-48A5-9453-3EF6F0943466
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Create unit test method stubs with the Create Unit Tests command
 

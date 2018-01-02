@@ -12,6 +12,8 @@ ms.assetid: 0182179f-f74f-47a2-a1dc-b60c86f9abaf
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 
 # Inline a temporary variable with C# #

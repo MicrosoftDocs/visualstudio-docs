@@ -20,6 +20,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WriteContextTLogs
 Writes logs files for the current context.  

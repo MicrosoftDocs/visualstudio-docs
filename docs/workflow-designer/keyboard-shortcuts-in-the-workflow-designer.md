@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Keyboard Shortcuts in the Workflow Designer
 All of the core functionality of the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] can be accessed by keyboard.  

@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMessageEvent2::GetMessage
 Gets the message to be displayed.  

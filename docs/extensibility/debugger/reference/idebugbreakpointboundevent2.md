@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointBoundEvent2
 This interface tells the session debug manager (SDM) that a pending breakpoint has been successfully bound to a loaded program.  

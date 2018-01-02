@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame3::InterceptCurrentException
 Called by the debugger on the current stack frame when it wants to intercept the current exception.  

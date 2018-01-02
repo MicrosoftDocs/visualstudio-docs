@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "Mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # What publishing options are right for me?

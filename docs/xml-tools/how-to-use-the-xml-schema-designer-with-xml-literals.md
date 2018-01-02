@@ -13,8 +13,10 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - "VB"
+dev_langs: 
+  - "VB"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use the XML Schema Designer with XML Literals
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.  
