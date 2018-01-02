@@ -24,7 +24,7 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 
 - Accelerator modules: because Python is an interpreted language, certain pieces of code can be written in C++ for higher performance. 
 - Wrapper modules: wrappers expose existing C/C++ interfaces to Python code or expose a more "Pythonic" API that's easy to use from Python.
-- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
+- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware.
 
 This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the performance gain of implementing the same routine in C++.
 
@@ -106,15 +106,15 @@ For more information, see [Installing Python Support for Visual Studio](installa
 
 1. Set the specific properties as described below, then select **OK**.
 
-    | Tab | Property | Value | 
+    | Tab | Property | Value |
     | --- | --- | --- |
-    | General | General > Target Name | Set this field to exactly match the name of the module as Python sees it. |
+    | General | General > Target Name | Specify the name of the module as you want to refer to it from Python in `from...import` statements. |
     | | General > Target Extension | .pyd |
     | | Project Defaults > Configuration Type | Dynamic Library (.dll) |
-    | C/C++ > General | Additional Include Directories | Add the Python `include` folder as appropriate for your installation, for example, `c:\Python36\include` |     
+    | C/C++ > General | Additional Include Directories | Add the Python `include` folder as appropriate for your installation, for example, `c:\Python36\include` |
     | C/C++ > Preprocessor | Preprocessor Definitions | Add `Py_LIMITED_API;` to the beginning of the string, which restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
     | C/C++ > Code Generation | Runtime Library | Multi-threaded DLL (/MD) (see Warning below) |
-    | Linker > General | Additional Library Directories | Add the Python `libs` folder containing `.lib` files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the `libs` folder that contains `.lib` files, and *not* the `Lib` folder that contains `.py` files.) | 
+    | Linker > General | Additional Library Directories | Add the Python `libs` folder containing `.lib` files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the `libs` folder that contains `.lib` files, and *not* the `Lib` folder that contains `.py` files.) |
 
     > [!Tip]
     > If you don't see the C/C++ tab, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a `.c` or `.cpp` extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. This misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in Solution Explorer, select **Properties**, then set  **File Type** to **C/C++ Code**.
