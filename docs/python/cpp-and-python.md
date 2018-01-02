@@ -1,7 +1,7 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 1/2/20178
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -123,14 +123,14 @@ For more information, see [Installing Python Support for Visual Studio](installa
     > Don't set the **C/C++ > Code Generation > Runtime Library** option to "Multi-threaded Debug DLL (/MDd)" even for a Debug configuration. Select the "Multi-threaded DLL (/MD)" runtime because that's what the non-debug Python binaries are built with. If you happen to set the /MDd option, you see error *C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG* when building a Debug configuration of your DLL. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of *Fatal Python error: PyThreadState_Get: no current thread*.)
     >
     > Note that the /MDd option is what's used to build the Python debug binaries (such as python_d.exe), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
-   
+
 1. Right-click the C++ project and select **Build** to test your configurations (both Debug and Release). The `.pyd` files are located in the *solution* folder under **Debug** and **Release**, not the C++ project folder itself.
 
 1. Add the following code to the C++ project's main `.cpp` file:
 
     ```cpp
     #include <Windows.h>
-    #include <cmath>    
+    #include <cmath>
 
     const double e = 2.7182818284590452353602874713527;
 
@@ -148,7 +148,6 @@ For more information, see [Installing Python Support for Visual Studio](installa
     ```
 
 1. Build the C++ project again to confirm that your code is correct.
-
 
 ## Convert the C++ project to an extension for Python
 
@@ -170,11 +169,12 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     }
     ```
 
-1. Add a structure that defines how the C++ `tanh` function is presented to Python:
+1. Add a structure that defines how the C++ `tanh_impl` function is presented to Python:
 
     ```cpp
     static PyMethodDef superfastcode_methods[] = {
-        // The first property is the name exposed to python, the second is the C++ function name        
+        // The first property is the name exposed to Python, fast_tanh, the second is the C++
+        // function name that contains the implementation.
         { "fast_tanh", (PyCFunction)tanh_impl, METH_O, nullptr },
 
         // Terminate the array with an object containing nulls.
@@ -182,22 +182,22 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     };
     ```
 
-1. Add a structure that defines the module as you see it through Python code. (Filenames internal to the C++ project, like module.cpp, are inconsequential.)
+1. Add a structure that defines the module as you want to refer to it in your Python code, specifically when using the `from...import` statement. In the following example, the "superfastcode" module name means you can use `from superfastcode import fast_tanh` in Python, because `fast_tanh` is defined within `superfastcode_methods`. (Filenames internal to the C++ project, like module.cpp, are inconsequential.)
 
     ```cpp
     static PyModuleDef superfastcode_module = {
         PyModuleDef_HEAD_INIT,
-        "superfastcode",						// Module name as Python sees it
+        "superfastcode",                        // Module name to use with Python import statements
         "Provides some functions, but faster",  // Module description
         0,
-        superfastcode_methods                   // Structure that defines the methods
+        superfastcode_methods                   // Structure that defines the methods of the module
     };
     ```
 
 1. Add a method that Python calls when it loads the module, which must be named `PyInit_<module-name>`, where *&lt;module_name&gt;* exactly matches the C++ Project's **General > Target Name** property (that is, it matches the filename of the `.pyd` built by the project).
 
     ```cpp
-    PyMODINIT_FUNC PyInit_superfastcode() {    
+    PyMODINIT_FUNC PyInit_superfastcode() {
         return PyModule_Create(&superfastcode_module);
     }
     ```
@@ -248,7 +248,7 @@ After you've completed either of the methods above, you can now call the `fast_t
 1. Add the following lines in your `.py` file to call the `fast_tanh` method exported from the DLL and display its output. If you type the `from s` statement manually, you'll see `superfastcode` come up in the completion list, and after typing `import` the `fast_tanh` method appears.
 
     ```python
-    from superfastcode import fast_tanh    
+    from superfastcode import fast_tanh
     test(lambda d: [fast_tanh(x) for x in d], '[fast_tanh(x) for x in d]')
     ```
 
