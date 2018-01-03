@@ -35,7 +35,7 @@ Visual Studio provides an **Export Template Wizard** that can be used to update 
 
     The **Export Template Wizard** opens.
 
-1. Follow the prompts in the wizard to export the template as a .zip file. If you did not select the option **Automatically import the template into Visual Studio**, place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
+1. Follow the prompts in the wizard to export the template as a .zip file. If you did not select the option **Automatically import the template into Visual Studio**, place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
 
 1. Delete the old template .zip file.
 
@@ -45,7 +45,7 @@ You can update an existing template outside Visual Studio by modifying the files
 
 ### To manually update an existing template
 
-1. Locate the .zip file that contains the template. Custom templates are usually located at %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
+1. Locate the .zip file that contains the template. Custom templates are usually located at %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
 
 1. Extract the .zip file.
 
@@ -55,7 +55,7 @@ You can update an existing template outside Visual Studio by modifying the files
 
     For more information about the .vstemplate schema, see [Visual Studio template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md). For more information about what you can parameterize in the source files, see [Template parameters](../ide/template-parameters.md).
 
-1. Select the files in your template, right-click, and choose **Send to** > **Compressed (zipped) folder**.
+1. Select the files in your template, and from the right-click or context menu, and choose **Send to** > **Compressed (zipped) folder**.
 
     The files that you selected are compressed into a .zip file.
 

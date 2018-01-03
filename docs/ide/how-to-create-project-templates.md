@@ -36,7 +36,7 @@ This topic shows you how to create a template using the **Export Template Wizard
 
 1. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
 
-1. On the **Select Template Options** page, enter a name, description, icon, and preview image for your template. These items will appear in the **New Project** dialog box. Choose **Finish**.
+1. On the **Select Template Options** page, enter a name, and optional description, icon, and preview image for your template. These items will appear in the **New Project** dialog box. Choose **Finish**.
 
   The project is exported into a .zip file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
@@ -45,9 +45,9 @@ This topic shows you how to create a template using the **Export Template Wizard
 
 ## Other ways to create project templates
 
-You can also create project templates manually by gathering the files that constitute the project into a folder, and then creating a .vstemplate XML file with the appropriate metadata. For more information, see [How to: Manually create web templates](../ide/how-to-manually-create-web-templates.md).
+You can create project templates manually by gathering the files that constitute the project into a folder, and then creating a .vstemplate XML file with the appropriate metadata. For more information, see [How to: Manually create web templates](../ide/how-to-manually-create-web-templates.md).
 
-If you have the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installed, you can wrap the finished template in a .vsix file for deployment by using the **VSIX Project** template. For more information, see [Getting started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
+If you have the Visual Studio SDK installed, you can wrap the finished template in a VSIX file for deployment by using the **VSIX Project** template. For more information, see [Getting started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
 
 ## See also
 

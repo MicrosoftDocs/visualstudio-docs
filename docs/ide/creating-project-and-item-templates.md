@@ -9,14 +9,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "templates [Visual Studio], projects"
-  - "item templates, about item templates"
+  - "templates [Visual Studio], project"
   - "templates [Visual Studio], item"
-  - "Visual Studio templates, item"
-  - "Visual Studio templates, about templates"
-  - "project templates [Visual Studio], about project templates"
-  - "Visual Studio templates, project"
-  - "templates [Visual Studio], about templates"
+  - "item templates [Visual Studio]"
+  - "project templates [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -43,15 +39,15 @@ All project and item templates, whether installed with Visual Studio or created 
 
 When these files are compressed into a .zip file and put in the correct folder, Visual Studio automatically displays them in the following places:
 
-- Project templates appear in the **My Templates** section of the **New Project** dialog boxes.
+- Project templates appear in the **New Project** dialog box.
 
-- Item templates appear in the **Add New Item** dialog boxes.
+- Item templates appear in the **Add New Item** dialog box.
 
 For more information about template folders, see [How to: Locate and organize templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-## Starter kits
+## Starter Kits
 
-Starter kits are enhanced templates that can be shared with other members of the community. A starter kit includes code samples that compile, documentation, and other resources to help users learn new tools and programming techniques while they build useful, real-world applications. The basic contents and procedures for Starter kits are identical to those for templates. For more information, see [How to: Create starter kits](../ide/how-to-create-starter-kits.md).
+Starter Kits are enhanced templates that can be shared with other members of the community. A Starter Kit includes code samples that compile, documentation, and other resources to help users learn new tools and programming techniques while they build useful, real-world applications. The basic contents and procedures for Starter Kits are identical to those for templates. For more information, see [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md).
 
 ## See also
 

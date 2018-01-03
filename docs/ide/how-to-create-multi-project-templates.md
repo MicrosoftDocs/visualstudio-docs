@@ -24,9 +24,9 @@ A multi-project template contains two or more project templates, and a root temp
 
 Multi-project templates behave differently than single project templates. They have the following unique characteristics:
 
-- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element to specify a name for each project.
+- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element in the .vstemplate file to specify a name for each project.
 
-- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element.
+- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element of the .vstemplate file.
 
 A multi-project template must include the following items, compressed into a .zip file:
 
@@ -38,21 +38,16 @@ For example, a multi-project template .zip file that has two projects could have
 
 MultiProjectTemplate.vstemplate
 
-\Project1\Project1.vstemplate
-
-\Project1\Project1.vbproj
-
-\Project1\Class.vb
-
-\Project2\Project2.vstemplate
-
-\Project2\Project2.vbproj
-
-\Project2\Class.vb
+- \Project1\Project1.vstemplate
+- \Project1\Project1.vbproj
+- \Project1\Class.vb
+- \Project2\Project2.vstemplate
+- \Project2\Project2.vbproj
+- \Project2\Class.vb
 
 The root .vstemplate file for a multi-project template differs from a single-project template in the following ways:
 
-- The `Type` attribute of the `VSTemplate` element contains the value `ProjectGroup`. For example:
+- The `Type` attribute of the `VSTemplate` element has the value `ProjectGroup` instead of `Project`. For example:
 
     ```xml
     <VSTemplate Version="2.0.0" Type="ProjectGroup"
@@ -90,8 +85,8 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
    The project is exported into a .zip file and placed in the specified output location.
 
-> [!NOTE]
-> Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
+   > [!NOTE]
+   > Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
 
 1. Create a directory for your template, with a subdirectory for each project.
 
@@ -99,11 +94,11 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 1. In the base directory, create an XML file with a **.vstemplate** file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's .vstemplate file.
 
-1. Select the base directory, and from the right-click or context menu choose **Send to** > **Compressed (zipped) folder**.
+1. Select the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
 
    The files and folders are compressed into a .zip file.
 
-1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
+1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
 
 1. In Visual Studio, open the **New Project** dialog box and verify that your template appears.
 

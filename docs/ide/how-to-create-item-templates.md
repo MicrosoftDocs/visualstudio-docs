@@ -37,7 +37,7 @@ This topic shows you how to create an item template by using the **Export Templa
 
 1. Enter the icon file name, preview image, template name, and template description, and then choose **Finish**.
 
-    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is %USERPROFILE%\Documents\Visual Studio <version>\My Exported Templates.
+    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is %USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates.
 
 ### To enable the item template to be used in a Universal Windows App project
 
@@ -81,9 +81,9 @@ You can specify that your template should only appear for only certain project s
 
     - Web
 
-    For example: `<ProjectSubType>Database</ProjectSubType>`.
+For example: `<ProjectSubType>Database</ProjectSubType>`.
 
-The following example shows an item template available for Office projects.
+The following example shows an item template for **Office** projects.
 
 ```xml
 <VSTemplate Version="2.0.0" Type="Item" Version="2.0.0">

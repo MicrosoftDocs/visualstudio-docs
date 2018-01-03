@@ -71,7 +71,7 @@ The following table lists the reserved template parameters that can be used by a
 
 You can specify your own template parameters and values, in addition to the default reserved template parameters that are used during parameter replacement. For more information, see [CustomParameters element (Visual Studio templates)](../extensibility/customparameters-element-visual-studio-templates.md).
 
-## Example: Replacing file names
+## Example: Using the project name for a file name
 
 You can specify variable file names for project items by using a parameter in the `TargetFileName` attribute.
 
@@ -90,7 +90,7 @@ The following example specifies that an executable file's name uses the project 
 
 ## Example: Using the safe project name for the namespace name
 
-To use the safe project name for the namespace in a C# class file, Class1.cs, use the following syntax:
+To use the safe project name for the namespace in a C# class file, use the following syntax:
 
 ```csharp
 namespace $safeprojectname$
@@ -103,7 +103,7 @@ namespace $safeprojectname$
 }
 ```
 
-In the .vstemplate file for the project template, include the following XML when you reference the file Class1.cs:
+In the .vstemplate file for the project template, include the `ReplaceParameters="true"` attribute when you reference the file:
 
 ```xml
 <TemplateContent>

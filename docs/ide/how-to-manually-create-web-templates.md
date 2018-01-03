@@ -39,7 +39,6 @@ Creating a Web template is different than creating other kinds of templates. Bec
 1. Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:
 
     - CSharp
-
     - VisualBasic
 
     For example:
