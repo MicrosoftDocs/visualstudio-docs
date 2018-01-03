@@ -74,11 +74,8 @@ You can specify that your template should only appear for only certain project s
 1. Set the text value of the element to one of the following values:
 
     - Windows
-
     - Office
-
     - Database
-
     - Web
 
 For example: `<ProjectSubType>Database</ProjectSubType>`.

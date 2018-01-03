@@ -43,9 +43,9 @@ C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\10
 
 By default, custom templates are located in:
 
-- %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates
+- %USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates
 
-- %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates
+- %USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates
 
 For example, the following directory contains custom C# project templates:
 
@@ -116,7 +116,7 @@ Custom templates can be organized into their own categories by adding new folder
 
 1. Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for C# templates, create the following directory:
 
-    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ProjectTemplates\Visual C#\HelloWorld\
+    \%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld\
 
 1. Place all the templates for this category in the new folder.
 
@@ -130,7 +130,7 @@ You can also group a subset of the custom item templates into a custom folder.
 
 1. Create a folder in the language folder in the custom item template directory. For example, to create a HelloWorld category for C# templates, create the following directory:
 
-    \%USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates\Visual C#\HelloWorld\
+    \%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld\
 
 1. Place all the templates for this category in the new folder.
 
