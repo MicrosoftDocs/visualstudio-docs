@@ -18,7 +18,7 @@ manager: ghogen
 ---
 # Template parameters
 
-By using parameters in your templates, you can replace the values of key portions of the template, such as class names and namespaces, when the template is instantiated. These parameters are replaced by the template wizard that runs in the background when a user chooses **OK** in the **New Project** or **Add New Item** dialog boxes.
+By using parameters in your templates, you can replace the values of key portions of the template, such as class names and namespaces, when the template is instantiated. These parameters are replaced by the template wizard that runs in the background when a user chooses **OK** or **Add** in the **New Project** or **Add New Item** dialog boxes.
 
 ## Declaring and enabling template parameters
 

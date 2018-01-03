@@ -1,17 +1,15 @@
 ---
-title: "How to: Create Project Templates | Microsoft Docs"
+title: "Create project templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ExportTemplateWizard"
 helpviewer_keywords:
-  - "Visual Studio templates, project templates"
   - "project templates [Visual Studio], creating"
 author: "gewarren"
 ms.author: "gewarren"
@@ -21,7 +19,7 @@ manager: ghogen
 
 This topic shows you how to create a template using the **Export Template Wizard**, which packages your template in a .zip file.
 
-## To create a custom project template with the Export Template Wizard
+## To create a user project template by using the Export Template Wizard
 
 1. Create a project.
 

@@ -1,5 +1,5 @@
 ---
-title: "Multi-file item templates in Visual Studio | Microsoft Docs"
+title: "Creating multi-file item templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
 ms.reviewer: ""
@@ -26,13 +26,17 @@ Item templates may only specify one item, but sometimes the item is made up of m
 
 - A .resx file that contains the embedded resources for the form.
 
-Multi-file item templates require parameters to ensure the correct file name extensions are used when the item is created. If you create an item template by using the **Export Template Wizard**, these parameters are automatically generated, and no further editing is required. The following steps explain how to use parameters to ensure that the correct file name extensions are created.
+Multi-file item templates require parameters to ensure that the correct file extensions are used when the item is created. If you create a multi-file item template by using the **Export Template Wizard**, these parameters are automatically generated, and no further editing is required.
+
+## To create a multi-file item template by using the Export Template Wizard
+
+You can create a multi-file item template in the same manner as you would a single-file item template. See [How to: Create item templates](../ide/how-to-create-item-templates.md). On the **Select Item To Export** page of the wizard, select the file that has dependent files (for example, a Windows Forms form file). The wizard automatically includes any dependent files, such as designer and resource files, in the template.
 
 ## To manually create a multi-file item template
 
-1. Create the item template as you would create a single-file item template. For more information, see [How to: Create Item Templates](../ide/how-to-create-item-templates.md).
+1. Create the item template as you would manually create a single-file item template, but include each file that constitutes the multi-file item.
 
-1. Add `TargetFileName` attributes to every `ProjectItem` element. Set the values of the `TargetFileName` attributes to $fileinputname$.*FileExtension*, where *FileExtension* is the file name extension of the file that is being included in the template. For example:
+1. In the .vstemplate XML file, add a `ProjectItem` element for each individual file, and add a `TargetFileName` attribute to this element. Set the value of the `TargetFileName` attribute to $fileinputname$.*FileExtension*, where *FileExtension* is the file extension of the file that is being included in the template. For example:
 
     ```xml
     <ProjectItem TargetFileName="$fileinputname$.vb">
@@ -46,13 +50,20 @@ Multi-file item templates require parameters to ensure the correct file name ext
     </ProjectItem>
     ```
 
-    When an item derived from this template is added to a project, the file names will be based on the name that the user typed in the **Add New Item** dialog box.
+     > [!NOTE]
+     > When an item derived from this template is added to a project, the file names will derive from the name that the user enters in the **Add New Item** dialog box.
 
-1. Select the files to be included in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a .zip file.
+1. Select the files to be included in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**.
 
-1. Put the .zip file in the user item template location. By default, the directory is %USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+   The files that you selected are compressed into a .zip file.
 
-1. Open the **Add New Item** dialog box and verify that your multi-item template appears in it.
+1. Copy the .zip file to the user item template location. By default, the directory is %USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+
+1. Close Visual Studio and then reopen it.
+
+1. Create a new project, or open an existing project, and then choose **Project** > **Add New Item...** or press **Ctrl** + **Shift** + **A**.
+
+   The multi-file item template appears in the **Add New Item** dialog box.
 
 ## Example
 

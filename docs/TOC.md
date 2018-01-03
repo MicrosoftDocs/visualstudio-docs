@@ -261,7 +261,7 @@
 ### [Customize Project and Item Templates](ide/customizing-project-and-item-templates.md)
 #### [Update Existing Templates](ide/how-to-update-existing-templates.md)
 #### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
-### Create Project and Item Templates
+### Create New Project and Item Templates
 #### [Create Project Templates](ide/how-to-create-project-templates.md)
 #### [Create Multi-Project Templates](ide/how-to-create-multi-project-templates.md)
 #### [Create Item Templates](ide/how-to-create-item-templates.md)

@@ -44,8 +44,8 @@ After you have completed the project and the documentation, you are ready to cre
 
 The following topics contain information about creating templates:
 
-- [How to: Create Project Templates](../ide/how-to-create-project-templates.md)&mdash;Explains how to use the **Export Template Wizard** to create a template.
-- [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md)&mdash;Describes how to edit an existing template. Use this procedure to modify the .vstemplate file to customize your Starter Kit.
+- [How to: Create Project Templates](../ide/how-to-create-project-templates.md) &ndash; Explains how to use the **Export Template Wizard** to create a template.
+- [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md) &ndash; Describes how to edit an existing template. Use this procedure to modify the .vstemplate file to customize your Starter Kit.
 
 ## See also
 

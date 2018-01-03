@@ -21,7 +21,7 @@ manager: ghogen
 
 After you create a template and compress the files into a .zip file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.
 
-## Using the Export Template Wizard to update an existing template
+## Using the Export Template Wizard to update an existing project template
 
 Visual Studio provides an **Export Template Wizard** that can be used to update an existing template:
 
@@ -35,17 +35,19 @@ Visual Studio provides an **Export Template Wizard** that can be used to update 
 
     The **Export Template Wizard** opens.
 
-1. Follow the prompts in the wizard to export the template as a .zip file. If you did not select the option **Automatically import the template into Visual Studio**, place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
+1. Follow the prompts in the wizard to export the template as a .zip file.
+
+1. (Optional) To add the template to the **New Project** dialog box, place the .zip file in the following directory: %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates. You'll need to perform this step if you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**.
 
 1. Delete the old template .zip file.
 
 ## Manually updating an existing template
 
-You can update an existing template outside Visual Studio by modifying the files in the compressed .zip file.
+You can update an existing template without using the **Export Template Wizard**, by modifying the files in the compressed .zip file.
 
 ### To manually update an existing template
 
-1. Locate the .zip file that contains the template. Custom templates are usually located at %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
+1. Locate the .zip file that contains the template. User project templates are usually located at %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
 
 1. Extract the .zip file.
 
@@ -62,14 +64,6 @@ You can update an existing template outside Visual Studio by modifying the files
 1. Put the new .zip file in the same directory as the old .zip file.
 
 1. Delete the extracted template files and the old template .zip file.
-
-1. Start an elevated instance of the Developer Command Prompt:
-
-  1. In the Start menu, navigate to **Visual Studio \<version\>** > **Developer Command Prompt**.
-
-  1. From the context (right-click) menu, choose **More** > **Run as administrator**.
-
-1. Run the following command: `devenv /installvstemplates`.
 
 ## See also
 

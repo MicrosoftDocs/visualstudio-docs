@@ -36,8 +36,7 @@ A multi-project template must include the following items, compressed into a .zi
 
 For example, a multi-project template .zip file that has two projects could have the following files and directories:
 
-MultiProjectTemplate.vstemplate
-
+- MultiProjectTemplate.vstemplate
 - \Project1\Project1.vstemplate
 - \Project1\Project1.vbproj
 - \Project1\Class.vb
@@ -90,7 +89,7 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
 1. Create a directory for your template, with a subdirectory for each project.
 
-1. Extract the contents of each .zip file you created into the corresponding subdirectory that you just created.
+1. Extract the contents of each project's .zip file into the corresponding subdirectory that you just created.
 
 1. In the base directory, create an XML file with a **.vstemplate** file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's .vstemplate file.
 
@@ -98,7 +97,7 @@ The root .vstemplate file for a multi-project template differs from a single-pro
 
    The files and folders are compressed into a .zip file.
 
-1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
+1. Copy the .zip file into the user project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates.
 
 1. In Visual Studio, open the **New Project** dialog box and verify that your template appears.
 
