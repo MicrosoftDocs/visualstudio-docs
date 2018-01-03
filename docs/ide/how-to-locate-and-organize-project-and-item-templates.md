@@ -21,11 +21,11 @@ manager: ghogen
 ---
 # How to: locate and organize project and item templates
 
-Template files must be placed in a location that Visual Studio recognizes for the templates appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates that will also appear in the dialog boxes.
+Template files must be placed in a location that Visual Studio recognizes, for the templates to appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates that will also appear in the dialog boxes.
 
 ## Locating templates
 
-By default, Visual Studio searches two locations for project and item templates. If a compressed file that includes a .vstemplate file exists in these locations, the template will appear in the **New Project** or **Add New Item** dialog boxes.
+By default, Visual Studio searches two locations for project and item templates. If a compressed file that includes a .vstemplate file exists in these locations, the template will appear in the **New Project** or **Add New Item** dialog box.
 
 ### Installed templates
 
@@ -47,7 +47,7 @@ By default, custom templates are located in:
 
 - %USERPROFILE%\Documents\Visual Studio *Version*\Templates\ItemTemplates
 
-For example, the following directory contains custom c# project templates:
+For example, the following directory contains custom C# project templates:
 
 C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\
 
@@ -74,7 +74,7 @@ You can organize installed templates by creating subdirectories in the programmi
 
      \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\VisualBasic\1033\Office\
 
-1. Place all the templates for this category in the new folder.
+1. Place all the project templates for this category in the new folder.
 
 1. Close all instances of Visual Studio.
 
@@ -84,7 +84,7 @@ You can organize installed templates by creating subdirectories in the programmi
 
 1. Open Visual Studio, and on the **File** menu, choose **New** > **Project**.
 
-   The Office category appears in the **New Project** dialog box, in the **Project types** pane, under Visual Basic.
+   The **Office** category appears in the **New Project** dialog box, in the **Project types** pane, under Visual Basic.
 
 You can also group a subset of the project item templates into a custom folder.
 
@@ -94,7 +94,7 @@ You can also group a subset of the project item templates into a custom folder.
 
     \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\CSharp\1033\Web\
 
-1. Place all templates for this category in the new folder.
+1. Place all the item templates for this category in the new folder.
 
 1. Close all instances of Visual Studio.
 
@@ -106,7 +106,7 @@ You can also group a subset of the project item templates into a custom folder.
 
 1. On the **Project** menu, choose **Add New Item**.
 
-   The Web category appears in the **Add New Item** dialog box, in the **Project types** pane.
+   The **Web** category appears in the **Add New Item** dialog box, in the **Project types** pane.
 
 ### Organizing custom templates
 
@@ -122,7 +122,7 @@ Custom templates can be organized into their own categories by adding new folder
 
 1. On the **File** menu, choose **New** > **Project**.
 
-   The HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane under Visual C#.
+   The **HelloWorld** category appears in the **New Project** dialog box, in the **Project types** pane under Visual C#.
 
 You can also group a subset of the custom item templates into a custom folder.
 
@@ -136,7 +136,7 @@ You can also group a subset of the custom item templates into a custom folder.
 
 1. Create a project or open an existing project. Then, on the **Project** menu, choose **Add New Item**.
 
-   The HelloWorld category appears in the **Add New Item** dialog box, in the **Project types** pane.
+   The **HelloWorld** category appears in the **Add New Item** dialog box, in the **Project types** pane.
 
 ### Displaying templates in parent categories
 

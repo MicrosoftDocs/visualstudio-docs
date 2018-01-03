@@ -59,4 +59,4 @@ Starter kits are enhanced templates that can be shared with other members of the
 [How to: Create item templates](../ide/how-to-create-item-templates.md)  
 [Template parameters](../ide/template-parameters.md)  
 [Customizing templates](../ide/customizing-project-and-item-templates.md)  
-[How to: Create starter kits](../ide/how-to-create-starter-kits.md)
+[NuGet Packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)
