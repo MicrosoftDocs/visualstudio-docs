@@ -349,7 +349,7 @@ There are 3 possible values for trace verbosity:
 * "Messages": tracing turned on but only method name and response ID are traced.
 * "Verbose": tracing turned on; the entire rpc message is traced.
 
-When tracing is turned on, the content will be written to a file in "%temp%\VisualStudio\LSP" directory.  It will following the naming format [LanguageClientName]-[Datetime Stamp].log.  Currently, tracing can only be enabled for open folder scenario.  Opening a single file to activate a language server does not have diagnostics tracing support. 
+When tracing is turned on, the content will be written to a file in the "%temp%\VisualStudio\LSP" directory.  It will follow the naming format [LanguageClientName]-[Datetime Stamp].log.  Currently, tracing can only be enabled for open folder scenarios.  Opening a single file to activate a language server does not have diagnostics tracing support. 
 
 ### Custom messages
 
