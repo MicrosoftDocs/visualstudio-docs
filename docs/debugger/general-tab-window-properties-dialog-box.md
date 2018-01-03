@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Window Properties dialog box, General Tab"
 ms.assetid: 19142c60-9b32-46ba-a556-b62fd77568c1
