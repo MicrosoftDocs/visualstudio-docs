@@ -22,7 +22,7 @@ ms.workload:
 * If this is your first time with IntelliTest:
   * watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * read this [overview on MSDN Magazine](https://msdn.microsoft.com/magazine/dn904672.aspx)
-  * read our [documentation](../test/generate-unit-tests-for-your-code-with-intellitest.md)
+  * read our [documentation](../../test/generate-unit-tests-for-your-code-with-intellitest.md)
 * Ask your questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/intellitest)
 * Read the rest of this reference manual
 * Print this page for quick reference
