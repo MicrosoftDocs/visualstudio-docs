@@ -222,7 +222,7 @@ In addition to streamlined app deployment, the Windows 10 Fall Creators Update i
 * **The best of both UWP and Win32** <br/>
 We have improved the Windows 10 Platform with the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) to make Windows 10 better for all .NET developers, whether their current focus is on UWP, WPF, Windows Forms, or Xamarin. With the new App Packaging project type in Visual Studio 2017 version 15.5, you can create Windows App Packages for your WPF or Windows Forms projects, just like you can for UWP projects. After you package your app, you get all the Windows 10 app deployment benefits and have the option to distribute via Microsoft Store (for consumer apps) or Microsoft Store for Business and Education. Because packaged apps have access to both the full UWP API surface and the Win32 APIs on desktop, you can now modernize your WPF and Windows Forms applications gradually with UWP APIs and Windows 10 features. Moreover, you can include your Win32 components in your UWP applications that light up on desktop with all Win32 capabilities. 
 
-For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](https://docs.microsoft.com/visualstudio/cross-platform/develop-apps-for-the-universal-windows-platform-uwp) page.
+For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) page.
 
 ## Mobile app development
 ### Xamarin
@@ -269,7 +269,7 @@ And, it now includes Docker support.
 
 **New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
 
-For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
+For more information, see the [.NET Core Guide](/dotnet/core/index) page.
 
 ## Games development
 ### Visual Studio Tools for Unity

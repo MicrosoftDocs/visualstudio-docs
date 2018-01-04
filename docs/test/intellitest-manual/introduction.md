@@ -123,12 +123,9 @@ set of tests such as the following:
 7. "Hello\0World!"
 8. "Hello World!"
 
-Go [here](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest#Anchor_0)
-to understand where the generated tests are saved.
-The generated test code should include a test such as
-the following:
+Read [Generate unit tests with Intellitest](../test/generate-unit-tests-for-your-code-with-intellitest.md#Anchor_0) to understand where the generated tests are saved. The generated test code should include a test such as the following:
 
-```
+```csharp
 [TestMethod]
 [PexGeneratedBy(typeof(global::HelloWorldTest))]
 [PexRaisedException(typeof(Exception))]
@@ -140,8 +137,7 @@ public void HelloWorldThrowsException167()
 
 It's that easy!
 
-<a name="limitations"></a>
-## Limitations
+## <a name="limitations"></a> Limitations
 
 This section describes the limitations of IntelliTest:
 
@@ -250,7 +246,7 @@ by design of the "rethrow" instruction.
 ## Further reading
 
 * [Introductory blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2014/11/19/introducing-smart-unit-tests/) on MSDN.
-* [Generate unit tests for your code with IntelliTest](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest)
+* [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)
 
 ## Got feedback?
 

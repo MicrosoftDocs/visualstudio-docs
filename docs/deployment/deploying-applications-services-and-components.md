@@ -71,7 +71,7 @@ See the Tutorials for step-by-step instructions.
     > [!NOTE]
     > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
-- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
+- Other **Azure services**: See the specific [Azure service](/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
 
