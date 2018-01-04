@@ -28,8 +28,6 @@ For information about debugging Universal Windows Apps, see [Deploying and debug
   
 To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/en-us/library/windows/apps/ff402572(v=vs.105).aspx).  
   
-## In this section  
-  
 |||  
 |-|-|  
 |[Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)|Run UWP apps on a local machine, in an app simulator or emulator, or on a remote device.|  
