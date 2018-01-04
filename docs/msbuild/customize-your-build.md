@@ -85,7 +85,7 @@ For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the
 A summary of msbuild's general approach is as follows:
 
 - For any given project, msbuild finds the first `Directory.Build.props` upward in the solution structure, merges it with defaults, and stops scanning for more
-- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions#msbuild-getpathoffileabove.md) (shown above) the "outer" file from the "inner" file
+- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
 - If the "outer" file does not itself also import something above it, then scanning stops there
 - To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
 
