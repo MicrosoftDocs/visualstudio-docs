@@ -1,7 +1,7 @@
 ---
 title: "Azure SDK for Python | Microsoft Docs"
 ms.custom: ""
-ms.date: "3/7/2017"
+ms.date: 03/07/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

@@ -237,7 +237,7 @@ Second, you can install the module in the global Python environment, making it a
 
 1. The `setup.py` code instructs Python to build the extension using the Visual Studio 2015 C++ toolset when used from the command line. Open an elevated command prompt, navigate to the folder containing the C++ project (and `setup.py`), and enter the following command:
 
-    ```
+    ```command
     pip install .
     ```
 
