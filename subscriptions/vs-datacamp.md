@@ -63,6 +63,5 @@ Just click on your chosen path to get started.
     ![DataCamp Getting Started](_img\vs-datacamp\vs-datacamp-getting-started.png)
 
 You can stop at any point, and resume your training in your next session.  Just visit [http://www.datacamp.com](http://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
-
     ![DataCamp Continue Training](_img\vs-datacamp\vs-datacamp-continue-training.png)
 

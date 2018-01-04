@@ -27,7 +27,7 @@ If you've purchased a Visual Studio subscription through the Microsoft Store, th
 #### Work/School accounts
 If your subscription was provided by your work/school, you will have received a welcome email.  
 1.	Visit the [Subscriber Portal](https://my.visualstudio.com/)
-2.	Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber **Welcome Letter**. Please check junk mail folders if the Welcome Letter was not received.
+2.	Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber welcome email. Please check junk mail folders if the welcome email was not received.
 3.	Click **Continue**
 4.	You will be redirected to your corporate sign-in page.
 5.	Enter your password.

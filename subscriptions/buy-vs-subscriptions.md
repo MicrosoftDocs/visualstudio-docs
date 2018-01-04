@@ -23,7 +23,7 @@ from the [Visual Studio Marketplace](https://marketplace.visualstudio.com).
 Learn about the full benefits for these subscriptions, 
 [compare features](https://www.visualstudio.com/vs/compare/) of the IDE, and find [subscription pricing](https://www.visualstudio.com/vs/pricing/).
 
-### Before you start
+### Before you start:
 
 *	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/en-us/pricing/purchase-options/). 
 You can [sign up](https://account.windowsazure.com/Subscriptions) 
@@ -34,6 +34,8 @@ before your first purchase or during your first purchase in the Visual Studio Ma
 you'll need a "personal" [Microsoft account](https://www.microsoft.com/account) 
 or a ["work or school account"](https://azure.microsoft.com/en-us/documentation/articles/sign-up-organization/) 
 if you're buying for your organization, and they manage identities with Azure Active Directory (Azure AD).
+
+*   **Warning:**  If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](https://docs.microsoft.com/en-us/vsts/billing/faq-azure-billing).  
 
 ### Buy subscriptions
 
