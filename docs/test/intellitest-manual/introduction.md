@@ -123,7 +123,7 @@ set of tests such as the following:
 7. "Hello\0World!"
 8. "Hello World!"
 
-Read [Generate unit tests with Intellitest](../../test/generate-unit-tests-for-your-code-with-intellitest.md#Anchor_0) to understand where the generated tests are saved. The generated test code should include a test such as the following:
+Read [Generate unit tests with Intellitest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following:
 
 ```csharp
 [TestMethod]
