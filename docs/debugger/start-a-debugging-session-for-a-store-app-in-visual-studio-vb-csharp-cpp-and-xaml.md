@@ -77,32 +77,10 @@ Choose one of these options:
 |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
 |**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or beyond.|  
-  
- If you choose **Remote Machine**, specify the name or IP address of the remote machine in one of these ways:  
-  
--   Enter the name or IP address of the remote machine.  
-  
-    -   For C# and Visual Basic apps, enter the name or IP address in the **Remote machine** box.  
-  
-    -   For C++ apps, enter the name or IP address in the **Machine Name** box.  
-  
--   Choose the remote machine from the **Select Remote Debugger Connection** dialog box.  
-  
-     To open the dialog box:  
-  
-    -   For C# and Visual Basic apps, choose **Find**.  
-  
-    -   For C++ apps, choose the down arrow in the **Machine Name** box and choose **\<Locate...>**.  
-  
-     ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
-  
-    > [!NOTE]
-    >  The **Select Remote Debugger Connection** dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.  
-  
 
 ##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project  
 
-If you want to configure additional debugging options, open the property page for the project.
+If you need to configure additional debugging options, open the property page for the project.
   
 1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.  
   
@@ -117,15 +95,15 @@ If you want to configure additional debugging options, open the property page fo
          ![C&#43;&#43; UWP app debugging property page](../debugger/media/dbg_cpp_debugpropertypage.png)  
 
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
- By default, Visual Studio debugs managed code in C# and Visual Basic apps.  
+By default, Visual Studio debugs managed code in C# and Visual Basic apps.  
   
- For C# and Visual Basic apps, you can choose to debug both the managed and native C/C++ code in your app. Select the **Enable unmanaged code debugging** check box to include native code in your debug session.  
+For C# and Visual Basic apps, you can choose to debug both the managed and native C/C++ code in your app. Select the **Enable unmanaged code debugging** check box to include native code in your debug session.  
   
- By default, Visual Studio debugs native code in your C++ app.  
+By default, Visual Studio debugs native code in your C++ app.  
   
- For C++ apps, you can choose to debug specific types of code that are in components of your app instead of, or in addition to, the native code. You specify the code to debug in the **Debugger Type** list on the **Debugging** property page of the app project.  
+For C++ apps, you can choose to debug specific types of code that are in components of your app instead of, or in addition to, the native code. You specify the code to debug in the **Debugger Type** list on the **Debugging** property page of the app project.  
   
- Choose one of these debuggers from the **Application process** list:  
+Choose one of these debuggers from the **Application process** list:  
   
 |||  
 |-|-|  
@@ -151,9 +129,9 @@ If you want to configure additional debugging options, open the property page fo
   
  To remove the network loopback exemption:  
   
--   For Visual C# and Visual Basic apps, clear the **Allow Network Loopback** check box on the **Debug** property page.  
+-   For Visual C# and Visual Basic apps, clear the **Allow local network loopback** check box on the **Debug** property page.  
   
--   For Visual C++ apps, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.  
+-   For Visual C++ apps, choose **No** from the **Local network loopback** list on the **Debugging** property page.  
   
 ###  <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> (Optional) Reinstall the app when you start debugging  
  To diagnose problems with the installation and initial configuration of your Visual C# or Visual Basic app, choose **Uninstall and then reinstall my package** on the **Debug**  property page to recreate an original install when you start debugging. This option is not available for Visual C++ projects.  
