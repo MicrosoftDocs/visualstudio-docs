@@ -130,14 +130,13 @@ In these steps, we set a simple breakpoint to stop the remote process.
     | 2013 | 2.2.2 |
     | 2012, 2010 | 2.1 |
 
-
 ## Securing the debugger connection with SSL
 
 By default, the connection to the ptvsd remote debug server is secured only by the secret and all data is passed in plain text. For a more secure connection, ptvsd supports SSL, which you set up as follows:
 
 1. On the remote computer, generate separate self-signed certificate and key files using openssl:
-    
-    ```bash
+
+    ```command
     openssl req -new -x509 -days 365 -nodes -out cert.cer -keyout cert.key
     ```
 
@@ -150,8 +149,8 @@ By default, the connection to the ptvsd remote debug server is secured only by t
     ```python
     ptvsd.enable_attach(secret='my_secret', certfile='cert.cer', keyfile='cert.key')
     ```
-    
-    You can also make the same change in the code file on the local computer, but because this code isn't actually run, it isn't strictly necessary.    
+
+    You can also make the same change in the code file on the local computer, but because this code isn't actually run, it isn't strictly necessary.
 
 1. Restart the Python program on the remote computer, making it ready for debugging.
 
