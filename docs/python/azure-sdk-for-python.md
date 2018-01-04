@@ -40,14 +40,14 @@ Documentation can be found on [azure-sdk-for-python.readthedocs.org](http://azur
 
 The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials such as:
 
-- Creating web apps with [Django](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-django-app) [Flask](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](https://docs.microsoft.com/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
-- [Blob storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-blob-storage)
-- [Table storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-table-storage)
-- [Queue storage](https://docs.microsoft.com/azure/storage/storage-python-how-to-use-queue-storage)
-- [DocumentDB](https://docs.microsoft.com/azure/documentdb/documentdb-python-application)
-- [Service Bus Queues](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
-- [Service Bus Topics/Subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
-- [Service Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-python-how-to-use-service-management)
+- Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app) [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
+- [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)
+- [Table storage](/azure/storage/storage-python-how-to-use-table-storage)
+- [Queue storage](/azure/storage/storage-python-how-to-use-queue-storage)
+- [DocumentDB](/azure/documentdb/documentdb-python-application)
+- [Service Bus Queues](/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
+- [Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
+- [Service Management](/azure/cloud-services/cloud-services-python-how-to-use-service-management)
 
 For public APIs without documentation, the unit tests in the [SDK's GitHub repository](https://github.com/Azure/azure-sdk-for-python) are a good source of information:
 
