@@ -1,29 +1,7 @@
 ---
-title: "Start a debugging session for UWP Apps in Visual Studio (JavaScript) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.debug.installedapppackagelauncher"
-  - "vs.debug.error.wwahost_scriptdebuggingdisabled"
-dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-ms.assetid: fb91203f-2cf4-44d3-8ed9-93bc5aaa50b8
-caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
-  - "uwp"
+redirect_url: /visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml
 ---
+
 # Start a debugging session for UWP Apps in Visual Studio (JavaScript)
   
  This topic describes how to start a debugging session for UWP apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
