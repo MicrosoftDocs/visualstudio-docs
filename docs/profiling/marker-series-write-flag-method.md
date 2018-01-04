@@ -17,6 +17,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # marker_series::write_flag Method
 Writes a flag to the Concurrency Visualizer trace file.  

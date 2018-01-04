@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Using Profiler APIs
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  

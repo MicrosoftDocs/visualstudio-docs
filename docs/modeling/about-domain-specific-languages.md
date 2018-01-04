@@ -13,6 +13,8 @@ caps.latest.revision: 26
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # About Domain-Specific Languages
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.  

@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 732b73cf-2014-4f98-838e-4141ef9dedac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Creating R projects in Visual Studio
@@ -104,7 +105,6 @@ RTVS includes a number of templates for specific file types. You access template
 | R Documentation (Dataset) | An R documentation file containing many fields with comments for describing a dataset. |
 | SQL Query | And empty `.sql` file. See [SQL Server integration](sql-server.md). |
 | Stored Procedure with R | An R file with child SQL Query and child stored procedure template file. See [SQL Server integration](sql-server.md). |
-
 
 ## Use multiple project types in Visual Studio
 

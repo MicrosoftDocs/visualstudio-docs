@@ -51,6 +51,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Dataset tools in Visual Studio
 > [!NOTE]
@@ -79,7 +81,7 @@ ms.technology: "vs-data-tools"
   
     -   [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
   
--   Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).  
+-   Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).  
   
 -   Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   

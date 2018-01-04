@@ -23,6 +23,8 @@ caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Automating an Application from a Custom Task Pane
   This walkthrough demonstrates how to create a custom task pane that automates PowerPoint. The custom task pane inserts dates into a slide when the user clicks a <xref:System.Windows.Forms.MonthCalendar> control that is on the custom task pane.  

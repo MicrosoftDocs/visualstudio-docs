@@ -21,6 +21,8 @@ caps.latest.revision: 50
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Complex Data Binding in a Document-Level Project
   This walkthrough demonstrates the basics of complex data binding in a document-level project. You can bind multiple cells in a Microsoft Office Excel worksheet to fields in the Northwind SQL Server database.  

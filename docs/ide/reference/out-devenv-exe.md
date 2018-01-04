@@ -23,6 +23,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Out (devenv.exe)
 Specifies a file to store and display errors when you run, build, rebuild, or deploy a solution.  

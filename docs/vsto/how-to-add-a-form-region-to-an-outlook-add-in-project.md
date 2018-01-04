@@ -23,6 +23,8 @@ caps.latest.revision: 38
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Form Region to an Outlook Add-in Project
   Create a form region to extend a standard or custom Microsoft Office Outlook form by using the **New Outlook Form Region** wizard. You can create a new form region and design the user interface in Visual Studio, or you can import a form region that was designed in Outlook and add Visual Basic or C# code.  

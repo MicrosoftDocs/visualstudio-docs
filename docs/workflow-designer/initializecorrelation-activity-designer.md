@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # InitializeCorrelation Activity Designer
 The **InitializeCorrelation** activity designer is used to create and configure an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity that is used to establish a correlation between messages prior to sending or receiving them.  

@@ -12,6 +12,8 @@ ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 8
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Create a unit test project
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.  

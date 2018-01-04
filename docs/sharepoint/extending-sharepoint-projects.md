@@ -20,6 +20,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Extending SharePoint Projects
   Create a project extension when you want to customize project-level features of SharePoint projects. For example, you can add custom project properties, or respond to project-level events that are raised when the user develops a SharePoint solution in Visual Studio.  

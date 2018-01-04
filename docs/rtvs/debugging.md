@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cb5fe5f8-03bc-42bf-8346-c845036a9c6c
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Debugging R in Visual Studio
@@ -55,12 +56,12 @@ When you're stopped in the debugger, you're also stopped at the Environment Brow
 
 The Environment Browser supports a number of special commands:
 
-| Command | Description | 
+| Command | Description |
 | --- | --- |
 | n | next: runs the next statement in the code file (same as step over). |
-| s | step into: runs the next statement in the code file, stepping into a function scope if the next statement is a function call. | 
+| s | step into: runs the next statement in the code file, stepping into a function scope if the next statement is a function call. |
 | f | finish: runs the remainder of the current function scope and returns to the caller (same as step out). |
-| c, cont | continue: runs the program to the next breakpoint. | 
+| c, cont | continue: runs the program to the next breakpoint. |
 | Q | quits: ends the debugging session. |
 | where | show stack: displays the call stack in the interactive window. |
 | help | show help: displays available commands in the interactive window. |

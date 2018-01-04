@@ -33,6 +33,8 @@ caps.latest.revision: 76
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Windows Forms Controls on Office Documents Overview
   Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in an VSTO Add-in for Excel or Word.  

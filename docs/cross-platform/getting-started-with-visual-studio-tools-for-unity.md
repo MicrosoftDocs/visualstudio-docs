@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "04/07/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
+ms.workload: 
+  - "unity"
 ---
 # Getting Started with Visual Studio Tools for Unity
 In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.  

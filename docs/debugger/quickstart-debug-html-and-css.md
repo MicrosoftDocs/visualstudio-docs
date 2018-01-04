@@ -25,6 +25,8 @@ caps.latest.revision: 101
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Debug HTML and CSS in UWP and Windows 8.1 Apps
 ![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  

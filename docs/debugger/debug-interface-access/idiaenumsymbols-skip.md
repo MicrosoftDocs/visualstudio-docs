@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbols::Skip
 Skips a specified number of symbols in an enumeration sequence.  

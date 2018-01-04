@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View events with IntelliTrace in Visual Studio
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.  

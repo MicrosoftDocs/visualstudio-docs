@@ -22,6 +22,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security and Localized Satellite Assemblies
 If your main assembly uses strong naming, satellite assemblies must be signed with the same private key as the main assembly. If the public/private key pair does not match between the main and satellite assemblies, your resources will not be loaded. For more information on signing assemblies, see [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name).  

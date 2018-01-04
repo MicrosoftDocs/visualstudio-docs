@@ -18,6 +18,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
@@ -48,7 +50,7 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
   
  **Open the MainPage.xaml.cs source file.** Right-click anywhere in the XAML editor and choose **View Code**. The MainPage.xaml.cs code-behind file is displayed. Note that only one method, the `MainPage()` constructor, is listed in the file.  
   
- **Replace the MainPage constructor with the sample code.** Delete the MainPage() method. Follow this link: [Debugger navigation sample code (Xaml and C#)](../debugger/debugger-navigation-sample-code-xaml-and-csharp.md), and then copy the code listed in the C# section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code in the `partial class MainPage` block. Choose CTRL + s to save the file.  
+ **Replace the MainPage constructor with the sample code.** Delete the MainPage() method. Follow this link: [Debugger navigation sample code (Xaml and C#)](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/debugger/samples/debugger-navigation-sample-code-xaml-and-csharp.cs), and then copy the code listed in the C# section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code in the `partial class MainPage` block. Choose CTRL + s to save the file.  
   
  You can now follow along with the examples in this topic.  
   

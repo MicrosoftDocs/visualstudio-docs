@@ -21,6 +21,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Security and Deployment Walkthroughs
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.  

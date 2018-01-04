@@ -20,6 +20,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Shortcut Menu Item to a Custom SharePoint Project Item Type
   When you define a custom SharePoint project item type, you can add a shortcut menu item to the project item. The menu item appears when a user right-clicks the project item in **Solution Explorer**.  

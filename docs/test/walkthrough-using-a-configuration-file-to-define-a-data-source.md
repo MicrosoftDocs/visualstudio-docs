@@ -16,6 +16,8 @@ ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 32
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
 This walkthrough illustrates how to use a data source defined in an app.config file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:  

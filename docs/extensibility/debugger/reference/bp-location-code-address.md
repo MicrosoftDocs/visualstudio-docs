@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_ADDRESS
 Describes the location of a breakpoint at an address in code.  

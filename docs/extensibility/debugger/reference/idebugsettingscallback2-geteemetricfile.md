@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
 Retrieves the expression evaluator metric file given the name or the metric.  

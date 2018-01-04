@@ -23,6 +23,8 @@ caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveKeySource Task
 Determines the strong name key source.  

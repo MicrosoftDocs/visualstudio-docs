@@ -11,6 +11,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Debugging or Disabling Project Code in XAML Designer
 In many cases, unhandled exceptions in the XAML designer can be caused by project code attempting to access properties or methods which return different values or work in different ways when your application is running in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent them by disabling project code in the designer.  

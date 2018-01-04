@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2::RestrictReferencePathAccess
 Determines if looking for a .pdb file is allowed in the path where the .exe file is located.  

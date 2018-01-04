@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: ef9c04d4-0d5e-405a-842e-8d47fa0e8781
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Help in R Tools for Visual Studio

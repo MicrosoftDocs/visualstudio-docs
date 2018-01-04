@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # New Project Generation: Under the Hood, Part One
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.  

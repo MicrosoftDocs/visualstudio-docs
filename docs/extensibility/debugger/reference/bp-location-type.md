@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_TYPE
 Specifies the location type of the breakpoint for a breakpoint request.  

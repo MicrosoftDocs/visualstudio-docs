@@ -15,6 +15,8 @@ caps.latest.revision: 20
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  

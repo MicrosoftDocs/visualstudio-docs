@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # m_stateFlags Field
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.  

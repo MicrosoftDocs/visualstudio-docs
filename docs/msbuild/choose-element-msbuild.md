@@ -24,6 +24,8 @@ caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Choose Element (MSBuild)
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.  

@@ -13,6 +13,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Implementing Code Snippets
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.  

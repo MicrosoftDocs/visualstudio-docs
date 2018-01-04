@@ -16,6 +16,8 @@ caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Respond to the Just-In-Time Debugger
 

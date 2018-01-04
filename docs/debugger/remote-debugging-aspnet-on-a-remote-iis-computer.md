@@ -13,6 +13,9 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "aspnet"
+  - "dotnetcore"
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio 2017
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
@@ -31,11 +34,11 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
-1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application (.NET Core)**).
+1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**).
 
     In the **ASP.NET Core** templates section, select **Web Application**.
 
-2. Make sure that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
+2. Make sure that **ASP.NET Core 2.0** is selected, that **Enable Docker Support** is **not** selected and that **Authentication** is set to **No Authentication**.
 
 3. Name the project **MyASPApp** and click **OK** to create the new solution.
 

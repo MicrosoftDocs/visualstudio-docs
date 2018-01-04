@@ -18,6 +18,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Office Solution Security
   This topic contains tips for solving common problems that you might encounter when you work with securing Office solutions.  

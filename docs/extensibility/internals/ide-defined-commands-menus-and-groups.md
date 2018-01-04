@@ -17,6 +17,8 @@ caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDE-Defined Commands, Menus, and Groups
 Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

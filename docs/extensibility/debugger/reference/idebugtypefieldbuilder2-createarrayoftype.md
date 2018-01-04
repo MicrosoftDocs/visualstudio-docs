@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 Creates an array of the specified type and size.  

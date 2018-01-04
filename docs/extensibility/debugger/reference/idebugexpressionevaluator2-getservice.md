@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator2::GetService
 Retrieves a service object given its unique identifier.  

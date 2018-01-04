@@ -14,6 +14,8 @@ ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
 caps.latest.revision: 39
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Best Practices for Coded UI Tests
 This topic describes the best practices to follow when you develop coded UI tests.  

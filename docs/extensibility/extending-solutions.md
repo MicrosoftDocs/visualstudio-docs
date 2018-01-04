@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending Solutions
 A solution is a grouping of one or more projects that work together to create an application.  

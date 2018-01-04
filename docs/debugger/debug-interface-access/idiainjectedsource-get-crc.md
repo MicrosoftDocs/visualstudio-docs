@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaInjectedSource::get_crc
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.  

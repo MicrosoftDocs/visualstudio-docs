@@ -12,7 +12,7 @@ ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.VCNMakeTool.BuildCommandLine
   - VC.Project.VCNMakeTool.ReBuildCommandLine
   - VC.Project.VCNMakeTool.CleanCommandLine
@@ -20,6 +20,8 @@ f1_keywords:
   - VC.Project.VCNMakeTool.PreprocessorDefinitions
   - VC.Project.VCNMakeTool.IncludeSearchPath
   - VC.Project.VCNMakeTool.ForcedIncludes
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # NMake Properties (Android C++) 

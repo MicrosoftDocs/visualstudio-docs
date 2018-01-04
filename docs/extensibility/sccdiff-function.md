@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccDiff Function
 This function displays (or optionally just checks for) the differences between the current file (on the local disk) and its last checked-in version in the source control system.  

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.breakpt.choose"
 dev_langs: 
@@ -26,6 +26,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Choose Breakpoints Dialog Box
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.  

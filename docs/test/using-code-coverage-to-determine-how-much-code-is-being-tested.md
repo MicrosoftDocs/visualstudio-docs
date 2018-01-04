@@ -10,10 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code coverage"
-ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
-caps.latest.revision: 36
+dev_langs: 
+  - "CSharp"
+  - "VB"
+  - "CPP"
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Using Code Coverage to Determine How Much Code is being Tested
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.  

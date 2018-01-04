@@ -1,5 +1,5 @@
 ---
-title: "Python Options in Visual Studio | Microsoft Docs"
+title: "Python options in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -9,7 +9,6 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c714867-7a64-4b1e-aca8-09d956192279
 f1_keywords: 
   - "VS.ToolsOptionsPages.Python_Tools"
   - "VS.ToolsOptionsPages.Python_Tools.General"
@@ -20,6 +19,8 @@ f1_keywords:
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Options for Python in Visual Studio

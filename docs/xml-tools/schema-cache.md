@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Schema Cache
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  

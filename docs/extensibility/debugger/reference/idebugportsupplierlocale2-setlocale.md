@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplierLocale2::SetLocale
 Sets the locale for the port supplier.  

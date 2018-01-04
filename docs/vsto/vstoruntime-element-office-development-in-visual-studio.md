@@ -20,6 +20,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;vstoRuntime&gt; Element (Office Development in Visual Studio)
   The `vstoRuntime` element of the `vstav3` namespace contains a supported version of the Visual Studio Tools for Office runtime for a specific Office solution.  

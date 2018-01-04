@@ -23,6 +23,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Permit Code to Run Behind Documents with Restricted Permissions
   You can use the Information Rights Management (IRM) feature of Microsoft Office to restrict permissions to a document or workbook. By default, the code behind a restricted Microsoft Office Word document or Microsoft Office Excel workbook is not permitted to run. You can change the default so that your managed code extensions can access the object model, and your solution will work.  

@@ -11,6 +11,8 @@ caps.latest.revision: 8
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Open a Model from File in Program Code
 You can open DSL models in any application.  

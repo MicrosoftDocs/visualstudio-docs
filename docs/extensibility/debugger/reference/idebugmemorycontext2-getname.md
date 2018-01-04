@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryContext2::GetName
 Retrieves the user-displayable name for this context.  

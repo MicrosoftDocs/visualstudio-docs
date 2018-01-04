@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
 Constructs a field instance given an array of type arguments.  

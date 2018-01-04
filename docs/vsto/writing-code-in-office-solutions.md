@@ -39,6 +39,8 @@ caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Writing Code in Office Solutions
   There are some aspects of writing code in Office projects that are different from other types of projects in Visual Studio. Many of these differences are related to the way the Office object models are exposed to managed code. Other differences are related to the design of Office projects.  

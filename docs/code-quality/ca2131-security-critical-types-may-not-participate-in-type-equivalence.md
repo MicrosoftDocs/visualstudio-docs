@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2131: Security critical types may not participate in type equivalence
 |||  
@@ -42,4 +44,4 @@ manager: ghogen
  [!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
   
 ## See Also  
- [Security-Transparent Code, Level 2](http://msdn.microsoft.com/Library/4d05610a-0da6-4f08-acea-d54c9d6143c0)
+ [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)

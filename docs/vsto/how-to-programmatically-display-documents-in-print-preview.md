@@ -19,6 +19,8 @@ caps.latest.revision: 39
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Display Documents in Print Preview
   If your solution generates a report, you might want to display the report to the user in Print Preview mode.  

@@ -11,6 +11,8 @@ caps.latest.revision: 10
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # T4 Template Directive
 A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.  

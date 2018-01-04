@@ -12,7 +12,7 @@ ms.assetid: 663140ea-a568-472b-a79a-dfea8818e06a
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.VCClangCompilerTool.AdditionalIncludeDirectories
   - VC.Project.VCClangCompilerTool.DebugInformationFormat
   - VC.Project.VCClangCompilerTool.ObjectFile
@@ -45,6 +45,8 @@ f1_keywords:
   - VC.Project.VCClangCompilerTool.ForcedIncludeFiles
   - VC.Project.VCClangCompilerTool.MultiProcessorCompilation
   - vc.project.AdditionalOptionsPage
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # Clang Project Properties (Android C++)

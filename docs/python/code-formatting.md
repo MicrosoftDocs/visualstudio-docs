@@ -1,5 +1,5 @@
 ---
-title: "Formatting Python Code in Visual Studio | Microsoft Docs"
+title: "Formatting Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d0f1631-360b-45d4-a0cb-01c3c10d25f2
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Formatting Python code

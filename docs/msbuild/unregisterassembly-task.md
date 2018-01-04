@@ -23,6 +23,8 @@ caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # UnregisterAssembly Task
 Unregisters the specified assemblies for COM interop purposes. Performs the reverse of the [RegisterAssembly task](../msbuild/registerassembly-task.md).  

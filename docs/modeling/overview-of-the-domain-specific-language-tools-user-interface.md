@@ -15,6 +15,8 @@ caps.latest.revision: 25
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Overview of the Domain-Specific Language Tools User Interface
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the user interface will resemble the following picture.  

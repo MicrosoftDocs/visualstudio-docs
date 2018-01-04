@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  

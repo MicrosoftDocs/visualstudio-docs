@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Synchronized Settings, Environment, Options Dialog Box
 Use this page to specify whether to synchronize (roam) your settings across multiple machines. For more information, see [Synchronized Settings](../../ide/synchronized-settings-in-visual-studio.md).  

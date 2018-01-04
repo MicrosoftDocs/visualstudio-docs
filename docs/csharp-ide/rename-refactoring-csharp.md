@@ -19,6 +19,8 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Rename Refactoring (C#)
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  

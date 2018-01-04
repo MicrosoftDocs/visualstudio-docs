@@ -21,6 +21,8 @@ caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Remove Protection from Worksheets
   You can programmatically remove protection from a Microsoft Office Excel worksheet.  

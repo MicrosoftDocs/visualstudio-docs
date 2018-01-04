@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # IDiaSymbol::get_hasManagedCode
 Retrieves a flag indicating whether the module contains managed code.  

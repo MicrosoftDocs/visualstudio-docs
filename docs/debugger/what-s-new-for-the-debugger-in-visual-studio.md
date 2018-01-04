@@ -23,6 +23,8 @@ caps.latest.revision: 81
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What's New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 

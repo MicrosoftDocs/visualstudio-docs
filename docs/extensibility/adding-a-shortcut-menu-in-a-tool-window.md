@@ -18,6 +18,8 @@ caps.latest.revision: 37
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Shortcut Menu in a Tool Window
 This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a menu that appears when a user right-clicks a button, text box, or window background. Commands on a shortcut menu behave the same as commands on other menus or toolbars. To support a shortcut menu, specify it in the .vsct file and display it in response to the right-click of the mouse.  

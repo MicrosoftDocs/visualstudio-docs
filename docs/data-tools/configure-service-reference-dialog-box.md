@@ -18,6 +18,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Configure Service Reference Dialog Box
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] services.  
@@ -58,7 +60,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Determines whether WCF service methods will be called synchronously (the default) or asynchronously.  
   
  **Generate task-based operations**  
- When writing async code, this option allows you to take advantage of the Task Parallel Library (TPL) that was introduced with .Net 4. See [Task Parallel Library (TPL)](http://msdn.microsoft.com/library/dd460717.aspx).  
+ When writing async code, this option allows you to take advantage of the Task Parallel Library (TPL) that was introduced with .Net 4. See [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl).  
   
  **Always generate message contracts**  
  Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](/dotnet/framework/wcf/feature-details/using-message-contracts).  

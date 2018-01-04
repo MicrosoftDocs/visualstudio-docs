@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Disk Operations Report (Threads View)
 The Disk Operations Report shows disk I/O operations in the disk channels.  

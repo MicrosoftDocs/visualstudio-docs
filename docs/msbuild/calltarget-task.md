@@ -21,6 +21,8 @@ caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CallTarget Task
 Invokes the specified targets within the project file.  

@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2::RestrictDBGAccess
 Determines if looking for debug information is allowed from .dbg files.  

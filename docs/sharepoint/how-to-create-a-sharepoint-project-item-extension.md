@@ -20,6 +20,8 @@ caps.latest.revision: 31
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create a SharePoint Project Item Extension
   Create a project item extension when you want to add functionality to a SharePoint project item that is already installed in Visual Studio. For more information, see [Extending SharePoint Project Items](../sharepoint/extending-sharepoint-project-items.md).  

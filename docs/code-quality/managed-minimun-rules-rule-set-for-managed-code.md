@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Managed Minimum Rules rule set for managed code
 The Managed Minimum Rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your projects.  

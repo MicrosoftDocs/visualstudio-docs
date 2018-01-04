@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineCreateEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created.  

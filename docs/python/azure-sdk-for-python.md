@@ -9,11 +9,13 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d30fddae-8e2f-4f50-90d3-8ed2cd35c7a6
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "azure"
 ---
 
 # Azure SDK for Python
@@ -47,7 +49,7 @@ The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/p
   - [Service Bus Topics/Subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
   - [Service Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-python-how-to-use-service-management)
 
-For public APIs without documentation, the unit tests in the The [SDK's GitHub repository](https://github.com/Azure/azure-sdk-for-python) are a good source of information:
+For public APIs without documentation, the unit tests in the [SDK's GitHub repository](https://github.com/Azure/azure-sdk-for-python) are a good source of information:
 
 - [Storage unit tests](https://github.com/Azure/azure-storage-python/tree/master/tests)
 - [Service Bus unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicebus/tests)

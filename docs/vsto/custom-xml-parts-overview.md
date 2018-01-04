@@ -29,6 +29,8 @@ caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Custom XML Parts Overview
   You can embed XML data in documents for some Microsoft Office applications. When you embed XML data in a document, the data is named a *custom XML part*.  

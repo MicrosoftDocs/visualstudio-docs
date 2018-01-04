@@ -1,7 +1,7 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 1/2/20178
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,12 +9,13 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: f7dbda92-21bf-4af0-bb34-29b8bf231f32
 description: The process amd steps to write a C++ extension or module for Python in Visual Studio
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Creating a C++ extension for Python
@@ -23,7 +24,7 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 
 - Accelerator modules: because Python is an interpreted language, certain pieces of code can be written in C++ for higher performance. 
 - Wrapper modules: wrappers expose existing C/C++ interfaces to Python code or expose a more "Pythonic" API that's easy to use from Python.
-- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware. 
+- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware.
 
 This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the performance gain of implementing the same routine in C++.
 
@@ -105,15 +106,15 @@ For more information, see [Installing Python Support for Visual Studio](installa
 
 1. Set the specific properties as described below, then select **OK**.
 
-    | Tab | Property | Value | 
+    | Tab | Property | Value |
     | --- | --- | --- |
-    | General | General > Target Name | Set this field to exactly match the name of the module as Python sees it. |
+    | General | General > Target Name | Specify the name of the module as you want to refer to it from Python in `from...import` statements. |
     | | General > Target Extension | .pyd |
     | | Project Defaults > Configuration Type | Dynamic Library (.dll) |
-    | C/C++ > General | Additional Include Directories | Add the Python `include` folder as appropriate for your installation, for example, `c:\Python36\include` |     
+    | C/C++ > General | Additional Include Directories | Add the Python `include` folder as appropriate for your installation, for example, `c:\Python36\include` |
     | C/C++ > Preprocessor | Preprocessor Definitions | Add `Py_LIMITED_API;` to the beginning of the string, which restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
     | C/C++ > Code Generation | Runtime Library | Multi-threaded DLL (/MD) (see Warning below) |
-    | Linker > General | Additional Library Directories | Add the Python `libs` folder containing `.lib` files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the `libs` folder that contains `.lib` files, and *not* the `Lib` folder that contains `.py` files.) | 
+    | Linker > General | Additional Library Directories | Add the Python `libs` folder containing `.lib` files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the `libs` folder that contains `.lib` files, and *not* the `Lib` folder that contains `.py` files.) |
 
     > [!Tip]
     > If you don't see the C/C++ tab, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a `.c` or `.cpp` extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. This misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in Solution Explorer, select **Properties**, then set  **File Type** to **C/C++ Code**.
@@ -122,14 +123,14 @@ For more information, see [Installing Python Support for Visual Studio](installa
     > Don't set the **C/C++ > Code Generation > Runtime Library** option to "Multi-threaded Debug DLL (/MDd)" even for a Debug configuration. Select the "Multi-threaded DLL (/MD)" runtime because that's what the non-debug Python binaries are built with. If you happen to set the /MDd option, you see error *C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG* when building a Debug configuration of your DLL. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of *Fatal Python error: PyThreadState_Get: no current thread*.)
     >
     > Note that the /MDd option is what's used to build the Python debug binaries (such as python_d.exe), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
-   
+
 1. Right-click the C++ project and select **Build** to test your configurations (both Debug and Release). The `.pyd` files are located in the *solution* folder under **Debug** and **Release**, not the C++ project folder itself.
 
 1. Add the following code to the C++ project's main `.cpp` file:
 
     ```cpp
     #include <Windows.h>
-    #include <cmath>    
+    #include <cmath>
 
     const double e = 2.7182818284590452353602874713527;
 
@@ -147,7 +148,6 @@ For more information, see [Installing Python Support for Visual Studio](installa
     ```
 
 1. Build the C++ project again to confirm that your code is correct.
-
 
 ## Convert the C++ project to an extension for Python
 
@@ -169,11 +169,12 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     }
     ```
 
-1. Add a structure that defines how the C++ `tanh` function is presented to Python:
+1. Add a structure that defines how the C++ `tanh_impl` function is presented to Python:
 
     ```cpp
     static PyMethodDef superfastcode_methods[] = {
-        // The first property is the name exposed to python, the second is the C++ function name        
+        // The first property is the name exposed to Python, fast_tanh, the second is the C++
+        // function name that contains the implementation.
         { "fast_tanh", (PyCFunction)tanh_impl, METH_O, nullptr },
 
         // Terminate the array with an object containing nulls.
@@ -181,22 +182,22 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     };
     ```
 
-1. Add a structure that defines the module as Python sees it:
+1. Add a structure that defines the module as you want to refer to it in your Python code, specifically when using the `from...import` statement. In the following example, the "superfastcode" module name means you can use `from superfastcode import fast_tanh` in Python, because `fast_tanh` is defined within `superfastcode_methods`. (Filenames internal to the C++ project, like module.cpp, are inconsequential.)
 
     ```cpp
     static PyModuleDef superfastcode_module = {
         PyModuleDef_HEAD_INIT,
-        "superfastcode",						// Module name
+        "superfastcode",                        // Module name to use with Python import statements
         "Provides some functions, but faster",  // Module description
         0,
-        superfastcode_methods                   // Structure that defines the methods
+        superfastcode_methods                   // Structure that defines the methods of the module
     };
     ```
 
 1. Add a method that Python calls when it loads the module, which must be named `PyInit_<module-name>`, where *&lt;module_name&gt;* exactly matches the C++ Project's **General > Target Name** property (that is, it matches the filename of the `.pyd` built by the project).
 
     ```cpp
-    PyMODINIT_FUNC PyInit_superfastcode() {    
+    PyMODINIT_FUNC PyInit_superfastcode() {
         return PyModule_Create(&superfastcode_module);
     }
     ```
@@ -227,12 +228,12 @@ Second, you can install the module in the global Python environment, making it a
     sfc_module = Extension('superfastcode', sources = ['module.cpp'])
 
     setup(name = 'superfastcode', version = '1.0',
-        description = 'Python Package with superfastcode C++ Extension',
+        description = 'Python Package with superfastcode C++ extension',
         ext_modules = [sfc_module]
         )
     ```
 
-    See [Building C and C++ Extensions](https://docs.python.org/3/extending/building.html) (python.org) for documentation on this script.
+    See [Building C and C++ extensions](https://docs.python.org/3/extending/building.html) (python.org) for documentation on this script.
 
 1. The `setup.py` code instructs Python to build the extension using the Visual Studio 2015 C++ toolset when used from the command line. Open an elevated command prompt, navigate to the folder containing the C++ project (and `setup.py`), and enter the following command:
 
@@ -247,7 +248,7 @@ After you've completed either of the methods above, you can now call the `fast_t
 1. Add the following lines in your `.py` file to call the `fast_tanh` method exported from the DLL and display its output. If you type the `from s` statement manually, you'll see `superfastcode` come up in the completion list, and after typing `import` the `fast_tanh` method appears.
 
     ```python
-    from superfastcode import fast_tanh    
+    from superfastcode import fast_tanh
     test(lambda d: [fast_tanh(x) for x in d], '[fast_tanh(x) for x in d]')
     ```
 

@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # ForEach&lt;T&gt; Activity Designer
 The <xref:System.Activities.Statements.ForEach%601> activity executes the activity contained in its <xref:System.Activities.Statements.ForEach%601.Body%2A> for each item in a specified <xref:System.Activities.Statements.ForEach%601.Values%2A> collection.  

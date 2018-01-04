@@ -1,7 +1,7 @@
 ---
 title: R Markdown with R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 11/16/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,20 +9,21 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Creating R Markdown documents
 
 [R Markdown](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 
-R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), and file generation capabilities.
+R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor support (including IntelliSense for R code within the editor), file generation capabilities, and live preview.
 
-To use R Markdown:
+## Using R Markdown
 
 1. Close Visual Studio.
 1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
@@ -34,7 +35,7 @@ To use R Markdown:
     install.packages("rmarkdown")
 
     ```
-1. Create a new R Markdown file using either the **File > New** menu command and selecting **R Markdown** from the list, or by right-clicking your project in Solution Explorer and selecting **Add R Markdown** (or **Add > New Item...** and selecting **R Markdown** from the list).
+1. Create a new R Markdown file using the **File > New > File** menu command and selecting **R > R Markdown** from the list. In the context of a project, right-click the project in Solution Explorer and select **Add R Markdown** (or **Add > New Item...** and selecting **R Markdown** from the list).
 
 1. The default contents of the new file are as follows:
 
@@ -43,23 +44,29 @@ To use R Markdown:
     title: "Untitled"
     output: html_document
     ---
-    
+
     This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and Microsoft Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-    
+
     When you click the **R Tools | Publish | Preview** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-    
+
     ```{r}
     summary(cars)
     ```
-    
+
     You can also embed plots, for example:
-    
+
     ```{r, echo=FALSE}
     plot(cars)
     ```
-    
+
     Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-    
+
     ~~~
 
-1. At any time during editing, right-click in the editor and select **Preview**, which has options for HTML, PDF, and Microsoft Word. From that preview you can save the file as appropriate for the format you chose.
+## Previews
+
+Visual Studio 2017 version 15.5 and later automatically provide live preview for R Markdown. To turn on automatic sync between the editor and the preview, select **R Tools > Markdown > Automatic Sync** (Ctrl+Shift+Y). If you aren't using automatic sync, you can refresh the preview using **R Tools > Markdown > Reload R Markdown Preview**.
+
+You can also preview the file in HTML, PDF, and Microsoft Word formats by right-clicking in the editor and selecting one of the **Preview** commands. The same commands are also available on the **R Tools > Markdown** menu. (In earlier versions of Visual Studio these commands are found on the **R Tools > Publish** menu.)
+
+![RMarkdown live preview and other preview menu commands](media/rmarkdown-live-preview.png)

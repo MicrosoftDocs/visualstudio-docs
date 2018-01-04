@@ -10,17 +10,13 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Prerequisites dialog box"
-ms.assetid: 53ac863c-77a0-409b-91e5-7a4bd8b8474e
-caps.latest.revision: 75
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Prerequisites Dialog Box
 This dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.  

@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Open Messages View from Find Window
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.  

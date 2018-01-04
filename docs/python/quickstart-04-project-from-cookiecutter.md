@@ -1,19 +1,20 @@
 ---
-title: "Quickstart: Create a Python Projects from a Cookiecutter Template in Visual Studio | Microsoft Docs"
+title: "Quickstart: Create a Python Projects from a Cookiecutter template in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 09/22/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7bbb71c-fa07-42e8-bef9-0b9cf6dd628a
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Quickstart: create a project from a Cookiecutter template
@@ -40,15 +41,14 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 
     ![Output of the python-sklearn-classifier-cookiecutter template project](media/projects-from-cookiecutter4.png)
 
-
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
 
-## See Also
+## See also
 
-- [Using the Cookiecutter Extension](cookiecutter.md)
+- [Using the Cookiecutter extension](cookiecutter.md)
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).
 - [Install locations](installation.md#install-locations).

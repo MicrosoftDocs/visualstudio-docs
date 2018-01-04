@@ -19,6 +19,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Data in Office Solutions Walkthroughs
   The following walkthroughs demonstrate how to work with data in document-level customizations and VSTO Add-ins for Microsoft Office Word and Microsoft Office Excel.  

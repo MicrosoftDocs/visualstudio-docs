@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,29 +16,29 @@ f1_keywords:
 helpviewer_keywords: 
   - "regular expressions [Visual Studio]"
   - "regular expressions"
-  - "Visual Studio, regular expressions"
-ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
-caps.latest.revision: 53
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using Regular Expressions in Visual Studio
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).  
-  
- Before Visual Studio 2012, Visual Studio used custom regular expression syntax in the Find and Replace windows. See [Visual Studio Regular Expression Conversions](https://msdn.microsoft.com/en-us/library/2k3te2cs\(v=vs.110\).aspx) for an explanation of how to convert some of the more commonly-used custom regular expression symbols to the .NET versions.  
-  
+
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
+
 > [!TIP]
->  In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET Regular Expression service.  
+> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET Regular Expression service.
+
+## Replacement patterns
+
+For information about regular expressions that are used in replacement patterns, see [Substitutions](/dotnet/standard/base-types/substitutions-in-regular-expressions). To use a numbered capture group, the syntax is `$1` to specify the numbered group, and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.
   
-> [!TIP]
->  For information about regular expressions that are used in replacement patterns, see [Substitutions](/dotnet/standard/base-types/substitutions-in-regular-expressions). To use a numbered capture group, the syntax is `$1` to specify the numbered group and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.  
-  
-## Regular Expressions in Visual Studio  
- Here are some examples  
-  
-|Purpose|Expression|Example|  
-|-------------|----------------|-------------|  
+## Regular Expression examples
+
+Here are some examples:
+
+|Purpose|Expression|Example|
+|-------------|----------------|-------------|
 |Match any single character (except a line break)|.|`a.o` matches "aro" in "around" and "abo" in "about" but not "acro" in "across".|  
 |Match zero or more occurrences of the preceding expression (match as many characters as possible)|*|`a*r` matches "r" in "rack", "ar" in "ark", and "aar" in "aardvark"|  
 |Match any character zero or more times (Wildcard *)|.*|c.*e matches "cke" in "racket", "comme" in "comment", and "code" in "code"|  
@@ -68,6 +67,7 @@ manager: ghogen
 |Match a string inside quotes|((\\".+?\\")&#124;('.+?'))|Matches any string inside single or double quotes.|  
 |Match a hexadecimal number|\b0[xX]([0-9a-fA-F]\)\b|Matches "0xc67f" but not "0xc67fc67f".|  
 |Match integers and decimals|\b[0-9]*\\.\*[0-9]+\b|Matches "1.333".|  
-  
-## See Also  
- [Finding and Replacing Text](../ide/finding-and-replacing-text.md)
+
+## See also
+
+[Finding and Replacing Text](../ide/finding-and-replacing-text.md)

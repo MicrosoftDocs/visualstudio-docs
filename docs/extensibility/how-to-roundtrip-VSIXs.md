@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "willbrown"
 ms.author: "willbrown"
 manager: "justinclareburt"
+ms.workload: 
+  - "willbrown"
 ---
 # How to: Make Extensions Compatible with Visual Studio 2017 and Visual Studio 2015
 

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "hero-article"
 f1_keywords: 
   - "vs.debug.remote.overview"
 dev_langs: 
@@ -23,6 +23,8 @@ caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Remote Debugging
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.

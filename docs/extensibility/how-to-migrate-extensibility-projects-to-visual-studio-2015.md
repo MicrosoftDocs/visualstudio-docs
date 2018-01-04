@@ -15,6 +15,8 @@ caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2015
 Here's how to upgrade your extension.  

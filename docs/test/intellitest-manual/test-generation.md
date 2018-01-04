@@ -14,6 +14,8 @@ ms.assetid: B6CADFD1-42C7-4FC0-B41F-0E9F8291A702
 caps.latest.revision: 56
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Test generation
 

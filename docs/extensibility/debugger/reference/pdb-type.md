@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PDB_TYPE
 This structure specifies information about a field type taken from a PDB symbol.  

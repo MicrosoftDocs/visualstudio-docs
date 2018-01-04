@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/19/2017"
 ms.reviewer: "crdun"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,6 +12,9 @@ ms.assetid: F4FD6E1C-EA64-4613-BDDE-6E4E5CCF983E
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 # Update Unity Mono security certificate store

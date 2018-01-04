@@ -1,7 +1,7 @@
 ---
 title: "Quick Actions | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/08/2017"
+ms.date: "11/30/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,6 +14,8 @@ manager: ghogen
 dev_langs: 
   - CSharp
   - VB
+ms.workload: 
+  - "multiple"
 ---
 # Quick Actions
 
@@ -37,7 +39,8 @@ Either click on the down arrow or the Show potential fixes link to display a lis
 
 ## Common Quick Actions
 
-Here are some of the common Quick Actions which are applicable to both C# and Visual Basic code.
+Here are some of the common Quick Actions which are applicable to both C# and Visual Basic code:
+
 - [Actions that fix errors](#fix)
 - [Actions that remove unnecessary code](#remove)
 - [Actions that add missing code](#add)
@@ -45,12 +48,13 @@ Here are some of the common Quick Actions which are applicable to both C# and Vi
 
 ### <a id="fix"></a> Actions that fix errors
 
-#### Correct misspelled type
+#### Correct misspelled symbol or keyword
+
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30002 | C# and Visual Basic | Visual Studio 2015 Update 2 |
 
-If you accidentally misspell a type in Visual Studio, this Quick Action will automatically correct it for you.  You will see these items in the light bulb menu as **"Change '*misspelled type*' to '*correct type*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action will automatically correct it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
 
 ```csharp
 // Before
@@ -79,6 +83,7 @@ End Function
 ```
 
 #### Resolve git merge conflict
+
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
@@ -86,7 +91,7 @@ End Function
 These Quick Actions enable you to resolve git merge conflicts by "taking a change", which removes the conflicting code and markers.  
 
 ```csharp
-// Before     
+// Before
 private void MyMethod()
 {
 <<<<<<< HEAD
@@ -104,7 +109,7 @@ private void MyMethod()
 
 // Take changes from 'HEAD'
 
-// After 
+// After
 private void MyMethod()
 {
     if (true)
@@ -115,11 +120,12 @@ private void MyMethod()
 ```
 
 #### Make method synchronous
+
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
 
-When using the `async`/`Async` keyword on a method, it is expected that somewhere inside that method the `await`/`Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async`/`Async` keyword and changing the return type.  Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -152,11 +158,12 @@ End Function
 ```
 
 #### Make method asynchronous
+
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
 
-When using the `await`/`Await` keyword inside of a method, it is expected that the method itself is marked with the `async`/`Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous.  Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -199,6 +206,7 @@ End Function
 The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
 
 #### Remove unnecessary cast
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0004 | C# and Visual Basic | Visual Studio 2015 RTW |
@@ -214,6 +222,7 @@ int number = (int)3;
 // after
 int number = 3;
 ```
+
 ```vb
 ' Before
 Dim number as Integer = CType(3, Integer)
@@ -225,6 +234,7 @@ Dim number as Integer = 3
 ```
 
 #### Remove unused variables
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
@@ -251,13 +261,14 @@ public MyMethod()
 ```
 
 #### Remove type from **default** value expression
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0034 | C# 7.1+ | Visual Studio 2017 version 15.3 |
 
 This Quick Action removes the value type from a default value expression and uses the [`default` literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
 
-```csharp 
+```csharp
 // Before
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 
@@ -271,14 +282,15 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 ### <a id="add"></a> Actions that add missing code
 
 #### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30451 | C# and Visual Basic| Visual Studio 2015 Update 2 |
 
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:  
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
 
-* Suggest usings/imports for types in reference assemblies
-* Suggest usings/imports for types in NuGet packages
+- Suggest usings/imports for types in reference assemblies
+- Suggest usings/imports for types in NuGet packages
 
 When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import statement will be created.
 
@@ -307,11 +319,14 @@ Debug.WriteLine("Hello")
 ```
 
 #### Add missing cases/default case/both
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0010 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
-When creating a `switch` statement in C#, or `Select Case` statement in Visual Basic, you can use a Code Action to automatically add missing case items, a default case statement, or both.  For an empty statement like the following:
+When creating a `switch` statement in C#, or `Select Case` statement in Visual Basic, you can use a Code Action to automatically add missing case items, a default case statement, or both.
+
+Consider the following enumeration and empty `switch` or `Select Case` statement:
 
 ```csharp
 enum MyEnum
@@ -345,7 +360,7 @@ Select Case myEnum
 End Select
 ```
 
-Using the **Add Both** Quick Action to fill in both missing cases and a default case will create the following:
+Using the **Add Both** Quick Action fills in missing cases and adds a default case:
 
 ```csharp
 switch(myEnum)
@@ -360,6 +375,7 @@ switch(myEnum)
         break;
 }
 ```
+
 ```vb
 Select Case myEnum
     Case MyEnum.Item1
@@ -372,6 +388,7 @@ End Select
 ```
 
 #### Add null checks for parameters
+
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
@@ -405,6 +422,7 @@ class MyClass
 ```
 
 #### Add argument name
+
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
@@ -420,6 +438,7 @@ var date = new DateTime(year: 1997, month: 7, day: 8);
 ```
 
 #### Add braces
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0011 | C# | Visual Studio 2017 RTW |
@@ -434,13 +453,14 @@ if (true)
 // Add braces
 
 // After
-if (true) 
+if (true)
 {
     return "hello,world";
 }
 ```
 
 #### Add and order modifiers
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0036 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
@@ -463,6 +483,7 @@ internal enum Color
     Red, White, Blue
 }
 ```
+
 ```csharp
 // Before
 static private int thisFieldIsPublic;
@@ -471,12 +492,12 @@ static private int thisFieldIsPublic;
 
 // After
 private static int thisFieldIsPublic;
-
 ```
 
 ### <a id="transform"></a> Code transformations
 
 #### Convert **if** construct to **switch**
+
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
@@ -531,6 +552,7 @@ End Select
 ```
 
 #### Convert to interpolated string
+
 | Applicable Languages |  Supported Version |
 | -------------------- | ----------------  |
 | C# 6.0+ and Visual Basic 14+ | Visual Studio 2017 RTW |
@@ -548,6 +570,7 @@ string s = string.Format("My string with {0} in the middle", num);
 int num = 3;
 string s = $"My string with {num} in the middle";
 ```
+
 ```vb
 ' Before
 Dim num as Integer = 3
@@ -561,6 +584,7 @@ Dim s As String = $"My string with {num} in the middle"
 ```
 
 #### Use object initializers
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0017 | C# and Visual Basic | Visual Studio 2017 RTW |
@@ -577,6 +601,7 @@ c.Age = 21;
 // After
 var c = new Customer() { Age = 21 };
 ```
+
 ```vb
 ' Before
 Dim c = New Customer()
@@ -589,6 +614,7 @@ Dim c = New Customer() With {.Age = 21}
 ```
 
 #### Use collection initializers
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0028 | C# and Visual Basic | Visual Studio 2017 RTW |
@@ -607,6 +633,7 @@ list.Add(3);
 // After
 var list = new List<int> { 1, 2, 3 };
 ```
+
 ```vb
 ' Before
 Dim list = New List(Of Integer)
@@ -619,9 +646,10 @@ list.Add(3)
 ' After
 Dim list = New List(Of Integer) From {1, 2, 3}
 
-```  
+```
 
 #### Convert auto property to full property
+
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
 | C# and Visual Basic | Visual Studio 2017 version 15.5 |
@@ -638,9 +666,10 @@ private int MyProperty { get; set; }
 private int MyProperty
 {
     get { return _myProperty; }
-    set { _myProperty = value; } 
+    set { _myProperty = value; }
 }
 ```
+
 ```vb
 ' Before
 Public Property Name As String
@@ -658,10 +687,10 @@ Public Property Name As String
         _Name = Value
     End Set
 End Property
-
 ```
 
 #### Convert block body to expression-bodied member
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0021-27 | C# 6.0+ | Visual Studio 2017 RTW |
@@ -714,13 +743,14 @@ class MyClass4
 ```
 
 #### Convert anonymous function to local function
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0039 | C# 7.0+ | Visual Studio 2017 version 15.5 |
 
 This Quick Action converts anonymous functions into local functions.
 
-```csharp 
+```csharp
 // Before
 Func<int, int> fibonacci = null;
 fibonacci = (int n) =>
@@ -735,10 +765,10 @@ int fibonacci(int n)
 {
     return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
 }
-
 ```
 
 #### Convert `ReferenceEquals` to `is null`
+
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 |
@@ -764,6 +794,7 @@ if (value is null)
 ```
 
 #### Introduce pattern matching
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0020 | C# 7.0+ | Visual Studio 2017 RTW |
@@ -773,25 +804,26 @@ This Quick Action suggests the use of [pattern matching](/dotnet/csharp/pattern-
 
 ```csharp
 // Before
-if (o is int) 
+if (o is int)
 {
-    var i = (int)o; 
-    ... 
+    var i = (int)o;
+    ...
 }
 
 // Use pattern matching
 
 // After
-if (o is int i) 
+if (o is int i)
 {
     ...
 }
 
 ```
+
 ```csharp
 // Before
 var s = o as string;
-if (s != null) 
+if (s != null)
 {
     ...
 }
@@ -799,13 +831,14 @@ if (s != null)
 // Use pattern matching
 
 // After
-if (o is string s) 
+if (o is string s)
 {
     ...
 }
 ```
 
 #### Change base for numeric literals
+
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
@@ -821,6 +854,7 @@ int countdown = 2097152;
 // After
 int countdown = 0x200000;
 ```
+
 ```vb
 ' Before
 Dim countdown As Integer = 2097152
@@ -832,11 +866,12 @@ Dim countdown As Integer = &H200000
 ```
 
 #### Insert digit separators into literals
+
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
 
-This Quick Action enables you to add separator characters into literal values.  
+This Quick Action enables you to add separator characters into literal values.
 
 ```csharp
 // Before
@@ -847,6 +882,7 @@ int countdown = 1000000;
 // After
 int countdown = 1_000_000;
 ```
+
 ```vb
 ' Before
 Dim countdown As Integer = 1000000
@@ -858,6 +894,7 @@ Dim countdown As Integer = 1_000_000
 ```
 
 #### Use explicit tuple names
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0033 | C# 7.0+ and Visual Basic 15+ | Visual Studio 2017 RTW |
@@ -875,6 +912,7 @@ var name = customer.Item1;
 (string name, int age) customer = GetCustomer();
 var name = customer.name;
 ```
+
 ```vb
 ' Before
 Dim customer As (name As String, age As Integer) = GetCustomer()
@@ -888,6 +926,7 @@ Dim name = customer.name
 ```
 
 #### Use inferred names
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0037 | C# | Visual Studio 2017 v. 15.5 |
@@ -895,7 +934,7 @@ Dim name = customer.name
 
 These Quick Actions point out when users can use inferred member names in anonymous types or use C# 7.1's inferred tuple element names.
 
-```csharp 
+```csharp
 // Before
 var anon = new { age = age, name = name };
 
@@ -904,6 +943,7 @@ var anon = new { age = age, name = name };
 // After
 var anon = new { age, name };
 ```
+
 ```csharp
 // Before
 var tuple = (age: age, name: name);
@@ -912,17 +952,17 @@ var tuple = (age: age, name: name);
 
 // After
 var tuple = (age, name);
-
 ```
 
 #### Deconstruct tuple declaration
+
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0042 | C# 7.0+ | Visual Studio 2017 v. 15.5 |
 
 This Quick Action enables you to deconstruct tuple variable declarations. 
 
-```csharp 
+```csharp
 // Before
 var person = GetPersonTuple();
 Console.WriteLine($"{person.name} {person.age}");
@@ -940,6 +980,7 @@ Console.WriteLine($"{name} {age}");
 Console.WriteLine($"{x} {y}");
 ```
 
-## See Also
-* [Code Styles and Quick Actions](code-styles-and-quick-actions.md)  
-* [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
+## See also
+
+[Code Styles and Quick Actions](code-styles-and-quick-actions.md)  
+[Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)

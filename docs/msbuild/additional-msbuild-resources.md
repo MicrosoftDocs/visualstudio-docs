@@ -604,6 +604,8 @@ author: "kempb"
 ms.author: "kempb"
 manager: ghogen
 redirect_url: https://social.msdn.microsoft.com/Forums/vstudio/home?forum=msbuild
+ms.workload: 
+  - "multiple"
 ---
 # Additional MSBuild Resources
 If you are trying to solve a problem and cannot find the information you need in the documentation, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  

@@ -1,7 +1,7 @@
 ---
 title: R Tools for Visual Studio FAQ | Microsoft Docs
 ms.custom: ""
-ms.date: 11/13/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e656ac64-915a-40bb-8196-93d33250ef98
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Frequently asked questions
@@ -94,7 +95,7 @@ A. No, because Microsoft R Server is a different technology and does not provide
 
 Q. **Can RTVS connect to a VM created using the Data Science VM image on Azure?**
 
-A. Yes; the Data Science VM image comes preinstalled with Remote R Services for Visual Studio.
+A. Yes; the [Data Science VM - Windows 2016](https://azure.microsoft.com/services/virtual-machines/data-science-virtual-machines/) image comes preinstalled with Remote R Services for Visual Studio.
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 

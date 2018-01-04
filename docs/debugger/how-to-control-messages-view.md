@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Control Messages View
 With Spy++, you have considerable control over the content of a [Messages View](../debugger/messages-view.md) window. You can [start and stop](../debugger/how-to-start-and-stop-the-message-log-display.md) displaying the messages at any time, and you can specify:  

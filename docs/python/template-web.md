@@ -1,5 +1,5 @@
 ---
-title: Web Project Template for Python in Visual Studio | Microsoft Docs
+title: Web project templates for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -9,22 +9,23 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 401e7725-8be5-4e67-862c-bf0690a529e3
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
-# Python Web Project Templates
+# Python web project templates
 
-Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. You can also use the generic "Web Project" template for other frameworks such as Pyramid.
+Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. You can also use the generic **Web Project** template for other frameworks such as Pyramid.
 
 Visual Studio does not include the frameworks themselves. You must install frameworks separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
 
 When run, a project created from a template (as accessed through **File > New > Project...**) launches a web server with a randomly selected local port, opens your default browser when debugging, and allows direct publishing to Microsoft Azure.
 
-![New Web Project templates](media/template-web-new-project.png)
+![New web project templates](media/template-web-new-project.png)
 
 The Bottle, Flask, and Django templates each include a starter site with some pages and static files. This code is sufficient to run and debug the server locally (where some settings need to be obtained from the environment) and to deploy to Microsoft Azure (where a [WSGI app](http://www.python.org/dev/peps/pep-3333/) object needs to be provided).
 
@@ -34,7 +35,7 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](https://aka.ms/PythonOnAppService) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a `requirements.txt` file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](https://aka.ms/PythonOnAppService).
 
-Microsoft Azure Cloud Service *does* support the `requirements.txt` file. [Azure Cloud Service Projects](template-azure-cloud-service.md) for details.
+Microsoft Azure Cloud Services *does* support the `requirements.txt` file. [Azure cloud service Projects](template-azure-cloud-service.md) for details.
 
 ## Debugging
 
@@ -60,12 +61,12 @@ Any project property or environment variable can be specified with MSBuild synta
 > [!Note]
 > Values in **Run Server Command** are used with the **Debug > Start Server** command or Ctrl-F5; values in the **Debug Server Command** group are used with the **Debug > Start Debug Server** command or F5.
 
-
 ### Sample Bottle configuration
 
-The Bottle Web Project template includes boilerplate code that does the necessary configuration. An imported bottle app may not include this code, however, in which case the following settings launch the app using the installed `bottle` module:
+The **Bottle Web Project** template includes boilerplate code that does the necessary configuration. An imported bottle app may not include this code, however, in which case the following settings launch the app using the installed `bottle` module:
 
 - **Run Server Command** group:
+
     - **Command**: `bottle` (module)
     - **Arguments**: `--bind=%SERVER_HOST%:%SERVER_PORT% {StartupModule}:app`
 
@@ -77,9 +78,10 @@ The `--reload` option is not recommended when using Visual Studio for debugging.
 
 ### Sample Pyramid configuration
 
-Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [From Existing Python Code](python-projects.md#creating-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
+Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [From existing Python code](python-projects.md#creating-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
 
 - **Debug** group:
+
     - **Server Port**: 6543 (or whatever is configured in the .ini files)
 
 - **Run Server Command** group:
@@ -92,7 +94,6 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 
 > [!Tip]
 > You'll likely need to configure the **Working Directory** property of your project because Pyramid apps are typically one directory level deeper than the top of the source tree.
-
 
 ### Other configurations
 
@@ -159,13 +160,13 @@ The available items include:
 - Azure web.config (HttpPlatformHandler): adds a `web.config` file for when your app listens on a socket for incoming connections.
 - Azure Static files web.config: when you have one of the above `web.config` files, add the file to a subdirectory to exclude it from being handled by your app.
 - Azure Remote debugging web.config: adds the files necessary for remote debugging over WebSockets.
-- Web Role Support Files: contains the default deployment scripts for Cloud Service web roles.
-- Worker Role Support Files: contains the default deployment and launch scripts for Cloud Service worker roles.
+- Web Role Support Files: contains the default deployment scripts for cloud service web roles.
+- Worker Role Support Files: contains the default deployment and launch scripts for cloud service worker roles.
 
 If you add the debugging `web.config` template to your project and plan to use Python remote debugging, you need to publish the site in "Debug" configuration. This setting is separate from the current active solution configuration and always defaults to "Release." To change it, open the **Settings** tab and use the **Configuration** combo box in the publish wizard (see the [Azure documentation](https://azure.microsoft.com/develop/python/) for more information on creating and deploying to Azure Web Apps):
 
 ![Changing the publish configuration](media/template-web-publish-config.png)
 
-The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a Cloud Service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Service; the **Publish** command on the Python project still deploys to Web Sites. See [Azure Cloud Service Projects](template-azure-cloud-service.md) for more details.
+The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. See [Azure cloud service Projects](template-azure-cloud-service.md) for more details.
 
-![Convert to Microsoft Azure Cloud Service Project command](media/template-web-convert-menu.png)
+![Convert to Microsoft Azure cloud service project command](media/template-web-convert-menu.png)

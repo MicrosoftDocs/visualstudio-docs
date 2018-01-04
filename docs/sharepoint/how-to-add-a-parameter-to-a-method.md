@@ -25,6 +25,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Parameter to a Method
   Use a parameter to pass information into the method or to return information from a method. All methods must have at least one parameter. For more information about how to design a parameter to support the type of method that you want to create, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  

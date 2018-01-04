@@ -27,6 +27,8 @@ caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Assertions in Managed Code
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.  

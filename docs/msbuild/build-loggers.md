@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Build Loggers
 Loggers provide a way for you to customize the output of your build and display messages, errors, or warnings in response to specific build events. Each logger is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ILogger> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  

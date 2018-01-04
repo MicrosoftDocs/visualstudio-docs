@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramPublisher2::PublishProgram
 This method makes a program available for debug engines (DEs) and the session debug manager.  

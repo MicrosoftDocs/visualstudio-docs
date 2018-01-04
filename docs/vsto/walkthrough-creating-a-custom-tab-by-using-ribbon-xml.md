@@ -23,6 +23,8 @@ caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Custom Tab by Using Ribbon XML
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.  

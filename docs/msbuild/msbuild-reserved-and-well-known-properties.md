@@ -20,6 +20,8 @@ caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Reserved and Well-Known Properties
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  

@@ -21,6 +21,8 @@ caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Supported code changes (C# and Visual Basic)
 Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
@@ -94,8 +96,6 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone a
 -   SQL debugging.  
   
 -   Debugging a Dr. Watson dump.  
-  
--   Editing code after an unhandled exception, when the "**Unwind the call stack on unhandled exceptions**" option is not selected.  
   
 -   Debugging an embedded runtime application.  
   

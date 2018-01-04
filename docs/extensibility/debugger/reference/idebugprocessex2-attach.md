@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessEx2::Attach
 This method informs the process that a session is now debugging the process.  

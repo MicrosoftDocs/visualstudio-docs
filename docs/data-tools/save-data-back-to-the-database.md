@@ -24,6 +24,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Save data back to the database
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:  
@@ -212,7 +214,7 @@ The following table describes which changes are committed based on what object t
 -   In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.  
   
     > [!IMPORTANT]
-    >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType.Text>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible. For more information, see [Script Exploits Overview](http://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
+    >  When using data commands with a <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> property that's set to <xref:System.Data.CommandType.Text>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. It's a best practice to always use parameterized queries or stored procedures when possible.  
   
 ## Transmitting updates to the data source  
 After changes have been made in a dataset, you can transmit the changes to a data source. Most commonly, you do this by calling the `Update` method of a TableAdapter (or data adapter). The method loops through each record in a data table, determines what type of update is required (update, insert, or delete), if any, and then runs the appropriate command.  
@@ -253,7 +255,7 @@ After changes have been made in a dataset, you can transmit the changes to a dat
   
  The <xref:System.Data.SqlClient.SqlParameter.SourceColumn%2A?displayProperty=fullName> property of each parameter points to a column in the data table. For example, the `SourceColumn` property for the `au_id` and `Original_au_id` parameters is set to whatever column in the data table contains the author id. When the adapter's `Update` method runs, it reads the author id column from the record that's being updated and fills the values into the statement.  
   
- In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are therefore two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's [SqlParameter.SourceVersion Property](https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlparameter.sourceversion.aspx). The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.  
+ In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are therefore two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's <xref:System.Data.SqlClient.SqlParameter.SourceVersion> property. The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.  
   
 > [!NOTE]
 >  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  

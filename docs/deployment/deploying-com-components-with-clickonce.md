@@ -23,6 +23,8 @@ caps.latest.revision: 12
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Deploying COM Components with ClickOnce
 Deployment of legacy COM components has traditionally been a difficult task. Components need to be globally registered and thus can cause undesirable side effects between overlapping applications. This situation is generally not a problem in .NET Framework applications because components are completely isolated to an application or are side-by-side compatible. Visual Studio allows you to deploy isolated COM components on the Windows XP or higher operating system.  

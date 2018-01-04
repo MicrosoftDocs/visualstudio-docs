@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugQueryEngine2
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).  

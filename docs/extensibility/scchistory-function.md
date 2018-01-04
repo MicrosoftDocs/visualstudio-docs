@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccHistory Function
 This function displays the history of the specified files.  

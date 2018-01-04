@@ -21,6 +21,8 @@ caps.latest.revision: 31
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Trusted Application Deployment Overview
 This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications that have elevated permissions by using the Trusted Application Deployment technology.  

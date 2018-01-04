@@ -16,6 +16,8 @@ caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use Reserved XML Characters in Project Files
 When you author project files, you might need to use reserved XML characters, for example, in property values or in task parameter values. However, some reserved characters must be replaced by a named entity so that the project file can be parsed.  
@@ -25,18 +27,18 @@ When you author project files, you might need to use reserved XML characters, fo
   
 |Reserved character|Named entity|  
 |------------------------|------------------|  
-|\<|&lt;|  
-|>|&gt;|  
-|&|&amp;|  
-|"|&quot;|  
-|'|&apos;|  
+|\<|&amp;lt;|  
+|>|&amp;gt;|  
+|&|&amp;amp;|  
+|"|&amp;quot;|  
+|'|&amp;apos;|  
   
 #### To use double quotes in a project file  
   
--   Replace the double quotes with the corresponding named entity, &quot;. For example, to place double quotes around the `EXEFile` item list, type:  
+-   Replace the double quotes with the corresponding named entity, &amp;quot;. For example, to place double quotes around the `EXEFile` item list, type:  
   
     ```xml  
-    <Message Text="The output file is "@(EXEFile)"."/>  
+    <Message Text="The output file is &quot;@(EXEFile)&quot;."/>  
     ```  
   
 ## Example  
@@ -64,11 +66,11 @@ When you author project files, you might need to use reserved XML characters, fo
                 ItemName = "EXEFile"/>  
         </Csc>  
         <!-- Log the file name of the output file -->  
-        <Message Text="The output file is "@(EXEFile)"."/>  
+        <Message Text="The output file is &quot;@(EXEFile)&quot;."/>  
     </Target>  
 </Project>  
 ```  
   
 ## See Also  
- [MSBuild Reference](../msbuild/msbuild-reference.md)
- [MSBuild](../msbuild/msbuild.md)
+ [MSBuild Reference](../msbuild/msbuild-reference.md)    
+ [MSBuild](../msbuild/msbuild.md)    

@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Quick Info in a Legacy Language Service
 IntelliSense Quick Info shows information about an identifier in the source when the user either places the caret in the identifier and selects **Quick Info** from the **IntelliSense** menu or holds the mouse cursor over the identifier. This causes a tool tip to appear with information about the identifier. This information typically consists of the identifier type. When the debug engine is active, this information might include the current value. The debug engine supplies expression values , while the language service handles only identifiers.  

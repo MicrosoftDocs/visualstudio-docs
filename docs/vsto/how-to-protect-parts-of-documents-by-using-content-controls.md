@@ -24,6 +24,8 @@ caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Protect Parts of Documents by Using Content Controls
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:  

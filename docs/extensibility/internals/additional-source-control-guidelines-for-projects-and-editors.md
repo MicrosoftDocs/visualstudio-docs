@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Additional Source Control Guidelines for Projects and Editors
 There are a number of guidelines that projects and editors should adhere to in order to support source control.  

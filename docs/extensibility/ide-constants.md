@@ -21,6 +21,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDE Constants
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.  

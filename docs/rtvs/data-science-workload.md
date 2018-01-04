@@ -1,7 +1,7 @@
 ---
-title: Data Science and Analytical Applications Workload in Visual Studio | Microsoft Docs
+title: Data Science and Analytical Applications workload in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,11 +10,12 @@ ms.technology:
   - "devlang-fsharp"
 ms.tgt_pltfrm: ""
 ms.topic: "landing-page"
-ms.assetid: 018069f3-6d1a-4143-a851-d86d2ff5fbfc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Data Science and Analytical Applications workload

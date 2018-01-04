@@ -19,6 +19,8 @@ caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Expose Lists of Symbols Provided by the Library to the Object Manager
 The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, pass requests for new data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager. The object manager finds the appropriate libraries and requests new lists of symbols. The libraries respond by providing requested data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager calls the methods in <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface to obtain the data and uses it to populate or update the views of the symbol-browsing tools.  

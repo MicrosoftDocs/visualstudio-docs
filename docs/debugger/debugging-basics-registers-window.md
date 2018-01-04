@@ -22,6 +22,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # About the Registers Window in Visual Studio
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  

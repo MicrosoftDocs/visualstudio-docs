@@ -4,44 +4,28 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Productivity Tips for Visual Studio
+# Productivity tips for Visual Studio
 
-By following these tips, you can more quickly and efficiently write, navigate, and debug your code in Visual Studio. For more information about common keyboard shortcuts, see [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md). For a more complete list, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+By following these tips, you can more quickly and efficiently write, navigate, and debug your code in Visual Studio.
 
-## Accessing Visual Studio Tools
+For more information about common keyboard shortcuts, see [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md). For a more complete list, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-You can more easily access the Developer Command Prompt or another tool if you pin it to the Start screen or the taskbar.
+## Accessing Visual Studio tools
 
-1. From the Start screen, enter `Visual Studio Tools`, and then choose the **Enter** key.
+You can quickly access the Developer Command Prompt, or another Visual Studio tool, if you pin it to the Start menu or the taskbar.
 
-1. In **File Explorer**, open the shortcut menu for the item that you want:
+1. In Windows Explorer, browse to `%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools`.
 
-    - Build Notifications
-
-    - Debuggable Package Manager
-
-    - Developer Command Prompt for VS2013
-
-    - Microsoft Feedback Client 2013
-
-    - VS2013 ARM Cross Tools Command Prompt
-
-    - VS2013 x64 Cross Tools Command Prompt
-
-    - VS2013 x64 Native Tools Command Prompt
-
-    - VS2013 x86 Native Tools Command Prompt
-
-1. Choose **Pin to Start** or **Pin to Taskbar**.
+1. Right-click or open the context menu for **Developer Command Prompt**, and then choose **Pin to Start** or **Pin to taskbar**.
 
 ## Writing code
 
@@ -87,11 +71,11 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Display only the errors you want to address**. If you choose the **Filter** button on the **Error List** toolbar, you can reduce the number of errors that appear in the **Error List** window. You can display only the errors in the files that are open in the editor, only the errors in the current file, or only the errors in the current project. You can also search within the Error List window to find specific errors.
 
-- **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
+- **Find dialog boxes, menu commands, and options**. In the [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
 
-     ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
+    ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
 
-     **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the Projects and Solutions page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
+    **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the Projects and Solutions page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
 ## Debugging Code
 
@@ -99,11 +83,11 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
-     ![Select Web browser debug options](../ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")
+    ![Select Web browser debug options](../ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")
 
 - **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-     To use this feature, choose the **Ctrl** + **F10** keys, or open the shortcut menu for the line of code on which you want to break, and then choose **Run To Cursor**.
+    To use this feature, choose the **Ctrl** + **F10** keys, or open the shortcut menu for the line of code on which you want to break, and then choose **Run To Cursor**.
 
 - **Move the execution point during debugging**. You can move the current execution point to a different section of code and then restart debugging from that point. This technique is useful if you want to debug a section of code without having to recreate all of the steps that are required to reach that section. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
 

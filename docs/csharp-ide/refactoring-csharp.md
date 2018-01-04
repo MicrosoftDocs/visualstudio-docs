@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Refactoring Features (C#) | Microsoft Docs"
+title: "C# refactoring features in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/27/2017"
 ms.reviewer: ""
@@ -17,10 +17,14 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
-# Refactoring features for C# #
+# Refactoring features in C# #
 
-Refactoring is the process of improving your code after it has been written. Refactoring changes the internal structure of the code without changing its behavior. The following refactoring features are available in Visual Studio for C#:
+Refactoring is the process of changing the internal structure of code without changing its behavior. Refactoring is often used to make code more readable, maintainable, and reliable.
+
+The following refactoring features are available in Visual Studio for C#:
 
 * [Change Method Signature](refactoring/change-method-signature.md)
 * [Convert Get method to property/property to Get method](refactoring/convert-get-method-to-property.md)
@@ -36,4 +40,6 @@ Refactoring is the process of improving your code after it has been written. Ref
 
 ## See also
 
-[Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)  
+[Refactoring, Code Generation and Quick Actions in Visual Studio](../ide/refactoring-code-generation-quick-actions.md)  
+[Refactoring in Visual Basic](../vb-ide/refactoring-vb.md)  
+[Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)

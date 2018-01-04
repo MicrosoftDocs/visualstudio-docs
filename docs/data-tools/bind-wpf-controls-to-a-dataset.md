@@ -19,6 +19,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Bind WPF controls to a dataset
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You will also add buttons to browse through products and save changes to product records.  
@@ -45,8 +47,6 @@ You need the following components to complete this walkthrough:
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
 -   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter](../data-tools/create-and-configure-tableadapters.md).  
-  
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).  
   
@@ -252,5 +252,4 @@ Add code that enables users to save changes to product records by using the **Sa
 ## See also
 [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
 [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
-[WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
 [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)

@@ -11,6 +11,8 @@ caps.latest.revision: 6
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Updating Shapes and Connectors to Reflect the Model
 In a domain-specific language in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can make the appearance of a shape reflect the state of the underlying model.  

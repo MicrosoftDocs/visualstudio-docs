@@ -1,23 +1,23 @@
 ---
-title: "Tips and Tricks for Visual Studio | Microsoft Docs"
+title: "Visual Studio keyboard shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Tips and Tricks for Visual Studio
-You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. This topic is only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).  
+# Tips and tricks for Visual Studio
 
-##  <a name="BKMK_WindowMgmt"></a> Window Management  
+You can navigate in Visual Studio more easily by using the shortcuts in this topic. This topic is only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
+
+##  <a name="BKMK_WindowMgmt"></a> Window management
 
 |||  
 |-|-|  
@@ -28,7 +28,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Show Open File List|Ctrl+Alt+Down|  
 |Show All Floating Windows|Ctrl+Shift+M|  
 
-##  <a name="BKMK_WindowShortcuts"></a> Window Shortcuts  
+##  <a name="BKMK_WindowShortcuts"></a> Window shortcuts
 
 |||  
 |-|-|  
@@ -38,7 +38,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Start New Instance|Win+Shift+n|  
 |Switch Between Windows|Win+n|  
 
-##  <a name="BKMK_Search"></a> Visual Studio Search  
+##  <a name="BKMK_Search"></a> Visual Studio search
 
 |||  
 |-|-|  
@@ -48,7 +48,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Quick Launch Scope Results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|  
 |Search in Tools Options|Ctrl+E|  
 
-##  <a name="BKMK_EditorFind"></a> Editor Find  
+##  <a name="BKMK_EditorFind"></a> Editor find
 
 |||  
 |-|-|  
@@ -63,7 +63,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Find in Files|Ctrl+Shift+F|  
 |Replace in Files|Ctrl+Shift+H|  
 
-##  <a name="BKMK_CodeEditor"></a> Code Editor  
+##  <a name="BKMK_CodeEditor"></a> Code Editor
 
 |||  
 |-|-|  
@@ -87,7 +87,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Navigate between multiple Peek results|F8 and Shift+F8|  
 |Toggle between the code editor window and the Peek Definition window|Shift+Esc|  
 
-##  <a name="BKMK_Toolbars"></a> Toolbars  
+##  <a name="BKMK_Toolbars"></a> Toolbars
 
 |||  
 |-|-|  
@@ -96,7 +96,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Find Textbox Command Mode|Type ">"|  
 |Create new alias|>alias NewAlias Command|  
 
-##  <a name="BKMK_Debugging"></a> Debugging  
+##  <a name="BKMK_Debugging"></a> Debugging
 
 |||  
 |-|-|  
@@ -115,12 +115,14 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Immediate Window Clear Buffer|>cls|  
 |Immediate Window Print Value|?varname|  
 
-##  <a name="BKMK_ALM"></a> Application Lifecycle Management  
- See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/en-us/35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
+##  <a name="BKMK_ALM"></a> Application Lifecycle Management
 
-## See Also  
- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)   
- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)   
- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)   
- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)   
- [Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)
+See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/en-us/35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
+
+## See also
+
+[Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)  
+[Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)  
+[Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)  
+[Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
+[Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)

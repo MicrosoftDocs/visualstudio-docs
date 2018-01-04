@@ -21,6 +21,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FindInList Task
 In a specified list, finds an item that has the matching itemspec.  

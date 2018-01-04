@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Work with multiple user accounts
 
@@ -77,4 +79,4 @@ Now go to **Server Explorer** again, right-click on the Azure node and choose **
 
 ## See also
 
-[Internet resources used by Visual Studio](../ide/connected-environment.md)
+[Sign in to Visual Studio](signing-in-to-visual-studio.md)

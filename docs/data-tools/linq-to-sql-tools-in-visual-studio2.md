@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # LINQ to SQL Tools in Visual Studio
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it is no longer under active development. Use LINQ to SQL when maintaining a legacy application that is already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.  
@@ -57,7 +59,7 @@ The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md
  Like other objects, [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes can use inheritance and be derived from other classes. In a database, inheritance relationships are created in several ways. The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] supports the concept of single-table inheritance as it is often implemented in relational systems. For more information, see [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md).  
   
 ## LINQ to SQL Queries  
- The entity classes created by the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] are designed for use with [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d). For more information, see [How to: Query for Information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).  
+ The entity classes created by the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] are designed for use with [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/). For more information, see [How to: Query for Information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).  
   
 ## Separating the Generated DataContext and Entity Class Code into Different Namespaces  
  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] provides the **Context Namespace** and **Entity Namespace** properties on the <xref:System.Data.Linq.DataContext>. These properties determine what namespace the <xref:System.Data.Linq.DataContext> and entity class code is generated into. By default, these properties are empty and the <xref:System.Data.Linq.DataContext> and entity classes are generated into the application's namespace. To generate the code into a namespace other than the application's namespace, enter a value into the **Context Namespace** and/or **Entity Namespace** properties.

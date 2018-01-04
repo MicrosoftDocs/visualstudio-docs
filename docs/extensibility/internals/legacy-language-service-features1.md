@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Features
 A managed package framework (MPF) language service can support one or more [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] features, such as syntax highlighting, IntelliSense, and breakpoint validation. Each feature can be implemented independent of the others but all require a parser and a scanner except for syntax highlighting, which requires only a scanner.  

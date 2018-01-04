@@ -10,18 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Project Designer, Publish page"
   - "Publish page in Project Designer"
-ms.assetid: 153527c6-8b95-4003-8e8e-03a489d0a629
-caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Publish Page, Project Designer
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  

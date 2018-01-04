@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Isolated Shell Entry Point Parameters (C++)
 When a Visual Studio shell-based application starts, it calls the Start entry point of the Visual Studio shell. The following settings can be overridden in the call to the Start entry point of the shell. For a description of each setting, see [.Pkgdef Files](modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  

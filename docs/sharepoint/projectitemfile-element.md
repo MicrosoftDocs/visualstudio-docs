@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ProjectItemFile Element
   Represents a SharePoint file, such as Feature element file, to include with the project item when it is deployed to SharePoint.  

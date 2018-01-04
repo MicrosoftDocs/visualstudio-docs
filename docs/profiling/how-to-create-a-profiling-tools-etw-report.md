@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Profiling Tools ETW Report
 The Event Tracing for Windows (ETW) report lists the ETW events that are recorded in a performance session of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file. For more information about this report, see [Event Tracing for Windows (ETW) Report](../profiling/event-tracing-for-windows-etw-report.md).  

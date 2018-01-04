@@ -21,6 +21,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Development Samples and Walkthroughs
   This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to build SharePoint solutions.  

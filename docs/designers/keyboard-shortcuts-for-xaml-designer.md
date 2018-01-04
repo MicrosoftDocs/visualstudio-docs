@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Keyboard shortcuts  for XAML Designer
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.  

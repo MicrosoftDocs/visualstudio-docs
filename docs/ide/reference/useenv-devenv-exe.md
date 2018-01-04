@@ -24,6 +24,8 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /UseEnv (devenv.exe)
 Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  

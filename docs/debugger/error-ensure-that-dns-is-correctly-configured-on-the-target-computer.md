@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.callback_dns_failed"
 dev_langs: 
@@ -15,11 +15,12 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 2d364caf-73af-4186-bf9b-af186331cbe8
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 When trying to do remote debugging, you may get the following error message:  

@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttribute::GetParentField
 Gets the field to which the custom attribute is attached.  

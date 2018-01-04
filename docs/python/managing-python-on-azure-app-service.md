@@ -9,11 +9,13 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e56b5d55-6e6b-48af-af40-5172c768cabc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "azure"
 ---
 
 # Managing Python on Azure App Service
@@ -26,7 +28,7 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 > Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this topic.
 
 > [!Important]
-> The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).>
+> The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## Choosing a Python version through the Azure portal
 

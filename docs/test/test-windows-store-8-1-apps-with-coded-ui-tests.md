@@ -12,6 +12,8 @@ ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
 caps.latest.revision: 23
 ms.author: "douge"
 manager: "douge"
+ms.workload: 
+  - "uwp"
 ---
 # Test Windows UWP Apps with Coded UI Tests
 

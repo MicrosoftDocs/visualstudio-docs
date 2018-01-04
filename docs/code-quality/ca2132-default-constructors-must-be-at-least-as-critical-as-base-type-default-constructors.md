@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2132: Default constructors must be at least as critical as base type default constructors
 |||  

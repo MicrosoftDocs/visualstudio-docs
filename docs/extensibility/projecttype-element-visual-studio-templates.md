@@ -17,6 +17,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ProjectType Element (Visual Studio Templates)
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.  

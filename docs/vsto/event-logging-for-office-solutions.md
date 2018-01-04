@@ -21,6 +21,8 @@ caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Event Logging for Office Solutions
   You can use the event viewer in Windows to see exception messages that are captured by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems.  

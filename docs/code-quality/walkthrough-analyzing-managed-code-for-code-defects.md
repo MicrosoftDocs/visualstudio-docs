@@ -17,6 +17,8 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Walkthrough: Analyzing Managed Code for Code Defects
 In this walkthrough, you analyze a managed project for code defects by using the code analysis tool.  

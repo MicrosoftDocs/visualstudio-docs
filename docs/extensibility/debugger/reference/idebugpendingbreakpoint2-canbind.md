@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPendingBreakpoint2::CanBind
 Determines whether this pending breakpoint can bind to a code location.  

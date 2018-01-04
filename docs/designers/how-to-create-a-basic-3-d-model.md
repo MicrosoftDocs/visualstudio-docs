@@ -13,6 +13,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Basic 3-D Model
 This document demonstrates how to use the Model Editor to create a basic 3-D model.  

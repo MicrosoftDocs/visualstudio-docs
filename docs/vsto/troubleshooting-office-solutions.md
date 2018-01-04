@@ -20,6 +20,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Office Solutions
   This section contains tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.  

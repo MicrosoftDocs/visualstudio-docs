@@ -14,6 +14,8 @@ caps.latest.revision: 13
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Using the Workflow Designer
 This section details how to create new activities and workflow projects using the built-in designers and the expression editor that is hosted by several of the activity designers.  

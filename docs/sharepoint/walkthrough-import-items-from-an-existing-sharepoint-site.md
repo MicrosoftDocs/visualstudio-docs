@@ -21,6 +21,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Import Items from an Existing SharePoint Site
   This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.  

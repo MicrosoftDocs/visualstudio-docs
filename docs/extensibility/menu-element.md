@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Menu Element
 Defines one menu item. These are the six kinds of menus: Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.  

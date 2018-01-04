@@ -16,6 +16,8 @@ caps.latest.revision: 24
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Overriding ToolsVersion Settings
 You can change the Toolset for projects and solutions in one of three ways:  

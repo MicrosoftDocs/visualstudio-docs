@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.extractmethod"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "dotnet"
 ---
 
 # Extract a method in C# #

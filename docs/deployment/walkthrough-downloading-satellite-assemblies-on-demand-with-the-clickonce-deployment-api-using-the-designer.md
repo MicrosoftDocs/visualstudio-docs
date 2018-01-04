@@ -25,6 +25,8 @@ caps.latest.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer
 Windows Forms applications can be configured for multiple cultures through the use of satellite assemblies. A *satellite assembly* is an assembly that contains application resources for a culture other than the application's default culture.  

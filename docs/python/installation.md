@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ce3d3656-7ba2-490d-92df-0bb3e3badf92
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Installing Python support in Visual Studio on Windows
@@ -24,7 +25,7 @@ To install Python support for Visual Studio, follow the instructions in the sect
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
 
-For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice (Python  3.5 and earlier; 3.6 is not supported). For details, see [Python Environments](python-environments.md). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
+For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice (Python  3.5 and earlier; 3.6 is not supported). For details, see [Python environments](python-environments.md). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
 
 To quickly test Python support after following the installation steps, Open the Python Interactive window by pressing Alt-I and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
@@ -64,12 +65,11 @@ To quickly test Python support after following the installation steps, Open the 
     | Python web support | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](template-web.md). |
     | Python IoT support | Supports Windows IoT Core development using Python. |
     | Python native development tools | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Creating a C++ extension for Python](cpp-and-python.md). |
-    | Azure Cloud Services core tools | Provides additional support for developer Azure Cloud Services in Python. See [zure Cloud Service Projects](template-azure-cloud-service.md). |
+    | Azure Cloud Services core tools | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service Projects](template-azure-cloud-service.md). |
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio when updates are available for any installed components. (The modify option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows Start menu by searching on "Visual Studio".
 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
-
 
 > [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567]
 

@@ -4,16 +4,17 @@ ms.custom: ""
 ms.date: 09/25/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3fd90afb-8d76-4c93-81f2-e10edbed2069
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Quickstart: create a Python project from existing code
@@ -27,13 +28,12 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 
 8. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**. 
 
-
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
 
-## See Also
+## See also
 
 - [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installation.md).

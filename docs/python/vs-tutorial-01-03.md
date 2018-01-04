@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-ms.assetid: 5d6d12e4-f06a-4c3f-8efa-f9fd9711c942
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Step 3: Using the interactive REPL window
@@ -45,7 +46,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
     ```python
     # Create a string with spaces proportional to a cosine of x in degrees
-    def make_dot_string(x):  
+    def make_dot_string(x):
         return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
     ```
 
@@ -60,8 +61,8 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
     ```python
     for i in range(360):
-        s = make_dot_string(i)  
-        print(s) 
+        s = make_dot_string(i)
+        print(s)
     ```
 
     ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
@@ -80,21 +81,20 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
     ```python
     for i in range(0, 1800, 12):
-        s = make_dot_string(i)  
-        print(s) 
+        s = make_dot_string(i)
+        print(s)
     ```
 
     If you want to copy the exact contents of the interactive window, including prompts and output, just use the standard **Copy** command.
 
 1. What you've just done is use the rapid REPL environment of the interactive window to work out the details for a small piece of code, then you conveniently added that code to your project's source file. When you now run the code again with Ctrl+F5 (or **Debug > Start Without Debugging**), you see the exact results you wanted.
 
-
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Running code in the debugger](vs-tutorial-01-04.md)
 
 ### Going deeper
 
-- [Using the Interactive window](interactive-repl.md)
+- [Using the Interactive Window](interactive-repl.md)
 - [Using IPython REPL](interactive-repl-ipython.md)

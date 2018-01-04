@@ -17,6 +17,8 @@ f1_keywords:
   - "vs.csharp.refactoring.extractinterface"
 dev_langs: 
   - csharp
+ms.workload: 
+  - "dotnet"
 ---
 
 # Extract an interface in C# #

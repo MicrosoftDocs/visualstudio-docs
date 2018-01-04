@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Threads View
 The Threads view is a flat listing of all threads associated with windows on your system. The Thread ID and module name for each thread are shown. Processes are not included, but you can easily find the process that owns a selected thread.  

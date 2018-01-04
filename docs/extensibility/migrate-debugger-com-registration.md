@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregg-miskelly"
 ms.author: "greggm"
 manager: ghogen
+ms.workload: 
+  - "greggm"
 ---
 # Migrate 64-bit debugger COM class registration
 

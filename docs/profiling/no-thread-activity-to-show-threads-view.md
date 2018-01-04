@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # No Thread Activity to Show (Threads View)
 This area shows data about the unhidden threads in the currently visible time range.  

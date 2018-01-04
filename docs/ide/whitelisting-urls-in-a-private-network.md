@@ -12,6 +12,8 @@ ms.assetid:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Whitelisting URLs in a private network
 
@@ -53,5 +55,4 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 ## See also
 
 [Proxy authorization required error](../ide/reference/proxy-authorization-required.md)  
-[Internet resources used by Visual Studio](../ide/connected-environment.md)  
 [Install Visual Studio behind a firewall or proxy server](../install/install-visual-studio-behind-a-firewall-or-proxy-server.md)

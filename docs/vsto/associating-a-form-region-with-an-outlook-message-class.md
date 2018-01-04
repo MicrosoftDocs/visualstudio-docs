@@ -21,6 +21,8 @@ caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Associating a Form Region with an Outlook Message Class
   You can specify which Microsoft Office Outlook items display a form region by associating the form region with the message class of each item. For example, if you want to append a form region to the bottom of a mail item, you can associate the form region with the IPM.Note message class.  

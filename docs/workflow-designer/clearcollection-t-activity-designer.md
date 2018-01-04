@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # ClearCollection&lt;T&gt; Activity Designer
 The **ClearCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.  

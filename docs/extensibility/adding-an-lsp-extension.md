@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/14/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Language Server Protocol extension
 
@@ -58,8 +60,8 @@ client/unregisterCapability |
 workspace/didChangeConfiguration | yes
 workspace/didChangeWatchedFiles | yes
 workspace/symbol | yes
-workspace/executeCommand |
-workspace/applyEdit |
+workspace/executeCommand | yes
+workspace/applyEdit | yes
 textDocument/publishDiagnostics | yes
 textDocument/didOpen | yes
 textDocument/didChange | yes
@@ -78,12 +80,12 @@ textDocument/formatting | yes
 textDocument/rangeFormatting | yes
 textDocument/onTypeFormatting |
 textDocument/definition | yes
-textDocument/codeAction |
+textDocument/codeAction | yes
 textDocument/codeLens |
 codeLens/resolve |
 textDocument/documentLink |
 documentLink/resolve |
-textDocument/rename |
+textDocument/rename | yes
 
 ## Getting Started
 
@@ -330,6 +332,24 @@ Follow these steps below to add support for settings to your LSP language servic
     "foo.maxNumberOfProblems": 10
   }
   ```
+### Enabling diagnostics tracing
+Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, please do the following:
+
+1. Open or create the workspace settings file "VSWorkspaceSettings.json" (see above).
+2. Add the following line in the settings json file:
+
+```json
+{
+    "foo.server.trace": "Off"
+}
+```
+
+There are 3 possible values for trace verbosity:
+* "Off": tracing turned off completely
+* "Messages": tracing turned on but only method name and response ID are traced.
+* "Verbose": tracing turned on; the entire rpc message is traced.
+
+When tracing is turned on, the content will be written to a file in the "%temp%\VisualStudio\LSP" directory.  It will follow the naming format [LanguageClientName]-[Datetime Stamp].log.  Currently, tracing can only be enabled for open folder scenarios.  Opening a single file to activate a language server does not have diagnostics tracing support. 
 
 ### Custom messages
 

@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExceptionEvent2::PassToDebuggee
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.  

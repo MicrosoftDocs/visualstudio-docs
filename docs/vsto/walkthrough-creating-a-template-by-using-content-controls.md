@@ -20,6 +20,8 @@ caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Template By Using Content Controls
   This walkthrough demonstrates how to create a document-level customization that uses content controls to create structured and reusable content in a Microsoft Office Word template.  

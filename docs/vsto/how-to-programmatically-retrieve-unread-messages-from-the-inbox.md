@@ -21,6 +21,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Retrieve Unread Messages from the Inbox
   This example retrieves unread e-mail messages from the Outlook **Inbox** and displays the number of items.  

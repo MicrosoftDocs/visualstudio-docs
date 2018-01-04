@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
-ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
 caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
 ---
 
 # Working with Python in Visual Studio
@@ -39,7 +40,7 @@ To get started:
 | [Interactive Window](interactive-repl.md) | Provides a quick REPL experience for Python with the ability to easily highlight a portion of your code and send it to the Interactive Window. | n/a |
 | [Full-featured debugging](debugging.md) | Debugging can be done with or without a Visual Studio project, including the ability to debug an existing executable, [Python/C++ mixed-mode debugging](debugging-mixed-mode.md), [remote debugging](debugging-cross-platform-remote.md) to Windows/Linux/Mac, [remote debugging to Azure](debugging-azure-remote.md), and debugging within the Interactive Window. | [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) |
 | [Profiling tools with comprehensive reporting](profiling.md) | Explores how time is being spent within your application, including the ability to compare performance between different profiling runs. | [Profiling Tools](../profiling/profiling-tools.md) (not all Visual Studio profiling features are available for Python) |
-| [Unit testing tools](unit-testing.md) | Discover, run, and manage tests in Visual Studio Test Explorer, and easily debug unit tests. | [Unit Test Your Code](../test/unit-test-your-code.md) |
+| [Unit testing tools](unit-testing.md) | Discover, run, and manage tests in Visual Studio Test Explorer, and easily debug unit tests. | [Unit test your code](../test/unit-test-your-code.md) |
 
 The Python workload also includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 

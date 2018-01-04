@@ -16,6 +16,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Source Control VSPackage
 This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.  

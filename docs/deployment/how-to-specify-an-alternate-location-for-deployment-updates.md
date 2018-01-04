@@ -20,6 +20,8 @@ caps.latest.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Specify an Alternate Location for Deployment Updates
 You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application initially from a CD or a file share, but the application must check for periodic updates on the Web. You can specify an alternate location for updates in your deployment manifest so that your application can update itself from the Web after its initial installation.  

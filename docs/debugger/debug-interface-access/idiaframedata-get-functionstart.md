@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_functionStart
 Retrieves a flag that indicates whether the block contains the entry point of a function.  

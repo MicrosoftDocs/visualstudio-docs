@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "10/10/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-acquisition"
+ms.technology: vs-acquisition
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
@@ -13,6 +12,9 @@ ms.author: "gewarren"
 manager: ghogen
 dev_langs: 
   - CSharp
+ms.workload: 
+  - "aspnet"
+  - "dotnetcore"
 ---
 # Quickstart: use Visual Studio to create your first ASP.NET Core web app
 
@@ -71,6 +73,9 @@ First, you'll create an ASP.NET Core web application project. The project type c
 1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
 
 1. Close the web browser.
+
+> [!NOTE]
+> If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
 Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 

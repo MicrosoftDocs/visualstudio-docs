@@ -26,6 +26,8 @@ caps.latest.revision: 30
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;deployment&gt; Element (ClickOnce Deployment)
 Identifies the attributes used for the deployment of updates and exposure to the system.  

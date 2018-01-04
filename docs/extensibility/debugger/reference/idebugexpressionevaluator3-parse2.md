@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator3::Parse2
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.  

@@ -14,6 +14,8 @@ caps.latest.revision: 27
 author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Deploy a layer model extension
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.  

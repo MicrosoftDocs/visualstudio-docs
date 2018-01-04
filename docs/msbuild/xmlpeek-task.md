@@ -21,6 +21,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XmlPeek Task
 Returns values as specified by XPath Query from an XML file.  

@@ -26,6 +26,8 @@ caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Controls to the Backstage View
   You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. when you run the application, controls that you add to the **File** tab appear a group named **Add-ins**.  
