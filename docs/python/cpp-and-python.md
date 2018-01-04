@@ -1,7 +1,7 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 1/2/20178
+ms.date: 01/02/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -158,6 +158,10 @@ To make the C++ DLL into an extension for Python, you need to modify the exporte
     ```cpp
     #include <Python.h>
     ```
+
+1. Specify the location of `Python.h` the project properties. To do this, right-click the C++ project in Solution Explorer and select **Properties**. In the **Property Pages** dialog that appears, expand **Configuration Properties > C/C++ > General**. Then enter your Python installation's `include` folder path in **Additional Include Directories**. For example, if your `python.exe` is located in `c:\python36_32` then the include folder path will be `c:\python36_32\include`:
+
+    ![Specifying the location of the Python include folder](media/cpp-python-include-folder.png)
 
 1. Modify the `tanh_impl` method to accept and return Python types:
 

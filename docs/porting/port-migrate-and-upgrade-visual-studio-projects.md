@@ -1,7 +1,7 @@
 ---
 title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: 07/24/2017
+ms.date: 01/04/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,7 +18,6 @@ helpviewer_keywords:
   - "conversion, projects"
   - "asset compatibility"
   - "projects, conversion"
-ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -42,7 +41,7 @@ Support for some types change over time, however. A newer version of Visual Stud
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](https://msdn.microsoft.com/library/hh266747.aspx) and [file an issue](https://github.com/MicrosoftDocs/visualstudio-docs/issues/) with the details of your project type.
+If you don't see a project or file type listed here that should be, please consult the [Visual Studio 2015 version of this topic](https://msdn.microsoft.com/library/hh266747.aspx) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project.
 
 | Type of Project | Support |
 | --- | --- |
@@ -63,7 +62,7 @@ If you don't see a project or file type listed here that should be, please consu
 | SharePoint 2016 | SharePoint Add-In projects created in Office Developer Tools Preview 2 cannot be opened in Visual Studio 2017. To work around this you will need to update the `MinimumVisualStudioVersion` to 12.0 and `MinimumOfficeToolsVersion` to 12.2 in the `.csproj` or `.vbproj` file. |
 | Silverlight | Silverlight projects not supported in Visual Studio 2017. To maintain Silverlight applications, continue to use Visual Studio 2015. |
 | SQL Server Reporting Services and SQL Server Analysis Services (SSRS, SSDT, SSAS, MSAS) | Support for these project types is provided through two extensions in the Visual Studio Gallery:  [Microsoft Analysis Services Modeling Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) and [Microsoft Reporting Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio). SSDT support is also included with the Data Storage and Processing workload in Visual Studio 2017. |
-| SQL Server Integration Services (SSIS) | Support is not yet available for Visual Studio 2017. It will be announced on the [SQL Server Integration Services blog](https://blogs.msdn.microsoft.com/ssis/). The present recommendation for SSIS is to continue using Visual Studio 2015. |
+| SQL Server Integration Services (SSIS) | Support for Visual Studio 2017 is available through the SQL Server Data Tools (SSDT). For more information, refer to the [SQL Server Integration Services blog](https://blogs.msdn.microsoft.com/ssis/2017/08/23/ssis-designer-is-now-available-for-visual-studio-2017/). |
 | Visual C++ | You can use Visual Studio 2017 to open solutions and projects that were created in Visual Studio 2015 as-is, but projects that were created in older versions of Visual Studio may require upgrading the project or retargeting to a more recent toolset to build with Visual Studio 2017. For more information, see [Visual C++ Porting and Upgrading Guide](https://docs.microsoft.com/cpp/porting/visual-cpp-porting-and-upgrading-guide). |
 | Visual Studio Extensibility/VSIX | Projects with MinimumVersion 14.0 or less will be updated to declare MinimumVersion 15.0, which prevents the project from being opened in earlier versions of Visual Studio. To allow a project to open in earlier versions, set MinimumVersion to `$(VisualStudioVersion)`. See also [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md). |
 | Visual Studio Lab Management | You can use Microsoft Test Manager or Visual Studio 2010 SP1 and later to open environments created in any of these versions. However, for Visual Studio 2010 SP1 the version of Microsoft Test Manager must match the version of Team Foundation Server before you can create environments. |
