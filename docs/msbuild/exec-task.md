@@ -35,6 +35,8 @@ Runs the specified program or command by using the specified arguments.
 |Parameter|Description|  
 |---------------|-----------------|  
 |`Command`|Required `String` parameter.<br /><br /> The command(s) to run. These can be system commands, such as attrib, or an executable, such as program.exe, runprogram.bat, or setup.msi.<br /><br /> This parameter can contain multiple lines of commands. Alternatively, you can put multiple commands in a batch file and run it by using this parameter.|  
+|`ConsoleOutput`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Each item output is a line from the standard output or standard error stream emitted by the tool. This is only captured if `ConsoleToMsBuild` is set to `true`.|
+|`ConsoleToMsBuild`|Optional `Boolean` parameter.<br /><br /> If `true`, the task will capture the standard error and standard output of the tool and make them available in the `ConsoleOutput` output parameter. The default value is `false`.|
 |`CustomErrorRegularExpression`|Optional `String` parameter.<br /><br /> Specifies a regular expression that is used to spot error lines in the tool output. This is useful for tools that produce unusually formatted output.|  
 |`CustomWarningRegularExpression`|Optional `String` parameter.<br /><br /> Specifies a regular expression that is used to spot warning lines in the tool output. This is useful for tools that produce unusually formatted output.|  
 |`EchoOff`|Optional `Boolean` parameter.<br /><br /> If `true`, the task will not emit the expanded form of `Command` to the MSBuild log. The default value is `false`.|
