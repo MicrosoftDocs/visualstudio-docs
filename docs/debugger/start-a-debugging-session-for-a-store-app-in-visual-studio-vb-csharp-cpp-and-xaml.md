@@ -69,7 +69,7 @@ Choose one of these options:
   
 |||  
 |-|-|  
-|**Local Machine**|Debug the app in the current session on your local machine. See [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
+|**Local Machine**|Debug the app in the current session on your local machine.|  
 |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
 |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
@@ -123,7 +123,6 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
 -   For Visual C++ and JavaScript apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.  
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks  
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
  For security reasons, a UWP app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to Microsoft Store, you should test your app without the exemption.  
   

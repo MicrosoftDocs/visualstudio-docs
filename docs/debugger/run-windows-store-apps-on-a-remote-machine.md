@@ -1,5 +1,5 @@
 ---
-title: "Run UWP apps on a remote machine | Microsoft Docs"
+title: "Run UWP and Windows 8.1 apps on a remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.reviewer: ""
@@ -21,10 +21,9 @@ manager: ghogen
 ms.workload: 
   - "uwp"
 ---
-# Run UWP apps on a remote machine
-![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
+# Run UWP and Windows 8.1 apps on a remote machine  
   
-To run a UWP app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+To run a UWP or Windows 8.1 app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
 
 In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
 
@@ -32,7 +31,7 @@ In some scenarios, the remote tools are automatically installed when you deploy 
 - For Windows 10 Xbox, IOT, and HoloLens devices, see [Debug an Installed App Package](debug-installed-app-package.md#remote). Remote tools will be installed automatically.
 - For Windows Phone, you must be physically connected to the phone, you must either install a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) (Windows Phone 8 and 8.1) or enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) (Windows Mobile 10), and you must select **Device** as the debug target. Remote tools are not required or supported.
 
-For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic.
+For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic. 
   
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
