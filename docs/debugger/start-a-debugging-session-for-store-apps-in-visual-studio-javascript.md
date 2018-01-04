@@ -25,58 +25,19 @@ ms.workload:
   - "uwp"
 ---
 # Start a debugging session for UWP Apps in Visual Studio (JavaScript)
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  This topic describes how to start a debugging session for UWP apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
   
 > [!NOTE]
 >  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- [In this topic](#BKMK_In_this_topic)  
-  
- [The easy way to start debugging](#BKMK_The_easy_way_to_start_debugging)  
-  
- [Configure the debugging session](#BKMK_Configure_the_debugging_session)  
-  
--   [Open the debugging property page for the project](#BKMK_Open_the_debugging_property_page_for_the_project)  
-  
--   [Choose the build configuration options](#BKMK_Choose_the_build_configuration_options)  
-  
--   [Choose the deployment target](#BKMK_Choose_the_deployment_target)  
-  
--   [Choose the debugger to use](#BKMK_Choose_the_debugger_to_use)  
-  
--   [(Optional) Delay starting the app in the debug session](#BKMK__Optional__Delay_starting_app_in_the_debug_session)  
-  
--   [(Optional) Disable network loopbacks](#BKMK__Optional__Disable_network_loopbacks)  
-  
- [Start the debugging session](#BKMK_Start_the_debugging_session)  
-  
--   [Start debugging (F5)](#BKMK_Start_debugging__F5_)  
-  
--   [Start debugging (F5) but delay the app start](#BKMK_Start_debugging__F5__but_delay_the_app_start)  
-  
- [Start an installed app in the debugger](#BKMK_Start_an_installed_app_in_the_debugger)  
-  
- [Attach the debugger to a running app](#BKMK_Attach_the_debugger_to_a_running_app_)  
-  
--   [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)  
-  
--   [Attach the debugger](#BKMK_Attach_the_debugger)  
-  
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> The easy way to start debugging  
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
 1.  Open the app solution in Visual Studio.  
   
 2.  If the solution contains multiple projects, make sure that the project you want to debug is the start-up project. In Solution Explore, select the project and then choose **Set as StartUp Project** from the context menu.  
   
 3.  Press F5.  
-  
- ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
-  
- Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends. For more information, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
 ##  <a name="BKMK_Configure_the_debugging_session"></a> Configure the debugging session  
  Because script is not compiled, the build configuration and platform settings don't apply. If you are debugging a C++ or managed component, set the **Configuration** to **Debug** and choose your target platform from the **Configuration** dialog.  
@@ -96,8 +57,6 @@ ms.workload:
 ###  <a name="BKMK_Choose_the_deployment_target"></a> Choose the deployment target  
  You can deploy and debug an app on the Visual Studio machine, in the Visual Studio simulator on the local machine, or on a remote machine. You choose the target from the **Debugger to launch** list on the **Debugging** property page for the project.  
   
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
-  
  For a UWP app, choose one of these options from the **Target device** list:  
   
 |||  
@@ -116,10 +75,6 @@ ms.workload:
   
     > [!NOTE]
     >  The Select Remote Debugger Connection dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.  
-  
- ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
-  
- For a Windows Phone app, choose **Device** or one of the emulators from the **Target device** list.  
   
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
  By default, the debugger attaches to the JavaScript code in your app. You can choose to debug the native C++ and managed code of components of your app instead of the JavaScript code. You specify the code to debug in the **Debugger Type** list on the **Debugging** property page of the app project.  
@@ -144,7 +99,6 @@ ms.workload:
 -   Choose **Yes** to launch the app immediately.  
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks  
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
  For security reasons, a UWP app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to Microsoft Store, you should test your app without the exemption.  
   
@@ -257,7 +211,6 @@ ms.workload:
  Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
 ## See Also  
- [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

@@ -42,47 +42,11 @@ ms.workload:
   - "uwp"
 ---
 # Start a debugging session for a UWP app in Visual Studio (VB, C#, C++ and XAML)
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  This topic describes how to start a debugging session for UWP apps written in XAML and Visual C++, Visual C#, or Visual Basic. Debugging an app involves both configuring the debugging session and choosing the way to start the app.  
   
 > [!NOTE]
->  For apps written in JavaScript and HTML see [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md).  
-  
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- [The easy way to start debugging](#BKMK_The_easy_way_to_start_debugging)  
-  
- [Configure the debugging session](#BKMK_Configure_the_debugging_session)  
-  
--   [Open the debugging property page for the project](#BKMK_Open_the_debugging_property_page_for_the_project)  
-  
--   [Choose the build configuration options](#BKMK_Choose_the_build_configuration_options)  
-  
--   [Choose the deployment target](#BKMK_Choose_the_deployment_target)  
-  
--   [Choose the debugger to use](#BKMK_Choose_the_debugger_to_use)  
-  
--   [(Optional) Delay starting the debug session](#BKMK__Optional__Delay_starting_the_debug_session)  
-  
--   [(Optional) Disable network loopbacks](#BKMK__Optional__Disable_network_loopbacks)  
-  
--   [(Optional) Reinstall the app when you start debugging](#BKMK__Optional__Reinstall_the_app_when_you_start_debugging)  
-  
--   [(Optional) Disable authentication requirement to start the remote debugger](#BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger)  
-  
- [Start the debugging session](#BKMK_Start_the_debugging_session)  
-  
--   [Start debugging (F5)](#BKMK_Start_debugging__F5_)  
-  
--   [Start debugging (F5) but delay the app start](#BKMK_Start_debugging__F5__but_delay_the_app_start)  
-  
--   [Start an installed app in the debugger](#BKMK_Start_an_installed_app_in_the_debugger)  
-  
--   [Attach the debugger to a running app](#BKMK_Attach_the_debugger_to_a_running_app_)  
-  
-    -   [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)  
-  
-    -   [Attach the debugger](#BKMK_Attach_the_debugger)  
+>  For apps written in JavaScript and HTML, see [Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md).  
   
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> The easy way to start debugging  
   
@@ -90,46 +54,29 @@ ms.workload:
   
 2.  Choose F5.  
   
- Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an un handled exception occurs, or the app ends. For more information, see [Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md) .  
+ Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an un handled exception occurs, or the app ends.  
   
-##  <a name="BKMK_Configure_the_debugging_session"></a> Configure the debugging session  
+##  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options  
   
-###  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project  
+1.   From the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar, choose **Debug**.  
   
-1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.  
+2.  From the **Platform** list choose the target platform to build for.  
   
-2.  Do this to open the debug property page for the project :  
+##  <a name="BKMK_Choose_the_deployment_target"></a> Choose the deployment target  
   
-    -   For Visual C# and Visual Basic apps, choose **Debug**.  
+You can deploy and debug a UWP app on the Visual Studio machine, a connected device, the Visual Studio simulator on the local machine, a remote device, or an emulator. Select the deployment target from the drop-down list to the right of the **Platform** target on the debugger **Standard** toolbar.
   
-         ![C&#35; &#47; VB project debug property page](../debugger/media/dbg_csvb_debugpropertypage.png "DBG_CsVb_DebugPropertyPage")  
+![Select a deployment target](../debugger/media/vsrun_select_target_device.png)  
   
-    -   For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.  
-  
-         ![C&#43;&#43; UWP app debugging property page](../debugger/media/dbg_cpp_debugpropertypage.png "DBG_CPP_DebugPropertyPage")  
-  
-###  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options  
-  
-1.  From the **Configuration** list, choose **Debug** or **(Active) Debug**.  
-  
-2.  From the **Platform** list choose the target platform to build for. In most cases, **Any CPU** (**All Platforms** in Visual C++) is the best choice.  
-  
-###  <a name="BKMK_Choose_the_deployment_target"></a> Choose the deployment target  
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
-  
- You can deploy and debug a UWP app on the Visual Studio machine, in the Visual Studio simulator on the local machine, or on a remote device.  
-  
--   For C# and Visual Basic apps, choose the target from the **Target device** list on the **Debug** property page for the project.  
-  
--   For C++ apps, choose the target from the **Debugger to launch** list on the **Debugging** property page:  
-  
- Choose one of these options:  
+Choose one of these options:  
   
 |||  
 |-|-|  
 |**Local Machine**|Debug the app in the current session on your local machine. See [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
-|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
-|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on hte remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+|**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
+|**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or beyond.|  
   
  If you choose **Remote Machine**, specify the name or IP address of the remote machine in one of these ways:  
   
@@ -152,10 +99,23 @@ ms.workload:
     > [!NOTE]
     >  The **Select Remote Debugger Connection** dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.  
   
- ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
+
+##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project  
+
+If you want to configure additional debugging options, open the property page for the project.
   
- You can deploy and debug a Windows Phone app on a device or on one of the Visual Studio phone emulators. Select the device or emulator from the **Target device** list.  
+1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.  
   
+2.  Do this to open the debug property page for the project:  
+  
+    -   For Visual C# and Visual Basic apps, choose **Debug**.  
+  
+         ![C&#35; &#47; VB project debug property page](../debugger/media/dbg_csvb_debugpropertypage.png)  
+  
+    -   For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.  
+  
+         ![C&#43;&#43; UWP app debugging property page](../debugger/media/dbg_cpp_debugpropertypage.png)  
+
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
  By default, Visual Studio debugs managed code in C# and Visual Basic apps.  
   
@@ -174,10 +134,6 @@ ms.workload:
 |**Managed Only**|Debug managed code in your app. JavaScript code and native C/C++ code are ignored.|  
 |**Mixed (Managed and Native)**|Debug native C/C++ code and managed code in your app. JavaScript code is ignored.|  
 |**GPU only**|Debug native C++ code that runs on a graphics processing unit (GPU).|  
-  
- ![Applies to Windows Phone only](../debugger/media/phone_only_content.png "phone_only_content")  
-  
- For Windows Phone apps, you can also choose the debugger to use for background processes from the **Background task process**.  
   
 ###  <a name="BKMK__Optional__Delay_starting_the_debug_session"></a> (Optional) Delay starting the debug session  
  By default, Visual Studio immediately starts the app when you start debugging. You can also start a debug session but delay the start of your app. When you choose this option, the app is started in the debugger when it is launched from the Start screen or by an activation contract or when it is started by another process or method. You also delay the start of your app when you want to debug a background task when the app itself is not running.  
@@ -203,7 +159,6 @@ ms.workload:
  To diagnose problems with the installation and initial configuration of your Visual C# or Visual Basic app, choose **Uninstall and then reinstall my package** on the **Debug**  property page to recreate an original install when you start debugging. This option is not available for Visual C++ projects.  
   
 ###  <a name="BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger"></a> (Optional) Disable authentication requirement to start the remote debugger  
- ![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
  By default, you must supply credentials to run the remote debugger.  
   
@@ -216,7 +171,6 @@ ms.workload:
   
 2.  For Visual C++ apps, choose **No** from the **Require Authentication** list on the **Debugging** property page.  
   
- [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Start_the_debugging_session"></a> Start the debugging session  
   
@@ -322,8 +276,5 @@ ms.workload:
   
  Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- [In this topic](#BKMK_In_this_topic)  
-  
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
- [Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md)
