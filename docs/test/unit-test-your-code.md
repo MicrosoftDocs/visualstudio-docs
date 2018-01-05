@@ -4,20 +4,18 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
-ms.assetid: c191de3e-3f3b-471e-b828-29ec24e80e2c
-caps.latest.revision: 62
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Unit Test Your Code
 Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)], [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)], and [!INCLUDE[cpp_current_short](../misc/includes/cpp_current_short_md.md)] projects.  

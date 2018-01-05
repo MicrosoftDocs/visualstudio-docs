@@ -4,19 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit tests, creating"
   - "unit tests, running"
-ms.assetid: d23a9ee7-58e3-4e8b-a38c-b2207ea73fea
-caps.latest.revision: 25
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Run a unit test as a 64-bit process
 If you have a 64-bit machine, you can run unit tests and capture code coverage information as a 64-bit process.  

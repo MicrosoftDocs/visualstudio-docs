@@ -4,18 +4,16 @@ ms.custom: ""
 ms.date: "2015-10-04"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests"
-ms.assetid: 544742b5-4ec1-4d51-b941-72b2f6ff17bc
-caps.latest.revision: 106
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Supported Configurations and Platforms for Coded UI Tests and Action Recordings
 The supported configurations and platforms for coded UI tests for Visual Studio Enterprise are listed in the following table. These configurations also apply to action recordings created by using [!INCLUDE[MTRlong](../test/includes/mtrlong_md.md)].  

@@ -2,14 +2,12 @@
 title: "Live Unit Testing in Visual Studio | Microsoft Docs"
 ms.date: "2017-03-07"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
-ms.assetid: 5b51fb96-94f4-4926-92b9-262156c05b85
 author: "rpetrusha"
 ms.author: "ronpet"
 ms.workload: 
