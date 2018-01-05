@@ -1,7 +1,7 @@
 ---
 title: "Create Web templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -32,14 +32,13 @@ Creating a Web template is different than creating other kinds of templates. Bec
 
 1. Create an XML file and save it with a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in Visual Studio.
 
-1. Edit the .vstemplate XML file to provide project template metadata. For more information, see the example in the following section.
+1. Edit the .vstemplate XML file to provide project template metadata. For more information, see the [example that follows](#example).
 
 1. Locate the `ProjectType` element in the .vstemplate file, and set the text value to `Web`.
 
 1. Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:
 
     - CSharp
-
     - VisualBasic
 
     For example:
@@ -55,11 +54,11 @@ Creating a Web template is different than creating other kinds of templates. Bec
 
 1. Select the files in your template (this includes the .vstemplate file), right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files are compressed into a .zip file.
 
-1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio *Version*\ProjectTemplates.
+1. Put the .zip template file in the Visual Studio project template directory. By default, this directory is %USERPROFILE%\Documents\Visual Studio \<Version\>\ProjectTemplates.
 
 ## Example
 
-The following example shows a basic .vstemplate file for a Web project template.
+The following example shows a basic .vstemplate file for a Web project template:
 
 ```xml
 <VSTemplate Version="2.0.0" Type="Project"

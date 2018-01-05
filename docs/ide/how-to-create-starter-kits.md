@@ -42,13 +42,10 @@ If you are creating a learning tool:
 
 After you have completed the project and the documentation, you are ready to create the project template for the Starter Kit. This process is exactly the same as creating a project template.
 
-The following topics contain information about creating templates.
+The following topics contain information about creating templates:
 
-[How to: Create Project Templates](../ide/how-to-create-project-templates.md)  
-Explains how to use the **Export Template** wizard to create a template.
-
-[How to: Update Existing Templates](../ide/how-to-update-existing-templates.md)  
-Describes how to edit an exported template. Use this procedure to modify the .vstemplate file to customize your Starter Kit.
+- [How to: Create Project Templates](../ide/how-to-create-project-templates.md) &ndash; Explains how to use the **Export Template Wizard** to create a template.
+- [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md) &ndash; Describes how to edit an existing template. Use this procedure to modify the .vstemplate file to customize your Starter Kit.
 
 ## See also
 

@@ -256,12 +256,12 @@
 ### [Creating Applications in Bi-directional Languages](ide/creating-applications-in-bi-directional-languages.md)
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
-## Project and Item Templates
+## [Project and Item Templates](ide/creating-project-and-item-templates.md)
 ### [Locate and Organize Project and Item Templates](ide/how-to-locate-and-organize-project-and-item-templates.md)
 ### [Customize Project and Item Templates](ide/customizing-project-and-item-templates.md)
 #### [Update Existing Templates](ide/how-to-update-existing-templates.md)
 #### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
-### [Create Project and Item Templates](ide/creating-project-and-item-templates.md)
+### Create New Project and Item Templates
 #### [Create Project Templates](ide/how-to-create-project-templates.md)
 #### [Create Multi-Project Templates](ide/how-to-create-multi-project-templates.md)
 #### [Create Item Templates](ide/how-to-create-item-templates.md)

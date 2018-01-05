@@ -1,7 +1,7 @@
 ---
 title: "Customizing project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/29/2017"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +17,11 @@ manager: ghogen
 ---
 # Customizing project and item templates
 
-After project and item templates have been created, you still have the ability to further customize them to meet your needs.
+Even after project and item templates have been created, you can further customize them to meet your needs.
 
 For example, you can perform the following tasks:
 
-- Modify and export an existing template as a custom template.
+- Modify and export an existing template as a user template.
 
    For more information, see [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md).
 
