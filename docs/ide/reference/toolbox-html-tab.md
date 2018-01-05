@@ -84,7 +84,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 ```  
 
 > [!IMPORTANT]
->  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](https://docs.microsoft.com/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
+>  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
 
  **Input (File)**  
  ![HTML page File Field](../../ide/reference/media/vxfilefield.gif "vxFilefield")  
@@ -98,7 +98,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 ```  
 
 > [!IMPORTANT]
->  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](https://docs.microsoft.com/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
+>  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
 
  **Input (Password)**  
  ![Visual Studio Password Field](../../ide/reference/media/vxpassword.gif "vxPassword")  
@@ -112,7 +112,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 ```  
 
 > [!IMPORTANT]
->  If your application transmits user names and passwords, you should configure your Web site to use Secure Sockets Layer (SSL) to encrypt the transmission. For more information, see "Securing Connections with SSL" in the [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856). Additionally, it is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](https://docs.microsoft.com/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
+>  If your application transmits user names and passwords, you should configure your Web site to use Secure Sockets Layer (SSL) to encrypt the transmission. For more information, see "Securing Connections with SSL" in the [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856). Additionally, it is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
 
  **Input (Check box)**  
  ![HTML webpage Toolbox Checkbox Option](../../ide/reference/media/vxcheckbox.gif "vxCheckbox")  
@@ -159,7 +159,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 ```  
 
 > [!IMPORTANT]
->  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](https://docs.microsoft.com/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
+>  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages (Razor) Sites](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites).  
 
  **Table**  
  ![HTMLpageToolbarTable screenshot](../../ide/reference/media/vxtable.gif "vxTable")  
