@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio]"
   - "publishing, Office solutions"
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
-ms.assetid: 94d9bdf1-84fa-4e26-8ece-a1a0dabda5ea
-caps.latest.revision: 31
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

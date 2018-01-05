@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], tabs"
   - "built-in tabs [Office development in Visual Studio]"
-ms.assetid: 197a7aaa-a51d-496c-b904-b9421849fad9
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

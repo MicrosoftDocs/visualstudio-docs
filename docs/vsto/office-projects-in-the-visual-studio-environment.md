@@ -42,10 +42,8 @@ helpviewer_keywords:
   - "Visual Studio, Office documents in"
   - "worksheets [Office development in Visual Studio]"
   - "VST.Designer.ExcelVST.Designer.Word"
-ms.assetid: 4bff36c9-4edd-4b28-89e6-0ea9f6caca02
-caps.latest.revision: 58
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

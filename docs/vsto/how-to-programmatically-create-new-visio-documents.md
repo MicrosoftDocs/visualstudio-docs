@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], creating Visio documents"
   - "documents [Office development in Visual Studio], creating Visio documents"
-ms.assetid: a0294d4c-be49-4cd0-b22e-3ec7568f3ec7
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

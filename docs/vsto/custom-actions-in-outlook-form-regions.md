@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], custom actions"
   - "custom actions [Office development in Visual Studio]"
-ms.assetid: 583fd5f0-aafa-4858-9c54-38a9fdf3bede
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

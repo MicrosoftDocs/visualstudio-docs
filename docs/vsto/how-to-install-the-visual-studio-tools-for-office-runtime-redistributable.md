@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office runtime [Office development in Visual Studio]"
   - "installing Office development tools in Visual Studio"
-ms.assetid: ac7a9ad3-e810-4d7f-a0e2-9992c9036b8d
-caps.latest.revision: 94
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

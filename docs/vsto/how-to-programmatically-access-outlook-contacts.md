@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "contacts [Office development in Visual Studio], searching"
-ms.assetid: ea2297ea-6802-40e4-af1a-1e511a71ec75
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

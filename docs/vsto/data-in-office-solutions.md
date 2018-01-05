@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio]"
   - "Office applications [Office development in Visual Studio], data"
   - "datasets [Office development in Visual Studio]"
-ms.assetid: 8478c095-864b-4ed3-8a70-1fc19b411c6a
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

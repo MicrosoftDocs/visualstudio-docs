@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], hiding text"
   - "text [Office development in Visual Studio], hiding in documents"
-ms.assetid: f5ced4ec-22ca-463b-b963-d34ce631b486
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

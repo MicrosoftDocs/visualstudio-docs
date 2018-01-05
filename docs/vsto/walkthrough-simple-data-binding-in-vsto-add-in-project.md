@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], binding data"
   - "data binding [Office development in Visual Studio], Word"
   - "data [Office development in Visual Studio], simple binding data"
-ms.assetid: b248d194-a8b1-4f87-94c4-24e940eea1fd
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

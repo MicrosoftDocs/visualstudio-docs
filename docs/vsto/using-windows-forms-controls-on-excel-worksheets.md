@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], Excel"
   - "Excel [Office development in Visual Studio], Windows Forms controls"
   - "controls [Office development in Visual Studio], Window Forms controls"
-ms.assetid: bbda7461-0d69-4b56-8ba3-418d63ba49db
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

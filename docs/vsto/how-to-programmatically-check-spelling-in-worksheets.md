@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "spelling checker, worksheets"
   - "worksheets, checking spelling"
   - "spelling, checking in worksheets"
-ms.assetid: 16367c5d-2075-4174-bb87-dfc59f02c84c
-caps.latest.revision: 53
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

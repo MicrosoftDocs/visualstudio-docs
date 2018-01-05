@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "formatting [Office development in Visual Studio]"
   - "documents [Office development in Visual Studio], formatting text"
   - "text [Office development in Visual Studio], formatting in documents"
-ms.assetid: 0a84893b-5ccc-4515-a2dc-95773ee8eaba
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

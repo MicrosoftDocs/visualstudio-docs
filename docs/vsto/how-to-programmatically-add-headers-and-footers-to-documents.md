@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding headers"
   - "documents [Office development in Visual Studio], adding footers"
   - "footers, adding to documents"
-ms.assetid: c7a5cc8a-d8c0-48e9-81d3-108aa6bfbb74
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

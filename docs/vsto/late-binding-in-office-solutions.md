@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "types [Office development in Visual Studio], casting"
   - "automation [Office development in Visual Studio], casting objects"
   - "casting, object to specific type"
-ms.assetid: 80b0d23e-df68-4ea9-a02b-238aee8ca9c0
-caps.latest.revision: 49
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

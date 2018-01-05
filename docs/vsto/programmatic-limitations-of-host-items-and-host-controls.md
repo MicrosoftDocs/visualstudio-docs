@@ -31,10 +31,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host items"
   - "document-level customizations [Office development in Visual Studio], host items"
   - "Word [Office development in Visual Studio], host controls"
-ms.assetid: 88487946-6f3d-4ea6-8de0-dd219b8002df
-caps.latest.revision: 67
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

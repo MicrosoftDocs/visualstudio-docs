@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], sorting in worksheets"
   - "worksheets, sorting data"
   - "sorting data, in worksheets"
-ms.assetid: 2fbc6e63-02ea-4624-8d6f-bed60e06c61e
-caps.latest.revision: 56
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

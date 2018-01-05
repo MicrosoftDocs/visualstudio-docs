@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
-ms.assetid: 2206aeb6-44b3-4786-ba99-9c7dad5cce7c
-caps.latest.revision: 74
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

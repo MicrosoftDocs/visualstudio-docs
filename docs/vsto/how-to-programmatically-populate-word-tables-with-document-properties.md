@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "document properties, inserting in Word tables"
   - "documents [Office development in Visual Studio], document properties"
-ms.assetid: 7ed65a3d-58ed-43b3-92d6-dc10a2c331db
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

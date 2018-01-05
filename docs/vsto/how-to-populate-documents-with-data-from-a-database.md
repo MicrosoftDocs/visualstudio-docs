@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents, populating with data"
   - "data, adding to documents"
-ms.assetid: 1eb5b13d-7359-407e-8be8-e42c1829f10c
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

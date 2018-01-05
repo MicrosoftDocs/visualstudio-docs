@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], controls"
   - "controls [Office development in Visual Studio]"
   - "documents [Office development in Visual Studio], controls"
-ms.assetid: b057f321-8c60-4c02-b485-e2604a696623
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

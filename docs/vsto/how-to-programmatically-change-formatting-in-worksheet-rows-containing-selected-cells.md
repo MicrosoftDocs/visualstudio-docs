@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio]"
   - "formatting [Office development in Visual Studio]"
   - "worksheets, changing formatting"
-ms.assetid: c55cd488-98d1-46c6-9715-0e9212d178de
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

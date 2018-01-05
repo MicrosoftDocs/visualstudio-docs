@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], accessing on server"
   - "data access [Office development in Visual Studio]"
-ms.assetid: 14a42e96-ed2f-48a1-a0c0-e19f9eba4956
-caps.latest.revision: 32
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

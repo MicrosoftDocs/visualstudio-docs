@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio]"
   - "Word documents"
   - "host items [Office development in Visual Studio], Document"
-ms.assetid: 4c1963f2-e88e-4c68-9f3d-13dedebddde4
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

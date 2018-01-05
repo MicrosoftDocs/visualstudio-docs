@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], Excel"
   - "data [Office development in Visual Studio], binding data"
   - "complex data [Office development in Visual Studio]"
-ms.assetid: ff52fb56-1f67-4ae2-a3d1-93038619d4e6
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

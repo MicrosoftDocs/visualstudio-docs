@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "text [Office development in Visual Studio], adding to worksheets"
   - "worksheets, displaying text in cells"
-ms.assetid: b19870ad-e132-49fd-994e-0a91710fa4c9
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

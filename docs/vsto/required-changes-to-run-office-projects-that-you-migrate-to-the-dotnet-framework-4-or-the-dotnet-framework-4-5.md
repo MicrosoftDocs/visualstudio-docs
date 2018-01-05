@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
-ms.assetid: e2cd35cc-7731-428e-9046-34fc57a02c48
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

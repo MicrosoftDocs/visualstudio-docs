@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "controls [Office development in Visual Studio], resizing"
   - "Bookmark control, resizing"
-ms.assetid: 3de1c774-921a-4113-a54a-e3b8d4a65d53
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

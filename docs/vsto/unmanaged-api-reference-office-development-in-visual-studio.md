@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, reference"
   - "Office development in Visual Studio, unmanaged API reference"
-ms.assetid: cdbc70b1-1f98-43dc-a619-07d805e53dce
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

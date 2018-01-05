@@ -18,10 +18,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], adding"
-ms.assetid: 49fa3d1e-1b8a-48be-95fb-35c59c4711f6
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
