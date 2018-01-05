@@ -77,7 +77,7 @@ csharp_new_line_before_open_brace = methods
 
 Alternatively, you can install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig). After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in Solution Explorer.
 
-![Add .editorconfig file with extension](media/editorconfig-extension-add-small.png)
+![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
 
 ## Override EditorConfig settings
 
