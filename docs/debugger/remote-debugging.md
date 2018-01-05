@@ -34,9 +34,9 @@ For in-depth instructions on remote debugging, see these topics.
 |Scenario|Link|
 |-|-|-|
 |ASP.NET|[Remote Debugging ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debugging ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
-|C# or Visual Basic|[Remote Debugging a C# or Visual Basic Project](remote-debugging-csharp.md)|
-|C++|[Remote Debugging a C++ Project](remote-debugging-cpp.md)|
-|Universal Windows Apps (UWP)|[Debug an Installed App Package](debug-installed-app-package.md)|
+|C# or Visual Basic|[Remote Debugging a C# or Visual Basic Project](../debugger/remote-debugging-csharp.md)|
+|C++|[Remote Debugging a C++ Project](../debugger/remote-debugging-cpp.md)|
+|Universal Windows Apps (UWP)|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) and [Debug an installed app package](../debugger/debug-installed-app-package.md)|
 |Azure|[Remote Debugging ASP.NET on Azure](remote-debugging-azure.md)|
 |Azure Service Fabric|[Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).|
 
