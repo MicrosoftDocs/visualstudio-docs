@@ -15,7 +15,7 @@ manager: ghogen
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
-In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into the Visual Studio IDE as a component of the **Desktop Develoment with C++** workload. To install it on your machine, open the Visual Studio Installer and find **Boost.Test Adapter** under the list of workload components:
+In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into the Visual Studio IDE as a component of the **Desktop Development with C++** workload. To install it on your machine, open the Visual Studio Installer and find **Boost.Test Adapter** under the list of workload components:
 
 ![Install Boost Test](media/cpp-boost-component.png "Install Boost.Test for C++")
 
@@ -63,7 +63,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 
 1. If there is a `main` function in your test .cpp file, delete it.
 
-1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window will appear and enable you to select the full path to the header file.
+1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
 
 ![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
 
