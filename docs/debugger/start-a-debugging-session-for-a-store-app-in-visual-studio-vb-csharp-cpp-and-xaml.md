@@ -1,7 +1,7 @@
 ---
 title: "Start a debugging session for a UWP app in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/04/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -75,7 +75,7 @@ Choose one of these options:
 |**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
 |**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or beyond.|  
 
-##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project  
+##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Choose additional debugging options  
 
 If you need to configure additional debugging options, open the property page for the project.
   
@@ -178,6 +178,9 @@ When you start debugging by using F5, Visual Studio builds and deploys the app, 
 The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 To start an installed app in the debugger, choose **Debug**, then **Other debug targets**, and then **Debug Installed App Package**. For additional instructions, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
+
+> [!NOTE]
+> For Windows 8.1, choose **Debug**, and then choose **Debug Installed App Package**.
 
 ###  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> Attach the debugger to a running UWP app  
 
