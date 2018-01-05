@@ -50,7 +50,7 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 ### To add an EditorConfig file to a project or solution
 
-1. Open a project or solution in Visual Studio. Select either the project or solution node, depending on whether your .editorconfig settings should apply to all projects in the solution or just one. You can select a folder in your project or solution, to add the .editorconfig file to.
+1. Open a project or solution in Visual Studio. Select either the project or solution node, depending on whether your .editorconfig settings should apply to all projects in the solution or just one. You can also select a folder in your project or solution to add the .editorconfig file to.
 
 1. From the menu bar, choose **Project** > **Add New Item...**, or press **Ctrl**+**Shift**+**A**.
 
@@ -58,7 +58,7 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 1. In the categories on the left, choose **General**, and then choose the **Text File** template. In the **Name** text box, enter `.editorconfig` and then choose **Add**.
 
-   An .editorconfig file is added to Solution Explorer, and it opens in the editor.
+   An .editorconfig file appears in Solution Explorer, and it opens in the editor.
 
    ![.editorconfig file in Solution Explorer](media/editorconfig-in-solution-explorer.png)
 
