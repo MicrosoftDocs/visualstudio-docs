@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio template parameters | Microsoft Docs"
+title: "Visual Studio project and item template parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/29/2017"
 ms.reviewer: ""

@@ -111,7 +111,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Modify the code file to indicate where parameter replacement should occur, if anywhere. For more information about parameter replacement, see [How to: Substitute Parameters in a Template.](../ide/how-to-substitute-parameters-in-a-template.md)
 
-1. Create an XML file and save it with a .vstemplate file extension in the same directory as your new item template.
+1. Create an XML file and save it with a .vstemplate file extension in the same directory as your project item file.
 
 1. Edit the .vstemplate XML file to provide item template metadata. For more information, see [Template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.
 

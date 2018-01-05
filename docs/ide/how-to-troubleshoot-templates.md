@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot Visual Studio template loading | Microsoft Docs"
+title: "Troubleshoot Visual Studio project template and item template loading | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/29/2017"
 ms.reviewer: ""
