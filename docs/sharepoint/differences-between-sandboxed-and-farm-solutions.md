@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "sandboxed solutions [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, farm solutions"
   - "farm solutions [SharePoint development in Visual Studio]"
-ms.assetid: 43beb7e7-0cd9-4a8f-bb72-6b1e0cba5be8
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

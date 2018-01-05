@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, application pages"
   - "application pages [SharePoint development in Visual Studio], developing"
   - "application pages [SharePoint development in Visual Studio], creating"
-ms.assetid: a6e97149-15dd-4bdb-8d75-3b53f886f76c
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

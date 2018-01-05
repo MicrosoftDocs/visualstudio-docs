@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, packages"
   - "packages [SharePoint development in Visual Studio]"
-ms.assetid: 6b1f1fbf-fa9c-453d-80af-36ec9829677a
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

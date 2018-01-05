@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, prerequisites"
   - "SharePoint development in Visual Studio, requirements"
-ms.assetid: ae8ff69d-4540-4380-ab0b-845f7108e89c
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

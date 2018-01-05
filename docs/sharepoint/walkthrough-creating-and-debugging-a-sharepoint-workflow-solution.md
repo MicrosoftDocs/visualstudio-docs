@@ -19,10 +19,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, workflows"
   - "workflows [SharePoint development in Visual Studio]"
-ms.assetid: 81756490-ab5a-4fa4-96c6-eed2cfbf8374
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -24,10 +24,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], associate external content types"
-ms.assetid: 0c095df8-1f40-4c4d-9fed-e125a8429724
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

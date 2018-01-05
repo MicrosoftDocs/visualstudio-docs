@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], Finder method"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], get entities"
   - "BDC [SharePoint development in Visual Studio], Finder method"
-ms.assetid: 5de2cae3-d1f7-4a68-aac0-458967aca692
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

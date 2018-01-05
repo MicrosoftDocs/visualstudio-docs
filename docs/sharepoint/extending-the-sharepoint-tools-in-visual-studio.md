@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Visual Studio, extending tools"
   - "extensibility [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, extending tools"
-ms.assetid: 084cf4bf-aaba-4277-8032-448f2cb2a124
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

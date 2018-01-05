@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "performance testing [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, performance testing"
   - "profiling [SharePoint development in Visual Studio]"
-ms.assetid: 61ae02e7-3f37-4230-bae1-54a498c2fae8
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

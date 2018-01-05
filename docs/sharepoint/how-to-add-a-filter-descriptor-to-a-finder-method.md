@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], add a filter"
   - "BDC [SharePoint development in Visual Studio], add a filter"
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
-ms.assetid: 228a6190-8cb8-4182-b6d9-d4c656f4a164
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

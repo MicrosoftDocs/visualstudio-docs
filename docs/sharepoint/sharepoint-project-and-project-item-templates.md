@@ -23,10 +23,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, project and project item templates"
   - "SharePoint development in Visual Studio, templates"
-ms.assetid: 54a7576f-d3f9-475d-8ed7-b675ad21cb53
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

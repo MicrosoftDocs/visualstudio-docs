@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "user controls [SharePoint development in Visual Studio], creating"
   - "SharePoint development in Visual Studio, user controls"
-ms.assetid: 8fcafd98-c002-47f1-b4a9-cbb500232616
-caps.latest.revision: 19
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
