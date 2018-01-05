@@ -55,7 +55,7 @@ When you do this, the console window is visible for only a moment before it clos
 ### Add some code
 Let's add some code to pause the application and then ask for user input.
 
-1. Add the following code immediately after the call to the [Console.WriteLine(System.String)](/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method:
+1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
 
    ```vb
    Console.Write("Press any key to continue...")
