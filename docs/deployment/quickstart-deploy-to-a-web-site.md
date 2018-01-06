@@ -5,7 +5,7 @@ ms.date: "11/22/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-debug"
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
