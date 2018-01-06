@@ -261,7 +261,6 @@ Run the application again to verify that the **UpdateCustomers** stored procedur
 10. Press F5 and verify that the deleted record was removed from the database.  
   
     > [!NOTE]
-<<<<<<< HEAD
     > If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10.
 
 ## Next steps
@@ -272,17 +271,6 @@ Depending on your application requirements, there are several steps that you may
 
 - Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).
 
-=======
-    >  If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10. 
-  
-## Next Steps  
-Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:  
-  
--   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).  
-  
--   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).  
-  
->>>>>>> 4deb173b3a7f1315a8cd3ce7e83146646c953217
 ## See also
 
 [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)  
