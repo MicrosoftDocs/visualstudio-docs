@@ -42,7 +42,7 @@ First, you'll create a Visual Basic application project. The project type comes 
      ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
 ## Create the application
-After you select your Visual Basic project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method to display the literal string "Hello World!" in the console window.
+After you select your Visual Basic project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.
 
 ![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template.png)
 
@@ -55,7 +55,7 @@ When you do this, the console window is visible for only a moment before it clos
 ### Add some code
 Let's add some code to pause the application and then ask for user input.
 
-1. Add the following code immediately after the call to the [Console.WriteLine(System.String)](https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.7.1#System_Console_WriteLine_System_String) method:
+1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
 
    ```vb
    Console.Write("Press any key to continue...")

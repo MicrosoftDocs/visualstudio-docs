@@ -21,7 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_InlSpec
-This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp.md) attributes).  
+This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp) attributes).  
   
 ## Syntax  
   
@@ -50,4 +50,4 @@ HRESULT get_inlSpec(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp.md)
+ [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp)
