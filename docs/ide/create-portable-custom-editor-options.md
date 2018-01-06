@@ -81,7 +81,9 @@ Alternatively, you can install the [EditorConfig Language Service extension](htt
 
 ## Override EditorConfig settings
 
-When you add an .editorconfig file to a folder in your file hierarchy, its settings apply to all applicable files at that level and below. To override EditorConfig settings for a particular project or codebase such that it uses different conventions than the top-level EditorConfig file, just add an .editorconfig file to the root of your codebase's repo or project directory. Make sure to put the ```root=true``` property in the file so Visual Studio doesn't look any further up the directory structure for .editorconfig files. The new EditorConfig file settings apply to files in the same level and any subdirectories.
+When you add an .editorconfig file to a folder in your file hierarchy, its settings apply to all applicable files at that level and below. You can also override EditorConfig settings for a particular project, codebase, or part of a codebase, such that it uses different conventions than other parts of the codebase. This can be useful when you incorporate code from somewhere else, and don’t want to change its conventions.
+
+To override some or all of the EditorConfig settings, add an .editorconfig file at the level of the file hierarchy you want those overridden settings to apply. The new EditorConfig file settings apply to files at the same level and any subdirectories. If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower level file will be overridden; others will continue to apply. If you want to ensure that no settings from any .editorconfig files higher up in the directory structure are applied to this part of the codebase, add the ```root=true``` property to the .editorconfig file:
 
 ```EditorConfig
 # top-most EditorConfig file
@@ -96,11 +98,13 @@ EditorConfig files are read top to bottom, and the closest EditorConfig files ar
 
 Visual Studio provides some IntelliSense for editing .editorconfig files.
 
-![IntelliSense in an .editorconfig file](media/editorconfig-intellisense.png)
+![IntelliSense in an .editorconfig file](media/editorconfig-intellisense-no-extension.png)
 
 After you've edited your EditorConfig file, you must reload your code files for the new settings to take effect.
 
-If you edit numerous .editorconfig files, you may find the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) helpful.
+If you edit numerous .editorconfig files, you may find the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) helpful. Some of the features of this extension include syntax highlighting, improved IntelliSense, validation, and code formatting.
+
+![IntelliSense with EditorConfig Language Service extension](media/editorconfig-intellisense.png)
 
 ## Example
 
