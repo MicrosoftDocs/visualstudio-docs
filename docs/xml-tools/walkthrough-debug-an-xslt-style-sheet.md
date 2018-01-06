@@ -118,7 +118,7 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
     </books>  
   </xsl:template>  
 </xsl:stylesheet>  
-```  
+```
   
 ### books.xml  
   
@@ -150,7 +150,7 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
     <price>9.99</price>  
   </book>  
 </bookstore>  
-```  
+```
   
 ## See Also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)
