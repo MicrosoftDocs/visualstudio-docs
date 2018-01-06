@@ -87,7 +87,7 @@ To override some or all of the EditorConfig settings, add an .editorconfig file 
 
 ![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
 
-If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower-level file will be overridden. Other settings from higher-level .editorconfig files will continue to apply. If you want to ensure that _no_ settings from _any_ higher-level .editorconfig files are applied to this part of the codebase, add the ```root=true``` property to the .editorconfig file:
+If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower-level file will be overridden. Other settings from higher-level .editorconfig files will continue to apply. If you want to ensure that _no_ settings from _any_ higher-level .editorconfig files are applied to this part of the codebase, add the ```root=true``` property to the lower-level .editorconfig file:
 
 ```EditorConfig
 # top-most EditorConfig file
