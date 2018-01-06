@@ -26,14 +26,14 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 - Wrapper modules: wrappers expose existing C/C++ interfaces to Python code or expose a more "Pythonic" API that's easy to use from Python.
 - Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware.
 
-This topic walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the relative performance gain of implementing the same routine in C++.
+This article walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the relative performance gain of implementing the same routine in C++.
 
-The approach taken here is that for standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/). A comparison between this and other means is described under [alternative approaches](#alternative-approaches) at the end of this topic.
+The approach taken here is that for standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/). A comparison between this and other means is described under [alternative approaches](#alternative-approaches) at the end of this article.
 
 ## Prerequisites
 
 - Visual Studio 2017 with both the **Desktop Development with C++** and **Python Development** workloads installed with default options.
-- In the **Python Development** workload, also select the box on the right for **Python native development tools**. This option sets up most of the configuration described in this topic. (This option also includes the C++ workload automatically.)
+- In the **Python Development** workload, also select the box on the right for **Python native development tools**. This option sets up most of the configuration described in this article. (This option also includes the C++ workload automatically.)
 
 ![Selecting the Python native development tools option](media/cpp-install-native.png)
 
@@ -98,7 +98,7 @@ For more information, see [Installing Python Support for Visual Studio](installa
 
 1. Right-click the solution in Solution Explorer and select **Add > New Project...**. A Visual Studio solution can contain both Python and C++ projects together.
 
-1. Search on "C++", select **Empty project**, specify a name (we'll use "superfastcode" here), and select **OK**. Note: if you've installed the **Python native development tools** with Visual Studio 2017, you can start with the **Python Extension Module** template, which has much of what's described here already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step.
+1. Search on "C++", select **Empty project**, specify a name (this article uses "superfastcode"), and select **OK**. Note: if you've installed the **Python native development tools** with Visual Studio 2017, you can start with the **Python Extension Module** template, which has much of what's described here already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step.
 
 1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add > New Item..."**, select **C++ File**, give it a name (like `module.cpp`), and select **OK**. This step is necessary to turn on the C++ property pages in the following steps.
 
@@ -106,7 +106,7 @@ For more information, see [Installing Python Support for Visual Studio](installa
 
 1. At the top of the **Property Pages** dialog that appears, set **Configuration** to **All Configurations** and **Platform** to **Win32**.
 
-1. Set the specific properties as described below, then select **OK**.
+1. Set the specific properties as described in the following table, then select **OK**.
 
     | Tab | Property | Value |
     | --- | --- | --- |
@@ -124,7 +124,7 @@ For more information, see [Installing Python Support for Visual Studio](installa
     > [!Warning]
     > Always set the **C/C++ > Code Generation > Runtime Library** option to "Multi-threaded DLL (/MD)", even for a debug configuration, because this setting is what the non-debug Python binaries are built with. If you happen to set the "Multi-threaded Debug DLL (/MDd)" option, building a Debug configuration produces error *C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG*. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of *Fatal Python error: PyThreadState_Get: no current thread*.)
     >
-    > Note that the /MDd option is what's used to build the Python debug binaries (such as python_d.exe), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
+    > The /MDd option is used to build the Python debug binaries (such as python_d.exe), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
 
 1. Right-click the C++ project and select **Build** to test your configurations (both Debug and Release). The `.pyd` files are located in the *solution* folder under **Debug** and **Release**, not the C++ project folder itself.
 
@@ -207,14 +207,14 @@ To make the C++ DLL into an extension for Python, you first modify the exported 
     }
     ```
 
-1. Set the target configuration to "Release" and build the C++ project again to verify your code. If you encounter errors, check the following:
+1. Set the target configuration to "Release" and build the C++ project again to verify your code. If you encounter errors, check the following cases:
     - Unable to locate Python.h: verify that the path in **C/C++ > General > Additional Include Directories** in the project properties points to your Python installation's `include` folder.
     - Unable to locate Python libraries: verify that the path in **Linker > General > Additional Library Directories** in the project properties points to your Python installation's `libs` folder.
-    - Linker errors related to target architecture: change the C++ target's project architecture to match the architecture of your Python installation.
+    - Linker errors related to target architecture: change the C++ target's project architecture to match that of your Python installation.
 
 ## Test the code and compare the results
 
-Now that you have the DLL structured as a Python extension, you can refer to it from the Python project, import the module, and use its methods. These steps are described in the following section.
+Now that you have the DLL structured as a Python extension, you can refer to it from the Python project, import the module, and use its methods.
 
 ### Make the DLL available to Python
 
@@ -258,7 +258,7 @@ After you've completed either of the methods above, you can now call the `fast_t
     test(lambda d: [fast_tanh(x) for x in d], '[fast_tanh(x) for x in d]')
     ```
 
-1. Run the Python program (**Debug > Start Without Debugging** or Ctrl+F5) and observe that the C++ routine runs five to twenty times faster than the Python implementation. Again, try increasing the `COUNT` variable so that the differences are more pronounced. Also note that a Debug build of the C++ module runs slower than a Release build because the Debug build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison.
+1. Run the Python program (**Debug > Start Without Debugging** or Ctrl+F5) and observe that the C++ routine runs five to 20 times faster than the Python implementation. Again, try increasing the `COUNT` variable so that the differences are more pronounced. Also note that a Debug build of the C++ module runs slower than a Release build because the Debug build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison.
 
 ## Debug the C++ code
 
@@ -275,7 +275,7 @@ Visual Studio supports debugging Python and C++ code together.
 
     ![Setting the build configuration to Debug](media/cpp-set-debug.png)
 
-1. Because code generally takes longer to run in the debugger, you may want to change the `COUNT` variable in your `.py` file to a value that's about 5 times smaller (for example, change it from `500000` to `100000`).
+1. Because code generally takes longer to run in the debugger, you may want to change the `COUNT` variable in your `.py` file to a value that's about five times smaller (for example, change it from `500000` to `100000`).
 
 1. In your C++ code, set a breakpoint on the first line of the `tanh_impl` method, then start the debugger (F5 or **Debug > Start Debugging**). The debugger stops when that code is called. If the breakpoint is not hit, check that the configuration is set to Debug and that you've saved the project (which does not happen automatically when starting the debugger).
 
@@ -285,12 +285,12 @@ Visual Studio supports debugging Python and C++ code together.
 
 ## Alternative approaches
 
-There are a variety of means to create Python extensions as described in the table below. The first entry for CPython is what's been discussed in this topic already.
+There are a variety of means to create Python extensions as described in the following table. The first entry for CPython is what's been discussed in this article already.
 
 | Approach | Vintage | Representative User(s) | Pro(s) | Con(s) |
 | --- | --- | --- | --- | --- |
 | C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/3/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
-| Cython | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax and toolchain. |
+| Cython | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](http://pypy.org/) | Ease of integration, PyPy compatibility. | New, less mature. |
