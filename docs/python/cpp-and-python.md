@@ -224,7 +224,7 @@ The first method works if the Python project and the C++ project are in the same
 
 The alternate method, described in the following steps, installs the module in the global Python environment, making it available to other Python projects as well. (Doing so typically requires that you refresh the IntelliSense completion database for that environment. Refreshing is also necessary when removing the module from the environment.)
 
-1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components > Compilers, build tools, and runtimes > Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here.
+1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components > Compilers, build tools, and runtimes > Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
 
 1. Create a file named `setup.py` in your C++ project by right-clicking the project and selecting **Add > New Item...**. Then select "C++ File (.cpp)", name the file `setup.py`, and selecting **OK** (naming the file with the `.py` extension makes Visual Studio recognize it as Python despite using the C++ file template). When the file appears in the editor, paste the following code into it:
 
