@@ -15,9 +15,11 @@ manager: ghogen
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
-In **Visual Studio 2017 version 15.5** and later, Boost.Test is integrated into the Visual Studio IDE as a component of the **Desktop Development with C++** workload. To install it on your machine, open the Visual Studio Installer and find **Boost.Test Adapter** under the list of workload components:
+In **Visual Studio 2017 version 15.5** and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
 
-![Install Boost Test](media/cpp-boost-component.png "Install Boost.Test for C++")
+![Test Adapter for Boost.Test](media/cpp-boost-component.png "Test Adapter for Boost.Test component")
+
+If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer** and select **Modify**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
 
 ## Install Boost
 
@@ -31,33 +33,39 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 ## Create a project for your tests
 
-In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are  available for Boost.Test. Therefore, you have to create a console application project to hold your tests. Test templates for Boost.Test are planned for inclusion in a future version of Visual Studio. 
+> [!NOTE]
+> In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create a console application project to hold your tests. Test templates for Boost.Test are planned for inclusion in a future version of Visual Studio.
 
-1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project**.
+1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project...**.
 
-1. In the left pane, choose **Windows Desktop** and then choose **Windows Console Application** in the center pane.
+1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
 
 ## Link and configuration (Boost static library only)
 
-1. In **Solution Explorer**, right-click the Project node and choose **Unload Project**. Then right-click the project node and choose **Edit …vcxproj**.
+Configure the project to run Boost.Test tests.
 
-1. Add two lines to the Globals property group as shown here:
+1. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
 
-```xaml
-<PropertyGroup Label="Globals">
- ....
-    <VcpkgTriplet>x86-windows-static</VcpkgTriplet>
-    <VcpkgEnabled>true</VcpkgEnabled>
-</PropertyGroup>
-```
+1. Add two lines to the **Globals** property group as shown here:
 
-1. Right-click on the project node, then choose **Properties > C/C++ > Code Generation > Runtime Library** and select `/MTd` for debug static runtime library or `/MT` for release static runtime library.
+    ```xml
+    <PropertyGroup Label="Globals">
+    ....
+        <VcpkgTriplet>x86-windows-static</VcpkgTriplet>
+        <VcpkgEnabled>true</VcpkgEnabled>
+    </PropertyGroup>
+    ```
+1. Save and close the \*.vcxproj file, and then reload the project.
 
-1. Choose **Linker > System > Subsystem** and make sure that it is set to **Console**.
+1. To open the **Property Pages**, right-click on the project node and choose **Properties**.
 
-1. Reload the project file and build the project.
+1. Expand **C/C++** > **Code Generation**, and then select **Runtime Library**. Select `/MTd` for debug static runtime library or `/MT` for release static runtime library.
+
+1. Expand **Linker > System**. Verify that **SubSystem** is set to **Console**.
+
+1. Choose **OK** to close the property pages.
 
 ## Add include directives
 
@@ -65,31 +73,31 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 
 1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
 
-![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
+   ![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
 
-You can use the standalone library with:
+   You can use the standalone library with:
 
-```cpp
-#include <boost/test/unit_test.hpp>
-```
+   ```cpp
+   #include <boost/test/unit_test.hpp>
+   ```
 
-or use the single-header version with:
+   Or, use the single-header version with:
 
-```cpp
-#include <boost/test/included/unit_test.hpp>
-```
+   ```cpp
+   #include <boost/test/included/unit_test.hpp>
+   ```
 
-Then define `BOOST_TEST_MODULE`.
+   Then, define `BOOST_TEST_MODULE`.
 
 The following example is sufficient for the test to be discoverable in **Test Explorer**:
 
 ```cpp
 #define BOOST_TEST_MODULE MyTest
-#include <boost/test/included/unit_test.hpp> //single-header
+#include <boost/test/included/unit_test.hpp\> //single-header
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 
-BOOST_AUTO_TEST_CASE(my_boost_test)
+BOOST_AUTO_TEST_CASE(my\_boost_test)
 {
 	std::string expected_value = "Bill";
 
