@@ -83,14 +83,16 @@ Alternatively, you can install the [EditorConfig Language Service extension](htt
 
 When you add an .editorconfig file to a folder in your file hierarchy, its settings apply to all applicable files at that level and below. You can also override EditorConfig settings for a particular project, codebase, or part of a codebase, such that it uses different conventions than other parts of the codebase. This can be useful when you incorporate code from somewhere else, and don’t want to change its conventions.
 
-To override some or all of the EditorConfig settings, add an .editorconfig file at the level of the file hierarchy you want those overridden settings to apply. The new EditorConfig file settings apply to files at the same level and any subdirectories. If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower level file will be overridden; others will continue to apply. If you want to ensure that no settings from any .editorconfig files higher up in the directory structure are applied to this part of the codebase, add the ```root=true``` property to the .editorconfig file:
+To override some or all of the EditorConfig settings, add an .editorconfig file at the level of the file hierarchy you want those overridden settings to apply. The new EditorConfig file settings apply to files at the same level and any subdirectories.
+
+![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
+
+If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower-level file will be overridden. Other settings from higher-level .editorconfig files will continue to apply. If you want to ensure that _no_ settings from _any_ higher-level .editorconfig files are applied to this part of the codebase, add the ```root=true``` property to the .editorconfig file:
 
 ```EditorConfig
 # top-most EditorConfig file
 root = true
 ```
-
-![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
 
 EditorConfig files are read top to bottom, and the closest EditorConfig files are read last. Conventions from matching EditorConfig sections are applied in the order they were read, so conventions in closer files take precedence.
 
