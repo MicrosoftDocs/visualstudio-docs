@@ -52,7 +52,7 @@ You can make a reference to the following types of components and services:
 
 ### Project references
 
-Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](https://docs.microsoft.com/en-us/windows/uwp/porting/w8x-to-uwp-root).
+Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
 If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 

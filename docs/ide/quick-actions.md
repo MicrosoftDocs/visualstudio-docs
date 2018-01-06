@@ -589,7 +589,7 @@ Dim s As String = $"My string with {num} in the middle"
 | ------- | -------------------- | ----------------  |
 | IDE0017 | C# and Visual Basic | Visual Studio 2017 RTW |
 
-This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers.md) rather than invoking tne constructor and having additional lines of assignment statements.
+This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking tne constructor and having additional lines of assignment statements.
 
 ```csharp
 // Before
@@ -619,7 +619,7 @@ Dim c = New Customer() With {.Age = 21}
 | ------- | -------------------- | ----------------  |
 | IDE0028 | C# and Visual Basic | Visual Studio 2017 RTW |
 
-This Quick Action lets you use [collection initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers.md) rather than multiple calls to the `Add` method of your class.
+This Quick Action lets you use [collection initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than multiple calls to the `Add` method of your class.
 
 ```csharp
 // Before

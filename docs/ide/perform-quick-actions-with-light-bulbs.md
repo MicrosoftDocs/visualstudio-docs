@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/ide/quick-actions.md
+redirect_url: /visualstudio/ide/quick-actions
 ---

@@ -95,6 +95,7 @@
 ## [Managing Project Loading in a Solution](managing-project-loading-in-a-solution.md)
 # [Creating Custom Project and Item Templates](creating-custom-project-and-item-templates.md)
 ## [Upgrading Custom Project and Item Templates for Visual Studio 2017](upgrading-custom-project-and-item-templates-for-visual-studio-2017.md)
+## [Troubleshooting Template Discovery](troubleshooting-template-discovery.md)
 ## [How to: Use Wizards with Project Templates](how-to-use-wizards-with-project-templates.md)
 ## [Visual Studio Template Schema Reference](visual-studio-template-schema-reference.md)
 ### [AppliesTo Element (Visual Studio Templates)](appliesto-element-visual-studio-templates.md)
