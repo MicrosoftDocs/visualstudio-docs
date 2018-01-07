@@ -13,8 +13,6 @@ ms.author: mblome
 manager: ghogen
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.workload: 
-  - "cplusplus"
 ---
 # Using the C++ Core Guidelines checkers
 The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).
@@ -102,6 +100,9 @@ As of Visual Studio 2017 version 15.3, the supported rule sets are:
   - **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions). 
   - **Shared pointer Rules** As a part of [resource management](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-resource) guidelines enforcement, we added a few rules specific to how shared pointers are passed into functions or used locally.  
   - **Style Rules** One simple but important check which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++. 
+  - 
+  **Visual Studio 2017 version 15.6**:
+  - **Arithmetic Rules** Rules to detect arithmetic [overflow](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-overflow), [signed-unsigned operations](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-unsigned) and [bit manipulation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-nonnegative).
 
 
  You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
