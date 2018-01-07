@@ -83,7 +83,7 @@ Reference topics for most rules are under
 As of Visual Studio 2017 version 15.3, the supported rule sets are: 
   - **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
-  - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
+  - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).  
 
   - **Raw Pointer Rules** enforce [resource-management checks related to raw pointers from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
@@ -99,8 +99,8 @@ As of Visual Studio 2017 version 15.3, the supported rule sets are:
   - **Declaration Rules** A couple of rules from the [interfaces guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-interfaces) which focus on how global variables are declared.  
   - **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions). 
   - **Shared pointer Rules** As a part of [resource management](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-resource) guidelines enforcement, we added a few rules specific to how shared pointers are passed into functions or used locally.  
-  - **Style Rules** One simple but important check, which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++. 
-  - 
+  - **Style Rules** One simple but important check, which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++.  
+  
   **Visual Studio 2017 version 15.6**:
   - **Arithmetic Rules** Rules to detect arithmetic [overflow](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-overflow), [signed-unsigned operations](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-unsigned) and [bit manipulation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-nonnegative).
 
@@ -129,8 +129,7 @@ These macros correspond to the rule sets and expand into a space-separated list 
 ```
 
 ## Attributes
- The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute.
-It can be used to suppress warnings on expression and block statements inside of a function.
+ The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
 
 ```cpp
 // Supress only warnings from the 'r.11' rule in expression.
