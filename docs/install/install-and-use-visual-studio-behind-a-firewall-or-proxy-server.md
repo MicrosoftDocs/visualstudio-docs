@@ -95,12 +95,12 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 
 - &#42;.gallerycdn.vsassets.io (hosts VSTS extensions)
 
-- static2.sharepointonline.com (hosts resources that Visual Studio uses in the office fabric UI kit, such as fonts)
+- static2.sharepointonline.com (hosts resources that Visual Studio uses in the Office UI Fabric kit, such as fonts)
 
 - &#42;.nuget.org (for NuGet connections)
 
-> [!NOTE]
-> Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers you are using in %APPData%\Nuget\NuGet.Config.
+ > [!NOTE]
+ > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
 
 ### Whitelisting URLs for Azure services
 Whether you are using Azure services or are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
@@ -110,17 +110,15 @@ Whether you are using Azure services or are an Azure developer, here are the DNS
 | Roaming settings |  app.vssps.visualstudio.com | 168.62.105.45 | 443 |
 | Push notifications for roaming settings | ns-sb2-prod-ch1-002.cloudapp.net | 65.52.0.51 | 5671 |
 
-
-
 ## Troubleshooting proxy errors
 
 ### "Proxy Authorization Required" error
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
-#### To correct this error
+#### To fix this error:
 
-- Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials in the dialog.
+- Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
 
 - If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
 
@@ -154,7 +152,7 @@ This error generally occurs when users are connected to the internet through a p
 
     OR
 
-- You can also follow the instructions in the [How to connect to TFS through authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
+- You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
 
 ## Get support
 If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the installation troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
