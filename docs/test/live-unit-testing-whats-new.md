@@ -1,8 +1,7 @@
 ---
 title: "What's New in Live Unit Testing | Microsoft Docs"
 ms.date: "10-11-2017"
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
