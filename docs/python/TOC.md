@@ -20,7 +20,7 @@
 ### [Django web project template](template-django.md)
 ### [Azure cloud service template](template-azure-cloud-service.md)
 ## [Azure SDK for Python](azure-sdk-for-python.md)
-# How To
+# How-to guides
 ## [Editing code](code-editing.md)
 ### [Formatting code](code-formatting.md)
 ### [Refactoring code](code-refactoring.md)
