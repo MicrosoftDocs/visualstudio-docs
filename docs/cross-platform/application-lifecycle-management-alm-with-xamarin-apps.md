@@ -77,9 +77,8 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |Build definitions with pre- and post-scripts|Yes||  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
-## Testing  
- Reference link: **[Testing the application](/devops-test-docs/test/test-apps-early-and-often)**  
-  
+## Testing
+
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
 |Planning tests, creating test cases and organizing test suites|Yes||  
