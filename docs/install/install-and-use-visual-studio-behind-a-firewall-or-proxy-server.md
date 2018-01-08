@@ -24,7 +24,7 @@ ms.workload:
 # Install and use Visual Studio behind a firewall or proxy server
 When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs.
 
-## Installing Visual Studio
+## Installing Visual Studio by using deployment scripts
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in your deployment scripts.
 
 If it's possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
@@ -62,7 +62,7 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
-## Using Visual Studio
+## Using Visual Studio or Azure services in a private network or developing for Azure services
 You might want to whitelist URLs when you use Visual Studio in a private network, or when you use or develop for Azure services.
 
 ### Whitelisting URLs in a private network
