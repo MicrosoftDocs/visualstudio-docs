@@ -4,18 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.unittesting.testexplorer.overview"
-ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
-caps.latest.revision: 27
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Run unit tests with Test Explorer
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.  

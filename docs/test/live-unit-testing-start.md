@@ -2,8 +2,7 @@
 title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs | Microsoft Docs"
 ms.date: "2017-08-31"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.topic: "get-started-article"

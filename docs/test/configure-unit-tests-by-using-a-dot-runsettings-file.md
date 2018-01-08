@@ -4,16 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f7e9e4a2-5d01-4f78-b408-5be3892bd162
-caps.latest.revision: 25
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Configure unit tests by using a .runsettings file
 

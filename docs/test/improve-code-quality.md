@@ -10,10 +10,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "testing tools [Visual Studio]"
   - "unit tests [Visual Studio]"
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Testing tools in Visual Studio
 
