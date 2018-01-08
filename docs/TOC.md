@@ -22,7 +22,7 @@
 ### Install on a network
 #### [Create a network-based installation of Visual Studio](install/create-a-network-installation-of-visual-studio.md)
 #### [Update a network-based installation of Visual Studio](install/update-a-network-installation-of-visual-studio.md)
-#### [Installing Visual Studio behind a firewall or proxy server](install/install-visual-studio-behind-a-firewall-or-proxy-server.md)
+#### [Installing or using Visual Studio behind a firewall or proxy server](install/install-or-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 #### [Correcting proxy authorization errors](ide/reference/proxy-authorization-required.md)
 #### [Whitelisting URLs in a private network](ide/whitelisting-urls-in-a-private-network.md)
 ### Deploy in an enterprise

@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/15/2017"
+ms.date: "01/15/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -22,7 +22,7 @@ ms.workload:
   - "multiple"
 ---
 # Install and use Visual Studio behind a firewall or proxy server
-When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" domain URLs as trusted.
+When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs.
 
 ## Installing Visual Studio
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in your deployment scripts.
@@ -63,11 +63,11 @@ If it's possible for your environment, consider adding the following domains wit
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
 ## Using Visual Studio
-There are some scenarios in which you'll want to whitelist URLs, such as when you use Visual Studio in a private network, or when you use or develop for Azure services.
+You might want to whitelist URLs when you use Visual Studio in a private network, or when you use or develop for Azure services.
 
 ### Whitelisting URLs in a private network
 
-If you are using Visual Studio in a private network that uses a security appliance such as a firewall, Visual Studio might not be able to connect to some network resources. These resources include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:
+If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:
 
   **The underlying connection was closed: An unexpected error occurred on send**
 
@@ -122,7 +122,7 @@ This error generally occurs when users are connected to the internet through a p
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials in the dialog.
 
-- If the above step does not solve the problem, this may be because your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, you need to whitelist the following list of URLs to unblock all sign-in scenarios in Visual Studio:
+- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
 
     - &#42;.windows.net
 
@@ -142,7 +142,7 @@ This error generally occurs when users are connected to the internet through a p
 
     1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
-    1. In the configuration file, find the `<system.net>` block, and add this code:
+    1. In the configuration file, find the `<system.net>` block, and then add this code:
 
         ```xml
         <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -154,13 +154,10 @@ This error generally occurs when users are connected to the internet through a p
 
     OR
 
-- You can also follow the instructions in [this post](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) to add code that will allow you to use the proxy.
-
-
-
+- You can also follow the instructions in the [How to connect to TFS through authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
 
 ## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the installation troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
