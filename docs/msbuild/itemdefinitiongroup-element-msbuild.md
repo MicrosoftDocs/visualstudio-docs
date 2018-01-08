@@ -35,10 +35,10 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ## Syntax  
 
 ```  
-<ItemGroup Condition="'String A' == 'String B'">  
+<ItemDefinitionGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
-</ItemGroup>  
+</ItemDefinitionGroup>  
 ```  
 
 ## Attributes and Elements  
