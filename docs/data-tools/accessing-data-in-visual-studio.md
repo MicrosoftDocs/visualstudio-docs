@@ -137,7 +137,7 @@ Describes how to create data applications that allow developers to program again
 [WCF Data Services 4.5](/dotnet/framework/data/wcf/index)  
 Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).
 
-[Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
+[Data in Office Solutions](../vsto/data-in-office-solutions.md)  
 Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 
 [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)  
