@@ -34,7 +34,7 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
     </xs:sequence>  
   </xs:complexType>  
 </xs:element>  
-```  
+```
   
  You can insert snippets in two ways. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Both commands are available either from the **IntelliSense** submenu under the **Edit** menu, or from the editor shortcut menu.  
   

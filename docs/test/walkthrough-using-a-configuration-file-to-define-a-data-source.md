@@ -264,8 +264,8 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 > [!IMPORTANT]
 >  Deploy items like data sources so that they are accessible to the test in the deployment directory.  
   
-## See Also  
- [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Testing the application](/devops-test-docs/test/test-apps-early-and-often)   
- [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)
+## See Also
+
+[Unit Test Your Code](../test/unit-test-your-code.md)  
+[Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)  
+[How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

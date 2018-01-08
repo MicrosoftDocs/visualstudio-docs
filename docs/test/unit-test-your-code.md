@@ -50,15 +50,6 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 |**Extend the unit test type:** You can add functionality to your tests that might not be in the Unit Test Framework. For example, you can add a test property that specifies if a test should run as a normal user or not. Or you can extend the framework to add row attributes to a method and use the data in that row inside the test.|For sample code of how to extend the unit test framework, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=185591).|  
 |**Set testing options:** For example, you can specify where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|  
   
-## Related tasks  
- [Reviewing Test Results in Microsoft Test Manager](http://msdn.microsoft.com/en-us/9fb3e429-78df-4fe2-89ed-0ad1db0738f4)  
-  
- Describes test results and ways to work with them, including how to view, save, and delete them.  
-  
- [Running System Tests Using Microsoft Visual Studio](/devops-test-docs/test/running-automated-tests-using-microsoft-visual-studio)  
-  
- Provides links to information about using Visual Studio as opposed to using [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] to run automated tests.  
-  
 ## Reference  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>  
  Describes the UnitTesting namespace, which provides attributes, exceptions, asserts, and other classes that support unit testing.  
@@ -80,6 +71,6 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 ### Reference  
  [Content Index for Unit Tests](http://go.microsoft.com/fwlink/?LinkID=254719)  
   
-## See Also  
- [Improve Code Quality](/visualstudio/test/improve-code-quality)   
- [Testing the application](/devops-test-docs/test/test-apps-early-and-often)
+## See also
+
+[Improve Code Quality](/visualstudio/test/improve-code-quality)

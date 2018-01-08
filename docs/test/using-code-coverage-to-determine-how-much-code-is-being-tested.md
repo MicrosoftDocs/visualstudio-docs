@@ -265,15 +265,16 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  After the build runs, the code coverage results are attached to the test run and appear in the build summary.  
   
 ## Analyzing Code Coverage in a Command Line  
- To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](/devops-test-docs/test/vstest-console-exe-command-line-options).  
+
+To run tests from the command line, use vstest.console.exe. Code coverage is an option of the vstest.console.exe utility.
+
+1.  Launch the Visual Studio Developer Command Prompt:
   
-1.  Launch the Visual Studio Developer Command Prompt:  
+    On the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.  
   
-     On the Windows **Start** menu, choose **All Programs**, **Microsoft Visual Studio**, **Visual Studio Tools**, **Developer Command Prompt**.  
+2.  Run the following command:
   
-2.  Run:  
-  
-     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`  
+    `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`  
   
 ## Troubleshooting  
  If you do not see code coverage results, see  [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md).  

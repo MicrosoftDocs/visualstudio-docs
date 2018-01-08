@@ -584,7 +584,7 @@ namspace MySPAppTests
  [In this topic](#BKMK_In_this_topic)  
   
 ## See Also  
- [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](/devops-test-docs/test/web-performance-and-load-testing-sharepoint-2010-and-2013-applications)   
- [Developing SharePoint Solutions](/office-dev/office-dev/developing-sharepoint-solutions)
+
+[Unit Test Your Code](../test/unit-test-your-code.md)  
+[Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)  
+[Developing SharePoint Solutions](/office-dev/office-dev/developing-sharepoint-solutions)
