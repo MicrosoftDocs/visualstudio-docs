@@ -77,7 +77,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
 4.  Create a class that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag> and name it `HighlightWordTag`.  
   
     ```csharp  
-    internal class HighlightWordTag : TextMarkerTag  
+    public class HighlightWordTag : TextMarkerTag  
     {  
   
     }  
@@ -94,7 +94,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
     [Export(typeof(EditorFormatDefinition))]  
     [Name("MarkerFormatDefinition/HighlightWordFormatDefinition")]  
     [UserVisible(true)]  
-    internal class HighlightWordFormatDefinition : MarkerFormatDefinition  
+    public class HighlightWordFormatDefinition : MarkerFormatDefinition  
     {  
   
     }  
@@ -126,7 +126,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
 1.  Create a class that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> of type `HighlightWordTag`, and name it `HighlightWordTagger`.  
   
     ```csharp  
-    internal class HighlightWordTagger : ITagger<HighlightWordTag>  
+    public class HighlightWordTagger : ITagger<HighlightWordTag>  
     {  
   
     }  
