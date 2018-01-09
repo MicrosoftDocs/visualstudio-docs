@@ -1,7 +1,7 @@
 ---
 title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2017"
+ms.date: "01/10/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
