@@ -42,7 +42,7 @@ See the Tutorials for step-by-step instructions.
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
 
 ### Publish to Web or deploy to network share
 
@@ -54,7 +54,7 @@ See the Tutorials for step-by-step instructions.
 
     You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment).
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp.md). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
@@ -71,7 +71,7 @@ See the Tutorials for step-by-step instructions.
     > [!NOTE]
     > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
-- Other **Azure services**: See the specific [Azure service](https://docs.microsoft.com/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
+- Other **Azure services**: See the specific [Azure service](/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
 

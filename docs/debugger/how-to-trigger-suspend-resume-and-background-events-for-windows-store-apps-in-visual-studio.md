@@ -28,7 +28,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
   
  This topic also describes how to debug **Background tasks**. Background tasks enable you to perform certain operations in a background process, even when you app is not running. You can use the debugger to put your app in debug mode and then— without starting the UI—start and debug the background task.  
   
- For more information about Process Lifetime Management and background tasks see [Launching, resuming, and multitasking](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/index).  
+ For more information about Process Lifetime Management and background tasks see [Launching, resuming, and multitasking](/windows/uwp/launch-resume/index).  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Trigger Process Lifetime Management events](#BKMK_Trigger_Process_Lifecycle_Management_events)  

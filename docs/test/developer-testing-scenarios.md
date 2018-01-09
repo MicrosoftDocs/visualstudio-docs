@@ -4,18 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit testing, create unit tests"
-ms.assetid: 9DE41406-8D39-427E-99D9-987E99103B73
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Developer testing tools, scenarios, and capabilities
 

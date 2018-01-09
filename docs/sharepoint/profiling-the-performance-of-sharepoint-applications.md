@@ -63,9 +63,7 @@ ms.workload:
 |[Unit Test Your Code](/visualstudio/test/unit-test-your-code)|Describes how to find logic errors in your code by using unit tests.|  
 |[Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests)|Describes how to test the user interface of your SharePoint applications.|  
   
-## See Also  
- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
- [Testing the application](/devops-test-docs/test/test-apps-early-and-often)   
- [Improve Code Quality](/visualstudio/test/improve-code-quality)  
-  
-  
+## See Also
+
+[Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
+[Improve Code Quality](/visualstudio/test/improve-code-quality)
