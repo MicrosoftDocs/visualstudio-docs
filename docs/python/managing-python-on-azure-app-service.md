@@ -196,7 +196,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
 
 > [!Note]
-> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages-requirements-txt).
+> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages-requirementstxt).
 
 ### Kudu REST API
 

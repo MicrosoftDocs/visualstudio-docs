@@ -19,16 +19,16 @@ ms.workload:
 
 # Python environments
 
-Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. It also provides support for virtual environments, `requirements.txt` files, and search paths.
+A Python *environment* is a context in which you run Python code. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+
+In Visual Studio, you manage all of your environments using the [Python environments window](#managing-python-environments-in-visual-studio) as described in this article. For any given project, you select an environment to use for running code, debugging, checking syntax, displaying import and member completions, and any other tasks that are specific to the interpreter and installed libraries. Visual Studio also maintains an IntelliSense database for each environment that provides for auto-completion when entering code.
+
+Visual Studio also provides support for virtual environments, `requirements.txt` files, and search paths.
 
 **Note**: if you're new to Python in Visual Studio, see the following articles for necessary background:
 
 - [Working with Python in Visual Studio](python-in-visual-studio.md)
 - [Installing Python support in Visual Studio](installation.md)
-
-A Python *environment* is a context in which you run Python code. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
-
-In Visual Studio, you manage all of your environments using the [Python environments window](#managing-python-environments-in-visual-studio) as described in this article. For any given project, you select an environment to use for running code, debugging, checking syntax, displaying import and member completions, and any other tasks that are specific to the interpreter and installed libraries. Visual Studio also maintains an IntelliSense database for each environment that provides for auto-completion when entering code.
 
 ## Global and virtual environments
 
