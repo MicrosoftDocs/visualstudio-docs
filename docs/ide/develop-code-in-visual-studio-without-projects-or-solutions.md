@@ -169,7 +169,7 @@ In this procedure, we will add two custom build tasks that use nMake to build an
 
   ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask1.png)
 
-1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called makefile-clean which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nNake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
+1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called makefile-clean which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nNake](/cpp/build/nmake-reference) installed on your system.)
 
   ```xml
   {
