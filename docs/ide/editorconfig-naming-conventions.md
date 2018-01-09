@@ -154,7 +154,7 @@ error | When this style is not being followed, show a compiler error in the Erro
 
 The following .editorconfig file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
-```
+```EditorConfig
 # Public members must be capitalized (public_members_must_be_capitalized)
 [*.{cs,vb}]
 dotnet_naming_rule.public_members_must_be_capitalized.symbols   = public_symbols
@@ -174,7 +174,7 @@ The following screenshot shows the effect of this naming convention in the Edito
 
 Now let's change the violation severity to `warning`:
 
-```
+```EditorConfig
 dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 ```
 
