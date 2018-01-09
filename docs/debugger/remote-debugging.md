@@ -42,7 +42,7 @@ For in-depth instructions on remote debugging, see these topics.
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   
-## Download and Install the Remote Tools  
+## Download and Install the remote tools  
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 

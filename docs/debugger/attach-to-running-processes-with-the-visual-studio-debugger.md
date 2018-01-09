@@ -142,7 +142,7 @@ For some app types (like UWP apps), you don't attach directly to a process name,
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dotnet.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
 |Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
-|Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
+|Remote debug a Windows desktop app|Remote tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
 |Remote debug a Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|
 |Debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|  
   

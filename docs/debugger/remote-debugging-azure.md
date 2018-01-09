@@ -164,7 +164,7 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
-### <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
+### <a name="BKMK_msvsmon"></a> Download and Install the remote tools on Windows Server
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   

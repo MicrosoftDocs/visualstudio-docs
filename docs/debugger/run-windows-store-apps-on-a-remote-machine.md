@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Run UWP and Windows 8.1 apps on a remote machine  
   
-To run a UWP or Windows 8.1 app on a remote machine, you must attach to it using the Visual Studio Remote Tools. The Remote Tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+To run a UWP or Windows 8.1 app on a remote machine, you must attach to it using the Remote Tools for Visual Studio. The remote tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
 
 In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
 
@@ -89,9 +89,9 @@ On Windows 10, you can deploy to a USB-connected device by choosing **Device** i
 
     ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
   
-## <a name="BKMK_download"></a> Download and Install the Remote Tools (pre-Creators Update)
+## <a name="BKMK_download"></a> Download and Install the remote tools (pre-Creators Update)
 
-If you are using Windows 8.1 or a pre-Creator's Update verions of Windows 10, then follow these instructions. Otherwise, you can skip this section.
+If you are using Windows 8.1 or a pre-Creator's Update versions of Windows 10, then follow these instructions. Otherwise, you can skip this section.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   

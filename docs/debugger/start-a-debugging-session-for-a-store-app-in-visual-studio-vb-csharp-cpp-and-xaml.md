@@ -51,7 +51,7 @@ ms.workload:
   
 2.  Choose F5.  
   
- Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an un handled exception occurs, or the app ends.  
+ Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
 ##  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options  
   
@@ -70,10 +70,10 @@ Choose one of these options:
 |||  
 |-|-|  
 |**Local Machine**|Debug the app in the current session on your local machine.|  
-|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
-|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
+|**Simulator**|Debug the app in the Visual Studio simulator for UWP and [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+|**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Remote Tools for Visual Studio must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
-|**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or beyond.|  
+|**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or later versions.|  
 
 ##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Choose additional debugging options  
 
@@ -92,11 +92,7 @@ If you need to configure additional debugging options, open the property page fo
          ![C&#43;&#43; UWP app debugging property page](../debugger/media/dbg_cpp_debugpropertypage.png)  
 
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> Choose the debugger to use  
-By default, Visual Studio debugs managed code in C# and Visual Basic apps.  
-  
-For C# and Visual Basic apps, you can choose to debug both the managed and native C/C++ code in your app.
-  
-By default, Visual Studio debugs native code in your C++ app.  
+By default, Visual Studio debugs managed code in C# and Visual Basic apps. For C# and Visual Basic apps, you can choose to debug both the managed and native C/C++ code in your app. In C++ apps, Visual Studio debugs native code by default. In JavaScript apps, Visual Studio debugs script by default. 
   
 For C++ apps and JavaScript, you can choose to debug specific types of code that are in components of your app instead of, or in addition to, the native code. You specify the code to debug in the **Debugger Type** list on the **Debugging** property page of the app project.  
   
@@ -140,7 +136,7 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
  By default, you must supply credentials to run the remote debugger when you select **Remote Machine** as the deployment target.
   
 > [!IMPORTANT]
->  You can choose to run the remote debugger with no authentication, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose no authentication only if you are sure that the network is not at risk of from malicious or hostile traffic.  
+>  You can choose to run the remote debugger with no authentication, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose no authentication only if you are sure that the network is not at risk from malicious code or hostile traffic.  
   
  To remove the authentication requirement:  
   
@@ -173,7 +169,7 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
  . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
-When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the **Debug Installed App Package** dialog box. This procedure is useful when you need to debug an app that was installed from the Microsoft Store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
+When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the **Debug Installed App Package** dialog box. This procedure is useful when you need to debug an app that was installed from Microsoft Store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
 The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
@@ -187,7 +183,7 @@ To start an installed app in the debugger, choose **Debug**, then **Other debug 
 To debug an running UWP app, choose **Debug**, then **Other debug targets**, and then **Debug Installed App Package**. For additional instructions, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
   
 ###  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> Attach the debugger to a running Windows 8.x app
- To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app, you must use the Debuggable Package Manager to set the app to run in debug mode. The Debuggable Package Manager is installed with the Visual Studio Remote Tools.  
+ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app, you must use the Debuggable Package Manager to set the app to run in debug mode. The Debuggable Package Manager is installed with the Remote Tools for Visual Studio.  
   
  Attaching the debugger to an app is useful when you need to debug an already-installed app, such as an app that was installed from the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]. Attaching is required when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
@@ -201,7 +197,7 @@ To debug an running UWP app, choose **Debug**, then **Other debug targets**, and
   
 ####  <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> Set the app to run in debug mode  
   
-1.  Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).  
+1.  Install the Remote Tools for Visual Studio on the device where the app is installed. See [Installing the remote tools](../debugger/remote-debugging.md).  
   
 2.  On the Start screen, search for `Debuggable Package Manager` and then start it.  
   
