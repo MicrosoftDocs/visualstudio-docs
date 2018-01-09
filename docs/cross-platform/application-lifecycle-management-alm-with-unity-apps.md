@@ -81,8 +81,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
 
-## Testing  
- Reference link: **[Testing the application](/devops-test-docs/test/test-apps-early-and-often)**  
+## Testing
 
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
@@ -93,8 +92,9 @@ Developing apps for modern platforms involves many more activities than just wri
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|  
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|  
 
-## Improve code quality  
- Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
+## Improve code quality
+
+Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
 
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  

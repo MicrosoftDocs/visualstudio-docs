@@ -23,8 +23,6 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../misc/includes
   
  [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](http://msdn.microsoft.com/Library/6832fe39-04d5-4d94-8a18-3e2730bad423)  
   
- [Running System Tests Using Microsoft Visual Studio](/devops-test-docs/test/running-automated-tests-using-microsoft-visual-studio).  
-  
 ## See Also  
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   

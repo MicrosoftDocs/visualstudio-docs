@@ -1,17 +1,17 @@
 ---
 title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/07/2017"
+ms.date: "01/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e0710a8-8e8a-4f6e-8415-5ab3eb830079
-caps.latest.revision: 14
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
@@ -27,9 +27,15 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. Follow the instructions at [Vcpkg: a C++ Package Manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it).
 
-1. Run `vcpkg install boost:x86-windows-static` to install the Boost static library.
+1. Install the Boost.Test dynamic or static library:
 
-1. Run the `vcpkg integrate install` command to configure Visual Studio with the library and include paths to the Boost headers and binaries.
+	- Run `vcpkg install boost-test` to install the Boost.Test dynamic library.
+	
+	   -OR-
+	   
+	- Run `vcpkg install boost-test:x86-windows-static` to install the Boost.Test static library.
+
+1. Run `vcpkg integrate install` to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
 ## Create a project for your tests
 
