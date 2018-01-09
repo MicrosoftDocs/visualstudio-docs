@@ -115,7 +115,7 @@ The style rules in this section are applicable to both C# and Visual Basic. To s
 
 This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.
 
-The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:
+The following table shows the rule names, applicable programming languages, and default values:
 
 | Rule Name | Applicable languages | Visual Studio default value |
 | ----------- | -------------------- | ----------------------|
@@ -231,7 +231,7 @@ dotnet_style_qualification_for_event = false:suggestion
 
 This style rule can be applied to local variables, method parameters, and class members, or as a separate rule to type member access expressions. A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.
 
-The following table shows the rule names, rules IDs, applicable programming languages, default values, and first supported version of Visual Studio:
+The following table shows the rule names, rules IDs, applicable programming languages, and default values:
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
 | --------- | ------- | -------------------- | ----------------------|
@@ -383,15 +383,15 @@ The style rules in this section concern expression-level preferences, including 
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Visual Studio version |
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
 | --------- | ------- | -------------------- | ----------------------| ---- |
-| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
-| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
-| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 |
-| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
-| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 |
-| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 version 15.6 |
-| dotnet_prefer_inferred_anonymous_type_member_names | IDE0038 | C# and Visual Basic | true:suggestion | Visual Studio 2017 version 15.6 |
+| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | First release |
+| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | First release |
+| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
+| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
+| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
+| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 preview 2 |
+| dotnet_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 preview 2 |
 
 **dotnet\_style\_object_initializer**
 
@@ -577,7 +577,7 @@ The style rules in this section are applicable to C# only.
 
 The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.
 
-The following table shows the rule names, applicable programming languages, default values, and first supported version of Visual Studio:
+The following table shows the rule names, applicable programming languages, and default values:
 
 | Rule Name | Applicable Languages | Visual Studio Default |
 | ----------- | -------------------- | ----------------------|
@@ -794,7 +794,7 @@ csharp_style_expression_bodied_accessors = true:suggestion
 
 The style rules in this section concern the use of [pattern matching](/dotnet/csharp/pattern-matching) in C#.
 
-The following table shows the rule names, rule IDs, applicable language versions, default values, and first supported version of Visual Studio:
+The following table shows the rule names, rule IDs, applicable language versions, and default values:
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
 | --------- | ------- | -------------------- | ----------------------|
@@ -845,7 +845,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
 This style rule concerns whether `out` variables are declared inline or not. Starting in C# 7, you can [declare an out variable in the argument list of a method call](/dotnet/csharp/language-reference/keywords/out-parameter-modifier#calling-a-method-with-an-out-argument), rather than in a separate variable declaration.
 
-The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:
+The following table shows the rule name, rule ID, applicable language versions, and default values:
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
 | --------- | -------- | -------------------- | ----------------------|
@@ -963,7 +963,7 @@ csharp_style_pattern_local_over_anonymous_function = true:suggestion
 
 These style rules concern the syntax around `null` checking, including using `throw` expressions or `throw` statements, and whether to perform a null check or use the conditional coalescing operator (`?.`) when invoking a [lambda expression](/dotnet/csharp/lambda-expressions).
 
-The following table shows the rule names, rule IDs, applicable language versions, default values, and first supported version of Visual Studio:
+The following table shows the rule names, rule IDs, applicable language versions, and default values:
 
 | Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
 | --------- | ------- | -------------------- | ----------------------|

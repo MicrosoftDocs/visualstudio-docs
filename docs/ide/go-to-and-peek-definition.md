@@ -52,7 +52,7 @@ For more information, see [How to: View and Edit Code by Using Peek Definition (
 
 ## Viewing decompiled source definitions
 
-New in Visual Studio 2017 version 15.6, you can set an option to see decompiled source code when you choose **Go To Definition** or **Peek Definition** on a type or member. Visual Studio reconstructs method bodies using ILSpy decompilation to show the definition. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** and select **Enable navigation to decompiled sources**.
+New in Visual Studio 2017 version 15.6 preview 2, you can set an option to see decompiled source code when you choose **Go To Definition** or **Peek Definition** on a type or member. Visual Studio reconstructs method bodies using ILSpy decompilation to show the definition. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** and select **Enable navigation to decompiled sources**.
 
 ![Viewing a decompiled definition](media/go-to-definition-decompiled-sources.png)
 
