@@ -19,7 +19,8 @@ ms.author: "kaseyu"
 manager: ghogen
 ms.technology: vs-ide-general
 ms.workload: 
-  - "kaseyu"
+  - "dotnet"
+  - "dotnetcore"
 ---
 # .NET coding convention settings for EditorConfig
 
