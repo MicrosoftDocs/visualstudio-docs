@@ -19,7 +19,7 @@ ms.workload:
 
 # Python projects
 
-Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. To help manage this complexity, you can create Visual Studio projects for Python applications. A Python project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
+Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
 
 In addition, projects are always managed within a Visual Studio *solution*, which can contain any number of projects that might reference one another. For example, a Python project can reference a C++ project for an extension module, such that Visual Studio automatically builds the C++ project (if necessary) when you start debugging the Python project. (For a general discussion, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).)
 
@@ -36,7 +36,7 @@ In this topic:
 
 <a name="lightweight-usage-project-free"</a>
 > [!Tip]
-> Even without a project, Visual Studio works well with Python code, as you can open a Python file by itself and enjoy auto-complete, IntellSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> Even without a project, Visual Studio works well with Python code, as you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
@@ -60,15 +60,16 @@ A new project is always associated with the default global Python environment. T
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
 <a name="project-types"</a>
+
 ## Project templates
 
-Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Templates > Other Languages > Python** node:
+Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Installed > Python** node:
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
 The following table summarizes the templates available in Visual Studio 2017 (not all templates are available in all previous versions):
 
-| Template | Description | 
+| Template | Description |
 | --- | --- |
 | [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
