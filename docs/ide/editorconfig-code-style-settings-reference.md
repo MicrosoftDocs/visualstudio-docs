@@ -19,7 +19,8 @@ ms.author: "kaseyu"
 manager: ghogen
 ms.technology: vs-ide-general
 ms.workload: 
-  - mulitple
+  - dotnet
+  - dotnetcore
 ---
 # .NET coding convention settings for EditorConfig
 
@@ -77,6 +78,8 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_explicit\_tuple_names
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
+        - dotnet\_prefer\_inferred\_tuple_names
+        - dotnet\_prefer\_inferred\_anonymous\_type\_member_names
 - C# Code Style Settings
     - [Implicit and explicit types](#var)
         - csharp\_style\_var\_for\_built\_in_types
@@ -215,7 +218,7 @@ AddHandler Elapsed, AddressOf Handler
 
 These rules could appear in an .editorconfig file as follows:
 
-```
+```EditorConfig
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_qualification_for_field = false:suggestion
@@ -283,7 +286,7 @@ Dim local = Int32.MaxValue
 
 These rules could appear in an .editorconfig file as follows:
 
-```
+```EditorConfig
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
@@ -360,7 +363,7 @@ End Class
 
 These rules could appear in an .editorconfig file as follows:
 
-```
+```EditorConfig
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_require_accessibility_modifiers = always:suggestion
@@ -388,6 +391,7 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
 | dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 |
 | dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 version 15.6 |
+| dotnet_prefer_inferred_anonymous_type_member_names | IDE0038 | C# and Visual Basic | true:suggestion | Visual Studio 2017 version 15.6 |
 
 **dotnet\_style\_object_initializer**
 
@@ -522,9 +526,38 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 **dotnet\_prefer\_inferred\_tuple_names**
 
-These rules could appear in an .editorconfig file as follows:
+- When this rule is set to **true**, prefer inferred tuple element names.
+- When this rule is set to **false**, prefer explicit tuple element names.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_inferred_tuple_names = true
+var tuple = (age, name);
+
+// dotnet_style_prefer_inferred_tuple_names = false
+var tuple = (age: age, name: name);
+```
+
+**dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names**
+
+- When this rule is set to **true**, prefer inferred anonymous type member names.
+- When this rule is set to **false**, prefer explicit anonymous type member names.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_inferred_anonymous_type_member_names = true
+var anon = new { age, name };
+
+// dotnet_style_prefer_inferred_anonymous_type_member_names = false
+var anon = new { age = age, name = name };
 
 ```
+
+These rules could appear in an .editorconfig file as follows:
+
+```EditorConfig
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_object_initializer = true:suggestion
@@ -532,6 +565,8 @@ dotnet_style_collection_initializer = true:suggestion
 dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 ```
 
 ### C# code style settings
@@ -597,7 +632,7 @@ bool f = this.Init();
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_style_var_for_built_in_types = true:suggestion
@@ -744,7 +779,7 @@ public int Age { get { return _age; } set { _age = value; } }
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_style_expression_bodied_methods = false:none
@@ -799,7 +834,7 @@ if (s != null) {...}
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
@@ -834,7 +869,7 @@ if (int.TryParse(value, out i) {...}
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_style_inlined_variable_declaration = true:suggestion
@@ -916,7 +951,7 @@ fibonacci = (int n) =>
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
@@ -968,7 +1003,7 @@ if (func != null) { func(args); }
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_style_throw_expression = true:suggestion
@@ -1002,7 +1037,7 @@ if (test) this.Display();
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_braces = true:none
@@ -1079,7 +1114,7 @@ using System.Threading.Tasks;
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
@@ -1276,7 +1311,7 @@ var q = from a in e from b in e
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp formatting settings:
 [*.cs]
 csharp_new_line_before_open_brace = methods, properties, control_blocks, types
@@ -1425,7 +1460,7 @@ class C
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp formatting settings:
 [*.cs]
 csharp_indent_case_contents = true
@@ -1532,7 +1567,7 @@ int y = ( int )x;
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp formatting settings:
 [*.cs]
 csharp_space_after_cast = true
@@ -1589,7 +1624,7 @@ public int MyProperty
 
 Example .editorconfig file:
 
-```
+```EditorConfig
 # CSharp formatting settings:
 [*.cs]
 csharp_preserve_single_line_statements = true
