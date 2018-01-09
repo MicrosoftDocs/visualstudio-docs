@@ -27,10 +27,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, Excel solutions"
   - "document-level customizations [Office development in Visual Studio], Excel"
   - "Office projects [Office development in Visual Studio], Excel"
-ms.assetid: 34444d54-d7b6-479a-b5b7-a946267081e9
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

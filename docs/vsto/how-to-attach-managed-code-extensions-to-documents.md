@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "managed code extensions [Office development in Visual Studio], attaching"
   - "documents [Office development in Visual Studio], managed code extensions"
-ms.assetid: b38c3a35-8b4a-4e86-8475-88fa8a873a5d
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

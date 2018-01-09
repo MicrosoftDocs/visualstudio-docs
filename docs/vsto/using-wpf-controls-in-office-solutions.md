@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "WPF [Office development in Visual Studio]"
-ms.assetid: 305a212b-0a95-40ad-87aa-22896fe80a04
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

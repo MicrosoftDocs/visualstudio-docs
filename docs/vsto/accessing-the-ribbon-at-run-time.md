@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Globals class, Ribbon"
   - "Ribbon [Office development in Visual Studio], accessing"
   - "RibbonManager class"
-ms.assetid: 8a7c7c6d-1a18-4d6b-98ee-e483d41f0cd8
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "workbooks, saving in XML format"
   - "workbooks, saving"
   - "workbooks, saving backup copies"
-ms.assetid: 991ccf9b-5213-4094-9030-284ec167bdcc
-caps.latest.revision: 50
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

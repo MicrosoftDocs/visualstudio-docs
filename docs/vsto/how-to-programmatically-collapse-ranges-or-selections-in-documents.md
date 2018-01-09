@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "collapsing selections"
   - "ranges, collapsing"
   - "collapsing ranges"
-ms.assetid: 0bd059dd-8606-42ae-a8a9-97f8f3bd5cc5
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

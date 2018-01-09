@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, what's new"
   - "what's new [Office development in Visual Studio]"
-ms.assetid: 290f5cb4-e2ee-4ed8-987c-2f013405cee9
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -31,10 +31,8 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], project templates"
   - "Word projects in Visual Studio"
   - "Outlook [Office development in Visual Studio], project templates"
-ms.assetid: 2f86546b-307f-48ea-b01c-5f5a242fce17
-caps.latest.revision: 68
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

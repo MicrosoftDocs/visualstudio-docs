@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "certificates [Office development in Visual Studio], Office solutions"
   - "security [Office development in Visual Studio], signing Office solutions"
   - "signing manifests [Office development in Visual Studio]"
-ms.assetid: d3df5ee6-f1b7-47ed-b7ee-8985679ee3af
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "worksheets, Excel"
   - "worksheets"
   - "events [Office development in Visual Studio]"
-ms.assetid: b4f7c501-81f5-409e-aa1b-748f010798b9
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

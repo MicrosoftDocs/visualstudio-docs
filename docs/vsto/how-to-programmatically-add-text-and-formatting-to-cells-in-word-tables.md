@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], adding to Word tables"
   - "formatting [Office development in Visual Studio]"
   - "tables [Office development in Visual Studio], adding text and formatting"
-ms.assetid: 3df6492a-dc9c-43ac-8fc3-0f944edd88b2
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

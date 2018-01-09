@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating your first project"
   - "add-ins [Office development in Visual Studio], creating your first project"
   - "Outlook [Office development in Visual Studio], creating your first project"
-ms.assetid: 2c5c5d75-27ee-471f-9328-58f0cf05b2b7
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

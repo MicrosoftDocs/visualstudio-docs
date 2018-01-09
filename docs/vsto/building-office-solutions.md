@@ -27,10 +27,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], building"
   - "application development [Office development in Visual Studio], debugging"
   - "Office solutions [Office development in Visual Studio], debugging"
-ms.assetid: c4b79ea8-df70-4a72-b76e-26e337d65727
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

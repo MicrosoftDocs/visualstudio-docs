@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "event handlers [Office development in Visual Studio]"
   - "Visual C# [Office development in Visual Studio], event handlers"
   - "events [Office development in Visual Studio]"
-ms.assetid: 2cfd6a45-4c25-4431-b4fc-e0f2c0a72e54
-caps.latest.revision: 31
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

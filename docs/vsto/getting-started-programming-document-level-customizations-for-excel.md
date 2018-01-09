@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel solutions in Visual Studio"
   - "Excel projects [Office development in Visual Studio], getting started"
-ms.assetid: 8b73cf08-a173-4b49-b20f-2d2456dbe925
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

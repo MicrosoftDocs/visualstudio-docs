@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "InfoPath [Office development in Visual Studio], Ribbon"
   - "Ribbon [Office development in Visual Studio], InfoPath"
-ms.assetid: 498c6457-679a-46f2-939f-c0597a17b7ec
-caps.latest.revision: 19
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

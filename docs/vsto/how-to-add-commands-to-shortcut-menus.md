@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office menus, creating"
   - "Office development in Visual Studio, context menus"
-ms.assetid: 9a848817-db11-4294-8f6f-9181ab87aadd
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

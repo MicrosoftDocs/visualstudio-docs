@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], opening Visio documents"
   - "Visio [Office development in Visual Studio], opening Visio documents"
-ms.assetid: bddb820c-bde7-4d21-a0b3-6d1968baccab
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

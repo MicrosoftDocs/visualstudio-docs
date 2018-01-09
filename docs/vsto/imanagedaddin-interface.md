@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "IManagedAddin interface"
-ms.assetid: 5350629c-6cf8-42dd-ae65-3f34322ee10f
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

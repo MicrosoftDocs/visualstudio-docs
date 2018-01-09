@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], document protection"
   - "document protection, adding to worksheets"
   - "worksheets, protecting"
-ms.assetid: 50bde1ff-918a-42ca-ba1b-f22139f8717a
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

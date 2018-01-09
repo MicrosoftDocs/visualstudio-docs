@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], mail items"
   - "mail items [Office development in Visual Studio]"
   - "mail items [Office development in Visual Studio], about mail items"
-ms.assetid: e5c82974-d302-49dc-9487-9b265125af03
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

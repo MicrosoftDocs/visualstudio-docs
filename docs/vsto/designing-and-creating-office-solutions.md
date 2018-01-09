@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating solutions"
   - "solutions [Office development in Visual Studio], creating"
   - "Office project types in Visual Studio"
-ms.assetid: 53c32c61-3d3a-4427-a5a7-f9c2c8f1de02
-caps.latest.revision: 103
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

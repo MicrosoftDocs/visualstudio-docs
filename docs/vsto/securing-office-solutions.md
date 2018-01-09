@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "security [Office development in Visual Studio]"
-ms.assetid: af840916-dda4-4e52-b536-802ebcab30ca
-caps.latest.revision: 78
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

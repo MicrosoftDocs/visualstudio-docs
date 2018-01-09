@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], guidelines"
   - "icons [Office development in Visual Studio]"
-ms.assetid: 47ad59d3-5cb7-4d27-a314-9c09937143d7
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "text searches, documents"
   - "text [Office development in Visual Studio], searching in documents"
   - "text [Office development in Visual Studio], text searches"
-ms.assetid: a66962f5-eeb9-4dc6-a70f-9039ab437a63
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

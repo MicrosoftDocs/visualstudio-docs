@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], mapping to ListObject column"
   - "ListObject control, mapping data"
-ms.assetid: 2108d0c3-d595-410e-a0ae-3dd53bf6bcc7
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

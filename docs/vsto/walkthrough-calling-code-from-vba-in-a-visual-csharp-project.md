@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, Visual Basic for Applications and"
   - "calling code from VBA"
   - "document-level customizations [Office development in Visual Studio], calling code"
-ms.assetid: 9a5741f1-8260-4964-afa1-c69b68d1cfdf
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

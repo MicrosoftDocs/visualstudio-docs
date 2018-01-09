@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "mappings [Office development in Visual Studio], XML schemas to Excel worksheets"
   - "Excel [Office development in Visual Studio], XML schemas"
   - "worksheets [Office development in Visual Studio], XML schemas"
-ms.assetid: cef3f751-c1cf-46f3-9177-0bacdcee4121
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -27,10 +27,8 @@ helpviewer_keywords:
   - "user interfaces [Office development in Visual Studio], Word"
   - "Office documents [Office development in Visual Studio, Word"
   - "document-level customizations [Office development in Visual Studio], Word"
-ms.assetid: ef339ad8-1897-4a44-b588-e6004d0b6d8b
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

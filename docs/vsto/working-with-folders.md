@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "folders [Office development in Visual Studio]"
   - "e-mail [Office development in Visual Studio], folders"
   - "Outlook [Office development in Visual Studio], folders"
-ms.assetid: 1379b5cb-5093-46a3-80f0-b7b3c66b1df3
-caps.latest.revision: 9
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
