@@ -1,7 +1,7 @@
 ---
 title: Python environments in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 07/25/2017
+ms.date: 01/09/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,34 +19,36 @@ ms.workload:
 
 # Python environments
 
-Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects.
+Python in Visual Studio makes it easy to manage multiple Python environments and easily switch between them for different projects. It also provides support for virtual environments, `requirements.txt` files, and search paths.
 
-**Note**: if you're new to Python in Visual Studio, see the following topics first as this present discussion relies upon them:
+**Note**: if you're new to Python in Visual Studio, see the following articles for necessary background:
 
 - [Working with Python in Visual Studio](python-in-visual-studio.md)
 - [Installing Python support in Visual Studio](installation.md)
 
-A Python *environment*, in which you always run Python code, consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. Together these components determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+A Python *environment* is a context in which you run Python code. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-In Visual Studio, an environment also includes an IntelliSense database for an environment's libraries, such that typing a statement like `import` in the Visual Studio editor automatically displays a list of available libraries as well as the modules within those libraries.
+In Visual Studio, you manage all of your environments using the [Python environments window](#managing-python-environments-in-visual-studio) as described in this article. For any given project, you select an environment to use for running code, debugging, checking syntax, displaying import and member completions, and any other tasks that are specific to the interpreter and installed libraries. Visual Studio also maintains an IntelliSense database for each environment that provides for auto-completion when entering code.
 
-Oftentimes, developers use only a single, global Python environment. Other developers, however, need to manage multiple global environments, project-specific environments, and virtual environments as explained in this topic:
+## Global and virtual environments
 
-- [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters)
-- [Managing Python environments in Visual Studio](#managing-python-environments-in-visual-studio)
-- [Global environments](#global-environments)
-- [Project-specific environments](#project-specific-environments)
-- [Virtual environments](#virtual-environments)
-- [Managing required packages](#managing-required-packages)
-- [Search paths](#search-paths)
+There are two types of Python environments: global and virtual.
 
-For a video introduction, see [Managing Python Environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) (Microsoft Virtual Academy, 2m35s).
+**Global environments**: Each Python installation (for example, Python 2.7, Python 3.6, and Anaconda 4.4.0, see [selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) maintains its own environment. Each environment is composed of the specific Python interpreter, its standard library, and a set of pre-installed packages. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protect area of the file system (within `c:\program files`, for example), then installing packages requires administrator privileges.
 
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Managing-Python-Environments-qrDmN4LWE_8305918567]
+Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Selecting an environment for a project](#selecting-an-environment-for-a-project).
 
-## Selecting and installing Python interpreters
+**Virtual environments**: Because packages installed into a global environment are available to all projects that use that environment, conflicts may occur when two projects require incompatible packages or different versions of the same package. Virtual environments avoid such conflicts by using the interpreter and standard library from a global environment but maintaining their own package stores in isolated folders.
 
-Except with Visual Studio 2017, Python support does not come with a Python interpreter, so you need to install one of the following to run your code. In general, Visual Studio automatically detects newly installed interpreters and sets up an environment for each. If it does not detect an installed environment, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
+In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project (see [creating virtual environments](#creating-virtual-environments). The project file also identifies the virtual environment. Visual Studio also records any packages that you install into that virtual environment in the project's `requirements.txt` file. If you then share the project and other developers open it on their computers, Visual Studio provides the option to recreate the virtual environment.
+
+### Selecting and installing Python interpreters
+
+By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installation.md). You can also manually install any of the interpreters listed in the following table.
+
+For Visual Studio 2015 and earlier, you must manually install one of the interpreters.
+
+Visual Studio (all versions) automatically creates an environment for each installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)). If Visual Studio does not detect an installed environment, see [Creating an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
 
 | Interpreter | Description |
 | --- | --- |
@@ -60,10 +62,7 @@ Developers that want to provide new forms of detection for Python environments, 
 
 ## Managing Python environments in Visual Studio
 
-To open the Python Environments window, do one of the following:
-
-1. Select the **View > Other Windows > Python Environments** menu command.
-1. Right-click the **Python Environments** for a project in Solution Explorer and select **View All Python Environments**:
+To open the Python Environments window, select the **View > Other Windows > Python Environments** menu command or right-click the **Python Environments** node for a project in Solution Explorer and select **View All Python Environments**:
 
     ![View All Environments command in Solution Explorer](media/environments-view-all.png)
 
@@ -71,19 +70,24 @@ In either case, the Python Environments window appears as a sibling tab to Solut
 
 ![Python Environments window](media/environments-default-view.png)
 
-The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. In this case, the default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above).
+The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. The default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above). The **+ Custom...** command lets you [create an environment for an existing interpreter](#create-an-environment-for-an-existing-interpreter).
 
-> [!Tip]
-> When the **Python Environments** window is narrow, as shown above, the environments are listed on the top and the various tabs on the bottom. Expanding the window enough, however, changes to a wide view that you may find more convenient to work with.
->
-> ![Python Environments window expanded view](media/environments-expanded-view.png)
+To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment.
+
+Below the list of environments is a drop-down selector for the **Overview**, **Packages**, and **IntelliSense** options described later in this section. If you expand the **Python Environments** window wide enough, these options are shown as tabs, which you may find more convenient to work with:
+
+![Python Environments window expanded view](media/environments-expanded-view.png)
 
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
+For a video introduction to managing environments in Visual Studio, see [Managing Python Environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) (Microsoft Virtual Academy, 2m35s).
+
+> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Managing-Python-Environments-qrDmN4LWE_8305918567]
+
 ### Creating an environment for an existing interpreter
 
-Visual Studio normally locates an installed Python interpreter by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)). However, Visual Studio may not find it if the interpreter is installed in a non-standard fashion. In such cases, you can point Visual Studio directly to the interpreter as follows:
+If Visual Studio does not locate an interpreter (such as when it's installed in a non-standard location), you can create and environment as follows:
 
 1. Select **+ Custom...** in the [Python Environments window](#managing-python-environments-in-visual-studio), which creates a new environment and opens the [**Configure** tab](#configure-tab) described below.)
 
@@ -97,7 +101,7 @@ Visual Studio normally locates an installed Python interpreter by checking the r
 
 ### Moving an existing interpreter
 
-If you move an existing interpreter to a new location on the file system, Visual Studio doesn't automatically detect the change. Manual steps are necessary to update the list in the Environment window:
+If you move an existing interpreter to a new location on the file system, Visual Studio doesn't automatically detect the change and you must update its environment manually:
 
 - If you originally created an environment for that interpreter, edit that environment to point to the new location.
 
@@ -114,6 +118,7 @@ Provides basic information and commands for the environment:
 | Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
 | Visit the distributor's website | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
 | Open interactive window | Opens the [interactive (REPL) window](interactive-repl.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
+| Explore interactive scripts | See [startup scripts](#startup-scripts). |
 | Use IPython interactive mode | When set, opens the interactive window with IPython by default. This enabled inline plots as well as the extended IPython syntax such as `name?` to view help and `!command` for shell commands. This option is recommended when using an Anaconda distribution, as it requires extra packages. For more information, see [Using IPython in the Interactive Window](interactive-repl-ipython.md). |
 | Open in PowerShell | Starts the interpreter in a PowerShell command window. |
 | (Folder links) | Provide you quick access to the environment's installation folder, the python.exe interpreter, and the pythonw.exe interpreter. The first opens in Windows Explorer, the latter two open a console window. |
@@ -147,12 +152,11 @@ If shown, contains details as described in the table below. If this tab isn't pr
 
 ### pip tab
 
-Manages the packages installed in the environment, allowing you also to and search for and install new ones (including any dependencies). Searching filters your currently installed packages and [PyPI](https://pypi.python.org). You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
+Manages the packages installed in the environment, allowing you to also search for and install new ones (including any dependencies). Searching filters your currently installed packages and [PyPI](https://pypi.python.org). You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
 
 ![Python environments pip tab](media/environments-pip-tab.png)
 
-Installing a package creates subfolders within the environment's `Lib` folder on the file system. For example, if you have Python 3.6 installed in `c:\Python36`, packages are installed in `c:\Python36\Lib`; if you have Anaconda3 installed in `c:\Program Files\Anaconda3` then packages are installed in 
-`c:\Program Files\Anaconda3\Lib`.
+Installing a package creates subfolders within the environment's `Lib` folder on the file system. For example, if you have Python 3.6 installed in `c:\Python36`, packages are installed in `c:\Python36\Lib`; if you have Anaconda3 installed in `c:\Program Files\Anaconda3` then packages are installed in `c:\Program Files\Anaconda3\Lib`.
 
 In the latter case, because the environment is located in a protected area of the file system, `c:\Program Files`, Visual Studio must run `pip install` elevated to allow it to create package subfolders. When elevation is required, Visual Studio displays the prompt, "Administrator privileges may be required to install, update or remove packages for this environment":
 
@@ -174,13 +178,7 @@ The database contains metadata for all the environment's libraries and improves 
 
 Libraries for which data haven't been compiled are marked with a **!**; if an environment's database isn't complete, a **!** also appears next to it in the main environment list.
 
-## Global environments
-
-Global (or system-wide) environments are available to all of your projects on a machine. Visual Studio usually detects global environments automatically, and they can be viewed in the [Python Environments window](#managing-python-environments-in-visual-studio). If not, you can add an environment manually through that same window.
-
-Visual Studio uses the default environment for all new projects for executing, debugging, checking syntax, displaying import and member completions, and any other tasks that require an environment. Changing the default environment affects all projects that have not had a [project-specific environment](#project-specific-environments) added, as described next.
-
-## Project-specific environments
+## Selecting an environment for a project
 
 Project-specific environments ensure that a project always runs in a particular environment, ignoring the default global environment. For example, if the global default environment is CPython but a project requires IronPython and certain libraries that aren't installed in the global environment, then a project-specific environment is necessary.
 
@@ -206,13 +204,7 @@ To install new packages, right-click the environment, select **Install Python Pa
 > [!Tip]
 > A common situation where pip fails to install a package is when the package includes source code for native components in `*.pyd` files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is `error: Unable to find vcvarsall.bat`. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [http://aka.ms/VCPython27](http://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
 
-## Virtual Environments
-
-Because packages installed into a global environment are available to all projects that use it, conflicts may occur when two projects require incompatible packages or different versions of the same package. To avoid such conflicts, Visual Studio provides the ability to create *virtual environments*, which are typically specific to a project.
-
-Like any other Python environment, a virtual environment consists of a Python interpreter, a library, and a set of packages. In this case, though, the virtual environment uses the interpreter and library from one of your global environments (provided it supports virtual environments), but its packages are separate and isolated from the global and all other virtual environments. This isolation again avoids conflicts and minimizes the virtual environment's footprint to the approximate size of its packages. 
-
-To create a virtual environment:
+## Creating virtual environments
 
 1. Right-click **Python Environments** in Solution Explorer and select **Add Virtual Environment...**, which brings up the following:
 
@@ -230,11 +222,11 @@ An existing virtual environment can also be added by right-clicking **Python Env
 
 Once a virtual environment is added to your project, it appears in the **Python Environments** window, you can activate it like any other environment, and you can manage its packages. Right-clicking it and selecting **Remove** either removes the reference to the environment, or deletes the environment and all its files on disk (but not the base interpreter).
 
-Note that one drawback to virtual environments is that they contain hard-coded file paths and thus cannot easily be shared or transported to other development machines. Fortunately, you can use the `requirements.txt` file as described in the next section.
+Note that one drawback to virtual environments is that they contain hard-coded file paths and thus cannot easily be shared or transported to other development computers. Fortunately, you can use the `requirements.txt` file as described in the next section to allow recipients of your project to easily restore the environment.
 
-## Managing required packages
+## Managing required packages (requirements.txt)
 
-If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](template-azure-cloud-service.md), you need to specify the external packages it requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
+If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](template-azure-cloud-service.md), you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for `requirements.txt`:
 
@@ -250,9 +242,9 @@ Technically, any filename may be used to track requirements (by using `-r <full 
   - **Refresh existing entries** detects package requirements and updates the version specifiers to match the version you currently have installed.
   - **Update and add entries** refreshes any requirements that are found, and adds all other packages to the end of the file.
 
-Because `requirements.txt` files are intended to freeze the requirements of your project, all installed packages are written with precise versions. Using precise versions ensures that you can easily reproduce your environment on another machine. Packages are included even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
+Because `requirements.txt` files are intended to freeze the requirements of your project, all installed packages are written with precise versions. Using precise versions ensures that you can easily reproduce your environment on another computer. Packages are included even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
 
-If a `requirements.txt` file exists when adding a new virtual environment, the **Add Virtual Environment** dialog displays an option to install the packages automatically, making it easy to recreate an environment on another machine:
+If a `requirements.txt` file exists when adding a new virtual environment, the **Add Virtual Environment** dialog displays an option to install the packages automatically, making it easy to recreate an environment on another computer:
 
 ![Create virtual environment with requirements.txt](media/environments-requirements-txt.png)
 
@@ -285,17 +277,18 @@ Cleaning up...
 
 ## Search paths
 
-With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `import <name>` statement, Python first searches its built-in modules for a matching name, then searches folder containing the Python code you're running, then searches the "module search path" as defined by the applicable environment variable. (See [The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) and [Environment variables](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH) in the core Python documentation.)
+With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `from <name> import...` or `import <name>` statement, Python searches the following locations in order for a matching name:
 
-The search path environment variable, however, is ignored by Visual Studio, even when it's been set for the entire system. It's ignored, in fact, precisely *because* it's set for the entire system and thus raises certain questions that cannot be answered automatically: Are the referenced modules meant for Python 2.7 or Python 3.3? Are they going to override standard library modules? Is the developer aware of this behavior or is it a malicious hijacking attempt?
+1. Python's built-in modules.
+1. The folder containing the Python code you're running.
+1. The "module search path" as defined by the applicable environment variable. (See [The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) and [Environment variables](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH) in the core Python documentation.)
 
-Python support in Visual Studio thus provides a means to specify search paths directly in both environments and projects. Search paths are passed as the value of `PYTHONPATH` (or equivalent) when you debug or execute your script from Visual Studio. By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them (constructing the database may take some time depending on the number of libraries).
+Visual Studio ignores the search path environment variable, however, even when the variable is set for the entire system. It's ignored, in fact, precisely *because* it's set for the entire system and thus raises certain questions that cannot be answered automatically: Are the referenced modules meant for Python 2.7 or Python 3.3? Are they going to override standard library modules? Is the developer aware of this behavior or is it a malicious hijacking attempt?
 
-To add a search path, right-click on the **Search Paths** item in Solution Explorer, select **Add Folder to Search Path...**, and select the folder to include. This path is used for any environment associated with the project.
+Visual Studio thus provides a means to specify search paths directly in both environments and projects. Code that you run or debug in Visual Studio receives search paths in the value of `PYTHONPATH` (and other equivalent variables). By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them (constructing the database may take some time depending on the number of libraries).
+
+To add a search path, right-click on the **Search Paths** item in Solution Explorer, select **Add Folder to Search Path...**, and select the folder to include. This path is used for any environment associated with the project. (You may see errors if the environment is based on Python 3 and you attempt to add a search path to Python 2.7 modules.)
 
 Files with a `.zip` or `.egg` extension can also be added as search paths by selecting **Add Zip Archive to Search Path...**. As with folders, the contents of these files are scanned and made available to IntelliSense.
 
-> [!Note]
-> It is possible to add a search path to Python 2.7 modules while you are using Python 3.3, and you may see errors as a result.
-
-If you are regularly using the same search paths and the contents do not often change, it may be more efficient to install it into your site-packages folder. It's then be analyzed and stored in the IntelliSense database, is always be associated with the intended environment, and does not require a search path to be added for each project.
+If you are regularly using the same search paths and the contents do not often change, it may be more efficient to install it into your site-packages folder. The search path is then analyzed and stored in the IntelliSense database, is always be associated with the intended environment, and does not require a search path to be added to each project.

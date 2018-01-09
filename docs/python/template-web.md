@@ -29,7 +29,7 @@ When run, a project created from a template (as accessed through **File > New > 
 
 The Bottle, Flask, and Django templates each include a starter site with some pages and static files. This code is sufficient to run and debug the server locally (where some settings need to be obtained from the environment) and to deploy to Microsoft Azure (where a [WSGI app](http://www.python.org/dev/peps/pep-3333/) object needs to be provided).
 
-When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](python-environments.md#virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
+When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](python-environments.md#global-and-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
 
 ![Dialog that installs needed packages for a project template](media/template-web-requirements-txt-wizard.png)
 
