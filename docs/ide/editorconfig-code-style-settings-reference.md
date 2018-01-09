@@ -19,7 +19,7 @@ ms.author: "kaseyu"
 manager: ghogen
 ms.technology: vs-ide-general
 ms.workload: 
-  - "kaseyu"
+  - mulitple
 ---
 # .NET coding convention settings for EditorConfig
 
@@ -380,13 +380,14 @@ The style rules in this section concern expression-level preferences, including 
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
-| --------- | ------- | -------------------- | ----------------------|
-| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion |
-| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion |
-| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion |
-| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion |
-| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion |
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Supported Visual Studio version |
+| --------- | ------- | -------------------- | ----------------------| ---- |
+| dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 |
+| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | Visual Studio 2017 |
+| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | Visual Studio 2017 |
+| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | Visual Studio 2017 version 15.6 |
 
 **dotnet\_style\_object_initializer**
 
@@ -518,6 +519,8 @@ Dim v = o?.ToString()
 Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```
+
+**dotnet\_prefer\_inferred\_tuple_names**
 
 These rules could appear in an .editorconfig file as follows:
 
