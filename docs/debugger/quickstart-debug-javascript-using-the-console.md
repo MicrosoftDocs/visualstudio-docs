@@ -267,7 +267,7 @@ ms.workload:
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   UWP apps, [INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], and Windows Phone apps using JavaScript and HTML  
+-   UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], and Windows Phone apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   
