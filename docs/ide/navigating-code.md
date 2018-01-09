@@ -37,7 +37,7 @@ You can use the **Navigate Backward** (**Ctrl + -**) and **Navigate Forward** (*
 
 ## Navigation bar
 
-You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in grey).
+You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
 
  ![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
@@ -86,13 +86,13 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go to Member** (**Ctrl + 1**, **Ctrl + M**): Move to the specified member in the solution.
 
-- **Go to Symbol** (**Ctrl + 1**, **Ctrl + S**): Move to the specifed symbol in the solution.
+- **Go to Symbol** (**Ctrl + 1**, **Ctrl + S**): Move to the specified symbol in the solution.
 
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.
 
 ## Go To Definition
 
-Go To Definition takes you to the definition of the selected element. For more information, see [Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md).
+Go To Definition takes you to the definition of the selected element. For more information, see [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
 Input        | Function
 ------------ | ---
@@ -101,7 +101,7 @@ Input        | Function
 
 ## Peek Definition
 
-Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md).
+Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
 Input        | Function
 ------------ | ---

@@ -84,5 +84,5 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 ## See also
 
 [Navigating Code](../ide/navigating-code.md)  
-[Go To Defintion and Peek Definition](../ide/go-to-and-peek-definition.md)  
+[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
 [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
