@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint project service"
-ms.assetid: ad5d8ab2-1659-4e6a-8783-47e0dad44b11
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

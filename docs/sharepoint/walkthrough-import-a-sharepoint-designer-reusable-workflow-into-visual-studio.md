@@ -18,10 +18,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing reusable workflows"
   - "reusable workflows [SharePoint development in Visual Studio]"
-ms.assetid: a6550615-4433-4aba-8bdf-0fcbf8dbcf97
-caps.latest.revision: 35
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

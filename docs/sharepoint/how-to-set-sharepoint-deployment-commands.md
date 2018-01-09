@@ -15,10 +15,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, deploying"
-ms.assetid: 289c8c33-a603-434e-889f-a0d0a1736ecb
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

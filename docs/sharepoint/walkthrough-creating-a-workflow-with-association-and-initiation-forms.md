@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "association forms [SharePoint development in Visual Studio]"
   - "initiation forms [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, workflow initiation forms"
-ms.assetid: c8666d8c-b173-4245-8014-9c1cd6acb071
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

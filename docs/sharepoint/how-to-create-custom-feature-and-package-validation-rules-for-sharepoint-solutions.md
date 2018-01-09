@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"
   - "SharePoint development in Visual Studio, validation rules"
-ms.assetid: 17e818f8-0f3a-4a96-a6fc-1634ddb4825d
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

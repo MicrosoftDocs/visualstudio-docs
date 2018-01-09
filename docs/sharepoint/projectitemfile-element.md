@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "ProjectItemFile element"
-ms.assetid: 68d44d31-625a-4f02-b998-463ac0ffb2ef
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

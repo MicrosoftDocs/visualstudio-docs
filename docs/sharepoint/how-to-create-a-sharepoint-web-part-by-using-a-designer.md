@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designer"
   - "Web Parts [SharePoint development in Visual Studio], adding"
   - "Web Parts [SharePoint development in Visual Studio], creating"
-ms.assetid: 6b88f3ef-02ff-4135-80ff-b4acacf8c695
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -22,10 +22,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, list instances"
   - "SharePoint development in Visual Studio, fields"
   - "SharePoint development in Visual Studio, content types"
-ms.assetid: caebacc2-616c-4373-8e21-edc7979338e7
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

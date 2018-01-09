@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], defining your own types"
   - "SharePoint projects, creating custom templates"
   - "SharePoint development in Visual Studio, defining new project item types"
-ms.assetid: b53d48d7-cbf2-45c2-9537-06a6819be397
-caps.latest.revision: 60
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
