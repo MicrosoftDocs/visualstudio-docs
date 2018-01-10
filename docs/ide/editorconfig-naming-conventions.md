@@ -71,7 +71,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - protected\_internal or protected_friend
 
 > [!NOTE]
-> You must specify an accessibility level as part of your naming convention, otherwise your naming convention might be ignored.
+> If your naming convention is being ignored, check your accessibility level. If it's relevent to your applicable kinds (e.g. field, property, etc) you must specify one, but if it's not relevant (e.g. parameter) then specifying one can cause issues.
 
 ### Symbol modifiers
 
