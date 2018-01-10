@@ -69,17 +69,17 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 
 You can use these keyboard shortcuts with the **Peek Definition** window:
 
-    |Functionality|Keyboard shortcut|
-    |-------------------|:-----------------------:|
-    |Open the definition window|Alt+F12|
-    |Close the definition window|Esc|
-    |Promote the definition window to a regular document tab|Shift+Alt+Home|
-    |Navigate between definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
-    |Navigate between multiple results|F8 and Shift+F8|
-    |Toggle between the code editor window and the definition window|Shift+Esc|
+|Functionality|Keyboard shortcut|
+|-------------------|:-----------------------:|
+|Open the definition window|Alt+F12|
+|Close the definition window|Esc|
+|Promote the definition window to a regular document tab|Shift+Alt+Home|
+|Navigate between definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
+|Navigate between multiple results|F8 and Shift+F8|
+|Toggle between the code editor window and the definition window|Shift+Esc|
 
-    > [!NOTE]
-    > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
+> [!NOTE]
+> You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
 ## See also
 
