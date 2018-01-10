@@ -99,19 +99,6 @@
 
 #### [Refactoring](ide/refactoring-in-visual-studio.md)
 
-##### [Refactoring in C#](refactoring-csharp.md)
-###### [Change method signature](refactoring/change-method-signature.md)
-###### [Convert Get method to property](refactoring/convert-get-method-to-property.md)
-###### [Encapsulate field](refactoring/encapsulate-field.md)
-###### [Extract interface](refactoring/extract-interface.md)
-###### [Extract method](refactoring/extract-method.md)
-###### [Inline temporary variable](refactoring/inline-temporary-variable.md)
-###### [Move declaration near reference](refactoring/move-declaration-near-reference.md)
-###### [Move type to matching file](refactoring/move-type-to-matching-file.md)
-###### [Remove Unreachable code](refactoring/remove-unreachable-code.md)
-###### [Rename](refactoring/rename.md)
-###### [Synchronize type and filename](refactoring/sync-type-and-file.md)
-
 #### [Code generation](ide/code-generation-in-visual-studio.md)
 
 ## [Code generation in C#](code-generation-csharp.md)
@@ -288,6 +275,21 @@
 ### [Creating Applications in Bi-directional Languages](ide/creating-applications-in-bi-directional-languages.md)
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
+## [Refactorings]
+
+### [Refactoring in C#](ide/reference/refactoring-csharp.md)
+#### [Change method signature](ide/reference/change-method-signature-csharp.md)
+#### [Convert Get method to property](ide/reference/convert-get-method-to-property-csharp.md)
+#### [Encapsulate field](ide/reference/encapsulate-field-csharp.md)
+#### [Extract interface](ide/reference/extract-interface-csharp.md)
+#### [Extract method](ide/reference/extract-method-csharp.md)
+#### [Inline temporary variable](ide/reference/inline-temporary-variable-csharp.md)
+#### [Move declaration near reference](ide/reference/move-declaration-near-reference-csharp.md)
+#### [Move type to matching file](ide/reference/move-type-to-matching-file-csharp.md)
+#### [Remove Unreachable code](ide/reference/remove-unreachable-code-csharp.md)
+#### [Rename](ide/reference/rename-csharp.md)
+#### [Synchronize type and filename](ide/reference/sync-type-and-file-csharp.md)
+
 ## [Project and Item Templates](ide/creating-project-and-item-templates.md)
 ### [Locate and Organize Project and Item Templates](ide/how-to-locate-and-organize-project-and-item-templates.md)
 ### [Customize Project and Item Templates](ide/customizing-project-and-item-templates.md)
