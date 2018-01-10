@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], adding entity instances"
   - "BDC [SharePoint development in Visual Studio], adding entities"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], Creator"
-ms.assetid: 52f0382f-10a0-4a51-83fe-6f22f4647df8
-caps.latest.revision: 30
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

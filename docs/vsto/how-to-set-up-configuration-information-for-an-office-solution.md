@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "solutions [Office development in Visual Studio], configuration files"
   - "configuration files [Office development in Visual Studio]"
-ms.assetid: f123838f-957a-4cf5-acc0-0cc0f4c2aea2
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

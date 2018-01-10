@@ -19,10 +19,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, errors"
   - "SharePoint development in Visual Studio, troubleshooting"
-ms.assetid: 83d20a81-fd81-4cbd-8f28-bb6bddeb06de
-caps.latest.revision: 9
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

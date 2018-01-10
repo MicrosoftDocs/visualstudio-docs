@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], extending"
   - "SharePoint project items, extending"
   - "SharePoint development in Visual Studio, extending project items"
-ms.assetid: 163738b9-e25a-49c9-8f33-4b57a2da6b07
-caps.latest.revision: 31
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

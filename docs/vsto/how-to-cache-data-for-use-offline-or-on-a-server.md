@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "offline data [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], caching"
   - "data caching [Office development in Visual Studio], offline use"
-ms.assetid: 6246b187-9413-4336-821d-2259b1adec5a
-caps.latest.revision: 49
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

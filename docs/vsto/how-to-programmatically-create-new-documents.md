@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], custom document"
   - "Word [Office development in Visual Studio], creating documents"
   - "documents [Office development in Visual Studio], creating"
-ms.assetid: c24bb8a3-1303-438e-9b33-ba8b00b29c3b
-caps.latest.revision: 49
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

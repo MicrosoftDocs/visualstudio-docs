@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], InfoPath"
   - "Office solutions [Office development in Visual Studio], InfoPath"
   - "Office projects [Office development in Visual Studio], InfoPath"
-ms.assetid: 20ac6bee-b17f-4217-9f78-11304a11236a
-caps.latest.revision: 43
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

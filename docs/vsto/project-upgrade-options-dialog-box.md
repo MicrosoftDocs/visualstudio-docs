@@ -17,10 +17,8 @@ dev_langs:
 helpviewer_keywords: 
   - "project upgrade [Office development in Visual Studio]"
   - "Options dialog box, Project Upgrade page"
-ms.assetid: 35568fe8-cbec-43cc-8cb1-75fe195e1793
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

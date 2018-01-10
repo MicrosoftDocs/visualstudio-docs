@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], creating"
   - "Outlook [Office development in Visual Studio], form regions"
-ms.assetid: a8005641-cc8b-4e07-8dca-294327cdc8d4
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "error messages, Office development in Visual Studio"
-ms.assetid: 7f74b826-8770-40d2-939b-4a4f20373f5a
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, debugging extensions"
-ms.assetid: 7cee8ce0-d07b-41f6-8ce1-b18e4be3b50c
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

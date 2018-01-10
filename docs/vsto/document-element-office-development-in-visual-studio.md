@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "document element"
   - "application manifests [Office development in Visual Studio], <document> element"
   - "<document> element"
-ms.assetid: b4525a0e-8a03-4881-a3e2-8cc019029071
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

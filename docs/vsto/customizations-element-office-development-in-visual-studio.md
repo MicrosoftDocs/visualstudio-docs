@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "<customizations> element"
   - "customizations element"
   - "application manifests [Office development in Visual Studio], <customizations> element"
-ms.assetid: fe1133ef-5fdf-4945-a67b-55a66a4e2109
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

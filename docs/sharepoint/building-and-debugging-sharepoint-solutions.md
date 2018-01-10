@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, building and debugging"
   - "SharePoint development in Visual Studio, debugging"
-ms.assetid: c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -24,10 +24,8 @@ helpviewer_keywords:
   - "hiding custom task panes"
   - "task panes [Office development in Visual Studio], creating"
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
-ms.assetid: 00ce8b1e-1370-42f2-9dc9-609cada392f1
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

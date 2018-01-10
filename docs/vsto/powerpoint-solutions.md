@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], PowerPoint"
   - "PowerPoint [Office development in Visual Studio]"
   - "Office projects [Office development in Visual Studio], PowerPoint"
-ms.assetid: 02ebad64-9fd3-495f-ab27-4f6206b3d6d2
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

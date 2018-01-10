@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office development in Visual Studio, additional resources"
-ms.assetid: 002957c3-7793-40a0-834a-fcb9c2b03a6f
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

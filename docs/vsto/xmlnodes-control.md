@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "XMLNodes control, events"
   - "XMLNodes control"
-ms.assetid: 25ba7a21-aabb-4cce-b0d7-57b4add3b485
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

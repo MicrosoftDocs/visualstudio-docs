@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], removing comments"
   - "comments, removing from documents"
-ms.assetid: 920de39a-3b6d-4682-bca6-f4b4dedda1ac
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

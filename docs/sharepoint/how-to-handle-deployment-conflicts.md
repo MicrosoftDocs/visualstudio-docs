@@ -10,10 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending deployment"
-ms.assetid: 8e545873-3fed-46cf-a95f-27b5fc0d5f83
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

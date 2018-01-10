@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "permissions [Office development in Visual Studio"
   - "inclusion lists [Office development in Visual Studio]"
-ms.assetid: 0609d8f0-4630-4e17-aeb3-14f3134165cf
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

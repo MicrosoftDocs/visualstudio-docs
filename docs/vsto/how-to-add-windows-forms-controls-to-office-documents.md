@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], adding"
   - "controls [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], Windows Forms controls"
-ms.assetid: 4d188ad2-8e17-4eb0-8422-2ff56c683e3d
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, modules"
   - "modules [SharePoint development in Visual Studio]"
-ms.assetid: 16ac3c3b-8219-466c-8550-6109357f2f9a
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

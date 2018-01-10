@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "worksheets, updating using managed controls"
   - "controls [Office development in Visual Studio], updating worksheets"
   - "worksheets, using radio buttons"
-ms.assetid: cacc43a3-6d95-4a47-b943-3457d97a16f8
-caps.latest.revision: 58
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

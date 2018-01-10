@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], populating with data"
   - "data [Office development in Visual Studio], adding to documents"
-ms.assetid: 83e6ebac-e468-4bef-a91c-78c7bf597a75
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], Ribbon"
   - "Ribbon Designer [Office development in Visual Studio]"
   - "exporting Ribbon"
-ms.assetid: 96e0e9ed-4392-4f45-ac33-b6f7c22ea321
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

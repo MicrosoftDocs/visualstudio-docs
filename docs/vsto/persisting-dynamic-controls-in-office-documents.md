@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], persisting in the document"
-ms.assetid: 200352d1-66aa-4156-9ecd-6fd8792974cd
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

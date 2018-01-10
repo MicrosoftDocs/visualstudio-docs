@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], properties"
   - "document properties [Office development in Visual Studio]"
   - "Excel [Office development in Visual Studio], document properties"
-ms.assetid: e9ef9fa3-36b9-48fb-8148-f5152463c03c
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "document protection, removing from workbooks"
   - "document protection, adding to workbooks"
   - "workbooks, protecting"
-ms.assetid: 553c67b9-e2a4-46b6-878c-5b4b4efa4589
-caps.latest.revision: 43
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

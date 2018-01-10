@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "ClickOnce deployment [Office development in Visual Studio], security"
-ms.assetid: c5ba86b1-e87f-4508-8c5a-1295681a9590
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

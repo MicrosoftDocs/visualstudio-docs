@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], workbooks"
   - "workbooks, events"
   - "events [Office development in Visual Studio]"
-ms.assetid: 54489d91-a799-4dc2-89b8-498cf17c2f57
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

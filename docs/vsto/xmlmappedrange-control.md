@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "XMLMappedRange control, data binding"
   - "XMLMappedRange control"
   - "XMLMappedRange control, events"
-ms.assetid: af1ae1b7-6cbe-4d6b-bc22-d9a3c8740665
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

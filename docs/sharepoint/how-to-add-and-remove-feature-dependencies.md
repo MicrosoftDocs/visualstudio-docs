@@ -18,10 +18,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, features"
-ms.assetid: 2b34c8d9-c975-4fe9-b8e0-52db4a6014ea
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

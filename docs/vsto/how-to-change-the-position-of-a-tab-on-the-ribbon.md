@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], tabs"
-ms.assetid: 3f0906e3-9708-4136-ac49-986bc4c92ea4
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

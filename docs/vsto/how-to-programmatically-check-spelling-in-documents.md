@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], checking spelling"
   - "spelling checker, documents"
-ms.assetid: 5bbe3a8d-fc65-4f57-bd63-5bb549dbc4bd
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], Visio"
   - "projects [Office development in Visual Studio], Visio"
   - "Office solutions [Office development in Visual Studio], Visio"
-ms.assetid: c52948c6-6891-43ec-93ff-c54c74ec6016
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
