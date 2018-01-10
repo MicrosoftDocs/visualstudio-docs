@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Quickstart: create a project from a Cookiecutter template

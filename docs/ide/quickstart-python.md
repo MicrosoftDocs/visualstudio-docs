@@ -1,5 +1,6 @@
 ---
 title: "Quickstart: use Visual Studio to create your first Python web app | Microsoft Docs"
+description: A short introduction to using Python in Visual Studio that builds a simple web app using the Falcon framework.
 ms.custom: ""
 ms.date: 01/08/2018
 ms.reviewer: ""
@@ -16,6 +17,7 @@ dev_langs:
   - python
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Quickstart: use Visual Studio to create your first Python web app
