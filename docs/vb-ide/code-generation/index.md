@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/vb-ide/code-generation-vb
+redirect_url: /visualstudio/ide/reference/code-generation-vb
 ---

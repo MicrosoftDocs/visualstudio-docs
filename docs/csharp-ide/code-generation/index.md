@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/csharp-ide/code-generation-csharp
+redirect_url: /visualstudio/ide/reference/code-generation-csharp
 ---

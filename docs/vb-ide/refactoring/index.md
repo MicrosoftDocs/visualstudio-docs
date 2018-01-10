@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/vb-ide/refactoring-vb
+redirect_url: /visualstudio/ide/reference/refactoring-vb
 ---
