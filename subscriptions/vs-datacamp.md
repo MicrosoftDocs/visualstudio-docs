@@ -47,7 +47,7 @@ This happens because when your promo code is created, it expires after a few min
 
 Just click on your chosen path to get started. 
 
-    ![DataCamp Choose Path](_img\vs-datacamp\vs-datacamp-choose-path.png)
+   ![DataCamp Choose Path](_img\vs-datacamp\vs-datacamp-choose-path.png)
 
 5. After you have selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you will see the following options. Choose an option, or click **I am not sure.  Show me all career paths** to create a broader path. 
 
