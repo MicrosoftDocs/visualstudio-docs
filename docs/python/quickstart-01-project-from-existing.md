@@ -8,7 +8,7 @@ ms.technology:
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "quickstart"
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
