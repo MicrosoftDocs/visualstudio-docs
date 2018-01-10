@@ -66,7 +66,7 @@ In this Quickstart, however, you use the Falcon library to experience the proces
 
 For more information about Falcon, visit [falconframework.org](https://falconframework.org/).
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
+Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Python environments - Virtual environments](../python/python-environments.md#creating-virtual-environments).
 
 ## Add a code file
 
