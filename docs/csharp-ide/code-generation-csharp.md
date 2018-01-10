@@ -18,10 +18,10 @@ manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-
 # Code generation features for C# #
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  The following code generation features are available in Visual Studio for C#:
-  
+
+Visual Studio can help generate portions of source code for you, letting you focus on the real work. The following code generation features are available in Visual Studio for C#:
+
 * [Generate Class/Type](code-generation/generate-class-type.md)
 * [Generate Method](code-generation/generate-method.md)
 * [Generate Field/Property/Local](code-generation/generate-field-property-local.md)
@@ -32,6 +32,7 @@ Visual Studio can help generate portions of source code for you, letting you foc
 * [Implement Abstract Class](code-generation/implement-abstract-class.md)
 * [Implement Interface](code-generation/implement-interface.md)
 * [Introduce Local Variable](code-generation/introduce-local-variable.md)
- 
-## See Also  
- [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)   
+
+## See also
+
+[Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)

@@ -43,3 +43,7 @@ The following refactoring features are available in Visual Studio for C#:
 [Refactoring, Code Generation and Quick Actions in Visual Studio](../ide/refactoring-code-generation-quick-actions.md)  
 [Refactoring in Visual Basic](../vb-ide/refactoring-vb.md)  
 [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)
+
+---
+redirect_url: /visualstudio/ide/refactoring-in-visual-studio.md
+---
