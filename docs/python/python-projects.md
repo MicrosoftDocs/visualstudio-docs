@@ -28,13 +28,6 @@ In addition, projects are always managed within a Visual Studio *solution*, whic
 
 Visual Studio provides a variety of Python project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) for an index.
 
-In this article:
-
-- [Adding files, assigning a startup file, and setting environments](#adding-files-assigning-a-startup-file-and-setting-environments)
-- [Project templates](#project-templates)
-- [Linked files](#linked-files)
-- [References](#references)
-
 <a name="lightweight-usage-project-free"></a>
 
 > [!Tip]
