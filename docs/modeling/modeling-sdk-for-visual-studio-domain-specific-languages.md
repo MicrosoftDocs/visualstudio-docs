@@ -11,11 +11,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools"
   - "Domain-Specific Language"
-ms.assetid: 17a531e2-1964-4a9d-84fd-6fb1b4aee662
-caps.latest.revision: 77
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

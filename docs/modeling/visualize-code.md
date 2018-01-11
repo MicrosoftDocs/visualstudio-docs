@@ -12,11 +12,9 @@ helpviewer_keywords:
   - "code, understanding"
   - "code, visualizing"
   - "code, exploring"
-ms.assetid: 0dd7d438-393a-4cd3-b417-9bf37379e1b0
-caps.latest.revision: 47
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

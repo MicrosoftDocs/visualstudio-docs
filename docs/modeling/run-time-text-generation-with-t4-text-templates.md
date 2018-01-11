@@ -11,11 +11,9 @@ helpviewer_keywords:
   - "TextTemplatingFilePreprocessor custom tool"
   - "text templates, TransformText() method"
   - "text templates, generating files at run time"
-ms.assetid: 79b4b3c6-a9a7-4446-b6fd-e2388fc6b05f
-caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

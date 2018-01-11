@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, API"
   - "text templates, custom hosts"
-ms.assetid: 62cd9a3c-a6e1-4b29-93f5-f2a0cf47dc92
-caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
