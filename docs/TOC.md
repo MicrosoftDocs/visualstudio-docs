@@ -95,8 +95,7 @@
 ##### [Save and Open Files with Encoding](ide/how-to-save-and-open-files-with-encoding.md)
 #### [Outlining](ide/outlining.md)
 
-#### [Using the IDE for VB...](vb-ide/refactoring-vb.md)
-
+#### [Generating Code]
 #### [Refactoring](ide/refactoring-in-visual-studio.md)
 
 #### [Code generation](ide/code-generation-in-visual-studio.md)
@@ -105,8 +104,6 @@
 
 #### [Quick Actions](ide/quick-actions.md)
 ##### [Code Styles and Quick Actions](ide/code-styles-and-quick-actions.md)
-
-#### [Previewing Code Changes](ide/preview-changes.md)
 
 #### [Productivity Tips](ide/productivity-tips-for-visual-studio.md)
 ##### [Tips and Tricks](ide/tips-and-tricks-for-visual-studio.md)
@@ -280,7 +277,7 @@
 ### [Template Parameters](ide/template-parameters.md)
 ### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md)
 ### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
-## [Refactorings]
+## Refactorings
 ### [Refactorings for C#](ide/reference/refactoring-csharp.md)
 #### [Change method signature](ide/reference/change-method-signature-csharp.md)
 #### [Convert Get method to property](ide/reference/convert-get-method-to-property-csharp.md)
@@ -326,6 +323,7 @@
 #### [Introduce Local Variable](ide/reference/introduce-local-variable-vb.md)
 ## General User Interface Elements
 ### [Call Hierarchy](ide/reference/call-hierarchy.md)
+### [Preview Changes](ide/preview-changes.md)
 ### [Choose Toolbox Items, WPF Components](ide/reference/choose-toolbox-items-wpf-components.md)
 ### [Code Snippet Picker](ide/reference/code-snippet-picker.md)
 ### [Command Window](ide/reference/command-window.md)
