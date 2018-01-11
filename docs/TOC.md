@@ -98,7 +98,7 @@
 #### [Generating Code]
 #### [Refactoring](ide/refactoring-in-visual-studio.md)
 
-#### [Code generation](ide/code-generation-in-visual-studio.md)
+#### [Generating Code Automatically](ide/code-generation-in-visual-studio.md)
 
 
 
