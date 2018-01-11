@@ -1357,7 +1357,7 @@
         },
         {
             "source_path": "docs/sharepoint/index.md",
-            "redirect_url": "/sharepoint/create-sharepoint-solutions",
+            "redirect_url": "/visualstudio/sharepoint/create-sharepoint-solutions",
             "redirect_document_id": false
         }
     ]
