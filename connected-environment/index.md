@@ -1,3 +1,3 @@
 ---
-redirect_url: /visual-studio-connected-environment
+redirect_url: /visualstudio/connected-environment/visual-studio-connected-environment
 ---
