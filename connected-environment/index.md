@@ -1,1 +1,3 @@
-# Welcome to connected-environment!
+---
+redirect_url: /visual-studio-connected-environment
+---
