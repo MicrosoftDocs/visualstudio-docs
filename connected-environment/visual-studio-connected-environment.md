@@ -1,5 +1,5 @@
 ---
-title: "Accessibility of Visual Studio Help Viewer | Microsoft Docs"
+title: "Visual Studio Connected Environment | Microsoft Docs"
 ms.date: "11/02/2017"
 ms.topic: "article"
 ms.technology: "connected-environment"
@@ -12,4 +12,5 @@ manager: ghogen
 
 ## See Also
 [Visual Studio](/visualstudio)
+
 [Visual Studio Code](https://code.visualstudio.com/docs)
