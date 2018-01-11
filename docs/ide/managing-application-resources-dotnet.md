@@ -45,7 +45,6 @@ Select the **Resources** tab. You can add a .resx file if your project does not 
 Resources are managed differently in .NET projects than in other project types. For more information about resources in:
 
 - Universal Windows Platform (UWP) apps, see [App resources and the Resource Management System](/windows/uwp/app-resources/)
-- Windows 8.x apps, see [Defining app resources (HTML)](https://msdn.microsoft.com/en-us/library/windows/apps/hh465228.aspx)
 - C++ projects, see [Working with Resource Files](/cpp/windows/working-with-resource-files) and [How to: Create a Resource](/cpp/windows/how-to-create-a-resource)
 
 ## See also
