@@ -6,6 +6,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/index.md",
+            "redirect_url": "/visualstudio/modeling/analyze-and-model-your-architecture",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/edit-uml-models-and-diagrams.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
@@ -761,6 +766,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/debug-interface-access/index.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/index.md",
             "redirect_url": "/visualstudio/designers/designing-user-interfaces",
             "redirect_document_id": false
@@ -773,6 +783,11 @@
         {
             "source_path": "docs/ide/adding-and-removing-project-items.md",
             "redirect_url": "/visualstudio/ide/creating-solutions-and-projects/",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "docs/ide/class-designer/index.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
             "redirect_document_id": false
         },
         {
@@ -1091,6 +1106,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vb-ide/index.md",
+            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb-ide/code-generation/index.md",
             "redirect_url": "/visualstudio/vb-ide/code-generation-vb",
             "redirect_document_id": false
@@ -1276,6 +1296,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/extensibility/debugger/reference/index.md",
+            "redirect_url": "/visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/internals/index.md",
+            "redirect_url": "/visualstudio/extensibility/internals/inside-the-visual-studio-sdk",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
             "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
             "redirect_document_id": false
@@ -1352,7 +1382,7 @@
         },
         {
             "source_path": "docs/vsto/index.md",
-            "redirect_url": "/vsto/office-and-sharepoint-development-in-visual-studio",
+            "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
             "redirect_document_id": false
         },
         {
