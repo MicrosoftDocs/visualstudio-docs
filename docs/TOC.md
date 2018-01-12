@@ -267,7 +267,6 @@
 #### [Create Item Templates](ide/how-to-create-item-templates.md)
 #### [Create Multi-file Item Templates](ide/how-to-create-multi-file-item-templates.md)
 #### [Create Web Templates](ide/how-to-manually-create-web-templates.md)
-#### [Create Starter Kits](ide/how-to-create-starter-kits.md)
 ### [Template Parameters](ide/template-parameters.md)
 ### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md)
 ### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
