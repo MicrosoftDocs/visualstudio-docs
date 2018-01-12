@@ -30,7 +30,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the type to synchronize:
 
-   ![Highlighted code](media/synctype_highlight.png)
+   ![Highlighted code](media/synctype-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -42,7 +42,7 @@ ms.workload:
 
    The type or file will instantly be renamed.  In the example below, the file **MyClass.cs** was renamed to **MyNewClass.cs** to match the type name.
 
-   ![Inline result](media/synctype_result.png)
+   ![Inline result](media/synctype-result-cs.png)
 
 ## See also
 

@@ -29,7 +29,7 @@ ms.workload:
 
 1. Highlight the code to be extracted:
 
-   ![Highlighted code](media/extractmethod_highlight.png)
+   ![Highlighted code](media/extractmethod-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -45,7 +45,7 @@ ms.workload:
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
-   ![Rename method](media/extractmethod_rename.png)
+   ![Rename method](media/extractmethod-rename-vb.png)
 
 1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
 

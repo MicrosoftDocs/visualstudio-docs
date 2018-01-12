@@ -27,15 +27,15 @@ ms.workload:
 
 1. Place your text cursor above the element you want to document, for example, a method.
 
-   ![Method to document](media/doc_highlight.png)
+   ![Method to document](media/doc-highlight-cs.png)
 
 1. Next, type **///** (3 forward slashes) which will automatically create the base template and any additional elements as necessary.  For example, when commenting a method, it will generate the **\<summary\>** tags as well as a **\<param\>** tag for every parameter that is passed to the method, and a **\<returns\>** tag to document what the method returns.
 
-   ![Template](media/doc_preview.png)
+   ![Template](media/doc-preview-cs.png)
 
 1. Complete the comments and add any additional information you feel is necessary.
 
-   ![Completed comment](media/doc_result.png)
+   ![Completed comment](media/doc-result-cs.png)
 
 ## See Also
 [Code Generation (C#)](../code-generation-csharp.md)  

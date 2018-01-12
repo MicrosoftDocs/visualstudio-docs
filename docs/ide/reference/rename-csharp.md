@@ -29,7 +29,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the item to be renamed:
 
-   ![Highlighted code](media/rename_highlight.png)
+   ![Highlighted code](media/rename-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -40,7 +40,7 @@ ms.workload:
 
 1. Rename the item simply by typing the new name.
 
-   ![Rename animation](media/rename_animated.gif)
+   ![Rename animation](media/rename-animated.gif)
 
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
@@ -50,7 +50,7 @@ ms.workload:
 > [!NOTE]
 > If you use a name that already exists which would cause a conflict, the **Rename** box in your IDE will warn you.
 >
-> ![Rename Conflict](media/rename_conflict.png)
+> ![Rename Conflict](media/rename-conflict-cs.png)
 
 ## See also
 

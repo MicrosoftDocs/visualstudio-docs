@@ -27,7 +27,7 @@ ms.workload:
 
 1. Place your cursor anywhere in the faded out code that is unreachable:
 
-![Faded unreachable code](media/unreachablecode_faded.png)
+![Faded unreachable code](media/unreachablecode-faded-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**

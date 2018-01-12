@@ -30,7 +30,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the method to modify, or one of its usages:
 
-   ![Highlighted code](media/changesignature_highlight.png)
+   ![Highlighted code](media/changesignature-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -43,7 +43,7 @@ ms.workload:
 
 1. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
 
-   ![Change Signature dialog](media/changesignature_dialog.png)
+   ![Change Signature dialog](media/changesignature-dialog-cs.png)
 
    | Button | Description
    | ------ | ---
@@ -56,7 +56,7 @@ ms.workload:
 
 1. When you are finished, press the **OK** button to make the changes.
 
-   ![Change Signature result](media/changesignature_result.png)
+   ![Change Signature result](media/changesignature-result-cs.png)
 
 ## See also
 

@@ -29,7 +29,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the field to encapsulate:
 
-   ![Highlighted code](media/encapsulate_highlight.png)
+   ![Highlighted code](media/encapsulate-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -49,7 +49,7 @@ ms.workload:
    > [!TIP]
    > Use the [**Preview changes**](../../ide/preview-changes.md) link in the popup window to see what the result will be before committing to it.
 
-   ![Encapsulate Property result](media/encapsulate_result.png)
+   ![Encapsulate Property result](media/encapsulate-result-cs.png)
 
 ## See Also  
 [Refactoring (C#)](../refactoring-csharp.md)  

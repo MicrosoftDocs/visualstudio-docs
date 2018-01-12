@@ -24,7 +24,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the type to move:
 
-   ![Highlighted code](media/movetype_highlight.png)
+   ![Highlighted code](media/movetype-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -34,7 +34,7 @@ ms.workload:
 
    The type will instantly moved to a new file with that name inside of your solution.
 
-   ![Inline result](media/movetype_result.png)
+   ![Inline result](media/movetype-result-vb.png)
 
 ## See also
 

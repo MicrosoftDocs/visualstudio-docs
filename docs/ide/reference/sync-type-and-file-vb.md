@@ -29,7 +29,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the type to synchronize:
 
-   ![Highlighted code](media/synctype_highlight.png)
+   ![Highlighted code](media/synctype-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -41,7 +41,7 @@ ms.workload:
 
    The type or file will instantly be renamed.  In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
-   ![Inline result](media/synctype_result.png)
+   ![Inline result](media/synctype-result-vb.png)
 
 ## See also
 

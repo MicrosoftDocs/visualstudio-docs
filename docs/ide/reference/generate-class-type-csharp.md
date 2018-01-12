@@ -32,17 +32,17 @@ ms.workload:
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a class that doesn't yet exist.
 
-   ![Highlighted code](media/class_highlight.png)
+   ![Highlighted code](media/class-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select one of the options from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select one of the options from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
-     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+     * Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+     * Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Generate class preview](media/class_preview.png)
+   ![Generate class preview](media/class-preview-cs.png)
 
    Selection | Description
    --- | ---
@@ -56,7 +56,7 @@ ms.workload:
 
 1. If you select the **Generate new type...** item, a dialog box will pop up that allows you to perform some additional actions.
 
-   ![Generate type](media/class_newtype.png)
+   ![Generate type](media/class-newtype-cs.png)
 
    Selection | Description
    --- | ---
@@ -68,7 +68,7 @@ ms.workload:
 
 1. The class/struct will be created automatically with the constructor inferred from its usage.
 
-   ![Generate class result](media/class_result.png)
+   ![Generate class result](media/class-result-cs.png)
 
 ## See Also  
 [Code Generation (C#)](../code-generation-csharp.md)  

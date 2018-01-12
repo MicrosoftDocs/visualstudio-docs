@@ -27,24 +27,24 @@ ms.workload:
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a method that doesn't yet exist.
 
-   ![Highlighted code](media/method_highlight.png)
+   ![Highlighted code](media/method-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Generate method** from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select **Generate method** from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](media/bulb.png) icon which appears.
-     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+     * Hover over the red squiggle and click the ![Lightbulb](media/bulb-vb.png) icon which appears.
+     * Click the ![Lightbulb](media/bulb-vb.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Generate method preview](media/method_preview.png)
+   ![Generate method preview](media/method-preview-vb.png)
 
    >[!TIP]
    >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
 
 1. The method will be created automatically with any parameters inferred from its usage.
 
-   ![Generate method result](media/method_result.png)
+   ![Generate method result](media/method-result-vb.png)
   
 ## See Also  
 [Code Generation (Visual Basic)](../code-generation-vb.md)  

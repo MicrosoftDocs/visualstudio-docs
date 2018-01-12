@@ -27,17 +27,17 @@ ms.workload:
 
 1. Type the **override** keyword, followed by a space, where you would like to insert an overridden method signature and an IntelliSense dropdown will appear.
 
-   ![Override IntelliSense](media/override_intellisense.png)
+   ![Override IntelliSense](media/override-intellisense-cs.png)
 
 1. Select the method you would like to override from the base class by clicking it with the mouse, or navigating to it with the keyboard and pressing **Enter**.
 
    >[!TIP]
-   >* Use the Property icon ![Property icon](media/override_property.png) to show or hide Properties in the list.
-   >* Use the Method icon ![Method icon](media/override_method.png) to show or hide Methods in the list.
+   >* Use the Property icon ![Property icon](media/override-property-cs.png) to show or hide Properties in the list.
+   >* Use the Method icon ![Method icon](media/override-method-cs.png) to show or hide Methods in the list.
 
 1. The selected method or property will be added to the class as an override, ready to be implemented.
 
-   ![Override result](media/override_result.png)
+   ![Override result](media/override-result-cs.png)
 
 ## See also
 

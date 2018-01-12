@@ -30,27 +30,27 @@ Override the GetHashCode method to allow a type to work correctly in a hash tabl
 
 1. Place your cursor in your type declaration.
 
-   ![Highlighted code](media/overrides_highlight.png)
+   ![Highlighted code](media/overrides-highlight-cs.png)
 
 1. Next, do one of the following:
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the Preview window popup.
    * **Mouse**
      * Right-click and select the **Quick Actions and Refactorings** menu and select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the Preview window popup.
-     * Click the ![Lightbulb](media/bulb.png) icon which appears in the left margin if the text cursor is already on the line with the type declaration.
+     * Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the type declaration.
 
-   ![Generate overrides preview](media/overrides_preview.png)
+   ![Generate overrides preview](media/overrides-preview-cs.png)
 
 1. Pick which members you want to generate the overrides methods for:
 
-    ![Generate overrides dialog](media/overrides_dialog.png)
+    ![Generate overrides dialog](media/overrides-dialog-cs.png)
 
     > [!TIP]
     > You can also choose to generate operators from this dialog by using the checkboxes underneath the members list.
 
 1. The Equals and GetHashCode overrides will be generated with automatic default implementations.
 
-   ![Generate method result](media/overrides_result.png)
+   ![Generate method result](media/overrides-result-cs.png)
 
 ## See also
 

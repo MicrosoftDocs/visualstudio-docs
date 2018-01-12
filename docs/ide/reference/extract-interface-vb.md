@@ -29,7 +29,7 @@ ms.workload:
 
 1. Highlight the name of the class to perform the action on, or just put the text cursor somewhere in the class name.
 
-   ![Highlighted code](media/extractinterface_highlight.png)
+   ![Highlighted code](media/extractinterface-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -40,7 +40,7 @@ ms.workload:
      * Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
 
 1. In the **Extract Interface** dialog box that pops up, enter the information asked:
-   ![Extract Interface](media/extractinterface_dialog.png)
+   ![Extract Interface](media/extractinterface-dialog-vb.png)
    | Field | Description |
    | --- | --- |
    | **New interface name** | The name of the interface to be created. This will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
@@ -51,8 +51,8 @@ ms.workload:
 
    The interface will be immediately created in the file of the name specified.  Additionally, the class you selected will now implement that interface.
 
-   ![Resulting Class](media/extractinterface_class.png)
-   ![Resulting Interface](media/extractinterface_interface.png)
+   ![Resulting Class](media/extractinterface-class-vb.png)
+   ![Resulting Interface](media/extractinterface-interface-vb.png)
 
 ## See also
 

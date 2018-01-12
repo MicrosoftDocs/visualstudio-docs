@@ -24,7 +24,7 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the temporary variable to be inlined:
 
-   ![Highlighted code](media/inline_highlight.png)
+   ![Highlighted code](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -34,7 +34,7 @@ ms.workload:
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
-   ![Inline result](media/inline_result.png)
+   ![Inline result](media/inline-result-vb.png)
 
 ## See also
 
