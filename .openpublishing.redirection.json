@@ -290,6 +290,11 @@
             "source_path": "docs/ide/quickstart-cpp.md",
             "redirect_url": "/visualstudio/ide/getting-started-with-cpp-in-visual-studio",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/index.md",
+            "redirect_url": "/scripting/index",
+            "redirect_document_id": false
         }
     ]
 }
