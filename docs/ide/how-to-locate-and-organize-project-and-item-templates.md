@@ -19,7 +19,7 @@ manager: ghogen
 ---
 # How to: Locate and organize project and item templates
 
-Template files must be placed in a location that Visual Studio recognizes for the templates to appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates that will also appear in the dialog boxes.
+Template files must be placed in a location that Visual Studio recognizes for the templates to appear in the **New Project** and **Add New Item** dialog boxes. You can also create custom subcategories in the user template location, and the categories are shown the **New Project** and **Add New Item** dialog boxes.
 
 ## Locate templates
 
@@ -27,7 +27,7 @@ Installed templates and user templates are stored in two different locations.
 
 ### User templates
 
-If you add a compressed (.zip) file that includes a .vstemplate file to the user template directory, the template will appear in the **New Project** or **Add New Item** dialog box. By default, user templates are located in:
+If you add a compressed (.zip) file that includes a .vstemplate file to the user template directory, the template appears in the **New Project** or **Add New Item** dialog box. By default, user templates are located in:
 
 - %USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates
 
