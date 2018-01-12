@@ -41,6 +41,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/csharp-ide/metadata-as-source.md",
+            "redirect_url": "/visualstudio/ide/go-to-and-peek-definition",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/csharp-ide/refactoring/index.md",
             "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
             "redirect_document_id": false
