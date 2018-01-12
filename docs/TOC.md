@@ -77,7 +77,7 @@
 #### [Application Properties](ide/application-properties.md)
 #### [Managing Application Resources (.NET)](ide/managing-application-resources-dotnet.md)
 #### [Managing Application Settings (.NET)](ide/managing-application-settings-dotnet.md)
-##### [Add an app config file to a C# project](ide/how-to-add-an-app-config-file.md)
+##### [Add an app config file to a C# project](ide/how-to-add-app-config-file.md)
 #### [Managing Assembly and Manifest Signing](ide/managing-assembly-and-manifest-signing.md)
 ##### [Sign Application and Deployment Manifests](ide/how-to-sign-application-and-deployment-manifests.md)
 #### [Specify an Application Icon (Visual Basic, C#)](ide/how-to-specify-an-application-icon-visual-basic-csharp.md)

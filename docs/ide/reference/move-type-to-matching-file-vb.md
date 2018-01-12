@@ -38,4 +38,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)
+[Refactoring](../refactoring-in-visual-studio.md)

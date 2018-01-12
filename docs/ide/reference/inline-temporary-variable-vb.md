@@ -1,5 +1,5 @@
 ---
-title: "Inline temporary variable - Refactoring (Visual Basic) | Microsoft Docs"
+title: "Replace a temporary variable with its value in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -14,11 +14,11 @@ ms.workload:
 ---
 # Inline a temporary variable in Visual Basic
 
-**What:** Lets you remove the use of a temporary variable and replace it with the actual code instead.
+**What:** Lets you remove a temporary variable and replace it with its value instead.
 
-**When:** The use of the temporary variable makes the code harder to understand.  
+**When:** The use of the temporary variable makes the code harder to understand.
 
-**Why:** Removing a temporary variable may make the code easier to read in certain situations
+**Why:** Removing a temporary variable may make the code easier to read.
 
 **How:**
 
@@ -28,9 +28,11 @@ ms.workload:
 
 1. Next, do one of the following:
    * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Inline temporary variable** from the Preview window popup.
+     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
    * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Inline temporary variable** from the Preview window popup.
+     * Right-click the code, select the **Quick Actions and Refactorings** menu.
+
+1. Select **Inline temporary variable** from the Preview window popup.
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
@@ -38,4 +40,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)
+[Refactoring](../refactoring-in-visual-studio.md)

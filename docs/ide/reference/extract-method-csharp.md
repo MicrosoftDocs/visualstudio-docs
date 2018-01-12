@@ -1,11 +1,10 @@
 ---
-title: "Extract method - Refactoring (C#) | Microsoft Docs"
+title: "Extract a method in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
@@ -52,5 +51,5 @@ ms.workload:
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

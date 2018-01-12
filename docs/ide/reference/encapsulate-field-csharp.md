@@ -1,5 +1,5 @@
 ---
-title: "Encapsulate field - Refactoring (C#) | Microsoft Docs"
+title: "Refactor a field to a property in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -51,6 +51,7 @@ ms.workload:
 
    ![Encapsulate Property result](media/encapsulate-result-cs.png)
 
-## See Also  
-[Refactoring (C#)](../refactoring-csharp.md)  
+## See also
+
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

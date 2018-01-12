@@ -1,5 +1,5 @@
 ---
-title: "Sync type and filename - Refactoring (Visual Basic) | Microsoft Docs"
+title: "Sync type and filename in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/27/2017"
 ms.reviewer: ""
@@ -45,4 +45,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)
+[Refactoring](../refactoring-in-visual-studio.md)

@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:  vs-ide-general
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-general
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -46,4 +45,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)
+[Refactoring](../refactoring-in-visual-studio.md)

@@ -1,5 +1,5 @@
 ---
-title: "Encapsulate field - Refactoring (Visual Basic) | Microsoft Docs"
+title: "Refactor a field to a property in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -53,5 +53,5 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

@@ -1,5 +1,5 @@
 ---
-title: "Inline temporary variable - Refactoring (C#) | Microsoft Docs"
+title: "Replace a temporary variable with its value in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -15,11 +15,11 @@ ms.workload:
 ---
 # Inline a temporary variable with C# #
 
-**What:** Lets you remove the use of a temporary variable and replace it with the actual code instead.
+**What:** Lets you remove a temporary variable and replace it with its value instead.
 
 **When:** The use of the temporary variable makes the code harder to understand.
 
-**Why:** Removing a temporary variable may make the code easier to read in certain situations
+**Why:** Removing a temporary variable may make the code easier to read.
 
 **How:**
 
@@ -29,9 +29,11 @@ ms.workload:
 
 1. Next, do one of the following:
    * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Inline temporary variable** from the Preview window popup.
+     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
    * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Inline temporary variable** from the Preview window popup.
+     * Right-click the code and select the **Quick Actions and Refactorings** menu.
+
+1. Select **Inline temporary variable** from the Preview window popup.
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
@@ -39,4 +41,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)
+[Refactoring](../refactoring-in-visual-studio.md)

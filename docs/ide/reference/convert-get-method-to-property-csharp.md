@@ -1,5 +1,5 @@
 ---
-title: "Convert Get method to property - Refactoring (C#) | Microsoft Docs"
+title: "Convert Get method to property and convert a property to a Get method in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/27/2017"
 ms.reviewer: ""
@@ -78,5 +78,5 @@ public int MyValue
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

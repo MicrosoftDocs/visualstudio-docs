@@ -1,5 +1,5 @@
 ---
-title: "Extract interface - Refactoring (Visual Basic) | Microsoft Docs"
+title: "Extract an interface in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -56,4 +56,4 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)
+[Refactoring](../refactoring-in-visual-studio.md)

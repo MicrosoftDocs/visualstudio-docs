@@ -1,5 +1,5 @@
 ---
-title: "Move Declaration Near Reference - Refactoring (C#) | Microsoft Docs"
+title: "Move variable declaration near reference in C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/27/2017"
 ms.reviewer: ""
@@ -58,5 +58,5 @@ if (condition)
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

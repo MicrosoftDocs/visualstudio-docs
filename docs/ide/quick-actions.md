@@ -19,9 +19,11 @@ ms.workload:
 ---
 # Quick Actions
 
-[Quick Actions](refactoring-code-generation-quick-actions.md#quick-actions) let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages. Quick Actions can be applied using the Light Bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), or by pressing **Ctrl**+**.** when your cursor is on the appropriate line of code.
+Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
-You will see a light bulb if there is a red squiggle and Visual Studio has a suggestion for how to fix the issue. For instance if you have an error indicated by a red squiggle, a light bulb will appear when fixes are available for that error. For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs will light up based on those rules.
+Quick Actions can be applied by using the light bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png), or by pressing **Ctrl**+**.** when your cursor is on the appropriate line of code. You will see a light bulb if there is a red squiggle and Visual Studio has a suggestion for how to fix the issue. For instance if you have an error indicated by a red squiggle, a light bulb will appear when fixes are available for that error.
+
+For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs will light up based on those rules.
 
 ## To see a light bulb
 
@@ -39,7 +41,7 @@ Either click on the down arrow or the Show potential fixes link to display a lis
 
 ## See also
 
-[Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
+[Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)  
 [Common Quick Actions](../ide/common-quick-actions.md)  
 [Code styles and Quick Actions](../ide/code-styles-and-quick-actions.md)  
 [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)

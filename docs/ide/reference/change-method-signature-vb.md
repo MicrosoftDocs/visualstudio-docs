@@ -1,5 +1,5 @@
 ---
-title: "Change method signature - Refactoring (Visual Basic) | Microsoft Docs"
+title: "Refactor a method signature in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/17/2016"
 ms.reviewer: ""
@@ -60,5 +60,5 @@ ms.workload:
 
 ## See also
 
-[Refactoring (Visual Basic)](../refactoring-vb.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

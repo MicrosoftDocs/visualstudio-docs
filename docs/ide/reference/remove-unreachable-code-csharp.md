@@ -58,5 +58,5 @@ private void Method()
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

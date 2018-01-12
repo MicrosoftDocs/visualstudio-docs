@@ -21,7 +21,7 @@ ms.workload:
 
 **What:** Lets you rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties and types.
 
-**When:** You want to safely rename something without having to find all instances, and copy/paste the new name.  
+**When:** You want to safely rename something without having to find all instances, and copy/paste the new name.
 
 **Why:** Copy and pasting the new name across an entire project would likely result in errors.  This refactoring tool will accurately perform the renaming action.
 
@@ -33,14 +33,14 @@ ms.workload:
 
 1. Next, do one of the following:
    * **Keyboard**
-     * Press **Ctrl+R**, then **Ctrl+R**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
+     * Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
    * **Mouse**
      * Select **Edit > Refactor > Rename**.
      * Right-click the code and select **Rename**.
 
 1. Rename the item simply by typing the new name.
 
-   ![Rename animation](media/rename-animated.gif)
+   ![Rename animation](media/rename-animated-cs.gif)
 
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
@@ -54,5 +54,5 @@ ms.workload:
 
 ## See also
 
-[Refactoring (C#)](../refactoring-csharp.md)  
+[Refactoring](../refactoring-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)
