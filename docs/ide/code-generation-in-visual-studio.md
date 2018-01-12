@@ -16,9 +16,9 @@ ms.workload:
 
 There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code.
 
-Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md), [Quick Actions](../ide/quick-actions.md) ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), and [T4 text templates](../modeling/code-generation-and-t4-text-templates.md).
+Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md) and [Quick Actions](../ide/quick-actions.md) ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png).
 
-Some common code generation tasks available through Quick Actions are:
+Some common code generation tasks available through [Quick Actions](../ide/quick-actions.md) are:
 
 * Generating classes, methods, properties, etc.
 

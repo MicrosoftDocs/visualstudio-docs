@@ -6,7 +6,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
