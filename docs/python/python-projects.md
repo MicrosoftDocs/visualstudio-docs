@@ -1,7 +1,7 @@
 ---
 title: "Python projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 07/13/2017
+ms.date: 01/09/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,30 +15,25 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Python projects
 
 Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
 
-In addition, projects are always managed within a Visual Studio *solution*, which can contain any number of projects that might reference one another. For example, a Python project can reference a C++ project for an extension module, such that Visual Studio automatically builds the C++ project (if necessary) when you start debugging the Python project. (For a general discussion, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).)
-
 ![Python project in Solution Explorer](media/projects-solution-explorer.png)
 
-Visual Studio provides a variety of Python project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) below for an index.
+In addition, projects are always managed within a Visual Studio *solution*, which can contain any number of projects that might reference one another. For example, a Python project can reference a C++ project that implements an extension module. With this relationship, Visual Studio automatically builds the C++ project (if necessary) when you start debugging the Python project. (For a general discussion, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).)
 
-In this topic:
+Visual Studio provides a variety of Python project templates to quickly set up a number of application structures, including a template to create a project from an existing folder tree and a template to create a clean, empty project. See [Project templates](#project-templates) for an index.
 
-- [Adding files, assigning a startup file, and setting environments](#adding-files-assigning-a-startup-file-and-setting-environments)
-- [Project templates](#project-templates)
-- [Linked files](#linked-files)
-- [References](#references)
+<a name="lightweight-usage-project-free"></a>
 
-<a name="lightweight-usage-project-free"</a>
 > [!Tip]
-> Even without a project, Visual Studio works well with Python code, as you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> Even without a project, Visual Studio works well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start [with | without] Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
-> It's a simple matter to create a Visual Studio project from existing code, as described below in [Creating a project from existing files](#creating-a-project-from-existing-files).
+> It's a simple matter to create a Visual Studio project from existing code, as described in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
 For an introduction to Python projects in Visual Studio, see the video [Getting Python Code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=iLAv23LWE_3905918567) (Microsoft Virtual Academy, 2m17s).
 
@@ -48,14 +43,14 @@ Also see the older video [Deep Dive: Using source control with Python projects](
 
 ## Adding files, assigning a startup file, and setting environments
 
-As you develop your application, you typically need to add new files of different types to the project. Adding such files is easily done by right-clicking the project and selecting **Add > Existing Item...**, with which you browse for a file to add, or **Add > New Item...**, which brings up a dialog with a variety of item templates including empty python files, a python class, a unit test, and various files related to web applications. We encourage you to explore these options with a test project to learn what's available in your version Visual Studio.
+As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by right-clicking the project and selecting **Add > Existing Item...**. with which you browse for a file to add, or **Add > New Item...**, which brings up a dialog with a variety of item templates. Templates include empty python files, a python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version Visual Studio.
 
-Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. The startup file is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or run your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. The startup file is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or when you run your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
 
 > [!Tip]
-> If you remove the selected startup file from a project and don't select a new one, attempting to run your project results in a Python output window appearing but then and disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
+> If you remove the selected startup file from a project and don't select a new one, running your project results in a Python output window appearing but then disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more details, see [Python environments](python-environments.md#project-specific-environments).
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Python environments](python-environments.md#selecting-an-environment-for-a-project).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -72,7 +67,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Template | Description |
 | --- | --- |
 | [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
-| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#project-specific-environments). |
+| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#selecting-an-environment-for-a-project). |
 | [Azure cloud service](template-azure-cloud-service.md) | A project for an Azure cloud service written in Python. |
 | [Web projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
@@ -81,6 +76,9 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
 | Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ extension for Python](cpp-and-python.md). |
+
+> [!Note]
+> Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [question and answers](python-in-visual-studio.md#questions-and-answers).
 
 <a name="create-project-from-existing-files"</a>
 
@@ -93,9 +91,9 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 
 ## Linked files
 
-Linked files are files that brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with an overlaid shortcut icon: ![Linked file icon](media/projects-linked-file-icon.png)
+Linked files are files that are brought into a project but typically reside outside of the application's project folders. They appear in Solution Explorer as normal files with an overlaid shortcut icon: ![Linked file icon](media/projects-linked-file-icon.png)
 
-Linked files are specified in the `.pyproj` file using the normal `<Compile Include="...">` element. They can be implicit linked files if they use a relative path outside of the directory structure, or they can be explicit link files by specifying their path within Solution Explorer:
+Linked files are specified in the `.pyproj` file using the `<Compile Include="...">` element. Linked files are implicit  if they use a relative path outside of the directory structure, or explicit if they use paths within Solution Explorer:
 
 ```xml
 <Compile Include="..\test2.py">
