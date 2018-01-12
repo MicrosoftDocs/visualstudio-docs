@@ -13,6 +13,8 @@ caps.latest.revision: 24
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Choosing a Domain-Specific Language Solution Template
 To create a domain-specific language solution, choose one of the solution templates that are available in the Domain-Specific Language Designer Wizard. By choosing the template that most closely resembles the language that you want to create, you can minimize the modifications that you have to make to the starting solution.  

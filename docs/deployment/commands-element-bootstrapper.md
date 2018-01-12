@@ -20,6 +20,8 @@ caps.latest.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Commands&gt; Element (Bootstrapper)
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapper should install if the test fails.  

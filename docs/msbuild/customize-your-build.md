@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customize your build
 In versions of MSBuild prior to version 15, if you wanted to provide a new, custom property to projects in your solution, you had to manually add a reference to that property to every project file in the solution. Or, you had to define the property in a .props file and then explicitly import the .props file in every project in the solution, among other things.
@@ -83,7 +85,7 @@ For msbuild to correctly merge the "inner" files (`2-src` and `2-test`) with the
 A summary of msbuild's general approach is as follows:
 
 - For any given project, msbuild finds the first `Directory.Build.props` upward in the solution structure, merges it with defaults, and stops scanning for more
-- If you want multiple levels to be found and merged, then [`<Import...>`](http://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
+- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
 - If the "outer" file does not itself also import something above it, then scanning stops there
 - To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
 

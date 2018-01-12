@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Block
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.  

@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Source Server Security Alert
 When using Source Server, only use symbol files that are from a known and trusted location.  

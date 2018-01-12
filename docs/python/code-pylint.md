@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Using PyLint to check Python code
@@ -42,7 +45,7 @@ For example, to suppress the "missing docstring" warnings shown in the previous 
 
 1. On the command line, navigate to your project root (which contains your `.pyproj` file) and run the following command to generate a commented configuration file:
 
-   ```bash
+   ```command
    pylint --generate-rcfile > .pylintrc
    ```
 
@@ -53,7 +56,4 @@ For example, to suppress the "missing docstring" warnings shown in the previous 
 1. Save the `.pylintrc` file and run PyLint again to see that the warnings are now suppressed.
 
 > [!Tip]
-> To use a `.pylintrc` file from a network share, create an environment variable named `PYLINTRC` with the value of the filename on the network share using a UNC path or a mapped drive letter. For example:
-> ```
-> PYLINTRC=\\myshare\python\.pylintrc
-> ```
+> To use a `.pylintrc` file from a network share, create an environment variable named `PYLINTRC` with the value of the filename on the network share using a UNC path or a mapped drive letter. For example, `PYLINTRC=\\myshare\python\.pylintrc`.

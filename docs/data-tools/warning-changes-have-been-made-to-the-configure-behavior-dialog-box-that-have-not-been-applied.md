@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Warning. Changes have been made to the Configure Behavior dialog box that have not been applied
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?  

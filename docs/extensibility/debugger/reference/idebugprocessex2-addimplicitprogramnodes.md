@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessEx2::AddImplicitProgramNodes
 This method adds a program node for each debug engine (DE) specified.  

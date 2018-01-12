@@ -19,6 +19,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Beginners Guide to CPU Sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.

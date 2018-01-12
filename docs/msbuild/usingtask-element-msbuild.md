@@ -23,6 +23,8 @@ caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # UsingTask Element (MSBuild)
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.  

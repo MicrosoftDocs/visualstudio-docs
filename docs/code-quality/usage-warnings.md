@@ -19,6 +19,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Usage Warnings
 Usage warnings support proper usage of the .NET Framework.  

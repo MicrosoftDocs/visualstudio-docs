@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], dialog boxes"
   - "dialog boxes, Word"
-ms.assetid: 0c7e4338-dead-4444-868b-3b0212368455
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Use Built-In Dialog Boxes in Word
   When working with Microsoft Office Word, there are times when you need to display dialog boxes for user input. Although you can create your own, you might also want to take the approach of using the built-in dialog boxes in Word, which are exposed in the <xref:Microsoft.Office.Interop.Word.Dialogs> collection of the <xref:Microsoft.Office.Interop.Word.Application> object. This enables you to access over 200 of the built-in dialog boxes, which are represented as enumerations.  

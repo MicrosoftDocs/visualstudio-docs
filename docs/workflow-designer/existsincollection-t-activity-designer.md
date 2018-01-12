@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # ExistsInCollection&lt;T&gt; Activity Designer
 The **ExistsInCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.  

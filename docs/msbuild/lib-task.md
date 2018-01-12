@@ -30,6 +30,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # LIB Task
 Wraps the Microsoft 32-Bit Library Manager tool, lib.exe. The Library Manager creates and manages a library of Common Object File Format (COFF) object files. The Library Manager can also create export files and import libraries to reference exported definitions. For more information, see [LIB Reference](/cpp/build/reference/lib-reference) and [Running LIB](/cpp/build/reference/running-lib).  

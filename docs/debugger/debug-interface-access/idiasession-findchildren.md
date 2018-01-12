@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findChildren
 Retrieves all children of a specified parent identifier that match the name and symbol type.  

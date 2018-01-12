@@ -13,9 +13,11 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - csharp
- - vb
+dev_langs: 
+  - csharp
+  - vb
+ms.workload: 
+  - "multiple"
 ---
 # Introduction to WPF
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.  

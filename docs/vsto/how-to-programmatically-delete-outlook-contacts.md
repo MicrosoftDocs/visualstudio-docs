@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "deleting contacts"
   - "contacts [Office development in Visual Studio], deleting"
-ms.assetid: 3aeb107f-b6d9-4645-b3d2-43c20beee833
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Delete Outlook Contacts
   This example deletes a contact. The example assumes that a contact named "Armando Pinto" exists in the **Contacts** folder.  

@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugNoSymbolsEvent2
 Signals the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.  

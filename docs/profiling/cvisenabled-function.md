@@ -19,6 +19,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvIsEnabled Function
 Determines whether any session has enabled the specified ETW provider.  

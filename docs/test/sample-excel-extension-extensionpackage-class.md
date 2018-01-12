@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e45410a-1819-4d54-ac21-7280152f7e3a
-caps.latest.revision: 9
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Excel Extension: ExtensionPackage Class
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage> class and provides the entry point for a coded UI test that is testing an [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] Worksheet.  

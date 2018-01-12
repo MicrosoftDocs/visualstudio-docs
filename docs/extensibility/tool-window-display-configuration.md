@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Tool Window Display Configuration
 When a VSPackage registers a tool window, the default position, size, docking style, and other visibility information is specified in optional values. For more information on tool window registration, see [Tool Windows in the Registry](../extensibility/tool-windows-in-the-registry.md)  

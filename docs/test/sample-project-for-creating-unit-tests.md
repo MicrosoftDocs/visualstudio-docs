@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit test sample [Visual Studio]"
   - "unit tests, samples"
-ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
-caps.latest.revision: 30
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Project for Creating Unit Tests
 This sample code is provided for use in the following walkthroughs:  

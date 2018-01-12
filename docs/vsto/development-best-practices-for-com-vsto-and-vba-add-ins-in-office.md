@@ -9,14 +9,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - ""  
+  - ""
 helpviewer_keywords: 
-  - ""  
-ms.assetid: 810a6648-fece-4b43-9eb6-948d28ed2158
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+  - ""
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Development best practices for COM, VSTO, and VBA  add-ins in Office
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
@@ -25,13 +25,13 @@ manager: ghogen
 -  Reduced complexity of add-in deployment for your users and IT administrators.
 -  Unintended installation or runtime failures of your add-in do not occur.
 
->Note: Using the [Desktop Bridge](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-root) to prepare your COM, VSTO or VBA add-in for the Windows Store is not supported. COM, VSTO and VBA add-ins cannot be distributed in the Windows Store or the Office Store. 
+>Note: Using the [Desktop Bridge](/windows/uwp/porting/desktop-to-uwp-root) to prepare your COM, VSTO or VBA add-in for the Windows Store is not supported. COM, VSTO and VBA add-ins cannot be distributed in the Windows Store or the Office Store. 
   
 ## Do not check for Office during installation  
  We don’t recommend having your add-in detect whether Office is installed during the add-in installation process. If Office is not installed, you can install the add-in, and the user will be able to access it after Office is installed. 
   
 ## Use Embedded Interop Types (NoPIA)  
-If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding Type Information from Microsoft Office Assemblies](https://msdn.microsoft.com/en-us/library/ee317478.aspx) and [Type Equivalence and Embedded Interop Types](https://docs.microsoft.com/en-us/dotnet/framework/interop/type-equivalence-and-embedded-interop-types). 
+If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding Type Information from Microsoft Office Assemblies](https://msdn.microsoft.com/en-us/library/ee317478.aspx) and [Type Equivalence and Embedded Interop Types](/windows/uwp/porting/desktop-to-uwp-root).
 
 If your solution uses an earlier version of .NET, we recommend that you update your solution to use .NET 4.0 or later. Using .NET 4.0 or later reduces runtime prerequisites on newer versions of Windows.
   
@@ -64,4 +64,4 @@ To provide support statements for Office client applications (for example, Word 
 >Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [https://aka.ms/readyforwindows](https://aka.ms/readyforwindows).
 
 ## Use Process Monitor to help debug installation or loading issues
-If your add-in has compatibility issues during installation or load, they might be related to issues with file or registry access. Use [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) or a similar debugging tool to log and compare behavior against a working environment to help identify the problem. 
+If your add-in has compatibility issues during installation or load, they might be related to issues with file or registry access. Use [Process Monitor](/sysinternals/downloads/procmon) or a similar debugging tool to log and compare behavior against a working environment to help identify the problem.

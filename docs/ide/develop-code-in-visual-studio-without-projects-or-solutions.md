@@ -30,6 +30,8 @@ caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Develop code in Visual Studio without projects or solutions  
 In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, find a code project on Git, clone it, and then open it directly into Visual Studio and begin developing without having to create a solution or project.  
@@ -167,7 +169,7 @@ In this procedure, we will add two custom build tasks that use nMake to build an
 
   ![Custom build task command](./media/VSIDE_Code_Tasks_CustTask1.png)
 
-1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called makefile-clean which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nNake](https://docs.microsoft.com/en-us/cpp/build/nmake-reference) installed on your system.)  
+1. Add the following build tasks to tasks.vs.json. For this example, we'll add two tasks: one called "makefile-build" which uses the nMake command to build the project, the other called makefile-clean which calls the nMake command with the "clean" argument. These tasks should be added within the existing "tasks" array. (Note that these are only example build tasks. For them to actually work, you need to have the workload that contains [nNake](/cpp/build/nmake-reference) installed on your system.)
 
   ```xml
   {

@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], associate external content types"
-ms.assetid: c908448c-13d3-4d2f-89ad-8d709b2958fb
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating an Association Between Entities
   You can define relationships between entities in your Business Data Connectivity (BDC) model by creating associations. Visual Studio generates methods that provide consumers of the model with information about each association. These methods can be consumed by SharePoint web parts, lists, or custom applications to display data relationships in a user interface (UI).  

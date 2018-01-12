@@ -26,6 +26,8 @@ caps.latest.revision: 25
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Code Analysis for C/C++ Overview
 The C/C++ Code Analysis tool provides information to developers about possible defects in their C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks.  

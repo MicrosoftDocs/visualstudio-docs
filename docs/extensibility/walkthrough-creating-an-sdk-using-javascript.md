@@ -13,6 +13,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Creating an SDK using JavaScript
 This walkthrough teaches how to use JavaScript to create a simple math SDK as a Visual Studio Extension (VSIX).  The walkthrough is divided into these parts:  

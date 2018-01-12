@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Snippets
 The XML Editor offers a feature, called *XML snippets*, that allows you to build XML files more quickly. You can reuse XML snippets by inserting them into your files. You can also generate XML data based on an XML Schema definition language (XSD) schema.  
@@ -32,7 +34,7 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
     </xs:sequence>  
   </xs:complexType>  
 </xs:element>  
-```  
+```
   
  You can insert snippets in two ways. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Both commands are available either from the **IntelliSense** submenu under the **Edit** menu, or from the editor shortcut menu.  
   

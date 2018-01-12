@@ -16,6 +16,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Glyph Control (Source Control VSPackage)
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.  

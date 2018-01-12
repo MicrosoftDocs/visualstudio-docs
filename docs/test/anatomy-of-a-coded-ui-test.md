@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests"
-ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
-caps.latest.revision: 23
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Anatomy of a Coded UI Test
 When you create a Coded UI Test in a coded UI test project, several files are added to your solution. In this topic, we will use an example Coded UI Test to explore these files.  

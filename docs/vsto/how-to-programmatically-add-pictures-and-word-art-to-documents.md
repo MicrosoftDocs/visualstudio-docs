@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "Word documents, adding Word Art"
   - "graphics, adding to Word documents"
   - "WordArt, adding to documents"
-ms.assetid: 944e1858-bc7c-471f-b5e7-adf3b0fa574d
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add Pictures and Word Art to Documents
   You can add pictures and drawing objects to your documents at design time or during run time. WordArt enables you to add decorative text to Microsoft Office Word documents. These special text effects are drawing objects that you can customize and insert into your document.  

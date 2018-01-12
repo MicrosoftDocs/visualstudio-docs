@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], canceling display"
   - "canceling form region display"
-ms.assetid: 82a25def-776a-476a-a72d-d0a48a827d3c
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Prevent Outlook from Displaying a Form Region
   There might be situations in which you do not want Microsoft Office Outlook to display a form region for a particular item. For example, if a contact item does not contain a business address, you can prevent a form region that shows the location of the business in a map from appearing.  

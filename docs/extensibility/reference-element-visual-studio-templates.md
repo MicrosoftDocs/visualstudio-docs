@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Reference Element (Visual Studio Templates)
 Specifies the assembly reference to add when the item is added to a project.  

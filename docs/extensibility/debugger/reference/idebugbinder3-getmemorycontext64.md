@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetMemoryContext64
 Converts either an object location or a 64-bit memory address to a memory context.  

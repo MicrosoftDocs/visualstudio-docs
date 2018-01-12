@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 Retrieves the unique identifier for a expression evaluator metric given its name.  

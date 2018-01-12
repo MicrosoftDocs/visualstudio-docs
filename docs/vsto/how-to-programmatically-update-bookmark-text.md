@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "bookmarks, updating text"
   - "text [Office development in Visual Studio], updating in bookmarks"
   - "Bookmark control, updating contents"
-ms.assetid: 2324164d-2538-4695-9aaf-7285ce403be3
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Update Bookmark Text
   You can insert text into a placeholder bookmark in a Microsoft Office Word document so that you can retrieve the text at a later time, or to replace text in a bookmark. If you are developing a document-level customization, you can also update text in a <xref:Microsoft.Office.Tools.Word.Bookmark> control that is bound to data. For more information, see [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  

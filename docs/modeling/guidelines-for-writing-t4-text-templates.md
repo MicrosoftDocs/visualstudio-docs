@@ -11,6 +11,8 @@ caps.latest.revision: 9
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Guidelines for Writing T4 Text Templates
 These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. They are not fixed rules.  

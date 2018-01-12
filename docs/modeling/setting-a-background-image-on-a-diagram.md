@@ -11,6 +11,8 @@ caps.latest.revision: 2
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Setting a Background Image on a Diagram
 In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.  

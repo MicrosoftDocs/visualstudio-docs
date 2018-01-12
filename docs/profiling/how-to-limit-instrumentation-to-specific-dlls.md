@@ -15,6 +15,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Limit Instrumentation to Specific DLLs
 By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .dll files as targets. You can specify the DLLs that you want to profile as projects in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution or as independent binary files.  

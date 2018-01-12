@@ -11,6 +11,8 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # All Rules rule set
 

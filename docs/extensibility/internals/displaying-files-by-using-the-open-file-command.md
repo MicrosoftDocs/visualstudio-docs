@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Displaying Files By Using the Open File Command
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The steps also describe how projects should respond to calls that originate from this command.  

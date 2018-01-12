@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
-caps.latest.revision: 14
 ms.author: "mblome"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
+author: mikeblome
 ---
 # Write unit tests for C/C++ in Visual Studio
 You can write and run your C++ unit tests by using  the **Test Explorer** window, just like for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md). 
@@ -33,7 +33,7 @@ In addition to the installed frameworks, you can write your own test adapter for
 
 2) **Boost.Test** is included as a default component of the **Desktop Development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md). 
 
-3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp.md) component which is part of the **Desktop Development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
+3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp) component which is part of the **Desktop Development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
 
 **Visual Studio 2015 and earlier**

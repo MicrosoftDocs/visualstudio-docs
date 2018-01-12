@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 Obtains a specified interface across process boundaries.  

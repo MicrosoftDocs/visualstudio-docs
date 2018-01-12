@@ -19,6 +19,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1046: Do not overload operator equals on reference types
 |||  

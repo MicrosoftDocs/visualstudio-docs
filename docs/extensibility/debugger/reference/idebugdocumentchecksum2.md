@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentChecksum2
 Represents a checksum for a debug document and enables passing the checksum between components.  

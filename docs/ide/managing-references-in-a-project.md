@@ -25,6 +25,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Managing references in a project
 
@@ -50,19 +52,19 @@ You can make a reference to the following types of components and services:
 
 ### Project references
 
-Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](https://docs.microsoft.com/en-us/windows/uwp/porting/w8x-to-uwp-root).
+Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
 If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ### Extension SDK references
 
-Visual Basic, C#, C++ and JavaScript Universal Windows Platform (UWP) apps can reference Extension SDKs that target [!INCLUDE[win81](../debugger/includes/win81_md.md)], as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10. Please check the Extension SDK vendor site to find out whether it can be referenced by UWP apps.
+Visual Basic, C#, C++ and JavaScript Universal Windows Platform (UWP) apps can reference Extension SDKs that target Windows 8.1, as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10. Please check the Extension SDK vendor site to find out whether it can be referenced by UWP apps.
 
 If you determine that the Extension SDK being referenced by your app is not supported, then you need to perform the following steps:
 
-1. Look at the name of the project that is causing the error. The platform your project is targeting is noted in parentheses next to the project name. For example, **MyProjectName (Windows 8.1)** means that your project **MyProjectName** is targeting platform version [!INCLUDE[win81](../debugger/includes/win81_md.md)].
+1. Look at the name of the project that is causing the error. The platform your project is targeting is noted in parentheses next to the project name. For example, **MyProjectName (Windows 8.1)** means that your project **MyProjectName** is targeting platform version Windows 8.1.
 
-2. Go to the site of the vendor who owns the unsupported Extension SDK, and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.
+1. Go to the site of the vendor who owns the unsupported Extension SDK, and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.
 
     > [!NOTE]
     > One way to find out whether an Extension SDK has dependencies on other Extension SDKs is by looking in **Reference Manager**. Restart Visual Studio, create a new C# UWP app project, and then right-click on the project and choose **Add Reference**. Go to the **Windows** tab, then the **Extensions** sub-tab, and select the Extension SDK. Look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.
@@ -70,13 +72,13 @@ If you determine that the Extension SDK being referenced by your app is not supp
     > [!IMPORTANT]
     > If your project is targeting Windows 10, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0, and is installed with Visual Studio.
 
-3. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the sites of the vendors who own the dependencies, and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.
+1. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the sites of the vendors who own the dependencies, and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.
 
-4. Restart Visual Studio and open your app.
+1. Restart Visual Studio and open your app.
 
-5. Right-click on the **References** node in the project that caused the error and choose **Add Reference**.
+1. Right-click on the **References** node in the project that caused the error and choose **Add Reference**.
 
-6. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Click **OK**.
+1. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Click **OK**.
 
 ## Adding a reference at design time
 

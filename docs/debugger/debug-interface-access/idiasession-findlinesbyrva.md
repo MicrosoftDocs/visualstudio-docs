@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findLinesByRVA
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).  

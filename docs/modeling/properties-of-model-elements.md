@@ -11,6 +11,8 @@ caps.latest.revision: 6
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Model Elements
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.  

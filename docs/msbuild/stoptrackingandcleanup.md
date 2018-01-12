@@ -20,6 +20,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StopTrackingAndCleanup
 Stops all tracking and frees any memory used by the tracking session.  

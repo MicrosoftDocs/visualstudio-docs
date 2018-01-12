@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "custom XML parts [Office development in Visual Studio], adding"
   - "documents [Office development in Visual Studio], custom XML parts"
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
-ms.assetid: 872d2beb-193b-49f9-9a7b-dcebab91a73b
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins
   You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:  

@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttributeQuery
 Represents a query for custom attributes on a method or type.  

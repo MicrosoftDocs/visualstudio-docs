@@ -11,6 +11,8 @@ dev_langs:
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+ms.workload: 
+  - "dotnet"
 ---
 
 # Mobilize.Net's Visual Basic Upgrade Companion (VBUC)

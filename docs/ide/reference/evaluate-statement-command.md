@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Evaluate Statement Command
 Evaluates and displays the given statement.  

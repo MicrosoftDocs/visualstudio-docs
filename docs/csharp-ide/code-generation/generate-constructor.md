@@ -12,6 +12,8 @@ ms.assetid: f2280cfa-a9ec-4b56-9d94-c8fd384db980
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 
 # Generate a constructor in C# #
@@ -91,7 +93,7 @@ There are several ways to generate a constructor:
 
    ![Generate constructor result](media/constructor_result.png)
 
-## <a id="selection"></a> Add parameter to existing constructor
+## <a id="addparameter"></a> Add parameter to existing constructor
 1. Add a parameter to an existing object instantiation.
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.

@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Step 3: Using the interactive REPL window
@@ -28,7 +31,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
     ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1b.png)
 
     > [!Tip]
-    > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see <a href="https://docs.microsoft.com/visualstudio/ide/customizing-window-layouts-in-visual-studio" target="_blank">Customizing window layouts</a>.
+    > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md).
 
 1. Enter a few statements like `print("Hello, Visual Studio")` and expressions like `123/456` to see immediate results:
 

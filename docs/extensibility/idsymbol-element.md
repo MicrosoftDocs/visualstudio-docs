@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDSymbol Element
 The `IDSymbol` element contains the ID of the GUID:ID pair that represents a menu, group, or command. The GUID comes from the parent `GuidSymbol` element. The `IDSymbol` element has a `name` attribute that provides a friendly name for the ID, which is contained in the `value` attribute.  

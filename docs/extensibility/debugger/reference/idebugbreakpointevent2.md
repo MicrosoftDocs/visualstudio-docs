@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when a program stops at a breakpoint.  

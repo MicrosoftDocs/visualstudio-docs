@@ -20,6 +20,8 @@ caps.latest.revision: 16
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;PackageFiles&gt; Element (Bootstrapper)
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.  

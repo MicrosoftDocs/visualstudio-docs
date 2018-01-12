@@ -11,11 +11,11 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: e101fcd5-37a2-4b8c-b9ac-a84624298736
-caps.latest.revision: 9
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # EnsureVSTOComponent Function
   This API supports the Office infrastructure and isn't intended to be used directly from your code.  

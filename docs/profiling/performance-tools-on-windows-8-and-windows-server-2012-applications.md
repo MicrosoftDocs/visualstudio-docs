@@ -13,6 +13,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Performance Tools on Windows 8 and Windows Server 2012 applications
 Enhanced security features starting in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. UWP apps also require new collection techniques. This topic describes the changes for performance tools starting on Windows 8 and Windows Server 2012 platforms.

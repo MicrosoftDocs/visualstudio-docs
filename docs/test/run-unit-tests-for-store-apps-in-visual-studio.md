@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
-caps.latest.revision: 12
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "uwp"
+author: gewarren
 ---
 # Run unit tests for UWP apps in Visual Studio
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  

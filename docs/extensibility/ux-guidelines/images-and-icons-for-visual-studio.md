@@ -13,6 +13,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Images and Icons for Visual Studio
 ##  <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio  

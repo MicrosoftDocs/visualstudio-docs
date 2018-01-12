@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "XMLMappedRange control, adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-ms.assetid: e1d4f2a8-1157-49c2-9158-a1253b709cb8
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add XMLMappedRange Controls to Worksheets
   When you map an XML element to a cell in Microsoft Office Excel, Visual Studio automatically adds an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control to your worksheet.  

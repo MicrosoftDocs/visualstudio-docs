@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GlobalOn and GlobalOff
 The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profiling for all processes and threads in a command-line profiling session.  

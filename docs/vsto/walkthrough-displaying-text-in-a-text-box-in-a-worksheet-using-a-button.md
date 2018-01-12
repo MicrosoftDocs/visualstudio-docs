@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "worksheets, displaying text"
   - "text boxes, displaying text in worksheets"
   - "text [Office development in Visual Studio], text boxes"
-ms.assetid: 59b73159-aab7-4f61-9ace-1723c18d78d6
-caps.latest.revision: 56
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button
   This walkthrough shows the basics of using buttons and text boxes on Microsoft Office Excel worksheets, and how to create Excel projects using Office development tools in Visual Studio. To see the result as a completed sample, see the Excel Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  

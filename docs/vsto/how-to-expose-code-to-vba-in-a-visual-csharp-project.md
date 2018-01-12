@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "VBA [Office development in Visual Studio], exposing code in document-level customizations"
   - "document-level customizations [Office development in Visual Studio], exposing code"
   - "exposing code to VBA"
-ms.assetid: 56d5894b-4823-42f4-8c7e-d8739b859c52
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Expose Code to VBA in a Visual C# Project
   You can expose code in a Visual C# project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.  

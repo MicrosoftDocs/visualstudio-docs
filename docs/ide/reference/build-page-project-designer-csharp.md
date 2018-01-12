@@ -18,6 +18,8 @@ caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Build Page, Project Designer (C#)
 Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects only.  

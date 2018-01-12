@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentPositionOffset2
 Represents a position in a source file as a character offset.  

@@ -16,6 +16,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDE GUIDs
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.  

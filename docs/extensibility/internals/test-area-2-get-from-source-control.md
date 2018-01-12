@@ -16,6 +16,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 2: Get From Source Control
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.  

@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7c251098-00aa-49cf-9e37-5717c0c6b3f1
-caps.latest.revision: 9
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Excel Extension: Element Classes
 The extension uses classes that are derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement> and represent the Worksheet control and Cell control in [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)].  

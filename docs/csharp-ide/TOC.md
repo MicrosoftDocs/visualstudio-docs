@@ -1,6 +1,5 @@
 # [Using the Visual Studio Development Environment for C#](using-the-visual-studio-development-environment-for-csharp.md)
 ## [How to: Add an Application Configuration File to a C# Project](how-to-add-an-application-configuration-file-to-a-csharp-project.md)
-## [Metadata as Source](metadata-as-source.md)
 ## [Refactoring](refactoring-csharp.md)
 ### [Change Method Signature](refactoring/change-method-signature.md)
 ### [Convert Get method to property/property to Get method](refactoring/convert-get-method-to-property.md)

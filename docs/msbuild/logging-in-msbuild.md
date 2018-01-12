@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Logging in MSBuild
 Logging provides a way for you to monitor the progress of a build. Logging captures build events, messages, warnings, and errors in a log file.  

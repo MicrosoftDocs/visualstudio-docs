@@ -13,13 +13,14 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Memory Usage without the Debugger
+# Analyze Memory Usage without the Visual Studio Debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  

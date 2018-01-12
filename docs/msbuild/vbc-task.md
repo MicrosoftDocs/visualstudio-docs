@@ -23,6 +23,8 @@ caps.latest.revision: 19
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Vbc Task
 Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll), or code modules (.netmodule). For more information on vbc.exe, see [Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index).  

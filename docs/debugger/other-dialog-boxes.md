@@ -16,6 +16,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Other Dialog Boxes
 These dialog boxes display information about the Spy++ program.  

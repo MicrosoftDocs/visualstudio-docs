@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "SharePoint project items, defining your own types"
   - "project items [SharePoint development in Visual Studio], defining your own types"
   - "SharePoint development in Visual Studio, defining new project item types"
-ms.assetid: f6ec47a7-e7d9-4e26-810b-77943a1ab04c
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Shortcut Menu Item to a Custom SharePoint Project Item Type
   When you define a custom SharePoint project item type, you can add a shortcut menu item to the project item. The menu item appears when a user right-clicks the project item in **Solution Explorer**.  

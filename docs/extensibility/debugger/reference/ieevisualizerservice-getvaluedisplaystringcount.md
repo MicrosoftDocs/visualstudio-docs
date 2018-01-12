@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
 Retrieves the number of value strings to display for the specified property or field.  

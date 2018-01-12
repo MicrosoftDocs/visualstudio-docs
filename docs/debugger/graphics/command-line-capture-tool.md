@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Command-Line Capture Tool
 DXCap.exe is a command-line tool for graphics diagnostics capture and playback. It supports Direct3D 10 through Direct3D 12 across all feature levels.  

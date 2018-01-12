@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Shortcut Keys (Help Viewer)
 You can navigate in the Microsoft Help Viewer by using the shortcut keys in the following table:  

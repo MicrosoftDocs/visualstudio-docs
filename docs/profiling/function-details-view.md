@@ -18,6 +18,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Function Details View
 The **Function Details View** window displays the following information:  

@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2017"
+ms.date: "11/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -9,6 +9,8 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 # Visual Studio IDE overview
 
@@ -30,25 +32,47 @@ You can leverage the power of the cloud for your mobile apps by creating Azure a
 
 ### Create cloud apps for Azure
 
-Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. Leverage Azure services for your apps using Connected Services. To get Azure Tools for .NET, select the **Azure development** workload when you install Visual Studio. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
+Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. To get Azure Tools for .NET, select the **Azure development** workload when you install Visual Studio. For more information, see [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/).
+
+You can leverage Azure services for your apps using Connected Services such as:
+
+- [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)
+
+- [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)
+
+[HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users. In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these GitHub samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
+
+[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights will also help you understand what your users actually do with your app so you can optimize the user experience.
 
 ### Create apps for the web
 
-The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
+The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
-### Write code in a world class editing environment
+For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
-Visual Studio helps you write code quickly and easily through features such as syntax colorization, statement completion, IntelliSense (pop-up descriptions of the selected code element), code outlining, setting breakpoints for debugging, and much more.
+### Build cross-platform apps and games
 
-![JavaScript code example](../ide/media/vside_tour_javascript_example.gif)
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
 
-To learn more, see [Writing Code in the Code and Text Editor](https://docs.microsoft.com/visualstudio/ide/writing-code-in-the-code-and-text-editor).
+Choose the tools you need based on your app requirements and the language you want to use:
+
+- [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices.
+
+- [Visual Studio Tools for Apache Cordova](../cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript.
+
+- [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#.
+
+- [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++.
+
+- [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE.
+
+[Create games using Visual Studio](https://www.visualstudio.com/vs/game-development/) with game development tools such as DirectX, Unity, Unreal, Cocos, and more.
 
 Visual Studio can do help you do many more things. For a more complete list, see [Visual Studio IDE](https://www.visualstudio.com/vs/).
 
 ## Install the Visual Studio IDE
 
-To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/).
+To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 Visual Studio is now more lightweight than ever! The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 
@@ -58,7 +82,7 @@ To follow the steps for creating a program below, be sure to select and install 
 
 In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
 
-To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).  
+To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
 
 ## Sign in
 
@@ -124,7 +148,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
 1. When you're done running the program, choose the Stop (![Stop button](../ide/media/VSIDE_StopButton.png)) button on the toolbar to stop it.
 
-Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
+Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
 
 ## Debug, test, and improve your code
 
@@ -148,7 +172,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 - The [Output](../ide/reference/output-window.md) window is where Visual Studio sends its notifications, such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
-- [Team Explorer](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)]  (/vsts/tfvc/overview).
+- [Team Explorer (VSTS)](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
 
 - [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more. If a particular operation requires the Azure portal, Cloud Explorer provides links that take you to the place in the Azure portal you need to go.
 
@@ -156,7 +180,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 Following are some other common productivity features in Visual Studio:
 
-- The [Quick Launch](https://docs.microsoft.com/en-us/visualstudio/ide/reference/quick-launch-environment-options-dialog-box) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
+- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
 
   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
@@ -168,7 +192,7 @@ Following are some other common productivity features in Visual Studio:
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
 
-- **Squiggles** are wavy red underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with suggestions for how to fix the error. For more information, see [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).
+- **Squiggles** are wavy red underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with suggestions for how to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
 
  ![Squiggles](../ide/media/vs2017_squiggle.png)
 
@@ -194,7 +218,7 @@ Following are some other common productivity features in Visual Studio:
 
 ## Manage your source code and collaborate with others
 
-You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
+You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services (VSTS)](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
 
 Visual Studio Team Services is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes.
 
@@ -206,7 +230,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-For documentation about Visual Studio Team Services and Team Foundation Server, see [Visual Studio Team Services](/vsts/index).
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Continuous integration on any platform](https://www.visualstudio.com/en-us/docs/build/overview) for more information.
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -220,17 +244,22 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
-**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](https://docs.microsoft.com/visualstudio/data-tools/add-new-connections) for more information on using Server Explorer.
+**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
 
-[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
+[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
 **SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more.
 
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
 
 ## Extend Visual Studio
+If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. Visual Studio provides tools, controls, and templates from Microsoft, our partners, and the community. To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
+You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+
+Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers as well as our development community.
+
+To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
 ## Learn more and find out what's new
 

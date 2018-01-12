@@ -11,6 +11,8 @@ caps.latest.revision: 6
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Creating a WPF-Based Domain-Specific Language
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.  

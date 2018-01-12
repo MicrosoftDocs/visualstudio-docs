@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint project service"
-ms.assetid: 3d8b7adf-2603-4247-9b61-6326a1dd0dec
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Retrieve the SharePoint Project Service
   You can access the SharePoint project service in the following types of solutions:  

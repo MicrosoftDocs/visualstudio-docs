@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security Considerations when Working with XML Data
 This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.  

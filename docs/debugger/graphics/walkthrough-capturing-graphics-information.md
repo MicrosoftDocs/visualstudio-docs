@@ -13,6 +13,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Capturing Graphics Information
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to manually capture graphics information from a Direct3D app.  

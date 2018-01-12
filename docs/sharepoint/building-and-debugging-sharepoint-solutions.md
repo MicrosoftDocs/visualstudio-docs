@@ -16,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, building and debugging"
   - "SharePoint development in Visual Studio, debugging"
-ms.assetid: c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Building and Debugging SharePoint Solutions
   In general, building and debugging SharePoint solutions is the same as building and debugging other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The topics in this section explain the differences that do exist.  

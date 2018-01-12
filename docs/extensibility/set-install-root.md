@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Installing outside the extensions folder
 

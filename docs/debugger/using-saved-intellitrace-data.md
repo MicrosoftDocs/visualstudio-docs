@@ -20,6 +20,8 @@ caps.latest.revision: 106
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using saved IntelliTrace data
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.  
@@ -35,7 +37,7 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|  
     |----------------|-------------|  
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|  
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)|  
+    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)|  
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|  
   
 ##  <a name="GetStarted"></a> What do you want to do?  
@@ -262,7 +264,7 @@ Go to specific points in your application's execution when you start debugging f
   
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)  
+ [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   

@@ -24,6 +24,8 @@ caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Edit and Continue (Visual Basic)
 Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  

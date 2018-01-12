@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # InvokeMethod Activity Designer
 **InvokeMethod** designer is used to create and configure an <xref:System.Activities.Statements.InvokeMethod> activity.  

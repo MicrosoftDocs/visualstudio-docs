@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "upgrading applications [Office development in Visual Studio]"
   - "upgrading Office solutions in Visual Studio"
   - "migrating Office solutions in Visual Studio"
-ms.assetid: cc60cdcb-593d-498a-8358-f1f3ac673fe1
-caps.latest.revision: 105
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Upgrading and Migrating Office Solutions
   If you have a Microsoft Office project that was created in an earlier version of Visual Studio, you must upgrade the project to use it in current versions of Visual Studio. To upgrade a Microsoft Office project, open it in a version of Visual Studio that includes the Microsoft Office developer tools. For more information about the versions of Visual Studio that include the Microsoft Office developer tools, see [Configuring a Computer to Develop Office Solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  

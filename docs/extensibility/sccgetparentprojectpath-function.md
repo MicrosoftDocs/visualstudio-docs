@@ -17,6 +17,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccGetParentProjectPath Function
 This function determines the parent project path of a specified project. This function is called when the user is adding a Visual Studio project to source control.  

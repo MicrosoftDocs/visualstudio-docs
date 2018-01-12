@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], creating"
   - "document-level customizations [Office development in Visual Studio], creating"
   - "application-level add-ins [Office development in Visual Studio], creating projects"
-ms.assetid: 0037dbd8-0d2a-4766-90ea-81c819379582
-caps.latest.revision: 96
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create Office Projects in Visual Studio
   You can use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  

@@ -13,9 +13,11 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - csharp
- - vb
+dev_langs: 
+  - csharp
+  - vb
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: My First WPF Desktop Application
 This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You'll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
@@ -264,7 +266,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 1.  Choose the following image and save it as `watermark.png`.  
   
-     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "WPF_watermark")  
+     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "watermark")  
   
     > [!NOTE]
     >  Alternatively you can create your own image and save it as `watermark.png`.  

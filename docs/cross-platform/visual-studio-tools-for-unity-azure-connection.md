@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/19/2017"
 ms.reviewer: "crdun"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,6 +12,9 @@ ms.assetid: 516A8FB2-8DFF-4BAB-8116-FDCD1C228DB3
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 

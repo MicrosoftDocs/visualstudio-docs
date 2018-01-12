@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "certificates [Office development in Visual Studio], Office solutions"
   - "security [Office development in Visual Studio], signing Office solutions"
   - "signing manifests [Office development in Visual Studio]"
-ms.assetid: d3df5ee6-f1b7-47ed-b7ee-8985679ee3af
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Sign Office Solutions
   If you sign a solution, you can grant trust to the solution using the certificate as evidence. You can use the same certificate for multiple solutions, and all the solutions will be trusted with no additional security policy updates.  

@@ -12,6 +12,8 @@ ms.assetid: fc929a81-b20c-4802-92a7-388fd15aec3c
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Refactoring, Code Generation and Quick Actions in Visual Studio
 

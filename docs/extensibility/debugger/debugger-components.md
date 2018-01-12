@@ -17,6 +17,8 @@ caps.latest.revision: 30
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Debugger Components
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  

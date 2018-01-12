@@ -1,7 +1,7 @@
 ---
 title: "Python options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 07/13/2017
+ms.date: 01/04/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,6 +19,9 @@ f1_keywords:
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Options for Python in Visual Studio
@@ -36,6 +39,8 @@ The specific options are described in the following sections:
 - [Diagnostics options](#diagnostics-options)
 - [Interactive Windows options](#interactive-windows-options)
 - [Advanced Python editor options](#advanced-python-editor-options)
+
+Note that the **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## General options
 
@@ -65,7 +70,6 @@ The specific options are described in the following sections:
 | Enable debugging of the Python standard library | Off | Makes it possible to step into the standard library source code while debugging, but increases the time it takes for the debugger to start.|
 
 ![Python options dialog, Debugging tab](media/options-debugging.png)
-
 
 ## Diagnostics options
 

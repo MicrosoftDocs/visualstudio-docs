@@ -21,6 +21,8 @@ caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Limitations on WCF Debugging
 There are three ways that you can begin debugging a WCF service:  

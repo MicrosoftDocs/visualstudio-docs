@@ -19,6 +19,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Supplying XML Code Comments
 You can make the comments in source code files available as IntelliSense. When you add the /doc switch to the Visual Basic, C#, or C++ compiler command line, an .xml file is generated that serves as the basis for IntelliSense documentation.  

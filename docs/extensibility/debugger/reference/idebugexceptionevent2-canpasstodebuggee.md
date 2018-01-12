@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.  

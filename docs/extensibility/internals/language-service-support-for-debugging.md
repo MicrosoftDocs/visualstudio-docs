@@ -16,6 +16,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Language Service Support for Debugging
 A language service can provide features that support a debugger through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> interface. These features include validating breakpoints and supplying a list of expressions to the **Autos** window.  

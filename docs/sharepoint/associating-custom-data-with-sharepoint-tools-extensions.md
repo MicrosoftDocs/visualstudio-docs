@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "SharePoint project items, associating custom data"
   - "SharePoint projects, associating custom data"
   - "SharePoint development in Visual Studio, extensibility features"
-ms.assetid: cfc87272-85a1-4c36-89e4-2662417d59ea
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Associating Custom Data with SharePoint Tools Extensions
   You can add custom data to certain objects in SharePoint tools extensions. This is useful when you have data in one part of your extension that you want to access later from other code in your extension. Instead of implementing a custom way to store and access data, you can associate the data with an object in your extension and then retrieve the data from the same object later.  

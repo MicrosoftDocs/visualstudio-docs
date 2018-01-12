@@ -7,17 +7,18 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 5fd98a5b-2cf3-4438-8b0f-6f1a742a62ce
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Remote machine does not appear in a Remote Connections dialog
 If the remote machine does not appear in the Remote Connections dialog, check the following common causes.  

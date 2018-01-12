@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Step 4: Running code in the debugger
@@ -42,7 +45,7 @@ In addition to managing projects, providing a rich editing experience, and the i
     main()
     ```
 
-1. Check that the code works properly by pressing F5 or selecting the **Debug > Start Debugging** menu command. This command runs the code in the debugger, but because you haven't done anything to pause the program while it's running, it just prints a wave pattern for a few iterations. Pressing a key to the output window.
+1. Check that the code works properly by pressing F5 or selecting the **Debug > Start Debugging** menu command. This command runs the code in the debugger, but because you haven't done anything to pause the program while it's running, it just prints a wave pattern for a few iterations. Press any key to close the output window.
 
     > [!Tip]
     > To close the output window automatically when the program completes, replace the `main()` call with the following code:

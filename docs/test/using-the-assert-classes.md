@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,10 +12,11 @@ helpviewer_keywords:
   - "Assert statements"
   - "unit tests, Assert statements"
   - "unit tests, Assert classes"
-ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
-caps.latest.revision: 27
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Using the Assert Classes
 Use the Assert classes of the UnitTestingFramework namespace to verify specific functionality. A unit test method exercises the code of a method in your development code, but it reports the correctness of the code's behavior only if you include Assert statements.  

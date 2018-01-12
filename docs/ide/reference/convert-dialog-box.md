@@ -19,6 +19,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Convert Dialog Box
 The **Convert** dialog box allows you to select a conversion tool to create a new project from an old one, such as creating a [!INCLUDE[vbprvblong](../../ide/reference/includes/vbprvblong_md.md)] project from a Visual Basic 6 project. You can also use the [Visual Studio Project Converter](https://github.com/ssvaidya/VSProjectConverter) to upgrade projects created in previous versions of Visual Studio.   

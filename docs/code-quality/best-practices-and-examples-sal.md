@@ -13,6 +13,8 @@ caps.latest.revision: 12
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Best Practices and Examples (SAL)
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  

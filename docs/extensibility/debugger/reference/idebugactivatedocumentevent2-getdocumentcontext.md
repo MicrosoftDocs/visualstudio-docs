@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
 Gets the document context that describes the position in the document that is to be made active by the debug package.  

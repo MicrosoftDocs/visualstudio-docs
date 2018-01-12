@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
-ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
-caps.latest.revision: 22
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Testing a Large Application with Multiple UI Maps
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI maps.  

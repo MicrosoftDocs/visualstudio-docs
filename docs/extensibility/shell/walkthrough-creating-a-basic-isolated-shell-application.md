@@ -17,6 +17,8 @@ caps.latest.revision: 54
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Creating a Basic Isolated Shell Application
 This walkthrough shows how to create an isolated shell solution, customize the Help About tool window, and create a setup program that installs the isolated shell.  
@@ -73,7 +75,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 3.  Build the solution and start debugging.  
   
-4.  In **View / Other Windows**, click **Web Browser**. The **Web Browser** window displays the Microsoft Corporation home page.  
+4.  In **View > Other Windows**, click **Web Browser**. The **Web Browser** window displays the Microsoft Corporation home page.  
   
 ## Removing the Print Command  
  The .vsct file in an isolated shell UI project consists of a set of declarations of the form `<Define name=No_`*Element*`>`, where *Element* is one of the standard Visual Studio menus and commands.  
@@ -96,7 +98,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 4.  This removes the print command.  
   
-5.  Start debugging the isolated shell application. Verify that the **File / Print** command is gone.  
+5.  Start debugging the isolated shell application. Verify that the **File > Print** command is gone.  
   
 ## Removing Features from the Isolated Shell  
  You can remove some of the packages that are loaded with Visual Studio by editing the .pkgundef file if you do not want those features in your custom isolated shell application. You specify the package in one of the subkeys of the $RootKey$\Packages registry key.  
@@ -142,7 +144,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     [assembly: AssemblyDescription("The description of Fabrikam Music editor.")]  
     ```  
   
-4.  Start debugging and in the isolated shell application, open the **Help / About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  
+4.  Start debugging and in the isolated shell application, open the **Help > About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  
   
 5.  The properties of the **Help/About** box itself are found in the MyVSShellStub.AboutBoxPackage\AboutBox.xaml file. To change the width of the Help/About box, go to the `AboutDialogStyle` block and set the `Width` property to 200:  
   

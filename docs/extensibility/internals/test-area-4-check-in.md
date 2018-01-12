@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 4: Check In
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.  

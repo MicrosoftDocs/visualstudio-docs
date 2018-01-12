@@ -26,6 +26,8 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Debug Windows API Functions?
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.  

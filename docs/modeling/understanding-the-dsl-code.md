@@ -13,6 +13,8 @@ caps.latest.revision: 19
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+ms.workload: 
+  - "multiple"
 ---
 # Understanding the DSL Code
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.  

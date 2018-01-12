@@ -21,6 +21,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Using the Visual Studio Development Environment for C# #
 The Visual Studio integrated development environment (IDE) is a collection of development tools exposed through a common user interface. Some of the tools are shared with other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] languages, and some, such as the C# compiler, are unique to Visual C#. This topic provides links to the most important Visual C# tools.  
@@ -33,11 +35,9 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |[Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)|Describes how to create a project that contains all the source code files, resource files such as icons, references to external files, and configuration data such as compiler settings.|  
 |[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|Describes Visual Studio tools that help you modify and manipulate text, code, and markup, insert and configure controls and other objects and namespaces, and add references to external components and resources.|  
 |[Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)|Provides links to topics that describe Visual C#-specific features, such as automatic code generation and IntelliSense for most recently used members.|  
-|[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)|Provides an overview of using Code Snippets in Visual C# to automatically add common code constructs to your application|  
-|[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|Provides links to procedures about how to use the Find and Replace window, Bookmarks, and the Task List and Error List to locate lines of code.|  
+|[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)|Provides an overview of using Code Snippets in Visual C# to automatically add common code constructs to your application|
 |[Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)|Explains how to browse hierarchies of classes, class members, and resources.|  
-|[How to: Add an Application Configuration File to a C# Project](../csharp-ide/how-to-add-an-application-configuration-file-to-a-csharp-project.md)|Describes how to add a configuration file (app.config) to a C# project.|  
-|[Metadata as Source](../csharp-ide/metadata-as-source.md)|Describes how the IDE enables you to view metadata as source code.|  
+|[How to: Add an Application Configuration File to a C# Project](../csharp-ide/how-to-add-an-application-configuration-file-to-a-csharp-project.md)|Describes how to add a configuration file (app.config) to a C# project.|
 |[Refactoring (C#)](../csharp-ide/refactoring-csharp.md)|Lists refactoring operations that help you modify your code without changing the behavior of your application.|  
 |[Code Generation (C#)](../csharp-ide/code-generation-csharp.md)|Lists code generation tools that will write portions of code for you.|  
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|Explains how to configure debug, release, and special builds of your Visual Studio solution.|  

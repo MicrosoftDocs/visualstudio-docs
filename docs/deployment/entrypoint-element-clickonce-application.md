@@ -23,6 +23,8 @@ caps.latest.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;entryPoint&gt; Element (ClickOnce Application)
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is run on a client computer.  

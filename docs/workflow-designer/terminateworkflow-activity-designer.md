@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # TerminateWorkflow Activity Designer
 The **TerminateWorkflow** activity designer is used to create and configure a <xref:System.Activities.Statements.TerminateWorkflow> activity.  

@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Command-Line Profiling Tools Reference
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.  

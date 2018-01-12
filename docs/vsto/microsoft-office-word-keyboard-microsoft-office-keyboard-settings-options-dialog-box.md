@@ -17,11 +17,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "keyboard shortcuts, Office development in Visual Studio"
-ms.assetid: d98edaab-846a-4baa-b190-702b1134754c
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
   Microsoft Office Word and Visual Studio both handle shortcut keys. The same shortcut key combination can stand for different commands in Word and in Visual Studio. When Word is open in a document-level project in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Word receive them when the document has focus by selecting **Dynamic keyboard scheme**.  

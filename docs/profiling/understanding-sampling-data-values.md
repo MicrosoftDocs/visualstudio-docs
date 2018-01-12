@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Understanding Sampling Data Values
 The *sampling* profiling method of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  

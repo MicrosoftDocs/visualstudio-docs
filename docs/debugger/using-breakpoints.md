@@ -39,6 +39,8 @@ caps.latest.revision: 57
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use Breakpoints in the Visual Studio Debugger
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.  
@@ -228,7 +230,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Export and Import Breakpoints  
  You can export a breakpoint to an XML file by right-clicking on the breakpoint and selecting **Export**. The file is saved by default in the solution directory. To import breakpoints, open the **Breakpoints** window (**CTRL + ALT + B**) and on the toolbar click the right-pointing arrow (the tooltip is **Import breakpoints from a file**).  
   
-## Troubleshoot breakpoints  
+## <a name="troubleshoot"></a> Troubleshoot breakpoints 
   
 ### I deleted a breakpoint, but I continue to hit it when I start debugging again  
  If you deleted a breakpoint while debugging, in some cases you may hit the breakpoint again the next time you start debugging. To stop hitting this breakpoint, make sure all the instances of the breakpoint are removed from the **Breakpoints** window.  
