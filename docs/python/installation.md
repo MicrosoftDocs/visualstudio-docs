@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Installing Python support in Visual Studio on Windows
