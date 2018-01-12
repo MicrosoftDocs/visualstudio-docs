@@ -14,25 +14,29 @@ ms.workload:
 ---
 # Code generation features in Visual Studio
 
-There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code. Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md), [Quick Actions](../ide/quick-actions.md), and [T4 text templates](../modeling/code-generation-and-t4-text-templates.md).
+There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code.
 
-Some common code generation features include:
+Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md), [Quick Actions](../ide/quick-actions.md) ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall"), and [T4 text templates](../modeling/code-generation-and-t4-text-templates.md).
 
-* Generating classes, methods, types, etc.
-* Generating XML Documentation Comments
+Some common code generation tasks available through Quick Actions are:
+
+* Generating classes, methods, properties, etc.
+
 * Implementing abstract classes or interfaces
-* Introducing a local variable into a complex expression
 
-Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
+* Introducing a local variable into a complex expression
 
 Additionally, by typing certain characters you can:
 
-- generate [XML-formatted comment blocks]() for your code that can later be processed to produce documentation automatically
+* generate [XML-formatted comment blocks]() for your code that can later be processed to produce documentation automatically
 
-- generate [method override]() signatures
+* generate [method override]() signatures
+
+Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
 
 ## See also
 
 [Quick Actions](../ide/quick-actions.md)  
 [Code Snippets](../ide/code-snippets.md)  
-[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)
+[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)  
+[Refactoring](../ide/refactoring-in-visual-studio.md)

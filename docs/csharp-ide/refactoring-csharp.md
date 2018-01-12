@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/ide/reference/refactoring-csharp
+redirect_url: /visualstudio/ide/refactoring-in-visual-studio
 ---
