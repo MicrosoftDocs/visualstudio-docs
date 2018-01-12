@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SafeControl element"
-ms.assetid: e7c61749-fc73-412c-be30-4af5ff2a9fd2
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

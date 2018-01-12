@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], adding tables"
   - "tables [Office development in Visual Studio], adding to documents"
-ms.assetid: fe1f9143-9622-45e8-b0a5-511336d99ad1
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

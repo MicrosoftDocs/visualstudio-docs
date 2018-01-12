@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "data binding, controls"
   - "Office applications [Office development in Visual Studio], data binding"
   - "controls, data binding"
-ms.assetid: b6faaed7-df9b-4d78-9863-e515cd5c7ed9
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

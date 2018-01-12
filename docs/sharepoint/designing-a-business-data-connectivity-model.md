@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], designing a model"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], designing a model"
-ms.assetid: 19cad8cf-8a82-4000-84cf-1e5aff54e5af
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

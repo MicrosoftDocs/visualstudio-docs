@@ -28,10 +28,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Windows Forms controls"
   - "Windows Forms controls [Office development in Visual Studio], about Windows Forms controls"
   - "Office applications [Office development in Visual Studio], Windows Forms"
-ms.assetid: a959506b-5038-49c2-831a-d63c6d6b797d
-caps.latest.revision: 76
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

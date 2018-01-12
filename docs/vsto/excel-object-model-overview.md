@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "Excel object model"
   - "Office object models"
-ms.assetid: e4b2e46b-ea6c-4a88-a416-a7d4f495fc33
-caps.latest.revision: 66
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

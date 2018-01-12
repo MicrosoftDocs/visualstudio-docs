@@ -9,7 +9,7 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Visual Studio IDE overview
@@ -72,7 +72,7 @@ Visual Studio can do help you do many more things. For a more complete list, see
 
 ## Install the Visual Studio IDE
 
-To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/).
+To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 Visual Studio is now more lightweight than ever! The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 

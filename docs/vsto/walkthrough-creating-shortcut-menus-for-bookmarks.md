@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Bookmark control, events"
   - "shortcut menus, Word"
   - "menus, creating in Office applications"
-ms.assetid: 86dbf3ff-ba75-42f9-8df6-abfc19b3cf6b
-caps.latest.revision: 57
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

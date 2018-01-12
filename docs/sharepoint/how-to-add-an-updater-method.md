@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], Updater"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], updating entity instances"
   - "BDC [SharePoint development in Visual Studio], updating entity instances"
-ms.assetid: c97e443c-58dc-4f8f-8cbd-0d52d8a6a06b
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

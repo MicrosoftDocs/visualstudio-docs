@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing items"
   - "importing items [SharePoint development in Visual Studio]"
-ms.assetid: faac3309-88d7-4fb2-8392-feda07fc00e5
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

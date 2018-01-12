@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, opening"
   - "Excel [Office development in Visual Studio], opening workbooks"
-ms.assetid: 06c0ac87-a2c6-4cc1-87be-39be0cb81c71
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

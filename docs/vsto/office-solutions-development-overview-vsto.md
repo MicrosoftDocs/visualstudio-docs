@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies, Office"
   - "Office development in Visual Studio, about developing solutions"
-ms.assetid: 5dfc519f-a851-4661-8d2b-47e0d221e10e
-caps.latest.revision: 69
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

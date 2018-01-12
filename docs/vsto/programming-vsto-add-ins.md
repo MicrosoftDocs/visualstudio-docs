@@ -33,10 +33,8 @@ helpviewer_keywords:
   - "ThisAddIn_Startup"
   - "application-level add-ins [Office development in Visual Studio], programming"
   - "ThisAddIn_Shutdown"
-ms.assetid: c534786d-2833-4afa-9e4c-4633f46b9eed
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

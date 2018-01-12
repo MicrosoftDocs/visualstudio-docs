@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "importing form regions"
   - "form regions [Office development in Visual Studio], importing"
-ms.assetid: 86b0ef1a-6d7e-4ea5-b90e-458ffe4e1d10
-caps.latest.revision: 35
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

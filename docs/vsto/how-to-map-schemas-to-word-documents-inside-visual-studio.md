@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "XML schemas [Office development in Visual Studio], mapping"
   - "mappings [Office development in Visual Studio], XML schemas to Word documents"
   - "Word [Office development in Visual Studio], mapping XML schemas"
-ms.assetid: 9bfb3c7b-6392-45bd-b4c1-b2012b9ded69
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], creating a model"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], creating a model"
   - "SharePoint development in Visual Studio, Business Data Connectivity service"
-ms.assetid: 19fd12d0-a51a-4da4-98ac-918542e84507
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

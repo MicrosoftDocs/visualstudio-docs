@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
-ms.assetid: 80250fbf-fccf-4baa-948e-ace7f4449e9c
-caps.latest.revision: 19
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

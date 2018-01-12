@@ -18,10 +18,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, event receivers"
   - "event receivers [SharePoint development in Visual Studio]"
-ms.assetid: 6f90cb48-eb8f-43c2-a3f7-ed4ce81aedf2
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

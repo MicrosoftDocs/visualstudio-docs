@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], control layout"
   - "controls [Office development in Visual Studio], layout on actions panes"
   - "smart documents [Office development in Visual Studio], control layout"
-ms.assetid: 857550d0-b9c0-4d2f-a947-dd955bcf2823
-caps.latest.revision: 59
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

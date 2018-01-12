@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "complex data [Office development in Visual Studio]"
   - "multiple column data binding [Office development in Visual Studio]"
   - "data binding [Office development in Visual Studio], multiple columns"
-ms.assetid: 32ffad3d-fba4-476a-99b8-ef440434f4e1
-caps.latest.revision: 50
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

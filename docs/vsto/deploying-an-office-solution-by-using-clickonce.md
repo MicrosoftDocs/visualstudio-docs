@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Office development in Visual Studio, deploying solutions"
   - "ClickOnce deployment [Office development in Visual Studio], deploying solutions"
-ms.assetid: feb516b3-5e4d-449a-9fd2-347d08d90252
-caps.latest.revision: 59
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

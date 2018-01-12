@@ -11,10 +11,8 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: eabd0377-cb94-4c1e-a99c-f13ff8df1a87
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

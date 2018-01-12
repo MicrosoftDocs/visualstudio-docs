@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], object model"
-ms.assetid: cae24f66-e980-41ee-a915-d4c8e03efbc1
-caps.latest.revision: 75
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "custom document properties"
   - "documents [Office development in Visual Studio], properties"
   - "document properties [Office development in Visual Studio]"
-ms.assetid: 99d9dfaf-891f-4f3b-a580-67362afdaf34
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

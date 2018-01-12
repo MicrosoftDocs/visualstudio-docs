@@ -24,10 +24,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], deploying"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
-ms.assetid: 4cdf4bc6-72c5-4166-8019-d5fd61281079
-caps.latest.revision: 78
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

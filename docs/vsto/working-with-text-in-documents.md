@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], text"
   - "text [Office development in Visual Studio]"
   - "documents [Office development in Visual Studio], text"
-ms.assetid: 6f9e5a35-8c29-4237-bd44-f3a79e6a5f1c
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

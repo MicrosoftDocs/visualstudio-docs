@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "customizing the Ribbon, tabs"
   - "custom Ribbon, tabs"
   - "Custom tab [Office development in Visual Studio]"
-ms.assetid: 312865e6-950f-46ab-88de-fe7eb8036bfe
-caps.latest.revision: 68
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

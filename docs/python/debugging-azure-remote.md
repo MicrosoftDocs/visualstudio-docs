@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Remotely debugging Python code on Azure

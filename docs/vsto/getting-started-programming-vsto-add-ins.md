@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "application-level add-ins [Office development in Visual Studio], getting started"
   - "add-ins [Office development in Visual Studio], getting started"
-ms.assetid: 9ac1e6ea-9511-4633-80f9-dc7641f22b63
-caps.latest.revision: 60
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

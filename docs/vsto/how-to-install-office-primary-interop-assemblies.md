@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies [Office development in Visual Studio], installing"
   - "Office primary interop assemblies, installing"
-ms.assetid: 92948fcc-76c6-4b08-ba63-cab59dd60eb1
-caps.latest.revision: 61
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "worksheets, ranges"
   - "ranges, common tasks"
   - "workbooks, ranges"
-ms.assetid: 26835a5d-402c-4c13-8f33-e4d8ffed3dfe
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

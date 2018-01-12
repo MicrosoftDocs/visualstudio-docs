@@ -1,123 +1,917 @@
 {
-    "redirections": 
-	[
+    "redirections": [
         {
-            "source_path": "docs/test/install-configure-test-agents.md",
-            "redirect_url": "/visualstudio/test/lab-management/install-configure-test-agents",
+            "source_path": "docs/code-quality/index.md",
+            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/edit-uml-models-and-diagrams.md",
+            "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
+            "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-apache-cordova.md",
+            "redirect_url": "/visualstudio/cross-platform/tools-for-cordova/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/index.md",
+            "redirect_url": "/visualstudio/csharp-ide/code-generation-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/encapsulate-field-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/encapsulate-field",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/extract-interface-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-interface",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/extract-method-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/index.md",
+            "redirect_url": "/visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/index.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/remove-parameters-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/change-method-signature",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/rename-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/rename",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/reorder-parameters-refactoring-csharp.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring/change-method-signature",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/data-tools/bind-windows-forms-controls-to-data.md",
+            "redirect_url": "/visualstudio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/data-tools/create-a-sql-database-by-using-a-script.md",
+            "redirect_url": "https://msdn.microsoft.com/library/hh864423(v=vs.103).aspx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/data-tools/install-sql-server-sample-databases.md",
+            "redirect_url": "https://github.com/microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
+            "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/16bpp-render-target-format-variant.md",
+            "redirect_url": "/visualstudio/debugger/graphics/16bpp-render-target-format-variant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/1x1-viewport-size-variant.md",
+            "redirect_url": "/visualstudio/debugger/graphics/1x1-viewport-size-variant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/addmessage.md",
+            "redirect_url": "/visualstudio/debugger/graphics/addmessage",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/bc-texture-compression-variant.md",
+            "redirect_url": "/visualstudio/debugger/graphics/bc-texture-compression-variant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/begincapture.md",
+            "redirect_url": "/visualstudio/debugger/graphics/begincapture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/capturecurrentframe.md",
+            "redirect_url": "/visualstudio/debugger/graphics/capturecurrentframe",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/capturing-graphics-information.md",
+            "redirect_url": "/visualstudio/debugger/graphics/capturing-graphics-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/command-line-capture-tool.md",
+            "redirect_url": "/visualstudio/debugger/graphics/command-line-capture-tool",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md",
+            "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/copy-programmatic-capture.md",
+            "redirect_url": "/visualstudio/debugger/graphics/copy-programmatic-capture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debug-css-styles-using-dom-explorer.md",
+            "redirect_url": "/visualstudio/debugger/quickstart-debug-html-and-css",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debug-interface-access/index.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debug-layout-using-dom-explorer.md",
+            "redirect_url": "/visualstudio/debugger/quickstart-debug-html-and-css",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debug-store-apps-in-visual-studio.md",
+            "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debugging-aspnet-and-ajax-applications.md",
+            "redirect_url": "/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debugging-in-visual-studio.md",
+            "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/debugging-web-applications-and-script.md",
+            "redirect_url": "/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/dont-save-vsglog-to-temp.md",
+            "redirect_url": "/visualstudio/debugger/graphics/dont-save-vsglog-to-temp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/endcapture.md",
+            "redirect_url": "/visualstudio/debugger/graphics/endcapture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/getting-started-with-visual-studio-graphics-diagnostics.md",
+            "redirect_url": "/visualstudio/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/gpu-usage.md",
+            "redirect_url": "/visualstudio/debugger/graphics/gpu-usage",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-diagnostics-examples.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-event-call-stack.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-event-call-stack",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-event-list.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-event-list",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-frame-analysis.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-frame-analysis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-log-document.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-log-document",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-object-table.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-object-table",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-pipeline-stages.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-pipeline-stages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-pixel-history.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-pixel-history",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics-state.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-state",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics/gpu-usage.md",
+            "redirect_url": "/visualstudio/profiling/gpu-usage",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics/index.md",
+            "redirect_url": "/visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/half-quarter-texture-dimensions-variant.md",
+            "redirect_url": "/visualstudio/debugger/graphics/half-quarter-texture-dimensions-variant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/hlsl-shader-debugger.md",
+            "redirect_url": "/visualstudio/debugger/graphics/hlsl-shader-debugger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-change-the-graphics-diagnostics-playback-machine.md",
+            "redirect_url": "/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-debug-a-partial-trust-application.md",
+            "redirect_url": "/visualstudio/debugger/debugger-security",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-debug-web-applications.md",
+            "redirect_url": "/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-use-graphics-diagnostics-with-an-arm-device.md",
+            "redirect_url": "/visualstudio/debugger/graphics/how-to-use-graphics-diagnostics-with-an-arm-device",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-write-a-visualizer.md",
+            "redirect_url": "/visualstudio/debugger/create-custom-visualizers-of-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/init.md",
+            "redirect_url": "/visualstudio/debugger/graphics/init",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/mip-map-generation-variant.md",
+            "redirect_url": "/visualstudio/debugger/graphics/mip-map-generation-variant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md",
+            "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/overview-of-visual-studio-graphics-diagnostics.md",
+            "redirect_url": "/visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md",
+            "redirect_url": "/visualstudio/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/preparing-to-debug-aspnet.md",
+            "redirect_url": "/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/prerequistes-for-remote-debugging-web-applications.md",
+            "redirect_url": "/visualstudio/debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/reference-programmatic-capture.md",
+            "redirect_url": "/visualstudio/debugger/graphics/reference-programmatic-capture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/run-store-apps-from-visual-studio.md",
+            "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/run-windows-store-apps-on-the-local-machine.md",
+            "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md",
+            "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/togglehud.md",
+            "redirect_url": "/visualstudio/debugger/graphics/togglehud",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/uninit.md",
+            "redirect_url": "/visualstudio/debugger/graphics/uninit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/unsupported-edits-in-visual-basic-edit-and-continue.md",
+            "redirect_url": "/visualstudio/debugger/supported-code-changes-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/view-dom-event-listeners.md",
+            "redirect_url": "/visualstudio/debugger/quickstart-debug-html-and-css",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/visual-studio-graphics-diagnostics.md",
+            "redirect_url": "/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/vsg-default-run-filename.md",
+            "redirect_url": "/visualstudio/debugger/graphics/vsg-default-run-filename",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/vsg-nodefault-instance.md",
+            "redirect_url": "/visualstudio/debugger/graphics/vsg-nodefault-instance",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/vsgdbg-class.md",
+            "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-class",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/vsgdbg-tilde-vsgdbg-destructor.md",
+            "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/vsgdbg-vsgdbg-constructor.md",
+            "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-vsgdbg-constructor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-capturing-graphics-information-programmatically.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information-programmatically",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-capturing-graphics-information.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-debugging-rendering-errors-due-to-shading.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-missing-objects-due-to-device-state.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-device-state",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-missing-objects-due-to-misconfigured-pipeline.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-missing-objects-due-to-vertex-shading.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md",
+            "redirect_url": "/visualstudio/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/installshield-limited-edition.md",
+            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/index.md",
+            "redirect_url": "/visualstudio/designers/designing-user-interfaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md",
+            "redirect_url": "/azure/app-service-mobile/app-service-mobile-windows-store-dotnet-get-started",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/customizing-the-isolated-shell.md",
+            "redirect_url": "shell/customizing-the-isolated-shell",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/debugger/index.md",
+            "redirect_url": "/visualstudio/extensibility/debugger/visual-studio-debugger-extensibility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/debugger/reference/index.md",
+            "redirect_url": "/visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/distributing-isolated-shell-applications.md",
+            "redirect_url": "shell/distributing-isolated-shell-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/elements-of-the-isolated-shell.md",
+            "redirect_url": "shell/elements-of-the-isolated-shell",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/extending-the-isolated-shell.md",
+            "redirect_url": "shell/extending-the-isolated-shell",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/installing-an-isolated-shell-application.md",
+            "redirect_url": "shell/installing-an-isolated-shell-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/internals/index.md",
+            "redirect_url": "/visualstudio/extensibility/internals/inside-the-visual-studio-sdk",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/isolated-shell-entry-point-parameters-cpp.md",
+            "redirect_url": "shell/isolated-shell-entry-point-parameters-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/license-element-vsix-language-pack-schema.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/lightweight-solution-load-extension-impact.md",
+            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/localizeddescription-element-vsix-language-pack-schema.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/localizedname-element-vsix-language-pack-schema.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
+            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md",
+            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md",
+            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/moreinfourl-element-vsix-language-pack-schema.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/package-guids-of-visual-studio-features.md",
+            "redirect_url": "shell/package-guids-of-visual-studio-features",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/servicing-guidelines-for-isolated-shell-applications.md",
+            "redirect_url": "shell/servicing-guidelines-for-isolated-shell-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell-isolated-or-integrated.md",
+            "redirect_url": "shell/shell-isolated-or-integrated",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/index.md",
+            "redirect_url": "shell-isolated-or-integrated",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md",
+            "redirect_url": "shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/ux-guidelines/index.md",
+            "redirect_url": "/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/visual-studio-isolated-shell.md",
+            "redirect_url": "shell/visual-studio-isolated-shell",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/visual-studio-shell-integrated.md",
+            "redirect_url": "shell/visual-studio-shell-integrated",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/vsx-language-pack-schema-reference.md",
+            "redirect_url": "/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/walkthrough-creating-a-basic-isolated-shell-application.md",
+            "redirect_url": "shell/walkthrough-creating-a-basic-isolated-shell-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/adding-and-removing-project-items.md",
+            "redirect_url": "/visualstudio/ide/creating-solutions-and-projects/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/additional-information-about-class-designer-errors.md",
+            "redirect_url": "/visualstudio/ide/class-designer/additional-information-about-errors",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/advanced-search-operators-in-search-expressions.md",
+            "redirect_url": "/visualstudio/ide/logical-operators-in-search-expressions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/class-designer/designing-classes-and-types.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/class-designer/index.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/code-generation-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/connected-environment.md",
+            "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/create-an-offline-installation-of-visual-studio.md",
+            "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/creating-and-configuring-type-members-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/creating-and-configuring-type-members",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/designing-and-viewing-classes-and-types.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/designing-classes-and-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/filtered-completion-lists-in-visual-basic.md",
+            "redirect_url": "/visualstudio/ide/visual-basic-specific-intellisense",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/full-text-search-tips.md",
+            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/get-started-developing-with-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/get-started-with-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/getting-started-with-visual-csharp-and-visual-basic.md",
+            "redirect_url": "/visualstudio/ide/quickstart-visual-basic-console",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-add-class-diagrams-to-projects-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-add-comments-to-class-diagrams-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-add-comments-to-class-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-change-between-member-notation-and-association-notation-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-change-between-member-notation-and-association-notation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-copy-class-diagram-elements-to-a-microsoft-office-document-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-copy-class-diagram-elements-to-a-microsoft-office-document",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-create-a-nullable-type-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-create-a-nullable-type",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-create-associations-between-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-create-associations-between-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-create-inheritance-between-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-create-inheritance-between-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-create-types-by-using-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-customize-class-diagrams-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-customize-class-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-customize-search-results.md",
+            "redirect_url": "/visualstudio/ide/how-to-search-for-topics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-export-class-diagrams-as-images-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-export-class-diagrams-as-images",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-implement-an-interface-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-implement-an-interface",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-print-class-diagrams-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-print-class-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-restore-csharp-refactoring-snippets.md",
+            "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-split-a-class-into-partial-classes-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-split-a-class-into-partial-classes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-view-existing-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-view-existing-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-view-inheritance-between-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-view-inheritance-between-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-visualize-a-collection-association-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/how-to-visualize-a-collection-association",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/index-search-tips.md",
+            "redirect_url": "/visualstudio/ide/how-to-find-topics-in-the-index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/locate-information.md",
+            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/manage-the-help-viewer-window.md",
+            "redirect_url": "/visualstudio/ide/customize-the-help-viewer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/perform-quick-actions-with-light-bulbs.md",
+            "redirect_url": "/visualstudio/ide/quick-actions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/quickstart-cpp.md",
+            "redirect_url": "/visualstudio/ide/getting-started-with-cpp-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/refactoring-classes-and-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/refactoring-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/refactoring-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/accessibility-for-people-with-disabilities.md",
+            "redirect_url": "/visualstudio/ide/reference/accessibility-features-of-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/general-user-interface-elements-visual-studio.md",
+            "redirect_url": "reference/call-hierarchy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/visual-studio-for-applications-reference.md",
+            "redirect_url": "/visualstudio/ide/reference/visual-studio-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/visual-studio-reference.md",
+            "redirect_url": "/visualstudio/ide/reference/general-user-interface-elements-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/retain-topics-for-later-use.md",
+            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/troubleshooting-the-help-viewer.md",
+            "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/user-accounts-and-updates.md",
+            "redirect_url": "/visualstudio/install/update-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/viewing-types-and-relationships-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/viewing-types-and-relationships",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-cpp-classes-in-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-classes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-cpp-enumerations-in-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-enumerations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-cpp-structures-in-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-structures",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-cpp-typedefs-in-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-typedefs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-studio-notifications.md",
+            "redirect_url": "/visualstudio/install/update-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-studio-samples.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/visual-studio-template-reference.md",
+            "redirect_url": "/visualstudio/ide/creating-project-and-item-templates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/working-with-class-diagrams-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/working-with-class-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/working-with-classes-and-other-types-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/working-with-visual-cpp-code-class-designer.md",
+            "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/index.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/install-faqs.md",
+            "redirect_url": "/visualstudio/install/troubleshooting-installation-issues",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/install-visual-studio-in-offline-environment.md",
+            "redirect_url": "/visualstudio/install/install-certificates-for-visual-studio-offline",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/uml-activity-diagrams-reference.md",
+            "source_path": "docs/modeling/api-reference-for-uml-modeling-extensibility.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/properties-of-elements-on-uml-activity-diagrams.md",
+            "source_path": "docs/modeling/attach-reference-strings-to-uml-model-elements.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/uml-activity-diagrams-guidelines.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-component-diagrams-reference.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-elements-on-uml-component-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-component-diagrams-guidelines.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-class-diagrams-reference.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-types-on-uml-class-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-attributes-on-uml-class-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-operations-on-uml-class-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-associations-on-uml-class-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-class-diagrams-guidelines.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/generate-code-from-uml-class-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-sequence-diagrams-reference.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-elements-on-uml-sequence-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-sequence-diagrams-guidelines.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-use-case-diagrams-reference.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/properties-of-elements-on-uml-use-case-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/link-a-use-case-to-documents-and-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/uml-use-case-diagrams-guidelines.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/define-packages-and-namespaces.md",
+            "source_path": "docs/modeling/create-elements-and-relationships-in-uml-models.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
@@ -127,62 +921,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/standard-stereotypes-for-uml-models.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/install-a-uml-profile.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/link-model-elements-and-work-items.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/manage-models-and-diagrams-under-version-control.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/validate-your-uml-model.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/extend-uml-models-and-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/define-and-install-a-modeling-extension.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/define-a-profile-to-extend-uml.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/modeling/define-a-custom-modeling-toolbox-item.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/define-validation-constraints-for-uml-models.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/define-a-menu-command-on-a-modeling-diagram.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
@@ -192,27 +931,47 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/define-a-menu-command-on-a-modeling-diagram.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/define-a-profile-to-extend-uml.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/define-a-work-item-link-handler.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/integrate-uml-models-with-other-models-and-tools.md",
+            "source_path": "docs/modeling/define-and-install-a-modeling-extension.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/generate-files-from-a-uml-model.md",
+            "source_path": "docs/modeling/define-packages-and-namespaces.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/read-a-uml-model-in-program-code.md",
+            "source_path": "docs/modeling/define-validation-constraints-for-uml-models.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
+            "source_path": "docs/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/display-a-uml-model-on-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/edit-uml-models-and-diagrams.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
@@ -227,37 +986,17 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/programming-with-the-uml-api.md",
+            "source_path": "docs/modeling/extend-uml-models-and-diagrams.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/navigate-the-uml-model.md",
+            "source_path": "docs/modeling/generate-code-from-uml-class-diagrams.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/navigate-relationships-with-the-uml-api.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/create-elements-and-relationships-in-uml-models.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/display-a-uml-model-on-diagrams.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/link-uml-model-updates-by-using-transactions.md",
-            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/modeling/attach-reference-strings-to-uml-model-elements.md",
+            "source_path": "docs/modeling/generate-files-from-a-uml-model.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
@@ -267,12 +1006,102 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/update-a-uml-model-from-a-background-thread.md",
+            "source_path": "docs/modeling/index.md",
+            "redirect_url": "/visualstudio/modeling/analyze-and-model-your-architecture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/install-a-uml-profile.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/uml-model-element-types.md",
+            "source_path": "docs/modeling/integrate-uml-models-with-other-models-and-tools.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-a-use-case-to-documents-and-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-model-elements-and-work-items.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/link-uml-model-updates-by-using-transactions.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/manage-models-and-diagrams-under-version-control.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-relationships-with-the-uml-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-the-uml-model.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/programming-with-the-uml-api.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-associations-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-attributes-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-activity-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-component-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-sequence-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-elements-on-uml-use-case-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-operations-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/properties-of-types-on-uml-class-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/read-a-uml-model-in-program-code.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
@@ -282,13 +1111,283 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/modeling/api-reference-for-uml-modeling-extensibility.md",
+            "source_path": "docs/modeling/standard-stereotypes-for-uml-models.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/ide/quickstart-cpp.md",
-            "redirect_url": "/visualstudio/ide/getting-started-with-cpp-in-visual-studio",
+            "source_path": "docs/modeling/uml-activity-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-activity-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-class-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-class-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-component-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-component-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-model-element-types.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-sequence-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-sequence-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-use-case-diagrams-guidelines.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/uml-use-case-diagrams-reference.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/update-a-uml-model-from-a-background-thread.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/validate-your-uml-model.md",
+            "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/msbuild/additional-msbuild-resources.md",
+            "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/msbuild/additional-resources-for-msbuild.md",
+            "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/msbuild/index.md",
+            "redirect_url": "/visualstudio/msbuild/msbuild",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/msbuild/msbuild-glossary1.md",
+            "redirect_url": "/visualstudio/msbuild/msbuild-glossary",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/profiling-tools.md",
+            "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-building-a-website-in-azure.md",
+            "redirect_url": "/visualstudio/python/publishing-to-azure",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-debugging.md",
+            "redirect_url": "/visualstudio/python/debugging",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-editing-code.md",
+            "redirect_url": "/visualstudio/python/code-editing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-interactive-python.md",
+            "redirect_url": "/visualstudio/python/interactive-repl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-setting-up-visual-studio.md",
+            "redirect_url": "/visualstudio/python/installation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-ptvs-start-coding-projects.md",
+            "redirect_url": "/visualstudio/python/python-projects",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started-with-python.md",
+            "redirect_url": "/visualstudio/python/python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/getting-started.md",
+            "redirect_url": "/visualstudio/python/vs-tutorial-01-01",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/index.md",
+            "redirect_url": "/visualstudio/python/python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/sharepoint/index.md",
+            "redirect_url": "/visualstudio/sharepoint/create-sharepoint-solutions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/index.md",
+            "redirect_url": "/visualstudio/test/improve-code-quality",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/install-configure-test-agents.md",
+            "redirect_url": "/visualstudio/test/lab-management/install-configure-test-agents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/testing-store-apps-with-visual-studio.md",
+            "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/troubleshooting-code-analysis-issues.md",
+            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/troubleshooting-code-metrics-issues.md",
+            "redirect_url": "/visualstudio/code-quality/measuring-complexity-and-maintainability-of-managed-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/troubleshooting-quality-tools.md",
+            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/unit-testing-existing-cpp-applications-with-test-explorer.md",
+            "redirect_url": "/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/upgrade-visual-studio-2010-unit-test-projects.md",
+            "redirect_url": "/visualstudio/test/unit-test-your-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/using-microsoft-visualstudio-testtools-cppunittestframework.md",
+            "redirect_url": "/visualstudio/test/microsoft.visualstudio.testtools.cppunittestframework-api-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md",
+            "redirect_url": "/visualstudio/test/writing-unit-tests-for-c-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/index.md",
+            "redirect_url": "/visualstudio/vb-ide/code-generation-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/index.md",
+            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/index.md",
+            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vsto/index.md",
+            "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/welcome-to-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/index.md",
+            "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/index.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/chakra-hosting/index.md",
+            "redirect_url": "/script/chakra-hosting/javascript-runtime-hosting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/advanced/index.md",
+            "redirect_url": "/script/javascript/advanced/advanced-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/misc/index.md",
+            "redirect_url": "/script/javascript/misc/expected-left-curly-brace",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/index.md",
+            "redirect_url": "/script/javascript/reference/javascript-reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/index.md",
+            "redirect_url": "/script/jswinrt/using-the-windows-runtime-in-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/winscript/index.md",
+            "redirect_url": "/script/winscript/active-script-debugging-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/winscript/reference/index.md",
+            "redirect_url": "/script/winscript/windows-script-interfaces-reference",
             "redirect_document_id": false
         }
     ]

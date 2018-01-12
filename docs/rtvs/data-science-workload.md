@@ -20,7 +20,7 @@ ms.workload:
 
 # Data Science and Analytical Applications workload
 
-The Data Science and Analytical Applications workload in Visual Studio brings together three languages and their respective runtime distributions:
+The Data Science and Analytical Applications workload, shown in the Visual Studio installer, brings together three languages and their respective runtime distributions:
 
 - [R and Microsoft R Client](../rtvs/index.md)
 - [Python and Anaconda](../python/python-in-visual-studio.md)

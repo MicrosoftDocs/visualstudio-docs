@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], common tasks with Visio shapes"
   - "shapes [Office development in Visual Studio], common tasks with Visio shapes"
-ms.assetid: 53af87f7-b174-49f7-87d0-7dfe4bb9e1e2
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

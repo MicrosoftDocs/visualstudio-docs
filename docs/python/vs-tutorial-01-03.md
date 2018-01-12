@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Step 3: Using the interactive REPL window

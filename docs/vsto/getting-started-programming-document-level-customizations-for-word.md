@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Word solutions in Visual Studio"
   - "Word projects [Office development in Visual Studio], getting started"
-ms.assetid: 30593c47-1658-4fca-b9a9-36fbdf73c901
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

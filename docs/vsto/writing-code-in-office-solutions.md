@@ -34,10 +34,8 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], writing code"
   - "Office applications [Office development in Visual Studio], programming model"
   - "managed code extensions [Office development in Visual Studio], writing code"
-ms.assetid: 2d4d8fd0-e881-4829-976f-0d1a9221dec0
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

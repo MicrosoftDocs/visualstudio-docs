@@ -120,7 +120,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
-## <a name="BKMK_msvsmon"></a> Download and Install the Remote Tools on Windows Server
+## <a name="BKMK_msvsmon"></a> Download and Install the remote tools on Windows Server
 
 In this tutorial, we are using Visual Studio 2017.
 

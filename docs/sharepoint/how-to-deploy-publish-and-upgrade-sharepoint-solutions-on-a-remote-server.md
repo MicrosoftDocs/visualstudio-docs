@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, remote deployment"
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, deploying"
-ms.assetid: d9c67fae-d097-4e26-a2b9-0f72ff800987
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

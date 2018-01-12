@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "worksheets, moving"
   - "workbooks, moving worksheets in"
-ms.assetid: a010a633-412e-4299-9587-cacb035842c1
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

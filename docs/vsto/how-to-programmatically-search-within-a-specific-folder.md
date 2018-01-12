@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Outlook folders [Office development in Visual Studio], searching"
-ms.assetid: 8f2cdc8b-f757-412c-aa2b-ebd5bc52f697
-caps.latest.revision: 30
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

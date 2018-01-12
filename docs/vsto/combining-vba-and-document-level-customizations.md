@@ -25,10 +25,8 @@ helpviewer_keywords:
   - "VBA [Office development in Visual Studio], about VBA and document-level customizations"
   - "managed code [Office development in Visual Studio], Visual Basic for Applications and"
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
-ms.assetid: 2c10feeb-38af-4802-bbf4-d637db81a884
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "threading [Office development in Visual Studio]"
   - "Office applications [Office development in Visual Studio], threading support"
   - "object models [Office development in Visual Studio], threading support"
-ms.assetid: 810a6648-fece-4b43-9eb6-948d28ed2157
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

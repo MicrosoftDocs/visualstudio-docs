@@ -16,6 +16,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Creating a C++ extension for Python
@@ -154,6 +155,9 @@ For more information, see [Installing Python Support for Visual Studio](installa
 ## Convert the C++ project to an extension for Python
 
 To make the C++ DLL into an extension for Python, you first modify the exported methods to interact with Python types. You then add a function that exports the module, along with definitions of the module's methods. For background on what's shown here, refer to the [Python/C API Reference Manual](https://docs.python.org/3/c-api/index.html) and especially [Module Objects](https://docs.python.org/3/c-api/module.html) on python.org. (Remember to select your version of Python from the drop-down control on the upper right.)
+
+> [!Note]
+> These instructions apply to Python 3.x. If you're working with Python 2.7, refer to [Extending Python 2.7 with C or C++](https://docs.python.org/2.7/extending/extending.html) and [Porting Extension Modules to Python 3](https://docs.python.org/2.7/howto/cporting.html) (python.org).
 
 1. In the C++ file, include `Python.h` at the top:
 

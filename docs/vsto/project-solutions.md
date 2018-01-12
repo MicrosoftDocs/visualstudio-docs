@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], Project"
   - "Office projects [Office development in Visual Studio], Project"
   - "solutions [Office development in Visual Studio], Project"
-ms.assetid: 4ce92269-eb6d-44aa-bee3-6d38ec9995f9
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

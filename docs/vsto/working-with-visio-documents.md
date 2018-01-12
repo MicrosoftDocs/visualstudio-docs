@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], document common tasks"
   - "Office documents [Office development in Visual Studio, common tasks in Visio"
   - "documents [Office development in Visual Studio], common tasks in Visio"
-ms.assetid: 0e9aa441-5bce-4a72-bc8b-7311e3235b9a
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

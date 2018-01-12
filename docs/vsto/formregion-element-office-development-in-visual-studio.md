@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <formRegion> element"
-ms.assetid: d397cf31-c0ef-47f0-860a-cd816e4bf6eb
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

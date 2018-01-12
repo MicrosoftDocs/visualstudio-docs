@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "calendars [Office development in Visual Studio], deleting appointments"
   - "deleting appointments"
   - "appointments [Office development in Visual Studio]"
-ms.assetid: 34bd2d5e-a075-4fbe-809f-479c72fc735a
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], updating using controls"
   - "controls [Office development in Visual Studio], updating documents"
-ms.assetid: 56e6d1f2-65a4-41f0-aff5-f0cfd96d7185
-caps.latest.revision: 60
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

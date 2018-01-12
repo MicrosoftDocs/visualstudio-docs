@@ -12,10 +12,8 @@ dev_langs:
   - ""
 helpviewer_keywords: 
   - ""
-ms.assetid: 810a6648-fece-4b43-9eb6-948d28ed2158
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

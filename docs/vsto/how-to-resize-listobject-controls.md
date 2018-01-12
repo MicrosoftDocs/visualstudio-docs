@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "controls [Office development in Visual Studio], resizing"
   - "ListObject control, resizing"
-ms.assetid: a4c7dceb-7b55-447e-9b88-c3596a2fc361
-caps.latest.revision: 50
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

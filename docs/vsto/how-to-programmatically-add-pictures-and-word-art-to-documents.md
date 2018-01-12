@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "Word documents, adding Word Art"
   - "graphics, adding to Word documents"
   - "WordArt, adding to documents"
-ms.assetid: 944e1858-bc7c-471f-b5e7-adf3b0fa574d
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"
