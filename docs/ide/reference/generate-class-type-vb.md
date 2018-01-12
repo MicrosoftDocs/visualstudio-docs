@@ -70,6 +70,7 @@ ms.workload:
 
    ![Generate class result](media/class-result-vb.png)
 
-## See Also  
-[Code Generation (Visual Basic)](../code-generation-vb.md)  
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

@@ -46,6 +46,7 @@ ms.workload:
 
    ![Generate field/property/local result](media/field-result-cs.png)
 
-## See Also  
-[Code Generation (C#)](../code-generation-csharp.md)  
-[Preview Changes](../../ide/preview-changes.md) 
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
+[Preview Changes](../../ide/preview-changes.md)

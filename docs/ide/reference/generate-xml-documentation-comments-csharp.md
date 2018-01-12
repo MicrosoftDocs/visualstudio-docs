@@ -37,6 +37,7 @@ ms.workload:
 
    ![Completed comment](media/doc-result-cs.png)
 
-## See Also
-[Code Generation (C#)](../code-generation-csharp.md)  
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)

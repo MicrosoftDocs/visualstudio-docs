@@ -45,7 +45,8 @@ ms.workload:
 1. The method will be created automatically with any parameters inferred from its usage.
 
    ![Generate method result](media/method-result-vb.png)
-  
-## See Also  
-[Code Generation (Visual Basic)](../code-generation-vb.md)  
+
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

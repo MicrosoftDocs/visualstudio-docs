@@ -133,7 +133,8 @@ There are several ways to generate a constructor:
 1. The field/property will be created and automatically named to match your types.
 
    ![Generate constructor result](media/constructor5-result-cs.png)
-  
-## See Also  
-[Code Generation (C#)](../code-generation-csharp.md)  
+
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

@@ -48,6 +48,7 @@ ms.workload:
 
    ![Implement class result](media/abstract-result-cs.png)
 
-## See Also  
-[Code Generation (C#)](../code-generation-csharp.md)  
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

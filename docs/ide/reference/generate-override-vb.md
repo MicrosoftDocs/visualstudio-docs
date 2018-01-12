@@ -41,5 +41,6 @@ ms.workload:
 
    ![Override result](media/override-result-vb.png)
 
-## See Also  
-[Code Generation (Visual Basic)](../code-generation-vb.md) 
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md) 

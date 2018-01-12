@@ -15,8 +15,8 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-
 # Generate XML documentation comments in Visual Basic
+
 **What:** Lets you immediately generate the base XML required to document the selected element. 
 
 **When:** You want to create XML Document Comments for later processing by a documentation tool like Sandcastle.
@@ -37,6 +37,7 @@ ms.workload:
 
    ![Completed comment](media/doc_result.png)
 
-## See Also
+## See also
+
 [Documenting Your Code with XML (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)  
-[Code Generation (Visual Basic)](../code-generation-vb.md) 
+[Code Generation](../code-generation-in-visual-studio.md)

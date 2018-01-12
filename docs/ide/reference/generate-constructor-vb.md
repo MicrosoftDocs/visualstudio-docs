@@ -45,7 +45,8 @@ ms.workload:
 1. The constructor will be created automatically with any parameters inferred from its usage.
 
    ![Generate constructor result](media/constructor-result-vb.png)
-  
-## See Also  
-[Code Generation (Visual Basic)](../code-generation-vb.md)  
+ 
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

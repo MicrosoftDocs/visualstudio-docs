@@ -47,5 +47,5 @@ ms.workload:
 
 ## See also
 
-[Code Generation (C#)](../code-generation-csharp.md)  
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)

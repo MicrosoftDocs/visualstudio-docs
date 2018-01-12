@@ -53,6 +53,7 @@ ms.workload:
    >
    >![Implement interface explicitly result](media/interface-explicitresult-cs.png); 
 
-## See Also  
-[Code Generation (C#)](../code-generation-csharp.md)  
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md)  

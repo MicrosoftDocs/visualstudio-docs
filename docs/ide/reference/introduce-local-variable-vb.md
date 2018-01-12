@@ -48,6 +48,7 @@ ms.workload:
    >[!NOTE]
    >You can use the **...all occurences of...** menu option to replace every instance of the selected expression found, not just the one you have specifically highlighted.
 
-## See Also  
-[Code Generation (Visual Basic)](../code-generation-vb.md)  
+## See also
+
+[Code Generation](../code-generation-in-visual-studio.md)  
 [Preview Changes](../../ide/preview-changes.md) 
