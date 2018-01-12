@@ -32,7 +32,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Viewing the structure of code
+# View the structure of code
 
 You can examine the objects and members in Visual Studio projects, .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 
@@ -200,7 +200,7 @@ The shortcut menu in the **Code Definition** window may contain the following co
 |**Go To Declaration**||
 |**Find All References**|Finds the references to the type or member in the solution.|
 |**View Call Hierarchy**|Displays the method in the **Call Hierarchy** window.|
-|**Togle Header / Code File**||
+|**Toggle Header / Code File**||
 |**Run Tests**|If there are unit tests in the project, runs the tests for the selected code.|
 |**Debug Tests**||
 |**Breakpoint**|Inserts a breakpoint (or a tracepoint).|

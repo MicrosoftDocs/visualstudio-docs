@@ -37,7 +37,7 @@ You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual B
 
 1. You can close the definition window by choosing the **Esc** key or the **Close** button on the definition window tab.
 
-### Opening a Peek Definition window from within a Peek Definition window
+### Open a Peek Definition window from within a Peek Definition window
 
 If you already have a **Peek Definition** window open, you can call **Peek Definition** again on the code in that window. Another definition window opens. A set of breadcrumb dots appears next to the definition window tab, which you can use to navigate between definition windows. The tooltip on each dot shows the file name and path of the definition file that the dot represents.
 
@@ -49,7 +49,7 @@ If you use **Peek Definition** on code that has more than one definition (for ex
 
    ![Peek window from multiple results](../ide/media/peekmultiple.png "PeekMultiple")
 
-### Editing inside the Peek Definition window
+### Edit inside the Peek Definition window
 
 When you start to edit inside a **Peek Definition** window, the file that you're modifying automatically opens as a separate tab in the code editor and reflects the changes that you've made. You can continue to make, undo, and save changes in the **Peek Definition** window, and the tab will continue to reflect those changes. Even if you close the **Peek Definition** window without saving your changes, you can make, undo, and save more changes in the tab, picking up exactly where you left off in the **Peek Definition** window.
 

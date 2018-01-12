@@ -19,9 +19,9 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Viewing type and member definitions
+# View type and member definitions
 
-Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the Go To Definition and Peek Definition features enable you to easily view the definition of a type or member. In case the source code is not available, metadata is displayed instead.
+Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the Go To Definition and Peek Definition features enable you to easily view the definition of a type or member. If the source code is not available, metadata is displayed instead.
 
 ## Go To Definition
 
@@ -51,7 +51,7 @@ If you peek another definition from the popup window, you will start a breadcrum
 
 For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
-## Viewing metadata as source code (C#)
+## View metadata as source code (C#)
 
 When you view the definition of C# types or members who's source code is not available, their metadata is displayed instead. You can see the declarations of the types and members, but not their implementations.
 
@@ -64,7 +64,7 @@ For example, if you run the **Go To Definition** command for <xref:System.Consol
 > [!NOTE]
 > When you try to run the **Go To Definition** or **Peek Definition** command for types or members that are marked as internal, Visual Studio does not display their metadata as source code, regardless of whether the referencing assembly is a friend or not.
 
-### Viewing decompiled source definitions instead of metadata (C#)
+### View decompiled source definitions instead of metadata (C#)
 
 New in **Visual Studio 2017 version 15.6 preview 2**, you can set an option to see decompiled source code when you view the definition of a C# type or member who's source code is unavailable. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** > **C#** > **Advanced**, and select **Enable navigation to decompiled sources**.
 
