@@ -36,7 +36,9 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/visualstudio/connected-environment/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "ms.prod": "visualstudio-dev15",
+      "ROBOTS":  "NOINDEX,NOFOLLOW"
     },
     "fileMetadata": {},
     "template": [],

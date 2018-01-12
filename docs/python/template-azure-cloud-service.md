@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
   - "azure"
 ---
 
@@ -22,7 +23,7 @@ ms.workload:
 
 Visual Studio provides templates to help you get started creating Azure Cloud Services using Python.
 
-A [cloud service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with `pip install`&nbsp;[`azure`](http://pypi.org/project/azure).
+A [cloud service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](template-web.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with [`pip install azure`](http://pypi.org/project/azure).
 
 This topic contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](http://go.microsoft.com/fwlink/?linkid=254360).
 
@@ -77,7 +78,7 @@ To open the **Publish** wizard, select the role project in Solution Explorer and
 
 The publishing process involves two phases. First, Visual Studio creates a single package containing all the roles for your cloud service. This package is what's deployed to Azure, which initializes one or more virtual machines for each role and deploy the source.
 
-As each virtual machine activates, it executes the `ConfigureCloudService.ps1` script and install any dependencies. This script by default installs a recent version of Python from [NuGet](https://www.nuget.org/packages?q=Tags%3A%22python%22+Authors%3A%22Python+Software+Foundation%22) and any packages specified in a `requirements.txt` file. 
+As each virtual machine activates, it executes the `ConfigureCloudService.ps1` script and install any dependencies. This script by default installs a recent version of Python from [NuGet](https://www.nuget.org/packages?q=Tags%3A%22python%22+Authors%3A%22Python+Software+Foundation%22) and any packages specified in a `requirements.txt` file.
 
 Finally, worker roles execute `LaunchWorker.ps1`, which starts running your Python script; web roles initialize IIS and begin handling web requests.
 
@@ -87,7 +88,7 @@ For Cloud Services, the `ConfigureCloudService.ps1` script uses `pip` to install
 
 Note that cloud service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
-pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages) for details on managing `requirements.txt` files.
+pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages-requirementstxt) for details on managing `requirements.txt` files.
 
 ## Troubleshooting
 
@@ -95,12 +96,12 @@ If your web or worker role does not behave correctly after deployment, check the
 
 - Your Python project includes a bin\ folder with (at least):
 
-    - `ConfigureCloudService.ps1`
-    - `LaunchWorker.ps1` (for worker roles)
-    - `ps.cmd`
+  - `ConfigureCloudService.ps1`
+  - `LaunchWorker.ps1` (for worker roles)
+  - `ps.cmd`
 
 - Your Python project includes a `requirements.txt` file listing all dependencies (or alternately, a collection of wheel files).
 - Enable Remote Desktop on your cloud service and investigate the log files.
-- Logs for `ConfigureCloudService.ps1` and `LaunchWorker.ps1` are stored in `C:\Resources\Directory\%RoleId%.DiagnosticStore\LogFiles` folder on the remote machine.
+- Logs for `ConfigureCloudService.ps1` and `LaunchWorker.ps1` are stored in `C:\Resources\Directory\%RoleId%.DiagnosticStore\LogFiles` folder on the remote computer.
 - Web roles may write additional logs to a path configured in `web.config`, namely the path in the `WSGI_LOG` appSetting. Most regular IIS or FastCGI logging also works.
 - Currently, the `LaunchWorker.ps1.log` file is the only way to view output or errors displayed by your Python worker role.
