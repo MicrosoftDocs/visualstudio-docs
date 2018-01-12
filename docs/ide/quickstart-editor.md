@@ -132,7 +132,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 ## Refactoring a name
 
-Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-in-visual-studio) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
 1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
 
@@ -158,5 +158,5 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 [Code snippets](../ide/code-snippets.md)  
 [Outlining](../ide/outlining.md)  
 [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Refactoring](../ide/refactoring-in-visual-studio)  
+[Refactoring](../ide/refactoring-in-visual-studio.md)  
 [Using IntelliSense](../ide/using-intellisense.md)

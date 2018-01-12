@@ -726,11 +726,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/ide/code-generation-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/ide/connected-environment.md",
             "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
             "redirect_document_id": false
@@ -913,11 +908,6 @@
         {
             "source_path": "docs/ide/refactoring-code-generation-quick-actions.md",
             "redirect_url": "/visualstudio/ide/quick-actions",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/ide/refactoring-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
             "redirect_document_id": false
         },
         {
