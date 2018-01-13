@@ -811,6 +811,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/how-to-create-starter-kits.md",
+            "redirect_url": "/visualstudio/ide/how-to-create-project-templates",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/how-to-create-types-by-using-class-designer.md",
             "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
             "redirect_document_id": false
