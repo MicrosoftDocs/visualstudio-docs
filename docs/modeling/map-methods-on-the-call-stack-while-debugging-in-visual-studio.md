@@ -29,11 +29,9 @@ helpviewer_keywords:
   - "Call Stack window, show on code map"
   - "debugging [Visual Studio], tracing the call stack visually"
   - "debugging [Visual Studio], visualizing the call stack"
-ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
-caps.latest.revision: 39
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

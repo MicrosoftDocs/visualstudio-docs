@@ -19,11 +19,9 @@ helpviewer_keywords:
   - "dependency graphs, customizing"
   - "graph documents, grouping nodes"
   - "dependency graphs, assigning categories and properties"
-ms.assetid: a2e141f4-4fd8-4611-b236-6b9e7bc54fc1
-caps.latest.revision: 93
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

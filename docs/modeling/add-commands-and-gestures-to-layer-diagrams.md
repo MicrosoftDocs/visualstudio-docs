@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"
-ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
-caps.latest.revision: 38
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "walkthroughs [text templates], custom host"
   - "text templates, custom host walkthrough"
-ms.assetid: d00bc366-65ed-4229-885a-196ef9625f05
-caps.latest.revision: 51
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

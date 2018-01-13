@@ -11,11 +11,9 @@ helpviewer_keywords:
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-ms.assetid: 2903bec7-a93b-46a6-aac6-994ac4f3f1a7
-caps.latest.revision: 55
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

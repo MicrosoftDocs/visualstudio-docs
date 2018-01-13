@@ -26,11 +26,9 @@ helpviewer_keywords:
   - "dependency graphs"
   - "graph documents, exporting"
   - "code exploration, visualizing"
-ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
-caps.latest.revision: 243
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

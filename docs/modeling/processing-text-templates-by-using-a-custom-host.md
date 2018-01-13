@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, in application or VS extension"
   - "text templates, custom directive hosts"
-ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
-caps.latest.revision: 33
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
