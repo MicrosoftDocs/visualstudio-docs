@@ -16,8 +16,63 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/csharp-ide/code-generation-csharp.md",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/csharp-ide/code-generation/index.md",
             "redirect_url": "/visualstudio/csharp-ide/code-generation-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-class-type.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-constructor.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-field-property-local.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-method.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-method-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-override.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-override-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-overrides.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-overrides-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/generate-xml-documentation-comments.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/implement-abstract-class.md",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/implement-interface.md",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/code-generation/introduce-local-variable.md",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-csharp",
             "redirect_document_id": false
         },
         {
@@ -36,13 +91,83 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/csharp-ide/how-to-add-an-application-configuration-file-to-a-csharp-project.md",
+            "redirect_url": "/visualstudio/ide/how-to-add-app-config-file",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/csharp-ide/index.md",
             "redirect_url": "/visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp",
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/csharp-ide/metadata-as-source.md",
+            "redirect_url": "/visualstudio/ide/go-to-and-peek-definition",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring-csharp.md",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/csharp-ide/refactoring/index.md",
             "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/change-method-signature.md",
+            "redirect_url": "/visualstudio/ide/reference/change-method-signature-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/convert-get-method-to-property.md",
+            "redirect_url": "/visualstudio/ide/reference/convert-get-method-to-property-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/encapsulate-field.md",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/extract-interface.md",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/extract-method.md",
+            "redirect_url": "/visualstudio/ide/reference/extract-method-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/inline-temporary-variable.md",
+            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/move-declaration-near-reference.md",
+            "redirect_url": "/visualstudio/ide/reference/move-declaration-near-reference-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/move-type-to-matching-file.md",
+            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/remove-unreachable-code.md",
+            "redirect_url": "/visualstudio/ide/reference/remove-unreachable-code-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/rename.md",
+            "redirect_url": "/visualstudio/ide/reference/rename-csharp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/refactoring/sync-type-and-file.md",
+            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file-csharp",
             "redirect_document_id": false
         },
         {
@@ -58,6 +183,11 @@
         {
             "source_path": "docs/csharp-ide/reorder-parameters-refactoring-csharp.md",
             "redirect_url": "/visualstudio/csharp-ide/refactoring/change-method-signature",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/csharp-ide/using-the-visual-studio-development-environment-for-csharp.md",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -596,11 +726,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/ide/code-generation-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/ide/connected-environment.md",
             "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
             "redirect_document_id": false
@@ -683,6 +808,11 @@
         {
             "source_path": "docs/ide/how-to-create-inheritance-between-types-class-designer.md",
             "redirect_url": "/visualstudio/ide/class-designer/how-to-create-inheritance-between-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-create-starter-kits.md",
+            "redirect_url": "/visualstudio/ide/how-to-create-project-templates",
             "redirect_document_id": false
         },
         {
@@ -781,8 +911,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/ide/refactoring-in-visual-studio.md",
-            "redirect_url": "/visualstudio/ide/refactoring-code-generation-quick-actions",
+            "source_path": "docs/ide/refactoring-code-generation-quick-actions.md",
+            "redirect_url": "/visualstudio/ide/quick-actions",
             "redirect_document_id": false
         },
         {
@@ -1321,13 +1451,108 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vb-ide/code-generation-vb.md",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb-ide/code-generation/index.md",
             "redirect_url": "/visualstudio/vb-ide/code-generation-vb",
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vb-ide/code-generation/generate-class-type.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/generate-constructor.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/generate-field-property-local.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/generate-method.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-method-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/generate-override.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-override-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/generate-xml-documentation-comments.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/implement-abstract-class.md",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/implement-interface.md",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/code-generation/introduce-local-variable.md",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-vb",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb-ide/index.md",
             "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring-vb.md",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/change-method-signature.md",
+            "redirect_url": "/visualstudio/ide/reference/change-method-signature-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/encapsulate-field.md",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/extract-interface.md",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/extract-method.md",
+            "redirect_url": "/visualstudio/ide/reference/extract-method-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/inline-temporary-variable.md",
+            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/move-type-to-matching-file.md",
+            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/rename.md",
+            "redirect_url": "/visualstudio/ide/reference/rename-vb",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb-ide/refactoring/sync-type-and-file.md",
+            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file-vb",
             "redirect_document_id": false
         },
         {
