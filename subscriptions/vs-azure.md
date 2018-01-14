@@ -40,9 +40,11 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit         |   Yes                                                        |
 *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)  
 
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
 ## Activation Steps
 
-1.  Sign in to https://my.visualstudio.com/benefits.
+1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2.  Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.   
 

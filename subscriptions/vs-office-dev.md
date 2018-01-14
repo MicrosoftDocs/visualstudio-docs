@@ -1,35 +1,60 @@
 ---
-title: Office 365 Developer Benefit
+title: The Office 365 Developer Benefit in Visual Studio Subscriptions
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
+Ms.date: 11/12/2018
 Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Power BI Pro subscription included in your Visual Studio subscription. 
+Description:  Learn about the Office 365 Developer benefit included in your Visual Studio subscription. 
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Visual Studio Subscriptions - The Office 365 Developer Subscription Benefit
+# The Office 365 Developer Subscription Benefit in Visual Studio Subscriptions
 
 ## Overview
 
-Subscribers with Visual Studio Enterprise standard or Visual Studio Enterprise Annual cloud subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows a subscriber to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
+Subscribers with selected Visual Studio Enterprise subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows you to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
 
-## Activating the Office 365 Developer Benefit in Visual Studio Subscriptions
+## Eligibility
+| Subscription Level / Program                                                  | Benefit               | Renewable?                                                         |
+|-------------------------------------------------------------------------------|-----------------------|--------------------------------------------------------------------|
+| Visual Studio Enterprise Standard                                             | Included              |  Yes                                                               |
+| Visual Studio Enterprise annual                                               | Included              |  Yes                                                               |
+| Visual Studio Enterprise monthly                                              | Not available         |                                                                    |
+| Visual Studio Professional Standard                                           | Not available         |                                                                    |
+| Visual Studio Professional annual                                             | Not available         |                                                                    | 
+| Visual Studio Professional monthly                                            | Not available         |                                                                    |
+| Visual Studio Test Pro                                                        | Not available         |                                                                    |
+| MSDN Platforms                                                                | Not available         |                                                                    |
+| Visual Studio Dev Essentials                                                  | Not available         |                                                                    |
+| Visual Studio Enterprise - NFR<sup>1</sup>                                               | Included              |  Yes                                                               |
+| Visual Studio Enterprise - FTE                                                | Included              |  Yes                                                               |
+| Visual Studio Enterprise - Microsoft Partner Network                          | Not available         |                                                                    |
+| Visual Studio Professional - Microsoft Partner Network                        | Not available         |                                                                    |
+| Visual Studio Enterprise – Imagine (Standard)                                 | Not available         |                                                                    |
+| Visual Studio Enterprise – Imagine (Premium)                                  | Not available         |                                                                    |
+| Visual Studio Enterprise – BizSpark                                           | Included              |  Yes                                                               |
+| Microsoft Certified Trainer - Software & Services                             | Included              |  Yes                                                               |
+| Microsoft Certified Trainer - Software & Services Developer                   | Included              |  Yes                                                               |
 
-1. Visit [https://my.visualstudio.com](https://my.visualstudio.com) to sign in to the subscriber portal.
+<sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+## Activation Steps
+
+1. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) to sign in to the subscriber portal.
 2. Depending on your account, you will either be redirected to your Organization’s sign-in page, or the Microsoft Account sign-in page.   In either case, please enter your username and password, and click **Next**.
 3. Once the sign-in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible. 
-4. Click on the **Get Code** link at the bottom of the benefit tile.   When the code has been  retrieved, click **Activate**. 
+4. Locate the Office 365 Developer Subscription tile in the Tools section.  Click on the **Get Code** link at the bottom of the benefit tile.   When the code has been retrieved, click **Activate**. 
 
     ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
 
 5.	The next step is to create an account.  Provide your contact information, and click **Next**. 
 
     ![Office 365 Dev Benefit Account](_img\vs-office-dev\vs-office-dev-account-cropped.png)
-
 
 
 6.	Provide the requested information about where you’ll be using the subscription and click **Next**.  The information is used to determine subscription availability and any applicable taxes.  
@@ -58,8 +83,10 @@ Subscribers with Visual Studio Enterprise standard or Visual Studio Enterprise A
 
     ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
 
+## FAQ
 
-## Setting up the Office 365 Developer subscription benefit
+### Q:  How do I set up my Office 365 Developer subscription once it's been activated?
+A:  Setting up the Office 365 Developer subscription benefit
 
 1. To set up your Office 365 Developer Subscription benefit, you can either start from the "Thanks for your order" page, or sign in to the Office portal by visiting [https://portal.office.com](https://portal.office.com) at a later time.  In this case, we’ve selected **Start Setup** after the confirmation page.
 
@@ -93,9 +120,8 @@ Note:  To sign in to https://portal.office.com, you will need to use your new Of
 7.	When the User Account Control dialog appears, click **Yes** to allow Office to install on your computer.  
 
 
-## Updating the number of users from the Office 365 Admin Portal
-
-In case you didn’t assign the required number of users during the redemption process and wish to increase this number at a later time, follow the steps below. 
+### Q: How do I update the number of users from the Office 365 Admin Portal?
+A:  In case you didn’t assign the required number of users during the redemption process and wish to increase this number at a later time, follow the steps below. 
 
 1. To increase users after the redemption process has been completed, you will need to visit [https://portal.office.com](https://portal.office.com) and sign in with the “User ID” created during the tenant creation steps.
 
@@ -114,3 +140,7 @@ In case you didn’t assign the required number of users during the redemption p
 Note:  Exceeding a value of 25 “Total users” will result in an error.
 
 
+## Support Resources
+-  Need help with your Office Developer subscription? Check out the [support](https://developer.microsoft.com/office/support) resources on the [Office Dev Center](https://developer.microsoft.com/office).
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

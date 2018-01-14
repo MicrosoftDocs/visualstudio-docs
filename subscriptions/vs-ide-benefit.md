@@ -15,7 +15,7 @@ Searchscope: VS Subscription
 
 ## Overview 
 
-As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits) page of the subscriber portal.  
+As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits) page of the subscriber portal.  
 
 ## Eligibility
 | Subscription Level / Program                                                  | Benefit                            | Renewable?                                |
@@ -41,7 +41,8 @@ As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The ve
 
 <sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
 
-Not sure which subscription you're using?  Connect to https://my.visualstudio.com/subscriptions to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
 (Visual Studio Enterprise will be used for this example.) 
 
 ## Activation Steps
@@ -49,8 +50,8 @@ Not sure which subscription you're using?  Connect to https://my.visualstudio.co
 *(Visual Studio Enterprise is used for this example.)*
 
 To download the IDE:
-1. Sign in to https://my.visualstudio.com/benefits. 
-2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads) page. 
+1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs). 
+2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page. 
 
     ![Visual Studio Enterprise tile](_img\vs-ide-experience\vs-ide-tile.png)
 
@@ -86,5 +87,5 @@ To download the IDE:
 ## Support Resources
 -  Need help with Visual Studio IDE, check out these resources:
     - Technical Support: https://www.visualstudio.com/support/ 
-    - Documentation: https://docs.microsoft.com/en-us/visualstudio/ 
+    - Documentation: https://docs.microsoft.com/visualstudio/ 
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
