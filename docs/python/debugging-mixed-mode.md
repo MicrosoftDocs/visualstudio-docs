@@ -22,7 +22,9 @@ ms.workload:
 
 Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Creating a C++ extension for Python](cpp-and-python.md) for a walkthrough.)
 
-Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, including:
+Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, provided that you select the **Python native development tools** option for the Python Development workload in the Visual Studio installer.
+
+Mixed-mode debugging features include the following, as explained in this article:
 
 - Combined call stacks
 - Step between Python and native code
@@ -39,7 +41,7 @@ For a video introduction to building, testing, and debugging native C modules wi
 > [!Note]
 > Mixed-mode debugging is not available with Python Tools for Visual Studio 1.x.
 
-## Enabling mixed-mode debugging in a Python project
+## Enable mixed-mode debugging in a Python project
 
 1. Right-click the Python project in Solution Explorer, select **Properties**, select the **Debug** tab, and then select **Enable native code debugging**. This option enables mixed-mode for all debugging sessions.
 
