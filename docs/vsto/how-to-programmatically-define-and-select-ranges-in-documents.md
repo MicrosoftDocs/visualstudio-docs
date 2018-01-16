@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "sentences, selecting in documents"
   - "ranges, selecting in documents"
   - "ranges, defining in documents"
-ms.assetid: 0727c1cb-d44c-4f1c-a699-4365dd13be5d
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

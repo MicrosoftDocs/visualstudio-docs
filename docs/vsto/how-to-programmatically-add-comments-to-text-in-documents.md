@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "comments, adding to documents"
   - "documents [Office development in Visual Studio], adding comments"
-ms.assetid: 4e396e31-01bf-424c-be6b-9a1806bcd572
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

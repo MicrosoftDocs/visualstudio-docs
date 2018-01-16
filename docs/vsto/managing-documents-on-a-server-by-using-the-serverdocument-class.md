@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managing on server"
   - "Office documents [Office development in Visual Studio, managing on server"
   - "ServerDocument class, managing documents on server"
-ms.assetid: 1ac90e89-d07d-4874-9d24-6741d6679a21
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

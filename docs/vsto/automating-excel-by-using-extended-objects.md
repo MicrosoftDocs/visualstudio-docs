@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "automating Excel"
   - "host items [Office development in Visual Studio], Excel"
   - "controls [Office development in Visual Studio], Excel host controls"
-ms.assetid: 3ed99480-234d-46b1-b91c-226018bd3faf
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

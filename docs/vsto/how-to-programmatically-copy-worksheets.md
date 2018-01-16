@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "worksheets, copying"
   - "Excel [Office development in Visual Studio], copying worksheets"
-ms.assetid: e49e03f5-7b2f-416b-b5fe-0965336c47e1
-caps.latest.revision: 31
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

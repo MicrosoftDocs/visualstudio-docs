@@ -4,16 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
-caps.latest.revision: 14
 ms.author: "mblome"
-manager: "ghogen"
+manager: ghogen
 ms.workload: 
   - "cplusplus"
+author: mikeblome
 ---
 # Write unit tests for C/C++ in Visual Studio
 You can write and run your C++ unit tests by using  the **Test Explorer** window, just like for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md). 

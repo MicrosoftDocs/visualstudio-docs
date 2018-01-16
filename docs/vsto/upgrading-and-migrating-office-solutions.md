@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "upgrading applications [Office development in Visual Studio]"
   - "upgrading Office solutions in Visual Studio"
   - "migrating Office solutions in Visual Studio"
-ms.assetid: cc60cdcb-593d-498a-8358-f1f3ac673fe1
-caps.latest.revision: 105
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

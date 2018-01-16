@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "worksheets, changing formatting using managed controls"
   - "worksheets, check box controls"
   - "controls [Office development in Visual Studio], adding to worksheets"
-ms.assetid: 4be79613-50a0-428e-9816-aadbc098272a
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, architecture"
   - "architecture [Office development in Visual Studio], solutions"
   - "Office applications [Office development in Visual Studio], architecture"
-ms.assetid: d4692986-e5ea-4a2d-985a-3b31e41376da
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

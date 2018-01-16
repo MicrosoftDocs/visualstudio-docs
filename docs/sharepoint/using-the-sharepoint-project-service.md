@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint project service"
   - "SharePoint development in Visual Studio, extensibility features"
-ms.assetid: bfb6cbc7-6c28-4e1a-abb4-88f149e7712c
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

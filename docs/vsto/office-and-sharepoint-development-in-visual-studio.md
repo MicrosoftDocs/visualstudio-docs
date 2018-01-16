@@ -22,10 +22,8 @@ helpviewer_keywords:
   - "programming [Office development in Visual Studio]"
   - "VSTO, see Office development in Visual Studio"
   - "Office, development with Visual Studio"
-ms.assetid: 2ddec047-263a-4901-a54c-a15fc8472329
-caps.latest.revision: 88
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

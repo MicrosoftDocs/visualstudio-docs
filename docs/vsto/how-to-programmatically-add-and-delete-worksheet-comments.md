@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "ranges, comments"
   - "worksheets, comments"
   - "comments, worksheets"
-ms.assetid: 3408ce22-a7b7-4e2b-bfc1-dc24d679ee73
-caps.latest.revision: 53
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

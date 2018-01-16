@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating your first project"
   - "Word [Office development in Visual Studio], creating your first project"
   - "document-level customizations [Office development in Visual Studio], creating your first project"
-ms.assetid: ec9f5173-0923-4aee-985a-e760e80eaae3
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

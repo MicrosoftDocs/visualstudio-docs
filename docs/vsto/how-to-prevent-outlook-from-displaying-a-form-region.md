@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], canceling display"
   - "canceling form region display"
-ms.assetid: 82a25def-776a-476a-a72d-d0a48a827d3c
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

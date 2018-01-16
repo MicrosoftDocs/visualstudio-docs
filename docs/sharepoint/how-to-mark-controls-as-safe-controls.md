@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, safe controls"
   - "SharePoint development in Visual Studio, advanced packaging tools"
   - "safe controls [SharePoint development in Visual Studio]"
-ms.assetid: 813727d5-6750-407c-a23e-c38dd611e78c
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

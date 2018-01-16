@@ -13,10 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office development in Visual Studio, installing tools"
-ms.assetid: 0b481186-fd31-43bf-aa4a-591f94309555
-caps.latest.revision: 97
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "custom calendars [Office development in Visual Studio]"
   - "calendars [Office development in Visual Studio], custom"
   - "appointments [Office development in Visual Studio]"
-ms.assetid: 8272b53f-4cf0-46ee-b80e-93aa680cd9f5
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

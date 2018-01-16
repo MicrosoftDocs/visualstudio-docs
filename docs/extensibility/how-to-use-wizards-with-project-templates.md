@@ -195,6 +195,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
             private void button1_Click(object sender, EventArgs e)  
             {  
                 customMessage = textBox1.Text;  
+                this.Close();
             }  
         }  
     ```  
@@ -228,13 +229,13 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 10. Extract the public key from the key.snk file. In the command window, type  
   
-     **\<location of sn.exe>\sn.exe - p key.snk outfile.key.**  
+     **\<location of sn.exe>\sn.exe -p key.snk outfile.key.**  
   
      Don't forget to surround the path of sn.exe with quotation marks if there are spaces in the directory names!  
   
 11. Get the public key token from the outfile:  
   
-     **\<location of sn.exe>\sn.exe - t outfile.key.**  
+     **\<location of sn.exe>\sn.exe -t outfile.key.**  
   
      Again, don't forget the quotation marks. You should see a line in the output like this  
   

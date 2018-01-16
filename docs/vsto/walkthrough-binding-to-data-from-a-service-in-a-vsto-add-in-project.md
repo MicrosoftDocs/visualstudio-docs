@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "databases [Office development in Visual Studio], scrolling records"
   - "records [Office development in Visual Studio], scrolling"
   - "data [Office development in Visual Studio], scrolling database records"
-ms.assetid: 9b008be4-06a3-4ffc-9f02-79dd6cfe00ab
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

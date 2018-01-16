@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "filling ranges automatically"
   - "ranges, automatically filling"
   - "workbooks, filling ranges"
-ms.assetid: 27639d55-8ab5-483c-8907-2ea50dfd2188
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

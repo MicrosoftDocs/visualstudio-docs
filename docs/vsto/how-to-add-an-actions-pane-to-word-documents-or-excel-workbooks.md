@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], adding controls"
   - "actions panes [Office development in Visual Studio], creating in Word"
   - "actions panes [Office development in Visual Studio], adding controls"
-ms.assetid: cea3c2b6-9364-4134-b812-50888ad8bd76
-caps.latest.revision: 63
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Web Parts [SharePoint development in Visual Studio], adding"
   - "Web Parts [SharePoint development in Visual Studio], creating"
-ms.assetid: 0d037522-c25e-4c24-93b7-518db0f791b7
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

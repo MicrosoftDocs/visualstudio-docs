@@ -5,13 +5,13 @@ ms.date: "12/14/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-acquisition"
+  - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 5
-author: "TerryGLee"
-ms.author: "tglee"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
   - "multiple"

@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "packaging [SharePoint development in Visual Studio]"
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, packaging and deploying"
-ms.assetid: 39072fa7-9f94-49c0-9a67-cbcce0147e61
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

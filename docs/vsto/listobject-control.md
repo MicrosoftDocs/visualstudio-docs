@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "ListObject control, events"
   - "ListObject control, data binding"
   - "ListObject control, improving performance when bound to data"
-ms.assetid: 2bdecbf0-2a0f-48de-a544-dca12bb4a9a3
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

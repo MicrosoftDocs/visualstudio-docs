@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "customizing the Ribbon, about customizing the Ribbon"
   - "custom Ribbon, about customizing the Ribbon"
   - "Ribbon [Office development in Visual Studio], Outlook"
-ms.assetid: 11d10e72-806d-4d5e-b080-139bd8633eaa
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

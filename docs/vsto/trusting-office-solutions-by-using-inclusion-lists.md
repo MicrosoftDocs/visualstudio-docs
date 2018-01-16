@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio], about inclusion lists"
   - "security [Office development in Visual Studio], inclusion lists"
   - "inclusion lists [Office development in Visual Studio]"
-ms.assetid: 6dae0128-435b-4fa1-aed9-73e728fdcacf
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

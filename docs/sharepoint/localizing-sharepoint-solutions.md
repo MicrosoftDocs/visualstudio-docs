@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "globalizing [SharePoint development in Visual Studio]"
   - "localizing [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, localizing"
-ms.assetid: 0d4cfa2b-8b48-45c7-bbee-ece9b0baffaf
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

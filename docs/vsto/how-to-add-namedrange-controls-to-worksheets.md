@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "ranges, adding to worksheets"
   - "NamedRange control, adding to worksheets"
   - "controls [Office development in Visual Studio], adding to worksheets"
-ms.assetid: da7ec48f-92cb-4fa3-b3e2-447c238d17a8
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

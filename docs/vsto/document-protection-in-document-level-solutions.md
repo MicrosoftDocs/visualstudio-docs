@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "workbooks [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio], restricted permissions"
   - "documents [Office development in Visual Studio], restricted permissions"
-ms.assetid: a25472ad-03f0-4804-9d19-e5ff71340d49
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], searching"
   - "contacts [Office development in Visual Studio], searching"
   - "searching contacts"
-ms.assetid: e973a407-8b94-45c7-acdf-fe330115fb33
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

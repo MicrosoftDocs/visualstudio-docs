@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "SharePoint commands"
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
-ms.assetid: 5b1f104a-0eaf-4929-9f1f-d7afcfc8b707
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

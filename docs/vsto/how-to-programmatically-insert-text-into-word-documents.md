@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "ranges, replacing text in documents"
   - "documents [Office development in Visual Studio], inserting text"
   - "text [Office development in Visual Studio], replacing"
-ms.assetid: 405d7442-8ba3-4fcc-b17e-7b289ffd3967
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

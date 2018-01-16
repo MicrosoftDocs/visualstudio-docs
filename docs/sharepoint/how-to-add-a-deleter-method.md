@@ -22,10 +22,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], deleting entity instances"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], deleting data"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], removing data"
-ms.assetid: 3362eaf4-5dc7-4450-9009-b296308ae61f
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

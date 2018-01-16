@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], resetting ranges"
   - "ranges, resetting in documents"
-ms.assetid: 45ea9434-e548-4d24-938f-4f1ffa5010d0
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

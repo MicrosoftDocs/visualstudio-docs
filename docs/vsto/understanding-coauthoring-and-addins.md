@@ -13,9 +13,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "coauthoring, in Excel"
-ms.assetid: a9479a52-54e5-421c-9a89-69607153bf6b
-author: "ghogen"
-ms.author: "ghogen"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

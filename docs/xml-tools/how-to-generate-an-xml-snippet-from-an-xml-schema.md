@@ -135,7 +135,7 @@ Default values are generated and noted as editable values. If the schema specifi
     </xs:complexType>  
   </xs:element>  
 </xs:schema>  
-```  
+```
   
 ### Output  
  Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.  
@@ -149,7 +149,7 @@ Default values are generated and noted as editable values. If the schema specifi
     <Type>Voice</Type>  
   </Phone>  
 </Contact>  
-```  
+```
   
 ## See Also  
  [XML Snippets](../xml-tools/xml-snippets.md)   
