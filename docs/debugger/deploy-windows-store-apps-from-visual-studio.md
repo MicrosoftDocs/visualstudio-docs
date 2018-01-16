@@ -1,7 +1,7 @@
 ---
 title: "Deploy UWP apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/16/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,7 +13,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -114,5 +113,6 @@ Deployment uses the remote debugger network channel to send the app files to the
 -   On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
   
 ## See Also  
- [Debug an installed app package](../debugger/debug-installed-app-package.md).   
+ [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)  
+ [Debug an installed app package](../debugger/debug-installed-app-package.md)   
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)

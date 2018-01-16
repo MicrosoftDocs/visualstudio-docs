@@ -28,12 +28,13 @@ f1_keywords:
   - "VC.Project.IVCAppHostRemoteDebugPageObject.Authentication"
   - "VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType"
   - "VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior"
+  - "vs.debug.installedapppackagelauncher"
+  - "vs.debug.error.wwahost_scriptdebuggingdisabled"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 66ec0e79-8261-4c19-a618-3fd1b3f71bbd
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -116,7 +117,7 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
   
 -   For Visual C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** on the **Debug** property page.  
   
--   For Visual C++ and JavaScript apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.  
+-   For Visual C++ and JavaScript apps, choose **No** from the **Launch Application** list on the **Debugging** property page.  
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks  
   
@@ -166,7 +167,7 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
   
  The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
+ For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
 When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the **Debug Installed App Package** dialog box. This procedure is useful when you need to debug an app that was installed from Microsoft Store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  

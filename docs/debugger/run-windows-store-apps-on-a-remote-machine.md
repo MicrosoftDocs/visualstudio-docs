@@ -102,8 +102,9 @@ If you are using Windows 8.1 or a pre-Creator's Update versions of Windows 10, t
 ##  <a name="BKMK_RunRemoteDebug"></a> Start a remote debugging session  
  You start, stop, and navigate a remote debug session the same way you do a local session. On pre-Creator's Update versions of Windows 10, make sure the Remote Debugging Monitor is running on the remote device.  
   
- Then choose **Start Debugging** on the **Debug** menu (Keyboard: F5). The project is recompiled, then deployed to and started on the remote device. The debugger suspends execution at breakpoints, and you can step into, over, and out of your code. Choose **Stop Debugging** to end your debug session and close the remote app. For more information, see [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
+ Then choose **Start Debugging** on the **Debug** menu (Keyboard: F5). The project is recompiled, then deployed to and started on the remote device. The debugger suspends execution at breakpoints, and you can step into, over, and out of your code. Choose **Stop Debugging** to end your debug session and close the remote app.
   
 ## See Also  
+ [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
  [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)
