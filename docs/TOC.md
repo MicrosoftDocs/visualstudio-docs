@@ -54,7 +54,7 @@
 ## [Visual Basic: Create a Console App](ide/quickstart-visual-basic-console.md)
 # Tutorials
 ## [C++ in Visual Studio...](/cpp/build/vscpp-step-0-installation)
-## [Python in Visual Studio...](python/vs-tutorial-01-01.md)
+## [Python in Visual Studio...](python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 ## [R in Visual Studio...](rtvs/getting-started-with-r.md)
 ## [Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
 ## [C# in Visual Studio](ide/tutorial-csharp-aspnet-core.md)
