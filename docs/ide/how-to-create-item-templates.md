@@ -59,8 +59,6 @@ The wizard does much of the work to create a basic template, but in many cases y
    <TemplateID>Microsoft.CSharp.Class</TemplateID>
    ```
 
-   For Windows 8.1 C# projects, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`. For Windows 8.1 C++  projects, use a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID element (Extensibility)](../extensibility/templategroupid-element-visual-studio-templates.md). For the complete .vstemplate reference, see [Template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md).
-
 1. In Visual Studio, save the .vstemplate file and close it.
 
 1. Copy and paste the .vstemplate file back to the .zip file.

@@ -11,11 +11,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.imageshape"
 helpviewer_keywords: 
   - "Domain-Specific Language, image shape"
-ms.assetid: 9ce00ccd-07f2-4640-ac96-2a60481d0d72
-caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

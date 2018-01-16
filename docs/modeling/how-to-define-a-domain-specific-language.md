@@ -15,11 +15,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, external types"
   - "Domain-Specific Language, relationships"
   - "Domain-Specific Language, domain properties"
-ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
-caps.latest.revision: 43
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
