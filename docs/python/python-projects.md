@@ -78,7 +78,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ extension for Python](cpp-and-python.md). |
 
 > [!Note]
-> Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [question and answers](python-in-visual-studio.md#questions-and-answers).
+> Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [questions and answers](python-in-visual-studio.md#questions-and-answers).
 
 <a name="create-project-from-existing-files"</a>
 

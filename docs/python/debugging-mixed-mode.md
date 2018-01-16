@@ -1,7 +1,7 @@
 ---
 title: Mixed-mode debugging for Python in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 07/12/2017
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,23 +20,26 @@ ms.workload:
 
 # Debugging Python and C++ together
 
-Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Creating a C++ extension for Python](cpp-and-python.md) for an example.) When a Python project is loaded, Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, including:
+Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Creating a C++ extension for Python](cpp-and-python.md) for a walkthrough.)
+
+Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, including:
 
 - Combined call stacks
 - Step between Python and native code
 - Breakpoints in both types of code
 - See Python representations of objects in native frames and vice versa
+- Debugging within the context of the Python project or the C++ project
 
-![Mixed-mode debugging](media/mixed-mode-debugging.png) 
+![Mixed-mode debugging](media/mixed-mode-debugging.png)
 
-For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s). The video is applicable to both Visual Studio 2015 and 2017.
+For a video introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Creating Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m9s). The video is applicable to both Visual Studio 2015 and 2017.
 
 > [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
 
 > [!Note]
 > Mixed-mode debugging is not available with Python Tools for Visual Studio 1.x.
 
-## Enabling mixed-mode debugging
+## Enabling mixed-mode debugging in a Python project
 
 1. Right-click the Python project in Solution Explorer, select **Properties**, select the **Debug** tab, and then select **Enable native code debugging**. This option enables mixed-mode for all debugging sessions.
 
@@ -45,7 +48,7 @@ For an introduction to building, testing, and debugging native C modules with Vi
     > [!Tip]
     > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual "Press any key to continue..." pause. To force a pause, add the `-i` option to the **Run > Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This argument puts the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press Ctrl+Z, Enter to exit.
 
-1. When attaching the mixed-mode debugger to an existing process (**Debug > Attach to Process...**), select the **Select...** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select both **Native** and **Python** in the list:
+1. When attaching the mixed-mode debugger to an existing process (**Debug > Attach to Process...**), use the **Select...** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select both **Native** and **Python** in the list:
 
     ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
 
@@ -55,20 +58,29 @@ For an introduction to building, testing, and debugging native C modules with Vi
 
 1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio 2017 installer.
 
-1. You may also want to have the source code for Python itself on hand. For standard Python, visit [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/), download the archive appropriate for your version, and extract it to a folder. You then point Visual Studio to specific files in that folder at whatever point it prompts you.
+1. You make the source code for standard Python itself available when debugging, visit [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/), download the archive appropriate for your version, and extract it to a folder. You then point Visual Studio to specific files in that folder at whatever point it prompts you.
 
-### Enable mixed-mode debugging in a C++ project
+## Enable mixed-mode debugging in a C/C++ project
 
-Mixed-mode debugging as described in this article is enabled only when you have a Python project loaded into Visual Studio. That project determines the Visual Studio's debugging mode, which is what makes the mixed-mode option available.
+Visual Studio 2017 (version 15.5 and higher) supports mixed-mode debugging from a C/C++ project (for example, when when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch the "Python/Native Debugger":
 
-If, however, you have a C++ project loaded (as you would when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html), then Visual Studio uses the native C++ debugger that doesn't support mixed-mode debugging. However, you can attach the debugger separately:
+1. Right-click the C/C++ project in Solution Explorer and select **Properties**
+1. Select the **Debugging** tab, select "Python/Native Debugger" from the **Debugger to launch**, and select **OK**.
+
+    ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
+
+Using this method, be aware that you can't debug the `py.exe` launcher itself, because it spawns a child `python.exe` process that the debugger won't be attached to. If you want to launch `python.exe` directly with arguments, change the **Command** option in the Python/Native Debugging properties (shown in the previous image) to specify the full path to `python.exe`, then specify arguments in **Command Arguments**.
+
+### Attaching the mixed-mode debugger
+
+For all previous versions of Visual Studio, direct mixed-mode debugging is enabled only when launching a Python project in Visual Studio because C/C++ projects use only the native debugger. You can, however, attach the debugger separately:
 
 1. Start the C++ project without debugging (**Debug > Start without debugging** or Ctrl+F5).
 1. Select **Debug > Attach to Process...**. In the dialog that appears, select the appropriate process, then use the **Select...** button to open the **Select Code Type** dialog in which you can select Python:
 
     ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
 
-1. Select **OK** to close that dialog, then **Attach** to start the debugger. 
+1. Select **OK** to close that dialog, then **Attach** to start the debugger.
 1. You may need to introduce a suitable pause or delay in the C++ app to ensure that it doesn't call the Python code you want to debug before you have a chance to attach the debugger.
 
 ## Mixed-mode specific features
