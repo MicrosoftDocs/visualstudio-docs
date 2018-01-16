@@ -1614,6 +1614,11 @@
             "source_path": "scripting-docs/winscript/reference/index.md",
             "redirect_url": "/script/winscript/windows-script-interfaces-reference",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/index.md",
+            "redirect_url": "/scripting/index",
+            "redirect_document_id": false
         }
     ]
 }
