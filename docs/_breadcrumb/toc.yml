@@ -12,9 +12,6 @@
     - name: Cross Platform
       tocHref: /visualstudio/cross-platform/
       topicHref: /visualstudio/cross-platform/index
-    - name: C# IDE
-      tocHref: /visualstudio/csharp-ide/
-      topicHref: /visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
     - name: Data Tools
       tocHref: /visualstudio/data-tools/ 
       topicHref: /visualstudio/data-tools/index
@@ -82,9 +79,6 @@
     - name: Testing
       tocHref: /visualstudio/test/
       topicHref: /visualstudio/test/improve-code-quality
-    - name: Visual Basic IDE
-      tocHref: /visualstudio/vb-ide/
-      topicHref: /visualstudio/vb-ide/refactoring-vb
     - name: Workflow Designer
       tocHref: /visualstudio/workflow-designer/
       topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
