@@ -84,6 +84,13 @@
 #### [Target a Specific .NET Framework Version](ide/targeting-a-specific-dotnet-framework-version.md)
 ##### [Multi-Targeting Overview](ide/visual-studio-multi-targeting-overview.md)
 ##### [Target a Version of the .NET Framework](ide/how-to-target-a-version-of-the-dotnet-framework.md)
+#### Create Project and Item Templates
+##### [Create Project Templates](ide/how-to-create-project-templates.md)
+##### [Create Multi-Project Templates](ide/how-to-create-multi-project-templates.md)
+##### [Create Item Templates](ide/how-to-create-item-templates.md)
+##### [Create Multi-file Item Templates](ide/how-to-create-multi-file-item-templates.md)
+##### [Create Web Templates](ide/how-to-manually-create-web-templates.md)
+##### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
 #### [Visual Studio IDE 64-Bit Support](ide/visual-studio-ide-64-bit-support.md)
 ### [Develop without Projects or Solutions ("Open Folder")](ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 ### [Write Code in the Editor](ide/writing-code-in-the-code-and-text-editor.md)
@@ -95,7 +102,7 @@
 #### [Encodings and Line Breaks](ide/encodings-and-line-breaks.md)
 ##### [Save and Open Files with Encoding](ide/how-to-save-and-open-files-with-encoding.md)
 #### [Outlining](ide/outlining.md)
-#### [Generate Code Automatically](ide/code-generation-in-visual-studio.md)
+#### [Generate and Fix Code](ide/code-generation-in-visual-studio.md)
 ##### [Code Snippets](ide/code-snippets.md)
 ###### Use Code Snippets
 ####### [Visual C# Code Snippets](ide/visual-csharp-code-snippets.md)
@@ -305,15 +312,9 @@
 ### [Customize Project and Item Templates](ide/customizing-project-and-item-templates.md)
 #### [Update Existing Templates](ide/how-to-update-existing-templates.md)
 #### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
-### Create New Project and Item Templates
-#### [Create Project Templates](ide/how-to-create-project-templates.md)
-#### [Create Multi-Project Templates](ide/how-to-create-multi-project-templates.md)
-#### [Create Item Templates](ide/how-to-create-item-templates.md)
-#### [Create Multi-file Item Templates](ide/how-to-create-multi-file-item-templates.md)
-#### [Create Web Templates](ide/how-to-manually-create-web-templates.md)
+### Project and Item Templates
 ### [Template Parameters](ide/template-parameters.md)
-### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md)
-### [Troubleshoot Templates](ide/how-to-troubleshoot-templates.md)
+### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?toc=/visualstudio/toc.json)
 ## General User Interface Elements
 ### [Call Hierarchy](ide/reference/call-hierarchy.md)
 ### [Preview Changes](ide/preview-changes.md)
