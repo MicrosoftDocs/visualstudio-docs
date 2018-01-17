@@ -11,10 +11,7 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.DomExplorer"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - "JavaScript"
 helpviewer_keywords: 
   - "debugging, CSS"
   - "debugging, HTML"
@@ -29,7 +26,6 @@ ms.workload:
   - "uwp"
 ---
 # Debug HTML and CSS in UWP and Windows 8.1 Apps
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone apps, and for apps created using Visual Studio Tools for Apache Cordova.  
   

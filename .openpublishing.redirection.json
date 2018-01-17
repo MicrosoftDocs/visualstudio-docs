@@ -292,6 +292,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/run-windows-phone-apps-in-the-emulator.md",
+            "redirect_url": "http://msdn.microsoft.com/en-US/library/dn632391(VS.140).aspx",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/index.md",
             "redirect_url": "/scripting/index",
             "redirect_document_id": false

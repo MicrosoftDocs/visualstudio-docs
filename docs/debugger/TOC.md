@@ -7,13 +7,14 @@
 ## [Debug an ASP.NET app](quickstart-debug-aspnet.md)
 # Tutorials
 ## [Learn to debug using Visual Studio](getting-started-with-the-debugger.md)
+## [Debug ASP.NET on IIS Express or IIS](how-to-enable-debugging-for-aspnet-applications.md)
+## [Running Python code in the debugger...](../python/vs-tutorial-01-04.md)
 ## [Debug a live Azure app](debug-live-azure-applications.md)
-## [Debug ASP.NET on IIS or IIS Express](how-to-enable-debugging-for-aspnet-applications.md)
-## [Remote debug a C# project](remote-debugging-csharp.md)
-## [Remote debug a C++ project](remote-debugging-cpp.md)
 ## [Remote debug ASP.NET Core on an IIS computer](remote-debugging-aspnet-on-a-remote-iis-computer.md)
 ## [Remote debug ASP.NET on an IIS computer](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 ## [Remote debug ASP.NET on Azure](remote-debugging-azure.md)
+## [Remote debug a C# or Visual Basic project](remote-debugging-csharp.md)
+## [Remote debug a C++ project](remote-debugging-cpp.md)
 # How-to guides
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)
