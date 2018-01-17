@@ -71,10 +71,10 @@ Choose one of these options:
 |||  
 |-|-|  
 |**Local Machine**|Debug the app in the current session on your local machine.|  
-|**Simulator**|Debug the app in the Visual Studio simulator for UWP and [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+|**Simulator**|Debug the app in the Visual Studio simulator for UWP apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that may not be available on the local machine. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
 |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Remote Tools for Visual Studio must be installed and running on the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
 |**Device**|Debug the app on a USB-connected device. The device must be developer unlocked and have the screen unlocked.|  
-|**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines running Windows 8.1 or later versions.|  
+|**Mobile Emulator**|Boot an emulator with the configuration specified in the emulator name, deploy the app, and start debugging. Emulators are only available on Hyper-V enabled machines.|  
 
 ##  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Choose additional debugging options  
 
@@ -175,9 +175,6 @@ When you start debugging by using F5, Visual Studio builds and deploys the app, 
 The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 To start an installed app in the debugger, choose **Debug**, then **Other debug targets**, and then **Debug Installed App Package**. For additional instructions, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
-
-> [!NOTE]
-> For Windows 8.1, choose **Debug**, and then choose **Debug Installed App Package**.
 
 ###  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> Attach the debugger to a running UWP app  
 

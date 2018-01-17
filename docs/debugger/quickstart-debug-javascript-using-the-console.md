@@ -1,5 +1,5 @@
 ---
-title: "QuickStart: Debug JavaScript using the console | Microsoft Docs"
+title: "Debug JavaScript using the console | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -11,15 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.JavaScriptConsole"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - "JavaScript"
 helpviewer_keywords: 
   - "JavaScript Console"
   - "JavaScript debugging"
   - "debugging, JavaScript"
-ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -27,10 +23,9 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# QuickStart: Debug JavaScript using the console
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Debug JavaScript using the console in Visual Studio
   
- You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+ You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
  The JavaScript Console window allows you to:  
   

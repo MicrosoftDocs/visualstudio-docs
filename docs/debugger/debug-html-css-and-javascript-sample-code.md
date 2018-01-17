@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML, CSS, and JavaScript sample code | Microsoft Docs"
+title: "Debug HTML and CSS sample code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -21,8 +21,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Debug HTML, CSS, and JavaScript sample code
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Debug HTML and CSS sample code
   
  The code in this topic is the sample file for [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md). The errors present by design in the QuickStart are fixed in this version of the code.  
   

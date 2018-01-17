@@ -21,7 +21,6 @@ ms.workload:
   - "uwp"
 ---
 # Deploy UWP apps from Visual Studio
-![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
   
  The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
   
@@ -55,7 +54,7 @@ ms.workload:
 On a Windows 10 remote device, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). On Windows 10 devices running Creator's Update or later, the remote tools are automatically installed when you deploy your app. For more information, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
 
 > [!NOTE]
-> On Windows 8.1 and pre-Creator's Update versions of Windows 10, the Remote Tools for Visual Studio must be installed on the remote device, and the remote debugger must be running. On Windows 8.1, you must also install a developer license.
+> On pre-Creator's Update versions of Windows 10, the Remote Tools for Visual Studio must be installed on the remote device, and the remote debugger must be running.
   
 Deployment uses the remote debugger network channel to send the app files to the remote device.  
   

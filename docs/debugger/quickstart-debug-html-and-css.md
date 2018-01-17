@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML and CSS (UWP and Windows 8.1 Apps) | Microsoft Docs"
+title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.reviewer: ""
@@ -17,7 +17,6 @@ helpviewer_keywords:
   - "debugging, HTML"
   - "debugging, JavaScript [UWP apps]"
   - "DOM Explorer [UWP apps]"
-ms.assetid: 6d156cff-36c6-425a-acf8-e1f02d4f7869
 caps.latest.revision: 101
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -25,9 +24,9 @@ manager: ghogen
 ms.workload: 
   - "uwp"
 ---
-# Debug HTML and CSS in UWP and Windows 8.1 Apps
+# Debug HTML and CSS in UWP apps in Visual Studio
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone apps, and for apps created using Visual Studio Tools for Apache Cordova.  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for UWP apps and for apps created using Visual Studio Tools for Apache Cordova.  
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
   
