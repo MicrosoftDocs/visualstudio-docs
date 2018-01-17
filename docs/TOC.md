@@ -314,7 +314,7 @@
 #### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
 ### Project and Item Templates
 ### [Template Parameters](ide/template-parameters.md)
-### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?toc=/visualstudio/toc.json)
+### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default)
 ## General User Interface Elements
 ### [Call Hierarchy](ide/reference/call-hierarchy.md)
 ### [Preview Changes](ide/preview-changes.md)
