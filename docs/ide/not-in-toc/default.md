@@ -8,6 +8,7 @@ ms.topic: "article"
 robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"
+ - "vs.ambient"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
