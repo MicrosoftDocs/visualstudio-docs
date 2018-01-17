@@ -257,16 +257,7 @@ ms.workload:
   
  ![Target selection in the JavaScript console window](../debugger/media/js_console_target.png "JS_Console_Target")  
   
- You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.  
-  
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
- The JavaScript Console window is supported on the following platforms:  
-  
--   UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], and Windows Phone apps using JavaScript and HTML  
-  
--   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
-  
--   Internet Explorer 10 running on [!INCLUDE[win8](../debugger/includes/win8_md.md)]  
+ You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.   
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

@@ -60,11 +60,11 @@ ms.workload:
   
 1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Store**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
+2.  Choose **JavaScript** > **Windows Universal**, and then choose **WinJS App**.  
   
 3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of default.html, add this code:  
+4.  In the BODY element of index.html, add this code:  
   
     ```html  
     <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
@@ -141,19 +141,19 @@ ms.workload:
     })();  
     ```  
   
-     The following illustration shows what we want to see if we run this app in the Phone Emulator (it looks similar in the Simulator). However, to get the app into this state we will have to fix a number of bugs first.  
+     The following illustration shows what we want to see if we run this app in the Windows Mobile 10 Emulator (it looks similar in other targets). However, to get the app into this state we will have to fix a number of bugs first.  
   
      ![FlipView app showing expected results](../debugger/media/js_dom_appfixed.png "JS_DOM_AppFixed")  
   
-7.  Choose either **Simulator** or **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
+7.  Choose **Local Machine** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
   
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
 8.  Choose **Debug** > **Start Debugging**, or press F5, to run your app in debug mode.  
   
-     This runs the app in the Simulator or the Phone Emulator, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
+     This runs the app, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
   
-9. If you're running the app in the Simulator, choose the **Change resolution** toolbar command on the right of the Simulator to configure a screen resolution of 1280 x 800. This will ensure that values shown in the following steps match what you see in the Simulator.  
+9. If you're running the app in the Simulator instead of the local machine, choose the **Change resolution** toolbar command on the right of the Simulator to configure a screen resolution of 1280 x 800. This will ensure that values shown in the following steps match what you see in the Simulator.  
   
 10. Switch to Visual Studio and choose the **DOM Explorer** tab.  
   
@@ -202,13 +202,11 @@ ms.workload:
   
 20. To investigate, switch to Visual Studio and choose the **Layout** tab to look at the element's box model.  
   
-     In the **Layout** tab, you'll see the following values:  
+     In the **Layout** tab, you'll see values similar to the following:  
   
     -   For the Simulator: 320px (Offset) and 320px (Margin).  
   
-    -   For the Phone Emulator: 100px (Offset) and 100px (Margin).  
-  
-     The following illustration shows how the **Layout** tab looks if you're using the Phone Emulator (100px offset and margin).  
+     The following illustration shows how the **Layout** tab looks if you're using the Windows Mobile 10 Emulator (100px offset and margin).  
   
      ![DOM Explorer Layout tab](../debugger/media/js_dom_explorer_layout.png "JS_DOM_Explorer_Layout")  
   
@@ -258,24 +256,8 @@ ms.workload:
 > [!NOTE]
 >  Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
   
- For an example that demonstrates how to select elements by using the **Select element** button, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
-  
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
- The DOM Explorer and the JavaScript Console window are supported on the following platforms:  
-  
--   UWP apps, [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
-  
--   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
-  
--   Internet Explorer 10 running on [!INCLUDE[win8](../debugger/includes/win8_md.md)]  
-  
- Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../debugger/includes/win8_md.md)] and Visual Studio.  
-  
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
- [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
- [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
- [View DOM event listeners](../debugger/view-dom-event-listeners.md)   
  [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
  [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)   
