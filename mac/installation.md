@@ -89,3 +89,23 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 Configure your network to allow access to the following locations:
 
 * [Visual Studio endpoints](https://docs.microsoft.com/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
+
+## Next Steps
+
+Installing Visual Studio for Mac allows you to start writing code for your apps. The following guides are provided to guide you through the next steps of writing and deploying your projects.
+
+### iOS
+
+1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
+2. [Device Provisioning](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(To run your application on device).
+
+
+### Android
+
+1. [Using the Xamarin Android SDK Manager](https://developer.xamarin.com/guides/android/getting_started/installation/android-sdk/?ide=xs)
+2. [Android SDK Emulator](https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/)
+4. [Set Up Device for Development](https://developer.xamarin.com/guides/android/getting_started/installation/set_up_device_for_development/)
+
+### .NET Core apps, ASP.NET Core web apps, Unity game development
+
+For other Workloads, refer to the [Workloads](https://docs.microsoft.com/en-us/visualstudio/mac/workloads) page.
