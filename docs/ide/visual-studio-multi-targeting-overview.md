@@ -68,9 +68,6 @@ When you create a project, select the target [!INCLUDE[dnprdnshort](../code-qual
 
 To target a .NET Framework version, you must first install the appropriate assembly references. You can download developer packs for different versions of the .NET Framework on the [.NET downloads](https://www.microsoft.com/net/download/windows) page.
 
-> [!NOTE]
-> If you are targeting the .NET Framework 4 or 3.5 and want to learn more about the Client Profile and when to use it, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/cc656912\(v=vs.100\).aspx) in the .NET Framework 4 documentation.
-
 The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
 For more information about assembly references, see [Resolving Assemblies at Design Time](../msbuild/resolving-assemblies-at-design-time.md).

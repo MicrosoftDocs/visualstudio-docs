@@ -7,8 +7,6 @@ ms.suite: ""
 ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.texteditor"
 dev_langs: 
   - "JScript"
   - "VB"
@@ -25,8 +23,6 @@ helpviewer_keywords:
   - "code editor"
   - "code files"
   - "code"
-ms.assetid: cb53bb9b-5b76-4759-b9b8-7bf32298bcbb
-caps.latest.revision: 44
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

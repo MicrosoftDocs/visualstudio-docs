@@ -1,22 +1,16 @@
 ---
-title: "Toolbox | Microsoft Docs"
+title: "Toolbox window in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/16/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.toolbox.general"
   - "vs.toolbox"
 helpviewer_keywords: 
-  - "Toolbox"
-  - "Toolbox, adding controls"
-  - "Toolbox, moving items"
-ms.assetid: b754dad3-1f32-464f-8b9f-065e17e0bc22
-caps.latest.revision: 34
+  - "Toolbox [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -24,29 +18,25 @@ ms.workload:
   - "multiple"
 ---
 # Toolbox
-The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
-  
- **Toolbox** icons can be dragged to a design view or pasted in a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.  
-  
- The **Toolbox** displays only the items that are appropriate to the type of file you are working in. You can search within the Toolbox to further filter the items that appear. If your project requires a control that is not supported by the Client Profile, you can set your project to target the entire framework by editing the project properties.  
-  
-> [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
-  
-## Help on Toolbox Tabs  
- The following documents provide more information about specific **Toolbox** tabs.  
-  
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.110\))  
-  
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.110\))  
-  
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.110\))  
-  
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.120\))  
-  
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.120\))  
-  
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
-  
-## See Also  
- [Using the Toolbox](../../ide/using-the-toolbox.md)
+
+The **Toolbox** displays icons for controls and other items that you can add to Visual Studio projects. To open the Toolbox, choose **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.
+
+![Toolbox window](media/toolbox.png)
+
+Toolbox items can be dragged to a design view or pasted into a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.
+
+The Toolbox only displays items that are applicable to the type of file you are working in. For some project types, the Toolbox may not show any items. You can search within the Toolbox to further filter the items that appear.
+
+## Help on Toolbox tabs
+
+The following topics provide more information about some of the available **Toolbox** tabs.
+
+- [Toolbox, Data Tab](../../ide/reference/toolbox-data-tab.md)
+
+- [Toolbox, Components Tab](../../ide/reference/toolbox-components-tab.md)
+
+- [Toolbox, HTML Tab](../../ide/reference/toolbox-html-tab.md)
+
+## See also
+
+[Using the Toolbox](../../ide/using-the-toolbox.md)

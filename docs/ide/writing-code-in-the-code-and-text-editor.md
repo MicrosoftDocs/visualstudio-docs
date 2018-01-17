@@ -8,8 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.texteditor"
 dev_langs: 
   - "JScript"
   - "VB"
