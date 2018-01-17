@@ -10,11 +10,9 @@ helpviewer_keywords:
   - "text templates, syntax"
   - "text templates, guide"
   - "text templates, functions that generate text"
-ms.assetid: 94328da7-953b-4e92-9587-648543d1f732
-caps.latest.revision: 43
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
