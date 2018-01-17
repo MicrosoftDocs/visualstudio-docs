@@ -20,7 +20,7 @@ ms.workload:
 
 # Debugging Python and C++ together
 
-Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Creating a C++ extension for Python](cpp-and-python.md) for a walkthrough.)
+Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md) for a walkthrough.)
 
 Visual Studio provides integrated, simultaneous mixed-mode debugging for Python and native C/C++, provided that you select the **Python native development tools** option for the Python Development workload in the Visual Studio installer.
 
@@ -135,7 +135,7 @@ C types that show "[Python View]" nodes (if enabled):
 
 "[Python View]" does not automatically appear for types you author yourself. When authoring extensions for Python 3.x, this lack is usually not an issue because any object ultimately has an `ob_base` field of one of the types above, which causes "[Python View]" to appear.
 
-For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable "[Python View]" nodes for such custom types, edit the `PythonDkm.natvis` in the [Python tools install directory](installation.md#install-locations), and add another element in the XML for your C struct or C++ class.
+For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable "[Python View]" nodes for such custom types, edit the `PythonDkm.natvis` in the [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations), and add another element in the XML for your C struct or C++ class.
 
 An alternate (and better) option is to follow [PEP 3123](http://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
 
