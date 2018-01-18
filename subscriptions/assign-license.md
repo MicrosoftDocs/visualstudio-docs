@@ -23,7 +23,7 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
 
 If your organization has a different email for receiving emails than the one to be used to sign in, you have the option for entering it here. Select the hyperlink that indicates “Different email for communication than sign-in?”. 
 
-If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https:/my.visualstudio.com), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. When you’re done, click **Add**.
+If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https:/my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. When you’re done, click **Add**.
 
    ![Enter subscriber information](_img\assign-license-add\add-subscriber-1.png)
 
