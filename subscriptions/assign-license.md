@@ -12,13 +12,14 @@ Searchscope: VS Subscription
 ---
 
 # Assigning Licenses in the Visual Studio Subscriptions Administrator Portal
+
 ## Assigning a single user
 If you have available licenses for Visual Studio subscriptions, you can assign these licenses to new users for them to access their subscription benefits. 
 1.	To assign a single Visual Studio subscriber, at the top of the table, click **Add**.
 
     ![Add subscriber](_img\assign-license-add\assign-license-add.png)
 
-2.	Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, then this field acts as a search function to find people in your current directory so you can select the correct user from the search results. Once you select that person, their name, sign-in email and notification email will automatically populate as you see below. 
+2.	Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, this field acts as a search function to find people in your current directory so you can select the correct user from the search results. Once you select that person, their name, sign-in email and notification email will automatically populate as you see below. 
 
 If your organization has a different email for receiving emails than the one to be used to sign in, you have the option for entering it here. Select the hyperlink that indicates “Different email for communication than sign-in?”. 
 
