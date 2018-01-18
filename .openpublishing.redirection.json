@@ -302,6 +302,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/walkthrough-improving-ui-responsiveness-html.md",
+            "redirect_url": "/visualstudio/profiling/html-ui-responsiveness",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-find-a-memory-leak-javascript.md",
+            "redirect_url": "/visualstudio/profiling/javascript-memory",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/index.md",
             "redirect_url": "/scripting/index",
             "redirect_document_id": false
