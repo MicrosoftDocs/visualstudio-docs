@@ -45,6 +45,18 @@ For working with iOS in Visual Studio you need the following pieces:
 
   ![Select Items](media/installer-image5.png)
 
+  If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+
+  * **Xamarin**:
+      - Xamarin.Forms – Select **Android** and **iOS** platforms.
+      - iOS only – Select **iOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Android only – Select **Android** platform (Note that you should also select the relevant dependencies).
+      - Mac only – Select **macOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
+  * **.NET Core applications** – Select **.NET Core** platform.
+  * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
+  * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](https://docs.microsoft.com/en-us/visualstudio/mac/setup-vsmac-tools-unity#confirm-that-the-visual-studio-for-mac-tools-for-unity-extension-is-enabled) for more information on installing the Unity extension.
+
   This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
   ![Android additional dependencies](media/installer-image6.png)
@@ -70,17 +82,6 @@ For working with iOS in Visual Studio you need the following pieces:
 > [!NOTE]
 If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/vs/) again if you wish to add the components later.
 
-## Manual Installation
-
-If your installation fails or any single component of your installation fails, you may be able to resolve the issue through manual installation. To view the required components and download each one, take the following steps:
-
-1. On the second screen on the Visual Studio Installer, go to the menu bar and select **View Manual Installation Instructions**:
-
-    ![Option showing manual install menu item](media/installer-image12.png)
-
-2. Follow the instructions to download and install the components manually:
-
-  ![Manual installation dialog](media/installer-image13.png)
 
 ## Install Visual Studio for Mac behind a firewall or proxy server
 
