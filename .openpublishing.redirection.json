@@ -297,6 +297,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",
+            "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/index.md",
             "redirect_url": "/scripting/index",
             "redirect_document_id": false

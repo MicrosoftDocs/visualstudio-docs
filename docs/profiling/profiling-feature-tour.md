@@ -30,7 +30,7 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 
-The **Diagnostic Tools** window is often the preferred way to profile apps, but you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#tool_support_info).
 
 ## Analyze CPU Usage
 
@@ -117,7 +117,7 @@ You can also use the graphs to determine whether there are CPU bound or GPU boun
 
 ## Analyze Performance (JavaScript)
 
-For Windows Universal HTML apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
+For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
 The JavaScript Memory tool is similar to the Memory Usage tool available for other app types. You can use this tool to understand memory usage and find memory leaks in your app. For more details about the tool, see [JavaScript Memory](../profiling/javascript-memory.md).
 
