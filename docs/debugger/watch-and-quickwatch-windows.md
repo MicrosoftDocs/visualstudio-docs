@@ -22,6 +22,8 @@ caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
 While you are debugging, you can use the **Watch** (**Debug > Windows > Watch > Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug > QuickWatch**) windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.
@@ -229,7 +231,7 @@ public class Program
 ## Dynamic View and the Watch window  
  Some scripting languages (for example, JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
   
- When the Watch window displays an object created from a type that implements the [IDynamicMetaObjectProvider Interface](https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
+ When the Watch window displays an object created from a type that implements the [IDynamicMetaObjectProvider Interface](/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
   
  If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
   

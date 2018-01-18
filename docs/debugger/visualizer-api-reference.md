@@ -22,6 +22,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visualizer API Reference
 The Visualizer APIs are provided for users who want to write a visualizer for the Visual Studio debugger. A visualizer is a small application that extends the functionality of the Visual Studio debugger user interface. A visualizer can display (and optionally edit) a data object of a specific type for which the visualizer is designed.  

@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extensibility features"
-ms.assetid: 5179e544-f678-422e-a532-1e2d55004b60
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Programming Concepts and Features for SharePoint Tools Extensions
   There are several important programming concepts and features that are related to the SharePoint tools in Visual Studio. These concepts and features play an important role in most SharePoint tools extensions.  

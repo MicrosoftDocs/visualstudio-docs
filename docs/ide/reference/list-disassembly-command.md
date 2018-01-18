@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # List Disassembly Command
 Begins the debug process and allows you to specify how errors are handled.  

@@ -21,6 +21,8 @@ caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ItemMetadata Element (MSBuild)
 Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.  

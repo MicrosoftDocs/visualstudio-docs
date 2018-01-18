@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, getting started"
   - "FAQs (frequently asked questions) [Office development in Visual Studio]"
   - "Office development in Visual Studio, frequently asked questions"
-ms.assetid: 7afc9bad-1d31-486e-beea-91e6d308cd67
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Common Tasks in Office Programming
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.  

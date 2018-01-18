@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "Office object models"
   - "Visio object model"
-ms.assetid: 11f0ae0c-feff-46c7-9885-b968391718f7
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visio Object Model Overview
   To develop Office solutions for Microsoft Office Visio, you can interact with the Visio object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Visio, and are defined in the Microsoft.Office.Interop.Visio namespace.  

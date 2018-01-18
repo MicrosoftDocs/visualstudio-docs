@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e5a211f-a3bf-4229-bff0-7d2e45b71c64
-caps.latest.revision: 2
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # T4 CleanUpBehavior directive
 To delete the appDomain after processing a text template, include the following line:  

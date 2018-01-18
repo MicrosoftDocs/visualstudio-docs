@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplierEx2::SetServer
 Sets the core server for the port supplier.  

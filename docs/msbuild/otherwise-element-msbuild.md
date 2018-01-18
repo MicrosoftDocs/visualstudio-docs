@@ -23,6 +23,8 @@ caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Otherwise Element (MSBuild)
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.  

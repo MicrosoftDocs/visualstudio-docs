@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Python Code in Visual Studio | Microsoft Docs"
+title: "Refactoring Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Refactoring Python code
@@ -22,9 +25,10 @@ Visual Studio provides several commands for automatically transforming and clean
 - [Rename](#rename) renames a selected class, method, or variable name
 - [Extract method](#extract-method) creates a new method from the selected code
 - [Add import](#add-import) provides a smart tag to add a missing import
-- [Remove unused imports](#remove-imports) removes unused imports
+- [Remove unused imports](#remove-unused-imports) removes unused imports
 
 <a name="rename-variable"</a>
+
 ## Rename
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit > Refactor > Rename...** menu command (F2).
@@ -67,6 +71,7 @@ Similarly, Visual Studio filters functions that are imported from other modules 
 Finally, if something would normally be excluded but has other values that would be included (because the name was assigned a value in the module, for example), Visual Studio still excludes the import. This behavior assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value that is also not exported.
 
 <a name="remove-imports"</a>
+
 ## Remove unused imports
 
 When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because Visual Studio analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope below where the statement occurs.

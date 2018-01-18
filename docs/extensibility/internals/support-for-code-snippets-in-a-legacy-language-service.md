@@ -17,6 +17,8 @@ caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Support for Code Snippets in a Legacy Language Service
 A code snippet is a piece of code that is inserted into the source file. The snippet itself is an XML-based template with a set of fields. These fields are highlighted after the snippet is inserted and can have different values depending on the context in which the snippet is inserted. Immediately after the snippet is inserted, the language service can format the snippet.  

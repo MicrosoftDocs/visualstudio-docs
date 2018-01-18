@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Spy++. process properties"
   - "process properties, Spy++"
@@ -16,6 +16,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Process Properties Dialog Box
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  

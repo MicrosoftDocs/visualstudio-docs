@@ -18,14 +18,17 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # User Permissions and Visual Studio
-For reasons of security you should run Visual Studio as a normal user whenever possible.  
+
+For reasons of security you should run Visual Studio as a normal user whenever possible.
 
 > [!WARNING]
->  You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.  
+> You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
 
- You can do nearly everything in the Visual Studio IDE as a normal user, but, you need administrator permissions to complete the following tasks:  
+You can do nearly everything in the Visual Studio IDE as a normal user, but, you need administrator permissions to complete the following tasks:
 
 |Area|Task|For more information|  
 |----------|----------|--------------------------|  
@@ -45,25 +48,21 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 |Performance tools|Profiling an application.|[Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)|  
 |Deployment|Deploying a web application to Internet Information Services (IIS) on a local computer.|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478)|
 
-## Running Visual Studio as an Administrator  
- You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.  
+## Running Visual Studio as an Administrator
 
-#### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../debugger/includes/win8_md.md)], [!INCLUDE[win81](../debugger/includes/win81_md.md)], [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)], or [!INCLUDE[winblue_server_2](../ide/includes/winblue_server_2_md.md)]  
+You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.
 
-1.  On the **Start** screen, type **Visual Studio**. You should see the version or versions of Visual Studio you have installed.  
+### To run Visual Studio with administrative permissions
 
-2.  Select the version of Visual Studio you want to start, and then bring up the shortcut menu (it appears at the bottom of the screen). Choose **Run as administrator**.  
+These instructions are for Windows 10. They are similar for other versions of Windows.
 
-     When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.  
+1. Open the **Start** menu, and scroll to Visual Studio 2017.
 
-#### To run Visual Studio with administrative permissions on [!INCLUDE[win7](../debugger/includes/win7_md.md)] or [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]  
+1. From the right-click or context menu of **Visual Studio 2017**, select **More** > **Run as administrator**.
 
-1.  On the **Start** menu, choose **All Programs**.  
+     When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
 
-2.  In the **Microsoft Visual Studio** *Version* folder select  **Visual Studio** *Version* open the shortcut menu, and then choose **Run as administrator**.  
+## See also
 
-     When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.  
-
-## See Also  
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
- [Install Visual Studio](../install/install-visual-studio.md)
+[Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
+[Install Visual Studio](../install/install-visual-studio.md)

@@ -21,11 +21,11 @@ helpviewer_keywords:
   - "Toolbox [Office development in Visual Studio], unsupported controls"
   - "user controls [Office development in Visual Studio], grouping controls"
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
-ms.assetid: 95ff473e-4952-4977-bc88-c77289c9fb0b
-caps.latest.revision: 56
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Limitations of Windows Forms Controls on Office Documents
   There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock%2A>, <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor%2A>, and <xref:Microsoft.Office.Tools.Word.Controls.Button.TabIndex%2A> do not behave as you might expect.  

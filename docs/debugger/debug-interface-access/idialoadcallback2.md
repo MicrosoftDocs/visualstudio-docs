@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2
 Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.  

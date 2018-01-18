@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Launching a Program
 Users who want to debug a program can press F5 to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:  

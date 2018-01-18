@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Search Menu Commands
 The **Search** menu provides commands to search for specific windows.  

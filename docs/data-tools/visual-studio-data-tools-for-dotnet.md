@@ -12,11 +12,14 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
+  - "dotnet"
 ---
 # Visual Studio data tools for .NET
-Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET Framework classes that provide data-access functionality are known as [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx). ADO.NET, along with the data tooling in Visual Studio, was originally designed primarily to support relational databases and XML. These days,  many NoSQL database vendors, or third parties, offer ADO.NET providers.  
+Visual Studio and the .NET Framework together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET Framework classes that provide data-access functionality are known as [ADO.NET](/dotnet/framework/data/adonet/index). ADO.NET, along with the data tooling in Visual Studio, was originally designed primarily to support relational databases and XML. These days,  many NoSQL database vendors, or third parties, offer ADO.NET providers.  
   
-[.NET Core](https://www.dotnetfoundation.org/netcore) supports ADO.NET, except for datasets and related types. If you are targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](https://docs.microsoft.com/ef/core/).  
+[.NET Core](https://www.dotnetfoundation.org/netcore) supports ADO.NET, except for datasets and related types. If you are targeting .NET Core and require an object-relational mapping (ORM) layer, use [Entity Framework Core](/ef/core/).  
   
 The following diagram shows a simplified view of  the basic architecture:  
   
@@ -34,7 +37,7 @@ The typical workflow is this:
   
 5.  Add custom code for things like business rules, search, and data validation, or to take advantage of custom functionality that the underlying database exposes.  
   
-You can skip step 3 and program a .NET application to issue commands directly to a database, rather than using a model. In this case, you will find the relevant documentation here: [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx). Note that you still can use the Data Source Configuration Wizard and designers to generate data-binding code when you populate your own objects in memory and then data-bind UI controls to those objects.
+You can skip step 3 and program a .NET application to issue commands directly to a database, rather than using a model. In this case, you will find the relevant documentation here: [ADO.NET](/dotnet/framework/data/adonet/index). Note that you still can use the Data Source Configuration Wizard and designers to generate data-binding code when you populate your own objects in memory and then data-bind UI controls to those objects.
   
 ## See also
 [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

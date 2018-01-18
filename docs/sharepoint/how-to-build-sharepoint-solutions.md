@@ -15,11 +15,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, building"
-ms.assetid: 7ded93e6-fba2-4e7f-8865-62841fd2b04b
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Build SharePoint Solutions
   Building your SharePoint solution is no different than building other applications in Visual Studio. For more information about building applications, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio). For a discussion of some considerations that are specific to SharePoint solutions, see [How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md).  

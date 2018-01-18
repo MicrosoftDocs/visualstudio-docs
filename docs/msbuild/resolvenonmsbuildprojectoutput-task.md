@@ -21,6 +21,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveNonMSBuildProjectOutput Task
 Determines the output files for non-MSBuild project references.  

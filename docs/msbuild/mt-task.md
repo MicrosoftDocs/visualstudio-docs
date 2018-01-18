@@ -29,6 +29,8 @@ caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MT Task
 Wraps the Microsoft Manifest Tool, mt.exe. For more information, see "Mt.exe" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  

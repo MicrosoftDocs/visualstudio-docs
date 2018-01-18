@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "errors [Office development in Visual Studio], user interface errors"
   - "user interfaces [Office development in Visual Studio], errors"
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
-ms.assetid: aa82cc04-e616-4501-940c-79d11fb393cc
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Show Add-in User Interface Errors
   By default, if an VSTO Add-in attempts to manipulate the Microsoft Office user interface (UI) and fails, no error message is displayed. However, you can configure Microsoft Office applications to display messages for errors that relate to the UI. You can use these messages to help determine why a custom Ribbon does not appear, or why a Ribbon appears but no controls appear.  

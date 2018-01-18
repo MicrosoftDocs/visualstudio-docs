@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], updating a data source from a document"
   - "host controls [Office development in Visual Studio], data source updates"
   - "Office documents [Office development in Visual Studio, data sources"
-ms.assetid: b91025af-1eaa-44ee-88f2-71ecaa7a0440
-caps.latest.revision: 53
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Update a Data Source with Data from a Host Control
   You can bind a host control to a data source and update the data source with the changes that are made to the data in the control. There are two main steps in this process:  

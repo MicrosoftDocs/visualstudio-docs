@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
 This method sets the registry root. Used for side-by-side debugging.  

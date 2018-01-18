@@ -26,11 +26,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, Web Parts"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-ms.assetid: a6349e85-45cf-4766-b856-e25c9f1ffd34
-caps.latest.revision: 42
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating Web Parts for SharePoint
   By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser. Web parts are server-side controls that run inside a web part page: they're the building blocks of pages that appear on a SharePoint site. See [Building Block: Web Parts](http://go.microsoft.com/fwlink/?LinkID=182097).  

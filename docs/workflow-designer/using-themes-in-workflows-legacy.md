@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Using Themes in Workflows (Legacy)
 This topic describes how to use themes in [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] when using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  

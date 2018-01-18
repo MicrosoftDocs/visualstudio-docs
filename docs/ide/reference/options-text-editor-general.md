@@ -54,6 +54,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options, Text Editor, General
 This dialog box lets you change global settings for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code and Text Editor. To display this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, and then click **General**.  

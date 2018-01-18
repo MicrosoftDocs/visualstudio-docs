@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], text"
   - "text [Office development in Visual Studio]"
   - "documents [Office development in Visual Studio], text"
-ms.assetid: 6f9e5a35-8c29-4237-bd44-f3a79e6a5f1c
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Text in Documents
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with text in Office projects.  

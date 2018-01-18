@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Persist Activity Designer
 The **Persist** activity designer is used to create and configure a <xref:System.Activities.Statements.Persist> activity.  

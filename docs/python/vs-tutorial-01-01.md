@@ -1,7 +1,7 @@
 ---
 title: Working with Python in Visual Studio, Step 1 | Microsoft Docs
 ms.custom: ""
-ms.date: 09/26/2017
+ms.date: 01/08/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Working with Python in Visual Studio
@@ -41,20 +44,20 @@ In this tutorial you begin with a simple project containing a single, empty code
 
 1. In Visual Studio, select **File > New > Project** (Ctrl+Shift+N), which brings up the **New Project** dialog. Here you browse templates across different languages, then select one for your project and specify where Visual Studio places files.
 
-1. To view Python templates, select **Templates > Other Languages > Python** on the left, or searching for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
+1. To view Python templates, select **Installed > Python** on the left, or searching for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
 
     ![New project dialog with Python projects shown](media/vs-getting-started-python-01-new-project.png)
 
-1. Notice how Python support in Visual Studio includes a number of project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project. 
+    Notice how Python support in Visual Studio includes a number of project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project.
 
-1. Select the **Python Application** template, specify a name for the project, and select **OK**. 
+1. Select the **Python Application** template, specify a name for the project, and select **OK**.
 
 1. After a few moments, Visual Studio shows the project structure in the **Solution Explorer** window (1). The default code file is open in the editor (2). The properties window (3) also appears to show additional information for any item selected in Solution Explorer, including its exact location on disk.
- 
+
     ![Solution Explorer with a Python project](media/vs-getting-started-python-02-windows.png)
- 
+
 1. Take a few moments to familiarize yourself with Solution Explorer, which is where you browse files and folders in your project.
-    
+
     ![Solution Explorer expanded to show various features](media/vs-getting-started-python-03-solution-explorer.png)
 
     (1) Highlighted in bold is your project, using the name you gave in the New Project dialog. On disk, this project is represented by a `.pyproj` file in your project folder.
@@ -66,15 +69,15 @@ In this tutorial you begin with a simple project containing a single, empty code
     (4) Also under the project is the **Python Environments** node. When expanded, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
-    
-## Next Steps
+
+## Next steps
 
 > [!div class="nextstepaction"]
 > [Writing and running code](vs-tutorial-01-02.md)
 
 ## Going deeper
 
-- [Python Projects in Visual Studio](python-projects.md).
+- [Python projects in Visual Studio](python-projects.md).
 - [Learn about the Python language on python.org](https://www.python.org)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)

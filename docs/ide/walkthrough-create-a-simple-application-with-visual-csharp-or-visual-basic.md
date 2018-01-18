@@ -15,31 +15,25 @@ caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment (IDE).  
-  
- This topic contains the following sections:  
-  
- [Configure the IDE](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_ConfigureIDE)  
-  
- [Create a simple application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_CreateApp)  
-  
- [Debug and test the application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
+By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment (IDE).
   
 ##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
 When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.  
 
 ![Choose settings dialog box](../ide/media/exploreide-settings.png "exploreide-settings")
   
- After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.  
+After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.  
   
- ![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png "ExploreIDE-IDEwithgeneralsettings")  
+![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png "ExploreIDE-IDEwithgeneralsettings")  
   
 ##  <a name="BKMK_CreateApp"></a> Create a simple application  
   
 ### Create the project  
- When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.  
+When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.  
   
 #### To create the WPF project  
   
@@ -51,11 +45,11 @@ When you start Visual Studio for the first time, you'll be prompted to sign in. 
   
      ![Create a C# WPF Project, HelloWPFApp](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")  
   
- Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The WPF Designer shows a design view and a XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:  
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The WPF Designer shows a design view and a XAML view of MainWindow.xaml in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms Developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:  
   
- ![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
+![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
   
- After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.  
+After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.  
   
 #### To change the name of MainWindow.xaml  
 Let's give MainWindow a more specific name.  
@@ -68,7 +62,7 @@ Let's give MainWindow a more specific name.
      **Solution Explorer** shows that the name of the file is now Greetings.xaml, and the nested code file is now named Greetings.xaml.vb or Greetings.xaml.cs. This code file is nested under the .xaml file node to show they are closely related to each other.  
   
 ### Design the user interface (UI)  
- We will add three types of controls to this application: a TextBlock control, two RadioButton controls, and a Button control.  
+We will add three types of controls to this application: a TextBlock control, two RadioButton controls, and a Button control.  
   
 #### To add a TextBlock control  
   
@@ -80,16 +74,16 @@ Let's give MainWindow a more specific name.
   
 3.  Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.  
   
- Your window should resemble the following illustration:  
+Your window should resemble the following illustration:  
   
- ![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
+![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
   
- The XAML markup should look something like the following:  
+The XAML markup should look something like the following:  
   
-     ```xaml  
-     <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>  
-     ```  
-  
+```xaml  
+<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>  
+```  
+
 #### To customize the text in the text block  
   
 1.  In the XAML view, locate the markup for TextBlock and change the Text attribute:  
@@ -153,7 +147,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
      ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
   
 ### Add code to the Display Button  
- When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the Button_Click event in Greetings.xaml.vb or Greetings.xaml.cs.  
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the Button_Click event in Greetings.xaml.vb or Greetings.xaml.cs.  
   
 #### Add code to display message boxes    
 1.  On the design surface, double-click the **Display** button.  
@@ -196,10 +190,10 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 3.  Save the application.  
   
 ##  <a name="BKMK_DebugTest"></a> Debug and test the application  
- Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
+Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
- In this step, you'll find the error that we caused earlier by changing the name of the MainWindow.xaml file.  
+In this step, you'll find the error that we caused earlier by changing the name of the MainWindow.xaml file.  
   
 #### To start debugging and find the error  
   
@@ -213,7 +207,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
   
      ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png "ExploreIDE-StopDebugging")  
   
- We renamed MainWindow.xaml to Greetings.xaml at the start of this walkthrough, but the code still refers to mainwindow.xaml as the startup URI for the application, so the project can't start.  
+We renamed MainWindow.xaml to Greetings.xaml at the start of this walkthrough, but the code still refers to mainwindow.xaml as the startup URI for the application, so the project can't start.  
   
 #### To specify Greetings.xaml as the startup URI  
   
@@ -279,7 +273,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
   
 Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (...\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
-## See Also  
- [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)   
- [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)   
- [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
+## See also
+[What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)   
+[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)   
+[Productivity Tips](../ide/productivity-tips-for-visual-studio.md)

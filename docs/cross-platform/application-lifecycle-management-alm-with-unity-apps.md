@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 12
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
+ms.workload: 
+  - "unity"
 ---
 # Application Lifecycle Management (ALM) with Unity Apps
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
@@ -69,18 +71,17 @@ Developing apps for modern platforms involves many more activities than just wri
 3.  Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).  
 
 ## Build  
- Reference link: **[Build](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ Reference link: **[Build and Release](/vsts/build-release/index)**  
 
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
 |On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|  
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build server](http://msdn.microsoft.com/Library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
+|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|  
 |Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|  
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
 
-## Testing  
- Reference link: **[Testing the application](/devops-test-docs/test/test-apps-early-and-often)**  
+## Testing
 
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
@@ -91,8 +92,9 @@ Developing apps for modern platforms involves many more activities than just wri
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|  
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|  
 
-## Improve code quality  
- Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
+## Improve code quality
+
+Reference link: **[Improve Code Quality](/visualstudio/test/improve-code-quality)**  
 
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  

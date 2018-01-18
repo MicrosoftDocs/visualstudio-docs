@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e24436a5-7f97-401b-bc83-20d188d10d5b
-caps.latest.revision: 7
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use Transactions to Update the Model
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.  

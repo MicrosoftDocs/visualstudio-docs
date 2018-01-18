@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], multiple Ribbons"
   - "toolbars [Office development in Visual Studio]"
   - "custom Ribbon, multiple Ribbons"
-ms.assetid: 2bdef092-190d-47e3-9440-e862b95dacaa
-caps.latest.revision: 64
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Ribbon Overview
   The Ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the Ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.  

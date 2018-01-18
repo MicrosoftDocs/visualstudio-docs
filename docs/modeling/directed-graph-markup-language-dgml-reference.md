@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc3e4ae7-60fa-4e22-9227-98020b480b73
-caps.latest.revision: 8
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Directed Graph Markup Language (DGML) reference
 Directed Graph Markup Language (DGML) describes information used for visualization and to perform complexity analysis, and is the format used to persist code maps in Visual Studio. It uses simple XML to describe both cyclical and acyclic directed graphs. A directed graph is a set of nodes that are connected by links, or edges. Nodes and links can be used represent network structures, such as elements in a software project.  

@@ -12,6 +12,9 @@ ms.assetid: C06FAB2E-F592-4EFF-B96A-58858C92DCEB
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 # Import sample game assets

@@ -12,6 +12,8 @@ ms.assetid: 3a7ba14f-a628-4c1b-bb89-73b9195769f1
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # C++ Cross Platform Property Page Reference

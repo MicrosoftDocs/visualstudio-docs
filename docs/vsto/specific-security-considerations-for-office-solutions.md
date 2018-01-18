@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "malicious code [Office development in Visual Studio]"
   - "Outlook object model guard [Office development in Visual Studio]"
   - "security [Office development in Visual Studio], troubleshooting"
-ms.assetid: 6a8b3e12-26c6-4ee2-a37e-d5bc8df9c5d1
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Specific Security Considerations for Office Solutions
   The security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against possible security threats. This topic explains some of those threats and provides recommendations to help protect against them. It also includes information about how Microsoft Office security settings affect Office solutions.  

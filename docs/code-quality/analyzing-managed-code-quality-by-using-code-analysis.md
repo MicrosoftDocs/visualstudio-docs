@@ -16,6 +16,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Analyzing Managed Code Quality by Using Code Analysis
 You can use the code analysis tools in Visual Studio to discover potential issues in your code, such as non-secure data access, usage violations, and design problems. Code analysis works on .NET Framework, native (C and C++), and database applications. Code analysis for managed code organizes rules in *rule sets* that target specific coding issues.  

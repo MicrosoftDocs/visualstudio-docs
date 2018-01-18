@@ -19,6 +19,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1701: Resource string compound words should be cased correctly
 |||  

@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Lines View - Sampling Data
 The Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.  

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/19/2017"
 ms.reviewer: "crdun"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,6 +12,9 @@ ms.assetid: B921C2AC-B5D6-4B24-918E-511F83D57275
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 # Prepare the development environment

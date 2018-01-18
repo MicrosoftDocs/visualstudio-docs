@@ -23,6 +23,8 @@ caps.latest.revision: 32
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting ClickOnce Deployments
 This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.  

@@ -19,6 +19,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Bind WPF controls to a WCF data service
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)]. You will also add buttons that customers can use to view and update records.  
@@ -51,8 +53,6 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 -   Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].  
   
 -   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](/dotnet/framework/data/adonet/ef/overview).  
-  
--   Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).  
   

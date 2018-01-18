@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
-ms.assetid: e2bc3124-c0c0-4104-9779-a5bf565d7f51
-caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Intercept a Click on a Shape or Decorator
 The following procedures demonstrate how to intercept a click on a shape or an icon decorator. You can intercept clicks, double-clicks, drags, and other gestures, and make the element respond.  

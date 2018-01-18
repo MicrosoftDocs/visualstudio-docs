@@ -1,5 +1,5 @@
 ---
-title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
+title: "Python interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Working with the Python Interactive Window
@@ -44,7 +47,7 @@ First, switch to the Python Environments window (**View > Other Windows > Python
 
 ![Interactive Window link in the Python Environments window](media/interactive-window-opening.png)
 
-Second, near the bottom of the **View > Other Windows** menu, there's a ** Python Interactive Window** command for your default environment, as well as a command to switch to the environments window:
+Second, near the bottom of the **View > Other Windows** menu, there's a **Python Interactive Window** command for your default environment, as well as a command to switch to the environments window:
 
 ![Interactive Window menu items in View > Other Windows](media/interactive-window-menu.png)
 

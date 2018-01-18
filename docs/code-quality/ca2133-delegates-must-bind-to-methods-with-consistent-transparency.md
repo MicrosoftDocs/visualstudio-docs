@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2133: Delegates must bind to methods with consistent transparency
 |||  

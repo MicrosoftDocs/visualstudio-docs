@@ -24,6 +24,8 @@ caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Edit a Register Value
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  

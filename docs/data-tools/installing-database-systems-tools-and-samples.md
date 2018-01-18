@@ -16,6 +16,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Compatible database systems for Visual Studio
 
@@ -25,7 +27,7 @@ For a database system to be accessible from .NET applications and to be visible 
 
 If you are using Azure Storage APIs, install the Azure storage emulators on your local machine during development in order to avoid charges until you are ready to deploy to production. For more information, see [Use the Azure Storage Emulator for Development and Testing](https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/).
 
-The following list includes some of the more popular database systems that can be used in Visual Studio projects. The list is not exhaustive. For a list of third-party vendors that offer ADO.NET data providers that enable deep integration with Visual Studio tooling, see [ADO.NET Data Providers](https://msdn.microsoft.com/en-us/library/dd363565.aspx).
+The following list includes some of the more popular database systems that can be used in Visual Studio projects. The list is not exhaustive. For a list of third-party vendors that offer ADO.NET data providers that enable deep integration with Visual Studio tooling, see [ADO.NET Data Providers](/dotnet/framework/data/adonet/data-providers).
 
 ## Microsoft SQL Server
 

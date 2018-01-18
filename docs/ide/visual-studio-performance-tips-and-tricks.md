@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Performance Tips and Tricks
 
@@ -67,7 +69,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the Diagnostic Tools, start a debugging session, choose **Tools > Options > Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools).
+    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
 
 ## Disable tools and extensions
 Some tools or extensions may to turned off to improve performance.

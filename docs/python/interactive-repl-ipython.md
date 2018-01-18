@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Using IPython in the Interactive Window
@@ -28,7 +31,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 1. Look at the **Packages** (or **pip**) tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
 
-1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).    
+1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).
 
 1. Select **Open interactive window** to bring up the interactive window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press Enter if only a >>> prompt appears.
 
@@ -72,11 +75,11 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
     ![Sending code from the editor to the interactive window](media/ipython-repl-05.png)
 
 1. To see the graphs outside of the interactive window, run the code instead using the **Debug > Start without Debugging** command.
-    
+
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 
 ## Related topics
 
 - To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 
-- You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).
+- You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).

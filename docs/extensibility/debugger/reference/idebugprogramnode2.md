@@ -17,6 +17,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramNode2
 This interface represents a program that can be debugged.  

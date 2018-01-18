@@ -20,6 +20,8 @@ caps.latest.revision: 19
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Project File Schema Reference
 Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] XML Schema elements with their available attributes and child elements.  

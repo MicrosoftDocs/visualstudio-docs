@@ -23,6 +23,8 @@ caps.latest.revision: 36
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Common MSBuild Project Properties
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  

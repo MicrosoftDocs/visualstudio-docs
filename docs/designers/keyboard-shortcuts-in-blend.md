@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Keyboard shortcuts in Blend
 ## Project shortcuts  

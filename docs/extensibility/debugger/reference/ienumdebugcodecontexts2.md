@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugCodeContexts2
 This interface enumerates the code contexts associated with the debug session, or with a particular program or document.  

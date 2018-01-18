@@ -13,6 +13,8 @@ caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 7: Add Multiplication and Division Problems
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  

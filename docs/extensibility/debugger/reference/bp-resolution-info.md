@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RESOLUTION_INFO
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.  

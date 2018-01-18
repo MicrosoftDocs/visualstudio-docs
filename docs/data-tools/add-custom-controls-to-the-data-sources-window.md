@@ -21,6 +21,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Add custom controls to the Data Sources window
 When you drag an item from the **Data Sources** window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a drop-down list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.  

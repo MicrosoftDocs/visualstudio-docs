@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, diagram"
-ms.assetid: 259836b0-783c-46a0-b7c7-dc4b2f7b4a81
-caps.latest.revision: 31
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing Presentation on the Diagram
 The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.  

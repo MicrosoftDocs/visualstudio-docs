@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Diff
 Compares two files. The differences are displayed in a special Visual Studio window.  

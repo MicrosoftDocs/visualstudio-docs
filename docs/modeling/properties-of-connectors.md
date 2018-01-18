@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, connectors"
-ms.assetid: b1f24e8d-cdd7-4a5d-af37-1038f43b45c7
-caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.  

@@ -15,6 +15,8 @@ caps.latest.revision: 62
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Options Page
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.  

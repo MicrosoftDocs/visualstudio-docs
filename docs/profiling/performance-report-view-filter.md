@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Performance Report View Filter
 The Profiler Report View Filter window is located at the top of the Performance Report window. If you cannot see it, click the **Show Filter** button.  

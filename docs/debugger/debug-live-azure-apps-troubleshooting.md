@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
@@ -65,7 +67,7 @@ Take these steps:
 - Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
 - Roslyn IL optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 - Special variables, such as *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
-- Snapshot debugging does not work on App Services that have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+- Snapshot debugging does not work on App Services that have [Local Caching](/azure/app-service/app-service-local-cache) turned on.
 - Snapshot debugging API Apps is not currently supported.
 
 ## See also

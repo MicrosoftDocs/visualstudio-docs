@@ -22,6 +22,8 @@ caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Automatically Increment the ClickOnce Publish Version
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.  

@@ -21,6 +21,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Move Task
 Moves files to a new location.  

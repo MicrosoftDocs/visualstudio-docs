@@ -10,11 +10,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.editor"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, user interface"
-ms.assetid: 81ae6b35-6819-41d0-953b-6b4ed81f9227
-caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Overview of the Domain-Specific Language Tools User Interface
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the user interface will resemble the following picture.  

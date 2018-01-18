@@ -1,5 +1,5 @@
 ---
-title: "R Tools Options in Visual Studio | Microsoft Docs"
+title: "R Tools options in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -18,16 +18,22 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # R Tools for Visual Studio options
+
+Settings are accessed through the **R Tools > Options** menu, or through **Tools > Options** and scrolling to **R Tools**:
+
+  ![Options dialog for R Tools](media/options-dialog.png)
 
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
 - Code formatting options (see [Editor options](code-editing.md#editor-options): **Tools > Options** menu, then select **Text Editor > R > Formatting**
 - Linting options (see [Linting](code-linting.md)): **Tools > Options** menu, then select **Text Editor > R > Lint**
-- Advanced editor options ([described in this topic](#text-editor-r-advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
-- Behavioral options ([described in this topic](#r-tools-advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
+- Advanced editor options ([described in this topic](#text-editor-r--advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
+- Behavioral options ([described in this topic](#r-tools--advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
 
 The **R Tools > Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
 

@@ -1,5 +1,5 @@
 ---
-title: "Sample Projects for R Tools for Visual Studio | Microsoft Docs"
+title: "Sample projects for R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -13,9 +13,11 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
-# R Tools for Visual Studio Sample Projects
+# R Tools for Visual Studio sample projects
 
 This collection of samples gets you started on R, R Tools for Visual Studio (RTVS), and Microsoft R Server:
 
@@ -37,7 +39,6 @@ This sample provides an in-depth introduction to R through the extensive comment
 
     ![Example output from the 2-Introduction to ggplot2.R sample](media/samples-ggplot-output.png)
 
-
 ## Microsoft R Server and Machine Learning
 
 This collection of examples shows how to use R to create machine learning models and to take advantage of [Microsoft R Server (MRS)](http://aka.ms/rtvs-msft-r). Install MRS to run scripts with `MRS` in the title and where noted.
@@ -50,12 +51,13 @@ As with all examples, open the file, place the cursor at the top, and then step 
 
 - `Bike_Rental_Estimation_with_MRS` creates a demand prediction model for bike rentals based on a historical data set, using Microsoft R Server. 
 
-- `Data_Exploration` contains three scripts:  
-    - `Import Data from URL.R` shows how to load a URL-identified data file into R.
-    - `Import Data from URL to xdf.R` shows how to load a URL-identified data file into Microsoft R Server as an xdf. (Requires MRS.)
-    - `Using ggplot2.R` is an extension of the `A First Look at R/2-Introduction to ggplot2.R` sample, giving a more extensive tour of ggplot2's functionality including interactive 3D plotting.
+- `Data_Exploration` contains three scripts:
 
-        ![Output of Using ggplot2.R example](media/samples-3d-interactive.png)
+  - `Import Data from URL.R` shows how to load a URL-identified data file into R.
+  - `Import Data from URL to xdf.R` shows how to load a URL-identified data file into Microsoft R Server as an xdf. (Requires MRS.)
+  - `Using ggplot2.R` is an extension of the `A First Look at R/2-Introduction to ggplot2.R` sample, giving a more extensive tour of ggplot2's functionality including interactive 3D plotting.
+
+      ![Output of Using ggplot2.R example](media/samples-3d-interactive.png)
 
 - `Datasets` contains three `.csv` files used by other samples
 - `Flight_Delays_Prediction_with_R` and `Flight_Delays_Prediction_with_MRS` shows how to predict flight delays using R, machine learning, and historical on-time performance and weather data. 

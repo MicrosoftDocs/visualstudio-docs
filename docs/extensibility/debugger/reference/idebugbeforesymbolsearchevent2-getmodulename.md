@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 Retrieves the name of the module currently being debugged.  

@@ -23,6 +23,8 @@ caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Compile Page, Project Designer (Visual Basic)
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.  

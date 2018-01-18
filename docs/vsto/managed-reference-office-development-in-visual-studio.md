@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "reference [Office development in Visual Studio], 2007 Microsoft Office system"
   - "Office development in Visual Studio, reference"
-ms.assetid: 1fa66da0-9d90-4524-ba4f-4da13aab73b5
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Managed Reference (Office Development in Visual Studio)
   This section contains API reference documentation for namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [http://go.microsoft.com/fwlink/?LinkId=160658](http://go.microsoft.com/fwlink/?LinkId=160658).  

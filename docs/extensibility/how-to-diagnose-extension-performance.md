@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: ghogen
+ms.workload: 
+  - "bertaygu"
 ---
 # Measuring extension impact in startup
 
@@ -44,7 +46,7 @@ We have added multiple features starting from Visual Studio 2015 to help with re
 
 You can find more details about these features in the following documents:
 
-[Rule based UI Contexts](how-to-use-rule-based-ui-context-for-visual-studio-extensions.md): A richer rule based engine built around UI contexts allow you to create custom contexts based on project types, flavors and capabilities. These custom contexts can be used to load a package during more specific scenarios such as the presence of a project with a specific capability instead of startup; or allow [command visibility to be tied to a custom context](https://msdn.microsoft.com/en-us/library/bb166512.aspx) based on project capabilities or other available terms thus eliminating the need to load a package to register a command status query handler.
+[Rule based UI Contexts](how-to-use-rule-based-ui-context-for-visual-studio-extensions.md): A richer rule based engine built around UI contexts allow you to create custom contexts based on project types, flavors and capabilities. These custom contexts can be used to load a package during more specific scenarios such as the presence of a project with a specific capability instead of startup; or allow [command visibility to be tied to a custom context](visibilityconstraints-element.md) based on project capabilities or other available terms thus eliminating the need to load a package to register a command status query handler.
 
 [Asynchronous package support](how-to-use-asyncpackage-to-load-vspackages-in-the-background.md): The new AsyncPackage base class in Visual Studio 2015 allows Visual Studio packages to be loaded in the background asynchronously if package load was requested by an auto load attribute or an asynchronous service query. This background loading allows the IDE to stay responsive while the extension is initialized in the background and critical scenarios like startup and solution load wouldn't be impacted.
 

@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use Text Markers
 Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> object.  

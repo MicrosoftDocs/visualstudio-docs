@@ -4,13 +4,15 @@ ms.custom: ""
 ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
- - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Quickstart: personalize the Visual Studio IDE and Editor
 
@@ -94,6 +96,8 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 ## See also
 
 [Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)  
 [Customizing the Editor](../ide/customizing-the-editor.md)  
 [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

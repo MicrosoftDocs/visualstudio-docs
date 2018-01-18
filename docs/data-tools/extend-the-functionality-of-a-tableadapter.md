@@ -19,6 +19,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Extend the functionality of a TableAdapter
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.  

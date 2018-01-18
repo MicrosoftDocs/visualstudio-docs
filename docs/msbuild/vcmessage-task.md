@@ -24,6 +24,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VCMessage Task
 Logs warning and error messages during a build.  

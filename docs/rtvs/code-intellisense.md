@@ -1,5 +1,5 @@
 ---
-title: IntelliSense for R Code Visual Studio | Microsoft Docs
+title: IntelliSense for R Code in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -13,24 +13,26 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # IntelliSense
 
 Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](code-editing.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl.md).
 
-![IntelliSense showing a function signature](media/intellisense-function-signature.png) 
+![IntelliSense showing a function signature](media/intellisense-function-signature.png)
 
 When typing a function or other statement, IntelliSense provides an auto-completion menu filtered (case-sensitively) by what you've already entered:
 
 ![IntelliSense auto-completion menu](media/intellisense-auto-complete-menu.png)
 
-Pressing Tab (or Enter, or Space, depending on how options are set), inserts the item selected in the dropdown. You can change the selection with the arrow keys. 
+Pressing Tab (or Enter, or Space, depending on how options are set), inserts the item selected in the dropdown. You can change the selection with the arrow keys.
 
 IntelliSense also provides suggestions for members of R objects:
- 
+
 ![IntelliSense suggestions for object members](media/intellisense-auto-complete-r-objects.png)
- 
+
 Pressing ESC dismisses the menu altogether. You can bring it back up with Ctrl+Space.
 
 Typing the opening `(` for a function call inserts the closing `)` and brings up signature help as shown earlier:

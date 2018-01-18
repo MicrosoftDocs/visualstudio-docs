@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject2::GetBackingFieldForProperty
 Gets the field or variable (if any) that may be backing the property represented by this object.  

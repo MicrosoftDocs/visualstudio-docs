@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # CA1049: Types that own native resources should be disposable
 |||  

@@ -22,6 +22,8 @@ caps.latest.revision: 57
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Command-Line Reference
 When you use MSBuild.exe to build a project or solution file, you can include several switches to specify various aspects of the process.  

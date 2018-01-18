@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/19/2017"
 ms.reviewer: "crdun"
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,6 +12,9 @@ ms.assetid: BAE62C27-CA7A-4466-8738-3DB880221CE1
 author: "dantogno"
 ms.author: "v-davian"
 manager: "crdun"
+ms.workload: 
+  - "azure"
+  - "unity"
 ---
 
 # Configure Easy Tables in Azure

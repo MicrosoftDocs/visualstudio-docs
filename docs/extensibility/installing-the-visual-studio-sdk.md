@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Installing the Visual Studio SDK
 The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on.  

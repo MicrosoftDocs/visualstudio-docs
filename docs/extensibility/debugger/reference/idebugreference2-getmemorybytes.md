@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2::GetMemoryBytes
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.  

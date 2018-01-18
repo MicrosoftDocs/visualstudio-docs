@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BuildProjectOnload Element (Visual Studio Templates)
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.  

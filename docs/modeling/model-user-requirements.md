@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "requirements"
   - "stories"
-ms.assetid: 359900f8-6d69-493d-bfdf-2c9069c74a26
-caps.latest.revision: 28
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Model user requirements
 Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-3-Modeling-the-Business-Domain/).  

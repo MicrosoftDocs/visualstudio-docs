@@ -13,6 +13,8 @@ caps.latest.revision: 25
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 6: Add a Subtraction Problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:  

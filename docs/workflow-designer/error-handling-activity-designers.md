@@ -11,6 +11,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Error Handling Activity Designers
 The Error Handling activity designers are used to manage error handling in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.  

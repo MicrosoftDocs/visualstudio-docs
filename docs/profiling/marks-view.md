@@ -18,6 +18,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Marks View
 The Marks view displays sampling and ETW events that were inserted into the application.  

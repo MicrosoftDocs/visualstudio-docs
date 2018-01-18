@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit testing, create unit test plans"
-ms.assetid: 2171CD69-FBB1-4994-9DCC-3BFFDFD26662
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Get started with unit testing
 
@@ -98,7 +98,7 @@ to save into a test project to provide a regression
 suite. As you change your code, rerun IntelliTest 
 to keep the generated tests in sync with your code 
 changes. To learn how, see
-[Generating unit tests for your code with IntelliTest](https://docs.microsoft.com/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest).
+[Generating unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
@@ -111,7 +111,7 @@ tests into categories, filter the test list, and
 create, save, and run playlists of tests. You can 
 also debug tests and analyze test performance and 
 code coverage. To learn how, see
-[Run unit tests with Test Explorer](https://docs.microsoft.com/visualstudio/test/run-unit-tests-with-test-explorer).
+[Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
 ![Running unit tests with Test Explorer](media/testexplorer.png)
 
@@ -124,7 +124,7 @@ tests, you can use the code coverage feature of
 Visual Studio. To guard effectively against bugs, 
 your tests should exercise or 'cover' a large 
 proportion of your code. To learn how, see
-[Use Code Coverage to Determine How Much Code is being Tested](https://docs.microsoft.com/visualstudio/test/using-code-coverage-to-determine-how-much-code-is-being-tested).
+[Use Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ![Using code coverage to determine how much code is being tested](media/codecoverage.png)
 

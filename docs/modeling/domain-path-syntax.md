@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, domain path"
-ms.assetid: 945994f9-72b9-42e0-81b2-e5fb3d0e282d
-caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.  

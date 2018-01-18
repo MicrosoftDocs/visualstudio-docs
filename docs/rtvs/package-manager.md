@@ -1,5 +1,5 @@
 ---
-title: "Package Manager in the R Tools for Visual Studio | Microsoft Docs"
+title: "Package manager in the R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Package manager

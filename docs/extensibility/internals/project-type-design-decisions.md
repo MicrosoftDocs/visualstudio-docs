@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Type Design Decisions
 Before you create a new project type, you must make several design decisions regarding your project type. You must decide what types of items your projects will contain, how project files will be persisted, and what commitment model you will use.  

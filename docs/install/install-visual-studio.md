@@ -2,25 +2,26 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "11/08/2017"
+ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-f1_keywords:
+f1_keywords: 
   - "vs.about"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "install Visual Studio"
   - "dev15"
   - "set up Visual Studio"
   - "Visual Studio setup"
   - "Visual Studio installer"
-ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Install Visual Studio 2017
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
@@ -74,9 +75,9 @@ After the installer is installed, you can use it to customize your installation 
 
 1.  Find the workload you want in the **Installing Visual Studio** screen.
 
-  ![Visual Studio 2017 setup dialog](media/vs2017-workloads.PNG "Install Visual Studio workloads")
+ ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
 
-     For example, choose the .NET desktop development workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
+     For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
 2.  After you select the workload(s) you want, click **Install**.
 
@@ -85,7 +86,7 @@ After the installer is installed, you can use it to customize your installation 
 3.  After the new workloads and components are installed, click **Launch**.  
 
 > [!TIP]
->  At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools**, **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
+>  At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
 
 |         |         |
 |---------|---------|
@@ -132,7 +133,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 * [Update Visual Studio 2017](update-visual-studio.md)

@@ -20,6 +20,8 @@ caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Functions View
 The Functions view lists the functions that are called during profiling.  

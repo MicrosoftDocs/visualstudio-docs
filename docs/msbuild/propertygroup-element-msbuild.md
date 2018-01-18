@@ -23,6 +23,8 @@ caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # PropertyGroup Element (MSBuild)
 Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be a child of a `PropertyGroup` element.  

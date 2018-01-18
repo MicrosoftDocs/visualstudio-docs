@@ -16,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, modules"
   - "modules [SharePoint development in Visual Studio]"
-ms.assetid: 16ac3c3b-8219-466c-8550-6109357f2f9a
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Include Files by Using a Module
   *Modules* (not to be confused with [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.  

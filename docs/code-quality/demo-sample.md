@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Demo Sample
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  

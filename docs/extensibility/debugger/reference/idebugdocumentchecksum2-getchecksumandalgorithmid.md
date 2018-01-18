@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.  

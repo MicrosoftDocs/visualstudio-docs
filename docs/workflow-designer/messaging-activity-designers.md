@@ -11,6 +11,8 @@ caps.latest.revision: 7
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Messaging Activity Designers
 Messaging activity designers are used to create and configure messaging activities that send and receive [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] messages from within a [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] application. The [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] introduces five messaging activities and the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides two new template designers that enable you to manage messaging within a workflow. The topics contained in this section and listed in the following table provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.  

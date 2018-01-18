@@ -19,6 +19,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Find and Replace, Environment, Options Dialog Box
 Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by clicking **Options**, expanding **Environment**, and then clicking **Find and Replace**. If this page does not appear in the list, select **Show all setting** in the **Options** dialog box.  

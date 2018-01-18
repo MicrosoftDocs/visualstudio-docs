@@ -10,6 +10,8 @@ ms.topic: how to article
 ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 ## Create an AI project from the Azure Machine Learning Gallery in Visual Studio

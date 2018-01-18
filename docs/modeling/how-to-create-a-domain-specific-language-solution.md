@@ -12,11 +12,11 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools], creating domain-specific language"
   - "Domain-Specific Language Tools, creating solutions"
-ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
-caps.latest.revision: 41
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  

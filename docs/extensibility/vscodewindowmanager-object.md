@@ -18,6 +18,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSCodeWindowManager Object
 The language service implements the code window manager and is responsible for managing adornments (for example, the drop-down bar). For more information, see [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md).  

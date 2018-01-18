@@ -19,6 +19,8 @@ caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Reliability Warnings
 Reliability warnings support library and application reliability, such as correct memory and thread usage.  

@@ -15,6 +15,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Pause and Resume Performance Data Collection
 From the profiling session page window, you can control the collection of profiling data interactively.  

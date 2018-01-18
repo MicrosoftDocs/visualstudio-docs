@@ -13,36 +13,36 @@ helpviewer_keywords:
   - "SQLEXPRESS"
   - "upgrading SQLExpress to SQLExpress"
   - "upgrading to LocalDB"
-ms.assetid: 14ca6f76-f80e-4926-8020-3fee2d802b75
-caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-robots: noindex,nofollow
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Upgrade .mdf files
-This topic describes your options for upgrading your database file (.mdf) after you install a newer version of Visual Studio. It includes instructions for the following tasks:  
-  
--   Upgrade a database file to use a newer version of SQL Server Express LocalDB  
-  
--   Upgrade a database file to use a newer version of SQL Server Express  
-  
--   Work with a database file in Visual Studio but retain compatibility with an older version of SQL Server Express or LocalDB  
-  
--   Make SQL Server Express the default database engine  
-  
-You can use Visual Studio to open a  project that contains a database file (.mdf) that was created by using an older version of SQL Server Express or LocalDB. However, to continue to develop your project in Visual Studio, you must have that version of SQL Server Express or LocalDB  installed on the same machine as Visual Studio, or you must upgrade the database file. If you upgrade the database file, you won't be able to access it by using older versions of SQL Server Express or LocalDB.  
-  
-You may also be prompted to upgrade a database file that was created through an earlier version of SQL Server Express or LocalDB if the version of the file isn't compatible with the instance of SQL Server Express or LocalDB that's currently installed. To resolve the issue, Visual Studio will prompt you to upgrade the file.  
-  
+
+This topic describes the options for upgrading a database file (.mdf) after you install a newer version of Visual Studio. It includes instructions for the following tasks:
+
+- Upgrade a database file to use a newer version of SQL Server Express LocalDB
+
+- Upgrade a database file to use a newer version of SQL Server Express
+
+- Work with a database file in Visual Studio but retain compatibility with an older version of SQL Server Express or LocalDB
+
+- Make SQL Server Express the default database engine
+
+You can use Visual Studio to open a  project that contains a database file (.mdf) that was created by using an older version of SQL Server Express or LocalDB. However, to continue to develop your project in Visual Studio, you must have that version of SQL Server Express or LocalDB  installed on the same machine as Visual Studio, or you must upgrade the database file. If you upgrade the database file, you won't be able to access it by using older versions of SQL Server Express or LocalDB.
+
+You may also be prompted to upgrade a database file that was created through an earlier version of SQL Server Express or LocalDB if the version of the file isn't compatible with the instance of SQL Server Express or LocalDB that's currently installed. To resolve the issue, Visual Studio will prompt you to upgrade the file.
+
 > [!IMPORTANT]
-> We recommend that you back up the database file before you upgrade it.  
-  
+> We recommend that you back up the database file before you upgrade it.
+
 > [!WARNING]
 > If you upgrade an .mdf file that was created in LocalDB 2014 (V12) 32 bit to LocalDB 2016 (V13) or later, you will not be able to open the file again in the 32-bit version of LocalDB.
-  
-Before you upgrade a database, consider the following criteria:  
+
+Before you upgrade a database, consider the following criteria:
   
 -   Don't upgrade if you want to work on your project in both an older version and a newer version of Visual Studio.  
   
@@ -111,4 +111,5 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
     SQL Server Express will be the default database engine for your applications.
 
 ## See also
+
 [Accessing data in Visual Studio](accessing-data-in-visual-studio.md)

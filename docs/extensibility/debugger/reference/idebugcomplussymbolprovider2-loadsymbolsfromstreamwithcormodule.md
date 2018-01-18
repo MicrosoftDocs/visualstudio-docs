@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 Load debug symbols from a data stream given the **ICorDebugModule** object.  

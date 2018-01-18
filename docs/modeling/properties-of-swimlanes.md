@@ -10,11 +10,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.swimlane"
 helpviewer_keywords: 
   - "Domain-Specific Language, swimlane"
-ms.assetid: 47edbc2d-09e4-48ac-b4d1-5268a06a27e6
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Swimlanes
 You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or horizontal areas. You can define other shapes to be displayed inside swimlanes. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  

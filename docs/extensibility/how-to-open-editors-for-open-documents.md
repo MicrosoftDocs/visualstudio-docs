@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Open Editors for Open Documents
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  

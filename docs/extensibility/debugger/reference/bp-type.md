@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_TYPE
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.  

@@ -16,6 +16,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 5: Change Source Control
 This source-control plug-in test area covers changing the source control via the **Change Source Control** command.  

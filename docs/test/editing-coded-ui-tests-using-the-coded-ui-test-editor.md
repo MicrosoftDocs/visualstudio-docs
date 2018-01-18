@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codedUItest.testeditor"
 helpviewer_keywords: 
   - "coded UI test, Coded UI Test Editor"
-ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
-caps.latest.revision: 40
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Editing Coded UI Tests Using the Coded UI Test Editor
 The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit the properties of your test methods and UI actions. In addition, you can use the UI control map to view and edit their corresponding controls.  
@@ -211,9 +211,9 @@ Edit control properties
 ### Forum  
  [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  
   
-## See Also  
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)   
- [Generating a Coded UI Test from an Existing Action Recording](/devops-test-docs/test/generating-a-coded-ui-test-from-an-existing-action-recording)   
- [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+## See also
+
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)  
+[Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)  
+[Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

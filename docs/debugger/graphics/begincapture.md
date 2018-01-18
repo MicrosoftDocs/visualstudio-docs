@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # BeginCapture
 Begins a capture interval that will end with `EndCapture`.  

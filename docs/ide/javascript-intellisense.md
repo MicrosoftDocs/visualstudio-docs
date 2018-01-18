@@ -28,6 +28,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # JavaScript IntelliSense
 
@@ -46,7 +48,7 @@ TypeScript uses several sources to build up this information:
 
 - [IntelliSense based on type inference](#TypeInference)
 - [IntelliSense based on JSDoc](#JsDoc)
-- [IntelliSense based on TypeScript declaration files](#TSDeclFiles)
+- [IntelliSense based on TypeScript declaration files](#TsDeclFiles)
 - [Automatic acquisition of type definitions](#Auto)
 
 ### <a name="TypeInference"></a>IntelliSense based on type inference

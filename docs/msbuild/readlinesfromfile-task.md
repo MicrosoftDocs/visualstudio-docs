@@ -23,6 +23,8 @@ caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ReadLinesFromFile Task
 Reads a list of items from a text file.  

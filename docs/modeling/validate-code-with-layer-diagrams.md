@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "MSBuild, tasks"
   - "MSBuild, dependency diagrams"
   - "MSBuild, validating code"
-ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
-caps.latest.revision: 82
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Validate code with dependency diagrams
 

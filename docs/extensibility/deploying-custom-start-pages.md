@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Deploying Custom Start Pages
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  

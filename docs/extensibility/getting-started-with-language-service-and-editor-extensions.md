@@ -15,6 +15,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Started with Language Service and Editor Extensions
 You can use editor extensions to add language service features such as outlining, brace matching, IntelliSense, and light bulbs to your own programming language or to any content type. You can also customize the appearance and behavior of the Visual Studio editor, for example text coloring, margins, adornments, and other visual elements. You can also define your own type of content, and specify the appearance and behavior of the text views in which your content appears.  

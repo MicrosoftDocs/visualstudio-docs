@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "loops, through found items in documents"
   - "documents [Office development in Visual Studio], searching"
   - "text [Office development in Visual Studio], searching in documents"
-ms.assetid: 68dc41b1-eb96-4697-ac93-1a88c862ebad
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Loop Through Found Items in Documents
   The <xref:Microsoft.Office.Interop.Word.Find> class has a <xref:Microsoft.Office.Interop.Word.Find.Found%2A> property, which returns **true** whenever a searched-for item is found. You can loop through all instances found in a <xref:Microsoft.Office.Interop.Word.Range> using the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method.  

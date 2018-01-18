@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Add Existing Item Command
 Adds an existing file to the current solution and opens it.  

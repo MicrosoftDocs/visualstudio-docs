@@ -21,11 +21,11 @@ helpviewer_keywords:
   - "Visual Studio ALM, graph documents"
   - "Visual Studio Ultimate, graph documents"
   - "dependency graphs, browsing"
-ms.assetid: 08f65f77-6ca7-4b25-b060-3f6c9f5847a4
-caps.latest.revision: 91
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Browse and rearrange code maps
 Rearrange items on code maps to make them easier to read and improve their performance.  

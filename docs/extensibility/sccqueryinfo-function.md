@@ -17,6 +17,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccQueryInfo Function
 This function obtains status information for a set of selected files under source control.  

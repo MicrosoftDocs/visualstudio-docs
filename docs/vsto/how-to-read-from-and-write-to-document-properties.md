@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], properties"
   - "document properties [Office development in Visual Studio]"
   - "Excel [Office development in Visual Studio], document properties"
-ms.assetid: e9ef9fa3-36b9-48fb-8148-f5152463c03c
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Read from and Write to Document Properties
   You can store document properties along with a document. Office applications provide a number of built-in properties, such as author, title, and subject. This topic shows how to set document properties in Microsoft Office Excel and Microsoft Office Word.  

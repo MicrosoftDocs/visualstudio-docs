@@ -26,6 +26,8 @@ caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use Dump Files with Visual Studio
 Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdb's, and source file for a dump file.

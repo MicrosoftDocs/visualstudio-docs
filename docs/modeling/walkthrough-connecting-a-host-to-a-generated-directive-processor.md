@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "walkthroughs [text templates], connecting host to processor"
   - "text templates, custom directive hosts"
-ms.assetid: 254540d9-90d6-42de-8c1c-068affd56e83
-caps.latest.revision: 47
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Connecting a Host to a Generated Directive Processor
 You can write your own host that processes text templates. A basic custom host is demonstrated in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). You could extend that host to add functions such as generating multiple output files.  

@@ -33,6 +33,8 @@ caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View the call stack and use the Call Stack Window in the Visual Studio debugger
 

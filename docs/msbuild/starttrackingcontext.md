@@ -20,6 +20,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StartTrackingContext
 Start a tracking context.  

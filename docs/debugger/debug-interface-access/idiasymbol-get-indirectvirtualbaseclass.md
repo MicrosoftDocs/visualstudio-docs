@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_indirectVirtualBaseClass
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.  

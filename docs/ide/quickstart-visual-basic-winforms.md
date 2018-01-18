@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
@@ -12,8 +12,10 @@ ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs:
+dev_langs: 
   - vb
+ms.workload: 
+  - "multiple"
 ---
 # Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).
@@ -92,5 +94,5 @@ Now that we've added a button control to create an action, let's add a label con
 Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## See also   
-* [Quickstart: Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md) ](https://docs.microsoft.com/dotnet/core/tutorials/vb-with-visual-studio)
+* [Quickstart: Create a console app in Visual Studio with Visual Basic](quickstart-visual-basic-console.md)
 * [Learn more about Visual Basic IntelliSense](visual-basic-specific-intellisense.md)  

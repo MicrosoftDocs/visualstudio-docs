@@ -23,6 +23,8 @@ caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # RemoveDir Task
 Removes the specified directories and all of its files and subdirectories.  

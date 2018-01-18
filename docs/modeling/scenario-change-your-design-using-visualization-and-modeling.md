@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "walkthrough [Visual Studio ALM], visualizing code"
   - "walkthrough [Visual Studio ALM], modeling software"
   - "walkthroughs [Visual Studio ALM], modeling software"
-ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
-caps.latest.revision: 61
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Scenario: Change your design using visualization and modeling
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio.

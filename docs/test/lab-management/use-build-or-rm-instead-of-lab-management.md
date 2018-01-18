@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "automated testing, lab management, test lab"
-ms.assetid: F34B0D19-B430-4C01-B402-62A861007E71
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Use Build and Release Management instead of Lab Management for automated testing
 

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_PASSCOUNT_STYLE
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.  

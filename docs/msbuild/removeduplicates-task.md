@@ -23,6 +23,8 @@ caps.latest.revision: 9
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # RemoveDuplicates Task
 Removes duplicate items from the specified item collection.  

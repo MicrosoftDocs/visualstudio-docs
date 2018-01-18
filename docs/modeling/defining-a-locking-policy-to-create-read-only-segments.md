@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fa549c71-2bf6-4b08-b7b2-7756dd6f1dc8
-caps.latest.revision: 12
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Defining a Locking Policy to Create Read-Only Segments
 The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  

@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2697fd5d-b936-4b6b-b87b-be64825dc7a4
-caps.latest.revision: 2
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Controlling the Visibility of an Icon or Decorator
 A *decorator* is an icon or line of text that appears on a shape in a domain-specific language (DSL). You can make the decorator appear and disappear depending on the state of properties in the model. For example, on a shape representing a Person, you could have different icons that appear depending on the person's gender, number of children, and so on.  

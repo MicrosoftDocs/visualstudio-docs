@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3db02722-5fd5-437f-a789-9acaaa809de8
-caps.latest.revision: 6
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working with Domain-Specific Language Solutions
 A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.  

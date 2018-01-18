@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with R in for Visual Studio | Microsoft Docs"
+title: "Getting started with R in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Getting started with R Tools for Visual Studio
@@ -42,7 +44,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 > [!Note]
 > You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools > Windows > R Interactive** at any time.
 
-## Explore the Interactive window and IntelliSense
+## Explore the Interactive Window and IntelliSense
 
 1. Test that the interactive window is working by typing in `3 + 4` and then Enter to see the result:
 

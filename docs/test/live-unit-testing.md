@@ -2,16 +2,16 @@
 title: "Live Unit Testing in Visual Studio | Microsoft Docs"
 ms.date: "2017-03-07"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
-ms.assetid: 5b51fb96-94f4-4926-92b9-262156c05b85
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 
 # Live Unit Testing with Visual Studio 2017
@@ -114,7 +114,7 @@ By hovering over the succeeded or failed symbol in the code window, you can see 
  
   ![Image](./media/lut-failedinfo.png) 
 
-In addition to providing the names and result of tests, the tooltip lets you re-run the set of tests, as well as run the set of tests using the debugger. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an [`Assert`](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert) method that returns an unexpected result. 
+In addition to providing the names and result of tests, the tooltip lets you re-run the set of tests, as well as run the set of tests using the debugger. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an [`Assert`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert) method that returns an unexpected result. 
 
 When you hover over a failed test in the tooltip, it expands to provide additional info about the failure, as shown in the following image. If you double-click on the failed test in the tooltip, you can navigate directly to it.
 

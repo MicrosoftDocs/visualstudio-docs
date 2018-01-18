@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Sequence Activity Designer
 The <xref:System.Activities.Statements.Sequence> activity contains an ordered collection of child activities that it executes in order.  

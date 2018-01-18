@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointRequest2
 This interface represents the information necessary to create and bind any type of breakpoint.  

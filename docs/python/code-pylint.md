@@ -13,6 +13,9 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Using PyLint to check Python code
@@ -36,13 +39,13 @@ Double-clicking an error takes you directly to the source code that generated th
 
 ## Setting PyLint command-line options
 
-The [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) section of the PyLint documentation describes how to control PyLint's behavior through a `.pylintrc` configuration file. Such a file can be placed in the root of a Python project in Visual Studio or elsewhere depending on how widely you want those settings applied.
+The [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) section of the PyLint documentation describes how to control PyLint's behavior through a `.pylintrc` configuration file. Such a file can be placed in the root of a Python project in Visual Studio or elsewhere depending on how widely you want those settings applied (see the [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) for details).
 
 For example, to suppress the "missing docstring" warnings shown in the previous image with a `.pylintrc` file in a project, do the  steps:
 
 1. On the command line, navigate to your project root (which contains your `.pyproj` file) and run the following command to generate a commented configuration file:
 
-   ```bash
+   ```command
    pylint --generate-rcfile > .pylintrc
    ```
 
@@ -51,3 +54,6 @@ For example, to suppress the "missing docstring" warnings shown in the previous 
 1. Open the file for editing, which contains a variety of settings you can work with. To disable a warning, locate the `[MESSAGES CONTROL]` section, then locate the `disable` setting in that section. There is a long string of specific messages, to which you can append whichever warnings you want. In the example here, append `,missing-docstring` (including the delineating comma).
 
 1. Save the `.pylintrc` file and run PyLint again to see that the warnings are now suppressed.
+
+> [!Tip]
+> To use a `.pylintrc` file from a network share, create an environment variable named `PYLINTRC` with the value of the filename on the network share using a UNC path or a mapped drive letter. For example, `PYLINTRC=\\myshare\python\.pylintrc`.

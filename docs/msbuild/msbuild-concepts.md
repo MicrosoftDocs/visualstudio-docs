@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Concepts
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a basic XML schema that you can use to control how the build platform builds software. To specify the components in the build and how they are to be built, use these four parts of MSBuild: properties, items, tasks, and targets.  
@@ -24,9 +26,9 @@ manager: ghogen
 |Title|Description|  
 |-----------|-----------------|  
 |[MSBuild Properties](../msbuild/msbuild-properties.md)|Introduces properties and property collections. Properties are key/value pairs that you can use to configure builds.|  
-|[Items](../msbuild/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file format and how the pieces fit together.|  
-|[Targets](../msbuild/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
-|[Tasks](../msbuild/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.|  
+|[MSBuild Items](../msbuild/msbuild-items.md)|Introduces items and item collections. Items are inputs into the build system and typically represent files.|  
+|[MSBuild Targets](../msbuild/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
+|[MSBuild Tasks](../msbuild/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.|  
 |[Comparing Properties and Items](../msbuild/comparing-properties-and-items.md)|Compares MSBuild properties and items. Both are used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.|  
 |[MSBuild Special Characters](../msbuild/msbuild-special-characters.md)|Explains how to escape some characters that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reserves for special use in specific contexts.|  
 |[Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  

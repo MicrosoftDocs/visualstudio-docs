@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], creating"
-ms.assetid: b033fc06-cdeb-4d7f-804b-86d15bfa022a
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Designing an Outlook Form Region
   Custom form regions extend standard or custom Microsoft Office Outlook forms. In this walkthrough, you will design a custom form region that appears as a new page in the Inspector window of a contact item. This form region displays a map of each address that is listed for the contact, by sending the address information to the Windows Live Local Search Web site. For information about form regions, see [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md).  

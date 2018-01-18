@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Modules View - .NET Memory Instrumentation Data
 The Modules view of .NET memory allocation data collected by using the instrumentation method groups the memory and timing data by the modules that were executed in the profiling run. Profiling data for the functions of the module is listed underneath the module node.  

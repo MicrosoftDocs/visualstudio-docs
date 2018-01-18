@@ -11,11 +11,11 @@ helpviewer_keywords:
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-ms.assetid: 58c3ea71-2dbc-4963-bf82-40f1924cf973
-caps.latest.revision: 64
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create dependency diagrams from your code
 To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# .NET and Visual Basic .NET projects. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  

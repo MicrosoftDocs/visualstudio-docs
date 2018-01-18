@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.  

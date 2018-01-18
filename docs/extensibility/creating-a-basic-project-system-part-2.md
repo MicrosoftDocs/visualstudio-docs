@@ -17,6 +17,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Basic Project System, Part 2
 The first walkthrough in this series, [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.  

@@ -13,9 +13,11 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
-# Working with the R Interactive window
+# Working with the R Interactive Window
 
 R Tools for Visual Studio (RTVS) provides an R interactive window, also known as a **REPL** (Read-Evaluate-Print-Loop) window, in which you can enter R code and immediately see the results. All modules, syntax, and variables, as well as IntelliSense, is available in the interactive window.
 
@@ -30,7 +32,7 @@ To experience these features, follow the [Getting Started with R](getting-starte
 
 [Code snippets](code-snippets.md) also work in the interactive window like they do in R editor windows.
 
-## Overview of the interactive window
+## Overview of the Interactive Window
 
 Typing valid R code and pressing Enter at the end of the line runs the code on that line:
 
@@ -72,7 +74,6 @@ The toolbar commands are as follows, most of which have keyboard equivalents and
 | ![Set working directory to project location button](media/repl-toolbar-11-set-working-directory-to-project.png) | Set Working Directory to Project Location | Ctrl+Shift+P | Sets the working directory to the root of the currently loaded project in Visual Studio. See [Working directory](#working-directory). |
 | (Text field) | Select Working Directory | n/a | Direct input field for the working directory. See [Working directory](#working-directory). |
 
-
 ## Workspaces and sessions
 
 Running code in the interactive window builds up a context in your current session. The context is composed of global variables, function definitions, library loads, and so forth. This context is collectively called a *workspace*, and you can save and load workspaces at any time. 
@@ -85,12 +86,10 @@ To reload a previously saved workspace, select the **Load Workspace** button or 
 
 The **Reset** button or **R Tools > Session > Reset** clears the session context. If you're using a remote session, resetting also deletes the user profile on the remote machine to clear off all files stored there. (See [Workspaces](workspaces.md#directories-on-local-and-remote-computers).)
 
-
 ## Working Directory
 
 Developers commonly want to change their working directory while in an interactive session. Various commands, available on the toolbar, the **R Tools > Working directory** menu, and the project context menu allows you to easily set a working directory to the location of a source file, the location or your project, or any other arbitrary location. Doing so helps you avoid typing out full pathnames or lengthy relative pathnames when referring to files.
 
- 
 ## History
 
 Every line you enter in the interactive window, includes lines sent from an editor, are preserved in the REPL's history. You can then navigate through history with the Up and Down arrow keys, as you are likely accustomed to on the command line.

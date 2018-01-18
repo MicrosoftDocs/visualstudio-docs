@@ -13,6 +13,8 @@ caps.latest.revision: 29
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 6: Name Your Button Controls
 There's only one PictureBox on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one CheckBox, which is named **checkBox1**. Soon, you will write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you will know what it means when you see **pictureBox1** or **checkBox1** in your code.  
@@ -69,7 +71,7 @@ Form1.cs tab with Visual C# code
   
      After you add an event handler for a control, you can return to it at any time from Windows Forms Designer by double-clicking the control, or on the menu bar, choosing **View**, **Code**.  
   
-     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../csharp-ide/refactoring/rename.md) or [Rename Refactoring (Visual Basic)](../vb-ide/refactoring/rename.md) for more information.
+     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../ide/reference/rename-csharp.md) or [Rename Refactoring (Visual Basic)](../ide/reference/rename-vb.md) for more information.
   
 ### To continue or review  
   

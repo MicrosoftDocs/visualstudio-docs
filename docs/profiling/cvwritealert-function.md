@@ -23,6 +23,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvWriteAlert Function
 Writes an alert to the Concurrency Visualizer trace file.  

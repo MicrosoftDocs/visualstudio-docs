@@ -20,6 +20,8 @@ caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Package&gt; Element (Bootstrapper)
 The `Package` element is the top-level XML element inside of a package file.  

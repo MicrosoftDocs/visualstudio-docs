@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 Retrieves information about the symbol group of which the symbol provider is a member.  

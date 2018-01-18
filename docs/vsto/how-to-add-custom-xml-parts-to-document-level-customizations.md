@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], custom XML parts"
   - "custom XML parts [Office development in Visual Studio], adding"
   - "documents [Office development in Visual Studio], custom XML parts"
-ms.assetid: e305a3d6-3a0e-4e72-ab8c-6a87a3590068
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Custom XML Parts to Document-Level Customizations
   You can store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization. For more information, see [Custom XML Parts Overview](../vsto/custom-xml-parts-overview.md).  

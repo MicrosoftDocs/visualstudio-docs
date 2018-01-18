@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a1ae073-443e-45ca-8bc9-9b944362b449
-caps.latest.revision: 14
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].  

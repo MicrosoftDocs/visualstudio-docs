@@ -16,6 +16,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSPackage Registration
 VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.  

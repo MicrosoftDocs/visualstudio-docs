@@ -1,5 +1,5 @@
 ---
-title: "Proxy authorization required error | Microsoft Docs"
+title: "Correcting proxy authorization required errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/22/2017"
 ms.reviewer: ""
@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Proxy Authorization Required
 
@@ -55,7 +57,3 @@ This error generally occurs when users are connected to the internet through a p
     OR
 
 - You can also follow the instructions in [this post](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) to add code that will allow you to use the proxy.
-
-## See also
-
-[Internet resources used by Visual Studio](../connected-environment.md)

@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessQueryProperties::QueryProperties
 This method queries for a specified property values of the debugging process.  

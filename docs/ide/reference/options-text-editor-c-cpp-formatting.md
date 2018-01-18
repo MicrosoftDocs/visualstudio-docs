@@ -12,7 +12,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.C%2fC%2b%2b.Formatting.General"
 dev_langs: 
-  - "C++"
+  - "CPP"
 helpviewer_keywords: 
   - "Text Editor Options dialog box, formatting"
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
@@ -20,6 +20,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Formatting
 Lets you change the default behavior of the Code Editor when you are programming in C or C++.  

@@ -1,5 +1,5 @@
 ---
-title: Editing Code with the R Tools for Visual Studio | Microsoft Docs
+title: Editing code with the R Tools for Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Editing R code in Visual Studio
@@ -31,7 +33,7 @@ In this topic:
 
 Also see the topics on [IntelliSense](code-intellisense.md), [linting](code-linting.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
 
-## Syntax highlighting 
+## Syntax highlighting
 
 In addition to coloring different parts of your code, such as strings, comments, and keywords, RTVS also highlights and enables links in comments:
 
@@ -64,7 +66,7 @@ Collapsible code regions let you temporarily hide part of code in the editor. Vi
 To create a region of your own, surround the desired code with comments that end with `---`. The small +/- controls to the left of the code lets you then expand and collapse regions:
 
 ![Creating a collapsible region with comments](media/editing-collapsible-regions.gif)
- 
+
 By default, Visual Studio inserts spaces when you press the Tab key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages.md).
 
 ## Code navigation

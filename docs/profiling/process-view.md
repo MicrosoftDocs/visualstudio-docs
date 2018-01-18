@@ -21,6 +21,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Process View
 The Process view displays profiling data for the processes and threads that were executed during the profiling run.  
