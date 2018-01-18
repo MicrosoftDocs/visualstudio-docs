@@ -25,7 +25,7 @@ For more information about keyboard accessibility, see [Accessibility Tips and T
 
 You can access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This topic lists the default shortcuts for the General Development profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
 
-For a list of common keyboard shortcuts and other productivity information, see [Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md),  [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md), and [Productivity Tips](../ide/productivity-tips-for-visual-studio.md).
+For a list of common keyboard shortcuts and other productivity information, see [Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md),  [Keyboard tips](../ide/tips-and-tricks-for-visual-studio.md), and [Productivity tips](../ide/productivity-tips-for-visual-studio.md).
 
 The sections in the following table include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:
 
