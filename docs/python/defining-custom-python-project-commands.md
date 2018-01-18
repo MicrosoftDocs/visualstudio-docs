@@ -1,6 +1,6 @@
 ---
-title: How To Define Custom Commands for Python Projects in Visual Studio | Microsoft Docs
-description: Demonstrates how to edit project or targets files to add custom commands to the Python project context menu in Visual Studio.
+title: How To Define Custom Menu Commands for Python Projects in Visual Studio | Microsoft Docs
+description: Demonstrates how to edit project and targets files to add custom commands to the Python project context menu in Visual Studio. Commands can invoke on executable programs, scripts, modules, inline code snippets, and pip.
 ms.custom: ""
 ms.date: 01/18/2018
 ms.reviewer: ""
@@ -21,27 +21,95 @@ ms.workload:
 
 # Defining custom commands for Python projects
 
-In the process of working with your Python projects, you may find it yourself switching to a command window to run specific scripts. To improve your workflow, you can add custom commands to the **Python** sub-menu in the Python project context menu. By default, that menu contains only the single **Run Pylint** command:
+In the process of working with your Python projects, you may find it yourself switching to a command window to run specific scripts or modules, run pip commands, or run some other arbitrary tool. To improve your workflow, you can add custom commands to the **Python** sub-menu in the Python project context menu and have those commands run in a console window or in the Visual Studio output window. You can also use regular expressions to instruct Visual Studio how to parse errors and warnings from the command's output. 
+
+By default, that menu contains only the single **Run Pylint** command:
 
 ![Default appearance of the Python sub-menu on a project's context menu](media/custom-commands-default-menu.png)
 
-Custom commands can be added to a project file directly, where they apply to only that individual project, or to a `.targets` file so that they appear for all projects of a particular type.
+Custom commands appear in this same context menu. Custom commands can be added to a project file directly, where they apply to only that individual project, or to a `.targets` file so that they appear for all projects of a particular type.
 
 Certain Python project templates in Visual Studio already add custom commands of their own using their `.targets` file. For example, the Bottle Web Project and Flask Web Project templates both add two commands, **Start server** and **Start debug server**. The Django Web Project template add these same commands plus quite a few more:
 
 ![Appearance of the Python sub-menu on a Django project's context menu](media/custom-commands-django-menu.png)
 
-Each custom menu command simply contains the appropriate command that Visual Studio runs as if you entered it in a command window. This means that you can run Python scripts or tools written in any other language.
-
-This article first explains the structure of a custom command, then demonstrates adding commands to a project file and a `.targets` file.
+Each custom command can refer to a Python file, a Python module, inline Python code, an arbitrary executable, or a pip command. You can also specify how and where the command runs.
 
 > [!Tip]
-> The typical process of editing a project file in Visual Studio means right-clicking the project file and selecting **Unload project**, then right-clicking again and selecting **Edit (project-name)**, making and saving edits, then right-clicking the project once more and selecting **Reload project**.
-> Although these steps work, they become tedious when developing a custom command. A more efficient workflow is to have the project loaded in Visual Studio, then open the project file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the separate editor and switch to Visual Studio, Visual Studio detects the changes and asks whether to reload the project. Select **Reload** and your changes are immediately applied.
+> Whenever you make changes to a project file in a text editor, it's necessary to reload the project in Visual Studio to apply those changes. For example, you must reload a project after adding custom command definitions for those commands to appear on the project's context menu.
+>
+> As you may know, Visual Studio provide a means to edit the project file direct. You first right-click the project file and select **Unload project**, then right-click again and select **Edit (project-name)** to open the project in the Visual Studio editor. You then make and save edits, then right-click the project once more and select **Reload project**, which also prompts you to confirm closing the project file in the editor.
+>
+> Unfortunately, all these clicks become quite tedious in the inner loop of developing a custom command. A more efficient workflow is thus to have the project loaded in Visual Studio, then open the project file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the editor and switch to Visual Studio, Visual Studio detects the changes and asks whether to reload the project ("The project (name) has been modified outside the environment."). Select **Reload** and your changes are immediately applied in just one step.
+
+## Walkthrough: add a single command to a project file
+
+To familiarize yourself with custom commands, this section walks through a simple example that runs a project's startup file directly using python.exe. (Such a command is effectively the same as using **Debug > Start Without Debugging**.)
+
+1. Create a new project named "Python-CustomCommands" using the "Python Application" template. (See [Quickstart: Create a Python project from a template](quickstart-02-project-from-template.md) for instructions if you're not already familiar with the process.)
+
+1. In `Python_CustomCommands.py`, add the code `print("Hello custom commands")`.
+
+1. Right-click the project in **Solution Explorer**, select **Python**, and notice that the only command that appears on the sub-menu is **Run PyLint**. Your custom commands will appear on this same sub-menu.
+
+1. As suggested in the introduction, open `Python-CustomCommands.pyproj` in a separate text editor. Then add the following lines at the end of the file just inside the closing `</Project>` and save the file.
+
+    ```xml
+    <PropertyGroup>
+      <PythonCommands>
+        $(PythonCommands);
+      </PythonCommands>
+    </PropertyGroup>
+    ```
+
+1. Switch back to Visual Studio and select **Reload** when it prompts you about the file change. Then check the **Python** menu again to see that **Run PyLint** is still the only item shown there. This is because the lines you added only replicate the default `<PythonCommands>` property group containing the PyLint command.
+
+1. Switch to the editor with the project file and add the following `<Target>` definition after the `<PropertyGroup>`. As explained later in this article, this Target element defines a custom command to run the startup file (identified by the "StartupFile" property) using `python.exe` in a console window. The attribute `ExecuteIn="consolepause"` uses a console that waits for you to press a key before closing.
+
+    ```xml
+    <Target Name="Example_RunStartupFile" Label="Run startup file" Returns="@(Commands)">
+      <CreatePythonCommandItem
+        TargetType="script"
+        Target="$(StartupFile)"
+        Arguments=""
+        WorkingDirectory="$(MSBuildProjectDirectory)"
+        ExecuteIn="consolepause">
+        <Output TaskParameter="Command" ItemName="Commands" />
+      </CreatePythonCommandItem>
+    </Target>
+    ```
+
+1. Add the value of the Target's `Name` attribute to the `<PythonCommands>` property group added earlier, so that the element looks like the code below. Adding the name of the target to this list is what adds it to the **Python** menu.
+
+    ```xml
+      <PythonCommands>
+        $(PythonCommands);
+        Example_RunStartupFile
+      </PythonCommands>
+    ```
+
+    If you want your command to appear before those defined in `$(PythonCommands)`, place them before that token.
+
+1. Save the project file, switch to Visual Studio, and reload the project when prompted. Then right-click the "Python-CustomCommands" project and select **Python**. You should see a **Run startup file** item on the menu. If you don't see the menu item, check that you added the name to the `<PythonCommands>` element. Also see [Troubleshooting](#troubleshooting) later in this article.
+
+    ![Custom command appearing on the Python context sub-menu](media/custom-commands-walkthrough-menu-item.png)
+
+1. Select the **Run startup file** command and you should see a command window appear with the text "Hello custom commands" followed by "Press any key to continue . . .".  Press a key to close the window.
+
+    ![Custom command output in a console window](media/custom-commands-walkthrough-console.png)
+
+1. Return to the editor with the project file and change the value of the `ExecuteIn` attribute to "output". Save the file, switch to Visual Studio, reload the project, and invoke the command again. This time you see the program's output appear in Visual Studio's **Output** window:
+
+    ![Custom command output in the output window](media/custom-commands-walkthrough-output-window.png)
+
+1. To add more commands, define a suitable `<Target>` element for each command, add the name of the target into the `<PythonCommands>` property group, and reload the project in Visual Studio.
+
+>[!Tip]
+> If you invoke a command that uses project properties, such as `($StartupFile)`, and the command fails because the token is undefined, Visual Studio disables the command until you reload the project. Making changes to the project that would define the property, however, does not refresh the state of these commands, so you still need to reload the project in such cases.
 
 ## Command target structure
 
-A custom commands is defined with a `<Target>` element that contains a `<CreatePythonCommandItem>` element, as shown in the following general form:
+The previous section demonstrated the process of defining a custom command using a `<Target>` element. The general form of that element is shown in the following pseudo-code:
 
 ```xml
 <Target Name="Name1" Label="Display Name" Returns="@(Commands)">
@@ -52,7 +120,8 @@ A custom commands is defined with a `<Target>` element that contains a `<CreateP
         WorkingDirectory="..."
         ErrorRegex="..."
         WarningRegex="..."
-        RequiredPackages="...;...">
+        RequiredPackages="...;..."
+        Environment="...">
 
       <!-- Output always appears in this form, with these exact attributes -->
       <Output TaskParameter="Command" ItemName="Commands" />
@@ -60,34 +129,39 @@ A custom commands is defined with a `<Target>` element that contains a `<CreateP
   </Target>
 ```
 
-Project properties can be used in attribute values, such as "$(StartupFile)".
+To refer to project properties in attribute values, use the name within a `$()` token, such as `$(StartupFile)` and `$(MSBuildProjectDirectory)`.
 
-**Target attributes:**
+[TODO: does that also apply to environment variables? Also provide a link to project stuff generally.]
+
+### Target attributes
 
 | Attribute | Required | Description |
 | --- | --- | --- |
-| Name | Yes | The identifier for the command within the Visual Studio project. |
-| Label | Yes | The UI display name that appears in the Python menu. |
-| Returns | Yes | Must contain `@(Commands)`. |
+| Name | Yes | The identifier for the command within the Visual Studio project. This name must be added to the `<PythonCommands>` property group for the command to appear on the Python sub-menu. |
+| Label | Yes | The UI display name that appears in the Python sub-menu. |
+| Returns | Yes | Must contain `@(Commands)`, which identifies the target as a command. |
 
-**CreatePythonCommandItem attributes** 
+### CreatePythonCommandItem attributes
+
+All attribute values are case-insensitive.
+
 | Attribute | Required | Description |
 | --- | --- | --- |
-| TargetType | Yes | Specifies what Target contains, which determines how it's used. The allowable, case-insensitive values are:<ul><li>**executable**: Target contains the name of an executable program that is run as if entered directly on the command line. The value must contain only a program name with no arguments.</li><li>**script**: Target contains the name of a Python code file which is run with `python.exe`. The string in Arguments is appended to the command.</li><li>**module**: the name of a module which is run with `python.exe -m`. The string in Arguments is appended to the command.</li><li>**code**: Target contains inline Python code. The Arguments value is ignored.</li><li>**pip**: Target contains arguments to run with `pip`.</li></ul> |
-| Target | Yes | The filename, module name, or code to use with the command, depending on the TargetType. The value can be the name of property defined elsewhere in the project file or a `.targets` file. See example below. |
-| Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not python.exe. TBD: Examples |
-| ExecuteIn | Yes | Specifies how to run Target:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio</li><li>**repl**: Runs Target in the Interactive Window; the optional display name is used for the title of the window.</li><li>**none**: Uses whatever is the default for the command.</li></ul>|
-| WorkingDirectory | Optional | The folder in which to run the Target. |
-| ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression used to parse errors and warnings from the target's output. Those errors and warnings are displayed in the Error List window in Visual Studio. If not specified, errors/warnings are not detected. |
-| RequiredPackages | Optional | A list of package requirements for the command using setuptools format. Visual Studio checks that all packages in this list are installed before running the command, installing any missing packages using pip. For example, the **Run PyLint** command uses a value of `pylint>=1.0.0` for this attribute. |
+| TargetType | Yes | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run `python.exe` with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Target contains arguments to run with `pip` [TODO].</li></ul> |
+| Target | Yes | The filename, module name, code, or pip arguments [TODO] to use with the command, depending on the TargetType. |
+| Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not `python.exe`. Ignored for the `code` TargetType. |
+| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio</li><li>**repl**: Runs Target in the [Python Interactive Window](interactive-repl.md); the optional display name is used for the title of the window.</li><li>**none**: Uses whatever is the default for the command.</li></ul>|
+| WorkingDirectory | Optional | The folder in which to run the command. |
+| ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its Error List window. If not specified, the command does not affect the Error List window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expression). |
+| RequiredPackages | Optional | A list of package requirements for the command using the same format as [requirements.txt](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
 | Environment | Optional | A string of environment variables to define before running the command. Each variable uses of the form NAME=VALUE with multiple variables separated by semicolons. An variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'. |
 
-**Named capture groups for regular expressions**
+#### Named capture groups for regular expressions
 
-The `ErrorRegex` and `WarningRegex` values should use named capture groups to extract and present information about the error or warning in question. Visual Studio recognizes the following named groups:
+When parsing error and warnings from a command's output, Visual Studio expects that the regular expressions in the `ErrorRegex` and `WarningRegex` values use the following named groups:
 
 - `(?<message>...)`: Text of the error
-- `(?<code>...)`: Error code
+- `(?<code>...)`: Error code [TODO: is this msg_id?]
 - `(?<filename>...)`: Name of the file for which the error is reported
 - `(?<line>...)`: Line number of the location in the file for which the error reported.
 - `(?<column>...)`: Column number of the location in the file for which the error reported.
@@ -99,24 +173,88 @@ For example, PyLint produces warnings of the following form:
 C:  1, 0: Missing module docstring (missing-docstring)
 ```
 
-To allow Visual Studio to parse such warnings and show them in the **Error List** window, the `WarningRegex` value for the **Run PyLint** command is as follows:
+To allow Visual Studio to extract the right information from such warnings and show them in the **Error List** window, the `WarningRegex` value for the **Run PyLint** command is as follows:
 
 ```
 ^(?<filename>.+?)\((?<line>\d+),(?<column>\d+)\): warning (?<msg_id>.+?): (?<message>.+?)$]]
 ```
 
-### Adding custom commands to a project file
-
-  <PropertyGroup>
-    <PythonCommands>$(PythonCommands);RunPythonCommand</PythonCommands>
-  </PropertyGroup>
-
-
 ## Creating a .targets file with custom commands
 
+Defining custom commands in a project file makes the available to only that project file. To use commands in multiple project files, you instead define the `<PythonCommands>` property group and all your `<Target>` elements in a `.targets` file. You then either import that file into individual project files, or apply it to Visual Studio generally by adding it to the [TODO] folder.
+
+In both cases, the `.targets` file is formatted as follows:
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PythonCommands>$(PythonCommands);RunPythonCommand</PythonCommands>
+    <PythonCommands>
+      $(PythonCommands);
+      <!-- Additional command names -->
+    </PythonCommands>
   </PropertyGroup>
+
+  <Target Name="..." Label="..." Returns="@(Commands)">
+    <!-- CreatePythonCommandItem and Output elements... -->
+  </Target>
+
+  <!-- Any number of additional Target elements-->
+</Project>
+```
+
+### Import targets into a project file
+
+To load a `.targets` file into a project, place a `<Import Project="(path)">` element anywhere within the `<Project>` element. For example, if you have a file named `CustomCommands.targets` in a `targets` subfolder in you project, use the following code:
+
+```xml
+<Import Project="targets/CustomCommands.targets"/>
+```
+
+One advantage of importing a targets file is that you don't need to edit the project file to edit your commands. However, it is necessary to reload the *solution*, not just the project, when you change the `.targets` file.
+
+### Include target in all Python projects
+
+1. Close Visual Studio
+
+1. Copy your `.targets` file to the folder where the other Python Tools targets are stored (consent to administrator privileges when prompted):
+
+    - Visual Studio 2017: `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\<VS_edition>\MSBuild\Microsoft\Visual Studio\15.0\Python Tools` where &lt;VS_edition&gt; is Community, Professional, or Enterprise.
+    - Visual Studio 2015 and earlier: [TBD]
+
+1. Add the line `<Import Project="CustomCommands.targets" />` (or using whatever your file is named) to the `Microsoft.PythonTools.targets` file. Doing to applies the commands to all Python projects. If you want to restrict the commands to sub-types, such as Web or Django projects, add the line instead to the appropriate `.targets` files in the same folder. Note that you may need to change security permissions to modify standard Visual Studio files.
+
+1. Launch Visual Studio and open a project. You should see your custom commands in the **Python** sub-menu.
+
+## Example commands
+
+[TDB: add more]
+
+### Run PyLint (module target)
+
+The following code appears in the `Microsoft.PythonTools.targets` file:
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);PythonRunPyLintCommand</PythonCommands>
+  <PyLintWarningRegex>
+    <![CDATA[^(?<filename>.+?)\((?<line>\d+),(?<column>\d+)\): warning (?<msg_id>.+?): (?<message>.+?)$]]>
+  </PyLintWarningRegex>
+</PropertyGroup>
+
+<Target Name="PythonRunPyLintCommand"
+        Label="resource:Microsoft.PythonTools.Common;Microsoft.PythonTools.Common.Strings;RunPyLintLabel"
+        Returns="@(Commands)">
+  <CreatePythonCommandItem Target="pylint.lint"
+                           TargetType="module"
+                           Arguments="&quot;--msg-template={abspath}({line},{column}): warning {msg_id}: {msg} [{C}:{symbol}]&quot; -r n @(Compile, ' ')"
+                           WorkingDirectory="$(MSBuildProjectDirectory)"
+                           ExecuteIn="output"
+                           RequiredPackages="pylint&gt;=1.0.0"
+                           WarningRegex="$(PyLintWarningRegex)">
+    <Output TaskParameter="Command" ItemName="Commands" />
+  </CreatePythonCommandItem>
+</Target>
+```
 
 ## Troubleshooting
 
@@ -126,7 +264,7 @@ Indicates that you have syntax errors in the project file. The message includes 
 
 ### Console window closes immediately after command is run
 
-?
+Use `ExecuteIn="consolepause"` instead of `ExecuteIn="console"`.
 
 ### Command does not appear on the menu
 
@@ -147,15 +285,20 @@ For example, in the following elements, the "Example" name in the property group
 
 Indicates that the contents of the `<Target>` or `<CreatePythonCommandItem>` elements are incorrect. Possible reasons include:
 
-- The `TargetType` attribute contains an unrecognized value.
-- The `ExecuteIn` attribute contains an unrecognized value.
+- The required `Target` attribute is empty.
+- The required `TargetType` attribute is empty or contains an unrecognized value.
+- The required `ExecuteIn` attribute is empty or contains an unrecognized value.
 - `ErrorRegex` or `WarningRegex` is specified without setting `ExecuteIn="output"`.
 
-TBD: details logged?
+Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases you may want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to `manage.py` if you haven't otherwise specified a server startup file in the project properties.
+
+[TBD: details logged somewhere?]
 
 ### Visual Studio hangs and crashes when running the command
 
 You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead.
+
+[TBD]
 
 ### Executable command "is not recognized as an internal or external command, operate program or batch file"
 
