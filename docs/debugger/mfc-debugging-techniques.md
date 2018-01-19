@@ -147,7 +147,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
     |-----------|-----------------|  
     |**allocMemDF**|Turn on diagnostic memory allocator (default).|  
     |**delayFreeMemDF**|Delay freeing memory when calling `delete` or `free` until program exits. This will cause your program to allocate the maximum possible amount of memory.|  
-    |**checkAlwaysMemDF**|Call [AfxCheckMemory](/en-us/cpp/mfc/reference/diagnostic-services#afxcheckmemory) every time memory is allocated or freed.|  
+    |**checkAlwaysMemDF**|Call [AfxCheckMemory](/cpp/mfc/reference/diagnostic-services#afxcheckmemory) every time memory is allocated or freed.|  
   
      These values can be used in combination by performing a logical-OR operation, as shown here:  
   
