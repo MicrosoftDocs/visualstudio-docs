@@ -24,7 +24,6 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
 |Type of App|Operating System and Tools|  
 |-----------------|--------------------------------|  
 |Windows Presentation Foundation (4.0 and above) applications|Windows 7 and above|  
-|Windows 8.1 and Windows Phone 8.1 apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|  
 |Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|  
   
 ## Looking at Elements in the Live Visual Tree  
