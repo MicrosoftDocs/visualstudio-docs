@@ -1,5 +1,6 @@
 ---
-title: Working with Python in Visual Studio, Step 3 | Microsoft Docs
+title: Working with Python in Visual Studio, Step 3, the Interactive REPL Window | Microsoft Docs
+description: Step 3 of a core tutorial for working with Python within Visual Studio, covering the Python Interactive REPL window.
 ms.custom: ""
 ms.date: 10/16/2017
 ms.reviewer: ""
@@ -20,7 +21,7 @@ ms.workload:
 
 # Step 3: Using the interactive REPL window
 
-**Previous step: [Writing and running code](vs-tutorial-01-02.md)**
+**Previous step: [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 
 The Visual Studio *interactive window* for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The interactive window provides all the capabilities of the REPL experience of the Python command line. It also makes it very easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 
@@ -93,7 +94,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Running code in the debugger](vs-tutorial-01-04.md)
+> [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 
 ### Going deeper
 

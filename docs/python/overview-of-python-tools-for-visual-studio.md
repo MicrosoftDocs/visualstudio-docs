@@ -1,5 +1,6 @@
 ---
-title: Python in Visual Studio (Windows) | Microsoft Docs
+title: Overview of Python Support in Visual Studio (Windows) | Microsoft Docs
+description: Summary of features available for Python in Visual Studio (also know as Python Tools for Visual Studio, PTVS), including questions and answers (FAQ) and feature support matrix across Visual Studio versions.
 ms.custom: ""
 ms.date: 01/09/2018
 ms.reviewer: ""
@@ -26,15 +27,15 @@ Visual Studio on Windows provides [open-source](https://github.com/Microsoft/ptv
 
 To get started:
 
-- Follow the [installation instructions](installation.md) to set up the Python workload
+- Follow the [installation instructions](installing-python-support-in-visual-studio.md) to set up the Python workload
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a project from a template](quickstart-02-project-from-template.md).
-- Follow the [Working with Python in Visual Studio](vs-tutorial-01-01.md) tutorial for a full end-to-end experience.
+- Follow the [Working with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 - Then use the links in the following table to explore Python-related features and the capabilities of Visual Studio itself.
 
 | Feature | Description | General Visual Studio Documentation |
 | --- | --- | --- |
-| [Visual Studio project system](python-projects.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
-| [Project templates](python-projects.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
+| [Visual Studio project system](managing-python-projects-in-visual-studio.md) | Implicitly picks up a folder structure of Python code while allowing explicit control to identify app code, test code, web pages, JavaScript, build scripts, etc. | [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md) |
+| [Project templates](managing-python-projects-in-visual-studio.md#project-templates) | Quickly creates project structure for console, web, Azure, data science, and other types of projects | [Visual Studio Templates](../ide/creating-project-and-item-templates.md#visual-studio-templates) |
 | Multiple interpreter support | Supports various versions of CPython and IronPython. | n/a |
 | IPython support | Includes support for IPython/Jupyter in the REPL for inline plots, .NET, and Windows Presentation Foundation (WPF). | n/a |
 | [Rich editing, IntelliSense, and code comprehension](code-editing.md) | Includes syntax coloring, auto-complete across all your code and libraries, [code formatting](code-formatting.md), signature help, class view, Go to Definition, Find All References, code snippets, [refactoring](code-refactoring.md), [PyLint](code-pylint.md), and more. | [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md) |
@@ -63,9 +64,9 @@ A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-a
 
 A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to create executables as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
 
-## Features Matrix
+## Features matrix
 
-Python support can be installed in the following editions of Visual Studio as described in the [installation guide](installation.md):
+Python support can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
 - [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)

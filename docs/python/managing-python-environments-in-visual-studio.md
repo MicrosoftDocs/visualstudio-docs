@@ -1,7 +1,8 @@
 ---
-title: Python environments in Visual Studio | Microsoft Docs
+title: Managing Python environments in Visual Studio | Microsoft Docs
+description: How to use the Python Environments window in Visual Studio to manage global and virtual envrionments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
 ms.custom: ""
-ms.date: 01/09/2018
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,8 +29,8 @@ Visual Studio also provides support for virtual environments, `requirements.txt`
 
 **Note**: if you're new to Python in Visual Studio, see the following articles for necessary background:
 
-- [Working with Python in Visual Studio](python-in-visual-studio.md)
-- [Installing Python support in Visual Studio](installation.md)
+- [Working with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
+- [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
 ## Global and virtual environments
 
@@ -45,7 +46,7 @@ In Visual Studio, you can create a virtual environment for a specific project, w
 
 ### Selecting and installing Python interpreters
 
-By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installation.md). You can also manually install any of the interpreters listed in the following table.
+By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installing-python-support-in-visual-studio.md). You can also manually install any of the interpreters listed in the following table.
 
 For Visual Studio 2015 and earlier, you must manually install one of the interpreters.
 
