@@ -1,3 +1,4 @@
+
 ---
 title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
 ms.custom: ""
@@ -34,6 +35,15 @@ vs_enterprise.exe --installPath C:\minVS ^
    --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --passive --norestart
 ```
+
+* Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
+```
+vs_enterprise.exe --quiet --update --wait
+vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
+```
+
+> [!NOTE]
+> Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator. 
 
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 ```
