@@ -122,6 +122,9 @@ Return a scoped object instead of a heap-allocated if it has a move constructor.
 [C26427 NO_GLOBAL_INIT_EXTERNS](C26427.md)  
   Global initializer accesses extern object '%symbol%'. See [C++ Core Guidelines I.22](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#i22-avoid-complex-initialization-of-global-objects).  
   
+[C26444 NO_UNNAMED_RAII_OBJECTS](c26444.md) 
+Avoid unnamed objects with custom construction and destruction. [ES.84: Don't (try to) declare a local variable with no name](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+
 ## CLASS Group
 	
 [C26432 DEFINE_OR_DELETE_SPECIAL_OPS](C26432.md)  
@@ -149,8 +152,6 @@ C.128: Virtual functions should specify exactly one of virtual, override, or fin
 [C26443 NO_EXPLICIT_DTOR_OVERRIDE](c26443.md) 
 Overriding destructor should not use explicit 'override' or 'virtual' specifiers. See [C.128: Virtual functions should specify exactly one of virtual, override, or final](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
-[C26444 NO_UNNAMED_RAII_OBJECTS](c26444.md) 
-Avoid unnamed objects with custom construction and destruction. See [C.128: Virtual functions should specify exactly one of virtual, override, or final](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 ## TYPE Group
 	
