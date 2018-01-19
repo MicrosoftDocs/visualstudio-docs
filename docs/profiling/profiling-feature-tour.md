@@ -123,7 +123,7 @@ The JavaScript Memory tool is similar to the Memory Usage tool available for oth
 
 ![JavaScript Memory profiling tool](../profiling/media/diagjsmemory.png "DiagJSMemory")
 
-To diagnose UI responsiveness, slow loading time, and slow visual updates in Windows Universal HTML apps, use the HTML UI Responsiveness tool. Usage is similar to the Application Timeline tool for other app types. For more information, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).
+To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP apps, use the HTML UI Responsiveness tool. Usage is similar to the Application Timeline tool for other app types. For more information, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).
 
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
 
@@ -149,7 +149,7 @@ If you need features such as instrumentation that are not currently present in C
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
   
-|Performance Tool|Windows desktop|Windows Universal/Store|ASP.NET/ASP.NET Core|  
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|  
 |----------------------|---------------------|------------------------------|-------------|  
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes (no for .NET Core/ASP.NET Core)|  
