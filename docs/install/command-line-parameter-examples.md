@@ -38,7 +38,7 @@ vs_enterprise.exe --installPath C:\minVS ^
 
 * Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
 ```
-vs_enterprise.exe --quiet --update --wait
+vs_enterprise.exe --update --quiet --wait
 vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
 ```
 
