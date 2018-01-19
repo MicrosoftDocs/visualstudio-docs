@@ -72,7 +72,7 @@ There should only be a single instance of `MobileServiceClient`, so the walkthro
   ```
 
   > [!NOTE]
-  > If IntelliSense does not recognize the Microsoft.WindowsAzure namespace, check that you have completed all of the steps in the [Prepare the development environment]() section.
+  > If IntelliSense does not recognize the Microsoft.WindowsAzure namespace, check that you have completed all of the steps in the [Prepare the development environment](visual-studio-tools-for-unity-azure-prepare.md) section.
 
 4. In the preceding code, replace `MOBILE_APP_URL` with the URL of your Mobile App backend.
 
