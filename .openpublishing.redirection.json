@@ -956,6 +956,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/using-the-toolbox.md",
+            "redirect_url": "/visualstudio/ide/reference/toolbox",
+            "redirect_document_id": false 
+        }, 
+        {
             "source_path": "docs/ide/viewing-types-and-relationships-class-designer.md",
             "redirect_url": "/visualstudio/ide/class-designer/viewing-types-and-relationships",
             "redirect_document_id": false
