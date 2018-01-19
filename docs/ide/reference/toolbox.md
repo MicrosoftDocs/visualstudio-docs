@@ -19,13 +19,46 @@ ms.workload:
 ---
 # Toolbox
 
-The **Toolbox** displays icons for controls and other items that you can add to Visual Studio projects. To open the Toolbox, choose **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.
+The **Toolbox** displays controls that you can add to Visual Studio projects. To open the Toolbox, choose **Toolbox** on the **View** menu.
 
 ![Toolbox window](media/toolbox.png)
 
-Toolbox items can be dragged to a design view or pasted into a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.
+You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.
 
-The Toolbox only displays items that are applicable to the type of file you are working in. For some project types, the Toolbox may not show any items. You can search within the Toolbox to further filter the items that appear.
+Toolbox appears in conjunction with designer views, such as the designer view of a XAML file. Toolbox displays only those controls that can be used in the current designer. You can search within the Toolbox to further filter the items that appear.
+
+> [!NOTE]
+> For some project types, the Toolbox may not show any items.
+
+The .NET Framework version that your project targets also affects the set of controls visible in Toolbox. You can set your project to target a different version of the .NET Framework from the project's property pages. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **\<project\> Properties**. On the **Application** tab, use the **Target framework** drop-down.
+
+## Managing the Toolbox and its Controls
+
+By default Toolbox is collapsed along the left side of the Visual Studio IDE, and appears when the cursor is moved over it. You can pin Toolbox (by clicking the **Pin** icon on its toolbar) so that it remains open when you move the cursor. You can also undock the Toolbox window and drag it anywhere on your screen. You can dock, undock, and hide Toolbox by right-clicking its toolbar and selecting one of the options.
+
+You can rearrange the items in a Toolbox tab or add custom tabs and items by using the following commands on the context menu:
+
+- **Rename item** - Renames the selected item.
+
+- **Show All** - Shows all possible controls (not just the ones that apply to the current designer).
+
+- **List View** - Shows the controls in a vertical list. If unchecked, the controls appear horizontally.
+
+- **Choose Items** - Opens the **Choose Toolbox Items** dialog box so that you can specify the items that appear in the **Toolbox**. You can show or hide an item by selecting or clearing its check box.
+
+- **Sort items alphabetically** - Sorts the items by name.
+
+- **Reset Toolbar** - Restores the default Toolbox settings and items.
+
+- **Add Tab** - Adds a new Toolbox tab.
+
+- **Move Up** - Moves the selected item up.
+
+- **Move Down** - Moves the selected item down.
+
+## Creating and Distributing Custom Toolbox Controls
+
+You can create custom Toolbox controls, starting either with a project template that's based on [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) or on [Windows Forms](../extensibility/creating-a-windows-forms-toolbox-control.md). You can then distribute your custom control to your teammates, or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
 
 ## Help on Toolbox tabs
 

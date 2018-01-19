@@ -193,7 +193,6 @@
 ###### [.NET Language and Formatting Conventions](ide/editorconfig-code-style-settings-reference.md)
 ###### [.NET Naming Conventions](ide/editorconfig-naming-conventions.md)
 #### [Track Your Code by Customizing the Scrollbar](ide/how-to-track-your-code-by-customizing-the-scrollbar.md)
-#### [Using the Toolbox](ide/using-the-toolbox.md)
 #### [View the Structure of Code](ide/viewing-the-structure-of-code.md)
 ##### [Class View and Object Browser Icons](ide/class-view-and-object-browser-icons.md)
 ##### [Design and View Classes and Types](ide/class-designer/TOC.md)
