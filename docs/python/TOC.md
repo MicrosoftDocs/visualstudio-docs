@@ -29,7 +29,6 @@
 ### [Using IPython REPL](interactive-repl-ipython.md)
 ## [Debugging](debugging.md)
 ### [Cross-platform remote debugging](debugging-cross-platform-remote.md)
-## [Define custom project commands](defining-custom-python-project-commands.md)
 ## Working with Azure App Service
 ### [Managing Python on Azure App Service](managing-python-on-azure-app-service.md)
 ### [Publishing to Azure App Service](publishing-to-azure.md)
