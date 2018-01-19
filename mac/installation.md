@@ -55,7 +55,7 @@ For working with iOS in Visual Studio you need the following pieces:
       - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
   * **.NET Core applications** – Select **.NET Core** platform.
   * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
-  * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](https://docs.microsoft.com/en-us/visualstudio/mac/setup-vsmac-tools-unity#confirm-that-the-visual-studio-for-mac-tools-for-unity-extension-is-enabled) for more information on installing the Unity extension.
+  * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](~/mac/setup-vsmac-tools-unity#confirm-that-the-visual-studio-for-mac-tools-for-unity-extension-is-enabled) for more information on installing the Unity extension.
 
   This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
@@ -89,7 +89,7 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 
 Configure your network to allow access to the following locations:
 
-* [Visual Studio endpoints](https://docs.microsoft.com/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
+* [Visual Studio endpoints](/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
 
 ## Next Steps
 
@@ -109,4 +109,4 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](https://docs.microsoft.com/en-us/visualstudio/mac/workloads) page.
+For other Workloads, refer to the [Workloads](~/mac/workloads) page.
