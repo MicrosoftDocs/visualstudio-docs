@@ -29,6 +29,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content",
         "LandingData": "Content",
+        "ContextObject": "Toc",
         "APIConnector": "Content"
       },
       "template_folder": "_themes"
