@@ -1,7 +1,7 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/21/2017"
+ms.date: "01/18/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
