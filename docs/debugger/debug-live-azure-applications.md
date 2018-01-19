@@ -44,9 +44,12 @@ Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Ent
 
    ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
 
-    The first time you select **Attach Snapshot Debugger**, you are prompted to install the Snapshot Debugger on your Azure App Service. This installation requires a restart of your Azure App Service. 
+    The first time you select **Attach Snapshot Debugger**, you are prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service. 
 
    Visual Studio is now in snapshot debugging mode.
+
+    > [!NOTE]
+    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, please see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png "Snapshot debugging mode")
 
@@ -127,7 +130,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## Next steps
 
-- To learn how to inspect variables while viewing a snapshot, see [Debbuger Feature Tour](../debugger/debugger-feature-tour.md).
+- To learn how to inspect variables while viewing a snapshot, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 - View the [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md).
 - View [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md).
 - If you want to view snapshots in Application Insights when your app hits an exception, you can do that. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.

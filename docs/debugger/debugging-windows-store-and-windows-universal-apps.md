@@ -1,7 +1,7 @@
 ---
-title: "Debug UWP and Windows 8.1 apps | Microsoft Docs"
+title: "Debug UWP apps - Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/18/2017"
+ms.date: "01/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,18 +13,18 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
 ms.workload: 
-  - "multiple"
+  - "uwp"
 ---
-# Debug Universal Windows Apps (UWP)
-The Visual Studio debugger provides complete support for debugging UWP and Windows 8.1 apps.  
+# Debug Universal Windows Apps (UWP) in Visual Studio
+
+The Visual Studio debugger provides complete support for debugging UWP apps. 
   
-To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/en-us/library/windows/apps/ff402572(v=vs.105).aspx).  
+To debug Windows 8.1 apps, see [Debug Store apps in Visual Studio](https://msdn.microsoft.com/en-us/library/hh441472.aspx). To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/library/windows/apps/ff402572(v=vs.105).aspx).  
   
 |||  
 |-|-|  

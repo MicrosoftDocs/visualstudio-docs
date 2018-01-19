@@ -20,7 +20,7 @@ ms.workload:
 ---
 
 # Remote Debug ASP.NET Core on IIS and Azure in Visual Studio 2017
-You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
+For Azure App Service, we recommend that you debug using the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) or you can follow instructions in this topic to attach the debugger from Visual Studio. If you are running Windows Server with IIS on an Azure VM, you can also set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2017 ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
 
 > [!WARNING]
 > Be sure to delete the Azure resources that you create when you have completed the steps in this tutorial. That way you can avoid incurring unnecessary charges.
@@ -60,7 +60,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
 
 #### To deploy the app and remote debug
 

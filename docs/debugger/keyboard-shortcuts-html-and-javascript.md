@@ -22,7 +22,6 @@ ms.workload:
   - "multiple"
 ---
 # Keyboard shortcuts (HTML and JavaScript)
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.  
   

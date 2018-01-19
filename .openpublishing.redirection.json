@@ -1616,6 +1616,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/run-windows-phone-apps-in-the-emulator.md",
+            "redirect_url": "http://msdn.microsoft.com/en-US/library/dn632391(VS.140).aspx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",
+            "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-improving-ui-responsiveness-html.md",
+            "redirect_url": "/visualstudio/profiling/html-ui-responsiveness",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-find-a-memory-leak-javascript.md",
+            "redirect_url": "/visualstudio/profiling/javascript-memory",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/index.md",
             "redirect_url": "/scripting/index",
             "redirect_document_id": false
