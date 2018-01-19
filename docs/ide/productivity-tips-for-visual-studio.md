@@ -23,7 +23,7 @@ For information about common keyboard shortcuts, see [Keyboard tips](../ide/tips
 
 Write code more quickly by using the following features.
 
-- **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** and **Contract Selection**, or **Ctrl**+**W** and **Ctrl**+**Shift**+**W**.
+- **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of tex\ by choosing **Edit** > **Advanced** > **Expand Selection** and **Contract Selection**, or **Ctrl**+**W** and **Ctrl**+**Shift**+**W**.
 
 - **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members includes not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Using IntelliSense](../ide/using-intellisense.md).
 
