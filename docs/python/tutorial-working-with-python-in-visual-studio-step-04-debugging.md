@@ -1,7 +1,8 @@
 ---
-title: Working with Python in Visual Studio, Step 4 | Microsoft Docs
+title: Working with Python in Visual Studio, Step 4, Debugging | Microsoft Docs
+description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
 ms.custom: ""
-ms.date: 09/26/2017
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,7 +21,7 @@ ms.workload:
 
 # Step 4: Running code in the debugger
 
-**Previous step: [Using the interactive REPL window](vs-tutorial-01-03.md)**
+**Previous step: [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)**
 
 In addition to managing projects, providing a rich editing experience, and the interactive window, Visual Studio provides full-featured debugging for Python code. In the debugger, you can run your code step by step, including every iteration of a loop. You can also pause the program whenever certain conditions are true. At any point when the program is paused in the debugger, you can examine the entire program state and change the value of variables. Such actions are essential for tracking down program bugs, and also provide very helpful aids for carefully following the exact program flow.
 
@@ -105,9 +106,9 @@ In addition to managing projects, providing a rich editing experience, and the i
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Installing packages in your Python environment](vs-tutorial-01-05.md)
+> [Installing packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 
 ### Going deeper
 
 - [Debugging](debugging.md).
-- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) provides full documentation of Visual Studio's debugging features.
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) provides full documentation of Visual Studio's debugging features.

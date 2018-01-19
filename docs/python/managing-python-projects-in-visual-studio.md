@@ -1,7 +1,8 @@
 ---
-title: "Python projects in Visual Studio | Microsoft Docs"
+title: "Managing Python Projects in Visual Studio | Microsoft Docs"
+description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
 ms.custom: ""
-ms.date: 01/09/2018
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -50,7 +51,7 @@ Each Python project has one assigned start-up file, shown in boldface in Solutio
 > [!Tip]
 > If you remove the selected startup file from a project and don't select a new one, running your project results in a Python output window appearing but then disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Python environments](python-environments.md#selecting-an-environment-for-a-project).
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Python environments](managing-python-environments-in-visual-studio.md#selecting-an-environment-for-a-project).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -67,7 +68,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Template | Description |
 | --- | --- |
 | [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
-| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](python-environments.md#selecting-an-environment-for-a-project). |
+| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](managing-python-environments-in-visual-studio.md#selecting-an-environment-for-a-project). |
 | [Azure cloud service](template-azure-cloud-service.md) | A project for an Azure cloud service written in Python. |
 | [Web projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
@@ -75,10 +76,10 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code that initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
 | IronPython Windows Forms Application | A project structure using IronPython withUI created using code with Windows Forms. The application runs without displaying a console. |
 | Background Application (IoT) | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
-| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installation.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ extension for Python](cpp-and-python.md). |
+| Python Extension Module | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installing-python-support-in-visual-studio.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
 
 > [!Note]
-> Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [question and answers](python-in-visual-studio.md#questions-and-answers).
+> Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
 <a name="create-project-from-existing-files"</a>
 
@@ -132,7 +133,7 @@ A reference to a `.pyd` file enables IntelliSense for the generated module. Visu
 
 If at any time the extension module is updated on disk, Visual Studio reanalyzes the module in the background. This action has no effect on runtime behavior but some completions aren't available until analysis is complete.
 
-You may also need to add a [search path](python-environments.md#search-paths) to the folder containing the module.
+You may also need to add a [search path](managing-python-environments-in-visual-studio.md#search-paths) to the folder containing the module.
 
 ### .NET projects
 

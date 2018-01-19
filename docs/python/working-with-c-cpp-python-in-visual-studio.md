@@ -1,7 +1,8 @@
 ---
 title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
+description: A walkthrough of creating a C++ extension for Python using Visual Studio, including a walkthrough of mixed-mode debugging.
 ms.custom: ""
-ms.date: 01/05/2018
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +41,7 @@ The approach taken here is that for standard CPython extensions as described in 
 
 - Installing the **Data science and analytical applications** workload also includes Python and the **Python native development tools** option by default.
 
-For more information, see [Installing Python Support for Visual Studio](installation.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This option ensures that you have the necessary debug libraries available if you choose to do a debug build.
+For more information, see [Installing Python Support for Visual Studio](installing-python-support-in-visual-studio.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This option ensures that you have the necessary debug libraries available if you choose to do a debug build.
 
 ## Create the Python application
 
