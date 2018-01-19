@@ -2,9 +2,9 @@
 title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/06/2017"
-ms.reviewer: "tims"
+ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,7 +12,7 @@ ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: "timsneath"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Command-line parameter examples for Visual Studio 2017 installation
