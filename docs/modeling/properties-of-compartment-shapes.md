@@ -10,11 +10,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.compartmentshape"
 helpviewer_keywords: 
   - "Domain-Specific Language, compartment shape"
-ms.assetid: 9a9e112d-210d-413b-a44f-0e976a4a78bc
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
