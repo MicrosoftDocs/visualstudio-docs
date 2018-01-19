@@ -1,7 +1,7 @@
 ---
 title: "Services Page, Project Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/18/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
