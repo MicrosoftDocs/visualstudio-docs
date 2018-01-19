@@ -23,7 +23,7 @@ For information about common keyboard shortcuts, see [Keyboard tips](../ide/tips
 
 Write code more quickly by using the following features.
 
-- **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
+- **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** and **Contract Selection**, or **Ctrl**+**W** and **Ctrl**+**Shift**+**W**.
 
 - **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members includes not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Using IntelliSense](../ide/using-intellisense.md).
 
@@ -41,7 +41,9 @@ Write code more quickly by using the following features.
 
     To open a definition in a pop-up window, highlight the element and then choose the **Alt**+**F12** keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.
 
-## Navigating Within Your Code
+- **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
+
+## Navigating within your code
 
  You can use various techniques to find and move to specific locations in your code more quickly.
 
@@ -55,7 +57,7 @@ Write code more quickly by using the following features.
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md).
 
-## Finding Items Faster
+## Finding items faster
 
 You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.
 
@@ -69,7 +71,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
     **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the Projects and Solutions page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
-## Debugging Code
+## Debugging code
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
@@ -101,7 +103,7 @@ You can quickly access the Developer Command Prompt, or another Visual Studio to
 
 1. Right-click or open the context menu for **Developer Command Prompt**, and then choose **Pin to Start** or **Pin to taskbar**.
 
-## Managing Files, Toolbars, and Windows
+## Managing files, toolbars, and windows
 
 At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.
 
