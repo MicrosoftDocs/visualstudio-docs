@@ -47,7 +47,7 @@ For working with iOS in Visual Studio you need the following pieces:
 
   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
-  * **Xamarin**:
+  * **Apps using Xamarin**:
       - Xamarin.Forms – Select **Android** and **iOS** platforms.
       - iOS only – Select **iOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
       - Android only – Select **Android** platform (Note that you should also select the relevant dependencies).
