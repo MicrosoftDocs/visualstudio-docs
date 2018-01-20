@@ -716,6 +716,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/application-properties.md",
+            "redirect_url": "/visualstudio/ide/reference/application-page-project-designer-visual-basic",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/class-designer/designing-classes-and-types.md",
             "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
             "redirect_document_id": false
