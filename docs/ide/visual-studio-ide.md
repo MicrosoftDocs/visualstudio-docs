@@ -28,7 +28,7 @@ Or, you can simply open some code you get from almost anywhere and get working. 
 
 You can create native mobile apps for different platforms by using Visual C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
 
-You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile App Development](https://www.visualstudio.com/vs/mobile-app-development/).
+You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile App Development](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 ### Create cloud apps for Azure
 
