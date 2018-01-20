@@ -69,7 +69,7 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  If you want to base your template on an existing control, select an object on the artboard. Then, at the top of the artboard, choose the breadcrumb button, choose **Edit Template**, and then choose **Edit a Copy** or **Create Empty**.  
   
- ![](../designers/media/5ebdb33f-aad2-4c10-a328-5e8b04c56a36.png "5ebdb33f-aad2-4c10-a328-5e8b04c56a36")  
+ ![](../designers/media/5ebdb33f-aad2-4c10-a328-5e8b04c56a36.png)
   
  To create a style, select the object, and then in the **Object** menu, choose **Edit Style**, and then choose **Edit a Copy** or **Create Empty**.  
   
@@ -79,42 +79,45 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  The **Edit Current** option appears only if you edit a style or template that you've already created. It won't appear for a control that is still using a default system template.  
   
- In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
-  
- ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
-  
+ In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.
+
+![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png)
+
 > [!NOTE]
->  You can't create styles or templates for every type of control. If a control doesn't support them, the breadcrumb button won't appear above the artboard.  
->   
->  To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png "55844eb3-ed98-4f20-aa66-a6f5b23eeb2b").  
->   
->  ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
-  
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](http://www.microsoft.com/showcase/details.aspx?uuid=9b8e86e2-8e90-4d61-81af-fa5b5afb3e95).  
-  
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Creating a Control Template in Expression Blend](http://msdn.microsoft.com/expression/cc263912.aspx).  
-  
-### Apply a style or template to a control  
- Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
-  
- ![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png "dc12debc-7711-47d9-84ce-10322a384397")  
-  
-### Restore the default style or template of a control  
- Select the control, and in the [Properties](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
-  
-##  <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
- Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.  
-  
- ![](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png "a95c671a-5639-40b9-83db-1e6b214330d5")  
-  
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw).  
-  
-##  <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later  
- You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.  
-  
- ![](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png "89203705-cf66-46e0-b153-52a23cd744f7") ![](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png "6bff8b19-3cd5-41a0-bbf9-ff65532d5aae")  
-  
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [A brief touch on resources](http://www.popscreen.com/v/6A4k7/Microsoft-Expression-Blend-Brief-Touch-on-Resources).  
-  
-## See Also  
- [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+> You can't create styles or templates for every type of control. If a control doesn't support them, the breadcrumb button won't appear above the artboard.  
+> 
+> To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png).
+>
+> ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png)
+
+**Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create a style](http://www.microsoft.com/showcase/details.aspx?uuid=9b8e86e2-8e90-4d61-81af-fa5b5afb3e95).
+
+### Apply a style or template to a control
+
+Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-objects-and-timeline-panel) panel, choose **Edit Template**, and then choose **Apply Resource**.
+
+![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png)
+
+### Restore the default style or template of a control
+
+Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-properties-panel) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png), and then click **Reset** on the shortcut menu.
+
+##  <a name="Visual"></a> Visual States: Change the appearance of a control based on its state
+
+Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.
+
+![](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png)
+
+**Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw).
+
+##  <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later
+
+You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.
+
+![](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png) ![](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png)
+
+**Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [A brief touch on resources](http://www.popscreen.com/v/6A4k7/Microsoft-Expression-Blend-Brief-Touch-on-Resources).
+
+## See also
+
+[Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
