@@ -101,9 +101,9 @@ The following are popular Visual Studio shortcuts. Note that some extensions unb
 | **Ctrl+F12** | Go To Implementation | Navigate from a base type or member to its various implementations |
 | **Shift+F12** | Find All References | See all symbol or literal references |
 | **Ctrl+.** (also **Alt+Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
-| **Ctrl**+**E**,**V** | Duplicate line | Duplicates the line of code that the cursor is in |
-| **Ctrl**+**W** | Expand selection | Expands the current selection by one increment |
-| **Ctrl**+**Shift**+**W** | Contract selection | Contracts (decreases) the current selection by one increment |
+| **Ctrl**+**E**,**V** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6 preview 2** and later) |
+| **Ctrl**+**W** | Expand selection | Expands the current selection by one increment (available in **Visual Studio 2017 version 15.5**) |
+| **Ctrl**+**Shift**+**W** | Contract selection | Contracts (decreases) the current selection by one increment (available in **Visual Studio 2017 version 15.5**) |
 | **Ctrl+Q** | Quick Launch | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
