@@ -4,12 +4,9 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-designers"
+ms.technology: vs-ide-designers
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c460fa9-2ea1-413f-ae54-54a1f2a499d1
-caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -880,7 +877,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 -   [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)  
   
--   [WPF Graphics, Animation, and Media Overview](https://msdn.microsoft.com/en-us/library/ms742562)  
+-   [WPF Graphics, Animation, and Media Overview](/dotnet/framework/wpf/graphics-multimedia/index)  
   
 -   [Documents in WPF](/dotnet/framework/wpf/advanced/documents-in-wpf)  
   
