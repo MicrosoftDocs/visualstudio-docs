@@ -16,7 +16,7 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Quickstart: use Visual Studio to create your first ASP.NET Core web app
+# Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
@@ -30,7 +30,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
-     If you don't see the **.NET Core** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+     If you don't see the **.NET Core** project template, you need to install the **ASP.NET and web development** workload. Choose the **Open Visual Studio Installer** link on the bottom left corner of the **New Project** dialog box to launch **Visual Studio Installer**. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
 

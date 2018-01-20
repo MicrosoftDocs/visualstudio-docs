@@ -101,7 +101,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 1. The **New Project** dialog box shows several project templates. Choose the **Windows Universal** category under **Visual C#**, choose the **Blank App (Universal Windows)** template, and then choose the **OK** button.
 
   > [!NOTE]
-  > If you don't see the **Windows Universal** category, you need to install the **Universal Windows Platform Development** workload. To do this, click the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, select the **Universal Windows Platform Development** workload and then choose **Modify**.
+  > If you don't see the **Windows Universal** category, you need to install the **Universal Windows Platform Development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, select the **Universal Windows Platform Development** workload and then choose **Modify**.
 
   ![screenshot](../ide/media/VSIDE_Tour_NewProject2.png)
 
