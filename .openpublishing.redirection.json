@@ -1704,6 +1704,62 @@
             "source_path": "scripting-docs/javascript/index.md",
             "redirect_url": "/scripting/index",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-configure.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        }
+        ,
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-connection.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-data.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-game-assets.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-game.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-heatmapscene.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-mobile-client.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-prepare.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-racescene.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-security.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-setup.md",
+            "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
+            "redirect_document_id": false
         }
     ]
 }
