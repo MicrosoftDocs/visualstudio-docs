@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/09/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
@@ -92,7 +91,7 @@ When you start Visual Studio for the first time, you can optionally sign in usin
 
 One good way to learn about something is to use it! Let's dive in and create a new, simple program.
 
-1. Open Visual Studio. On the menu, choose **File**, **New**, **Project**.
+1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
   ![screenshot](../ide/media/VSIDE_Tour_NewProject1.png)
 
@@ -103,11 +102,11 @@ One good way to learn about something is to use it! Let's dive in and create a n
   > [!NOTE]
   > If you don't see the **Windows Universal** category, you need to install the **Universal Windows Platform Development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, select the **Universal Windows Platform Development** workload and then choose **Modify**.
 
-  ![screenshot](../ide/media/VSIDE_Tour_NewProject2.png)
+  ![UWP blank app template](../ide/media/new-uwp-blank-app-template.png)
 
   This creates a new blank Universal Windows app project using Visual C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
 
-1. In the **New Universal Windows Project** dialog box, accept the defaults by choosing **OK**.
+1. In the **New Universal Windows Platform Project** dialog box, accept the defaults by choosing **OK**.
 
 1. Shortly, you should see something like the following screenshot. Your project files are listed on the right side in a window called Solution Explorer.
 
@@ -139,7 +138,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
   ![screenshot](../ide/media/VSIDE_Tour_XAMLButton2.png)
 
-1. Now, start the app. You can do this by choosing the **Start** (![Start button](../ide/media/VSIDE_StartButton.png)) button on the toolbar, or by choosing the **F5** key, or on the menu, choosing **Debug**, **Start Debugging**.
+1. Now, start the app. You can do this by choosing the **Start** (![Start button](../ide/media/VSIDE_StartButton.png)) button on the toolbar, or by choosing the **F5** key, or on the menu, choosing **Debug** > **Start Debugging**.
 
   ![screenshot](../ide/media/VSIDE_Tour_RunButton.png)
 
@@ -247,7 +246,7 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
-**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
+**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
 
 [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
