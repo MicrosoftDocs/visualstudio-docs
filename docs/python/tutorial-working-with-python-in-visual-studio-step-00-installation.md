@@ -1,7 +1,8 @@
 ---
-title: Working with Python in Visual Studio, Step 0 - Installation | Microsoft Docs
+title: Working with Python in Visual Studio, Step 0, Installation | Microsoft Docs
+description: Step 0 (prerequisites) of a core tutorial for working with Python within Visual Studio, covering how to install Python support in Visual Studio.
 ms.custom: ""
-ms.date: 11/01/2017
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,7 +22,7 @@ ms.workload:
 # Install Python support in Visual Studio
 
 > [!Note]
-> Python support is presently available only on Visual Studio for Windows; on Mac and Linux, Python support is available through Visual Studio Code. See [Questions and answers](python-in-visual-studio.md#questions-and-answers).
+> Python support is presently available only on Visual Studio for Windows; on Mac and Linux, Python support is available through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
 1. Download and run the latest Visual Studio 2017 installer for Windows (Python support is present in release 15.2 and later).
 
@@ -30,7 +31,7 @@ ms.workload:
 
     >[!Tip]
     > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Visual Studio 2017 Professional</a> or <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted">Visual Studio 2017 Enterprise</a>.
-    
+
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
@@ -42,12 +43,12 @@ ms.workload:
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Step 1: Create a Python project](vs-tutorial-01-01.md)
+> [Step 1: Create a Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 
-- [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
-- [Install Python support in Visual Studio 2015 and earlier](installation.md).
-- [Install locations](installation.md#install-locations).
+- [Creating an environment for an existing Python interpreter](managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter).
+- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
+- [Install locations](installing-python-support-in-visual-studio.md#install-locations).
 
 <iframe src="" height="0" width="0" frameborder="0" name="frameTarget" />

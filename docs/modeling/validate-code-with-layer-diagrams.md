@@ -215,7 +215,7 @@ are shown immediately in the Visual Studio Error List window.
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)], see:  
   
--   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [Build and release](/vsts/build-release/index)  
   
 -   [Use the Default Template for your build process](http://msdn.microsoft.com/Library/43930b12-c21b-4599-a980-2995e3d16e31)  
   

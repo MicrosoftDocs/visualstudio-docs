@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,8 +12,6 @@ helpviewer_keywords:
   - "user permissions"
   - "administrative privileges"
   - "permissions"
-ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -36,7 +33,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user, but, you
 ||Installing, updating, or removing local Help content.|[Install and Manage Local Content](../ide/install-and-manage-local-content.md)|  
 |Application types|Developing solutions for SharePoint.|[Requirements for Developing SharePoint Solutions](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
 ||Acquiring a developer license for [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|[Get a developer license](http://go.microsoft.com/fwlink/?LinkID=241313)|  
-|Toolbox|Adding classic COM controls to the **Toolbox**.|[Using the Toolbox](../ide/using-the-toolbox.md)|  
+|Toolbox|Adding classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|  
 |Add-ins|Installing and using add-ins that were written by using classic COM in the IDE.|[Creating Add-ins and Wizards](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|  
 |Building|Using post-build events that register a component.|[Understanding Custom Build Steps and Build Events](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
 ||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](/cpp/ide/understanding-custom-build-steps-and-build-events)|  

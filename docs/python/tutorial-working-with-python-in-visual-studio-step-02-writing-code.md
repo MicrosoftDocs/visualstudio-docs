@@ -1,7 +1,8 @@
 ---
-title: Working with Python in Visual Studio, Step 2 | Microsoft Docs
+title: Working with Python in Visual Studio, Step 2, Writing and Running Code | Microsoft Docs
+description: Step 2 of a core tutorial for working with Python within Visual Studio, covering how to edit and run a simple Hello World program, followed by more interesting code that demonstrates Visual Studio's editing and IntelliSense features.
 ms.custom: ""
-ms.date: 10/16/2017
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +21,11 @@ ms.workload:
 
 # Step 2: Writing and running code
 
-**Previous step: [Creating a new Python project](vs-tutorial-01-01.md)**
+**Previous step: [Creating a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 
 Although Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 
-1. After creating a new "Python Application" project, a default empty file named `PythonApplication1.py` is open in the Visual Studio editor. 
+1. After creating a new "Python Application" project, a default empty file named `PythonApplication1.py` is open in the Visual Studio editor.
 
 1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the Tab key. Completions are most helpful when longer statements or identifiers are involved.
 
@@ -79,7 +80,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
 1. Add a little more code to print the cosine values for 360 degrees:
 
-    ```python 
+    ```python
     for i in range(360):
         print(cos(radians(i)))
     ```
@@ -89,7 +90,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Using the interactive REPL window](vs-tutorial-01-03.md)
+> [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 
 ## Going deeper
 
