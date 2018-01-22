@@ -52,7 +52,7 @@ For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/m
 
 ### Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/windows-apps) for more information.
 
 Choose the tools you need based on your app requirements and the language you want to use:
 
@@ -230,7 +230,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Continuous integration on any platform](https://www.visualstudio.com/en-us/docs/build/overview) for more information.
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Build and Release (VSTS and TFS)](/vsts/build-release/index) for more information.
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -272,6 +272,6 @@ Congratulations on completing the tour of the Visual Studio IDE! We hope you lea
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
 * [Visual Studio Downloads](https://www.visualstudio.com/downloads/)
 * [The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)
 * [Channel 9](https://channel9.msdn.com/)
