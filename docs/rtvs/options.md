@@ -18,6 +18,8 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # R Tools for Visual Studio options
@@ -30,8 +32,8 @@ Options and settings specific to R are accessed using the methods below. You mus
 
 - Code formatting options (see [Editor options](code-editing.md#editor-options): **Tools > Options** menu, then select **Text Editor > R > Formatting**
 - Linting options (see [Linting](code-linting.md)): **Tools > Options** menu, then select **Text Editor > R > Lint**
-- Advanced editor options ([described in this topic](#text-editor-r-advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
-- Behavioral options ([described in this topic](#r-tools-advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
+- Advanced editor options ([described in this topic](#text-editor-r--advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
+- Behavioral options ([described in this topic](#r-tools--advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
 
 The **R Tools > Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
 

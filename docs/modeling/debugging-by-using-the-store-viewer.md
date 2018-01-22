@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, store viewer"
   - "Domain-Specific Language, store"
-ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
-caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging by Using the Store Viewer
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.  

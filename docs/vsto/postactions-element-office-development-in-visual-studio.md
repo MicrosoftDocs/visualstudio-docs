@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <postActions> element"
   - "postActions element"
   - "<postActions> element"
-ms.assetid: 6e487549-fdd6-49bd-be7a-b91f1f964594
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;postActions&gt; Element (Office Development in Visual Studio)
   The `postActions` element of the `vstav3` namespace contains all the `postAction` elements that describe post-deployment actions, which run after Office solutions are installed.  

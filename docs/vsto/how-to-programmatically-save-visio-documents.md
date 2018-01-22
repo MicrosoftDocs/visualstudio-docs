@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], saving Visio documents"
   - "Visio [Office development in Visual Studio], saving Visio documents"
-ms.assetid: 1a29ac7e-1da4-4c7a-87a5-d3d16897fe7c
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Save Visio Documents
   There are several ways to save Microsoft Office Visio documents:  

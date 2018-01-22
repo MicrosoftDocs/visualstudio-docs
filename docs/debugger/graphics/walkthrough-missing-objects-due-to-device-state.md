@@ -13,6 +13,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Missing Objects Due to Device State
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.  

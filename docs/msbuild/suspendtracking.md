@@ -20,6 +20,8 @@ caps.latest.revision: 3
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SuspendTracking
 Suspends tracking in the current context.  

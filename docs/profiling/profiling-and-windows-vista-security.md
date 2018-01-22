@@ -16,6 +16,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Profiling and Windows Vista Security
 Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] User Access Permissions settings that a computer administrator has made available, an individual user might have security permission to profile a process on that computer. The following examples illustrate possible differences among users:  

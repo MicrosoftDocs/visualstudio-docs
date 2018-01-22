@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Call Tree View - Sampling Data
 The Call Tree view displays the function execution paths that were traversed in the profiled application.  

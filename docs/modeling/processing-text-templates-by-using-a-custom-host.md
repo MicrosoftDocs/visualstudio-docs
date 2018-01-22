@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, in application or VS extension"
   - "text templates, custom directive hosts"
-ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
-caps.latest.revision: 33
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Processing Text Templates by using a Custom Host
 The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, or from a standalone application running on a machine on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.  

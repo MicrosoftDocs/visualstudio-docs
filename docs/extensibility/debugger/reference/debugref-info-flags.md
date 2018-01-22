@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DEBUGREF_INFO_FLAGS
 Specifies what information to retrieve about a debug reference object.  

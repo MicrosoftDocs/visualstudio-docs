@@ -1,46 +1,29 @@
 ---
-redirect_url: /visualstudio/ide/refactoring-code-generation-quick-actions
-title: "Refactoring in Visual Studio | Microsoft Docs"
+title: Refactoring code in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/10/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
-caps.latest.revision: 3
+helpviewer_keywords:
+ - refactoring [Visual Studio]
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Refactoring in Visual Studio
-Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior. Some common *refactorings* include:  
-  
-1.  splitting long functions into smaller ones  
-  
-2.  renaming variables, types, functions or parameters  
-  
-3.  reordering parameters  
-  
-4.  removing or reordering using directives  
-  
- Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
-  
-### Refactoring in C# #
- [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  
-  
-### Refactoring in Visual Basic  
- [Refactoring (Visual Basic)](../vb-ide/refactoring-vb.md)  
-  
-### Refactoring in C++  
- [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
-  
-### Refactoring in F# #
- Refactoring support for F# is provided in [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff), a third-party Visual Studio extension.  
-  
-## See Also  
- [Visual Studio IDE](../ide/visual-studio-ide.md)   
- [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
- [Preview Changes](../ide/preview-changes.md)
+# Refactoring code
+
+Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior.
+
+Different refactoring operations are available for different programming languages in Visual Studio. The topics in this section cover the refactorings available for C# and Visual Basic. For information about refactoring C++, code, see [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp). Refactoring support for F# is provided by the [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools), a third-party Visual Studio extension.
+
+## See also
+
+[Quick Actions](../ide/quick-actions.md)  
+[Visual Studio IDE](../ide/visual-studio-ide.md)  
+[Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
+[Preview Changes](../ide/preview-changes.md)

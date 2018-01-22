@@ -11,6 +11,8 @@ caps.latest.revision: 9
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Invoke the Workflow Debugger
 Generally, you debug workflows just like you debug programs written in other Visual Studio programming languages. You can start the workflow debugger in the following ways:  

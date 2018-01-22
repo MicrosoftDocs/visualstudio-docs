@@ -13,6 +13,8 @@ caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How to: Attach the Profiler to a Native Stand-Alone Application and Collect Application Statistics by Using the Command Line
 This topic describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a running native stand-alone (client) application and collect performance statistics by using the sampling method.  

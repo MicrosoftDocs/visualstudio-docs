@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerService::GetCustomViewerList
 This method returns a list of type visualizers that this service knows about.  

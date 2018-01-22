@@ -16,6 +16,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Microsoft Help Viewer installation
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.

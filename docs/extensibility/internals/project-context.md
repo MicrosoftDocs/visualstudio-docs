@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Context
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.  

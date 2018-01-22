@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_compiland
 Retrieves a reference to the symbol for the compiland that contributed the bytes of image text.  

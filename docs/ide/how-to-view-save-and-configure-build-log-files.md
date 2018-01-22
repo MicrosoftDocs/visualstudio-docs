@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: View, Save, and Configure Build Log Files
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. For C++ projects, you can also view the same information in a .txt file that's created and saved automatically. For managed-code projects, you can copy and paste the information from the **Output** window into a .txt file and save it yourself. You can also use the IDE to specify what kinds of information you want to view about each build.  

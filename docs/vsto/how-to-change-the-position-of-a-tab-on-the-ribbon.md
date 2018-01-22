@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Ribbon [Office development in Visual Studio], tabs"
-ms.assetid: 3f0906e3-9708-4136-ac49-986bc4c92ea4
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Change the Position of a Tab on the Ribbon
   You can change the order of custom tabs on a Ribbon by using the **Tab Collection Editor**. You can position custom tabs before or after a built-in tab on the Ribbon. A built-in tab is a tab that is already on the Ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel.  

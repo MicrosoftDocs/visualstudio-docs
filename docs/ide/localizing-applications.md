@@ -19,6 +19,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Localizing Applications
 *Localization* is the process of customizing your application for a given culture or locale. Localization consists primarily of translating the user interface.  

@@ -19,9 +19,11 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - "VB"
- - "CSharp"
+dev_langs: 
+  - "VB"
+  - "CSharp"
+ms.workload: 
+  - "multiple"
 ---
 # CA1800: Do not cast unnecessarily
 |||  

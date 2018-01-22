@@ -26,6 +26,9 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
+  - "dotnet"
 ---
 # How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
 If your code has native frames that are invisible in the **Call Stack** window, stepping out of managed code can produce unexpected results. As a workaround, you can use a breakpoint instead of **Step Out**.  

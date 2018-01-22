@@ -14,11 +14,11 @@ helpviewer_keywords:
   - "text templates, getting started"
   - "Text Template project item"
   - "text templates, generating code for your application"
-ms.assetid: 2774b83d-1adb-4c66-a607-746e019b80c0
-caps.latest.revision: 38
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Design-Time Code Generation by using T4 Text Templates
 Design-time T4 text templates let you generate program code and other files in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.  

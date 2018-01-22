@@ -19,6 +19,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use Wizards with Project Templates
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  
@@ -193,6 +195,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
             private void button1_Click(object sender, EventArgs e)  
             {  
                 customMessage = textBox1.Text;  
+                this.Close();
             }  
         }  
     ```  
@@ -226,13 +229,13 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 10. Extract the public key from the key.snk file. In the command window, type  
   
-     **\<location of sn.exe>\sn.exe - p key.snk outfile.key.**  
+     **\<location of sn.exe>\sn.exe -p key.snk outfile.key.**  
   
      Don't forget to surround the path of sn.exe with quotation marks if there are spaces in the directory names!  
   
 11. Get the public key token from the outfile:  
   
-     **\<location of sn.exe>\sn.exe - t outfile.key.**  
+     **\<location of sn.exe>\sn.exe -t outfile.key.**  
   
      Again, don't forget the quotation marks. You should see a line in the output like this  
   
@@ -306,6 +309,8 @@ namespace $safeprojectname$
      Notice that `$custommessage$` has been replaced with the text entered in the wizard user input form.  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
- [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
- [WizardExtension Element (Visual Studio Templates)](../extensibility/wizardextension-element-visual-studio-templates.md)
+
+<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
+[Customizing Templates](../ide/customizing-project-and-item-templates.md)  
+[WizardExtension Element (Visual Studio Templates)](../extensibility/wizardextension-element-visual-studio-templates.md)  
+[NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

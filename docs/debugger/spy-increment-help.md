@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Spy++ Help
 The documentation for the Spy++ utility includes two groups of general topics on Using Spy++ and on the Spy++ Views. These are followed by the Spy++ Reference, which provides further details on each available menu command and dialog box.  

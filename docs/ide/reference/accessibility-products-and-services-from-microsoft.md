@@ -23,6 +23,8 @@ caps.latest.revision: 14
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Accessibility Products and Services from Microsoft
 > [!TIP]

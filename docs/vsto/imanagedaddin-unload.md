@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Unload method"
-ms.assetid: 40a73f07-2605-4745-8ac5-0a0189167fd7
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # IManagedAddin::Unload
   Called just before a managed VSTO Add-in is unloaded.  

@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create XML Snippets
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.  
@@ -49,7 +51,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   <SnippetType>SurroundsWith</SnippetType>  
   <SnippetType>Expansion</SnippetType>  
 </SnippetTypes>  
-```  
+```
   
  The `Expansion` type determines whether the snippet appears when you invoke the **Insert Snippet** command. The `SurroundsWith` type determines whether the snippet appears when you invoke the **Surrounds With** command.  
   
@@ -67,7 +69,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   <name>$name$</name>  
   $selected$ $end$</test>]]>  
 </Code>  
-```  
+```
   
  The `Code` element includes three variables.  
   
@@ -83,7 +85,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 <test>  
   <name>name</name>  
 </test>  
-```  
+```
   
  The value of the name element is marked as an editable region.  
   
@@ -95,7 +97,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   <ID>name</ID>  
   <Default>name</Default>  
 </Literal  
-```  
+```
   
  Literals can also refer to functions. The XML Editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.  
   
@@ -104,7 +106,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
    <ID>prefix</ID>  
    <Function>LookupPrefix("namespaceURI")</Function>  
 </Literal>  
-```  
+```
   
  The $prefix$ variable can then be used elsewhere in your XML snippet.  
   

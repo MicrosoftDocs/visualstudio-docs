@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)
 This topic describes how to disable the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugger using the configuration file when building [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  

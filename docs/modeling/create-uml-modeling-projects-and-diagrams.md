@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "modeling projects"
   - "UML diagrams"
   - "projects, modeling"
-ms.assetid: c178b04b-4fd2-4bed-97e3-d793dae8649c
-caps.latest.revision: 48
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create UML modeling projects and diagrams
 

@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /? (devenv.exe)
 Displays a message box listing all `devenv` switches, with a brief description of each one.  

@@ -10,11 +10,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.xmlbehavior"
 helpviewer_keywords: 
   - "Domain-Specific Language, serialization"
-ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
-caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing File Storage and XML Serialization
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  

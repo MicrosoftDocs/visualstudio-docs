@@ -1,37 +1,42 @@
 ---
-redirect_url: /visualstudio/ide/refactoring-code-generation-quick-actions
-title: "Code Generation in Visual Studio | Microsoft Docs"
+title: Code generation features in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "01/11/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: f0181ee8-9b46-45f7-b86e-316e3de024b9
-caps.latest.revision: 3
+ms.technology: vs-ide-general
+ms.topic: article
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload:
+  - "dotnet"
 ---
+# Code generation features in Visual Studio
 
-# Code Generation in Visual Studio
-Visual Studio can help generate portions of source code for you, letting you focus on the real work.  Some common code generation features include:  
+There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code.
 
-* Generating classes, methods, types, etc.
-* Generating XML Documentation Comments
+Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md) and [Quick Actions](../ide/quick-actions.md) ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png).
+
+Some common code generation tasks available through [Quick Actions](../ide/quick-actions.md) are:
+
+* Generating classes, methods, properties, etc.
+
 * Implementing abstract classes or interfaces
+
 * Introducing a local variable into a complex expression
 
-Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities. For more information, see the following pages:  
-  
-* [Code Generation (C#)](../csharp-ide/code-generation-csharp.md)
-* [Code Generation (Visual Basic)](../vb-ide/code-generation-vb.md)
+Additionally, by typing certain characters you can:
 
-Documentation for other languages coming soon...
+* generate [XML-formatted comment blocks]() for your code that can later be processed to produce documentation automatically
 
-## See Also  
-[Visual Studio IDE](../ide/visual-studio-ide.md)   
-[Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)  
-[Preview Changes](preview-changes.md)
+* generate [method override]() signatures
+
+Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
+
+## See also
+
+[Quick Actions](../ide/quick-actions.md)  
+[Code Snippets](../ide/code-snippets.md)  
+[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)  
+[Refactoring](../ide/refactoring-in-visual-studio.md)

@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Collect .NET Framework Memory Data by using the Profiler Command Line
 

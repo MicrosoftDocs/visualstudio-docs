@@ -21,6 +21,8 @@ caps.latest.revision: 17
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Property Element (MSBuild)
 Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  

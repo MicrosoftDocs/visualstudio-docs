@@ -1,7 +1,7 @@
 ---
 title: "Python options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 07/13/2017
+ms.date: 01/04/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,6 +19,9 @@ f1_keywords:
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Options for Python in Visual Studio
@@ -37,16 +40,18 @@ The specific options are described in the following sections:
 - [Interactive Windows options](#interactive-windows-options)
 - [Advanced Python editor options](#advanced-python-editor-options)
 
+Note that the **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
+
 ## General options
 
 | Option | Default | Description |
 | --- | --- | --- |
 | Show the Output Window when creating virtual environments| On | Clear to prevent the output window from appearing. |
 | Show the Output Window when installing or removing packages | On |  Clear to prevent the output window from appearing. |
-| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](python-environments.md#pip-tab). |
+| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](managing-python-environments-in-visual-studio.md#pip-tab). |
 | Automatically generate completion DB on first use | On | For [IntelliSense completions](code-editing.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. Building the database is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
-| Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](python-environments.md#search-paths) for details. |
-| Update search paths when adding linked files | On | When set, adding a [linked file](python-projects.md#linked-files) to a project updates [search paths](python-environments.md#search-paths) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
+| Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](managing-python-environments-in-visual-studio.md#search-paths) for details. |
+| Update search paths when adding linked files | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [search paths](managing-python-environments-in-visual-studio.md#search-paths) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
 | Warn when imported module cannot be found | On | Clear this option to suppress warnings when you know an imported module isn't presently available but doesn't otherwise affect code operation. |
 | Report inconsistent indentation as | Warnings | Because the Python interpreter depends heavily on proper indentation to determine scope, Visual Studio by default issues warnings when it detects inconsistent indentations that might indicate coding errors. Set to *Errors* to be even more strict, which causes the program to exit in such cases. To disable this behavior altogether, select *Don't*. |
 | Check for survey/news | Once a week | Sets the frequency at which you allow Visual Studio can open a window containing a web page with Python-related surveys and news items, if available. Options are *Never*, *Once a day*, *Once a week*, and *Once a month*. |
@@ -66,7 +71,6 @@ The specific options are described in the following sections:
 
 ![Python options dialog, Debugging tab](media/options-debugging.png)
 
-
 ## Diagnostics options
 
 | Option | Default | Description |
@@ -81,7 +85,7 @@ The specific options are described in the following sections:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Scripts | n/a | Specifies a general folder for startup scripts to apply to interactive windows for all environments. See [Startup scripts](python-environments.md#startup-scripts). Note, however, that this feature does not currently work. |
+| Scripts | n/a | Specifies a general folder for startup scripts to apply to interactive windows for all environments. See [Startup scripts](managing-python-environments-in-visual-studio.md#startup-scripts). Note, however, that this feature does not currently work. |
 | Up/down arrows navigate history | On | Uses the arrow keys to navigate through history in the interactive window. Clear this setting to use the arrow keys to navigate within the interactive window's output instead. |
 | Completion mode | Only evaluate expressions without function calls | The process of determining the available members on an expression in the interactive window may require evaluating the current unfinished expression, which can result in side-effects or functions being called multiple times. The default setting, *Only evaluate expressions without function calls* excludes expressions that appear to call a function, but evaluates other expressions. For example, it evaluates `a.b` but not `a().b`.  *Never evaluate expressions* prevents all side-effects, using only the normal IntelliSense engine for suggestions. *Evaluate all expressions* evaluates the complete expression to obtain suggestions, regardless of side effects. |
 | Hide static analysis suggestions | Off | When set, displays only suggestions that are obtained by evaluating the expression. If combined with the Completion mode *Never evaluate expressions*, no useful completions appear in the interactive window. |

@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], custom document"
   - "Word [Office development in Visual Studio], creating documents"
   - "documents [Office development in Visual Studio], creating"
-ms.assetid: c24bb8a3-1303-438e-9b33-ba8b00b29c3b
-caps.latest.revision: 49
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create New Documents
   When you create a document programmatically, the new document is a native <xref:Microsoft.Office.Interop.Word.Document> object. This object does not have the additional events and data binding capabilities of a <xref:Microsoft.Office.Tools.Word.Document> host item. For more information, see [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).  

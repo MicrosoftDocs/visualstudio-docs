@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44949749-ce3c-4fb5-8690-a17f1564ac2f
-caps.latest.revision: 4
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # T4 Assembly Directive
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project.  

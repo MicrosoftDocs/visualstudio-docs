@@ -1,7 +1,7 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/22/2017"
+ms.date: "01/17/2018"
 ms.reviewer: "tims"
 ms.suite: ""
 ms.technology:
@@ -16,6 +16,8 @@ ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 # Use command-line parameters to install Visual Studio 2017
 When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
@@ -35,7 +37,10 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 > Syntax: `vs_enterprise.exe [command] <options>...`
 
-(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing. For examples, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
+(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
+
+>[!TIP]
+> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -134,11 +139,10 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 
- * [Install Visual Studio 2017](install-visual-studio.md)
- * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+ * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)

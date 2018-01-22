@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-ms.assetid: f26c986c-1e79-420e-b29a-a283e6d8a71d
-caps.latest.revision: 33
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Dependency Diagrams: Reference
 In Visual Studio, you can use a *dependency diagram* to visualize the high-level, logical architecture of your system. A dependency diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.  

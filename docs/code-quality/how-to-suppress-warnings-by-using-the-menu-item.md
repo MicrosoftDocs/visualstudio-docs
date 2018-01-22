@@ -16,6 +16,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Suppress Warnings by Using the Menu Item
 > [!NOTE]

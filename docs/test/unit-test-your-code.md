@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
-ms.assetid: c191de3e-3f3b-471e-b828-29ec24e80e2c
-caps.latest.revision: 62
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Unit Test Your Code
 Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)], [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)], and [!INCLUDE[cpp_current_short](../misc/includes/cpp_current_short_md.md)] projects.  
@@ -50,15 +50,6 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 |**Extend the unit test type:** You can add functionality to your tests that might not be in the Unit Test Framework. For example, you can add a test property that specifies if a test should run as a normal user or not. Or you can extend the framework to add row attributes to a method and use the data in that row inside the test.|For sample code of how to extend the unit test framework, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=185591).|  
 |**Set testing options:** For example, you can specify where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|  
   
-## Related tasks  
- [Reviewing Test Results in Microsoft Test Manager](http://msdn.microsoft.com/en-us/9fb3e429-78df-4fe2-89ed-0ad1db0738f4)  
-  
- Describes test results and ways to work with them, including how to view, save, and delete them.  
-  
- [Running System Tests Using Microsoft Visual Studio](/devops-test-docs/test/running-automated-tests-using-microsoft-visual-studio)  
-  
- Provides links to information about using Visual Studio as opposed to using [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] to run automated tests.  
-  
 ## Reference  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>  
  Describes the UnitTesting namespace, which provides attributes, exceptions, asserts, and other classes that support unit testing.  
@@ -80,6 +71,6 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 ### Reference  
  [Content Index for Unit Tests](http://go.microsoft.com/fwlink/?LinkID=254719)  
   
-## See Also  
- [Improve Code Quality](/visualstudio/test/improve-code-quality)   
- [Testing the application](/devops-test-docs/test/test-apps-early-and-often)
+## See also
+
+[Improve Code Quality](/visualstudio/test/improve-code-quality)

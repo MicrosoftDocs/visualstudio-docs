@@ -12,6 +12,8 @@ ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
 caps.latest.revision: 7
 ms.author: "sdanie"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the <xref:System.Activities.Statements.InvokeMethod> designer.  

@@ -7,17 +7,18 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 6233d060-85b8-42be-ae5f-bde7e1d0f241
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: You do not have permission to inspect the process&#39;s identity
 You do not have permission to inspect the process's identity. This may be due to your system's configuration.  

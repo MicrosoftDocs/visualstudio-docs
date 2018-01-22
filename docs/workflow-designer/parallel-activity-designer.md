@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Parallel Activity Designer
 The <xref:System.Activities.Statements.Parallel> activity executes a collection of child activities concurrently.  

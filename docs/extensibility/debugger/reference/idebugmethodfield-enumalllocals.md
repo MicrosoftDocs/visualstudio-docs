@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMethodField::EnumAllLocals
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.  

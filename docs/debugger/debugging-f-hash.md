@@ -21,6 +21,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging F#
 Debugging F# is similar to debugging any managed language, with a few exceptions:  

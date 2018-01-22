@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # AddToCollection&lt;T&gt; Activity Designer
 The **AddToCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.AddToCollection%601> activity.  

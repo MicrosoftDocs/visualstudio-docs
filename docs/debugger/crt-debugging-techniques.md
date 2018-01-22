@@ -24,6 +24,8 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CRT Debugging Techniques
 If you are debugging a program that uses the C run-time library, these debugging techniques might be useful.  

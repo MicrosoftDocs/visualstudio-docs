@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, API"
   - "text templates, custom hosts"
-ms.assetid: 62cd9a3c-a6e1-4b29-93f5-f2a0cf47dc92
-caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing T4 Text Transformation
 Text templates are a feature of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that allow you to generate program code or other text files through a transformation process. Using [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)], you can extend the default template transformation process by customizing the text template directive processor or the text template host.  

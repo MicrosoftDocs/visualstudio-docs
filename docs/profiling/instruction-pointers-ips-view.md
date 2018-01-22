@@ -22,6 +22,8 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Instruction Pointers (IPs) View
 The Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.  

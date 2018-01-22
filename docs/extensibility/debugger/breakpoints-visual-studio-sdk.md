@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Breakpoints (Visual Studio SDK)
 There are three types of breakpoints: pending, bound, and error.  

@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "globalizing [SharePoint development in Visual Studio]"
   - "localizing [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, localizing"
-ms.assetid: 0d4cfa2b-8b48-45c7-bbee-ece9b0baffaf
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Localizing SharePoint Solutions
   The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](/visualstudio/ide/globalizing-and-localizing-applications). This topic provides an overview on how to localize a SharePoint solution.  

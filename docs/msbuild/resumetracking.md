@@ -20,6 +20,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResumeTracking
 Resumes tracking in the current context.  

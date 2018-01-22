@@ -16,6 +16,8 @@ caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending the Status Bar
 You can use the Visual Studio status bar at the bottom of the IDE to display information.  

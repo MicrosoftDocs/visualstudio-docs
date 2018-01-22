@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/14/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: "ghogen"
+ms.workload: 
+  - "vssdk"
 ---
 # Language Server Protocol
 
@@ -34,11 +36,11 @@ The LSP has evolved over time and today it is at Version 3.0. It started when th
 
 Around the same time, Microsoft started to work on a TypeScript language server, with the idea of supporting TypeScript in editors like Emacs and Sublime Text. In this implementation, an editor communicates through stdin/stdout with the TypeScript server process and uses a JSON payload inspired by the V8 debugger protocol for requests and responses. The TypeScript server has been integrated into the TypeScript Sublime plugin and VS Code for rich TypeScript editing.
 
-After having in integrated two different language servers, the VS Code team started to explore a common language server protocol for editors and IDEs. A common protocol enables a language provider to create a single language server that can be consumed by different IDEs. A language server consumer only has to implement the client side of the protocol once. This results in a win-win situation for both the language provider and the language consumer.
+After having integrated two different language servers, the VS Code team started to explore a common language server protocol for editors and IDEs. A common protocol enables a language provider to create a single language server that can be consumed by different IDEs. A language server consumer only has to implement the client side of the protocol once. This results in a win-win situation for both the language provider and the language consumer.
 
-Started with the language protocol used by the TypeScript server, it was more general and language neutral. The protocol was with more language features using the VS Code language API for inspiration. The protocol itself is backed with JSON-RPC for remote invocation due to its simplicity and support libraries for many programming languages.
+The language server protocol started with the protocol used by the TypeScript server, expanding it with more language features inspired by the VS Code language API. The protocol is backed with JSON-RPC for remote invocation due to its simplicity and existing libraries.
 
-The VS Code team dogfooded the protocol by implementing several linter language servers. A linter language server responds to requests to lint (scan) a file and returns a set of detected warnings and errors. The goal was to lint a file as the user edits in a document, which means that there will be many linting requests during an editor session. It made sense to keep a server up and running so that a new linting process didn't need to be started for each user edit. Several linter servers were implemented, including VS Code's ESLint and TSLint extensions. These two linter servers are both implemented in TypeScript/JavaScript and run on Node.js. They share a library that implements the client and server part of the protocol.
+The VS Code team prototyped the protocol by implementing several linter language servers which respond to requests to lint (scan) a file and return a set of detected warnings and errors. The goal was to lint a file as the user edits in a document, which means that there will be many linting requests during an editor session. It made sense to keep a server up and running so that a new linting process did not need to be started for each user edit. Several linter servers were implemented, including VS Code's ESLint and TSLint extensions. These two linter servers are both implemented in TypeScript/JavaScript and run on Node.js. They share a library that implements the client and server part of the protocol.
 
 ## How the LSP works
 

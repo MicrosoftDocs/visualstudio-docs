@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasEH
 Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block).  

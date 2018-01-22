@@ -10,11 +10,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.explorerbehavior"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
-ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
-caps.latest.revision: 20
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  

@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], persisting in the document"
-ms.assetid: 200352d1-66aa-4156-9ecd-6fd8792974cd
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Persisting Dynamic Controls in Office Documents
   Controls that are added at run time are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.  

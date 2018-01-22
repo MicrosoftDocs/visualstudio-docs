@@ -23,6 +23,8 @@ caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Message Task
 Logs a message during a build.  

@@ -19,6 +19,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Symbol Path Command
 Sets the list of directories for the debugger to search for symbols.  

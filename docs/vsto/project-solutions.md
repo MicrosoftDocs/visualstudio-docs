@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "templates [Office development in Visual Studio], Project"
   - "Office projects [Office development in Visual Studio], Project"
   - "solutions [Office development in Visual Studio], Project"
-ms.assetid: 4ce92269-eb6d-44aa-bee3-6d38ec9995f9
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Project Solutions
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] provides project templates you can use to create VSTO Add-ins for Microsoft Office Project. You can use VSTO Add-ins to automate Project, extend Project features, or customize the Project user interface (UI).  

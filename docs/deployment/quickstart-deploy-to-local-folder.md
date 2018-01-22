@@ -5,7 +5,7 @@ ms.date: "11/22/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-debug"
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+ms.workload: 
+  - "multiple"
 ---
 # Deploy a web app or .NET Core app to a local folder using the Visual Studio Publish tool
 
@@ -62,6 +64,6 @@ Deploy the published files in any way you like. For example, you can package the
 
 ## Next steps
 
-- [Deploy a .NET Core Application with the Publish tool](https://docs.microsoft.com/en-us/dotnet/core/deploying/deploy-with-vs)
-- [Package a desktop app for Microsoft Store (Desktop Bridge)](https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
-- (.NET) [Deploy the .NET Framework and applications](https://docs.microsoft.com/en-us/dotnet/framework/deployment/)
+- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
+- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
+- (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)

@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 This method changes the object that the visualizer represents.  

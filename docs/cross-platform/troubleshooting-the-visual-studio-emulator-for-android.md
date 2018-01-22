@@ -13,6 +13,8 @@ caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting the Visual Studio Emulator for Android
 This topic contains information to help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android.  

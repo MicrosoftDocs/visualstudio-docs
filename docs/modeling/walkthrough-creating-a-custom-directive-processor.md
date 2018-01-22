@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, custom directive processors"
   - "walkthroughs [text templates], directive processor"
-ms.assetid: b8f35a36-14e1-4467-8f5f-e01402af14d5
-caps.latest.revision: 74
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Custom Directive Processor
 *Directive processors* work by adding code to the *generated transformation class*. If you call a *directive* from a *text template*, the rest of the code that you write in your text template can rely on the functionality that the directive provides.  

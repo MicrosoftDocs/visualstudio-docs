@@ -1,11 +1,10 @@
 ---
 title: "Services Page, Project Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/18/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -13,26 +12,26 @@ f1_keywords:
 helpviewer_keywords: 
   - "Services page in Project Designer"
   - "Project Designer, Services page"
-ms.assetid: 6dd9e0fa-acba-4d7d-b081-705b0fc86ff5
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Services Page, Project Designer
-Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.  
+
+Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.
+
+With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services).
+
+To access the **Services** page, select a project node in **Solution Explorer**, and then click **Properties** on the **Project** menu. When the **Project Designer** appears, click the **Services** tab.
+
+## Task List
+
+[How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)  
   
- With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services).  
-  
- To access the **Services** page, select a project node in **Solution Explorer**, and then click **Properties** on the **Project** menu. When the **Project Designer** appears, click the **Services** tab.  
-  
-> [!NOTE]
->  Client application services require the full version of the .NET Framework, and are not supported in the .NET Framework Client Profile. If the **Enable client application services** check box is disabled, verify that the **Target framework** is set to the .NET Framework 3.5 or later. To view the **Target framework** setting in C#, open the Project Designer and then click the **Application** page. To view the **Target framework** setting in Visual Basic, open the Project Designer, click the **Compile** page, and then click **Advanced Compile Options**.  
-  
-## Task List  
- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)  
-  
-## UIElement List  
+## UIElement List
+
  **Configuration**  
  This control is not editable on this page. For a description of this control, see [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md) or [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md).  
   
@@ -63,9 +62,10 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  **Advanced**  
  Opens the [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md), which you can use to override default behavior. For example, you can use this dialog box to specify a database for offline storage instead of using the local file system. For more information, see [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md).  
   
-## See Also  
- [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)   
- [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)   
- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)   
- [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   
- [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)   
+## See also
+
+[Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)   
+[Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)   
+[How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)   
+[Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   
+[Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)   

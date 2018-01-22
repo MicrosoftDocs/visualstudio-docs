@@ -23,6 +23,8 @@ caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateProperty Task
 Populates properties with the values passed in. This allows values to be copied from one property or string to another.  

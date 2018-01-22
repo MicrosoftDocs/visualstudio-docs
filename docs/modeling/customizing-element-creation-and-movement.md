@@ -10,11 +10,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.elementmergedirective"
 helpviewer_keywords: 
   - "Domain-Specific Language, element merge directives"
-ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
-caps.latest.revision: 36
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing Element Creation and Movement
 You can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation. You can have the moved elements linked to the target elements, using the relationships that you specify.  

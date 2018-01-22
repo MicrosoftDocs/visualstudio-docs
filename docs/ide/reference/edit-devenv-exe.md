@@ -16,6 +16,8 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Edit (devenv.exe)
 Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

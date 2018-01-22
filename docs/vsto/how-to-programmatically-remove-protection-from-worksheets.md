@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], document protection"
   - "document protection, removing from worksheets"
   - "Unprotect method"
-ms.assetid: 034688d2-eda7-4b4a-bcc2-d0999ff879a4
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Remove Protection from Worksheets
   You can programmatically remove protection from a Microsoft Office Excel worksheet.  

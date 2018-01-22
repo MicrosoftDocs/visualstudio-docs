@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Instruction Pointers (IPs) View - Contention Data
 The IPs view of contention data lists data for the assembly instructions that were blocked from executing in the profiling run.  

@@ -18,6 +18,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule3::GetSymbolInfo
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.  

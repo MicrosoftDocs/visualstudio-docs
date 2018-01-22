@@ -12,7 +12,7 @@ ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.VCLinkerTool.OutputFile
   - VC.Project.VCLinkerTool.ShowProgress
   - VC.Project.VCLinkerTool.Version
@@ -34,6 +34,8 @@ f1_keywords:
   - VC.Project.AdditionalOptionsPage
   - VC.Project.VCLinkerTool.AdditionalDependencies
   - VC.Project.VCLinkerTool.LibraryDependencies
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # Clang Linker Properties (Android C++)

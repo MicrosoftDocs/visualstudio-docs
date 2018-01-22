@@ -7,18 +7,20 @@ ms.suite: ""
 ms.technology: "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "solutions [Visual Studio], deleting"
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create solutions and projects
 
@@ -75,7 +77,7 @@ If you have a collection of code source files, you can easily add them to a proj
 1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, choose the **Finish** button.
 
 > [!NOTE]
-> This option works best for a relatively simple collections of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and Visual C# project types are supported.
+> This option works best for a relatively simple collection of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and Visual C# project types are supported.
 
 ## Add files to a solution
 

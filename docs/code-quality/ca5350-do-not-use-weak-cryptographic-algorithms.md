@@ -13,6 +13,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA5350: Do Not Use Weak Cryptographic Algorithms
 |||  

@@ -10,11 +10,11 @@ helpviewer_keywords:
   - "tracking properties [Domain-Specific Language Tools], walkthrough"
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools]"
-ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
-caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 This walkthrough shows how to add a tracking property to a domain model.  

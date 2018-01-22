@@ -23,6 +23,8 @@ caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error Task
 Stops a build and logs an error based on an evaluated conditional statement.  

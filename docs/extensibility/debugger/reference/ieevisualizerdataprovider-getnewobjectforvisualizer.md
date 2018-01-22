@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.  

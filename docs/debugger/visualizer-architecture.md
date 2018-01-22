@@ -18,6 +18,8 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visualizer Architecture
 The architecture of a debugger visualizer has two parts:  

@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Channels (Threads View)
 The Concurrency Visualizer shows four kinds of channels: thread channels, disk channels, marker channels, and GPU channels.  

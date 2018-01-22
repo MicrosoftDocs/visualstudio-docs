@@ -13,19 +13,23 @@ caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
+  - "azure"
 ---
 
 # Managing Python on Azure App Service
 
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
-Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code. 
+Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
 
 > [!Tip]
 > Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this topic.
 
 > [!Important]
-> The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).>
+> The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## Choosing a Python version through the Azure portal
 
@@ -41,20 +45,19 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 1. Select the extension, accept the legal terms, then select **OK**.
 1. A notification appears in the portal when installation is complete.
 
-
 ## Choosing a Python version through the Azure Resource Manager
 
 If you are deploying an App Service with an Azure Resource Manager template, add the site extension as a resource. The extension appears as a nested resource with the type `siteextensions` and the name from [siteextensions.net](https://www.siteextensions.net/packages?q=Tags%3A%22python%22).
 
 For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following (some properties omitted):
 
-```
+```json
 "resources": [
   {
     "apiVersion": "2015-08-01",
     "name": "[parameters('siteName')]",
     "type": "Microsoft.Web/sites",
-    
+
     // ...
 
     "resources": [
@@ -82,7 +85,7 @@ Begin by finding the full path to the site extension's `python.exe`, then create
 
 A Python site extension is installed on the server under `d:\home` in a folder appropriate to the Python version and architecture (except in the case of a few older versions). For example, Python 3.6.1 x64 is installed in `d:\home\python361x64`. The full path to the Python interpreter is then `d:\home\python361x64\python.exe`.
 
-To see the specific path on your App Service, select **Extensions** on the App Service page, then select the extension in the list. 
+To see the specific path on your App Service, select **Extensions** on the App Service page, then select the extension in the list.
 
 ![Extension list on Azure App Service](media/python-on-azure-extension-list.png)
 
@@ -93,8 +96,8 @@ This action opens the extension's description page containing the path:
 If you have trouble seeing the path for the extension, you can find it manually using the console:
 
 1. On your App Service page, select the **Development Tools > Console**.
-2. Enter the command `ls ../home` or `dir ..\home` to see the top-level extensions folders, such as `Python361x64`.
-3. Enter a command like `ls ../home/python361x64` or `dir ..\home\python361x64` to verify that it contains `python.exe` and other interpreter files.
+1. Enter the command `ls ../home` or `dir ..\home` to see the top-level extensions folders, such as `Python361x64`.
+1. Enter a command like `ls ../home/python361x64` or `dir ..\home\python361x64` to verify that it contains `python.exe` and other interpreter files.
 
 ### Configuring the FastCGI handler
 
@@ -120,6 +123,7 @@ FastCGI is an interface that works at the request level. IIS receives incoming c
 ```
 
 The `<appSettings>` defined here are available to your app as environment variables:
+
 - The value for `PYTHONPATH` may be freely extended but must include the root of your app.
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
 - `WSGI_LOG` is optional but recommended for debugging your app. 
@@ -159,13 +163,12 @@ The Python interpreter installed through a site extension is only one piece of y
 
 To install packages directly in the server environment, use one of the following methods:
 
-| Methods | Usage | 
+| Methods | Usage |
 | --- | --- |
 | [Azure App Service Kudu console](#azure-app-service-kudu-console) | Installs packages interactively. Packages must be pure Python or must publish wheels. |
 | [Kudu REST API](#kudu-rest-api) | Can be used to automate package installation.  Packages must be pure Python or must publish wheels. |
 | Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you'll see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
 | Virtual environments | Not supported. Instead, use bundling and set the `PYTHONPATH` environment variable to point to the location of the packages. |
-
 
 ### Azure App Service Kudu console
 
@@ -173,28 +176,28 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 
 1. Open Kudu from your App Service page on the Azure portal by selecting **Development Tools > Advanced Tools**, then selecting **Go**. This action navigates to a URL that's the same as your base App Service URL except with `.scm` inserted. For example, if your base URL is `https://vspython-test.azurewebsites.net/` then Kudu is on `https://vspython-test.scm.azurewebsites.net/` (which you can bookmark):
 
-    ![The Kudu console for Azure App Service](media/python-on-azure-console01.png)    
+    ![The Kudu console for Azure App Service](media/python-on-azure-console01.png)
 
-2. Select **Debug console > CMD** to open the console, in which you can navigate into your Python installation and see what libraries are already there.
+1. Select **Debug console > CMD** to open the console, in which you can navigate into your Python installation and see what libraries are already there.
 
-3. To install a single package:
+1. To install a single package:
 
     a. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
-     
+
     b. Use `python.exe -m pip install <package_name>` to install a package.
-    
+
     ![Example of installing bottle through the Kudu console for Azure App Service](media/python-on-azure-console02.png)
-    
-4. If you've deployed a `requirements.txt` for your app to the server already, install all those requirements as follows:
+
+1. If you've deployed a `requirements.txt` for your app to the server already, install all those requirements as follows:
 
     a. Navigate to the folder of the Python installation where you want to install the package, such as `d:\home\python361x64`.
-    
+
     b. Run the command `python.exe -m pip install --upgrade -r d:\home\site\wwwroot\requirements.txt`.
-    
+
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
-    
+
 > [!Note]
-> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
+> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](managing-python-environments-in-visual-studio.md#managing-required-packages-requirementstxt).
 
 ### Kudu REST API
 
@@ -207,7 +210,6 @@ Instead of using the Kudu console through the Azure portal, you can run commands
 }
 ```
 
-For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API). 
+For information about commands and authentication, see the [Kudu documentation](https://github.com/projectkudu/kudu/wiki/REST-API).
 
-You can also see credentials using the `az webapp deployment list-publishing-profiles` command through the Azure CLI (see [az webapp deployment](https://docs.microsoft.com/cli/azure/webapp/deployment#list-publishing-profiles)). A helper library for posting Kudu commands is available on [GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).
-
+You can also see credentials using the `az webapp deployment list-publishing-profiles` command through the Azure CLI (see [az webapp deployment](/cli/azure/webapp/deployment?view=azure-cli-latest#az_webapp_deployment_list_publishing_profiles)). A helper library for posting Kudu commands is available on [GitHub](https://github.com/lmazuel/azure-webapp-publish/blob/master/azure_webapp_publish/kudu.py#L42).

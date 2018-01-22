@@ -16,6 +16,8 @@ caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Best Practices
 We recommend the following best practices for writing MSBuild scripts:  

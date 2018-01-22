@@ -20,6 +20,8 @@ caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customize the start page for Visual Studio
 

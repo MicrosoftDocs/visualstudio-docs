@@ -16,6 +16,8 @@ caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Custom Colorable Items
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/21/2017"
+ms.date: "01/18/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,6 +25,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: add or remove references by using the Reference Manager
 
@@ -194,7 +196,7 @@ If a project type doesn't support **Extensions**, the tab doesn't appear in the 
 
 You can use the **Browse** button to browse for a component in the file system.
 
-A project can reference a component that targets a different version of the .NET Framework. For example, you could create an application that targets the .NET Framework 4 Client Profile, which references a component that targets the .NET Framework 2. For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
+A project can reference a component that targets a different version of the .NET Framework. For example, you could create an application that targets the .NET Framework 4.7, which references a component that targets the .NET Framework 4. For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
 
 You should avoid adding file references to outputs of another project in the same solution, because this tactic may cause compilation errors. Instead, use the **Solution** tab of the **Reference Manager** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).
 

@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Inspect XAML properties while debugging
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.  
@@ -22,7 +24,6 @@ You can get a real-time view of your running XAML code with the **Live Visual Tr
 |Type of App|Operating System and Tools|  
 |-----------------|--------------------------------|  
 |Windows Presentation Foundation (4.0 and above) applications|Windows 7 and above|  
-|Windows 8.1 and Windows Phone 8.1 apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|  
 |Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|  
   
 ## Looking at Elements in the Live Visual Tree  

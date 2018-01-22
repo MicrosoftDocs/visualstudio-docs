@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findInlineesByName
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.  

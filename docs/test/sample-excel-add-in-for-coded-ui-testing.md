@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests, Excel Add-in sample"
-ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
-caps.latest.revision: 16
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Excel Add-In for Coded UI Testing
 This sample Add-In for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] is designed specifically to support Coded UI Tests of Excel worksheets that are recorded and run in Visual Studio Enterprise. The Add-In is created by using Visual Studio Tools for Office.  

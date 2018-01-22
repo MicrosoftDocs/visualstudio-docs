@@ -18,6 +18,8 @@ caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # AssignTargetPath Task
 This task accepts a list files and adds `<TargetPath>` attributes if they are not already specified.  

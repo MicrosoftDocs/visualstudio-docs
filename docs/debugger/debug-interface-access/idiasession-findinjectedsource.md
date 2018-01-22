@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findInjectedSource
 Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process.  
