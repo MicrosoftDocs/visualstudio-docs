@@ -103,7 +103,7 @@ In this section, you'll add two pages and an image to the application.
 
 ### To add a home screen
 
-1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Page**.
+1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add** > **Page**.
 
 1. In the **Add New Item** dialog, choose the **Name** text box and enter `ExpenseItHome`, and then choose the **Add** button.
   
@@ -165,7 +165,7 @@ In this section, you'll add two pages and an image to the application.
   
 ### To add a details window
 
-1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Page**.
+1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add** > **Page**.
 
 1. In the **Add New Item** dialog, choose the **Name** text box and enter `ExpenseReportPage`, and then choose the **Add** button.
   
@@ -199,7 +199,7 @@ In this section, you'll add two pages and an image to the application.
     <Page x:Class="ExpenseReportPage"  
     ```  
 
-1. On the menu bar, choose **Debug**, **Start Debugging** (or press F5) to run the application.
+1. On the menu bar, choose **Debug** > **Start Debugging** (or press **F5**) to run the application.
   
      The following illustration shows the application with the navigation window buttons.
   
@@ -272,14 +272,14 @@ Layout provides an ordered way to place elements, and also manages the size and 
     > [!NOTE]
     >  Alternatively you can create your own image and save it as `watermark.png`.
 
-1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Existing Item**.
+1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add** > **Existing Item**.
 
 1. In the **Add Existing Item** dialog, find the **watermark.png** image that you just added, choose it and then choose the **Add** button.
 
     > [!NOTE]
     >  You may need to expand the **File Types** list and choose **Image Files**.
 
-1. Open the **ExpenseItHome.xaml** file and add the following XAML code just above the `</Grid>` tag to create a background image:  
+1. Open the **ExpenseItHome.xaml** file and add the following XAML code just above the `</Grid>` tag to create a background image:
 
     ```xaml
     <Grid.Background>
@@ -291,42 +291,42 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
 1. Open **ExpenseItHome.xaml**.
 
-1. Find the line `<Grid.ColumnDefinitions>` and add the following just below it:  
-  
-    ```xaml  
-    <ColumnDefinition Width="230" />    
-    ```  
-  
-     This creates an additional column to the left of the other columns with a fixed width of 230 pixels.
+1. Find the line `<Grid.ColumnDefinitions>` and add the following just below it:
+
+    ```xaml
+    <ColumnDefinition Width="230" />
+    ```
+
+    This creates an additional column to the left of the other columns with a fixed width of 230 pixels.
 
 1. Find the line `<Grid.RowDefinitions>` and add the following just below it:  
-  
-    ```xaml  
-    <RowDefinition />    
-    ```  
-  
-     This adds a row to the top of the grid.
+
+    ```xaml
+    <RowDefinition />
+    ```
+
+    This adds a row to the top of the grid.
 
 1. Move the controls to the second column by setting the `Grid.Column` value to 1. Move each control down a row, by increasing each `Grid.Row` value by 1.
-  
+
     1. Find the line `<Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" Background="#4E87D4">`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="0"` to `Grid.Row="1"`.
-  
+
     1. Find the line `<ListBox Name="peopleListBox" Grid.Column="0" Grid.Row="1"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="1"` to `Grid.Row="2"`.
-  
+
     1. Find the line `<Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="2"` to `Grid.Row="3"`.
 
-1. Just before the `<Border` element add the following XAML code to display the title:  
-  
-    ```xaml  
-    <Label Grid.Column="1" VerticalAlignment="Center" FontFamily="Trebuchet MS"   
-            FontWeight="Bold" FontSize="18" Foreground="#0066cc">  
-        View Expense Report  
-    </Label>    
-    ```  
-  
-     The contents of **ExpenseItHome.xaml** should now look like this in C#:  
-  
-    ```xaml  
+1. Just before the `<Border` element add the following XAML code to display the title:
+
+    ```xaml
+    <Label Grid.Column="1" VerticalAlignment="Center" FontFamily="Trebuchet MS"
+            FontWeight="Bold" FontSize="18" Foreground="#0066cc">
+        View Expense Report
+    </Label>
+    ```
+
+     The contents of **ExpenseItHome.xaml** should now look like this in C#:
+
+    ```xaml
     <Page x:Class="ExpenseIt.ExpenseItHome"  
           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
