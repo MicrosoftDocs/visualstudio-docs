@@ -956,6 +956,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/using-the-toolbox.md",
+            "redirect_url": "/visualstudio/ide/reference/toolbox",
+            "redirect_document_id": false 
+        },
+        {
             "source_path": "docs/ide/viewing-types-and-relationships-class-designer.md",
             "redirect_url": "/visualstudio/ide/class-designer/viewing-types-and-relationships",
             "redirect_document_id": false
@@ -1336,6 +1341,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/cpp-and-python.md",
+            "redirect_url": "/visualstudio/python/working-with-c-cpp-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/getting-started-with-ptvs-building-a-website-in-azure.md",
             "redirect_url": "/visualstudio/python/publishing-to-azure",
             "redirect_document_id": false
@@ -1357,29 +1367,84 @@
         },
         {
             "source_path": "docs/python/getting-started-with-ptvs-setting-up-visual-studio.md",
-            "redirect_url": "/visualstudio/python/installation",
+            "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/getting-started-with-ptvs-start-coding-projects.md",
-            "redirect_url": "/visualstudio/python/python-projects",
+            "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/getting-started-with-python.md",
-            "redirect_url": "/visualstudio/python/python-in-visual-studio",
+            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/getting-started.md",
-            "redirect_url": "/visualstudio/python/vs-tutorial-01-01",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/index.md",
-            "redirect_url": "/visualstudio/python/python-in-visual-studio",
+            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
             "redirect_document_id": false
         },
+        {
+            "source_path": "docs/python/installation.md",
+            "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/python-environments.md",
+            "redirect_url": "/visualstudio/python/managing-python-environments-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/python-in-visual-studio.md",
+            "redirect_url": "/visualstudio/python/overview-of-python-tools-for-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/python-projects.md",
+            "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-00.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-00-installation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-01.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-02.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-02-writing-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-03.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-03-interactive-repl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-04.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-04-debugging",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-05.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-05-installing-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/vs-tutorial-01-06.md",
+            "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-06-working-with-git",
+            "redirect_document_id": false
+        },                                                
         {
             "source_path": "docs/sharepoint/index.md",
             "redirect_url": "/visualstudio/sharepoint/create-sharepoint-solutions",

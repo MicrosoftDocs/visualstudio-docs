@@ -1,7 +1,8 @@
 ---
-title: Working with Python in Visual Studio, Step 1 | Microsoft Docs
+title: Working with Python in Visual Studio, Step 1, Creating a Project | Microsoft Docs
+description: Step 1 of a core tutorial for working with Python within Visual Studio, outlining the whole tutorial, describing prerequisites, and walking through the process of creating a new Python project.
 ms.custom: ""
-ms.date: 01/08/2018
+ms.date: 01/16/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,17 +25,17 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 
 Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
 
-- [Step 0: Installation](vs-tutorial-01-00.md)
+- [Step 0: Installation](tutorial-working-with-python-in-visual-studio-step-00-installation.md)
 - [Step 1: Creating a Python project (this topic)](#step-1-create-a-new-python-project)
-- [Step 2: Writing and running code to see Visual Studio IntelliSense at work](vs-tutorial-01-02.md)
-- [Step 3: Create more code in the interactive REPL window](vs-tutorial-01-03.md)
-- [Step 4: Run the completed program in the Visual Studio debugger](vs-tutorial-01-04.md)
-- [Step 5: Installing packages and managing Python environments](vs-tutorial-01-05.md)
-- [Step 6: Working with Git](vs-tutorial-01-06.md)
+- [Step 2: Writing and running code to see Visual Studio IntelliSense at work](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
+- [Step 3: Create more code in the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
+- [Step 4: Run the completed program in the Visual Studio debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
+- [Step 5: Installing packages and managing Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
+- [Step 6: Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
 ## Prerequisites
 
-- Visual Studio 2017 with the Python workload installed. See [Step 0](vs-tutorial-01-00.md) for instructions.
+- Visual Studio 2017 with the Python workload installed. See [Step 0](tutorial-working-with-python-in-visual-studio-step-00-installation.md) for instructions.
 
 ## Step 1: Create a new Python project
 
@@ -73,11 +74,11 @@ In this tutorial you begin with a simple project containing a single, empty code
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Writing and running code](vs-tutorial-01-02.md)
+> [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 
 ## Going deeper
 
-- [Python projects in Visual Studio](python-projects.md).
+- [Python projects in Visual Studio](managing-python-projects-in-visual-studio.md).
 - [Learn about the Python language on python.org](https://www.python.org)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)

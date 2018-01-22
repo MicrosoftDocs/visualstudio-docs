@@ -255,7 +255,7 @@ src="https://docs.microsoft.com/media/logos/logo_TS.svg"><span>TypeScript</span>
 src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/nodejs/tutorial-nodejs"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
-<div class="ico48Link"><a href="/visualstudio/python/vs-tutorial-01-01"><img width="48" height="48" alt=""
+<div class="ico48Link"><a href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/media/logos/logo_Python.svg"><span>Python</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/rtvs/getting-started-with-r"><img width="48" height="48" alt=""
 src="https://docs.microsoft.com/media/logos/logo_R.svg"><span>R</span></a></div>
