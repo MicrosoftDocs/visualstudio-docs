@@ -1,5 +1,6 @@
 ---
-title: "Symbols for mixed-mode Python/C++ debugging in Visual Studio | Microsoft Docs"
+title: Symbols for mixed-mode Python/C++ debugging in Visual Studio | Microsoft Docs
+description: How Visual Studio provides the ability to load symbols for complete mixed-mode C++ and Python debugging.
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -20,7 +21,7 @@ ms.workload:
 
 # Installing debugging symbols for Python interpreters
 
-To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode.md) in Visual Studio needs debug symbols for the Python interpreter being used to parse numerous internal data structures. For python27.dll, for example, the corresponding symbol file is python27.pdb; for python36.dll, the symbol file is python36.pdb. Each version of the interpreter also supplies symbol files for a variety of modules.
+To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) in Visual Studio needs debug symbols for the Python interpreter being used to parse numerous internal data structures. For python27.dll, for example, the corresponding symbol file is python27.pdb; for python36.dll, the symbol file is python36.pdb. Each version of the interpreter also supplies symbol files for a variety of modules.
 
 With Visual Studio 2017, the "Python 3" and "Anaconda 3" interpreters automatically install their respective symbols and Visual Studio find those symbols automatically. For Visual Studio 2015 and earlier, or when using other interpreters, you need to download symbols separately and then point Visual Studio to them through the **Tools > Options** dialog in the **Debugging > Symbols** tab. These steps are detailed in the following sections.
 

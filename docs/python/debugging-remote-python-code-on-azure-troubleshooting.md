@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting Azure remote debugging for Python in Visual Studio | Microsoft Docs
+description: How to troubleshoot problems when attempting to debug a Python application running in Azure App Service using Visual Studio.
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -19,9 +20,9 @@ ms.workload:
   - "azure"
 ---
 
-# Remote debugging rroubleshooter for Python and Azure
+# Remote debugging troubleshooter for Python and Azure
 
-Visual Studio fails to attach to an [Azure App Service for remote debugging](debugging-azure-remote.md) for any of the following reasons:
+Visual Studio fails to attach to an [Azure App Service for remote debugging](debugging-remote-python-code-on-azure.md) for any of the following reasons:
 
 | Reason | Resolution |
 | --- | --- |
@@ -34,4 +35,4 @@ Visual Studio fails to attach to an [Azure App Service for remote debugging](deb
 
 See also:
 
-- [Azure remote debugging for Python](debugging-azure-remote.md)
+- [Azure remote debugging for Python](debugging-remote-python-code-on-azure.md)

@@ -1,5 +1,6 @@
 ---
-title: Debugging Python in Visual Studio | Microsoft Docs
+title: Debugging Python Code in Visual Studio | Microsoft Docs
+description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -20,24 +21,18 @@ ms.workload:
 
 # Debugging your Python code
 
-Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more. 
+Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more.
+
+Also see the following scenario-specific debugging topics:
+
+- [Linux remote debugging](debugging-python-code-on-remote-linux-machines.md)
+- [Azure remote debugging](debugging-remote-python-code-on-azure.md)
+- [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
+- [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
 
 For a debugging overview, see [Debugging Python](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567) (Microsoft Virtual Academy, 3m32s).
 
 > [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567]
-
-In this topic:
-
-- [Basic debugging](#basic-debugging)
-- [Project debugging options](#project-debugging-options)
-- [Immediate and interactive windows](#immediate-and-interactive-windows)
-
-Also see the following scenario-specific debugging topics:
-
-- [Cross-platform remote debugging](debugging-cross-platform-remote.md)
-- [Azure remote debugging](debugging-azure-remote.md)
-- [Mixed-mode Python/C++ debugging](debugging-mixed-mode.md)
-- [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)
 
 <a name="debugging-without-a-project"></a>
 
@@ -146,7 +141,7 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 | Option | Description |
 | --- | --- |
-| Standard Python launcher | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
+| Standard Python launcher | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
 | Web launcher | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](template-web.md#debugging) section for more information. |
 | Django Web launcher | Identical to the Web launcher and shown only for backwards compatibility. |
 | IronPython (.NET) launcher | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
@@ -169,7 +164,7 @@ There are two interactive windows you can use during a debugging session: the st
 
 The Immediate window (**Debug > Windows > Immediate**) is used for quick evaluation of Python expressions and inspection or assignment of variables within the running program. See the general [Immediate Window](../ide/reference/immediate-window.md) topic for details.
 
-The Python Debug Interactive window (**Debug > Windows > Python Debug Interactive**) is richer as it makes the full [Interactive REPL](interactive-repl.md) experience available while debugging, including writing and running code. It automatically connects to any process started in the debugger using the Standard Python launcher (including processes attached through **Debug > Attach to Process**). It's not, however, available when using mixed-mode C/C++ debugging.
+The Python Debug Interactive window (**Debug > Windows > Python Debug Interactive**) is richer as it makes the full [Interactive REPL](python-interactive-repl-in-visual-studio.md) experience available while debugging, including writing and running code. It automatically connects to any process started in the debugger using the Standard Python launcher (including processes attached through **Debug > Attach to Process**). It's not, however, available when using mixed-mode C/C++ debugging.
 
 ![Python Debug Interactive window](media/debugging-interactive.png)
 

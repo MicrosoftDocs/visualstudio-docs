@@ -1,5 +1,6 @@
 ---
-title: "Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs"
+title: Publishing a Python App to Azure App Service from Visual Studio | Microsoft Docs
+description: How to publish a Python web application directly to Azure App Service from Visual Studio, including the necessary content for the web.config file.
 ms.custom: ""
 ms.date: 09/27/2017
 ms.reviewer: ""
@@ -21,25 +22,16 @@ ms.workload:
 
 # Publishing to Azure App Service
 
-Visual Studio provides the capability to directly publish a Python web app directly to Azure App Service. Publishing to Azure App Service means copying the necessary files to the server and setting up an appropriate `web.config` file that instructs the web server how to launch your app. 
+Visual Studio provides the capability to publish a Python web app directly to Azure App Service. Publishing to Azure App Service means copying the necessary files to the server and setting up an appropriate `web.config` file that instructs the web server how to launch your app.
 
 The publishing process differs between Visual Studio 2017 and Visual Studio 2015. Specifically, Visual Studio 2015 automates some of the steps, including the creation of `web.config`, but this automation limits long-term flexibility and control. Visual Studio 2017 requires more manual steps but provides more exact control over your Python environment. Both options are described here.
-
-In this topic:
-
-- [Prerequisites](#prerequisites)
-- [Create an Azure App Service](#create-an-azure-app-service)
-- [Configure Python on App Service](#configure-python-on-azure-app-service)
-- [Publish to App Service - Visual Studio 2017](#publish-to-app-service---visual-studio-2017)
-- [Publish to App Service - Visual Studio 2015](#publish-to-app-service---visual-studio-2015)
-- [Remote debugging on App Service](#remote-debugging-on-azure-app-service)
 
 > [!Note]
 > For background on the changes between Visual Studio 2015 and Visual Studio 2017, see the blog post, [Publish to Azure in Visual Studio 2017](https://blogs.msdn.microsoft.com/pythonengineering/2016/12/12/publish-to-azure-in-vs-2017/).
 
 ## Prerequisites
 
-For this walkthrough you'll need a web app project based on the Bottle, Flask, or Django frameworks. If you don't yet have a project and would like to try the publishing process, create a simple test project as follows:
+For this walkthrough, you need a web app project based on the Bottle, Flask, or Django frameworks. If you don't yet have a project and would like to try the publishing process, create a simple test project as follows:
 
 1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**. (The Bottle template is included with the Python development workload; see [Installation](installing-python-support-in-visual-studio.md).)
 
@@ -54,7 +46,7 @@ Publishing to Azure requires a target App Service. For this purpose you can crea
 If you don't already have a subscription, start with a [free full Azure account](https://azure.microsoft.com/free/), which includes generous credits for Azure services. Also consider signing up for [Visual Studio Dev Essentials](https://azure.microsoft.com/pricing/member-offers/vs-dev-essentials/), which gives you $25 credit every month for a full year.
 
 > [!Tip]
-> Although Azure asks for a credit card to verify your account, the card will not be charged. You can also set a [spending limit](/azure/billing/billing-spending-limit) equal to your free credits to guarantee that no extra charges  occur. In addition, Azure provides a free App Service plan tier that's ideal for simple test apps as described in the next section.
+> Although Azure asks for a credit card to verify your account, the card is not charged. You can also set a [spending limit](/azure/billing/billing-spending-limit) equal to your free credits to guarantee that no extra charges  occur. In addition, Azure provides a free App Service plan tier that's ideal for simple test apps as described in the next section.
 
 ### Using a subscription
 
@@ -166,7 +158,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
     python -m pip install --upgrade -r /home/site/wwwroot/requirements.txt
     ```
 
-    If you see permission errors when running this command, double-check that you're running the command in your site extension folder and *not* in the folder of one of App Service's default Python installations. Because you can't modify those default environments, attempting to install packages will certainly fail.
+    If you see permission errors when running this command, double-check that you're running the command in your site extension folder and *not* in the folder of one of App Service's default Python installations. Because you can't modify those default environments, attempting to install packages certainly fails.
 
     d. For detailed error output, add the following line to `web.config` within the `<system.webServer>` node, which provides more detailed error output:
 
@@ -203,7 +195,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
   ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
 
-1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-azure-remote.md), you must set **Configuration** to **Debug**
+1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-remote-python-code-on-azure.md), you must set **Configuration** to **Debug**
 
 1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site. 
 
@@ -224,4 +216,4 @@ When you publish a Debug configuration from Visual Studio 2015, the process auto
 
 With Visual Studio 2017, you instead add these components directly to the project. Right-click the project in **Solution Explorer**, select **Add > New Item...**, and select the "Azure Remote debugging web.config" template. A debugging `web.debug.config` file and the `ptvsd` tool folder appear in your project.
 
-Once these files are deployed to the server (automatically with Visual Studio 2015; on your next publish with Visual Studio 2017), you can follow the instructions for [Azure remote debugging](debugging-azure-remote.md).
+Once these files are deployed to the server (automatically with Visual Studio 2015; on your next publish with Visual Studio 2017), you can follow the instructions for [Azure remote debugging](debugging-remote-python-code-on-azure.md).

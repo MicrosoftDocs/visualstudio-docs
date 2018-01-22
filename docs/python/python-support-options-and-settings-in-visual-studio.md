@@ -1,5 +1,6 @@
 ---
-title: "Python options in Visual Studio | Microsoft Docs"
+title: Options and settings for Python in Visual Studio | Microsoft Docs
+description: A reference for the various settings in Visual Studio that relate to Python code and projects.
 ms.custom: ""
 ms.date: 01/04/2018
 ms.reviewer: ""
@@ -32,15 +33,8 @@ To view Python options, use the **Tools > Options** menu command, make sure **Sh
 
 There are also additional Python-specific options on the **Text Editor > Python > Advanced** tab.
 
-The specific options are described in the following sections:
-
-- [General options](#general-options)
-- [Debugging options](#debugging-options)
-- [Diagnostics options](#diagnostics-options)
-- [Interactive Windows options](#interactive-windows-options)
-- [Advanced Python editor options](#advanced-python-editor-options)
-
-Note that the **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
+> [!Note]
+> The **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## General options
 

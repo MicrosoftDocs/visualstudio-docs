@@ -1,5 +1,6 @@
 ---
-title: "Quickstart: Create a Python project using Cookiecutter in Visual Studio | Microsoft Docs"
+title: Quickstart: Create a Python project using Cookiecutter in Visual Studio | Microsoft Docs
+description: Get started quickly using Python by using a Cookiecutter template in Visual Studio.
 ms.custom: ""
 ms.date: 09/22/2017
 ms.reviewer: ""
@@ -49,7 +50,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 ## See also
 
-- [Using the Cookiecutter extension](cookiecutter.md)
+- [Using the Cookiecutter extension](using-python-cookiecutter-templates.md)
 - [Creating an environment for an existing Python interpreter](managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).

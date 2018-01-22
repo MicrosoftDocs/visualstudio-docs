@@ -1336,8 +1336,63 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/code-editing.md",
+            "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-formatting.md",
+            "redirect_url": "/visualstudio/python/formatting-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-pylint.md",
+            "redirect_url": "/visualstudio/python/linting-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-refactoring.md",
+            "redirect_url": "/visualstudio/python/refactoring-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/cookiecutter.md",
+            "redirect_url": "/visualstudio/python/using-python-cookiecutter-templates",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/cpp-and-python.md",
             "redirect_url": "/visualstudio/python/working-with-c-cpp-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging.md",
+            "redirect_url": "/visualstudio/python/debugging-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-azure-remote.md",
+            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-azure-remote-troubleshooting.md",
+            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure-troubleshooting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-cross-platform-remote.md",
+            "redirect_url": "/visualstudio/python/debugging-python-code-on-remote-linux-machines",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-mixed-mode.md",
+            "redirect_url": "/visualstudio/python/debugging-mixed-mode-c-cpp-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-symbols-for-mixed-mode.md",
+            "redirect_url": "/visualstudio/python/debugging-symbols-for-mixed-mode-c-cpp-python",
             "redirect_document_id": false
         },
         {
@@ -1391,6 +1446,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/interactive-repl.md",
+            "redirect_url": "/visualstudio/python/python-interactive-repl-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/options.md",
+            "redirect_url": "/visualstudio/python/python-support-options-and-settings-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/profiling.md",
+            "redirect_url": "/visualstudio/python/profiling-python-code-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/publishing-to-azure.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/python-environments.md",
             "redirect_url": "/visualstudio/python/managing-python-environments-in-visual-studio",
             "redirect_document_id": false
@@ -1403,6 +1478,46 @@
         {
             "source_path": "docs/python/python-projects.md",
             "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-01-project-from-existing.md",
+            "redirect_url": "/visualstudio/python/quickstart-01-python-in-visual-studio-project-from-existing-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-02-project-from-template.md",
+            "redirect_url": "/visualstudio/python/quickstart-02-python-in-visual-studio-project-from-template",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-03-project-from-repository.md",
+            "redirect_url": "/visualstudio/python/quickstart-03-python-in-visual-studio-project-from-repository",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-04-project-from-cookiecutter.md",
+            "redirect_url": "/visualstudio/python/quickstart-04-python-in-visual-studio-project-from-cookiecutter",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-azure-cloud-service.md",
+            "redirect_url": "/visualstudio/python/project-template-python-azure-cloud-service",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-django.md",
+            "redirect_url": "/visualstudio/python/python-django-web-application-project-template",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-web.md",
+            "redirect_url": "/visualstudio/python/python-web-application-project-templates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/unit-testing.md",
+            "redirect_url": "/visualstudio/python/unit-testing-python-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1439,7 +1554,7 @@
             "source_path": "docs/python/vs-tutorial-01-06.md",
             "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-06-working-with-git",
             "redirect_document_id": false
-        },                                                
+        },
         {
             "source_path": "docs/sharepoint/index.md",
             "redirect_url": "/visualstudio/sharepoint/create-sharepoint-solutions",

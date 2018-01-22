@@ -1,5 +1,6 @@
 ---
-title: "Formatting Python code in Visual Studio | Microsoft Docs"
+title: Formatting Python code in Visual Studio | Microsoft Docs
+description: How to automatically reformat Python code in Visual Studio including spacing, statements, wrapping, and comments.
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -89,7 +90,6 @@ The **Statements** options control automatic rewriting of various statements int
 | Remove unnecessary semicolons | `x = 42;` | `x = 42` |
 | Place multiple statements on new lines | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
 
-
 ## Wrapping
 
 **Wrapping** lets you set the **Maximum comment width** (default is 80). If the **Wrap comments that are too wide** option is set, Visual Studio reformats comments to not exceed that maximum width.
@@ -105,8 +105,6 @@ The **Statements** options control automatic rewriting of various statements int
 # There should be one-- and preferably only one --obvious way to do it.
 ```
 
-
-
 ## Fill Comment Paragraph command
 
 **Edit > Advanced > Fill Comment Paragraph** (Ctrl+E, P) reflows and formats comment text, combining short lines together and breaking up long ones.
@@ -114,7 +112,7 @@ The **Statements** options control automatic rewriting of various statements int
 For example:
 
 ```python
-# foo 
+# foo
 # bar
 # baz
 ```

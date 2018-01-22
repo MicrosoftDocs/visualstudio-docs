@@ -1,5 +1,6 @@
 ---
 title: CookieCutter extension for Python in Visual Studio | Microsoft Docs
+description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -36,7 +37,7 @@ Working with Cookiecutter is a process of browsing and selecting a template, clo
 
 The Cookiecutter home page displays a list of templates to choose from, organized into the following groups:
 
-| Group | Description | 
+| Group | Description |
 | --- | --- |
 | Installed | Templates that have been installed to your local machine. When an online template is used, its repository is automatically cloned to a subfolder of `~/.cookiecutters`. You can delete a selected installed template by pressing **Del**. |
 | Recommended | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for details on customizing the feed. |

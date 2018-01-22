@@ -1,5 +1,6 @@
 ---
-title: "Quickstart: Create a Python project from a template in Visual Studio | Microsoft Docs"
+title: Quickstart: Create a Python project in Visual Studio using a template | Microsoft Docs
+description: Get started quickly using Python by creating a Visual Studio project using one of the built-in templates.
 ms.custom: ""
 ms.date: 09/25/2017
 ms.reviewer: ""
@@ -28,7 +29,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
     ![VS2017 New Project dialog with Python template](media/projects-new-project-dialog2.png)
 
-1. For this Quickstart, select the "Python Application" template, give the project a name (such as "MakePI") and location, and select **OK**. 
+1. For this Quickstart, select the "Python Application" template, give the project a name (such as "MakePI") and location, and select **OK**.
 
 1. Visual Studio creates the project file (a `.pyproj` file on disk) along with any other files as described by the template. With the "Python Application" template, the project contains only one empty file named the same as your project. The file is open in the Visual Studio editor by default.
 

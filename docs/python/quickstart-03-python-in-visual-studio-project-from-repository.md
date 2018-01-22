@@ -1,5 +1,6 @@
 ---
-title: "Quickstart: Cloning a repository of Python code in Visual Studio | Microsoft Docs"
+title: Quickstart: Cloning a repository of Python code in Visual Studio | Microsoft Docs
+description: Get started quickly using Python by cloning the Python koans repository using Visual Studio Team Explorer.
 ms.custom: ""
 ms.date: 09/25/2017
 ms.reviewer: ""
@@ -45,7 +46,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 8. In Solution Explorer, expand the `python3` node, right-click `contemplate_koans.py`, and select **Set as Startup File**. This step tells Visual Studio which file it should use when running the project.
 
-9. Select **Project > Properties** from the menu, select the **General** tab, and set **Working Directory** to "python3". This is necessary because by default Visual Studio sets the working directory to the project root rather than the location of the startup file (`python3\contemplate_koans.py`, which you can see in the project properties as well). The program code looks for a file `koans.txt` in the working folder, so without changing this value you'll see a runtime error.
+9. Select **Project > Properties** from the menu, select the **General** tab, and set **Working Directory** to "python3". This is necessary because by default Visual Studio sets the working directory to the project root rather than the location of the startup file (`python3\contemplate_koans.py`, which you can see in the project properties as well). The program code looks for a file `koans.txt` in the working folder, so without changing this value you see a runtime error.
 
     ![Setting the working directory for a Python project](media/projects-set-working-directory.png)
 

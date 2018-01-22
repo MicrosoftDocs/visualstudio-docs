@@ -1,5 +1,6 @@
 ---
-title: "Editing Python code in Visual Studio | Microsoft Docs"
+title: Editing Python Code in Visual Studio | Microsoft Docs
+description: Editing Python in Visual Studio provides IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.custom: ""
 ms.date: 07/10/2017
 ms.reviewer: ""
@@ -22,19 +23,15 @@ ms.workload:
 
 Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
 
-In this topic:
-
-- [IntelliSense](#intellisense) including completions, signature help, quick info, and code coloring.
-- [Code snippets](#code-snippets)
-- [Navigating your code](#navigating-your-code)
-
-For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code. Python support includes using the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting classes defined in each module and the functions defined in those classes. 
-
 The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Using the interactive window - Send code to interactive command](interactive-repl.md#send-code-to-interactive-command) for details.
 
 For an introduction to editing Python code, see [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567) (Microsoft Virtual Academy, 2m30s):
 
 > [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567]
+
+For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
+
+You can also use the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting Python classes defined in each module and the functions defined in those classes.
 
 ## IntelliSense
 
@@ -107,7 +104,6 @@ To customize the colors, go to **Tools > Options > Environment > Fonts and Color
 > [!Tip]
 > To disable code coloring, go to **Tools > Options > Text Editor > Python > Advanced** and clear **Miscellaneous Options > Color names based on type**. See [Options - Miscellaneous Options](options.md#miscellaneous-options).
 
-
 ## Code snippets
 
 Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing Tab, or using the **Edit > IntelliSense > Insert Code Snippet** **Surround With** commands. For example, typing `class` followed by the Tab key generates the rest of the class. You can type over the name and bases list, moving between the highlighted fields with Tab, then press Enter to begin typing the body.
@@ -121,7 +117,6 @@ You can see the available code snippets in the Code Snippets Manager (**Tools > 
 To create your own snippets, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). 
 
 If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
-
 
 ## Navigating your code
 
@@ -155,3 +150,9 @@ Double-clicking any name, or selecting with arrow keys and Enter, navigates to t
 **Find All References** is a helpful way of discovering where any given identifier is both defined and used, including imports and assignments. You invoke it by right-clicking an identifier and selecting **Find All References**, or by placing the caret in the identifier and pressing Shift+F12. Double-clicking an item in the list navigates to its location.
 
 ![Find All References results](media/code-editing-find-all-references.png)
+
+## See also
+
+- [Formatting](formatting-python-code.md)
+- [Refactoring](refactoring-python-code.md)
+- [Linting](linting-python-code.md)

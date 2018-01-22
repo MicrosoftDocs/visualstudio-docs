@@ -1,5 +1,6 @@
 ---
-title: Web project templates for Python in Visual Studio | Microsoft Docs
+title: Web application templates for Python in Visual Studio | Microsoft Docs
+description: An overview of the Visual Studio templates for web applications written in Python using the Bottle, Flask, and Django frameworks, including debugging configurations and publishing to Azure App Service.
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -18,7 +19,7 @@ ms.workload:
   - "data-science"
 ---
 
-# Python web project templates
+# Python web application project templates
 
 Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. You can also use the generic **Web Project** template for other frameworks such as Pyramid.
 
@@ -36,7 +37,7 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](https://aka.ms/PythonOnAppService) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a `requirements.txt` file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](https://aka.ms/PythonOnAppService).
 
-Microsoft Azure Cloud Services *does* support the `requirements.txt` file. [Azure cloud service Projects](template-azure-cloud-service.md) for details.
+Microsoft Azure Cloud Services *does* support the `requirements.txt` file. [Azure cloud service Projects](python-azure-cloud-service-project-template.md) for details.
 
 ## Debugging
 
@@ -46,13 +47,13 @@ When a web project is started for debugging, Visual Studio starts the web server
 
 In the **Debug** group:
 
-- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging.md)
+- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging-python-in-visual-studio.md)
 - **Launch URL**: specifies the URL that is opened in your browser. It defaults to `localhost`.
 - **Port Number**: the port to use if none is specified in the URL (Visual Studio selects one automatically by default). This setting allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 
 The properties in the **Run Server Command** and **Debug Server Command** groups (the latter is below what's show in the image) determine how the web server is launched. Because many frameworks require the use of a script outside of the current project, the script can be configured here and the name of the startup module can be passed as a parameter.
 
-- **Command**: can be a Python script (`*.py` file), a module name (as in, `python.exe -m module_name`), or a single line of code (as in, `python.exe -c "code"`). The value in the dropdown indicates which of these types is intended.
+- **Command**: can be a Python script (`*.py` file), a module name (as in, `python.exe -m module_name`), or a single line of code (as in, `python.exe -c "code"`). The value in the drop-down indicates which of these types is intended.
 - **Arguments**: these arguments are passed on the command line following the command.
 - **Environment**: a newline-separated list of `NAME=VALUE` pairs specifying environment variables. These variables are set after all properties that may modify the environment, such as the port number and search paths, and so may overwrite these values.
 
@@ -92,7 +93,7 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
     - Arguments: `Development.ini`
 
 > [!Tip]
-> You'll likely need to configure the **Working Directory** property of your project because Pyramid apps are typically one directory level deeper than the top of the source tree.
+> You likely need to configure the **Working Directory** property of your project because Pyramid apps are typically one directory level deeper than the top of the source tree.
 
 ### Other configurations
 
@@ -166,6 +167,6 @@ If you add the debugging `web.config` template to your project and plan to use P
 
 ![Changing the publish configuration](media/template-web-publish-config.png)
 
-The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. See [Azure cloud service Projects](template-azure-cloud-service.md) for more details.
+The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. See [Azure cloud service Projects](python-azure-cloud-service-project-template.md) for more details.
 
 ![Convert to Microsoft Azure cloud service project command](media/template-web-convert-menu.png)

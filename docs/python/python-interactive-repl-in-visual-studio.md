@@ -1,5 +1,6 @@
 ---
-title: "Python interactive REPL in Visual Studio | Microsoft Docs"
+title: Python interactive REPL in Visual Studio | Microsoft Docs
+description: How to use the interactive window (REPL) for Python code in Visual Studio for rapid code development.
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -59,7 +60,7 @@ Finally, you can select code in file and use the [send code to interactive comma
 
 ## Interactive window options
 
-You can control various aspects of the interactive window through **Tools > Options > Python Tools > Interactive Windows** (see [Options](options.md)):
+You can control various aspects of the interactive window through **Tools > Options > Python Tools > Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
 
 ![Python interactive window options](media/options-interactive-windows.png)
 

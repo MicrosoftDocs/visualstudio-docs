@@ -1,5 +1,6 @@
 ---
 title: Mixed-mode debugging for Python in Visual Studio | Microsoft Docs
+description: How to simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluting expressions.
 ms.custom: ""
 ms.date: 01/16/2018
 ms.reviewer: ""
@@ -58,7 +59,7 @@ For a video introduction to building, testing, and debugging native C modules wi
 
     It's possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and **Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
-1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio 2017 installer.
+1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio 2017 installer.
 
 1. You make the source code for standard Python itself available when debugging, visit [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/), download the archive appropriate for your version, and extract it to a folder. You then point Visual Studio to specific files in that folder at whatever point it prompts you.
 
@@ -165,7 +166,7 @@ To always get a useful representation for custom authored types, it's best to re
 
 ## Differences from standard Python debugging
 
-The mixed-mode debugger is distinct from the [standard Python debugger](debugging.md) in that it introduces some additional features but lacks some Python-related capabilities:
+The mixed-mode debugger is distinct from the [standard Python debugger](debugging-python-in-visual-studio.md) in that it introduces some additional features but lacks some Python-related capabilities:
 
 - Unsupported features: conditional breakpoints, Debug Interactive window, and cross-platform remote debugging.
 - Immediate window: is available but with a limited subset of its functionality, including all the limitations listed here.
