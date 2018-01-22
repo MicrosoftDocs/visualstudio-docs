@@ -237,7 +237,7 @@ Layout provides an ordered way to place elements, and also manages the size and 
 1. Open **ExpenseItHome.xaml**.
 
 1. Add the following XAML code just above the `</Grid>` tag to create the `Border`, `ListBox` and `Button` controls:  
-  
+
     ```xaml  
     <!-- People list -->  
       <Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" Background="#4E87D4">  
@@ -248,17 +248,17 @@ Layout provides an ordered way to place elements, and also manages the size and 
           <ListBoxItem>Lisa</ListBoxItem>  
           <ListBoxItem>John</ListBoxItem>  
           <ListBoxItem>Mary</ListBoxItem>  
-      </ListBox>  
-  
-      <!-- View report button -->  
-      <Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"  
-    Height="25" HorizontalAlignment="Right">View</Button>    
-    ```  
-  
+      </ListBox>
+
+      <!-- View report button -->
+      <Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"
+    Height="25" HorizontalAlignment="Right">View</Button>
+    ```
+
      Notice that the controls appear in the design window. You could also have created the controls by dragging them from the **Toolbox** window onto the design window and setting their properties in the **Properties** window.
 
 1. Build and run the application. The following illustration shows the run time appearance of the controls that are created by the XAML in this procedure.
-  
+
      ![ExpenseIt sample screen shot](../designers/media/gettingstartedfigure2.png "GettingStartedFigure2")  
 
 1. Close the application to return to design mode.
@@ -266,26 +266,26 @@ Layout provides an ordered way to place elements, and also manages the size and 
 ### To add a background image
 
 1. Choose the following image and save it as `watermark.png`.
-  
+
      ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "watermark")  
-  
+
     > [!NOTE]
     >  Alternatively you can create your own image and save it as `watermark.png`.
 
 1. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Existing Item**.
 
 1. In the **Add Existing Item** dialog, find the **watermark.png** image that you just added, choose it and then choose the **Add** button.
-  
+
     > [!NOTE]
     >  You may need to expand the **File Types** list and choose **Image Files**.
 
 1. Open the **ExpenseItHome.xaml** file and add the following XAML code just above the `</Grid>` tag to create a background image:  
-  
-    ```xaml  
-    <Grid.Background>  
-        <ImageBrush ImageSource="watermark.png"/>  
-    </Grid.Background>    
-    ```  
+
+    ```xaml
+    <Grid.Background>
+        <ImageBrush ImageSource="watermark.png"/>
+    </Grid.Background>
+    ```
 
 ### To add a title
 
@@ -309,11 +309,11 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
 1. Move the controls to the second column by setting the `Grid.Column` value to 1. Move each control down a row, by increasing each `Grid.Row` value by 1.
   
-    1.Find the line `<Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" Background="#4E87D4">`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="0"` to `Grid.Row="1"`.
+    1. Find the line `<Border Grid.Column="0" Grid.Row="0" Height="35" Padding="5" Background="#4E87D4">`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="0"` to `Grid.Row="1"`.
   
-    2.Find the line `<ListBox Name="peopleListBox" Grid.Column="0" Grid.Row="1"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="1"` to `Grid.Row="2"`.
+    1. Find the line `<ListBox Name="peopleListBox" Grid.Column="0" Grid.Row="1"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="1"` to `Grid.Row="2"`.
   
-    3.Find the line `<Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="2"` to `Grid.Row="3"`.
+    1. Find the line `<Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="2"` to `Grid.Row="3"`.
 
 1. Just before the `<Border` element add the following XAML code to display the title:  
   
@@ -400,22 +400,22 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
 1. Add the following code to the `ExpenseItHome` class:  
   
-    ```csharp  
-    private void Button_Click(object sender, RoutedEventArgs e)  
-    {  
-        // View Expense Report  
-        ExpenseReportPage expenseReportPage = new ExpenseReportPage();  
-        this.NavigationService.Navigate(expenseReportPage);    
-    }  
-    ```  
+   ```csharp  
+   private void Button_Click(object sender, RoutedEventArgs e)  
+   {  
+       // View Expense Report  
+       ExpenseReportPage expenseReportPage = new ExpenseReportPage();  
+       this.NavigationService.Navigate(expenseReportPage);    
+   }  
+   ```  
   
-    ```vb  
-    Private Sub Button_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)  
-        ' View Expense Report  
-        Dim expenseReportPage As New ExpenseReportPage()  
-    Me.NavigationService.Navigate(expenseReportPage)  
-    End Sub  
-    ```
+   ```vb  
+   Private Sub Button_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)  
+       ' View Expense Report  
+       Dim expenseReportPage As New ExpenseReportPage()  
+   Me.NavigationService.Navigate(expenseReportPage)  
+   End Sub  
+   ```
 
     This event handler opens the Expense Report Page when the button is clicked.
 
