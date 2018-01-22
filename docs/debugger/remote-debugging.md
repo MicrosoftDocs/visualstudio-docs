@@ -33,11 +33,13 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|Azure|[Debug ASP.NET on Azure App Service (Snapshot Debugger)](../debugger/debug-live-azure-applications.md), [Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md), or [Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
+|Azure App Service|[Snapshot Debugger](../debugger/debug-live-azure-applications.md) or [Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md)|
+|Azure VM|[Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md)|
+|Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md)|
 |C++|[Remote debug a C++ project](../debugger/remote-debugging-cpp.md)|
-|Universal Windows Apps (UWP)|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) and [Debug an installed app package](../debugger/debug-installed-app-package.md)|
+|Universal Windows Apps (UWP)|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) or [Debug an installed app package](../debugger/debug-installed-app-package.md)|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
   
