@@ -1,13 +1,8 @@
-# Get Started with Connected Environment on Mac
+# Get Started with Connected Environment on Windows with VS Code
 
+In this section, we'll download the VS Code extension for Connected Environment and create a Kubernetes-based development environment in Azure so that we can then begin developing code in it. This section assumes you have [installed the pre-requisites](get-started-windows-01.md).
 
-## Install Tools
-Install the Connected Environment command-line tool:
-```
-curl -L https://aka.ms/get-vsce-mac | bash
-```
-
-### VS Code Debugging
+# Install the VS Code extension for Connected Environment
 For a streamlined development and debugging experience for **Node.js and C#**:
 
 1. Install [VS Code](https://code.visualstudio.com/Download)
@@ -50,8 +45,9 @@ vsce env create --name <environment name> --location <eastus or westeurope>
 
 ## Next Steps
 Next, we'll create and debug a service in our Connected Environment. Choose your language of choice:
-> [!div class="nextstepaction"]
-> [Create a Node.js service](get-started-mac-02-nodejs.md)
 
 > [!div class="nextstepaction"]
-> [Create a C# .NET Core service](get-started-mac-02-csharp.md)
+> [Create a Node.js service](get-started-windows-vscode-03-nodejs.md)
+
+> [!div class="nextstepaction"]
+> [Create a C# .NET Core service](get-started-windows-vscode-03-csharp.md)
