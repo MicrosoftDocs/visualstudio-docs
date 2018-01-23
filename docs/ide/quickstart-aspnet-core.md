@@ -26,11 +26,11 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File**, **New**, **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project...**.
 
 1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
-     If you don't see the **.NET Core** project template, you need to install the **ASP.NET and web development** workload. Choose the **Open Visual Studio Installer** link on the bottom left corner of the **New Project** dialog box to launch **Visual Studio Installer**. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+     If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
 
@@ -60,7 +60,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
  }
  ```
 
-1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View**, **Error List** from the top menu bar.)
+1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.)
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
 
@@ -68,7 +68,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 ## Run the application
 
-1. Press **Ctrl+F5** to run the application and open it in a web browser.
+1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
 
 1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
 
@@ -81,5 +81,6 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## See also
 
+[Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)  
 [Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)  
 [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
