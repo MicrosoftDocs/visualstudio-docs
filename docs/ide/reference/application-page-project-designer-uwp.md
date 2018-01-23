@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Application property page (UWP projects)
 
-Use the **Application** property page to specify the Universal Windows Platform (UWP) project's assembly information and target Windows 10 version.
+Use the **Application** property page to specify the Universal Windows Platform (UWP) project's assembly and package information, and target Windows 10 version.
 
 ![Application property page](media/application-page-uwp.png)
 
@@ -33,7 +33,7 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 **Assembly Information**&mdash;Choosing this button displays the [Assembly Information dialog box](../../ide/reference/assembly-information-dialog-box.md).
 
-**Package Manifest**&mdash;Choosing this button opens the manifest designer. For more information, see [Configure a package with the manifest designer](/windows/uwp/packaging/packaging-uwp-apps#configure-an-app-package).
+**Package Manifest**&mdash;Choosing this button opens the manifest designer. The manifest designer can also be accessed by choosing the _Package.appxmanifest_ file in **Solution Explorer**. For more information, see [Configure a package with the manifest designer](/windows/uwp/packaging/packaging-uwp-apps#configure-an-app-package).
 
 ## Targeting section
 
@@ -44,5 +44,4 @@ For information about platform targeting in Visual Studio 2017, see [Platform ta
 ## See also
 
 [Create your first UWP app](/windows/uwp/get-started/your-first-app)  
-[Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)  
-[Managing Application Properties](../../ide/application-properties.md)
+[Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)
