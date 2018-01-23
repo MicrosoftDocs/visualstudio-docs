@@ -5,11 +5,7 @@ Ms.author: jaunger
 Manager: evelynp
 Ms.date: 10/3/2017
 Ms.topic: Get-Started-Article
-<<<<<<< HEAD
-Description:  Learn about the Visual Studio Team Services (VSTS) benefit included in your Visual Studio subscription. 
-=======
 Description:  Understand how you can use Visual Studio Team Services (VSTS) as a Visual Studio subscriber. 
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
@@ -53,13 +49,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 When you sign in to VSTS using the same identity that you used for activating your Visual Studio subscription, we recognize this automatically. This works for both the primary identity that you use when you log in to the Subscriber Portal and any alternate identity you've configured for your Visual Studio subscription. VSTS supports both Microsoft accounts (like @outlook.com) and work or school accounts (which use an Azure Active Directory managed by your organization). You can use both your primary and alternate identities in VSTS, and can join any number of VSTS accounts as a member.
 
-<<<<<<< HEAD
 To use VSTS, you’ll need an account. You can sign in with an existing account, or create a new one.  To create a new account:
 1.	Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2.  Locate the Visual Studio Team Services tile in the Tools section, and click the “Get Started” link at the bottom of the benefit tile.   
-=======
-# VSTS Features Included by Visual Studio Subscription Level
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76
 
 These VSTS features are included in the following subscriptions: 
 - Visual Studio Enterprise: [Basic](https://www.visualstudio.com/team-services/compare-features/), [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web), [Package Management](https://marketplace.visualstudio.com/items?itemName=ms.feed)
@@ -67,7 +59,6 @@ These VSTS features are included in the following subscriptions:
 - MSDN Platforms: [Basic](https://www.visualstudio.com/team-services/compare-features/), [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - Visual Studio Test Professional: [Basic](https://www.visualstudio.com/team-services/compare-features/), [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 
-<<<<<<< HEAD
 3.	Enter a name for your VSTS project site.  
 
 4.  Choose whether you want to use **Git** or **Team Foundation Version Control (TFVC)** to manage your project.  This is a permanent choice for each team project you create, but you can use both TFVC and Git team projects in the same team project collection.  Not sure which to use? 
@@ -76,13 +67,9 @@ These VSTS features are included in the following subscriptions:
 
  
 5.  Click **Change details** to customize options for Project name, how you organize your work (Agile, Scrum, CMMI), where to host your projects, and how to share your work with others.  Click “Continue”.
-=======
-These VSTS features are included for all paid subscriptions, both [cloud and standard](https://www.visualstudio.com/vs/pricing/), as well as for subscriptions offered to startups in the [BizSpark program](https://bizspark.microsoft.com/) and to partners with a [competency](https://partner.microsoft.com/membership/competencies) in the Microsoft Partner Network. VSTS is not included for the [Microsoft Action Pack](https://partner.microsoft.com/membership/action-pack), or for the [Imagine program](https://imagine.microsoft.com/) for students and academic institutions, though anyone can create a VSTS account for free with up to 5 team members.
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76
 
 # Create Your VSTS Account
 
-<<<<<<< HEAD
 6.	It will take a moment to create your account, and then you’ll see the VSTS page for your first project, using the name you specified.  You’re now ready to begin using Visual Studio Team Services!
 
 You will also receive an email confirming you have successfully created your account.  It also lists your account URL and sign-in and preferred email addresses.  
@@ -101,8 +88,6 @@ A:  Learn how to [manage users and access](https://docs.microsoft.com/vsts/accou
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
 -  For complete Visual Studio Team Services documentation, please visit https://docs.microsoft.com/vsts/ .
-=======
 To use VSTS, you’ll need to create an account, or to be added as a member in an account that someone else owns. Creating a VSTS account is free, and you can create multiple VSTS accounts. 
 
 [How to sign up for VSTS](https://docs.microsoft.com/vsts/accounts/index)
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76

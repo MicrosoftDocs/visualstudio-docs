@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Subscriptions: Resend Assignment Emails from VLSC 
+title: Visual Studio Subscriptions - Resend Assignment Emails from VLSC 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
