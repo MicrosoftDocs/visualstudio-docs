@@ -142,7 +142,7 @@ By default, the debugger starts your program with the standard Python launcher, 
 | Option | Description |
 | --- | --- |
 | Standard Python launcher | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
-| Web launcher | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](template-web.md#debugging) section for more information. |
+| Web launcher | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](python-web-application-project-templates.md#debugging) section for more information. |
 | Django Web launcher | Identical to the Web launcher and shown only for backwards compatibility. |
 | IronPython (.NET) launcher | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
 
@@ -168,7 +168,7 @@ The Python Debug Interactive window (**Debug > Windows > Python Debug Interactiv
 
 ![Python Debug Interactive window](media/debugging-interactive.png)
 
-The Debug Interactive window supports special meta-commands in addition to the [standard REPL commands](interactive-repl.md#meta-commands):
+The Debug Interactive window supports special meta-commands in addition to the [standard REPL commands](python-interactive-repl-in-visual-studio.md#meta-commands):
 
 | Command | Arguments | Description |
 | --- | --- | --- |
@@ -191,6 +191,6 @@ The Debug Interactive window supports special meta-commands in addition to the [
 
 Note that the standard debugger windows such as Processes, Threads, and Call Stack are not synchronized with the Debug Interactive window. Changing the active process, thread, or frame in the Debug Interactive window does not affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows does not affect the Debug Interactive window.
 
-The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools > Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](options.md#debugging-options).
+The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools > Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](python-support-options-and-settings-in-visual-studio.md#debugging-options).
 
 ![Debug Interactive Window Options](media/debugging-interactive-options.png)

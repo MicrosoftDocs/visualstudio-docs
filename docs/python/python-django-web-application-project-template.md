@@ -57,7 +57,7 @@ The Django management console is accessed through various commands on the **Proj
 
     ![Console](media/template-django-console-sync-db.png)
 
-- **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your `settings.py`. Note that when [publishing to Microsoft Azure](template-web.md#publishing-to-azure-app-service), static files are automatically collected as part of the publish operation.
+- **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your `settings.py`. Note that when [publishing to Microsoft Azure](python-web-application-project-templates.md#publishing-to-azure-app-service), static files are automatically collected as part of the publish operation.
 
     ![Console](media/template-django-console-collect-static.png)
 

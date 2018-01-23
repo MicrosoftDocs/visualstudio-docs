@@ -76,7 +76,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
     ```
 
     > [!Tip]
-    > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing code - Completions](code-editing.md#completions) for details.
+    > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing code - Completions](editing-python-code-in-visual-studio.md#completions) for details.
 
 1. Add a little more code to print the cosine values for 360 degrees:
 

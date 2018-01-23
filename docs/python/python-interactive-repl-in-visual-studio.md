@@ -114,7 +114,7 @@ In addition to working within the interactive window directly, you can select co
 This command is useful for iterative or evolutionary code development, including testing your code as you develop it. For example, once you've sent a piece of code to the interactive window and seen its output, you can press the up arrow to show the code again, modify it, and test it quickly by pressing Ctrl+Enter. (Pressing Enter at the end of input executes it, but pressing Enter in the middle of input inserts a newline.) Once you have the code you want, you can easily copy it back into your project file.
 
 > [!Tip]
-> By default, Visual Studio removes >>> and ... REPL prompts when pasting code from the interactive window into the editor. You can change this behavior on  the **Tools > Options > Text Editor > Python > Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](options.md#miscellaneous-options).
+> By default, Visual Studio removes >>> and ... REPL prompts when pasting code from the interactive window into the editor. You can change this behavior on  the **Tools > Options > Text Editor > Python > Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
 <!-- After 15.3 is released, you can also press "Undo" after pasting to restore prompts. Press "Undo" a second time to remove the pasted code entirely. -->
 
@@ -128,4 +128,4 @@ Visual Studio also detects code cells starting with comments like `# In[1]:`, wh
 
 The interactive window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. These suggestions are more correct in the interactive window, especially with dynamically generated code. The drawback is that functions with side-effects (such as logging messages) may impact your development experience.
 
-If this behavior is a problem, change the settings under **Tools > Options > Python Tools > Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive Windows options](options.md#interactive-windows-options).
+If this behavior is a problem, change the settings under **Tools > Options > Python Tools > Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive Windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).

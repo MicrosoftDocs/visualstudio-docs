@@ -1,5 +1,5 @@
 ---
-title: Quickstart: Creating a Python project in Visual Studio from existing code | Microsoft Docs
+title: Quickstart - Creating a Python project in Visual Studio from existing code | Microsoft Docs
 description: Get started quickly using Python by creating a Visual Studio project from existing code, using a convenient template.
 ms.custom: ""
 ms.date: 01/08/2018

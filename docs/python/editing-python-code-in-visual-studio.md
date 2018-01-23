@@ -23,7 +23,7 @@ ms.workload:
 
 Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
 
-The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Using the interactive window - Send code to interactive command](interactive-repl.md#send-code-to-interactive-command) for details.
+The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Using the interactive window - Send code to interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-command) for details.
 
 For an introduction to editing Python code, see [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567) (Microsoft Virtual Academy, 2m30s):
 
@@ -74,7 +74,7 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 ![Decorator completion](media/code-editing-completion-decorator.png)
 
 > [!Tip]
-> You can configure the behavior of completions through **Tools > Options > Text Editor > Python > Advanced"**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](options.md#completion-results).
+> You can configure the behavior of completions through **Tools > Options > Text Editor > Python > Advanced"**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
 
 ### Signature help
 
@@ -102,7 +102,7 @@ To customize the colors, go to **Tools > Options > Environment > Fonts and Color
 ![Fonts and Colors options](media/code-editing-customize-colors.png)
 
 > [!Tip]
-> To disable code coloring, go to **Tools > Options > Text Editor > Python > Advanced** and clear **Miscellaneous Options > Color names based on type**. See [Options - Miscellaneous Options](options.md#miscellaneous-options).
+> To disable code coloring, go to **Tools > Options > Text Editor > Python > Advanced** and clear **Miscellaneous Options > Color names based on type**. See [Options - Miscellaneous Options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
 ## Code snippets
 

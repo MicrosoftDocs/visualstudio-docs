@@ -1,5 +1,5 @@
 ---
-title: Quickstart: Create a Python project in Visual Studio using a template | Microsoft Docs
+title: Quickstart - Create a Python project in Visual Studio using a template | Microsoft Docs
 description: Get started quickly using Python by creating a Visual Studio project using one of the built-in templates.
 ms.custom: ""
 ms.date: 09/25/2017
