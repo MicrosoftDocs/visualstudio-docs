@@ -230,20 +230,6 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Export and Import Breakpoints  
  You can export a breakpoint to an XML file by right-clicking on the breakpoint and selecting **Export**. The file is saved by default in the solution directory. To import breakpoints, open the **Breakpoints** window (**CTRL + ALT + B**) and on the toolbar click the right-pointing arrow (the tooltip is **Import breakpoints from a file**).  
   
-## <a name="troubleshoot"></a> Troubleshoot breakpoints 
-  
-### I deleted a breakpoint, but I continue to hit it when I start debugging again  
- If you deleted a breakpoint while debugging, in some cases you may hit the breakpoint again the next time you start debugging. To stop hitting this breakpoint, make sure all the instances of the breakpoint are removed from the **Breakpoints** window.  
-  
-### The debugger can't locate the correct version of the source file for a breakpoint  
- If a source file has changed and the source no longer matches the code you are debugging, the debugger might locate the source file that corresponds to a breakpoint, even though the source file exists.  
-  
-1.  If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug > Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
-  
-2.  You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
-  
-### Breakpoints don't work in a DLL  
- You cannot set a breakpoint in a source file when the debugger hasn't loaded the debug information for the module where the code is located. Symptoms may include messages such as **the breakpoint will not be set**. The Warning breakpoint glyph appears at the breakpoint location. However, these Warning breakpoints become actual breakpoints when the code is loaded. For more information about loading symbols, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
-  
 ## See Also  
+ [Troubleshoot Breakpoints in the Visual Studio Debugger](../debugger/troubleshooting-breakpoints.md)
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
