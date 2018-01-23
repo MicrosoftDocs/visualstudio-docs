@@ -14,7 +14,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Quickstart: personalize the Visual Studio IDE and Editor
+# Quickstart: Personalize the Visual Studio IDE and Editor
 
 In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the Text Editor.
 
@@ -95,9 +95,9 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
-[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)  
 [Customizing the Editor](../ide/customizing-the-editor.md)  
 [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

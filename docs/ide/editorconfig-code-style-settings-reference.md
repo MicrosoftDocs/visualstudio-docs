@@ -295,7 +295,7 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 
 #### <a name="normalize_modifiers">Modifier preferences</a>
 
-The style rules in this section concern modifier preferences, including requiring accessbility modifiers and specifying the desired modifier sort order.
+The style rules in this section concern modifier preferences, including requiring accessibility modifiers and specifying the desired modifier sort order.
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
@@ -311,7 +311,7 @@ This rule does not accept a **true** or **false** value; instead it accepts a va
 
 | Value | Description |
 | ----- |:----------- |
-| always | Prefer accessbility modifiers to be specified |
+| always | Prefer accessibility modifiers to be specified |
 | for\_non\_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
 | never | Do not prefer accessibility modifiers to be specified |
 
@@ -1249,7 +1249,7 @@ try {
 
 **csharp\_new\_line\_before\_members\_in\_object_initializers**
 
-- When this rule is set to **true**, require members of object intializers to be on separate lines.
+- When this rule is set to **true**, require members of object intiializers to be on separate lines.
 - When this rule is set to **false**, require members of object initializers to be on the same line.
 
 Code examples:

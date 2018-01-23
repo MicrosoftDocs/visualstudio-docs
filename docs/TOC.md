@@ -164,7 +164,7 @@
 ###### [Rename](ide/reference/rename-vb.md)
 ###### [Synchronize type and filename](ide/reference/sync-type-and-file-vb.md)
 #### [Productivity Tips](ide/productivity-tips-for-visual-studio.md)
-##### [Tips and Tricks](ide/tips-and-tricks-for-visual-studio.md)
+##### [Keyboard Tips](ide/tips-and-tricks-for-visual-studio.md)
 ##### [Tips for .NET Developers](ide/visual-studio-2017-for-dotnet-developers.md)
 ##### [Identifying and Customizing Keyboard Shortcuts](ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 ###### [Default Keyboard Shortcuts for Frequently Used Commands](ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
