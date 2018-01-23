@@ -231,5 +231,5 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
  You can export a breakpoint to an XML file by right-clicking on the breakpoint and selecting **Export**. The file is saved by default in the solution directory. To import breakpoints, open the **Breakpoints** window (**CTRL + ALT + B**) and on the toolbar click the right-pointing arrow (the tooltip is **Import breakpoints from a file**).  
   
 ## See Also  
- [Troubleshoot Breakpoints in the Visual Studio Debugger](../debugger/troubleshooting-breakpoints.md)
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+[Troubleshoot Breakpoints in the Visual Studio Debugger](../debugger/troubleshooting-breakpoints.md)  
+[Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
