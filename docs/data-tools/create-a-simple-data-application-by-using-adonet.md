@@ -43,7 +43,7 @@ When you create an application that manipulates data in a database, you perform 
   
 -   Visual Studio Community Edition.  
   
--   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx).  
+-   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
 
 This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) topic before you start this walkthrough.  
   
