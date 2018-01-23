@@ -15,7 +15,7 @@ dev_langs:
 ms.workload: 
   - "multiple"
 ---
-# Quickstart: coding in the editor
+# Quickstart: Coding in the editor
 
 In this 10-minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
