@@ -436,26 +436,23 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ###  <a name="debugging"></a> Debugging  
  You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filter and record important information about your coded UI test runs. The format of the logs lets you debug issues quickly. For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).  
   
-##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What's next?  
- **Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], or from [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)]. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.  
+##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What's next?
+
+**Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or from Team Foundation Build. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.  
   
--   [How to: Run Tests from Microsoft Visual Studio](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)  
+-   [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
   
--   [Running Automated Tests in Microsoft Test Manager](http://msdn.microsoft.com/en-us/0632f265-63fe-4859-a413-9bb934c66835)  
-  
--   [How to: Configure and Run Scheduled Tests After Building Your Application](http://msdn.microsoft.com/en-us/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)  
-  
--   [Run tests in your build process](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38)
+-   [Run tests in your build process](/vsts/build-release/test/getting-started-with-continuous-testing)
   
 -   [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
   
- **Adding support for custom controls:**  The coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a coded UI test of the UI for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)]. However, you can create an extension to the coded UI testing framework that will support a custom control.  
+**Adding support for custom controls:**  The coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a coded UI test of the UI for Microsoft Excel. However, you can create an extension to the coded UI testing framework that will support a custom control.  
   
 -   [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md)  
   
 -   [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)  
   
- Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/vsts/manual-test/mtm/run-manual-tests-with-microsoft-test-manager). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/7b5075ee-ddfe-411d-b1d4-94283550a5d0).  
+Coded UI Tests are often used to automate manual tests. For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/vsts/manual-test/mtm/run-manual-tests-with-microsoft-test-manager). For more information about automated tests, see [Testing tools in Visual Studio](../test/improve-code-quality.md).  
   
 ## External Resources  
   

@@ -364,26 +364,20 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ## External Resources  
   
-### Videos  
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode1-GettingStarted](http://go.microsoft.com/fwlink/?LinkID=230573)  
+### Videos
+
+![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Getting started with Coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230573)  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode2-MaintainenceAndDebugging](http://go.microsoft.com/fwlink/?LinkID=230574)  
+![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Maintainence And debugging of coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230574)  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](http://go.microsoft.com/fwlink/?LinkID=230575)  
+![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Hand Coding coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230575)
   
-### Hands on lab  
- [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=22508)  
+### FAQ
+
+[Coded UI Tests FAQ](https://social.msdn.microsoft.com/Forums/en-US/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs?forum=vsautotest)
   
-### FAQ  
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  
-  
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)  
-  
-### Forum  
- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  
-  
-## See Also  
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Getting Started with the WPF Designer](http://msdn.microsoft.com/en-us/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
- [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
+## See also
+
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)  
+[Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)

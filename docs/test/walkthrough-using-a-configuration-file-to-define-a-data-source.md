@@ -11,13 +11,14 @@ helpviewer_keywords:
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
   - "data sources, defining with configuration files"
+author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
-author: gewarren
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
+
 This walkthrough illustrates how to use a data source defined in an app.config file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:  
   
 -   Creating an app.config file.  
@@ -144,20 +145,20 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 |`dataTableName`|`"Sheet1$"`|  
 |`dataAccessMethod`|`"Sequential"`|  
   
- The `microsoft.visualstudio.testtools` element should look similar to this:  
-  
-```  
+The `microsoft.visualstudio.testtools` element should look similar to this:
+
+```xml
 <microsoft.visualstudio.testtools>  
     <dataSources>  
         <add name="MyJetDataSource" connectionString="MyJetConn" dataTableName="MyDataTable" dataAccessMethod="Sequential"/>  
         <add name="MyExcelDataSource" connectionString="MyExcelConn" dataTableName="Sheet1$" dataAccessMethod="Sequential"/>  
     </dataSources>  
 </microsoft.visualstudio.testtools>  
-```  
-  
- The final app.config file should look similar to this:  
-  
-```  
+```
+
+The final app.config file should look similar to this:
+
+```xml
 <?xml version="1.0" encoding="utf-8" ?>  
 <configuration>  
     <configSections>  
@@ -213,13 +214,11 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 #### To create a unit test using the app.config data sources  
   
-1.  Add a unit test to the test project.  
-  
-     For more information, see [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173).  
+1.  Add a unit test to the test project.
   
 2.  Replace the auto-generated contents of the unit test with the following code:  
   
-    ```  
+    ```csharp
     using System;  
     using Microsoft.VisualStudio.TestTools.UnitTesting;  
   
@@ -260,12 +259,11 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 3.  Examine the DataSource attributes. Notice the setting names from the app.config file.  
   
 4.  Build your solution and run MyTestMethod and MyTestMethod2 tests.  
-  
+
 > [!IMPORTANT]
->  Deploy items like data sources so that they are accessible to the test in the deployment directory.  
-  
+> Deploy items like data sources so that they are accessible to the test in the deployment directory.
+
 ## See Also
 
 [Unit Test Your Code](../test/unit-test-your-code.md)  
-[Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)  
 [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

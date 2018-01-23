@@ -121,8 +121,8 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
 8.  In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
   
-## See Also  
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
- [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
+## See also
+
+[Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)  
+[Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)  
+[Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
