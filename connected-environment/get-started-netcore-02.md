@@ -32,6 +32,6 @@ vsce env create --name <environment name> --location <eastus or westeurope>
 > This command takes about 10 minutes, please be patient.
 
 
-Now that we have a development environment, we can begin writing code!
+Now that we have a development environment, let's start developing code!
 > [!div class="nextstepaction"]
 > [Create a .NET Core container in Kubernetes](get-started-netcore-03.md)
