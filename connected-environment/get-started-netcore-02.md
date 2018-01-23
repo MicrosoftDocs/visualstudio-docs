@@ -3,7 +3,7 @@
 Previous step: [Install Tools](get-started-netcore-01.md)
 
 ## Sign in to Azure
-We'll need to sign in to Azure to create our development environment:
+We'll need to sign in to Azure to create our development environment. Type the following command in a command or terminal window:
 ```
 az login
 ```
@@ -23,15 +23,18 @@ az account set --subscription <subscription ID>
 ```
 
 ## Create a Kubernetes Development Environment in Azure
-This command creates a Kubernetes-based environment that is Azure-managed and optimized for development.
+With Connected Environment, you can create Kubernetes-based environments that are fully managed by Azure and optimized for development. The command creates an environment named `mydevenvironment` in `eastus`. You'll need to enter a unique environment name.
 ```
-vsce env create --name <environment name> --location <eastus or westeurope>
+vsce env create --name mydevenvironment --location eastus
 ```
+
+Supported locations: `eastus`, `westeurope`
 
 > [!Note]
-> This command takes about 10 minutes, please be patient.
+> This command takes about 10 minutes. You can continue the guide without waiting.
 
 
-Now that we have a development environment, let's start developing code!
+While we're waiting for the environment to be create, let's start developing code!
+
 > [!div class="nextstepaction"]
 > [Create a .NET Core container in Kubernetes](get-started-netcore-03.md)

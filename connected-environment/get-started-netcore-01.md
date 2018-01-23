@@ -3,13 +3,13 @@
 ## Install the Connected Environment CLI
 There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
-### Mac
+### Install on Mac
 Install the Connected Environment CLI:
 ```
 curl -L https://aka.ms/get-vsce-mac | bash
 ```
 
-### Windows
+### Install on Windows
 1. Download and run the [Connected Environment CLI Installer](https://aka.ms/get-vsce-windows). 
 1. Install [Git for Windows](https://git-scm.com/downloads), select the default install options. 
 1. Install **kubectl** with this command: `az acs kubernetes install-cli` - the command output will state the path to kubectl.exe, e.g. **C:\Program Files (x86)**. 
@@ -19,11 +19,11 @@ Ensure the location of **kubectl** is in your system path. You can use this Powe
 ```[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files (x86)", "User")```
 
 
-### Linux
+### Install on Linux
 Coming soon...
 
 ## Get Kubernetes Debugging Tools
-While you can certainly use the Connected Environment CLI as a standalone tool, rich features like **Kubernetes debugging** are available for .NET Core and Node.js development with **VS Code** and **Visual Studio**.
+While you can use the Connected Environment CLI as a standalone tool, rich features like **Kubernetes debugging** are available for .NET Core developers using **VS Code** or **Visual Studio**.
 
 Choose the development tool you'd like to use.
 
