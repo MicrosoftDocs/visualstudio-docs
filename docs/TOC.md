@@ -366,6 +366,7 @@
 #### [XAML Designer Options Dialog Box](ide/reference/xaml-designer.md)
 ### [Output Window](ide/reference/output-window.md)
 ### [Project Properties Reference](ide/reference/project-properties-reference.md)
+#### [Application Page, Project Designer (UWP)]( ide/reference/application-page-project-designer-uwp.md)
 #### [Application Page, Project Designer (Visual Basic)](ide/reference/application-page-project-designer-visual-basic.md)
 ##### [Assembly Information Dialog Box](ide/reference/assembly-information-dialog-box.md)
 #### [Application Page, Project Designer (C#)](ide/reference/application-page-project-designer-csharp.md)
