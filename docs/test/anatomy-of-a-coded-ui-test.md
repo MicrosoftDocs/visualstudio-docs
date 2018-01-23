@@ -9,13 +9,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests"
+author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
-author: gewarren
 ---
-# Anatomy of a Coded UI Test
+# Anatomy of a Coded UI test
+
 When you create a Coded UI Test in a coded UI test project, several files are added to your solution. In this topic, we will use an example Coded UI Test to explore these files.  
   
  **Requirements**  
@@ -59,25 +60,25 @@ using MouseButtons = System.Windows.Forms.MouseButtons;
 ####  <a name="UIMapClass"></a> UIMap class  
  The next section of the file is the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class.  
   
-```  
+```csharp
 [GeneratedCode("Coded UITest Builder", "10.0.21221.0")]  
 public partial class UIMap  
-```  
+```
   
- The class code starts with a <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> that is applied to the class, which is declared as a partial class. You will notice that the attribute is also applied to every class in this file. The other file that can contain more code for this class is `UIMap.cs`, which is discussed later.  
-  
- The generated `UIMap` class includes code for each method that was specified when the test was recorded.  
-  
-```  
+The class code starts with a <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> that is applied to the class, which is declared as a partial class. You will notice that the attribute is also applied to every class in this file. The other file that can contain more code for this class is `UIMap.cs`, which is discussed later.  
+
+The generated `UIMap` class includes code for each method that was specified when the test was recorded.  
+
+```csharp
 public void LaunchCalculator()  
 public void AddItems()  
 public void VerifyTotal()  
 public void CleanUp()  
-```  
-  
- This part of the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class also includes the generated code for each property that is required by the methods.  
-  
-```  
+```
+
+This part of the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class also includes the generated code for each property that is required by the methods.
+
+```csharp
 public virtual LaunchCalculatorParams LaunchCalculatorParams  
 public virtual AddItemsParams AddItemsParams  
 public virtual VerifyTotalExpectedValues VerifyTotalExpectedValues  
@@ -89,12 +90,12 @@ public UIRunWindow UIRunWindow
 public UICalculatorWindow UICalculatorWindow  
 public UIStartWindow UIStartWindow  
 public UIMathApplicationWindow UIMathApplicationWindow  
-```  
+```
   
 #####  <a name="UIMapMethods"></a> UIMap methods  
- Each method has a structure that resembles the `AddItems()` method. This is explained in more detail under the code, which is presented together with line breaks to add clarity.  
-  
-```  
+ Each method has a structure that resembles the `AddItems()` method. This is explained in more detail under the code, which is presented together with line breaks to add clarity.
+
+```csharp
 /// <summary>  
 /// AddItems - Use 'AddItemsParams' to pass parameters into this method.  
 /// </summary>  
@@ -116,10 +117,10 @@ public void AddItems()
     Keyboard.SendKeys(uIItemEdit,   
         this.AddItemsParams.UIItemEditSendKeys,   
         ModifierKeys.None);  
-}  
-```  
-  
- The summary comment for each method definition tells which class to use for parameter values for that method. In this case, it is the `AddItemsParams` class, which is defined later in the `UIMap.cs` file, and which is also the value type that is returned by the `AddItemsParams` property.  
+}
+```
+
+The summary comment for each method definition tells which class to use for parameter values for that method. In this case, it is the `AddItemsParams` class, which is defined later in the `UIMap.cs` file, and which is also the value type that is returned by the `AddItemsParams` property.  
   
  At the top of the method code is a `Variable Declarations` region that defines local variables for the UI objects that will be used by the method.  
   
@@ -128,20 +129,20 @@ public void AddItems()
  Next are lines that send text from the keyboard to the Calculator application by using properties of the `AddItemsParams` object.  
   
  The `VerifyTotal()` method has a very similar structure, and includes the following assertion code.  
-  
-```  
+
+```csharp
 // Verify that 'Unknown Name' text box's property 'Text' equals '9. '  
 Assert.AreEqual(  
     this.VerifyTotalExpectedValues.UIItemEditText,   
     uIItemEdit.Text);  
-```  
-  
+```
+
  The text box name is listed as unknown because the developer of the Windows Calculator application did not provide a publicly available name for the control. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName> method fails when the actual value is not equal to the expected value, which would cause the test to fail. Also notice that the expected value includes a decimal point that is followed by a space. If you ever have to modify the functionality of this particular test, you must allow for that decimal point and the space.  
   
 #####  <a name="UIMapProperties"></a> UIMap properties  
  The code for each property is also very standard throughout the class. The following code for the `AddItemsParams` property is used in the `AddItems()` method.  
   
-```  
+```csharp
 public virtual AddItemsParams AddItemsParams  
 {  
     get  
@@ -152,14 +153,14 @@ public virtual AddItemsParams AddItemsParams
         }  
         return this.mAddItemsParams;  
     }  
-}  
-```  
-  
+}
+```
+
  Notice that the property uses a private local variable that is named `mAddItemsParams` to hold the value before it returns it. The property name and the class name for the object it returns are the same. The class is defined later in the `UIMap.cs` file.  
   
  Each class that is returned by a property is structured similarly. The following is the `AddItemsParams` class.  
-  
-```  
+
+```csharp
 /// <summary>  
 /// Parameters to be passed into 'AddItems'  
 /// </summary>  
@@ -177,11 +178,11 @@ public class AddItemsParams
     /// </summary>  
     public string UIItemEditSendKeys = "{Add}{NumPad2}{Enter}";  
     #endregion  
-}  
-```  
-  
- As with all classes in the `UIMap.cs` file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.  
-  
+}
+```
+
+As with all classes in the `UIMap.cs` file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.  
+
 ###  <a name="UIMapCS"></a> UIMap.cs  
  By default, this file contains a partial `UIMap` class that has no methods or properties.  
   
@@ -193,40 +194,41 @@ public class AddItemsParams
 ###  <a name="CodedUITestCS"></a> CodedUITest1.cs  
  This file is generated by the **Coded UI Test Builder**, but is not re-created every time that the test is modified, so that you can modify the code in this file. The name of the file is generated from the name that you specified for the test when you created it.  
   
-#### CodedUITest1 class  
- By default, this file contains the definition for only one class.  
-  
-```  
+#### CodedUITest1 class
+
+By default, this file contains the definition for only one class.
+
+```csharp
 [CodedUITest]  
 public class CodedUITest1  
-```  
-  
- The T:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute is automatically applied to the class, which allows the testing framework to recognize it as a testing extension. Also notice that this is not a partial class. All class code is contained in this file.  
+```
+
+The <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute> is automatically applied to the class, which allows the testing framework to recognize it as a testing extension. Also notice that this is not a partial class. All class code is contained in this file.  
   
 #####  <a name="CodedUITestProperties"></a> CodedUITest1 properties  
  The class contains two default properties that are located at the bottom of the file. They must not be modified.  
   
-```  
+```csharp
 /// <summary>  
 /// Gets or sets the test context which provides  
 /// information about and functionality for the current test run.  
 ///</summary>  
 public TestContext TestContext  
 public UIMap UIMap  
-```  
+```
   
 #####  <a name="CodedUITestMethods"></a> CodedUITest1 methods  
  By default, the class contains only one method.  
-  
-```  
+
+```csharp
 public void CodedUITestMethod1()  
-```  
-  
+```
+
  This method calls each `UIMap` method that you specified when you recorded your test, which is described in the section on the [UIMap Class](#UIMapClass).  
   
  A region that is titled `Additional test attributes`, if uncommented, contains two optional methods.  
   
-```  
+```csharp
 // Use TestInitialize to run code before running each test   
 [TestInitialize()]  
 public void MyTestInitialize()  
@@ -251,9 +253,9 @@ public void MyTestCleanup()
   
     // You could move this line from the CodedUITestMethod1() method  
     this.UIMap.CloseCalculator();  
-}  
-```  
-  
+}
+```
+
  The `MyTestInitialize()` method has the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute> applied to it, which tells the testing framework to call this method before any other test methods. Similarly, the `MyTestCleanup()` method has the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute> applied to it, which tells the testing framework to call this method after all other test methods have been called. Use of these methods is optional. For this test, the `UIMap.LaunchCalculator()` method could be called from `MyTestInitialize()` and the `UIMap.CloseCalculator()` method could be called from `MyTestCleanup()` instead of from `CodedUITest1Method1()`.  
   
  If you add more methods to this class by using the <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>, the testing framework will call each method as part of the test.  
@@ -263,19 +265,20 @@ public void MyTestCleanup()
   
  The `UIMap.uitest` file is not directly editable. However, you can use the Coded UI Builder to modify the test, which automatically modifies the `UIMap.uitest` file and the [UIMap.Designer.cs](#UIMapDesignerFile) file.  
   
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>   
- <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>   
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>   
+<xref:System.CodeDom.Compiler.GeneratedCodeAttribute>   
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>   
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>   
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>   
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)   
+[Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
+[Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)   
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

@@ -139,7 +139,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
      The UIMap - Coded UI Test Builder appears, and the Visual Studio window is minimized.  
   
-     For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
+     For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).  
   
 8.  Choose **Start Recording** on the UIMap - Coded UI Test Builder.  
   

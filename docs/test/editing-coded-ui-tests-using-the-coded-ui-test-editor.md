@@ -214,6 +214,6 @@ Edit control properties
 ## See also
 
 [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
-[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)  
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)  
 [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)  
 [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

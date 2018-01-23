@@ -74,7 +74,7 @@ Coded UI tests can automate testing for web applications by recording your tests
     > [!TIP]
     >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
- For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
+ For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).  
   
 ### Enable debugging  
  To enable debugging your web application, you must complete the following configuration options:  
