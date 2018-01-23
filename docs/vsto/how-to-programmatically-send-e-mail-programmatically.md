@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], creating e-mail"
   - "Outlook [Office development in Visual Studio], sending e-mail"
   - "e-mail [Office development in Visual Studio], sending"
-ms.assetid: 4fa0e1b5-2caf-4a11-8626-df643b23f5f0
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

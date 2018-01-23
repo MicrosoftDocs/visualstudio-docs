@@ -72,7 +72,7 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
         <zip>1</zip>  
       </BillTo>  
     </PurchaseOrder>  
-    ```  
+    ```
   
 ## See Also  
  [Working with XML Data](../xml-tools/working-with-xml-data.md)

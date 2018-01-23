@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customHostSpecified> element"
   - "<customHostSpecified> element"
   - "customHostSpecified element"
-ms.assetid: 2212b7eb-bf94-4398-b9ea-0ab00203203b
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

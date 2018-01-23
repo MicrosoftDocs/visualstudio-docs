@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "security [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, security"
-ms.assetid: 5ab33141-ba82-4960-8b29-3c907127fea6
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

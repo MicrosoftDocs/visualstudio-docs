@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Create a Python Projects from a Cookiecutter template in Visual Studio | Microsoft Docs"
+title: "Quickstart: Create a Python project using Cookiecutter in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 09/22/2017
 ms.reviewer: ""
@@ -8,13 +8,14 @@ ms.technology:
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "quickstart"
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Quickstart: create a project from a Cookiecutter template

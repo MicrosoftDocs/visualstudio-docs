@@ -5,7 +5,7 @@ ms.date: "11/22/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-debug"
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -74,4 +74,4 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 ## Next steps
 
-- [Deploy ASP.NET to IIS](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
+- [Deploy ASP.NET to IIS](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)

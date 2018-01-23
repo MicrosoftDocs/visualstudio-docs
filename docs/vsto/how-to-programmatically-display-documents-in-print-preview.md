@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], displaying documents in print preview"
   - "documents [Office development in Visual Studio], displaying in print preview"
-ms.assetid: 96c7faea-9c5c-42b4-a009-08894a6d15c9
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

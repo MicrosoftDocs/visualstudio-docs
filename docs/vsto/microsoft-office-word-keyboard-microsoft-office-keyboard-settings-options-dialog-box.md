@@ -17,10 +17,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "keyboard shortcuts, Office development in Visual Studio"
-ms.assetid: d98edaab-846a-4baa-b190-702b1134754c
-caps.latest.revision: 18
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

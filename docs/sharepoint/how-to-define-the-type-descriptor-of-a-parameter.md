@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], parameter types"
   - "BDC [SharePoint development in Visual Studio], type descriptor"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], parameter types"
-ms.assetid: 7494559f-1567-4cbd-bde0-05a2ed288c3a
-caps.latest.revision: 32
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

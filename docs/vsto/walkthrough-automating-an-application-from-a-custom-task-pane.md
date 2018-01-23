@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], automating applications"
   - "custom task panes [Office development in Visual Studio], PowerPoint"
   - "task panes [Office development in Visual Studio], automating applications"
-ms.assetid: 77be5ab5-e330-4564-87ec-9cba564ba8f9
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

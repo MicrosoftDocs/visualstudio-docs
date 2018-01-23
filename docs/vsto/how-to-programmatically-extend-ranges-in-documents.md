@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "ranges, extending"
   - "documents [Office development in Visual Studio], extending ranges"
-ms.assetid: 055af7a4-13d5-4236-b5fb-a112721482c5
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel [Office development in Visual Studio], creating workbooks"
   - "workbooks, creating"
-ms.assetid: be0196fe-7dc5-4811-b0cd-3c219731a3ff
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "description element"
   - "<description> element"
   - "application manifests [Office development in Visual Studio], <description> element"
-ms.assetid: 27c90f8c-393d-4557-9371-2e4e3c4a2d95
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

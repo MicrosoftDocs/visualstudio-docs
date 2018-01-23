@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "SharePoint projects, creating custom templates"
   - "SharePoint development in Visual Studio, creating custom project and item templates"
   - "project items [SharePoint development in Visual Studio], creating custom templates"
-ms.assetid: c95b5e35-76c4-4f0a-b645-0467ae683659
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

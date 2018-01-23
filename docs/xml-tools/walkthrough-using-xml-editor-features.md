@@ -125,7 +125,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
     </xs:complexType>  
   </xs:element>  
 </xs:schema>  
-```  
+```
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)

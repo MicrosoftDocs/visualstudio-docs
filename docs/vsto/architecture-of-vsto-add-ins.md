@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "vstoee.dll"
   - "application-level add-ins [Office development in Visual Studio], architecture"
   - "add-ins [Office development in Visual Studio], architecture"
-ms.assetid: 978f102f-15c6-44e4-84e8-80b161408324
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

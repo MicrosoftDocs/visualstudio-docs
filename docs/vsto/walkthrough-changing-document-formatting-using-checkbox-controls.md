@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "check boxes, Word documents"
   - "documents [Office development in Visual Studio], check box controls"
   - "controls [Office development in Visual Studio], adding to documents"
-ms.assetid: 3740e41d-a57e-43bb-87e7-6e5481ef290b
-caps.latest.revision: 70
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

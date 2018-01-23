@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "errors [Office development in Visual Studio], user interface errors"
   - "user interfaces [Office development in Visual Studio], errors"
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
-ms.assetid: aa82cc04-e616-4501-940c-79d11fb393cc
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], hiding while printing"
   - "printing [Office development in Visual Studio], hiding controls"
   - "worksheets, hiding controls when printing"
-ms.assetid: a637fe9a-9de1-4162-8ff6-fe28ccd62389
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

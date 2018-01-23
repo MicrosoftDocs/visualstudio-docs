@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint Connections [SharePoint development in Visual Studio], extending a node"
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
-ms.assetid: 86d04e0a-c114-427e-9945-da5fa339fda4
-caps.latest.revision: 7
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

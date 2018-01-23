@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, TextTransform utility"
   - "TextTransform.exe"
-ms.assetid: 06a48235-fe02-403e-a1cf-2ae70b4db62f
-caps.latest.revision: 41
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

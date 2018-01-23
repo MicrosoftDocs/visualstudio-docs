@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "Windows Forms [Office development in Visual Studio], collecting data"
   - "forms [Office development in Visual Studio], walkthroughs"
   - "worksheets [Office development in Visual Studio], collecting data"
-ms.assetid: 40e87f7f-cfbb-4761-bf1b-d042f45f4f09
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

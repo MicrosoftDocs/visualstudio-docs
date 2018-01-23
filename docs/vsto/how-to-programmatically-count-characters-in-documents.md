@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "characters, counting in documents"
   - "counting characters in documents"
   - "documents [Office development in Visual Studio], counting characters"
-ms.assetid: ab64fe87-896a-4b56-bdf8-91c4326b540e
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

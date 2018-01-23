@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], actions panes"
   - "actions panes [Office development in Visual Studio], binding controls"
   - "smart documents [Office development in Visual Studio], data binding"
-ms.assetid: 5ef72fc7-412b-4454-9890-4479a13ee7f9
-caps.latest.revision: 64
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

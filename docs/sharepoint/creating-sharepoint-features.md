@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, features"
   - "features [SharePoint development in Visual Studio]"
-ms.assetid: 2e211fb3-94f4-4921-ba77-2ba6717a3e41
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

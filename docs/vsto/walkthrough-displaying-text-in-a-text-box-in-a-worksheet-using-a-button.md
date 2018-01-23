@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "worksheets, displaying text"
   - "text boxes, displaying text in worksheets"
   - "text [Office development in Visual Studio], text boxes"
-ms.assetid: 59b73159-aab7-4f61-9ace-1723c18d78d6
-caps.latest.revision: 56
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

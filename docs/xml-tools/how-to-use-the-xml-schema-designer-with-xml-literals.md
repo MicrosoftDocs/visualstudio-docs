@@ -68,7 +68,7 @@ This topic describes how to view a schema associated with an XML literal in a Vi
   
        End Sub  
    End Module  
-   ```  
+   ```
   
 2.  Right-click any XML node in an XML literal or an XML namespace import and select **Show in Schema Explorer**.  
   

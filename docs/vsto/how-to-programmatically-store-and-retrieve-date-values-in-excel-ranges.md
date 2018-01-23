@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "dates, storing in Excel ranges"
   - "ranges, storing date values"
   - "date values"
-ms.assetid: e1cdd262-0356-4499-8bc5-e730f74235a2
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, site definitions"
   - "site definitions [SharePoint development in Visual Studio]"
-ms.assetid: b0df5b0e-5fa0-43d8-a339-6d92f1276764
-caps.latest.revision: 35
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

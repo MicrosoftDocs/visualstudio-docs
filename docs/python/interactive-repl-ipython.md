@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Using IPython in the Interactive Window
@@ -81,4 +82,4 @@ IPython has many other useful features such as escaping to the system shell, var
 
 - To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 
-- You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).
+- You can also run Jupyter (formerly known as IPython) on your own Windows or Linux virtual machine on Azure. For details, see [Creating an Azure VM. installing Jupyter, and running Jupyter Notebook on Azure](/azure/virtual-machines/virtual-machines-linux-jupyter-notebook).

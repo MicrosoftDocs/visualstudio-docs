@@ -10,11 +10,9 @@ helpviewer_keywords:
   - "modeling diagrams, saving"
   - "diagrams - modeling, saving modeling diagrams"
   - "UML diagrams, saving"
-ms.assetid: 0df68943-4c60-4f00-b1e8-b1cdee13762e
-caps.latest.revision: 15
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

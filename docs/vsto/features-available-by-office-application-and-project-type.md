@@ -20,10 +20,8 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], features available"
   - "add-ins [Office development in Visual Studio]"
   - "form regions [Office development in Visual Studio], features available"
-ms.assetid: 3e9aa4d3-affb-4f76-bc67-49fe5f26a6a1
-caps.latest.revision: 53
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

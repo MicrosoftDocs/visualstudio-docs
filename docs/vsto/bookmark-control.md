@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "Bookmark control, data binding"
   - "Bookmark control, events"
   - "Bookmark control"
-ms.assetid: 940bf165-18c9-4db8-a46c-aad786b8bbad
-caps.latest.revision: 55
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

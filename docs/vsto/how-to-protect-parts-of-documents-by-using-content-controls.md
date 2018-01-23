@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "document protection [Office development in Visual Studio]"
   - "Word [Office development in Visual Studio], restricted permissions"
   - "GroupContentControl"
-ms.assetid: 50d7286a-7746-446f-8eef-06ceeadc94d0
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "passwords [Office development in Visual Studio], document protections"
   - "documents [Office development in Visual Studio], restricted permissions"
   - "Office documents [Office development in Visual Studio, restricted permissions"
-ms.assetid: 9cee99c8-73c6-4f89-9d5e-7912c876ff96
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

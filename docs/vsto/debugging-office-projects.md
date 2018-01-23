@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "debugging [Office development in Visual Studio], Outlook projects"
   - "Office projects [Office development in Visual Studio], debugging"
   - "Outlook [Office development in Visual Studio], projects"
-ms.assetid: e360b9e9-9f36-48f0-a0c5-a6980fb47a87
-caps.latest.revision: 52
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

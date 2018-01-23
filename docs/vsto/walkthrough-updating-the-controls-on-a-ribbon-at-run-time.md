@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], dynamic menu"
   - "dynamic menus [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], updating"
-ms.assetid: ed80790f-3f95-47e4-8a41-872588a8ca07
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

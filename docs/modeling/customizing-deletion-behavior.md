@@ -10,11 +10,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.deletebehavior"
 helpviewer_keywords: 
   - "Domain-Specific Language, deletion"
-ms.assetid: c6bf088d-52c6-4817-af45-ddae745bb5a9
-caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Step 6: Working with Git
@@ -45,7 +46,7 @@ This topic describes creating a local Git repository for an existing project. Fo
 
 ## Going deeper
 
-For a more extensive tutorial on working with Git, see [Share your code with Visual Studio 2017 and VSTS Git](https://docs.microsoft.com/vsts/git/share-your-code-in-git-vs-2017)
+For a more extensive tutorial on working with Git, see [Share your code with Visual Studio 2017 and VSTS Git](/vsts/git/share-your-code-in-git-vs-2017)
 
 ## Tutorial review
 
