@@ -49,8 +49,5 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides links to additional topics that offer information about how to design new project types.  
   
- [Walkthrough: Creating a Wizard](http://msdn.microsoft.com/Library/adb41fe9-fcca-4e87-bf4f-bf2fa68e8b06)  
- Illustrates how to create a wizard.  
-  
  [Extending Projects](../../extensibility/extending-projects.md)  
  Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.

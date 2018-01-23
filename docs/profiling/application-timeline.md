@@ -29,8 +29,6 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
 2.  Windows 8.1  
   
-3.  Windows Phone 8.1 (Common XAML Platform)  
-  
 4.  Windows Presentation Foundation (.Net 4.0 and above)  
   
 5.  Windows 7  

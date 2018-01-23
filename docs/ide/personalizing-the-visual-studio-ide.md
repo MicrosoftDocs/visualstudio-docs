@@ -8,7 +8,6 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -59,4 +58,4 @@ You can customize the **Tools** menu to launch external tools For more informati
 ## See also
 
 [Visual Studio IDE overview](../ide/visual-studio-ide.md)  
-[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)

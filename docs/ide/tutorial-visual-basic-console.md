@@ -82,11 +82,11 @@ Let's create an app that prompts you for your name and then displays it along wi
      Console.ReadKey(True)
     ```
 
-    This code replaces the existing [Console.WriteLine](/dotnet/api/system.console.writeline?view=netframework-4.7.1), [Console.Write](/dotnet/api/system.console.write?view=netframework-4.7.1), and [Console.ReadKey]() statements.
+    This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
 
  ![Code window showing the What Is Your Name code](../ide/media/vb-codewindow-what-name.png)
 
-3. When the console window opens, enter your name. Your console window should look similar to the following screenshot:       
+3. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
    ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](../ide/media/vb-console-what-name.png)
 
