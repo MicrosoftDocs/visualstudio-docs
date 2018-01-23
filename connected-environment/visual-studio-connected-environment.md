@@ -20,8 +20,12 @@ This approach carries several benefits:
 > * Develop on MacOS, Windows, or Linux.
 
 
-## Get Started
-Follow the platform specific guides below:
+
+> [!div class="nextstepaction"]
+> [Get Started](get-started.md)
+
+
+<!-- Follow the platform specific guides below:
 * [Mac](get-started-mac-01.md)
 * [Windows](get-started-windows-01.md)
-* Linux (coming soon)
+* Linux (coming soon) -->
