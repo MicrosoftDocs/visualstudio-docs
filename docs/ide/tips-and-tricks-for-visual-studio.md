@@ -65,30 +65,30 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 ##  <a name="BKMK_CodeEditor"></a> Code Editor
 
-|||
-|-|-|
-|IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)|
-|Force Show IntelliSense|Ctrl+J|
-|Quick Actions|Ctrl+.|
-|Snippet Picker|Ctrl+K,X or ?,Tab (VB)|
-|Surround With|Ctrl+K,S|
-|Show Quick Info|Ctrl+K,I|
-|Navigate To|Ctrl+,|
-|Navigate Highlighted References|Ctrl+Shift+Up (Previous), Ctrl+Shift+Down (Next)|
-|Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)|
-|Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys|
-|Move Line Up/Down|Alt+Up / Alt+Down|
-|Duplicate line|Ctrl+E,V|
-|Expand selection|Ctrl+W|
-|Contract selection|Ctrl+Shift+W|
-|Go To Definition|F12|
-|Peek Definition|Alt+F12|
-|Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)|
-|Close the Peek Definition window|Esc|
-|Promote the Peek Definition window to a regular document tab|Ctrl+Alt+Home|
-|Navigate between multiple Peek Definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
-|Navigate between multiple Peek results|F8 and Shift+F8|
-|Toggle between the code editor window and the Peek Definition window|Shift+Esc|
+|Command|Shortcut|Version Availability|
+|-|-|-|
+|IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)||
+|Force Show IntelliSense|Ctrl+J||
+|Quick Actions|Ctrl+.||
+|Snippet Picker|Ctrl+K,X or ?,Tab (VB)||
+|Surround With|Ctrl+K,S||
+|Show Quick Info|Ctrl+K,I||
+|Navigate To|Ctrl+,||
+|Navigate Highlighted References|Ctrl+Shift+Up (Previous), Ctrl+Shift+Down (Next)||
+|Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)||
+|Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys||
+|Move Line Up/Down|Alt+Up / Alt+Down||
+|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6 preview 2|
+|Expand selection|Ctrl+W|Visual Studio 2017 version 15.5|
+|Contract selection|Ctrl+Shift+W|Visual Studio 2017 version 15.5|
+|Go To Definition|F12||
+|Peek Definition|Alt+F12||
+|Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)||
+|Close the Peek Definition window|Esc||
+|Promote the Peek Definition window to a regular document tab|Ctrl+Alt+Home||
+|Navigate between multiple Peek Definition windows|Ctrl+Alt+- and Ctrl+Alt+=||
+|Navigate between multiple Peek results|F8 and Shift+F8||
+|Toggle between the code editor window and the Peek Definition window|Shift+Esc||
 
 ## Toolbars
 
