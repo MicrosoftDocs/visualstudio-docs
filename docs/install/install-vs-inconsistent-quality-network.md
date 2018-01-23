@@ -1,21 +1,20 @@
 ---
 title: "Install on low bandwidth or unreliable network environments | Microsoft Docs"
 description: "Describes how the Visual Studio installer works in unreliable network conditions, and explains how to download install files before beginning the installation."
-ms.date: "08/30/2017"
-ms.reviewer: "tims"
+ms.date: "01/17/2018"
+ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
-ms.assetid: 44DB1998-68CD-4560-870A-EE5B993DCF6E
-author: "timsneath"
+helpviewer_keywords:
+  - "installing Visual Studio"
+  - "no internet connection"
+author: "tglee"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -30,7 +29,7 @@ We recommend that you try the Visual Studio web installer&mdash;we think you'll 
 However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. Here's how.
 
 > [!NOTE]
-> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.
+> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
 
 ## Step 1 - Download the Visual Studio bootstrapper
 
@@ -82,8 +81,8 @@ Use this command to run the installation:
 
 ```c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional```
 
-  > [!NOTE]
-  > If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If asked for a password, leave it blank.
+> [!NOTE]
+> If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If asked for a password, leave it blank.
 
 ## List of language locales
 

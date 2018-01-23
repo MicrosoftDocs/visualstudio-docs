@@ -55,8 +55,9 @@
     "fileMetadata": {
       "product_feedback_link_url3": {
         "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs",
-        "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio"
-        
+        "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio",
+        "uhfHeaderId": "MSDocsHeader-VisualStudio",
+        "searchScope": ["VS IDE"]        
       },
       "product_feedback_link_text_key3": {
         "extensibility/**/*.md": "askQuestion",

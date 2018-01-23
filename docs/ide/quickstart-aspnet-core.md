@@ -30,7 +30,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
-     If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link near the bottom left corner. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+     If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
 

@@ -58,7 +58,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    A project named "QuickDate" appears beneath the solution in **Solution Explorer**. Currently it contains a single file called **App.config**.
 
    > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** workload. An easy way to do this is to click the **Open Visual Studio Installer** link at the bottom of that left pane. The **Visual Studio Installer** opens, and from there you can choose the correct workload and then the **Modify** button.
+   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** workload. An easy way to do this is to choose the **Open Visual Studio Installer** link in the bottom left corner of the dialog box. After **Visual Studio Installer** launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
    ![Open Visual Studio Installer link](media/quickstart-projects-open-installer.png)
 

@@ -20,7 +20,7 @@ ms.workload:
 
 # Quickstart: clone a repository of Python code in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](installation.md), you can easily clone a repository of Python code and create a project from it.
+Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), you can easily clone a repository of Python code and create a project from it.
 
 [!INCLUDE[install-github-extension](includes/install-github-extension.md)]
 
@@ -68,15 +68,15 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), y
 14. Run the program again to see that the first check passes, and the program stops on the next koan. Continue correcting the errors and re-running the program as you want.
 
 > [!Important]
-> In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a  repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. These steps are described in [Tutorial Step 6 - Working with Git](vs-tutorial-01-06.md).
+> In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a  repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. These steps are described in [Tutorial Step 6 - Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md).
 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
+> [Tutorial: Working with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 
-- [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
-- [Install Python support in Visual Studio 2015 and earlier](installation.md).
-- [Install locations](installation.md#install-locations).
+- [Creating an environment for an existing Python interpreter](managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter).
+- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
+- [Install locations](installing-python-support-in-visual-studio.md#install-locations).

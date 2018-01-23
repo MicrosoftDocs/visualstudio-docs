@@ -103,7 +103,7 @@ if (performance && performance.mark) {
      Visual Studio analyzes the collected data and displays the results.  
   
 ##  <a name="BKMK_Collect_energy_profile_data_for_an_installed_app"></a> Collect energy profile data for an installed app  
- The Energy Consumption tool can only be run on Window Store 8.1 apps that are launched from a Visual Studio solution or are installed from the Windows store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
+ The Energy Consumption tool can only be run on UWP apps that are launched from a Visual Studio solution or are installed from the Microsoft Store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
   
 1.  Choose **Change Target** and then choose **Installed App**.  
   
