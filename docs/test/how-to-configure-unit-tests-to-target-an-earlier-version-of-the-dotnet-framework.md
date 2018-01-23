@@ -80,7 +80,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
      The properties for your Visual C# test project are displayed.  
   
-5.  On the **Application** tab choose **Target framework** and then choose **.NET Framework 3.5** or a later version from the drop-down list to change the target framework.as shown in the following illustration. You should not specify a client version.  
+5.  On the **Application** tab choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
   
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")  
   
