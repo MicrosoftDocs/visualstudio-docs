@@ -19,7 +19,7 @@ Use the **Application** property page to specify the Universal Windows Platform 
 
 ![Application property page](media/application-page-uwp.png)
 
-To access the **Application** page, choose the project node in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The property pages will open on the **Application** tab.
+To access the **Application** page, choose the project node in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The property pages open on the **Application** tab.
 
 ## General section
 
@@ -27,7 +27,7 @@ To access the **Application** page, choose the project node in **Solution Explor
 
 To access this property programmatically, see <xref:VSLangProj.ProjectProperties.AssemblyName%2A>.
 
-**Default namespace**&mdash;Specifies the base namespace for files added to the project. See [Namespaces (C# programming guide)](/dotnet/csharp/programming-guide/namespaces/), [Namespaces (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/namespaces), or [Namespaces (C++)](/cpp/cpp/namespaces-cpp) for more information about namespaces.
+**Default namespace**&mdash;Specifies the base namespace for files added to the project. For more information about namespaces, see [Namespaces (C# programming guide)](/dotnet/csharp/programming-guide/namespaces/), [Namespaces (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/namespaces), or [Namespaces (C++)](/cpp/cpp/namespaces-cpp).
 
 To access this property programmatically, see <xref:VSLangProj.ProjectProperties.RootNamespace%2A>.
 
