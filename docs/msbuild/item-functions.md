@@ -15,6 +15,8 @@ caps.latest.revision: 28
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Item Functions
 Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.  
@@ -59,7 +61,7 @@ Starting with MSBuild 4.0, code in tasks and targets can call item functions to 
 |`Reverse`|`@(MyItem->Reverse())`|Returns the items in reverse order.|  
 |`AnyHaveMetadataValue`|`@(MyItem->AnyHaveMetadataValue("MetadataName", "MetadataValue"))`|Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive.|  
 |`ClearMetadata`|`@(MyItem->ClearMetadata())`|Returns items with their metadata cleared. Only the `itemspec` is retained.|  
-|`HasMetadata`|`@(MyItem->HasMetadataValue("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|  
+|`HasMetadata`|`@(MyItem->HasMetadata("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|  
 |`Metadata`|`@(MyItem->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name.|  
 |`WithMetadataValue`|`@(MyItem->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|  
   

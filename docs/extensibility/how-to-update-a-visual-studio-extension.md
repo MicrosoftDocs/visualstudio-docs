@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Update a Visual Studio Extension
 You can update a Visual Studio extension on your system by using **Extensions and Updates** to install the updated version. If you create an updated version of an extension, you can signify it as updated by incrementing the version number in the VSIX manifest.  
@@ -50,7 +52,7 @@ You can update a Visual Studio extension on your system by using **Extensions an
   
 4.  Save the solution and build it.  
   
-5.  Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  
+5.  Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs) Web site.  
   
      When a user who has an earlier version of the extension opens **Extensions and Updates**, the new version will appear in the **Updates** list, provided that the tool is set to automatically look for updates.  
   

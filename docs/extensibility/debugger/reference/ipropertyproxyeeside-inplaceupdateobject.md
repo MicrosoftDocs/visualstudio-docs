@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject
 Updates the object's data with the given data object and returns a new data object representing the object's new data.  

@@ -16,6 +16,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Servicing Guidelines for Isolated Shell Applications
 When you distribute a Visual Studio isolated shell application, you must be able to provide software updates for your application after it is installed. To do this, you must install your application by using a Microsoft Installer (MSI) file. This kind of installation allows software updates provided by Microsoft to be redistributed by Web download and consumed by your customers without custom intervention.  

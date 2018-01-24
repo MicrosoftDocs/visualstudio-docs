@@ -15,11 +15,13 @@ ms.author: "mikejo"
 manager: ghogen
 dev_langs: 
   - C++
+ms.workload: 
+  - "cplusplus"
 ---
 
 # Custom Native ETW Heap Events
 
-Visual Studio contains a variety of [profiling and diagnostic tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
+Visual Studio contains a variety of [profiling and diagnostic tools](../profiling/profiling-tools.md), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
 
 There are many cases in which you may want to use your own custom heap and avoid the allocation overhead from the standard heap.  For instance, you could use [VirtualAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366887(v=vs.85).aspx) to allocate a large amount of memory at the start of the app or game, and then manage your own blocks within that list.  In this scenario, the memory profiler tool would only see that initial allocation, and not your custom management done inside the memory chunk.  However, using the Custom Native Heap ETW Provider, you can let the tool know about any allocations you are making outside the standard heap.
 
@@ -45,7 +47,7 @@ Foo* pFoo2 = (Foo*)mPool.allocate();
 Foo* pFoo3 = (Foo*)mPool.allocate();
 ```
 
-A snapshot from the [Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage) tool without custom heap tracking would show just the single 8192 byte allocation, and none of the custom allocations being made by the pool:
+A snapshot from the [Memory Usage](../profiling/memory-usage.md) tool without custom heap tracking would show just the single 8192 byte allocation, and none of the custom allocations being made by the pool:
 
 ![Windows Heap allocation](media/heap-example-windows-heap.png)
 
@@ -136,7 +138,7 @@ This library can be easily used in C and C++.
    ```
 
 ## Tracking Memory Usage
-With these calls in place, your custom heap usage can now be tracked using the standard **Memory Usage** tool in Visual Studio.  For more information on how to use this tool, please see the [Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage) documentation. Ensure you have enabled heap profiling with snapshots, otherwise you will not see your custom heap usage displayed. 
+With these calls in place, your custom heap usage can now be tracked using the standard **Memory Usage** tool in Visual Studio.  For more information on how to use this tool, please see the [Memory Usage](../profiling/memory-usage.md) documentation. Ensure you have enabled heap profiling with snapshots, otherwise you will not see your custom heap usage displayed. 
 
 ![Enable Heap Profiling](media/heap-enable-heap.png)
 
@@ -150,11 +152,11 @@ The default *NT Heap* heap looks the same as earlier, with the addition of our `
 
 ![NT Heap with Tracker](media/heap-example-windows-heap.png)
 
-As with the standard Windows heap, you can also use this tool to compare snapshots and look for leaks and corruption in your custom heap, which is described in the main [Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage) documentation.
+As with the standard Windows heap, you can also use this tool to compare snapshots and look for leaks and corruption in your custom heap, which is described in the main [Memory Usage](../profiling/memory-usage.md) documentation.
 
 > [!TIP]
 > Visual Studio also contains a **Memory Usage** tool in the **Performance Profiling** toolset, which is enabled from the **Debug > Performance Profiler** menu option, or the **Alt+F2** keyboard combination.  This feature does not include heap tracking and will not display your custom heap as described here.  Only the **Diagnostic Tools** window, which can be enabled with the **Debug > Windows > Show Diagnostic Tools** menu, or the **Ctrl+Alt+F2** keyboard combination, contains this functionality.
 
 ## See Also
-[Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools)  
-[Memory Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage)
+[Profiling Tools](../profiling/profiling-tools.md)  
+[Memory Usage](../profiling/memory-usage.md)

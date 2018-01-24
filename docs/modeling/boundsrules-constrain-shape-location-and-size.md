@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, events"
-ms.assetid: 4d08e541-fc67-4e68-bf31-30d346aa2aa0
-caps.latest.revision: 18
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # BoundsRules Constrain Shape Location and Size
 A *Bounds Rule* is a class that defines limits on the size and location of a shape. It provides a method that is called repeatedly while a user is dragging a shape or the corners or sides of a shape.  

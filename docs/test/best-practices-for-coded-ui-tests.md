@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests, best practices"
-ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
-caps.latest.revision: 39
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Best Practices for Coded UI Tests
 This topic describes the best practices to follow when you develop coded UI tests.  

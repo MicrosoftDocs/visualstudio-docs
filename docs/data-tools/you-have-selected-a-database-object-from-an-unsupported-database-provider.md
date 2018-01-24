@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # You have selected a database object from an unsupported database provider
 The O/R Designer supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.  
@@ -31,8 +33,6 @@ The O/R Designer supports only the .NET Framework Data Provider for SQL Server (
 
    The action is stopped. Create or use a data connection that uses the .NET Framework Provider for SQL Server.  
   
-## See Also  
-[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
-[LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
-[.NET Framework Data Providers](/dotnet/framework/data/adonet/data-providers)   
-[Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
+## See also
+[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
+[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

@@ -20,6 +20,8 @@ caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1062: Validate arguments of public methods
 |||  

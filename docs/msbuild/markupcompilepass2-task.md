@@ -22,6 +22,8 @@ caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MarkupCompilePass2 Task
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> task performs second-pass markup compilation on [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] files that reference types in the same project.  

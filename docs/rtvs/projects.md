@@ -9,11 +9,12 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 732b73cf-2014-4f98-838e-4141ef9dedac
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Creating R projects in Visual Studio
@@ -105,7 +106,6 @@ RTVS includes a number of templates for specific file types. You access template
 | SQL Query | And empty `.sql` file. See [SQL Server integration](sql-server.md). |
 | Stored Procedure with R | An R file with child SQL Query and child stored procedure template file. See [SQL Server integration](sql-server.md). |
 
-
 ## Use multiple project types in Visual Studio
 
 Visual Studio Solutions provide a convenient place to gather and manage related projects in one logical place. Solutions help keep your code organized and facilitates collaboration within teams.
@@ -117,6 +117,6 @@ In the example below, the solution contains an R project with a model built usin
 The project highlighted with boldface is the "startup" project for the solution; to change it, right-click a different project and select **Set as startup project**.
 
 > [!Note]
-> At present, there isn't any explicit R to C#/C++ language integration in place (as there is for Python, see [Creating a C++ extension for Python](../python/cpp-and-python.md)).  However there are libraries available that provide C# and C++ bridges for R.
+> At present, there isn't any explicit R to C#/C++ language integration in place (as there is for Python, see [Creating a C++ extension for Python](../python/working-with-c-cpp-python-in-visual-studio.md)).  However there are libraries available that provide C# and C++ bridges for R.
 
 For more information on managing projects and solutions in general, see [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md).

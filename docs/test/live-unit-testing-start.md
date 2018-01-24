@@ -2,8 +2,7 @@
 title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs | Microsoft Docs"
 ms.date: "2017-08-31"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.topic: "get-started-article"
@@ -12,6 +11,8 @@ helpviewer_keywords:
   - "Live Unit Testing"
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # Get started with Live Unit Testing in Visual Studio
 
@@ -52,7 +53,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 1. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**. 
 
    > [!NOTE]
-   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](https://docs.microsoft.com/dotnet/standard/net-standard).
+   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
 
 1. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
 
@@ -80,7 +81,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**. 
 
    > [!NOTE]
-   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](https://docs.microsoft.com/dotnet/standard/net-standard).
+   > Because our library targets the .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of the .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
 
 1. Select the **Class Library (.NET Standard)** template in the right pane, and enter `StringLibrary` in the **Name** text box, as the following figure shows:
 
@@ -100,7 +101,7 @@ Now that you've created the solution, you'll create a class library named `Strin
      
       - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
     
-1. Right-click on the StringLibrary project in **Solution Explorer** and select **Properties**. In the **Application** tab, delete the text in the **Root namespace** text box, as the following figure shows. The root namespace is defined by the [Namespace statement](https://docs.microsoft.com/dotnet/visual-basic/language-reference/statements/namespace-statement) in the source code.
+1. Right-click on the StringLibrary project in **Solution Explorer** and select **Properties**. In the **Application** tab, delete the text in the **Root namespace** text box, as the following figure shows. The root namespace is defined by the [Namespace statement](/dotnet/visual-basic/language-reference/statements/namespace-statement) in the source code.
 
    ![The Project Properties dialog for a Visual Basic project](./media/lut-start/vb-properties.png)
  
@@ -246,7 +247,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
     [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#1)]
 
-1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
+1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
 
     [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#2)]
 
@@ -263,7 +264,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#1)]
 
-1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
+1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#2)]
 
@@ -305,7 +306,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     
 1. Select **Debug Selected** to debug the failed test. 
  
-1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
+1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
 
    ![Live Unit Testing exception dialog.](media/lut-start/exception-dialog-cs.png) 
  
@@ -338,7 +339,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     
 1. Select **Debug Selected** to debug the failed test. 
  
-1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
+1. Visual Studio executes the test in debug mode. Our test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following figure.  
 
    ![Live Unit Testing exception dialog.](media/lut-start/exception-dialog-vb.png) 
  

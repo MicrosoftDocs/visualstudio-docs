@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], Word"
-ms.assetid: cacab406-ad82-48d1-94a4-8b59453ef261
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthroughs Using Word
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Word and customize the user interface (UI).  

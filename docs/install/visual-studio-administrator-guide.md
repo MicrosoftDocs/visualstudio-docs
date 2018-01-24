@@ -6,7 +6,7 @@ ms.date: "05/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -17,6 +17,8 @@ ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio 2017 administrator guide
 
@@ -51,13 +53,22 @@ We have several tools available to help you [detect and manage installed Visual 
 > [!TIP]
 > In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
 
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+
 ## See also
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
   * [Workload and Component ID reference](workload-and-component-ids.md)
 * [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-  * [Special considerations for installing Visual Studio in an offline environment](install-visual-studio-in-offline-environment.md)
+  * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Automate Visual Studio with a response file](automated-installation-with-response-file.md)
 * [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
 * [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
@@ -65,4 +76,3 @@ We have several tools available to help you [detect and manage installed Visual 
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md)

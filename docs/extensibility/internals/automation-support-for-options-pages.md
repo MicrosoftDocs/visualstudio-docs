@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Automation Support for Options Pages
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (Tools Options pages) in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and can make them available to the automation model.  

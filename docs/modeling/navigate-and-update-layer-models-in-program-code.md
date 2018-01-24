@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "layer models, navigating in program code"
   - "layer models, updating in program code"
-ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
-caps.latest.revision: 20
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Navigate and update layer models in program code
 This topic describes the elements and relationships in layer models, which you can navigate and update by using program code. For more information about dependency diagrams from the user's point of view, see [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md) and [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).  

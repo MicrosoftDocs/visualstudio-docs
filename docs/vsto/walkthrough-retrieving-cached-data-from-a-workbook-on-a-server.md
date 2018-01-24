@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "server-side data access [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], accessing on server"
   - "documents [Office development in Visual Studio], server-side data access"
-ms.assetid: ef6d61e5-a498-4b38-8e2e-2e80706d854b
-caps.latest.revision: 35
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Retrieving Cached Data from a Workbook on a Server
   This walkthrough demonstrates how to retrieve data from a dataset that is cached in a Microsoft Office Excel workbook without starting Excel by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class.  

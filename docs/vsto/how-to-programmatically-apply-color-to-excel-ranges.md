@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "formatting [Office development in Visual Studio]"
   - "color, Excel ranges"
   - "ranges, applying color"
-ms.assetid: a9c40229-5308-459a-9216-7e13d82c7cb5
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Apply Color to Excel Ranges
   To apply a color to text within a range of cells, use a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.  

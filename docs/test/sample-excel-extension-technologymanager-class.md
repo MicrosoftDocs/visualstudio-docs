@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
-caps.latest.revision: 9
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Excel Extension: TechnologyManager Class
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager> class and is responsible for providing core services for the [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] extension. Although the base class has many methods, only a subset of them is used in this sample.  

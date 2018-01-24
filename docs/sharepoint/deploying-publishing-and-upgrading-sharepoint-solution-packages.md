@@ -19,11 +19,11 @@ dev_langs:
 helpviewer_keywords: 
   - "deploying [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, deploying"
-ms.assetid: 5efc1d99-2bd2-4f1a-a7b0-86c3b8f533f0
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Deploying, Publishing, and Upgrading SharePoint Solution Packages
   After you develop a SharePoint solution in Visual Studio, you can either deploy its package (.wsp) file to a local SharePoint server or publish it to a remote or local SharePoint server. If you deploy the files, you can customize how the package files (.wsp) are deployed.  

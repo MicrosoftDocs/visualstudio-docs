@@ -23,6 +23,8 @@ caps.latest.revision: 26
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Csc Task
 Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.dll files), or code modules (.netmodule files). For more information about CSC.exe, see [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index).  
@@ -60,6 +62,7 @@ Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.d
 |`NoWin32Manifest`|Optional `Boolean` parameter.<br /><br /> If `true`, do not include the default Win32 manifest.|  
 |`Optimize`|Optional `Boolean` parameter.<br /><br /> If `true`, enables optimizations. If `false`, disables optimizations. For more information, see [/optimize (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/optimize-compiler-option).|  
 |`OutputAssembly`|Optional `String` output parameter.<br /><br /> Specifies the name of the output file. For more information, see [/out (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/out-compiler-option).|  
+|`OutputRefAssembly`|Optional `String` parameter.<br /><br /> Specifies the name of the output reference assembly file. For more information, see [/refout (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/refout-compiler-option).|  
 |`PdbFile`|Optional `String` parameter.<br /><br /> Specifies the debug information file name. The default name is the output file name with a .pdb extension.|  
 |`Platform`|Optional `String` parameter.<br /><br /> Specifies the processor platform to be targeted by the output file. This parameter can have a value of `x86`, `x64`, or `anycpu`. Default is `anycpu`. For more information, see [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option).|  
 |`References`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Causes the task to import public type information from the specified items into the current project. For more information, see [/reference (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/reference-compiler-option).<br /><br /> You can specify a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] reference alias in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file by adding the metadata `Aliases` to the original "Reference" item. For example, to set the alias "LS1" in the following CSC command line:<br /><br /> `csc /r:LS1=MyCodeLibrary.dll /r:LS2=MyCodeLibrary2.dll *.cs`<br /><br /> you would use:<br /><br /> `<Reference Include="MyCodeLibrary"> <Aliases>LS1</Aliases> </Reference>`|  

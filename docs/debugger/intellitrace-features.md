@@ -26,6 +26,8 @@ caps.latest.revision: 67
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IntelliTrace Features
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.  
@@ -44,11 +46,15 @@ You can use IntelliTrace to record events and method calls your application, whi
   
  If you're debugging, stop debugging. Go to **Tools > Options > IntelliTrace > IntelliTrace Events**. Choose the events you want IntelliTrace to record.  
   
+## <a name="Snapshots"></a> Collect events and snapshots  
+ This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view theses snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and snapshots**. For more information, see [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)
+
+ Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  Snapshots are not currently available for .NET Core and ASP.NET Core apps.
+
 ##  <a name="GoingFurther"></a> Collect IntelliTrace events and call information  
  This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information**.
 
-> [!NOTE]
-> Call information is not currently available for .NET Core apps. 
+ Call information is not currently available for .NET Core and ASP.NET Core apps. 
   
  This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.  
   
@@ -57,7 +63,7 @@ You can use IntelliTrace to record events and method calls your application, whi
 >   
 >  You can reduce the performance overhead by restricting the list of events that IntelliTrace records and by keeping the number of modules you are collecting to a minimum. For more information, see [Control how much call information IntelliTrace records](../debugger/intellitrace-features.md#ControlCallData).  
   
-### Using the navigation gutter  
+### Use the navigation gutter  
  You can use the navigation gutter that appears to the left of the code window. If you don't see the navigation gutter, go to **Tools > Options > IntelliTrace > Advanced**, and select **Display the navigation gutter while in debug mode**.  
   
  The navigation gutter allows you to move forwards and backwards through method calls and events in historical debugging mode. For more information about historical debugging, see [Historical Debugging](../debugger/historical-debugging.md). It has a number of commands:  
@@ -81,7 +87,7 @@ You can use IntelliTrace to record events and method calls your application, whi
   
  Try to keep the number of modules to a minimum. You get better performance because there is less data to be collected. You also get less noise in the UI because there is less data to go through.  
   
-##  <a name="SaveSession"></a> Saving IntelliTrace data to file  
+##  <a name="SaveSession"></a> Save IntelliTrace data to file  
  You can save the data that IntelliTrace has collected going to **Debug > IntelliTrace > Save IntelliTrace Session** while you are debugging and the application is in a break state. The menu item is disabled and you will not be able to save the data IntelliTrace has collected if the application is still running or if you have stopped debugging.  
   
  You can configure IntelliTrace to automatically save to a file by going to **Tools > Options > IntelliTrace > Advanced** and selecting **Store IntelliTrace recordings in this directory**. You can also configure a set size for the generated file, which causes IntelliTrace to write over older data when it runs out of space. Visual Studio creates two files for each IntelliTrace session when they are saved automatically and the Visual Studio hosting process (vshost.exe) is turned on.  

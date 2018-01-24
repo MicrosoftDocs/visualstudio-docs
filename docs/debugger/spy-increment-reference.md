@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Spy++ Reference
 See the sections listed below for descriptions of each Spy++ menu and dialog box:  

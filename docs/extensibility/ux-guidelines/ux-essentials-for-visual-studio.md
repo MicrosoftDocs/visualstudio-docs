@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # UX Essentials for Visual Studio
 ## Best practices  

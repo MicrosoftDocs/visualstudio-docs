@@ -15,6 +15,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # COM Constants in Managed Code
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.  

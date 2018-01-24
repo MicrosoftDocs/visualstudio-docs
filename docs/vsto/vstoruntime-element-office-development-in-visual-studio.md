@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <vstoRuntime> element"
   - "<vstoRuntime> element"
   - "vstoRuntime element"
-ms.assetid: e59a8a61-9ff2-4032-9983-4a1e289e70a7
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;vstoRuntime&gt; Element (Office Development in Visual Studio)
   The `vstoRuntime` element of the `vstav3` namespace contains a supported version of the Visual Studio Tools for Office runtime for a specific Office solution.  

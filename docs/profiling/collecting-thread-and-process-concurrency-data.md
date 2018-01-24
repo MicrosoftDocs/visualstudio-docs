@@ -16,6 +16,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Collecting Thread and Process Concurrency Data
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.  

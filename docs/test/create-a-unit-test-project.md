@@ -4,20 +4,20 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
-caps.latest.revision: 8
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Create a unit test project
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.  
   
 > [!NOTE]
->  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md).  
+>  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md).  
   
 ## To create a unit test project:  
   
@@ -44,7 +44,7 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
 -   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+-   [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)  
   
  **Running unit tests**  
   

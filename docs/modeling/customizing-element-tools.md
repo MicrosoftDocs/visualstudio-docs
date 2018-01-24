@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6dac48b6-db68-4bcd-8aa2-422c2ad5d28b
-caps.latest.revision: 6
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customizing Element Tools
 In some DSL Definitions, you represent a single concept as a group of elements. For example, if you create a model in which a component has a fixed set of ports, you always want the ports to be created at the same time as their parent component. Therefore, you have to customize the element creation tool so that it creates a group of elements instead of just one. To achieve this, you can customize how the element creation tool is initialized.  

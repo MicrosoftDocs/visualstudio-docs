@@ -6,11 +6,11 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fce6b398-935e-4241-bdf4-875d09ff57c7
-caps.latest.revision: 10
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Architecture Tooling Guidance
 This Architecture Tooling Guidance is a downloadable package of practical guidance about the use of the modeling tools in Visual Studio 2010. It presents a high-level view of how to use all the modeling tools in an integrated manner, and discusses the most common scenarios in which the tools are used.  

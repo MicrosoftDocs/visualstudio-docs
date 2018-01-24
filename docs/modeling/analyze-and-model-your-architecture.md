@@ -31,11 +31,11 @@ helpviewer_keywords:
   - "application, architecture"
   - "Visual Studio ALM, visualizing code"
   - "applications, designing"
-ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
-caps.latest.revision: 127
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze and model your architecture
 Make sure your app meets architectural requirements by using

@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use the Activity Log
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  

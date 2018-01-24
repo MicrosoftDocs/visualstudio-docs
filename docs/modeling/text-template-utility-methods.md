@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, utility methods"
-ms.assetid: 8c11f9f7-678b-4f0c-b634-dc78fda699d1
-caps.latest.revision: 50
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Text Template Utility Methods
 There are several methods that are always available to you when you write code in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.  

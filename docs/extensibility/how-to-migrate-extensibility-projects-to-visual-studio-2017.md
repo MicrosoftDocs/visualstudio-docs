@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2017
 
@@ -98,11 +100,6 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
   ![add roslyn prerequisite](media/add-roslyn-prerequisite.png)
 
 * Press **OK**.
-
-## If migrating from Preview 4 or Preview 5
-
-* Replace `SetupDependencies` with `Prerequisites` and move the elements out of the `Installer` element. `Prerequisites` now sits directly inside the `PackageManifest` element.
-* [Optional] Remove the `GenerateVsixV3` element. (This was required in Preview 5 only.) The `GenerateVsixV3` element will be ignored in versions beyond Preview 5.
 
 ## Update Debug settings for project
 
@@ -193,3 +190,15 @@ Examples:
 
 * If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the **Binaries / Files Names** header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the **Binaries / Files Names** header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the **Component Name** to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
 * If you know that your project deals with debugger elements, you can search on "debugger" in the filter search box to see what components contain debugger in its name.
+
+## Specifying a Visual Studio 2017 release
+
+If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you must specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](../install/visual-studio-build-numbers-and-release-dates.md). Using the release number '15.3' will not work correctly.
+
+If your extension requires 15.3 or higher, you would declare the **InstallationTarget Version** as [15.0.26730.3, 16.0):
+
+```xml
+<Installation>
+  <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0.26730.3, 16.0)" />
+</Installation>
+```

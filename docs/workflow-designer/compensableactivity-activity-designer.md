@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # CompensableActivity Activity Designer
 The **CompensableActivity** activity designer is used to create and configure a <xref:System.Activities.Statements.CompensableActivity> activity.  

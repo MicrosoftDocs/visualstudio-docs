@@ -13,11 +13,13 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze Network Usage in UWP Apps
 The Visual Studio **Network** diagnostics tool collects data about network operations performed using the [Windows.Web.Http API](/uwp/api/windows.web.http). Analyzing the data can help you resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance.  
   
- The Network tool supports only Windows Universal Platform apps. Other platforms are not supported at this time.  
+ The Network tool supports only UWP apps. Other platforms are not supported at this time.  
   
 > [!NOTE]
 >  For a more complete description of the Network tool, see [Introducing Visual Studio's network tool](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studio-s-network-tool.aspx).  

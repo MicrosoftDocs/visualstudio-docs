@@ -1,7 +1,7 @@
 ---
 title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/18/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,6 +23,8 @@ caps.latest.revision: 36
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Common MSBuild Project Properties
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  
@@ -70,12 +72,11 @@ The following table lists frequently used properties that are defined in the Vis
 |IntermediateOutputPath|The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, \obj\debug\\. If this property is overridden, then setting `BaseIntermediateOutputPath` has no effect.|  
 |KeyContainerName|The name of the strong-name key container.|  
 |KeyOriginatorFile|The name of the strong-name key file.|  
-|NoWin32Manifest|Determines whether the compiler generates the default Win32 manifest into the output assembly. The default value of `false` means that the default Win32 manifest is generated for all applications. This property is equivalent to the `/nowin32manifest` compiler switch of vbc.exe.|  
 |ModuleAssemblyName|The name of the assembly that the compiled module is to be incorporated into. The property is equivalent to the `/moduleassemblyname` compiler switch.|  
 |NoLogo|A boolean value that indicates whether you want compiler logo to be turned off. This property is equivalent to the `/nologo` compiler switch.|  
 |NoStdLib|A boolean value that indicates whether to avoid referencing the standard library (mscorlib.dll). The default value is `false`.|  
 |NoVBRuntimeReference|A boolean value that indicates whether the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] runtime (Microsoft.VisualBasic.dll) should be included as a reference in the project.|  
-|NoWin32Manifest|A boolean value that indicates whether User Account Control (UAC) manifest information will be embedded in the application's executable. Applies only to Visual Studio projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this element is ignored. `False` (the default value) specifies that User Account Control (UAC) manifest information be embedded in the application's executable. `True` specifies that UAC manifest information not be embedded.<br /><br /> This property applies only to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this property is ignored.<br /><br /> You should add NoWin32Manifest only if you do not want [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to embed any manifest information in the application's executable; this process is called *virtualization*. To use virtualization, set `<ApplicationManifest>` in conjunction with `<NoWin32Manifest>` as follows:<br /><br /> -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, remove the `<ApplicationManifest>` node. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, `<NoWin32Manifest>` is ignored when an `<ApplicationManifest>` node exists.)<br />-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, set `<ApplicationManifest>` to `False` and `<NoWin32Manifest>` to `True`. (In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, `<ApplicationManifest>` overrides `<NoWin32Manifest>`.)|  
+|NoWin32Manifest|A boolean value that indicates whether User Account Control (UAC) manifest information will be embedded in the application's executable. Applies only to Visual Studio projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this element is ignored. `False` (the default value) specifies that User Account Control (UAC) manifest information be embedded in the application's executable. `True` specifies that UAC manifest information not be embedded.<br /><br /> This property applies only to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this property is ignored.<br /><br /> You should add NoWin32Manifest only if you do not want [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to embed any manifest information in the application's executable; this process is called *virtualization*. To use virtualization, set `<ApplicationManifest>` in conjunction with `<NoWin32Manifest>` as follows:<br /><br /> -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, remove the `<ApplicationManifest>` node. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, `<NoWin32Manifest>` is ignored when an `<ApplicationManifest>` node exists.)<br />-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, set `<ApplicationManifest>` to `False` and `<NoWin32Manifest>` to `True`. (In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, `<ApplicationManifest>` overrides `<NoWin32Manifest>`.)<br /> This property is equivalent to the `/nowin32manifest` compiler switch of vbc.exe.|  
 |Optimize|A boolean value that when set to `true`, enables compiler optimizations. This property is equivalent to the `/optimize` compiler switch.|  
 |OptionCompare|Specifies how string comparisons are made. Valid values are "binary" or "text." This property is equivalent to the `/optioncompare` compiler switch of vbc.exe.|  
 |OptionExplicit|A boolean value that when set to `true`, requires explicit declaration of variables in the source code. This property is equivalent to the `/optionexplicit` compiler switch.|  

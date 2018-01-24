@@ -24,6 +24,8 @@ caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SetEnv Task
 Sets or deletes the value of a specified environment variable.  

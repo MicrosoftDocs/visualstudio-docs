@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], method instance"
   - "BDC [SharePoint development in Visual Studio], method"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], method"
-ms.assetid: f0c8a686-c0de-414e-8de9-f228f59d1eb3
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Define a Method Instance
   You must define at least one method instance for every method in your model.  

@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThread2::CanSetNextStatement
 Determines whether the current instruction pointer can be set to the given stack frame.  

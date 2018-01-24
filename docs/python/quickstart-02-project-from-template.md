@@ -4,25 +4,27 @@ ms.custom: ""
 ms.date: 09/25/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 3f4b66c5-3ad8-4067-90cd-0100205700a7
+ms.topic: "quickstart"
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Quickstart: create a Python project from a template in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](installation.md), it's easy to create a new Python project using a variety of templates.
+Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates.
 
 1. Launch Visual Studio.
 
-1. Select **File > New > Project** (Ctrl+Shift+N). In the **New Project** dialog, search for "Python", and select the template you want. Note that selecting a template displays a short description of what the template provides. (Also see [Python Projects](python-projects.md#project-templates).)
+1. Select **File > New > Project** (Ctrl+Shift+N). In the **New Project** dialog, search for "Python", and select the template you want. Note that selecting a template displays a short description of what the template provides. (Also see [Python projects](managing-python-projects-in-visual-studio.md#project-templates).)
 
     ![VS2017 New Project dialog with Python template](media/projects-new-project-dialog2.png)
 
@@ -79,13 +81,13 @@ Once you've [installed Python support in Visual Studio 2017](installation.md), i
 
 1. Run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** on the menu. The results are displayed in a console window.
 
-## Next Steps
+## Next steps
 
 > [!div class="nextstepaction"]
-> [Tutorial: Working with Python in Visual Studio](vs-tutorial-01-01.md)
+> [Tutorial: Working with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
-## See Also
+## See also
 
-- [Creating an environment for an existing Python interpreter](python-environments.md#creating-an-environment-for-an-existing-interpreter).
-- [Install Python support in Visual Studio 2015 and earlier](installation.md).
-- [Install locations](installation.md#install-locations).
+- [Creating an environment for an existing Python interpreter](managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter).
+- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
+- [Install locations](installing-python-support-in-visual-studio.md#install-locations).

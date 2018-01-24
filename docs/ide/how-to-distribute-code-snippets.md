@@ -15,8 +15,10 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - "VB"
+dev_langs: 
+  - "VB"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Distribute Code Snippets
 You can simply give your code snippets to your friends and have them install the snippets on their own computers by using the Code Snippets Manager. However, if you have several snippets to distribute or would like to distribute them more widely, you include your snippet file in a Visual Studio extension, which Visual Studio users can install.  

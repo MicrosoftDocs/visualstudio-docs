@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "printing [Office development in Visual Studio], worksheets"
   - "worksheets, printing"
   - "print preview, worksheets"
-ms.assetid: 312bfcd7-0a74-421c-b42e-df71a06b7bdf
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Print Worksheets
   You can print any worksheet in a workbook.  

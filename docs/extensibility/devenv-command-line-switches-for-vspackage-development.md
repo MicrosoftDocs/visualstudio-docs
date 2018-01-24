@@ -22,6 +22,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Devenv Command-Line Switches for VSPackage Development
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows developers to automate tasks from the command line when executing devenv.exe, the file that starts the Visual Studio integrated development environment (IDE).  

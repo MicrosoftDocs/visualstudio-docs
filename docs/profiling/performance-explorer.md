@@ -18,6 +18,8 @@ caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Performance Explorer
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  

@@ -13,9 +13,11 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs:
- - csharp
- - vb
+dev_langs: 
+  - csharp
+  - vb
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: My First WPF Desktop Application
 This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You'll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
@@ -264,7 +266,7 @@ In this section, you'll create the application infrastructure, which includes th
   
 1.  Choose the following image and save it as `watermark.png`.  
   
-     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "WPF_watermark")  
+     ![Watermark image for walkthrough](../designers/media/wpf_watermark.png "watermark")  
   
     > [!NOTE]
     >  Alternatively you can create your own image and save it as `watermark.png`.  
@@ -847,40 +849,40 @@ In this section, you'll create the application infrastructure, which includes th
 ##  <a name="Best_Practices"></a> Best Practices  
  This sample demonstrates the basics of WPF and, consequently, does not follow application development best practices. For comprehensive coverage of WPF and .NET Framework application development best practices, see the following topics as appropriate:  
   
--   Accessibility - [Accessibility Best Practices](https://msdn.microsoft.com/en-us/library/aa350483\(v=vs.100\).aspx)  
+-   Accessibility - [Accessibility Best Practices](/dotnet/framework/ui-automation/accessibility-best-practices)  
   
--   Security - [Windows Presentation Foundation Security](https://msdn.microsoft.com/en-us/library/aa970906\(v=vs.100\).aspx)  
+-   Security - [Windows Presentation Foundation Security](/dotnet/framework/wpf/security-wpf)  
   
--   Localization - [WPF Globalization and Localization Overview](https://msdn.microsoft.com/en-us/library/ms788718\(v=vs.100\).aspx)  
+-   Localization - [WPF Globalization and Localization Overview](/dotnet/framework/wpf/advanced/wpf-globalization-and-localization-overview)  
   
--   Performance - [Optimizing WPF Application Performance](https://msdn.microsoft.com/en-us/library/aa970683\(v=vs.100\).aspx)  
+-   Performance - [Optimizing WPF Application Performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
   
 ##  <a name="Whats_Next"></a> What's Next  
  You now have a number of techniques at your disposal for creating a desktop application by using WPF. You should now have a basic understanding of the building blocks of a data-bound WPF application. This topic is by no means exhaustive, but hopefully you also now have a sense of some of the possibilities you might discover on your own beyond the techniques in this topic.  
   
  For more information about the WPF architecture and programming models, see the following topics:  
   
--   [WPF Architecture](https://msdn.microsoft.com/en-us/library/ms750441\(v=vs.100\).aspx)  
+-   [WPF Architecture](/dotnet/framework/wpf/advanced/wpf-architecture)  
   
--   [XAML Overview](https://msdn.microsoft.com/en-us/library/ms752059\(v=vs.100\).aspx)  
+-   [XAML Overview](/dotnet/framework/wpf/advanced/xaml-overview-wpf)  
   
--   [Dependency Properties Overview](https://msdn.microsoft.com/en-us/library/ms752914\(v=vs.100\).aspx)  
+-   [Dependency Properties Overview](/dotnet/framework/wpf/advanced/dependency-properties-overview)  
   
--   [Layout System](https://msdn.microsoft.com/en-us/library/ms745058\(v=vs.100\).aspx)  
+-   [Layout System](/dotnet/framework/wpf/advanced/layout)  
   
--   [Styles and Templates](https://msdn.microsoft.com/en-us/library/bb613570\(v=vs.100\).aspx)  
+-   [Styles and Templates](/dotnet/framework/wpf/controls/styles-and-templates)  
   
  For more information about creating applications, see the following topics:  
   
--   [Application Development Overview](https://msdn.microsoft.com/en-us/library/bb613549\(v=vs.100\).aspx)  
+-   [Application Development Overview](/dotnet/framework/wpf/app-development/index)  
   
--   [Controls Overview](https://msdn.microsoft.com/en-us/library/bb613551\(v=vs.100\).aspx)  
+-   [Controls Overview](/dotnet/framework/wpf/controls/index)  
   
--   [Data Binding Overview](https://msdn.microsoft.com/en-us/library/ms752347\(v=vs.100\).aspx)  
+-   [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)  
   
--   [WPF Graphics, Animation, and Media Overview](https://msdn.microsoft.com/en-us/library/ms742562\(v=vs.100\).aspx)  
+-   [WPF Graphics, Animation, and Media Overview](https://msdn.microsoft.com/en-us/library/ms742562)  
   
--   [Documents in WPF](https://msdn.microsoft.com/en-us/library/ms748388\(v=vs.100\).aspx)  
+-   [Documents in WPF](/dotnet/framework/wpf/advanced/documents-in-wpf)  
   
 ## See Also  
 [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

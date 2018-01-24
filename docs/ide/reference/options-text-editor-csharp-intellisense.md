@@ -12,7 +12,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Intellisense"
 helpviewer_keywords: 
-  - "IntelliSense [J#], options"
   - "underlines, wavy"
   - "IntelliSense [C#], options"
   - "IntelliSense [C#], wavy underlines"
@@ -23,6 +22,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Options, Text Editor, C#, IntelliSense
 Use the **IntelliSense** property page to modify settings that affect the behavior of IntelliSense for Visual C#. You can access the **IntelliSense** property page by clicking **Options** on the **Tools** menu, then clicking **C#** in the **Text Editor** folder, and then clicking **IntelliSense.**  

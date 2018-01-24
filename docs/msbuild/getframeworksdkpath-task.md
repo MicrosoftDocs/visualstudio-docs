@@ -23,6 +23,8 @@ caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GetFrameworkSdkPath Task
 Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  

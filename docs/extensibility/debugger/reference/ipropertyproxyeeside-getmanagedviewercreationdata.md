@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
 Retrieves information about the viewer for this property type in order to instantiate that viewer.  

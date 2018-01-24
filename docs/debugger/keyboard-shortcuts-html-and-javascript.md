@@ -18,14 +18,15 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Keyboard shortcuts (HTML and JavaScript)
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  
+ Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.  
   
 ## General shortcuts  
- These shortcuts work across all tools for Store apps using HTML and JavaScript.  
+ These shortcuts work across all tools for UWP apps using HTML and JavaScript.  
   
 |Action|Shortcut|  
 |------------|--------------|  

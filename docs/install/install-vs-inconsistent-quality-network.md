@@ -1,25 +1,26 @@
 ---
 title: "Install on low bandwidth or unreliable network environments | Microsoft Docs"
 description: "Describes how the Visual Studio installer works in unreliable network conditions, and explains how to download install files before beginning the installation."
-ms.date: "08/30/2017"
-ms.reviewer: "tims"
+ms.date: "01/17/2018"
+ms.reviewer: ""
 ms.suite: ""
 ms.technology:
- - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
-ms.assetid: 44DB1998-68CD-4560-870A-EE5B993DCF6E
-author: "timsneath"
-ms.author: "tims"
+  - "installing Visual Studio"
+  - "no internet connection"
+author: "tglee"
+ms.author: "tglee"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 
 # Install Visual Studio 2017 on low bandwidth or unreliable network environments
 
-We recommend that you try the Visual Studio web installer&mdash;we think you'll find it a good experience for most situations. 
+We recommend that you try the Visual Studio web installer&mdash;we think you'll find it a good experience for most situations.
 
  > [!div class="button"]
  > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
@@ -28,7 +29,7 @@ We recommend that you try the Visual Studio web installer&mdash;we think you'll 
 However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. Here's how.
 
 > [!NOTE]
-> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Special considerations for installing Visual Studio in an offline environment](../install/install-visual-studio-in-offline-environment.md) pages.
+> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
 
 ## Step 1 - Download the Visual Studio bootstrapper
 
@@ -76,7 +77,7 @@ To ensure that you only install the files you've downloaded, use the same comman
 
 ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
 
-use this command to run the installation:
+Use this command to run the installation:
 
 ```c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional```
 
@@ -101,6 +102,15 @@ use this command to run the installation:
 | tr-TR | Turkish |
 | zh-CN | Chinese - Simplified |
 | zh-TW | Chinese - Traditional |
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

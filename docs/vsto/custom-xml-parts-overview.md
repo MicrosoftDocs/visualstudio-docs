@@ -24,11 +24,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], custom XML parts"
   - "Excel [Office development in Visual Studio], custom XML parts"
   - "documents [Office development in Visual Studio], custom XML parts"
-ms.assetid: a14119dc-59e8-4614-94f1-08c92bdf7300
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Custom XML Parts Overview
   You can embed XML data in documents for some Microsoft Office applications. When you embed XML data in a document, the data is named a *custom XML part*.  

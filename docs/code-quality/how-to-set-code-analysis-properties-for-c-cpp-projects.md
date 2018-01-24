@@ -20,9 +20,11 @@ helpviewer_keywords:
   - "C/C++ code analysis properties"
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 caps.latest.revision: 17
-author: "corob-msft"
-ms.author: "corob"
+author: mikeblome
+ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects
 You can configure which rules the code analysis tool uses to analyze the code in each configuration of your project. In addition, you can direct code analysis to suppress warnings from code that was generated and added to your project by a third-party tool.  

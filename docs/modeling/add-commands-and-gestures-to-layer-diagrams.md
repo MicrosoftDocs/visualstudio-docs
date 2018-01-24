@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"
-ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
-caps.latest.revision: 38
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Add commands and gestures to dependency diagrams
 You can define context menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.  
@@ -39,7 +39,7 @@ You can define context menu commands and gesture handlers on dependency diagrams
   
 3.  To test the extension, press **CTRL+F5** or **F5**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.  
+     An experimental instance of Visual Studio starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.  
   
 4.  Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
@@ -49,7 +49,7 @@ You can define context menu commands and gesture handlers on dependency diagrams
   
      [Defining a Gesture Handler](#gesture)  
   
-6.  To install the extension in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
+6.  To install the extension in the main instance of Visual Studio, or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Command or Gesture to a separate VSIX  
  If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers.
@@ -98,9 +98,9 @@ You can define context menu commands and gesture handlers on dependency diagrams
   
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, create or open a dependency diagram.  
+2.  To test the feature, press CTRL+F5 or F5. An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.  
   
-3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
+3.  To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   

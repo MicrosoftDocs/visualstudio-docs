@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericFieldDefinition::TypeParamCount
 Retrieves the number of type parameters that are associated with the generic field.  

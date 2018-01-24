@@ -1,157 +1,69 @@
 ---
+title: Visual Studio Documentation | Microsoft Docs
+description: Learn how Visual Studio helps you develop apps using a variety of programming languages.
 layout: LandingPage
 author: "gewarren"
 ms.author: "gewarren"
 ms.topic: landing-page
-title: Visual Studio IDE Documentation | Microsoft Docs
-description: Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
 ms.technology: 
   - "vs-ide-general"
+ms.workload: 
+  - "multiple"
 ---
-# Visual Studio IDE Documentation
+# Visual Studio Documentation
 
-Learn about how the Visual Studio integrated development environment (IDE) can help you develop apps using nearly any code language.
+Learn how Visual Studio helps you develop apps using a variety of programming languages.
 Tutorials, videos, and other documentation show you ways to create code and apps by using Visual Studio.
 
 <ul class="panelContent cardsFTitle">
     <li>
+        <a href="/visualstudio/install/install-visual-studio">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img data-hoverimage="../images/setup-install.svg" src="../images/setup-install.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Learn how to install and set up Visual Studio</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="/visualstudio/ide/visual-studio-ide">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Take a tour of Visual Studio</h3>
+                        <div class="cardText">
+                            <h3>Get an overview of Visual Studio</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </a>
-    </li>    
-    <li>
-        <a href="https://youtu.be/JHc3_gsCmZg?list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn more about the IDE</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
         </a>
     </li>
     <li>
-        <a href="/dotnet/welcome">
+        <a href="https://mva.microsoft.com/en-US/training-courses/getting-started-with-visual-studio-2017-17798?l=9oIw0FD6D_3611787171">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_NET.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_advanced.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started using .NET languages</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/cpp/">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/logos/logo_Cplusplus.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started using Visual C++</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/visualstudio/debugger/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about debugging code in Visual Studio</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/visualstudio/profiling/index">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Improve your code performance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://mva.microsoft.com/product-training/visual-studio-courses">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_advanced.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Visual Studio courses</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://channel9.msdn.com/VisualStudio">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Visual Studio videos</h3>
+                        <h3>Visual Studio 2017 on Microsoft Virtual Academy</h3>
                     </div>
                 </div>
             </div>
@@ -160,21 +72,196 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
----
+<h2>Experience Visual Studio with 5-minute "Quickstarts"</h2>
 
-<h2>Reference</h2>
-<ul class="panelContent cardsW">
+<ul class="panelContent cardsFTitle">
     <li>
+        <a href="/visualstudio/ide/quickstart-ide-orientation">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="" />
+                        </div>
+                    </div>
                     <div class="cardText">
-                        <p><a href="/visualstudio/ide/reference/visual-studio-reference">Visual Studio IDE Reference</a></p>
-                        <p><a href="/visualstudio/ide/reference/visual-studio-commands">Visual Studio commands</a></p>
-                        <p><a href="/visualstudio/ide/reference/devenv-command-line-switches">Devenv Command Line Switches</a></p>
+                        <h3>Get oriented with the integrated development environment (IDE)</h3>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-projects-solutions">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_categorize.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about projects and solutions</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-editor">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Write code in the editor</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-personalize-the-ide">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Personalize theme and text colors</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-aspnet-core">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Csharp.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a web app with C#</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-visual-basic-console">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a console app with Visual Basic</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-cpp">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a console app with C++</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-python">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a web app with Python</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-nodejs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a web app with Node.js</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
     </li>
 </ul>
+
+<h2>Go deeper with tutorials</h2>
+
+<!-- Converting to icon48 format, this gets cleaner in YAML -->
+<div class="ico48Case halfStack">
+
+<!--
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
+<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
+-->
+
+<div class="ico48Link"><a href="/cpp/build/vscpp-step-0-installation"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/nodejs/tutorial-nodejs"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_Python.svg"><span>Python</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/rtvs/getting-started-with-r"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_R.svg"><span>R</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/ide/tutorial-csharp-aspnet-core"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_Csharp.svg"><span>C#</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/ide/tutorial-visual-basic-console"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/logos/logo_vb.svg"><span>Visual Basic</span></a></div>
+<div class="ico48Link"><a href="/visualstudio/ide/getting-started-with-debugging-in-visual-studio"><img width="48" height="48" alt=""
+src="https://docs.microsoft.com/media/common/i_debug.svg"><span>Debugging</span></a></div>

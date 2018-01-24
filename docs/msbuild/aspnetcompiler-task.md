@@ -23,6 +23,8 @@ caps.latest.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "aspnet"
 ---
 # AspNetCompiler Task
 The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  

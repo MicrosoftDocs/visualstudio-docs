@@ -13,6 +13,8 @@ caps.latest.revision: 14
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "xamarin"
 ---
 # Application Lifecycle Management (ALM) with Xamarin apps
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).  
@@ -75,9 +77,8 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |Build definitions with pre- and post-scripts|Yes||  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
-## Testing  
- Reference link: **[Testing the application](/devops-test-docs/test/test-apps-early-and-often)**  
-  
+## Testing
+
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
 |Planning tests, creating test cases and organizing test suites|Yes||  

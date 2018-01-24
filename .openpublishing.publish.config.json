@@ -2,6 +2,22 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
+      "docset_name": "connected-environment",
+      "build_source_folder": "connected-environment",
+      "build_output_subfolder": "connected-environment",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
@@ -11,7 +27,10 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "LandingData": "Content",
+        "ContextObject": "Toc",
+        "APIConnector": "Content"
       },
       "template_folder": "_themes"
     },
@@ -36,7 +55,7 @@
       "build_output_subfolder": "scripting-docs",
       "locale": "en-us",
       "monikers": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -49,22 +68,6 @@
       "docset_name": "subscriptions",
       "build_source_folder": "subscriptions",
       "build_output_subfolder": "subscriptions",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "vsdata",
-      "build_source_folder": "vsdata",
-      "build_output_subfolder": "vsdata",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
@@ -98,15 +101,6 @@
       "branch": "master"
     },
     {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/visualstudio-docs-pr",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
-    },
-    {
       "path_to_root": "dotnet-xref",
       "url": "https://github.com/MicrosoftDocs/dotnet-xref",
       "branch": "live",
@@ -116,11 +110,6 @@
       }
     }
   ],
-  "Targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
   "branch_target_mapping": {
     "live": [
       "Publish",
@@ -128,6 +117,11 @@
     ]
   },
   "need_generate_pdf_url_template": true,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "need_generate_pdf": false,
   "need_generate_intellisense": false
 }

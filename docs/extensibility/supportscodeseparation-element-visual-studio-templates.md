@@ -18,6 +18,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.  

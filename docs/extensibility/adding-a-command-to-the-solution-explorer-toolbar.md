@@ -17,6 +17,8 @@ caps.latest.revision: 39
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Command to the Solution Explorer Toolbar
 This walkthrough shows how to add a button to the **Solution Explorer** toolbar.  

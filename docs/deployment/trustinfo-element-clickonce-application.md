@@ -27,6 +27,8 @@ caps.latest.revision: 16
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;trustInfo&gt; Element (ClickOnce Application)
 Describes the minimum security permissions required for the application to run on the client computer.  

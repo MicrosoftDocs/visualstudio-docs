@@ -1,5 +1,5 @@
 ---
-title: Azure Remote Debugging with Python in Visual Studio | Microsoft Docs
+title: Azure remote debugging with Python in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: 07/12/2017
 ms.reviewer: ""
@@ -9,16 +9,18 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d68fdc53-65a1-423c-8964-9815dbb3387e
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
-# Remotely Debugging Python Code on Azure
+# Remotely debugging Python code on Azure
 
-[Python support in Visual Studio](installation.md) includes the ability to remotely debugging Python code that's running on Azure App Service. Unlike simple remote debugging, the target computer in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated `web.debug.config` file. Remote debugging is also enabled when you publish a Debug configuration of your project as described on [Publishing to Azure App Service](template-web.md#publishing-to-azure-app-service).
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) includes the ability to remotely debugging Python code that's running on Azure App Service. Unlike simple remote debugging, the target computer in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated `web.debug.config` file. Remote debugging is also enabled when you publish a Debug configuration of your project as described on [Publishing to Azure App Service](template-web.md#publishing-to-azure-app-service).
 
 Because Azure remote debugging uses web sockets, sockets must be enabled for your App Service through the [Azure portal](https://portal.azure.com) by going to **Settings > Application settings** and turning **General settings > Web sockets** to **On**, then selecting **Save** to apply the change. (Note that the **Debugging** settings do not apply to debugging Python.)
 
@@ -26,7 +28,7 @@ Because Azure remote debugging uses web sockets, sockets must be enabled for you
 
 Once your project is properly deployed and web sockets enabled, you can attach to the App Service from **Server Explorer** in Visual Studio (**View > Server Explorer**). Locate your site under **Azure > App Service** and the applicable resources group, right-click, and select **Attach Debugger (Python)**. (The **Attach Debugger** command as that's for .NET applications running under IIS, and is useful only if you co-host .NET code alongside your Python app.)
 
-Visual Studio may take you directly to a set of instructions for attaching directly, as described below in [Attaching without Server Explorer](#attaching-without-server-explorer). If you do not see the **Attach Debugger (Python)** command or Visual Studio fails to attach to your site, see [Troubleshooting Azure Remote Debugging](debugging-azure-remote-troubleshooting.md).
+Visual Studio may take you directly to a set of instructions for attaching directly, as described below in [Attaching without Server Explorer](#attaching-without-server-explorer). If you do not see the **Attach Debugger (Python)** command or Visual Studio fails to attach to your site, see [Troubleshooting Azure remote debugging](debugging-azure-remote-troubleshooting.md).
 
 If the attach is successful, Visual Studio switches to a debugger view. The toolbar indicates the process being debugged such as a `wss://` URI:
 

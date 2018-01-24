@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Performance Tips and Tricks
 
@@ -33,14 +35,6 @@ Visual Studio performance recommendations are intended for low memory situations
 ## Configure solution and projects
 
 If you have a very large solution with many projects, you may benefit by making the following optimizations:
-
-- **Enable Lightweight Solution Load**
-
-    Using **Lightweight Solution Load** may improve memory and CPU performance by deferring the load of some projects within your solution. You can also enable this feature per-solution. This option is off by default.
-
-    To enable **Lightweight Solution Load**, choose **Tools > Options > Projects and Solutions > Lightweight Solution Load**.
-
-    Some IDE features are not enabled in this mode. To determine whether this choice may help, see [Shorter solution load time](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/) and [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio.md).
 
 - **Unload Projects**
 
@@ -75,7 +69,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the Diagnostic Tools, start a debugging session, choose **Tools > Options > Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools).
+    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
 
 ## Disable tools and extensions
 Some tools or extensions may to turned off to improve performance.

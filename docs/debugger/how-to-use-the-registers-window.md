@@ -28,6 +28,8 @@ caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View Register Values and use the Registers Window in the Visual Studio Debugger
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  

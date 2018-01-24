@@ -11,6 +11,8 @@ caps.latest.revision: 12
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "xamarin"
 ---
 # Learn about mobile development with Xamarin
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
@@ -89,7 +91,7 @@ This topic directs you to overview material that helps you understand developing
   
 2.  **Apple's iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   
-3.  **Microsoft's Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
+3.  **Microsoft's Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](../debugger/run-windows-phone-apps-in-the-emulator.md).  
   
 ##  <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  

@@ -15,6 +15,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Customizing the Isolated Shell
 You can customize your Visual Studio isolated shell application by changing different aspects of the Visual Studio user interface and by restricting the commands and features included in your specialized application.  

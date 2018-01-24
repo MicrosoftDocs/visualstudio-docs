@@ -1,5 +1,5 @@
 ---
-title: "Python Interactive REPL in Visual Studio | Microsoft Docs"
+title: "Python interactive REPL in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/13/2017
 ms.reviewer: ""
@@ -9,11 +9,13 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 642dc47e-c265-44ea-a77d-3db14170a36f
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Working with the Python Interactive Window
@@ -33,7 +35,7 @@ Visual Studio has a number of Python REPL modes to choose from:
 
 This topic describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
 
-For a detailed walkthrough with examples, including the interactions with the editor such as Ctrl+Enter, see [Tutorial Step 3: Using the interactive REPL window](vs-tutorial-01-03.md). For a video introduction, see [Python Interactive Window](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=gJYKY5LWE_4605918567) (Microsoft Virtual Academy, 2m22s).
+For a detailed walkthrough with examples, including the interactions with the editor such as Ctrl+Enter, see [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md). For a video introduction, see [Python Interactive Window](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=gJYKY5LWE_4605918567) (Microsoft Virtual Academy, 2m22s).
 
 > [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Python-Interactive-Window-gJYKY5LWE_4605918567]
 
@@ -45,7 +47,7 @@ First, switch to the Python Environments window (**View > Other Windows > Python
 
 ![Interactive Window link in the Python Environments window](media/interactive-window-opening.png)
 
-Second, near the bottom of the **View > Other Windows** menu, there's a ** Python Interactive Window** command for your default environment, as well as a command to switch to the environments window:
+Second, near the bottom of the **View > Other Windows** menu, there's a **Python Interactive Window** command for your default environment, as well as a command to switch to the environments window:
 
 ![Interactive Window menu items in View > Other Windows](media/interactive-window-menu.png)
 

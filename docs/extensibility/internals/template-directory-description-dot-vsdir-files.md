@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Template Directory Description (.Vsdir) Files
 A template directory description file (.vsdir) is a text file that enables the integrated development environment (IDE) to display folders, wizard .vsz files, and template files that are associated with your project in dialog boxes. The contents include one record per file or folder. All .vsdir files in a referenced location are merged, although only one .vsdir file is generally provided to describe multiple folders, wizards, or template files.  

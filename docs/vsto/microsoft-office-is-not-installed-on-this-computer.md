@@ -13,11 +13,11 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: da023863-721c-4e1a-96e1-6345dd12011e
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Microsoft Office is not installed on this computer
   Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing an VSTO Add-in project, this means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.  

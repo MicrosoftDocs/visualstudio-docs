@@ -19,6 +19,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1412: Mark ComSource Interfaces as IDispatch
 |||  
@@ -50,5 +52,4 @@ manager: ghogen
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408-do-not-use-autodual-classinterfacetype.md)  
   
 ## See Also  
- [How to: Raise Events Handled by a COM Sink](http://msdn.microsoft.com/en-us/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)   
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TASK_STATE_CANCELED Field
 The task was canceled before it reached the running state, or it acknowledged its cancellation and completed without exception.  

@@ -9,11 +9,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.devlang: r
 ms.topic: "article"
-ms.assetid: 3ff60292-1b88-4ee9-b2b2-edd957f1a519
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # How to install R Tools for Visual Studio
@@ -30,20 +31,21 @@ In this topic:
 
 ## Supported versions of Visual Studio
 
-R Tools for Visual Studio (RTVS) is supported on the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://www.visualstudio.com/downloads/) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download). 
+R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://www.visualstudio.com/downloads/) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
+
+RTVS is not presently supported on Visual Studio for Mac.
 
 RTVS does not install if you have only the Visual Studio Shell that's included with products such as Visual Studio Test Professional and SQL Server Management Studio. Visual Studio Shell lacks the necessary components for RTVS.
-
 
 ## Installing RTVS in Visual Studio 2017
 
 1. Run the Visual Studio installer. (See [Downloads](https://www.visualstudio.com/downloads/) if you don't yet have Visual Studio installed.) On Windows 7, be sure that your installer is updated to show Visual Studio version *15.2 build 26430.12* or later.
 
-2. Select the **Data science and analytical applications** workload:
+1. Select the **Data science and analytical applications** workload:
 
     ![Data science and analytical applications workload in VS2017](media/installation-data-science-workload.png)
 
-3. Set any additional options on the right side under the same workload name. By default, this workload includes F# and Python support. For R, minimum requirements are **R language support**, **Runtime support for R development**, and **Microsoft R client**.
+1. Set any additional options on the right side under the same workload name. By default, this workload includes F# and Python support. For R, minimum requirements are **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
 RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio` where `<version>` is typically `2017` and `<edition>` is `Community`, `Professional`, or `Enterprise`.
 
@@ -55,9 +57,9 @@ With Visual Studio 2015, you need to install an R interpreter and the R Tools se
 
 RTVS requires a 64-bit installation of R version 3.2.1 or higher from one or more of the following sources:
 
-* [Microsoft R Open](https://mran.microsoft.com/download/)
-* [Microsoft R Client](https://msdn.microsoft.com/microsoft-r/r-client-get-started)
-* [CRAN R](https://cran.r-project.org/bin/windows/base/)
+- [Microsoft R Open](https://mran.microsoft.com/download/)
+- [Microsoft R Client](/machine-learning-server/r-client/what-is-microsoft-r-client)
+- [CRAN R](https://cran.r-project.org/bin/windows/base/)
 
 Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Microsoft R Client, however, supports only one version and always uses the latest one you installed.
 
@@ -89,3 +91,4 @@ Offline installation is suitable for computers that are not connected to the Int
 - [R Tools sample projects](getting-started-samples.md)
 - [Getting help](getting-started-help.md)
 - [Option settings](options.md)
+- [Microsoft Machine Learning Server (formerly R Server)](/machine-learning-server/)

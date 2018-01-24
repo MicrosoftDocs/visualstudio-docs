@@ -17,6 +17,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Code Analysis Policy Errors
 The following errors occur if the code analysis policy is not satisfied at check-in:  

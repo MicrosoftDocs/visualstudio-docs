@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Filter Report Views from the Summary Timeline
 You can filter the data that appears in performance reports by specifying a time segment in the timeline graph of the Summary View. When you filter reports, the profiling data file is reanalyzed to include only the time segment that you specified.  

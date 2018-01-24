@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel [Office development in Visual Studio], worksheets"
   - "worksheets [Office development in Visual Studio], common tasks"
-ms.assetid: d9204916-6471-4cf0-89a1-d46dae0e2599
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Worksheets
   The <xref:Microsoft.Office.Tools.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Worksheet> classes contain the methods and properties you use to perform tasks with worksheets.  

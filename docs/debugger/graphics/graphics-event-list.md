@@ -15,6 +15,8 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Event List
 Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Direct3D events that were recorded while rendering a frame of your game or app.  

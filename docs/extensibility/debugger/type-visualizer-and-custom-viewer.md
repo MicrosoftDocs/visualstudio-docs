@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Type Visualizer and Custom Viewer
 A type visualizer is a component that displays a piece of data in a very specific format. This format is entirely up to the implementer of the visualizer, be it the end user or a third-party supplier of visualizers.  

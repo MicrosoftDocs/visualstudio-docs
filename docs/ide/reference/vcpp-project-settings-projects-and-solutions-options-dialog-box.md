@@ -23,6 +23,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] build and project settings related to logging, performance, and supporting file types.  

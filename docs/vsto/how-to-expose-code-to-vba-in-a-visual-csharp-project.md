@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "VBA [Office development in Visual Studio], exposing code in document-level customizations"
   - "document-level customizations [Office development in Visual Studio], exposing code"
   - "exposing code to VBA"
-ms.assetid: 56d5894b-4823-42f4-8c7e-d8739b859c52
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Expose Code to VBA in a Visual C# Project
   You can expose code in a Visual C# project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.  
@@ -77,7 +77,7 @@ manager: ghogen
   
      For more information about host items, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  
   
-6.  Extract an interface from the class that you are exposing to VBA. In the **Extract Interface** dialog box, select the public members that you want to include in the interface declaration. For more information, see [Extract Interface Refactoring &#40;C&#35;&#41;](/visualstudio/csharp-ide/extract-interface-refactoring-csharp).  
+6.  Extract an interface from the class that you are exposing to VBA. In the **Extract Interface** dialog box, select the public members that you want to include in the interface declaration. For more information, see [Extract Interface Refactoring](../ide/reference/extract-interface-csharp.md).
   
 7.  Add the **public** keyword to the interface declaration.  
   

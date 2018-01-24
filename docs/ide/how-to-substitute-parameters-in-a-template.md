@@ -1,49 +1,48 @@
 ---
-title: "How to: Substitute Parameters in a Template | Microsoft Docs"
+title: "Add name parameters to project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
+  - "template parameters"
   - "template parameters, substituting"
   - "Visual Studio templates, using parameters"
-ms.assetid: a62924a7-4ba0-413d-b606-fdbe1fcf2807
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ---
-# How to: Substitute Parameters in a Template
-You may replace template parameters such as class names and namespaces when a file based on a template is created. For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  
-  
-## Procedure  
- You may replace parameters in the files of a template whenever a project based on that template is created. This procedure explains how to create a template that replaces the name of a namespace with the safe project name when a new project is created with the template.  
-  
-#### To use a parameter to replace namespace name with the project name  
-  
-1.  Insert the parameter in one or more of the code files in the template. For example:  
-  
-    ```  
-    namespace $safeprojectname$  
-    ```  
-  
-    > [!NOTE]
-    >  Template parameters are written in the format $*parameter*$.  
-  
-2.  In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.  
-  
-3.  Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element. For example:  
-  
-    ```  
-    <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>  
-    ```  
-  
-## See Also  
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [Template Parameters](../ide/template-parameters.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)
+# How to: Substitute parameters in a template
+
+Template parameters enable you to replace identifiers such as class names and namespaces, when a file is created from a template. You can add template parameters to existing templates, or create your own templates with template parameters.
+
+Template parameters are written in the format $*parameter*$. For a complete list of template parameters, see [Template parameters](../ide/template-parameters.md).
+
+The following section shows you how to modify a template to replace the name of a namespace with the "safe project name".
+
+## To use a parameter to replace the namespace name
+
+1. Insert the parameter in one or more of the code files in the template. For example:
+
+    ```csharp
+    namespace $safeprojectname$
+    ```
+
+1. In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.
+
+1. Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element:
+
+    ```xml
+    <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>
+    ```
+
+## See also
+
+[Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
+[Template Parameters](../ide/template-parameters.md)  
+[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
+[ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)

@@ -18,6 +18,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # WizardData Element (Visual Studio Templates)
 Specifies custom XML  

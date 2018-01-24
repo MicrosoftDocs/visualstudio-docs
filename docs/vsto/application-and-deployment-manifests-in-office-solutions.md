@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "deployment manifests [Office development in Visual Studio]"
   - "application manifests [Office development in Visual Studio]"
   - "assemblies [Office development in Visual Studio], updating"
-ms.assetid: 4e9abc7c-ef9f-4cb2-a7a9-c95c5f4a1fb7
-caps.latest.revision: 45
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Application and Deployment Manifests in Office Solutions
   An application manifest is an XML file that provides information that is used by an Office solution to locate and update its assemblies. An application manifest can be used with a deployment manifest, which is an XML file stored on the server that provides the information needed to locate the most current version of the application manifest and assemblies.  

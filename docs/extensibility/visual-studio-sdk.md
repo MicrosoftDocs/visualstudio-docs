@@ -19,6 +19,8 @@ caps.latest.revision: 56
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio SDK
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:  
@@ -43,7 +45,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
 ## What's New in the Visual Studio 2017 SDK  
- The Visual Studio SDK has some new features such as support for Lightweight Solution Load and the VSIX v3 format as well as breaking changes which may require you to update your extension. For more information, see [What's New in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).  
+ The Visual Studio SDK has some new features such as the VSIX v3 format as well as breaking changes which may require you to update your extension. For more information, see [What's New in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).  
   
 ## Visual Studio User Experience Guidelines  
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  

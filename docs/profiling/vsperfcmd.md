@@ -19,6 +19,8 @@ caps.latest.revision: 49
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSPerfCmd
 The **VSPerfCmd.exe** tool is used to start and stop performance data collection. It uses the following syntax:  

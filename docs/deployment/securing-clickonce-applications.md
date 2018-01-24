@@ -21,6 +21,8 @@ caps.latest.revision: 45
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Securing ClickOnce Applications
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.  

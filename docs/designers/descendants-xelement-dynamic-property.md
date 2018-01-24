@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Descendants (XElement Dynamic Property)
 Gets an indexer used to retrieve all the descendant elements of the current element that match the specified expanded name.  

@@ -21,6 +21,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Property Pages, JavaScript
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  
@@ -63,11 +65,11 @@ The following pages and options appear in the **Property Pages**.
  **Debugger to Launch**  
  Specifies the default host for the debugger.  
 
--   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](http://go.microsoft.com/fwlink/?LinkId=234912).  
+-   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/run-windows-store-apps-on-the-local-machine.md).  
 
--   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](http://go.microsoft.com/fwlink/?LinkId=234913).  
+-   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).  
 
--   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](http://go.microsoft.com/fwlink/?LinkId=234914).  
+-   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md).  
 
 **Launch Application**  
 Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.  

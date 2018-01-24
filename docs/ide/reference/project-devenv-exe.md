@@ -21,6 +21,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Project (devenv.exe)
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.  

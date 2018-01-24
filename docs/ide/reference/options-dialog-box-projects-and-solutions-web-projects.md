@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
 

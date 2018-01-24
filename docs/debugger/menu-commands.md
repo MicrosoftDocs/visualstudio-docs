@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Menu Commands
 The Help topics in this section list the commands available on the Spy++ menus.  

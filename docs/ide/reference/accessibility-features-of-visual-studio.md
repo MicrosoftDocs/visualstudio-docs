@@ -15,6 +15,8 @@ ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Accessibility Features of Visual Studio
 > [!TIP]

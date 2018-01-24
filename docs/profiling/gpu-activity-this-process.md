@@ -16,6 +16,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GPU Activity (This Process)
 The **GPU Activity (This Process)** segments in the Threads view in the Concurrency Visualizer represent times when the GPU was processing requests on behalf of the current process. These requests are sent to the GPU as direct memory access (DMA) packets. The length of a segment represents the time that the GPU was processing a DMA packet on behalf of the current process.  

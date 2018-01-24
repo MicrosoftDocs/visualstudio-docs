@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Element (Visual Studio Templates)
 Specifies the files or directories to add to the project.  

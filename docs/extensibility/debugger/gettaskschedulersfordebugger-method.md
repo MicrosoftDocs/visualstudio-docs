@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # GetTaskSchedulersForDebugger Method
 Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.  

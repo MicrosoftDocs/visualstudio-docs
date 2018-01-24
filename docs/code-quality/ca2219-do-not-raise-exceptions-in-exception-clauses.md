@@ -19,6 +19,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2219: Do not raise exceptions in exception clauses
 |||  

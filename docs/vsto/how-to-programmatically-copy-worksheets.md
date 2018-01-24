@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "worksheets, copying"
   - "Excel [Office development in Visual Studio], copying worksheets"
-ms.assetid: e49e03f5-7b2f-416b-b5fe-0965336c47e1
-caps.latest.revision: 31
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Copy Worksheets
   You can create a copy of a worksheet, and insert that worksheet before or after an existing worksheet in the workbook. If you do not specify where to insert the worksheet, Excel creates a new workbook to contain the new worksheet.  

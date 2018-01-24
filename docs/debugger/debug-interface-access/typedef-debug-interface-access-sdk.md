@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Typedef (Debug Interface Access SDK)
 Symbols with `SymTagTypedef` tags introduce names for other types.  

@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # AddMessage
 Adds a custom message to the graphics diagnostics *HUD* (Head-Up Display).  

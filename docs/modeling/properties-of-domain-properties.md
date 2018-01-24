@@ -8,11 +8,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, domain properties"
-ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Properties of Domain Properties
 A *domain property* is a feature of a model element that can hold a value. For example, the `Person` domain class could have properties `Name` and `BirthDate`. In the DSL Definition, domain properties are listed in the domain class box on the diagram and under the domain class in DSL Explorer. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  

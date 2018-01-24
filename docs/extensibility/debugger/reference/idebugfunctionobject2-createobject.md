@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject2::CreateObject
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  

@@ -15,6 +15,8 @@ caps.latest.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Advanced Concepts
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.  

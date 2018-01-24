@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::CauseBreak
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.  

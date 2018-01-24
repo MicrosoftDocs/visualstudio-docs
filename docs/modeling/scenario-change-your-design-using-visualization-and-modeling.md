@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "walkthrough [Visual Studio ALM], visualizing code"
   - "walkthrough [Visual Studio ALM], modeling software"
   - "walkthroughs [Visual Studio ALM], modeling software"
-ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
-caps.latest.revision: 61
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Scenario: Change your design using visualization and modeling
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio.
@@ -249,7 +249,7 @@ Items on dependency diagrams are located in the modeling project, but they are n
   
 -   [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
--   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [Build and release](/vsts/build-release/index)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  

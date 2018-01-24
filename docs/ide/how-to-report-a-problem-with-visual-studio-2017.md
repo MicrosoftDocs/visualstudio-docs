@@ -1,7 +1,7 @@
 ---
 title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/03/2017"
+ms.date: "11/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,11 +11,13 @@ author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
 ms.technology: "vs-acquisition"
+ms.workload: 
+  - "multiple"
 ---
 # How to report a problem with Visual Studio 2017
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem so that we can diagnose and fix it.  
 
-# Sign in to Visual Studio
+## Sign in to Visual Studio
 If you haven't already done so, sign in to Visual Studio before you report a problem. That way, you can report a problem that you're experiencing, and also vote or comment on it. You can even vote or comment on any other problem that you see posted, too.
 
 1.	Click **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
@@ -46,7 +48,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 ## Provide a trace and heap dump (optional)  
 ###  <a name="provide_a_trace_and_heap_dump"></a>  
 
-Trace and heap dump files are very useful in helping us diagnose problems.  We appreciate it very much when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
+Trace and heap dump files are useful in helping us diagnose problems. We appreciate it when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft.  Here's how to do so.
 
 1.  Click the **Record** tab.
 2.  Click **Start Recording**. Give permission to run the tool.
@@ -60,6 +62,12 @@ Trace and heap dump files are very useful in helping us diagnose problems.  We a
 ## Submit the report  
 ###  <a name="submit_the_report"></a>  
  Click the **Submit** button to send your report, along with any images and trace or dump files. (If the **Submit** button is grayed out, make sure that you have provided a title and description for the report.)  
+
+## Alternate reporting
+###  <a name="alternate_reporting"></a>  
+ If you cannot complete the Visual Studio installation, or you cannot access the feedback tool within Visual Studio, the feedback tool is also available from the Visual Studio Installer. Click the feedback icon in the upper-right corner of the Visual Studio Installer and then follow the steps outlined in this article.
+
+ ![You can tab to the Provide Feedback button in the Visual Studio Installer to open the feedback tool](../install/media/report-a-problem.png)
 
 ## See Also  
  [Talk to Us](../ide/talk-to-us.md)

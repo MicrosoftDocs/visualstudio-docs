@@ -1,7 +1,7 @@
 ---
-title: "Remote Workspaces with R Tools for Visual Studio | Microsoft Docs"
+title: "Remote workspaces with R Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 06/30/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,23 +9,24 @@ ms.technology:
 ms.devlang: r
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5778c9cf-564d-47b0-8d64-e5dc09162479
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Setting up remote workspaces
 
-This topic explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server. 
+This topic explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
 
 - [Remote computer requirements](#remote-computer-requirements)
 - [Install an SSL certificate](#install-an-ssl-certificate)
 - [Install an SSL certificate on Windows](#install-an-ssl-certificate-on-windows)
 - [Install an SSL certificate on Ubuntu](#install-an-ssl-certificate-on-ubuntu)
 - [Install R services on Windows](#install-r-services-on-windows)
-- [Install R services on Ubuntu](#install-r-services-on-ubuntu)
+- [Install R services on Linux](#install-r-services-on-Linux)
 - [Configure R services](#configure-r-services)
 - [Troubleshooting](#troubleshooting)
 
@@ -47,9 +48,10 @@ The key field that needs to be in the certificate is the fully-qualified domain 
 For more background, see [public key certificates](https://en.wikipedia.org/wiki/Public_key_certificate) on Wikipedia.
 
 ## Install an SSL certificate on Windows
+
 The SSL certificate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
 
-### Obtaining a self-signed certificate
+### Obtaining a self-signed certificate (Windows)
 
 Skip this section if you have a trusted certificate. Compared with a certificate from a trusted authority, a self-signed certificate is like creating an identification card for yourself. This process is, of course, much simpler than working with a trusted authority, but also lacks strong authentication, meaning that an attacker can substitute their own certificate for the unsigned certificate and capture all of the traffic between the client and the server. Therefore, *self-signed certificate should be used only for testing scenarios, on a trusted network, and never in production.*
 
@@ -80,7 +82,6 @@ To install the certificate on the remote computer, run `certlm.msc` (the certifi
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
-
 ### Granting permissions to read the SSL certificate's private key
 
 Once the certificate is imported, grant the `NETWORK SERVICE` account permissions to read the private key as described in the following instructions. `NETWORK_SERVICE` is the account used to run the R Services broker, which is the service that terminates incoming SSL connections to the server computer.
@@ -95,23 +96,25 @@ Once the certificate is imported, grant the `NETWORK SERVICE` account permission
 1. Select **OK** twice to dismiss the dialogs and commit your changes.
 
 ## Install an SSL certificate on Ubuntu
+
 The `rtvs-daemon` package will install a self-signed certificate by default as a part of the installation.
 
-### Obtaining a self-signed certificate
+### Obtaining a self-signed certificate (Ubuntu)
 
 For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
 To issue a self signed certificate yourself:
+
 1. SSH or login to your linux machine.
-2. Install `ssl-cert` package:
+1. Install `ssl-cert` package:
     ```sh
     sudo apt-get install ssl-cert
     ```
-3. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
+1. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
-4. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
+1. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
@@ -120,21 +123,21 @@ To issue a self signed certificate yourself:
 
 The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.config.json`. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
 
-    ```json
-    {
-      "logging": { "logFolder": "/tmp" },
-      "security": {
-        "allowedGroup": "",
-        "X509CertificateFile": "/etc/rtvs/ssl-cert-snakeoil.pfx",
-        "X509CertificatePassword": "SnakeOil"
-      },
-      "startup": { "name": "rtvsd" },
-      "urls": "https://0.0.0.0:5444"
-    }
-    ```
+```json
+{
+  "logging": { "logFolder": "/tmp" },
+  "security": {
+    "allowedGroup": "",
+    "X509CertificateFile": "/etc/rtvs/ssl-cert-snakeoil.pfx",
+    "X509CertificatePassword": "SnakeOil"
+  },
+  "startup": { "name": "rtvsd" },
+  "urls": "https://0.0.0.0:5444"
+}
+```
 
 Save the file and restart the daemon, `sudo systemctl restart rtvsd`.
-    
+
 ## Install R services on Windows
 
 To run R code, the remote computer must have an R interpreter installed as follows:
@@ -158,9 +161,9 @@ R services start automatically when the computer reboots:
 - **R Host Broker Service** handles all HTTPS traffic between Visual Studio and process where the R code runs on the computer.
 - **R User Profile Service** is a privileged component that handles Windows user profile creation. The service is called when a new user first logs on to the R server computer.
 
-You can see these services in the services management console (`compmgmt.msc`).  
+You can see these services in the services management console (`compmgmt.msc`).
 
-## Install R Services on Ubuntu
+## Install R Services on Linux
 
 To run R code, the remote computer must have an R interpreter installed as follows:
 
@@ -171,29 +174,18 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Download, extract and run the install script [RTVS daemon package](https://aka.ms/r-remote-services-linux-binary-current). This should install the required packages, their dependencies, and the RTVS daemon:
-
-    - Download: `wget -O rtvs-daemon.tar.gz https://aka.ms/rtvs-daemon-current`
-    - Extract: `tar -xvzf rtvs-daemon.tar.gz`
-    - Run Installer: `sudo ./rtvs-install` . Dotnet package installation requires us to add a new trusted signing key. To install silently or for automation use this command `sudo ./rtvs-install -s`.
-    
-
-1. Enable and start the daemon:
-
-    - Enable: `sudo systemctl enable rtvsd`
-    - Start daemon: `sudo systemctl start rtvsd`
-
-1. Check if the daemon is running, run this command `ps -A -f | grep rtvsd`. You should see a process running as `rtvssvc` user. You should now be able to connect to this from R Tools for visual Studio, suing the url to this linux machine.
-
-To configure `rtvs-daemon`, see `man rtvsd`.
+1. Follow the instructions on [Remote R Service for Linux](workspaces-remote-r-service-for-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
 
 ## Configure R services
 
 With R services running on the remote computer, you also need to create user accounts, set firewall rules, configure Azure networking, and configure the SSL certificate.
 
 1. User accounts: Create accounts for each user that accesses the remote computer. You can create either standard (non-privileged) local user accounts, or you can join your R server computer to your domain and add the appropriate security groups to the `Users` security group.
+
 1. Firewall rules: By default, the `R Host Broker` listens on TCP port 5444. Therefore, ensure that there are Windows firewall rules enabled for both inbound and outbound traffic (outbound is needed for installing packages and similar scenarios).  The R services installer sets these rules automatically for the built-in Windows firewall. If you're using a third-party firewall, however, open port 5444 for `R Host Broker` manually.
+
 1. Azure configuration: If your remote computer is a virtual machine on Azure, open port 5444 for incoming traffic within Azure networking as well, which is independent of the Windows firewall. For details, see [Filter network traffic with network security group](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg) in the Azure documentation.
+
 1. Tell the R Host Broker which SSL certificate to load: If you're installing the certificate on an Intranet server, it is likely that the fully-qualified domain name of your server is the same as its NETBIOS name. In this case, there is nothing that you need to do, as this is the default certificate that is loaded.
 
     However, if you are installing your certificate on an Internet-facing server (such as an Azure VM), use the fully-qualified domain name (FQDN) of your server because the FQDN of an Internet-facing server is never the same as its NETBIOS name.
@@ -221,18 +213,19 @@ Try to ping the remote computer from the command line: `ping remote-machine-name
 
 There are three possible reasons:
 
--   [.NET Framework 4.6.1](https://www.microsoft.com/download/details.aspx?id=49981) or greater is not installed on the computer.
--   Firewall rules for `Microsoft.R.Host.Broker` and `Microsoft.R.Host` aren't enabled for both incoming and outgoing connections on port 5444.
--   An SSL certificate with `CN=<remote-machine-name>` was not installed.
+- [.NET Framework 4.6.1](https://www.microsoft.com/download/details.aspx?id=49981) or greater is not installed on the computer.
+- Firewall rules for `Microsoft.R.Host.Broker` and `Microsoft.R.Host` aren't enabled for both incoming and outgoing connections on port 5444.
+- An SSL certificate with `CN=<remote-machine-name>` was not installed.
 
-Restart the computer after making any of the above changes. Then make sure that `RHostBrokerService` and `RUserPofileService` are running through either Task Manager (services tab) or `services.msc`.
+Restart the computer after making any of the above changes. Then make sure that `RHostBrokerService` and `RUserProfileService` are running through either Task Manager (services tab) or `services.msc`.
 
 **Q. Why does the R interactive window say "401 Access denied" while connecting to the R server?**
 
 There are two possible reasons:
 
 - It is highly likely that the `NETWORK SERVICE` account does not have access to the private key of the SSL certificate. Follow the earlier instructions to grant the `NETWORK SERVICE` access to the private key.
-- Make sure that `seclogon` service is running. Use `services.msc` to configure `seclogon` to start automatically.                                                         
+- Make sure that `seclogon` service is running. Use `services.msc` to configure `seclogon` to start automatically.
+
 **Q. Why does the R interactive window say "404 Not found" while connecting to the R server?**
 
 This error is probably due to missing Visual C++ redistributable libraries. Check the R interactive window to see if there is a message regarding missing library(DLL). Then check that the VS 2015 redistributable is installed, and that you have R installed as well.

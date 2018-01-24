@@ -29,6 +29,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvEnterSpan Function
 Marks the beginning of a new span.  

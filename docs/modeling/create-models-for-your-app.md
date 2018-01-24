@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "diagrams - modeling, layer"
   - "software, designing"
   - "software, modeling"
-ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
-caps.latest.revision: 58
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create models for your app
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.

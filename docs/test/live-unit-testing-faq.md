@@ -2,16 +2,16 @@
 title: "Live Unit Testing FAQ | Microsoft Docs"
 ms.date: "2017-10-03"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing FAQ"
-ms.assetid: 61baf3bb-646f-4c5a-b7c0-a6bdff68f21c
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # Live Unit Testing Frequently Asked Questions
 
@@ -222,7 +222,9 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn't work well with the Lightweight Solution load feature. It works only after at least one of the test projects is loaded. Until then it won't work because currently Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
+Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
+
+Note: Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
  
 ## Why does Live Unit Testing does not capture coverage from a new process created by a test?
  

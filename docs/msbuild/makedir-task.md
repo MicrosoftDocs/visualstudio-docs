@@ -23,6 +23,8 @@ caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MakeDir Task
 Creates directories and, if necessary, any parent directories.  
