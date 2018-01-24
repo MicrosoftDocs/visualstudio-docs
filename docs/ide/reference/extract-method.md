@@ -36,9 +36,13 @@ This refactoring applies to:
 
 1. Highlight the code to be extracted:
 
-   C#: ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
+    ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -54,11 +58,13 @@ This refactoring applies to:
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
-   C#:
-   ![Rename method - C#](media/extractmethod-rename-cs.png)
+   - C#:
+   
+    ![Rename method - C#](media/extractmethod-rename-cs.png)
 
-   Visual Basic:
-   ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
+   - Visual Basic:
+   
+    ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
 
 1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 

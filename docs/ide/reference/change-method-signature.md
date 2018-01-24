@@ -37,9 +37,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the name of the method to modify, or one of its usages:
 
-   C#: ![Highlighted code C#](media/changesignature-highlight-cs.png)
+   - C#:
 
-   VB: ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
+    ![Highlighted code C#](media/changesignature-highlight-cs.png)
+
+   - VB:
+
+    ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -65,9 +69,13 @@ This refactoring applies to:
 
 1. When you are finished, press the **OK** button to make the changes.
 
-   C#: ![Change Signature result - C#](media/changesignature-result-cs.png)
+   - C#:
 
-   Visual Basic: ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
+    ![Change Signature result - C#](media/changesignature-result-cs.png)
+
+   - Visual Basic:
+
+    ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
 
 ## See also
 

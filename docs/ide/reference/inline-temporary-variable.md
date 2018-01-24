@@ -34,9 +34,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the temporary variable to be inlined:
 
-   C#: ![Highlighted code - C#](media/inline-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
+    ![Highlighted code - C#](media/inline-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -48,9 +52,13 @@ This refactoring applies to:
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
-   C#: ![Inline result - C#](media/inline-result-cs.png)
+   - C#:
 
-   Visual Basic: ![Inline result - Visual Basic](media/inline-result-vb.png)
+    ![Inline result - C#](media/inline-result-cs.png)
+
+   - Visual Basic:
+
+    ![Inline result - Visual Basic](media/inline-result-vb.png)
 
 ## See also
 

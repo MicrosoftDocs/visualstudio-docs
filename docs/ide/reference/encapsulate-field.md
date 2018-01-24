@@ -36,9 +36,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the name of the field to encapsulate:
 
-   C#: ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
+    ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -58,9 +62,13 @@ This refactoring applies to:
    > [!TIP]
    > Use the **Preview changes** link in the popup window [to see what the result will be](../../ide/preview-changes.md) before committing to it.
 
-   C#: ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
+   - C#:
 
-   Visual Basic: ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
+    ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
+
+   - Visual Basic:
+
+    ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
 
 ## See also
 

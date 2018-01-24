@@ -36,9 +36,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the name of the type to synchronize:
 
-   C#: ![Highlighted code - C#](media/synctype-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
+    ![Highlighted code - C#](media/synctype-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**

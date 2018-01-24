@@ -36,9 +36,13 @@ This refactoring applies to:
 
 1. Highlight the name of the class to perform the action on, or just put the text cursor somewhere in the class name.
 
-   C#: ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
+    ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -62,13 +66,15 @@ This refactoring applies to:
 
    The interface will be immediately created in the file of the name specified. Additionally, the class you selected will now implement that interface.
 
-   C#: 
-   ![Resulting Class - C#](media/extractinterface-class-cs.png)
-   ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
+   - C#:
 
-   Visual Basic: 
-   ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
-   ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
+    ![Resulting Class - C#](media/extractinterface-class-cs.png)
+    ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
+
+   - Visual Basic:
+
+    ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+    ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## See also
 

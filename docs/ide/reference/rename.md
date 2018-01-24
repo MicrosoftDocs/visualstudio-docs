@@ -36,9 +36,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the item to be renamed:
 
-   C#: ![Highlighted code - C#](media/rename-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
+    ![Highlighted code - C#](media/rename-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -49,9 +53,13 @@ This refactoring applies to:
 
 1. Rename the item simply by typing the new name.
 
-   C#: ![Rename animation - C#](media/rename-animated-cs.gif)
+   - C#:
 
-   Visual Basic: ![Rename - VB](media/rename-rename-vb.png)
+    ![Rename animation - C#](media/rename-animated-cs.gif)
+
+   - Visual Basic:
+
+    ![Rename - VB](media/rename-rename-vb.png)
 
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview the changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your editor.

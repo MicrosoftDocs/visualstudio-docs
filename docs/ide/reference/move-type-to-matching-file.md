@@ -34,9 +34,13 @@ This refactoring applies to:
 
 1. Highlight or place the text cursor inside the name of the type to move:
 
-   C#: ![Highlighted code - C#](media/movetype-highlight-cs.png)
+   - C#:
 
-   Visual Basic: ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
+    ![Highlighted code - C#](media/movetype-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -46,9 +50,13 @@ This refactoring applies to:
 
    The type will instantly moved to a new file with that name inside of your solution.
 
-   C#: ![Inline result - C#](media/movetype-result-cs.png)
+   - C#:
 
-   Visual Basic: ![Inline result - Visual Basic](media/movetype-result-vb.png)
+    ![Inline result - C#](media/movetype-result-cs.png)
+
+   - Visual Basic:
+
+    ![Inline result - Visual Basic](media/movetype-result-vb.png)
 
 ## See also
 
