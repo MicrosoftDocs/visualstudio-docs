@@ -1,5 +1,5 @@
 ---
-title: "Refactor a method signature in C# | Microsoft Docs"
+title: "Refactor a method signature in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -18,11 +18,17 @@ dev_langs:
 ms.workload: 
   - "dotnet"
 ---
-# Change a method signature in C# #
+# Change a method signature #
+
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you remove or change the order of a method's parameters.
 
-**When:** You want to move or remove a method parameter that is currently being used in a variety of locations.  
+**When:** You want to move or remove a method parameter that is currently being used in a variety of locations.
 
 **Why:** You could manually remove and re-order the parameters, and then find all calls to that method and change them one-by-one, but that could lead to errors.  This refactoring tool will perform the task automatically.
 
@@ -30,7 +36,9 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the method to modify, or one of its usages:
 
-   ![Highlighted code](media/changesignature-highlight-cs.png)
+   C#: ![Highlighted code C#](media/changesignature-highlight-cs.png)
+
+   VB: ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -52,11 +60,13 @@ ms.workload:
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]
-   > Use the [**Preview reference changes**](../../ide/preview-changes.md) checkbox to see what the result will be before committing to it.
+   > Use the **Preview reference changes** checkbox to [see what the result will be](../../ide/preview-changes.md) before committing to it.
 
 1. When you are finished, press the **OK** button to make the changes.
 
-   ![Change Signature result](media/changesignature-result-cs.png)
+   C#: ![Change Signature result](media/changesignature-result-cs.png)
+
+   Visual Basic: ![Change Signature result](media/changesignature-result-vb.png)
 
 ## See also
 
