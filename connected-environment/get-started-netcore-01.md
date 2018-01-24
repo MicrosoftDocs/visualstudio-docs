@@ -31,7 +31,7 @@ Choose the development tool you'd like to use.
 ### VS Code (Mac, Windows, Linux)
 1. If you don't have it, install [VS Code](https://code.visualstudio.com/Download)
 1. Download the [VS Connected Environment extension](https://aka.ms/vsce-code)
-1. Install the extension: 
+1. Download and install the extension: 
 
 ```
 code --install-extension path-to-downloaded-extension/vsce.0.0.1.vsix
@@ -46,7 +46,7 @@ code --install-extension path-to-downloaded-extension/vsce.0.0.1.vsix
 1. Install the [Visual Studio extension for Connected Environment](https://aka.ms/get-vsce-visualstudio)
 
 
-## Proceed based on your Development tool
+## Proceed based on your development tool
 
 > [!div class="nextstepaction"]
 > [I'm using VS Code / CLI](get-started-netcore-02.md)
