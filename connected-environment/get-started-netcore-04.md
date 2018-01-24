@@ -46,3 +46,8 @@ Save the file, and in the **Debug actions pane**, click the **Refresh** button.
 Instead of rebuilding and redeploying a new container image each time code edits are made, which will often take considerable time, Connected Environment will incrementally recompile code within the existing container to provide a faster edit/debug loop.
 
 Refresh the web app in the browser, navigate to the About page - you should see your custom message appear in the UI.
+
+**Now you have a method for rapidly iterating on code and debugging directly in Kubernetes!** Next, we'll see how we can create and call a second container.
+
+> [!div class="nextstepaction"]
+> [Call another container](get-started-netcore-05.md)

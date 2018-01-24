@@ -6,5 +6,6 @@
 ###[2. Create a Dev Environment in Azure](get-started-netcore-02.md)
 ###[3. Create an ASP.NET Web App](get-started-netcore-03.md)
 ###[4. Debug a Container in Kubernetes](get-started-netcore-04.md)
+###[Call another container](get-started-netcore-05.md)
 
 ##[Create a Node.js app](get-started-nodejs-01.md)

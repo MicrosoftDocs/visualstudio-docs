@@ -68,5 +68,5 @@ Updating code files requires a little more work, because a .NET Core app needs t
 
 But there is an even faster method if we use the VS Code extension for Connected Environment, which we'll now explore in the next section. 
 > [!div class="nextstepaction"]
-> [Debugging a container with VS Code](get-started-netcore-04.md)
+> [Debugging a container in Kubernetes](get-started-netcore-04.md)
 
