@@ -10,6 +10,9 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+dev_langs: 
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---

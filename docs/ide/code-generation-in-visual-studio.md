@@ -18,7 +18,7 @@ There are numerous ways to have Visual Studio generate code for you in the edito
 
 You can use [code snippets](../ide/code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
 
-You can use the [Quick Actions and Refactorings](../ide/quick-actions.md) menu to generate code such as classes and properties, or to introduce a local variable.
+You can use the [Quick Actions and Refactorings](../ide/quick-actions.md) menu to generate code such as classes and properties, or to introduce a local variable. You can also use the [Quick Actions and Refactorings](../ide/quick-actions.md) menu to refactor code, such as renaming a variable or reordering parameters.
 
 Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
 
@@ -26,5 +26,5 @@ Because the logic of code generation is closely tied to language syntax, each la
 
 [Code Snippets](../ide/code-snippets.md)  
 [Quick Actions](../ide/quick-actions.md)  
-[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)  
-[Refactoring](../ide/refactoring-in-visual-studio.md)
+[Refactoring](../ide/refactoring-in-visual-studio.md)  
+[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)
