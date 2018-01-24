@@ -1,7 +1,8 @@
 ---
-title: "Workspaces in R Tools for Visual Studio | Microsoft Docs"
+title: Workspaces in R Tools for Visual Studio | Microsoft Docs
+description: How to control where R code runs by using workspaces in Visual Studio.
 ms.custom: ""
-ms.date: 06/30/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -40,7 +41,7 @@ In this topic:
 
 ## Saving and resetting a workspace
 
-By default, RTVS doesn't save workspace state when you close and reopen a project. You can change this behavior, however, through the [Workspace options](options.md#workspace).
+By default, RTVS doesn't save workspace state when you close and reopen a project. You can change this behavior, however, through the [Workspace options](options-for-r-tools-in-visual-studio.md#workspace).
 
 The **R Tools > Session > Reset** command and the reset toolbar button in the interactive window also reset workspace state at any time. With remote workspaces, reset deletes the user profile created when first connecting to the remote server, which effectively deletes any files that have accumulated there.
 
@@ -61,7 +62,7 @@ RTVS might not detect an R interpreter that's installed in a non-standard way (f
 
 ## Remote workspaces
 
-Remote workspaces let you connect to an R session on a remote computer. (See [Setting up remote workspaces](workspaces-remote-setup.md) for how to configure a computer for this purpose.)
+Remote workspaces let you connect to an R session on a remote computer. (See [Setting up remote workspaces](setting-up-remote-r-workspaces.md) for how to configure a computer for this purpose.)
 
 Visual Studio doesn't automatically detect remote workspaces, so you must add them manually using the **Add** button in the Workspaces window as described in the previous section. In this case, enter the remote computer's URI rather than a local path.
 
@@ -90,7 +91,7 @@ RTVS is bound to only a single workspace at a time. The bound workspace is indic
 To change the active workspace, select the blue arrow next to the desired workspace. Doing so prompts you to save your session, terminates the current workspace, then switches to the new one.
 
 > [!Tip]
-> To disable the save prompt, select the **R Tools > Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace options](options.md#workspace).
+> To disable the save prompt, select the **R Tools > Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace options](options-for-r-tools-in-visual-studio.md#workspace).
 
 If you attempt to switch to a local workspace that's been uninstalled, or to a remote workspace that it unavailable, RTVS might not be bound to any workspace. As a result, you might see an error when you enter code in the interactive window or try to run code otherwise:
 
@@ -108,7 +109,7 @@ Depending on the server's configuration, you may see a certificate warning when 
 
 The certificate is a document presented to RTVS by the computer that you're trying to connect to. The certificate contains a field that identifies the URI of that computer. The warning appears when RTVS detects a mismatch between the URI in the certificate and the URI used to connect to the computer, indicating that the server's security may have been compromised.
 
-However, this warning also appears if a *self-signed certificate* was used to enable HTTPS on the remote computer instead of using one from a trusted provider. For more information, see [Setting up remote workspaces](workspaces-remote-setup.md).
+However, this warning also appears if a *self-signed certificate* was used to enable HTTPS on the remote computer instead of using one from a trusted provider. For more information, see [Setting up remote workspaces](setting-up-remote-r-workspaces.md).
 
 ## Directories on local and remote computers
 
@@ -137,7 +138,7 @@ Files are copied to the remote server as follows:
 > [!Note]
 > Because RTVS cannot reliably intercept all R function calls, calling functions such as `source()` or `runApp()` (for Shiny applications) within the interactive window does *not* copy files to the remote workspace.
 
-[Project properties](projects.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project > (name) Properties...** menu command, or right-click the project in Solution Explorer and select **Properties...**.
+[Project properties](r-projects-in-visual-studio.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project > (name) Properties...** menu command, or right-click the project in Solution Explorer and select **Properties...**.
 
 ![Project properties run tab with file transfer settings](media/workspaces-remote-file-transfer-filter-settings.png)
 

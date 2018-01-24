@@ -1,5 +1,6 @@
 ---
-title: "Remote workspaces with R Tools for Visual Studio | Microsoft Docs"
+title: Remote workspaces with R Tools for Visual Studio | Microsoft Docs
+description: How to set up remote R workspaces and connect to it from Visual Studio.
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -19,7 +20,7 @@ ms.workload:
 
 # Setting up remote workspaces
 
-This topic explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
+This article explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
 
 - [Remote computer requirements](#remote-computer-requirements)
 - [Install an SSL certificate](#install-an-ssl-certificate)
@@ -174,7 +175,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Follow the instructions on [Remote R Service for Linux](workspaces-remote-r-service-for-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
+1. Follow the instructions on [Remote R Service for Linux](setting-up-remote-r-service-on-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
 
 ## Configure R services
 

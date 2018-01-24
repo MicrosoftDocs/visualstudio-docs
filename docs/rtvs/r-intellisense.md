@@ -1,7 +1,8 @@
 ---
 title: IntelliSense for R Code in Visual Studio | Microsoft Docs
+description: Visual Studio IntelliSense displays information about functions, object members, code snippets and completions as you type R code.
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +20,7 @@ ms.workload:
 
 # IntelliSense
 
-Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](code-editing.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl.md).
+Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets-for-r.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](editing-r-code-in-visual-studio.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl-for-r-in-visual-studio.md).
 
 ![IntelliSense showing a function signature](media/intellisense-function-signature.png)
 

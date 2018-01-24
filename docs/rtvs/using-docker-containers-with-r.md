@@ -1,5 +1,6 @@
 ---
 title: R Tools for Visual Studio and Docker Containers | Microsoft Docs
+description: How to set up Docker containers for R and connect to them with Visual Studio.
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -25,10 +26,6 @@ ms.workload:
 
 The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of [Docker for Windows](https://www.docker.com/docker-windows), supports working with Docker containers.
 
-- [Creating a container](#creating-a-container)
-- [Connecting to a container](#connecting-to-a-container)
-- [Using custom-built images](#using-custom-built-images)
-
 ## Creating a container
 
 1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window (**R Tools > Windows > Workspaces**). The window informs you if you don't have Docker for Windows installed and provides a link for the download. Installing Docker may require a computer restart.
@@ -49,11 +46,11 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 
 ## Connecting to a container
 
-1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](workspaces-remote-r-service-for-linux.md) for details on how the daemon is configured.)
+1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](setting-up-remote-r-service-on-linux.md) for details on how the daemon is configured.)
 
     ![Workspaces window showing available containers](media/workspaces-window-running-containers.png)
 
-1. To connect to a container, double-click the container name or select the forward arrow button to its right. When connected, you see an **R Interactive** window (see [Working with the R Interactive window](interactive-repl.md)):
+1. To connect to a container, double-click the container name or select the forward arrow button to its right. When connected, you see an **R Interactive** window (see [Working with the R Interactive window](interactive-repl-for-r-in-visual-studio.md)):
 
     ![Workspaces window and REPL window opened for a container](media/workspaces-window-container-connected.png)
 

@@ -1,7 +1,8 @@
 ---
-title: "Installing the R Tools for Visual Studio | Microsoft Docs"
+title: Installing the R Tools for Visual Studio | Microsoft Docs
+description: How to install the R Tools for Visual Studio in Visual Studio 2017 and Visual Studio 2015, including offline installations.
 ms.custom: ""
-ms.date: 10/20/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +20,7 @@ ms.workload:
 
 # How to install R Tools for Visual Studio
 
-In this topic:
+In this article:
 
 - [Supported versions of Visual Studio](#supported-versions-of-visual-studio)
 - [Installing RTVS in Visual Studio 2017](#installing-rtvs-in-visual-studio-2017)
@@ -27,7 +28,7 @@ In this topic:
 - [Offline installation](#offline-installation-of-visual-studio-and-rtvs)
 
 > [!Note]
-> After installing R Tools, you may want to configure Visual Studio for an optimized data scientist layout, as described on the [Options](options.md) topic.
+> After installing R Tools, you may want to configure Visual Studio for an optimized data scientist layout, as described on the [Options](options-for-r-tools-in-visual-studio.md) article.
 
 ## Supported versions of Visual Studio
 
@@ -90,5 +91,5 @@ Offline installation is suitable for computers that are not connected to the Int
 - [Getting started with R](getting-started-with-r.md)
 - [R Tools sample projects](getting-started-samples.md)
 - [Getting help](getting-started-help.md)
-- [Option settings](options.md)
+- [Option settings](options-for-r-tools-in-visual-studio.md)
 - [Microsoft Machine Learning Server (formerly R Server)](/machine-learning-server/)

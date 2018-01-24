@@ -1,7 +1,8 @@
 ---
 title: Debugging with the R Tools for Visual Studio | Microsoft Docs
+description: Visual Studio provides a full debugging experience for R including breakpoints, attach, call stack, and inspecting variables.
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +20,7 @@ ms.workload:
 
 # Debugging R in Visual Studio
 
-R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This topic, then, explores those aspects of debugging that are unique to R and RTVS.
+R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This article, then, explores those aspects of debugging that are unique to R and RTVS.
 
 Starting the debugger for the startup R file in an R project is the same as for other project types: use **Debug > Start Debugging**, the F5 key, or the **Source startup file** on the debug toolbar: 
 
@@ -49,10 +50,9 @@ add <- function(x, y) {
 
 Then you set a breakpoint on the `return` statement. Now, in the interactive window, entering `add(4,5)` stops the debugger on your breakpoint.
 
-
 ## Environment browser in the interactive window
 
-When you're stopped in the debugger, you're also stopped at the Environment Browser prompt in the [interactive window](interactive-repl.md). The prompt appears as `Browse[n]>` where n is a number.
+When you're stopped in the debugger, you're also stopped at the Environment Browser prompt in the [interactive window](interactive-repl-for-r-in-visual-studio.md). The prompt appears as `Browse[n]>` where n is a number.
 
 The Environment Browser supports a number of special commands:
 

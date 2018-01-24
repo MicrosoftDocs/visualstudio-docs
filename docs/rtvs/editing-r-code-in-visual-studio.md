@@ -1,7 +1,8 @@
 ---
 title: Editing code with the R Tools for Visual Studio | Microsoft Docs
+description: Visual Studio provides a tailored editing experience for R while retaining all the features and the ability to use extensions.
 ms.custom: ""
-ms.date: 12/04/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,19 +20,9 @@ ms.workload:
 
 # Editing R code in Visual Studio
 
-R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R. while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
+R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
 
-In this topic:
-
-- [Syntax highlighting](#syntax-highlighting)
-- [Editing and organizing code](#editing-and-organizing-code)
-- [Code navigation](#code-navigation)
-- [Sending code to the interactive window](#sending-code-to-the-interactive-window)
-- [Formatting code](#formatting-code)
-- [Inserting Roxygen comments](#inserting-roxygen-comments)
-- [Editor options](#editor-options)
-
-Also see the topics on [IntelliSense](code-intellisense.md), [linting](code-linting.md), [code snippets](code-snippets.md), and [R Markdown](rmarkdown.md).
+In addition to the features in this article, also see [IntelliSense](r-intellisense.md), [linting](linting-r-code.md), [code snippets](code-snippets-for-r.md), and [R Markdown](rmarkdown-with-r-in-visual-studio.md).
 
 ## Syntax highlighting
 
@@ -51,7 +42,7 @@ To change this behavior, see the **Advanced > Syntax check** setting under [edit
 
 ## Editing and organizing code
 
-As you type code, RTVS provides auto-completion as described on the [IntelliSense](code-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
+As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
 
 ![Animation of inline formatting](media/editing-inline-formatting.gif)
 
@@ -83,7 +74,7 @@ This command opens a new editor window containing the source code for the functi
 
 ## Sending code to the interactive window
 
-Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). Pressing Ctrl+Enter in the R editor sends the current line of code to the interactive window, then places the cursor on the next line. With Ctrl+Enter, then, you can effectively step through your code from the editor.
+Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl-for-r-in-visual-studio.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). Pressing Ctrl+Enter in the R editor sends the current line of code to the interactive window, then places the cursor on the next line. With Ctrl+Enter, then, you can effectively step through your code from the editor.
 
 You can also select code and press Ctrl+Enter to apply that entire selection. Alternately, right-click the selection and select **Execute in Interactive**.
 
@@ -117,7 +108,7 @@ RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments 
 
 Editor-specific options are set through the **Tools > Options** command, navigating to **Text Editor > R**, or use the shortcut command **R Tools > Editor Options...**.
 
-Options on the **General**, **Scroll bars**, and **Tabs** tabs are not specific to R, but are rather general Visual Studio settings available for all languages but applied on a per-language basis. For details, see the following topics:
+Options on the **General**, **Scroll bars**, and **Tabs** tabs are not specific to R, but are rather general Visual Studio settings available for all languages but applied on a per-language basis. For details, see the following articles:
 
 - [Options, Text Editor, All Languages](../ide/reference/options-text-editor-all-languages.md)
 - [Track you code by customizing the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)

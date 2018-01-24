@@ -1,7 +1,8 @@
 ---
-title: "Package manager in the R Tools for Visual Studio | Microsoft Docs"
+title: Package manager in the R Tools for Visual Studio | Microsoft Docs
+description: How to use the R package manager in Visual Studio to install and manager R packages.
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

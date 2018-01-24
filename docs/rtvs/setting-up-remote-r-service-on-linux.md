@@ -1,5 +1,6 @@
 ---
 title: Setting up Remote R Service on Linux | Microsoft Docs
+description: How to set up Remote R Service on Ubuntu and the Windows Subsystem for Linux.
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -23,7 +24,7 @@ ms.workload:
 
 # Remote R Service for Linux
 
-Remote R Service for Linux is currently packaged as rtvs-daemon. The daemon is supported and tested on Ubuntu 16.04, 16.10 LTS desktop, server, and Windows Subsystem for Linux running Ubuntu. The bulk of this topic provides instructions for setting up Remote R Service on these different systems.
+Remote R Service for Linux is currently packaged as rtvs-daemon. The daemon is supported and tested on Ubuntu 16.04, 16.10 LTS desktop, server, and Windows Subsystem for Linux running Ubuntu. The bulk of this article provides instructions for setting up Remote R Service on these different systems.
 
 Once you've configured the remote machine, the following steps connect the R Tools for Visual Studio (RTVS) to that service:
 

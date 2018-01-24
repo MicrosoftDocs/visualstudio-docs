@@ -1,5 +1,6 @@
 ---
-title: "R Tools options in Visual Studio | Microsoft Docs"
+title: R Tools options in Visual Studio | Microsoft Docs
+description: Reference for the options in Visual Studio for the R language and associated features.
 ms.custom: ""
 ms.date: 12/04/2017
 ms.reviewer: ""
@@ -30,10 +31,10 @@ Settings are accessed through the **R Tools > Options** menu, or through **Tools
 
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
-- Code formatting options (see [Editor options](code-editing.md#editor-options): **Tools > Options** menu, then select **Text Editor > R > Formatting**
-- Linting options (see [Linting](code-linting.md)): **Tools > Options** menu, then select **Text Editor > R > Lint**
-- Advanced editor options ([described in this topic](#text-editor-r--advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
-- Behavioral options ([described in this topic](#r-tools--advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
+- Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools > Options** menu, then select **Text Editor > R > Formatting**
+- Linting options (see [Linting](linting-r-code.md)): **Tools > Options** menu, then select **Text Editor > R > Lint**
+- Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
+- Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
 
 The **R Tools > Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
 
@@ -41,7 +42,7 @@ The **R Tools > Data Science Settings** command affects also a number of differe
 
 ## R Tools > Data Science Settings
 
-The **R Tools > Data Science Settings** menu item configures the Visual Studio IDE with a layout that's optimized for the needs of data scientists. Specifically, this option opens the [Interactive](interactive-repl.md), [Variable Explorer](variable-explorer.md), and [Workspaces](workspaces.md) windows:
+The **R Tools > Data Science Settings** menu item configures the Visual Studio IDE with a layout that's optimized for the needs of data scientists. Specifically, this option opens the [Interactive](interactive-repl-for-r-in-visual-studio.md), [Variable Explorer](variable-explorer.md), and [Workspaces](r-workspaces-in-visual-studio.md) windows:
 
 ![Data scientist window layout in Visual Studio](media/installation-data-scientist-layout-result.png)
 
@@ -67,7 +68,7 @@ The following sections describe the different options available on this page.
 
 ### Debugging
 
-These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debugging](debugging.md)).
+These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debugging](debugging-r-in-visual-studio.md)).
 
 | Option | Default value | Description |
 | --- | --- | --- |
@@ -128,5 +129,5 @@ These options control how values are handled in [Variable Explorer](variable-exp
 | Load workspace when project opens | `No` | Setting to `Yes` enables loading of session data from the `.RData` file into the global environment when the project is opened. |
 | Prompt to save workspace on reset | `Yes` | Setting to `No` disables prompting of saving your workspace when you click on the Reset button in the Interactive Window. |
 | Save workspace when project closes | `No` | Setting to `Yes` enables saving the global environment to the `.RData` file when the project is closed. |
-| Show confirmation dialog before switching workspaces | `Yes` | Setting to `No` disables prompting the user for confirmation when switching between different workspaces. See [switching between workspaces](workspaces.md#switching-between-workspaces) |
+| Show confirmation dialog before switching workspaces | `Yes` | Setting to `No` disables prompting the user for confirmation when switching between different workspaces. See [switching between workspaces](r-workspaces-in-visual-studio.md#switching-between-workspaces) |
 | Show machine load indicator | `False` | Controls visibility of the CPU/Memory/Network load indicator in the status bar. Because the indicator incurs network traffic, it's helpful to keep this `False` in remote metered scenarios. Changing this option requires that you restart Visual Studio. |

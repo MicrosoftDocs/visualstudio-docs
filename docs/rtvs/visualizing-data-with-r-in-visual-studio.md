@@ -1,5 +1,6 @@
 ---
 title: Visualizing data with the R Tools for Visual Studio | Microsoft Docs
+description: How to plot data from R programs in Visual Studio, using plot windows.
 ms.custom: ""
 ms.date: 06/29/2017
 ms.reviewer: ""
@@ -22,13 +23,6 @@ ms.workload:
 Plotting is a key part of a data scientist's workflow. In R Tools for Visual Studio (RTVS), all plotting activity centers around one or more plot windows, which are designed to improve your productivity with this key activity.
 
 ![Plotting Hero Image](media/plotting-hero-image.png)
-
-In this topic:
-
-- [The plot window](#the-plot-window)
-- [Multiple plot windows](#multiple-plot-windows)
-- [Plot history](#plot-history)
-- [Programmatically manipulating plot windows](#programmatically-manipulating-plot-windows)
 
 The following video (2m 02s) provides a brief tour of plotting in RTVS:
 

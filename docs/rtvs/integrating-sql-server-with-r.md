@@ -1,7 +1,8 @@
 ---
-title: "Integrating SQL Server with R Tools for Visual Studio | Microsoft Docs"
+title: Integrating SQL Server with R Tools for Visual Studio | Microsoft Docs
+description: Visual Studio supports creating and running SQL queries from R and the ability for R to work with stored procedures.
 ms.custom: ""
-ms.date: 06/30/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,7 +20,7 @@ ms.workload:
 
 # Working with SQL Server and R
 
-Visual Studio's excellent support for SQL Server helps data scientists work with R and SQL databases through the ability to create and run  SQL queries and to work with stored procedures.
+Visual Studio's excellent support for SQL Server helps data scientists work with R and SQL databases through the ability to create and run SQL queries and to work with stored procedures.
 
 > [!Note]
 > To work with SQL and R together, you must have the SQL Server Data Tools installed:
@@ -111,7 +112,7 @@ Once you're happy with your SQL code, integrate it with your R code in `StoredPr
 
 As you can see, this simple step automatically generates R code to open the `.sql` file, read its content into a string, and pass it to the RODBC package to send it to SQL Server.
 
-You can now interactively write R code that manipulates the `InputDataSet` dataframe as desired. Remember that you can just select R code in the editor and send it to the [interactive window](interactive-repl.md) by pressing Ctrl+Enter.
+You can now interactively write R code that manipulates the `InputDataSet` dataframe as desired. Remember that you can just select R code in the editor and send it to the [interactive window](interactive-repl-for-r-in-visual-studio.md) by pressing Ctrl+Enter.
 
 `StoredProcedure.Template.sql`, finally, contains the template for generating your SQL Stored Procedure:
 

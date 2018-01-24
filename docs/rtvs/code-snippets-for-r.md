@@ -1,7 +1,8 @@
 ---
 title: Code snippets with R Tools for Visual Studio | Microsoft Docs
+description: Code snippets for R in Visual Studio provide shortcuts to quickly insert code blocks of arbitrary length, helping you avoid retyping similar code over and over.
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
