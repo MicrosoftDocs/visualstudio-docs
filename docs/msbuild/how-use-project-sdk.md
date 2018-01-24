@@ -9,10 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "MSBuild, SDKs"
-  - "MSBuild, overriding DependsOn properties"
-  - "MSBuild, extending Visual Studio builds"
-  - "MSBuild, DependsOn properties"
+  - "MSBuild, SDKs, SDK"
 ms.assetid: b293fd37-59d7-4488-8027-edcad6b32965
 caps.latest.revision: 8
 author: "jeffkl"
@@ -22,7 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Use MSBuild Project SDKs
-In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 15.0 a new concept was introduced called project software development kits (SDKs). 
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 15.0 introduced the concept of the "project SDK", which simplifies using software development kits that require properties and targets to be imported.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -53,16 +50,16 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 
 1. Use the `Sdk` attribute on the `<Project/>` element:
     ```xml
-    <Project Sdk="Microsoft.NET.Sdk">
+    <Project Sdk="My.Custom.Sdk">
         ...
     </Project>
     ```
-    An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `Microsoft.NET.Sdk/1.2.3`.
+    An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `My.Custom.Sdk/1.2.3`.
 
-2. Use the `<Sdk/>` element for implicit imports:
+2. Use the top-level `<Sdk/>` element:
     ```xml
     <Project>
-        <Sdk Name="Microsoft.NET.Sdk" Version="1.2.3" />
+        <Sdk Name="My.Custom.Sdk" Version="1.2.3" />
         ...
     </Project>
    ```
@@ -74,9 +71,9 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
         <PropertyGroup>
             <MyProperty>Value</MyProperty>
         </PropertyGroup>
-        <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+        <Import Project="Sdk.props" Sdk="My.Custom.Sdk" />
         ...
-        <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+        <Import Project="Sdk.targets" Sdk="My.Custom.Sdk" />
     </Project>
    ```
    Explicitly including the imports in your project allows you full control over the order.
@@ -90,7 +87,7 @@ When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/i
    This resolver is only active if you specified an optional version and can be used for any custom project SDK.  
 2. A .NET CLI resolver that resolves SDKs that are installed with .NET CLI.<br/>
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` which are part of the product.
-3. A default resolver that resolves SDKs that installed with MSBuild.
+3. A default resolver that resolves SDKs that were installed with MSBuild.
 
 The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json) which allows you to control the project SDK version in one place rather than in each individual project:
 
@@ -102,7 +99,7 @@ The NuGet-based SDK resolver supports specifying a version in your [global.json]
     }
 }
 ```
-
+Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your `global.json`.  
 
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
