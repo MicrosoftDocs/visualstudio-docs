@@ -1,5 +1,5 @@
 ---
-title: "How to: Reference an MSBuild project SDK | Microsoft Docs"
+title: "How to: Reference an MSBuild Project SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
