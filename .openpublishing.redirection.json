@@ -57,7 +57,7 @@
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-xml-documentation-comments.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
             "redirect_document_id": false
         },
         {
@@ -1472,7 +1472,7 @@
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-xml-documentation-comments.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
             "redirect_document_id": false
         },
         {

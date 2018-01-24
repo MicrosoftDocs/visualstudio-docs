@@ -103,10 +103,11 @@
 ##### [Save and Open Files with Encoding](ide/how-to-save-and-open-files-with-encoding.md)
 #### [Outlining](ide/outlining.md)
 #### [Generate and Fix Code](ide/code-generation-in-visual-studio.md)
-##### [Code Snippets](ide/code-snippets.md)
-###### Use Code Snippets
-####### [Visual C# Code Snippets](ide/visual-csharp-code-snippets.md)
-####### [Visual C++ Code Snippets](ide/visual-cpp-code-snippets.md)
+##### Code Snippets
+###### [Use Code Snippets](ide/code-snippets.md)
+####### [C# Code Snippets Reference](ide/visual-csharp-code-snippets.md)
+####### [C++ Code Snippets Reference](ide/visual-cpp-code-snippets.md)
+####### [Insert XML Comments](ide/reference/generate-xml-documentation-comments.md)
 ####### [Use Surround-with Code Snippets](ide/how-to-use-surround-with-code-snippets.md)
 ####### [Best Practices](ide/best-practices-for-using-code-snippets.md)
 ###### Create Code Snippets
@@ -124,7 +125,6 @@
 ####### [Generate constructor](ide/reference/generate-constructor-csharp.md)
 ####### [Generate override](ide/reference/generate-override-csharp.md)
 ####### [Generate Equals and GetHashCode method overrides](ide/reference/generate-overrides-csharp.md)
-####### [Generate XML documentation comments](ide/reference/generate-xml-documentation-comments-csharp.md)
 ####### [Implement abstract class](ide/reference/implement-abstract-class-csharp.md)
 ####### [Implement interface](ide/reference/implement-interface-csharp.md)
 ####### [Introduce local variable](ide/reference/introduce-local-variable-csharp.md)
@@ -134,7 +134,6 @@
 ####### [Generate Field/Property/Local](ide/reference/generate-field-property-local-vb.md)
 ####### [Generate Constructor](ide/reference/generate-constructor-vb.md)
 ####### [Generate Override](ide/reference/generate-override-vb.md)
-####### [Generate XML Documentation Comments](ide/reference/generate-xml-documentation-comments-vb.md)
 ####### [Implement Abstract Class](ide/reference/implement-abstract-class-vb.md)
 ####### [Implement Interface](ide/reference/implement-interface-vb.md)
 ####### [Introduce Local Variable](ide/reference/introduce-local-variable-vb.md)
