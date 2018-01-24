@@ -2,7 +2,12 @@
 
 Previous step: [Debugging containers in Kubernetes](get-started-netcore-04.md)
 
+In this section we're going to create a second service, `mywebapi`, and have `webfrontend` call it. Each service will run in separate containers.
+
+![](media/multi-container.png)
+
 ## Clone the Sample WebAPI Service
+For the sake of time, we'll grab ready-to-go sample code for `mywebapi`.
 
 ```
 git clone https://github.com/johnsta/mywebapi
