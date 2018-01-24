@@ -1,5 +1,5 @@
 ---
-title: "Refactor rename in Visual Studio for C# | Microsoft Docs"
+title: "Refactor rename in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -13,23 +13,32 @@ manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.rename"
 dev_langs: 
-  - "CSharp"
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
-# Rename a code symbol in C# #
+# Rename a code symbol refactoring
+
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties and types.
 
 **When:** You want to safely rename something without having to find all instances, and copy/paste the new name.
 
-**Why:** Copy and pasting the new name across an entire project would likely result in errors.  This refactoring tool will accurately perform the renaming action.
+**Why:** Copy and pasting the new name across an entire project would likely result in errors. This refactoring tool will accurately perform the renaming action.
 
 **How:**
 
 1. Highlight or place the text cursor inside the item to be renamed:
 
-   ![Highlighted code](media/rename-highlight-cs.png)
+   C#: ![Highlighted code - C#](media/rename-highlight-cs.png)
+
+   Visual Basic: ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -40,15 +49,17 @@ ms.workload:
 
 1. Rename the item simply by typing the new name.
 
-   ![Rename animation](media/rename-animated-cs.gif)
+   C#: ![Rename animation - C#](media/rename-animated-cs.gif)
+
+   Visual Basic: ![Rename - VB](media/rename-rename-vb.png)
 
    > [!TIP]
-   > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
+   > You can also update comments and other strings to use this new name, as well as [preview the changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your editor.
 
-1. When you're happy with the change, click the **Apply** button or press **Enter** and the changes will be committed.
+1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
 > [!NOTE]
-> If you use a name that already exists which would cause a conflict, the **Rename** box in your IDE will warn you.
+> If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
 >
 > ![Rename Conflict](media/rename-conflict-cs.png)
 

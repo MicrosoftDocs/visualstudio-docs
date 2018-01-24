@@ -1,5 +1,5 @@
 ---
-title: "Refactor a field to a property in C# | Microsoft Docs"
+title: "Refactor a field to a property in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2016"
 ms.reviewer: ""
@@ -13,11 +13,18 @@ manager: ghogen
 f1_keywords: 
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs: 
-  - csharp
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
-# Encapsulate a field in C# #
+# Encapsulate a field refactoring
+
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you turn a field into a property, and update all usages of that field to use the newly created property.
 
@@ -29,7 +36,9 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the name of the field to encapsulate:
 
-   ![Highlighted code](media/encapsulate-highlight-cs.png)
+   C#: ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
+
+   Visual Basic: ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -47,9 +56,11 @@ ms.workload:
    The property will be immediately created and references to the field will be updated, if selected.
 
    > [!TIP]
-   > Use the [**Preview changes**](../../ide/preview-changes.md) link in the popup window to see what the result will be before committing to it.
+   > Use the **Preview changes** link in the popup window [to see what the result will be](../../ide/preview-changes.md) before committing to it.
 
-   ![Encapsulate Property result](media/encapsulate-result-cs.png)
+   C#: ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
+
+   Visual Basic: ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
 
 ## See also
 

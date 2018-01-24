@@ -1,5 +1,5 @@
 ---
-title: "Replace a temporary variable with its value in C# | Microsoft Docs"
+title: "Replace a temporary variable with its value in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -10,10 +10,19 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+dev_langs: 
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
-# Inline a temporary variable with C# #
+# Inline a temporary variable refactoring
+
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you remove a temporary variable and replace it with its value instead.
 
@@ -25,7 +34,9 @@ ms.workload:
 
 1. Highlight or place the text cursor inside the temporary variable to be inlined:
 
-   ![Highlighted code](media/inline-highlight-cs.png)
+   C#: ![Highlighted code - C#](media/inline-highlight-cs.png)
+
+   Visual Basic: ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -37,7 +48,9 @@ ms.workload:
 
    The variable will be removed and its usages replaced by the value of the variable immediately.
 
-   ![Inline result](media/inline-result-cs.png)
+   C#: ![Inline result - C#](media/inline-result-cs.png)
+
+   Visual Basic: ![Inline result - Visual Basic](media/inline-result-vb.png)
 
 ## See also
 

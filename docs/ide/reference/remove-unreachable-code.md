@@ -1,5 +1,5 @@
 ---
-title: "Remove unreachable code refactoring for C# in Visual Studio | Microsoft Docs"
+title: "Remove unreachable code refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/27/2017"
 ms.reviewer: ""
@@ -15,7 +15,11 @@ dev_langs:
 ms.workload: 
   - "dotnet"
 ---
-# Remove unreachable code in C# #
+# Remove unreachable code refactoring
+
+This refactoring applies to:
+
+- C#
 
 **What:** Removes code that will never be executed.
 

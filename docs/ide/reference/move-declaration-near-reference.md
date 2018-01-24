@@ -1,5 +1,5 @@
 ---
-title: "Move variable declaration near reference in C# | Microsoft Docs"
+title: "Move variable declaration near reference in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/27/2017"
 ms.reviewer: ""
@@ -15,7 +15,11 @@ dev_langs:
 ms.workload: 
   - "dotnet"
 ---
-# Move declaration near reference in C# #
+# Move declaration near reference refactoring
+
+This refactoring applies to:
+
+- C#
 
 **What:** Lets you move variable declarations closer to their usage.
 

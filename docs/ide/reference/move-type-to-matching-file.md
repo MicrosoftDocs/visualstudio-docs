@@ -1,5 +1,5 @@
 ---
-title: "Move type to matching file - Refactoring (C#) | Microsoft Docs"
+title: "Move type to matching file refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -13,19 +13,27 @@ manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# Move a type to a matching file in C# #
+# Move a type to a matching file refactoring
+
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you move the selected type to a separate file with the same name.
 
 **When:** You have multiple classes, structs, interfaces, etc. in the same file which you want to separate.
 
-**Why:** Placing multiple types in the same file can make it difficult to find these types.  By moving types to files with the same name, code becomes more readable and easier to navigate.
+**Why:** Placing multiple types in the same file can make it difficult to find these types. By moving types to files with the same name, code becomes more readable and easier to navigate.
 
 **How:**
 
 1. Highlight or place the text cursor inside the name of the type to move:
 
-   ![Highlighted code](media/movetype-highlight-cs.png)
+   C#: ![Highlighted code - C#](media/movetype-highlight-cs.png)
+
+   Visual Basic: ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
 
 1. Next, do one of the following:
    * **Keyboard**
@@ -35,7 +43,9 @@ ms.workload:
 
    The type will instantly moved to a new file with that name inside of your solution.
 
-   ![Inline result](media/movetype-result-cs.png)
+   C#: ![Inline result - C#](media/movetype-result-cs.png)
+
+   Visual Basic: ![Inline result - Visual Basic](media/movetype-result-vb.png)
 
 ## See also
 

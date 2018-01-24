@@ -14,11 +14,12 @@ f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
 dev_langs: 
-  - csharp
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
-# Change a method signature #
+# Change a method signature refactoring
 
 This refactoring applies to:
 
@@ -64,9 +65,9 @@ This refactoring applies to:
 
 1. When you are finished, press the **OK** button to make the changes.
 
-   C#: ![Change Signature result](media/changesignature-result-cs.png)
+   C#: ![Change Signature result - C#](media/changesignature-result-cs.png)
 
-   Visual Basic: ![Change Signature result](media/changesignature-result-vb.png)
+   Visual Basic: ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
 
 ## See also
 
