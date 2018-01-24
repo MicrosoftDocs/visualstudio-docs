@@ -4,10 +4,14 @@
 There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
 ### Install on Mac
-Install the Connected Environment CLI:
+Download and install the Connected Environment CLI:
 ```
+curl -L https://aka.ms/get-vsce-mac > get-vsce-mac.sh
+source ./get-vsce-mac-sh
+```
+<!-- ```
 curl -L https://aka.ms/get-vsce-mac | bash
-```
+``` -->
 
 ### Install on Windows
 1. Download and run the [Connected Environment CLI Installer](https://aka.ms/get-vsce-windows). 
@@ -30,11 +34,11 @@ Choose the development tool you'd like to use.
 
 ### VS Code (Mac, Windows, Linux)
 1. If you don't have it, install [VS Code](https://code.visualstudio.com/Download)
-1. Download the [VS Connected Environment extension](https://aka.ms/vsce-code)
+1. Download the [VS Connected Environment extension](https://aka.ms/get-vsce-code)
 1. Download and install the extension: 
 
 ```
-code --install-extension path-to-downloaded-extension/vsce.0.0.1.vsix
+code --install-extension path-to-downloaded-extension/vsce-0.0.1.vsix
 ```
 
 ### Visual Studio (Windows only)

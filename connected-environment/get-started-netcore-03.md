@@ -44,6 +44,10 @@ Keep an eye on the command's output, you'll notice several things as it progress
 1. Information about the container's endpoint(s) is displayed. In our case, we're expecting a public HTTPS URL.
 1. Assuming the above stages complete successfully, you should begin to see `stdout` (and `stderr`) output as the container starts up.
 
+> [!Note]
+> These steps will take longer the first time the `up` command is run - they are considerably shortened on subsequent runs.
+
+
 ## Test the App
 Scan the console output for information about the public URL that was created by the `up` command. It will be in the form: `https://<servicename>-<environmentname>.vsce.io`. For example: https://webfrontend-myenvironment.vsce.io.
 
