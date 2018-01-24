@@ -67,7 +67,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
   ![Upload to Marketplace](media/upload-to-marketplace.png)
 
-6. Choose the publisher you want to use to upload your extension.  You can change publishers by clicking on the publisher names listed on the left.  Click on **New Extension** and select **Visual Studio**.
+6. Choose the publisher you want to use to upload your extension.  You can change publishers by clicking on the publisher names listed on the left.  Click on **New extension** and select **Visual Studio**.
 
 7. In **1: Upload extension**, you can choose to upload a VSIX file directly to Visual Studio Marketplace or just add a link to your own website. In this case, we will upload our extension, TestPublish.vsix.  Drag and drop your extension or use the **click** link to browse for the file.  Your extension can be found in the \bin\Release folder of the project.  Click **Continue**.
 
@@ -81,7 +81,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
     
     * **VSIX ID** is the unique identifier that Visual Studio uses for your extension.  This is required if you would like to have your extension be auto-updated.  This is auto-populated from the source.extension.vsixmanifest file.
     
-    * **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
+   * **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
     
     * **Short description** of what your extension does.  This will be auto-populated from the source.extension.vsixmanifest file.
     
@@ -119,7 +119,7 @@ Marketplace supports granting additional users permissions to access and manage 
 
   ![Add Additional User](media/add-users.png)
 
-3. You can then specify the email address of the user you wish to add and grant the right level of access under **Role**.  You can choose from the following:
+3. You can then specify the email address of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following:
 
   * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
   
