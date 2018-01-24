@@ -36,7 +36,8 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 <Project InitialTargets="TargetA;TargetB"  
          DefaultTargets="TargetC;TargetD"  
          TreatAsLocalProperty="PropertyA;PropertyB"  
-         ToolsVersion=<version number>  
+         ToolsVersion=<version number>
+         Sdk="name[/version]"
          xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Choose>... </Choose>  
     <PropertyGroup>... </PropertyGroup>  
@@ -57,7 +58,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 |---------------|-----------------|  
 |`DefaultTargets`|Optional attribute.<br /><br /> The default target or targets to be the entry point of the build if no target has been specified. Multiple targets are semi-colon (;) delimited.<br /><br /> If no default target is specified in either the `DefaultTargets` attribute or the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] command line, the engine executes the first target in the project file after the [Import](../msbuild/import-element-msbuild.md) elements have been evaluated.|  
 |`InitialTargets`|Optional attribute.<br /><br /> The initial target or targets to be run before the targets specified in the `DefaultTargets` attribute or on the command line. Multiple targets are semi-colon (;) delimited.|  
-|`SDK`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> The SDK version to use to create implicit Import statements that are added to the .proj file. For example, `<Project Sdk="Microsoft.NET.Sdk/1.0.0-RC" />`.|  
+|`Sdk`|Optional attribute. <br /><br /> The SDK name and optional version to use to create implicit Import statements that are added to the .proj file. If no version is specified, a default SDK will be looked for.  Example, `<Project Sdk="Microsoft.NET.Sdk" />` or `<Project Sdk="My.Custom.Sdk/1.0.0" />`.|  
 |`ToolsVersion`|Optional attribute.<br /><br /> The version of the toolset MSBuild uses to determine the values for $(MSBuildBinPath) and $(MSBuildToolsPath).|  
 |`TreatAsLocalProperty`|Optional attribute.<br /><br /> Property names that won't be considered to be global. This attribute prevents specific command-line properties from overriding property values that are set in a project or targets file and all subsequent imports. Multiple properties are semi-colon (;) delimited.<br /><br /> Normally, global properties override property values that are set in the project or targets file. If the property is listed in the `TreatAsLocalProperty` value, the global property value doesn't override property values that are set in that file and any subsequent imports. For more information, see [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md). **Note:**  You set global properties  at a command prompt by using the **/property** (or **/p**) switch. You can also set or modify global properties for child projects in a multi-project build by using the `Properties` attribute of the MSBuild task. For more information, see [MSBuild Task](../msbuild/msbuild-task.md).|  
 |`Xmlns`|Optional attribute.<br /><br /> When specified, the `xmlns` attribute must have the value of "http://schemas.microsoft.com/developer/msbuild/2003".|  
