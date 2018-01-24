@@ -38,7 +38,7 @@ Choose the development tool you'd like to use.
 1. Download and install the extension: 
 
 ```
-code --install-extension path-to-downloaded-extension/vsce-0.0.1.vsix
+code --install-extension path-to-downloaded-extension/vsce-0.1.0.vsix
 ```
 
 ### Visual Studio (Windows only)
