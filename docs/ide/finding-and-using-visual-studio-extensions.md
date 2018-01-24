@@ -29,7 +29,7 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 You can use the **Extensions and Updates** dialog box to install Visual Studio extensions and samples from websites and other locations, and then enable, disable, update, or uninstall them. (**Tools / Extensions and Updates**, or type **Extensions** in the **Quick Launch** window). The dialog box also shows updates for installed samples and extensions. You can also download extensions from websites, or get them from other developers.
 
 > [!NOTE]
-> Starting in Visual Studio 2015, extensions hosted on the Visual Studio Marketplace will be automatically updated.  You can change this setting through the **Extensions and Updates** dialog.  See the section on **Automatic Extension Updates** below for details.
+> Starting in Visual Studio 2015, extensions hosted on the Visual Studio Marketplace are automatically updated. You can change this setting through the **Extensions and Updates** dialog.  See the section on **Automatic Extension Updates** below for details.
 
 ## Finding Visual Studio Extensions
 
@@ -64,24 +64,26 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 > [!NOTE]
 > Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
-## Extension Crash Notifications
+## Extension Crash/Unresponsiveness Notifications
 
-In Visual Studio 2017 (version 15.3 - Preview), Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it notifies you with a message such as,
+New in **Visual Studio 2017 version 15.3**, Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
-"A previous session terminated unexpectedly. Disabling extension 'extension_name' might help prevent similar issues."
+New in **Visual Studio version 15.6 preview 3**, Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
 
-You can ignore the notification or take one of the following actions:
+When these notifications are shown, you can ignore the notification or take one of the following actions:
 
 - Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Extensions and Updates** dialog box if you want.
 
-- Choose **Don’t show again for this extension**. The IDE will no longer show notifications for crashes associated with this extension, but it will show notifications for crashes associated with other extensions.
+- Choose **Never show this message again**. 
+  - If the notification concerns a crash in a previous session, Visual Studio will no longer show a notification when a crash associated with this extension occurs. Visual Studio will still show notifications when unresponsiveness can be associated with this extension, or for crashes or unresponsiveness that can be associated with other extensions. 
+  - If the notification concerns unresponsiveness, the IDE will no longer show a notification when this extension is associated with unresponsiveness. Visual Studio will still show crash-related notifications for this extension, and crash- and unresponsiveness-related notifications for other extensions. 
 
-- Choose **Learn more** to view this Help topic in your default browser.
+- Choose **Learn more** to come to this page.
 
-- Choose the **X** button at the end of the notification to dismiss the notification. If the same extension is involved with a crash in a future session, the notification will appear again.
+- Choose the **X** button at the end of the notification to dismiss the notification. A new notification will appear for future instances of the extension being associated with a crash or UI unresponsiveness.
 
 > [!NOTE]
-> A crash notification means only that one of the extension’s modules was on the stack for the crash. It does not necessarily mean that the extension itself caused the crash. It's possible that the extension called code which is part of Visual Studio, and that code caused the crash. However, the notification may still be useful if the scenario which led to the crash is not important to you. In this case, disabling the extension avoids the same crash in the future without impacting your productivity.
+> A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It does not necessarily mean that the extension itself was the culprit. It is possible that the extension called code which is part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification may still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity. 
 
 ## Sample Master Copies and Working Copies
 
