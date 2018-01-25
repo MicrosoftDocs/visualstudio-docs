@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/20/2018"
+ms.date: "01/30/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
