@@ -82,7 +82,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 ## <a name="server_error"></a> The remote server returned an error
 
 Check the error code that is returned in the message to help identify the cause of the problem. Here are a few common error codes.
-- (403) Forbidden. Verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type). Also, verify that the server's web.config includes `debug=true` in the compilation element. If these settings are already correct, verify that your Web Application folder has the correct folder permissions. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- (403) Forbidden. Make sure the server's web.config includes `debug=true` in the compilation element. Then, check that your Web Application folder has the right permissions and also check your Application Pool configuration (a password may have changed). For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
 - (503) Server Unavailable. The Application Pool may have stopped due to an error or configuration change. Restart the Application Pool.
 - (404) Not Found. Make sure that the Application Pool is configured for the correct version of ASP.NET.
 
@@ -122,7 +122,7 @@ After taking steps detailed here to resolve the issue, and before trying again t
     
 * Check that your Web Application folder has the right permissions.
 
-    Make sure that you give IIS_IUSRS, IUSR, or the specific user associated with the Application Pool read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
+    Make sure that you give IIS_IUSRS, IUSR, or the specific user associated with the [Application Pool](/iis/manage/configuring-security/application-pool-identities) read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
 
 * Make sure that the correct version of ASP.NET is installed on IIS.
 
