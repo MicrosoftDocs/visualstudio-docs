@@ -1,7 +1,7 @@
 ---
 title: "How to: Reference an MSBuild Project SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/25/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,8 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, SDKs, SDK"
-ms.assetid: b293fd37-59d7-4488-8027-edcad6b32965
-caps.latest.revision: 8
 author: "jeffkl"
 ms.author: "jeffkl"
 manager: angerlic
@@ -84,12 +82,12 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] dynamically resolves the path to the project SDK based on the name and version you specified.  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] also has a list of registered SDK resolvers which are plug-ins that locate project SDKs on your machine.  These plug-ins include:
 
 1. A NuGet-based resolver that queries your configured package feeds for NuGet packages that match the ID and version of the SDK you specified.<br/>
-   This resolver is only active if you specified an optional version and can be used for any custom project SDK.  
+   This resolver is only active if you specified an optional version and it can be used for any custom project SDK.  
 2. A .NET CLI resolver that resolves SDKs that are installed with .NET CLI.<br/>
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` which are part of the product.
 3. A default resolver that resolves SDKs that were installed with MSBuild.
 
-The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json) which allows you to control the project SDK version in one place rather than in each individual project:
+The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json) that allows you to control the project SDK version in one place rather than in each individual project:
 
 ```json
 {
