@@ -39,6 +39,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
          ToolsVersion=<version number>
          Sdk="name[/version]"
          xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+    <Sdk... />
     <Choose>... </Choose>  
     <PropertyGroup>... </PropertyGroup>  
     <ItemGroup>... </ItemGroup>  
@@ -71,7 +72,8 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 |[Import](../msbuild/import-element-msbuild.md)|Optional element.<br /><br /> Enables a project file to import another project file. There may be zero or more `Import` elements in a project.|  
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|Optional element.<br /><br /> A grouping element for individual items. Items are specified by using the [Item](../msbuild/item-element-msbuild.md) element. There may be zero or more `ItemGroup` elements in a project.|  
 |[ProjectExtensions](../msbuild/projectextensions-element-msbuild.md)|Optional element.<br /><br /> Provides a way to persist non-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] information in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. There may be zero or one `ProjectExtensions` elements in a project.|  
-|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> A grouping element for individual properties. Properties are specified by using the [Property](../msbuild/property-element-msbuild.md) element. There may be zero or more `PropertyGroup` elements in a project.|  
+|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> A grouping element for individual properties. Properties are specified by using the [Property](../msbuild/property-element-msbuild.md) element. There may be zero or more `PropertyGroup` elements in a project.|
+|[Sdk](../msbuild/sdk-element-msbuild.md)|Optional element.<br /><br /> References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project SDK.  This element can be used as an alternative to the Sdk attribute.|  
 |[Target](../msbuild/target-element-msbuild.md)|Optional element.<br /><br /> Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to sequentially execute. Tasks are specified by using the [Task](../msbuild/task-element-msbuild.md) element. There may be zero or more `Target` elements in a project.|  
 |[UsingTask](../msbuild/usingtask-element-msbuild.md)|Optional element.<br /><br /> Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
 
