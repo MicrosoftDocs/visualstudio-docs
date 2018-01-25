@@ -21,7 +21,7 @@ ms.workload:
   - "cplusplus"
 ---
 # Visual C++ Classes in Class Designer
-Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and Visual C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
+Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
   
 > [!NOTE]
 >  Class Designer does not support unions (a special type of class in which the memory allocated is only the amount necessary for the union's largest data member).  

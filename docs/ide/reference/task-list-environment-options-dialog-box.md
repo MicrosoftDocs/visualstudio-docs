@@ -48,7 +48,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
  When you insert a comment into your code whose text begins with a token from the **Token List**, the **Task List** displays your comment as new entry whenever the file is opened for editing. You can click this **Task List** entry to jump directly to the comment line in your code. For more information, see [Using the Task List](../../ide/using-the-task-list.md).  
   
  Token List  
- Displays a list of tokens, and allows you to add or remove custom tokens. Comment tokens are case sensitive in Visual C# and Visual C++, but not in Visual Basic.  
+ Displays a list of tokens, and allows you to add or remove custom tokens. Comment tokens are case sensitive in C# and Visual C++, but not in Visual Basic.  
   
 > [!NOTE]
 >  If you do not type the desired token exactly as it appears in the **Token List**, a comment task will not be displayed in the **Task List**.  
