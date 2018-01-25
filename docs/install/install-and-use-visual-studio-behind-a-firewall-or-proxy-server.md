@@ -62,11 +62,10 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
-## Using Visual Studio or Azure services in a private network or developing for Azure services
+## Using Visual Studio or Azure services in a private network
 You might want to whitelist URLs when you use Visual Studio in a private network, or when you use or develop for Azure services.
 
 ### Whitelisting URLs in a private network
-
 If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you'll see the following error message:
 
   **The underlying connection was closed: An unexpected error occurred on send**
@@ -104,8 +103,9 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 
 
 ### Whitelisting URLs for Azure services
-Whether you are using Azure services or are an Azure developer, there are the DNS endpoints, protocols, and output ports you'll want to know about. For a full list, see the [Azure ports & protocols](visual-studio-and-azure-services-ports-and-protocols.md) page.
+Whether you are using Azure services or are an Azure developer, there are the DNS endpoints, protocols, and output ports you'll want to know about. For a full list, see the [Visual Studio and Azure Services ports & protocols](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
+## Get support
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
