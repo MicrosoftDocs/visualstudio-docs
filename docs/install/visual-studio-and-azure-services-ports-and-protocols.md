@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
   - "list of domains, locations, URLs"
-  - "list of proxy and protocols, Visual Studio, Azure Services"
+  - "list of ports and protocols, Visual Studio, Azure Services"
 ms.assetid:
 author: "TerryGLee"
 ms.author: "tglee"
@@ -59,3 +59,6 @@ Whether you are using Azure services with Visual Studio or you are an Azure deve
 
 ## See also
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
+* [Troubleshooting proxy errors in Visual Studio](troubleshooting-proxy-errors.md)
+* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Install Visual Studio 2017](install-visual-studio.md)

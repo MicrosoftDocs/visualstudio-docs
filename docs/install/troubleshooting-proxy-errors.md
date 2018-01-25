@@ -1,0 +1,83 @@
+---
+title: "Troubleshooting proxy errors in Visual Studio | Microsoft Docs"
+description: ""
+ms.custom: ""
+ms.date: "01/30/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology:
+  - "vs-acquisition"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords:
+  - "network installation, Visual Studio"
+  - "administrator guide, Visual Studio"
+  - "installing Visual Studio, administrator guide"
+  - "list of domains, locations, URLs, Visual Studio"
+  - "proxy errors, Visual Studio"
+ms.assetid:
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
+ms.workload:
+  - "multiple"
+---
+
+# Troubleshooting proxy errors in Visual Studio
+
+### "Proxy Authorization Required" error
+
+This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
+
+#### To fix this error:
+
+- Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
+
+- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
+
+    - &#42;.windows.net
+
+    - &#42;.microsoftonline.com
+
+    - &#42;.visualstudio.com
+
+    - &#42;.microsoft.com
+
+    - &#42;.live.com
+
+- You can otherwise remove the http://go.microsoft.com address from the whitelist so that the proxy authentication dialog shows up for both the http://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+
+    OR
+
+- If you want to use your default credentials with your proxy, you can do the following:
+
+    1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
+
+    1. In the configuration file, find the `<system.net>` block, and then add this code:
+
+        ```xml
+        <defaultProxy enabled="true" useDefaultCredentials="true">
+            <proxy bypassonlocal="True" proxyaddress=" HYPERLINK "http://<yourproxy:port#" http://<yourproxy:port#>"/>
+        </defaultProxy>
+        ```
+
+        You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
+
+    OR
+
+- You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
+
+## Get support
+If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the installation troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+
+## See also
+* [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
+* [Visual Studio and Azure Services ports and protocols list](visual-studio-and-azure-services-ports-and-protocols.md)
+* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+* [Install Visual Studio 2017](install-visual-studio.md)
