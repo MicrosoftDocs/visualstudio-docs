@@ -131,7 +131,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 ##### Create a UI project and customize the layout  
 
-1.  In the **New Project** dialog, create a Visual C# WPF Desktop Application and call it whatever you like. Pretend that this is the project where we'll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.  
+1.  In the **New Project** dialog, create a C# WPF Desktop Application and call it whatever you like. Pretend that this is the project where we'll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.  
 
 2.  If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.  
 

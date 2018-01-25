@@ -30,26 +30,22 @@ From within Visual Studio, Web applications can be published directly to the fol
 
 On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
 
-## Azure App Service
+## Azure App Service Web Apps
 
-[Azure App Service](https://azure.microsoft.com/documentation/articles/app-service-value-prop-what-is/) helps developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
+[Azure App Service Web Apps](/azure/app-service/app-service-web-overview) (or just Web Apps) helps developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
 
-For web applications in particular, an App Service is a container for a [*Web App*](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/), which closely matches what you would think of as a traditional web host. That is, a Web App provides the necessary compute resources that can run your server-side code and make it available to the Internet.
-
-You determine how much computing power a Web App has by choosing a [pricing tier or plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) for the containing App Service. You can have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service.
+You determine how much computing power a Web App has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service.
 
 An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each Web App in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
-### When to choose Azure App Service
+### When to choose Azure App Service Web Apps
 
 - You want to deploy a web application that's accessible through the Internet.
 - You want to automatically scale your web application according to demand without needing to redeploy.
 - You don't want to maintain server infrastructure (including software updates).
 - You don't need any machine-level customizations on the servers that host your web application.
 
-
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
-
 
 ## Azure Virtual Machines
 
