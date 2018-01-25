@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure Benefit 
+title: Microsoft Azure Benefit | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

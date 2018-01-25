@@ -1,5 +1,5 @@
 ---
-title: Visual Studio App Center Benefit in Visual Studio Subscriptions
+title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -79,6 +79,6 @@ A:  App Center requires newer capabilities that may not be provided by some olde
 ## Support Resources
 -  Need help with App Center?  
     - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/). 
-    - Check out complete App Center documentation at:  https://docs.microsoft.com/en-us/appcenter/ 
+    - Check out complete App Center documentation at:  [https://docs.microsoft.com/appcenter/](/appcenter/) 
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

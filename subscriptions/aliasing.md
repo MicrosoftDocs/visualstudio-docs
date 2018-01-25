@@ -1,5 +1,5 @@
 ---
-title: Signing in to Visual Studio Subscriptions May Fail with Aliases
+title: Signing in to Visual Studio Subscriptions May Fail with Aliases | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -21,15 +21,16 @@ The term “aliasing” refers to users having different identities to sign in t
 
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like JohnD@contoso.com, but users access their email accounts using aliases or friendly names, such as John.Doe@contoso.com.  For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided (John.Doe@contoso.com) does not match the directory address (JohnD@contoso.com) required for successful authentication through the “Work or School Account” option.
 
-### As an administrator, what options do I have?
+## As an administrator, what options do I have?
 
 As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). 
 1. The first option (recommended), is to leverage the directory account as the assigned address in the Volume Licensing Service Center (VLSC). Refer to [Assigning Subscribers to a Directory Account](#assigning-subscribers-to-a-directory-account) section in this article for more details.
 2. The second option (less secure), is to allow your subscribers to associate their “Work or School” email address to a “Personal” account (a.k.a. Microsoft Account or MSA). Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
 
-**Note:**  Once your company is migrated to the new Visual Studio subscriptions management portal (https://manage.visualstudio.com), you will be able to take advantage of the new administration experience which allows both Directory and email addresses to be provided as part of the subscriber’s profile.  Learn more about [the migration](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details).
+[!NOTE]  
+Once your company is migrated to the new Visual Studio subscriptions management portal (https://manage.visualstudio.com), you will be able to take advantage of the new administration experience which allows both Directory and email addresses to be provided as part of the subscriber’s profile.  Learn more about [the migration](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details).
 
-### As a Subscriber, what options do I have?
+## As a Subscriber, what options do I have?
 
 From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration.  If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address.  Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action.  Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.  
 
@@ -88,7 +89,7 @@ Please follow the below steps to update an existing subscriber with a directory 
 9. Notify the subscriber that their subscription has been provisioned by using the below email template.
 
 ### Notifying your subscribers with directory addresses
-Since the Welcome Email will not successfully reach your subscriber, please copy and paste the below message into an email and send to your subscriber. Replace %WORD% with the appropraite information for each subscriber.
+Since the Welcome Email will not successfully reach your subscriber, please copy and paste the below message into an email and send to your subscriber. Replace %WORD% with the appropriate information for each subscriber.
 
 ----------- Copy Below (Ctrl+C) -----------
 
@@ -111,7 +112,8 @@ At the bottom of the page, select the following:
 ## Defining a Work or School Account as a Personal Account 
 Please leverage the instructions described in the [Assigning Subscribers to a Directory Account](#assigning-subscribers-to-a-directory-account) section to add a new user or update a user’s email address within the Volume Licensing Service Center (VLSC).  In cases where the email address is not recognized by the directory, the user will need to step through the process to create a new account to define the email address as a personal account.  For the short term, the Visual Studio Subscriptions team has secured an exemption from the identity policy defined below, but we are investing in the capabilities necessary to remove this policy.
 
-**Warning:**  Microsoft does not recommend combining “Work or School” identities with “Personal” identities.  This action causes the organization to lose ownership and control of the account, and the employee can continue to access specific products or services, even after leaving the company.  Please reference this [blog post](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/15/cleaning-up-the-azure-ad-and-microsoft-account-overlap/), from the Microsoft Identity team, for additional information.
+[!WARNING]
+Microsoft does not recommend combining “Work or School” identities with “Personal” identities.  This action causes the organization to lose ownership and control of the account, and the employee can continue to access specific products or services, even after leaving the company.  Please reference this [blog post](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/15/cleaning-up-the-azure-ad-and-microsoft-account-overlap/), from the Microsoft Identity team, for additional information.
 
 ### Defining an Email Address as a Personal Account
 After a subscription is  assigned to the Subscriber, they will receive an email asking them to visit https://my.visualstudio.com to take advantage of their subscription benefits.  When attempting to sign-in, the Visual Studio Subscription sign-in will fail with an error stating that the account isn’t recognized.  Before logging into the https://my.visualstudio.com experience, ask your subscriber to  follow these instructions.  If necessary, you can use this [template](#notifying-your-subscribers-using-personal-accounts) to notify your subscriber after you have assigned a subscription.

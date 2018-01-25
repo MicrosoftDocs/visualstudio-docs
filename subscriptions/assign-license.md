@@ -1,5 +1,5 @@
 ---
-Title: Assign licenses to Visual Studio Subscriptions
+Title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

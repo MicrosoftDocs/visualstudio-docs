@@ -1,5 +1,5 @@
 ---
-title: VSTS for Visual Studio subscribers
+title: VSTS for Visual Studio subscribers | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -62,8 +62,8 @@ These VSTS features are included in the following subscriptions:
 3.	Enter a name for your VSTS project site.  
 
 4.  Choose whether you want to use **Git** or **Team Foundation Version Control (TFVC)** to manage your project.  This is a permanent choice for each team project you create, but you can use both TFVC and Git team projects in the same team project collection.  Not sure which to use? 
-    - Git:  Git is a decentralized version control system. Each developer has a copy of the entire source repository on their dev machine. Developers can commit each set of changes on their dev machine and perform version control operations such as history and compare without a network connection.  [Learn more](https://www.visualstudio.com/en-us/docs/git/gitquickstart) about Git.
-    - TFVC: Team Foundation Version Control (TFVC) is a centralized version control system. Typically, Team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server. [Learn more](https://www.visualstudio.com/en-us/docs/tfvc/overview) about Team Foundation Version Control.
+    - Git:  Git is a decentralized version control system. Each developer has a copy of the entire source repository on their dev machine. Developers can commit each set of changes on their dev machine and perform version control operations such as history and compare without a network connection.  [Learn more](https://www.visualstudio.com/docs/git/gitquickstart) about Git.
+    - TFVC: Team Foundation Version Control (TFVC) is a centralized version control system. Typically, Team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server. [Learn more](https://www.visualstudio.com/docs/tfvc/overview) about Team Foundation Version Control.
 
  
 5.  Click **Change details** to customize options for Project name, how you organize your work (Agile, Scrum, CMMI), where to host your projects, and how to share your work with others.  Click “Continue”.
@@ -79,15 +79,15 @@ You will also receive an email confirming you have successfully created your acc
 
 ## FAQ
 ### Q:  What is the difference between Free, Basic Access, and Advanced Access?
-A:  The features available varies by access level.  Find in-depth information about [access levels](https://docs.microsoft.com/vsts/security/access-levels). 
+A:  The features available varies by access level.  Find in-depth information about [access levels](/vsts/security/access-levels). 
 
 ### Q:  How do I add users to my VSTS account or team project?
-A:  Learn how to [manage users and access](https://docs.microsoft.com/vsts/accounts/add-account-users-from-user-hub) in VSTS.
+A:  Learn how to [manage users and access](/vsts/accounts/add-account-users-from-user-hub) in VSTS.
 
 ## Support Resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
--  For complete Visual Studio Team Services documentation, please visit https://docs.microsoft.com/vsts/ .
+-  For complete Visual Studio Team Services documentation, please visit /vsts/ .
 To use VSTS, you’ll need to create an account, or to be added as a member in an account that someone else owns. Creating a VSTS account is free, and you can create multiple VSTS accounts. 
 
-[How to sign up for VSTS](https://docs.microsoft.com/vsts/accounts/index)
+[How to sign up for VSTS](/vsts/accounts/index)

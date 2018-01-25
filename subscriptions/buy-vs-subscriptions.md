@@ -1,5 +1,5 @@
 ---
-title: How to Buy a Subscription | Visual Studio Marketplace
+title: How to Buy a Subscription | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -11,28 +11,25 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-#	How to Buy a Subscription
+# How to Buy a Subscription
 There are two main types of Visual Studio subscriptions, cloud and standard, which are explained on the [Visual Studio pricing page](https://www.visualstudio.com/vs/pricing/).
 
-# Buy Visual Studio (Cloud subscription, either monthly or annual) 
+## Buy Visual Studio Cloud subscriptions (either monthly or annual) 
 
-<<<<<<< HEAD
-### Before you start:
-=======
 [How to buy a Visual Studio subscription](https://docs.microsoft.com/vsts/billing/vs-subscriptions/buy-vs-subscriptions)
 [Assign and manage the Visual Studio subscriptions you've purchased](https://docs.microsoft.com/vsts/billing/vs-subscriptions/manage-vs-subscriptions)
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76
 
-# Buy Visual Studio (Standard subscription)
+## Buy Visual Studio Standard subscriptions
 You will need to contact your software reseller to purchase a standard Visual Studio subscription, or visit the [Microsoft Store](https://www.microsoft.com/store) online.
 
 <<<<<<< HEAD
 *	To sign up for your Azure subscription and buy from the Visual Studio Marketplace, 
 you'll need a "personal" [Microsoft account](https://www.microsoft.com/account) 
-or a ["work or school account"](https://azure.microsoft.com/en-us/documentation/articles/sign-up-organization/) 
+or a ["work or school account"](/azure/active-directory/sign-up-organization) 
 if you're buying for your organization, and they manage identities with Azure Active Directory (Azure AD).
 
-*   **Warning:**  If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](https://docs.microsoft.com/en-us/vsts/billing/faq-azure-billing).  
+[!WARNING]
+If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](https://docs.microsoft.com/en-us/vsts/billing/faq-azure-billing).  
 
 ### Buy subscriptions
 
@@ -62,7 +59,7 @@ go to the Visual Studio subscriptions portal
 # For Visual Studio subscribers
 To view your subscriber benefits, visit the Visual Studio Subscriber Portal 
 >>>>>>> c195abae9d13980504848355f06f0071a47fcb76
-[(https://my.visualstudio.com)](https://my.visualstudio.com) or click **View my subscription**.
+[(https://my.visualstudio.com)](https://my.visualstudio.com?wt.mc_id=o~msft~docs) or click **View my subscription**.
 
 
 ### Activating subscriptions purchased through the Microsoft Store
@@ -71,7 +68,7 @@ If you've purchased a Visual Studio subscription through the Microsoft Store, th
 
 To activate your subscription: 
 
-1. Click on **Click here to sign in**. You will be redirected to [https://my.visualstudio.com/subscriptions/activate](https://my.visualstudio.com/subscriptions/activate)
+1. Click on **Click here to sign in**. You will be redirected to [https://my.visualstudio.com/subscriptions/activate](https://my.visualstudio.com/subscriptions/activate?wt.mc_id=o~msft~docs)
 
 2. Enter the email address you'll be using to access to the Visual Studio subscription and click **Continue**.
 
@@ -81,4 +78,4 @@ To activate your subscription:
 5. Upon successful sign in, an **Activate Your Visual Studio Subscription** window will appear.
 6. Enter the **Product Key** information available from the payment Confirmation Page or Confirmation Email and click **Activate**.
 
-7. Your subscription should now be visible on the [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions).
+7. Your subscription should now be visible on the [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs).

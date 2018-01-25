@@ -1,5 +1,5 @@
 ---
-title: WhiteSource Bolt Benefit
+title: WhiteSource Bolt Benefit | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -61,7 +61,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
     ![WhiteSource Benefit Activate](_img\vs-whitesource\vs-whitesource-activate-page-cropped.png)
 
 4.	In the **Activate your account** section of the page, you’ll be guided through four steps:
-    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, please visit [this page](https://www.visualstudio.com/en-us/docs/marketplace/get-vsts-extensions#request).
+    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, please visit [this page](https://www.visualstudio.com/docs/marketplace/get-vsts-extensions#request).
 
     Click the green **Install** button if you are using VSTS, or the **Download** button for Team Foundation Server.  For this example, we will use VSTS. 
 

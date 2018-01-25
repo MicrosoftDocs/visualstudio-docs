@@ -1,5 +1,5 @@
 ---
-title: How do I locate my “Public Customer Number” (PCN) or Authorization Number?
+title: How do I locate my “Public Customer Number” (PCN) or Authorization Number? | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

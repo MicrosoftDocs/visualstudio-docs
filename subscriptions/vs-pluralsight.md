@@ -1,5 +1,5 @@
 ---
-title: Pluralsight Benefit in Visual Studio Subscriptions
+title: Pluralsight Benefit in Visual Studio Subscriptions | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -52,7 +52,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
     ![Pluralsight Benefit Tile](_img\vs-pluralsight\vs-pluralsight-3month-tile.png)
 
-**IMPORTANT:** When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message: 
+[!IMPORTANT] When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message: 
  
  **"Please note:   If you have previously activated a different Pluralsight offer through your Visual Studio subscription, this code may not enable you to create a new Pluralsight account."**
 
@@ -78,7 +78,8 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
     ![Pluralsight Benefit Confirmation](_img\vs-pluralsight\vs-pluralsight-confirmation-vse.png)
 
 
-**NOTE:**  If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account. 
+[!NOTE]
+If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account. 
 
 6.  Once your account has been successfully created, the email you receive will contain your username, and ask you to create a password.  Provide your password, enter it again to confirm it, and click **Log in to Pluralsight**.
 

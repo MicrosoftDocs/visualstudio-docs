@@ -1,5 +1,5 @@
 ---
-title: Using Subscriber Downloads on Visuals Studio Subscriptions | Visual Studio Marketplace
+title: Using Subscriber Downloads on Visuals Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

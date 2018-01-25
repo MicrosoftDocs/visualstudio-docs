@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Subscriptions - Locating the Primary Contact 
+title: Visual Studio Subscriptions - Locating the Primary Contact | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

@@ -1,5 +1,5 @@
 ---
-title: Priority Support Benefit in Visual Studio Subscription
+title: Priority Support Benefit in Visual Studio Subscription | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

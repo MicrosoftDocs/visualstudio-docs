@@ -1,5 +1,5 @@
 ---
-title: Microsoft Partner Network (MPN) Visual Studio Subscriptions  | Visual Studio Marketplace
+title: Microsoft Partner Network (MPN) Visual Studio Subscriptions  | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -15,13 +15,13 @@ Searchscope: VS Subscription
 
 ## Overview
 
-The number and level of Visual Studio subscriptions vary by your Microsoft Partner Networks (MPN) membership level, as highlighted on the MPN [Core Benefits](https://partner.microsoft.com/en-us/membership/core-benefits) page.  To use a subscription, please work with your Program Administrator to ensure that a Visual Studio subscriptions is  assigned to you.  
+The number and level of Visual Studio subscriptions vary by your Microsoft Partner Networks (MPN) membership level, as highlighted on the MPN [Core Benefits](https://partner.microsoft.com/membership/core-benefits) page.  To use a subscription, please work with your Program Administrator to ensure that a Visual Studio subscriptions is  assigned to you.  
 
 ## Resources & References
 
-- Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/en-US/membership/msdn-subscriptions)
+- Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/membership/msdn-subscriptions)
 
-- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits]((https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) )
+- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits]((https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) )
     - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
 
       **Note:**  The Technical Contact Role is required for Visual Studio subscriptions
@@ -67,4 +67,4 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 
 ## Need help?
-Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/en-US/support) page for assistance. (Your MPN sign in credentials will be required.)
+Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)

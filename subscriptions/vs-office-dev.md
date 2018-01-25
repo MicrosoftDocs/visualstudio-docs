@@ -1,5 +1,5 @@
 ---
-title: The Office 365 Developer Benefit in Visual Studio Subscriptions
+title: The Office 365 Developer Benefit in Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -76,7 +76,10 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
     ![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
 
-11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.    (Note:  For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.)
+11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.   
+ 
+[!NOTE]
+For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.)
 
 
 12.	At this point, you have successfully redeemed your Office 365 Developer Subscription benefit.  You’ll see a page confirming your order.  The page will provide a link to the [sign-in page](https://portal.office.com "Office 365 sign-in page").  We recommend bookmarking the page for later use.  You’ll also want to record the user ID shown on the page.  (You will also receive a welcome email at the address you provided when you set up the account.)  Click **Start setup** to continue.  
@@ -90,7 +93,8 @@ A:  Setting up the Office 365 Developer subscription benefit
 
 1. To set up your Office 365 Developer Subscription benefit, you can either start from the "Thanks for your order" page, or sign in to the Office portal by visiting [https://portal.office.com](https://portal.office.com) at a later time.  In this case, we’ve selected **Start Setup** after the confirmation page.
 
-Note:  To sign in to https://portal.office.com, you will need to use your new Office 365 Developer Subscription User ID that you created in Step 7 above.
+[!NOTE]
+To sign in to https://portal.office.com, you will need to use your new Office 365 Developer Subscription User ID that you created in Step 7 above.
 
 2. After clicking **Start Setup**, “Step 1” will ask to connect to an existing domain you already own, or to continue using the tenant setup during redemption process.  In the example below, we’ve opted to continue using our appsbyjane2017.onmicrosoft.com” domain.
 
@@ -125,7 +129,8 @@ A:  In case you didn’t assign the required number of users during the redempti
 
 1. To increase users after the redemption process has been completed, you will need to visit [https://portal.office.com](https://portal.office.com) and sign in with the “User ID” created during the tenant creation steps.
 
-    Note:  If you’re having trouble finding your sign in information, look in your “Order Confirmation” email sent from the “Microsoft Online Service Team” with the subject “Order Confirmation:  Thank you for your purchase”.  Alternatively, you can also search your inbox for “Body:(Office 365 Enterprise E3 Developer MSDN)”.
+[!NOTE]
+If you’re having trouble finding your sign in information, look in your “Order Confirmation” email sent from the “Microsoft Online Service Team” with the subject “Order Confirmation:  Thank you for your purchase”.  Alternatively, you can also search your inbox for “Body:(Office 365 Enterprise E3 Developer MSDN)”.
 
 2. After successful sign in, select the **Admin** tile. You will be redirected to the “Admin Center”.
 
@@ -137,7 +142,8 @@ A:  In case you didn’t assign the required number of users during the redempti
 
 6. The “Purchase” value, as indicated on the “Subscriptions” page, should now match the value submitted.
 
-Note:  Exceeding a value of 25 “Total users” will result in an error.
+[!NOTE]
+Exceeding a value of 25 “Total users” will result in an error.
 
 
 ## Support Resources

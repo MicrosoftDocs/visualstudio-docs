@@ -1,5 +1,5 @@
 ---
-title: Using Product Keys 
+title: Using Product Keys | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -111,4 +111,4 @@ End users can connect to access applications via RDS if the following conditions
 - Up to 200 concurrent user connections may be used for demonstrations of the application. 
 - The product keys to enable user connections must be obtained by a Visual Studio subscriber.
 
-If you need instructions for setting up RD Licensing on your server, please see [RD Licensing Configuration on Windows Server 2012](http://blogs.technet.com/b/askperf/archive/2013/09/20/rd-licensing-configuration-on-windows-server-2012.aspx). If you have any questions, please visit the [Microsoft Remote Desktop Services forum](https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=winserverTS). 
+If you need instructions for setting up RD Licensing on your server, please see [RD Licensing Configuration on Windows Server 2012](http://blogs.technet.com/b/askperf/archive/2013/09/20/rd-licensing-configuration-on-windows-server-2012.aspx). If you have any questions, please visit the [Microsoft Remote Desktop Services forum](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS). 

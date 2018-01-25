@@ -1,5 +1,5 @@
 ---
-title: Using the Subscriber Portal - http://my.visualstudio.com
+title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

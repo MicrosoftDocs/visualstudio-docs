@@ -1,5 +1,5 @@
 ---
-title: Locating Your Subscription ID for Visual Studio Subscriptions
+title: Locating Your Subscription ID for Visual Studio Subscriptions | Microsoft Docs 
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -17,8 +17,8 @@ Searchscope: VS Subscription
 The "Subscription ID" is a 32-digit GUID associated with a subscriber's subscription or program.  In some situations, the Support team may ask a subscriber to provide their subscriber ID to narrow down potential issues with a specific subscription. 
 
 ## How to find your subscription ID
-1. Go to [https://my.visualstudio.com/subscriptions]9https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs).
-2. Sign in to your subscription.  (Get help [signing in](https://docs.microsoft.com/en-us/visualstudio/subscriptions/signing-in).)
+1. Go to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs).
+2. Sign in to your subscription.  (Get help [signing in](/visualstudio/subscriptions/signing-in).)
 3. Once you've signed in, you will see a list of the subscriptions associated with the email address you used to sign in.  You can see:
     - Subscription/Program type
     - Subscription ID 

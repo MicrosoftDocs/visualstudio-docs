@@ -1,5 +1,5 @@
 ---
-title: The Xamarin University Benefit in Visual Studio Subscriptions
+title: The Xamarin University Benefit in Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -74,6 +74,6 @@ A:  No, courses and materials included with Xamarin University in both Visual St
 
 
 ## Support Resources
--  Need help with Xamarin?  You can find a variety of support resources at https://www.xamarin.com/support .
+-  Need help with Xamarin?  You can find a variety of support resources at [https://www.xamarin.com/support](https://www.xamarin.com/support).
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

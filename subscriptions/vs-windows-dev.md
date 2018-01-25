@@ -1,5 +1,5 @@
 ---
-title:  Windows Developer Account Benefit in Visual Studio Subscriptions
+title:  Windows Developer Account Benefit in Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -79,6 +79,6 @@ We recommend that you create a "private" browser window for this process.  For e
 
 ## Support Resources
 -  Need help with using your Windows Developer account?  Check out the [support](https://developer.microsoft.com/windows/support) resources on the [Windows Dev Center](https://developer.microsoft.com/windows).
--  To learn more about Windows Development, visit https://docs.microsoft.com/windows/.
+-  To learn more about Windows Development, visit [https://docs.microsoft.com/windows/](/windows/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

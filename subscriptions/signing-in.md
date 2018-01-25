@@ -1,5 +1,5 @@
 ---
-title: Signing in to Visual Studio Subscriptions | Visual Studio Marketplace
+title: Signing in to Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -23,7 +23,7 @@ Three different sign-in methods are covered in this article:
 ## Signing in with your Microsoft Account (MSA)
 1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address you provided when you set up or purchased your Visual Studio subscription.
-    - **Note:**  This address is also identified in the subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the welcome email. 
+    [!NOTE]  This address is also identified in the subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the welcome email. 
 
 3. Enter your password.
 4. Click **Sign in**. 
@@ -35,7 +35,7 @@ When you access your Visual Studio Dev Essentials subscription for the first tim
 ## Signing in with your work or school account 
 1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address to which the new Visual Studio subscription was assigned.
-    - **Note:**  This address is also identified in the subscriber welcome email you received. Please check your junk mail folders if you have trouble locating the welcome email. 
+    [!NOTE]  This address is also identified in the subscriber welcome email you received. Please check your junk mail folders if you have trouble locating the welcome email. 
 
 3. Click **Continue**.
 4. You will be redirected to your corporate sign-in page.
@@ -52,13 +52,13 @@ You can also see your currently selected subscription in the upper right corner,
 1. Go to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address that was assigned the new Visual Studio subscription 
 
-**Note:**  This address is also identified in the subscriber Welcome Letter. Please check your junk mail folders if the Welcome Letter was not received
+[!NOTE]  This address is also identified in the subscriber Welcome Letter. Please check your junk mail folders if the Welcome Letter was not received
 
 3. Click **Continue**.
 4. You'll be redirected to a decision page.
     - Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory (AAD) tenant.
     - Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA). 
-        - Note:  This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
+        [!NOTE]  This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
     - If one pathway fails, try the other.  Subscription administrators may have modified your subscription.
 

@@ -1,5 +1,5 @@
 ---
-title: Handle expired licenses | Visual Studio Marketplace
+title: Handle expired licenses | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

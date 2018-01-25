@@ -1,5 +1,5 @@
 ---
-title: How Do I Know What Software is Available for Download?
+title: How Do I Know What Software is Available for Download? | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -17,12 +17,12 @@ The [list of software downloads](http://download.microsoft.com/download/1/5/4/15
 
 If you already have a Visual Studio subscription: 
 1. Go to [https://my.visualstudio.com/downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs)
-2. Sign in to your subscription.  (Get help [signing in](https://docs.microsoft.com/en-us/visualstudio/subscriptions/signing-in).)
+2. Sign in to your subscription.  (Get help [signing in](/visualstudio/subscriptions/signing-in).)
 3. Upon successful sign-in, you will be able to search for your desired downloads.  You can also see a list of popular downloads, which can be sorted by any of several criteria. 
 
 To quickly find products, use the "Search" functions at the top of the page or click on the different product types on the left.
 
 
-TIP:  If you're looking for your product keys, click "Product Keys" at the top of the page.
+[!TIP]:  If you're looking for your product keys, click "Product Keys" at the top of the page.
 
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.  

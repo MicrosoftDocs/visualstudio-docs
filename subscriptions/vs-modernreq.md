@@ -1,5 +1,5 @@
 ---
-title: The MODERNRequirements Benefit in Visual Studio Subscriptions
+title: The MODERNRequirements Benefit in Visual Studio Subscriptions | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
