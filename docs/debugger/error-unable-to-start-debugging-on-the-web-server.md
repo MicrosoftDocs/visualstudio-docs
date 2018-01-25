@@ -82,7 +82,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 ## <a name="server_error"></a> The remote server returned an error
 
 Check the error code that is returned in the message to help identify the cause of the problem. Here are a few common error codes.
-- (403) Forbidden. Make sure the server's web.config includes `debug=true` in the compilation element. Then, check that your Web Application folder has the right permissions and also check your Application Pool configuration (a password may have changed). For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
+- (403) Forbidden. Check your IIS security settings for the web site. Make sure the server's web.config includes `debug=true` in the compilation element. Make sure that your Web Application folder has the right permissions and that your Application Pool configuration is correct (a password may have changed). For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct and you are debugging locally, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
 - (503) Server Unavailable. The Application Pool may have stopped due to an error or configuration change. Restart the Application Pool.
 - (404) Not Found. Make sure that the Application Pool is configured for the correct version of ASP.NET.
 
