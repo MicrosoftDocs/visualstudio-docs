@@ -64,14 +64,16 @@ Architecture Overview
   
  You might have to adjust the exact copy paths, but no additional installation is required. On a 64-bit machine, use the 32-bit Visual Studio Enterprise command prompt to run the `CopyDrop.bat` file.  
   
-### Testing Excel with the SampleTestProject  
- You can run the test in the provided test project which uses a specific version of Excel that you may not have, or create your own test project and record a test of your own. For more information, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
-  
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>   
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>   
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>   
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>   
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+### Testing Excel with the SampleTestProject
+
+You can run the test in the provided test project which uses a specific version of Excel that you may not have, or create your own test project and record a test of your own. For more information, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
+
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>   
+<xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>   
+<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>   
+<xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>   
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
+[Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

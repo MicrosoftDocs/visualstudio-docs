@@ -17,11 +17,13 @@ ms.workload:
 author: gewarren
 ---
 # Unit tests for Generic Methods
-You can generate unit tests for generic methods exactly as you do for other methods, as described in [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48). The following sections provide information about and examples of creating unit tests for generic methods.  
-  
-## Type Arguments and Type Constraints  
- When [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a unit test for a generic class, such as `MyList<T>`, it generates two methods: a generic helper and a test method. If `MyList<T>` has one or more type constraints, the type argument must satisfy all the type constraints. To make sure that the generic code under test works as expected for all permissible inputs, the test method calls the generic helper method with all the constraints that you want to test.  
-  
+
+You can generate unit tests for generic methods exactly as you do for other methods. The following sections provide information about and examples of creating unit tests for generic methods.
+
+## Type Arguments and Type Constraints
+
+When Visual Studio generates a unit test for a generic class, such as `MyList<T>`, it generates two methods: a generic helper and a test method. If `MyList<T>` has one or more type constraints, the type argument must satisfy all the type constraints. To make sure that the generic code under test works as expected for all permissible inputs, the test method calls the generic helper method with all the constraints that you want to test.
+
 ## Examples  
  The following examples illustrate unit tests for generics:  
   
@@ -193,6 +195,6 @@ namespace ClassLibrary2
 }  
 ```  
   
-## See Also  
- [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144)   
- [Unit Test Your Code](../test/unit-test-your-code.md)
+## See also
+
+[Unit Test Your Code](../test/unit-test-your-code.md)
