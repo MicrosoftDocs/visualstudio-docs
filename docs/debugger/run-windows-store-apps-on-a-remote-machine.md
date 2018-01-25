@@ -1,5 +1,5 @@
 ---
-title: "Run UWP and Windows 8.1 apps on a remote machine | Microsoft Docs"
+title: "Run UWP apps on a remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/05/2018"
 ms.reviewer: ""
@@ -21,29 +21,26 @@ manager: ghogen
 ms.workload: 
   - "uwp"
 ---
-# Run UWP and Windows 8.1 apps on a remote machine  
+# Run UWP apps on a remote machine in Visual Studio
   
-To run a UWP or Windows 8.1 app on a remote machine, you must attach to it using the Remote Tools for Visual Studio. The remote tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
+To run a UWP app on a remote machine, you must attach to it using the Remote Tools for Visual Studio. The remote tools enable you to run, debug, profile, and test a UWP app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to UWP apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.
 
 In some scenarios, the remote tools are automatically installed when you deploy to a remote device.
 
 - For Windows 10 PCs running Creators Update and later versions, remote tools will be installed automatically.
 - For Windows 10 Xbox, IOT, and HoloLens devices, remote tools will be installed automatically.
-- For Windows Phone, you must be physically connected to the phone, you must either install a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) (Windows Phone 8 and 8.1) or enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) (Windows Mobile 10), and you must select **Device** as the debug target. Remote tools are not required or supported.
+- For Windows Mobile 10, you must be physically connected to the phone, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) and you must select **Device** as the debug target. Remote tools are not required or supported.
 
-For Windows 8.1 PCs and Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic. 
+For Windows 10 PCs running a pre-Creator's Update version of Windows, you must install the remote tools on the remote machine manually before you can debug. Follow the instructions in this topic. 
   
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
   
--   The remote device and the Visual Studio computer must be connected over a network or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.  
+- The remote device and the Visual Studio computer must be connected over a network or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.  
 
-- The remote device must be enabled for development.
-
-    - For Windows 8 and Windows 8.1 devices, a [developer's license](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh974578.aspx) must be installed on the remote device.
-    - For Windows 10 devices, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). 
+- You must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). 
   
--   For Windows 10 PCs running a version of Windows 10 earlier than Windows 10 Creator's Update, you must [install and run the remote debugging components](#BKMK_download).
+- For Windows 10 PCs running a version of Windows 10 earlier than Windows 10 Creator's Update, you must [install and run the remote debugging components](#BKMK_download).
   
 ##  <a name="BKMK_Security"></a> Security  
 By default, **Universal (Unencrypted Protocol)** is used on Windows 10. Ths protocol should only be used on trusted networks. The debugging connection is vulnerable to malicious users who could intercept and change data being passed between the development and remote machine.
@@ -53,7 +50,7 @@ By default, **Universal (Unencrypted Protocol)** is used on Windows 10. Ths prot
   
 ##  <a name="BKMK_DirectConnect"></a> How to connect directly using a USB cable 
 
-On Windows 10, you can deploy to a USB-connected device by choosing **Device** instead of **Remote Machine** as the deployment target (you can do this in the **Standard** toolbar or in the debugging properties page). For Windows 8.1, the remote tools must be installed on the device before you can connect directly.
+On Windows 10, you can deploy to a USB-connected device by choosing **Device** instead of **Remote Machine** as the deployment target (you can do this in the **Standard** toolbar or in the debugging properties page).
 
 ##  <a name="BKMK_ConnectVS"></a> Configure the Visual Studio project for remote debugging  
  You specify the remote device to connect to in the properties of the project. The procedure differs depending on the programming language. You can type the network name of the remote device or you can select it from the **Remote Connection** dialog box.  
@@ -91,7 +88,7 @@ On Windows 10, you can deploy to a USB-connected device by choosing **Device** i
   
 ## <a name="BKMK_download"></a> Download and Install the remote tools (pre-Creators Update)
 
-If you are using Windows 8.1 or a pre-Creator's Update versions of Windows 10, then follow these instructions. Otherwise, you can skip this section.
+If you are using a pre-Creator's Update versions of Windows 10, then follow these instructions. Otherwise, you can skip this section.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
@@ -102,8 +99,9 @@ If you are using Windows 8.1 or a pre-Creator's Update versions of Windows 10, t
 ##  <a name="BKMK_RunRemoteDebug"></a> Start a remote debugging session  
  You start, stop, and navigate a remote debug session the same way you do a local session. On pre-Creator's Update versions of Windows 10, make sure the Remote Debugging Monitor is running on the remote device.  
   
- Then choose **Start Debugging** on the **Debug** menu (Keyboard: F5). The project is recompiled, then deployed to and started on the remote device. The debugger suspends execution at breakpoints, and you can step into, over, and out of your code. Choose **Stop Debugging** to end your debug session and close the remote app. For more information, see [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
+ Then choose **Start Debugging** on the **Debug** menu (Keyboard: F5). The project is recompiled, then deployed to and started on the remote device. The debugger suspends execution at breakpoints, and you can step into, over, and out of your code. Choose **Stop Debugging** to end your debug session and close the remote app.
   
 ## See Also  
+ [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)  
  [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

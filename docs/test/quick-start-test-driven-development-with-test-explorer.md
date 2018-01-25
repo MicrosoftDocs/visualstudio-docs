@@ -143,15 +143,15 @@ We recommend that you create unit tests to help keep your code working correctly
   
      ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png "UnitTestExplorerWalkthrough3")  
   
-#### Add tests to extend the range of inputs  
-  
-1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
-  
+#### Add tests to extend the range of inputs
+
+1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.
+
     > [!TIP]
-    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don't lose existing functionality as you work to extend the code.  
-  
-     In your test class, add the following test, which tries a range of input values:  
-  
+    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
+
+     In your test class, add the following test, which tries a range of input values:
+
     ```csharp  
     [TestMethod]  
     public void RooterValueRange()  

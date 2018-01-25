@@ -162,9 +162,9 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />  
     ```  
   
-## See Also  
- [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
- [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
- [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
- [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
- [How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md)
+## See also
+
+[Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
+[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
+[Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md)

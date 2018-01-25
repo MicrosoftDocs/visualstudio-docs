@@ -32,6 +32,9 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "",
@@ -45,23 +48,7 @@
       "ms.technology": "vs-ide-general",
       "ms.tgt_pltfrm": "dotnet",
       "searchScope": ["VS IDE"],
-      "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "featureFlags": ["productfeedback"],
-      "product_feedback_link_url1": "https://developercommunity.visualstudio.com/",
-      "product_feedback_link_text_key1": "reportAProductIssue",
-      "product_feedback_link_url2": "https://visualstudio.uservoice.com",
-      "product_feedback_link_text_key2": "suggestionProduct"
-    },
-    "fileMetadata": {
-      "product_feedback_link_url3": {
-        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs",
-        "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio"
-        
-      },
-      "product_feedback_link_text_key3": {
-        "extensibility/**/*.md": "askQuestion",
-        "install/**/*.md": "askQuestion"
-      }
+      "uhfHeaderId": "MSDocsHeader-VisualStudio"
     },
     "template": [],
     "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],

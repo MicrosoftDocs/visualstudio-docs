@@ -1,5 +1,5 @@
 ---
-title: "Visual C# Code Snippets | Microsoft Docs"
+title: "C# Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/05/2017"
 ms.reviewer: ""
@@ -11,14 +11,14 @@ helpviewer_keywords:
   - "snippets [C#]"
   - "code snippets [C#]"
   - "Code Snippet Inserter [C#]"
-  - "Visual C#, code snippets"
+  - "C#, code snippets"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# Visual C# code snippets
+# C# code snippets
 
 Code snippets are ready-made snippets of code you can quickly insert into your code. For example, the `for` code snippet creates an empty `for` loop. Some code snippets are surround-with code snippets, which enable you to select lines of code, and then choose a code snippet which incorporates the selected lines of code. For example, when you select lines of code and then activate the `for` code snippet, it creates a `for` loop with those lines of code inside the loop block. Code snippets can make writing program code quicker, easier, and more reliable.
 
