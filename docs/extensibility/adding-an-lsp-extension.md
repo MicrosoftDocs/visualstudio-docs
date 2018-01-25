@@ -144,7 +144,7 @@ The LSP does not include specification on how to provide text colorization for l
 
 5. Right-click on the files and select **Properties**. Change the Build action to **Content** and the **Include in VSIX** property to true.
 
-After completing the above steps, a "Grammars" folder is added in the package’s install directory as a repository source named 'MyLang' ('MyLang' is just a name for disambiguation and can be any unique string). All of the grammars (.tmlanguage files) and theme files (.tmtheme files) in this directory are picked up as potentials and they supersede the built-in grammars provided with TextMate. If the grammar file's declared extensions match the extension of the file being opened, TextMate will step in.
+After completing the previous steps, a "Grammars" folder is added to the package’s install directory as a repository source named 'MyLang' ('MyLang' is just a name for disambiguation and can be any unique string). All of the grammars (.tmlanguage files) and theme files (.tmtheme files) in this directory are picked up as potentials and they supersede the built-in grammars provided with TextMate. If the grammar file's declared extensions match the extension of the file being opened, TextMate will step in.
 
 ## Creating a simple language client
 
@@ -155,7 +155,7 @@ After creating your VSIX project, add the following NuGet package(s) to your pro
 * [Microsoft.VisualStudio.LanguageServer.Client](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)
 
 > [!NOTE]
-> When you take a dependency on the nuget package above, the Newtonsoft.Json and StreamJsonRpc packages are added to your project as well. **Do not update these packages unless you are certain that those new versions will be installed on the version of Visual Studio that your extension targets**. The assemblies will not be included in your VSIX -- instead, they will be picked up from the Visual Studio installation directory. If you are referencing a newer version of the assemblies than what is installed on a user's machine, your extension *will not work*.
+> When you take a dependency on the NuGet package after you complete the previous steps, the Newtonsoft.Json and StreamJsonRpc packages are added to your project as well. **Do not update these packages unless you are certain that those new versions will be installed on the version of Visual Studio that your extension targets**. The assemblies will not be included in your VSIX -- instead, they will be picked up from the Visual Studio installation directory. If you are referencing a newer version of the assemblies than what is installed on a user's machine, your extension *will not work*.
 
 You can then create a new class that implements the [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017) interface, the main interface needed for language clients connecting to an LSP-based language server.
 
@@ -216,7 +216,7 @@ The main methods that need to be implemented are [OnLoadedAsync](/dotnet/api/mic
 
 ### Activation
 
-Once your language client class is implemented, you need to define two attributes for it to define how it will be loaded into Visual Studio and activated:
+Once your language client class is implemented, you'll need to define two attributes for it to define how it will be loaded into Visual Studio and activated:
 
 ```csharp
   [Export(typeof(ILanguageClient))]
@@ -243,7 +243,7 @@ Click new to create a new Asset:
 
 ### Content Type Definition
 
-Currently the only way to load your LSP-based language server extension is by file content type. That is, when defining your language client class (which implements [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017)), you need to define the types of files that, when opened, cause your extension to load. If no files that match your defined content type are opened, then your extension will not load.
+Currently the only way to load your LSP-based language server extension is by file content type. That is, when defining your language client class (which implements [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017)), you will need to define the types of files that, when opened, will cause your extension to load. If no files that match your defined content type are opened, then your extension will not be loaded.
 
 This is done through defining one or more ContentTypeDefinition classes:
 
@@ -266,7 +266,7 @@ namespace MockLanguageExtension
 }
 ```
 
-In the example above, a content type definition is created for files that end in `.bar` file extension. The content type definition is given the name "bar" and **must** derive from [CodeRemoteContentTypeName](/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017).
+In the previous example, a content type definition is created for files that end in `.bar` file extension. The content type definition is given the name "bar" and **must** derive from [CodeRemoteContentTypeName](/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017).
 
 After adding a content type definition, you can then define when to load your language client extension in the language client class:
 
@@ -278,13 +278,13 @@ After adding a content type definition, you can then define when to load your la
     }
 ```
 
-Adding support for LSP language servers does not require you to implement your own project system in Visual Studio. Customers can open a single file or a folder in Visual Studio to start using your language service. In fact, support for LSP language servers is designed to work only in open folder/file scenarios. If a custom project system is implemented, some features (such as settings) do not work.
+Adding support for LSP language servers does not require you to implement your own project system in Visual Studio. Customers can open a single file or a folder in Visual Studio to start using your language service. In fact, support for LSP language servers is designed to work only in open folder/file scenarios. If a custom project system is implemented, some features (such as settings) will not work.
 
 ## Advanced Features
 
 ### Settings
 
-Support for custom language server-specific settings is available for Preview release of LSP support in Visual Studio, but it is still in the process of being improved. Settings are specific to what the language server supports and usually control how the language server emits data. For example, a language server might have a setting for the maximum number of errors reported. Extension authors would define a default value, which can be changed by users for specific projects.
+Support for custom language-server-specific settings is available for Preview release of LSP support in Visual Studio, but it is still in the process of being improved. Settings are specific to what the language server supports and usually control how the language server emits data. For example, a language server might have a setting for the maximum number of errors reported. Extension authors would define a default value, which can be changed by users for specific projects.
 
 Follow these steps below to add support for settings to your LSP language service extension:
 
@@ -339,7 +339,7 @@ Follow these steps below to add support for settings to your LSP language servic
 ### Enabling diagnostics tracing
 Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, do the following:
 
-1. Open or create the workspace settings file "VSWorkspaceSettings.json" (see above).
+1. Open or create the workspace settings file "VSWorkspaceSettings.json" (see "User editing of settings for a workspace").
 2. Add the following line in the settings json file:
 
 ```json
