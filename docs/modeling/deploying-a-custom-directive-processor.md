@@ -15,20 +15,22 @@ ms.workload:
   - "multiple"
 ---
 # Deploying a Custom Directive Processor
+
 To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.  
   
- The alternative methods are:  
+The alternative methods are:  
   
--   [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
+-   [Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
   
 -   [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
   
 -   Set a registry key. In this method, you add a registry entry for the directive processor.  
   
- You need to use one of these methods only if you want to transform your text template in Visual Studio or [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
+You need to use one of these methods only if you want to transform your text template in Visual Studio or MSBuild. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
   
-## Deploying a Directive Processor in a VSIX  
- You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832).  
+## Deploying a Directive Processor in a VSIX
+
+You can add a custom directive processor to a [Visual Studio Extension (VSIX)](../extensibility/starting-to-develop-visual-studio-extensions.md).
   
  You need to make sure that the following two items are contained in the .vsix file:  
   
@@ -36,10 +38,10 @@ To use a custom directive processor in Visual Studio on any computer, you must r
   
 -   A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.  
   
- To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.  
-  
- There are several ways of creating a .vsix file. The following procedure describes one method.  
-  
+To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.  
+
+There are several ways of creating a .vsix file. The following procedure describes one method.  
+
 #### To develop a custom directive processor in a VSIX project  
   
 1.  Create a VSIX project in Visual Studio.  
@@ -194,5 +196,6 @@ To use a custom directive processor in Visual Studio on any computer, you must r
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|  
 |Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|  
   
-## See Also  
- [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)
+## See also
+
+[Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)
