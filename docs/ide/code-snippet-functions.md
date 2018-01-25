@@ -20,22 +20,25 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Code Snippet Functions
-There are three functions available to use with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
-  
-## Functions  
- The following table describes the functions available for use with the `Function` element in code snippets.  
-  
+# Code Snippet functions
+
+There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).
+
+## Functions
+
+The following table describes the functions available for use with the `Function` element in code snippets.
+
 |Function|Description|Language|  
 |--------------|-----------------|--------------|  
 |`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
 |`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
 |`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
   
-## Example  
- The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.  
-  
-```  
+## Example
+
+The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.  
+
+```xml
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
     <CodeSnippet Format="1.0.0">  
         <Header>  
@@ -71,12 +74,13 @@ There are three functions available to use with [!INCLUDE[csprcs](../data-tools/
         </Snippet>  
     </CodeSnippet>  
 </CodeSnippets>  
-```  
-  
-## Example  
- The following example shows how to use the `ClassName` function. When this snippet is inserted, the `$classname$` literal is replaced with the name of the enclosing class at that location in the code file.  
-  
-```  
+```
+
+## Example
+
+The following example shows how to use the `ClassName` function. When this snippet is inserted, the `$classname$` literal is replaced with the name of the enclosing class at that location in the code file.
+
+```xml
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
     <CodeSnippet Format="1.0.0">  
         <Header>  
@@ -117,12 +121,13 @@ There are three functions available to use with [!INCLUDE[csprcs](../data-tools/
         </Snippet>  
     </CodeSnippet>  
 </CodeSnippets>  
-```  
-  
-## Example  
- This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.  
-  
-```  
+```
+
+## Example
+
+This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.  
+
+```xml
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
     <CodeSnippet Format="1.0.0">  
         <Header>  
@@ -149,8 +154,9 @@ There are three functions available to use with [!INCLUDE[csprcs](../data-tools/
         </Snippet>  
     </CodeSnippet>  
 </CodeSnippets>  
-```  
-  
-## See Also  
- [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
- [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
+```
+
+## See also
+
+[Function Element](../ide/code-snippets-schema-reference.md#function)  
+[Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

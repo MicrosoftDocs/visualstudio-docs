@@ -74,7 +74,6 @@
 ##### [Add References Using NuGet Versus an Extension SDK](ide/adding-references-using-nuget-versus-an-extension-sdk.md)
 ##### [Add or Remove Imported Namespaces (Visual Basic)](ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)
 ##### [Troubleshoot Broken References](ide/troubleshooting-broken-references.md)
-#### [Application Properties](ide/application-properties.md)
 #### [Manage Application Resources (.NET)](ide/managing-application-resources-dotnet.md)
 #### [Manage Application Settings (.NET)](ide/managing-application-settings-dotnet.md)
 ##### [Add an app config file to a C# project](ide/how-to-add-app-config-file.md)

@@ -37,9 +37,9 @@ You'll need:
 
 -  Visual Studio Enterprise or Visual Studio Professional
 
--  Visual C# .NET or Visual Basic .NET code
+-  C# or Visual Basic code
 
-Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from Visual C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.
+Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.
 
 ![CodeLens &#45; Choose references indicator](../ide/media/codelensviewreferenceslist.png "CodeLensViewReferencesList")  
 
@@ -63,9 +63,9 @@ You'll need:
 
 - Team Foundation Server 2013 or later, Visual Studio Team Services, or Git
 
-- [Lync 2010 or later, or Skype for Business](http://technet.microsoft.com/en-us/lync), to contact your team from the code editor  
+- [Lync 2010 or later, or Skype for Business](https://technet.microsoft.com/office/dn788773), to contact your team from the code editor
 
-For Visual C# .NET or Visual Basic .NET code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
+For C# or Visual Basic code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
 
 ![Code element&#45;level indicators](../ide/media/codelenselementlevelindicators.png "CodeLensElementLevelIndicators")  
 
@@ -83,7 +83,7 @@ Find who changed your C# or Visual Basic code, and the changes they made, in cod
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelenscodechanges.png "CodeLensCodeChanges")  
 
-The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change this by running the [TFSConfig command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.  
+The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change this by running the [TFSConfig command](/vsts/tfs-server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
 To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**.  
 
@@ -190,7 +190,7 @@ Find out more about unit tests that exist for your code without opening Test Exp
 
 -   Visual Studio Enterprise or Visual Studio Professional  
   
--   Visual C# .NET or Visual Basic .NET code  
+-   C# or Visual Basic code  
   
 -   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
@@ -230,15 +230,15 @@ Find out more about unit tests that exist for your code without opening Test Exp
   
 ###  <a name="NoIndicators"></a> Q: Where is CodeLens?
 
-**A:** CodeLens appears in Visual C# .NET and Visual Basic .NET code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.
+**A:** CodeLens appears in C# and Visual Basic code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.
 
 - Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
-  
-- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62).  
 
-- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](http://msdn.microsoft.com/en-us/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
+- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/vsts/tfs-server/command-line/tfsconfig-cmd).
 
-- Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
+- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions](/vsts/work/scale/multiple-teams).
+
+- Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).
 
 ### Q: Why don't I see the work item details for a commit?
 
@@ -298,11 +298,11 @@ To use the keyboard:
 
 ###  <a name="LocalVersion"></a> Q: What's "Local Version"?
 
-**A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.  
+**A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.
 
 ### Q: Can I manage how CodeLens processes code to show history and linked items?
 
-**A:** Yes, if your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62).
+**A:** Yes, if your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/vsts/tfs-server/command-line/tfsconfig-cmd).
 
 ## See also
 
