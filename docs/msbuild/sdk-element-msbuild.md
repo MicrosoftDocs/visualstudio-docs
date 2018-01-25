@@ -1,7 +1,7 @@
 ---
 title: "Sdk Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/13/2017"
+ms.date: "01/25/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,8 +18,6 @@ dev_langs:
 helpviewer_keywords: 
   - "Sdk element [MSBuild]"
   - "<Sdk> element [MSBuild]"
-ms.assetid: 16f5e57d-4fce-455b-a4a2-e8a7f004dbc1
-caps.latest.revision: 31
 author: "jeffkl"
 ms.author: "jeffkl"
 manager: angerlic
