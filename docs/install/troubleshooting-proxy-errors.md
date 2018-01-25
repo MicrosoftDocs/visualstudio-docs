@@ -49,7 +49,7 @@ This error generally occurs when users are connected to the internet through a p
 
     OR
 
-- If you want to use your default credentials with your proxy, you can do the following:
+- If you want to use your default credentials with your proxy, you can perform the following actions:
 
     1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
