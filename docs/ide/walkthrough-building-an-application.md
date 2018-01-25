@@ -88,13 +88,13 @@ The **Output** window displays the results of the build. The build succeeded, bu
   
  ![Output Window Visual Basic](../ide/media/buildwalk_vbbuildoutputwnd.png "BuildWalk_VBBuildOutputWnd")  
   
- Figure 2: Visual C# warnings  
+ Figure 2: C# warnings  
   
  ![Output Window Visual C&#35;](../ide/media/buildwalk_csharpbuildoutputwnd.png "BuildWalk_CsharpBuildOutputWnd")  
   
 You can temporarily hide certain warning messages during a build rather than have them clutter up the build output.
 
-### To hide a specific Visual C# warning
+### To hide a specific C# warning
   
 1.In **Solution Explorer**, choose the top-level project node.
   
@@ -159,7 +159,7 @@ You can change how much information about the build process appears in the **Out
   
      The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
   
-     For example, in the Visual C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.
+     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.
   
      In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
   
@@ -197,7 +197,7 @@ For more information, see [How to: Change the Build Output Directory](../ide/how
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
-### To specify a release build for Visual C# #
+### To specify a release build for C# #
   
 1.Open the **Project Designer**.
   

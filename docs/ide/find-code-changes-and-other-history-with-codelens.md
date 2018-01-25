@@ -37,9 +37,9 @@ You'll need:
 
 -  Visual Studio Enterprise or Visual Studio Professional
 
--  Visual C# .NET or Visual Basic .NET code
+-  C# or Visual Basic code
 
-Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from Visual C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.
+Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.
 
 ![CodeLens &#45; Choose references indicator](../ide/media/codelensviewreferenceslist.png "CodeLensViewReferencesList")  
 
@@ -65,7 +65,7 @@ You'll need:
 
 - [Lync 2010 or later, or Skype for Business](https://technet.microsoft.com/office/dn788773), to contact your team from the code editor
 
-For Visual C# .NET or Visual Basic .NET code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
+For C# or Visual Basic code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
 
 ![Code element&#45;level indicators](../ide/media/codelenselementlevelindicators.png "CodeLensElementLevelIndicators")  
 
@@ -190,7 +190,7 @@ Find out more about unit tests that exist for your code without opening Test Exp
 
 -   Visual Studio Enterprise or Visual Studio Professional  
   
--   Visual C# .NET or Visual Basic .NET code  
+-   C# or Visual Basic code  
   
 -   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
@@ -230,7 +230,7 @@ Find out more about unit tests that exist for your code without opening Test Exp
   
 ###  <a name="NoIndicators"></a> Q: Where is CodeLens?
 
-**A:** CodeLens appears in Visual C# .NET and Visual Basic .NET code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.
+**A:** CodeLens appears in C# and Visual Basic code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.
 
 - Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
 
