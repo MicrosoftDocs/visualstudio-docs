@@ -24,10 +24,8 @@ helpviewer_keywords:
   - "ProjectItemFile element"
   - "ExtensionDataItem element"
   - "ProjectItem element"
-ms.assetid: 12b63cbc-bf94-4175-bfa8-2117943d00d1
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

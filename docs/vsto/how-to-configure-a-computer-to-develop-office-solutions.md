@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "prerequisites [Office development in Visual Studio]"
   - "Office development in Visual Studio, installing tools"
-ms.assetid: 76b463dc-43f0-47a1-845b-fe0a5e14bd80
-caps.latest.revision: 130
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

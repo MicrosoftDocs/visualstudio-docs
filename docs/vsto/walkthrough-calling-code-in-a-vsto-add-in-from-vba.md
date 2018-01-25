@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], calling code from other solutions"
   - "interoperability [Office development in Visual Studio]"
   - "calling code from VBA"
-ms.assetid: 9c04d1df-0d93-473c-85fd-02dc2e956c9e
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

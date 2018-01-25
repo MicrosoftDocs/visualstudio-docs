@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "worksheets, referring to ranges"
   - "referring to worksheet ranges"
   - "Excel [Office development in Visual Studio], referring to worksheet ranges"
-ms.assetid: 113633b8-426a-4d02-b6b8-d459d1f110ea
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

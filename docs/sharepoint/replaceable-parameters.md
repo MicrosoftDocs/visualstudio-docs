@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "tokens [SharePoint development in Visual Studio]"
   - "replaceable parameters [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, replaceable parameters"
-ms.assetid: 3c46bbb1-0a98-495c-9fd1-dc57a6aedc11
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -27,10 +27,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature receiver"
   - "feature receiver [SharePoint development in Visual Studio]"
   - "safe controls [SharePoint development in Visual Studio]"
-ms.assetid: 209ff3b9-d701-4d27-9d24-005fcc811cbe
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

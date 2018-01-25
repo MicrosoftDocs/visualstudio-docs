@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "object models [Office development in Visual Studio], Outlook"
   - "Office object models"
-ms.assetid: 59704974-b7d9-46d6-949c-e97349c75279
-caps.latest.revision: 59
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

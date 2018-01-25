@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "worksheets, selecting"
   - "Excel projects, selecting worksheets"
-ms.assetid: 9e7cdb11-e825-4c9f-abcd-d46fd20dc5e0
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

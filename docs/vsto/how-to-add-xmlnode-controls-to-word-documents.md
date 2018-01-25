@@ -14,10 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "XMLNode control, adding to documents"
   - "controls [Office development in Visual Studio], adding to documents"
-ms.assetid: d583b9d4-bd13-46e3-9eb7-da18fcb7eb8c
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

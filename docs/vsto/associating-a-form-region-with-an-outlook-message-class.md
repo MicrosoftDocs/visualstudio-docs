@@ -16,10 +16,8 @@ dev_langs:
 helpviewer_keywords: 
   - "FormRegionMessageClassAttribute"
   - "form regions [Office development in Visual Studio], message classes"
-ms.assetid: e2db8d61-fd5f-4059-beec-33b66970f520
-caps.latest.revision: 43
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

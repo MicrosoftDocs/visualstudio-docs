@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets at run time"
   - "application-level add-ins [Office development in Visual Studio], adding controls"
   - "worksheets, adding controls at run time"
-ms.assetid: 4f68677a-4789-4564-b229-02e2d4031a5f
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

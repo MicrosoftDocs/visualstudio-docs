@@ -18,10 +18,8 @@ helpviewer_keywords:
   - "master pages[SharePoint development in Visual Studio], designing"
   - "content pages[SharePoint development in Visual Studio], designing"
   - "page layouts[SharePoint development in Visual Studio], designing"
-ms.assetid: 57678ed1-841f-45de-a1d3-5f9e233bf3ce
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

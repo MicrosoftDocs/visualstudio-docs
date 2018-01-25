@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, server object model"
   - "SharePoint commands [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, extensibility features"
-ms.assetid: 99934f9e-901e-464e-ac8c-22c6c86440f4
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

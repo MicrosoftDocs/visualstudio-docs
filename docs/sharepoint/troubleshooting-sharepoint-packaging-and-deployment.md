@@ -24,10 +24,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging"
   - "SharePoint development in Visual Studio, troubleshooting"
   - "SharePoint development in Visual Studio, deployment conflict resolution"
-ms.assetid: eff72675-59e6-4395-bc80-4255da77f523
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

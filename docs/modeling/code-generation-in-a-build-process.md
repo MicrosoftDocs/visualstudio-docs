@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
-ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
-caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, importing items"
   - "SharePoint development in Visual Studio, importing .wsp files"
   - "importing items [SharePoint development in Visual Studio]"
-ms.assetid: b1012eb8-5927-4522-9475-72f0ba55fcca
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

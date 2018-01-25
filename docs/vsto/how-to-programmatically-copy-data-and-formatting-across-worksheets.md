@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "formatting [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], copying across worksheets"
   - "copying data, Office development in Visual Studio"
-ms.assetid: eed7dbaf-bdb5-4330-ba2e-5f3d50817eca
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "worksheets, searching"
   - "text [Office development in Visual Studio], searching in worksheets"
   - "text searches, worksheets"
-ms.assetid: a6902711-fefb-450a-a76b-b1446d11c423
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

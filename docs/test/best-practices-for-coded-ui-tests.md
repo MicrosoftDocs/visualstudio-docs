@@ -9,27 +9,29 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests, best practices"
+author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
-author: gewarren
 ---
 # Best Practices for Coded UI Tests
-This topic describes the best practices to follow when you develop coded UI tests.  
-  
- **Requirements**  
-  
--   Visual Studio Enterprise  
-  
-## Best Practices  
- Use the following guidelines to create a flexible coded UI test.  
+
+This topic describes the best practices to follow when you develop coded UI tests.
+
+**Requirements**  
+
+- Visual Studio Enterprise
+
+## Best Practices
+
+Use the following guidelines to create a flexible coded UI test.
   
 -   Use the **Coded UI Test Builder** whenever possible.  
   
 -   Do not modify the `UIMap.designer.cs` file directly. If you do this, the changes to the file will be overwritten.  
   
--   Create your test as a sequence of recorded methods. For more information about how to record a method, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
+-   Create your test as a sequence of recorded methods. For more information about how to record a method, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
   
 -   Each recorded method should act on a single page, form, or dialog box. Create a new test method for each new page, form, or dialog box.  
   
@@ -52,9 +54,10 @@ This topic describes the best practices to follow when you develop coded UI test
  Coded UI tests automatically adapt to many changes in the user interface. If, for example, a UI element has changed position or color, most of the time the coded UI test will still find the correct element.  
   
  During a test run, the UI controls are located by the testing framework by using a set of search properties which are applied to each control class in the definitions created by the **Coded UI Test Builder** in the `UIMap.Designer.cs` file. The search properties contain name-value pairs of property names and property values that can be used to identify the control, such as the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FriendlyName%2A>, <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Name%2A>, and <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.ControlType%2A> properties of the control. If the search properties are unchanged, the coded UI test will successfully find the control in the UI. If the search properties are changed, coded UI tests have a smart match algorithm which applies heuristics to find controls and windows in the UI. When the UI has changed, you might be able to modify the search properties of previously identified elements to make sure that they are found.  
-  
-## What to do if your user interface changes  
- User interfaces frequently change during development. Here are some ways to reduce the effect of these changes:  
+
+## If your user interface changes
+
+User interfaces frequently change during development. Here are some ways to reduce the effect of these changes:  
   
 -   Find the recorded method which references this control and use the **Coded UI Test Builder** to re-record the actions for this method. You can use the same name for the method to overwrite the existing actions.  
   
@@ -68,10 +71,11 @@ This topic describes the best practices to follow when you develop coded UI test
   
  For more information about how to record coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).  
   
-## What to do if a background process needs to complete before the test can continue  
- You might have to wait until a process finishes before you can continue with the next UI action. To do this you can use <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.WaitForReadyLevel%2A> to wait before the test continues as in the following sample.  
-  
-```  
+## If a background process needs to complete before the test can continue
+
+You might have to wait until a process finishes before you can continue with the next UI action. To do this you can use <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.WaitForReadyLevel%2A> to wait before the test continues as in the following sample.  
+
+```csharp
 // Set the playback to wait for all threads to finish  
 Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.AllThreads;  
   
@@ -80,12 +84,13 @@ this.UIMap.ClickSubmit();
   
 // Reset the playback to wait only for the UI thread to finish  
 Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.UIThreadOnly;  
-```  
-  
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
- <xref:Microsoft.VisualStudio.TestTools.UITesting>   
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+```
+
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
+<xref:Microsoft.VisualStudio.TestTools.UITesting>   
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)   
+[Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)   
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

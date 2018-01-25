@@ -13,10 +13,8 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: ca9e2ec1-df96-45ca-9611-cec47edfe1e4
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

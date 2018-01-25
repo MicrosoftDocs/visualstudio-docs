@@ -12,11 +12,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.selectcursordialog"
 helpviewer_keywords: 
   - "Domain-Specific Language, toolbox"
-ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
-caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

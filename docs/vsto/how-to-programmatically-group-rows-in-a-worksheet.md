@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "worksheets, ungrouping rows and columns"
   - "rows [Office development in Visual Studio], ungrouping"
   - "columns [Office development in Visual Studio], ungrouping"
-ms.assetid: 48037dca-35a2-4df2-918b-6a9f568fae91
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 dev_langs: 
   - "FSharp"
   - "VB"

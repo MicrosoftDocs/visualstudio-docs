@@ -19,10 +19,8 @@ helpviewer_keywords:
   - "malicious code [Office development in Visual Studio]"
   - "Outlook object model guard [Office development in Visual Studio]"
   - "security [Office development in Visual Studio], troubleshooting"
-ms.assetid: 6a8b3e12-26c6-4ee2-a37e-d5bc8df9c5d1
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

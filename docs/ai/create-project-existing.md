@@ -24,7 +24,7 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 8. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**. 
 
 > [!div class="nextstepaction"]
-> [Tutorial: Working with Python in Visual Studio](https://docs.microsoft.com/visualstudio/python/vs-tutorial-01-00)
+> [Tutorial: Working with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md)
 
 ## See Also
 

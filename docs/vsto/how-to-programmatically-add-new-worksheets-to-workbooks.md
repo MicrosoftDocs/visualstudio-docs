@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "workbooks, creating worksheets"
   - "worksheets, creating"
   - "worksheets, adding to workbooks"
-ms.assetid: 19f0d815-51b2-406c-9f36-34aa0ec16b4a
-caps.latest.revision: 52
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

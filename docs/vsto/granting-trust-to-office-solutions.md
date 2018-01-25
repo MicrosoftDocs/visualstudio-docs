@@ -16,10 +16,8 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio], about inclusion lists"
   - "trust [Office development in Visual Studio], 2007 Office system"
   - "granting trust [Office development in Visual Studio]"
-ms.assetid: 6c33e614-d367-4556-9e76-0f302ad0f929
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

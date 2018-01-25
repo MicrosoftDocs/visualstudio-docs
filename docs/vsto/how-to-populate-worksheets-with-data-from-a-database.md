@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], populating"
   - "databases [Office development in Visual Studio], populating worksheets"
   - "data [Office development in Visual Studio], adding to worksheets"
-ms.assetid: e9e37cf1-53ca-45d0-8409-5428be7f96c5
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

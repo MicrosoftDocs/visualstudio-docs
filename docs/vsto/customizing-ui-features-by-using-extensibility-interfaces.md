@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "FormRegionStartup interface"
   - "add-ins [Office development in Visual Studio], extensibility interfaces"
   - "extensibility interfaces [Office development in Visual Studio]"
-ms.assetid: 3f3f7908-9404-4eda-8899-4d18c75e3b4a
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

@@ -21,10 +21,8 @@ helpviewer_keywords:
   - "Office button"
   - "Ribbon, menus"
   - "Microsoft Office Menu"
-ms.assetid: 4fda1278-9aea-4d54-928a-269a81584494
-caps.latest.revision: 30
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

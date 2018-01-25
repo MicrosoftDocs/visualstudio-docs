@@ -17,10 +17,8 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], accessing on server"
   - "documents [Office development in Visual Studio], server-side data access"
   - "workbooks [Office development in Visual Studio], inserting data"
-ms.assetid: e6481902-781c-4666-bc18-4d69368c9bb3
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

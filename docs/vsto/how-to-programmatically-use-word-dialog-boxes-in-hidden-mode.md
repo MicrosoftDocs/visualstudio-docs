@@ -15,10 +15,8 @@ helpviewer_keywords:
   - "hidden dialog boxes"
   - "Word [Office development in Visual Studio], dialog boxes"
   - "dialog boxes, hidden mode in Word"
-ms.assetid: a5619325-8b54-41f1-becb-3f6eae7e4a6b
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
 ms.workload: 
   - "office"

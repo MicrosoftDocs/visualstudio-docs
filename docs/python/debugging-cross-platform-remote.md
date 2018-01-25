@@ -15,6 +15,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Remotely debugging Python code on Linux
@@ -34,7 +35,7 @@ The following items are needed to follow this walkthrough:
 - A remote computer running Python on an operating system like Mac OSX or Linux.
 - Port 5678 (inbound) opened on that computer's firewall, which is the default for remote debugging.
 
-You can easily create [Linux virtual machines on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](python-environments.md#selecting-and-installing-python-interpreters) for additional Python download locations.
+You can easily create [Linux virtual machines on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](managing-python-environments-in-visual-studio.md#selecting-and-installing-python-interpreters) for additional Python download locations.
 
 For details on creating a firewall rule for an Azure VM, see [Opening ports to a VM in Azure using the Azure portal](/azure/virtual-machines/windows/nsg-quickstart-portal).
 
