@@ -12,7 +12,7 @@ manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# How to: Generate XML comments for documentation generation
+# How to: Insert XML comments for documentation generation
 
 The **Insert Comment** command applies to:
 
@@ -20,9 +20,9 @@ The **Insert Comment** command applies to:
 
 - Visual Basic
 
-Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can also be processed into reference documentation by tools like *Sandcastle*. You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
+Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can be processed into reference documentation by tools like *Sandcastle*. You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
 
-Following are the steps to automatically generate XML comments for a code element:
+Following are the steps to insert XML comments for a code element:
 
 1. Place your text cursor above the element you want to document, for example, a method.
 
@@ -34,7 +34,7 @@ Following are the steps to automatically generate XML comments for a code elemen
 
    - From the right-click or context menu on or just above the code element, choose **Snippet** > **Insert Comment**
 
-     The XML template is immediately generated above the code element. For example, when commenting a method, it generates the **\<summary\>** element, a **\<param\>** element for every parameter that is passed to the method, and a **\<returns\>** element to document the return value.
+     The XML template is immediately generated above the code element. For example, when commenting a method, it generates the **\<summary\>** element, a **\<param\>** element for each parameter, and a **\<returns\>** element to document the return value.
 
      ![XML comment template - C#](media/doc-preview-cs.png)
 
