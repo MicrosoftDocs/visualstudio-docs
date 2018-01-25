@@ -153,6 +153,8 @@ After creating your VSIX project, add the following NuGet package(s) to your pro
 
 * [Microsoft.VisualStudio.LanguageServer.Client](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)
 
+>**Note**: When you take a dependency on the nuget package above, the Newtonsoft.Json and StreamJsonRpc packages will be added to your project as well. **Do not update these packages unless you are certain that those new versions will be installed on the version of Visual Studio that your extension targets**. The assemblies will not be included in your VSIX -- instead, they will be picked up from the Visual Studio installation directory. If you are referencing a newer version of the assemblies than what is installed on a user's machine, your extension *will not work*. 
+
 You can then create a new class which implements the [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017) interface, the main interface needed for language clients connecting to an LSP-based language server.
 
 Below is a sample:
