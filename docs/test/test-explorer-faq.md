@@ -3,7 +3,7 @@ title: "Test Explorer FAQ | Microsoft Docs"
 ms.date: "1/15/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: visual studio
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -17,6 +17,7 @@ ms.author: "kehavens"
 ms.workload: 
   - "multiple"
 author: "kendrahavens"
+manager: ghogen
 ---
 # Visual Studio Test Explorer FAQ
 
