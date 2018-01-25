@@ -35,7 +35,7 @@ Choose the development tool you'd like to use.
 ### VS Code (Mac, Windows, Linux)
 1. If you don't have it, install [VS Code](https://code.visualstudio.com/Download)
 1. Download the [VS Connected Environment extension](https://aka.ms/get-vsce-code)
-1. Download and install the extension: 
+1. Install the extension: 
 
 ```
 code --install-extension path-to-downloaded-extension/vsce-0.1.0.vsix
