@@ -71,11 +71,11 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 6.  After you have recorded all actions and assertions for the first component or page and grouped them into methods, close the **Coded UI Test Builder** dialog box.  
   
 7.  Continue to create UI Maps. Record the actions and assertions, group them into methods for each component, and then generate the code.  
-  
- In many cases, the top level window of your application remains constant for all wizards, forms, and pages. Although each UI Map has a class for the top level window, all maps are probably referring to the same top level window within which all components of your application run. Coded UI tests search for controls hierarchically from the top down, starting from the top level window, so in a complex application, the real top level window could be duplicated in every UI Map. If the real top level window is duplicated, multiple modifications will result if that window changes. This could cause performance problems when you switch between UI Maps.  
-  
- To minimize this effect, you can use the `CopyFrom()` method to ensure that the new top level window in that UI Map is the same as the main top level window.  
-  
+
+ In many cases, the top level window of your application remains constant for all wizards, forms, and pages. Although each UI Map has a class for the top level window, all maps are probably referring to the same top level window within which all components of your application run. Coded UI tests search for controls hierarchically from the top down, starting from the top level window, so in a complex application, the real top level window could be duplicated in every UI Map. If the real top level window is duplicated, multiple modifications will result if that window changes. This could cause performance problems when you switch between UI Maps.
+
+ To minimize this effect, you can use the `CopyFrom()` method to make sure that the new top level window in that UI Map is the same as the main top level window.
+
 ## Example
 
 The following example is part of a utility class that provides access to each component and their child controls which are represented by the classes generated in the various UI Maps.
