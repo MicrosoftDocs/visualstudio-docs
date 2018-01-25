@@ -562,7 +562,7 @@
         },
         {
             "source_path": "docs/extensibility/customizing-the-isolated-shell.md",
-            "redirect_url": "shell/customizing-the-isolated-shell",
+            "redirect_url": "/visualstudio/extensibility/shell/customizing-the-isolated-shell",
             "redirect_document_id": false
         },
         {
@@ -577,22 +577,22 @@
         },
         {
             "source_path": "docs/extensibility/distributing-isolated-shell-applications.md",
-            "redirect_url": "shell/distributing-isolated-shell-applications",
+            "redirect_url": "/visualstudio/extensibility/shell/distributing-isolated-shell-applications",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/elements-of-the-isolated-shell.md",
-            "redirect_url": "shell/elements-of-the-isolated-shell",
+            "redirect_url": "/visualstudio/extensibility/shell/elements-of-the-isolated-shell",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/extending-the-isolated-shell.md",
-            "redirect_url": "shell/extending-the-isolated-shell",
+            "redirect_url": "/visualstudio/extensibility/shell/extending-the-isolated-shell",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/installing-an-isolated-shell-application.md",
-            "redirect_url": "shell/installing-an-isolated-shell-application",
+            "redirect_url": "/visualstudio/extensibility/shell/installing-an-isolated-shell-application",
             "redirect_document_id": false
         },
         {
@@ -602,7 +602,7 @@
         },
         {
             "source_path": "docs/extensibility/isolated-shell-entry-point-parameters-cpp.md",
-            "redirect_url": "shell/isolated-shell-entry-point-parameters-cpp",
+            "redirect_url": "/visualstudio/extensibility/shell/isolated-shell-entry-point-parameters-cpp",
             "redirect_document_id": false
         },
         {
@@ -627,17 +627,17 @@
         },
         {
             "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
-            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file",
+            "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md",
-            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file",
+            "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md",
-            "redirect_url": "shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file",
+            "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file",
             "redirect_document_id": false
         },
         {
@@ -647,27 +647,27 @@
         },
         {
             "source_path": "docs/extensibility/package-guids-of-visual-studio-features.md",
-            "redirect_url": "shell/package-guids-of-visual-studio-features",
+            "redirect_url": "/visualstudio/extensibility/shell/package-guids-of-visual-studio-features",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/servicing-guidelines-for-isolated-shell-applications.md",
-            "redirect_url": "shell/servicing-guidelines-for-isolated-shell-applications",
+            "redirect_url": "/visualstudio/extensibility/shell/servicing-guidelines-for-isolated-shell-applications",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/shell-isolated-or-integrated.md",
-            "redirect_url": "shell/shell-isolated-or-integrated",
+            "redirect_url": "/visualstudio/extensibility/shell/shell-isolated-or-integrated",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/shell/index.md",
-            "redirect_url": "shell-isolated-or-integrated",
+            "redirect_url": "/visualstudio/extensibility/shell-isolated-or-integrated",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md",
-            "redirect_url": "shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files",
+            "redirect_url": "/visualstudio/extensibility/shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files",
             "redirect_document_id": false
         },
         {
@@ -677,12 +677,12 @@
         },
         {
             "source_path": "docs/extensibility/visual-studio-isolated-shell.md",
-            "redirect_url": "shell/visual-studio-isolated-shell",
+            "redirect_url": "/visualstudio/extensibility/shell/visual-studio-isolated-shell",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/extensibility/visual-studio-shell-integrated.md",
-            "redirect_url": "shell/visual-studio-shell-integrated",
+            "redirect_url": "/visualstudio/extensibility/shell/visual-studio-shell-integrated",
             "redirect_document_id": false
         },
         {
@@ -697,7 +697,7 @@
         },
         {
             "source_path": "docs/extensibility/walkthrough-creating-a-basic-isolated-shell-application.md",
-            "redirect_url": "shell/walkthrough-creating-a-basic-isolated-shell-application",
+            "redirect_url": "/visualstudio/extensibility/walkthrough-creating-a-basic-isolated-shell-application",
             "redirect_document_id": false
         },
         {
@@ -922,7 +922,7 @@
         },
         {
             "source_path": "docs/ide/reference/general-user-interface-elements-visual-studio.md",
-            "redirect_url": "reference/call-hierarchy",
+            "redirect_url": "/visualstudio/ide/reference/call-hierarchy",
             "redirect_document_id": false
         },
         {
