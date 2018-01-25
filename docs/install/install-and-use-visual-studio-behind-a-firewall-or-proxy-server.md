@@ -160,5 +160,6 @@ Here are a few more support options:
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+* [Visual Studio and Azure Services ports and protocols list](visual-studio-and-azure-services-ports-and-protocols.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio 2017](install-visual-studio.md)
