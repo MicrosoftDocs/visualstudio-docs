@@ -21,7 +21,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 -   Visual Studio Enterprise  
   
 > [!NOTE]
->  Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).  
+> Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type.
   
 > [!WARNING]
 >  [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] test projects that contain coded UI tests must be rebuilt when you open the test project in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] or [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] side-by-side with [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].  
@@ -62,6 +62,5 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 ## See also
 
 [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
-[Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)  
 [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
 [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

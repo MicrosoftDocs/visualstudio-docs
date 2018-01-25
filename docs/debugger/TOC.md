@@ -18,6 +18,7 @@
 # How-to guides
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)
+### [Troubleshooting breakpoints](troubleshooting-breakpoints.md)
 ## [Inspect data](debugger-windows.md)
 ### [Inspect variables](autos-and-locals-windows.md)
 ### [Set a watch on variables](watch-and-quickwatch-windows.md)

@@ -25,7 +25,7 @@ Or, you can simply open some code you get from almost anywhere and get working. 
 
 ### Create mobile apps
 
-You can create native mobile apps for different platforms by using Visual C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
+You can create native mobile apps for different platforms by using C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
 
 You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile app development](https://www.visualstudio.com/vs/mobile-app-development/).
 
@@ -51,7 +51,7 @@ For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/m
 
 ### Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/windows-apps) for more information.
 
 Choose the tools you need based on your app requirements and the language you want to use:
 
@@ -104,7 +104,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
   ![UWP blank app template](../ide/media/new-uwp-blank-app-template.png)
 
-  This creates a new blank Universal Windows app project using Visual C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
+  This creates a new blank Universal Windows app project using C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
 
 1. In the **New Universal Windows Platform Project** dialog box, accept the defaults by choosing **OK**.
 
@@ -190,7 +190,7 @@ Following are some other common productivity features in Visual Studio:
 
  ![Refactoring](../ide/media/VSIDE_refactor.png)
 
-- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
 
@@ -232,7 +232,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Continuous integration on any platform](https://www.visualstudio.com/en-us/docs/build/overview) for more information.
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Build and Release (VSTS and TFS)](/vsts/build-release/index) for more information.
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -275,6 +275,6 @@ Congratulations on completing the tour of the Visual Studio IDE! We hope you lea
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
 * [Visual Studio Downloads](https://www.visualstudio.com/downloads/)
 * [The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)
 * [Channel 9](https://channel9.msdn.com/)

@@ -27,14 +27,14 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
   
  To access the **Advanced Settings for Services** dialog box, select a project node in **Solution Explorer**, and then click **Properties** on the **Project** menu. When the **Project Designer** appears, click the **Services** tab, and then click the **Advanced** button. This button will be disabled until you enable client application services.  
   
-## Task List  
- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)  
-  
- [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38)  
-  
-## UIElement List  
+## Task List
+
+- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+
+## UIElement List
+
  **Save password hash locally to enable offline login**  
- Specifies whether an encrypted form of the user's password will be cached locally to enable the user to log in when the application is in offline mode. For more information, see [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38). This option is selected by default.  
+ Specifies whether an encrypted form of the user's password will be cached locally to enable the user to log in when the application is in offline mode. This option is selected by default.
   
  **Require users to log on again whenever the server cookie expires**  
  Specifies whether previously authenticated users are automatically reauthenticated when your application accesses the roles or profile service and the server authentication cookie has expired. Select this option to deny access to the application services and require explicit reauthentication after the cookie expires. This is useful for applications deployed in public locations to make sure that users who leave the application running after use will not remain authenticated indefinitely. This option is cleared by default.  
@@ -47,8 +47,8 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  **Use custom connection string**  
  Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services). This option is cleared by default.  
   
-## See Also  
- [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)   
- [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)   
- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)   
- [How to: Work Offline with Client Application Services](http://msdn.microsoft.com/en-us/f792cb16-8520-4a0f-9dc9-07bfbc454e38)
+## See also
+
+[Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)  
+[Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)  
+[How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)

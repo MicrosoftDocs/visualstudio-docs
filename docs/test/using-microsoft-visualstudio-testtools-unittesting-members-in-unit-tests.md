@@ -37,9 +37,10 @@ The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-qu
   
 -   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceElementCollection  
   
-## Attributes Used to Establish a Calling Order  
- A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144).  
-  
+## Attributes Used to Establish a Calling Order
+
+A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
+
 ### For Assemblies  
  AssemblyInitialize and AssemblyCleanup are called right after your assembly is loaded and right before your assembly is unloaded.  
   
@@ -60,8 +61,9 @@ The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-qu
   
 -   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestCleanupAttribute  
   
-## Attributes Used to Identify Test Classes and Methods  
- Every test class must have the TestClass attribute, and every test method must have the TestMethod attribute. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144).  
+## Attributes Used to Identify Test Classes and Methods
+
+Every test class must have the TestClass attribute, and every test method must have the TestMethod attribute. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
   
 -   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestClassAttribute  
   
@@ -116,12 +118,10 @@ The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-qu
   
 -   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CssProjectStructureAttribute  
   
-## Classes Used with Private Accessors  
- As described in [Using Publicize to Create a Private Accessor](http://msdn.microsoft.com/en-us/2056c6a7-6672-42a7-8f53-fead33c56deb), you can generate a unit test for a private method. This generation creates a private accessor class, which instantiates an object of the PrivateObject class. The PrivateObject class is a wrapper class that uses reflection as part of the private accessor process. The PrivateType class is similar, but is used for calling private static methods instead of calling private instance methods.  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PrivateObject  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PrivateType  
-  
-## See Also  
- Microsoft.VisualStudio.TestPlatform.UnitTestFramework
+## Classes Used with Private Accessors
+
+You can generate a unit test for a private method. This generation creates a private accessor class, which instantiates an object of the PrivateObject class. The PrivateObject class is a wrapper class that uses reflection as part of the private accessor process. The PrivateType class is similar, but is used for calling private static methods instead of calling private instance methods.
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PrivateObject
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PrivateType
