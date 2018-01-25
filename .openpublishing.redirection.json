@@ -22,72 +22,72 @@
         },
         {
             "source_path": "docs/csharp-ide/code-generation/index.md",
-            "redirect_url": "/visualstudio/csharp-ide/code-generation-csharp",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-class-type.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-class-type-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-constructor.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-constructor-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-field-property-local.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-method.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-method-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-override.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-override-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-override",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-overrides.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-overrides-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-overrides",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-xml-documentation-comments.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/implement-abstract-class.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-csharp",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/implement-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-interface-csharp",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/introduce-local-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-csharp",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/encapsulate-field-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/encapsulate-field",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/extract-interface-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-interface",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/extract-method-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-method",
+            "redirect_url": "/visualstudio/ide/reference/extract-method",
             "redirect_document_id": false
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "source_path": "docs/csharp-ide/index.md",
-            "redirect_url": "/visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -832,7 +832,7 @@
         },
         {
             "source_path": "docs/ide/how-to-restore-csharp-refactoring-snippets.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_url": "/visualstudio/ide/reference/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1442,32 +1442,32 @@
         },
         {
             "source_path": "docs/vb-ide/code-generation/index.md",
-            "redirect_url": "/visualstudio/vb-ide/code-generation-vb",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-class-type.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-class-type-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-constructor.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-constructor-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-field-property-local.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-method.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-method-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-override.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-override-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-override",
             "redirect_document_id": false
         },
         {
@@ -1477,22 +1477,22 @@
         },
         {
             "source_path": "docs/vb-ide/code-generation/implement-abstract-class.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-vb",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/implement-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-interface-vb",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/introduce-local-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-vb",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/index.md",
-            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {

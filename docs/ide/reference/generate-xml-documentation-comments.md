@@ -22,7 +22,7 @@ The **Insert Comment** command applies to:
 
 Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can be processed into reference documentation by tools like *Sandcastle*. You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
 
-Following are the steps to insert XML comments for a code element:
+## To insert XML comments for a code element
 
 1. Place your text cursor above the element you want to document, for example, a method.
 

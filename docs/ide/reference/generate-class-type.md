@@ -1,40 +1,51 @@
 ---
-title: "Generate a class or type - Code Generation (C#) | Microsoft Docs"
+title: "Generate a class or type in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.devlang: "csharp"
-ms.assetid: ebc361fe-d9b1-4c7a-ae28-5e71b5775460
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 f1_keywords: 
   - "vsl.GenerateFromUsage"
 dev_langs: 
-  - csharp
+  - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
+# Generate a class or type in Visual Studio
 
-# Generate a class or type in C# #
-**What:** Lets you immediately generate the code for a class or type. 
+This code generation applies to:
 
-**When:** You introduce a new class or type and want to properly declare it, automatically.  
+- C#
 
-**Why:** You could declare the class or type before using it, however this feature will generate the class or type automatically. 
+- Visual Basic
+
+**What:** Lets you immediately generate the code for a class or type.
+
+**When:** You introduce a new class or type and want to properly declare it, automatically.
+
+**Why:** You could declare the class or type before using it, however this feature will generate the class or type automatically.
 
 **How:**
 
 1. Place your cursor on the line where there is a red squiggle indicating you've used a class that doesn't yet exist.
 
-   ![Highlighted code](media/class-highlight-cs.png)
+   - C#:
+
+    ![Highlighted code C#](media/class-highlight-cs.png)
+
+   - Visual Basic:
+
+    ![Highlighted code VB](media/class-highlight-vb.png)
 
 1. Next, do one of the following:
+
    * **Keyboard**
      * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select one of the options from the Preview window popup.
    * **Mouse**
@@ -51,8 +62,8 @@ ms.workload:
    Generate nested class '*TypeName*' | Creates a class named *TypeName* nested inside the current class.
    Generate new type... | Creates a new class or struct with all of the properties you specify.
 
-   >[!TIP]
-   >Use the [**Preview changes**](../../ide/preview-changes.md) link at the bottom of the preview window to see all of the changes that will be made before making your selection.
+   > [!TIP]
+   > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
 
 1. If you select the **Generate new type...** item, a dialog box will pop up that allows you to perform some additional actions.
 
@@ -68,7 +79,13 @@ ms.workload:
 
 1. The class/struct will be created automatically with the constructor inferred from its usage.
 
-   ![Generate class result](media/class-result-cs.png)
+   - C#
+
+    ![Generate class result](media/class-result-cs.png)
+
+   - Visual Basic
+
+    ![Generate class result](media/class-result-vb.png)
 
 ## See also
 

@@ -29,7 +29,7 @@ To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere ins
 
 - In the **Edit / IntelliSense** menu, select **Insert Snippet**
 
-- Use the hotkeys: **CTRL + K + X**
+- Use the hotkeys: **Ctrl**+**K**+**X**
 
 You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:
 
