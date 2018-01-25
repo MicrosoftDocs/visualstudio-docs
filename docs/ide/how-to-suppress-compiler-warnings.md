@@ -111,7 +111,7 @@ For more information, see the [/nowarn) compiler option](/dotnet/visual-basic/re
 
 ## Suppressing warnings for NuGet packages
 
-In some cases, you may want to suppress NuGet compiler warnings for a single NuGet package, instead for an entire project. The warning serves a purpose, so you don't want to have it suppressed at the project level. For example, one of the NuGet warnings tells you that the package may not be fully compatible with your project. If you suppress it at the project level and later add an additional NuGet package, you would never know if it was producing the compatibility warning.
+In some cases, you may want to suppress NuGet compiler warnings for a single NuGet package, instead of for an entire project. The warning serves a purpose, so you don't want to suppress it at the project level. For example, one of the NuGet warnings tells you that the package may not be fully compatible with your project. If you suppress it at the project level and later add an additional NuGet package, you would never know if it was producing the compatibility warning.
 
 ### To suppress a specific warning for a single NuGet package
 
