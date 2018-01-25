@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/15/2018"
+ms.date: "01/20/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -102,13 +102,9 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
  > [!NOTE]
  > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
 
-### Whitelisting URLs for Azure services
-Whether you are using Azure services or are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
 
-| Service/Scenario | DNS endpoint | Protocol | Port |
-| ------ | ------- | --------- | ----------- |
-| Roaming settings |  app.vssps.visualstudio.com | 168.62.105.45 | 443 |
-| Push notifications for roaming settings | ns-sb2-prod-ch1-002.cloudapp.net | 65.52.0.51 | 5671 |
+### Whitelisting URLs for Azure services
+Whether you are using Azure services or are an Azure developer, there are the DNS endpoints, protocols, and output ports you'll want to know about. For a full list, see the [Azure ports & protocols](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshooting proxy errors
 
