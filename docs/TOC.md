@@ -123,7 +123,7 @@
 ###### [Generate field/property/local](ide/reference/generate-field-property-local.md)
 ###### [Generate constructor](ide/reference/generate-constructor.md)
 ###### [Generate override](ide/reference/generate-override.md)
-###### [Generate Equals and GetHashCode method overrides](ide/reference/generate-overrides.md)
+###### [Generate Equals and GetHashCode method overrides](ide/reference/generate-equals-gethashcode-methods.md)
 ###### [Implement abstract class](ide/reference/implement-abstract-class.md)
 ###### [Implement interface](ide/reference/implement-interface.md)
 ###### [Introduce local variable](ide/reference/introduce-local-variable.md)

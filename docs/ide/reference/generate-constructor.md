@@ -26,7 +26,9 @@ This code generation applies to:
 
 **Why:** You could declare the constructor before using it, however this feature will generate it, with the proper parameters, automatically. Furthermore, modifying an existing constructor requires updating all the callsites unless you use this feature to update them automatically.
 
-**How:** There are several ways to generate a constructor:
+## How-to
+
+There are several ways to generate a constructor:
 
 - [Generate constructor and pick members](#pick)
 - [Generate constructor from selected fields](#selection)

@@ -27,7 +27,7 @@ This code generation applies to:
 
 **Why:** You could declare the field, property or local before using it, however this feature will generate the declaration and type automatically.
 
-**How:**
+## How-to
 
 1. Place your cursor on the line where there is a red squiggle. The red squiggle indicates a field, local or property that doesn't yet exist.
 

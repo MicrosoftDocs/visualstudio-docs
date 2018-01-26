@@ -1,11 +1,10 @@
 ---
 title: "Move type to matching file refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -30,7 +29,7 @@ This refactoring applies to:
 
 **Why:** Placing multiple types in the same file can make it difficult to find these types. By moving types to files with the same name, code becomes more readable and easier to navigate.
 
-**How:**
+## How-to
 
 1. Highlight or place the text cursor inside the name of the type to move:
 
@@ -43,12 +42,13 @@ This refactoring applies to:
     ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-   * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
 
-   The type will instantly moved to a new file with that name inside of your solution.
+   - **Keyboard**
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+   - **Mouse**
+     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+
+   The type is moved to a new file with that name, as part of your solution.
 
    - C#:
 

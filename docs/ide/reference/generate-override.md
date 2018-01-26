@@ -26,7 +26,7 @@ This code generation applies to:
 
 **Why:** You could write the method signature yourself, however this feature will generate the signature automatically.
 
-**How:**
+## How-to
 
 1. Type `override` in C# or `Overrides` in Visual Basic, followed by a space, where you would like to insert an override method.
 

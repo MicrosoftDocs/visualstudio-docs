@@ -1,11 +1,10 @@
 ---
 title: "Replace a temporary variable with its value in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -30,7 +29,7 @@ This refactoring applies to:
 
 **Why:** Removing a temporary variable may make the code easier to read.
 
-**How:**
+## How-to
 
 1. Highlight or place the text cursor inside the temporary variable to be inlined:
 
@@ -43,14 +42,15 @@ This refactoring applies to:
     ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
-   * **Mouse**
-     * Right-click the code and select the **Quick Actions and Refactorings** menu.
+
+   - **Keyboard**
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+   - **Mouse**
+     - Right-click the code and select the **Quick Actions and Refactorings** menu.
 
 1. Select **Inline temporary variable** from the Preview window popup.
 
-   The variable will be removed and its usages replaced by the value of the variable immediately.
+   The variable is removed and its usages replaced by the value of the variable.
 
    - C#:
 

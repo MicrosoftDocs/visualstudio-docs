@@ -1,7 +1,7 @@
 ---
 title: "Rename a filename to match a type in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/27/2017"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
@@ -32,7 +32,7 @@ This refactoring applies to:
 
 **Why:** Placing a type in a file with a different name, or vice-versa, it difficult to find what you're looking for. By renaming either the type or filename, code becomes more readable and easier to navigate.
 
-**How:**
+## How-to
 
 1. Highlight or place the text cursor inside the name of the type to synchronize:
 
@@ -45,14 +45,15 @@ This refactoring applies to:
     ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
-   * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-     * Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
 
-   The type or file will instantly be renamed.
+   - **Keyboard**
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
+   - **Mouse**
+     - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+     - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
+
+   The type or file is renamed.
 
    - C#: In the example below, the file **MyClass.cs** was renamed to **MyNewClass.cs** to match the type name.
 

@@ -1,11 +1,10 @@
 ---
 title: "Refactor a method signature in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -33,7 +32,7 @@ This refactoring applies to:
 
 **Why:** You could manually remove and re-order the parameters, and then find all calls to that method and change them one-by-one, but that could lead to errors.  This refactoring tool will perform the task automatically.
 
-**How:**
+## How-to
 
 1. Highlight or place the text cursor inside the name of the method to modify, or one of its usages:
 
@@ -46,13 +45,14 @@ This refactoring applies to:
     ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+R**, then **Ctrl+V**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
-   * **Mouse**
-     * Select **Edit > Refactor > Remove Parameters**.
-     * Select **Edit > Refactor > Reorder Parameters**.
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
+
+   - **Keyboard**
+     - Press **Ctrl+R**, then **Ctrl+V**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
+   - **Mouse**
+     - Select **Edit > Refactor > Remove Parameters**.
+     - Select **Edit > Refactor > Reorder Parameters**.
+     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
 
 1. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
 

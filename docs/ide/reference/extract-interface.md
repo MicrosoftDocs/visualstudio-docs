@@ -1,11 +1,10 @@
 ---
 title: "Extract an interface refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -32,7 +31,7 @@ This refactoring applies to:
 
 **Why:** Interfaces are great constructs for object-oriented designs. Imagine having classes for various animals (Dog, Cat, Bird) which might all have common methods, such as Eat, Drink, Sleep. Using an interface like IAnimal would allow Dog, Cat, and Bird to have a common "signature" for these methods.
 
-**How:**
+## How-to
 
 1. Highlight the name of the class to perform the action on, or just put the text cursor somewhere in the class name.
 
@@ -45,12 +44,13 @@ This refactoring applies to:
     ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
-   * **Mouse**
-     * Select **Edit > Refactor > Extract Interface**.
-     * Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+
+   - **Keyboard**
+     - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+   - **Mouse**
+     - Select **Edit > Refactor > Extract Interface**.
+     - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
 
 1. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
@@ -64,7 +64,7 @@ This refactoring applies to:
 
 1. Choose **OK**.
 
-   The interface will be immediately created in the file of the name specified. Additionally, the class you selected will now implement that interface.
+   The interface is created in the file of the name specified. Additionally, the class you selected implements that interface.
 
    - C#:
 

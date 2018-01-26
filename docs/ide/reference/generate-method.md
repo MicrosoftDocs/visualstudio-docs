@@ -26,7 +26,7 @@ This code generation applies to:
 
 **Why:** You could declare the method and parameters before using it, however this feature will generate the declaration automatically.
 
-**How:**
+## How-to
 
 1. Place your cursor on the line where there is a red squiggle. The red squiggle indicates a method that doesn't exist yet.
 

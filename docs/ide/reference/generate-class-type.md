@@ -31,7 +31,7 @@ This code generation applies to:
 
 **Why:** You could declare the class or type before using it, however this feature will generate the class or type automatically.
 
-**How:**
+## How-to
 
 1. Place your cursor on the line where there is a red squiggle. The red squiggle indicates a class that doesn't yet exist.
 

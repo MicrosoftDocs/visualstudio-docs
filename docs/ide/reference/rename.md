@@ -1,11 +1,10 @@
 ---
 title: "Refactor rename in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
@@ -32,7 +31,7 @@ This refactoring applies to:
 
 **Why:** Copy and pasting the new name across an entire project would likely result in errors. This refactoring tool will accurately perform the renaming action.
 
-**How:**
+## How-to
 
 1. Highlight or place the text cursor inside the item to be renamed:
 
@@ -45,11 +44,12 @@ This refactoring applies to:
     ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-   * **Mouse**
-     * Select **Edit > Refactor > Rename**.
-     * Right-click the code and select **Rename**.
+
+   - **Keyboard**
+     - Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+   - **Mouse**
+     - Select **Edit > Refactor > Rename**.
+     - Right-click the code and select **Rename**.
 
 1. Rename the item simply by typing the new name.
 

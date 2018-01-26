@@ -1,11 +1,10 @@
 ---
 title: "Remove unreachable code refactoring in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/27/2017"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
@@ -27,17 +26,18 @@ This refactoring applies to:
 
 **Why:** Improve readability and maintainability by removing code that is superfluous and will never be executed.
 
-**How:**
+## How-to
 
 1. Place your cursor anywhere in the faded out code that is unreachable:
 
 ![Faded unreachable code](media/unreachablecode-faded-cs.png)
 
 1. Next, do one of the following:
-   * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
-   * **Mouse**
-     * Right-click the code, select the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
+
+   - **Keyboard**
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
+   - **Mouse**
+     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
 
 1. When you're happy with the change, press **Enter** or click the fix in the menu and the changes will be committed.
 
