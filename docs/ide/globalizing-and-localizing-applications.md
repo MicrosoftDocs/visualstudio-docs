@@ -11,7 +11,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "globalization [Visual Studio]"
   - "Visual Basic code, international applications"
-  - "Visual C#, international applications"
+  - "C#, international applications"
   - "localization [Visual Studio]"
   - "world-ready applications"
   - "international applications [Visual Studio]"

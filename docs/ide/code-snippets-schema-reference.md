@@ -237,7 +237,7 @@ There are three attributes available for the Code element:
  Specifies a function to execute when the literal or object receives focus in Visual Studio.  
   
 > [!NOTE]
->  The `Function` element is only supported in Visual C# code snippets.  
+>  The `Function` element is only supported in C# code snippets.  
   
 ```xml  
 <Function>  
@@ -560,7 +560,7 @@ There are three attributes available for the Code element:
   
 -   `Expansion`: allows the code snippet to be inserted at the cursor.  
   
--   `Refactoring`: specifies that the code snippet is used during Visual C# refactoring. `Refactoring` cannot be used in custom code snippets.  
+-   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.  
   
 ##  <a name="snippettypes"></a> SnippetTypes Element  
  Groups individual `SnippetType` elements. If the `SnippetTypes` element is not present, the code snippet can be inserted anywhere in the code.  

@@ -27,7 +27,7 @@ ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, C#, Advanced
-Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
+Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
@@ -73,9 +73,9 @@ When the cursor is positioned inside a symbol, or when you click a symbol, all t
   
 ## Organize Usings  
  Place 'System' directives first when sorting usings  
- When selected, `System` using directives appear before other using directives. For more information, see Organize usings in [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md#automatic-code-generation).  
+ When selected, `System` using directives appear before other using directives. For more information, see Organize usings in [C# IntelliSense](../../ide/visual-csharp-intellisense.md#automatic-code-generation).  
   
 ## See Also  
  [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
- [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+ [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
