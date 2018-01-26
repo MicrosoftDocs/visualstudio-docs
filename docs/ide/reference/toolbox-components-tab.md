@@ -10,8 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Toolbox, Components tab"
-ms.assetid: 332fafab-a763-4244-b388-15d1b5b5cc04
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -19,7 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Toolbox, Components Tab
-Displays components you can add to [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] components that are included with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
+
+Displays components you can add to Visual Basic and C# designers. In addition to the .NET Framework components that are included with Visual Studio, such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab.
   
  To display this tab, from the **View** menu, select **Toolbox**. In the **Toolbox**, select the **Components** tab.  
   

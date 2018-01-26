@@ -87,6 +87,6 @@ You can add and remove snippet directories with the **Add** and **Remove** butto
 [How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)  
 [Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)  
 [Troubleshooting Snippets](../ide/troubleshooting-snippets.md)  
-[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
+[C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
 [Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)  
 [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

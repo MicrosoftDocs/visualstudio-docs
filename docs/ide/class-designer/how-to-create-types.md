@@ -26,7 +26,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create Types by using Class Designer
-To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  
+To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  
   
 -   [Create a new type](#CreateType)  
   
