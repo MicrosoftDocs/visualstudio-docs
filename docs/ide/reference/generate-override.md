@@ -1,21 +1,24 @@
 ---
-title: "Generate an override - Code Generation (C#) | Microsoft Docs"
+title: "Generate a method override in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-general
 ms.topic: "article"
-ms.assetid: b3c8cfc4-7c1f-4606-970e-3f7651604bab
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# Generate an override in C# #
+# Generate an override in Visual Studio
+
+This code generation applies to:
+
+- C#
+
+- Visual Basic
 
 **What:** Lets you immediately generate the code for any method which can be overridden from a base class.
 
@@ -25,19 +28,31 @@ ms.workload:
 
 **How:**
 
-1. Type the **override** keyword, followed by a space, where you would like to insert an overridden method signature and an IntelliSense dropdown will appear.
+1. Type `override` in C# or `Overrides` in Visual Basic, followed by a space, where you would like to insert an override method.
 
-   ![Override IntelliSense](media/override-intellisense-cs.png)
+   - C#:
 
-1. Select the method you would like to override from the base class by clicking it with the mouse, or navigating to it with the keyboard and pressing **Enter**.
+    ![Override IntelliSense C#](media/override-intellisense-cs.png)
 
-   >[!TIP]
-   >* Use the Property icon ![Property icon](media/override-property-cs.png) to show or hide Properties in the list.
-   >* Use the Method icon ![Method icon](media/override-method-cs.png) to show or hide Methods in the list.
+   - Visual Basic:
 
-1. The selected method or property will be added to the class as an override, ready to be implemented.
+    ![Override IntelliSense VB](media/override-intellisense-vb.png)
 
-   ![Override result](media/override-result-cs.png)
+1. Select the method you want to override from the base class.
+
+   > [!TIP]
+   > - Use the property icon ![Property icon](media/override-property-cs.png) to show or hide properties in the list.
+   > - Use the method icon ![Method icon](media/override-method-cs.png) to show or hide methods in the list.
+
+   The selected method or property is added to the class as an override, ready to be implemented.
+
+   - C#:
+
+      ![Override result C#](media/override-result-cs.png)
+
+   - Visual Basic:
+
+      ![Override result VB](media/override-result-vb.png)
 
 ## See also
 

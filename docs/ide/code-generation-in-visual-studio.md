@@ -14,13 +14,16 @@ ms.workload:
 ---
 # Code generation features in Visual Studio
 
-There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code.
+There are numerous ways that Visual Studio can help you generate, fix, and refactor code.
 
-You can use [code snippets](../ide/code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
+- You can use [code snippets](../ide/code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
 
-You can use the [Quick Actions and Refactorings](../ide/quick-actions.md) menu to generate code such as classes and properties, or to introduce a local variable. You can also use the [Quick Actions and Refactorings](../ide/quick-actions.md) menu to refactor code, such as renaming a variable or reordering parameters.
+- You can use [Quick Actions](../ide/quick-actions.md) to generate code such as classes and properties, or to introduce a local variable. You can also use Quick Actions to [improve code](../ide/common-quick-actions.md), for example removing unnecessary casts and unused variables, or adding null checks before accessing a variable.
 
-Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
+   > [!NOTE]
+   > Each language service in Visual Studio provides its own code generation capabilities, so some features are only available in C#, and some are available in both C# and Visual Basic.
+
+- You can [refactor code](../ide/refactoring-in-visual-studio.md) to rename a variable, re-order method parameters, or synchronize a type with its filename, to name a few.
 
 ## See also
 

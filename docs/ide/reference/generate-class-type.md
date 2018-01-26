@@ -1,11 +1,10 @@
 ---
 title: "Generate a class or type in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: 01/26/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
@@ -34,7 +33,7 @@ This code generation applies to:
 
 **How:**
 
-1. Place your cursor on the line where there is a red squiggle indicating you've used a class that doesn't yet exist.
+1. Place your cursor on the line where there is a red squiggle. The red squiggle indicates a class that doesn't yet exist.
 
    - C#:
 
@@ -46,26 +45,26 @@ This code generation applies to:
 
 1. Next, do one of the following:
 
-   * **Keyboard**
-     * Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select one of the options from the Preview window popup.
-   * **Mouse**
-     * Right-click and select the **Quick Actions and Refactorings** menu and select one of the options from the Preview window popup.
-     * Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     * Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+   - **Keyboard**
+     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+   - **Mouse**
+     - Right-click and select the **Quick Actions and Refactorings** menu.
+     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-   ![Generate class preview](media/class-preview-cs.png)
+    ![Generate class preview](media/class-preview-cs.png)
 
-   Selection | Description
-   --- | ---
-   Generate class '*TypeName*' in new file | Creates a class named *TypeName* in a file named *TypeName*.cs/.vb
-   Generate class '*TypeName*' | Creates a class named *TypeName* in the current file.
-   Generate nested class '*TypeName*' | Creates a class named *TypeName* nested inside the current class.
-   Generate new type... | Creates a new class or struct with all of the properties you specify.
+1. Select one of the options from the drop-down menu:
+
+   - Generate class '*TypeName*' in new file&mdash;Creates a class named *TypeName* in a file named *TypeName*.cs/.vb
+   - Generate class '*TypeName*'&mdash;Creates a class named *TypeName* in the current file.
+   - Generate nested class '*TypeName*'&mdash;Creates a class named *TypeName* nested inside the current class.
+   - Generate new type...&mdash;Creates a new class or struct with all of the properties you specify.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
 
-1. If you select the **Generate new type...** item, a dialog box will pop up that allows you to perform some additional actions.
+1. If you selected the **Generate new type...** item, the **Generate Type** dialog box opens. Configure the accessibility, kind, and location of the new type.
 
    ![Generate type](media/class-newtype-cs.png)
 
@@ -77,15 +76,15 @@ This code generation applies to:
    Project | If there are multiple projects in your solution, you can choose where you want the class/struct to live.
    File Name | You can create a new file or you can add the type to an existing file.
 
-1. The class/struct will be created automatically with the constructor inferred from its usage.
+The class or struct is created. For C#, a constructor is also created.
 
-   - C#
+- C#
 
-    ![Generate class result](media/class-result-cs.png)
+   ![Generate class result C#](media/class-result-cs.png)
 
-   - Visual Basic
+- Visual Basic
 
-    ![Generate class result](media/class-result-vb.png)
+   ![Generate class result VB](media/class-result-vb.png)
 
 ## See also
 
