@@ -130,6 +130,8 @@ First, you'll create an Node.js web application project.
 
     In the browser window, you will see "Express" as the title and "Welcome to Express" in the first paragraph.
 
+   ![App running in browser](../nodejs/media/tutorial-nodejs-running-in-browser.png)  
+
 1. Click the buttons to display different images.
 
 1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
@@ -142,7 +144,7 @@ First, you'll create an Node.js web application project.
 
 1. Close the web browser.  
 
-## Publish to Azure App Service
+## (Optional) Publish to Azure App Service
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 
