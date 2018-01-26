@@ -1,5 +1,5 @@
 ---
-title: "Insert comment in Visual Studio | Microsoft Docs"
+title: "Insert XML documentation comments in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/16/2016"
 ms.reviewer: ""
@@ -20,7 +20,7 @@ The **Insert Comment** command applies to:
 
 - Visual Basic
 
-Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can be processed into reference documentation by tools like *Sandcastle*. You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
+Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can be processed into reference documentation by tools like [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526). You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
 
 ## To insert XML comments for a code element
 
@@ -34,11 +34,11 @@ Visual Studio can help you document code elements such as classes and methods, b
 
    - From the right-click or context menu on or just above the code element, choose **Snippet** > **Insert Comment**
 
-     The XML template is immediately generated above the code element. For example, when commenting a method, it generates the **\<summary\>** element, a **\<param\>** element for each parameter, and a **\<returns\>** element to document the return value.
+   The XML template is immediately generated above the code element. For example, when commenting a method, it generates the **\<summary\>** element, a **\<param\>** element for each parameter, and a **\<returns\>** element to document the return value.
 
-     ![XML comment template - C#](media/doc-preview-cs.png)
+   ![XML comment template - C#](media/doc-preview-cs.png)
 
-     ![XML comment template - Visual Basic](media/doc-preview-vb.png)
+   ![XML comment template - Visual Basic](media/doc-preview-vb.png)
 
 1. Enter descriptions for each XML element to fully document the code element.
 
