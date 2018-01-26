@@ -22,7 +22,7 @@ If you already have a Visual Studio subscription:
 
 To quickly find products, use the "Search" functions at the top of the page or click on the different product types on the left.
 
-
-[!TIP]:  If you're looking for your product keys, click "Product Keys" at the top of the page.
+> [!TIP]
+> If you're looking for your product keys, click "Product Keys" at the top of the page.
 
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.  

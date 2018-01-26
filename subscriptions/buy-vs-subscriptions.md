@@ -16,20 +16,19 @@ There are two main types of Visual Studio subscriptions, cloud and standard, whi
 
 ## Buy Visual Studio Cloud subscriptions (either monthly or annual) 
 
-[How to buy a Visual Studio subscription](https://docs.microsoft.com/vsts/billing/vs-subscriptions/buy-vs-subscriptions)
-[Assign and manage the Visual Studio subscriptions you've purchased](https://docs.microsoft.com/vsts/billing/vs-subscriptions/manage-vs-subscriptions)
+[How to buy a Visual Studio subscription](/vsts/billing/vs-subscriptions/buy-vs-subscriptions)
+[Assign and manage the Visual Studio subscriptions you've purchased](/vsts/billing/vs-subscriptions/manage-vs-subscriptions)
 
 ## Buy Visual Studio Standard subscriptions
 You will need to contact your software reseller to purchase a standard Visual Studio subscription, or visit the [Microsoft Store](https://www.microsoft.com/store) online.
 
-<<<<<<< HEAD
 *	To sign up for your Azure subscription and buy from the Visual Studio Marketplace, 
 you'll need a "personal" [Microsoft account](https://www.microsoft.com/account) 
 or a ["work or school account"](/azure/active-directory/sign-up-organization) 
 if you're buying for your organization, and they manage identities with Azure Active Directory (Azure AD).
 
-[!WARNING]
-If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](https://docs.microsoft.com/en-us/vsts/billing/faq-azure-billing).  
+> [!WARNING]
+> If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](/vsts/billing/faq-azure-billing).  
 
 ### Buy subscriptions
 
@@ -53,13 +52,7 @@ Or sign up for a new subscription, if you don't have one.
 	If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
 5.	Confirm and finish your purchase. 
-To view your subscription benefits now, 
-go to the Visual Studio subscriptions portal 
-=======
-# For Visual Studio subscribers
-To view your subscriber benefits, visit the Visual Studio Subscriber Portal 
->>>>>>> c195abae9d13980504848355f06f0071a47fcb76
-[(https://my.visualstudio.com)](https://my.visualstudio.com?wt.mc_id=o~msft~docs) or click **View my subscription**.
+To view your subscription benefits now, go to the Visual Studio [subscriptions portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) or click **View my subscription**.
 
 
 ### Activating subscriptions purchased through the Microsoft Store

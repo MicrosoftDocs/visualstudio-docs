@@ -25,15 +25,15 @@ You can update the subscriber’s first name, last name, country, language and d
 
    ![Edit Subscriber Details](_img\edit-license\edit-subscriber.png)
 
-[!NOTE]
-If you need to change the subscription level for a subscriber, you will need to delete the user from the portal and add them again. Subscription levels are not editable.
+> [!NOTE]
+> If you need to change the subscription level for a subscriber, you will need to delete the user from the portal and add them again. Subscription levels are not editable.
 
 ## Editing multiple subscribers by using bulk edit
 
 You can edit multiple subscribers at once using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or if an organization has decided to restrict access to downloads. 
 
-[!IMPORTANT]  
-Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered.  If you attempt an upload with these items changed, the upload will fail.  
+> [!IMPORTANT]
+> Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered.  If you attempt an upload with these items changed, the upload will fail.  
 
 1.	To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**. 
 

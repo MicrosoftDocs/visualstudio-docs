@@ -75,6 +75,6 @@ Getting started with Azure Community is easy.
 
 ## Support Resources
 -  For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
--  Find complete Azure documentation on https://docs.microsoft.com/azure/.
+-  [Azure documentation](/azure/).
 -  Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

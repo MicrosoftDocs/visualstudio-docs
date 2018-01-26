@@ -30,6 +30,6 @@ Please follow the below instructions to resend the assignment email:
    
 This will cause the VLSC to recognize that there were changes on the subscription and resend the assignment email to the email listed on the portal. 
 
-[!NOTE]
-- Newly assigned subscriptions will generate the assignment email automatically. The above is only necessary when a user requests a new assignment email notification or the notification is not sent for any reason. 
-- This procedure is not needed to resend assignment emails for subscriptions assigned via https://manage.visualstudio.com.  To resend assignment emails to subscribers in the portal, simply select the subscriber(s) and click the **Resend** button at the top of the subscriber list.  
+> [!NOTE]
+> - Newly assigned subscriptions will generate the assignment email automatically. The above is only necessary when a user requests a new assignment email notification or the notification is not sent for any reason.
+> - This procedure is not needed to resend assignment emails for subscriptions assigned via https://manage.visualstudio.com.  To resend assignment emails to subscribers in the portal, simply select the subscriber(s) and click the **Resend** button at the top of the subscriber list.  

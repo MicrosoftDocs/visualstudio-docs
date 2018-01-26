@@ -62,7 +62,7 @@ Using the Azure Advisory Chat is really easy.
 
 ## FAQ
 ### Q:  What is the difference between Azure Advisory Chat and Azure Advisor?
--  A:  The Azure Advisory Chat is a real-time chat service to assist with questions about Azure. [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources.
+-  A:  The Azure Advisory Chat is a real-time chat service to assist with questions about Azure. [Azure Advisor](/azure/advisor/advisor-overview) is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources.
 
 ## Support Resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
