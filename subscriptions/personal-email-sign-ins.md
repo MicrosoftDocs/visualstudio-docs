@@ -26,8 +26,8 @@ During the subscriber activation process:
 2. If the subscriber didn’t attempt to make their work or school account (e.g. John@contoso.com) an MSA, they could create a new MSA or leverage an existing one.
 3. This resulted in their “Sign-in Email Address” being different than their “Assigned to Email Address”.
 
-[!NOTE] 
-The new subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MSA) identity types.
+> [!NOTE] 
+> The new subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MSA) identity types.
 
 Finally, since the administrator migration is taking data from VLSC regarding the subscriber’s “Sign-In Email Address” to populate the new subscriber management experience, recently migrated admins may see these previously unnoticed personal accounts due to changes to the UI which make this information more visible.
 

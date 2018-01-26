@@ -33,10 +33,10 @@ Purchasing a Visual Studio cloud subscription is simple.  Check out the steps be
 
 7.	Review you order, click **Confirm**, and you’re done!
 
-Next Step:  Check out our [documentation](https://docs.microsoft.com/visualstudio/subscriptions/) to learn more about assigning and managing subscriptions.
+Next Step:  Check out our [documentation](/visualstudio/subscriptions/) to learn more about assigning and managing subscriptions.
 
 ## FAQ:
 ### Q:  Can I use my Azure Monetary Credits to purchase a Visual Studio cloud subscription?
-A:  You cannot use the Azure Monetary Commitment funds from an Enterprise Agreement to purchase a Visual Studio cloud subscription.  [Learn more](https://docs.microsoft.com/en-us/vsts/billing/faq-azure-billing#billing) about which Azure subscriptions you can use for Visual Studio Marketplace purchases.
+A:  You cannot use the Azure Monetary Commitment funds from an Enterprise Agreement to purchase a Visual Studio cloud subscription.  [Learn more](/vsts/billing/faq-azure-billing#billing) about which Azure subscriptions you can use for Visual Studio Marketplace purchases.
 ### Q:  Are the monthly Visual Studio cloud subscriptions prorated?
 A:  Yes, monthly subscriptions are prorated for the first month.  Then your account will be charged on the first of each month.

@@ -21,7 +21,7 @@ To buy additional Visual Studio cloud subscriptions, sign into the Visual Studio
 4.	Review your order, and click **Confirm**.
 5.	Upon returning to the Subscriptions Administration portal, you should notice an increase in the available number of subscriptions.
 
-For more help, check out our [documentation](https://docs.microsoft.com/visualstudio/subscriptions/) on assigning and managing subscriptions
+For more help, check out our [documentation](/visualstudio/subscriptions/) on assigning and managing subscriptions
 
 ## FAQ:
 ### Q:  How long do I have to wait before I can assign subscriptions?

@@ -87,5 +87,5 @@ To download the IDE:
 ## Support Resources
 -  Need help with Visual Studio IDE, check out these resources:
     - Technical Support: [https://www.visualstudio.com/support/](https://www.visualstudio.com/support/)
-    - Documentation: [https://docs.microsoft.com/visualstudio/](/visualstudio/) 
+    - [Documentation](/visualstudio/) 
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
