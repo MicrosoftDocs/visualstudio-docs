@@ -52,7 +52,7 @@
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-overrides.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-overrides",
+            "redirect_url": "/visualstudio/ide/reference/generate-equals-gethashcode-methods",
             "redirect_document_id": false
         },
         {
