@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting proxy errors in Visual Studio | Microsoft Docs"
+title: "Troubleshooting network errors in Visual Studio | Microsoft Docs"
 description: ""
 ms.custom: ""
 ms.date: "01/30/2018"
@@ -23,9 +23,9 @@ ms.workload:
   - "multiple"
 ---
 
-# Troubleshooting proxy errors in Visual Studio
+# Troubleshooting network errors in Visual Studio
 
-### "Proxy Authorization Required" error
+## "Proxy Authorization Required" error
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
@@ -66,6 +66,48 @@ This error generally occurs when users are connected to the internet through a p
     OR
 
 - You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
+
+## "The underlying connection was closed" error
+
+If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
+
+  **The underlying connection was closed: An unexpected error occurred on send**
+
+Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2.
+
+#### To fix this error:
+
+Enable connections for the following URLs:
+
+- https://management.core.windows.net
+
+- https://app.vssps.visualstudio.com
+
+- https://login.microsoftonline.com
+
+- https://login.live.com
+
+- https://go.microsoft.com
+
+- https://graph.windows.net
+
+- https://app.vsspsext.visualstudio.com
+
+- &#42;.azurewebsites.net (for Azure connections)
+
+- &#42;.visualstudio.com
+
+- cdn.vsassets.io (hosts content delivery network, or CDN, content)
+
+- &#42;.gallerycdn.vsassets.io (hosts VSTS extensions)
+
+- static2.sharepointonline.com (hosts resources that Visual Studio uses in the Office UI Fabric kit, such as fonts)
+
+- &#42;.nuget.org (for NuGet connections)
+
+ > [!NOTE]
+ > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
+
 
 ## Get support
 If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the installation troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
