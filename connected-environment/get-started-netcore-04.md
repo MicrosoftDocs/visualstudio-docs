@@ -2,12 +2,14 @@
 
 Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 
-In this section, we'll use VS Code to directly debug our containers running in Azure. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
+In this section, we'll use VS Code to directly debug our containers running in Azure. We'll also learn how to make our edit-run-test loop even faster. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
 
 ## Initialize Debug Assets with the VS Code Extension
 The VS Code extension for Connected Environment provides a helper command to set up debug configuration. 
 
-Open the **Command Palette** (using the **View | Command Palette** menu), and use auto-complete to type and select this command: `Connected Environment: Generate Assets for Build and Debug`. This command adds debug configuration under the `.vscode` folder for Connected Environment.
+Open the **Command Palette** (using the **View | Command Palette** menu), and use auto-complete to type and select this command: `Connected Environment: Generate Assets for Build and Debug`. 
+
+This adds debug configuration under the `.vscode` folder for Connected Environment.
 
 ![](media/vsce-command-palette.png)
 
