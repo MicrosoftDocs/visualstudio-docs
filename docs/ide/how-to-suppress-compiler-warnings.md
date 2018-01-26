@@ -107,7 +107,7 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
 
     The **Output** window no longer shows the warnings that you specified.
 
-For more information, see the [/nowarn) compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
+For more information, see the [/nowarn compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
 
 ## Suppressing warnings for NuGet packages
 
