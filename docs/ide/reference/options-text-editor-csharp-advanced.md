@@ -83,6 +83,6 @@ When selected, `System` using directives appear before other using directives. F
 
 [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)  
 [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)  
-[Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
+[Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)  
 [Setting language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)  
 [C# IntelliSense](../../ide/visual-csharp-intellisense.md)

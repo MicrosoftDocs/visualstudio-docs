@@ -44,7 +44,12 @@ Visual Studio can help you document code elements such as classes and methods, b
 
    ![Completed comment](media/doc-result-cs.png)
 
+> [!NOTE]
+> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
+
 ## See also
 
+[XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)  
+[Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)  
 [Code Generation](../code-generation-in-visual-studio.md)  
 [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
