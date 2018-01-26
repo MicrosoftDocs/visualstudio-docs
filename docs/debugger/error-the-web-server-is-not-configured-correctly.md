@@ -38,7 +38,7 @@ Take these steps to resolve this issue:
 
     The physical path may be incorrect if the web application was copied to a different machine, manually renamed, or moved. Reset IIS and retry.
 
-3. In Visual Studio, verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type. For a Web Forms project, open **Property Pages > Start Options > Server**).
+3. If you are debugging locally in Visual Studio, verify that the correct server is selected in the properties. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type. For a Web Forms project, open **Property Pages > Start Options > Server**).
 
     If you are using an external (custom) server such as IIS, the URL must be correct. Otherwise, select IIS Express and retry.
 

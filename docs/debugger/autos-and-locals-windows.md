@@ -37,7 +37,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```CSharp
+```csharp
     public static void Main()
     {
        int a, b, c, d;
@@ -81,7 +81,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-```CSharp
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  

@@ -1,5 +1,5 @@
 ---
-title: Edit Subscriptions in the Administrator Portal | Visual Studio Marketplace
+title: Edit Subscriptions in the Administrator Portal | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -17,7 +17,7 @@ Searchscope: VS Subscription
 You can edit a subscriber’s information to correct errors or update information. 
 **Please note that editing a subscriber’s email address will cause any existing benefits to be reset.**
 
-To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
+To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **Edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
 
    ![Select Subscriber to Edit](_img\edit-license\select-subscriber.png)
 
@@ -25,13 +25,15 @@ You can update the subscriber’s first name, last name, country, language and d
 
    ![Edit Subscriber Details](_img\edit-license\edit-subscriber.png)
 
-Note: If you need to change the subscription level for a subscriber, you will need to delete the user from the portal and add them again. Subscription levels are not editable.
+> [!NOTE]
+> If you need to change the subscription level for a subscriber, you will need to delete the user from the portal and add them again. Subscription levels are not editable.
 
 ## Editing multiple subscribers by using bulk edit
 
 You can edit multiple subscribers at once using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or if an organization has decided to restrict access to downloads. 
 
-**IMPORTANT:**  Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered.  If you attempt an upload with these items changed, the upload will fail.  
+> [!IMPORTANT]
+> Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered.  If you attempt an upload with these items changed, the upload will fail.  
 
 1.	To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**. 
 
