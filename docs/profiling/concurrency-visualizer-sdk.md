@@ -38,7 +38,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 3.  Add an imports or using statement to your code.  
   
-    ```CSharp  
+    ```csharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
@@ -91,7 +91,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 1.  To use a new <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>, first create it by using a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object, and then generate marker events directly from the new series.  
   
-    ```CSharp  
+    ```csharp  
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");  
     series1.WriteFlag("My flag");  
     ```  

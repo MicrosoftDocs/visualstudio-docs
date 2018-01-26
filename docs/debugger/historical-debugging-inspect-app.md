@@ -24,7 +24,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition but not the Profess
 ## Navigate your code with historical debugging  
  Let's start with a simple program that has a bug. In a C# console application, add the following code:  
   
-```CSharp  
+```csharp  
 static void Main(string[] args)  
 {  
     int testInt = 0;  
