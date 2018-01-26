@@ -1,7 +1,7 @@
 ---
 title: "Insert XML documentation comments in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "01/26/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
@@ -20,7 +20,7 @@ The **Insert Comment** command applies to:
 
 - Visual Basic
 
-Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML comment structure. XML comments can be processed into reference documentation by tools like [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526). You can also manually craft the comment block yourself, however this will take additional time and have lower accuracy.
+Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments. The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 ## To insert XML comments for a code element
 
