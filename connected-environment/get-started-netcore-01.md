@@ -14,12 +14,9 @@ curl -L https://aka.ms/get-vsce-mac | bash
 ``` -->
 
 ### Install on Windows
-1. Download and run the [Connected Environment CLI Installer](https://aka.ms/get-vsce-windows). 
 1. Install [Git for Windows](https://git-scm.com/downloads), select the default install options. 
-1. Download and save **kubectl.exe** from [this link](https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/windows/amd64/kubectl.exe).
-1. Add the location of the kubectl.exe binary to your PATH. 
-    * You can use this PowerShell command (the example assumes it was installed at **C:\Program Files (x86)**): `[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files (x86)", "User")`
-
+1. Download **kubectl.exe** from [this link](https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/windows/amd64/kubectl.exe) and **save** it to a location on your PATH.
+1. Download and run the [Connected Environment CLI Installer](https://aka.ms/get-vsce-windows). 
 
 ### Install on Linux
 Coming soon...
