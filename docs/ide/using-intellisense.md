@@ -106,7 +106,7 @@ MessageBox( hWnd, "String literal|")
 ## See also
 
 [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md)  
-[Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)  
+[C# IntelliSense](../ide/visual-csharp-intellisense.md)  
 [JavaScript IntelliSense](../ide/javascript-intellisense.md)  
 [Writing and Refactoring Code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
 [Supplying XML Code Comments](../ide/supplying-xml-code-comments.md)

@@ -56,5 +56,5 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 ## See also
 
-[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
+[C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
 [Code Snippet Picker](../ide/reference/code-snippet-picker.md)

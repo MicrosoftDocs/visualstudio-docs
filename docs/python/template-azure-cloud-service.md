@@ -88,7 +88,7 @@ For Cloud Services, the `ConfigureCloudService.ps1` script uses `pip` to install
 
 Note that cloud service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
-pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](python-environments.md#managing-required-packages-requirementstxt) for details on managing `requirements.txt` files.
+pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](managing-python-environments-in-visual-studio.md#managing-required-packages-requirementstxt) for details on managing `requirements.txt` files.
 
 ## Troubleshooting
 

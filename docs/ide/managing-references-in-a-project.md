@@ -12,7 +12,7 @@ f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
 helpviewer_keywords: 
-  - "Visual C# projects, references"
+  - "C# projects, references"
   - "referencing objects, project references"
   - "external component references"
   - "referencing namespaces"

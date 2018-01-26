@@ -26,7 +26,7 @@ For more information about the Text Editor options, see [Text Editor Options Dia
 
 ## See also
 
-[Quickstart: personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
+[Quickstart: Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
 [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)  
 [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md)  
 [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)  

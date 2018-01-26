@@ -9,13 +9,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "coded UI tests, data-driven"
+author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
-author: gewarren
 ---
 # Creating a Data-Driven Coded UI Test
+
 To test different conditions, you can run your tests multiple times with different parameter values. Data-driven coded UI tests are a convenient way to do this. You define parameter values in a data source, and each row in the data source is an iteration of the coded UI test. The overall result of the test will be based on the outcome for all the iterations. For example, if one test iteration fails, the overall test result is failure.  
   
  **Requirements**  
@@ -44,17 +45,16 @@ To test different conditions, you can run your tests multiple times with differe
      ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
   
      Close the test builder. The method is added to the test:  
-  
-    ```csharp  
+
+    ```csharp
     [TestMethod]  
     public void CodedUITestMethod1()  
     {  
         // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.  
-        this.UIMap.AddNumbers();  
-  
-    }  
-    ```  
-  
+        this.UIMap.AddNumbers();
+    }
+    ```
+
 5.  Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: Ctrl + R, T).  
   
      The test result that shows if the test passed or failed is displayed in the Test Explorer window. To open the Test Explorer window, from the **TEST** menu, choose **Windows** and then choose **Test Explorer**.  
@@ -75,7 +75,7 @@ To test different conditions, you can run your tests multiple times with differe
   
      Because the `ValidateSum` method validates the results of the `AddNumbers` method, move it to the bottom of the code block.  
   
-    ```csharp  
+    ```csharp
     public void CodedUITestMethod1()  
     {  
   
@@ -83,8 +83,8 @@ To test different conditions, you can run your tests multiple times with differe
         this.UIMap.AddNumbers();  
         this.UIMap.ValidateSum();  
   
-    }  
-    ```  
+    }
+    ```
   
 9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut:Ctrl + R, T).  
   
@@ -120,7 +120,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.  
   
-    ```  
+    ```csharp
     [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]  
     public void CodedUITestMethod1()  
     {  
@@ -129,14 +129,13 @@ To test different conditions, you can run your tests multiple times with differe
         this.UIMap.AddNumbers();  
         this.UIMap.ValidateSum();  
   
-    }  
-  
-    ```  
-  
+    }
+    ```
+
      The data source is now available for you to use in this test method.  
   
     > [!TIP]
-    >  See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.  
+    > See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.  
   
 2.  Run the test.  
   
@@ -148,7 +147,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 1.  Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the CodedUITest.cs file:  
   
-    ```  
+    ```csharp
     using System;  
     using System.Collections.Generic;  
     using System.Text.RegularExpressions;  
@@ -160,11 +159,11 @@ To test different conditions, you can run your tests multiple times with differe
     using Microsoft.VisualStudio.TestTools.UITest.Extension;  
     using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;  
     using Microsoft.VisualStudio.TestTools.UITesting.WinControls;  
-    ```  
+    ```
   
 2.  Add `TestContext.DataRow[]` in the `CodedUITestMethod1()` method which will apply values from the data source. The data source values override the constants assigned to UIMap controls by using the controls `SearchProperties`:  
   
-    ```  
+    ```csharp
     public void CodedUITestMethod1()  
     {  
   
@@ -174,8 +173,8 @@ To test different conditions, you can run your tests multiple times with differe
         this.UIMap.ValidateSumExpectedValues.UIItem2TextDisplayText = TestContext.DataRow["Sum"].ToString();  
         this.UIMap.ValidateSum();  
   
-    }  
-    ```  
+    }
+    ```
   
      To figure out which search properties to code the data to, use the Coded UI Test Editor.  
   
@@ -232,26 +231,26 @@ To test different conditions, you can run your tests multiple times with differe
   
 ### Q: Can I use data-driven tests on my Windows Phone app?  
  **A:** Yes. Data-driven Coded UI tests for Windows Phone are defined using the DataRow attribute on a test method. In the following example, x and y use the values of 1 and 2 for the first iteration and -1 and -2 for the second iteration of the test.  
-  
-```  
+
+```csharp
 [DataRow(1, 2, DisplayName = "Add positive numbers")]  
 [DataRow(-1, -2, DisplayName = "Add negative numbers")]  
 [TestMethod]  
-public void DataDrivingDemo_MyTestMethod(int x, int y)  
-  
-```  
-  
- For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8-1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).  
+public void DataDrivingDemo_MyTestMethod(int x, int y)
+```
+
+For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8-1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).
   
 ### Q: Why can't I modify the code in the UIMap.Designer file?  
  **A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).  
-  
- If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
-  
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>   
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+
+If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
+
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>   
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)   
+[Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

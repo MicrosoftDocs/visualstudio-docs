@@ -86,11 +86,11 @@ Use the **Signing** page of the **Project Designer** to sign the application and
 > [!NOTE]
 >  When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don't have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.  
   
-## See Also  
- [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
- [Managing Assembly and Manifest Signing](../../ide/managing-assembly-and-manifest-signing.md)   
- [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
- [How to: Sign Application and Deployment Manifests](../../ide/how-to-sign-application-and-deployment-manifests.md)   
- [How to: Sign an Assembly (Visual Studio)](../managing-assembly-and-manifest-signing.md#how-to-sign-an-assembly-in-visual-studio)   
- [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)   
- [Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies)   
+## See also
+
+[Project Properties Reference](../../ide/reference/project-properties-reference.md)  
+[Managing Assembly and Manifest Signing](../../ide/managing-assembly-and-manifest-signing.md)  
+[How to: Sign Application and Deployment Manifests](../../ide/how-to-sign-application-and-deployment-manifests.md)  
+[How to: Sign an Assembly (Visual Studio)](../managing-assembly-and-manifest-signing.md#how-to-sign-an-assembly-in-visual-studio)  
+[How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)  
+[Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies) 

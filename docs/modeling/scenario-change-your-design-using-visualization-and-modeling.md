@@ -249,7 +249,7 @@ Items on dependency diagrams are located in the modeling project, but they are n
   
 -   [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
--   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [Build and release](/vsts/build-release/index)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  
@@ -482,11 +482,10 @@ Items on dependency diagrams are located in the modeling project, but they are n
 |------------------|---------------|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
   
-## See Also  
- [Visualize code](../modeling/visualize-code.md)   
- [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
- [Validate your system during development](../modeling/validate-your-system-during-development.md)   
+## See also
 
-[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+[Visualize code](../modeling/visualize-code.md)   
+[Use models in your development process](../modeling/use-models-in-your-development-process.md)   
+[Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+[Validate your system during development](../modeling/validate-your-system-during-development.md)
  

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic | Microsoft Docs"
+title: "Walkthrough: Create a Simple Application with C# or Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2017"
 ms.reviewer: ""
@@ -18,7 +18,7 @@ manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# Walkthrough: Create a Simple Application with Visual C# or Visual Basic
+# Walkthrough: Create a Simple Application with C# or Visual Basic
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment (IDE).
   
 ##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  

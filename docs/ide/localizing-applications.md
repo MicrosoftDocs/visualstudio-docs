@@ -11,7 +11,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
   - "globalization [Visual Studio], localizing applications"
-  - "Visual C#, international applications"
+  - "C#, international applications"
   - "applications [Visual Studio], localizing"
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
@@ -40,7 +40,7 @@ ms.workload:
   
 ## Related Sections  
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
- Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
+ Discusses the concepts related to developing software for an international market using Visual Basic or C#.  
   
  [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  Provides links to pages about creating Windows applications that support multiple cultures.  
