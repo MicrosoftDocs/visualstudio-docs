@@ -50,6 +50,6 @@ Whether you are using Azure services with Visual Studio or you are an Azure deve
 
 ## See also
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
-* [Troubleshooting proxy errors in Visual Studio](troubleshooting-proxy-errors.md)
+* [Troubleshooting network errors in Visual Studio](troubleshooting-network-errors.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio 2017](install-visual-studio.md)

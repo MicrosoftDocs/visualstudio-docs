@@ -24,7 +24,7 @@
 #### [Update a network-based installation of Visual Studio](install/update-a-network-installation-of-visual-studio.md)
 #### [Install and use Visual Studio behind a firewall or proxy server](install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 ##### [Ports and protocols for Visual Studio and Azure services](install/visual-studio-and-azure-services-ports-and-protocols.md)
-##### [Troubleshooting network errors in Visual Studio](install/troubleshooting-proxy-errors.md)
+##### [Troubleshooting network errors in Visual Studio](install/troubleshooting-network-errors.md)
 ### Deploy in an enterprise
 #### [Automate Visual Studio installation with a response file](install/automated-installation-with-response-file.md)
 #### [Automatically apply product keys when deploying Visual Studio](install/automatically-apply-product-keys-when-deploying-visual-studio.md)
