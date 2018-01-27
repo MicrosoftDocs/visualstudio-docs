@@ -36,7 +36,7 @@ ms.workload:
 ## Rule Description  
  A static constructor, also known as a class constructor, is used to initialize a type. The system calls the static constructor before the first instance of the type is created or any static members are referenced. The user has no control over when the static constructor is called. If a static constructor is not private, it can be called by code other than the system. Depending on the operations that are performed in the constructor, this can cause unexpected behavior.  
   
- This rule is enforced by the C# and Visual Basic .NET compilers.  
+ This rule is enforced by the C# and Visual Basic compilers.  
   
 ## How to Fix Violations  
  Violations are typically caused by one of the following actions:  
