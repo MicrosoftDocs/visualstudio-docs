@@ -1,5 +1,8 @@
 # Getting Started on Connected Environment with .NET Core
 
+> [!Note]
+> **If you get stuck** at any time, see the [Troubleshooting](troubleshooting.md) section.
+
 ## Install the Connected Environment CLI
 There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
