@@ -36,7 +36,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.  
   
     > [!TIP]
-    >  To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C# .NET)](http://youtu.be/qOh4ooHg1UU) or [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.  
+    >  To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C#)](http://youtu.be/qOh4ooHg1UU) or [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.  
   
 -   Make the game more difficult by making the board bigger.  
   

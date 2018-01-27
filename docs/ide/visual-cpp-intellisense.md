@@ -20,35 +20,35 @@ IntelliSense for C++ is available for stand-alone files as well as for files tha
 
 ## IntelliSense features in C++
 
-IntelliSense is a name given to a set of features that make coding more convenient. Since different people have different ideas about what is convenient, virtually all of the IntelliSense features can be enabled or disabled in the **Text Editor, C/C++, Advanced** property page.
+IntelliSense is a name given to a set of features that make coding more convenient. Since different people have different ideas about what is convenient, virtually all of the IntelliSense features can be enabled or disabled in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced**. The **Options** dialog box is available from the **Tools** menu on the menu bar.
 
-![Tools, Options, Text Editor, C&#47;C&#43;&#43;, Advanced](../ide/media/sintellisensecpptoolsoptions.PNG "sIntelliSenseCppToolsOptions")
+![Tool Options dialog box](../ide/media/sintellisensecpptoolsoptions.PNG)
 
 You can use the menu items and keyboard shortcuts shown in the following image to access IntelliSense.
 
-![Visual C&#43;&#43; IntelliSense Menu](../ide/media/vs2015_cpp_intellisense_menu.png "vs2015_cpp_intellisense_menu")
+![IntelliSense menu](../ide/media/vs2015_cpp_intellisense_menu.png)
 
 ### Statement completion and member list
 
-When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you
+When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you.
 
 For a list of the icons and their meanings, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md).
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png "vs2015_cpp_complete_word")
 
-The first time member list is invoked it only shows members that are accessible for the current context. If you use **Ctrl + J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off statement completion in the **C/C++ General Options** page.
+The first time member list is invoked it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
 
 ![Visual C&#43;&#43; Member List](../ide/media/vs2015_cpp_list_members.png "vs2015_cpp_list_members")
 
 ### Parameter help
 
-When you type an opening brace of a function call, or angle bracket on a class template variable declaration, the editor shows a small window with the parameter types for each overload of the function or constructor. The "current" parameter--based on the cursor location--is in bold. You can turn off Statement completion in the **C/C++ General Options** page.
+When you type an opening brace of a function call, or angle bracket on a class template variable declaration, the editor shows a small window with the parameter types for each overload of the function or constructor. The "current" parameter&mdash;based on the cursor location&mdash;is in bold. You can turn off parameter information in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Parameter information**.
 
 ![Visual C&#43;&#43; Parameter Help](../ide/media/vs_2015_cpp_param_help.png "vs_2015_cpp_param_help")
 
 ### Quick Info
 
-When you hover the mouse cursor over a variable, a small window appears inline that shows the type information and the header in which the type is defined. Hover over a function call to see the function's signature. You can turn off Quick Info in the **Text Editor, C/C++, Advanced** page.
+When you hover the mouse cursor over a variable, a small window appears inline that shows the type information and the header in which the type is defined. Hover over a function call to see the function's signature. You can turn off Quick Info in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced** > **Auto Quick Info**.
 
 ![Visual C&#43;&#43; QuickInfo](../ide/media/vs2015_cpp_quickinfo.png "vs2015_cpp_quickInfo")
 
@@ -60,7 +60,7 @@ Squiggles under a program element (variable, keyword, brace, type name, and so o
 
 ### Code colorization and fonts
 
-The default colors and fonts can be changed by using the **Environment, Fonts and Colors** property page. You can change the fonts for many UI windows here, not just the editor. The settings that are specific to C++ begin with "C++"; the other settings are for all languages.
+The default colors and fonts can be changed in the **Options** dialog box, under **Environment** > **Fonts and Colors**. You can change the fonts for many UI windows here, not just the editor. The settings that are specific to C++ begin with "C++"; the other settings are for all languages.
 
 ### Cross-platform IntelliSense
 
@@ -92,7 +92,7 @@ Notice the following:
 
 ### IntelliSense for stand-alone files
 
-When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular features by going to **Text Editor, C/C++, Advanced** to turn on or off IntelliSense features. To configure IntelliSense for single files that aren't part of a project, look for **IntelliSense and Browsing for Non-Project Files** in the **Advanced** section. See [Visual C++ Guided Tour](http://msdn.microsoft.com/en-us/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).
+When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular IntelliSense features in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced**. To configure IntelliSense for single files that aren't part of a project, look for the **IntelliSense and Browsing for Non-Project Files** section.
 
 ![Visual C&#43;&#43; single file intellisense](../ide/media/vs2015_cpp_single_file_intellisense.png "vs2015_cpp_single_file_intellisense")
 

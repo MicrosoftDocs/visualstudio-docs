@@ -8,11 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, domain properties"
-ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -49,4 +47,4 @@ A *domain property* is a feature of a model element that can hold a value. For e
 |**Type**|The type of property. To add to the list of available types, right-click the root of the DSL in DSL explorer, and click **Add External Type**.|`String`|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

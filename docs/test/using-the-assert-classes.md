@@ -55,6 +55,7 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
   
  Decorate a test method with the ExpectedExceptionAttribute attribute when you want the test method to verify that an exception you expect to be thrown by a method in your development code is indeed being thrown in that method.  
   
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting>   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting>  
+[Unit test your code](../test/unit-test-your-code.md)

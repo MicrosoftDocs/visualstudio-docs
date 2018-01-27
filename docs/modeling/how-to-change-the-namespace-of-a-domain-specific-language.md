@@ -8,11 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, namespace"
-ms.assetid: f20c47e5-230d-4f0e-812f-5c6edb86866c
-caps.latest.revision: 19
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -51,5 +49,6 @@ You can change the namespace of a domain-specific language. You must make the ch
   
 11. On the **Build** menu, choose **Rebuild Solution**.  
   
-## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+## See also
+
+[Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

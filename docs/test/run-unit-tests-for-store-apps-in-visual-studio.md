@@ -51,7 +51,7 @@ This topic describes how to run unit tests by using the Test Explorer in Microso
 ##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> Running tests in Test Explorer  
  When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.  
   
- ![Unit Test Explorer](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
+ ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
  As you run, write, and rerun your tests, Test Explorer displays the results in default groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can change the way Test Explorer groups your tests.  
   

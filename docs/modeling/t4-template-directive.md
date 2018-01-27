@@ -6,11 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b0a8e04-6fee-4c6c-b086-e49fc728a3ed
-caps.latest.revision: 10
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

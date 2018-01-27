@@ -77,7 +77,7 @@ If you have a collection of code source files, you can easily add them to a proj
 1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, choose the **Finish** button.
 
 > [!NOTE]
-> This option works best for a relatively simple collections of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and Visual C# project types are supported.
+> This option works best for a relatively simple collection of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and C# project types are supported.
 
 ## Add files to a solution
 

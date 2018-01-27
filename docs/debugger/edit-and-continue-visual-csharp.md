@@ -33,7 +33,7 @@ ms.workload:
  Edit and Continue is supported in UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
  > [!NOTE]
- > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows 8.1.
+ > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
   
  When Edit and Continue is enabled, supported changes are applied automatically when you use a debugger execution command, such as **Continue**, **Step**, **Set Next Statement**, or perform a function evaluation in a debugger window.  
   

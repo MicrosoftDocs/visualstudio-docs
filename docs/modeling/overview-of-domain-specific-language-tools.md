@@ -8,11 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language"
-ms.assetid: 50d93ea2-8c88-4522-853b-40ab194953db
-caps.latest.revision: 54
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -76,4 +74,4 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
   
 ## See Also  
  [The Experimental Instance](../extensibility/the-experimental-instance.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

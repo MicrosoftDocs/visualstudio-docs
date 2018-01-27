@@ -15,7 +15,7 @@ dev_langs:
 ms.workload: 
   - "multiple"
 ---
-# Quickstart: coding in the editor
+# Quickstart: Coding in the editor
 
 In this 10-minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
@@ -132,7 +132,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 ## Refactoring a name
 
-Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-code-generation-quick-actions.md#refactoring) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
 1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
 
@@ -152,11 +152,11 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 
 ## See also
 
-[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md)  
-[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
+[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)  
 [Code snippets](../ide/code-snippets.md)  
 [Outlining](../ide/outlining.md)  
 [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Refactoring](../ide/refactoring-code-generation-quick-actions.md#refactoring)  
-[Using IntelliSense](../ide/using-intellisense.md)  
+[Refactoring](../ide/refactoring-in-visual-studio.md)  
+[Using IntelliSense](../ide/using-intellisense.md)

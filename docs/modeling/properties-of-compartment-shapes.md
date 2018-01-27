@@ -10,11 +10,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.compartmentshape"
 helpviewer_keywords: 
   - "Domain-Specific Language, compartment shape"
-ms.assetid: 9a9e112d-210d-413b-a44f-0e976a4a78bc
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -56,4 +54,4 @@ Compartment shapes are one of the shapes you can use to display a domain class i
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

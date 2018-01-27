@@ -8,11 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom validation"
-ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
-caps.latest.revision: 42
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

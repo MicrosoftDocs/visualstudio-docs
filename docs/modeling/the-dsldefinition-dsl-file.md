@@ -8,11 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, definition file"
-ms.assetid: f3fc3ed7-2438-4e5a-b3d7-fe7e0e8a134c
-caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -545,6 +543,6 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
  Connector maps can also contain decorator maps.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

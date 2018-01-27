@@ -20,11 +20,11 @@ ms.workload:
   - "multiple"
 ---
 # How to: Split a Class into Partial Classes (Class Designer)
-You can divide the declaration of a class or structure among several declarations by using the `Partial` keyword in Visual Basic or the `partial` keyword in Visual C#. You can use as many partial declarations as you want, in as many different source files as you want, or in one source file. However, all the declarations must be in the same assembly and the same namespace.  
+You can divide the declaration of a class or structure among several declarations by using the `Partial` keyword in Visual Basic or the `partial` keyword in C#. You can use as many partial declarations as you want, in as many different source files as you want, or in one source file. However, all the declarations must be in the same assembly and the same namespace.  
   
 Partial classes are useful in several situations. For example, when you are working on large projects, separating a class into more than one file enables more than one programmer to work on it at the same time. When you are working with code that Visual Studio generates, you can change the class without having to re-create the source file. (Examples of code that Visual Studio generates include Windows Forms and Web Service wrapper code.) You can thus create code that uses auto-generated classes without having to modify the file that Visual Studio creates.  
   
-There are two kinds of partial methods. In Visual C#, they are called declaring and implementing; in Visual Basic, they are called declaration and implementation.  
+There are two kinds of partial methods. In C#, they are called declaring and implementing; in Visual Basic, they are called declaration and implementation.  
   
 Class Designer supports partial classes and methods. The type shape in the class diagram refers to a single declaration location for the partial class. If the partial class is defined in multiple files, you can specify which declaration location Class Designer will use by setting the **New Member Location** property in the **Properties** window. That is, when you double-click a class shape, Class Designer goes to the source file that contains the class declaration identified by the **New Member Location** property. When you double-click a partial method in a class shape, Class Designer goes to the partial method declaration. Also, in the **Properties** window, the **File Name** property refers to the declaration location. For partial classes, **File Name** lists all of the files that contain declaration and implementation code for that class. However, for partial methods, **File Name** lists only the file that contains the partial method declaration.  
   
@@ -53,7 +53,7 @@ End Class
 ```  
 
 ## Example  
-To split a class definition in Visual C#, use the `partial` keyword, as shown in the following example.  
+To split a class definition in C#, use the `partial` keyword, as shown in the following example.  
   
 ```csharp  
 // First part of class definition.  

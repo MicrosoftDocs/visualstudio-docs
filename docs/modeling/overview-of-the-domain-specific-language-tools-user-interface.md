@@ -10,11 +10,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.editor"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, user interface"
-ms.assetid: 81ae6b35-6819-41d0-953b-6b4ed81f9227
-caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -48,5 +46,5 @@ When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!I
   
 ## See Also  
  [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)

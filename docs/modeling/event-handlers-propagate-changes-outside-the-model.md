@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
-ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
-caps.latest.revision: 18
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

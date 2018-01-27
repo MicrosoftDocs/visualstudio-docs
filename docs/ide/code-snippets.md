@@ -31,7 +31,7 @@ Code snippets are small blocks of reusable code that can be inserted in a code f
 
 In Visual Studio there are two kinds of code snippet: expansion snippets, which are added at a specified insertion point and may replace a snippet shortcut, and surround-with snippets (C# and C++ only), which are added around a selected block of code.
 
-An example of an insertion snippet: in C# the shortcut tryf is used to insert a try-finally block:
+An example of an expansion snippet: in C# the shortcut tryf is used to insert a try-finally block:
 
 ```csharp
 try
@@ -87,6 +87,6 @@ You can add and remove snippet directories with the **Add** and **Remove** butto
 [How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)  
 [Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)  
 [Troubleshooting Snippets](../ide/troubleshooting-snippets.md)  
-[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
+[C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
 [Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)  
 [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

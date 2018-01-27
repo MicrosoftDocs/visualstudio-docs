@@ -10,25 +10,25 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "unit test sample [Visual Studio]"
   - "unit tests, samples"
+author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
-author: gewarren
 ---
 # Sample Project for Creating Unit Tests
-This sample code is provided for use in the following walkthroughs:  
-  
--   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.  
-  
--   [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
-  
--   [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.  
-  
-## Sample Code  
- The only intentional error in this sample is that the in Debit method "m_balance += amount" should have a minus not a plus sign before the equals sign.  
-  
-```  
+
+This sample code is provided for use in the following walkthroughs:
+
+- [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.
+
+- [Walkthrough: Using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.
+
+## Sample Code
+
+The only intentional error in this sample is that the in Debit method "m_balance += amount" should have a minus not a plus sign before the equals sign.
+
+```csharp
 using System;   
   
 namespace BankAccountNS  
@@ -116,18 +116,18 @@ namespace BankAccountNS
             ba.Credit(5.77);  
             ba.Debit(11.22);  
             Console.WriteLine("Current balance is ${0}", ba.Balance);  
-        }  
-  
-    }  
-}  
-```  
-  
- /* The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious.  No association with any real company, organization, product, domain name, email address, logo, person, places, or events is intended or should be inferred. \*/  
-  
-## Working with the Code  
- To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).  
-  
-## See Also  
- [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
- [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
- [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867)
+        }
+    }
+}
+```
+
+/* The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, email address, logo, person, places, or events is intended or should be inferred. \*/
+
+## Working with the Code
+
+To work with this code, you first have to create a project for it in Visual Studio. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
+
+## See also
+
+[Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
+[Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867)

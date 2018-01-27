@@ -117,5 +117,4 @@ For detailed information on project settings for debug configurations in C#, see
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
- [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
- [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)
+ [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)
