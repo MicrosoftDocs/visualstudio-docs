@@ -48,7 +48,9 @@ Keep an eye on the command's output, you'll notice several things as it progress
 > These steps will take longer the first time the `up` command is run - they are considerably shortened on subsequent runs.
 
 ## Test the App
-Scan the console output for information about the public URL that was created by the `up` command. It will be in the form: `https://<servicename>-<environmentname>.vsce.io`. For example: https://webfrontend-myenvironment.vsce.io.
+Scan the console output for information about the public URL that was created by the `up` command. It will be in the form: 
+
+`Running at public URL: https://<servicename>-<environmentname>.vsce.io` 
 
 Open this URL in a browser window - or better yet, from a mobile device - and you should see the web app load! As the container executes, `stdout` and `stderr` output is streamed to the terminal window.
 
