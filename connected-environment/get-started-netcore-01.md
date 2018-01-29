@@ -9,12 +9,8 @@ There is minimal "local machine" setup required with Connected Environment. Most
 ### Install on Mac
 Download and install the Connected Environment CLI:
 ```
-curl -L https://aka.ms/get-vsce-mac > get-vsce-mac.sh
-source ./get-vsce-mac-sh
-```
-<!-- ```
 curl -L https://aka.ms/get-vsce-mac | bash
-``` -->
+```
 
 ### Install on Windows
 1. Install [Git for Windows](https://git-scm.com/downloads), select the default install options. 
