@@ -8,3 +8,11 @@ You run `vsce up` and get the following error: `Config file not found: .../vsce.
 **Try:**
 1. Change your current directory to the root folder containing your service code. 
 1. If you do not have a vsce.yaml file in the code folder, run 'vsce init' to generate Docker, Kubernetes, and VSCE assets.
+
+## Debugging error 'Configured debug type 'coreclr' is not supported'
+Running the VS Code debugger reports the error: `Configured debug type 'coreclr' is not supported.`
+
+**Reason:** You do not have the VS Code extension for Connected Environment installed on your development machine.
+
+**Try:**
+Install the [VS Code extension for Conneced Environment](get-started-netcore-01.md#get-kubernetes-debugging-tools).
