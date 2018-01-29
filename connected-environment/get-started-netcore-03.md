@@ -3,10 +3,12 @@
 Previous step: [Create a Kubernetes Development Environment in Azure](get-started-netcore-02.md)
 
 ## Create an ASP.NET Core Web App
-We'll use the `dotnet` CLI to create an ASP.NET Core Web App in a folder named `webfrontend`.
+If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickly create an ASP.NET Core Web App in a folder named `webfrontend`.
 ```
 dotnet new mvc --name webfrontend
 ```
+
+Alternatively, **download code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select 'Clone or Download' to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
 
 ## Initialize Code for Docker and Kubernetes Development
 So far, we have a basic ASP.NET Core MVP web app - we'll now containerize it by creating assets that define the app's container and how it will deploy to Kubernetes. This is easy to do with Connected Environment: 
