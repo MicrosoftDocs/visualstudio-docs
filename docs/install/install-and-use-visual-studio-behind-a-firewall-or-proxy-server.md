@@ -22,9 +22,9 @@ ms.workload:
   - "multiple"
 ---
 # Install and use Visual Studio behind a firewall or proxy server
-When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs.
+When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs or enable some ports and protocols.
 
-## Installing Visual Studio by using deployment scripts
+## Install Visual Studio by using deployment scripts
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in your deployment scripts.
 
 If it's possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
@@ -62,11 +62,14 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
 | www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
 
-## Using Visual Studio and Azure services in a private network
-<more content here>
+## Use Visual Studio and Azure services in a private network
+When you use Visual Studio or Azure services in a private network, there are some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
+
+## Troubleshoot network-related errors
+Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors](troubleshooting-network-errors.md) page.
 
 ## Get support
-Here are a few more support options:
+Here are a few more support options for you:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
