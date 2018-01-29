@@ -16,4 +16,4 @@ Select a **language-specific guide** below:
 > [Create a Node.js app](get-started-nodejs-01.md)
 
 > [!Note]
-> **If you get stuck** at any time, see the [Troubleshooting](troubleshooting.md) section.
+> If you get stuck at any time, see the [Troubleshooting](troubleshooting.md) section.
