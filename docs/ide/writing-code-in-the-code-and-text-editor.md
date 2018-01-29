@@ -5,12 +5,7 @@ ms.date: "09/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "JScript"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"
@@ -63,7 +58,6 @@ You can find a number of advanced features on the **Edit/Advanced** submenu. Not
 |Make Lowercase|Changes all characters in the selection to lowercase, or if there is no selection, changes the character at the insertion point to lowercase.|
 |Move selected Lines Up|Moves the selected line up one line. Shortcut: ALT + UP ARROW.|
 |Move Selected Lines Down|Moves the selected line down one line. Shortcut: ALT + DOWN ARROW.|
-|Validate Document|Validates JScript code files.|
 |Delete Horizontal White Space|Deletes tabs or spaces at the end of the current line.|
 |View White Space|Displays spaces as raised dots, and tabs as arrows. The end of a file is displayed as a rectangular glyph. If **Tools/Options/Text Editor/All Languages/Word Wrap/Show visible glyphs for word wrap** is selected, that glyph is also displayed.|
 |Word Wrap|Causes all the lines in a document to be visible in the code window. You can turn word wrap off and on in the Text Editor All Languages settings (**Tools/Options/ Text Editor/All Languages**).|
