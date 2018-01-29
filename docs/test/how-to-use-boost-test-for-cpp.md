@@ -1,7 +1,7 @@
 ---
 title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/05/2018"
+ms.date: "01/29/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-devops-test
@@ -29,32 +29,40 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. Install the Boost.Test dynamic or static library:
 
-	- Run `vcpkg install boost-test` to install the Boost.Test dynamic library.
+	- Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
 	
 	   -OR-
 	   
-	- Run `vcpkg install boost-test:x86-windows-static` to install the Boost.Test static library.
+	- Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
 
-1. Run `vcpkg integrate install` to configure Visual Studio with the library and include paths to the Boost headers and binaries.
+1. Run **vcpkg integrate install** to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
-## Create a project for your tests
+## Add the item template (Visual Studio 2017 15.6 and later)
 
-> [!NOTE]
-> In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create a console application project to hold your tests. Test templates for Boost.Test are planned for inclusion in a future version of Visual Studio.
+1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**. 
+ 
+![Boost.Test Item Template](media/boost_test_item_template.png "Boost.Test item template")
+
+1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
+
+The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. See [Add include directives](#add_include_directives) below for more information.
+
+## Create a test project (Visual Studio 2017 15.5)
+
+In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests. 
 
 1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project...**.
 
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
+1. Delete the `main` function in the .cpp file. 
 
-## Link and configuration (Boost static library only)
+1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add_include_directives). If you are using the static library version, then you have to perform some additional configuration:
 
-Configure the project to run Boost.Test tests.
+   a. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
 
-1. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
-
-1. Add two lines to the **Globals** property group as shown here:
+   b. Add two lines to the **Globals** property group as shown here:
 
     ```xml
     <PropertyGroup Label="Globals">
@@ -63,19 +71,17 @@ Configure the project to run Boost.Test tests.
         <VcpkgEnabled>true</VcpkgEnabled>
     </PropertyGroup>
     ```
-1. Save and close the \*.vcxproj file, and then reload the project.
+   c. Save and close the \*.vcxproj file, and then reload the project.
 
-1. To open the **Property Pages**, right-click on the project node and choose **Properties**.
+   d. To open the **Property Pages**, right-click on the project node and choose **Properties**.
 
-1. Expand **C/C++** > **Code Generation**, and then select **Runtime Library**. Select `/MTd` for debug static runtime library or `/MT` for release static runtime library.
+   d. Expand **C/C++** > **Code Generation**, and then select **Runtime Library**. Select **/MTd** for debug static runtime library or **/MT** for release static runtime library.
 
-1. Expand **Linker > System**. Verify that **SubSystem** is set to **Console**.
+   f. Expand **Linker > System**. Verify that **SubSystem** is set to **Console**.
 
-1. Choose **OK** to close the property pages.
+   g. Choose **OK** to close the property pages.
 
 ## Add include directives
-
-1. If there is a `main` function in your test .cpp file, delete it.
 
 1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
 
