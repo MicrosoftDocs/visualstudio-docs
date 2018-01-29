@@ -24,8 +24,9 @@ ms.workload:
 ---
 
 # Troubleshooting network errors in Visual Studio
+Sometimes, thing can go wrong. We're here to help. We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
-## "Proxy Authorization Required" error
+## The "Proxy authorization required" error
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
