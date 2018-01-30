@@ -1,7 +1,7 @@
 # [Visual Studio Connected Environment](visual-studio-connected-environment.md)
 
 # [Get Started](get-started.md)
-##[.NET Core with VS Code & CLI](get-started-netcore-01.md)
+##[.NET Core (VS Code & CLI)](get-started-netcore-01.md)
 ###[1. Install Tools](get-started-netcore-01.md)
 ###[2. Create a Dev Environment in Azure](get-started-netcore-02.md)
 ###[3. Create an ASP.NET Web App](get-started-netcore-03.md)
@@ -9,12 +9,12 @@
 ###[5. Call another container](get-started-netcore-05.md)
 ###[6. Team Development](get-started-netcore-06.md)
 
-##[.NET Core with Visual Studio](get-started-netcore-visualstudio-01.md)
+##[.NET Core (Visual Studio 2017)](get-started-netcore-visualstudio-01.md)
 ###[1. Install Tools](get-started-netcore-visualstudio-01.md)
 ###[2. Create an ASP.NET Web App](get-started-netcore-visualstudio-02.md)
 ###[3. Create a Dev Environment in Azure](get-started-netcore-visualstudio-03.md)
 ###[4. Debug a Container in Kubernetes](get-started-netcore-visualstudio-04.md)
 
-##[Node.js with VS Code & CLI](get-started-nodejs-01.md)
+##[Node.js (VS Code & CLI)](get-started-nodejs-01.md)
 
 
