@@ -73,7 +73,7 @@ The spectrum of development environments is huge, and there’s real cost associ
 
 As a quick summary, you’ll need to sysprep and shutdown the running VM, then *capture (Figure 1)* the VM as an image through the Azure portal’s UI.  Azure will save the `.vhd` file that contains the image in the storage account of your choosing.  Then, the new image shows up as an Image resource in your subscription’s list of resources.
 
-<img src="media/using-visual-studio-vm/capture-vm.png" alt="Capture an image through the Azure portal’s UI" style="border:3px solid Silver; display: block; margin: auto;"><center>*(Figure 1) Capture an image through the Azure portal’s UI.*</center>
+<img src="media/capture-vm.png" alt="Capture an image through the Azure portal’s UI" style="border:3px solid Silver; display: block; margin: auto;"><center>*(Figure 1) Capture an image through the Azure portal’s UI.*</center>
 
 For more information, see [Capturing a VM to an image](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource).
 
@@ -87,5 +87,5 @@ Additionally, your development tasks or technologies might need more scale – l
 ## Next steps
 Now that you know about the pre-configured Visual Studio images, the next step is to create a new VM:
 
-* [Create a VM through the Azure portal](quick-create-portal.md)
-* [Windows Virtual Machines overview](overview.md)
+* [Create a VM through the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+* [Windows Virtual Machines overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/overview)
