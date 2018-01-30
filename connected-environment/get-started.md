@@ -10,10 +10,13 @@ In this guide, you will learn how to:
 Select a **language-specific guide** below:
 
 > [!div class="nextstepaction"]
-> [Create a .NET Core app](get-started-netcore-01.md)
+> [Node.js app](get-started-nodejs-01.md)
 
 > [!div class="nextstepaction"]
-> [Create a Node.js app](get-started-nodejs-01.md)
+> [.NET Core using VS Code](get-started-netcore-01.md)
+
+> [!div class="nextstepaction"]
+> [.NET Core using Visual Studio 2017](get-started-netcore-visualstudio-01.md)
 
 > [!Note]
 > If you get stuck at any time, see the [Troubleshooting](troubleshooting.md) section.
