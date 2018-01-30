@@ -160,7 +160,7 @@ The JSON files are located in a hidden folder called `.vs` in your root project 
 
 ### <a name="tasks"/>Define tasks with tasks.vs.json
 
-You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**. 
+You can automate build scripts or any other external operations on the files you have in your current workspace by running them as tasks directly in the IDE. You can configure a new task by right-clicking on a file or folder and selecting **Configure Tasks**.
 
 ![Open Folder Configure Tasks](../ide/media/configure_tasks.png)
 
@@ -185,13 +185,13 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
 ##### output
 
-If your project needs to be compiled, you can add an additional property called `output` to the tasks.vs.json file. Here is an example:  
+If your project needs to be compiled, you can add an additional property called `output` to the tasks.vs.json file. Here is an example:
 
 ```json
-  "output": "${workspaceRoot}\\bin\\hellomake.exe" 
+  "output": "${workspaceRoot}\\bin\\hellomake.exe"
 ```
 
-Specifying the output location notifies Visual Studio where to find the project's build output when you press **F5**.
+Specifying the output location tells Visual Studio where to find the project's build output when you press **F5**.
 
 #### Macros for tasks.vs.json
 
@@ -305,7 +305,7 @@ After saving tasks.vs.json, you can right-click any .js file in the folder, choo
 
 ### <a name="launch"/>Configure debugging arguments with launch.vs.json
 
-To customize your program’s command line arguments for debugging, right-click on the executable in **Solution Explorer** and select **Debug and Launch Settings**. This will open an existing `launch.vs.json` file, or if none exists, it will create a new file prepopulated with the information about the program you have selected. 
+To customize your program’s command line arguments for debugging, right-click on the executable in **Solution Explorer** and select **Debug and Launch Settings**. This will open an existing `launch.vs.json` file, or if none exists, it will create a new file prepopulated with the information about the program you have selected.
 
 To specify additional command line arguments, just add them in the `args` JSON array as shown in the following example:
 
