@@ -3,7 +3,7 @@
 Previous step: [Install Tools](get-started-netcore-01.md)
 
 ## Sign in to Azure
-We'll need to sign in to Azure to create our development environment. Type the following command in a command or terminal window:
+We'll need to sign in to Azure to create our development environment. Type the following command in a terminal window:
 ```
 az login
 ```
