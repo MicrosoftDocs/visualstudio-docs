@@ -15,7 +15,7 @@ manager: ghogen
 ms.workload: 
   - "dotnet"
 ---
-# Walkthrough: Analyzing Managed Code for Code Defects
+# Walkthrough: Analyzing mcnaged code for Code defects
 
 In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.  
   
@@ -50,7 +50,8 @@ This walkthrough steps you through the process of using code analysis to analyze
            protected static readonly int _item;
            public static int item { get { return _item; } }
        }
-   }``` 
+   }
+   ``` 
   
 1. Save the Class1.cs file.  
   
@@ -76,7 +77,7 @@ This walkthrough steps you through the process of using code analysis to analyze
   
     The CodeAnalysisManagedDemo project build warnings are shown in the **Error List** and **Output** windows.
   
-## Correct the Code Analysis Issues  
+## Correct the code analysis issues  
   
 ### To correct code analysis rule violations  
   
@@ -189,7 +190,7 @@ namespace TestCode
 }
 ```  
   
-## Exclude Code Analysis Warnings  
+## Exclude code analysis warnings  
   
 ### To exclude code defect warnings  
   
@@ -202,3 +203,7 @@ namespace TestCode
 1. Rebuild the project.  
   
      The project builds without any warnings or errors.
+
+## See also
+
+[Code analysis for managed code](../code-quality/code-analysis-for-managed-code-overview.md)

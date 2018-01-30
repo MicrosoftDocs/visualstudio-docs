@@ -29,7 +29,8 @@ manager: ghogen
 ms.workload: 
   - "cplusplus"
 ---
-# Code Analysis for C/C++ Overview
+# Code analysis for C/C++ overview
+
 The C/C++ Code Analysis tool provides information to developers about possible defects in their C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks.  
   
 ## IDE (integrated development environment) Integration  
@@ -54,6 +55,5 @@ The C/C++ Code Analysis tool provides information to developers about possible d
 
 ## See also
 
-[Analyzing Driver Quality by Using Code Analysis Tools](/windows-hardware/drivers/develop/analyzing-driver-quality-by-using-code-analysis-tools)    
-[Code Analysis for Drivers Warnings](/windows-hardware/drivers/devtest/prefast-for-drivers-warnings)  
-Describes the warnings that the Code Analysis for Drivers reports when it detects a possible error in driver code.  
+[Analyzing Driver Quality by Using Code Analysis Tools](/windows-hardware/drivers/develop/analyzing-driver-quality-by-using-code-analysis-tools)  
+[Code Analysis for Drivers Warnings](/windows-hardware/drivers/devtest/prefast-for-drivers-warnings)

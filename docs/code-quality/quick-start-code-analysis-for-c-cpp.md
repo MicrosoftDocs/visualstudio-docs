@@ -11,30 +11,14 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "C/C++ code analysis"
   - "code analysis,C/C++"
-ms.assetid: 6110b8ba-0af6-4acd-b1ba-bb0551f90e44
-caps.latest.revision: 8
 author: mikeblome
 ms.author: mblome
 manager: ghogen
 ms.workload: 
   - "cplusplus"
 ---
-# Quick Start: Code Analysis for C/C++
-You can improve the quality of your application by running code analysis regularly on C or C++ code. This can help you find common problems, violations of good programming practice, or defects that are difficult to discover through testing. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code.  
-  
-## In this topic  
-  
--   [Configure rule sets for a project](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_ConfigureRuleSets)  
-  
--   [Run code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Run)  
-  
--   [Analyze and resolve code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Analyze)  
-  
--   [Suppressing code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Suppress)  
-  
--   [Creating work items for code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Creating_work_items_for_code_analysis_warnings)  
-  
--   [Searching and filtering code analysis results](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Search)  
+# Quickstart: Code analysis for C/C++
+You can improve the quality of your application by running code analysis regularly on C or C++ code. This can help you find common problems, violations of good programming practice, or defects that are difficult to discover through testing. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code.
   
 ##  <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
   
@@ -124,3 +108,7 @@ You can search long lists of warning messages and you can filter warnings in mul
 - **To filter warnings by title or warning id**: Enter the keyword in the search box.
   
 - **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. On the **Severity** column of the **Error List**, choose the drop-down arrow and then the filter icon. Choose **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **Select All** to display all messages.
+
+## See also
+
+[Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)
