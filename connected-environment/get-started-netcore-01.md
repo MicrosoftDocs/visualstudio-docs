@@ -31,5 +31,8 @@ While you can use the Connected Environment CLI as a standalone tool, rich featu
 code --install-extension path-to-downloaded-extension/vsce-0.1.0.vsix
 ```
 
+
+We're now ready to create a Kubernetes-based development environment in Azure.
+
 > [!div class="nextstepaction"]
 > [Create a Dev Environment in Azure](get-started-netcore-02.md)
