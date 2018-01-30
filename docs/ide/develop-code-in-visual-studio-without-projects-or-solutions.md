@@ -49,7 +49,7 @@ The following example shows how to clone a GitHub repo and then open its code in
     > [!NOTE]
     >  While you also have the option to open the project on your desktop or download a .zip file of the project, this example demonstrates how to clone the repo using the secure URL method.
 
-1. In Visual Studio, choose the **Team Explorer** tab to open Team Explorer. If you don't see the tab, open it from **View**, **Team Explorer**.
+1. In Visual Studio, choose the **Team Explorer** tab to open Team Explorer. If you don't see the tab, open it from **View** > **Team Explorer**.
 
 1. In Team Explorer, under the **Local Git Repositories** section, choose the **Clone** command and then paste the URL of the GitHub page into the text box.
 
@@ -83,11 +83,11 @@ The drop-down list box next to the Start button on the toolbar lists all of the 
 
 Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations which appear in the Start button's drop-down list.
 
-Visual Studio "Open Folder" currently supports debugging for the following: 
+Visual Studio "Open Folder" currently supports debugging for the following:
 
 - MSBuild-based projects (C#, VB, C++)
 
-- Any executable with PDB (Python Debugger) files.
+- Any executable with PDB (program database) files.
 
 ### To debug Node.js and Python
 
