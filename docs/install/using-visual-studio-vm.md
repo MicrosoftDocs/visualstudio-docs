@@ -16,7 +16,7 @@ ms.workload: 
   - "multiple"
 ---
 
-# <a id="top"> </a> Visual Studio Images on Azure
+# <a id="top"> </a> Visual Studio images on Azure
 Using Visual Studio running in a preconfigured Azure virtual machine (VM) is the easiest and fastest way to go from nothing to an up-and-running development environment.  System images with different Visual Studio configurations are available in the [Azure Marketplace](https://portal.azure.com/). Just boot a VM and off you go.
 
 New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
@@ -47,6 +47,7 @@ Each image contains the recommended feature set for that Visual Studio edition. 
 
 This is the command line that we use to install Visual Studio when building the images:
 
+```
    * vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
    * add Microsoft.Net.Component.4.7.SDK ^
    * add Microsoft.Net.Component.4.7.TargetingPack ^ 
@@ -56,6 +57,7 @@ This is the command line that we use to install Visual Studio when building the 
    * add Microsoft.VisualStudio.Component.FSharp ^
    * add Component.GitHub.VisualStudio ^
    * add Microsoft.VisualStudio.Component.LinqToSql
+```
 
 If the images don't include a Visual Studio feature you require, provide that feedback through the feedback tool (top-right corner of the page).
 
