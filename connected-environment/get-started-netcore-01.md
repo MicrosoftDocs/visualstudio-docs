@@ -36,11 +36,8 @@ code --install-extension path-to-downloaded-extension/vsce-0.1.0.vsix
 ```
 
 ### Visual Studio (Windows only)
-1. Install the latest version of [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview/)
-1. In the VS installer, select these Workloads:
-    * ASP.NET and web development
-    * Azure development
-    * .NET Core cross-platform development
+1. Install the latest version of [Visual Studio 2017](https://www.visualstudio.com/vs/)
+1. In the VS installer, select the **Workload: ASP.NET and web development**
 1. Install the [Visual Studio extension for Connected Environment](https://aka.ms/get-vsce-visualstudio)
 
 
