@@ -1,19 +1,14 @@
 ---
-title: "Walkthrough: Analyzing Managed Code for Code Defects | Microsoft Docs"
+title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 01/29/2018
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-code-analysis
 ms.topic: "article"
 helpviewer_keywords: 
-  - "code analysis, walkthroughs"
+  - "code analysis [Visual Studio]"
   - "managed code, analyzing"
-  - "code analysis tool, walkthroughs"
-ms.assetid: 22b99f49-1924-4fb5-a421-c8b23e5d5cd4
-caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -21,79 +16,83 @@ ms.workload:
   - "dotnet"
 ---
 # Walkthrough: Analyzing Managed Code for Code Defects
-In this walkthrough, you analyze a managed project for code defects by using the code analysis tool.  
+
+In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.  
   
- This walkthrough will step you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework Design Guidelines.  
-  
- In this walkthrough, you:  
-  
--   Analyze and correct code defect warnings.  
-  
-## Prerequisites  
-  
--   [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
+This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework design guidelines.
   
 ## Create a class library  
   
-#### To create a class library  
+### To create a class library  
   
-1.  On the **File** menu of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], click **New** and then click **Project**.  
+1. On the **File** menu, choose **New** > **Project...**.  
   
-2.  In the **New Project** dialog box, under **Project Types**, click **Visual C#**.  
+1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Classic Desktop**.
   
-3.  Under **Templates**, select **Class Library**.  
+1. Choose the **Class Library (.NET Framework)** template.
   
-4.  In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.  
+1. In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.  
   
-5.  After the project is created, open the Class1.cs file.  
+1. After the project is created, open the *Class1.cs* file.  
   
-6.  Replace the existing text in Class1.cs with the following code:  
+1. Replace the existing text in Class1.cs with the following code:  
   
-     `//CodeAnalysisManagedDemo //Class1.cs using System;  namespace testCode {          public class demo : Exception     {                  public static void Initialize(int size) { }         protected static readonly int _item;         public static int item { get { return _item; } }     } }`  
+   ```csharp
+   //CodeAnalysisManagedDemo
+   //Class1.cs
+   using System;
+
+   namespace testCode
+   {
+       public class demo : Exception
+       {
+           public static void Initialize(int size) { }
+           protected static readonly int _item;
+           public static int item { get { return _item; } }
+       }
+   }``` 
   
-7.  Save the Class1.cs file.  
+1. Save the Class1.cs file.  
   
 ## Analyze the project  
   
-#### To analyze a managed project for code defects  
+### To analyze a managed project for code defects  
   
-1.  Select the CodeAnalysisManagedDemo project in **Solution Explorer**.  
+1. Select the CodeAnalysisManagedDemo project in **Solution Explorer**.  
   
-2.  On the **Project** menu, click **Properties**.  
+1. On the **Project** menu, click **Properties**.  
   
      The CodeAnalysisManagedDemo properties page is displayed.  
   
-3.  Click **CodeAnalysis**.  
+1. Choose the **Code Analysis** tab.  
   
-4.  Make sure that  **Enable Code Analysis on Build (defines CODE_ANALYSIS constant**) is checked.  
+1. Make sure that **Enable Code Analysis on Build** is checked.  
   
-5.  From the **Run this rule set** drop-down list, select **Microsoft All Rules**.  
+1. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.  
   
-6.  On the **File** menu, click **Save Selected Items**, and then close the ManagedDemo properties pages.  
+1. On the **File** menu, click **Save Selected Items**, and then close the properties pages.  
   
-7.  On the **Build** menu, click **Build ManagedDemo**.  
+1. On the **Build** menu, click **Build CodeAnalysisManagedDemo**.  
   
-     The CodeAnalysisManagedDemo project build warnings are reported in the **Code Analysis** and **Output** windows.  
-  
-     If the **Code Analysis** window does not appear, on the **Analyze** menu, choose **Windows** and then **choose Code Analysis**.  
+    The CodeAnalysisManagedDemo project build warnings are shown in the **Error List** and **Output** windows.
   
 ## Correct the Code Analysis Issues  
   
-#### To correct code analysis rule violations  
+### To correct code analysis rule violations  
   
-1.  On the **View** menu, click **Error List**.  
+1. On the **View** menu, choose **Error List**.  
   
-     Depending on the developer profile that you chose, you might have to point to **Other Windows** on the **View** menu, and then click **Error List**.  
+     Depending on the developer profile that you chose, you might have to point to **Other Windows** on the **View** menu, and then choose **Error List**.  
   
-2.  In **Solution Explorer**, click **Show All Files**.  
+1. In **Solution Explorer**, choose **Show All Files**.  
   
-3.  Next, expand the Properties node, and then open the AssemblyInfo.cs file.  
+1. Next, expand the Properties node, and then open the *AssemblyInfo.cs* file.  
   
-4.  Use the following  to correct warnings:  
+1. Use the following to correct warnings:  
   
 -   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.  
   
-    -   Add the code `using``System;` to the AssemblyInfo.cs file.  
+    -   Add the code `using System;` to the AssemblyInfo.cs file.  
   
          Next, add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.  
   
@@ -165,9 +164,9 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
          Rebuild the project.  
   
- After you complete the changes, the Class1.cs file should look like the following:  
+After you complete the changes, the Class1.cs file should look like the following:  
   
-```  
+```csharp
 //CodeAnalysisManagedDemo  
 //Class1.cs  
 using System;  
@@ -175,7 +174,6 @@ using System.Runtime.Serialization;
   
 namespace TestCode  
 {  
-  
     [Serializable()]   
     public class DemoException : Exception  
     {  
@@ -188,21 +186,19 @@ namespace TestCode
         protected static readonly int _item;  
         public static int Item { get { return _item; } }  
     }  
-}  
+}
 ```  
   
 ## Exclude Code Analysis Warnings  
   
-#### To exclude code defect warnings  
+### To exclude code defect warnings  
   
-1.  For each of the remaining warnings, do the following:  
+1. For each of the remaining warnings, do the following:  
   
-    1.  In the Code Analysis window, select the warning.  
+    1. Select the warning in the **Error List**.  
   
-    2.  Choose **Actions**, then choose **Suppress Message**, and then choose **In Project Suppression File**.  
+    1. From the right-click or context menu, choose **Suppress** > **In Suppression File**. 
   
-     For more information, see [How to: Suppress Warnings by Using the Menu Item](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)  
-  
-2.  Rebuild the project.  
+1. Rebuild the project.  
   
      The project builds without any warnings or errors.
