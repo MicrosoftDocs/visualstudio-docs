@@ -16,7 +16,9 @@ ms.assetid: 3c19d7ed-0232-4b0e-9b10-f33ed9e0c93b
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSourceFiles::Item
 Retrieves a source file by means of an index.  

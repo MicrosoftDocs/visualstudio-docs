@@ -16,7 +16,9 @@ ms.assetid: 7ee7a9be-a0d8-48e4-9fef-d37b3d6ae4ef
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_token
 Retrieves the metadata token of a managed function or variable.  

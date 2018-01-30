@@ -16,7 +16,9 @@ ms.assetid: 458eb3b8-bb5e-4056-82b7-7079ce9c4089
 caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
 You can require that code analysis be run on all code projects in a team project by using the code analysis check-in policy. Requiring code analysis can improve the quality of the code that is checked into the code base.  

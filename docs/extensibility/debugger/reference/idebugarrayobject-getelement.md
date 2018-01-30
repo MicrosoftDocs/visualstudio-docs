@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugArrayObject::GetElement method"
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayObject::GetElement
 Gets an element of the array.  

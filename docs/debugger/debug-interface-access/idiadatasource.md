@@ -16,7 +16,9 @@ ms.assetid: 6260ac76-4f9d-4144-ba22-32f8620b32c2
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaDataSource
 Initiates access to a source of debugging symbols.  

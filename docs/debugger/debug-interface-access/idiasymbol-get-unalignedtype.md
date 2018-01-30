@@ -16,7 +16,9 @@ ms.assetid: fdcb38fb-490e-4d15-b4e5-3770043a366c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_unalignedType
 Retrieves a flag that specifies whether the user-defined data type is unaligned.  

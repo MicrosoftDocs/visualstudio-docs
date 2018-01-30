@@ -14,7 +14,9 @@ ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Start Spy++
 You can start Spy++ either from Visual Studio or at a command prompt.  

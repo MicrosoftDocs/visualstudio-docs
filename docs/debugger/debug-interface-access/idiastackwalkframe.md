@@ -16,7 +16,9 @@ ms.assetid: 42d82845-d6f6-4846-9ecd-9dd169216077
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkFrame
 Maintains stack context between invocations of the [IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md) method.  

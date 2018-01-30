@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugDocumentPosition2::GetRange"
 ms.assetid: 91a06ee7-253a-4215-be22-04bf57305aa8
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentPosition2::GetRange
 Gets the range for this document position.  

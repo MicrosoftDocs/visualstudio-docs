@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "POPDIRLISTFUNC callback function"
 ms.assetid: 0ee90fd2-5467-4154-ab4c-7eb02ac3a14c
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # POPDIRLISTFUNC
 This is a callback function given to the [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md) function to update a collection of directories and (optionally) file names to find out which are under source control.  

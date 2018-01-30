@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], packages"
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Debug Package
 The debug package runs in the Visual Studio shell and handles all of the UI. It consumes the Visual Studio debugging interfaces and communicates with the session debug manager (SDM).  

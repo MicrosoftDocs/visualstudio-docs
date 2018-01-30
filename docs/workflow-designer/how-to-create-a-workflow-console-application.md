@@ -11,6 +11,8 @@ caps.latest.revision: 16
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Workflow Console Application
 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] allows you to create workflows for executing system or human processes. The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides the design surface for creating these workflows. The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] can be used to create workflows from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or it can be integrated into other applications that rehost the designer.  

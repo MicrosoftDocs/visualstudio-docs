@@ -16,7 +16,9 @@ ms.assetid: c1aa39ee-d645-431e-bf5f-0640c0998934
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_symbolsFileName
 Retrieves the name of the file from which the symbols were loaded.  

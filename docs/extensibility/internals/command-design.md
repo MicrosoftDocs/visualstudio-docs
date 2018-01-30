@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "commands, implementation"
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
 caps.latest.revision: 34
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Design
 When you add a command to a VSPackage, you must specify where it is to appear, when it is available, and how it is to be handled.  

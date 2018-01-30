@@ -20,7 +20,9 @@ ms.assetid: 0374c8c6-57a3-4cfe-8047-2effef5ff5dc
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Tips for Debugging Threads in Native Code
 Here are some tips you can use when debugging threads in native code:  

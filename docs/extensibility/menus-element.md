@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "Menus element (VSCT XML schema)"
 ms.assetid: d825a99b-e05c-4dd9-8933-a180216d667a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Menus Element
 Defines all the menus and toolbars that a VSPackage implements.  

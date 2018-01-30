@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2"
 ms.assetid: cd0a73dc-dd25-46fd-8c4f-5b011501afeb
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPortSuppliers2
 This interface enumerates port suppliers.  

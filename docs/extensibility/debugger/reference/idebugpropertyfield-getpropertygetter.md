@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPropertyField::GetPropertyGetter method"
 ms.assetid: ab9f861a-42ad-4a82-9ae6-2606176f755a
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPropertyField::GetPropertyGetter
 Gets the method that gets the property.  

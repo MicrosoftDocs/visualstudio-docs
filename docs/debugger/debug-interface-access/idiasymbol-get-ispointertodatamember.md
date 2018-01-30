@@ -14,7 +14,9 @@ ms.assetid: ef17c737-242e-43e8-b7e1-2c3bc58cfcef
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isPointerToDataMember
 Specifies whether this symbol is a pointer to a data member.  

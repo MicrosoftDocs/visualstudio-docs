@@ -16,7 +16,9 @@ ms.assetid: 0d366188-f5e1-4226-b392-58c09539d097
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_addressTaken
 Retrieves a flag that indicates whether another symbol references this symbol's address.  

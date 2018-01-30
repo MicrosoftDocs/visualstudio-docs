@@ -15,7 +15,9 @@ ms.assetid: 79184d8e-769b-4ace-be2b-521147772081
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # .NET Memory Data Views
 This section contains reference information for the views and reports of profiler data files that contains .NET memory profiling data.  

@@ -18,7 +18,9 @@ ms.assetid: e1e42c40-0acd-4312-af29-70133739a304
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2211: Non-constant fields should not be visible
 |||  

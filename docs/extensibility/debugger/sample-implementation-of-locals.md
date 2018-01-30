@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "expression evaluation, local variables"
 ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Sample Implementation of Locals
 > [!IMPORTANT]

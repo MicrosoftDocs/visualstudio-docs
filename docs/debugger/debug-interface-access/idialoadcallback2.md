@@ -16,7 +16,9 @@ ms.assetid: 9a44277d-cbed-4811-9bad-5a2aa0f09323
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2
 Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.  

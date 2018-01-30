@@ -14,7 +14,9 @@ ms.assetid: 733b514b-63a9-402d-89aa-4f0416766655
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Introducing Spy++
 Spy++ lets you perform the following tasks:  

@@ -16,7 +16,9 @@ ms.assetid: 1b66bc0a-7979-416f-bf7f-e5df91584c91
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CustomType
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.  

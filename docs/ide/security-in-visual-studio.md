@@ -15,7 +15,9 @@ ms.assetid: 318c34ce-f643-468c-83a1-843196f5d845
 caps.latest.revision: 20
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security in Visual Studio
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User Permissions](../ide/user-permissions-and-visual-studio.md).  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProcess3::GetDebugReason"
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::GetDebugReason
 This method returns the reason that the process was launched for debugging.  

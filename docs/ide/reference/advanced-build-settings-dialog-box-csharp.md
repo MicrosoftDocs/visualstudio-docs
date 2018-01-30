@@ -16,7 +16,9 @@ ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Advanced Build Settings Dialog Box (C#)
 

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugObject::IsNullReference method"
 ms.assetid: 6dbfcdb0-954f-4486-8fac-7ea8d003e3a9
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject::IsNullReference
 Tests whether this object is a null reference.  

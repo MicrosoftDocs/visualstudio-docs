@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumCodePaths2 interface"
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumCodePaths2
 This interface represents a list of code paths.  

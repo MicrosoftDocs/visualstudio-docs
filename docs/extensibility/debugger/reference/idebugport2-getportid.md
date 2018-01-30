@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortId"
 ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPort2::GetPortId
 Gets the port identifier.  

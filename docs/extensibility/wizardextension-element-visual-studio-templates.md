@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "<WizardExtension> element [Visual Studio Templates]"
 ms.assetid: d54b01c1-50f5-4b65-828c-686e2321cc8c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # WizardExtension Element (Visual Studio Templates)
 Contains the registration elements for customizing the template wizard.  

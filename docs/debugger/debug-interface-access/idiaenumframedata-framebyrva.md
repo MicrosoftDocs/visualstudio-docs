@@ -16,7 +16,9 @@ ms.assetid: 4b8dec05-e76c-4cc4-9644-2369d583849f
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumFrameData::frameByRVA
 Returns a frame by relative virtual address (RVA).  

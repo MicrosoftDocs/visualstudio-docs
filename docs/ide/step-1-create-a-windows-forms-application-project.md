@@ -12,7 +12,9 @@ ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 caps.latest.revision: 22
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 1: Create a Windows Forms Application Project
 When you create a picture viewer, the first step is to create a Windows Forms Application project.  

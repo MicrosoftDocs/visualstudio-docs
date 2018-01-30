@@ -16,7 +16,9 @@ ms.assetid: eb0bd73e-d92d-468e-a0b1-fbc279919f54
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_localsBase
 Retrieves the base address of the local variables for the frame.  

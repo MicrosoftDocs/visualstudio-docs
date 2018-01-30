@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEngine3::SetEngineGuid"
 ms.assetid: 8bdfa05d-feb7-4d98-abac-77825a04c50f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine3::SetEngineGuid
 This method sets the debug engine's (DE) `GUID`.  

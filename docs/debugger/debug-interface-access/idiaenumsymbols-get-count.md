@@ -16,7 +16,9 @@ ms.assetid: fdaae6d7-e67b-4262-84c9-fbae381e8297
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbols::get_Count
 Retrieves the number of symbols.  

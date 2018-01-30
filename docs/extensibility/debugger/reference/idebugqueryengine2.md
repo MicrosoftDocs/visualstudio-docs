@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugQueryEngine2 interface"
 ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugQueryEngine2
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).  

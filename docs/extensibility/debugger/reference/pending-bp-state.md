@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "PENDING_BP_STATE enumeration"
 ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PENDING_BP_STATE
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).  

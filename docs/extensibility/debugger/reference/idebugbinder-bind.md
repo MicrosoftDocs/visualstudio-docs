@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugBinder::Bind method"
 ms.assetid: 15a11ad7-0fcc-4e80-ae34-8a7dd7bae3c3
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder::Bind
 This method gets the memory context or object that contains the symbol's current value.  

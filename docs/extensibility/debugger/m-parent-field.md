@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "m_parent field, Task class [.NET Framework debug engines]"
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # m_parent Field
 The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> `Parent` property.  

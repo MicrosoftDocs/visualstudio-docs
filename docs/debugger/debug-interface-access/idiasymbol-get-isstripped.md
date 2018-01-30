@@ -16,7 +16,9 @@ ms.assetid: cc2c4a0b-ab9f-4b79-a8ff-a3badb0405d6
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isStripped
 Retrieves flag indicating whether private symbols were stripped from the symbol file.  

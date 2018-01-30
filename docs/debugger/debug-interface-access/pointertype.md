@@ -16,7 +16,9 @@ ms.assetid: 67228681-7345-4537-8af3-93806803ee96
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # PointerType
 Each pointer is identified by a `SymTagPointerType` symbol.  

@@ -16,7 +16,9 @@ ms.assetid: efca38b5-c479-4d0a-a164-f903f25c5509
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_type
 Retrieves the compiler-specific frame type.  

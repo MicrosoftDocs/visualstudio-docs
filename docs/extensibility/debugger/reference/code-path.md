@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "CODE_PATH structure"
 ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CODE_PATH
 Describes a method or function call.  

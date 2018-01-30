@@ -16,7 +16,9 @@ ms.assetid: 4aad6a51-f2d3-4064-b216-60d830d0a560
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumInjectedSources::Skip
 Skips a specified number of injected sources in an enumeration sequence.  

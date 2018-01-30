@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugCustomAttribute::GetAttributeTypeField"
 ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
 Gets the custom attribute class type.  

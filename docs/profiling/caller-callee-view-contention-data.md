@@ -14,7 +14,9 @@ ms.assetid: a18a1b1b-9b39-43c7-b1f3-708fd20376f6
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Caller / Callee View -  Contention Data
 The Caller/Callee view displays contention information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  

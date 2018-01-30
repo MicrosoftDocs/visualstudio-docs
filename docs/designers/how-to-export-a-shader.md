@@ -12,7 +12,9 @@ ms.assetid: 0bd48bf4-9792-4456-a545-e462a2be668d
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Export a Shader
 This document demonstrates how to use the Shader Designer to export a Directed Graph Shader Language (DGSL) shader so that you can use it in your app.  

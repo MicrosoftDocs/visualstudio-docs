@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEEVisualizerService interface"
 ms.assetid: 3bdb124b-c582-47ba-b465-13c6a1cdb702
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerService
 > [!IMPORTANT]

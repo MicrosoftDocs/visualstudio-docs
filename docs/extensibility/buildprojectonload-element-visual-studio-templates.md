@@ -10,8 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BuildProjectOnload Element (Visual Studio Templates)
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.  

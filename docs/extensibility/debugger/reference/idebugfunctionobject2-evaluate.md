@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugFunctionObject2::Evaluate"
 ms.assetid: bc54c652-904b-4297-a6db-faa329684881
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject2::Evaluate
 Calls the function and returns the resulting value as an object.  

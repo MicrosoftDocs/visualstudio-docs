@@ -17,7 +17,9 @@ ms.assetid: 239a381d-0d97-4367-8668-746c93f5af2c
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DA0011: Expensive CompareTo
 |||  

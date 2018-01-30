@@ -16,7 +16,9 @@ ms.assetid: 30073dd0-c864-4c4a-8863-80f243419f6c
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSegment::get_virtualAddress
 Retrieves the virtual address (VA) of the beginning of the section.  

@@ -19,7 +19,9 @@ ms.assetid: 0468de6c-3ff1-4979-a8c6-8afb53f37547
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Unable to Attach to the Process
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  

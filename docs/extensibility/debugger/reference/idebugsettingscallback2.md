@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2 interface"
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2
 Enables debug engines to read metric settings remotely.  

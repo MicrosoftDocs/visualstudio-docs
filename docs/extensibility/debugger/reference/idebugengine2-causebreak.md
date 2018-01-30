@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEngine2::CauseBreak"
 ms.assetid: 17fe4698-b04e-4798-8412-80e0da60c387
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::CauseBreak
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.  

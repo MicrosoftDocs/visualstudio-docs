@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2::GetPendingBreakpoint"
 ms.assetid: 6da7ed86-b412-4964-b6a3-0687a66f63fe
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 Gets the pending breakpoint that is being bound.  

@@ -18,7 +18,9 @@ ms.assetid: e9789a2c-2540-42a1-8705-ae7104011194
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1034: Nested types should not be visible
 |||  

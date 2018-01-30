@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEventCallback2"
 ms.assetid: 2c935ee0-2e22-4be0-a852-73736f33c8c9
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEventCallback2
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).  

@@ -18,7 +18,9 @@ ms.assetid: 14616b37-74c4-4286-b051-115d00aceb5f
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2234: Pass System.Uri objects instead of strings
 |||  

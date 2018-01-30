@@ -20,7 +20,9 @@ ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Manage Build Configurations with Visual Basic Developer Settings Applied
 By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings applied. This topic explains how to manually enable these settings.  

@@ -16,7 +16,9 @@ ms.assetid: 97e3ad51-8ef3-4446-ab33-3cb34a21b7a0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_virtual
 Retrieves a flag that specifies whether the function is virtual.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEventCallback2::Event"
 ms.assetid: e5a3345b-d460-4e40-8f5b-3111c56a2ed9
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEventCallback2::Event
 Sends notification of debug events.  

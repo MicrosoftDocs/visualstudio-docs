@@ -1,5 +1,5 @@
 ---
-title: "Install Visual Studio for Mac"
+title: "Install Visual Studio for Mac | Microsoft Docs"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: asb3993
 ms.author: amburns
@@ -18,7 +18,7 @@ To start developing native, cross-platform apps when you download Visual Studio 
 For working with iOS in Visual Studio you need the following pieces:
 
 * a Mac with macOS Sierra 10.12 or above
-* Xcode 8.3
+* Xcode 8.3 or above. The latest stable version is usually recommended.
 * An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Install
@@ -45,6 +45,18 @@ For working with iOS in Visual Studio you need the following pieces:
 
   ![Select Items](media/installer-image5.png)
 
+  If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+
+  * **Apps using Xamarin**:
+      - Xamarin.Forms – Select **Android** and **iOS** platforms.
+      - iOS only – Select **iOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Android only – Select **Android** platform (Note that you should also select the relevant dependencies).
+      - Mac only – Select **macOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
+  * **.NET Core applications** – Select **.NET Core** platform.
+  * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
+  * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](~/setup-vsmac-tools-unity.md) for more information on installing the Unity extension.
+
   This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
   ![Android additional dependencies](media/installer-image6.png)
@@ -70,14 +82,31 @@ For working with iOS in Visual Studio you need the following pieces:
 > [!NOTE]
 If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/vs/) again if you wish to add the components later.
 
-## Manual Installation
 
-If your installation fails or any single component of your installation fails, you may be able to resolve the issue through manual installation. To view the required components and download each one, take the following steps:
+## Install Visual Studio for Mac behind a firewall or proxy server
 
-1. On the second screen on the Visual Studio Installer, go to the menu bar and select **View Manual Installation Instructions**:
+To install Visual Studio for Mac behind a firewall, certain endpoints must be made accessible in order to allow downloads of the required tools and updates for your software.
 
-    ![Option showing manual install menu item](media/installer-image12.png)
+Configure your network to allow access to the following locations:
 
-2. Follow the instructions to download and install the components manually:
+* [Visual Studio endpoints](/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
 
-  ![Manual installation dialog](media/installer-image13.png)
+## Next Steps
+
+Installing Visual Studio for Mac allows you to start writing code for your apps. The following guides are provided to guide you through the next steps of writing and deploying your projects.
+
+### iOS
+
+1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
+2. [Device Provisioning](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(To run your application on device).
+
+
+### Android
+
+1. [Using the Xamarin Android SDK Manager](https://developer.xamarin.com/guides/android/getting_started/installation/android-sdk/?ide=xs)
+2. [Android SDK Emulator](https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/)
+4. [Set Up Device for Development](https://developer.xamarin.com/guides/android/getting_started/installation/set_up_device_for_development/)
+
+### .NET Core apps, ASP.NET Core web apps, Unity game development
+
+For other Workloads, refer to the [Workloads](~/workloads.md) page.

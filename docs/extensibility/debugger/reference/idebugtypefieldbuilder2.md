@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugTypeFieldBuilder2 interface"
 ms.assetid: 23911c5b-2bbf-4734-9976-87a0bd6ea36c
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder2
 Extends the **IDebugTypeFieldBuilder** to be able to create array types.  

@@ -16,7 +16,9 @@ ms.assetid: 81e82073-089b-43d5-af39-49d7a4907c7a
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaAddressMap::set_addressMap
 Provides an address map to support image layout translations.  

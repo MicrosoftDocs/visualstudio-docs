@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Reset"
 ms.assetid: 0f0522a5-6a97-4c4e-859b-cc4476e6c527
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugBoundBreakpoints2::Reset
 Resets the enumeration to the first element.  

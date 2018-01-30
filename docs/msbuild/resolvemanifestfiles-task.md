@@ -20,7 +20,9 @@ ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveManifestFiles Task
 Resolves the following items in the build process to files for manifest generation: built items, dependencies, satellites, content, debug symbols, and documentation.  

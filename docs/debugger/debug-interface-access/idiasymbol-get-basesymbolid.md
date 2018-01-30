@@ -14,7 +14,9 @@ ms.assetid: cd504d2b-194f-4106-8de5-2de827a79cbd
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_baseSymbolId
 Retrieves the symbol ID from which the pointer is based.  

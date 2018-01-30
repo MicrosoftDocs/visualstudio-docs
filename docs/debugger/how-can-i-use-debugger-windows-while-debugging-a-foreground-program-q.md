@@ -25,7 +25,9 @@ ms.assetid: 9e67a308-1c81-42ab-966b-7fc3c1d2bf7a
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Use Debugger Windows While Debugging a Foreground Program?
 ## Problem Description  

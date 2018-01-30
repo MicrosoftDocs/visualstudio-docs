@@ -16,7 +16,9 @@ ms.assetid: 33b7488f-dc9c-47b3-b08c-737e0eb1bf7d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_dataCrc
 Retrieves the cyclic redundancy check (CRC) of the data in the section.  

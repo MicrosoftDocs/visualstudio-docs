@@ -16,7 +16,9 @@ ms.assetid: f00b9ab1-d4da-4818-973a-58f8f0e66769
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_functionParent
 Retrieves a frame data interface for the enclosing function.  

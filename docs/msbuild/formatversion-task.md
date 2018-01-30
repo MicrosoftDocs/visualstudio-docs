@@ -17,7 +17,9 @@ ms.assetid: 96e692f6-b581-46ca-8cc9-441a1861e371
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FormatVersion Task
 Appends the revision number to the version number.  

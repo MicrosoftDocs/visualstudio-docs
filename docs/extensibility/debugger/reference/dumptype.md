@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DUMPTYPE enumeration"
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DUMPTYPE
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.  

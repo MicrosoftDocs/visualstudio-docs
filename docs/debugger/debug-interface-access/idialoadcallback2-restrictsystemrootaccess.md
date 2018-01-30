@@ -16,7 +16,9 @@ ms.assetid: 39f22db8-632a-4ef0-babc-23f758e6d937
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2::RestrictSystemRootAccess
 Determines if searching for .pdb files is allowed in the system root directory.  

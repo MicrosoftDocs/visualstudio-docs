@@ -16,7 +16,9 @@ ms.assetid: 5561a3cb-2c82-41cf-9217-3ee2b1e1d1d1
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_virtualBaseDispIndex
 Retrieves the index of the symbol in the virtual base displacement table.  

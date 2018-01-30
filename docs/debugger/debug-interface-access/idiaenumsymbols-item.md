@@ -16,7 +16,9 @@ ms.assetid: 2bd1ec04-e677-4e32-8e32-33334f1eed77
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbols::Item
 Retrieves a symbol by means of an index.  

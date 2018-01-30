@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugModule2::GetInfo method"
 ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule2::GetInfo
 Gets information about this module.  

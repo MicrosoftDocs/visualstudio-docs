@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::Skip"
 ms.assetid: bd95d7e9-274f-485d-8bf6-865306ae1b81
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPortSuppliers2::Skip
 Skips over the specified number of elements.  

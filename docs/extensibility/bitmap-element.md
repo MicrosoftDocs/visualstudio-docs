@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "Bitmaps element (VSCT XML schema)"
 ms.assetid: edcd7891-f4e7-416d-809d-5e2eed9f17e4
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Bitmap Element
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.  

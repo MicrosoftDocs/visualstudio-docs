@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEngine2::SetRegistryRoot"
 ms.assetid: d0d81202-8a4a-4bc3-b297-30a047c5ec60
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::SetRegistryRoot
 Sets the registry root for the debug engine (DE).  

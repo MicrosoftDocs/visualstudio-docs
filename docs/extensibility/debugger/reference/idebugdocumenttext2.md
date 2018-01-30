@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugDocumentText2 interface"
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentText2
 This interface represents a text document.  

@@ -16,7 +16,9 @@ ms.assetid: 67140b4c-7125-4895-932d-42412326da29
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumFrameData::Skip
 Skips a specified number of frame data elements in an enumeration sequence.  

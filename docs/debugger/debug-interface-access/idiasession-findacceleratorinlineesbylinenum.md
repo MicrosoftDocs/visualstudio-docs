@@ -14,7 +14,9 @@ ms.assetid: 386c87aa-f7b2-4d38-9dd6-fffba9ff01f0
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findAcceleratorInlineesByLinenum
 Returns an enumeration of symbols for inline frames that correspond to the specified source location.  

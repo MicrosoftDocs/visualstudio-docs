@@ -32,7 +32,9 @@ ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CRT Debug Library Use
 The C run-time library provides extensive debugging support. To use one of the CRT debug libraries, you must link with [/DEBUG](/cpp/build/reference/debug-generate-debug-info) and compile with **/MDd**, **/MTd**, or **/LDd**.  

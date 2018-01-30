@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "JMC_CODE_SPEC structure"
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # JMC_CODE_SPEC
 This structure is used to set the JustMyCode information for a module.  

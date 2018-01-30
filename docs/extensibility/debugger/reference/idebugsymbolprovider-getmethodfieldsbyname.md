@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetMethodFieldsByName method"
 ms.assetid: 1f781320-81ef-4037-b068-f1864b271258
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
 This method gets the field representing a fully qualified method name.  

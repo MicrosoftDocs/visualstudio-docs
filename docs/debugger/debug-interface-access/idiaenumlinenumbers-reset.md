@@ -16,7 +16,9 @@ ms.assetid: d50e73aa-11a1-4813-ba23-d5861090ee12
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumLineNumbers::Reset
 Resets an enumeration sequence to the beginning.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "BP_ERROR_TYPE enumeration"
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_ERROR_TYPE
 Specifies the error type of a breakpoint.  

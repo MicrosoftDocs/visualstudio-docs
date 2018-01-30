@@ -14,7 +14,9 @@ ms.assetid: 86a66cce-3436-4532-bc3e-3b0662c8b198
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View Menu Commands
 The **View** menu provides commands for controlling the Spy++ user interface.  

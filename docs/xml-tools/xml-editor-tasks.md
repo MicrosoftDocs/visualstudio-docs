@@ -12,7 +12,9 @@ ms.assetid: d069ba3a-266c-45ac-8f9f-7833a72c5a27
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Editor Tasks
 This section describes how to complete common tasks with the XML Editor.  

@@ -14,7 +14,9 @@ ms.assetid: 0f899920-4fc5-4de8-84a3-cd98c57bf124
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_subTypeId
 Retrieves the sub type ID.  

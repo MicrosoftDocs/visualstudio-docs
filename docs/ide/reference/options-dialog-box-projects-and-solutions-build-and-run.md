@@ -1,7 +1,7 @@
 ---
 title: "Options Dialog Box,  Projects and Solutions, Build and Run | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/14/2017
+ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,15 +19,16 @@ ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-
 # Options Dialog Box,  Projects and Solutions, Build and Run
 
-In this dialog box, you can specify the maximum number of Visual C++ or Visual C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
+In this dialog box, you can specify the maximum number of Visual C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
   
-**maximum number of parallel project builds**  
-Specifies the maximum number of Visual C++ and Visual C# projects that can build at the same time. To optimize the build process, the maximum number of parallel project builds is automatically set to the number of CPUs of your computer. The maximum is 32.  
+**Maximum number of parallel project builds**  
+Specifies the maximum number of Visual C++ and C# projects that can build at the same time. To optimize the build process, the maximum number of parallel project builds is automatically set to the number of CPUs of your computer. The maximum is 32.  
 
 **Only build startup projects and dependencies on Run**  
 Builds only the startup project and its dependencies when you use the F5 key, select the **Debug > Start** menu command, or applicable commands on the **Build** menu. If clear, all projects and dependencies are build. 
@@ -53,7 +54,7 @@ Determines how much information appears in the **Output** window for the build.
 
 Determines how much information is written to the build log file, which is located at \\...\\*ProjectName*\Debug\\*ProjectName*.log.  
 
-## See Also  
--[Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-- [Options Dialog Box,  Projects and Solutions](projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box,  Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
+## See also  
+[Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)  
+[Options Dialog Box, Projects and Solutions](projects-and-solutions-options-dialog-box.md)  
+[Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)

@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7dfb2227-6e1d-4028-bce9-f8967456a993
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.3
 The Source Control Plug-in API version 1.3 introduces the following new functions to provide more advanced control.  

@@ -17,7 +17,9 @@ ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GetReferenceAssemblyPaths Task
 Returns the reference assembly paths of the various frameworks.  

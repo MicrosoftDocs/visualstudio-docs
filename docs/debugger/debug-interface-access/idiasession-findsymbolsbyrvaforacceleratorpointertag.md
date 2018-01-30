@@ -14,7 +14,9 @@ ms.assetid: a073cc45-0c7b-417e-b5fc-a3b08beccdbc
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findSymbolsByRVAForAcceleratorPointerTag
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in a specified parent Accelerator stub function at a specified relative virtual address.  

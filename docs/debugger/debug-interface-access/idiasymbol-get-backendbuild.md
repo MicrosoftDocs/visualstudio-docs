@@ -16,7 +16,9 @@ ms.assetid: 423af497-9294-438e-92b4-456c6f56dc56
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_backEndBuild
 Retrieves the back end build number of the compiler.  

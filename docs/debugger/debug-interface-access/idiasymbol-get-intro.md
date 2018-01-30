@@ -16,7 +16,9 @@ ms.assetid: 101afe4a-4c57-45de-87b4-330394c6de10
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_intro
 Retrieves a flag that specifies whether the function is an introducing virtual function.  

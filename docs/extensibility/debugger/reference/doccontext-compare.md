@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DOCCONTEXT_COMPARE enumeration"
 ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DOCCONTEXT_COMPARE
 Specifies the criteria for comparing two document contexts.  

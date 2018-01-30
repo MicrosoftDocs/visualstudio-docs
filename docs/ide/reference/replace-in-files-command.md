@@ -18,7 +18,9 @@ ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Replace In Files Command
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.  

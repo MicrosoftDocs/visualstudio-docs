@@ -18,7 +18,9 @@ ms.assetid: 6ab70ec0-220f-4880-af31-45067703133c
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1018: Mark attributes with AttributeUsageAttribute
 |||  

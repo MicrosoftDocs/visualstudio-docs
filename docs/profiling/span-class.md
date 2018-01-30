@@ -16,7 +16,9 @@ ms.assetid: 527826a8-2590-43ad-b907-7bc0b7288e92
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # span Class
 Defines a phase of the application.  

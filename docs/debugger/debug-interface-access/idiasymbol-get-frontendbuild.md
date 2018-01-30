@@ -16,7 +16,9 @@ ms.assetid: f7dab1c6-112b-4966-baa5-afc976949c76
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_frontEndBuild
 Retrieves the front end build number.  

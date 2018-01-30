@@ -16,7 +16,9 @@ ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Upgrade (devenv.exe)
 Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] formats for these files.  

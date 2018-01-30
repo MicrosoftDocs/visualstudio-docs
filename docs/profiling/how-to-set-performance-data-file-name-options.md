@@ -12,7 +12,9 @@ ms.assetid: d7a8d6b9-ab23-46fb-98ed-774781157860
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Set Performance Data File Name Options
 By default, you save a profiling data (.vsp) file by using the following syntax:  

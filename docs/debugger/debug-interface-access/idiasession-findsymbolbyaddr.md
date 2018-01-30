@@ -16,7 +16,9 @@ ms.assetid: c130abc5-4d0a-4d2d-8286-94fde36ddd4a
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findSymbolByAddr
 Retrieves a specified symbol type that contains, or is closest to, a specified address.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortName"
 ms.assetid: 4478b3d5-aa30-4105-8d05-e3bae2f8917a
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPort2::GetPortName
 Gets the port name.  

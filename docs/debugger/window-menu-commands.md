@@ -14,7 +14,9 @@ ms.assetid: 9b5f1b5f-fd42-4de5-a3e1-d8e7e2e8cf1a
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Window Menu Commands
 The **Window** menu provides commands to manage Spy++ windows.  

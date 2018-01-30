@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "Name element [Visual Studio project templates]"
 ms.assetid: 48788dbf-7da0-4443-8061-aab966fc22c8
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Name Element (Visual Studio Templates)
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.  

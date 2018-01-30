@@ -16,7 +16,9 @@ ms.assetid: 94f791da-bfea-454f-8a14-da31e8e1596a
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Dimension
 Each FORTRAN array has a dimension that is identified by a `SymTagDimension` symbol.  

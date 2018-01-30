@@ -15,7 +15,9 @@ ms.assetid: 071c0f0f-1eba-4dc8-ae87-0810e4086dd0
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Understanding Resource Contention Data Values
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.  

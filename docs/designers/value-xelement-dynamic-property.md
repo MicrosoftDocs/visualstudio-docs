@@ -12,7 +12,9 @@ ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Value (XElement Dynamic Property)
 Gets or sets the content of the element.  

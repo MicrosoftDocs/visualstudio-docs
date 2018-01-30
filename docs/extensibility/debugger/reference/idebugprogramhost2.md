@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramHost2 interface"
 ms.assetid: 2c37b3aa-97a9-4665-8709-edd917f18cb1
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramHost2
 This interface provides host (process) information about a program.  

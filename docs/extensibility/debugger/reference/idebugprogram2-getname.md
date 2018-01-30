@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgram2::GetName"
 ms.assetid: a54cbf13-b3e3-4c9f-8b8d-13573232dfb0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::GetName
 Gets the name of the program.  

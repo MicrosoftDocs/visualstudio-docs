@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugReference2::GetParent"
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2::GetParent
 Gets the parent reference of a reference. Reserved for future use.  

@@ -16,7 +16,9 @@ ms.assetid: 38b88b8b-c2e0-4b2d-8b8b-9ff373733e78
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaInjectedSource::get_length
 Retrieves the number of bytes of code.  

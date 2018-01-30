@@ -16,7 +16,9 @@ ms.assetid: 8dd9455d-d44c-4dd6-a0aa-31131cbea2aa
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::symbolForVA
 Retrieves the symbol that contains the specified virtual address.  

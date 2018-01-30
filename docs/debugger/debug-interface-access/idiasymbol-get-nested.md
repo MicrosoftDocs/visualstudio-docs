@@ -16,7 +16,9 @@ ms.assetid: 6ae46d43-8486-48d6-a6f2-d73ebf4023e3
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_nested
 Retrieves a flag that specifies whether the user-defined data type is nested.  

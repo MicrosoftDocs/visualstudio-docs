@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreateObject method"
 ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject::CreateObject
 Creates an object using a constructor.  

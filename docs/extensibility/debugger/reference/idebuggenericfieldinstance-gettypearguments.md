@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "IDebugGenericFieldInstance::GetTypeArguments"
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
 Retrieves the type parameter arguments for this instance.  

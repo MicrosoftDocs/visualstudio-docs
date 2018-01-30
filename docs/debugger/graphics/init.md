@@ -10,9 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c55ddec8-9101-4673-979b-4109caca9146
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Init
 Prepares the in-app component of graphics diagnostics to actively capture and record graphics information to a graphics log file.  

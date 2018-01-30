@@ -14,18 +14,19 @@ f1_keywords:
 helpviewer_keywords: 
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
-caps.latest.revision: 64
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Application Page, Project Designer (Visual Basic)
+
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.  
   
- To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## General Application Settings  
  The following options enable you to configure general settings for an application.  
@@ -58,7 +59,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
  **Application type**  
- Specifies the type of application to build. For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
+ Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
   
  For a web application project, you must specify **Class Library**.  
   
@@ -106,7 +107,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected. The section following this one describes **Windows application framework properties** settings for Windows Presentation Foundation (WPF) Applications.  
   
  **Enable XP visual styles**  
- Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled. For more information about Windows XP visual styles, see [Windows XP Features and Windows Forms Controls](http://msdn.microsoft.com/en-us/bc7fab94-fce9-4bf1-a8ad-a5837c91c3c0)).  
+ Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled.
   
  **Make single instance application**  
  Select this check box to prevent users from running multiple instances of the application. The default setting for this check box is cleared. This setting allows multiple instances of the application to be run.  
@@ -152,8 +153,4 @@ Use the **Application** page of the Project Designer to specify a project's appl
  **View Application Events**  
  Click this button to display the `Application` partial class file (Application.xaml.vb) in a code editor. If the file does not exist, the Project Designer creates one with the appropriate class name and namespace.  
   
- The <xref:System.Windows.Application> object raises events when certain application state changes occur (for example, on application startup or shutdown). For a full list of the events that this class exposes, see <xref:System.Windows.Application>. These events are handled in the user code section of the `Application` partial class.  
-  
-## See Also  
-[Managing Application Properties](../../ide/application-properties.md)
- [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)
+ The <xref:System.Windows.Application> object raises events when certain application state changes occur (for example, on application startup or shutdown). For a full list of the events that this class exposes, see <xref:System.Windows.Application>. These events are handled in the user code section of the `Application` partial class.

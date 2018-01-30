@@ -16,7 +16,9 @@ ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Command-Line Profiling Using Instrumentation
 This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] stand-alone application to collect detailed timing and call count data by using the instrumentation method of the Profiling Tools. In this walkthrough, you will accomplish the following tasks:  

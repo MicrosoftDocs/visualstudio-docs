@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugBinder3::GetTypeArgumentCount method"
 ms.assetid: caf68de6-6f7c-4efd-b803-121347a5032e
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetTypeArgumentCount
 This method returns the number of argument types associated with this object.  

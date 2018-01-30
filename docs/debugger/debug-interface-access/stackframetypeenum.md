@@ -16,7 +16,9 @@ ms.assetid: 61e40163-eee0-4c1f-af47-cef3771bdc41
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StackFrameTypeEnum
 Specifies the stack frame type.  

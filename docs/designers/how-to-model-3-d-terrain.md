@@ -12,7 +12,9 @@ ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Model 3-D Terrain
 This document demonstrates how to use the Model Editor to create a 3-D terrain model.  

@@ -16,7 +16,9 @@ ms.assetid: 7c42847a-f0df-443a-a9fe-c495c1271ea8
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaInjectedSource::get_objectFilename
 Retrieves the object file name to which the source was compiled.  

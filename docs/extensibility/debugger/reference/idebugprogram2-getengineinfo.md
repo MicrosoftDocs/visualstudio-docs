@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgram2::GetEngineInfo"
 ms.assetid: 3a4f2dc0-e082-4d8d-aeaf-463ab09d279b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::GetEngineInfo
 Gets the name and GUID of the debug engine (DE) running this program.  

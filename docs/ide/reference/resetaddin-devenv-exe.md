@@ -16,7 +16,9 @@ ms.assetid: 9e339c8d-d768-4d86-8f45-2f479fc8255b
 caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /ResetAddin (devenv.exe)
 Removes commands and command UI associated with the specified Add-in.  

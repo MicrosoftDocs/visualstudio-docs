@@ -18,7 +18,9 @@ ms.assetid: a59f96f1-1f38-4596-b656-947df5c55311
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1411: COM registration methods should not be visible
 |||  

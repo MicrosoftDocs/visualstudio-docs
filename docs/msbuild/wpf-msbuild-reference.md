@@ -20,7 +20,9 @@ ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WPF MSBuild Reference
 Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) with additional build support, which is documented in this section.  

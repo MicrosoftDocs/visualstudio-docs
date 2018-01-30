@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "reference, Visual Studio SDK"
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio SDK Reference
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.  

@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger_V7"
 ms.assetid: d2d4b78e-a2dd-4217-97a6-ab648fd2ee2f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 DEPRECATED. DO NOT USE.  

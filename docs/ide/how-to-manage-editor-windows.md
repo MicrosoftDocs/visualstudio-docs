@@ -17,7 +17,9 @@ ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Manage Editor Windows
 You can work on code in several locations at once. Do this by splitting an Editor window, or by opening several instances of editor windows.  

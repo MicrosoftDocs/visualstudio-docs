@@ -22,7 +22,9 @@ ms.assetid: 765767d3-ecb7-4cd9-ba1e-d9468964dddc
 caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # OnError Element (MSBuild)
 Causes one or more targets to execute, if the `ContinueOnError` attribute is `false` for a failed task.  

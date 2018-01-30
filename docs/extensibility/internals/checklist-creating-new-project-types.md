@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Checklist: Creating New Project Types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  

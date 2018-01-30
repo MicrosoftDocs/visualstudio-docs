@@ -16,7 +16,9 @@ ms.assetid: f8a067c5-3306-4fc5-bc20-8910a47ed504
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_frontEndMajor
 Retrieves the front end major version number.  

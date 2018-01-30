@@ -16,7 +16,9 @@ ms.assetid: 1071f7d0-1f8c-4384-933f-c49c7eb930bd
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber
 Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.  

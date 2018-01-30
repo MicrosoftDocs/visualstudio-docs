@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugExceptionEvent2::GetException"
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExceptionEvent2::GetException
 Gets a detailed description of the exception that fired this event.  

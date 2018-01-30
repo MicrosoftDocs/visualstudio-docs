@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugObjects::Reset method"
 ms.assetid: 4a245e47-cc39-4177-b83d-083ea0e3190f
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::Reset
 This method resets the enumeration to the first element.  

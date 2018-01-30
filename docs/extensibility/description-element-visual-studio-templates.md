@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "Description element [Visual Studio project templates]"
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Description Element (Visual Studio Templates)
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.  

@@ -23,7 +23,9 @@ ms.assetid: 9be561f6-14a8-44ff-925d-d911d5b8e6ff
 caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CRT Debugging Techniques
 If you are debugging a program that uses the C run-time library, these debugging techniques might be useful.  

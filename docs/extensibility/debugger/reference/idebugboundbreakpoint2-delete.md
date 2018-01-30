@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::Delete method"
 ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::Delete
 Deletes the breakpoint.  

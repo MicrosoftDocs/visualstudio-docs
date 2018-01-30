@@ -16,7 +16,9 @@ ms.assetid: f35fc61b-f8dd-473a-b583-82c304059422
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::frameForVA
 Retrieves the stack frame that contains the specified virtual address.  

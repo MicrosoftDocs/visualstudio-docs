@@ -16,7 +16,9 @@ ms.assetid: 8d7bd359-d33e-4317-9674-d89283efd7de
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumTables::Next
 Retrieves a specified number of tables in the enumeration sequence.  

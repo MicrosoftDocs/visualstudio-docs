@@ -18,7 +18,9 @@ ms.assetid: aadbba74-7821-475f-8980-34d17c0a0a8b
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1811: Avoid uncalled private code
 |||  

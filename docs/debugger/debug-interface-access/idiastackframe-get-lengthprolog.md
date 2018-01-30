@@ -16,7 +16,9 @@ ms.assetid: 9894c5ca-835f-41e9-a35e-70e046dfb7f0
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_lengthProlog
 Retrieves the number of bytes of prologue code in the block.  

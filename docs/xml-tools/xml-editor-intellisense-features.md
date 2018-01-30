@@ -12,7 +12,9 @@ ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Editor IntelliSense Features
 The XML Editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.  
@@ -41,7 +43,7 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 -   Parameter names for a given named template.  
   
- For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md) topic.  
+For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md) topic.  
   
 ## Auto-Completion  
  The XML editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:  
@@ -70,11 +72,11 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 -   End a DTD declaration: `>`  
   
- The XML Editor also has the ability to insert a namespace declaration if you select a namespace qualified element or attribute from an IntelliSense list and the namespace for that element or attribute is not yet in scope.  
+The XML Editor also has the ability to insert a namespace declaration if you select a namespace qualified element or attribute from an IntelliSense list and the namespace for that element or attribute is not yet in scope.  
   
- For example, if you select the `e:Book` element from the IntelliSense list where the prefix is bound to the `http://books` namespace that has not been declared in the document, the XML editor inserts the required namespace declaration for you. The following is the resulting XML text:  
+For example, if you select the `e:Book` element from the IntelliSense list where the prefix is bound to the `http://books` namespace that has not been declared in the document, the XML editor inserts the required namespace declaration for you. The following is the resulting XML text:  
   
- `<e:Book xmlns:e="http://books"`  
+`<e:Book xmlns:e="http://books"`  
   
 ## Brace Matching  
  The XML editor provides brace highlighting to give you immediate feedback on elements you have just closed. You can also use the keyboard shortcut (CTRL+]) to jump from one brace to the matching brace.  

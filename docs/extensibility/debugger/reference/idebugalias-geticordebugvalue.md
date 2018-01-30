@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugAlias::GetICorDebugValue method"
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugAlias::GetICorDebugValue
 Retrieves a managed code interface that represents the value associated with this alias.  

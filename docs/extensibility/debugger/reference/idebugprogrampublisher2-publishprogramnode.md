@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramPublisher2::PublishProgramNode"
 ms.assetid: d4b72e04-f726-46cf-8e56-5203ff205b12
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramPublisher2::PublishProgramNode
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).  

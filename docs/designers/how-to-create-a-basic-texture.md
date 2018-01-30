@@ -12,7 +12,9 @@ ms.assetid: 0222e8bf-d29f-421b-9b1f-123d500fa179
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Basic Texture
 This document demonstrates how to use the Image Editor to create a basic texture.  

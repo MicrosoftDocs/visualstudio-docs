@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "Bitmaps element (VSCT XML schema)"
 ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Bitmaps Element
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  

@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Error Messages in Workflow Designer
 This topic describes the types of error messages that can be encountered when working with [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  

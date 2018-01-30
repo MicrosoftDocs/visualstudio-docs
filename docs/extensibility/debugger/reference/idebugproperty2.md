@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProperty2 interface"
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.  

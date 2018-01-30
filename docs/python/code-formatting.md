@@ -1,7 +1,7 @@
 ---
-title: Formatting Python Code in Visual Studio | Microsoft Docs"
+title: "Formatting Python code in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/12/2017
+ms.date: 07/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,11 +9,13 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d0f1631-360b-45d4-a0cb-01c3c10d25f2
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Formatting Python code
@@ -25,7 +27,7 @@ Visual Studio lets you quick reformat code to match pre-configured formatting op
 
 Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings the other three tabs are described in this topic.
 
-[Python support in Visual Studio](installation.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described that follow.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described that follow.
 
 ## Spacing
 

@@ -19,7 +19,9 @@ ms.assetid: f6ef2b76-8035-4a14-8195-aa221c46ef48
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StartTrackingContextWithRoot
 Starts a tracking context using a response file specifying a root marker.  

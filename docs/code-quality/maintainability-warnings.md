@@ -18,7 +18,9 @@ ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Maintainability Warnings
 Maintainability warnings support library and application maintenance.  

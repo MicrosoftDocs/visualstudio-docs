@@ -18,7 +18,9 @@ ms.assetid: c6fea690-1659-4ee7-a1c5-125ad6754525
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1719: Parameter names should not match member names
 |||  

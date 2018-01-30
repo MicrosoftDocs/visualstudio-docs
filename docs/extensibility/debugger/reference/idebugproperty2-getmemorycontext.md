@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProperty2::GetMemoryContext"
 ms.assetid: 91793d25-790f-4881-a5c0-d0458e534514
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2::GetMemoryContext
 Gets the memory context of the property value.  

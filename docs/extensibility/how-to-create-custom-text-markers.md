@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - custom text markers"
 ms.assetid: 6e32ed81-c604-4a32-9012-8db3bec7c846
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Create Custom Text Markers
 If you want to create a custom text marker to emphasize or organize code, you must take the following steps:  

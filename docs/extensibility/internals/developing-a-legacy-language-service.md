@@ -18,8 +18,11 @@ helpviewer_keywords:
   - "language services, developing"
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Developing a Legacy Language Service
 This section links to topics that help you create a legacy language service.  

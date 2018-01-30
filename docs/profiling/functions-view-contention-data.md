@@ -14,7 +14,9 @@ ms.assetid: 208773b0-1a54-4b7a-ad37-2b6fd4f731d4
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Functions View - Contention Data
 The Functions report view of contention data lists the functions in the profiling run that were blocked from execution during the profiling run.  

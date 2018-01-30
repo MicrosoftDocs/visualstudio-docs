@@ -14,7 +14,9 @@ ms.assetid: ffc1b893-17b1-477f-92a1-e4a59261ca1a
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Tree Menu Commands
 The **Tree** menu provides commands to expand or collapse views.  

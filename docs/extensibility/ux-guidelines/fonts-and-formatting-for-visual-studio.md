@@ -10,8 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Fonts and Formatting for Visual Studio
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  

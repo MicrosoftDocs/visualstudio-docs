@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugArrayField::GetElementType method"
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayField::GetElementType
 Gets the type of element in the array.  

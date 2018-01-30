@@ -18,7 +18,9 @@ ms.assetid: 902e859a-2153-4970-baaa-8a5b4a11806f
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Portability Warnings
 Portability warnings support portability across different operating systems.  

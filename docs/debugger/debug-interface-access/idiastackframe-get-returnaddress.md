@@ -16,7 +16,9 @@ ms.assetid: 0df91981-919f-48ed-9c70-4121567d645b
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_returnAddress
 Retrieves the return address of the frame.  

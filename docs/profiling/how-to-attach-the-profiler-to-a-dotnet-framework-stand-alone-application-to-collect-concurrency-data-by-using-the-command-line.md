@@ -12,7 +12,9 @@ ms.assetid: fdd41576-797e-4312-8520-fee7bb767e4a
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Concurrency Data by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.  

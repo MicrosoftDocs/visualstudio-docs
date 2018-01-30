@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugObjects::Next method"
 ms.assetid: e54c3055-6030-4dc9-9f7a-5e3ce75f252f
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::Next
 This method returns the next set of elements from the enumeration.  

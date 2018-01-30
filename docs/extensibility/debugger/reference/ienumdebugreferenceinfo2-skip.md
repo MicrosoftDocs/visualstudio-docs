@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugReferenceInfo2::Skip"
 ms.assetid: 12f07ed8-92bd-47b5-9113-f73fec5bdde6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugReferenceInfo2::Skip
 Skips over the specified number of elements.  

@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugTypeFieldBuilder interface"
 ms.assetid: 2dfed0be-6972-4bec-baec-f0b78df9ef97
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder
 Represents the ability to create a field that represents a type.  

@@ -14,7 +14,9 @@ ms.assetid: 535b9e67-ce9e-4a3e-8d28-9365f257036e
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Quality Tools
 If you experience issues when you run Visual Studio quality tools, the topics in this section can help you diagnose and correct the problem.  

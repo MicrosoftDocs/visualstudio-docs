@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "VSPackages, troubleshooting"
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Use the Activity Log
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  

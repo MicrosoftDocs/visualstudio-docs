@@ -16,7 +16,9 @@ ms.assetid: 40792153-827c-4859-be7c-6aa16d5abab6
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_frontEndMinor
 Retrieves the front end minor version number.  

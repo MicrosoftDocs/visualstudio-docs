@@ -18,7 +18,9 @@ ms.assetid: 5fb539ef-c304-4323-90c0-b14386da9774
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1707: Identifiers should not contain underscores
 |||  

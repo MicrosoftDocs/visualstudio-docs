@@ -14,7 +14,9 @@ ms.assetid: a70648f2-3b25-439f-8099-239ac602515a
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_uavSlot
 Retrieves the uav slot.  

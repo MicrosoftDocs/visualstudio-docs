@@ -20,7 +20,9 @@ ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WriteCodeFragment Task
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.  

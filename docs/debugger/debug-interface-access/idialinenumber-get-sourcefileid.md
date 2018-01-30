@@ -16,7 +16,9 @@ ms.assetid: 4f482a1e-e85f-4173-98de-8e5f7622554b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_sourceFileId
 Retrieves a unique source file identifier for the source file that contributed this line.  

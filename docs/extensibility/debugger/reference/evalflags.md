@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "EVALFLAGS enumeration"
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # EVALFLAGS
 Specifies flags that control expression evaluation.  

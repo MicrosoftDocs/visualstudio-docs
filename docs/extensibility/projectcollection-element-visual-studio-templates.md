@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "ProjectCollection element [Visual Studio Templates]"
 ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ProjectCollection Element (Visual Studio Templates)
 Specifies the organization and contents of multi-project templates.  

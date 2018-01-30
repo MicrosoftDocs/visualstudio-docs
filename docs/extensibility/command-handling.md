@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - command handling"
 ms.assetid: 78f67d92-77f7-45cb-ad75-6e3346379cc3
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Handling
 Your editor can define new commands. Commands are typically displayed in a menu, on a tool bar, or in a context menu.  

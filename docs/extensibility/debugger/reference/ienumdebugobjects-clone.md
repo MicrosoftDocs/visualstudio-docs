@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugObjects::Clone method"
 ms.assetid: cb7df109-d29a-4218-b900-6809091459dd
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::Clone
 This method returns a copy of the current enumeration as a separate object.  

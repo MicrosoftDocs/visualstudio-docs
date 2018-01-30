@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "SupportsMasterPage element [Visual Studio Templates]"
 ms.assetid: ce877a6a-9bba-4fd9-92fb-0a8dfec9e75b
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SupportsMasterPage Element (Visual Studio Templates)
 Specifies whether the or not the **Select Master Page** checkbox is enabled on the **Add New Item** dialog box.  

@@ -19,7 +19,9 @@ ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Globalization Warnings
 Globalization warnings support world-ready libraries and applications.  

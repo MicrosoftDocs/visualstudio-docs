@@ -12,7 +12,9 @@ ms.assetid: 07ddc47e-5941-41f8-bd44-d993c2d054ed
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What&#39;s New in the XSLT Debugger
 The following features are new in Visual Studio 2010.  

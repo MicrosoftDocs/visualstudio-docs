@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "debug engines, modes"
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Operational Modes
 There are three modes in which the IDE can operate, as follows:  

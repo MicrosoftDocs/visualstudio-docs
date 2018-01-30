@@ -18,7 +18,9 @@ ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Print Command
 Evaluates an expression, or displays specified text.  

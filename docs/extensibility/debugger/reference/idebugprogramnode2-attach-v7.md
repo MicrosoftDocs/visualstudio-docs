@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugProgramNode2::Attach"
 ms.assetid: b5ffc736-efc7-4ca8-964d-5536ff891b0e
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramNode2::Attach_V7
 DEPRECATED. DO NOT USE.  

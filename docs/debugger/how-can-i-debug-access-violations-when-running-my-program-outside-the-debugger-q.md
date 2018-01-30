@@ -22,7 +22,9 @@ ms.assetid: 780a298a-132e-4245-8370-8c82ca27c6c1
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
 ## Problem Description  

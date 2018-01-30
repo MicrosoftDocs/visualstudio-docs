@@ -16,7 +16,9 @@ ms.assetid: 31fde3af-2824-4b0f-8d0d-cee6046596f6
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback2::RestrictOriginalPathAccess
 Determines if it is okay to look for a .pdb file in the original debug directory.  

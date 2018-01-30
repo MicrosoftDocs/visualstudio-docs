@@ -16,7 +16,9 @@ ms.assetid: 2e54deb7-7744-428e-913c-1d47a2aa89b0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_lengthBlock
 Retrieves the length, in bytes, of the block of code described by the frame.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPortEx2::ResumeProcess"
 ms.assetid: e80a6960-9456-4764-9320-e7b1bd57fe5d
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortEx2::ResumeProcess
 Resumes execution of a process.  

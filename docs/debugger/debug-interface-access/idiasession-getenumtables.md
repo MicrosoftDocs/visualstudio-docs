@@ -16,7 +16,9 @@ ms.assetid: 66e0fba2-ca63-4e24-a46a-c99c7fb61dd1
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::getEnumTables
 Retrieves an enumerator for all tables contained in the symbol store.  

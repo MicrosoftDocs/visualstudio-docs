@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEnumField::GetValueFromStringCaseInsensitive method"
 ms.assetid: ef95b38e-d9b2-4fb5-a166-7c2e14641dc7
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.  

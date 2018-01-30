@@ -16,7 +16,9 @@ ms.assetid: 30fa316b-a746-4028-acae-4efcd2066f38
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumTables::get_Count
 Retrieves the number of tables.  

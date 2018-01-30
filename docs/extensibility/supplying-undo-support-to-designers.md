@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "designers [Visual Studio SDK], undo support"
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Supplying Undo Support to Designers
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  

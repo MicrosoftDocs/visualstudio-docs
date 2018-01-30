@@ -17,7 +17,9 @@ ms.assetid: 79929dfd-22c9-4cec-a0d0-a16f15b8f7e4
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Clean (devenv.exe)
 Cleans all intermediary files and output directories.  

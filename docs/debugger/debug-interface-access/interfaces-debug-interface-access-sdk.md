@@ -17,7 +17,9 @@ ms.assetid: 62aee7c3-d314-4272-a32b-b2818f32fab8
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Interfaces (Debug Interface Access SDK)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  

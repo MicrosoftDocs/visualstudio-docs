@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "IDebugArrayObject2::HasBaseIndices"
 ms.assetid: 51a5d145-ea53-422c-b5cf-c800cf64b8e6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayObject2::HasBaseIndices
 Determines if the array has base indices (lower bounds) defined.  

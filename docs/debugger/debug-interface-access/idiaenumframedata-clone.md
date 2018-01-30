@@ -16,7 +16,9 @@ ms.assetid: 28a17300-1626-422f-a17a-3a4d3872c37c
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumFrameData::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "SccAdd function"
 ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccAdd Function
 This function adds new files to the source control system.  

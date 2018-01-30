@@ -16,7 +16,9 @@ ms.assetid: e2023c32-4c05-4d0c-a0be-f016a230c788
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumDebugStreamData
 Provides access to the records in a debug data stream.  

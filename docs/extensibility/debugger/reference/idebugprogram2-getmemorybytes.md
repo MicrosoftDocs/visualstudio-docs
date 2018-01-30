@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgram2::GetMemoryBytes"
 ms.assetid: 1cdedb47-caf8-468e-aaf4-163f16afb403
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::GetMemoryBytes
 Retrieves the memory bytes occupied by the program.  

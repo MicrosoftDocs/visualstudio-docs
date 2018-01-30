@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugDynamicFieldCOMPlus interface"
 ms.assetid: c3a25f27-327a-4bdb-b026-27d436ddcd0c
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDynamicFieldCOMPlus
 Represents a dynamic field for an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.  

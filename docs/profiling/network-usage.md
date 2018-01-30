@@ -12,12 +12,14 @@ ms.assetid: 45fa397d-d7a1-4c4c-9c97-ede6c21643bd
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze Network Usage in UWP Apps
 The Visual Studio **Network** diagnostics tool collects data about network operations performed using the [Windows.Web.Http API](/uwp/api/windows.web.http). Analyzing the data can help you resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance.  
   
- The Network tool supports only Windows Universal Platform apps. Other platforms are not supported at this time.  
+ The Network tool supports only UWP apps. Other platforms are not supported at this time.  
   
 > [!NOTE]
 >  For a more complete description of the Network tool, see [Introducing Visual Studio's network tool](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studio-s-network-tool.aspx).  
@@ -70,8 +72,8 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 3.  The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript and TypeScript response payloads by increasing the readability of the content.  
   
 ## See Also  
- [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+ [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)  
  [Visual Studio blog: Introducing Visual Studio's network inspector](http://go.microsoft.com/fwlink/?LinkId=535022)   
- [Channel 9 Video: VS Diagnostics tools - New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
- [Profiling in Visual Studio](../profiling/index.md)
+ [Channel 9 Video: VS Diagnostics tools - New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)  
+ [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

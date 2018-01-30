@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "debug engines, detaching from programs"
 ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Termination and Detaching
 The following describes normal termination.  

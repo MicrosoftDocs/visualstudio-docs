@@ -12,7 +12,9 @@ ms.assetid: f81bde5c-3394-4b79-a315-c2f6491689b3
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Launch
 The **Launch** option starts the profiler using the sampling method and it also starts the specified application.  

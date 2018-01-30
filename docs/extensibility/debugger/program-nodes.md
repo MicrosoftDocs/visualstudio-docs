@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "program nodes, superceding"
 ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Program Nodes
 In terms of the debugger architecture, a **program node**:  

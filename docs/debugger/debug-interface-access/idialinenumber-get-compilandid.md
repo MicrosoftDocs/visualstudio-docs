@@ -16,7 +16,9 @@ ms.assetid: 2cd6f551-8091-47c7-803f-3f79a766a211
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_compilandId
 Retrieves a unique identifier for the compiland that contributed this line.  

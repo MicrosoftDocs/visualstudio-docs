@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2::Reset"
 ms.assetid: b289242b-24ea-4df3-a811-20b0c8a903d6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPrograms2::Reset
 Resets the enumeration to the first element.  

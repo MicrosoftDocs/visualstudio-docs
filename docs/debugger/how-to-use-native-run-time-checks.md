@@ -41,7 +41,9 @@ ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How to: Use Native Run-Time Checks
 In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:  
@@ -77,7 +79,7 @@ In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-che
 -   Use the `runtime_checks` pragma.  
   
 ## See Also  
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)   
  [runtime_checks](/cpp/preprocessor/runtime-checks)   
  [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

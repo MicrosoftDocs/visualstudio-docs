@@ -12,7 +12,9 @@ ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 3: Set Your Form Properties
 Next, you use the **Properties** window to change the way your form looks.  

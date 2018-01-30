@@ -18,7 +18,9 @@ ms.assetid: bcc3900a-e092-4bb8-896f-cb83f6289968
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1045: Do not pass types by reference
 |||  

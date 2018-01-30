@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugCustomAttribute::GetName"
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttribute::GetName
 Gets the name of the custom attribute.  

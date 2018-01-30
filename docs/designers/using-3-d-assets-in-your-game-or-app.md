@@ -19,7 +19,9 @@ ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using 3-D Assets in Your Game or App
 This article describes how you can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to process 3-D assets and include them in your builds.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "BP_LOCATION_CODE_STRING structure"
 ms.assetid: a4cd71c6-5052-45fe-907b-ebc6ca1df2e4
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_STRING
 Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE).  

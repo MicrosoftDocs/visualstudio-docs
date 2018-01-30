@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "SetIDebugIDECallback"
 ms.assetid: f01c40ad-ef4b-477b-8304-602c6972bc88
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
 Enables a debug engine to pass a callback to the expression evaluator during initialization.  

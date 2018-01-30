@@ -17,7 +17,9 @@ ms.assetid: 09633a0b-8f6f-4aba-8058-7cb4d13ce2c0
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # AssignProjectConfiguration Task
 This task accepts a list configuration strings and assigns them to specified projects.  

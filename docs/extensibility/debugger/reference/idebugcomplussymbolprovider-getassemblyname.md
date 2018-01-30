@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "GetAssemblyName"
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 Retrieves the name of the assembly given its module and application domain.  

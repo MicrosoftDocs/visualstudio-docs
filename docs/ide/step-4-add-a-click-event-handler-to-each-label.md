@@ -12,7 +12,9 @@ ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
 caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 4: Add a Click Event Handler to Each Label
 The matching game works as follows:  

@@ -16,7 +16,9 @@ ms.assetid: e317f29a-6525-46a7-8421-33985392f8fd
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_columnNumber
 Retrieves the column number where the expression or statement begins.  

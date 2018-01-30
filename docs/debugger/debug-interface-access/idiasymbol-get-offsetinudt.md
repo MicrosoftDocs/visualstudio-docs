@@ -16,7 +16,9 @@ ms.assetid: 442f20d9-9d6a-44a1-83fb-c3f8c14b6c97
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_offsetInUdt
 Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT.  

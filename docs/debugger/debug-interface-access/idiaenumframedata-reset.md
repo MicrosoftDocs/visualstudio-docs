@@ -16,7 +16,9 @@ ms.assetid: 2242165b-096b-4345-b214-4a8941dc5ba5
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumFrameData::Reset
 Resets an enumeration sequence to the beginning.  

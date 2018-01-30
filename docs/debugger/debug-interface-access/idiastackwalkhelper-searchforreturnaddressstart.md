@@ -16,7 +16,9 @@ ms.assetid: 0a33142e-5d31-44ea-874a-a2e94d95cbd2
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::searchForReturnAddressStart
 Searches the specified stack frame for a return address at or near the specified stack address.  

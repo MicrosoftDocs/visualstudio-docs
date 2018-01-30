@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetSymUnmanagedReader"
 ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
 Retrieves a symbol reader for unmanaged code.  

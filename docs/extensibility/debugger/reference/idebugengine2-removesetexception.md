@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEngine2::RemoveSetException"
 ms.assetid: bdd25097-0e9d-4218-b417-0497ea48d2e8
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::RemoveSetException
 Removes the specified exception so it is no longer handled by the debug engine.  

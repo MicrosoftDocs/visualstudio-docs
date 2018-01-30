@@ -16,7 +16,9 @@ ms.assetid: 3b9fb747-670b-4da7-bb70-612f7b911786
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasAlloca
 Retrieves a flag that specifies whether the function contains a call to `alloca` (which is used to allocate memory on the stack).  

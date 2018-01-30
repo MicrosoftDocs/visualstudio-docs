@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_PARAM structure"
 ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # METADATA_ADDRESS_PARAM
 This structure represents a parameter of a method or function.  

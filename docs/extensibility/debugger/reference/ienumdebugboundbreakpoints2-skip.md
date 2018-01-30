@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Skip"
 ms.assetid: 95659709-6d7c-44ca-b598-629eb688429f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugBoundBreakpoints2::Skip
 Skips over the specified number of elements.  

@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "<Project> element [Visual Studio Templates]"
 ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Element (Visual Studio Templates)
 Specifies the files or directories to add to the project.  

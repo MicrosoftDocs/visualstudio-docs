@@ -20,7 +20,9 @@ ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XmlPoke Task
 Sets values as specified by an XPath query into an XML file.  

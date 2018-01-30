@@ -20,7 +20,9 @@ ms.assetid: 3ca60816-4bb0-4fef-ae43-ca0bfb63def3
 caps.latest.revision: 4
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GenerateTrustInfo Task
 Generates the application trust from the base manifest, and from the `TargetZone` and `ExcludedPermissions` parameters.  

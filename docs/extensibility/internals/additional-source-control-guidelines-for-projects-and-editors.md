@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], guidelines for projects and editors"
 ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Additional Source Control Guidelines for Projects and Editors
 There are a number of guidelines that projects and editors should adhere to in order to support source control.  

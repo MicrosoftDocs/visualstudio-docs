@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "METADATA_ADDRESS_LOCAL structure"
 ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # METADATA_ADDRESS_LOCAL
 This structure represents the address of a local variable within a scope (usually a function or method).  

@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "<Reference> element [Visual Studio templates]"
 ms.assetid: 852772ea-c324-42e9-8c8a-6d565414a109
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Reference Element (Visual Studio Templates)
 Specifies the assembly reference to add when the item is added to a project.  

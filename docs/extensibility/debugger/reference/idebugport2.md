@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPort2 interface"
 ms.assetid: 8fd87f05-a950-4d14-b925-98be29d4facc
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPort2
 This interface represents a debug port on a machine.  

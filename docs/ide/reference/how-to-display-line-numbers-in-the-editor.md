@@ -17,7 +17,9 @@ ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Display Line Numbers in the Editor
 You can display or hide line numbering in your code.  
@@ -30,9 +32,11 @@ You can display or hide line numbering in your code.
   
 #### To display line numbers in code  
   
-1.  On the menu bar, choose **Tools**, **Options**. Expand the **Text Editor** node, and then select either the node for the language you are using, or **All Languages** to turn on line numbers in all languages. Or you can type **line number** in the **Quick Launch** box.  
+1.  On the menu bar, choose **Tools**, **Options**. Expand the **Text Editor** node, and then select either the node for the language you are using, or **All Languages** to turn on line numbers in all languages. Or, you can type **line number** in the **Quick Launch** box.  
   
-2.  ![Options for displaying line numbers in the editor](../../ide/reference/media/vs_displaylinenumbers.png "VS_DisplayLineNumbers")  
+2.  Select the **Line numbers** checkbox.
+
+    ![Options for displaying line numbers in the editor](../../ide/reference/media/vs_displaylinenumbers.png "VS_DisplayLineNumbers")
   
 > [!NOTE]
 >  Depending on your language or settings, you may have to select the **Show All Settings** check box in the **Options** dialog box to reveal the **All Languages** sub-node.  

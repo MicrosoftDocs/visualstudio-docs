@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugArrayField::GetNumberOfElements method"
 ms.assetid: a1961ef3-d69d-4022-b8c9-b9cfb9811345
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayField::GetNumberOfElements
 Gets the number of elements in the array.  

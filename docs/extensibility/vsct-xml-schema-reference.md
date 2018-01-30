@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "VSCT XML schema elements"
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSCT XML Schema Reference
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  

@@ -11,6 +11,8 @@ caps.latest.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create an Activity Designer Library
 Custom activity designers allow you to create a user interface for a standard or a custom activity. You control the complexity of the user interface and have the ability to create more than one activity designer for an activity. This scenario allows you to create designers that are tailored for multiple audiences.  

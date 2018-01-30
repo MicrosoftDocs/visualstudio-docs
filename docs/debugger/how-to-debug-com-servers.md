@@ -26,7 +26,9 @@ ms.assetid: 9f013c2b-0306-4b34-ba7f-d4445a874da1
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Debug COM Servers
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  
@@ -45,5 +47,5 @@ Debugging COM server applications poses a unique set of problems that are not al
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
  [How to: Debug COM Clients and Servers Using RPC Debugging](../debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md)   
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
- [Debugging in Visual Studio](../debugger/index.md)
+ [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

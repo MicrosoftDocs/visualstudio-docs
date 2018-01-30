@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEngine2::RemoveAllSetExceptions"
 ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::RemoveAllSetExceptions
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.  

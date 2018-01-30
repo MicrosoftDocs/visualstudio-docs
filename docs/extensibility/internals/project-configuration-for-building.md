@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "project configurations, building"
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Configuration for Building
 The list of solution configurations for a given solution is managed by the Solution Configurations dialog box.  

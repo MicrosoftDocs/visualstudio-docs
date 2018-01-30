@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint error resolution information.  

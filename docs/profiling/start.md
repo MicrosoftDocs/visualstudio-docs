@@ -12,7 +12,9 @@ ms.assetid: b85d0fe9-f67a-4b7c-8d48-7eecf3f2dfe9
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Start
 The **Start** option is a VSPerfCmd.exe option that initializes the profiler to the specified profiling method.  

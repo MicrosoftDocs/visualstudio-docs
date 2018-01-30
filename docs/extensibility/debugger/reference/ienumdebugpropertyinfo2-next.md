@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugPropertyInfo2::Next"
 ms.assetid: 4eb8c7c3-aadf-4187-abee-c0620308a3eb
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPropertyInfo2::Next
 Returns the next set of elements from the enumeration.  

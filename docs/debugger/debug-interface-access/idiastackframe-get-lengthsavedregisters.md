@@ -16,7 +16,9 @@ ms.assetid: b75fad6e-1ef4-44e6-89e3-c31c6fba10b3
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_lengthSavedRegisters
 Retrieves the number of bytes of saved registers pushed on the stack.  

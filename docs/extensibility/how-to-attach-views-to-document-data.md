@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - attach views to document data"
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Attach Views to Document Data
 If you have a new document view, you may be able to attach it to an existing document data object.  

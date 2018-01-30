@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreatePrimitiveObject method"
 ms.assetid: 6e9dc8b6-b4e1-4abf-b6e0-e885910775bc
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject::CreatePrimitiveObject
 Creates a primitive data object, such as a simple integer.  

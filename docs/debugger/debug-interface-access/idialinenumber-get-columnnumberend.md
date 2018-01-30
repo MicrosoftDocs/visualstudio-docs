@@ -16,7 +16,9 @@ ms.assetid: 02fa56c1-87b6-405a-adee-3bb6bc62de2d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_columnNumberEnd
 Retrieves the one-based source column number where the expression or statement ends.  

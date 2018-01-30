@@ -18,7 +18,9 @@ ms.assetid: baa85f86-041b-49f4-9ced-0c397dc180e1
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Open Project Command
 Opens an existing project.  

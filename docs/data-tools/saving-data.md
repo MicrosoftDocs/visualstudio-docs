@@ -23,9 +23,11 @@ ms.assetid: 21d2b115-62e4-4ac9-a873-dcbb535b8af8
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
 robots: noindex,nofollow
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Saving Data
 Saving data is the process of persisting changed data in an application's data model back to the original data store, typically a relational database such as SQL Server.  

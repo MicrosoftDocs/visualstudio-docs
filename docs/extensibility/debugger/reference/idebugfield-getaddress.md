@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugField::GetAddress method"
 ms.assetid: 6981bf03-66ef-4bf9-87ea-f6c9624486cb
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField::GetAddress
 This method gets the debug address of a field.  

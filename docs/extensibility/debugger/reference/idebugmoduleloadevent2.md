@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugModuleLoadEvent2 interface"
 ms.assetid: 7d26fb23-5d49-4ba7-b7c5-3aed4d7be81e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModuleLoadEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a module is loaded or unloaded.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "FIELD_MODIFIERS enumeration"
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # FIELD_MODIFIERS
 Specifies modifiers for a field type.  

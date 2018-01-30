@@ -18,7 +18,9 @@ ms.assetid: bda03aee-4cce-45d3-907d-17f4ee030acc
 caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2221: Finalizers should be protected
 |||  

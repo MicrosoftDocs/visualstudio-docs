@@ -15,7 +15,9 @@ ms.assetid: 23e5288e-7897-417a-9ded-cf60dfc889ee
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use Surround-with Code Snippets
 The following procedures describe how to use surround-with code snippets. Surround-with code snippets are available three ways: through a keyboard shortcut, through the Edit menu, and through the context menu.  
@@ -55,5 +57,5 @@ The following procedures describe how to use surround-with code snippets. Surrou
      Alternatively, you can type the name of the code snippet, and then press TAB or ENTER.  
   
 ## See Also  
- [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
+ [C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
  [Code Snippet Picker](../ide/reference/code-snippet-picker.md)

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "SccDirDiff function"
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccDirDiff Function
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.  

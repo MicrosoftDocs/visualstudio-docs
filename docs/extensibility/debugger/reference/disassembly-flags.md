@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DISASSEMBLY_FLAGS enumeration"
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DISASSEMBLY_FLAGS
 Specifies the flags for disassembly.  

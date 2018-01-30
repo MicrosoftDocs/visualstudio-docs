@@ -16,7 +16,9 @@ ms.assetid: 38af80fc-748f-4b15-bff1-823db21dd4d0
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumInjectedSources::Next
 Retrieves a specified number of injected sources in the enumeration sequence.  

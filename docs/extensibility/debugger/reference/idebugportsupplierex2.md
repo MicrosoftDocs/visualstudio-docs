@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugPortSupplierEx2 interface"
 ms.assetid: dae0050a-a50a-4f35-bfbd-e538f537b20f
 caps.latest.revision: 4
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplierEx2
 Provides support for a port supplier to select and interact with a core server.  

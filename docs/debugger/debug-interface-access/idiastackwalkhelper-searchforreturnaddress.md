@@ -16,7 +16,9 @@ ms.assetid: 904223b1-6e26-4980-b310-d0b222cdbbbd
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::searchForReturnAddress
 Searches the specified stack frame for the nearest function return address.  

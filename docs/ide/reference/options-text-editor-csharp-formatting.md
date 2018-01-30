@@ -23,16 +23,18 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Formatting"
 helpviewer_keywords: 
   - "formatting [C#]"
-  - "formatting [J#]"
   - "Text Editor Options dialog box, formatting"
 ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Options, Text Editor, C#, Formatting
-Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access this dialog box, click **Options** on the **Tools** menu, expand **Text Editor**, expand **C#**, and then click **Formatting**.  
+
+Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access the **Options** dialog box in Visual Studio, click **Tools** > **Options**. Then, expand **Text Editor**, expand **C#**, expand **Code Style**, and then click **Formatting**.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  

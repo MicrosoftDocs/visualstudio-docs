@@ -18,7 +18,9 @@ ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
 caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2235: Mark all non-serializable fields
 |||  

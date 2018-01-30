@@ -12,9 +12,11 @@ f1_keywords:
   - "vs.graphics.pixelhistory"
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268
 caps.latest.revision: 14
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Pixel History
 The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you understand how a specific pixel is affected by the Direct3D events that occur during a frame of your game or app.  

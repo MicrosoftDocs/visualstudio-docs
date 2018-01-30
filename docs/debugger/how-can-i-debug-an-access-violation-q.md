@@ -22,7 +22,9 @@ ms.assetid: 9311d754-0ce9-4145-b147-88b6ca77ba63
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How Can I Debug a C++ Access Violation?
 ## Problem Description  

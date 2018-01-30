@@ -12,7 +12,9 @@ ms.assetid: a9795dba-2afc-45f7-9b53-c6c67a23c40b
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XElement Class Dynamic Properties
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugClassField::EnumNestedClasses method"
 ms.assetid: 2ba5ef0c-395e-4006-9e3c-9b06e1d711d0
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugClassField::EnumNestedClasses
 Creates an enumerator for the classes nested in this class.  

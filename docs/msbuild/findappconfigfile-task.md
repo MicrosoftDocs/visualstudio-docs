@@ -20,7 +20,9 @@ ms.assetid: e292de3e-7482-4426-83ce-d921061808bf
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FindAppConfigFile Task
 Finds the app.config file, if any, in the provided lists.  

@@ -16,7 +16,9 @@ ms.assetid: 00e462da-980a-40b3-a2d6-75a25ee809e5
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaPropertyStorage::Enum
 Gets an enumerator for properties within this set.  

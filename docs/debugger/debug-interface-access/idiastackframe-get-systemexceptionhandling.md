@@ -16,7 +16,9 @@ ms.assetid: c76cf265-dea0-4159-883f-32b50bbef044
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_systemExceptionHandling
 Retrieves a flag that indicates whether system exception handling is in effect.  

@@ -21,7 +21,9 @@ ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
 caps.latest.revision: 29
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Troubleshooting .NET Framework Targeting Errors
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  

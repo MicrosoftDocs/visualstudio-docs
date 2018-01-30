@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPort2::GetPortSupplier"
 ms.assetid: 7a7b0615-df6b-4726-ab35-39dfa1ebed8f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPort2::GetPortSupplier
 Gets the port supplier for this port.  

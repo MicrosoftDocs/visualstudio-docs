@@ -16,7 +16,9 @@ ms.assetid: f11e3ccb-215d-418c-b8c3-e63159234915
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_classParentId
 Retrieves the class parent identifier of the symbol.  

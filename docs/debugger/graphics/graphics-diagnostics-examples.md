@@ -10,9 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8
 caps.latest.revision: 33
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Diagnostics Examples
 These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics.  

@@ -16,7 +16,9 @@ ms.assetid: 363d5b40-1316-4ab8-836f-63637f619e0a
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumLineNumbers::Next
 Retrieves a specified number of line numbers in the enumeration sequence.  

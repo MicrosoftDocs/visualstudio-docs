@@ -1,22 +1,24 @@
 ---
-title: "Install certificates needed for Visual Studio offline installation | Microsoft Docs"
+title: "Install certificates required for Visual Studio offline installation | Microsoft Docs"
 description: "Describes the steps needed to install certificates for a Visual Studio offline installation"
 ms.date: "08/30/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
+ms.technology: 
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
 author: "timsneath"
-ms.author: "tims"
-manager: "ghogen"
+ms.author: "tglee"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Install certificates needed for Visual Studio offline installation
+# Install certificates required for Visual Studio offline installation
 
 Visual Studio is primarily designed to be installed on an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 
@@ -38,7 +40,7 @@ For enterprises with offline machines that do not have the latest root certifica
 
 If you are scripting the deployment of Visual Studio in an offline environment to client workstations, you should follow these steps:
 
-1. Copy the [Certificate Manager Tool](https://msdn.microsoft.com/library/e78byta0.aspx) (certmgr.exe) to the installation share (for example, \\server\share\vs2017). Certmgr.exe is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+1. Copy the [Certificate Manager Tool](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool) (certmgr.exe) to the installation share (for example, \\server\share\vs2017). Certmgr.exe is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
 2. Create a batch file with the following commands:
 
@@ -92,7 +94,7 @@ One way to check on the installing system is to follow these steps:
   d. Expand **Certificates (Local Computer)**.<br/>
   e. Expand **Trusted Root Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the necessary root certificates.<br/>
-  
+
    f. Expand **Intermediate Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the required intermediate certificates.<br/>
 
@@ -107,6 +109,15 @@ If the certificates names were not in the **Issued To** columns, they must be in
 ## Install Visual Studio
 
 After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
+
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 * [Install Visual Studio](install-visual-studio.md)

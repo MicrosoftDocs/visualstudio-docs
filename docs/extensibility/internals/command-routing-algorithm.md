@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "command routing"
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Routing Algorithm
 In Visual Studio commands are handled by a number of different components. Commands are routed from the innermost context, which is based on the current selection, to the outermost (also known as global) context. For more information, see [Availability](../../extensibility/internals/command-availability.md).  

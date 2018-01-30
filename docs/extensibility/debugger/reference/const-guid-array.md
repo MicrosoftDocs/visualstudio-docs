@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "CONST_GUID_ARRAY structure"
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONST_GUID_ARRAY
 A structure that holds a list of `GUID`s.  

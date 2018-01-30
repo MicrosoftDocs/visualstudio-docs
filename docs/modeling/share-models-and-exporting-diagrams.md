@@ -9,11 +9,11 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, sharing"
   - "UML diagrams, saving"
-ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
-caps.latest.revision: 14
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Share models and exporting diagrams
 In Visual Studio, you can share models and diagrams with colleagues in several ways.  
@@ -26,8 +26,6 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
  Different users can work at the same time on a model, but should work on different packages.  
   
  We recommend that you use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].  
-  
- For more information, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md).  
   
  For suggestions about organizing models in a medium or large project, see [Structure your modeling solution](../modeling/structure-your-modeling-solution.md).  
   
@@ -47,13 +45,9 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)|Visual Studio users can work on a shared model.|  
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Sharing models in a large or medium project.|  
-|[Read models and diagrams in other Visual Studio editions](../modeling/read-models-and-diagrams-in-other-visual-studio-editions.md)|Users of some versions of Visual Studio that cannot create models can read models and diagrams.|  
 |[Export diagrams as images](../modeling/export-diagrams-as-images.md)|You can copy parts of diagrams into applications such as PowerPoint or Word, or print a diagram to an XPS file.|  
 |[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|Overview of models and diagrams.|  
-|[Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)|If you use a UML profile in a model, and then send the model to someone else, they must have installed the same profile.|  
   
 ## See Also  
- [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)

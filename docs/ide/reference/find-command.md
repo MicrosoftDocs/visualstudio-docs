@@ -17,7 +17,9 @@ ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Find Command
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  

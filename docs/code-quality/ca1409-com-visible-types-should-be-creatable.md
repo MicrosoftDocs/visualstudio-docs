@@ -18,7 +18,9 @@ ms.assetid: 9f59569b-de15-4a38-b7cb-cff152972243
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1409: Com visible types should be creatable
 |||  

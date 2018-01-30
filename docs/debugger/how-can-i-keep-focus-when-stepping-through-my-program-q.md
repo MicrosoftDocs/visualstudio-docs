@@ -24,7 +24,9 @@ ms.assetid: 11a30580-3a1a-4be8-a241-0abdc758302e
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Keep Focus When Stepping Through My Program?
 ## Description  

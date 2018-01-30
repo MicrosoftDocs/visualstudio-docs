@@ -12,7 +12,9 @@ ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
 caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Sample XSD File: Simple Schema
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a simple purchase order schema.  

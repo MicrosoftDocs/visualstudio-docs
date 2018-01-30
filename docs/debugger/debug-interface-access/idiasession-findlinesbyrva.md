@@ -16,7 +16,9 @@ ms.assetid: 06f53b0b-b5b4-42cf-9252-dcee0dbe2d71
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findLinesByRVA
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).  

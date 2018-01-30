@@ -16,7 +16,9 @@ ms.assetid: 12ce98e9-a225-4947-88c9-5fda39dd67e4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_lowerBoundId
 Retrieves the symbol identifier of the lower bound of a FORTRAN array dimension.  

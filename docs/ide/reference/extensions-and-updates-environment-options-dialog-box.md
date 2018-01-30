@@ -14,7 +14,9 @@ ms.assetid: c73859eb-3c33-4f39-86bf-6788387b5937
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Extensions and Updates, Environment, Options Dialog Box
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.  

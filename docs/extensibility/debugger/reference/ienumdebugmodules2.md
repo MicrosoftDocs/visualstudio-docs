@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugModules2"
 ms.assetid: 4fe28074-a960-41ad-b74d-b57f04c0c0ad
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugModules2
 This interface enumerates a list of modules.  

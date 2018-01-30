@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugCustomAttributes::GetCount"
 ms.assetid: fafe826f-4ebf-4572-b2a3-d5dd2916c12f
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugCustomAttributes::GetCount
 Gets the number of custom attributes in an enumerator.  

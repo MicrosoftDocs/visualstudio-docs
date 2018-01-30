@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
 ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 Gets an enumerator for all custom attributes attached to this field.  

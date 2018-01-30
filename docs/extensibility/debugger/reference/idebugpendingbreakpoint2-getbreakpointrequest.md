@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "GetBreakpointRequest method"
 ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 Gets the breakpoint request that was used to create this pending breakpoint.  

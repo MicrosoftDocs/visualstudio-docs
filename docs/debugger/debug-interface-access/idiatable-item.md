@@ -16,7 +16,9 @@ ms.assetid: eae11b26-4807-400c-be25-e85bbc0c6b20
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaTable::Item
 Retrieves a reference to the specified entry in the table.  

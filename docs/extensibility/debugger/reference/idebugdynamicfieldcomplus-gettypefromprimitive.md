@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "GetTypeFromPrimitive"
 ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 Retrieves a type given its primitive type.  

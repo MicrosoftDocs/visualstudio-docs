@@ -1,7 +1,7 @@
 ---
-title: Python Options in Visual Studio | Microsoft Docs"
+title: "Python options in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: 7/13/2017
+ms.date: 01/04/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -9,16 +9,19 @@ ms.technology:
 ms.devlang: python
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c714867-7a64-4b1e-aca8-09d956192279
 f1_keywords: 
   - "VS.ToolsOptionsPages.Python_Tools"
   - "VS.ToolsOptionsPages.Python_Tools.General"
   - "VS.ToolsOptionsPages.Python_Tools.Debugging"
+  - "VS.ToolsOptionsPages.Python_Tools.Diagnostics"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "python"
+  - "data-science"
 ---
 
 # Options for Python in Visual Studio
@@ -33,8 +36,11 @@ The specific options are described in the following sections:
 
 - [General options](#general-options)
 - [Debugging options](#debugging-options)
+- [Diagnostics options](#diagnostics-options)
 - [Interactive Windows options](#interactive-windows-options)
 - [Advanced Python editor options](#advanced-python-editor-options)
+
+Note that the **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## General options
 
@@ -42,10 +48,10 @@ The specific options are described in the following sections:
 | --- | --- | --- |
 | Show the Output Window when creating virtual environments| On | Clear to prevent the output window from appearing. |
 | Show the Output Window when installing or removing packages | On |  Clear to prevent the output window from appearing. |
-| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](python-environments.md#pip-tab). |
+| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [Python environments - pip tab](managing-python-environments-in-visual-studio.md#pip-tab). |
 | Automatically generate completion DB on first use | On | For [IntelliSense completions](code-editing.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. Building the database is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
-| Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](python-environments.md#search-paths) for details. |
-| Update search paths when adding linked files | On | When set, adding a [linked file](python-projects.md#linked-files) to a project updates [search paths](python-environments.md#search-paths) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
+| Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Python Environments - search paths](managing-python-environments-in-visual-studio.md#search-paths) for details. |
+| Update search paths when adding linked files | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [search paths](managing-python-environments-in-visual-studio.md#search-paths) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
 | Warn when imported module cannot be found | On | Clear this option to suppress warnings when you know an imported module isn't presently available but doesn't otherwise affect code operation. |
 | Report inconsistent indentation as | Warnings | Because the Python interpreter depends heavily on proper indentation to determine scope, Visual Studio by default issues warnings when it detects inconsistent indentations that might indicate coding errors. Set to *Errors* to be even more strict, which causes the program to exit in such cases. To disable this behavior altogether, select *Don't*. |
 | Check for survey/news | Once a week | Sets the frequency at which you allow Visual Studio can open a window containing a web page with Python-related surveys and news items, if available. Options are *Never*, *Once a day*, *Once a week*, and *Once a month*. |
@@ -65,11 +71,21 @@ The specific options are described in the following sections:
 
 ![Python options dialog, Debugging tab](media/options-debugging.png)
 
+## Diagnostics options
+
+| Option | Default | Description |
+| --- | --- | --- |
+| Include analysis logs | On | Includes detailed logs relating to analysis of installed Python environments when saving diagnostics to a file or copying them to the clipboard using the buttons. This option may significantly increase the size of the generated file, but is often required to diagnose IntelliSense issues. |
+| Save diagnostics to file (button) | n/a | Prompts for a filename, then saves the log to a text file. |
+| Copy diagnostics to clipboard (button) | n/a | Places the entirety of the log on the clipboard; this operation may take some time depending on the size of the log. |
+
+![Python options dialog, Diagnostics tab](media/options-diagnostics.png)
+
 ## Interactive Windows options
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Scripts | n/a | Specifies a general folder for startup scripts to apply to interactive windows for all environments. See [Startup scripts](python-environments.md#startup-scripts). Note, however, that this feature does not currently work. |
+| Scripts | n/a | Specifies a general folder for startup scripts to apply to interactive windows for all environments. See [Startup scripts](managing-python-environments-in-visual-studio.md#startup-scripts). Note, however, that this feature does not currently work. |
 | Up/down arrows navigate history | On | Uses the arrow keys to navigate through history in the interactive window. Clear this setting to use the arrow keys to navigate within the interactive window's output instead. |
 | Completion mode | Only evaluate expressions without function calls | The process of determining the available members on an expression in the interactive window may require evaluating the current unfinished expression, which can result in side-effects or functions being called multiple times. The default setting, *Only evaluate expressions without function calls* excludes expressions that appear to call a function, but evaluates other expressions. For example, it evaluates `a.b` but not `a().b`.  *Never evaluate expressions* prevents all side-effects, using only the normal IntelliSense engine for suggestions. *Evaluate all expressions* evaluates the complete expression to obtain suggestions, regardless of side effects. |
 | Hide static analysis suggestions | Off | When set, displays only suggestions that are obtained by evaluating the expression. If combined with the Completion mode *Never evaluate expressions*, no useful completions appear in the interactive window. |

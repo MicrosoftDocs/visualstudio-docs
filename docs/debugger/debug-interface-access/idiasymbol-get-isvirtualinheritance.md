@@ -14,7 +14,9 @@ ms.assetid: 72906b92-dd4a-42e3-9b24-b77628fa48c1
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isVirtualInheritance
 Specifies whether the `this` pointer points to a data member with virtual inheritance.  

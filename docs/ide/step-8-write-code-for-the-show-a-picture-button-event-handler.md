@@ -12,7 +12,9 @@ ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 caps.latest.revision: 24
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 8: Write Code for the Show a Picture Button Event Handler
 In this step, you make the **Show a picture** button work like this:  

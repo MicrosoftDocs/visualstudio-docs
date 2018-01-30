@@ -16,7 +16,9 @@ ms.assetid: 9f072fd3-0b99-405c-af99-fd44cd56fd73
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FunctionArgType
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.  

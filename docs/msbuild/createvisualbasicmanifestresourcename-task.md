@@ -20,7 +20,9 @@ ms.assetid: 251c47b9-de32-414b-a138-bf45290af12e
 caps.latest.revision: 8
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateVisualBasicManifestResourceName Task
 Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  

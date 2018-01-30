@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugCoreServer2::GetMachineUtilities_V7"
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.  

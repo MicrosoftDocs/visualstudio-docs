@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugReference2::GetReferenceInfo"
 ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2::GetReferenceInfo
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.  

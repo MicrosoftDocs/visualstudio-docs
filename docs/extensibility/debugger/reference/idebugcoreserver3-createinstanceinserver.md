@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugCoreServer3::CreateInstanceInServer"
 ms.assetid: 76f36bae-f6ab-413c-a8a9-8808bfeba05b
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3::CreateInstanceInServer
 Creates an instance of a debug engine on the server.  

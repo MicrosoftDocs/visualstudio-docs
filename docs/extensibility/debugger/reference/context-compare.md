@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "CONTEXT_COMPARE enumeration"
 ms.assetid: 701ed61c-a320-4c20-a335-0b840024abc0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONTEXT_COMPARE
 Specifies the criteria for comparing two memory contexts.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "BP_RESOLUTION_CODE structure"
 ms.assetid: ac103ec5-771c-4667-92de-b5abb53bbb52
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RESOLUTION_CODE
 Describes the location of a code breakpoint.  

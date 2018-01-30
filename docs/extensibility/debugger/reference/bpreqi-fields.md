@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "BPREQI_FIELDS enumeration"
 ms.assetid: 679e771e-4a79-484e-af37-f962ef4aa245
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BPREQI_FIELDS
 Specifies the information to be retrieved about a breakpoint request.  

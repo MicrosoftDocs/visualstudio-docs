@@ -21,7 +21,9 @@ ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
 caps.latest.revision: 57
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Command-Line Reference
 When you use MSBuild.exe to build a project or solution file, you can include several switches to specify various aspects of the process.  

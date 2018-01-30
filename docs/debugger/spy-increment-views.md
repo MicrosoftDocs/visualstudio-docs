@@ -15,7 +15,9 @@ ms.assetid: c60867af-f814-4fac-8f06-3c39cbefc7ea
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Spy++ Views
 Spy ++ displays tree views of the windows, messages, processes, and threads available on your machine.  

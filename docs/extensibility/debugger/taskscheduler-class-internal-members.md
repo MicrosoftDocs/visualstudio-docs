@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "debug engines, TaskScheduler class [.NET Framework]"
 ms.assetid: 87f1c969-0217-4464-8907-7609c1bf61d3
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TaskScheduler Class - Internal Members
 This topic describes the internal members of the <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the <xref:System.Threading.Tasks.TaskScheduler> reference topic.  

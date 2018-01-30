@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "web projects, essentials"
 ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Web Project Essentials
 Web projects create Web applications. You can use a Web project to create a Web application that has smart Web pages. A smart Web page has server-side code that renders the Web page on demand.  

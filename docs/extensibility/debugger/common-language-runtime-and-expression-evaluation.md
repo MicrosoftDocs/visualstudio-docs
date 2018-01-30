@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "expression evaluation, and common language runtime"
 ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Common Language Runtime and Expression Evaluation
 > [!IMPORTANT]

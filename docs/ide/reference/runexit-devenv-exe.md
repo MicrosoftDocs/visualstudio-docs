@@ -16,7 +16,9 @@ ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Runexit (devenv.exe)
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).  

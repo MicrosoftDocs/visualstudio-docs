@@ -14,7 +14,9 @@ ms.assetid: 61ff7431-1994-4f7e-a182-1817f16f60a9
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_numberOfModifiers
 Retrieves the number of modifiers that are applied to the original type.  

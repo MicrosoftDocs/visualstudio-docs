@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "IDebugPortPicker::SetSite"
 ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortPicker::SetSite
 Sets the service provider.  

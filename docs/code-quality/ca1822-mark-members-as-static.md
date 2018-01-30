@@ -18,7 +18,9 @@ ms.assetid: 743f0af7-41d1-4852-8d97-af0688b31118
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1822: Mark members as static
 |||  

@@ -16,7 +16,9 @@ ms.assetid: 18038691-c140-426a-8617-27f0360650f3
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumInjectedSources::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

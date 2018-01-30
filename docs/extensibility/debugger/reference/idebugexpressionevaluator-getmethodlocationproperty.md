@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator::GetMethodLocationProperty method"
 ms.assetid: 52c42a2e-f144-476b-8bef-442464c8fe8e
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 This method converts a method location and offset into a memory address.  

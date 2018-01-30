@@ -14,7 +14,9 @@ ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::findInlineFramesByVA
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA).  

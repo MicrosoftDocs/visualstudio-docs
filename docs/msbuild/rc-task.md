@@ -26,7 +26,9 @@ ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 caps.latest.revision: 10
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # RC Task
 Wraps the Microsoft Windows Resource Compiler tool, rc.exe. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (.res) file. For more information, see "Resource Compiler" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  

@@ -17,7 +17,9 @@ ms.assetid: b2773344-8081-4116-85a1-58f770448f6a
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Marks View
 The Marks view displays sampling and ETW events that were inserted into the application.  

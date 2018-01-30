@@ -16,7 +16,9 @@ ms.assetid: 9d5465c7-f862-47a7-b249-4116605075a6
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # marker_series::write_alert Method
 Writes an alert to the Concurrency Visualizer trace file.  

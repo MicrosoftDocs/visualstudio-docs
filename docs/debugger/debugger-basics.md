@@ -21,17 +21,15 @@ ms.assetid: 4da42a10-384d-44d7-b4dc-032202ff784b
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugger Basics
 The Visual Studio debugger allows you to observe the run-time behavior of your program and locate logic errors. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution to step through your code and evaluate variables in your application.  
   
-## In This Section  
  [Get Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
  Explains how to use debugger features to debug your applications.  
-
- [Watch a video on the Debugger](../debugger/getting-started-with-the-debugger.md#video)  
- Shows how to use debugger features to debug your applications.
   
  [Navigate through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
  Describes how to step through code with the debugger.  

@@ -19,7 +19,9 @@ ms.assetid: 513c6174-071d-48a4-9e25-04debbb63e5c
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Functions View
 The Functions view lists the functions that are called during profiling.  

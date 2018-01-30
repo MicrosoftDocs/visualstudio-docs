@@ -16,7 +16,9 @@ ms.assetid: 124f86e2-6f66-4541-87c3-799f435b731e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_arrayIndexTypeId
 Retrieves the array index type identifier of the symbol.  

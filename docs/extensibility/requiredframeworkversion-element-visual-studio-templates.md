@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "RequiredFrameworkVersion (Visual Studio Templates)"
 ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # RequiredFrameworkVersion Element (Visual Studio Templates)
 Specifies the minimum .NET Framework version that is required by the template.Schema Hierarchy.  

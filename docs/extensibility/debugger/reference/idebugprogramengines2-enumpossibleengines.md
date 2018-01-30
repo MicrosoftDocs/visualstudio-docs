@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.  

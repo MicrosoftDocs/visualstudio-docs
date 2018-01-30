@@ -12,7 +12,9 @@ ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 caps.latest.revision: 60
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Diagnose problems after deployment
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.  

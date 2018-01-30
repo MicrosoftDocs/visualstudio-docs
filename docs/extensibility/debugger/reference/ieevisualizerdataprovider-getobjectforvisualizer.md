@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEEVisualizerDataProvider::GetObjectForVisualizer method"
 ms.assetid: bd5376fc-13b4-40b7-9a5d-7ba8289f1b24
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerDataProvider::GetObjectForVisualizer
 This method gets the object that this visualizer represents.  

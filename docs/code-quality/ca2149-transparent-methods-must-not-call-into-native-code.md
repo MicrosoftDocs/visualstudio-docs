@@ -14,7 +14,9 @@ ms.assetid: 28951bd7-f3db-4871-99aa-bad68d1ead80
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # CA2149: Transparent methods must not call into native code
 |||  

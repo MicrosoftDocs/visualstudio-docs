@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugErrorBreakpoints2"
 ms.assetid: ffdad73d-969a-45ef-9ad1-7f5d3b814018
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugErrorBreakpoints2
 This interface enumerates the error breakpoints associated with a pending breakpoint.  

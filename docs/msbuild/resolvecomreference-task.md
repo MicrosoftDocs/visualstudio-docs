@@ -22,7 +22,9 @@ ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 caps.latest.revision: 26
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveComReference Task
 Takes a list of one or more type library names or .tlb files and resolves those type libraries to locations on disk.  

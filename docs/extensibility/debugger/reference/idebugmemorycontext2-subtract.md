@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::Subtract method"
 ms.assetid: 63df14c7-8d7e-47c1-afa7-5a1ab5d8eaba
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryContext2::Subtract
 Subtracts the specified value from the current context and returns a new context.  

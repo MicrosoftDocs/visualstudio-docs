@@ -17,7 +17,9 @@ ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # New File Command
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.  

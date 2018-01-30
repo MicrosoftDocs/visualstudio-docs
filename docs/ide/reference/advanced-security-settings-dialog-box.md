@@ -16,7 +16,9 @@ ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
 caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Advanced Security Settings Dialog Box
 This dialog box allows you to specify security settings related to debugging in zone.  

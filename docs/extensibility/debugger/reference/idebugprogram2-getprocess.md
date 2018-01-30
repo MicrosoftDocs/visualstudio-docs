@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgram2::GetProcess"
 ms.assetid: 1d602485-ebaf-451c-9165-f2e226f20a90
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::GetProcess
 Get the process that this program is running in.  

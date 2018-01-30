@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "expression evaluation, Watch window expressions"
 ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Evaluating a Watch Window Expression
 > [!IMPORTANT]

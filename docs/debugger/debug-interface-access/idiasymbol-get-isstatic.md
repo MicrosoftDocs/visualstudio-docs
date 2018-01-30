@@ -16,7 +16,9 @@ ms.assetid: 3be5fe1b-46e8-4b07-90d8-4929dbbe7ff7
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isStatic
 Retrieves a flag that specifies whether the function or thunk layer has been marked as static.  

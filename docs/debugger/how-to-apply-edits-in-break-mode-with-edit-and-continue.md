@@ -26,7 +26,9 @@ ms.assetid: 1eef7498-6a1f-4fba-8146-510adc6375c9
 caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Apply Edits in Break Mode with Edit and Continue
 You can use Edit and Continue to edit your code in Break mode, and then continue without stopping and restarting execution.  

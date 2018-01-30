@@ -8,6 +8,8 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
 f1_keywords: 
   - "VS.ImmediateWindow"
 helpviewer_keywords: 
@@ -18,7 +20,9 @@ ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Immediate Window
 The **Immediate** window is used to debug and evaluate expressions, execute statements, print variable values, and so forth. It allows you to enter expressions to be evaluated or executed by the development language during debugging. To display the **Immediate** window, open a project for editing, then choose **Windows** from the **Debug** menu and select **Immediate**, or press CTRL+ALT+I.  
@@ -50,7 +54,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
 1.  Copy the following code into a [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] console application:  
   
-    ```  
+    ```vb
     Module Module1  
   
         Sub Main()  
@@ -70,9 +74,9 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
      The **Immediate** window will run `MyFunction` and display `4`.  
   
- If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).  
+If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).  
   
- You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
+You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
   
 ### Design Time Expression Evaluation in Multi-Project Solutions  
  When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.  

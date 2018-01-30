@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEEDataStorage interface"
 ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEDataStorage
 This interface represents an array of bytes.  

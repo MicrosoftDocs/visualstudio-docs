@@ -14,7 +14,9 @@ ms.assetid: fd8fd6b2-1304-4d06-8118-6629666801fb
 caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /? (devenv.exe)
 Displays a message box listing all `devenv` switches, with a brief description of each one.  

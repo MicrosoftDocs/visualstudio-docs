@@ -12,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
+manager: ghogen
 ms.technology: 
   - "vs-acquisition"
+ms.workload: 
+  - "multiple"
 ---
 # Talk to Us
 We're interested in your ideas for improving our products and our documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  

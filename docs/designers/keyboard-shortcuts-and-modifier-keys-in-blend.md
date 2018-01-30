@@ -12,7 +12,9 @@ ms.assetid: f9ec9724-7571-4777-8ff8-d9be012eae8f
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Keyboard shortcuts and modifier keys in Blend
 Keyboard shortcuts can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut. Keyboard shortcuts in [!INCLUDE[blend_first](../debugger/includes/blend_first_md.md)] come in the following two categories:  

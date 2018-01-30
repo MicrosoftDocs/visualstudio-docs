@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugArrayObject method"
 ms.assetid: a1c8e77e-dee1-4748-a516-6ab032a8f54f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayObject
 > [!IMPORTANT]

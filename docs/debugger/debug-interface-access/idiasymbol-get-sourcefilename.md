@@ -16,7 +16,9 @@ ms.assetid: 0f5dce88-829e-4df3-8acd-8d71076ad167
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_sourceFileName
 Retrieves the file name of the compiland source file.  

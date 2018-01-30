@@ -14,7 +14,9 @@ ms.assetid: 95fd5e7a-c637-437e-b369-c864eef733c2
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findSymbolsForAcceleratorPointerTag
 Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.  

@@ -16,7 +16,9 @@ ms.assetid: 6e045045-da8c-4338-9423-81a1ca20c405
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::findChildrenEx
 Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on.  

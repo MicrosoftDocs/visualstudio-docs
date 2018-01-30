@@ -18,7 +18,9 @@ ms.assetid: 77886846-10a2-4585-968a-7eb60ebe07e8
 caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Reliability Warnings
 Reliability warnings support library and application reliability, such as correct memory and thread usage.  

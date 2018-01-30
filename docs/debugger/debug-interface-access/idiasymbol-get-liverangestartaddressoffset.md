@@ -16,7 +16,9 @@ ms.assetid: f5b28914-0a14-4b22-8259-59d7f97ee610
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_liveRangeStartAddressOffset
 Returns the offset part of the starting address of the range in which the local symbol is valid.  

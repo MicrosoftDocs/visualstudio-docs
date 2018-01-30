@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "structures [Visual Studio SDK]"
 ms.assetid: 9ff0a8f8-1ee6-4fdd-8b80-206436ff589b
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Structures and Unions
 The following are structures and unions in the Visual Studio Debugging SDK.  

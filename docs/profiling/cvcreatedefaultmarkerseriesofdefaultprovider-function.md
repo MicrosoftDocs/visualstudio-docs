@@ -16,7 +16,9 @@ ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
 caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 Creates default marker series of a default provider.  

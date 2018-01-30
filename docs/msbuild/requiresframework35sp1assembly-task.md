@@ -20,7 +20,9 @@ ms.assetid: 755c018a-8a8b-4c94-8aee-3f171fc419e5
 caps.latest.revision: 6
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # RequiresFramework35SP1Assembly Task
 Determines whether the application requires the .NET Framework 3.5 SP1.  

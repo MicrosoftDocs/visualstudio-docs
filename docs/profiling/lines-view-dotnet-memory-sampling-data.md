@@ -14,7 +14,9 @@ ms.assetid: 6631ab87-0e62-4c76-a063-4ea7222b07da
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Lines View - .NET Memory Sampling Data
 The Lines view for .NET memory allocation profiling data that uses the sampling method lists the statements that allocated memory during the profiling run. The columns also include the size and number of allocations.  

@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Persisting the Property of a Project Item
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  

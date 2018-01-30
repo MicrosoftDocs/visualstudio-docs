@@ -14,7 +14,9 @@ ms.assetid: 1886e3ec-b227-4187-8d93-c5144b4b77ae
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_numberOfAcceleratorPointerTags
 Returns the number of accelerator pointer tags in a C++ AMP stub function.  

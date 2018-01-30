@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::SetHitCount method"
 ms.assetid: 8145d875-26b1-4049-a2a2-e7d3d7f4735f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::SetHitCount
 Sets the hit count for the bound breakpoint.  

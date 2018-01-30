@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProcess3::Continue"
 ms.assetid: 57506242-5763-4c08-adb9-8a78ce02cebb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::Continue
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.  

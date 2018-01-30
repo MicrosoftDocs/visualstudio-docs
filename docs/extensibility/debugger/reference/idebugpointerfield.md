@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPointerField interface"
 ms.assetid: d51bd5b2-f18e-4e27-b4fb-e6f652fbf635
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPointerField
 This interface represents a pointer type.  

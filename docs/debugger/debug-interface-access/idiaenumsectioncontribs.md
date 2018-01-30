@@ -16,7 +16,9 @@ ms.assetid: 0d6c0632-310f-4a99-8921-58149a1817e3
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSectionContribs
 Enumerates the various section contributions contained in the data source.  

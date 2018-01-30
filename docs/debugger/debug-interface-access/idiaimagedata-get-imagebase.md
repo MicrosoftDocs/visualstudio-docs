@@ -16,7 +16,9 @@ ms.assetid: 4ba3d9e4-b205-4ee6-a41d-6996972f1f85
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaImageData::get_imageBase
 Retrieves the memory location where the image should be based.  

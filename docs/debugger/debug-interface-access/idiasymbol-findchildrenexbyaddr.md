@@ -16,7 +16,9 @@ ms.assetid: c1e7885d-2d15-4529-9ac2-32dd22efe31c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::findChildrenExByAddr
 Retrieves the children of the symbol that are valid at a specified address.  

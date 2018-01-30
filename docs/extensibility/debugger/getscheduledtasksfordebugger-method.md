@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # GetScheduledTasksForDebugger Method
 Retrieves an array of all scheduled tasks.  

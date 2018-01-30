@@ -12,7 +12,9 @@ ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
 caps.latest.revision: 23
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Glossary
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  

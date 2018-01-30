@@ -16,8 +16,11 @@ helpviewer_keywords:
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SDK Helpers for Debugging
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  

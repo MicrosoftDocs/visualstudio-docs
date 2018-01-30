@@ -12,7 +12,9 @@ ms.assetid: e45c7903-f945-495d-b43b-11cdd09052aa
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Filter Profiling Tools Report Views to Display Just My Code
 Visual Studio 2010 Premium provides filtering for performance reports so that they display only code that you have implemented. This feature, which is named Just My Code, is enabled by default. It is configured through the **Just My Code** option in the **Options** dialog box.  

@@ -16,7 +16,9 @@ ms.assetid: a91e9c8e-c5e3-4887-a60b-f03b5a98f30c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_allocatesBasePointer
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumCodePaths2::GetCount"
 ms.assetid: 988c5092-fcc5-43a1-a94c-c261edd56ebf
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumCodePaths2::GetCount
 Returns the number of elements in the enumeration.  

@@ -17,7 +17,9 @@ ms.assetid: a41166d7-e03e-42ef-862e-dd025ef600b6
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # More Debugging Features
 This section contains additional features that you can use with the Visual Studio debugger.  
@@ -43,7 +45,7 @@ This section contains additional features that you can use with the Visual Studi
  [Edit and Continue](../debugger/edit-and-continue.md)  
  Describes Edit and Continue, a tool that enables you to change your source code while your program is in break mode and apply those changes without having to end the debug session and build your program again, and provides instructions on enabling or disabling this feature.  
   
- [Using Dump Files](../debugger/using-dump-files.md)
+ [Using Dump Files](../debugger/using-dump-files.md)  
  Describes dump files, including instructions on saving and opening. Dump files contain a snapshot of your program's state at some point in time, usually after a crash. If you test your program on a machine that does not have source files or PDBs installed, you can save a dump file when a crash occurs and use the dump file to debug the crash on the build machine that has the source files and PDBs. 
   
  [How to: Restore Hidden Debugger Commands](../debugger/how-to-restore-hidden-debugger-commands.md)  

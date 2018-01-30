@@ -20,7 +20,9 @@ ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
 caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CombinePath Task
 Combines the specified paths into a single path.  

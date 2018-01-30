@@ -16,7 +16,9 @@ ms.assetid: f9ccf7a6-46e7-4a1d-9d5c-97272e17bbbb
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_code
 Retrieves a flag that indicates whether the section contains executable code.  

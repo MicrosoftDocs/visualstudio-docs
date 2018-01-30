@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProperty2::GetReference method"
 ms.assetid: 2fa97d9b-c3d7-478e-ba5a-a933f40a0103
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2::GetReference
 Returns a reference to the property's value.  

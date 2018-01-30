@@ -16,7 +16,9 @@ ms.assetid: 546e2e23-efb2-425a-96a1-808c67c519fb
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumFrameData::Next
 Retrieves a specified number of frame data elements in the enumeration sequence.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugThread2::SetThreadName"
 ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThread2::SetThreadName
 Sets the name of the thread.  

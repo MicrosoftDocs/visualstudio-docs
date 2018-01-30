@@ -17,7 +17,9 @@ ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Add New Item Command
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  

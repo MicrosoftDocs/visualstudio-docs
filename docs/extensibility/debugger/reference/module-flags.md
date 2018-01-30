@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "MODULE_FLAGS enumeration"
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # MODULE_FLAGS
 Used to describe a module.  

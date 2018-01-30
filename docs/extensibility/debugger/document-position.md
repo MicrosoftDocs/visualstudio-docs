@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], contexts"
 ms.assetid: b59d739c-7572-427f-a70d-4e5df63d02c1
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Document Position
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a **document position**:  

@@ -15,7 +15,9 @@ ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options Page, Environment Node Properties
 This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.  
@@ -67,7 +69,7 @@ This document describes the pages (or properties collections) that are associate
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  
 |EnableAdminExtensions|Get/Set (Boolean)|Loads per-user extensions when Visual Studio is run under Administrator credentials. Visual Studio must be restarted after this value is changed.|  
-|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Gallery.|  
+|EnableOnline|Get/Set (Boolean)|Enables access to extensions on the Visual Studio Marketplace.|  
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|Automatically checks for updates to installed extensions.|  
   
 ## Find and Replace  

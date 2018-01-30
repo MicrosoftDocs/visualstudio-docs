@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugContainerField interface"
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugContainerField
 This interface represents a symbol or type that is a container for other symbols or types.  

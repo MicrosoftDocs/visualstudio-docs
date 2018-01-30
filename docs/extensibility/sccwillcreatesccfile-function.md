@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "SccWillCreateSccFile function"
 ms.assetid: 0d7542f0-4351-41b3-b24c-960ab99c05a1
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccWillCreateSccFile Function
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.  

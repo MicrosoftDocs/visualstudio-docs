@@ -16,7 +16,9 @@ ms.assetid: a5cb8927-23c6-469e-8f78-f2787d85dba4
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSourceFile::get_fileName
 Retrieves the source file name.  

@@ -16,7 +16,9 @@ ms.assetid: e6467529-508c-4328-85d7-89444ae4d1c1
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaAddressMap
 Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.  

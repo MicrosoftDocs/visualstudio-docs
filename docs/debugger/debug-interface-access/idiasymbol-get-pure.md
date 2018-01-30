@@ -16,7 +16,9 @@ ms.assetid: b61107e9-9144-4981-b7ef-58a339b80c58
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_pure
 Retrieves a flag that specifies whether the function is pure virtual.  

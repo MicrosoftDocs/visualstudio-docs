@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugPrograms2::Clone"
 ms.assetid: 880846c2-39d3-45cd-85c3-ad5409a3710f
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPrograms2::Clone
 Returns a copy of the current enumeration as a separate object.  

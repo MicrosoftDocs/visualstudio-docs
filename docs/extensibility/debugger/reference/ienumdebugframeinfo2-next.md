@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Next"
 ms.assetid: 64a64eeb-5dea-4119-8a22-03771015d1e5
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugFrameInfo2::Next
 Returns the next set of elements from the enumeration.  

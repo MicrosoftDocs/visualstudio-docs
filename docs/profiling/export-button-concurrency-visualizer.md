@@ -16,7 +16,9 @@ ms.assetid: 68550095-8a69-48ee-bb7e-eb5504810578
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Export Button (Concurrency Visualizer)
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  

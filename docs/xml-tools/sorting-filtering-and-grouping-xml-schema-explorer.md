@@ -12,7 +12,9 @@ ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Sorting, Filtering, and Grouping (XML Schema Explorer)
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the XML Schema Explorer toolbar.  

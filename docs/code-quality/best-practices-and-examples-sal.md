@@ -10,9 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 666276fb-99c2-4dc9-8bac-d74861c203ea
 caps.latest.revision: 12
-author: "corob-msft"
-ms.author: "corob"
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Best Practices and Examples (SAL)
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  

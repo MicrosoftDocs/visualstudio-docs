@@ -16,7 +16,9 @@ ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CV_call_e
 Specifies the calling convention for a function.  

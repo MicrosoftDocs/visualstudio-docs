@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "GetModOpts"
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModOpt::GetModOpts
 Retrieves a list of optional modifiers.  

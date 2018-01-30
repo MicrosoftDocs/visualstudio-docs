@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "source control packages, design elements"
 ms.assetid: edd3f2ff-ca32-4465-8ace-4330493b67bb
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Source Control VSPackage Design Elements
 The topics in this section outline the structure the source control VSPackage must implement for deep integration. It also lists the interfaces and services that the source control VSPackage can implement, and the interfaces and services the source control VSPackage can use from other [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] components to support its source control model and functionality.  

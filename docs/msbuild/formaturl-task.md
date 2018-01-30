@@ -20,7 +20,9 @@ ms.assetid: 81114b67-520f-43b5-8891-224f68a78516
 caps.latest.revision: 5
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FormatUrl Task
 Converts a URL to a correct URL format.  

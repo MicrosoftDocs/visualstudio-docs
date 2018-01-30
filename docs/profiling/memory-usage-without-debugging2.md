@@ -13,13 +13,14 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Memory Usage without the Debugger
+# Analyze Memory Usage without the Visual Studio Debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
@@ -28,7 +29,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 -   Compare snapshots to find the root cause of memory issues.  
   
- This topic describes how use the Memory Usage tool to analyze a Windows Universal XAML app. If you want to analyze memory use in Windows Universal apps that use JavaScript and HTML, see [Analyze memory usage (JavaScript)](http://msdn.microsoft.com/library/windows/apps/jj819176.aspx).  
+ This topic describes how use the Memory Usage tool to analyze a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).  
   
 ##  <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> Start a Memory Usage diagnostic session  
   
@@ -199,8 +200,8 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
 ## See Also  
- [JavaScript Memory](../profiling/javascript-memory.md)
- [Profiling in Visual Studio](../profiling/index.md)
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
- [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
+ [JavaScript Memory](../profiling/javascript-memory.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)  
+ [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

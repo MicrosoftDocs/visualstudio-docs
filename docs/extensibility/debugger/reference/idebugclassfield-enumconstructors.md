@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugClassField::EnumConstructors method"
 ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugClassField::EnumConstructors
 Creates an enumerator for the constructors for this class.  

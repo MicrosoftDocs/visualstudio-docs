@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DEBUG_REFERENCE_INFO structure"
 ms.assetid: 24b83d00-d756-42a1-8083-730f998761dc
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DEBUG_REFERENCE_INFO
 Describes a reference.  

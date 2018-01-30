@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramDestroyEvent2"
 ms.assetid: ddf127ca-c4a5-4071-90ca-68faf2f57dbd
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramDestroyEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program has run to completion.  

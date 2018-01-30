@@ -16,7 +16,9 @@ ms.assetid: b6a573a1-3671-4c1c-a5c2-2ab8f07fd510
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSegment::get_relativeVirtualAddress
 Retrieves the relative virtual address (RVA) of the beginning of the section.  

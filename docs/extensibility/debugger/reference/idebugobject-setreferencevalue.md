@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugObject::SetReferenceValue method"
 ms.assetid: 08c78a4e-98eb-41cb-8b75-02a6a43d49f7
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject::SetReferenceValue
 Sets the reference value of this object.  

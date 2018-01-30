@@ -13,7 +13,9 @@ ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Performance Tips and Tricks
 
@@ -28,19 +30,11 @@ Visual Studio performance recommendations are intended for low memory situations
 
     If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
 
-    For more information, see [Memory limits](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Using /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+    For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Using /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Configure solution and projects
 
 If you have a very large solution with many projects, you may benefit by making the following optimizations:
-
-- **Enable Lightweight Solution Load**
-
-    Using **Lightweight Solution Load** may improve memory and CPU performance by deferring the load of some projects within your solution. You can also enable this feature per-solution. This option is off by default.
-
-    To enable **Lightweight Solution Load**, choose **Tools > Options > Projects and Solutions > Lightweight Solution Load**.
-
-    Some IDE features are not enabled in this mode. To determine whether this choice may help, see [Shorter solution load time](https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/) and [Optimize solution loading](../ide/optimize-solution-loading-in-visual-studio).
 
 - **Unload Projects**
 
@@ -51,6 +45,7 @@ If you have a very large solution with many projects, you may benefit by making 
     You can split your solution into several smaller solution files with commonly used projects. This refactoring should significantly reduce memory usage for your workflow. Smaller solutions also load faster.
 
 ## Configure debugging options
+
 If you are typically running low on memory during debugging sessions, you can optimize performance by making one or more configuration changes.
 
 - **Enable Just My Code**
@@ -75,9 +70,10 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the Diagnostic Tools, start a debugging session, choose **Tools > Options > Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools).
+    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
 
 ## Disable tools and extensions
+
 Some tools or extensions may to turned off to improve performance.
 
 > [!TIP]
@@ -127,7 +123,8 @@ To force a garbage collection, use the hotkey: **Ctrl+Alt+Shift+F12**, **Ctrl+Al
 
 If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
 
-For a detailed description of the CLR garbage collector, see [Fundamental of Garbage Collection](https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx).
+For a detailed description of the CLR garbage collector, see [Fundamental of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals).
 
-## See Also  
- [Visual Studio IDE](../ide/index.md)
+## See also
+
+[Visual Studio IDE](../ide/visual-studio-ide.md)

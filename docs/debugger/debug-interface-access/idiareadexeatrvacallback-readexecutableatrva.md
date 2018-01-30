@@ -16,7 +16,9 @@ ms.assetid: 3c1e965f-8f05-41a8-86d8-01830b2377c9
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaReadExeAtRVACallback::ReadExecutableAtRVA
 Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file.  

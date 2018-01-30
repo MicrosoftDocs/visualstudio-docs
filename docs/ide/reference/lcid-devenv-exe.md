@@ -20,7 +20,9 @@ ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /LCID (devenv.exe)
 Sets the default language used for text, currency, and other values within the integrated development environment (IDE).  

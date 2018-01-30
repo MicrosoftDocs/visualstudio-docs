@@ -16,7 +16,9 @@ ms.assetid: 9fece9c7-064a-4d6b-9cef-fc387f322205
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSegment::get_frame
 Retrieves the segment number.  

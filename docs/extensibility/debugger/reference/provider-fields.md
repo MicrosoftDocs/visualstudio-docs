@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "PROVIDER_FIELDS enumeration"
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PROVIDER_FIELDS
 Specifies properties associated with a program provider.  

@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugPortEvents2::Event"
 ms.assetid: 5cc813f7-04a1-4462-9ea7-fbddcf0e0143
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortEvents2::Event
 This method sends events that signify the creation and destruction of processes and programs on a port.  

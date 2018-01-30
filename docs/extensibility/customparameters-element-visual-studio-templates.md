@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "CustomParameters element [Visual Studio project templates]"
 ms.assetid: cf3efc91-1532-4022-bbb8-a18658424fee
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CustomParameters Element (Visual Studio Templates)
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.  

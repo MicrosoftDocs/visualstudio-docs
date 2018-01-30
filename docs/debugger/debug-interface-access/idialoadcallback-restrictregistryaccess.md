@@ -16,7 +16,9 @@ ms.assetid: de4760c3-a746-4bab-8065-1388fed31b67
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback::RestrictRegistryAccess
 Determines if registry queries can be used to locate symbol search paths.  

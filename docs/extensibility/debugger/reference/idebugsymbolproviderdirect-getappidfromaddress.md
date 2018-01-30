@@ -13,8 +13,11 @@ helpviewer_keywords:
   - "GetAppIDFromAddress"
 ms.assetid: d76a0f36-79c4-4c58-9db3-880b00d11610
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
 Retrieves the application domain identifier given the debug address.  

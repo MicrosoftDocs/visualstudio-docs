@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IEEVisualizerDataProvider interface"
 ms.assetid: 5fdfe6e3-b94e-4edb-acc5-41d8773d8ca5
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerDataProvider
 > [!IMPORTANT]

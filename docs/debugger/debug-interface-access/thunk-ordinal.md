@@ -16,7 +16,9 @@ ms.assetid: 026f98a9-36b8-41ef-8a72-12d7cbc2d362
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # THUNK_ORDINAL
 Designates thunk types.  

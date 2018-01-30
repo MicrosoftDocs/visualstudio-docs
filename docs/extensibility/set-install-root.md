@@ -12,7 +12,9 @@ ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Installing outside the extensions folder
 

@@ -15,8 +15,11 @@ helpviewer_keywords:
   - "References element [Visual Studio Templates]"
 ms.assetid: 1969146d-46bf-422d-8d46-0e9493925003
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # References Element (Visual Studio Templates)
 Groups the assembly references that the template adds to projects.  

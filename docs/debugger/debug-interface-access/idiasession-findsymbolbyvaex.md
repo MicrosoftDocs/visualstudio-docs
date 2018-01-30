@@ -16,7 +16,9 @@ ms.assetid: 11c685f6-cda2-4474-a432-214ecaae4ffa
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findSymbolByVAEx
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address (VA) and offset.  

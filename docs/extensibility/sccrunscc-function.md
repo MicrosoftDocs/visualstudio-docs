@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "SccRunScc function"
 ms.assetid: bbe7c931-b17a-4779-9cf6-59e5f9f0c172
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccRunScc Function
 This function invokes the source control administration tool.  

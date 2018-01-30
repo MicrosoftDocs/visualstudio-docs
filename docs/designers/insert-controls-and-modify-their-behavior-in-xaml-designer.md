@@ -12,7 +12,9 @@ ms.assetid: a80fff74-bf01-41c9-ab85-ada7a873c3a9
 caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Insert controls and modify their behavior in XAML Designer
 Controls enable users to interact with your app. You can use them to collect information and to perform actions such as animate an object or query a data source.  

@@ -12,7 +12,9 @@ ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68
 caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Basic Lambert Shader
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a lighting shader that implements the classic Lambert lighting model.  

@@ -18,7 +18,9 @@ ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
 caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Toggle Breakpoint Command
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.  

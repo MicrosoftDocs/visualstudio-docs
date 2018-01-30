@@ -16,7 +16,9 @@ ms.assetid: dff1c1eb-bcb2-4275-bb07-f2fdc076d6fb
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_platform
 Retrieves the platform type for which the compiland was compiled.  

@@ -15,7 +15,9 @@ ms.assetid: e6fda144-f21d-4912-9d16-1b8d3555a210
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Comparing Performance Data Files
 Profiling Tools data files comparison functionality allows you to select two report files (.VSP /or .VSPS) files and generate a report that shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  

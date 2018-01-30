@@ -15,7 +15,9 @@ ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Element (XElement Dynamic Property)
 Gets an indexer used to retrieve the child element instance that corresponds to the specified expanded name.  

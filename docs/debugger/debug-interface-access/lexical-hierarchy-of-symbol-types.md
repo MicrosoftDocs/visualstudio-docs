@@ -16,7 +16,9 @@ ms.assetid: 912da653-ddfe-45a4-84aa-64281283739a
 caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Lexical Hierarchy of Symbol Types
 The following table shows the symbol types in the lexical hierarchy.  

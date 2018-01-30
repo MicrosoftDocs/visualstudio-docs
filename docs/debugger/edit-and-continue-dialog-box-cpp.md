@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.ENC.failed.commit"
   - "vs.debug.ENC.failed.build"
@@ -23,7 +23,9 @@ ms.assetid: 624d9649-5946-4298-a138-70773b72e810
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Edit and Continue Dialog Box (C++)
 Edit and Continue could not apply the changes you made to your native code. This may be a temporary condition. Sometimes Edit and Continue cannot apply native code changes immediately, but can apply them later during the debugging session (for example, after completion of the current call to the procedure now executing). For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  

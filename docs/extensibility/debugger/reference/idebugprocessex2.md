@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugProcessEx2 interface"
 ms.assetid: 44e309ba-1d6f-499b-aa7e-9b34858a6d57
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessEx2
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.  

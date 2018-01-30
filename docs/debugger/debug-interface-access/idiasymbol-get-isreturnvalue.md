@@ -14,7 +14,9 @@ ms.assetid: 37aaf48a-65cb-4ec2-823e-1c637a9f939c
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isReturnValue
 Specifies whether the variable carries a return value.  

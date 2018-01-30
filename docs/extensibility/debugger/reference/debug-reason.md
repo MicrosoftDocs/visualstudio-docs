@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DEBUG_REASON enumeration"
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DEBUG_REASON
 Specifies why the process was launched for debugging.  

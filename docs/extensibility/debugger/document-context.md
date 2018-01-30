@@ -12,8 +12,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], contexts"
 ms.assetid: 8e8b5702-5c16-4988-953d-69dd807d8b84
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Document Context
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a **document context**:  

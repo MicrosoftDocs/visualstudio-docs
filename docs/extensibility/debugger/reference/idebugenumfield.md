@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "IDebugEnumField interface"
 ms.assetid: 42f685bf-0f39-47f4-98b0-6022efe2bf97
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEnumField
 This interface represents an enumeration type.  

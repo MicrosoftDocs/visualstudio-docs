@@ -12,7 +12,9 @@ ms.assetid: 7394cef0-55e9-4e90-bc2e-118ed4b78fb0
 caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XAttribute Class Dynamic Properties
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>.  

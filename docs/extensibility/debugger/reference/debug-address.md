@@ -14,8 +14,11 @@ helpviewer_keywords:
   - "DEBUG_ADDRESS structure"
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DEBUG_ADDRESS
 This structure represents an address.  
