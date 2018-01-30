@@ -85,7 +85,7 @@ and the alternatives for Team Foundation Server (TFS) 2015 and Team Services (TS
 | Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and TS |
 | --- | --- |
 | Build-Deploy-Test workflow in Visual Studio | Users can use a [build definition](https://www.visualstudio.com/team-services/continuous-integration/) (not a XAML build) for build, deploy, and test scenarios in TFS. |
-| Load testing (performance testing) using on-premises remote machines | Use Test Controller/Test Agents 2013 Update 5 to run load tests on-premises. [More information](https://msdn.microsoft.com/en-us/library/ff400223.aspx). |
+| Load testing (performance testing) using on-premises remote machines | Use Test Controller/Test Agents 2013 Update 5 to run load tests on-premises. [More information](https://msdn.microsoft.com/library/ff400223.aspx). |
 | Remote execution of automated tests from Microsoft Test Manager using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
 | Developers executing remote tests in Visual Studio | No longer supported. |
 
