@@ -8,7 +8,7 @@ If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickl
 dotnet new mvc --name webfrontend
 ```
 
-Alternatively, **download code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select 'Clone or Download' to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
+Alternatively, **download code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
 
 ## Initialize Code for Docker and Kubernetes Development
 So far, we have a basic ASP.NET Core MVP web app - we'll now containerize it by creating assets that define the app's container and how it will deploy to Kubernetes. This is easy to do with Connected Environment: 
@@ -59,17 +59,24 @@ Open this URL in a browser window - or better yet, from a mobile device - and yo
 ## Update a Content File
 Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively seeing your code changes take affect in a Kubernetes environment in the cloud.
 
-1. Locate the file `./Views/Home/Index.cshtml` and make an edit to the HTML. For example, change line 70 that reads `<h2>Application uses</h2>` to something like: `<h2>Hello Azure!</h2>`
+1. Locate the file `./Views/Home/Index.cshtml` and make an edit to the HTML. For example, change line 70 that reads `<h2>Application uses</h2>` to something like: `<h2>Hello k8s in Azure!</h2>`
 1. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
 1. Go to your browser and refresh the page. You should see the web page display the updated HTML.
 
-What happened? Edits to content files, like HTML and CSS, don't require re-compilation in a .NET Core web app, so an active `vsce up` command will automatically sync any modified content files into the running container in Azure, thereby providing a fast way to see your changes as you code.
+What happened? Edits to content files, like HTML and CSS, don't require re-compilation in a .NET Core web app, so an active `vsce up` command will automatically sync any modified content files into the running container in Azure, thereby providing a fast way to see your content edits.
 
 ## Update a Code File
-Updating code files requires a little more work, because a .NET Core app needs to build again and produce updated application binaries. The simplest method from the command-line is to hit `Ctrl+C` in the terminal window (to stop `vsce up`), edit code, and then re-run `vsce up`. This rebuilds the container image and redeploys it. You will now be able to see your code changes take effect in the running application.
+Updating code files requires a little more work, because a .NET Core app needs to rebuild and produce updated application binaries. The simplest method from the command-line is to stop and re-run `vsce up`.
+
+1. In the terminal window, press `Ctrl+C` (to stop `vsce up`).
+1. Open the code file named `Controllers/HomeController.cs`, and edit the message that the Contact page will display: `ViewData["Message"] = "Your application description page.";`
+1. Save the file.
+1. Run  `vsce up` in the terminal window. 
+
+This rebuilds the container image and redeploys the Helm chart. To see your code changes take effect in the running application, navigate to the About menu in the web app.
 
 
-But there is an even faster method if we use the VS Code extension for Connected Environment, which we'll now explore in the next section. 
+But there is a *faster method* even for code edits, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
 > [Debugging a container in Kubernetes](get-started-netcore-04.md)
 

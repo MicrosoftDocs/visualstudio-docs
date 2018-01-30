@@ -24,16 +24,30 @@ git clone https://github.com/johnsta/mywebapi
 ## Make a Request From 'webfrontend' to 'mywebapi'
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
-1. **TODO**: Write code in `webfrontend` that makes a POST request to `mywebapi`. Code will look something like:
+1. *Replace* the code for the About method:
 
 ```
-using (var client = new HttpClient())
+public async Task<IActionResult> About()
 {
-    string content = "newvalue";
-    HeaderPropagation.PropagateHeaders(this.Request, content);
-    content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-    var response = await client.PostAsync("http://mywebapi/api/values", content);
-    result = await response.Content.ReadAsStringAsync();
+    ViewData["Message"] = "The result from mywebapi is: ";
+    
+    using (var client = new System.Net.Http.HttpClient())
+        {
+            // Create a GET request, configured to call http://mywebapi/api/values/1
+            var outgoing = new System.Net.Http.HttpRequestMessage(System.Net.Http.HttpMethod.Get, "http://mywebapi/api/values/1");
+            outgoing.Content = new System.Net.Http.StringContent(String.Empty);
+            
+            // Propagate headers from the incoming request to the outgoing request
+            webfrontend.Helpers.HeaderPropagation.PropagateHeaders(this.Request, outgoing.Content);
+            // outgoing.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            // Call mywebapi, and display mywebapi's response in the page
+            var response = await client.SendAsync(outgoing);
+            var result = await response.Content.ReadAsStringAsync();
+            ViewData["Message"] += result;
+        }
+
+    return View();
 }
 ```
 
@@ -73,8 +87,8 @@ namespace webfrontend.Helpers
 
 ## Debug Across Multiple Services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
-1. Set a breakpoint in `mywebapi` that handles the `api/values` POST.
-1. In the `webfrontend` project, set a breakpoint just before it sends a POST request to `mywebapi/api/values`.
+1. Set a breakpoint in `mywebapi` that handles the `api/values/1` GET request.
+1. In the `webfrontend` project, set a breakpoint just before it sends a GET request to `mywebapi/api/values`.
 1. Hit F5 in the `webfrontend` project.
 1. Invoke the web app, and step through code in both services.
 

@@ -2,14 +2,14 @@
 
 Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 
-In this section, we'll use VS Code to directly debug our containers running in Azure (be sure to have installed the [VS Code extension for Conneced Environment](get-started-netcore-01.md#get-kubernetes-debugging-tools)). We'll also learn how to make our edit-run-test loop even faster. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
+In this section, we'll use VS Code to directly debug our container running in Azure (be sure to have installed the [VS Code extension for Conneced Environment](get-started-netcore-01.md#get-kubernetes-debugging-tools)). We'll also learn how to make our edit-run-test loop even faster. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
 
 ## Initialize Debug Assets with the VS Code Extension
 The VS Code extension for Connected Environment provides a helper command to set up debug configuration. 
 
 Open the **Command Palette** (using the **View | Command Palette** menu), and use auto-complete to type and select this command: `Connected Environment: Generate Assets for Build and Debug`. 
 
-This adds debug configuration under the `.vscode` folder for Connected Environment.
+This adds debug configuration for Connected Environment under the `.vscode` folder.
 
 ![](media/vsce-command-palette.png)
 
@@ -18,13 +18,15 @@ This adds debug configuration under the `.vscode` folder for Connected Environme
 
 
 ## Select the VSCE Debug Configuration
-1. To bring up the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
+1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
 1. Select **.NET Core Launch (VSCE)** as the active debug configuration.
 
 ![](media/debugconfiguration.png)
 
 ## Debug the Container in Kubernetes
-Hit **F5** to begin debugging. As with the `up` command, code is synced to the development environment, a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container for you to hit breakpoints and step through code.
+Hit **F5** to debug your code in Kubernetes!
+
+As with the `up` command, code is synced to the development environment, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
 
 Set a breakpoint in a server-side code file, for example within the `Index()` function in the `Controllers/HomeController.cs` source file. Refreshing the browser page causes the breakpoint to hit.
 
