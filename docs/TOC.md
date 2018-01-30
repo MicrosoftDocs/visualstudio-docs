@@ -39,6 +39,7 @@
 ### Reference
 #### [Visual Studio workload and component IDs](install/workload-and-component-ids.md)
 #### [Visual Studio build numbers and release dates](install/visual-studio-build-numbers-and-release-dates.md)
+## [Use Visual Studio from an Azure virtual machine](install/using-visual-studio-vm.md)
 ## [Install Build Tools into a Container](install/build-tools-container.md)
 ### [Advanced Example for Containers](install/advanced-build-tools-container.md)
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
