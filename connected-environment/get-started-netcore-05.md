@@ -22,7 +22,7 @@ Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. *Replace* the code for the About method:
 
-```
+```csharp
 public async Task<IActionResult> About()
 {
     ViewData["Message"] = "Hello from webfrontend";
@@ -47,7 +47,7 @@ Next, let's add the helper class `HeaderPropagatingHttpClient` that we reference
 1. Create a file named HeaderPropagation.cs in the `webfrontend` project.
 1. Paste the following code:
 
-```
+```csharp
 using System;
 using System.Net.Http;
 using System.Threading;

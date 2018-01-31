@@ -35,7 +35,7 @@ You have full access to debug information just like you would if the code was ex
 ## Edit and Refresh
 With the debugger active, make a code edit; for example, modify the About page's message in `Controllers/HomeController.cs`. 
 
-```
+```csharp
 public IActionResult About()
 {
     ViewData["Message"] = "My custom message in the About page.";

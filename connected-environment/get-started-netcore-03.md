@@ -4,7 +4,7 @@ Previous step: [Create a Kubernetes Development Environment in Azure](get-starte
 
 ## Create an ASP.NET Core Web App
 If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickly create an ASP.NET Core Web App in a folder named `webfrontend`.
-```
+```cmd
 dotnet new mvc --name webfrontend
 ```
 
@@ -17,7 +17,7 @@ So far, we have a basic ASP.NET Core MVP web app - we'll now containerize it by 
 1. Open the Integrated Terminal in VS Code (using the **View | Integrated Terminal** menu).
 1. Run this command (be sure that **webfrontend** is your current folder):
 
-```
+```cmd
 vsce init --public
 ```
 
@@ -35,7 +35,7 @@ In the [previous section](get-started-netcore-02.md), we kicked off the `vsce en
 ## Build and Run Code in Kubernetes
 Let's run our code! In the terminal window, run this command from the **root code folder**, i.e. webfrontend:
 
-```
+```cmd
 vsce up
 ```
 
