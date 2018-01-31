@@ -32,7 +32,7 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 
 ## SuppressMessage attribute
 
-When you choose **Suppress** from the context or right-click menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppressions file.
+When you choose **Suppress** from the context or right-click menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppression file.
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
@@ -74,7 +74,7 @@ The properties of the attribute include:
 
 ## SuppressMessage usage
 
-Code Analysis warnings are suppressed at the scope to which the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is applied. The purpose of this is to tightly couple the suppression information to the code where the violation occurs.
+Code Analysis warnings are suppressed at the level to which the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is applied. For example, the attribute can be applied at the assembly, module, type, member, or parameter level. The purpose of this is to tightly couple the suppression information to the code where the violation occurs.
 
 The general form of suppression includes the rule category and a rule identifier, which contains an optional human-readable representation of the rule name. For example:
 
@@ -86,18 +86,19 @@ If there are strict performance reasons for minimizing in-source suppression met
 
 For maintainability reasons, omitting the rule name is not recommended.
 
-## Suppressing multiple violations within a method body
+## Suppressing selective violations within a method body
 
-Suppression attributes can be applied to a method, but cannot be embedded within a method body. However, you can specify an identifier in the `MessageID` property of the attribute, to distinguish between multiple occurrences of a violation inside a method.
+Suppression attributes can be applied to a method, but cannot be embedded within a method body. This means that all violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-[!code-cpp[InSourceSuppression#1](../code-quality/codesnippet/CPP/in-source-suppression-overview_1.cpp)]
+In some cases, you might want to suppress a particular instance of the violation, for example so that future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to do this by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, Roslyn analyzers do not respect the `MessageId` property.
+
+To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
 ```vb
 Public Class Animal
     Dim age As Integer
     Dim name As String
 
-    '<CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="name")>
     <CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="age")>
     Sub PrintInfo()
         Dim age As Integer = 5
@@ -115,7 +116,6 @@ public class Animal
     int age;
     string name;
 
-    //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId = "name")]
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId = "age")]
     private void PrintInfo()
     {
@@ -134,7 +134,7 @@ Managed code compilers and some third-party tools generate code to facilitate ra
 You can choose whether to suppress code analysis warnings and errors for generated code. For information about how to suppress such warnings and errors, see [How to: Suppress Warnings for Generated Code](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md).
 
 > [!NOTE]
-> code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
+> Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
 
 ## Global-level suppressions
 
@@ -156,7 +156,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 
 ## Global suppression file
 
-The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project level settings are not available for code behind a form. A global suppression is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
+The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings are not available for code behind a form. A global suppression file is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
 
 ## See also
 
