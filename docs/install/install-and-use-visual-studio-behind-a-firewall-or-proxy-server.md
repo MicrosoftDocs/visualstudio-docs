@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/30/2018"
+ms.date: "02/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -46,23 +46,24 @@ If it's possible for your environment, consider adding the following domains wit
 | *.windows.net | Sign-in location |
 | *.microsoftonline.com | Sign-in location |
 | *.live.com | Sign-in location |
+| vsdrop.corp.microsoft.com <br>vsblobprodscussu1shard20.blob.core.windows.net<br>vsblobprodscussu1shard21.blob.core.windows.net | Updates location for Visual Studio and the Visual Studio Installer |
 
 
 ### Non-Microsoft domains
 | Domain | Installs these workloads |
 | ------ | ------- |
-| archive.apache.org |  Mobile development with JavaScript <br />(Cordova) |
-| cocos2d-x.org | Game development with C++ <br />(Cocos) |
-| download.epicgames.com | Game development with C++ <br />(Unreal Engine) |
-| download.oracle.com | Mobile development with JavaScript <br />(Java SDK) <br /><br />Mobile Development with .NET <br />(Java SDK) |
-| download.unity3d.com | Game development with Unity <br />(Unity) |
-| netstorage.unity3d.com | Game development with Unity <br /> (Unity) |
-| dl.google.com | Mobile development with JavaScript <br />(Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET <br />(Android SDK and NDK, Emulator) |
-| www.incredibuild.com | Game development with C++ <br />(IncrediBuild) |
-| incredibuildvs2017i.azureedge.net | Game development with C++ <br />(IncrediBuild) |
-| www.python.org | Python development <br />(Python) <br /><br />Data science and analytical applications <br />(Python) |
+| archive.apache.org |  Mobile development with JavaScript (Cordova) |
+| cocos2d-x.org | Game development with C++ (Cocos) |
+| download.epicgames.com | Game development with C++ (Unreal Engine) |
+| download.oracle.com | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK) |
+| download.unity3d.com | Game development with Unity (Unity) |
+| netstorage.unity3d.com | Game development with Unity (Unity) |
+| dl.google.com | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
+| www.incredibuild.com | Game development with C++ (IncrediBuild) |
+| incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
+| www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## Use Visual Studio and Azure services in a private network
+## Use Visual Studio or Azure Services in a private network
 When you use Visual Studio or Azure services in a private network, there are some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors

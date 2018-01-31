@@ -2,7 +2,7 @@
 title: "Troubleshooting network errors in Visual Studio | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/30/2018"
+ms.date: "02/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -26,7 +26,7 @@ ms.workload:
 # Troubleshooting network errors in Visual Studio
 Sometimes, thing can go wrong. We're here to help. We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
-## The "Proxy authorization required" error
+## Error: “Proxy authorization Required”
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
@@ -34,7 +34,7 @@ This error generally occurs when users are connected to the internet through a p
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
 
-- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
+- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http:&#47;&#47;go.microsoft.com addresses but does so for &#42;.visualStudio.com addresses. For these servers, consider whitelisting the following URLs to unblock all sign-in scenarios in Visual Studio:
 
     - &#42;.windows.net
 
@@ -46,7 +46,7 @@ This error generally occurs when users are connected to the internet through a p
 
     - &#42;.live.com
 
-- You can otherwise remove the http://go.microsoft.com address from the whitelist so that the proxy authentication dialog shows up for both the http://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+- You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the whitelist so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 
     OR
 
@@ -68,7 +68,7 @@ This error generally occurs when users are connected to the internet through a p
 
 - You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
 
-## "The underlying connection was closed" error
+## Error: “The underlying connection was closed”
 
 If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
 
@@ -80,19 +80,19 @@ Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to net
 
 Enable connections for the following URLs:
 
-- https://management.core.windows.net
+- https:&#47;&#47;management.core.windows.net
 
-- https://app.vssps.visualstudio.com
+- https:&#47;&#47;app.vssps.visualstudio.com
 
-- https://login.microsoftonline.com
+- https:&#47;&#47;login.microsoftonline.com
 
-- https://login.live.com
+- https:&#47;&#47;login.live.com
 
-- https://go.microsoft.com
+- https:&#47;&#47;go.microsoft.com
 
-- https://graph.windows.net
+- https:&#47;&#47;graph.windows.net
 
-- https://app.vsspsext.visualstudio.com
+- https:&#47;&#47;app.vsspsext.visualstudio.com
 
 - &#42;.azurewebsites.net (for Azure connections)
 
