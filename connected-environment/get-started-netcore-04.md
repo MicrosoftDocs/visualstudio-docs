@@ -21,7 +21,7 @@ This adds debug configuration for Connected Environment under the `.vscode` fold
 1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
 1. Select **.NET Core Launch (VSCE)** as the active debug configuration.
 
-![](media/debugconfiguration.png)
+![](media/debug-configuration.png)
 
 ## Debug the Container in Kubernetes
 Hit **F5** to debug your code in Kubernetes!
