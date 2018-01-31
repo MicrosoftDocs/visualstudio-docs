@@ -23,16 +23,18 @@ With Connected Environment, you can easily set up a *shared* development environ
 ## Work in Your Own Space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state - you're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
-Let's take a closer look at where the services in our sample app are currently running. Running the `vsce list` command, you'll see output similar to the following:
+Before you proceed, close any F5/debug sessions for both services, and then run `vsce up` in each of the service's root folder.
+
+Now let's take a closer look at where the services are currently running. Run the `vsce list` command, and you'll see output similar to the following:
 
 ```
 Name         Space     Chart              Ports   Updated     Access Points
 -----------  --------  -----------------  ------  ----------  -------------------------
-mywebapi     mainline  mywebapi-0.1.0     80/TCP  16m ago     <not attached>
-webfrontend  mainline  webfrontend-0.1.0  80/TCP  7m ago      https://webfrontend-contosodev.vsce.io
+mywebapi     mainline  mywebapi-0.1.0     80/TCP  2m ago     http://localhost:64322
+webfrontend  mainline  webfrontend-0.1.0  80/TCP  1m ago     https://webfrontend-contosodev.vsce.io
 ```
 
-We see the two services we developed in the previous section, and that they are running in a default space named `mainline`. Anyone who opens the public URL and navigates to the web app's About page will invoke the code path we previously wrote that runs through both services. Now suppose we want to continue developing `mywebapi` and not interrupt any other developers who are using the dev environment? To do that, we'll set up our own space.
+Both services should show they are running, and that they are in a space named `mainline`. Anyone who opens the public URL and navigates to the web app's About page will invoke the code path we previously wrote that runs through both services. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the dev environment? To do that, we'll set up our own space.
 
 ## Create a Space
 To run our own version of `mywebapi` in a space other than `mainline`, we first create our own space:
@@ -40,7 +42,7 @@ To run our own version of `mywebapi` in a space other than `mainline`, we first 
 vsce space create --name scott
 ```
 
-Here I've called the new space by my own name so it is easily identifiable to my peers that it's the space I'm working in, but you can call it anything you'd like and be flexible about what it means, like 'sprint4' or 'demo'. 
+In the example above, I've used my name for the new space so that it is easily identifiable to my peers that that's the space I'm working in, but you can call it anything you'd like and be flexible about what it means, like 'sprint4' or 'demo'. 
 
 Run the `vsce space list` command to see a list of all the spaces in the dev environment. An asterisk (*) appears next to the currently selected space. In our case, the space named 'scott' was automatically selected when it was created. You can select another space at any time with the `vsce space select` command.
 
@@ -54,16 +56,27 @@ public string Get(int id)
 }
 ```
 
-1. Hit F5 (or type `vsce up` in the Terminal Window) to run the service. Doing this will automatically run it in our newly selected space `scott`. 
-1. We can confirm this by running `vsce list` again. 
+2. Hit F5 (or type `vsce up` in the Terminal Window) to run the service. Doing this will automatically run it in our newly selected space `scott`. 
+1. We can confirm this by running `vsce list` again. First, you'll notice an instance of `mywebapi` is now running in the `scott` space (the version running in the `mainline` is still running but it is not listed). Secondly, the access point URL for `webfrontend` is prefixed with the text "scott-". This URL is unique to the `scott` space, and signifies that requests sent to the "scott URL" will attempt to first route to services in the `scott` space, and will fall back to services in the `mainline` space.
 ```
 Name         Space     Chart              Ports   Updated     Access Points
 -----------  --------  -----------------  ------  ----------  -------------
 mywebapi     scott     mywebapi-0.1.0     80/TCP  15s ago     http://localhost:61466
-webfrontend  mainline  webfrontend-0.1.0  80/TCP  7m ago      https://scott-webfrontend-contosodev.vsce.io
+webfrontend  mainline  webfrontend-0.1.0  80/TCP  5h ago      https://scott-webfrontend-contosodev.vsce.io
 ```
 
-First, it shows there is an instance of `mywebapi` running in the `scott` space. Second, the access point for `webfrontend` has changed slightly - notice the `scott-` that has been pre-appended to the URL. The URL is unique to my space; any requests that hit this URL will go to any mainline versions until a request is made to `mywebapi`, in which case it will be routed to the `scott` version of `mywebapi`. This enables you easily test code end-to-end without having to re-create the full stack of services!
+![](media/space-routing.png)
+
+This built-in capability of Connected Environment enables you easily test code end-to-end in a shared evironment without requiring each developer  to re-create the full stack of services in their space. Note that this routing requires propagation headers to be forwarded in your app code, as illustrated in the [Propagate Headers](get-started-netcore-05.md#propagate-headers) section.
 
 ## Test Code Running in the `Scott` Space
-We can reach our version of `mywebapi` directly, but we can also 
+To test our new version of `mywebapi` in conjunction with `webfrontend`, open your browser to the public access point URL for webfrontend and navigate to the About page. You should see your new message displayed.
+
+Now, remove the "scott-" part of the URL, and refresh the browser - you should see the old behavior (exhibited by the `mywebapi` version running in `mainline`).
+
+> [!div class="nextstepaction"]
+> [Next](get-started-netcore-07.md)
+
+
+
+
