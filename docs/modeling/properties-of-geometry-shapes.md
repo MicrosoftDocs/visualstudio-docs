@@ -10,11 +10,9 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.geometryshape"
 helpviewer_keywords: 
   - "Domain-Specific Language, geometry shape"
-ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
-caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

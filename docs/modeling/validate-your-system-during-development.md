@@ -10,11 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams"
-ms.assetid: c9dafb47-7b1d-4c72-9432-d43be3db1799
-caps.latest.revision: 37
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

@@ -15,11 +15,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Show Map Lines"
   - "Domain-Specific Language Tools, Show As Class"
   - "Domain-Specific Language Tools, Bring Tree Here"
-ms.assetid: 1a4c7a58-e134-438e-848e-efd98f92bf10
-caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

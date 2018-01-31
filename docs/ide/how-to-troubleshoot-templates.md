@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "01/02/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -44,20 +43,6 @@ If the .vstemplate file in a template does not adhere to the Visual Studio templ
 1. Place the new .zip file in the same directory as the old .zip file.
 
 1. Delete the extracted template files and the old template .zip file.
-
-## Monitor the event log
-
-Visual Studio logs errors it encounters when processing template .zip files. If a template does not appear in the **New Project** dialog box as expected, you can use **Event Viewer** to troubleshoot the issue.
-
-### To locate template errors in Event Viewer
-
-1. In Windows, from the **Start** menu, choose **Windows Administrative Tools** > **Event Viewer**.
-
-1. In the left pane, choose **Windows Logs** > **Application**.
-
-1. Look for events with a **Source** value of `Visual Studio - VsTemplate`.
-
-1. To view an error, double-click on a template event.
 
 ## Enable diagnostic logging
 

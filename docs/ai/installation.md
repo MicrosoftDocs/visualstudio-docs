@@ -113,7 +113,7 @@ Then, we need to verify whether Python 3.5 is installed correctly, and upgrade p
 ### Python on Visual Studio
 
 Python is fully supported in Visual Studio through extensions.
-Learn more about install [Python for Visual Studio Tools](https://docs.microsoft.com/visualstudio/python/installation) for more details.
+Learn more about install [Python for Visual Studio Tools](../python/installing-python-support-in-visual-studio.md) for more details.
 
 ### NumPy and SciPy
 

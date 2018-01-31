@@ -9,11 +9,9 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, troubleshooting"
   - "text templates, debugging"
-ms.assetid: 0877fdf2-20bf-42da-b3cc-4c5856b80821
-caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

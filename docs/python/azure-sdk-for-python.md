@@ -1,7 +1,8 @@
 ---
-title: "Azure SDK for Python | Microsoft Docs"
+title: Azure SDK for Python | Microsoft Docs
+description: The Azure SDK for Python makes it easy to consume Microsoft Azure services from Python applications running on any platform.
 ms.custom: ""
-ms.date: 03/07/2017
+ms.date: 01/22/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,6 +16,7 @@ ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
   - "azure"
 ---
 
@@ -26,7 +28,7 @@ The Azure SDK for Python makes it easy to consume and manage Microsoft Azure ser
 
 The Azure SDK is installed from the [Python Package Index](https://pypi.python.org/pypi/azure).
 
-Install the **latest stable version** (supports Python 2.7 and 3.3+) as follows:
+Install the **latest stable version** (supports Python 2.7 and 3.x) as follows:
 
 ```command
 pip install azure
@@ -38,7 +40,7 @@ You can also follow [Install Python and the SDK](https://azure.microsoft.com/doc
 
 Documentation can be found on [azure-sdk-for-python.readthedocs.org](http://azure-sdk-for-python.readthedocs.org/en/latest/index.html).
 
-The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials such as:
+The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
 
 - Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app) [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
 - [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)

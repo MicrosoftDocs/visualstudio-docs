@@ -128,9 +128,10 @@ To find where particular code elements are referenced throughout your codebase, 
 ## Customize the Editor  
 You can share your Visual Studio settings with another developer, have your settings conform to a standard, or return to Visual Studio default settings by using the **Import and Export Settings Wizard** command on the **Tools** menu. In the **Import and Export Settings Wizard**, you can change selected general settings or language and project-specific settings.
 
-To define new hotkeys or redefine existing hotkeys, go to **Tools**, **Options**, **Environment**, **Keyboard**. For more information about hotkeys, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
+To define new hotkeys or redefine existing hotkeys, go to **Tools**, **Options**, **Environment**, **Keyboard**. For more information about hotkeys, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-For more information about customizing the editor, see [Customizing the Editor](../ide/customizing-the-editor.md). For information about language-specific editor options, see [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md) and [Options, Text Editor, JavaScript, Formatting](../ide/reference/options-text-editor-javascript-formatting.md).
+For more information about customizing the editor, see [Customizing the Editor](../ide/customizing-the-editor.md). For JavaScript-specific editor options, see [Options, Text Editor, JavaScript, Formatting](../ide/reference/options-text-editor-javascript-formatting.md).
 
-## See Also  
- [Visual Studio IDE](../ide/visual-studio-ide.md)
+## See also
+
+[Visual Studio IDE](../ide/visual-studio-ide.md)
