@@ -23,8 +23,8 @@ ms.workload:
   - "multiple"
 ---
 
-# Ports and protocols for Visual Studio and Azure services
-Whether you are using Azure services with Visual Studio or you are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
+# Ports and protocols for Visual Studio and Azure Services
+Whether you are using Azure Services with Visual Studio or you are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
 
   > [!NOTE]
   > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
@@ -64,7 +64,7 @@ Whether you are using Azure services with Visual Studio or you are an Azure deve
 > [!NOTE]
 > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Azure services ports and protocols
+## Azure Services ports and protocols
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
@@ -82,7 +82,7 @@ Whether you are using Azure services with Visual Studio or you are an Azure deve
 | Cloud Services | 1. RDP<br><br>2. core.windows.net <br><br>3.  management.azure.com<br> management.core.windows.net <br><br>4. &#42;.blob.core.windows.net <br>&#42;.queue.core.windows.net<br>&#42;.table.core.windows.net <br><br>5. portal.azure.com <br><br>6. &#60;user's cloud service&#62;.cloudapp.net <br> &#60;user's VM&#62;.&#60;region&#62;.azure.com | 1. rdp <br><br> 2. -- <br><br> 3. -- <br><br> 4. -- <br><br> 5. -- <br><br>6. tcp | 1. 3389 <br><br> 2. -- <br><br> 3. -- <br><br>4. -- <br><br>5. -- <br><br> 6. a) 30398 <br> 6. b) 30400 <br> 6. c) 31398 <br> 6. d) 31400 <br> 6. e) 32398 <br> 6. f) 32400 | 1.  Remote Desktop to Cloud Services VM <br><br> 2.  Storage account component of the private diagnostics configuration <br><br> 3.  Azure management portal <br><br> 4. Server Explorer - Azure Storage  .&#42;  is customer named storage account  <br><br> 5.  Links to open the portal &#47; Download the subscription certificate &#47; Publish settings file <br><br>6. a)  Connector local port for remote debug for cloud service and VM<br> 6. b)  Connector public port for remote debug for cloud service and VM <br> 6. c)  Forwarder local port for remote debug for cloud service and VM <br> 6. d) Forwarder public port for remote debug for cloud service and VM  <br> 6. e) File uploader local port for remote debug for cloud service and VM <br> 6. f) File uploader public port for remote debug for cloud service and VM |
 | Service Fabric | 1. <br>ocs.Microsoft.com<br>aka.ms <br>go.microsoft.com <br><br>2. <br>vssftools.blob.core.windows.net <br>Vault.azure.com <br>Portal.azure.com <br><br> 3. &#42; vault.azure.net<br><br> 4. <br>app.vsaex.visualstudio.com<br>&#42; .vsspsext.visualstudio.com<br>clouds.vsrm.visualstudio.com <br>clouds.visualstudio.com<br>app.vssps.visualstudio.com <br>&#42; .visualstudio.com |  |  | 1. Documentation <br><br> 2. Create Cluster feature <br><br>3. The &#42; is the azure key vault name (Example:- test11220180112110108.vault.azure.net  <br><br>  4. The &#42; is dynamic (Example: vsspsextprodch1su1.vsspsext.visualstudio.com |
 | Azure SDK | | | | |
-| Snapshot <br>Debugger | 1. go.microsoft.com (FWLink 836755) <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon | 1.  <br>2.  <br>3.  <br>4.  <br>5. <br>6. Concord <br> | 1. <br> 2. <br>3.  <br>4. <br> 5. <br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
+| Snapshot <br>Debugger | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon | 1.  <br>2.  <br>3.  <br>4.  <br>5. <br>6. Concord <br> | 1. <br> 2. <br>3.  <br>4. <br> 5. <br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
 | Office web <br>add-in  <br><br> Manifest <br>Verification <br />Service | verificationservice.osi.office.net<br> <br>https:&#47;&#47;verificationservice.osi.office.net <br> /ova/addincheckingagent.svc/api<br>/addincheck?format=html |  |  | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com |  |  | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br />Test Service<br> Host | |  | 12292 | A firewall rule that is created automatically for testing SharePoint Add-ins with workflows |
