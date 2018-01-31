@@ -23,9 +23,6 @@ This refactoring applies to:
 
 - Visual Basic
 
-<!-- VERSIONLESS -->
-**This feature is available in Visual Studio 2017 and later. Additionally, .NET Standard projects are not yet supported for this refactoring.**
-
 **What:** Lets you rename a type to match the filename, or rename a filename to match the type it contains.
 
 **When:** You have renamed a file or type and haven't yet updated the corresponding file or type to match.
@@ -62,6 +59,9 @@ This refactoring applies to:
    - Visual Basic: In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
       ![Inline result Visual Basic](media/synctype-result-vb.png)
+
+> ![NOTE]
+> This refactoring is not yet available for .NET Standard and .NET Core projects.
 
 ## See also
 
