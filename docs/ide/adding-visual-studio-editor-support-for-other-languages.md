@@ -37,7 +37,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
 |||||||  
 |-|-|-|-|-|-|  
 |Bat|F#|Java|Markdown|Rust|Visual Basic|  
-|Clojure|Go|JavaDoc|Objective-C|ShaderLab|Visual C#|  
+|Clojure|Go|JavaDoc|Objective-C|ShaderLab|C#|  
 |CMake|Groovy|JSON|Perl|ShellScript|Visual C++|  
 |CoffeeScript|HTML|LESS|Python|SQL|VBNet|  
 |CSS|INI|LUA|R|Swift|XML|  
@@ -59,7 +59,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
   
 -   Visual C++  
   
--   Visual C#  
+-   C#  
   
  All of these file types have  the features described earlier even if support for a given language hasn't yet  been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features such as Light Bulbs.  
   

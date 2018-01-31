@@ -21,7 +21,7 @@ ms.workload:
   - "cplusplus"
 ---
 # Visual C++ Classes in Class Designer
-Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and Visual C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
+Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
   
 > [!NOTE]
 >  Class Designer does not support unions (a special type of class in which the memory allocated is only the amount necessary for the union's largest data member).  
@@ -52,7 +52,7 @@ Right-clicking a class shape and then clicking **Show Base Classes** displays th
 > [!NOTE]
 >  The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to Class View, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.  
   
-For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).  
+For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).  
   
 ## Abstract Classes  
 Class Designer supports abstract classes (also named "abstract base classes"). These are classes that you never instantiate, but from which you can derive other classes. Using an example from "Multiple Inheritance" earlier in this document, you might instantiate the `Bird` class as individual objects as follows:  
@@ -165,11 +165,12 @@ The following table shows some examples of canonical specialized class connectio
 |------------------|-------------------------|  
 |`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {};`<br /><br /> `class A : C<int> {};`<br /><br /> `class D : C<float> {};`|`A`<br /><br /> Class<br /><br /> ->C\<int><br /><br /> `C<int>`<br /><br /> Class<br /><br /> `C<T>`<br /><br /> Template Class<br /><br /> `D`<br /><br /> Class<br /><br /> ->C\<float>|  
 |`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|  
-  
+
 ## See also
-[Working with Visual C++ Code](working-with-visual-cpp-code.md)   
-[Classes and Structs](/cpp/cpp/classes-and-structs-cpp)   
-[Anonymous Class Types](/cpp/cpp/anonymous-class-types)   
-[Multiple Inheritance](https://msdn.microsoft.com/en-us/library/6td5yws2.aspx)   
-[Multiple Base Classes](/cpp/cpp/multiple-base-classes)   
+
+[Working with Visual C++ Code](working-with-visual-cpp-code.md)  
+[Classes and Structs](/cpp/cpp/classes-and-structs-cpp)  
+[Anonymous Class Types](/cpp/cpp/anonymous-class-types)  
+[Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx)  
+[Multiple Base Classes](/cpp/cpp/multiple-base-classes)  
 [Templates](/cpp/cpp/templates-cpp)

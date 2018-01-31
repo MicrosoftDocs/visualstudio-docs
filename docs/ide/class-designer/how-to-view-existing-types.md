@@ -48,7 +48,7 @@ To design new types on class diagrams, see [How to: Create Types by using Class 
 You can also view types in the project by dragging one or more types from the project node in Class View to the class diagram.  
   
 > [!TIP]
->  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/en-us/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
+> If Class View is not open, open Class View from the **View** menu.
   
 To display types at default locations on the diagram, select one or more types in Class View, right-click the selected types, and choose **View Class Diagram**.  
   

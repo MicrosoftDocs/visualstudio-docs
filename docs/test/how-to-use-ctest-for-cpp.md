@@ -24,16 +24,5 @@ CTest is not currently integrated with **Test Explorer**. You can run your tests
 
 ![Run CTest tests](media/cpp-cmake-run-tests.png "Run CTest tests")
 
-
 ## See Also
 [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
-
-  
-
-
-
-
-
-
-

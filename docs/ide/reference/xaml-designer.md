@@ -7,10 +7,9 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.XAMLDesigner"
-ms.assetid: ad3820b2-0d95-4807-a75c-c3467ed973a3
 caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
@@ -19,6 +18,7 @@ ms.workload:
   - "uwp"
 ---
 # XAML Designer options page
+
 Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
 
 > [!NOTE]
@@ -98,7 +98,7 @@ Use these settings to determine whether effects are rendered when editing XAML f
 |**Render effects**|Specifies whether effects render when editing XAML files in the XAML Designer using Blend.|  
 |**Zoom threshold**|Specifies the percentage of zoom in which effects render when the **Render effects** checkbox is selected. If you zoom beyond this setting, effects no longer render in the XAML Designer.|  
 
-## See Also  
- [XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)   
- [How to: Change XAML View Settings](http://msdn.microsoft.com/en-us/aee87c79-ca01-4f84-8fb7-a9e47048ee47)   
- [XAML and Code Walkthroughs](http://msdn.microsoft.com/en-us/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)
+## See also
+
+[XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)  
+[Walkthrough: My first WPF desktop application](../../designers/walkthrough-my-first-wpf-desktop-application2.md)

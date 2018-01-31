@@ -24,7 +24,7 @@ To watch a video showing similar features, see [Getting Started with the Debugge
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  
  Let's start with a simple C# console application (**File > New > Project**, then select **Visual C#** and then **Console Application**). If you've never worked with Visual Studio before, see [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md). The **Main** method just adds 1 to an integer variable 10 times and prints the result to the console:  
   
-```CSharp  
+```csharp  
 static void Main(string[] args)  
 {  
     int testInt = 0;  
@@ -68,7 +68,7 @@ static void Main(string[] args)
   
  To see the difference between **Step Into** and **Step Over**, we need to add a method that is called by another method. Add a method to the C# application and call it from the Main method. The code should look something like this:  
   
-```CSharp  
+```csharp  
 static void Main(string[] args)  
 {  
     Method1();  

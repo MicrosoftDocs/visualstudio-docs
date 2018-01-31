@@ -1,5 +1,5 @@
 ---
-title: Searching and Filtering | Visual Studio Marketplace
+title: Searching and Filtering | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

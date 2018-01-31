@@ -25,7 +25,7 @@ By specifying a custom build event, you can automatically run commands before a 
   
 -   Visual Basic--[How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).  
   
--   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md).  
+-   C# and F#--[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md).  
   
 -   Visual C++--[Specifying Build Events](/cpp/ide/specifying-build-events).  
   

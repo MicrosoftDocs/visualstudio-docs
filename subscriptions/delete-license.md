@@ -1,5 +1,5 @@
 ---
-title:  Deleting an Assignment | Visual Studio Marketplace
+title:  Deleting an Assignment | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
