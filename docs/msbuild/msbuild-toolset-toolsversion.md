@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/31/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,8 +13,6 @@ helpviewer_keywords:
   - "targeting a specific .NET framework [MSBuild]"
   - "MSBuild, targeting a specific .NET framework"
   - "multitargeting [MSBuild]"
-ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
-caps.latest.revision: 30
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
@@ -29,7 +27,10 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
 ```xml  
 <Project ToolsVersion="15.0" ... </Project>  
-```  
+``` 
+
+> [!NOTE] 
+> Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Packages, Metadata, and Frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
   
 ## How the ToolsVersion Attribute Works  
  When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).  
@@ -69,7 +70,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
 -   By using <xref:Microsoft.Build.Utilities.ToolLocationHelper> methods  
   
- Toolset properties specify the paths of the tools. MSBuild uses the value of the `ToolsVersion` attribute in the project file to locate the corresponding registry key, and then uses the information in the registry key to set the Toolset properties. For example, if `ToolsVersion` has the value `12.0`, then MSBuild sets the Toolset properties according to this registry key: HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
+ Toolset properties specify the paths of the tools. Starting in Visual Studio 2017, MSBuild no longer has a fixed location. By default, it is located in the MSBuild\15.0\Bin folder relative to the Visual Studio installation location. In earlier versions, MSBuild uses the value of the `ToolsVersion` attribute in the project file to locate the corresponding registry key, and then uses the information in the registry key to set the Toolset properties. For example, if `ToolsVersion` has the value `12.0`, then MSBuild sets the Toolset properties according to this registry key: HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
   
  These are Toolset properties:  
   
@@ -103,7 +104,9 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
 -   "11.0" specifies the .NET Framework 4.5 sub-toolset  
   
--   "12.0" specifies the .NET Framework 4.5.1 sub-toolset  
+-   "12.0" specifies the .NET Framework 4.5.1 sub-toolset 
+
+-   "15.0" specifies the .NET Framework 4.6.1 sub-toolset 
   
  Sub-toolsets 10.0 and 11.0 should be used with ToolsVersion 4.0. In later versions, the sub-toolset version and the ToolsVersion should match.  
   

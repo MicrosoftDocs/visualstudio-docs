@@ -1,7 +1,7 @@
 ---
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/31/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,8 +11,6 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
   - "MSBuild, msbuild.exe.config"
-ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
-caps.latest.revision: 31
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen
@@ -23,20 +21,20 @@ ms.workload:
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)  
   
 ## Standard Toolset Configurations  
- MSBuild 12.0 includes the following standard Toolsets:  
+ MSBuild 15.0 includes the following standard Toolsets:  
   
 |ToolsVersion|Toolset Path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|  
 |------------------|--------------------------------------------------------------------------------------------|  
 |2.0|*Windows installation path*\Microsoft.Net\Framework\v2.0.50727\|  
 |3.5|*Windows installation path*\Microsoft.NET\Framework\v3.5\|  
 |4.0|*Windows installation path*\Microsoft.NET\Framework\v4.0.30319\|  
-|12.0|*%ProgramFiles%*\MSBuild\12.0\bin|  
+|15.0|*Visual Studio installation path*\MSBuild\15.0\bin|  
   
- The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] the default value is "12.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
+ The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2017, the default value is "15.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
   
  If the `ToolsVersion` isn't specified, the registry key **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\\<Version Number\>\DefaultToolsVersion** defines the `ToolsVersion`, which is always 2.0.  
   
- The following registry keys specify the installation path of MSBuild.exe.  
+ For versions of Visual Studio prior to Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.  
   
 |Registry Key|Key Name|String Key Value|  
 |------------------|--------------|----------------------|  
