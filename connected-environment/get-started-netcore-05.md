@@ -29,22 +29,15 @@ Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 ```
 public async Task<IActionResult> About()
 {
-    ViewData["Message"] = "The result from mywebapi is: ";
+    ViewData["Message"] = "Hello from webfrontend";
     
-    using (var client = new System.Net.Http.HttpClient())
+    // Use HeaderPropagatingHttpClient instead of HttpClient so we can propagate
+    // headers in the incoming request to any outgoing requests
+    using (var client = new HeaderPropagatingHttpClient(this.Request))
         {
-            // Create a GET request, configured to call http://mywebapi/api/values/1
-            var outgoing = new System.Net.Http.HttpRequestMessage(System.Net.Http.HttpMethod.Get, "http://mywebapi/api/values/1");
-            outgoing.Content = new System.Net.Http.StringContent(String.Empty);
-            
-            // Propagate headers from the incoming request to the outgoing request
-            webfrontend.Helpers.HeaderPropagation.PropagateHeaders(this.Request, outgoing.Content);
-            // outgoing.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-
-            // Call mywebapi, and display mywebapi's response in the page
-            var response = await client.SendAsync(outgoing);
-            var result = await response.Content.ReadAsStringAsync();
-            ViewData["Message"] += result;
+            // Call 'mywebapi', and display its response in the page
+            var response = await client.GetAsync("http://mywebapi/api/values/1");
+            ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
         }
 
     return View();
@@ -54,32 +47,66 @@ public async Task<IActionResult> About()
 Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
 ## Propagate Headers
-Next let's add some helper code that propagates headers to downstream requests. We'll see later how this facilitates a more productive development experience in team scenarios.
+Next, let's add the helper class `HeaderPropagatingHttpClient` that we reference in the above code. This helper propagates headers that are in the incoming request to the outgoing request - we can use this throughout our code when making similar requests to other services. We'll see later how this facilitates a more productive development experience in team scenarios.
 1. Create a file named HeaderPropagation.cs in the `webfrontend` project.
 1. Paste the following code:
 
 ```
 using System;
-using System.Diagnostics;
 using System.Net.Http;
+using System.Threading;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
-
-namespace webfrontend.Helpers
+ 
+namespace webfrontend
 {
-    public static class HeaderPropagation
+    public class HeaderPropagatingHttpClient : HttpClient
     {
-        private const string MetaHeader = "Context-Headers";
-
-        public static void PropagateHeaders(HttpRequest incoming, HttpContent outgoing)
+        public HeaderPropagatingHttpClient(HttpRequest source)
+            : this(source, null)
         {
-            if (incoming.Headers.ContainsKey(MetaHeader))
+        }
+ 
+        public HeaderPropagatingHttpClient(HttpRequest source, HttpMessageHandler innerHandler)
+            : this(source, null, innerHandler)
+        {
+        }
+ 
+        public HeaderPropagatingHttpClient(HttpRequest source, string metaHeader, HttpMessageHandler innerHandler)
+            : base(new HeaderPropagatingHttpHandler(source, metaHeader, innerHandler))
+        {
+        }
+    }
+ 
+    public class HeaderPropagatingHttpHandler : MessageProcessingHandler
+    {
+        public HeaderPropagatingHttpHandler(HttpRequest source, string metaHeader = null, HttpMessageHandler innerHandler = null)
+            : base(innerHandler ?? new HttpClientHandler())
+        {
+            this.Source = source ?? throw new ArgumentNullException(nameof(source));
+            this.MetaHeader = metaHeader ?? "Context-Headers";
+        }
+ 
+        public HttpRequest Source { get; private set; }
+ 
+        public string MetaHeader { get; set; }
+ 
+        protected override HttpRequestMessage ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)
+        {
+            if (this.Source.Headers.ContainsKey(this.MetaHeader))
             {
-                foreach (var header in incoming.Headers[MetaHeader][0].Split(","))
+                request.Headers.Add(this.MetaHeader, this.Source.Headers[this.MetaHeader][0]);
+
+                foreach (var header in this.Source.Headers[this.MetaHeader][0].Split(","))
                 {
-                    outgoing.Headers.Add(header, incoming.Headers[header][0]);
+                    request.Headers.Add(header, this.Source.Headers[header][0]);
                 }
             }
+            return request;
+        }
+ 
+        protected override HttpResponseMessage ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)
+        {
+            return response;
         }
     }
 }
