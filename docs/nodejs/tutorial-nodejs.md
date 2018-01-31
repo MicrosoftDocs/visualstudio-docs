@@ -132,6 +132,8 @@ First, you'll create an Node.js web application project.
 
 1. Click the buttons to display different images.
 
+    ![App running in browser](../nodejs/media/tutorial-nodejs-running-in-browser.png)  
+
 1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
 
    ![Open the Node.js Interactive Window](../nodejs/media/tutorial-nodejs-interactive-window.png)  
@@ -142,7 +144,7 @@ First, you'll create an Node.js web application project.
 
 1. Close the web browser.  
 
-## Publish to Azure App Service
+## (Optional) Publish to Azure App Service
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 
