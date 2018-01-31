@@ -83,10 +83,10 @@ For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data 
 
 In .NET, you have three choices for modeling and manipulating data in memory after you have retrieved it from a data source:
 
-[Entity Framework](../data-tools/entity-data-model-tools-in-visual-studio.md)  
+[Entity Framework](../data-tools/entity-data-model-tools-in-visual-studio.md)
 The preferred Microsoft ORM technology. You can use it to program against relational data as first-class .NET objects. For new applications, it should be the default first choice when a model is required. It requires custom support from the underlying ADO.NET provider.
 
-[LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md)  
+[LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 An earlier-generation object-relational mapper. It works well for less complex scenarios but is no longer in active development.
 
 [Datasets](../data-tools/dataset-tools-in-visual-studio.md)  
@@ -112,39 +112,42 @@ To learn more about connecting to databases from C++ apps, see [Visual Studio da
 
 ## Python
 
-Install  [Python Tools for Visual Studio](http://microsoft.github.io/PTVS/) along with your favorite Python framework to create CPython or IronPython (.NET) applications. The Python Tools for Visual Studio website has several tutorials on connecting to data, including [Django and SQL Database on Azure](https://github.com/Microsoft/PTVS/wiki/Django-and-SQL-Database-on-Azure), [Django and MySQL on Azure](https://github.com/Microsoft/PTVS/wiki/Django-and-MySQL-on-Azure) and [Bottle and MongoDB on Azure](https://github.com/Microsoft/PTVS/wiki/Bottle-and-MongoDB-on-Azure).
+Install [Python support in Visual Studio](../python/python-in-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
+- [Django and SQL Database on Azure](/azure/app-service/app-service-web-get-started-python)
+- [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)
+- Work with [blobs](/azure/storage/blobs/storage-quickstart-blobs-python), [files](/azure/storage/files/storage-python-how-to-use-file-storage), [queues](/azure/storage/queues/storage-python-how-to-use-queue-storage), and [tables (Cosmo DB)](/azure/cosmos-db/table-storage-how-to-use-python).
 
 ## Related topics
 
-[Data, Devices, and Analytics](https://msdn.microsoft.com/data-and-devices)  
+[Data, Devices, and Analytics](https://msdn.microsoft.com/data-and-devices)
 Provides an introduction to the Microsoft intelligent cloud, including Cortana Analytics Suite and support for Internet of Things.
 
-[Microsoft Azure Storage](https://azure.microCsoft.com/documentation/services/storage/)  
+[Microsoft Azure Storage](https://azure.microCsoft.com/documentation/services/storage/)
 Describes Azure Storage, and how to create applications by using Azure blobs, tables, queues, and files.
 
-[Azure SQL Database](https://azure.microsoft.com/documentation/services/sql-database/)  
+[Azure SQL Database](https://azure.microsoft.com/documentation/services/sql-database/)
 Describes how to connect to Azure SQL Database, a relational database as a service.
 
-[SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt)  
+[SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt)
 Describes the tools that simplify design, exploration, testing, and deploying of data-connected applications and databases.
 
-[ADO.NET](/dotnet/framework/data/adonet/index)  
+[ADO.NET](/dotnet/framework/data/adonet/index)
 Describes the ADO.NET architecture and how to use the ADO.NET classes to manage application data and interact with data sources and XML.
 
-[ADO.NET Entity Framework](https://msdn.microsoft.com/data/ef)  
+[ADO.NET Entity Framework](https://msdn.microsoft.com/data/ef)
 Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
-[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)  
+[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)
 Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).
 
-[Data in Office Solutions](../vsto/data-in-office-solutions.md)  
+[Data in Office Solutions](../vsto/data-in-office-solutions.md)
 Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 
-[LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)  
+[LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)
 Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.
 
-[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)  
+[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
 Discusses working with XML data, debugging XSLT, .NET Framework XML features, and the architecture of XML Query.
 
-[XML Documents and Data](/dotnet/standard/data/xml/index)  
+[XML Documents and Data](/dotnet/standard/data/xml/index)
 Provides an overview to a comprehensive and integrated set of classes that work with XML documents and data in the .NET Framework.
