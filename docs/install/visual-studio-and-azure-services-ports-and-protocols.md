@@ -2,7 +2,7 @@
 title: "Ports and protocols for Visual Studio and for Azure Services | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "01/30/2018"
+ms.date: "02/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -25,6 +25,16 @@ ms.workload:
 
 # Ports and protocols for Visual Studio and Azure services
 Whether you are using Azure services with Visual Studio or you are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
+
+  > [!NOTE]
+  > For the HTTPS protocol, the port is 443. For the HTTP protocol, the port is 80.
+
+## Visual Studio ports and protocols
+| Service or scenario | DNS endpoint | Protocol | Port | Description |
+| --- | --- | --- | --- | --- |
+| Creation/Management of Azure resources | management.azure.com <br>management.core.windows.net   | https | 443 | Used for creating Azure Websites or other resources to support the publishing of web applications, Azure Functions, or WebJobs |
+
+## Azure services ports and protocols
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
