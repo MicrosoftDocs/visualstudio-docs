@@ -117,6 +117,8 @@ namespace webfrontend
 1. In the `webfrontend` project, set a breakpoint just before it sends a GET request to `mywebapi/api/values`.
 1. Hit F5 in the `webfrontend` project.
 1. Invoke the web app, and step through code in both services.
+1. In the web app, the About page will display a message concatenated by the two services: "Hello from webfrontend and Hello from mywebapi".
+
 
 Well done! You now have a multi-container application where each container can be developed and deployed separately.
 
