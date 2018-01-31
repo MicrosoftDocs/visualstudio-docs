@@ -1,6 +1,6 @@
 ---
 title: Managing Python environments in Visual Studio | Microsoft Docs
-description: How to use the Python Environments window in Visual Studio to manage global and virtual envrionments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
+description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
 ms.custom: ""
 ms.date: 01/16/2018
 ms.reviewer: ""
@@ -66,13 +66,13 @@ Developers that want to provide new forms of detection for Python environments, 
 
 To open the Python Environments window, select the **View > Other Windows > Python Environments** menu command or right-click the **Python Environments** node for a project in Solution Explorer and select **View All Python Environments**:
 
-    ![View All Environments command in Solution Explorer](media/environments-view-all.png)
+![View All Environments command in Solution Explorer](media/environments-view-all.png)
 
 In either case, the Python Environments window appears as a sibling tab to Solution Explorer:
 
 ![Python Environments window](media/environments-default-view.png)
 
-The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. The default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above). The **+ Custom...** command lets you [create an environment for an existing interpreter](#create-an-environment-for-an-existing-interpreter).
+The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. The default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above). The **+ Custom...** command lets you [create an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
 
 To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment.
 
