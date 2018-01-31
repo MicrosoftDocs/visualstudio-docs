@@ -31,7 +31,7 @@ vsce env create --name mydevenvironment --location eastus
 Supported locations: `eastus`
 
 > [!Note]
-> This command takes about 10 minutes. You can continue the guide without waiting.
+> This command takes about 6 minutes. You can continue the guide without waiting.
 
 
 While we're waiting for the environment to be create, let's start developing code!

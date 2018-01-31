@@ -58,6 +58,7 @@ public string Get(int id)
 
 2. Hit F5 (or type `vsce up` in the Terminal Window) to run the service. Doing this will automatically run it in our newly selected space `scott`. 
 1. We can confirm this by running `vsce list` again. First, you'll notice an instance of `mywebapi` is now running in the `scott` space (the version running in the `mainline` is still running but it is not listed). Secondly, the access point URL for `webfrontend` is prefixed with the text "scott-". This URL is unique to the `scott` space, and signifies that requests sent to the "scott URL" will attempt to first route to services in the `scott` space, and will fall back to services in the `mainline` space.
+
 ```
 Name         Space     Chart              Ports   Updated     Access Points
 -----------  --------  -----------------  ------  ----------  -------------
