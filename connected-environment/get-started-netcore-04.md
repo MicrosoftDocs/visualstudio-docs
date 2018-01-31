@@ -54,4 +54,4 @@ Refresh the web app in the browser, navigate to the About page - you should see 
 **Now you have a method for rapidly iterating on code and debugging directly in Kubernetes!** Next, we'll see how we can create and call a second container.
 
 > [!div class="nextstepaction"]
-> [Call another container](get-started-netcore-05.md)
+> [Call a service running in a separate container](get-started-netcore-05.md)

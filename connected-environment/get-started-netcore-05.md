@@ -6,22 +6,18 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 
 ![](media/multi-container.png)
 
-## Clone the Sample WebAPI Service
-For the sake of time, we'll grab ready-to-go sample code for `mywebapi`.
-
-```
-git clone https://github.com/johnsta/mywebapi
-```
+## Download Sample Code for mywebapi
+For the sake of time, let's download some sample code from a GitHub repository. Navigate to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
 
 
-## Run the WebAPI service
-1. Open the folder `mywebapi` in a *separate* VS Code window.
+## Run mywebapi
+1. Open the folder `mywebapi` in a *separate VS Code window*.
 1. Hit F5, and wait for the service to build and deploy.
-1. Take note of the endpoint URL, it will look something like http://localhost:\<portnumber\>. It may seem like the container is running locally, but actually it is running in our development environment in Azure. The reason for the localhost address is because `mywebapi` has not defined any public endpoints and can only be accessed from within the Kubernetes instance. For your convenience, and to facilitate interacting with the private service from your local machine, Connected Environment creates a temporary SSH tunnel.
-1. When `mywebapi` is ready, open your browser to the localhost address. Append `/api/values` to the URL to access the default GET API for the `ValuesController`. 
+1. Take note of the endpoint URL, it will look something like http://localhost:\<portnumber\>. It may seem like the container is running locally, but actually it is running in our development environment in Azure. The reason for the localhost address is because `mywebapi` has not defined any public endpoints and can only be accessed from within the Kubernetes instance. For your convenience, and to facilitate interacting with the private service from your local machine, Connected Environment creates a temporary SSH tunnel to the container running in Azure.
+1. When `mywebapi` is ready, open your browser to the localhost address. Append `/api/values` to the URL to invoke the default GET API for the `ValuesController`. 
 1. If all the steps were successful, you should be able to see a response from the `mywebapi` service.
 
-## Make a Request From 'webfrontend' to 'mywebapi'
+## Make a Request from 'webfrontend' to 'mywebapi'
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. *Replace* the code for the About method:
@@ -113,7 +109,7 @@ namespace webfrontend
 ``` 
 
 
-[!INCLUDE[common_test](common/common-test.md)]
+<!-- [!INCLUDE[common_test](common/common-test.md)] -->
 
 ## Debug Across Multiple Services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
