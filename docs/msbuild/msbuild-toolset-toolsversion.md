@@ -93,7 +93,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 -   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.  
   
 ### Sub-toolsets  
- As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  
+ For versions MSBuild prior to 15.0, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  
   
 > [!NOTE]
 >  If toolset property names collide, the value that's defined for the subkey path overrides the value that's defined for the root key path.  
@@ -105,8 +105,6 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 -   "11.0" specifies the .NET Framework 4.5 sub-toolset  
   
 -   "12.0" specifies the .NET Framework 4.5.1 sub-toolset 
-
--   "15.0" specifies the .NET Framework 4.6.1 sub-toolset 
   
  Sub-toolsets 10.0 and 11.0 should be used with ToolsVersion 4.0. In later versions, the sub-toolset version and the ToolsVersion should match.  
   
