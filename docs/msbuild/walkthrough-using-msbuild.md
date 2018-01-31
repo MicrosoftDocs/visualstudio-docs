@@ -159,10 +159,10 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
  All properties are child elements of PropertyGroup elements. The name of the property is the name of the child element, and the value of the property is the text element of the child element. For example,  
   
 ```xml  
-<TargetFrameworkVersion>v12.0</TargetFrameworkVersion>  
+<TargetFrameworkVersion>v15.0</TargetFrameworkVersion>  
 ```  
   
- defines the property named TargetFrameworkVersion, giving it the string value "v12.0".  
+ defines the property named TargetFrameworkVersion, giving it the string value "v15.0".  
   
  Build properties may be redefined at any time. If  
   
@@ -204,7 +204,7 @@ $(PropertyName)
   
     ```  
     Configuration is Debug  
-    MSBuildToolsPath is C:\Program Files (x86)\MSBuild\15.0\bin  
+    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin  
     ```  
   
 > [!NOTE]
