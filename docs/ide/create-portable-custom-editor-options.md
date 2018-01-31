@@ -47,7 +47,7 @@ EditorConfig editor settings are supported in all Visual Studio-supported langua
 
 ## Adding and removing EditorConfig files
 
-Adding an EditorConfig file to your project or codebase does not convert existing styles to the new ones. For example, if you have indents in your file that are formatted with tabs, and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. However, any new lines of code will be formatted according to the EditorConfig file. Additionally, if you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
+Adding an EditorConfig file to your project or codebase does not convert existing styles to the new ones. For example, if you have indents in your file that are formatted with tabs, and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. However, any new lines of code are formatted according to the EditorConfig file. Additionally, if you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
 
 If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files to revert to the global editor settings for new lines of code.
 
@@ -90,7 +90,7 @@ To override some or all of the EditorConfig settings, add an .editorconfig file 
 
 ![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
 
-If you just want to override some but not all of the settings, simply specify those settings in the .editorconfig file. Only those properties that you explicitly list in the lower-level file will be overridden. Other settings from higher-level .editorconfig files will continue to apply. If you want to ensure that _no_ settings from _any_ higher-level .editorconfig files are applied to this part of the codebase, add the ```root=true``` property to the lower-level .editorconfig file:
+If you want to override some but not all of the settings, specify just those settings in the .editorconfig file. Only those properties that you explicitly list in the lower-level file are overridden. Other settings from higher-level .editorconfig files continue to apply. If you want to ensure that _no_ settings from _any_ higher-level .editorconfig files are applied to this part of the codebase, add the ```root=true``` property to the lower-level .editorconfig file:
 
 ```EditorConfig
 # top-most EditorConfig file
@@ -121,7 +121,7 @@ As expected, pressing the **Tab** key on the next line indents the line by addin
 
 ![Code before using EditorConfig](../ide/media/vside_editorconfig_before.png)
 
-We'll add a new file called .editorconfig to the project, with the following contents. The `[*.cs]` setting means that this change applies only to C# code files in the project.
+Add a new file called .editorconfig to the project, with the following contents. The `[*.cs]` setting means that this change applies only to C# code files in the project.
 
 ```EditorConfig
 # Top-most EditorConfig file
