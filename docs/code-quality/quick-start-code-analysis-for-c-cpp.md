@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
+ms.technology: vs-ide-code-analysis
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -68,13 +67,14 @@ You can improve the quality of your application by running code analysis regular
   
  The project or solution is compiled and code analysis runs. Results appear in the Error List.  
   
-##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings  
- To analyze a specific warning, choose the title of the warning in the Error List. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning id to display the help topic in the MSND Library for the message.  
-  
- When you expand a warning, the line of code that caused the warning is highlighted in the Visual Studio code editor.  
-  
- After you understand the problem, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Error List, and that your fix has not raised new warnings.
-  
+##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings
+
+To analyze a specific warning, choose the title of the warning in the Error List. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning ID to display its corresponding online help topic.
+
+When you select a warning, the line of code that caused the warning is highlighted in the Visual Studio code editor.
+
+After you understand the problem, you can resolve it in your code. Then, rerun code analysis to make sure that the warning no longer appears in the Error List, and that your fix has not raised any new warnings.
+
 ##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings  
  There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Error List.  
   
