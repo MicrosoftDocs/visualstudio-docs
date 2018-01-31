@@ -1,6 +1,31 @@
 {
     "redirections": [
         {
+            "source_path": "docs/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/analyzing-managed-code-quality-by-using-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-c-cpp-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-suppress-warnings-by-using-the-menu-item.md",
+            "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-view-managed-code-defects.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/index.md",
             "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
             "redirect_document_id": false
@@ -8,6 +33,11 @@
         {
             "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
             "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
+            "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
             "redirect_document_id": false
         },
         {
