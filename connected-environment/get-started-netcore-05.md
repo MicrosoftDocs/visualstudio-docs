@@ -112,6 +112,9 @@ namespace webfrontend
 }
 ``` 
 
+
+[!INCLUDE[common_test](common/common-test.md)]
+
 ## Debug Across Multiple Services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
 1. Set a breakpoint in the `Get(int id)` method that handles `api/values/{id}` GET requests.
