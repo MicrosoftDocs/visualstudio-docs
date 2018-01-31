@@ -26,7 +26,7 @@ ms.workload:
 
 Code snippets are small blocks of reusable code that can be inserted in a code file using a context menu command or a combination of hotkeys. They typically contain commonly-used code blocks such as `try-finally` or `if-else` blocks, but they can be used to insert entire classes or methods.
 
-Code snippets are available for a multitude of programming languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu in Visual Studio, and choose the language from the drop-down menu at the top.
+Code snippets are available for a multitude of languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu in Visual Studio, and choose the language from the drop-down menu at the top.
 
 ![Code Snippets Manager dialog box](media/code-snippets-manager.png)
 
