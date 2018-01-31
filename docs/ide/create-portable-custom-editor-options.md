@@ -67,16 +67,16 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 1. Edit the file as desired, for example:
 
-```EditorConfig
-root = true
+   ```EditorConfig
+   root = true
 
-[*.{cs,vb}]
-indent_size = 4
-trim_trailing_whitespace = true
+   [*.{cs,vb}]
+   indent_size = 4
+   trim_trailing_whitespace = true
 
-[*.cs]
-csharp_new_line_before_open_brace = methods
-```
+   [*.cs]
+   csharp_new_line_before_open_brace = methods
+   ```
 
 Alternatively, you can install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig). After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in Solution Explorer.
 
