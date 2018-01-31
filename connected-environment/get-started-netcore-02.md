@@ -28,7 +28,7 @@ With Connected Environment, you can create Kubernetes-based environments that ar
 vsce env create --name mydevenvironment --location eastus
 ```
 
-Supported locations: `eastus`, `westeurope`
+Supported locations: `eastus`
 
 > [!Note]
 > This command takes about 10 minutes. You can continue the guide without waiting.
