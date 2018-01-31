@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.remote_debug"
   - "vs.debug.error.firewall.remotemachine"
@@ -16,8 +16,6 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: a1d959fc-3817-491c-831b-e6b768a3877a
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
