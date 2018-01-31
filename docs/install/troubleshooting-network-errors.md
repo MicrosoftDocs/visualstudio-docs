@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting network errors when installing or using Visual Studio | Microsoft Docs"
+title: "Troubleshooting network errors when you install or use Visual Studio | Microsoft Docs"
 description: ""
 ms.custom: ""
 ms.date: "02/05/2018"
@@ -23,7 +23,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Troubleshooting network errors when installing or using Visual Studio
+# Troubleshooting network errors when you install or use Visual Studio
 We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
 ## Error: “Proxy authorization required”

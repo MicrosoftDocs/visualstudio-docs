@@ -24,8 +24,8 @@ ms.workload:
 # Install and use Visual Studio behind a firewall or proxy server
 When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs or enable some ports and protocols.
 
-## Install Visual Studio by using deployment scripts
-Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in your deployment scripts.
+## URLs to whitelist when you install Visual Studio
+Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
 
 If it's possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
 
@@ -63,11 +63,11 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## Use Visual Studio or Azure Services in a private network
-When you use Visual Studio or Azure services in a private network, there are some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
+## Ports and protocols to enable when you use Visual Studio or Azure Services behind a firewall or proxy server
+When you use Visual Studio or Azure services behind a firewall or proxy server, there are some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors
-Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors](troubleshooting-network-errors.md) page.
+Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors when you install or use Visual Studio](troubleshooting-network-errors.md) page.
 
 ## Get support
 Here are a few more support options for you:
